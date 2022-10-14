@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.150 --> 00:02.490
+Absolute values were a piece of cake.
+
+00:02.490 --> 00:06.210
+Just type the value and see ISIS is gonna spit back in the browser.
+
+00:06.210 --> 00:12.310
+Whatever value we chose what about relative values and the first value we're gonna be looking at it
+
+00:12.570 --> 00:15.890
+is gonna be the percent of our not for us.
+
+00:15.900 --> 00:17.190
+I will go and delete.
+
+00:18.000 --> 00:23.770
+So we all gonna get rid of the heading one as well as we're going to head over back to a normal.
+
+00:23.910 --> 00:28.650
+And here I'm going to create a new div I'm gonna add some class I'm going to say that this would be
+
+00:28.650 --> 00:29.390
+the alternative.
+
+00:29.760 --> 00:33.010
+And within the order of let's add another day with the class of inner.
+
+00:33.570 --> 00:35.900
+So again the naming is really up to you.
+
+00:36.030 --> 00:40.630
+As long as you actually remember by the time you get to see ISIS so far so good.
+
+00:40.630 --> 00:42.290
+So we have our HCM holder.
+
+00:42.660 --> 00:44.930
+Now I'm gonna head over to the.
+
+00:45.160 --> 00:47.990
+And first I'm gonna start styling the inner.
+
+00:48.420 --> 00:54.080
+Now for the inner Dave I'm gonna say very simply that I would want with and I would want let's say within
+
+00:54.090 --> 00:54.700
+percentage.
+
+00:55.290 --> 01:00.030
+So let's start very easy we're gonna say 50 percent so far so good.
+
+01:00.030 --> 01:01.970
+After that we would like to look at the height.
+
+01:02.040 --> 01:02.870
+So I'm gonna say height.
+
+01:03.300 --> 01:05.010
+And again we can do the same thing.
+
+01:05.010 --> 01:07.020
+The height is gonna be 50 percent.
+
+01:07.020 --> 01:10.950
+Now also in order to see what's happening maybe add some background color.
+
+01:11.520 --> 01:15.840
+So would say there's going to be a better color and we're just gonna go with the right one.
+
+01:15.960 --> 01:18.200
+Now once I save it nothing happened.
+
+01:19.670 --> 01:24.290
+I mean you can jump back to a shooting and now you can probably double check maybe your classes were
+
+01:24.290 --> 01:25.130
+not matching.
+
+01:25.130 --> 01:31.910
+Maybe I don't know you didn't have enough coffee today but it's not working so either we can yell out
+
+01:31.910 --> 01:38.170
+some nasty things towards the screen or we can figure out what is happening where the percentage is.
+
+01:38.300 --> 01:44.520
+You see the percentages are gonna depend on the parent element not what is in our case parent element.
+
+01:44.600 --> 01:50.980
+We have the inner right and then we have the outer so I would assume that the outer is going to be the
+
+01:50.980 --> 01:54.790
+parent and then the inner is going to be the child.
+
+01:54.790 --> 02:00.530
+Now let me pick this a little bit and we'll going to ask for the outer also some width and height.
+
+02:01.060 --> 02:02.550
+So here I'm going to say for the outer.
+
+02:02.550 --> 02:05.300
+Dave I'm gonna be looking for what.
+
+02:05.350 --> 02:09.550
+Well first I would like to have somewhere well let's say again we're going to go back to the pixels
+
+02:10.060 --> 02:15.700
+and we're gonna say that the West is gonna be fine and pixels and also the height is as well going to
+
+02:15.700 --> 02:16.990
+be 500 pixels.
+
+02:17.170 --> 02:18.590
+So far so good.
+
+02:18.700 --> 02:25.210
+And let's add maybe also a background color and the background is gonna be a little let's say this.
+
+02:25.240 --> 02:26.740
+And what do we see.
+
+02:26.810 --> 02:33.530
+So we have the outer div that should have the 500 and 500 and then the inner one is gonna be exactly
+
+02:33.530 --> 02:39.770
+the half because obviously we went with 50 percent as well as the 50 percent for height.
+
+02:40.460 --> 02:44.790
+So now I can see that this is the relative and this is relative to the parent.
+
+02:44.810 --> 02:50.300
+So if I'm gonna make this two hundred just so we can understand a little bit easier we should and we
+
+02:50.300 --> 02:54.170
+should see that the inner Dave should be hundred by hundred.
+
+02:54.170 --> 02:56.720
+Now it is still going to be displayed in the percentages.
+
+02:56.990 --> 03:02.140
+However the moment we're gonna be changing these values the two hundred or two hundred.
+
+03:02.180 --> 03:05.360
+Also the width of the inner one is also gonna change.
+
+03:05.510 --> 03:08.690
+Now we can also change it by just changing the percentages.
+
+03:08.900 --> 03:11.540
+We're not limited to 50 percent by any means.
+
+03:11.540 --> 03:15.980
+So if I'm going to say the West is gonna be hundred percent now my waist is gonna be hundred percent
+
+03:16.070 --> 03:17.660
+of this two hundred pixels.
+
+03:17.780 --> 03:21.080
+You want more you go girl can do 400.
+
+03:21.110 --> 03:26.070
+Now we have the outer one or 400 and again it follows the same principle.
+
+03:26.120 --> 03:31.050
+The only thing we need to remember that percentage is we all going to depend on a parent element.

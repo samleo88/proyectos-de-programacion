@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00.550 --> 00:05.030
+Up until now all the time we wanted a repeating rally.
+
+00:05.060 --> 00:09.730
+Well that was one fracture and or hundred pixels or two hundred pixels doesn't matter.
+
+00:09.730 --> 00:15.480
+Anytime we had a repeating value we had to manually write it out.
+
+00:15.580 --> 00:21.460
+So let's say if we're gonna have 20 columns with each of them a one fraction well when all you guessed
+
+00:21.460 --> 00:22.870
+that we would have to type it out.
+
+00:23.230 --> 00:30.320
+However we also have a repeat function that can simplify a lot of things for us.
+
+00:30.340 --> 00:35.490
+Now what I'm gonna do right now is add over to all my cells lead them.
+
+00:35.530 --> 00:36.680
+I don't care about them.
+
+00:36.800 --> 00:44.640
+And now let's look at a scenario like I said where we're gonna have a four column layout with 100 pixels.
+
+00:44.650 --> 00:50.050
+Now please keep in mind with the repeat function we can use any values whether that is going to be fraction
+
+00:50.050 --> 00:54.730
+or pixels it doesn't matter but of course I'm not going to show you with each and every unit.
+
+00:54.730 --> 01:00.970
+Let's just imagine the scenario where we have a hundred pixels as our column and I can show you that
+
+01:00.970 --> 01:07.540
+yes we could technically manually have that but of course the point of this video is to show you a repeat
+
+01:07.960 --> 01:08.770
+function.
+
+01:08.800 --> 01:14.040
+Now within the repeat function first thing that we would like to say how many times is going to be repeated.
+
+01:14.140 --> 01:20.990
+So whether that's four five three thousand one I don't know million whatever.
+
+01:21.230 --> 01:24.220
+I'm going to go with four and then what kind of value would want.
+
+01:24.640 --> 01:31.150
+So if I had one one fraction I said I would just type on fraction since the example that I was technically
+
+01:31.150 --> 01:32.710
+giving you is under pixels.
+
+01:32.900 --> 01:38.080
+And then we're just going to set it up as hundred pixels and hopefully you get an idea where.
+
+01:38.080 --> 01:43.840
+Now when we repeating values and now I'm not talking about if we have a hundred pixels then two hundred
+
+01:43.840 --> 01:45.430
+pixels the 300 pixels.
+
+01:45.480 --> 01:51.580
+Now I'm done by repeating values so if I have some kind of repeating values which a lot of cases is
+
+01:51.580 --> 01:54.510
+going to be something like this Let's say one fraction.
+
+01:54.640 --> 01:55.270
+Correct.
+
+01:55.330 --> 02:01.320
+So then we can just type repeat then how many times it is going to be repeated and what kind of value
+
+02:01.320 --> 02:02.670
+is going to be repeated.
+
+02:02.740 --> 02:08.130
+And since now we are already experts how to use a repeat function must do the same thing with rows.
+
+02:08.530 --> 02:12.510
+So let's say two rows and hundred pixels.
+
+02:12.520 --> 02:15.990
+So then we can get rid of these suckers still.
+
+02:16.800 --> 02:17.450
+Let's say that.
+
+02:17.470 --> 02:23.200
+Now I do have arrows now if you want to see an action let's say 300.
+
+02:23.230 --> 02:26.820
+So now both my rows are in fact three pixels.
+
+02:27.040 --> 02:32.530
+And that's how we can use a repeat function when working with CSX grid.

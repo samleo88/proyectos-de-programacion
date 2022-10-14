@@ -1,0 +1,214 @@
+WEBVTT
+
+00:00.520 --> 00:05.740
+While we're still on a topic of animation why don't we take a look at the animation film on property
+
+00:06.070 --> 00:15.160
+and what it stands now the theory is that animation film mode is helpful with defining the values outside
+
+00:15.160 --> 00:16.360
+the animation.
+
+00:16.360 --> 00:19.060
+Now in practical how this is gonna look like.
+
+00:19.060 --> 00:21.740
+Well I don't know maybe an index each demo.
+
+00:22.000 --> 00:27.670
+Let's get her of this transition we don't need it as well as LET'S MAKE OUR SUCCESS A LITTLE BIT MORE
+
+00:27.670 --> 00:33.400
+Slim where we're not gonna have these styles for transitions because we already have covered it.
+
+00:33.550 --> 00:38.170
+And you know what also I would like to get rid of all these comments here and you know what might as
+
+00:38.170 --> 00:44.290
+well let's get her of the animation for now at least and delete all the information that we had within
+
+00:44.290 --> 00:49.250
+the move animation to begin with just I would like to start from scratch.
+
+00:49.360 --> 00:52.320
+So I have my animation and you know what the moment I save it.
+
+00:52.340 --> 00:53.520
+Obviously this is gonna be my day.
+
+00:54.290 --> 00:59.770
+And let's imagine some kind of scenario where there's gonna be an animation and I would want to start
+
+00:59.770 --> 01:05.540
+with the opacity of zero which would mean that we wouldn't be able to see this live and we're gonna
+
+01:05.560 --> 01:09.400
+do the animation where it goes back to zero point five percent.
+
+01:09.580 --> 01:15.830
+So then we would want to decide how the animation film mode is going to come into play.
+
+01:15.880 --> 01:22.880
+First things first let's set up our animation and I'm gonna say that at 0 percent there is gonna be
+
+01:22.970 --> 01:27.930
+the opacity of zero right opacity zero.
+
+01:28.070 --> 01:32.240
+Then also there's going to be 50 percent animation so at all you know what.
+
+01:32.540 --> 01:34.970
+Let's maybe write 25 percent.
+
+01:34.970 --> 01:38.600
+At 25 we would like to transform property again.
+
+01:38.600 --> 01:45.110
+And there's gonna be translate X negative 200 or not 200 let's do 200.
+
+01:45.140 --> 01:51.580
+This is gonna shift to the right as well as let's add a little bit more opacity in this case opacity
+
+01:51.640 --> 02:00.580
+is gonna be I don't know zero point twenty five since this is 25 percent then let's copy and paste it.
+
+02:00.640 --> 02:03.860
+So let's say 1 2 we have 50 percent.
+
+02:03.860 --> 02:04.040
+Yeah.
+
+02:04.040 --> 02:05.630
+That should be enough.
+
+02:05.630 --> 02:13.860
+So with 50 percent we're gonna have the capacity of zero point five then at hundred percent.
+
+02:14.120 --> 02:19.110
+We're also going to have a opacity of let's say you know what.
+
+02:19.110 --> 02:23.480
+No let's change it around let's say 50 percent there's gonna be opacity 1.
+
+02:23.660 --> 02:29.960
+And then once we go back 200 percent we're gonna have a capacity of zero point five.
+
+02:30.530 --> 02:33.300
+We already know how we can use the animation.
+
+02:33.370 --> 02:37.340
+So the right animation and the name is gonna be what.
+
+02:37.340 --> 02:38.870
+Well the name was move.
+
+02:38.990 --> 02:40.540
+So that would be a first value.
+
+02:40.730 --> 02:44.040
+Then we're looking for how long the duration would be.
+
+02:44.060 --> 02:47.960
+So let's say five seconds and let's run this two times.
+
+02:47.970 --> 02:51.270
+Now the moment we save it our innovation is kicking in.
+
+02:51.290 --> 02:52.820
+Everything is working fine.
+
+02:52.820 --> 02:54.140
+But what happened.
+
+02:54.770 --> 02:59.980
+Well we get to the 50 percent and this is where we're gonna stop then.
+
+03:00.080 --> 03:02.060
+And here obviously there's a mistake.
+
+03:02.090 --> 03:02.460
+Sorry.
+
+03:02.570 --> 03:07.560
+I'm looking at I'm thinking why this is doing that because I was a little left the translate with two
+
+03:07.570 --> 03:09.320
+hundred so let me fix this.
+
+03:09.350 --> 03:12.230
+I would want to have not two hundred so my bad.
+
+03:12.230 --> 03:15.630
+I was waiting waiting for it and I'm like looking at it well wait a minute.
+
+03:15.830 --> 03:17.420
+Nothing is really happening.
+
+03:17.420 --> 03:20.140
+And then let's say zero.
+
+03:20.150 --> 03:25.640
+So this is gonna bounce to the right then bounce left back and then end up with zero.
+
+03:25.780 --> 03:26.650
+In the moment we save it.
+
+03:26.660 --> 03:30.110
+Now we have our information when it bounces first time bounces.
+
+03:30.110 --> 03:39.020
+The second time and then the end of the second time it stays back to a capacity of one because we can
+
+03:39.020 --> 03:44.060
+clearly see where the actual devastating sitting for and maybe that's not something we would want.
+
+03:44.090 --> 03:47.260
+Maybe I would want to end up with opacity of zero point five.
+
+03:47.510 --> 03:53.570
+So this is where the property of animation film mode comes into play where we can head over back here
+
+03:53.600 --> 03:59.960
+and we can see animation and film mode and we have few options we have backwards where this would go
+
+03:59.960 --> 04:05.200
+back to original value which in our case would be something like this where we have an option of.
+
+04:05.480 --> 04:11.390
+Now how the forwards is gonna look like the moment I'm going to save it eventually once the animation
+
+04:11.390 --> 04:15.650
+is gonna stop running my device is going to stay with opacity of zero point five.
+
+04:15.840 --> 04:16.750
+Don't believe me.
+
+04:16.790 --> 04:20.180
+Let's test it out the animation runs the first time.
+
+04:20.280 --> 04:21.920
+Okay so far so good.
+
+04:21.920 --> 04:26.240
+Then again we run the animation the second time and the moment it stops running.
+
+04:26.390 --> 04:34.550
+Instead of going back to opacity one which would be our original value we are going forwards and staying
+
+04:34.550 --> 04:36.670
+with whatever values we had here.
+
+04:36.680 --> 04:43.190
+So if I'm going to add let's say translation of 20 pixels what's gonna happen is my div is gonna be
+
+04:43.190 --> 04:44.760
+by default right now.
+
+04:44.780 --> 04:50.300
+Also translated not only of passive and in general terms this is how we can work with animation film
+
+04:50.300 --> 04:56.870
+mode where you would want your day of let's say to get the values that you end up with with hundred
+
+04:56.870 --> 05:02.120
+percent then yours is gonna add animation film mode and you're going to use the value of forward.

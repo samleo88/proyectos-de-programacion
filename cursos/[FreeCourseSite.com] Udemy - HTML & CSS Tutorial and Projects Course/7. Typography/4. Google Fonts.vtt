@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.510 --> 00:05.280
+Thanks to Google funds we are not limited in just picking our phones over here.
+
+00:05.310 --> 00:11.960
+In fact we can get them from that awesome resource and we can include them in our project.
+
+00:11.970 --> 00:13.580
+So how does that work.
+
+00:13.590 --> 00:14.990
+Not before we actually cover.
+
+00:15.000 --> 00:20.430
+Let me just quickly show you that if we're looking for generic font families we can check them out in
+
+00:20.430 --> 00:21.460
+the Visual Studio code.
+
+00:21.900 --> 00:26.850
+So again we can create maybe a new line of code that's right on family.
+
+00:26.850 --> 00:31.500
+And notice here in the bottom all the single ones are going to recursive fantasy.
+
+00:31.590 --> 00:34.880
+Now don't look at inherit initial and onset.
+
+00:35.010 --> 00:40.080
+We don't care about those but you'll see again all the files that I just mentioned which would be the
+
+00:40.080 --> 00:40.880
+generic ones.
+
+00:41.010 --> 00:43.220
+Again that's basically a side note.
+
+00:43.350 --> 00:48.720
+Now let me delete this one family and you know what I will gonna get rid of this for now because I would
+
+00:48.720 --> 00:52.210
+like to show you how we can use the awesome Google font.
+
+00:52.290 --> 00:57.300
+So so far we do have no phone family property as well as obviously no value.
+
+00:57.300 --> 00:59.360
+So I'm gonna head over to the browser.
+
+00:59.610 --> 01:04.730
+I'm gonna maybe open up the new tab then we're gonna write Google wants.
+
+01:04.970 --> 01:05.860
+That's all we have to do.
+
+01:06.300 --> 01:08.100
+And then we're looking for Google fonts.
+
+01:08.100 --> 01:10.100
+This is gonna bring us to the URL.
+
+01:10.260 --> 01:16.680
+We're going to bravely click on a link and while we have our fonts and again there is many many fans
+
+01:16.710 --> 01:18.370
+we can pick over here.
+
+01:18.480 --> 01:20.480
+There's many options that we can pick.
+
+01:20.550 --> 01:24.120
+Let's say we can pick on the styles the likeness and the slant.
+
+01:24.120 --> 01:28.480
+So let's say let's try to get a really slanted and thick one.
+
+01:28.830 --> 01:32.750
+So I'm going to click on the slant and I'm going to increase the slant.
+
+01:32.780 --> 01:35.400
+Now we see that the slant is increasing.
+
+01:35.610 --> 01:38.150
+So maybe let's include a little bit thicker.
+
+01:38.340 --> 01:45.150
+And what happens is now it tells me listen buddy you pick thickness and slant and realistically you
+
+01:45.150 --> 01:48.050
+can have one of these two and that's fine.
+
+01:48.060 --> 01:51.870
+So in order to pick a font you can just click over here on this plus plus sign.
+
+01:52.350 --> 01:57.360
+And then in the bottom we're getting the phone now in the for the font we have two options how we can
+
+01:57.360 --> 01:58.180
+include it.
+
+01:58.470 --> 02:01.650
+We can import it more we can use the link.
+
+02:01.870 --> 02:04.110
+Now how is that going to look at both of them.
+
+02:04.110 --> 02:05.590
+Just so we have covered that.
+
+02:05.730 --> 02:11.910
+But just to give you a general idea then also we have an option of customizing it so we can add custom
+
+02:11.910 --> 02:12.330
+options.
+
+02:12.330 --> 02:14.510
+Well in this case there's not many of them.
+
+02:14.520 --> 02:16.140
+There's just one regular 400.
+
+02:16.170 --> 02:22.510
+Why don't we pick a popular font where we can maybe see more customizable options and also by the way
+
+02:22.510 --> 02:25.330
+it tells you the load to which in our case is gonna be fast.
+
+02:25.890 --> 02:26.730
+So far so good.
+
+02:26.730 --> 02:28.490
+Again we're going back to embed.
+
+02:28.540 --> 02:30.150
+You can just minimize this.
+
+02:30.150 --> 02:31.470
+And now we can search for them.
+
+02:31.980 --> 02:36.150
+And by the way you can see that there's going to be some articles if you're looking for something as
+
+02:36.150 --> 02:38.750
+well as we have an option for let's say trending.
+
+02:38.790 --> 02:41.580
+Now I'm gonna get rid of this thickness and slant.
+
+02:41.580 --> 02:46.650
+So this is basically going to stay simple and then probably the most used one that you're gonna see
+
+02:46.650 --> 02:48.030
+is going to be rubato.
+
+02:48.030 --> 02:49.740
+This is very popular.
+
+02:49.740 --> 02:55.800
+But let's say you can say Check here for trending popular date added or alphabetical.
+
+02:55.890 --> 02:57.330
+Let's look for the popular one.
+
+02:57.330 --> 03:02.360
+And sure enough we have the rubato like I said and we have opened since then.
+
+03:02.370 --> 03:08.240
+This guy also again there's quite a few that are very popular but rubato you'll probably see a lot.
+
+03:09.090 --> 03:12.560
+And again we know already how to pick it you can just click on it.
+
+03:12.570 --> 03:17.640
+Now we have to find families selected and let's head over again to the customize as like I said this
+
+03:17.640 --> 03:18.740
+is going to be an option.
+
+03:18.900 --> 03:22.470
+And then with rubato notice that we have more option.
+
+03:22.640 --> 03:28.500
+So let's say if we would want bold somehow and italic but right away tells you that now the low time
+
+03:28.500 --> 03:29.630
+is going to suffer.
+
+03:29.640 --> 03:35.430
+So keep in mind that I know that everyone likes to be artistic especially in the beginning as you start
+
+03:35.430 --> 03:42.960
+working with CSX basically learning CSX but also understand that this will going to affect your user
+
+03:43.170 --> 03:43.770
+experience.
+
+03:44.100 --> 03:48.980
+So probably don't try to take it too seriously and go too crazy.
+
+03:48.990 --> 03:50.610
+Now in my case I don't really care.
+
+03:50.610 --> 03:53.360
+Of course we can just add that just to see how it looks.
+
+03:53.490 --> 03:56.250
+But in general just keep that in mind.
+
+03:56.250 --> 04:02.790
+Now again we're going to head over to embedding and Nick already previously mentioned we have two options.
+
+04:02.790 --> 04:09.760
+Again we can use the link that would be included in our success meaning when I say CSX basically in
+
+04:09.760 --> 04:15.240
+our normal or we can do the actual embedding I'm sorry importing.
+
+04:15.530 --> 04:16.140
+OK.
+
+04:16.170 --> 04:21.270
+We have the link let's say this let's say link and the way we would need to include it we're going to
+
+04:21.270 --> 04:27.810
+head all back to indexation email and let's say right before our starts business we're going to maybe
+
+04:27.810 --> 04:29.170
+make a comment first.
+
+04:29.280 --> 04:36.300
+Well let's say Google wants Google farms and let's copy and paste this line and again Please don't delete
+
+04:36.300 --> 04:37.320
+something here.
+
+04:37.320 --> 04:42.810
+Just copy paste the way this comes from the Google and then we're going to head over here and notice
+
+04:42.820 --> 04:43.850
+that they tell us.
+
+04:44.190 --> 04:50.100
+Well if you want the font family the one that's gonna be thickness and slant then you would need to
+
+04:50.100 --> 04:51.400
+write this type of code.
+
+04:51.570 --> 04:54.810
+And then just a normal one robot would be something like this.
+
+04:55.260 --> 05:01.410
+So again let me select maybe the first one here and we'll going to head over to LCROSS maybe before
+
+05:01.410 --> 05:08.370
+we do that let's save the indexation email and then within the style assess I would want this for my
+
+05:08.370 --> 05:08.910
+having won.
+
+05:09.340 --> 05:14.970
+So I'm going to have this one family forum having one and then for main one for the body.
+
+05:14.970 --> 05:20.370
+I'm just going to use the normal rubato and I'm going to copy and paste that and I'm gonna say it.
+
+05:20.520 --> 05:26.970
+Now my hearing right now has obviously this one family and then the rest of my body which obviously
+
+05:26.970 --> 05:32.240
+in my case is only a paragraph has this type of fund family which is rock bottom.
+
+05:32.670 --> 05:34.800
+OK one last thing.
+
+05:34.800 --> 05:38.070
+Let's check it out how we can import it now for importing.
+
+05:38.070 --> 05:40.370
+We just need to click it out here and you know what.
+
+05:40.710 --> 05:47.550
+Let's change it around let's head over back to our document and just comment so so that way we know
+
+05:47.550 --> 05:51.720
+for sure that our import is actually going to work and we do it like this.
+
+05:51.720 --> 05:53.120
+I'm going to comment this out.
+
+05:53.190 --> 05:56.220
+I'm going to save it and noticed right now.
+
+05:56.220 --> 05:58.710
+So not definitely having the same font right.
+
+05:59.070 --> 06:04.320
+So again let me comment this and your knowledge that fonts are going to look like this but then once
+
+06:04.320 --> 06:07.350
+I'm going to comment this out the font are gonna change.
+
+06:07.440 --> 06:10.070
+So now I know that my fans are not included.
+
+06:10.090 --> 06:15.810
+Okay let's just get out let's say that again we would need to copy and paste this line of code.
+
+06:15.820 --> 06:17.000
+Let's copy and paste it.
+
+06:17.370 --> 06:21.690
+Let's head over to the styles and write on the top here.
+
+06:21.690 --> 06:24.860
+Maybe even above the comments although it's obviously unnecessary.
+
+06:24.870 --> 06:27.130
+But let me just put it all the way at the top.
+
+06:27.540 --> 06:33.180
+And now again my phones are working because I'm grabbing the exact phones that were used and this is
+
+06:33.180 --> 06:37.230
+how you can get Amber up and running with Google fonts in your project.

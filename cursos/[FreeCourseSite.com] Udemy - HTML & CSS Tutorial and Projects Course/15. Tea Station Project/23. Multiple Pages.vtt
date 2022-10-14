@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.330 --> 00:06.030
+Before we deploy our awesome projected in that fire why don't we add more pages because like I talked
+
+00:06.030 --> 00:11.670
+before whenever we are gonna be having a finished project we're gonna have multiple pages.
+
+00:11.670 --> 00:16.380
+No we're not going to do any kind of coding anymore meaning worlds are going to copy and paste whatever
+
+00:16.380 --> 00:18.530
+setup we have in the next session email.
+
+00:18.730 --> 00:22.950
+However the moment we're going to click on the skills right now there's obviously no skills actually
+
+00:22.950 --> 00:23.880
+on our page.
+
+00:23.880 --> 00:25.830
+So in this case we're gonna fix this.
+
+00:25.900 --> 00:30.750
+When I had our back to indexation email now we're gonna make this sidebar obviously bigger because we
+
+00:30.750 --> 00:34.410
+need to see what we're working with and the setup is gonna be very basic.
+
+00:34.410 --> 00:36.230
+So we're gonna say skills.
+
+00:36.390 --> 00:41.730
+Now this is gonna be in the name and the name in this case doesn't need to match if you already set
+
+00:41.730 --> 00:42.030
+it up.
+
+00:42.030 --> 00:43.320
+Here are the links with me.
+
+00:43.440 --> 00:47.940
+So make sure that if you had a skills here then also the pages the skills.
+
+00:47.970 --> 00:52.800
+And in this case I would like to select everything that I have in the annexation email and then we're
+
+00:52.800 --> 00:56.040
+gonna head over back the skills and copy and paste it.
+
+00:56.130 --> 00:59.610
+So now we have already some kind of code here maybe let's change this.
+
+00:59.610 --> 01:01.800
+Now we don't need the recording anymore.
+
+01:01.980 --> 01:09.320
+Can say skills or our skills and say our our skills.
+
+01:09.320 --> 01:10.500
+So that's gonna be our page.
+
+01:10.500 --> 01:16.080
+We can leave everything here but what I would like to do is to have some kind of little bit of difference.
+
+01:16.140 --> 01:20.530
+I will just gonna leave here the skills so everything within the skill section.
+
+01:20.640 --> 01:21.470
+Hold a moment.
+
+01:21.480 --> 01:23.690
+This is gonna be the end of both skills.
+
+01:23.760 --> 01:29.340
+I'm gonna delete everything apart from the closing div here with the footer.
+
+01:29.340 --> 01:34.400
+So I'd like to delete all this or meaning you know what I actually went a little bit too far didn't
+
+01:34.400 --> 01:40.620
+want to delete the folder so sorry I'm gonna head over back and I would want to delete everything up
+
+01:40.620 --> 01:45.810
+to the folder now the folder I don't want to delete because I think that footer we can just leave.
+
+01:45.840 --> 01:52.080
+As for all the rest of the pages so let's see this would be the feather and the contact and now I'm
+
+01:52.080 --> 01:53.260
+just gonna delete this.
+
+01:53.370 --> 01:56.700
+Now the moment we save it again we don't see the skills we can refresh.
+
+01:56.760 --> 02:01.530
+This is gonna be my skills now on the skills page again we're just gonna have the header the working
+
+02:01.530 --> 02:05.160
+header but then we're gonna have footer again very simple.
+
+02:05.160 --> 02:09.430
+Now in this case we're gonna select the skills we all gonna create a new one.
+
+02:09.510 --> 02:14.600
+Now the other one was what we see with missing indexation amount.
+
+02:15.460 --> 02:19.210
+It was about page so let's call this about.
+
+02:19.220 --> 02:23.540
+We're going to copy and paste it at this point we can again change the name.
+
+02:24.000 --> 02:28.080
+Uh about us let's say about um about us.
+
+02:28.110 --> 02:35.600
+That's gonna be then title the page then in this case we do want to get rid of the skills because skills
+
+02:35.620 --> 02:41.030
+is only for a skills section and then we're going to be looking we're still gonna can keep the content
+
+02:41.030 --> 02:44.870
+divider let's say skills section is gonna be gone.
+
+02:44.870 --> 02:49.410
+So we're gonna write something like this then this is gonna be my div.
+
+02:49.540 --> 02:51.680
+Obviously this is gonna work out or you know what.
+
+02:51.680 --> 02:53.410
+Again I went too far.
+
+02:54.230 --> 02:58.870
+May make the footer a little bit smaller otherwise I don't see anything.
+
+02:58.970 --> 02:59.350
+Again.
+
+02:59.360 --> 03:05.430
+Let's see where the skills let's select the skills let's see where's the footer.
+
+03:05.590 --> 03:06.760
+We can delete it.
+
+03:06.940 --> 03:12.250
+Now we're gonna head over back to indexation UML and I would just like to select the about one I got
+
+03:12.250 --> 03:17.560
+normally would you do you would add more content but since I think that we already have worked hard
+
+03:17.560 --> 03:23.020
+on this project what I can do is we can just cheat a little bit and add whatever items we have only
+
+03:23.020 --> 03:29.170
+in the end but not this is gonna be the end of about so I can just copy and paste it and place it here.
+
+03:29.170 --> 03:35.500
+In between the content divider and after that once we're gonna save it notice and we're gonna have my
+
+03:35.590 --> 03:38.540
+number and within that bar I click on about.
+
+03:38.710 --> 03:43.420
+And again here I'm gonna have my about section you already should know what we're going to be doing
+
+03:43.420 --> 03:44.590
+with the product.
+
+03:44.770 --> 03:54.670
+So there's gonna be a new file for some reason I'm gonna type it created again new file name products
+
+03:55.480 --> 04:02.150
+HDMI all and then we can either use the skills or we can use the amount and doesn't really matter.
+
+04:02.350 --> 04:05.210
+I'm gonna select about again we're going to copy and paste it.
+
+04:05.380 --> 04:07.690
+The name is gonna be different.
+
+04:07.920 --> 04:16.660
+We're gonna name this our product and then we will gonna get rid of the about some voters are not going
+
+04:16.650 --> 04:23.370
+to be necessary to make sure that this time I don't delete the footer or at least attempt to delete
+
+04:23.370 --> 04:24.290
+the footer.
+
+04:24.390 --> 04:25.330
+And you know what.
+
+04:25.410 --> 04:28.360
+Within the indexation email we have right away the product.
+
+04:28.980 --> 04:34.210
+So why don't we select the product single product single product area.
+
+04:34.640 --> 04:40.100
+I'm going to copy and paste this guy and within the product we're gonna copy and paste the product and
+
+04:40.110 --> 04:46.200
+this way I can head over back to a larger browser window and we should have everything set up with the
+
+04:46.200 --> 04:50.520
+pages as well as the SS and JavaScript so I'm going to close everything here.
+
+04:50.520 --> 04:56.490
+Hopefully everything is working this is gonna be my mighty station now maybe make this hundred percent
+
+04:57.050 --> 05:06.330
+I want home to be my home if I want the skills and have the skills and I think everything is gonna be
+
+05:06.330 --> 05:07.690
+fine What's that about.
+
+05:07.890 --> 05:10.340
+And last but not least we also have the product.
+
+05:10.530 --> 05:11.890
+And congrats guys.
+
+05:11.910 --> 05:18.600
+We finished this amazing project with just the assessed world by the way which is a big accomplishment.
+
+05:18.670 --> 05:21.620
+And now let's head over and notify.
+
+05:21.620 --> 05:23.090
+Who's gonna do the rest of the job.
+
+05:23.220 --> 05:25.450
+Because we would like to deploy it on Butterfly.
+
+05:25.680 --> 05:27.400
+So the whole world can see our site.

@@ -1,0 +1,415 @@
+WEBVTT
+
+00:00.810 --> 00:08.640
+Once we have our toggling bar our next task is going to be setting up the nav bar fixed.
+
+00:08.640 --> 00:13.250
+So as we start scrolling I would like to make sure that my nav bar is fixed.
+
+00:13.740 --> 00:19.390
+So now as I was crawling up and down the page we have now bar sitting there on top of the page.
+
+00:19.560 --> 00:23.940
+But once in fact we get to a very top of the document.
+
+00:23.970 --> 00:28.210
+Well then our now bar is just sitting like it was normally sitting.
+
+00:28.290 --> 00:32.310
+And by the way the same is going to work also on a smaller screen size.
+
+00:32.530 --> 00:34.860
+So again that is my finished recording.
+
+00:34.860 --> 00:40.650
+Notice as we start scrolling you're going to notice that our number still stays there on the top.
+
+00:40.700 --> 00:47.250
+And I can still in fact toggle it right now the same like we had already previously.
+
+00:47.250 --> 00:51.020
+We're gonna have to start our journey in the style CSX assess.
+
+00:51.030 --> 00:53.730
+So here we have an and of Navarre.
+
+00:53.790 --> 01:01.400
+So why don't we add a common a fixed nav bar so similarly how we had with the toggling first we're gonna
+
+01:01.410 --> 01:08.670
+have to come up with the class and then dynamically we're going to added to our nav bar but of course
+
+01:08.700 --> 01:14.840
+before that we need to create class and then we're gonna test that out just by manually adding in our
+
+01:14.840 --> 01:15.900
+H2 AML.
+
+01:15.930 --> 01:17.920
+So first of all let's create that class.
+
+01:18.000 --> 01:20.370
+So let's say fixed and you know it.
+
+01:20.370 --> 01:22.730
+Just so you can see everything that is happening.
+
+01:22.830 --> 01:28.900
+Why don't we head over back to the nav bar and where we have the NAV and we have a class of No.
+
+01:28.950 --> 01:36.540
+Why don't we add our fixed class and then all the changes we're going to add for this particular component
+
+01:36.860 --> 01:43.400
+or meaning element I guess more class than we're gonna be able to see it right away here on a browser.
+
+01:43.490 --> 01:47.520
+And first of all I would want to set it position fixed.
+
+01:47.520 --> 01:51.380
+So I'm going to take it out of the normal flow and not just what happens.
+
+01:51.420 --> 01:58.500
+Well right away the moment we do that we have right now our element taken out of normal flow.
+
+01:58.560 --> 02:04.740
+So it's just sitting there so I can create keeps calling up and down and my number is of course sitting
+
+02:04.740 --> 02:05.670
+right there.
+
+02:05.670 --> 02:12.060
+Now what I would like to do though is right away set up the position for this particular element since
+
+02:12.060 --> 02:14.320
+it's not a more sitting in a normal flow.
+
+02:14.400 --> 02:19.510
+So I'm gonna go with Tab zero the left is going to be also zero.
+
+02:19.560 --> 02:25.860
+Like so then with why don't we go with hundred percent so our width is going to be hundred percent right
+
+02:25.860 --> 02:26.320
+now.
+
+02:26.490 --> 02:33.180
+And in this case we do need to add some kind of background correct because remember that was one of
+
+02:33.180 --> 02:37.260
+the things when we were setting up our Navarre.
+
+02:37.260 --> 02:39.600
+In fact we didn't use any background color.
+
+02:39.750 --> 02:44.760
+Remember all the way in the beginning I even showed you that if we would add some kind of background
+
+02:45.090 --> 02:46.770
+then we would be able to see.
+
+02:46.860 --> 02:53.430
+But now the problem is that since we have this nav bar background color like we already had previously
+
+02:53.790 --> 03:00.450
+while it's just showing when it's showing and when it's not showing well it's in fact behind the content
+
+03:00.480 --> 03:01.690
+that's sitting there.
+
+03:02.070 --> 03:07.590
+So what I would like to do right now is set in fact some kind of background something to say var and
+
+03:07.590 --> 03:09.960
+I'm going to go for the main gre.
+
+03:10.050 --> 03:12.100
+So essentially our NAV bar is there.
+
+03:12.100 --> 03:13.020
+We just cannot see it.
+
+03:13.440 --> 03:19.320
+And now sure enough once we have in fact this number then we can clearly see that our NAV bar sitting
+
+03:19.320 --> 03:20.600
+there OK.
+
+03:20.600 --> 03:22.820
+That is a awesome start.
+
+03:22.920 --> 03:31.050
+And now what I would like to do is in fact use this transition like so because as we are changing weather
+
+03:31.110 --> 03:35.610
+now Boris fixed or not I would like to happen smoothly.
+
+03:35.640 --> 03:40.500
+So again we're going to do it using JavaScript functionality but since I would like to happen smoothly
+
+03:40.820 --> 03:42.920
+we're going to add this transition properly.
+
+03:42.990 --> 03:47.170
+So let's say transition property is going to be equal to var.
+
+03:47.170 --> 03:50.460
+And again we have our main transition.
+
+03:50.470 --> 03:53.870
+Then why don't we also add a box shadow.
+
+03:53.940 --> 03:57.800
+So I would like to add a little bit of box shadow around my napper.
+
+03:57.810 --> 04:03.330
+So as was crawling in fact let's say once we get to this grey section I would want it to stand out.
+
+04:03.690 --> 04:06.290
+So remember we had a real variable for that.
+
+04:06.480 --> 04:13.430
+So we can say box shadow and we're going to go with light shadow white shadow like so.
+
+04:13.440 --> 04:15.560
+So now we have all that shadow.
+
+04:15.750 --> 04:21.900
+And then of course also as we're scrolling there's gonna be cases where you notice we do have our image
+
+04:21.900 --> 04:27.840
+and all that but are in fact Navarre is behind them all right.
+
+04:28.170 --> 04:30.630
+We cannot see them in few cases.
+
+04:30.660 --> 04:34.170
+So in order to fix that we're going to set up a z index of 1.
+
+04:34.260 --> 04:39.420
+So that case as we're calling up and down it is in fact sitting up front.
+
+04:39.750 --> 04:45.810
+And once we're done setting up our sources again the javascript functionality is going to be somewhat
+
+04:45.810 --> 04:47.030
+straightforward.
+
+04:47.100 --> 04:55.110
+We're currently we're adding this position are fixed with of course our class of fixed manually where
+
+04:55.110 --> 05:01.230
+we just head over to Navarre when we add the class a fixed if I'm going to remove class of fixed horse
+
+05:01.240 --> 05:06.940
+my number is just going to be sitting on the top and nothing is going to happen as we start scrolling
+
+05:06.940 --> 05:07.870
+up and down.
+
+05:07.870 --> 05:14.800
+If again we're gonna have this class fixed then of course are now bar is gonna be fixed to a top of
+
+05:14.800 --> 05:15.550
+the page.
+
+05:15.700 --> 05:20.140
+So as we scrolling up and down Navarre is just sitting there on top.
+
+05:20.530 --> 05:26.330
+So similarly how we had we a toggle we're gonna have to do this dynamically.
+
+05:26.500 --> 05:28.920
+So again let's head over back to Algiers.
+
+05:28.990 --> 05:35.050
+Now again I'm gonna select my comments and I'm gonna change them around because at this point it is
+
+05:35.050 --> 05:42.090
+not going to be nav toggle is going to be nav fixed RAM so fixed nap.
+
+05:42.190 --> 05:46.010
+Now let's start by selecting our NAV bar.
+
+05:46.360 --> 05:48.880
+Now we can do it in multiple ways.
+
+05:48.940 --> 05:55.750
+We can target in fact the I.D. so we could set up some kind of I.D. here but in this case just to change
+
+05:55.750 --> 05:56.950
+things around.
+
+05:56.950 --> 06:02.380
+I'm in fact going to use this classroom number just to show that of course once we use javascript we're
+
+06:02.380 --> 06:08.160
+not limited to selecting only the elements with I.D. can also select classes.
+
+06:08.260 --> 06:14.770
+So let's write first of all cost and I'm going to call this a nav bar is equal to a document.
+
+06:14.830 --> 06:22.150
+Now instead of using get element by D we're going gonna use a query selector and we're going to select
+
+06:22.270 --> 06:23.630
+our NAV bar.
+
+06:23.710 --> 06:24.350
+All right.
+
+06:24.460 --> 06:28.950
+Now again just to double check whether everything works correctly.
+
+06:28.990 --> 06:31.960
+Why don't we console log our NAV bar.
+
+06:32.620 --> 06:35.770
+And if we have the number then we can proceed.
+
+06:36.190 --> 06:41.950
+If not we need to double check whether all our setup is working color correctly.
+
+06:42.100 --> 06:47.250
+Now once we have console logged number and we can clearly see that we are selecting it.
+
+06:47.470 --> 06:54.700
+Now we would want to add the event listener to our window to our pretty much a browser window.
+
+06:54.700 --> 06:58.880
+So as we start calling I would like to set up a event listener for that.
+
+06:59.050 --> 07:01.100
+So let's write again a window.
+
+07:01.180 --> 07:03.050
+Now in this case I'm going to order right away.
+
+07:03.070 --> 07:06.330
+Add event listener and again same two things.
+
+07:06.340 --> 07:12.700
+First of all we need to say what event are really going to be listening to and then the second one is
+
+07:12.700 --> 07:14.550
+going to be a callback function.
+
+07:14.620 --> 07:23.680
+Once that particular event is being called and what we can do right now is console log something really
+
+07:23.680 --> 07:28.340
+interesting with the value of page y offset.
+
+07:28.480 --> 07:36.940
+So I can say window then page y offset and you're going to notice that as we start scrolling we're gonna
+
+07:36.970 --> 07:41.780
+have some values and that essentially tells us well how much we have scrolled down.
+
+07:42.150 --> 07:42.510
+Okay.
+
+07:42.640 --> 07:46.560
+So as I keep on scrolling notice that my values are also changing.
+
+07:46.600 --> 07:50.860
+So now let's say I'm like thousand something pixels scrawled from the top.
+
+07:51.010 --> 07:56.840
+And we're gonna use this value in fact to add that class or NAV bar dynamically.
+
+07:56.920 --> 08:04.210
+Now first of all we need to understand that I would like to add this class once I have reached 62 pixels.
+
+08:04.390 --> 08:06.230
+Now why 62 pixels.
+
+08:06.280 --> 08:14.080
+Because again if I look at my dev tools I can notice that my now bar has a with that is of course changing.
+
+08:14.080 --> 08:19.000
+So the first value is gonna change depending on the screen size but the second one the height is not
+
+08:19.000 --> 08:19.990
+going to change.
+
+08:20.110 --> 08:24.590
+In fact it is going to stay exactly sixty two pixels.
+
+08:24.940 --> 08:29.980
+And now I can say something like this where I'm going to use the if an L statement and we're going to
+
+08:29.980 --> 08:41.110
+say window then again page y offset if it is bigger than 62 pixels then I would like to add a class
+
+08:41.110 --> 08:42.440
+list of fixed.
+
+08:42.460 --> 08:44.520
+Now y class fixed.
+
+08:44.590 --> 08:46.520
+Remember we created this class.
+
+08:46.540 --> 08:46.780
+Right.
+
+08:47.200 --> 08:53.950
+So what I would like to do is say Navarre since we just selected the nav bar and then we're gonna have
+
+08:53.980 --> 08:55.300
+a class list again.
+
+08:55.330 --> 08:56.170
+That is our property.
+
+08:56.530 --> 09:03.330
+And then we have a method of ADD let's just say we would like to have this class fixed and one that
+
+09:03.330 --> 09:04.610
+we just created.
+
+09:04.620 --> 09:12.570
+However if it is not bigger than 62 well then I would like to remove that glass somewhere else you can
+
+09:12.570 --> 09:17.100
+just say Navarre class list remove.
+
+09:17.400 --> 09:19.820
+And we're again moving the class of.
+
+09:20.310 --> 09:26.210
+So let's save that and you're going to notice that the moment we in fact start scrolling.
+
+09:26.380 --> 09:28.760
+Then once we get past 62.
+
+09:28.950 --> 09:35.580
+Only then our NAV bar gets this classic fixed and again we can actually check this out how that happens
+
+09:35.580 --> 09:41.700
+dynamically if we're going to head over to our now bar in our Deftones notice we're going to have our
+
+09:41.700 --> 09:44.260
+NAV element and what is the class there.
+
+09:44.400 --> 09:45.350
+When the class is fixed.
+
+09:45.780 --> 09:49.370
+So if I'm going to scroll back then I'm going to have only napper.
+
+09:49.440 --> 09:55.570
+If we're going to scroll past 62 while then the now bar is wide awake going to have this class.
+
+09:55.590 --> 10:01.050
+So now as I was crawling up and down the document or nav bar is going to be fixed.
+
+10:01.110 --> 10:06.060
+So each and every time our user wants to access the number he or she can easily do it.
+
+10:06.510 --> 10:13.800
+So that would be setting up our NAV fixed to a top of the document as we start scrolling through our
+
+10:13.800 --> 10:14.400
+document.

@@ -1,0 +1,175 @@
+WEBVTT
+
+00:00.150 --> 00:05.790
+So now that we have made a comment that this is going to be services responsive we're the first thing
+
+00:05.790 --> 00:11.200
+that I'm going to say this is going to be media and I'm going to say screen and we're going to say and
+
+00:11.280 --> 00:14.510
+you know we're here we're going to say this is going to be men with.
+
+00:14.520 --> 00:14.790
+Right.
+
+00:14.790 --> 00:24.030
+So the moment it's actually bigger and 576 576 pixels and or hair curly braces and then on here we're
+
+00:24.030 --> 00:27.150
+going to say this is going to be services right.
+
+00:27.210 --> 00:33.680
+And that's going to be the actual day of that and Kappel encapsulates all Center here.
+
+00:33.810 --> 00:37.410
+And then over here we're going to write this play and we're going to say flex.
+
+00:37.710 --> 00:40.350
+So now that we have this we can say this.
+
+00:40.360 --> 00:42.880
+And over here let's go and check out what we have right.
+
+00:42.900 --> 00:45.540
+So if we refresh rate and this is what's going to happen.
+
+00:45.780 --> 00:51.690
+Now all of them are all here side by side like this right now that's not a big problem because we know
+
+00:51.690 --> 00:52.700
+how to fix it.
+
+00:52.840 --> 00:53.260
+Right.
+
+00:53.400 --> 01:01.380
+So first of all we're going to say is that we would want a flex wrap on here X wrap and we're going
+
+01:01.380 --> 01:03.300
+to say Rapparee right.
+
+01:03.300 --> 01:06.710
+So now we're going to have a flex ramp refresh.
+
+01:06.750 --> 01:08.470
+Right now I can see it right away.
+
+01:08.520 --> 01:10.800
+They're actually wrapping to a different page.
+
+01:10.920 --> 01:16.390
+And what we also right away would want is justified content and space between.
+
+01:16.650 --> 01:22.410
+And because we want to push them once we're actually going to actually make them smaller even when they're
+
+01:22.410 --> 01:23.250
+smaller.
+
+01:23.310 --> 01:26.040
+We want them to actually push away from each other.
+
+01:26.400 --> 01:29.530
+And then after that we would want to target a service.
+
+01:29.620 --> 01:35.510
+So here I'm going to say like this this is going to be service here and what should happen.
+
+01:35.520 --> 01:43.680
+So for the smaller screens you would want a flex here 0 0 or here again we're going to say caulk and
+
+01:43.680 --> 01:45.810
+then we're going to say 50 percent.
+
+01:45.810 --> 01:49.310
+And now this is really up to you what kind of margins you would want in between.
+
+01:49.320 --> 01:49.690
+Right.
+
+01:49.860 --> 01:51.080
+So let's just change that.
+
+01:51.090 --> 01:55.270
+I'm going to say what he aims just to show that any kind of values you can use over here.
+
+01:55.270 --> 01:55.890
+Right.
+
+01:55.910 --> 02:01.680
+Again we don't want them to grow we don't want them to shrink and or here we're going to say that calque
+
+02:01.740 --> 02:03.640
+right this is going to be the flex bases.
+
+02:03.660 --> 02:08.570
+And now that we added a flex basis right now we can see how they would look like.
+
+02:08.570 --> 02:08.900
+Right.
+
+02:08.910 --> 02:11.470
+And I can see that they are actually side by side.
+
+02:11.620 --> 02:16.640
+And now what we would want to do is we would want to keep this on the 576 right.
+
+02:16.740 --> 02:21.510
+But once we go to bigger screen right we would want them actually three of them side by side.
+
+02:21.540 --> 02:22.800
+So how are we going to do that.
+
+02:22.800 --> 02:26.650
+We're going to go back over here to a different media query.
+
+02:26.770 --> 02:34.250
+Right so we can just grab this guy over here select so select or here starting from this line we're
+
+02:34.260 --> 02:39.920
+going to select it and copy and paste this in or here we're going to have media screened and knowledge
+
+02:39.940 --> 02:48.960
+change this guy over here to 972 972 and then allegedly these guys over here read the first one because
+
+02:48.960 --> 02:51.320
+we already have the rover services center.
+
+02:51.630 --> 02:56.950
+And let's just change these values around and we're going to say we're here thirty three point let's
+
+02:56.950 --> 02:57.660
+say three or.
+
+02:57.790 --> 02:58.500
+Right.
+
+02:58.560 --> 03:04.790
+So I'm saying this one here and once we refresh here this is what should happen right.
+
+03:04.800 --> 03:07.490
+So now we have three of them over here right.
+
+03:07.710 --> 03:08.680
+Looking like this.
+
+03:08.700 --> 03:09.160
+Right.
+
+03:09.390 --> 03:16.530
+And this is this is how we can actually work with them right to actually place them in exactly a center.
+
+03:16.530 --> 03:17.180
+Right.
+
+03:17.190 --> 03:19.070
+Three of them side by side right.
+
+03:19.260 --> 03:22.130
+So what's going to happen if I make the smaller one over here.
+
+03:22.140 --> 03:25.510
+Right now I can see now they're going home like this right.
+
+03:25.710 --> 03:30.450
+If they're going to go back to maigre right now they're going to be three of them side by side.

@@ -1,0 +1,466 @@
+WEBVTT
+
+00:00.090 --> 00:00.870
+Next one up.
+
+00:00.870 --> 00:05.760
+We have an animation and probably since there are gonna be so similar.
+
+00:05.760 --> 00:09.510
+One of the first questions you're gonna have is gonna be like now okay.
+
+00:09.510 --> 00:14.080
+I know the transition but why you're showing this animation in my face right now.
+
+00:14.190 --> 00:16.740
+And the answer is actually very simple.
+
+00:16.740 --> 00:20.550
+You see what transition we always went from zero to 100.
+
+00:20.780 --> 00:22.350
+And that's gonna be obviously natural.
+
+00:22.360 --> 00:24.760
+Then look and example and yada yada yada.
+
+00:24.870 --> 00:28.990
+Just to give you a one quick short one sentence answer.
+
+00:29.070 --> 00:31.950
+Transition goes from zero to 100 always.
+
+00:31.980 --> 00:38.190
+We went from some kind of state that was here let's say on the left hand side and then our box moved
+
+00:38.580 --> 00:40.910
+to the right hand side and then it moved back.
+
+00:40.920 --> 00:47.100
+What's cool with animation we have way more option so we can have the point.
+
+00:47.640 --> 00:51.070
+So the animation is not going to go from zero to 100 all the time.
+
+00:51.090 --> 00:57.240
+Instead we can have the zero then let's say 1 percent and that that whatever percentages we would want
+
+00:57.690 --> 01:02.970
+and I know or you know already what I'm going to say is that we're going to have to look at the example
+
+01:03.330 --> 01:05.880
+because as always this is just gonna make way more sense.
+
+01:06.690 --> 01:12.810
+And again yes we will gonna be deleting CSX we will gonna be deleting interesting email because I do
+
+01:12.810 --> 01:19.690
+find it much more convenient or much more productive if we get used to working with HDMI on CSX.
+
+01:19.860 --> 01:26.640
+We could always let's say expand on the previous example but that I think robs you the actual opportunity
+
+01:26.640 --> 01:28.320
+to work on the muscle memory.
+
+01:28.440 --> 01:30.630
+Again it is my personal opinion.
+
+01:30.810 --> 01:33.710
+You might disagree with that but that's just the way it is.
+
+01:33.830 --> 01:34.400
+And here.
+
+01:34.410 --> 01:37.200
+Let's start by simply saying that there's going to be Dave.
+
+01:37.200 --> 01:41.970
+Now there's Dave is gonna have some kind of class and the class let's say is going to be transition
+
+01:42.180 --> 01:47.270
+just so we can see the difference and we can also maybe right transition name here.
+
+01:47.430 --> 01:53.070
+Maybe that's gonna make sense and then I would like to copy and paste it and now I would like to actually
+
+01:53.070 --> 01:57.440
+delete these values so I'm going to say that I'm gonna get rid of the transition.
+
+01:57.930 --> 02:03.180
+And here we're gonna write animation and you're already probably guessed that we're gonna be styling
+
+02:03.180 --> 02:07.020
+one with transition and the second one with animation.
+
+02:07.020 --> 02:11.630
+Now within the C assess let's just say that both those are going to look exactly the same.
+
+02:11.640 --> 02:18.840
+So again with there's gonna be two hundred pixels then we can deal the height and that's gonna be a
+
+02:18.840 --> 02:20.130
+hundred pixels.
+
+02:20.130 --> 02:25.320
+Also maybe let's add a little bit of margin all around just so they're not stacked one on top of each
+
+02:25.320 --> 02:27.000
+other as well as.
+
+02:27.030 --> 02:28.880
+And you know what I said this is not going to be class.
+
+02:28.890 --> 02:33.430
+This is gonna be Dave and then let's start with specific classes.
+
+02:33.770 --> 02:42.230
+So for transition I'm going to say and you know at last and then least add color and white hair and
+
+02:42.240 --> 02:44.660
+for transition what I would want for this.
+
+02:45.030 --> 02:49.040
+First of all let's add some background and let's say background is gonna be right.
+
+02:49.340 --> 02:50.970
+So this is gonna be my transition.
+
+02:51.240 --> 02:54.940
+And also I would like to say that there is gonna be some kind of change.
+
+02:55.020 --> 02:56.760
+So I'm gonna do this with transition.
+
+02:57.060 --> 03:01.560
+I'm going to say that there's been a transition now all the properties are going to be affected.
+
+03:01.590 --> 03:07.650
+It's gonna take two seconds and let's do a linear since we know that ease is gonna be the default one
+
+03:07.650 --> 03:08.660
+anyway.
+
+03:08.820 --> 03:15.420
+So far so good as well as I would like to work with my hovering because I was this transition should
+
+03:15.420 --> 03:17.840
+take place as I'm hovering.
+
+03:17.840 --> 03:24.450
+So I'm going to say as we transition as we're hovering what should happen now let's say background is
+
+03:24.440 --> 03:25.530
+going to turn yellow.
+
+03:25.570 --> 03:33.120
+Got nothing really original as well as I don't know we're going have work with a transformed property
+
+03:33.720 --> 03:40.400
+so I'm going to say transform is gonna be again translating x direction by let's say I don't know 100
+
+03:40.470 --> 03:42.540
+pixels so something like this.
+
+03:42.540 --> 03:47.210
+Now what happens as I'm hovering and then this is gonna move all the way to the right.
+
+03:47.670 --> 03:52.980
+And then as we're not hovering we're moving all the way to the left market so far so good.
+
+03:53.370 --> 03:54.880
+So what about the animation.
+
+03:54.920 --> 03:56.540
+Why this is so special.
+
+03:56.550 --> 03:58.140
+Well let's start working on that.
+
+03:58.680 --> 04:01.360
+So first of all the name wasn't animation.
+
+04:01.410 --> 04:05.450
+And now let's add maybe a background of I don't know blue.
+
+04:05.580 --> 04:06.370
+Something like this.
+
+04:06.360 --> 04:08.220
+So this is gonna have the background.
+
+04:09.090 --> 04:12.290
+And what else we would like to add our nitrogen.
+
+04:12.720 --> 04:18.120
+We can start working with animation maybe right away now for the animations we would need to set up
+
+04:18.120 --> 04:21.260
+key frames so the syntax would be something like this.
+
+04:21.390 --> 04:26.370
+We would need to write first of all had and this is gonna be very similar like we work with media queries
+
+04:26.370 --> 04:28.410
+remember we did something very similar.
+
+04:28.410 --> 04:30.750
+We had the ad and then media.
+
+04:30.750 --> 04:33.300
+Now in this case we were going to have to write the key frames.
+
+04:33.300 --> 04:39.450
+Now the naming matters here meaning if you were going to name this Grandpa Bob then you also need to
+
+04:39.450 --> 04:42.850
+reference it in the animation with the same name.
+
+04:42.900 --> 04:48.560
+Don't write something here different than the within the animation because this is not going to work.
+
+04:48.630 --> 04:49.780
+This is as simple as that.
+
+04:50.050 --> 04:51.770
+And I'm just gonna call my animation.
+
+04:52.540 --> 04:57.220
+And like I said the difference would be that we're not going from the state of zero to 100.
+
+04:57.360 --> 05:00.860
+We have multiple states in how do we access these data.
+
+05:00.970 --> 05:05.310
+We can use the percentage values so we can say what a zero percent.
+
+05:05.560 --> 05:07.130
+This is gonna have some kind of value.
+
+05:07.560 --> 05:11.710
+And first of all I'm just gonna say transform and let's translate it.
+
+05:11.800 --> 05:17.160
+I don't know 20 pixels x direction so I'm gonna say x direction 20 pixels.
+
+05:17.220 --> 05:18.960
+So this is gonna be my zero value.
+
+05:19.180 --> 05:23.230
+And then also I can have an option here of saying at 50 percent.
+
+05:23.590 --> 05:25.110
+This should be translated.
+
+05:25.230 --> 05:26.470
+Let's say a hundred pixel.
+
+05:26.710 --> 05:30.250
+So again we can copy and paste it and let's say hundred pixel.
+
+05:30.340 --> 05:36.400
+Now we're not limited to only having the one property here because as you can see we're working just
+
+05:36.400 --> 05:37.420
+with 21.
+
+05:37.450 --> 05:39.400
+We also can do let's say background.
+
+05:39.400 --> 05:42.730
+And again this could be as many properties as you would like.
+
+05:42.730 --> 05:48.010
+Now let me add the semicolon otherwise this is gonna throw an error and let's say background is gonna
+
+05:48.010 --> 05:48.680
+be red.
+
+05:48.820 --> 05:52.640
+So that 50 percent of the animation the background is gonna be red.
+
+05:52.660 --> 05:54.360
+Then we can add seventy five.
+
+05:54.520 --> 05:59.670
+And as always the reason why I'm using these round values is just to give you an idea.
+
+05:59.710 --> 06:04.200
+Please understand that you can use 1 to 3 percent one point five.
+
+06:04.210 --> 06:09.160
+It doesn't really matter but I'm not obviously going to cover all of them because it doesn't really
+
+06:09.160 --> 06:14.760
+make sense if we're gonna be going from zero to 100 by each and every information.
+
+06:14.860 --> 06:15.280
+You know what.
+
+06:15.280 --> 06:20.110
+We can in this case maybe grab these values already so we can say translate.
+
+06:20.110 --> 06:23.650
+And in this case I would want to more with hundred percent negative.
+
+06:23.650 --> 06:29.830
+So this is going to shift and left the yellow color is gonna be also the color for the background.
+
+06:29.860 --> 06:34.800
+And last but not least let's go forward one hundred where and you know what again I copy and paste it
+
+06:34.810 --> 06:36.630
+way too many times.
+
+06:36.700 --> 06:39.230
+And 400 I don't know what I would want.
+
+06:39.230 --> 06:40.570
+And let me decide.
+
+06:40.570 --> 06:46.360
+I'm going to go back again to 20 pixels I guess as well as I'm going to set this up with green.
+
+06:46.360 --> 06:47.980
+So that's my animation.
+
+06:47.990 --> 06:51.700
+Now at the moment as I'm refreshing the page nothing happens.
+
+06:51.730 --> 06:52.870
+The reason why nothing happens.
+
+06:52.870 --> 06:57.250
+Because we still need to set up the animation now for the animation again.
+
+06:57.250 --> 07:03.470
+Similarly how we had we transition we have the long way of writing this or we have the shorthand the
+
+07:03.610 --> 07:09.160
+first maybe let's start with the long one and then we're going to bounce back to a shorthand version.
+
+07:09.310 --> 07:12.070
+Now for the animation we're gonna say first of all animation name.
+
+07:12.520 --> 07:15.130
+So we always always need the animation name.
+
+07:15.280 --> 07:17.580
+And this is where the naming comes important.
+
+07:17.590 --> 07:20.750
+Again if you named it something else don't right.
+
+07:20.770 --> 07:26.930
+Grandpa Maria here or not Grandpa memory and Grandma Maria and let's say here I'm going to write and
+
+07:26.930 --> 07:30.400
+move since this is obviously the name of my animation.
+
+07:30.430 --> 07:36.190
+Now once we say it nothing happens because there's two more properties that we need for the animation.
+
+07:36.190 --> 07:43.070
+So not only we need duration so similarly like we had we had transformation or transition I'm sorry.
+
+07:43.180 --> 07:44.830
+Then we also need the count.
+
+07:44.950 --> 07:48.670
+So how many times this animation is going to take place.
+
+07:48.850 --> 07:55.510
+So we're going to be looking for animation and then we have the count property animation iteration count
+
+07:56.230 --> 08:02.910
+animation iteration and then we're looking for the count we have all kinds of options we can go one
+
+08:02.920 --> 08:07.140
+to wherever 12:00 and we're also going to have infinite value.
+
+08:07.180 --> 08:09.690
+Now we're going to look at the infinite value later on.
+
+08:09.730 --> 08:11.450
+Let me just go with you.
+
+08:11.470 --> 08:12.850
+So this is gonna run two times.
+
+08:13.030 --> 08:19.720
+Now notice what happens on right and say this animation is right now bouncing to the 50 percent and
+
+08:19.720 --> 08:25.720
+then 75 was negative 200 and then we're going back again to a zero.
+
+08:25.840 --> 08:30.850
+And again the animation is gonna take two times because we had the count here of two.
+
+08:30.880 --> 08:34.420
+Now you can already see that this gives you way more options.
+
+08:34.420 --> 08:36.010
+Transition was very simple.
+
+08:36.100 --> 08:42.310
+I go from one side and I go to another side and then the values are changing from 0 percent to 1/2 percent.
+
+08:42.340 --> 08:46.780
+With animation this gives you an unlimited amount of options.
+
+08:46.780 --> 08:52.660
+Now keep in mind though this 10 seconds is going to reflect this 50 percent.
+
+08:52.960 --> 08:57.730
+So if I'm going to write here let's say 20 seconds then my 50 percent there's gonna be already a 10
+
+08:57.730 --> 08:59.500
+seconds and so on and so forth.
+
+08:59.860 --> 09:02.490
+So these values are correlating to each other.
+
+09:02.500 --> 09:07.870
+So if we're going to write one second this 50 percent is gonna mean zero point five seconds and so on
+
+09:07.870 --> 09:08.670
+and so forth.
+
+09:08.820 --> 09:09.230
+Okay.
+
+09:09.280 --> 09:10.330
+So far so good.
+
+09:10.330 --> 09:15.560
+Now what about the shorthand because we see obviously the long way of writing now for the short guy.
+
+09:15.570 --> 09:19.400
+And again this is going to be very very similar to what we had with transitions.
+
+09:19.570 --> 09:21.600
+First there's gonna be the name and you know what.
+
+09:21.600 --> 09:25.860
+Let me go up here and select them all and just come in the mouth.
+
+09:26.080 --> 09:27.850
+The first one is going to be name.
+
+09:27.850 --> 09:32.980
+Then again we were looking for how long this is going to take place or duration and maybe in this case
+
+09:32.980 --> 09:37.960
+let's write five seconds as well as the last one is gonna be how many times we're going to run that
+
+09:38.680 --> 09:44.590
+animation and let's use the infinite value because that way you'll see that the animation is gonna be
+
+09:44.590 --> 09:51.370
+bouncing infinitely and whatever again we have the 50 percent 75 and the animation is just going to
+
+09:51.370 --> 09:55.860
+keep on repeating because we set up this value with the infinite bounds.
+
+09:56.050 --> 09:59.640
+And this is how we can work with animations in SPSS.

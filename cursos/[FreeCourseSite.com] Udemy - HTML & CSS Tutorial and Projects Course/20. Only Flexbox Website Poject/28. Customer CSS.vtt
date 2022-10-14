@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00.430 --> 00:06.690
+Now that we are in essence we created or hear again comments and then know here we're going to say this
+
+00:06.690 --> 00:10.860
+is going to be hash tag customers here like this.
+
+00:10.860 --> 00:15.100
+And then we're going to say padding let's say 40 pixels we're here like this right.
+
+00:15.110 --> 00:19.100
+So padding around then we're going to have a background.
+
+00:19.560 --> 00:24.060
+And this is going to be hash tag 1 9 1 9 1 9 and like this.
+
+00:24.180 --> 00:25.790
+And then we're going to have customer.
+
+00:26.100 --> 00:30.280
+So it's a dot customer are you doing this.
+
+00:30.310 --> 00:33.740
+And then we're going to say this is going to be color here right.
+
+00:33.780 --> 00:44.810
+So now we're dealing with each customer and this is going to be here if 5 1/2 5 5 5 5 we're like this
+
+00:44.880 --> 00:50.550
+it's going to be the color of a text align center like this.
+
+00:50.590 --> 00:55.590
+And my 20 pixels and 0.
+
+00:55.650 --> 01:04.850
+So again 20 pixels in between and zero on the site that we're going to have a customer image customer
+
+01:04.940 --> 01:16.250
+image here image and then we're going to have a border radius border radius let's say over here 50 percent
+
+01:16.710 --> 01:24.390
+year on this and then I'm going to say Max I'm here with and I'm going to say 200 pixels so and never
+
+01:24.420 --> 01:28.850
+it's going to be bigger than 200 pixels and it doesn't matter on the screen size is always going to
+
+01:28.850 --> 01:30.620
+be 200 pixels like this.
+
+01:30.650 --> 01:33.920
+All right then we're going to have a customer.
+
+01:34.100 --> 01:36.370
+This is going to be heading three.
+
+01:36.420 --> 01:39.940
+We're all going to say margin 10 pixels.
+
+01:40.070 --> 01:47.930
+And this is going to be 0 then after We're going to be text transform we're going to say capitalize
+
+01:48.610 --> 01:56.300
+on this and the color is going to be the blue one to be here 9 8 F 0.
+
+01:56.320 --> 02:03.020
+I really like this and then we're going to have a customer having five customer paragraph.
+
+02:03.020 --> 02:05.650
+So what are we going right over here customer.
+
+02:05.810 --> 02:07.790
+And this is going to be having five.
+
+02:08.060 --> 02:17.520
+So what we would want is we would want text transform uppercase this and then we're going to say that
+
+02:17.560 --> 02:24.260
+this is going to be a killer and we're going to have a color over here of 9 5 9 5 9 5.
+
+02:24.420 --> 02:31.570
+So hashtag 9 5 9 5 9 5 1 here and the last one is going to be paragraph.
+
+02:31.680 --> 02:36.000
+So I'm going to say we're here customer and we're off.
+
+02:36.110 --> 02:41.440
+This is going to be A-line high at one point five like this.
+
+02:41.780 --> 02:47.950
+And then we're going to have a with with it's going to be 75 percent more here right.
+
+02:48.230 --> 02:54.380
+But since we want to place it in the center we're going to see margin top bottom 10 pixels here and
+
+02:54.530 --> 02:58.940
+on the side and it's on our placing them over here in the center.
+
+02:59.030 --> 03:04.730
+And after that we would want to add media queries for responsiveness.

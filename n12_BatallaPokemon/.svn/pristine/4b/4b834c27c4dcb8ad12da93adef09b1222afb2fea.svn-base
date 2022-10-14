@@ -1,0 +1,83 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaNaval.testServidor;
+
+import uniandes.cupi2.batallaPokemon.servidor.mundo.RegistroJugador;
+import junit.framework.TestCase;
+
+/**
+ * Clase usada para verificar que los métodos de la clase RegistroJugador estén correctamente implementados.
+ */
+public class RegistroJugadorTest extends TestCase
+{
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Registro de jugador de prueba.
+     */
+    private RegistroJugador registroJugador;
+ 
+    // -----------------------------------------------------------------
+    // Escenarios
+    // -----------------------------------------------------------------    
+        
+    /**
+     * Escenario 1: Construye un nuevo RegistroJugador.
+     */
+    private void setupEscenario1( )
+    {
+        registroJugador = new RegistroJugador("Nombre", "Alias",0,0);
+    }
+
+    // -----------------------------------------------------------------
+    // Casos de prueba
+    // -----------------------------------------------------------------
+    
+    /**
+     * Prueba 1: Verificar el método constructor de la clase.<br>
+     * <b> Métodos a probar: </b> <br>
+     * RegistroJugador.<br>
+     * <b> Casos de prueba: </b> <br>
+     * 1.Se construye un nuevo registro jugador.
+     */
+    public void testRegistroJugador( )
+    {
+     
+        setupEscenario1( );
+        assertEquals( "Error al dar el nombre", "Nombre" , registroJugador.darNombreJugador( ) );
+        assertEquals( "Error al dar el alias","Alias", registroJugador.darAlias( )   );
+        assertEquals( "Error al dar Juegos Ganados",0, registroJugador.darBatallasGanadas( )  );
+        assertEquals( "Error al dar Juegos Perdidos",0, registroJugador.darBatallasPerdidas( )  );
+    }
+    
+    
+    /**
+     * Prueba 1: Verificar el método darEfectividad de la clase.<br>
+     * <b> Métodos a probar: </b> <br>
+     * darEfectividad.<br>
+     * <b> Resultados esperados: </b> <br>
+     * 1. El jugador no tiene batallas ganadas ni perdidas.<br>
+     * 2. El jugador tiene batallas ganadas y perdidas.
+     */
+    public void testDarEfectividad( )
+    {
+     
+        setupEscenario1( );
+        assertEquals( "La efectividad retornada es incorrecta, debería ser 0.0", 0.0, registroJugador.darEfectividad() , .01 );
+        
+        registroJugador = new RegistroJugador("Nombre", "Alias",5,1);
+        assertEquals( "La efectividad retornada es incorrecta, debería ser 83.3", 83.33, registroJugador.darEfectividad(), .01);
+    }
+}

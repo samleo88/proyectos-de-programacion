@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.450 --> 00:06.560
+Now another nagging thing about our first webpage is all the manual labor that we need to do.
+
+00:06.600 --> 00:07.710
+Now what do I mean by that.
+
+00:08.100 --> 00:14.160
+Well let's say that in my first webpage I would like to change from hello world to Hello people.
+
+00:14.160 --> 00:15.390
+Well we can definitely do that.
+
+00:15.840 --> 00:17.960
+So again we're going to head over back to our document.
+
+00:17.970 --> 00:19.410
+I'm gonna go here.
+
+00:19.590 --> 00:22.220
+Within the content that's going to be displayed on a page.
+
+00:22.220 --> 00:26.130
+So within the adding text and I'm going to say hello people.
+
+00:26.130 --> 00:27.900
+Now again we would need to say this.
+
+00:27.930 --> 00:31.870
+And again you can prefer a shortcut or the long way through the file system.
+
+00:32.070 --> 00:38.130
+And here I'm going to say this now once I save it I need to head over back to my Web page again and
+
+00:38.130 --> 00:42.600
+refresh at the moment we refresh the page obviously we have Hello people.
+
+00:42.600 --> 00:47.670
+And while this does not seem like a lot of work right now trust me the more and more we're going to
+
+00:47.670 --> 00:53.870
+be learning and working and experiencing this is going to get annoying really fast in order to fix that.
+
+00:53.880 --> 00:57.560
+We're going to install our first extension for the Visual Studio code.
+
+00:58.080 --> 01:04.050
+So I'm gonna click on this icon and now you'd need to search for our extension now if you'd like to
+
+01:04.050 --> 01:05.370
+search for extension again.
+
+01:05.370 --> 01:07.410
+We would do this in a searchable.
+
+01:07.590 --> 01:12.240
+So here I'm just going to type alive and the name of the extension is gonna be server.
+
+01:12.270 --> 01:15.360
+Now this is gonna bring up the extension that we're looking for.
+
+01:15.440 --> 01:20.580
+And as you can see the moment I make the sidebar a little bit bigger we can just see more clear what
+
+01:20.580 --> 01:22.640
+this extension is all about.
+
+01:22.650 --> 01:28.260
+Now if you want to have more information about extension which you should probably read a lot of times
+
+01:28.530 --> 01:30.170
+before you install this extension.
+
+01:30.180 --> 01:31.860
+So that is a good option.
+
+01:31.860 --> 01:36.780
+You can just click on it or double click on it and then you're going to have this info window.
+
+01:36.780 --> 01:42.310
+Now if you'd like to install the extension once again click on the installing of the extension.
+
+01:42.450 --> 01:45.390
+And now we would need to reload the Visual Studio code.
+
+01:45.800 --> 01:48.600
+So it is gonna click on reloading and sure enough.
+
+01:48.600 --> 01:50.880
+Now we have our extension available.
+
+01:50.970 --> 01:51.830
+How do I know that.
+
+01:52.230 --> 01:57.870
+Because these are the extensions that we have on our machine and these would be the recommended extensions
+
+01:58.500 --> 02:03.960
+as well as the moment I'm going to start typing Visual Studio code is gonna be suggesting me extensions
+
+02:04.320 --> 02:07.380
+obviously based on what we're typing here in the search.
+
+02:08.160 --> 02:13.440
+So with all that being said what I can do right now is first of all minimize it just so you can see
+
+02:13.440 --> 02:15.160
+a little bit better what's happening.
+
+02:15.210 --> 02:19.220
+I'm also gonna close whatever the web browser we had before.
+
+02:19.240 --> 02:21.480
+I'm going to close this browser thing.
+
+02:21.480 --> 02:27.690
+Then let's also maybe make this smaller as was open it up in the actual file system.
+
+02:27.730 --> 02:31.250
+My arms are not filesystem basically in the folder.
+
+02:31.380 --> 02:37.890
+And then once we have all that what we would need to do is right now navigate to our workspace and once
+
+02:37.890 --> 02:40.860
+we are in our workspace again we have few options.
+
+02:41.400 --> 02:44.570
+So either we can go here where we have go live.
+
+02:44.610 --> 02:50.670
+So this is gonna open up the life server or we can right click it and again we're gonna have the option
+
+02:50.670 --> 02:57.780
+of open with a life server as well as we have a shortcut on the shortcut would be commando and commando.
+
+02:58.250 --> 03:04.630
+Now I'm just gonna press the go live over here and this is gonna open up our local development sir.
+
+03:04.680 --> 03:09.930
+Now what's really nice about this why we would prefer this way instead of the previous one.
+
+03:10.110 --> 03:15.890
+Well first of all the way that course is gonna be setting up is I'm gonna setup them side by side so
+
+03:15.890 --> 03:23.070
+I'm gonna open up this guy so my visual studio code as well as my code or I'm sorry my local development
+
+03:23.070 --> 03:24.380
+server on the right hand side.
+
+03:24.870 --> 03:29.930
+So all the changes that we're gonna be doing we're all gonna be able to see right away in our life server.
+
+03:30.390 --> 03:34.590
+So let's say that I'm first of all gonna close this because it's complaining that we don't have a proper
+
+03:34.590 --> 03:37.320
+structure which we will gonna do in the next three years.
+
+03:37.320 --> 03:42.810
+And don't worry about it but let's say if I would like to change this back to the helo people I can
+
+03:42.810 --> 03:47.040
+just delete whatever I would like to change and we're gonna write Hello world.
+
+03:47.220 --> 03:53.600
+Now for now nothing's gonna change because we still don't have the proper syntax for the HDMI document.
+
+03:53.610 --> 03:55.640
+So basically there has to be structure.
+
+03:55.830 --> 04:00.960
+However later on we're gonna have an option where every time we're gonna be making some kind of change
+
+04:01.410 --> 04:07.320
+the changes are gonna be showing up right away alive here on the right hand side in our local development
+
+04:07.320 --> 04:07.680
+server.
+
+04:08.220 --> 04:11.600
+And trust me in a long run that makes our lives much more easier.

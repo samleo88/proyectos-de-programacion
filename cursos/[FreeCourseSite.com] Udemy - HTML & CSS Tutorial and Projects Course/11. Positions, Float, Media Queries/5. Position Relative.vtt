@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.450 --> 00:06.660
+Thankfully position relative is much more exciting than the position static and maybe we can test it
+
+00:06.660 --> 00:06.840
+out.
+
+00:07.170 --> 00:10.730
+So we have right now maybe the the class of 1.
+
+00:10.800 --> 00:13.350
+So we have a date with the class one man.
+
+00:13.380 --> 00:15.350
+We can I think work on this guy.
+
+00:15.360 --> 00:20.190
+So let's say we have position and we already know that we have an option for the static.
+
+00:20.260 --> 00:22.800
+Now the moment we save it was position relative.
+
+00:22.800 --> 00:24.630
+You notice nothing changes.
+
+00:24.660 --> 00:26.470
+We might be tempted to say no.
+
+00:26.660 --> 00:28.050
+Okay so it's pretty much like.
+
+00:28.290 --> 00:35.190
+However you would be a tiny bit wrong because with a position relative what we can do is we can set
+
+00:35.190 --> 00:42.100
+it relative to its normal position so whenever it was sitting normal in flow we can actually adjust
+
+00:42.100 --> 00:42.740
+that.
+
+00:42.750 --> 00:46.830
+Now we can do that with four properties and the first one is gonna be top.
+
+00:46.860 --> 00:50.610
+So let's say relative to a top port was.
+
+00:50.790 --> 00:55.620
+So in our case what we can do we can say I don't know for example 50 pixels.
+
+00:55.630 --> 01:03.010
+What happens is I move that 50 pixels away from where it was sitting relatively with its normal position.
+
+01:03.100 --> 01:07.740
+So now it's sitting basically 50 percent or I'm sorry 50 pixels down.
+
+01:07.800 --> 01:09.550
+Now it can use multiple values here.
+
+01:09.550 --> 01:11.790
+We can say let's say maybe arms.
+
+01:11.820 --> 01:20.400
+So for the left one I'm going to use like 20 arms so not only going to place it 50 pixels down relative
+
+01:20.400 --> 01:22.070
+to where it was normally.
+
+01:22.160 --> 01:28.890
+Also will all gonna do 20 hour games left from where it was sitting relatively now since I would like
+
+01:28.890 --> 01:32.440
+to use multiple values I'm going to say at an all right.
+
+01:32.440 --> 01:33.330
+He's gonna be now.
+
+01:33.330 --> 01:39.830
+I don't know 50 percent and I was then this is gonna be more so now we are also using this top one.
+
+01:40.020 --> 01:45.090
+So maybe that wouldn't be the best example where we have already left one and then we're using the right
+
+01:45.090 --> 01:45.610
+one.
+
+01:45.720 --> 01:46.730
+So why don't we do this.
+
+01:46.730 --> 01:49.960
+Why don't we come on this out and now we're going to move it to the right.
+
+01:50.160 --> 01:57.610
+Now this way we're pushing it relatively to where it was sitting normally 50 percent from the right.
+
+01:57.660 --> 02:02.250
+Now also we have the bottom so we could push it from the bottom and again within doing the same thing
+
+02:02.250 --> 02:07.230
+where top is gonna be commented out and then we're going to work with the bottom line for the bottom.
+
+02:07.230 --> 02:07.710
+I don't know.
+
+02:07.710 --> 02:09.650
+We had our yams we had percent.
+
+02:09.780 --> 02:11.570
+I guess we can again do with the pixels.
+
+02:11.590 --> 02:12.930
+Doesn't really matter.
+
+02:12.930 --> 02:17.360
+So I can just say to two hundred pixels and now we pretty much moved it away from the screen.
+
+02:17.850 --> 02:20.190
+So maybe let's not be that drastic.
+
+02:20.550 --> 02:27.750
+We can also do 20 pixels and now we just move 20 pixels relative of where it was sitting up because
+
+02:27.750 --> 02:30.490
+moved it 20 pixels from the bottom.
+
+02:30.600 --> 02:34.380
+And that's how we can work with position relative in the same.

@@ -1,0 +1,1273 @@
+WEBVTT
+
+00:00.120 --> 00:02.630
+Okay we know what we're going to build.
+
+00:02.640 --> 00:08.430
+Why don't we get busy doing that and we'll start off by creating general project setup which by the
+
+00:08.430 --> 00:10.830
+way you're gonna do for most of your projects anyway.
+
+00:11.550 --> 00:18.190
+But before we get too carried away let me give you an A brief explanation of why I chose to use CSX
+
+00:18.270 --> 00:21.130
+floats for our layout instead of legs box.
+
+00:21.150 --> 00:21.980
+Great.
+
+00:22.100 --> 00:24.230
+Now first and foremost it's very simple.
+
+00:24.330 --> 00:30.480
+We haven't covered flex box or agreed yet so it only makes sense that we're using only the tools that
+
+00:30.480 --> 00:33.000
+we have talked about during our tutorial.
+
+00:33.000 --> 00:39.340
+Second as you're progressing in what development you'll still see a bunch of code using as well.
+
+00:39.870 --> 00:45.230
+And it only makes sense that you would have at least general understanding how floats work.
+
+00:45.480 --> 00:48.690
+Are you going to use floats once you learn about legs box Ingrid.
+
+00:49.020 --> 00:50.110
+Probably not.
+
+00:50.340 --> 00:56.700
+But to have at least basic knowledge of floats we're only going to benefit you as a side note if you
+
+00:56.700 --> 01:01.630
+don't want to bother roll this video and fall along how we're setting up the folder structure.
+
+01:01.800 --> 01:06.920
+You can just get the set of files and then when I say folder structure meaning we're going to get images
+
+01:06.920 --> 01:11.220
+the font awesome custom fonts as well as general CSO setup.
+
+01:11.400 --> 01:17.040
+Again if you want to skip that just go to the resource of this video and you're going to get the set
+
+01:17.040 --> 01:20.970
+of files which are going to include exactly everything that we're doing.
+
+01:20.970 --> 01:24.990
+So first things first we would need to start with a folder structure.
+
+01:24.990 --> 01:25.980
+Now what does that mean.
+
+01:25.980 --> 01:32.490
+Well I am on my desktop and I can just say that there is going to be new folder and let's say and rename
+
+01:32.490 --> 01:36.180
+this I'm going to rename this T station.
+
+01:36.300 --> 01:41.340
+This is going to be my beautiful product or product project name.
+
+01:41.610 --> 01:42.620
+So far so good.
+
+01:42.630 --> 01:43.530
+What else we're having.
+
+01:43.530 --> 01:48.120
+Well we need a text that are right and we're gonna say there's going to be a text that are gonna open
+
+01:48.120 --> 01:54.180
+up my text that are then we're going to set up our first indexation email so let's write indexation
+
+01:54.210 --> 01:58.590
+the email let's get our basic structure with our Emmett.
+
+01:58.590 --> 02:04.710
+Brief suggestion and now that I have this now basically once I have the next session email why don't
+
+02:04.710 --> 02:06.450
+we open up in the browser.
+
+02:06.450 --> 02:11.190
+So here I'm gonna say that I would like to open up the browser and that again we can use all kinds of
+
+02:11.190 --> 02:12.390
+option for this.
+
+02:12.390 --> 02:17.740
+And basically what we are doing is we are using right now the visual studio called Live preview.
+
+02:17.760 --> 02:22.260
+Now I'm going to set them side by side so I'm going to say that there is gonna be side by side.
+
+02:22.260 --> 02:27.990
+My project as well as my little side browser window where we can see everything that we're going to
+
+02:27.990 --> 02:30.120
+be doing throughout the project.
+
+02:30.120 --> 02:36.920
+And here let me write first of all title and let's write the station and I'm gonna write recording.
+
+02:36.930 --> 02:40.700
+Now you don't have to do that but I would like to play side by side.
+
+02:40.740 --> 02:43.990
+My final project which is the one that we're recording right now.
+
+02:44.100 --> 02:46.060
+So I might as well distinguish them somehow.
+
+02:46.470 --> 02:49.800
+MARGARET So we have all this good one else we're having.
+
+02:49.830 --> 02:55.220
+Well I'm going and like I said open up the new browser window and here I'm gonna say one twenty seven
+
+02:55.470 --> 03:00.150
+so I know this is gonna be where my project and you know it by the way just so we can see that we actually
+
+03:00.150 --> 03:01.370
+have the project.
+
+03:01.470 --> 03:07.640
+Let me write some think one with basic low world where I know that.
+
+03:07.720 --> 03:11.130
+Okay so this is gonna be my project NOW FOR NOW.
+
+03:11.130 --> 03:16.710
+YOU KNOW WHAT I WILL gonna zoom this out meaning I'm gonna have the full browser window and now let
+
+03:16.710 --> 03:18.170
+me look for my project.
+
+03:18.180 --> 03:22.500
+So here I believe the name was changed the amount and something T station.
+
+03:22.500 --> 03:27.750
+So this is gonna be our final project and I'm gonna set this on the left hand side so as we're working
+
+03:27.750 --> 03:32.970
+we're gonna be able to see the bigger browser window off our the project that we're currently working
+
+03:33.390 --> 03:34.880
+as well as the finish line.
+
+03:34.950 --> 03:37.230
+So that way I can always explain hey listen guys.
+
+03:37.230 --> 03:42.300
+So now we're gonna be working this section then we're going to move onto that section and so on and
+
+03:42.300 --> 03:43.130
+so forth.
+
+03:43.140 --> 03:47.280
+Now let me head over back to my desktop and let's see what we're gonna have.
+
+03:47.280 --> 03:52.020
+Well I talked about the set of files so if you want to skip all this chatter that I'm doing right now
+
+03:52.470 --> 03:56.340
+just head over to the set of files and then we have the folder structure.
+
+03:56.400 --> 03:58.770
+Well do we have the complete folder structure.
+
+03:58.800 --> 04:00.210
+I don't think we do at the moment.
+
+04:00.210 --> 04:06.390
+So let me open up the right now the folder and first let me create some kind of I don't know folder
+
+04:06.780 --> 04:13.800
+that I can name either images or AMG where you guessed that already we're going to be keeping our images.
+
+04:14.000 --> 04:20.420
+So I'm gonna say who are here images the long one and then we might as well go get the images.
+
+04:20.430 --> 04:21.500
+I don't see why not.
+
+04:21.510 --> 04:26.270
+Because since we already have the folder we can right away go and look for images.
+
+04:26.460 --> 04:29.480
+Now for the images there's gonna be few options that we can use again.
+
+04:29.490 --> 04:33.140
+There is grab Instagram feed their pixels nearest pixel Bay.
+
+04:33.180 --> 04:34.620
+I'm gonna go with pixels.
+
+04:34.740 --> 04:38.050
+You can again choose whatever option suits your needs.
+
+04:38.050 --> 04:40.880
+And let me go to our good old friend Google.
+
+04:41.030 --> 04:45.730
+I'm gonna save pixels and within the pixels all I did was royalty.
+
+04:45.760 --> 04:49.590
+Now this is gonna be the case where I'm going to be checking what kind of images I had.
+
+04:49.590 --> 04:51.360
+So I believe I had this guy.
+
+04:51.360 --> 04:54.290
+So let me head over back and let me find the image.
+
+04:54.870 --> 04:57.300
+So I believe this is this one.
+
+04:57.350 --> 04:59.650
+And let me save image now.
+
+04:59.760 --> 05:06.600
+The naming is technically not important but in the sense that if I'm gonna be referring to my files
+
+05:06.660 --> 05:11.940
+some kind of name you just need to remember that if you named your files differently then obviously
+
+05:12.240 --> 05:16.050
+this is gonna be the case where you need to follow the your own syntax.
+
+05:16.050 --> 05:20.220
+And I believe my when I called about BCG or you know what.
+
+05:20.220 --> 05:20.590
+No.
+
+05:20.670 --> 05:22.560
+My apologies it was main BCG.
+
+05:22.950 --> 05:25.020
+So this was the main background.
+
+05:25.020 --> 05:29.690
+And this is how I'm saving this then I'm gonna see the other one.
+
+05:29.790 --> 05:30.360
+What I had.
+
+05:30.360 --> 05:32.200
+So let me check the other image.
+
+05:32.250 --> 05:33.360
+This was the about one.
+
+05:33.360 --> 05:35.120
+So I'm looking for this kettle.
+
+05:35.140 --> 05:36.780
+Hopefully I'm gonna be able to find it.
+
+05:37.230 --> 05:44.940
+So the kettle was here and we're gonna say save him in jars then we're gonna have here about BCG so
+
+05:45.000 --> 05:49.090
+this was the involved BCG and then I had three for the product.
+
+05:49.170 --> 05:52.740
+So this one was here the second one on the third one.
+
+05:52.740 --> 05:57.990
+Now let me head over again back to the pixels and this is going to be the tricky one I believe that
+
+05:57.990 --> 06:04.470
+one of them must pressure this guy so I can right away save him in jars and then I can write product
+
+06:04.530 --> 06:09.780
+let's say one or two it doesn't really matter I just named them product one two three.
+
+06:09.780 --> 06:15.160
+That was my naming but I don't think it really matters which one you're actually placing there.
+
+06:15.240 --> 06:17.220
+So I believe this guy was the number one.
+
+06:17.280 --> 06:22.010
+Yeah I believe so it's a as well we would like to save this.
+
+06:22.110 --> 06:26.500
+So in this case this is going to be already product number two and you already see that I'm making a
+
+06:26.500 --> 06:30.440
+mistake right now my my mistake is that I'm not saving this thing in images.
+
+06:30.450 --> 06:31.910
+So that is not correct.
+
+06:31.920 --> 06:32.840
+So let me fix this.
+
+06:32.850 --> 06:33.630
+Let me say that.
+
+06:33.630 --> 06:35.720
+Product number two is gonna be in images.
+
+06:36.060 --> 06:41.310
+And what I would like to do right now is head over back to my folder structure and grab all these images
+
+06:41.310 --> 06:42.780
+that I have right now.
+
+06:42.780 --> 06:48.030
+Copy and paste it or saved it on my machine and I'm gonna get rid of them.
+
+06:48.120 --> 06:53.610
+So I would like to say that I can either copy them or we can just move them into the images because
+
+06:53.610 --> 06:57.380
+that was obviously the whole point why we had the file to begin with.
+
+06:57.390 --> 07:02.940
+Now what else we can do well I can head over back to the actual file and get rid of them.
+
+07:03.080 --> 07:03.930
+Can say you know what.
+
+07:03.930 --> 07:09.340
+I don't need them right now on my project route I need them in my image responder.
+
+07:09.490 --> 07:11.960
+Now there's going to be one more thing that we're gonna do with the cropping.
+
+07:11.970 --> 07:17.540
+But before we do that let me just get the last image and I think it's gonna be really pain because I
+
+07:17.550 --> 07:19.710
+already forgot which one was which.
+
+07:19.710 --> 07:20.670
+So let me double check.
+
+07:20.670 --> 07:21.660
+So this was this guy.
+
+07:21.660 --> 07:23.820
+So cattle with a flower.
+
+07:23.820 --> 07:31.700
+And if you see it please scream so that I can hear that if I scrolled maybe two down too much.
+
+07:31.950 --> 07:34.430
+Keep on scrolling oh there it is.
+
+07:34.440 --> 07:35.950
+There is an image.
+
+07:36.120 --> 07:38.050
+So let me say product number three.
+
+07:38.250 --> 07:42.970
+And I'm wondering why none of you help me as I said please scream once you see the image.
+
+07:43.650 --> 07:44.480
+I don't he.
+
+07:44.570 --> 07:48.050
+I didn't hear anybody screaming so I am very disappointed in you.
+
+07:48.490 --> 07:50.950
+OK so this is gonna be our image number three.
+
+07:51.030 --> 07:57.420
+Now what I did is again I use the quick and dirty way where I used Mac for help.
+
+07:57.420 --> 08:03.180
+So I selected all three images then we can do open with and just because I would want them all to be
+
+08:03.180 --> 08:06.610
+the same size and I know that this is a little bit annoying.
+
+08:06.660 --> 08:08.870
+So let me just grab this one.
+
+08:09.180 --> 08:10.690
+This is not what I would want.
+
+08:10.710 --> 08:11.720
+Thank you for using.
+
+08:11.730 --> 08:12.910
+Well yeah okay.
+
+08:12.930 --> 08:14.460
+So that's all good.
+
+08:14.500 --> 08:16.380
+I don't want to rate you.
+
+08:16.380 --> 08:18.650
+Let me move this guy a little bit smaller.
+
+08:18.930 --> 08:24.080
+Again my apologies then I would like to select them all and once I have all the images then we're going
+
+08:24.080 --> 08:31.380
+to do adjust the size and I went again kind of brutal way where I just went 800 by 600.
+
+08:31.380 --> 08:37.440
+As always you can use obviously Photoshop for days but since I don't want to get into all this right
+
+08:37.440 --> 08:43.050
+now I would like to use this quick and dirty way where we're just using the Mac for that and for now
+
+08:43.060 --> 08:45.790
+we would have all our images the same way.
+
+08:45.990 --> 08:51.690
+I think that should cover the images and again let me get my little notebook where it tells me what
+
+08:51.690 --> 08:52.160
+we're doing.
+
+08:52.170 --> 08:57.700
+So we have a set of files we had some kind of folder structure we did talk about it now there's going
+
+08:57.700 --> 09:02.010
+to be more things to it but for now this is going to be good and then we're looking for the font awesome
+
+09:02.010 --> 09:07.520
+icons the nice icons that we can add to our project there's going to be two ways that we can do it.
+
+09:07.570 --> 09:13.140
+Well first of all we need to go to their web page and remember we had an option of let's say starting
+
+09:13.140 --> 09:16.650
+using free and you can just use the CDM.
+
+09:16.740 --> 09:20.430
+However I don't know where in future you are watching this.
+
+09:20.940 --> 09:27.030
+So if the version has changed if the version is not anymore it's 5.2 or whatever.
+
+09:27.060 --> 09:31.870
+Well most importantly if it's something like six I believe they're not going to change manually if you're
+
+09:31.890 --> 09:37.590
+watching let's say five point nine but if you're already watching six that means that they have maybe
+
+09:37.650 --> 09:39.150
+made some adjustments to it.
+
+09:39.690 --> 09:44.010
+So if you're watching this in a future which obviously you will and I think you're going to be watching
+
+09:44.010 --> 09:45.040
+this in the past.
+
+09:45.270 --> 09:52.040
+But if the version has changed then you do need to get the same folder where I'm gonna have my fantasy
+
+09:52.040 --> 09:55.570
+I'm downloaded and actually using local in our project.
+
+09:55.590 --> 10:00.680
+So that's something to remember if the version is somewhat similar obviously you can just copy and paste
+
+10:00.680 --> 10:06.200
+the CDM and then we'll have to head over back to our document and somewhere here we're going to have
+
+10:06.430 --> 10:07.650
+obviously the CDM.
+
+10:08.020 --> 10:13.740
+Now maybe let's do right after title let's say font awesome answer.
+
+10:14.040 --> 10:18.690
+Let's say this is gonna be whatever the CDM that you would need to copy and you know what.
+
+10:18.790 --> 10:22.150
+Right after this maybe let's write custom.
+
+10:22.480 --> 10:27.930
+Because this is where our CSI style is gonna live more as our city assess file.
+
+10:28.030 --> 10:30.840
+Sorry not style but file okay.
+
+10:31.240 --> 10:37.330
+If you are watching this in future why don't we go over also how I'm going to be done on this in the
+
+10:37.330 --> 10:38.190
+first place.
+
+10:38.290 --> 10:42.670
+So let's say I'm going to be looking for the download then remember within download there right away
+
+10:42.690 --> 10:45.310
+told us that there's many options we can choose.
+
+10:45.310 --> 10:49.770
+Well I'm going to be choosing this one and for this I would need them on this first and then I'm gonna
+
+10:49.780 --> 10:51.670
+head over to my downloads.
+
+10:51.670 --> 10:55.800
+Hopefully there are gonna be empty so there's not going to be a bunch of files and actually this state
+
+10:55.810 --> 10:57.680
+from already tutorial already.
+
+10:57.730 --> 11:02.650
+So what I can do is I can just open up again the new one just so you can see that it's there and what
+
+11:02.650 --> 11:05.560
+I'm gonna do is I'm gonna drag and drop the file.
+
+11:05.650 --> 11:10.870
+I could have just drag and drop it right away maybe into the folder that would have made a little bit
+
+11:10.870 --> 11:14.210
+more sense and then we're looking for is all synapses.
+
+11:14.410 --> 11:17.700
+Now it is important that you drag and drop the folder.
+
+11:17.740 --> 11:22.150
+This is exactly what they're saying because if you're just gonna drag and drop the one file that you
+
+11:22.150 --> 11:29.410
+would need let's say all say it says it's not going to work people know okay Phantasm how are we gonna
+
+11:29.410 --> 11:30.500
+get phantasm.
+
+11:30.550 --> 11:34.960
+We know we can use the link tag and within the line tag we just need to specify this.
+
+11:34.960 --> 11:36.480
+So I'm looking for the folder name.
+
+11:36.550 --> 11:42.300
+And again as a side note if you rename this folder anything different then you need to look for that
+
+11:42.310 --> 11:42.990
+folder.
+
+11:43.180 --> 11:48.010
+Please don't rename this orange and then be upset that if you're looking for Phantasm you're not able
+
+11:48.010 --> 11:49.020
+to find it.
+
+11:49.130 --> 11:52.630
+Then we have this useless folder then within the instance folder.
+
+11:52.640 --> 11:53.390
+Damn.
+
+11:53.440 --> 11:54.570
+Drumroll please.
+
+11:54.580 --> 11:56.530
+We do have our phantasm.
+
+11:56.560 --> 11:58.860
+Well maybe I got too carried away already.
+
+11:58.870 --> 12:00.520
+Maybe let me double check.
+
+12:00.610 --> 12:05.470
+Remember the syntax was the tag and then I'm gonna use the immature kids right now where I'm going to
+
+12:05.470 --> 12:13.720
+say a face halfway home my probably most favorite one and let's write F.A. AND almost 6 x just so we
+
+12:13.720 --> 12:20.530
+have the massive font awesome image and now I can do the drumroll because we do have the phantasm so
+
+12:20.530 --> 12:26.400
+we have covered successfully that I can right away may be right and we close it as well as pixels with
+
+12:26.400 --> 12:27.560
+only pixels.
+
+12:27.720 --> 12:31.850
+And let me go again back to my sticky note and let's see what I have next.
+
+12:31.900 --> 12:34.310
+I have found awesome icons awesome.
+
+12:34.330 --> 12:40.720
+We covered that and then we have custom font custom ones we're going to use Google funds for the now
+
+12:40.720 --> 12:44.470
+let me look for first of all Google fonts.
+
+12:44.710 --> 12:47.440
+And here I'm gonna be obviously going to the gold funds.
+
+12:47.650 --> 12:55.810
+And again right away I can apologize if my spelling is not awesome or maybe not spelling sorry pronunciation
+
+12:56.400 --> 13:02.490
+because I'm gonna be looking for I believe it pronounced cut to my round again I might be wrong.
+
+13:02.500 --> 13:06.730
+You can laugh all day long but that's unfortunately how I pronounce it.
+
+13:06.790 --> 13:08.680
+So let me read this card.
+
+13:08.930 --> 13:11.940
+My round and we're getting basically this one.
+
+13:12.040 --> 13:14.780
+So this is gonna be my phone that I'm looking for.
+
+13:14.770 --> 13:18.090
+However with this point I would like to customize it a little bit.
+
+13:18.310 --> 13:22.950
+So there's going to be a regular one and there's gonna be the bold one let's say 700.
+
+13:23.250 --> 13:24.900
+That's gonna be my option.
+
+13:24.910 --> 13:32.230
+Also I'd like to look for one more so I can minimize this guy and instead of cut down Maran I'm purposely
+
+13:32.390 --> 13:34.710
+not pronouncing if I'm saying this wrong.
+
+13:34.840 --> 13:40.190
+Hopefully this doesn't make you laugh because believe it or not it does make me laugh.
+
+13:40.600 --> 13:46.570
+Grand Hotel is gonna be my second one which you already can tell we're gonna be using as our styling
+
+13:46.570 --> 13:47.280
+option.
+
+13:47.380 --> 13:52.840
+So if you would want some text to send out we're gonna use this grand hotel and what we have right now
+
+13:52.840 --> 13:53.760
+is gonna be two of them.
+
+13:54.280 --> 13:58.240
+If I'm gonna head over again to embedding you'll notice that I have two of them.
+
+13:58.510 --> 13:59.410
+So you know what.
+
+13:59.410 --> 14:00.880
+No I won't.
+
+14:00.880 --> 14:06.140
+My apologies I didn't have the font so I keep on talking as if I would have to funds but I don't know
+
+14:06.140 --> 14:11.290
+the load time is gonna be moderate and yes I agree that probably is not something you're looking for
+
+14:11.320 --> 14:17.210
+but for a first project really I don't think we need to worry about it too much.
+
+14:17.350 --> 14:22.240
+So let's say we have two options again we can import it in the CSX or we can just have it as a link
+
+14:22.720 --> 14:29.080
+again to have it as a link just copy and paste it here within your I don't know let's say right after
+
+14:29.080 --> 14:29.850
+phantasm.
+
+14:30.070 --> 14:31.900
+Now just switch things around.
+
+14:31.900 --> 14:36.380
+I'm going to do import and we're gonna be importing this in our CSX.
+
+14:36.430 --> 14:37.480
+Now the question is.
+
+14:37.480 --> 14:39.210
+Well you don't have to CSX.
+
+14:39.810 --> 14:41.050
+Yeah that's true.
+
+14:41.050 --> 14:49.190
+But don't we know how to make the CSX file a new file and the name is gonna be against Stiles CSX.
+
+14:49.250 --> 14:55.990
+As always you can name this whatever your heart desires but you do need to link it because we can write
+
+14:55.990 --> 14:57.460
+here whatever you'd like.
+
+14:57.520 --> 15:02.920
+It is not going to work my friends because if we haven't linked it so I'm going to say links or I'm
+
+15:02.920 --> 15:09.370
+linking this right now it's late then I'm looking for the Stiles the name of your file don't mix and
+
+15:09.370 --> 15:15.280
+match them if you named as something weird also link this to something we're OK.
+
+15:15.850 --> 15:19.720
+We have all this covered so now within the styles I would like to copy and paste it.
+
+15:19.780 --> 15:23.150
+These are going to be my files or I'm sorry my fonts.
+
+15:23.350 --> 15:26.560
+We have successfully imported them so far so good.
+
+15:26.590 --> 15:27.280
+What else we have.
+
+15:27.310 --> 15:34.150
+Well then we have these font family but before we work hard on the font families and adding them why
+
+15:34.150 --> 15:40.630
+don't we also do the general CSA setup like when the variables and reset which we will gonna reuse all
+
+15:40.630 --> 15:44.260
+throughout the project now how this is gonna work.
+
+15:45.840 --> 15:46.350
+Let's see.
+
+15:46.350 --> 15:48.270
+So first of all I would like to do the reset.
+
+15:48.360 --> 15:53.820
+Remember we had those default padding the margins and I would just like to get it in now quick and dirty
+
+15:53.820 --> 15:58.280
+where it would be something like this where we are selecting all the elements.
+
+15:58.300 --> 16:00.080
+I'm gonna say all the elements.
+
+16:00.270 --> 16:02.330
+I don't know why I'm choosing the max with that.
+
+16:02.430 --> 16:04.000
+That is not what I want.
+
+16:04.050 --> 16:09.710
+I wanted margin margins in the zero padding is gonna be you guessed it zero.
+
+16:09.930 --> 16:16.000
+And then whoever knows the answer for this guy can watch the next videos for free.
+
+16:16.230 --> 16:22.140
+Which by the way you're watching anyway because you have only one cause but obviously that was my lame
+
+16:22.140 --> 16:27.800
+attempt on being sarcastic but we're looking for box sizing which is gonna be equal to the border.
+
+16:27.810 --> 16:35.160
+But again just to recap the reason why we're using this border box because as we having let's say some
+
+16:35.160 --> 16:42.450
+kind of padding or border we wouldn't want our device or our elements or boxes to expand would want
+
+16:42.450 --> 16:48.780
+to set some kind of width and then the changes should be applied to the box itself not by making the
+
+16:48.780 --> 16:49.820
+box bigger.
+
+16:49.960 --> 16:52.680
+Then we also know that we can use the CSA as wearables.
+
+16:52.680 --> 16:55.570
+Remember those guys and where I would want to use them.
+
+16:55.720 --> 17:01.350
+Well I think I'm going to my I might be wrong but I think I would want to use them all throughout the
+
+17:01.350 --> 17:02.130
+project.
+
+17:02.160 --> 17:03.300
+What was the way for doing that.
+
+17:03.750 --> 17:04.830
+Well we had a route.
+
+17:04.830 --> 17:09.330
+We had this selector not just random selector by the way.
+
+17:09.330 --> 17:16.410
+This was our pseudo selector and now I'm selecting my email and within this nation email element I would
+
+17:16.410 --> 17:18.460
+like to set up my variables here.
+
+17:18.510 --> 17:22.830
+This is where the colors are going to come in and you know what I have to apologize I messed up a little
+
+17:22.830 --> 17:26.760
+bit on my sticky note as well as you know what I'm gonna add a new one.
+
+17:26.760 --> 17:34.350
+So I'm going to say general setup is gonna have colors my apologies I did mess that one up.
+
+17:34.350 --> 17:38.880
+Let me make this bigger so just so you can see it a little bit better.
+
+17:39.030 --> 17:40.920
+Now let me make this one may be smaller.
+
+17:40.920 --> 17:46.380
+And now we have colors so successfully we also have a color because I didn't cover the color.
+
+17:46.380 --> 17:53.170
+However may be our first thing should be dealing with the funds because right now we have to find families
+
+17:53.170 --> 17:54.060
+that we need to include.
+
+17:54.070 --> 17:56.770
+And I kind of keep on ignoring them.
+
+17:56.770 --> 17:57.960
+So why don't we do this.
+
+17:57.970 --> 18:03.640
+Why don't we first of all within the route create our first variable where we're gonna call this slanted
+
+18:03.640 --> 18:05.020
+text.
+
+18:05.020 --> 18:08.330
+As always you can name this whatever you like.
+
+18:08.350 --> 18:10.480
+This is just gonna be holding your value.
+
+18:10.660 --> 18:15.370
+And if somebody gets annoyed by the fact that I'm going to say as always you can name this where you're
+
+18:15.370 --> 18:15.720
+like.
+
+18:16.510 --> 18:21.040
+I know but I kind of need to repeat this because so people don't think that there's some kind of secret
+
+18:21.040 --> 18:26.610
+syntax that you need to use because these two dashes might look overwhelming and a beginning.
+
+18:26.620 --> 18:27.800
+I do agree with that.
+
+18:27.850 --> 18:29.230
+You're like looking you're liking.
+
+18:29.260 --> 18:33.480
+Okay there's two dashes there's probably this name has to do something with a text.
+
+18:33.490 --> 18:33.890
+Well no.
+
+18:33.910 --> 18:36.460
+This is just a container that's holding your value.
+
+18:36.580 --> 18:39.250
+So don't get too hung up on this.
+
+18:39.340 --> 18:42.700
+I just called a slanted text because the text is gonna be slanted.
+
+18:42.700 --> 18:43.890
+I could have called this.
+
+18:43.960 --> 18:45.050
+Johnny is great.
+
+18:45.100 --> 18:46.920
+It will work exactly the same way.
+
+18:47.140 --> 18:47.960
+Slide the text.
+
+18:47.960 --> 18:51.880
+And now I'd like to use my font family remember.
+
+18:52.000 --> 18:54.990
+And in this case I'm gonna be using this grand called.
+
+18:55.070 --> 19:01.260
+So let me grab this guy and let's say that this slanted text is gonna be equal to this one family.
+
+19:01.270 --> 19:07.110
+Now I copy and pasted everything and that is not correct because I only need the value here.
+
+19:07.240 --> 19:09.910
+So my slanted text is going to hold this value.
+
+19:10.090 --> 19:14.810
+Then every time I like to use the font family for this not next I'm just gonna grab this.
+
+19:15.020 --> 19:20.230
+And that would be number one just to finish with the font so we're done with them and we don't need
+
+19:20.230 --> 19:21.820
+to carry about them.
+
+19:21.830 --> 19:24.100
+Let's do body and for the whole body.
+
+19:24.100 --> 19:26.530
+This is where I wouldn't want to use the other one.
+
+19:26.530 --> 19:34.740
+The famous catamaran and yeah I purposely didn't like a Russian version just so it sounds even funnier.
+
+19:34.990 --> 19:38.680
+But our catamaran right now is in our project.
+
+19:38.680 --> 19:39.670
+So that is all good.
+
+19:39.670 --> 19:42.010
+So that would be the basic setup for all our phones.
+
+19:42.160 --> 19:46.300
+And then whenever we would like to use them let's say slanted ones we can use this guy.
+
+19:46.300 --> 19:50.500
+Now maybe just to test it out just to prove that actually I do make sense.
+
+19:50.500 --> 19:55.300
+We have the herring one and why don't we over go here and we will gonna delete this of course.
+
+19:55.300 --> 20:00.960
+But let's say for all the heading ones the fun family is gonna be you guessed it drum.
+
+20:01.120 --> 20:04.470
+We have the variable not the variable is gonna be slanted text.
+
+20:04.540 --> 20:11.020
+Now you can write the long way var this word that and then parentheses or with Visual Studio code you
+
+20:11.020 --> 20:17.710
+have a very very nifty setup where just two dashes and then you're looking for your whatever variables
+
+20:17.970 --> 20:24.040
+not at the moment we have one GA but later on we're going to multiples on this is this would be a little
+
+20:24.040 --> 20:24.960
+bit easier setup.
+
+20:25.240 --> 20:28.240
+Now I'm getting my slant indexed and booyah.
+
+20:28.300 --> 20:33.430
+We have our heading one that has right now the font family of this grand hotel.
+
+20:33.820 --> 20:38.320
+So every time we're gonna use it or I'm sorry every time we're gonna need it we're just gonna grab those
+
+20:38.320 --> 20:39.860
+values longer.
+
+20:39.910 --> 20:41.370
+What I also would like to add here.
+
+20:42.220 --> 20:44.790
+Let's do maybe a line height for the body.
+
+20:45.340 --> 20:49.990
+Let's do the full so the whole text throughout the whole document is gonna have some kind of line height
+
+20:50.500 --> 20:52.330
+which is gonna be one point five.
+
+20:52.510 --> 20:53.940
+Again nothing really specific.
+
+20:53.940 --> 20:56.720
+This is very general that you always see.
+
+20:56.740 --> 21:01.150
+And then if you want to change the line height and you just add different kind of number and so on and
+
+21:01.150 --> 21:02.370
+so forth.
+
+21:02.410 --> 21:04.340
+Let me say this you this.
+
+21:04.480 --> 21:06.140
+Let me get rid of the font.
+
+21:06.220 --> 21:08.330
+I do believe we cover them.
+
+21:08.350 --> 21:10.500
+I do believe everything has been covered.
+
+21:10.660 --> 21:16.150
+And now let's go over the colors because I'm gonna add some colors again in the road just so we can
+
+21:16.150 --> 21:17.560
+access them later.
+
+21:17.690 --> 21:19.910
+I'm not going to be looking for these colors right now.
+
+21:19.920 --> 21:24.310
+We're going to show you again that we can use the coolers and then within the coolers you can start
+
+21:24.310 --> 21:28.900
+your generator and then you can just keep on slamming on the spacebar.
+
+21:28.900 --> 21:30.920
+And this is gonna give you the options.
+
+21:31.030 --> 21:35.200
+Now this is in general way how you can get the colors and actually you know what this is.
+
+21:35.200 --> 21:38.410
+This actually looks very very nice color theme.
+
+21:38.410 --> 21:43.330
+So just in case you're wondering yeah you can just pause the video and get these colors because I do
+
+21:43.330 --> 21:44.470
+find them real good.
+
+21:44.500 --> 21:48.780
+The green one really goes with the gray one and the blue one is also awesome.
+
+21:48.790 --> 21:53.530
+Again I I really digress a little bit but this actually came out really good.
+
+21:53.560 --> 21:55.430
+Now I'm not going to be using these colors.
+
+21:55.450 --> 21:56.880
+I already have the setup colors.
+
+21:56.890 --> 22:01.740
+So in the style see assessment and look for wrote and within the rules.
+
+22:01.740 --> 22:03.240
+Let's just name our callers.
+
+22:03.240 --> 22:05.400
+We can name this differently.
+
+22:05.400 --> 22:10.290
+The reason why I'm naming this primary let's say color is the simple fact that even though we're all
+
+22:10.290 --> 22:16.380
+gonna be using the green color for this project maybe later on I change it to blue let's say now is
+
+22:16.380 --> 22:21.360
+it gonna be big deal if I'm named this let's say Maine green color and then change it.
+
+22:21.360 --> 22:23.630
+No no probably not.
+
+22:23.640 --> 22:27.430
+But it would help if you will just have some kind of primary color.
+
+22:27.490 --> 22:30.240
+Then if you change in the blue it's not confusing to you.
+
+22:30.270 --> 22:33.920
+Maybe later on as well as if somebody else is working on a project.
+
+22:34.230 --> 22:36.480
+Again this is really a preference.
+
+22:36.640 --> 22:41.480
+You'll see a lot where people are using primary colors secondary color but you can name them.
+
+22:41.480 --> 22:45.660
+I would say with the white ones I just named the main white and my da because there's always gonna be
+
+22:45.660 --> 22:48.110
+some kind of main white and mean darker.
+
+22:48.510 --> 22:50.400
+Like I said this is gonna be green.
+
+22:50.400 --> 22:56.150
+And now we will gonna type them unless you are actually downloading the set of files of course.
+
+22:56.370 --> 23:03.480
+6 9 8 f 3 F and the good news is that this is gonna be the only time we have to type them like this
+
+23:04.020 --> 23:07.700
+because the moment I'm gonna start working on the project which is a primary color.
+
+23:07.710 --> 23:08.740
+That's it.
+
+23:08.790 --> 23:13.430
+Imagine how annoying this would be if I would have to use it like 50 times with hashtag.
+
+23:13.500 --> 23:16.010
+6 9 8 f 3 F.
+
+23:16.220 --> 23:22.860
+Granted the visual studio code gives you a nice setup so later on you can already do a quick switch
+
+23:22.860 --> 23:24.110
+where you're just getting this rather.
+
+23:24.570 --> 23:29.620
+But I still think that primary color would be easier to remember than we have the second record that
+
+23:29.630 --> 23:34.290
+dairy colors can vary color and we're gonna use this literally in one place.
+
+23:34.290 --> 23:34.850
+I believe.
+
+23:34.890 --> 23:43.270
+I'm not wrong and this is gonna be the yellow one so f see a 3 1 1 people.
+
+23:43.290 --> 23:48.840
+So that's gonna be our yellow one and then we have the like I said mine dark mane dark.
+
+23:48.840 --> 23:51.170
+So that would be kind of a black ish one.
+
+23:51.240 --> 23:55.970
+So let's say 3 a re e.
+
+23:56.510 --> 24:00.260
+And then we have three be very very original name.
+
+24:00.500 --> 24:03.980
+So three a three three B and now what.
+
+24:03.980 --> 24:05.960
+You know this is not really mean dark.
+
+24:05.960 --> 24:06.800
+This is.
+
+24:06.800 --> 24:07.010
+Yeah.
+
+24:07.040 --> 24:10.660
+Well it kind of is it's kind of dark ish greenish or whatever you call it.
+
+24:11.140 --> 24:13.690
+And then I would also have the main White now the main White.
+
+24:13.700 --> 24:15.960
+Just gonna be kind of straightforward.
+
+24:16.160 --> 24:19.400
+We're gonna say man white and hashtag f.
+
+24:19.850 --> 24:26.950
+That's gonna be our main white color as well as I would like to have some men grey one main grey and
+
+24:26.960 --> 24:34.880
+let's set it up with hashtag e five E five E five while we're still on a subject on the variables.
+
+24:34.880 --> 24:40.550
+Why don't we set up the transition a letter spacing and I kind of understand it's a lot for this video.
+
+24:40.550 --> 24:44.000
+You might be like Hey listen you know this set of video and all that.
+
+24:44.060 --> 24:44.450
+Yeah.
+
+24:44.480 --> 24:48.170
+But once we're done with the setup this is gonna be a smooth sailing.
+
+24:48.170 --> 24:49.830
+If we already set up everything.
+
+24:50.230 --> 24:54.200
+And I think this is gonna be much more faster going to say main transition.
+
+24:54.200 --> 25:01.350
+Again this is gonna be just my variable name and how we did we work with transitions.
+
+25:01.610 --> 25:03.280
+What was the general setup.
+
+25:03.440 --> 25:05.230
+Remember we had the properties.
+
+25:05.230 --> 25:07.110
+So in my case I'm just gonna say all of them.
+
+25:07.290 --> 25:12.260
+So on the properties and then I'm going to be looking for some kind of timing and the key here is very
+
+25:12.260 --> 25:12.960
+simple.
+
+25:13.070 --> 25:18.020
+I'm gonna say Here zero point three and all throughout the document we're all gonna be using our transitions
+
+25:18.410 --> 25:23.750
+we will going to use the zero point three if we would like to change something else we can just come
+
+25:23.750 --> 25:28.880
+here and change the value and that way we're going to access it all throughout the document or we can
+
+25:28.880 --> 25:34.100
+rewrite the new transition but let's say if we're using transition and like I don't know six places
+
+25:35.190 --> 25:40.020
+I do find it much more easier if we just set it up in one place you know variables you technically don't
+
+25:40.020 --> 25:44.700
+have to do it but I'd just like to do it that way and then let's write Easy in and out.
+
+25:44.700 --> 25:49.290
+Remember this was by default ease you can maybe write linear.
+
+25:49.290 --> 25:52.690
+This could also probably work but I'm just gonna go with ease in and out.
+
+25:53.100 --> 25:59.280
+And last but not least as far as our variables are concerned are gonna be letter and then we're looking
+
+25:59.280 --> 26:04.560
+for spacing and again this is just my naming and four letter spacing remember we had some kind of values
+
+26:04.950 --> 26:10.350
+in my case I would like to use zero point five grams and now we set up the letter spacing for the whole
+
+26:10.350 --> 26:11.020
+document.
+
+26:11.130 --> 26:17.270
+Now we're not using honestly this value right now but this should generally help us out whenever we
+
+26:17.270 --> 26:21.440
+are working with any kind of document to set up these variables.
+
+26:21.480 --> 26:26.640
+Now the moment I'm gonna start using the variables I will gonna head over back here I will gonna cover
+
+26:26.640 --> 26:32.760
+again what we did and why we did and maybe that might be annoying for somebody but in my case I think
+
+26:32.760 --> 26:37.770
+that kind of solidifies the knowledge that we had but in general this would be our shut up and now we
+
+26:37.770 --> 26:39.150
+can start working on our project.

@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.660 --> 00:08.140
+Okeydokey we have one decent sized image and one very big oversized image.
+
+00:08.140 --> 00:13.880
+So how we can render them exactly the same size or at least the second one.
+
+00:13.990 --> 00:15.420
+Smaller than it is right now.
+
+00:16.490 --> 00:22.190
+Now before we do anything I will right away I want to tell you that while this may be the fastest way
+
+00:22.790 --> 00:28.610
+however you need to understand it later on you're going to learn better ways that some of them are going
+
+00:28.610 --> 00:34.430
+to involve success and some of them are just going to involve cropping the image before we even render
+
+00:34.430 --> 00:39.190
+it but I'm going to get into this in the next video in this video.
+
+00:39.290 --> 00:45.070
+I would just like to show you how we can use attributes the email attributes in order to do that.
+
+00:45.810 --> 00:47.480
+So first of all let's test that out.
+
+00:47.480 --> 00:48.830
+How big is the image.
+
+00:49.340 --> 00:55.280
+So let's say for the Udemy one once we Click on image notice the image is going to be rendered and there's
+
+00:55.280 --> 00:56.500
+many ways how we can check it.
+
+00:56.510 --> 01:02.800
+But first this one probably here you notice this is gonna be two hundred fifty nine by one hundred and
+
+01:02.800 --> 01:03.980
+ninety four.
+
+01:04.010 --> 01:07.680
+So those would be the pixels then for the left of our skin.
+
+01:07.720 --> 01:09.040
+This is going to be bigger.
+
+01:09.140 --> 01:13.540
+We have thousand by six hundred and sixty.
+
+01:14.210 --> 01:18.300
+So we already know that we would be looking for something like this where we have to have hundred fifty
+
+01:18.310 --> 01:19.760
+nine by one ninety four.
+
+01:20.660 --> 01:28.130
+Now whenever we're working with an image not all so we are getting the source attribute and nailed.
+
+01:28.160 --> 01:30.620
+We also have an option of height and the way.
+
+01:31.180 --> 01:37.010
+And again this is gonna be very straightforward so as I start typing notice again we're getting a suggestion
+
+01:37.380 --> 01:39.700
+that we're going to be looking for the height attribute.
+
+01:39.770 --> 01:45.680
+Now also like I said we have with now if we're gonna type with a automatically is going to adjust the
+
+01:45.680 --> 01:46.520
+height.
+
+01:46.580 --> 01:49.100
+So with this probably even going to be the fastest one.
+
+01:49.640 --> 01:55.770
+So if I'm gonna say let's say two hundred and sixty because I believe that the first one was two hundred
+
+01:55.770 --> 02:01.040
+fifty nine and you know what I maybe wouldn't want to do this with the demi logo because this is already
+
+02:01.040 --> 02:02.290
+rendered correctly.
+
+02:02.510 --> 02:03.380
+So my apologies.
+
+02:03.380 --> 02:10.650
+Let's get rid of the with the demi logo and let's navigate through the left up logo or laptop image.
+
+02:10.760 --> 02:15.450
+Let's be more precise and let's add here that we would want with off 260.
+
+02:15.940 --> 02:17.810
+Well let's notice what happened.
+
+02:17.870 --> 02:22.080
+Sure enough I'm getting my with an eye right away like I said the height was adjusted.
+
+02:22.340 --> 02:25.870
+Now if you still like to readjust the height specifically.
+
+02:25.870 --> 02:29.670
+So let's say the height in my case would be something like a hundred notice.
+
+02:29.690 --> 02:34.430
+Now I'm just going to make sure that the height this hundred but again if we're going to get rid of
+
+02:34.430 --> 02:41.870
+this then obviously we're all just going to have the width and height is gonna be adjusted automatically.
+
+02:41.870 --> 02:49.400
+And this is how we can basically the fastest way we can readjust the height and the width on the image
+
+02:49.730 --> 02:50.720
+in page email.

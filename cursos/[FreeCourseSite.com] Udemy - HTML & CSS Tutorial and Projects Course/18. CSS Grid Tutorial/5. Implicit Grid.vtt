@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.520 --> 00:01.190
+Excellent.
+
+00:01.210 --> 00:06.730
+Once we know the very very basics that in order to start working would see us as good.
+
+00:06.850 --> 00:13.420
+We're going to have to have some kind of parent container as well as children and in order to start
+
+00:13.420 --> 00:20.410
+using these things as grid layout we need to head over to a parent container and use the display properly
+
+00:20.560 --> 00:24.520
+set it equal to grid and then come up with our columns.
+
+00:24.520 --> 00:27.890
+So the first column is gonna be let's say some kind of value.
+
+00:28.060 --> 00:33.790
+And if we would want to have a second column we just have a space and then value for the second column
+
+00:34.170 --> 00:36.680
+and a property for that is grid.
+
+00:36.730 --> 00:38.080
+Template columns.
+
+00:38.110 --> 00:40.400
+Now let's look at the implicit grid.
+
+00:40.420 --> 00:47.410
+Now I know it sounds mouthful but what it means is that we're just going to show how smart is C says
+
+00:47.410 --> 00:48.070
+grid.
+
+00:48.130 --> 00:54.380
+So let's imagine this scenario we have right now two items two children items and two columns.
+
+00:54.490 --> 00:56.620
+And that's the reason why we have this particular layer.
+
+00:57.040 --> 01:02.820
+But let's imagine this scenario where I'm just gonna copy and paste and I'm going to say you know what.
+
+01:02.830 --> 01:04.100
+There's going to be more items here.
+
+01:04.750 --> 01:12.200
+So number three cell number four cell number five and you guessed it cell number six.
+
+01:12.310 --> 01:18.260
+And the moment we it notice something really really cool where US says grid is smart.
+
+01:18.370 --> 01:19.240
+Yes as grid sees.
+
+01:19.260 --> 01:19.950
+Okay.
+
+01:20.050 --> 01:27.070
+So you wanted to have two columns one for two hundred pixels and one for 300 pixels but you keep on
+
+01:27.160 --> 01:33.370
+adding the items you not only have the item one and number two you have all the way to the six.
+
+01:33.370 --> 01:39.730
+So what I'm going to do this as grid is saying well I'm going to keep on creating rows that match the
+
+01:39.730 --> 01:44.710
+layout that you wanted you wanted to have a two column layout which you keep on adding the items.
+
+01:44.710 --> 01:50.830
+So what I'm gonna do is I'm going to keep on adding rows and that is something called implicit grid
+
+01:51.110 --> 01:56.900
+where explicitly currently we haven't covered even or added the values for ourselves.
+
+01:56.940 --> 01:58.780
+Don't worry we're going to cover that.
+
+01:59.140 --> 02:01.440
+But currently we don't have the values for the rows.
+
+02:01.630 --> 02:06.010
+We don't have how many rows we don't have the actual width of the rows.
+
+02:06.010 --> 02:12.940
+However what happens would see us as grid is if we specifically say what kind of columns or how many
+
+02:12.940 --> 02:17.620
+columns we would want see says grid is going to create a layout for us.
+
+02:18.010 --> 02:25.210
+So in our scenario if let's say we change our minds and if we say OK you know what I would want to have
+
+02:25.270 --> 02:27.630
+a one column layout see as good as like.
+
+02:27.950 --> 02:28.350
+OK.
+
+02:28.390 --> 02:34.680
+So you wanted one column land so all your items were going to be stacked in one column.
+
+02:34.690 --> 02:38.360
+Now if I changed my mind again and if I say OK you know what.
+
+02:38.380 --> 02:42.250
+I wouldn't want one column layout but I would want a three column layer.
+
+02:42.490 --> 02:44.030
+So what happens right now.
+
+02:44.080 --> 02:50.470
+As good is again smart enough it seems okay here are your three columns that then in this case you have
+
+02:50.470 --> 02:57.340
+only six items so I can fit them into rows so that way we have only two row and notice how we don't
+
+02:57.340 --> 03:00.600
+have any extra empty space or anything like that.
+
+03:00.640 --> 03:07.870
+Now if we're going to add even more item let's say a cell number seven notice we're going to be back
+
+03:07.870 --> 03:14.510
+to a three year rollout because now sister's grid says Okay you wanted a three column layer you got
+
+03:14.510 --> 03:17.590
+it you have three column layout but then you have seven items.
+
+03:17.610 --> 03:19.660
+So I cannot fit them anymore into rows.
+
+03:19.930 --> 03:26.500
+So what I'm going to do again I'm going to create a implicit grid where I'm going to add one more new
+
+03:26.500 --> 03:29.030
+extra row that you didn't specifically happen.
+
+03:29.200 --> 03:34.930
+So hopefully you get the gist that I can add let's say five thousand or seven million items and they
+
+03:35.050 --> 03:41.290
+are going to be structured exactly like I wanted within my great template columns and this is something
+
+03:41.290 --> 03:43.180
+called implicit grid.

@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.420 --> 00:06.900
+Now before we proceed with the rest of the tutorial you know what I would like to take a detour and
+
+00:06.900 --> 00:12.210
+in fact change some color values because I believe we're going to be able to see a little bit better
+
+00:12.540 --> 00:14.790
+as we're working with our syntax.
+
+00:14.790 --> 00:21.360
+So I apologize but we're gonna have to head over back to style see assess and add some hex colors to
+
+00:21.360 --> 00:22.440
+our cells.
+
+00:22.440 --> 00:27.040
+Now what I'm going to do right now is in fact create multiple selectors.
+
+00:27.250 --> 00:29.810
+So we're gonna say something like that.
+
+00:29.850 --> 00:32.380
+Now I'm only going to add colors to our five selves.
+
+00:32.700 --> 00:40.920
+So let's type your cell and then we're going to go in fact with one then two and you get the gist three
+
+00:41.900 --> 00:44.560
+four and five.
+
+00:44.930 --> 00:50.900
+So these ones will be generic and I'm just gonna leave them at the end because I might add some cells
+
+00:50.900 --> 00:56.240
+and might remove them but I would want some basic wants to have some kind of colouring because I believe
+
+00:56.240 --> 00:59.580
+it's going to be easier for us to work with them right now.
+
+00:59.700 --> 01:04.880
+So let's roll back to style C assess like I said and maybe let's increase the border.
+
+01:04.880 --> 01:09.440
+So I'm going to go with let's say three pixels just so we can see more clear.
+
+01:09.440 --> 01:11.350
+Where are our items now.
+
+01:11.400 --> 01:12.540
+That's number one.
+
+01:12.620 --> 01:16.510
+And then also I'm gonna go with color of white.
+
+01:16.640 --> 01:25.160
+So f f f and like I said let's add some coloring so let's say Cell Number one he is going to have a
+
+01:25.160 --> 01:29.920
+background and I'm gonna go with the same color that we used for Flex box sartorial.
+
+01:30.290 --> 01:35.620
+So let's go with 5 8 1 F 1 8.
+
+01:35.780 --> 01:41.040
+So and then what I'm going to do right now is in fact copy and paste it.
+
+01:41.150 --> 01:42.450
+I need five of them.
+
+01:42.500 --> 01:47.260
+So now I do have them and let's just change first through all these selectors.
+
+01:47.300 --> 01:54.710
+So three four and five and now we're going to change the actual colors as well.
+
+01:54.710 --> 02:02.120
+So let's go with f 0 a 2 0 2 0 2.
+
+02:02.450 --> 02:05.870
+Well that is going to be my yellow 1 and 9.
+
+02:05.870 --> 02:07.850
+Let's also change this one to orange.
+
+02:08.450 --> 02:19.160
+So the 9 5 D 3 9 D 3 9 something like that that is going to be my orange one.
+
+02:19.280 --> 02:27.560
+Then we have one more let's say blue one or two see 5 9.
+
+02:27.710 --> 02:29.540
+Well that is going to be my blue one.
+
+02:29.790 --> 02:33.450
+And then let's say the fifth is going to be green.
+
+02:33.630 --> 02:40.760
+So hashtag f or M's are not f just 5 1 CB and 2 0.
+
+02:40.960 --> 02:45.930
+Now again I apologize I probably should have done this when we were doing the setup but as I started
+
+02:45.930 --> 02:51.750
+working with my cells I just noticed that I think this is going to help us a little bit more where we
+
+02:51.750 --> 02:56.900
+have different coloring for ourselves so that way we can see more clearer.
+
+02:57.030 --> 03:00.000
+Well how our grid is in fact performing.
+
+03:00.040 --> 03:00.310
+All right.
+
+03:00.630 --> 03:04.610
+So once we have added the colors now we're ready to move on to our next topic.

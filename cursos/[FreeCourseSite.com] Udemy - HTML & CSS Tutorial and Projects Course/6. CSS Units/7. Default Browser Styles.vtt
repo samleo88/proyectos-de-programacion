@@ -1,0 +1,466 @@
+WEBVTT
+
+00:00.510 --> 00:05.910
+At this point I have mentioned default browser styles far too many times without going into too much
+
+00:05.910 --> 00:06.740
+detail.
+
+00:06.900 --> 00:12.690
+So why don't we change that and see what default browser styles are all about as well as getting our
+
+00:12.690 --> 00:20.510
+feet wet with Google dev tools which is an awesome tool to test and examine and to debug our code.
+
+00:20.610 --> 00:26.820
+Now first things first I would like to get rid of the content in the stuff success so it can just delete
+
+00:26.850 --> 00:28.170
+these seconds here.
+
+00:28.320 --> 00:29.500
+We can save it.
+
+00:29.500 --> 00:34.510
+We can also head over to indexation email and get rid of both of these Divs.
+
+00:34.530 --> 00:43.350
+Now let's write just a simple heading one that would say default browser styles or something like this.
+
+00:43.350 --> 00:49.040
+And once we have our having one with some generic text now let us decide what we're gonna do.
+
+00:49.140 --> 00:52.320
+Well we would like to see where our default browser styles.
+
+00:52.500 --> 00:57.930
+We can do this on a side browser window here on a small one but I'm gonna do it on a bigger browser
+
+00:57.930 --> 01:03.510
+window because I think it's gonna be easier for us to see and in order to see default browsers as an
+
+01:03.510 --> 01:10.200
+action we would need to head over to our dev tools to the Google dovetails now in order to do that we
+
+01:10.200 --> 01:16.380
+would need to either use the right click and notice we would have to come to inspect or we can go the
+
+01:16.380 --> 01:21.780
+longer out where we are right clicking or I'm sorry just clicking on this little icon then we're looking
+
+01:21.780 --> 01:27.270
+for more tools and within the more tools we have the dev tools and nor is they even give you the shortcut
+
+01:27.300 --> 01:27.660
+for that.
+
+01:28.080 --> 01:33.480
+So again doesn't really matter which option you choose as long as you get to this window.
+
+01:33.480 --> 01:37.170
+Now I know this might look a little bit scary in the beginning.
+
+01:37.170 --> 01:40.820
+I trust you and I really feel your pain.
+
+01:40.890 --> 01:46.110
+However please don't be scared of this especially right now because we're not gonna be covering all
+
+01:46.110 --> 01:47.760
+these tabs or anything like that.
+
+01:47.910 --> 01:50.720
+We're not working with JavaScript so we don't need a console.
+
+01:50.790 --> 01:54.070
+We're not going to be working with redux or we don't care about.
+
+01:54.360 --> 01:57.630
+What we will gonna be working is the elements and you know what.
+
+01:57.630 --> 02:02.760
+Let me just zoom in a little bit because I think that way we're going to be able to see everything better.
+
+02:02.810 --> 02:03.220
+Okay.
+
+02:03.300 --> 02:04.050
+So far so good.
+
+02:04.050 --> 02:05.660
+So we have our element.
+
+02:05.880 --> 02:09.780
+Now what do you see here in this pain or screen or how are you call it.
+
+02:10.260 --> 02:14.160
+What do you see here has the text or has the content.
+
+02:14.160 --> 02:19.320
+Well if we're looking correctly we see the doctor so that I already should bring us the bell.
+
+02:19.470 --> 02:24.780
+Then we also see the heading One hand unless I'm half asleep right now.
+
+02:24.780 --> 02:27.900
+I think this is our heading one not medical check.
+
+02:28.340 --> 02:29.240
+I think it is yes.
+
+02:29.240 --> 02:33.720
+So we have the heading One and that actually matches that we have in our duck.
+
+02:34.440 --> 02:40.260
+So basically what we see or hear are the elements that are going to be in our document.
+
+02:40.260 --> 02:44.960
+So everything that we have in a document we also see here on this screen.
+
+02:45.060 --> 02:50.520
+Now I can open this up and notice we have the head element obviously we have the Met attacks as well
+
+02:50.520 --> 02:51.470
+as we have the link.
+
+02:51.720 --> 02:58.200
+So so far so good as well as we have the actual body now within the body is where we have our heading
+
+02:58.200 --> 02:59.540
+one.
+
+02:59.730 --> 03:00.480
+So far so good.
+
+03:00.870 --> 03:05.210
+So if I'm going to click here on this heading one what do you see here on the right hand side.
+
+03:06.110 --> 03:11.870
+Well we see that there is going to be syntax that we already have covered it quite a lot of times which
+
+03:11.870 --> 03:15.780
+is the assistant next we have the currently braces and then we have to stop.
+
+03:16.590 --> 03:21.310
+But what about the stylus display block that doesn't ring a bell.
+
+03:21.320 --> 03:23.530
+We didn't write that font size.
+
+03:23.540 --> 03:27.280
+Well we know the property but I don't think we included knock.
+
+03:27.320 --> 03:28.290
+Well maybe I'm wrong.
+
+03:28.460 --> 03:30.360
+Let's head over back to style is this.
+
+03:30.440 --> 03:32.630
+Make sure that I did have my coffee.
+
+03:32.640 --> 03:35.070
+Know we did not have any of these styles.
+
+03:35.120 --> 03:37.460
+No I'd see the clean style sheet.
+
+03:37.490 --> 03:42.320
+There's nothing here as well as everything you say so it's not like we added them and maybe it didn't
+
+03:42.320 --> 03:43.970
+save them or something like that.
+
+03:44.000 --> 03:45.560
+So what's happening here.
+
+03:45.560 --> 03:52.700
+Well you see for every browser in or just the display heading one more any kind of Asian email it needs
+
+03:52.700 --> 03:54.340
+to have some default browser stuff.
+
+03:54.920 --> 03:55.880
+Otherwise think about it.
+
+03:56.270 --> 03:57.630
+So I'm gonna write something.
+
+03:57.800 --> 04:01.880
+We will then need to have some type of C to display it right.
+
+04:01.890 --> 04:04.700
+Otherwise how we're going to displayed on the page.
+
+04:04.700 --> 04:08.800
+So we're going gonna write the heading One and then what is just gonna magically appear.
+
+04:08.840 --> 04:12.650
+So this is where the default browser styles are coming to play.
+
+04:12.890 --> 04:16.130
+Now again we see quite a few of them here.
+
+04:16.130 --> 04:22.310
+And one thing about them is that as you're gonna be heading through let's say your dev tools if ever
+
+04:22.310 --> 04:24.670
+you're going to notice this user agent style sheet.
+
+04:24.810 --> 04:27.990
+That means that that comes from default browser stuff.
+
+04:28.100 --> 04:32.540
+Now there's gonna be cases where we're all going to override them just like we did in a previous video
+
+04:32.840 --> 04:34.790
+where I used some preset.
+
+04:34.790 --> 04:37.830
+So I got rid of some margins that come by default.
+
+04:37.880 --> 04:40.180
+Now in most cases rose is gonna use them.
+
+04:40.250 --> 04:42.780
+So that's the thing if we're using let's say heading one.
+
+04:43.010 --> 04:45.780
+So we're gonna have by default font size.
+
+04:45.830 --> 04:46.590
+Ms.
+
+04:46.730 --> 04:51.920
+Now unless you override this in your sisters you're just gonna use that you're just gonna assume that
+
+04:52.250 --> 04:55.940
+all the heading ones that you're going to have are are gonna have this kind of contact.
+
+04:56.450 --> 04:57.830
+So that's all there is to it.
+
+04:58.250 --> 05:03.300
+So it comes with some default browser size some of them you might overwrite it some of them we want
+
+05:03.350 --> 05:08.660
+some of them you're just can use it like for example again let's say font weight ball unless you override
+
+05:08.660 --> 05:12.220
+this for your heading ones then they are just gonna be bold.
+
+05:12.230 --> 05:13.460
+Now let's test something out.
+
+05:13.900 --> 05:17.810
+I'm gonna head over back to index and shame Schimmel and we're gonna say that you know what.
+
+05:17.870 --> 05:23.330
+Not only there's going to be hitting one with different browser styles let's create a hearing tool in
+
+05:23.390 --> 05:34.360
+heading to we're gonna say Google Google the chrome let's let's use chrome chrome dev tools something
+
+05:34.360 --> 05:37.330
+like this are awesome.
+
+05:37.340 --> 05:43.420
+Let's read this over here and heading to but in this case we're going to head over to ELC users and
+
+05:43.420 --> 05:45.390
+actually add some styles.
+
+05:45.430 --> 05:50.530
+Now what we're gonna add again going be very simple something we have done already before color is gonna
+
+05:50.530 --> 05:51.460
+be red.
+
+05:51.460 --> 05:57.310
+And let's say font size is gonna be I don't know what we can do maybe 60 pixels something like this
+
+05:57.400 --> 06:02.150
+again doesn't really matter what you write as long as you add some type of style.
+
+06:02.320 --> 06:04.690
+Again we're gonna head over back to our dev tools.
+
+06:04.780 --> 06:06.400
+Notice something interesting.
+
+06:06.400 --> 06:13.090
+So I have my heading one and if I would like to check any element as I'm hovering over the element then
+
+06:13.440 --> 06:16.300
+already dev tools are telling me some stuff about them.
+
+06:16.330 --> 06:20.550
+So from the body let's say chose over here to the width and height.
+
+06:20.560 --> 06:25.520
+So there's gonna be some width and height in the pixels as well as we have an option here.
+
+06:25.660 --> 06:30.420
+If let's say we click on them then on the right and it's being displayed.
+
+06:30.660 --> 06:33.160
+So if I click on them again it shows over here.
+
+06:33.160 --> 06:37.720
+If I click on any one as well this is being displayed on the right hand side.
+
+06:37.720 --> 06:44.340
+Now it's also nifty about Google dev tools is the fact that I can just select the element so have this
+
+06:44.330 --> 06:46.590
+option of just clicking on it on the Lara.
+
+06:46.990 --> 06:51.010
+And then as I'm hovering over the document I can just select wherever I want.
+
+06:51.070 --> 06:55.690
+Now that's gonna come in handy especially if you have something really nested which is going to happen
+
+06:55.690 --> 06:58.240
+later on as we're working with Project.
+
+06:58.240 --> 07:03.610
+Please understand that right now we have two elements so that's probably going to be no case in your
+
+07:03.610 --> 07:04.510
+scenario.
+
+07:04.510 --> 07:08.250
+Whenever you're working with anything that has to do with H name LCROSS.
+
+07:08.620 --> 07:13.750
+So again this is going to be very nifty later on for you whenever you can just point to whatever element
+
+07:13.780 --> 07:18.700
+you would like and notice it pretty much shows me that there going to be having one or two and I can
+
+07:18.700 --> 07:19.400
+just click on it.
+
+07:19.480 --> 07:23.400
+And again this is gonna show me on the right hand side what I have.
+
+07:23.460 --> 07:27.640
+You notice something interesting and I can you know what I can actually maybe make this a little bit
+
+07:27.640 --> 07:28.390
+bigger.
+
+07:28.450 --> 07:34.900
+I have the heading to but in this case not only I have the default styles that I'm getting again from
+
+07:34.900 --> 07:35.710
+the browser.
+
+07:35.890 --> 07:37.280
+I also have our own stuff.
+
+07:37.940 --> 07:40.300
+And here we see obviously the styles.
+
+07:40.340 --> 07:42.640
+Says now what is style CSX.
+
+07:43.030 --> 07:47.840
+Well the last time I checked it was actually our story our CSF stash.
+
+07:48.160 --> 07:51.880
+So this tells me where I'm getting these tasks from now.
+
+07:51.970 --> 07:59.050
+What's also really really nifty is the fact that we can test it in a browser now be aware though whatever
+
+07:59.050 --> 08:04.330
+we're gonna write here is not gonna stay in our actual success meaning the moment we're going to refresh
+
+08:04.330 --> 08:06.580
+the page all the changes are gonna go away.
+
+08:06.610 --> 08:11.900
+But what we can do in dev tools is we can test something out.
+
+08:12.190 --> 08:18.490
+So let's say I don't like the red color I thought I did but in fact I don't know what we can do.
+
+08:18.530 --> 08:21.630
+Well I can head over here I can click on it and you know what.
+
+08:21.670 --> 08:22.590
+Not red.
+
+08:22.600 --> 08:25.930
+Much less red blue I'm sure now this is blue.
+
+08:25.930 --> 08:30.550
+Now again the moment I'm gonna refresh the page it's gonna go back to the red because this is what we're
+
+08:30.550 --> 08:36.280
+getting from the style screen but we can change this in the browser and that way we can test it out
+
+08:36.820 --> 08:42.730
+now again for this kind of scenario two elements quite realistically you're probably not gonna be checking
+
+08:42.730 --> 08:48.010
+anything here you're gonna write everything in this process as your project grows bigger hill there's
+
+08:48.010 --> 08:53.350
+gonna be cases where you just want to hop over to dev tools quickly check something whether that makes
+
+08:53.350 --> 08:58.460
+sense or maybe you're gonna be debugging something you're gonna be checking for these default browsers
+
+08:58.470 --> 09:03.270
+now because what's gonna happen is there's going to be cases especially with layout.
+
+09:03.340 --> 09:08.120
+Trust me with layout you're gonna have a pain where you're going to be looking for something you're
+
+09:08.170 --> 09:11.270
+gonna be like Hey listen I added some margin some padding.
+
+09:11.290 --> 09:13.820
+And again these are things we haven't covered yet and we will.
+
+09:13.960 --> 09:19.450
+But I added this biting has added in margin what is happening why this is not working and this is where
+
+09:19.450 --> 09:20.680
+it's really help.
+
+09:20.680 --> 09:23.140
+Again at the moment scary.
+
+09:23.140 --> 09:23.860
+Gotcha.
+
+09:23.860 --> 09:24.780
+I understand.
+
+09:24.880 --> 09:32.230
+No problem but I would strongly encourage you to at least try to start using it in a sense.
+
+09:32.230 --> 09:34.280
+Just don't dismiss it and don't say okay.
+
+09:34.290 --> 09:35.400
+It looks scary right now.
+
+09:35.400 --> 09:36.400
+So I'm not gonna touch it.
+
+09:36.400 --> 09:42.820
+I don't ever want to know about them because they will gonna come really handy and as far as the default
+
+09:42.820 --> 09:47.530
+browser styles come and go then there's gonna be styles that we will gonna overwrite.
+
+09:47.530 --> 09:51.280
+Like I said and there's gonna be styles that we're just gonna use it and we're gonna be fine with.
+
+09:51.640 --> 09:53.110
+And that's the basic scenario.

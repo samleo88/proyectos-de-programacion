@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.240 --> 00:00.890
+Stunning.
+
+00:00.930 --> 00:05.480
+We officially know the basics and general idea behind transition.
+
+00:05.610 --> 00:11.670
+Why don't we take a look at the transition delay property as well as how we can write a shorthand because
+
+00:11.670 --> 00:15.020
+otherwise you might find it annoying if you're going to have 50 properties.
+
+00:15.150 --> 00:20.370
+If you're going to have to specifically name all of them in your transition property Well first and
+
+00:20.370 --> 00:25.300
+foremost let's go with delay since I think this is gonna be as straightforward as it gets.
+
+00:25.830 --> 00:31.850
+So again we're going to write transition so we're saying transition where are you delay.
+
+00:32.040 --> 00:33.950
+And then we're saying for some kind of delay.
+
+00:34.050 --> 00:36.640
+Now I don't know how long you would like to wait.
+
+00:36.740 --> 00:41.130
+Do you want me to talk for nothing for 10 seconds or let's say 30 seconds.
+
+00:41.130 --> 00:42.880
+Now at the moment I'm going to add this.
+
+00:42.930 --> 00:46.110
+What is going to happen is that this is gonna take three seconds.
+
+00:46.230 --> 00:51.600
+So this would happen over three seconds and now only then the changes are going to take place.
+
+00:51.600 --> 00:53.270
+Now as I'm hovering I'm going to wait.
+
+00:53.280 --> 00:54.450
+Wait wait wait wait.
+
+00:54.450 --> 00:58.680
+And then after three seconds my transition takes place again.
+
+00:58.680 --> 01:02.510
+Nothing really to add as straightforward as it gets.
+
+01:02.520 --> 01:05.960
+This is just going to delay our transition so far so good.
+
+01:05.960 --> 01:11.460
+All right about like I said if this gets really annoying if you have multiple properties that you would
+
+01:11.460 --> 01:17.760
+like to change or using this is gonna be the best syntax where we just need to add a property the duration
+
+01:17.760 --> 01:23.730
+delay and this is where the image comes into play meaning remember when we were covering the background
+
+01:23.730 --> 01:31.070
+image eventually we came up with a really neat and nifty syntax where we just wrote all our values so
+
+01:31.070 --> 01:33.640
+we can do something very similar over here.
+
+01:33.640 --> 01:35.400
+Well first of all let me delete this.
+
+01:35.490 --> 01:37.080
+Say we're gonna get rid of this.
+
+01:37.150 --> 01:42.200
+Then I also like to probably get rid of this however because otherwise this might be a little bit confusing
+
+01:42.200 --> 01:42.850
+to you.
+
+01:42.920 --> 01:45.680
+Let's say that we only going to be working with our third year.
+
+01:46.010 --> 01:47.610
+Let's just leave the other two.
+
+01:48.050 --> 01:51.920
+And we're going to copy and paste it and we're gonna say that we're gonna be changing two things as
+
+01:51.920 --> 01:54.420
+we're hovering border radius and background.
+
+01:54.650 --> 02:00.110
+But what I would like to understand if we can add anything over here as long as we are following the
+
+02:00.140 --> 02:03.420
+proper syntax not the proper syntax would be like this.
+
+02:03.470 --> 02:08.940
+We're going to first have the transition then we're going to have to write the name of the transition.
+
+02:09.050 --> 02:14.560
+So let's say in our case or I'm sorry the name of the property we're gonna write the background.
+
+02:14.650 --> 02:21.080
+So that's gonna be our first thing and then we're gonna be looking for how the transition is gonna take
+
+02:21.080 --> 02:21.740
+place.
+
+02:21.740 --> 02:24.320
+So how long the transition duration.
+
+02:24.520 --> 02:29.270
+In our case we're gonna say well this is gonna be three second and then we have an option of adding
+
+02:29.570 --> 02:31.550
+if we would want to have some kind of delay.
+
+02:32.000 --> 02:35.430
+So in my case let's say I'm gonna be looking for five seconds.
+
+02:35.570 --> 02:39.590
+Now the moment we're gonna say it first of all please understand that this is gonna be option.
+
+02:39.590 --> 02:43.070
+What you're really really for shortening it is gonna be in these three seconds.
+
+02:43.310 --> 02:48.180
+You know just to make it actually a little bit more understanding I'm going to write a way at it.
+
+02:48.230 --> 02:52.790
+And now what happens is that the background is gonna change place in three seconds.
+
+02:52.790 --> 02:57.950
+Now I'm still having my border radius so maybe let me come in this out because this might be a little
+
+02:57.950 --> 02:58.990
+bit confusing.
+
+02:59.030 --> 03:03.360
+So the background is gonna take change in three seconds.
+
+03:03.380 --> 03:08.660
+Again something really similar we already covered but this would be the shorthand.
+
+03:08.720 --> 03:09.850
+So far so good.
+
+03:09.890 --> 03:15.210
+Then we have an optional one and that is gonna be how the transition is gonna take place but we are
+
+03:15.210 --> 03:16.880
+going to cover that in the next video.
+
+03:16.880 --> 03:18.860
+So for now I'm just going to leave this blank.
+
+03:18.860 --> 03:21.400
+But we also have an option of delay.
+
+03:21.770 --> 03:27.440
+So let's say in this case I'm writing the delay and then I'm saying the delay is gonna take two seconds.
+
+03:27.440 --> 03:33.230
+Now first as I'm hovering we're going to wait for two seconds and then the background is gonna be changing
+
+03:33.560 --> 03:35.770
+over the period of three seconds.
+
+03:35.780 --> 03:36.890
+So far so good.
+
+03:36.920 --> 03:37.700
+What else.
+
+03:37.700 --> 03:41.810
+Well if I would want the border radius I can do the same thing and say border.
+
+03:42.320 --> 03:44.780
+And I have the same properties here.
+
+03:44.840 --> 03:49.010
+You want to write the same ones you can write the same ones where we can say I don't know the border
+
+03:49.010 --> 03:55.120
+radius is gonna take place our five seconds as well as the delay is gonna be out on one second.
+
+03:55.130 --> 04:00.250
+Something like this doesn't really matter as long as you make sure that these properties are correct.
+
+04:00.250 --> 04:01.780
+Now let me uncommon this.
+
+04:01.910 --> 04:07.490
+Now we're gonna wait for two seconds for the background to change and then after one second I'm gonna
+
+04:07.490 --> 04:10.590
+have my border radius which is gonna take five seconds.
+
+04:10.700 --> 04:12.980
+Again something we already have covered.
+
+04:13.220 --> 04:20.240
+What's really nifty though if we would like to have the same duration the same delay and all that.
+
+04:20.660 --> 04:24.410
+We can write even bigger shorter where we just write like this.
+
+04:24.410 --> 04:29.770
+I'm going to say first of all all the properties and this is a syntax so don't write it your own.
+
+04:29.780 --> 04:35.120
+This needs to be in this word for all then we're saying how the transition duration is going to look
+
+04:35.120 --> 04:40.680
+like and in our case I don't know we can say for just for change again this is going to be four seconds
+
+04:41.220 --> 04:43.780
+and delay is going to be I don't know five seconds.
+
+04:43.800 --> 04:45.400
+Again this is gonna be optional.
+
+04:45.570 --> 04:49.010
+So you might not add it you might add it doesn't really matter.
+
+04:49.110 --> 04:54.180
+And then I'm going to first I'll wait for this day to appear because that's gonna be the thing when
+
+04:54.210 --> 04:57.510
+this pretty much this transition right now is taking place.
+
+04:57.540 --> 04:59.430
+Now the moment is there is gonna appear.
+
+04:59.430 --> 05:00.700
+Notice what's gonna happen.
+
+05:00.730 --> 05:03.480
+So as I'm hovering now we're gonna wait for five seconds.
+
+05:03.480 --> 05:06.570
+So we're waiting waiting waiting waiting waiting.
+
+05:06.780 --> 05:11.430
+And the moment our five seconds are up then both of these things are happening.
+
+05:11.430 --> 05:17.660
+The border radius as well as the background and both of them take change over force seconds of time.
+
+05:17.700 --> 05:23.670
+Now this is how we can work with delays as well as this is all we can work with the actual shorthand
+
+05:24.000 --> 05:25.440
+for their transition property.

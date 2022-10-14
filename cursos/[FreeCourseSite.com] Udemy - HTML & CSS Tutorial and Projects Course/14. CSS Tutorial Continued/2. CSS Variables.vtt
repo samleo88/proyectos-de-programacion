@@ -1,0 +1,637 @@
+WEBVTT
+
+00:00.870 --> 00:08.190
+Moving on we have seen says variables a.k.a. custom properties and I can tell you right away I really
+
+00:08.190 --> 00:09.830
+like it as variables.
+
+00:10.020 --> 00:14.490
+I like to use them because they give us a lot of flexibility.
+
+00:14.520 --> 00:20.100
+Now the main point behind the variable would be the fact that we can store the variable and then we
+
+00:20.100 --> 00:22.690
+can reuse it all throughout the docket.
+
+00:22.710 --> 00:28.110
+Not a syntax would be dash dash then the name of the variable and then what kind of value would like
+
+00:28.110 --> 00:29.100
+to hold.
+
+00:29.100 --> 00:34.320
+And then if would like to use it then we're going to have the property and then again syntax would be
+
+00:34.320 --> 00:34.830
+var.
+
+00:34.860 --> 00:36.080
+So that is the syntax.
+
+00:36.090 --> 00:37.760
+So please don't skip it.
+
+00:37.890 --> 00:42.590
+And then here you need to go again with dash dash and the name of that variable.
+
+00:42.600 --> 00:45.610
+Now there's gonna be two types of scopes for the variables.
+
+00:45.610 --> 00:49.440
+There's gonna be the global one where we can use it all throughout the document.
+
+00:49.560 --> 00:52.710
+And now we're going to return back to this selector.
+
+00:52.710 --> 00:57.780
+Remember we're talking about pseudo selectors and in that case we're talking about the route where we
+
+00:57.780 --> 00:59.990
+actually are selecting the HDMI element.
+
+01:00.390 --> 01:05.030
+So that's where we're setting up our variables as well as what we can do it locally.
+
+01:05.040 --> 01:11.760
+Just the one element now in our example again we're going to use mostly the actual colors or I think
+
+01:11.760 --> 01:16.920
+maybe exclusively colors because they all gonna make more sense but just remember you can use it with
+
+01:16.920 --> 01:19.350
+any kind of property and throw out the projects.
+
+01:19.350 --> 01:21.220
+This is exactly what we're gonna do.
+
+01:21.420 --> 01:27.560
+First things first we're gonna head over back to the normal as always we need something to work with.
+
+01:27.570 --> 01:33.060
+So let's say heading and in this case I would like to have the class I'm going to say class and here
+
+01:33.060 --> 01:34.900
+I'm gonna use the same hand in class.
+
+01:34.950 --> 01:39.540
+Now technically we maybe don't need to even add classes we could have done this with having ones but
+
+01:39.920 --> 01:43.850
+you know just because I like adding classes we're just gonna go with classes.
+
+01:44.330 --> 01:44.680
+Okay.
+
+01:44.700 --> 01:48.330
+First one is gonna be hitting one then we're gonna create another paragraph.
+
+01:48.330 --> 01:51.930
+I don't know here the class would be I guess text and let's.
+
+01:52.020 --> 01:56.920
+I don't know have some Lorem text I don't know 20 words I think that's gonna be enough.
+
+01:56.970 --> 01:58.080
+MARGARET So far so good.
+
+01:58.080 --> 02:01.260
+So we have paragraph and one having.
+
+02:01.320 --> 02:02.430
+So what's next.
+
+02:02.430 --> 02:08.410
+Well now I'd like to create a div where the class of main where I'm gonna have another paragraph.
+
+02:08.530 --> 02:12.880
+Now the reason for that is because I would like to show you how we can locally scope this.
+
+02:12.900 --> 02:17.820
+So I'm gonna say first that there's going to be div then we didn't they we're gonna have some class
+
+02:18.280 --> 02:23.220
+and the class name is gonna be made and within this div there's gonna be another paragraph and again
+
+02:23.220 --> 02:28.480
+just because I like adding classes it's a class and this is gonna be equal to the main text.
+
+02:28.920 --> 02:32.670
+And again we can do the same spiel where any words please.
+
+02:32.670 --> 02:33.810
+Thank you Emmett.
+
+02:33.810 --> 02:39.690
+Now moving on after the div there's gonna be two more headings one is gonna be with a class of I don't
+
+02:39.690 --> 02:46.200
+know second I think I'm getting this it doesn't really matter what kind of class names you have or you
+
+02:46.200 --> 02:52.140
+can select later on with headings with the elements selector but I think I'm just gonna stick with the
+
+02:52.140 --> 02:58.500
+actual classes so heading and I can just do it over here like this I can say that first oh yeah this
+
+02:58.500 --> 03:04.200
+is gonna be heading then we're gonna copy and paste this so I'm gonna say one more heading three and
+
+03:04.200 --> 03:09.330
+let's change the class here again just so you can see actually how this is gonna be happening we're
+
+03:09.330 --> 03:15.630
+gonna have third heading now we have the main heading two paragraphs and one of them that is important
+
+03:15.630 --> 03:21.780
+sitting within Dave and then we have the another right now if we're heading back to which email or I'm
+
+03:21.780 --> 03:27.630
+sorry CSX assess then you know what for the time being I'm just gonna collapse this just so we can see
+
+03:27.630 --> 03:33.330
+a little bit better what we're doing and then let's start by selecting the colors because that's usually
+
+03:33.330 --> 03:38.440
+is is gonna be something we're gonna lose you see us as variables we're let's say that you found one
+
+03:38.500 --> 03:46.740
+for the heading some kind of color and I'm going to say color hashtag EF 1 5 0 2 4 so that's gonna be
+
+03:46.740 --> 03:53.550
+my orange color so far so good then also I have an option of using the text remember that was the paragraph
+
+03:54.060 --> 04:03.570
+I'm gonna I'm gonna have the color hashtag three to f f and zero g and that was the green color and
+
+04:03.570 --> 04:05.870
+I would like to also have the four main text.
+
+04:06.060 --> 04:16.680
+So for this guy we're going gonna say main text and then I don't know we can use color hashtag 1 3 1
+
+04:16.680 --> 04:18.570
+3 NFA.
+
+04:18.820 --> 04:20.470
+So I have three colors.
+
+04:20.660 --> 04:24.770
+Now what happens if I want let's say color for a second heading.
+
+04:25.020 --> 04:30.690
+Well you can say you have many options you can either included here with the heading One or you can
+
+04:30.690 --> 04:33.910
+just reuse the color again really pick and choose.
+
+04:33.940 --> 04:40.290
+No Okay I'll listen to your advice and I'm gonna say second heading and I would like to reuse one of
+
+04:40.290 --> 04:41.150
+these colors.
+
+04:41.150 --> 04:43.430
+No let's say this is gonna be this orange one.
+
+04:43.940 --> 04:47.940
+So I cannot again type color or we obviously could have copy and paste it.
+
+04:47.970 --> 04:55.910
+There's no big deal but since I really like typing zero point you far knock what happens later on let's
+
+04:55.920 --> 05:03.210
+say a simple example that I change my color I say you know what I really don't like this orange one
+
+05:03.330 --> 05:06.040
+I would like to have some kind of color okay.
+
+05:06.050 --> 05:07.830
+I mean it's easy I can just change it right.
+
+05:07.830 --> 05:13.980
+You can say well change the I don't know variables say thirty nine and hopefully this is gonna be better.
+
+05:13.980 --> 05:17.230
+So now we're having a darker orange color.
+
+05:17.320 --> 05:22.620
+Okay but what happens when all the instances of this color now in this case obviously we have only two
+
+05:22.620 --> 05:27.900
+of them we have the heading and the second heading what is gonna happen if you're going to have a five
+
+05:27.900 --> 05:28.940
+page website.
+
+05:29.100 --> 05:35.310
+Are you really gonna jump through every instance where you have the color and changes color because
+
+05:35.310 --> 05:41.490
+it might be a little bit annoying or okay you don't have this case but you have another case where by
+
+05:41.490 --> 05:43.130
+mistake you type like this.
+
+05:43.130 --> 05:47.760
+You were typing you were busy you were watching TV or something and then it doesn't even match your
+
+05:47.760 --> 05:48.890
+original color.
+
+05:48.930 --> 05:52.420
+Another mistake or you know what to do.
+
+05:52.420 --> 05:58.380
+So what would be solution and this is where they see us as the variables come into help where we have
+
+05:58.380 --> 06:04.230
+a way of storing these values and then I can just reuse them all throughout my document and they're
+
+06:04.230 --> 06:08.290
+all gonna be stored in one place so there's not going to be any typos.
+
+06:08.310 --> 06:15.420
+That's number one and number two the moment I'm going to change it in my main setting whatever I'm storing
+
+06:15.420 --> 06:20.130
+these values they're all going to be change all throughout my document don't believe me.
+
+06:20.130 --> 06:20.990
+Let me show you.
+
+06:21.050 --> 06:28.130
+And for this you know what I will gonna do a little bit more of actually commenting out because again
+
+06:28.170 --> 06:30.440
+I don't want this to get in our way.
+
+06:30.570 --> 06:31.530
+So I'm gonna save this.
+
+06:31.530 --> 06:34.500
+I mean we already have covered this technically again.
+
+06:34.510 --> 06:37.080
+There's no real point of saving these colors.
+
+06:37.080 --> 06:42.220
+We have color the hex values just in case so you have everything that we're doing in a lecture.
+
+06:42.240 --> 06:44.280
+I'm just gonna keep this in the comments.
+
+06:44.280 --> 06:48.830
+However I will not collapse this because I think this is gonna be easier for us to work.
+
+06:49.110 --> 06:52.500
+Like I said there's gonna be two places where we can store these values.
+
+06:52.590 --> 06:58.240
+One is gonna be locally for some kind of element and the second one is gonna be global.
+
+06:58.290 --> 07:02.480
+Now the global one is gonna make sure that we can access it everywhere.
+
+07:02.580 --> 07:04.960
+And again we all gonna be going back to the room.
+
+07:05.130 --> 07:08.220
+Now if you remember the road was selecting the HDMI home.
+
+07:08.700 --> 07:12.490
+So saying whatever I'm doing right now is I'm working with HDMI out.
+
+07:13.080 --> 07:16.420
+And in this case I would like to start with declaring a variable.
+
+07:16.520 --> 07:24.000
+So I'm going to say primary color and again name this whatever you want the media the orange the Chicagos
+
+07:24.000 --> 07:24.440
+the.
+
+07:24.570 --> 07:26.310
+Again it doesn't really matter.
+
+07:26.310 --> 07:30.840
+Are you gonna name something relay related to the color if you're storing the call value.
+
+07:30.870 --> 07:31.770
+Probably.
+
+07:31.830 --> 07:37.710
+I mean unless you really are a rebel or something you are going to use something that relates to the
+
+07:37.710 --> 07:39.380
+value that are going to be holding.
+
+07:39.390 --> 07:45.690
+So in my case I'm gonna say primary color and then I would say that I would want to store EF 1 5 0 2
+
+07:45.690 --> 07:46.500
+4.
+
+07:46.530 --> 07:49.220
+Now the key here is I can reuse where I would like.
+
+07:49.500 --> 07:51.200
+So again I can say heading.
+
+07:51.360 --> 07:57.630
+And in this case again we're going to use the color property but this is where that change happens because
+
+07:57.630 --> 08:03.840
+instead of using this value I can save are gone that was this index to the ashes and then I'm going
+
+08:03.840 --> 08:05.100
+for my variable.
+
+08:05.100 --> 08:06.960
+Now at the moment we have only one variable.
+
+08:07.260 --> 08:09.040
+So it's kind of hard to mess it up.
+
+08:09.300 --> 08:11.770
+But in general we're gonna have five six seven 10.
+
+08:11.770 --> 08:12.960
+It doesn't really matter.
+
+08:12.960 --> 08:13.780
+Now check this out.
+
+08:14.310 --> 08:20.220
+I have access to this color so if I would one for the second heading no problem just get the same thing
+
+08:20.590 --> 08:26.580
+so I can say like this I can copy and paste it and I believe the class name is second heading correct
+
+08:26.580 --> 08:27.770
+me if I'm wrong.
+
+08:27.870 --> 08:29.840
+Second heading what do you see here.
+
+08:29.970 --> 08:32.960
+And I see this orange color you don't like the orange color.
+
+08:32.970 --> 08:34.310
+No problem.
+
+08:34.500 --> 08:35.220
+Delete this.
+
+08:35.220 --> 08:42.530
+Let's say this is gonna be hashtag 1 3 1 3 F.A. so all my headings are blue.
+
+08:42.660 --> 08:49.170
+I hope you already see how much more beneficial this is than copying pasting each and every line that
+
+08:49.170 --> 08:50.460
+you're working.
+
+08:50.580 --> 08:56.520
+It might seem like no big deal to copy pasted first five times has been working with these silly examples
+
+08:56.970 --> 09:01.350
+but the moment you're gonna start doing some kind of relevant work you can appreciate.
+
+09:01.380 --> 09:04.500
+Yes those variables are a lot and I mean it's a lot.
+
+09:04.790 --> 09:05.400
+OK.
+
+09:05.550 --> 09:07.570
+Now we have this current one covered.
+
+09:07.680 --> 09:12.420
+What about if we create another color and let's say I don't know.
+
+09:12.420 --> 09:13.380
+Or you know what.
+
+09:13.380 --> 09:14.730
+Let me show you another property.
+
+09:14.730 --> 09:18.750
+So since we have been covering everything here with the colors why don't we create another one Why don't
+
+09:18.750 --> 09:24.110
+we say main transition because like I said we can store anything we would like here.
+
+09:24.180 --> 09:30.030
+We already have covered transition so we should be very similar to the shorthand where we have the all.
+
+09:30.030 --> 09:32.030
+So this would be all the properties.
+
+09:32.040 --> 09:38.430
+And I'm gonna say zero point three or four seconds and then the transition is gonna have the transition
+
+09:38.430 --> 09:43.010
+function of linear so transition is gonna happen linearly now okay.
+
+09:43.230 --> 09:46.140
+And what I would like right now is for the second heading.
+
+09:46.460 --> 09:51.670
+And that's gonna be my element as I'm hovering I would like to have the different color.
+
+09:51.900 --> 09:52.440
+And you know what.
+
+09:52.440 --> 09:55.070
+Let's add a different color also.
+
+09:55.170 --> 10:02.910
+This would be let's say primary and we're gonna have another variable secondary color and this is gonna
+
+10:02.910 --> 10:03.660
+be orange.
+
+10:03.690 --> 10:06.290
+So again let's say F 1 5 0 2 4.
+
+10:06.690 --> 10:12.540
+I know I deleted it and now I'm adding it again my apologies but I just wanted to show you the blue
+
+10:12.540 --> 10:15.200
+one and then got carried away deleted.
+
+10:15.210 --> 10:15.880
+Now it's back.
+
+10:16.380 --> 10:19.590
+Okay now as I'm hovering I would like to change the color.
+
+10:19.830 --> 10:25.020
+And again I can use the VAR since this is globally I can access this anywhere I can ask is that in this
+
+10:25.020 --> 10:27.570
+paragraph in that paragraph doesn't really matter.
+
+10:27.570 --> 10:34.140
+Now I'm showing the heading but hopefully you understand the secondary color here I come as I'm hovering
+
+10:34.290 --> 10:35.540
+this is gonna be the color.
+
+10:35.620 --> 10:40.630
+Now also at the moment there's no transition as I'm hovering it happens instantly.
+
+10:40.650 --> 10:41.490
+Well I don't want that.
+
+10:41.520 --> 10:46.210
+So I can say transition again and then I'm going to be looking for what.
+
+10:46.220 --> 10:50.040
+Well you are getting the syntax and main transition.
+
+10:50.040 --> 10:54.600
+What's really cool again and I can add this transition if let's say I set for all of them zero point
+
+10:54.600 --> 11:00.660
+four I can use this all throughout the document everywhere I would like one zero point five.
+
+11:00.660 --> 11:03.090
+Later on you can add zero point five later on.
+
+11:03.390 --> 11:08.160
+Obviously if you want to have some kind of unique transitions you wouldn't want to do this but in my
+
+11:08.160 --> 11:13.770
+case I usually prefer just to stick with one transition unless there's really really something major
+
+11:14.130 --> 11:15.350
+that I would like to change.
+
+11:15.390 --> 11:19.110
+I mean not for every project but in general terms.
+
+11:19.110 --> 11:24.150
+So let's say as you can see again the transition is happening so everything is working.
+
+11:24.510 --> 11:29.850
+So we have successfully created the variables and we know how we can reuse them.
+
+11:29.850 --> 11:34.580
+Now let's look with the local scope because so far we are just working with the main scope.
+
+11:34.710 --> 11:40.080
+And again I'm not going to show you the example but we could access this year with the paragraph we
+
+11:40.080 --> 11:45.090
+could access this in the text because the reason for that because we set up the route and the route
+
+11:45.120 --> 11:48.190
+right now has these variables help you understand.
+
+11:48.720 --> 11:50.440
+What about the local one.
+
+11:50.550 --> 11:56.100
+Well the local let's say paragraph right now is sitting where this is sitting in a div I can target
+
+11:56.100 --> 11:56.850
+the class.
+
+11:56.850 --> 12:02.350
+This is gonna work exactly the same but I'm going to say it for div because I got this maybe it's gonna
+
+12:02.370 --> 12:07.740
+be a little bit easier to understand but we could have used the class and in this case I'm going to
+
+12:07.740 --> 12:15.030
+say primary primary read more you know just write like this primary red color and I'm going to set this
+
+12:15.030 --> 12:20.220
+equal just to simple red color I could have used the hash value doesn't really matter but in my case
+
+12:20.220 --> 12:21.720
+I'm gonna say the simple red color.
+
+12:22.240 --> 12:27.800
+Okay what is within the div if I remember correctly within the day we have main text.
+
+12:27.990 --> 12:34.860
+Okay so class name may text you go color is gonna be what.
+
+12:34.890 --> 12:37.770
+Well I can use again the variable name right.
+
+12:37.800 --> 12:46.760
+So are these index dash dash primary red and you are also right away saw two options so I could have
+
+12:47.040 --> 12:55.140
+used you see the primary or secondary and I also could use this primer at the moment we save it sure
+
+12:55.140 --> 12:57.480
+enough no questions asked.
+
+12:57.660 --> 13:04.320
+We're having this paragraph right Okay what about can we access these values somewhere else.
+
+13:04.520 --> 13:09.930
+So let's say we are trying to access this another heading the one that's all the way in the bottom where
+
+13:09.930 --> 13:17.720
+the class of third any I mean we can always test it out we can say third thing it's gonna be the name
+
+13:18.110 --> 13:23.890
+and for this setting I would like to access again the color as well as I would like to access LA and
+
+13:23.930 --> 13:30.970
+let's try for primary red and let's see whether this is gonna work out and I moment i it nothing changes
+
+13:31.250 --> 13:32.440
+mm mm hmm.
+
+13:32.480 --> 13:37.790
+Does that mean this is gonna be local as com has always we can head over to our developer tools and
+
+13:37.790 --> 13:45.260
+say inspect and we'll be able to see what's happening with inheritance so this is gonna be my body now
+
+13:45.260 --> 13:50.720
+what happens on my heading one as I'm looking over it well I see here that I'm using the primary color
+
+13:50.720 --> 13:56.990
+and all that but notice what's telling you inherited information AML inherited what.
+
+13:57.200 --> 14:01.970
+Well we inherited that colors one color transition so far so good.
+
+14:02.030 --> 14:07.170
+Now what happens with this guy with the one that's sitting within the main that we see here.
+
+14:07.250 --> 14:10.400
+So we have a paragraph so what paragraph is inheriting.
+
+14:10.400 --> 14:16.370
+Well it's inheriting two things it's inheriting from the day of the primary red so we can re reuse it
+
+14:16.730 --> 14:22.790
+everywhere within this day and obviously since we set it up in our CEO says with a div understand that
+
+14:22.970 --> 14:26.320
+I can add as many divs and this is gonna be scoped to those diff.
+
+14:26.390 --> 14:31.590
+So this is just the way normal as this would work but it also has access to these values.
+
+14:31.790 --> 14:36.230
+So if you want locally scoped you can create some kind of variables.
+
+14:36.350 --> 14:42.230
+In most cases though I'm not a fortune teller but I would assume that you're gonna be probably setting
+
+14:42.230 --> 14:44.140
+up everything globally within the rules.
+
+14:44.300 --> 14:47.600
+And then just reusing these variables all throughout your project.

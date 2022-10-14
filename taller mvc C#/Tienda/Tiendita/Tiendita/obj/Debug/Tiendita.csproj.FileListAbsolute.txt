@@ -1,0 +1,4 @@
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\Tiendita\obj\Debug\Tiendita.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\Tiendita\obj\Debug\Tiendita.Properties.Resources.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\Tiendita\obj\Debug\Tiendita.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\Tiendita\obj\Debug\Tiendita.csproj.CoreCompileInputs.cache

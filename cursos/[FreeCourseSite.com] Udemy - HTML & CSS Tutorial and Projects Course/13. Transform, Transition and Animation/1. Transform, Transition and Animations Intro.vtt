@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00.180 --> 00:00.810
+Hey guys.
+
+00:00.810 --> 00:08.250
+In our next module will cover transform transition and animation properties along with their supplementary
+
+00:08.250 --> 00:13.080
+properties in the CSF while these are definitely important topics.
+
+00:13.110 --> 00:18.630
+I'll try to keep example short and sweet since I think it is more important to spend time working with
+
+00:18.630 --> 00:23.470
+these particular properties in our projects where we can get a better understanding.
+
+00:23.550 --> 00:26.900
+How can they be used in the real world situations.
+
+00:27.060 --> 00:34.140
+Briefly transform property apply some type of transformation to the element B translational along X
+
+00:34.140 --> 00:41.790
+axes or y axis rotation scaling or skewing transition property on the other hand is in charge of making
+
+00:41.790 --> 00:45.690
+state changes occurring over some period of time.
+
+00:45.900 --> 00:51.750
+So let's say we hover over the button and the background color of the button changes with transition
+
+00:51.750 --> 00:55.820
+property we can control how long that stage change will occur.
+
+00:56.190 --> 01:02.310
+Animation property is very similar to the transition with major difference being that we are not limited
+
+01:02.340 --> 01:09.030
+to just two points beginning and the end of the chain animation gives us many extra points where we
+
+01:09.030 --> 01:12.600
+can control how the change from one state to another takes place.

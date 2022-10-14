@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.120 --> 00:01.470
+What is going on guys.
+
+00:01.470 --> 00:08.400
+And welcome to web agency project and this project we're going to be building a responsive web agency
+
+00:08.400 --> 00:09.210
+Web site.
+
+00:09.300 --> 00:12.570
+But this project is going to be interesting for two main reasons.
+
+00:12.570 --> 00:16.070
+First we're not going to be using any kind of CSSA framework.
+
+00:16.070 --> 00:16.410
+All right.
+
+00:16.410 --> 00:22.050
+So something like bootstrap or anything like that and everything is going to get done with HD and now
+
+00:22.250 --> 00:24.160
+had a lot a lot of success.
+
+00:24.360 --> 00:30.030
+Now the second one for the lay out we're not going to be using any kind of CSSA floats or any kind of
+
+00:30.030 --> 00:31.280
+CIRCE's hacks.
+
+00:31.290 --> 00:36.970
+We're actually going to get done by using siestas grid and CSSA fluxbox rent.
+
+00:36.990 --> 00:41.430
+So this is going to be good training for us to get to know them right now what we're all going to be
+
+00:41.430 --> 00:42.570
+building on here.
+
+00:42.580 --> 00:44.930
+You can see that this is going to be power now.
+
+00:44.970 --> 00:45.260
+Right.
+
+00:45.270 --> 00:47.430
+And like I said this is going to be responsive.
+
+00:47.430 --> 00:50.880
+So if I'm going to be making a screen smaller.
+
+00:50.910 --> 00:55.650
+Right so this will be a member of your own here you can see the Door number is going to be over here.
+
+00:55.740 --> 01:00.840
+Now this button is not going to be working fine awesome because obviously we're not going to be using
+
+01:00.840 --> 01:01.800
+javascript.
+
+01:01.830 --> 01:08.310
+It's only going to be HD MLC Asus and Fonte are some and we're going to be using and over here if I
+
+01:08.310 --> 01:12.230
+make the screen bigger you can see how our bar is actually wrapping.
+
+01:12.230 --> 01:19.120
+Right so we're going to be using a flex box wrap property then we're going to be creating a banner.
+
+01:19.130 --> 01:19.630
+All right.
+
+01:19.680 --> 01:24.250
+So this is going to be our having one and we're going to have two buttons right as we're hovering.
+
+01:24.340 --> 01:27.220
+Then the next section is going to be our skills section right.
+
+01:27.330 --> 01:31.290
+And you can see that it's going to look exactly like we will be using bootstrap right.
+
+01:31.290 --> 01:37.460
+So again if I'm going to make the screens more now I can see the changes to the two columns that are
+
+01:37.470 --> 01:37.950
+here.
+
+01:37.950 --> 01:40.410
+This is going to change to actually single column right.
+
+01:40.650 --> 01:41.440
+And you can see that.
+
+01:41.460 --> 01:42.830
+Again this is going to be fun.
+
+01:42.990 --> 01:44.460
+This is going to be hitting one.
+
+01:44.490 --> 01:45.890
+And this is going to be parallel.
+
+01:46.080 --> 01:50.630
+So again I'm going to make the screen bigger and we're going to check out the next section that we're
+
+01:50.640 --> 01:51.700
+going to be creating.
+
+01:51.780 --> 01:55.740
+So the next section we're going to be creating is going to be services section right.
+
+01:55.770 --> 02:00.180
+And again for the whole way out there is going to be CIRCE's grid in use right.
+
+02:00.210 --> 02:03.650
+And are we going to achieve this effect by using CSSA right.
+
+02:03.650 --> 02:08.400
+So as you can see as I'm hovering actually text is changing right there's going to be some background
+
+02:08.400 --> 02:12.610
+text and the text that it's up front is actually moving up right now.
+
+02:12.630 --> 02:17.100
+What we're also going to be doing on here is you can see as I'm changing right it's going to be hard
+
+02:17.100 --> 02:22.850
+to see right now but ancho are going to change the order of these let's say boxes right.
+
+02:22.860 --> 02:27.260
+So we have four boxes and actually on a bigger screen the actual order is different.
+
+02:27.270 --> 02:33.870
+Right so we're going to you can look at C Ss and order properly right then we're going to have a project
+
+02:33.870 --> 02:34.810
+section right.
+
+02:34.930 --> 02:40.350
+Logan and just look at how to actually zoom in right would see this or here you can see that we're going
+
+02:40.350 --> 02:42.020
+to have in the background right.
+
+02:42.020 --> 02:46.980
+So we're going to have a foot or so here and this is going to be let's say our main section right.
+
+02:47.070 --> 02:48.010
+Our title.
+
+02:48.010 --> 02:50.740
+And again if I make it bigger there's going to be three of them right.
+
+02:50.760 --> 02:52.630
+Three project sections right.
+
+02:52.740 --> 02:58.020
+And over here if I'm going to make it to the smaller one again we're going to go to the two columns
+
+02:58.140 --> 03:03.830
+and then once we actually hit the small screen right we're going to have only a single column here.
+
+03:03.840 --> 03:04.360
+Right.
+
+03:04.380 --> 03:07.090
+And then after that we're we're going to be doing all right.
+
+03:07.110 --> 03:10.700
+We have a or here this little filler section right.
+
+03:10.830 --> 03:14.910
+Again we're going to be using a CSSA flex box in order to get this effect right.
+
+03:14.910 --> 03:16.400
+So they're side by side.
+
+03:16.480 --> 03:20.870
+And again if I make it in the smaller screen actually what's going to happen they are going to wrap
+
+03:20.980 --> 03:21.400
+around.
+
+03:21.540 --> 03:26.310
+So as you can see one the moment they hit each other actually this will wraps underneath the second
+
+03:26.310 --> 03:27.270
+one right.
+
+03:27.370 --> 03:30.000
+Going to have a recent post section right.
+
+03:30.010 --> 03:33.490
+Rhodes is going to be using a very very basic CSSA right.
+
+03:33.510 --> 03:36.440
+We're going to have this Fantasma appear out of nowhere.
+
+03:36.480 --> 03:39.320
+But this is we're going to be working with the cards right.
+
+03:39.330 --> 03:45.480
+So you can see that we're going to using We're going to use the SS actually make this card look like
+
+03:45.480 --> 03:46.280
+effect right.
+
+03:46.290 --> 03:49.810
+And again this is not bootstrap this is just pure success right.
+
+03:49.830 --> 03:53.540
+And the last hour here is going to be a first session right.
+
+03:53.550 --> 03:57.320
+Rose is going to mess around a little bit with these phantasm Mike on the right.
+
+03:57.330 --> 03:59.110
+So enough of me yapping.
+
+03:59.130 --> 04:01.850
+Let's go to coding and let's start creating this project.

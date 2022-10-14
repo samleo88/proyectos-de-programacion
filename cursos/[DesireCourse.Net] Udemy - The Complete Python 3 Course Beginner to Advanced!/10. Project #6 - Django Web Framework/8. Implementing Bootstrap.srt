@@ -1,0 +1,219 @@
+1
+
+00:00:00,000  -->  00:00:03,619
+Hey guys, welcome back. So if we run our
+
+2
+
+00:00:03,629  -->  00:00:08,870
+django project here, and we open up
+
+3
+
+00:00:08,880  -->  00:00:15,410
+Safari and go to localhost port 8000, this
+
+4
+
+00:00:15,420  -->  00:00:18,529
+is a terrible looking site. So what we're
+
+5
+
+00:00:18,539  -->  00:00:21,500
+going to be doing is integrating django
+
+6
+
+00:00:21,510  -->  00:00:26,210
+with bootstrap. So, what we need to do
+
+7
+
+00:00:26,220  -->  00:00:29,870
+is go ahead and open a terminal here and
+
+8
+
+00:00:29,880  -->  00:00:34,940
+type "pip3 install django-bootstrap3"
+
+9
+
+00:00:34,950  -->  00:00:41,360
+and it should install
+
+10
+
+00:00:41,370  -->  00:00:43,670
+bootstrap in there. So what we need to do
+
+11
+
+00:00:43,680  -->  00:00:46,400
+now is we need to go into our project
+
+12
+
+00:00:46,410  -->  00:00:50,029
+into settings, and we need to find the
+
+13
+
+00:00:50,039  -->  00:00:56,150
+installed apps section, which is way up
+
+14
+
+00:00:56,160  -->  00:00:59,090
+here, and what we need to add is
+
+15
+
+00:00:59,100  -->  00:01:06,080
+'bootstrap3' So
+
+16
+
+00:01:06,090  -->  00:01:08,719
+in order for bootstrap to work we
+
+17
+
+00:01:08,729  -->  00:01:10,399
+actually need to include it into the
+
+18
+
+00:01:10,409  -->  00:01:12,350
+template files, so in this case I'm
+
+19
+
+00:01:12,360  -->  00:01:14,179
+looking at the index page so what I'm going
+
+20
+
+00:01:14,189  -->  00:01:17,870
+to do at the very top of the index page
+
+21
+
+00:01:17,880  -->  00:01:18,530
+here
+
+22
+
+00:01:18,540  -->  00:01:22,010
+you just need to load bootstrap 3. So
+
+23
+
+00:01:22,020  -->  00:01:25,429
+we're going to put this in the command
+
+24
+
+00:01:25,439  -->  00:01:27,890
+type, remember there's different kinds of
+
+25
+
+00:01:27,900  -->  00:01:30,350
+curly braces to use this is used for
+
+26
+
+00:01:30,360  -->  00:01:33,080
+blocks of codes or commands, and this is
+
+27
+
+00:01:33,090  -->  00:01:35,870
+used to print out variables and
+
+28
+
+00:01:35,880  -->  00:01:38,420
+whatnot. So we're using this type here
+
+29
+
+00:01:38,430  -->  00:01:43,460
+the kind with the with the percent
+
+30
+
+00:01:43,470  -->  00:01:45,950
+symbol, and we're just going to type
+
+31
+
+00:01:45,960  -->  00:01:52,429
+"{% load bootstrap3 %}" So let's go ahead and open up
+
+32
+
+00:01:52,439  -->  00:01:55,819
+another tag and we need to type
+
+33
+
+00:01:55,829  -->  00:02:03,830
+"{% bootstrap_css %}" and then "{% bootstrap_javascript %}"
+
+34
+
+00:02:05,860  -->  00:02:09,270
+and so basically what load bootstrap 3
+
+35
+
+00:02:09,280  -->  00:02:12,450
+does is it loads these tags that you can
+
+36
+
+00:02:12,460  -->  00:02:17,520
+use within your template. So what we're
+
+37
+
+00:02:17,530  -->  00:02:23,430
+going to do is let's save this, let's refresh
+
+38
+
+00:02:23,440  -->  00:02:27,150
+the app, and now you'll see that we do
+
+39
+
+00:02:27,160  -->  00:02:30,360
+have a working bootstrap. So that's how
+
+40
+
+00:02:30,370  -->  00:02:32,190
+to make our site a little prettier.
+
+41
+
+00:02:32,200  -->  00:02:33,870
+I'm gonna be styling this before the
+
+42
+
+00:02:33,880  -->  00:02:35,460
+next video so you guys feel free to do
+
+43
+
+00:02:35,470  -->  00:02:36,990
+the same if you want, I just don't want
+
+44
+
+00:02:37,000  -->  00:02:45,450
+to work with such a terribly simple site.

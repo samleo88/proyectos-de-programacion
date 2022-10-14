@@ -1,0 +1,439 @@
+WEBVTT
+
+00:00.390 --> 00:03.640
+Fresh after the nest and loud what else we have nothing.
+
+00:03.720 --> 00:07.440
+We have also the contact section within the contact section.
+
+00:07.440 --> 00:12.480
+We will then go back to our typical two column layout and on the left hand side there's gonna be some
+
+00:12.480 --> 00:15.810
+font of some icon with some kind of let's say title.
+
+00:15.840 --> 00:22.020
+Then this is gonna be some address of course an email as well as the phone as well as we're gonna be
+
+00:22.020 --> 00:24.260
+working here with the form.
+
+00:24.300 --> 00:26.560
+So on right hand side there's gonna be form.
+
+00:26.600 --> 00:31.830
+I think we don't need to waste any more time can just head over back to indexation amount since I was
+
+00:31.840 --> 00:33.960
+like we already know what we're going to be doing.
+
+00:34.230 --> 00:37.300
+And then let me find where is the end of the product.
+
+00:37.580 --> 00:43.500
+I'm going to make two comments or is there there's gonna be contact then we're gonna be saying end of
+
+00:44.310 --> 00:50.070
+contact on and off as well as what is gonna be within the contact.
+
+00:50.070 --> 00:57.150
+I don't know what start first by having a section with a class of contact and then within the section
+
+00:57.150 --> 01:01.230
+we're gonna have first of all the contact info as well as contact form.
+
+01:01.620 --> 01:03.400
+So this is gonna be a two column layout.
+
+01:03.690 --> 01:06.580
+So first let me start by having contact info.
+
+01:06.930 --> 01:08.600
+Just to have some kind of comment.
+
+01:08.610 --> 01:12.390
+This is gonna be my actual column as was right after that.
+
+01:12.390 --> 01:19.580
+Let's write article or take call with a class of contact info here.
+
+01:19.640 --> 01:24.140
+This is gonna be the case where I'm gonna copy and paste it and we're gonna change this one around.
+
+01:24.380 --> 01:27.020
+So this is not gonna be any more contact info.
+
+01:27.020 --> 01:33.390
+This is gonna be a contact form as well as the column name is gonna be contact form as well.
+
+01:33.630 --> 01:38.570
+Whatever we're gonna have within the contact info because obviously within the contact form we're gonna
+
+01:38.570 --> 01:40.610
+be working with our form.
+
+01:40.610 --> 01:46.640
+So it's kind of straightforward but within the contact info there's gonna be a few things.
+
+01:46.820 --> 01:50.500
+But you know what I also wanted to have the section center.
+
+01:50.510 --> 01:58.450
+I'm sorry I rushed a little bit so it's me right here first a div with the class of section then we're
+
+01:58.460 --> 02:00.050
+going to be looking for the center.
+
+02:00.200 --> 02:05.780
+So that's gonna be my class because I would want to use that layout thing as well as I would like to
+
+02:05.780 --> 02:11.960
+use the clear fixed class because I will gonna be floating them both not let me select both of them.
+
+02:12.020 --> 02:17.380
+So both articles and let me move up and now we're gonna be successfully within the center.
+
+02:17.390 --> 02:18.720
+So now I'm looking at it.
+
+02:18.740 --> 02:21.020
+I already have my section center.
+
+02:21.050 --> 02:25.010
+Like I said we're gonna go back to contact info on here is gonna be three things.
+
+02:25.010 --> 02:30.530
+So first we're gonna start again by contact info just so we can see where the one starts and the other
+
+02:30.530 --> 02:38.410
+one and copy paste it then let's say and off and what we would like to have within these comments.
+
+02:38.570 --> 02:46.610
+Well let's create first of all div with a class of contact item and within this div we're gonna have
+
+02:46.610 --> 02:53.930
+two things so we're gonna have the actual contact item and then we're gonna have the contact text within
+
+02:53.930 --> 02:56.110
+the actual contact text.
+
+02:56.300 --> 02:59.750
+There's gonna be title and the address.
+
+03:00.000 --> 03:00.290
+Okay.
+
+03:00.320 --> 03:04.460
+So there's gonna be a few things in here so let's just keep on moving.
+
+03:04.560 --> 03:07.680
+And this is just gonna make a little bit more sense once we get there.
+
+03:08.090 --> 03:11.110
+So let's say here they're all gonna be having three.
+
+03:11.300 --> 03:17.770
+Now this heading three is gonna have the class of contact title contact title.
+
+03:17.960 --> 03:19.780
+So this should be something like this.
+
+03:19.960 --> 03:20.800
+And you know what.
+
+03:20.800 --> 03:26.500
+What else we're gonna have here not just write that we would want our font awesome icon.
+
+03:26.590 --> 03:36.250
+So I'm gonna say airfares and now we're gonna be looking for location arrow location Keisha.
+
+03:36.260 --> 03:39.410
+And um I might know I'm not spelling this correctly.
+
+03:39.410 --> 03:45.780
+Location and we're saying in a row now we also like to add a class here.
+
+03:45.790 --> 03:50.890
+So even though our hour is going to be shown for this plan we're gonna add another class and that is
+
+03:50.890 --> 03:54.160
+gonna be contact icon.
+
+03:54.410 --> 03:56.060
+So that's going to be another thing.
+
+03:56.180 --> 03:58.560
+And you know what maybe we can change this around.
+
+03:58.970 --> 04:01.300
+So let's say within the contact info.
+
+04:01.310 --> 04:04.790
+This is not going to be contact info but item.
+
+04:04.790 --> 04:09.010
+So I think that way we're gonna make a little bit more sense of what we're doing.
+
+04:09.050 --> 04:11.270
+So each and every item is gonna have the comment.
+
+04:11.390 --> 04:13.190
+Then we had to hang three.
+
+04:13.410 --> 04:17.650
+Now right after this panel we're gonna write what is gonna be our title.
+
+04:17.810 --> 04:23.340
+So in our case this would be an address as well as a right after the first inning three.
+
+04:23.360 --> 04:30.970
+There is gonna be another one that's gonna have the contact text so class contact text.
+
+04:31.060 --> 04:35.980
+Uh here let's write the actual address five to three more.
+
+04:36.240 --> 04:38.090
+Fairfax.
+
+04:38.090 --> 04:45.710
+Fairfax Avenue then L.A. and then we're looking for California.
+
+04:46.600 --> 04:49.930
+0 9 0 0 4.
+
+04:50.140 --> 04:54.780
+A much more you can write Cincinnati doesn't really matter.
+
+04:54.780 --> 04:56.230
+That's gonna be my first contact.
+
+04:56.650 --> 04:59.430
+Now the contact that I'm in and of contact.
+
+04:59.900 --> 05:05.830
+What I would look to do right now is something where you'd have done before someone to copy and paste
+
+05:05.830 --> 05:07.080
+it two times.
+
+05:07.100 --> 05:12.140
+But in this case we're not only gonna be changing the icon we're also going to be working with the text.
+
+05:12.740 --> 05:16.030
+So first of all for the icon I wouldn't want the location.
+
+05:16.160 --> 05:23.150
+Instead we're gonna be going for our not location narrow what is gonna be their envelope.
+
+05:23.210 --> 05:24.160
+I think it was the them.
+
+05:24.200 --> 05:24.570
+All right.
+
+05:24.980 --> 05:27.440
+So email was the second one.
+
+05:27.680 --> 05:32.590
+So let's say in this case if a envelope.
+
+05:32.620 --> 05:34.060
+Let's say we're going to have.
+
+05:34.060 --> 05:34.250
+Yeah.
+
+05:34.270 --> 05:35.470
+So we're gonna have the envelope.
+
+05:35.470 --> 05:37.260
+This is not going to be the address.
+
+05:37.600 --> 05:39.460
+We were gonna write email.
+
+05:39.910 --> 05:49.490
+As per the title then let's write email at e mail dot com e mail dot com.
+
+05:49.490 --> 05:52.890
+And then we have the third one which is going to be the phone.
+
+05:53.120 --> 05:55.940
+So I believe we can do the phone.
+
+05:55.940 --> 06:00.330
+I'm pretty sure this is gonna be our Phantasm icon once I say ready.
+
+06:00.360 --> 06:02.790
+I'm having the phone so that's all good.
+
+06:02.870 --> 06:04.980
+Here I can change this too.
+
+06:05.000 --> 06:12.570
+Phone can just close it and here I can change the phone as well as the last one was gonna be the actual
+
+06:12.570 --> 06:13.170
+phone number.
+
+06:13.830 --> 06:20.800
+So let's say I don't know one two three plus plus plus plus Where are you once.
+
+06:20.910 --> 06:21.430
+Mm hmm.
+
+06:21.430 --> 06:30.280
+You cannot find a plus one two three four five six seven eight nine that's gonna be our successful phone
+
+06:30.280 --> 06:31.240
+number.
+
+06:31.750 --> 06:36.000
+That would be for the items and I say we're gonna do more styling once we get there.
+
+06:36.190 --> 06:37.950
+But now we can start working on a form.
+
+06:38.380 --> 06:44.380
+So within the form we all gonna be first of all creating the form element that we learn obviously already
+
+06:44.380 --> 06:45.300
+in normal.
+
+06:45.610 --> 06:51.070
+So I'm gonna say formal Now this is gonna give us the action as well as we're gonna have to work with
+
+06:51.070 --> 06:51.630
+the method.
+
+06:52.150 --> 06:58.150
+However normally since obviously we haven't talked it up to BHP or anything like that it doesn't really
+
+06:58.150 --> 07:02.960
+matter what we're doing but since we're gonna be using the form spray once we're gonna be done with
+
+07:02.970 --> 07:07.120
+styling and everything will gonna come back and we're gonna set up the action as well as the method
+
+07:07.470 --> 07:13.170
+for now we can just delete this and let's just say class and the class is gonna be formed group not
+
+07:13.180 --> 07:19.220
+so we don't really need to worry about it just add the class and we're good to go because as we're gonna
+
+07:19.240 --> 07:23.670
+start working with Formspring this is we're all gonna set up everything okay.
+
+07:23.680 --> 07:26.760
+And then here I would like to start working by the input.
+
+07:26.830 --> 07:32.980
+So first there's going to be input input type is gonna be text then the name is important because if
+
+07:32.980 --> 07:38.770
+you're gonna be using the form spree you need to make sure that that name is gonna be something we're
+
+07:38.770 --> 07:44.560
+all gonna be collecting the values if you're not using you can even old mid name but if you're gonna
+
+07:44.560 --> 07:50.590
+be working with the forestry with me then you need to make sure that this name does have some kind of
+
+07:50.650 --> 07:56.400
+value meaning if you're gonna write the name this is gonna show up in the forms if you're gonna write
+
+07:56.400 --> 08:02.230
+your orange and the orange is gonna show also I would like to have the plus place holder so the place
+
+08:02.230 --> 08:08.160
+holder is gonna be name and then I'm gonna have the class of form control.
+
+08:08.320 --> 08:13.550
+Now what I would like to do right now notice this is gonna be metal form is just copy and paste this
+
+08:13.690 --> 08:15.580
+and change these values around.
+
+08:15.690 --> 08:22.570
+Now the second one is gonna be type of email and email then the name is also gonna be email and this
+
+08:22.570 --> 08:23.560
+is the difference.
+
+08:23.650 --> 08:26.320
+So one is gonna be for a name and the second one is for name.
+
+08:26.770 --> 08:32.200
+So the value that's gonna be the name is obviously going to be reflecting to name and the e-mail one
+
+08:32.200 --> 08:34.000
+is gonna be for the e-mail.
+
+08:34.150 --> 08:34.540
+You know what.
+
+08:34.540 --> 08:39.910
+We can also do the email for their place holder so say email is going to be placeholder and then we
+
+08:39.910 --> 08:40.990
+have a text area.
+
+08:41.170 --> 08:47.470
+So let's right over here the text area element then hero and gonna be looking for a name so name is
+
+08:47.470 --> 08:48.760
+still important.
+
+08:48.970 --> 08:57.380
+When say something like message we don't care about the deers and the columns as well as the rows.
+
+08:57.490 --> 08:57.860
+You know what.
+
+08:57.860 --> 09:00.850
+Now Rose we do care about let's say five rows.
+
+09:00.910 --> 09:08.500
+So it's gonna be in rows and then we would like to add the and again the class name of form control
+
+09:08.540 --> 09:11.080
+because we would like to tell them all.
+
+09:11.200 --> 09:18.090
+And then you know what we also can have the place holder of message let's write placeholder message.
+
+09:18.110 --> 09:22.640
+Now this is gonna be a message within and last but not least within the form we would like to have the
+
+09:22.640 --> 09:23.370
+button.
+
+09:23.540 --> 09:28.970
+So let's write button and the button is gonna be submit so we can have the type of submit and that's
+
+09:28.970 --> 09:33.590
+the same thing as if would write the input with the value of submit and will work the same way.
+
+09:33.980 --> 09:38.000
+And here let's use the fact that we already have the buttons so we can say.
+
+09:38.000 --> 09:42.700
+Class class and we're gonna be looking for main PETN.
+
+09:42.860 --> 09:48.530
+Remember this is something we were we had a knowledge just types and this is gonna set up everything.
+
+09:48.530 --> 09:51.060
+Now it doesn't look very pretty right now.
+
+09:51.080 --> 09:54.840
+Again we need to go back to C assess and start signing.
+
+09:55.070 --> 10:00.890
+However we did a massive job because we added everything engaged the email so we should really feel
+
+10:00.890 --> 10:02.110
+good about ourselves.
+
+10:02.270 --> 10:03.770
+And let's head over to see Asus.

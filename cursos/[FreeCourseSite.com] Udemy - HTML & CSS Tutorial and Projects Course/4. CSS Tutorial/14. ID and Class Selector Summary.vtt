@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00.510 --> 00:06.690
+Just to hit home about the I.D. and class lectures we can also combine them.
+
+00:07.260 --> 00:12.330
+So first and foremost if we would like to add the idea of let's say title and this is going to be my
+
+00:12.330 --> 00:13.410
+main title.
+
+00:13.410 --> 00:16.580
+I can just add the I.D. and I can also add the styling.
+
+00:16.710 --> 00:22.380
+So just because you already have the class doesn't mean that you cannot add the I.D. as well as you
+
+00:22.380 --> 00:23.880
+can add the second class.
+
+00:23.940 --> 00:28.950
+So let's say here not only all going to have the out of title but we're also going to have I don't know
+
+00:29.010 --> 00:30.270
+the class of lowercase.
+
+00:30.690 --> 00:36.150
+So again the naming is not going to be the best one but this is just to show you that we can work not
+
+00:36.150 --> 00:42.750
+only with multiple classes for the same element as well as we can use the I.D. combined with classes.
+
+00:42.770 --> 00:43.860
+Now how this is going to work.
+
+00:44.220 --> 00:49.900
+So let's say I'm gonna go back to the style C assess and we're gonna say the I.D. for the title was
+
+00:49.920 --> 00:52.380
+just gonna say that font size is going to be really big.
+
+00:52.420 --> 00:56.820
+And again we're gonna cover these properties in a second and just need to show you how things work with
+
+00:56.820 --> 01:03.900
+classes and ideas and let's say for the idea of title we're gonna have the font size with 40 pixels.
+
+01:03.900 --> 01:10.170
+So I was right away how it got bigger but then let's say we also have a class of lowercase lowercase
+
+01:10.260 --> 01:16.400
+and for this one we have texts transform again and property we're gonna cover later but we're gonna
+
+01:16.410 --> 01:17.240
+have the lowercase.
+
+01:17.250 --> 01:17.880
+In this case.
+
+01:18.150 --> 01:22.490
+So every time I started with I am gonna be turned into lowercase.
+
+01:22.620 --> 01:30.240
+Now again the main difference between the idea selectors and class letters because as you can see the
+
+01:30.240 --> 01:36.480
+only thing was the syntax in the C assess but everything else was the same but in the each the amount
+
+01:36.780 --> 01:43.860
+you should use only I.D. as something unique so don't add the same idea with the title somewhere else
+
+01:43.860 --> 01:44.440
+here.
+
+01:44.500 --> 01:47.610
+Our class is we can reuse how we would like.
+
+01:47.610 --> 01:53.610
+So for everything that I wanted green I could just add the class of green power for lowercase if I would
+
+01:53.610 --> 01:58.180
+just want let's say this class of red also lowercase i can do the same thing.
+
+01:58.200 --> 02:04.190
+So now this guy has the lowercase and hopefully you get an idea or classes we can reuse them.
+
+02:04.200 --> 02:10.050
+However I would like wherever thing that we all want to style our with ideas they should be unique.
+
+02:10.200 --> 02:12.960
+So you shouldn't reuse them with the same value.

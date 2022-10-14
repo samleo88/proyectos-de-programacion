@@ -1,0 +1,116 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.interfaz;
+
+import java.awt.BorderLayout;
+import java.awt.Graphics;
+import java.util.ArrayList;
+
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+import javax.swing.border.TitledBorder;
+
+import uniandes.cupi2.batallaPokemon.cliente.mundo.Batalla;
+import uniandes.cupi2.batallaPokemon.cliente.mundo.Jugador;
+import uniandes.cupi2.batallaPokemon.cliente.mundo.Pokemon;
+
+/**
+ * Panel que maneja la información del campo de batalla.
+ * 
+ */
+public class PanelCampoBatalla extends JPanel
+{
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+    /**
+     * Batalla del jugador.
+     */
+    private Batalla batalla;
+
+    // -----------------------------------------------------------------
+    // Atributos de la interfaz
+    // -----------------------------------------------------------------
+
+    /**
+     * Panel con la información del jugador.
+     */
+    private PanelJugador panelJugador;
+
+    /**
+     * Panel con la información del oponente.
+     */
+    private PanelOponente panelOponente;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Constructor del panel.
+     * @param pPrincipal Ventana principal de la aplicación. pPrincipal != null.
+     * @param pJugador 
+     */
+    public PanelCampoBatalla( InterfazCupiPokemon pPrincipal , Jugador pJugador)
+    {
+
+        setLayout( new BorderLayout( ) );
+        setBorder( new TitledBorder( "Campode batalla" ) );
+        setSize( 1060, 580 );
+
+        panelJugador = new PanelJugador(pJugador.darImagenAvatar( ) );
+        panelOponente = new PanelOponente( );
+
+        add( panelJugador, BorderLayout.WEST );
+        add( panelOponente, BorderLayout.EAST );
+
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Actualiza la información del campo de batalla.
+     * @param pBatalla Batalla del jugador.
+     */
+    public void actualizar( Batalla pBatalla )
+    {
+        batalla = pBatalla;
+        panelJugador.actualizar( batalla.darPokemonesJugador( ), batalla.darPokemonSeleccionado( ) );
+        panelOponente.actualizar( batalla.darCantidadPokemonesDebilesOponente( ), batalla.darNombrePokemonOponente( ) , batalla.darAvatarOponente( ));
+
+    }
+
+    /**
+     * Retorna el pokemón seleccionado actualmente.
+     * @return Pokemón seleccionado.
+     */
+    public Pokemon darPokemonSeleccionado( )
+    {
+        return panelJugador.darPokemonSeleccionado( );
+    }
+    
+    /**
+     * Pinta el panel y sus componentes.<br>
+     * @param pG Superficie del panel.
+     */
+    public void paintComponent( Graphics pG )
+    {
+        ImageIcon icon = new ImageIcon( "./data/imagenes/Pradera.JPG" );
+        pG.drawImage( icon.getImage( ), 0, 0, null );
+        setOpaque( false );
+        super.paintComponent( pG );
+    }
+}

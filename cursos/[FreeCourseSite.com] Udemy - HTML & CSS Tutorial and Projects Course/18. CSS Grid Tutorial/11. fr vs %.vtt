@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.640 --> 00:07.960
+Now that we are experts with greed properly I would like to caution you though because currently everything
+
+00:07.960 --> 00:11.800
+that we did is by using the fraction units.
+
+00:11.980 --> 00:17.530
+And please don't thing that all the units are as awesome as the fraction units.
+
+00:17.530 --> 00:19.610
+Now let me give you an example.
+
+00:19.660 --> 00:24.320
+So what if we are going to change this to let's say 200 pixels.
+
+00:24.400 --> 00:31.010
+So I'm going to have a column layout with three columns being two hundred pixels so I can write 200
+
+00:31.090 --> 00:37.390
+pixels pixels pixels as well as the 200 pixels.
+
+00:37.390 --> 00:45.110
+Now I am having my four column layer now the issue is that of course I have to start scroll horizontally.
+
+00:45.160 --> 00:52.330
+And the reason is very simple because my columns are 200 pixels but also the hundred pixels I'm using
+
+00:52.330 --> 00:53.630
+for my gap.
+
+00:53.640 --> 01:00.850
+So as you can see since we are using absolute values it's not as easy as when we were using in fact
+
+01:00.850 --> 01:03.480
+the fractions as fractions were responsible.
+
+01:03.490 --> 01:08.840
+And when we were using fractions Well we in fact made our columns smaller.
+
+01:08.950 --> 01:15.310
+If our gap was bigger because when we're using fractions we're using the available space.
+
+01:15.310 --> 01:17.140
+Now in this case we're just saying you know what.
+
+01:17.250 --> 01:22.160
+Give me right now the column of 200 pixels and then add this grid gap.
+
+01:22.210 --> 01:24.820
+So that's probably not the look that you would want.
+
+01:25.150 --> 01:30.340
+So that's the reason why fraction units are so awesome because in fact they use the rest of the space
+
+01:30.790 --> 01:39.700
+and you're probably thinking OK so let's say our MS or MS or pixels are not going to work but we could
+
+01:39.700 --> 01:43.810
+use 25 percent because let's say we would want a four come layout.
+
+01:43.930 --> 01:45.880
+So why don't we use percentages.
+
+01:45.940 --> 01:46.300
+OK.
+
+01:46.330 --> 01:51.940
+Let's start out you know what just to make it easy so we don't have to type five or I'm sorry four values
+
+01:51.940 --> 01:53.260
+for the four columns.
+
+01:53.260 --> 01:57.880
+Well why don't we try to come up because the basic idea is going to be the same.
+
+01:57.940 --> 02:03.360
+So I'm going to go with 50 percent and 50 percent and let's save it.
+
+02:03.580 --> 02:10.840
+And again I have an issue and again I have the same thing where I am using 50 percent but then we're
+
+02:10.960 --> 02:12.850
+adding this hundred pixels.
+
+02:12.960 --> 02:13.580
+OK.
+
+02:13.760 --> 02:20.740
+Now this is the case where again why we would want to use a fraction because with fraction we're using
+
+02:20.740 --> 02:25.530
+the rest of the space when we're setting up with 50 percent we're saying OK you know what.
+
+02:25.540 --> 02:27.790
+Give me this column 50 percent.
+
+02:27.790 --> 02:31.750
+But then in fact we are not doing math behind the scenes.
+
+02:31.840 --> 02:36.880
+And when we say we of course I'm talking multiyear says good because here says grid is the awesome tool
+
+02:36.880 --> 02:43.810
+that does the math behind the scenes where it says OK you wanted a two fraction layout fine but you
+
+02:43.810 --> 02:45.800
+also want it the gap so that way.
+
+02:45.820 --> 02:52.040
+I'm going to have to make my column smaller so that's when I said that most likely you're going to set
+
+02:52.050 --> 02:59.800
+up with a fractions is the case where as you start adding let's say gap you'd probably want your columns
+
+02:59.800 --> 03:07.080
+to be nicely evenly spaced depending on high how wide or how high you would want your rose to be correct.
+
+03:07.090 --> 03:12.610
+So that's the reason when you have to be careful as you're setting up also the gap.
+
+03:12.610 --> 03:18.220
+Most likely if you don't want to do any kind of math behind the scenes or not maybe just behind the
+
+03:18.220 --> 03:22.990
+scenes let's say you want to do any kind of math at all.
+
+03:22.990 --> 03:28.630
+Well you're going to have to use a fraction in this fraction here that is going to do all the hard work
+
+03:28.900 --> 03:30.880
+and heavy lifting for you.
+
+03:31.210 --> 03:38.260
+So we have to come out easy and just have a 100 pixels that is evenly divided and we're good to go.

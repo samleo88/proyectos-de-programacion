@@ -1,0 +1,1044 @@
+1
+
+00:00:00,000  -->  00:00:03,030
+Alright guys, welcome back. In the last
+
+2
+
+00:00:03,030  -->  00:00:05,339
+video we learned how to actually create
+
+3
+
+00:00:05,339  -->  00:00:09,090
+a qt window and the basic application
+
+4
+
+00:00:09,090  -->  00:00:12,120
+and you could follow that path and build
+
+5
+
+00:00:12,120  -->  00:00:16,379
+programmatic interfaces in Python itself,
+
+6
+
+00:00:16,379  -->  00:00:20,670
+however since pyqt5 QML has been a
+
+7
+
+00:00:20,670  -->  00:00:24,480
+thing and what QML is it's I believe it
+
+8
+
+00:00:24,480  -->  00:00:27,300
+stands for the qt markup language, and
+
+9
+
+00:00:27,300  -->  00:00:30,000
+it's more declarative the way that it's
+
+10
+
+00:00:30,000  -->  00:00:31,859
+written works more like a mix between
+
+11
+
+00:00:31,859  -->  00:00:36,660
+javascript, and HTML, and CSS rather than
+
+12
+
+00:00:36,660  -->  00:00:38,820
+you know python and so that's what we're
+
+13
+
+00:00:38,820  -->  00:00:40,590
+going to be learning today. When you
+
+14
+
+00:00:40,590  -->  00:00:43,920
+install pyqt5 you instantly get
+
+15
+
+00:00:43,920  -->  00:00:47,579
+access to QML through qt quick
+
+16
+
+00:00:47,579  -->  00:00:49,980
+it's called, it's a module installed in pyqt5.
+
+17
+
+00:00:49,980  -->  00:00:51,780
+So, what we're going to do is we're going
+
+18
+
+00:00:51,780  -->  00:00:53,190
+to create a new application, it's going to
+
+19
+
+00:00:53,190  -->  00:00:55,199
+be again just a basic application, but
+
+20
+
+00:00:55,199  -->  00:00:57,360
+we're going to do it in QML so you guys
+
+21
+
+00:00:57,360  -->  00:00:59,219
+can kind of see how to do this, and then
+
+22
+
+00:00:59,219  -->  00:01:00,840
+we're going to be following that path
+
+23
+
+00:01:00,840  -->  00:01:03,690
+further to make some awesome applications.
+
+24
+
+00:01:03,690  -->  00:01:06,750
+So, the first thing we need is obviously
+
+25
+
+00:01:06,750  -->  00:01:12,150
+a crunchbang, so #!usr/bin/python3, and
+
+26
+
+00:01:12,150  -->  00:01:13,470
+then we're going to import some things.
+
+27
+
+00:01:13,470  -->  00:01:18,540
+So, we're going to import os, sys and
+
+28
+
+00:01:18,540  -->  00:01:23,490
+then from PyQt5.QtCore import * we're
+
+29
+
+00:01:23,490  -->  00:01:26,549
+going to import everything for right now.
+
+30
+
+00:01:26,549  -->  00:01:34,829
+From PyQt5.QtGui import *
+
+31
+
+00:01:34,829  -->  00:01:41,009
+import everything, and we may not end up
+
+32
+
+00:01:41,009  -->  00:01:44,369
+using some of this but we're going to
+
+33
+
+00:01:44,369  -->  00:01:47,340
+important anyway. You are going to also import
+
+34
+
+00:01:47,340  -->  00:01:52,270
+from PyQt5.QtQuick import *
+
+35
+
+00:01:52,270  -->  00:01:58,270
+Alright, now what we're going to be
+
+36
+
+00:01:58,270  -->  00:02:00,429
+doing at this point is basically
+
+37
+
+00:02:00,429  -->  00:02:04,390
+building a qml application, and so how
+
+38
+
+00:02:04,390  -->  00:02:10,479
+we do that is in the
+
+39
+
+00:02:10,479  -->  00:02:18,220
+if__name__  == "__main__": we're going to
+
+40
+
+00:02:18,220  -->  00:02:20,080
+instantiate the application so we're
+
+41
+
+00:02:20,080  -->  00:02:21,610
+going to create a variable called
+
+42
+
+00:02:21,610  -->  00:02:25,540
+app =  QGuiApplication
+
+43
+
+00:02:25,540  -->  00:02:29,980
+and we're going to pass in (sys.argv),
+
+44
+
+00:02:29,980  -->  00:02:33,519
+then we need to create an engine. So what
+
+45
+
+00:02:33,519  -->  00:02:36,099
+an engine does is it connects the
+
+46
+
+00:02:36,099  -->  00:02:41,410
+main qml it's the qml application engine
+
+47
+
+00:02:41,410  -->  00:02:45,819
+that we can use to use qml in our
+
+48
+
+00:02:45,819  -->  00:02:47,410
+applications. So I'm going to create a
+
+49
+
+00:02:47,410  -->  00:02:49,720
+variable called engine and it's going to
+
+50
+
+00:02:49,720  -->  00:02:59,139
+be = QQmlApplicationEngine, and it
+
+51
+
+00:02:59,139  -->  00:03:02,109
+doesn't look like it picked it up so I'm
+
+52
+
+00:03:02,109  -->  00:03:04,540
+just going to make sure that I imported
+
+53
+
+00:03:04,540  -->  00:03:17,910
+everything.
+
+54
+
+00:03:17,910  -->  00:03:21,810
+Alright, now our engine once we get it
+
+55
+
+00:03:21,810  -->  00:03:27,660
+created we're going to have to load, we
+
+56
+
+00:03:27,660  -->  00:03:29,730
+need to load a qml file. So we haven't
+
+57
+
+00:03:29,730  -->  00:03:30,900
+created it yet but we're going to be
+
+58
+
+00:03:30,900  -->  00:03:34,380
+calling it main.qml. So let's go
+
+59
+
+00:03:34,380  -->  00:03:37,800
+ahead and write engine.load and here
+
+60
+
+00:03:37,800  -->  00:03:40,440
+we're going to load a (QUrl) so
+
+61
+
+00:03:40,440  -->  00:03:43,290
+this is going to make...that doesn't look
+
+62
+
+00:03:43,290  -->  00:03:45,930
+right...
+
+63
+
+00:03:45,930  -->  00:03:50,460
+QUrl, and in here the URL path we're
+
+64
+
+00:03:50,460  -->  00:03:53,610
+going to be fromLocalFile,
+
+65
+
+00:03:53,610  -->  00:03:57,510
+and then all we have to do is
+
+66
+
+00:03:57,510  -->  00:04:00,150
+add a string here representing the file
+
+67
+
+00:04:00,150  -->  00:04:02,100
+path. So it's gonna be ("main.qml")
+
+68
+
+00:04:02,100  -->  00:04:04,590
+This is going to load up our qml
+
+69
+
+00:04:04,590  -->  00:04:06,750
+and then what we're going to do is we're
+
+70
+
+00:04:06,750  -->  00:04:09,870
+just going to show
+
+71
+
+00:04:09,870  -->  00:04:12,630
+everything, so we need to target we need
+
+72
+
+00:04:12,630  -->  00:04:15,120
+to create a window variable equal to
+
+73
+
+00:04:15,120  -->  00:04:22,470
+window = engine.routeObjects( )[0] and this is
+
+74
+
+00:04:22,470  -->  00:04:24,840
+actually a method, root objects is a method
+
+75
+
+00:04:24,840  -->  00:04:27,390
+that returns route objects from the
+
+76
+
+00:04:27,390  -->  00:04:29,220
+engine, so this is going to be the first
+
+77
+
+00:04:29,220  -->  00:04:32,010
+node in our main qml file which is going
+
+78
+
+00:04:32,010  -->  00:04:35,400
+to be an application window. Then we're
+
+79
+
+00:04:35,400  -->  00:04:39,750
+going to write window.show( ), and then
+
+80
+
+00:04:39,750  -->  00:04:49,800
+sys.exit(app.exec_( ) ). Alright,
+
+81
+
+00:04:49,800  -->  00:04:51,450
+so this is literally all we need in
+
+82
+
+00:04:51,450  -->  00:04:53,700
+Python, now we can start building out a qml
+
+83
+
+00:04:53,700  -->  00:04:55,860
+file. So I'm going to go ahead and create
+
+84
+
+00:04:55,860  -->  00:04:59,220
+a file called main.qml, and
+
+85
+
+00:04:59,220  -->  00:05:00,840
+unfortunately we are not going to have
+
+86
+
+00:05:00,840  -->  00:05:04,650
+syntax highlighting in this with
+
+87
+
+00:05:04,650  -->  00:05:09,360
+pycharm, so that's unfortunate. However,
+
+88
+
+00:05:09,360  -->  00:05:11,370
+we're going to deal with that,
+
+89
+
+00:05:11,370  -->  00:05:14,400
+alright. So in qml we need to make some
+
+90
+
+00:05:14,400  -->  00:05:18,419
+imports as well. Now if you're
+
+91
+
+00:05:18,419  -->  00:05:20,880
+up to date on this the versions
+
+92
+
+00:05:20,880  -->  00:05:23,310
+should be similar but you can always go
+
+93
+
+00:05:23,310  -->  00:05:25,890
+look at the 5.x documentation
+
+94
+
+00:05:25,890  -->  00:05:27,150
+on qts
+
+95
+
+00:05:27,150  -->  00:05:28,620
+website and they should show you some
+
+96
+
+00:05:28,620  -->  00:05:31,050
+examples of library versions. So,
+
+97
+
+00:05:31,050  -->  00:05:35,730
+import QtQuick 2.7, again we have no
+
+98
+
+00:05:35,730  -->  00:05:37,260
+syntax highlighting, we have no
+
+99
+
+00:05:37,260  -->  00:05:39,480
+auto-completion, but that's fine for
+
+100
+
+00:05:39,480  -->  00:05:45,900
+right now. We're going to import
+
+101
+
+00:05:45,900  -->  00:05:58,530
+QtQuick.Window 2.2, import QtQuick.Controls
+
+102
+
+00:05:58,530  -->  00:06:02,940
+1.4, these are all different version
+
+103
+
+00:06:02,940  -->  00:06:12,870
+numbers I know, import QtGraphicalEffects 1.0
+
+104
+
+00:06:12,870  -->  00:06:18,000
+Now in addition to this I mean this
+
+105
+
+00:06:18,000  -->  00:06:19,410
+should be fine for what we're doing
+
+106
+
+00:06:19,410  -->  00:06:21,420
+right now actually so let's go ahead and
+
+107
+
+00:06:21,420  -->  00:06:24,960
+and get some stuff rolling. So, we're
+
+108
+
+00:06:24,960  -->  00:06:27,510
+actually going to start writing in qml
+
+109
+
+00:06:27,510  -->  00:06:29,220
+now so this is going to be different
+
+110
+
+00:06:29,220  -->  00:06:31,140
+from python you're probably going to
+
+111
+
+00:06:31,140  -->  00:06:33,270
+recognize, I mean again it's declarative
+
+112
+
+00:06:33,270  -->  00:06:36,600
+so it's more similar to HTML, CSS, and
+
+113
+
+00:06:36,600  -->  00:06:38,610
+JavaScript than anything else, so we need
+
+114
+
+00:06:38,610  -->  00:06:40,860
+to create our route object in this case
+
+115
+
+00:06:40,860  -->  00:06:44,610
+it's going to be ApplicationWindow, and how you
+
+116
+
+00:06:44,610  -->  00:06:47,430
+open up elements in qml is you put curly
+
+117
+
+00:06:47,430  -->  00:06:52,230
+braces like that. Now we're going to give
+
+118
+
+00:06:52,230  -->  00:06:57,120
+it an id: equal mainWindow, and this
+
+119
+
+00:06:57,120  -->  00:06:59,130
+is so that if we want to change anything to
+
+120
+
+00:06:59,130  -->  00:07:00,960
+do with this from other elements we can
+
+121
+
+00:07:00,960  -->  00:07:03,000
+do it and in that case it's kind of like
+
+122
+
+00:07:03,000  -->  00:07:04,380
+JavaScript and i'll show you guys that
+
+123
+
+00:07:04,380  -->  00:07:06,690
+in a moment. We're going to set the
+
+124
+
+00:07:06,690  -->  00:07:10,290
+height for right now the default is
+
+125
+
+00:07:10,290  -->  00:07:14,400
+going to be 160, and the width is going
+
+126
+
+00:07:14,400  -->  00:07:21,720
+to be say 300,
+
+127
+
+00:07:21,720  -->  00:07:24,480
+and we're going to create an item in
+
+128
+
+00:07:24,480  -->  00:07:27,480
+here. So, go ahead create an element
+
+129
+
+00:07:27,480  -->  00:07:29,610
+called item and this is going to be our
+
+130
+
+00:07:29,610  -->  00:07:30,990
+main page that we're going to be putting
+
+131
+
+00:07:30,990  -->  00:07:33,990
+stuff into. So go ahead and give it an id:
+
+132
+
+00:07:33,990  -->  00:07:39,150
+page, and again right now this isn't
+
+133
+
+00:07:39,150  -->  00:07:41,820
+really important to give them all ids.
+
+134
+
+00:07:41,820  -->  00:07:44,100
+Visible is going to be set true we need
+
+135
+
+00:07:44,100  -->  00:07:46,710
+to do this in order to make the window
+
+136
+
+00:07:46,710  -->  00:07:49,350
+of the application itself visible, and
+
+137
+
+00:07:49,350  -->  00:07:50,970
+then the width of this is going to be
+
+138
+
+00:07:50,970  -->  00:08:00,270
+parents.width. Now what we're going to
+
+139
+
+00:08:00,270  -->  00:08:04,560
+do is add a rectangle in here, if I can spell
+
+140
+
+00:08:04,560  -->  00:08:07,170
+it correctly, and as you guys can see
+
+141
+
+00:08:07,170  -->  00:08:10,320
+creating elements is very similar
+
+142
+
+00:08:10,320  -->  00:08:13,230
+as you go down, so it's again like HTML.
+
+143
+
+00:08:13,230  -->  00:08:14,970
+We're gonna take away some space there
+
+144
+
+00:08:14,970  -->  00:08:18,060
+to keep the attributes separate from the
+
+145
+
+00:08:18,060  -->  00:08:24,870
+child elements. Height is going to be 160, so the
+
+146
+
+00:08:24,870  -->  00:08:28,110
+same as the main window, and you can do
+
+147
+
+00:08:28,110  -->  00:08:34,260
+this in JavaScript as well. So, let's go
+
+148
+
+00:08:34,260  -->  00:08:36,300
+ahead how you add javascript to a
+
+149
+
+00:08:36,300  -->  00:08:38,760
+property here is you open up curly
+
+150
+
+00:08:38,760  -->  00:08:42,510
+brackets and in here you can type stuff
+
+151
+
+00:08:42,510  -->  00:08:50,400
+like regular JavaScript, and then you can
+
+152
+
+00:08:50,400  -->  00:08:54,690
+return 160. Now it's important to note
+
+153
+
+00:08:54,690  -->  00:08:58,200
+that in here you do not use semi-colons
+
+154
+
+00:08:58,200  -->  00:09:00,180
+to end statements,
+
+155
+
+00:09:00,180  -->  00:09:01,890
+it's kind of like JavaScript but it's
+
+156
+
+00:09:01,890  -->  00:09:04,020
+not really javascript. We will go over the
+
+157
+
+00:09:04,020  -->  00:09:07,680
+differences soon. Now the color we're
+
+158
+
+00:09:07,680  -->  00:09:12,089
+going to set it to is going to be lets
+
+159
+
+00:09:12,089  -->  00:09:15,810
+say, actually you don't need quotes there,
+
+160
+
+00:09:15,810  -->  00:09:20,730
+going to be not white because that's the
+
+161
+
+00:09:20,730  -->  00:09:26,050
+default color so let's go with red.
+
+162
+
+00:09:26,050  -->  00:09:32,320
+And now we're going to create text, the
+
+163
+
+00:09:32,320  -->  00:09:35,110
+text node itself.
+
+164
+
+00:09:35,110  -->  00:09:38,920
+So go ahead and create text, the property in
+
+165
+
+00:09:38,920  -->  00:09:41,230
+here that's going to be relevant is text. In
+
+166
+
+00:09:41,230  -->  00:09:44,470
+here you can type in "I am some regular
+
+167
+
+00:09:44,470  -->  00:09:48,700
+text" Now we're going to set the height
+
+168
+
+00:09:48,700  -->  00:09:53,980
+of this to 50, we're going to set the width
+
+169
+
+00:09:53,980  -->  00:09:58,390
+equal to parents width so parent.width,
+
+170
+
+00:09:58,390  -->  00:10:03,820
+and we're going to set the pixel size, so
+
+171
+
+00:10:03,820  -->  00:10:08,589
+in in CSS you type font size, here you
+
+172
+
+00:10:08,589  -->  00:10:13,660
+will type font.pixelSize and i'm
+
+173
+
+00:10:13,660  -->  00:10:18,279
+going to set it to 12, and then you can
+
+174
+
+00:10:18,279  -->  00:10:20,829
+also set some other parameters in here
+
+175
+
+00:10:20,829  -->  00:10:22,060
+but I'm not going to this should be
+
+176
+
+00:10:22,060  -->  00:10:23,140
+enough right now. I'm going to go ahead
+
+177
+
+00:10:23,140  -->  00:10:25,660
+and save this, I'm going to run the main
+
+178
+
+00:10:25,660  -->  00:10:31,660
+file, and we should see a window you
+
+179
+
+00:10:31,660  -->  00:10:35,020
+created...engine.rootObjects index out
+
+180
+
+00:10:35,020  -->  00:10:36,220
+of range.
+
+181
+
+00:10:36,220  -->  00:10:43,860
+Alright, well that's not good at all.
+
+182
+
+00:10:43,860  -->  00:10:51,830
+Let's come back here and have a look...
+
+183
+
+00:10:57,860  -->  00:11:23,800
+we got the application created.
+
+184
+
+00:11:23,800  -->  00:11:26,470
+That's unexpected token, so that's
+
+185
+
+00:11:26,470  -->  00:11:30,220
+because in here we have that. We could
+
+186
+
+00:11:30,220  -->  00:11:44,260
+escape that then restart. Line 22
+
+187
+
+00:11:44,260  -->  00:11:45,700
+don't need to put these quotes I
+
+188
+
+00:11:45,700  -->  00:11:47,740
+believe, I think you should just work
+
+189
+
+00:11:47,740  -->  00:12:03,540
+like regular x colors...
+
+190
+
+00:12:03,540  -->  00:12:07,110
+There we go and as you can see we've got,
+
+191
+
+00:12:07,110  -->  00:12:11,699
+let me toggle back here let's focus on it,
+
+192
+
+00:12:11,699  -->  00:12:14,130
+we've now got a window that just has
+
+193
+
+00:12:14,130  -->  00:12:17,430
+some regular text here. Now what we could
+
+194
+
+00:12:17,430  -->  00:12:20,880
+do is we can move this text around, we
+
+195
+
+00:12:20,880  -->  00:12:22,860
+can set the window title, and in fact
+
+196
+
+00:12:22,860  -->  00:12:23,759
+that's what we're going to be doing
+
+197
+
+00:12:23,759  -->  00:12:24,930
+first.
+
+198
+
+00:12:24,930  -->  00:12:27,029
+So, in order to set the window title
+
+199
+
+00:12:27,029  -->  00:12:31,050
+you're just going to give the application
+
+200
+
+00:12:31,050  -->  00:12:36,540
+window a title: "My Window" so save it
+
+201
+
+00:12:36,540  -->  00:12:40,079
+and restart it. You're going to see now the
+
+202
+
+00:12:40,079  -->  00:12:43,110
+window has a title called my window and
+
+203
+
+00:12:43,110  -->  00:12:46,290
+we can also move it. Now we can also set
+
+204
+
+00:12:46,290  -->  00:12:47,940
+other properties in here and we're going
+
+205
+
+00:12:47,940  -->  00:12:50,220
+to be going over that in the next video.
+
+206
+
+00:12:50,220  -->  00:12:51,720
+We're going to be going over
+
+207
+
+00:12:51,720  -->  00:12:53,910
+different elements and how we can use
+
+208
+
+00:12:53,910  -->  00:12:55,649
+them, and then we'll get into making some
+
+209
+
+00:12:55,649  -->  00:13:01,250
+programs.

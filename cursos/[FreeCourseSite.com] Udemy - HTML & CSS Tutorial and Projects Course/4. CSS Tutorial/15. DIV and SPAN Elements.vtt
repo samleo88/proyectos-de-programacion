@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.860 --> 00:02.430
+While working with Asian.
+
+00:02.780 --> 00:05.450
+We didn't cover two specific elements.
+
+00:05.450 --> 00:07.920
+One was Dave and the other one was bad.
+
+00:08.390 --> 00:13.790
+Now the reason why I didn't cover them because I didn't find it useful with an HMO because they're used
+
+00:13.790 --> 00:14.770
+for grouping.
+
+00:14.840 --> 00:22.350
+However in essence these two elements are going to come very very powerful and very very useful.
+
+00:22.380 --> 00:24.860
+So again as always let's look at the example.
+
+00:24.920 --> 00:28.200
+So first of all let me just keep this green on the colors.
+
+00:28.220 --> 00:31.540
+Gonna stay green as well as when I keep this class all right.
+
+00:31.610 --> 00:33.660
+Just to show you how basically things work.
+
+00:33.890 --> 00:37.500
+Now I'm gonna get rid of the titles and the ideas and everything else.
+
+00:37.550 --> 00:40.760
+So let me save it and let's head over back to indexation.
+
+00:41.510 --> 00:44.890
+Now in the indexation memo I'm gonna create a heading.
+
+00:44.930 --> 00:49.630
+Let's say 3 with a title heading number one.
+
+00:49.910 --> 00:53.610
+Ring a ding number one.
+
+00:53.640 --> 00:56.500
+And let's add maybe a paragraph with.
+
+00:56.540 --> 00:59.900
+I'm sorry I would have to first have a paragraph with.
+
+01:00.040 --> 01:00.480
+I don't know.
+
+01:00.480 --> 01:05.530
+Text like I don't know 10 words or you know what one that's gonna be our partner.
+
+01:05.660 --> 01:11.300
+Now what I would like to do right now is copy and paste the same thing here and let's write adding not
+
+01:11.390 --> 01:14.520
+number one but this is gonna be heading number two.
+
+01:14.540 --> 01:20.780
+And also let's decide that somewhere within the second paragraph there is gonna be some text and I'm
+
+01:20.780 --> 01:28.910
+gonna add my own text where I'm gonna say Hey I am I am uppercase and I'm gonna write here A I am uppercase.
+
+01:29.060 --> 01:33.590
+So we would like to have this text on it and I'm gonna place it in two places.
+
+01:33.980 --> 01:38.420
+So I'm gonna say the first one is gonna be here and the second one is gonna be somewhere over here.
+
+01:38.540 --> 01:42.630
+And again this all is gonna make sense literally in a second.
+
+01:42.650 --> 01:43.680
+Now what happen.
+
+01:43.970 --> 01:46.540
+So I would like this heading.
+
+01:46.580 --> 01:52.970
+So the heading number one and the paragraph to be read as well as the heading three.
+
+01:53.240 --> 01:59.630
+The second heading as was the paragraph to be blue so long let's think about it again.
+
+01:59.660 --> 02:05.210
+I cannot select all the herring 3s because I would want them different as well as I can select all the
+
+02:05.210 --> 02:08.270
+paragraphs because it will work the same way.
+
+02:08.330 --> 02:14.450
+Now again we can say well we can easily just add here the grouping or we can add the ideas.
+
+02:14.480 --> 02:18.770
+However there is a better way so we can use this and plan for it.
+
+02:18.800 --> 02:21.080
+Like I said Devon's plan would be used for grouping.
+
+02:21.680 --> 02:25.580
+So first let me create a element and the element is gonna be very simple.
+
+02:25.580 --> 02:27.470
+So we just write a div that's all.
+
+02:27.470 --> 02:33.350
+Since that is the name of the UN and now I'd like to place the ending tag for this div where I would
+
+02:33.350 --> 02:34.630
+want the group something.
+
+02:34.710 --> 02:39.140
+So in my case I want to group the heading 3 as was the program the first program.
+
+02:39.350 --> 02:43.240
+So I'm gonna head over here in the moment we served notice nothing happened.
+
+02:43.280 --> 02:46.340
+Nothing literally changes now okay.
+
+02:46.620 --> 02:47.810
+However that was a good start.
+
+02:48.500 --> 02:50.720
+Now why don't we do the same thing with the span.
+
+02:50.720 --> 02:55.970
+However in this case we're going to work with this hey I'm uppercase So again right before this text
+
+02:56.080 --> 02:57.110
+I am uppercase.
+
+02:57.260 --> 02:59.090
+Let's create a span element.
+
+02:59.210 --> 03:01.830
+Now let's say that I would like to work with an upper case.
+
+03:01.910 --> 03:06.040
+So I'm gonna grab this whatever text and I'm gonna copy and paste it here.
+
+03:06.050 --> 03:08.030
+Now I would like to do the same thing with this guy.
+
+03:08.030 --> 03:09.560
+So we have few options.
+
+03:09.650 --> 03:14.450
+We can either just copy and paste everything that we had here or you know what I didn't want to cut
+
+03:14.450 --> 03:20.800
+it out let's say copy and we're going to replace whatever text we had already with this part.
+
+03:20.930 --> 03:26.210
+And again the moment we do this nothing changes in our actual browser so we might be tempted.
+
+03:26.210 --> 03:29.640
+Thinking Well listen there's something wrong with this what's happening.
+
+03:30.350 --> 03:34.880
+Well we should already know that we can use just the simple elements like this right.
+
+03:35.300 --> 03:40.880
+So we can head over back and we're going to say for all my divs I would want to first have some kind
+
+03:40.880 --> 03:43.010
+of color and the background.
+
+03:43.010 --> 03:48.290
+So again we can just copy and paste whatever properties in the values and let's noticed something interesting.
+
+03:49.070 --> 03:56.330
+So right away what's happening is the div element that had been heading in the paragraph has the styles
+
+03:56.360 --> 03:59.660
+that we want it just by obviously using our element select.
+
+04:00.550 --> 04:06.800
+Okay let's start out the same thing with the span let's say for the span we're gonna use text transform
+
+04:06.800 --> 04:13.720
+again property that we're going to cover later on we as an object now also we notice something interesting.
+
+04:14.030 --> 04:21.960
+So everywhere we use the span we were able to grow whatever we placed within a span and add these styles.
+
+04:22.010 --> 04:24.100
+Now I'm not going to cover right now.
+
+04:24.290 --> 04:30.980
+The reasoning for why this is basically displayed one way and the span is gonna be in the in line because
+
+04:30.980 --> 04:36.230
+we're going to cover this as we start talking about the box model because for now what we're saying
+
+04:36.230 --> 04:42.110
+is that there is just a difference with a day if we are basically starting a new line and the span we're
+
+04:42.110 --> 04:46.910
+using for inline style and in general this would be the block level element.
+
+04:47.060 --> 04:51.100
+And this is gonna be the in line now but again we're going to cover this later on of course.
+
+04:51.260 --> 04:56.510
+What I would like to understand that whenever we're gonna be using defined and span this is gonna be
+
+04:56.510 --> 04:57.720
+used for grouping.
+
+04:57.800 --> 05:03.770
+So if you want a group something together we're gonna place this in a div and if we would like to style
+
+05:03.770 --> 05:08.150
+this as a block element then the devs are gonna be important.
+
+05:08.150 --> 05:13.700
+How or if you'd like to style something as the inline element whereas you notice it's not starting a
+
+05:13.700 --> 05:19.490
+new line and then we're gonna use respond but again we're going to cover this later on in much more
+
+05:19.490 --> 05:20.450
+detail.
+
+05:20.450 --> 05:26.510
+For now though what is gonna happen with the set second heading through and the part where because remember
+
+05:26.510 --> 05:29.330
+we wanted the second one to also have different styles.
+
+05:29.840 --> 05:31.220
+And for now we have the Dave.
+
+05:31.880 --> 05:38.870
+Now if I'm gonna add another div here I'm gonna say okay so there's gonna be a second Dave and let me
+
+05:38.870 --> 05:45.040
+cut this out and let's say that I'm gonna obviously end where I would like to end my grouping.
+
+05:45.050 --> 05:47.360
+So this is gonna be at the end of the paragraph.
+
+05:47.360 --> 05:50.870
+Now both of them are obviously having the same styles.
+
+05:51.080 --> 05:52.470
+Now this is not what we want.
+
+05:52.490 --> 05:52.820
+Right.
+
+05:53.180 --> 05:59.480
+So we wanted the second one to have just a green color but say well we know that we can use classes.
+
+06:00.110 --> 06:05.120
+So this is where the divs become important because we can add these classes and say you know there's
+
+06:05.120 --> 06:10.880
+gonna be class and we already have the classes so I'm gonna have the class right now at the moment nothing
+
+06:10.880 --> 06:11.400
+changes.
+
+06:11.780 --> 06:17.040
+So obviously we have the both the same things or what if I'm gonna get rid of this Dave.
+
+06:17.370 --> 06:20.620
+So I'm not going to select anything anymore with a div.
+
+06:20.840 --> 06:24.050
+Notice the first one I was like has the class.
+
+06:24.140 --> 06:27.800
+Now I can head over back to the second one and say you know what.
+
+06:27.950 --> 06:35.390
+Okay for this guy let's add the cross agree so the power of div and the span is the fact that not only
+
+06:35.390 --> 06:41.630
+we can style them as elements like we can also add whatever ideas we would want whatever classes we
+
+06:41.630 --> 06:48.480
+would want and that way we can start grouping things together and adding whatever styles we would like.
+
+06:48.530 --> 06:50.510
+Now how also is going to work with this part.
+
+06:50.990 --> 06:58.540
+So let's say that I have this I am uppercase Well I can head over the first one since I wouldn't want
+
+06:58.600 --> 07:00.950
+all my plans just to be uppercase.
+
+07:01.180 --> 07:06.000
+But let's imagine there's going to be span where I would like to reuse my class all right.
+
+07:06.520 --> 07:07.410
+Okay.
+
+07:07.470 --> 07:12.120
+All we have to do is just add declassified and let's see what happened.
+
+07:12.130 --> 07:17.360
+So not only the span that has the class of red is getting these styles.
+
+07:17.470 --> 07:22.910
+Now again please don't focus on the fact that there's our block level elements and the spans are gonna
+
+07:22.920 --> 07:28.270
+be in line level alignment because we haven't covered that but just remember that whenever we would
+
+07:28.270 --> 07:35.770
+like to group something we can either use Dave or we can use the span and just in a very basic level
+
+07:36.090 --> 07:42.100
+span we're going to use if we would like to start something within the text already so we wouldn't want
+
+07:42.100 --> 07:43.810
+to start a new line.
+
+07:43.870 --> 07:48.000
+However Dave we would style if we would want to start as a block level.
+
+07:48.340 --> 07:53.570
+So just to give you an idea if I'm gonna head over here and change the span to the Dave.
+
+07:53.800 --> 07:57.720
+So let's say there is gonna be Dave instead of a class of span.
+
+07:57.820 --> 08:00.830
+I'm sorry Dave with a class or read instead on the span.
+
+08:00.910 --> 08:01.840
+Notice what happens.
+
+08:02.190 --> 08:05.430
+So in this case we will gonna start a new line.
+
+08:05.650 --> 08:11.590
+So instead of just tiling everything in line so again that would be the most basic differences but we're
+
+08:11.590 --> 08:14.010
+gonna cover the more differences later on.

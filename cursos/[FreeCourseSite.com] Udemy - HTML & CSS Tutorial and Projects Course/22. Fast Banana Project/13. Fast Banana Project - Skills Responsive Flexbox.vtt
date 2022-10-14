@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.110 --> 00:06.010
+And I don't know why I was so eager to build the next section if we still haven't made this one responsive
+
+00:06.420 --> 00:08.130
+so we're going to head back over here.
+
+00:08.340 --> 00:14.610
+And we still need our media queries or we're going to say over here is we're going to say this is going
+
+00:14.610 --> 00:21.330
+to be a medium year and then we're going to say screen and then we're going to say and we're here we're
+
+00:21.340 --> 00:24.280
+all the same men with more here.
+
+00:24.390 --> 00:29.390
+And this is going to be 576 pixels like this.
+
+00:29.460 --> 00:37.520
+Then after that what you would want is skills center right and the parent skills center on this.
+
+00:37.590 --> 00:39.330
+And then we're going to say this play.
+
+00:39.690 --> 00:42.380
+I'm going to say flex I really like this.
+
+00:42.450 --> 00:45.440
+Then after that we're going to have a justified content.
+
+00:45.660 --> 00:45.900
+Right.
+
+00:45.930 --> 00:53.050
+And we're going to have a space between this and then we're going to have a flics rap rap.
+
+00:53.110 --> 00:57.840
+So when I say flex rap and I'm going to say rap I know this.
+
+00:57.870 --> 01:00.310
+Now if we say this let's check it out.
+
+01:00.330 --> 01:01.140
+We have.
+
+01:01.440 --> 01:01.680
+All right.
+
+01:01.680 --> 01:03.900
+So we say it over here and you can see it.
+
+01:03.900 --> 01:05.230
+Nothing has changed.
+
+01:05.350 --> 01:07.410
+Technically I don't worry about it.
+
+01:07.410 --> 01:09.440
+We actually we're going to do that right.
+
+01:09.720 --> 01:16.160
+So what's going to happen here with the skills and there right now we want to deal with the skill.
+
+01:16.210 --> 01:23.190
+So I'm going to say skill here and I'm going to say flex like we're here and I'm going to say again
+
+01:23.730 --> 01:33.200
+zero for growing zero for shrinking calculate and we're all going to say like this 50 percent 50 percent
+
+01:33.570 --> 01:36.460
+minus one E-M Warrior.
+
+01:36.620 --> 01:43.670
+All right then who would want to do is text align center text on line center here.
+
+01:43.980 --> 01:47.770
+We're going to say this and I know we're here for this skill paragraph.
+
+01:47.770 --> 01:48.290
+All right.
+
+01:48.390 --> 01:50.310
+We also want to make some changes.
+
+01:50.460 --> 01:52.250
+So I was just figuring out what we have so far.
+
+01:52.250 --> 01:52.710
+Right.
+
+01:52.920 --> 01:57.450
+So you can see where you are right now and text everything is in center but I want to move or hear this
+
+01:57.450 --> 01:58.480
+paragraph.
+
+01:58.540 --> 02:06.200
+So what I'm going to do here I'm going to say this is going to be scale paragraph way I like this and
+
+02:06.190 --> 02:07.380
+we're going to a margin.
+
+02:07.430 --> 02:08.170
+Zero.
+
+02:08.180 --> 02:11.700
+All right so now is going to be automatically in the middle.
+
+02:11.700 --> 02:18.220
+And you know what let's do with I to do like 80 percent 80 percent or here right.
+
+02:18.300 --> 02:24.240
+So I'm going to say this rewind this and once we refresh right now I can see that it's actually in the
+
+02:24.240 --> 02:25.100
+middle.
+
+02:25.170 --> 02:30.510
+Now one would also want to do is obviously once we get to the bigger screen we don't want it to be half
+
+02:30.530 --> 02:31.190
+the screen right.
+
+02:31.220 --> 02:36.630
+So we're going to have four of them four columns so we're going to go back over here and what we can
+
+02:36.630 --> 02:40.890
+do we can just copy and paste and we're going to change some values right.
+
+02:40.920 --> 02:48.610
+So we need to go back over here and here we're going to say for 9 9 2 0 9 and 2 pixels and on here this
+
+02:48.790 --> 02:49.860
+is the same.
+
+02:50.000 --> 02:51.570
+There's no difference or here.
+
+02:51.840 --> 02:53.800
+So we can just delete this.
+
+02:54.000 --> 02:56.660
+There's still going to be flex but oh we're here.
+
+02:56.670 --> 03:03.540
+Let's change this one to twenty five percent over here right then text the line again is the same one.
+
+03:03.570 --> 03:04.560
+So we don't care.
+
+03:04.600 --> 03:05.590
+Can we.
+
+03:05.730 --> 03:08.480
+But first gilds paragraph margin is going to be the same.
+
+03:08.530 --> 03:09.730
+Right but.
+
+03:09.780 --> 03:11.530
+So what can we do in this one.
+
+03:11.580 --> 03:16.490
+Well let's change this to 100 percent so we say this and let's check it out.
+
+03:16.500 --> 03:17.160
+We have.
+
+03:17.380 --> 03:19.070
+So we're fresh over here.
+
+03:19.100 --> 03:21.150
+I can see that this is going to be our look right.
+
+03:21.180 --> 03:22.670
+Once we get to that screen.
+
+03:22.710 --> 03:23.130
+Right.
+
+03:23.220 --> 03:27.300
+This is going to be a look then if we're in a smaller screen this is going to look like this.
+
+03:27.660 --> 03:32.980
+Or if we're actually making the screen bigger right you can see that it's a responsive.
+
+03:33.040 --> 03:35.300
+And now we actually have four of them.

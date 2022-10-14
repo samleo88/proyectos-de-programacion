@@ -1,0 +1,265 @@
+WEBVTT
+
+00:00.480 --> 00:03.960
+So the million dollar question how we can create this button.
+
+00:04.400 --> 00:10.260
+Oh you might be thinking well we can use probably something like position work and you would be almost
+
+00:10.260 --> 00:10.630
+correct.
+
+00:11.250 --> 00:14.000
+However as we're scrolling on notice what happens.
+
+00:14.130 --> 00:16.080
+So the button stays in place.
+
+00:16.500 --> 00:19.370
+So why don't we use the position fixed instead.
+
+00:19.590 --> 00:23.030
+First and foremost as always we're going to have to go the indexation email.
+
+00:23.160 --> 00:28.710
+But since we're using again position fixed technically you can place this button anywhere you'd like.
+
+00:28.710 --> 00:33.600
+Now I just think that logically this makes a little bit of sense if the button is gonna be sitting all
+
+00:33.600 --> 00:34.630
+the way on top.
+
+00:34.710 --> 00:36.130
+So why don't we write it here.
+
+00:36.300 --> 00:43.050
+Let's say that there is gonna be a span and we could make this button ourselves by the divs and all
+
+00:43.050 --> 00:48.580
+that but I think there's gonna be a little bit faster if we're just gonna set it up as a phantasm.
+
+00:48.720 --> 00:56.110
+I do want to have one class and one I.D. So when I say nav Button class an idea of not a button.
+
+00:56.110 --> 01:00.090
+Now the idea is gonna be important because we're gonna use it in jobs.
+
+01:00.570 --> 01:02.370
+So that's the reason why I'm adding here.
+
+01:02.380 --> 01:08.280
+The idea we could technically use the class as well but for now let's just use the idea for JavaScript.
+
+01:08.280 --> 01:15.990
+And this is gonna be for styling and here that's right Phantasm now the name is gonna be a face f a
+
+01:15.990 --> 01:18.270
+barge mon we're gonna save it.
+
+01:18.390 --> 01:23.070
+And if we're going to head over back on the top notice that we're gonna have to text our.
+
+01:23.070 --> 01:27.190
+Now obviously we would want our suggestion and we're gonna have our little icon.
+
+01:27.630 --> 01:28.050
+Awesome.
+
+01:28.530 --> 01:29.090
+Okay.
+
+01:29.160 --> 01:30.090
+What's next.
+
+01:30.190 --> 01:31.960
+We're gonna head over back to CSX.
+
+01:31.980 --> 01:35.420
+And again we had our NAV bar all the way to the top.
+
+01:35.610 --> 01:40.560
+Remember we had the nav bar as well as we had the NAV button.
+
+01:40.580 --> 01:47.390
+Now in this case I I think I combined them both where I have the animations ahead of her.
+
+01:47.460 --> 01:49.650
+So this is gonna be in the Virgin Skills.
+
+01:49.680 --> 01:52.930
+I'm sorry I'm still navigating throughout Navarre.
+
+01:53.010 --> 01:54.530
+There is no cure.
+
+01:54.540 --> 01:58.240
+Let's say there's gonna be no bar but I can also add maybe nap button.
+
+01:58.240 --> 02:04.080
+So I'm just saying now I've beaten and let's add some stars now obviously since we have the class in
+
+02:04.110 --> 02:06.760
+just about everything by targeting the class.
+
+02:06.810 --> 02:12.360
+So when we say first the heart beating then and like I said we're going to be using position fixed because
+
+02:12.360 --> 02:18.200
+what I would like to do is as I'm going over then I would like to see this button somewhere.
+
+02:18.300 --> 02:24.670
+What you're noticing right away is that as I'm scrolling below my a header where I had my linear grade
+
+02:24.710 --> 02:25.860
+end and everything.
+
+02:25.860 --> 02:29.810
+Now I can see the button how serious I'm scrolling on top of it.
+
+02:29.910 --> 02:30.630
+We cannot see it.
+
+02:30.960 --> 02:33.650
+So in order to fix this we would need to use design.
+
+02:33.730 --> 02:40.260
+Remember that one the one that was responsible for Z axis and let just sitting here like something like
+
+02:40.260 --> 02:43.630
+one and the moment we do that notice now we can see the button.
+
+02:43.800 --> 02:45.000
+So everything is working fine.
+
+02:45.480 --> 02:48.440
+Well since we're using position fixed we also would need to place it.
+
+02:48.840 --> 02:50.250
+So I'm going to say top zero.
+
+02:50.290 --> 02:52.250
+So this is gonna be all the way to the top.
+
+02:52.290 --> 02:53.400
+The left hand side.
+
+02:53.580 --> 02:56.660
+So for this we're gonna say top 0 left 0.
+
+02:56.850 --> 03:03.810
+And let's maybe add some colouring so primary color that's gonna be green right now.
+
+03:03.840 --> 03:10.040
+We can also add maybe a little bit of margin one our aim is gonna be Tom bottom one point three.
+
+03:10.070 --> 03:11.520
+He is gonna be left and right.
+
+03:11.520 --> 03:17.880
+So let's say one point three grams is gonna be left and right.
+
+03:18.420 --> 03:19.920
+So it should look something like this.
+
+03:19.920 --> 03:25.910
+And this is gonna be our March number maybe we can also make it bigger so font size is gonna be two
+
+03:25.910 --> 03:26.330
+or.
+
+03:26.730 --> 03:33.330
+However as we're looking at the final project we know this that this is gonna be bouncing and we already
+
+03:33.330 --> 03:35.250
+know that we can use the animation for that.
+
+03:35.580 --> 03:36.730
+So why don't we set it up.
+
+03:37.230 --> 03:42.360
+And like I said before I would like to set up this now very I mean animation right here because I don't
+
+03:42.360 --> 03:47.550
+see the point of creating it in all the animations and then going back.
+
+03:47.550 --> 03:52.770
+I think this is just gonna make a little bit more sense if we write them here now for animations we
+
+03:52.770 --> 03:58.740
+already know the key frames are hard a word that we're looking for then I'm gonna name might bounce
+
+03:59.710 --> 04:01.810
+and I'm gonna have few things here.
+
+04:01.990 --> 04:07.030
+I'm gonna say at zero percent this is gonna be scaling to nothing.
+
+04:07.090 --> 04:13.180
+Meaning this is gonna be transform and transform and then let's read scale.
+
+04:13.180 --> 04:16.140
+And this is gonna be one meaning we're not gonna change anything.
+
+04:16.510 --> 04:20.820
+However I'd also like to add two more and this is not what I wanted to copy and paste.
+
+04:20.830 --> 04:30.860
+So let's say 1 2 and now I'm gonna be looking out for zero percent let's say 5 50 say 5 percent 50 percent.
+
+04:30.880 --> 04:31.670
+And you know what.
+
+04:31.670 --> 04:32.830
+A hundred percent.
+
+04:32.830 --> 04:34.720
+And let's just make this bigger.
+
+04:34.840 --> 04:36.840
+And then we're gonna make it back again 1.
+
+04:37.060 --> 04:40.280
+So for the 50 percent who's gonna here one point five.
+
+04:40.900 --> 04:47.710
+Now since we have already animation setup we can right away right and we can say animation the name
+
+04:47.710 --> 04:52.670
+is gonna be bounce of course some animation bounce and then we're looking for what.
+
+04:53.170 --> 04:59.050
+Well how long the animation is gonna take place I'm gonna say two seconds then we can say ease in and
+
+04:59.050 --> 04:59.590
+out.
+
+04:59.670 --> 05:02.580
+So that's gonna be the functioning of the animation.
+
+05:02.770 --> 05:04.530
+And let's also add infinite.
+
+05:04.900 --> 05:08.740
+So the button right now that button is gonna be bouncing infinitely.
+
+05:09.340 --> 05:14.080
+I also would like to add cursor pointer we're just gonna make sure that as I'm hovering I we're gonna
+
+05:14.080 --> 05:16.440
+see that I'm gonna have my little cursor.
+
+05:16.440 --> 05:19.280
+And yeah and this is how we can set up the NAV button.
+
+05:19.400 --> 05:22.970
+We're gonna head over back to the bigger browser window just to check that it's happening.
+
+05:23.410 --> 05:29.170
+And the neat thing is that we're all gonna be able to access our navigation all throughout the document
+
+05:29.620 --> 05:31.990
+because we have the position fixed.
+
+05:31.990 --> 05:35.170
+So regardless of where we're scrolling we're gonna have our button.

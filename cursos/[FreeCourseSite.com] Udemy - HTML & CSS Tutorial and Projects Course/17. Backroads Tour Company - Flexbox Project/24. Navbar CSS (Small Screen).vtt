@@ -1,0 +1,331 @@
+WEBVTT
+
+00:00.630 --> 00:03.510
+So let's not waste any of our time.
+
+00:03.510 --> 00:07.710
+Let's head over to styles reassess and start styling.
+
+00:07.980 --> 00:15.420
+And our first concern is going to be this image because again we are using the image correct.
+
+00:15.420 --> 00:17.220
+So we have a source for images.
+
+00:17.220 --> 00:18.660
+That's our logo.
+
+00:19.050 --> 00:25.560
+And then since I would like to apply for all my images to have with hundred and then display a block
+
+00:25.860 --> 00:28.350
+Well that's the reason why it looks this way.
+
+00:28.850 --> 00:31.160
+And there's multiple ways how we can do that.
+
+00:31.230 --> 00:38.660
+But one of the need ways how we can in fact fix it is by using not selector.
+
+00:38.670 --> 00:40.140
+So how does that work.
+
+00:40.140 --> 00:48.030
+Well I can just head over to my AMG where I'm selecting all the images and then let's type colon knot
+
+00:48.390 --> 00:54.790
+and then within the parentheses we just need to type well which element should be excluded.
+
+00:54.930 --> 00:57.920
+And what I'm looking for is nav logo.
+
+00:57.930 --> 01:03.760
+Now why I'm looking for that political class because that is the class that I set up for this image.
+
+01:04.020 --> 01:07.020
+If your value is different please type 1.
+
+01:07.080 --> 01:08.760
+Now at the moment we're going to save it.
+
+01:08.850 --> 01:15.060
+In fact our logo is going to be exactly how I set it up within my images.
+
+01:15.630 --> 01:22.520
+Because within the logo I squeegee as you see I have the width of 175 and the height in fact is 30 and
+
+01:22.680 --> 01:28.590
+previously 100 percent for the very simple reason because I was targeting all the images.
+
+01:28.620 --> 01:33.840
+Now I would still like to keep all the images because that's very neat where for each and every time
+
+01:33.840 --> 01:35.970
+I'm adding the image I don't have to worry about it.
+
+01:36.110 --> 01:40.670
+OK but in this particular case I would like to exclude it.
+
+01:40.710 --> 01:42.130
+That's number one.
+
+01:42.150 --> 01:45.280
+Then let's actually scroll down.
+
+01:45.390 --> 01:46.720
+Where is our number.
+
+01:46.720 --> 01:52.860
+And of course I could have used that also the finder but in this case I just decided to scroll.
+
+01:52.950 --> 01:55.620
+And then why don't we first check it out.
+
+01:56.250 --> 01:58.650
+As far as our initial setup.
+
+01:58.710 --> 02:05.470
+So before we're going to set it up a fixed number that is eventually her goal because you're going to
+
+02:05.470 --> 02:12.300
+notice eventually once we set up our JavaScript in fact our NAV bar is going to be fixed as we start
+
+02:12.300 --> 02:13.240
+scrolling.
+
+02:13.260 --> 02:20.010
+Now before that in fact we are going to use whatever background color we do have for our whole project
+
+02:20.430 --> 02:23.160
+because remember we said the body with this off white.
+
+02:23.310 --> 02:25.250
+And in fact I didn't change it.
+
+02:25.260 --> 02:25.770
+All right.
+
+02:25.840 --> 02:32.190
+Now technically if you don't like the color you can do something like this nav bar and background of
+
+02:32.190 --> 02:33.430
+red right.
+
+02:33.780 --> 02:39.750
+But I just left it the way it is now I'm going to comment this out just so you can remember maybe you're
+
+02:39.750 --> 02:44.340
+going to use it later on but I just went with the same color that I have for the body.
+
+02:44.340 --> 02:48.900
+That's number one that I would like to mention that right away on a small screen size.
+
+02:49.080 --> 02:52.520
+I wouldn't want to display these social media icons.
+
+02:52.830 --> 02:58.230
+So the first rule we're going to write is in fact nav icons display of none because I don't want to
+
+02:58.230 --> 02:58.770
+show them.
+
+02:59.190 --> 03:02.150
+So let's write a display of none.
+
+03:02.210 --> 03:04.060
+That's it icons are gone.
+
+03:04.260 --> 03:06.420
+And then let's start focusing on the header.
+
+03:06.420 --> 03:14.400
+And like I said my header is the logo as well as this little button that later on is going to be used
+
+03:14.400 --> 03:17.610
+for my toggling when we set up our javascript.
+
+03:17.730 --> 03:24.120
+So let's say like this Let's say now I've had her then four and I have her first of all I would like
+
+03:24.120 --> 03:29.800
+to have some padding top bottom one our arms to our arms on the sides like.
+
+03:29.910 --> 03:35.140
+So then why don't we set up display flex some display flex.
+
+03:35.200 --> 03:38.740
+So now they're displayed as a flex box.
+
+03:38.790 --> 03:44.070
+Why don't we add justified content because I would like to again push them as far as possible from each
+
+03:44.070 --> 03:47.030
+other space between like so.
+
+03:47.370 --> 03:53.970
+But I would also like to align my button in the center in the center on this logo.
+
+03:54.270 --> 03:58.930
+So why don't we say a line items and center like so.
+
+03:58.930 --> 04:01.350
+So now my button is sitting in the center.
+
+04:01.360 --> 04:04.690
+Then let's start working with my button.
+
+04:04.690 --> 04:12.990
+And remember we had a class of nof toggle now for enough toggle why don't we go with background of transparent
+
+04:13.500 --> 04:26.520
+where my button then border non border non outline on line non like so and then font size is going to
+
+04:26.520 --> 04:29.560
+be increased to one point five.
+
+04:29.580 --> 04:32.900
+Ari Ms kept color.
+
+04:33.120 --> 04:35.490
+We're going to have it as a primary color.
+
+04:35.760 --> 04:44.280
+So my var primary color and then cursor pointer as we're hovering we're going to have our cursor as
+
+04:44.280 --> 04:45.210
+a pointer.
+
+04:45.210 --> 04:51.300
+And lastly there's going to be a main transition because what I would like to do as I'm hovering over
+
+04:51.300 --> 04:53.810
+the icon I would want to scale it little bit.
+
+04:53.850 --> 05:00.860
+So remember we had a transition property and then we could use the value of main transition so main
+
+05:00.860 --> 05:02.000
+transition.
+
+05:02.000 --> 05:10.280
+And lastly like I said as we're hovering as we do nav toggle hover I would just like to make my button
+
+05:10.400 --> 05:11.580
+a bit bigger.
+
+05:11.720 --> 05:16.070
+So why don't we write transform scale one point two.
+
+05:16.100 --> 05:23.420
+And then once we add the scale notice when we're going to hover our button is gonna get bigger.
+
+05:23.450 --> 05:32.240
+Now I would also like to work with nav links so all the guys over here so have home about services and
+
+05:32.240 --> 05:33.840
+featured and gallery and all that.
+
+05:34.400 --> 05:42.350
+So let's target them one by one by saying nav link and then as far as my links I would want to display
+
+05:42.350 --> 05:42.720
+them.
+
+05:42.720 --> 05:44.840
+BLOCK So display them as a block.
+
+05:44.840 --> 05:48.500
+Now they're in fact stacked one on top of each other.
+
+05:48.530 --> 05:51.790
+Why don't we add also right away some padding.
+
+05:51.890 --> 05:57.230
+So one RTM is going to be Tom bottom and then two or three M's on the side.
+
+05:57.230 --> 06:02.960
+And if you noticed I was using the same two arms for my header and that's the reason why I set up for
+
+06:02.960 --> 06:03.770
+left and right.
+
+06:03.770 --> 06:08.100
+Also my lab link padding then color.
+
+06:08.360 --> 06:17.550
+I'm gonna go with main black so main block is going to be my color text transform I'm going gonna set
+
+06:17.550 --> 06:24.960
+it up as capitalized and in this case as you see I added a colon or I'm sorry not a colon I added a
+
+06:24.960 --> 06:26.110
+quotation mark.
+
+06:26.250 --> 06:30.010
+So now I fix that so textures from capitalized font.
+
+06:30.000 --> 06:35.490
+Wait why don't we use it as bold and line letter spacing.
+
+06:35.490 --> 06:41.410
+We're gonna have our main spacing mains pacing like so.
+
+06:41.850 --> 06:47.240
+And last but not least as I'm hovering I would like to have few effects.
+
+06:47.460 --> 06:49.210
+And let me show you what I mean.
+
+06:49.230 --> 06:52.410
+So as I'm hovering I would like to change the background color for my link.
+
+06:52.410 --> 06:57.090
+I would like to change the color and I would like to add a little bit of padding on the left hand side.
+
+06:57.450 --> 07:02.010
+So I have this effect of LINQ actually moving to the right now.
+
+07:02.460 --> 07:10.680
+So we have our property for that and the properties transition where I would like to have all these
+
+07:10.680 --> 07:12.690
+changes happening over time.
+
+07:12.840 --> 07:19.250
+So I just go with main transition and then now let's set up our hover links.
+
+07:19.650 --> 07:30.100
+Let's say nav link however and once we set up this hover I would like to do a color of primary color.
+
+07:31.040 --> 07:41.280
+Primary Color then background of dark gray background dark gray like so.
+
+07:41.450 --> 07:45.290
+And then last but not least padding is going to be a little bit darker.
+
+07:45.350 --> 07:53.000
+So if I currently have my padding as you are Iams since I would like to move my text to the right when
+
+07:53.000 --> 07:59.600
+I use 2.5 Miriam's like so so notice what happens as I'm hovering.
+
+07:59.740 --> 08:04.760
+Well actually added padding all around I should add padding left.
+
+08:04.790 --> 08:05.880
+This is gonna be better.
+
+08:06.050 --> 08:09.350
+As you see as I'm hovering now I have my legs.
+
+08:09.480 --> 08:10.270
+Okay.
+
+08:10.370 --> 08:15.600
+And that should do it in fact for our small screen nav bar layout.
+
+08:16.130 --> 08:23.120
+So next video I would like to cover how we're gonna set up our C assess once we get to a bigger screen
+
+08:23.120 --> 08:23.440
+size.

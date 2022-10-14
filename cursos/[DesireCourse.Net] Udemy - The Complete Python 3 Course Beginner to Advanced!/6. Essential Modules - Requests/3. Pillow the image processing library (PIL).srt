@@ -1,0 +1,435 @@
+1
+
+00:00:00,000  -->  00:00:06,120
+Welcome back. So, what we're going to do now in order to demonstrate the
+
+2
+
+00:00:06,120  -->  00:00:16,740
+requests package ability to manage
+binary data, instead of just the text
+
+3
+
+00:00:16,740  -->  00:00:21,330
+data that we were able to use to dump an
+HTML page in the first video of this
+
+4
+
+00:00:21,330  -->  00:00:31,349
+subsection, the requests package
+is able to manage its able to manage a
+
+5
+
+00:00:31,349  -->  00:00:34,739
+lot of different types of data but
+specifically the one we're interested in
+
+6
+
+00:00:34,739  -->  00:00:38,280
+this video is going to be binary data. So
+what we're going to do, we're going to
+
+7
+
+00:00:38,280  -->  00:00:43,050
+need actually another package installed
+go ahead and open up terminal type "pip3
+
+8
+
+00:00:43,050  -->  00:00:54,239
+install pillow" and this is a image
+processing library for Python. So, once
+
+9
+
+00:00:54,239  -->  00:00:57,090
+you've got that installed we can
+actually important it. So of course the
+
+10
+
+00:00:57,090  -->  00:01:02,640
+first thing we need is "import requests"
+and then we're actually going to also
+
+11
+
+00:01:02,640  -->  00:01:10,560
+need to import bytesIO and this is a
+class that is going to help us actually use
+
+12
+
+00:01:10,560  -->  00:01:19,710
+the byte data. So "from io import BytesIO"
+Iand then "from PIL" which is the
+
+13
+
+00:01:19,710  -->  00:01:27,270
+pillow library we just installed "import
+Image" So we're good to go.
+
+14
+
+00:01:27,810  -->  00:01:33,600
+The first thing we obviously need to do is
+make requests to the image that we want
+
+15
+
+00:01:33,600  -->  00:01:39,600
+to get, and it's going to go right there. Now I don't have an image yet but let's just
+
+16
+
+00:01:39,600  -->  00:01:42,689
+look up epic wallpaper.
+
+17
+
+00:01:52,370  -->  00:01:59,330
+Let's grab this one, actually it isn't a
+full-size one, let's grab a large one.
+
+18
+
+00:02:00,410  -->  00:02:06,050
+Go ahead and view image, alright. So let's
+just copy the image address. Normally if
+
+19
+
+00:02:06,050  -->  00:02:10,580
+I wanted to save an image I would just
+right click &amp; save-image-as right there,
+
+20
+
+00:02:10,580  -->  00:02:15,380
+save to downloads, that wouldn't be
+very useful to what we're trying to
+
+21
+
+00:02:15,380  -->  00:02:19,640
+demonstrate here today, so we're going to
+do it using Python. Again, go ahead
+
+22
+
+00:02:19,640  -->  00:02:24,050
+and copy the image address, come back
+over to our Python file here, and just
+
+23
+
+00:02:24,050  -->  00:02:30,950
+paste that in here. So it's a JPEG
+image as we can see. Let's print out the
+
+24
+
+00:02:30,950  -->  00:02:36,920
+status code so "print("Status code:, r.status_code)" just to make sure if any error happens we want to
+
+25
+
+00:02:36,920  -->  00:02:46,880
+make sure we can you know tell what
+error it is so "r.status code" Now
+
+26
+
+00:02:46,880  -->  00:02:52,400
+what we're going to do is actually
+create an image from the binary data
+
+27
+
+00:02:52,400  -->  00:02:57,800
+that's returned from the request that we
+made. So let's go ahead and type "image = Image" is
+
+28
+
+00:02:57,800  -->  00:03:01,100
+going to be a variable that contains the
+image, we're going to use the image class
+
+29
+
+00:03:01,100  -->  00:03:06,500
+and the method ".open" from the image class. Now we need to use the "(BytesIO( )"
+
+30
+
+00:03:06,500  -->  00:03:15,080
+and we use that, we pass into that the content of the request. So
+
+31
+
+00:03:15,080  -->  00:03:20,540
+instead of using r.text, which will
+return text responses, we're going to use
+
+32
+
+00:03:20,540  -->  00:03:24,080
+the "(r.content)" this is binary data right
+here. So we're going to pass into BytesIO,
+
+33
+
+00:03:24,080  -->  00:03:29,630
+it's going to allow us to
+use it by going with Image.open, this
+
+34
+
+00:03:29,630  -->  00:03:35,959
+is going to convert it into an image
+that we can then use and save. So i'm
+
+35
+
+00:03:35,959  -->  00:03:40,850
+going to go ahead and type the path of
+the image that we're going to save it. So,
+
+36
+
+00:03:40,850  -->  00:03:51,110
+"path = "./image.jpg" and for right now I'm just going
+
+37
+
+00:03:51,110  -->  00:03:58,130
+to print out some data about the image
+so "print(image.size, image.format, image.mode)"
+
+38
+
+00:03:58,130  -->  00:04:03,079
+"print(image.size, image.format, image.mode)"
+
+39
+
+00:04:03,640  -->  00:04:16,180
+Go ahead and save this and then run
+this file, and you see what we get is
+
+40
+
+00:04:16,180  -->  00:04:21,400
+Status code: 200 because we were able to access the image, we get the size so (1600,
+
+41
+
+00:04:21,400  -->  00:04:27,610
+900), then we are able to get the format
+which is jpeg, and the mode which was
+
+42
+
+00:04:27,610  -->  00:04:34,180
+RGB. So, that's awesome. What we can do with the image itself though we can
+
+43
+
+00:04:34,180  -->  00:04:37,690
+actually save it to the current, we're
+going to save it to the current
+
+44
+
+00:04:37,690  -->  00:04:40,870
+directory, so where I made that path
+right there. So we're going to use a try
+
+45
+
+00:04:40,870  -->  00:04:50,110
+except. So let's go "try:image.save(path)" and then just the past we want to save it to
+
+46
+
+00:04:50,110  -->  00:04:57,850
+and then the format. So we're going to
+save it in,
+
+47
+
+00:04:57,850  -->  00:05:07,810
+ah I forgot to skip a line there, there we go, going to save it to JPEG. Now another thing
+
+48
+
+00:05:07,810  -->  00:05:15,400
+that you could do is if we move this to
+under the print statement right there
+
+49
+
+00:05:15,400  -->  00:05:20,380
+where we print out the format, i'm
+actually going to copy that right there,
+
+50
+
+00:05:20,380  -->  00:05:28,150
+and what we're going to do is that,
+whoops. So it's going to be called
+
+51
+
+00:05:28,150  -->  00:05:33,550
+"path = "./image." + image.format" whatever format that is, so we'll be able to save PNG, gif images, etc. and then
+
+52
+
+00:05:33,550  -->  00:05:39,700
+what we're going to do is we're going to
+save it again with the format. We're
+
+53
+
+00:05:39,700  -->  00:05:45,820
+going to "except IOError:" this
+basically means that we just weren't
+
+54
+
+00:05:45,820  -->  00:05:51,640
+able to do whatever is in the try block
+of code, and so I'm just going to print
+
+55
+
+00:05:51,640  -->  00:05:57,430
+out "print("Cannot save image.")" that should be enough.
+
+56
+
+00:05:59,320  -->  00:06:07,300
+So let's go ahead and save this and
+let's run the file again. As you can see
+
+57
+
+00:06:07,300  -->  00:06:14,830
+image.JPEG saved right here, and if I go
+ahead and open it it's the exact image that
+
+58
+
+00:06:14,830  -->  00:06:17,110
+I selected back here. Let's go ahead and
+try
+
+59
+
+00:06:17,110  -->  00:06:20,110
+and find a PNG wallpaper,
+
+60
+
+00:06:26,200  -->  00:06:30,910
+just make sure that it does save in the
+correct format. Is this PNG? Awesome.
+
+61
+
+00:06:31,420  -->  00:06:41,890
+It's quite large too it looks like. Let's go ahead and choose one that's not so large, I
+
+62
+
+00:06:41,890  -->  00:06:46,270
+guess, this one right here.
+
+63
+
+00:06:58,350  -->  00:07:03,840
+My internet connection must be bad right
+now look how long, this reminds me of
+
+64
+
+00:07:03,840  -->  00:07:11,370
+back in the mid-nineties when you go to
+a web page and you wait and this is how
+
+65
+
+00:07:11,370  -->  00:07:15,840
+the images with load on the webpage. I
+think it's done now so i'm going to do
+
+66
+
+00:07:15,840  -->  00:07:21,030
+is go ahead and copy the image address,
+come back over here, going to paste this in
+
+67
+
+00:07:21,030  -->  00:07:29,040
+here which is a PNG image, so we should
+see and i'm going to change this to image1
+
+68
+
+00:07:29,040  -->  00:07:34,470
+so our original image doesn't get overwritten, and let's go ahead and run this again,
+
+69
+
+00:07:34,470  -->  00:07:40,860
+and just wait because it is a large image, and this is actually the same thing as
+
+70
+
+00:07:40,860  -->  00:07:45,690
+loading in browser. Our computer
+is using our internet connection so it's
+
+71
+
+00:07:45,690  -->  00:07:49,440
+going to be a little slower and as you can
+see the saved as a PNG image. So let's go
+
+72
+
+00:07:49,440  -->  00:07:54,420
+ahead over here and open image1.PNG, we could convert this to lower case as
+
+73
+
+00:07:54,420  -->  00:08:01,560
+well, however we're not really gonna
+worry about that right now, let's
+
+74
+
+00:08:01,560  -->  00:08:05,700
+go ahead and just end the video here.
+We're going to be doing a few more
+
+75
+
+00:08:05,700  -->  00:08:09,780
+things in the next video regarding the
+requests package, so thank you guys for
+
+76
+
+00:08:09,780  -->  00:08:11,340
+watching and I'll see you guys in the
+next video.

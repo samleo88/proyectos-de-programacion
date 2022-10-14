@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00.140 --> 00:04.160
+And the next section are going to be working on is going to be Skills section.
+
+00:04.440 --> 00:07.350
+So again we're going to go back to our age now.
+
+00:07.530 --> 00:09.920
+We're going to create or hear a lot of room.
+
+00:10.200 --> 00:12.380
+So it is easier for us to work.
+
+00:12.520 --> 00:19.650
+And over here we're going to place a comment on here we're going to say skills section here and we're
+
+00:19.650 --> 00:25.230
+going to select the whole line and copy and paste this and all we're going to write and this is going
+
+00:25.230 --> 00:28.120
+to be and of skills.
+
+00:28.590 --> 00:31.460
+And after that within the skills section first.
+
+00:31.490 --> 00:31.810
+Right.
+
+00:31.820 --> 00:38.610
+This is going to be section right here with an ID and we're going to say skills and we're going to press
+
+00:38.610 --> 00:45.120
+tab and all here are going to say that we would want first a title and this title actually going to
+
+00:45.120 --> 00:47.950
+be repeating for all of our sections.
+
+00:47.970 --> 00:52.280
+Right now there's going to be a different name or here but the styling is going to be the same.
+
+00:52.500 --> 00:58.200
+So here we're going to say title you know this and then we're going to say that this is going to be
+
+00:58.290 --> 01:05.750
+a war here and the title so we can go back over here select the whole line right here.
+
+01:05.820 --> 01:11.770
+Copy this one and we're going to say we're here and have a title over here.
+
+01:11.820 --> 01:19.470
+The first thing that we want to do is actually have a div with a class of title here title then or here
+
+01:19.620 --> 01:29.440
+within a day of we're going to have a handing one with a class of text we're here and we're here within
+
+01:29.550 --> 01:31.120
+the title text we're going to write it.
+
+01:31.160 --> 01:37.810
+Is going to be skills when you're doing this and you can see that this didn't work out the way you wanted.
+
+01:37.820 --> 01:40.050
+Right so this is going to be skills.
+
+01:40.050 --> 01:45.860
+And then once we press on here now we have a heading one with a skills.
+
+01:45.930 --> 01:50.190
+Then after that we're going to have a day of title underly.
+
+01:50.610 --> 01:56.600
+I'm going to say title on the line first time now we have title underlined.
+
+01:56.970 --> 01:59.340
+Then now this is going to be the end of title.
+
+01:59.430 --> 02:02.430
+Now I would want a actual skills section.
+
+02:02.790 --> 02:10.710
+So the first thing we're going to have is they give me the skills center class here and within this
+
+02:10.830 --> 02:18.360
+diverse skill center class we're going to have a article where we're here and we're going to say class
+
+02:19.170 --> 02:21.990
+we're here and this is going to be skill.
+
+02:22.080 --> 02:25.240
+Right so each individual skill we're here.
+
+02:25.470 --> 02:34.180
+And then after that within this article first would want to have is a high if he were here and this
+
+02:34.200 --> 02:36.370
+what I'm going to call it a pie chart.
+
+02:36.670 --> 02:41.150
+So going to be a pie chart here.
+
+02:41.190 --> 02:43.300
+Press time now we have our.
+
+02:43.420 --> 02:49.080
+Then after that we would want to have a heading three panel here we're going to write and you can see
+
+02:49.080 --> 02:49.580
+or hear.
+
+02:49.620 --> 02:51.480
+This is our part pie chart right.
+
+02:51.510 --> 02:53.650
+The small guy over here over here.
+
+02:53.660 --> 02:55.110
+This is going to be hitting three.
+
+02:55.270 --> 03:02.270
+And this is going to be here best here or here we're going to have a third thing this is going to be
+
+03:02.280 --> 03:03.040
+paragraph.
+
+03:03.300 --> 03:06.560
+So I'm going to say a paragraph within the paragraph I'm going to write Laura.
+
+03:06.610 --> 03:12.110
+All right this is going to be dummy text and now we're using this brackets extension basically and oh
+
+03:12.150 --> 03:18.990
+here I'm going to say I would say 15 here and like this and you know what I think we went a little bit
+
+03:19.530 --> 03:22.020
+too much here.
+
+03:22.020 --> 03:23.400
+Let's see where we should then.
+
+03:23.400 --> 03:24.190
+Right.
+
+03:24.210 --> 03:25.170
+So you know what.
+
+03:25.290 --> 03:28.520
+Yeah let's just fine but just leave it like it is.
+
+03:28.650 --> 03:30.450
+This one is going to be fine enough.
+
+03:30.500 --> 03:37.050
+And here again you can decide if this text is you need more text or less text or however you would want.
+
+03:37.050 --> 03:37.610
+Right.
+
+03:37.710 --> 03:43.020
+Because usually I don't like putting too much text because sometimes it doesn't look very good.
+
+03:43.080 --> 03:44.840
+Now let's just check it out right.
+
+03:44.850 --> 03:50.790
+So this is going to be an article or here what we can do is we can go back over here and we can again
+
+03:50.790 --> 03:56.800
+sort of like line by line here like this and then we can just copy and paste this right.
+
+03:56.820 --> 03:58.690
+So we would need five more.
+
+03:58.690 --> 04:03.520
+So one two three four five and so five of them.
+
+04:03.720 --> 04:10.120
+And now for The Age CML the only thing left to do is we're just going to change these.
+
+04:10.170 --> 04:10.760
+Right.
+
+04:10.830 --> 04:13.720
+So this is going to be pie chart here.
+
+04:13.890 --> 04:19.110
+The next one we're going to say this is going to be a line chart so I'm going to say over here the line
+
+04:19.630 --> 04:22.770
+and shoulder here you can see this change over here.
+
+04:22.770 --> 04:31.440
+This is we're going to change the value instead of a best data and say best results results here.
+
+04:31.770 --> 04:36.880
+And then after We're going to have a four bolt here.
+
+04:37.240 --> 04:43.960
+So we're going to say bolt instead of data here we're going to and this is going to be fast the speed
+
+04:44.590 --> 04:52.250
+fastest speed reading this then we're going to have a flask.
+
+04:52.260 --> 05:02.960
+So this is going to be not if they want to say flask here and this is going to be innovation this innovation.
+
+05:03.110 --> 05:03.400
+Right.
+
+05:03.460 --> 05:07.670
+And once we write innovation I actually realize that I copied two more.
+
+05:07.690 --> 05:12.280
+All right so too many superheroes would want to do is just get rid of these guys.
+
+05:12.500 --> 05:15.280
+No here we're going to have only four of them right.
+
+05:15.300 --> 05:16.780
+That was the intention.
+
+05:16.950 --> 05:18.480
+Now let's go to see assess.
+
+05:18.560 --> 05:21.300
+And let's actually start telling the skills section.

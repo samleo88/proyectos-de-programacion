@@ -1,0 +1,637 @@
+WEBVTT
+
+00:00.120 --> 00:07.590
+And lastly why don't we set up our buttons for each and every card there is going to be button that
+
+00:07.650 --> 00:14.340
+initially is going to sit in the bottom of our image container and then we're gonna use a transform
+
+00:14.340 --> 00:22.200
+property in fact move it 50 percent off its height so it's sitting exactly in the middle of the image
+
+00:22.200 --> 00:24.150
+container bottom border.
+
+00:24.150 --> 00:24.440
+Okay.
+
+00:24.990 --> 00:26.550
+Now one by one.
+
+00:26.580 --> 00:33.660
+First of all I guess we're gonna have to head over back again to a services and for each and every service
+
+00:34.080 --> 00:38.670
+we're going to add our service icon essentially our font awesome.
+
+00:38.700 --> 00:43.820
+Now remember we did something very very similar for skills.
+
+00:43.860 --> 00:46.600
+So again I'm gonna use my finder.
+
+00:46.600 --> 00:52.320
+We're gonna head over to the skills and the skills that we're looking for is this particular skills
+
+00:52.320 --> 00:53.500
+icon.
+
+00:54.030 --> 00:58.020
+So instead of skills course we're gonna name it services.
+
+00:58.290 --> 00:59.930
+So it's really up to you.
+
+01:00.000 --> 01:03.380
+You can create a new span with a services.
+
+01:03.390 --> 01:07.700
+In fact class and then as well add your icons.
+
+01:07.800 --> 01:12.660
+In my case I'm just gonna grab this particular one I'm going to copy it.
+
+01:12.720 --> 01:20.670
+Then again Let's navigate to services services and then within the services let's find whereas our image
+
+01:20.670 --> 01:21.740
+container.
+
+01:22.110 --> 01:23.810
+So that's my first card.
+
+01:23.940 --> 01:29.330
+And then remember we had the image container and then also we had the service icon.
+
+01:29.330 --> 01:29.920
+All right.
+
+01:30.000 --> 01:34.880
+Now this is the case where I would like to copy paste it instead of skill icon.
+
+01:34.920 --> 01:43.290
+We're gonna call this service icon and for the first one there's gonna be a different icon so I'm gonna
+
+01:43.290 --> 01:48.510
+go with mortar Besler or something like that.
+
+01:48.510 --> 01:52.800
+I mean I obviously missed pronounced it that I think we can live with that.
+
+01:53.310 --> 01:57.060
+So here it's going to be our icon.
+
+01:57.100 --> 02:01.620
+Let me refresh and then yeah there it is.
+
+02:01.620 --> 02:03.500
+Now of course it doesn't look like much.
+
+02:03.530 --> 02:07.920
+There is plenty of work that needs to be done but at least we do have our icon.
+
+02:07.980 --> 02:09.660
+So that's step number one.
+
+02:09.660 --> 02:15.720
+Now once we have our service icon in fact I'm gonna grab it again like so.
+
+02:15.720 --> 02:22.490
+And I think we just need to span because I think for the rest of them we do still have the icon comment
+
+02:22.610 --> 02:25.940
+OK let's copy and paste it for the second one.
+
+02:25.950 --> 02:28.440
+We're going to go with a home one.
+
+02:28.450 --> 02:35.310
+Ok I'm gonna say f a home and there's one thing that I would like to add one more class for my icons
+
+02:35.760 --> 02:40.060
+and the icon is f a f w.
+
+02:40.090 --> 02:46.950
+Now this particular class in fact makes sure that if they're sitting side by side in fact they all have
+
+02:46.950 --> 02:48.280
+the same with.
+
+02:48.630 --> 02:56.280
+So since we're gonna add this rounded border as well as the rounder with meaning we're gonna use the
+
+02:56.310 --> 03:05.000
+border radius in fact set it to 50 percent so that way we're gonna have this effect of rounded icon.
+
+03:05.100 --> 03:12.660
+Well that's the reason why we're gonna add DFA F W because that way we're gonna make sure that all the
+
+03:12.660 --> 03:16.180
+icons in fact are displayed exactly the same way.
+
+03:16.620 --> 03:23.360
+So let's head over back to our first one and also add this class and this is just coming from font some
+
+03:23.640 --> 03:29.270
+documentation and this is not something that I came up with but it's in fact written there.
+
+03:29.280 --> 03:36.090
+So let's again select last span and then add over again back to service icon.
+
+03:36.360 --> 03:39.390
+And my last icon is going to be this hot mug.
+
+03:39.820 --> 03:45.770
+OK so let's write hot mug and then save it.
+
+03:45.960 --> 03:49.020
+And if we're gonna have our icon which we don't.
+
+03:49.020 --> 03:53.990
+So maybe it was mug hot Mark Hart maybe that's going to work.
+
+03:54.010 --> 03:58.270
+And yes I do have my mark right now I do have my icons.
+
+03:58.390 --> 04:02.190
+So my issue the amount is in fact done.
+
+04:02.350 --> 04:04.930
+We are done with our email.
+
+04:05.020 --> 04:08.930
+But then let's head over again back to our services.
+
+04:09.070 --> 04:15.610
+And then before we end the services we're going to set up in fact our class war service icon.
+
+04:16.150 --> 04:24.040
+So remember the class name it was the service icon and first and foremost when you decide well how are
+
+04:24.040 --> 04:25.940
+you going to do our layout.
+
+04:26.140 --> 04:30.320
+Because our main goal is following we do have our image container.
+
+04:30.370 --> 04:36.130
+And then within the image container we have our image and then also we would like to place the icon
+
+04:36.520 --> 04:38.700
+all the way in the bottom right.
+
+04:38.710 --> 04:44.380
+And then we're going to use the transform property in fact to move it even lower.
+
+04:44.380 --> 04:44.940
+All right.
+
+04:45.040 --> 04:48.980
+So if we have position absolute remember that one.
+
+04:49.020 --> 04:49.300
+Right.
+
+04:49.300 --> 04:53.050
+So we had options for accessing the position absolute.
+
+04:53.060 --> 04:59.560
+One using position absolute we need to have some kind of parent container that has position relative
+
+05:00.070 --> 05:05.560
+because we would like to place this icon in fact relative to something and we would like to place it
+
+05:05.860 --> 05:14.740
+relative in fact to the image container so we can of course head over back here and add for the service
+
+05:14.890 --> 05:16.070
+in which container.
+
+05:16.180 --> 05:18.730
+Remember we had in fact our class.
+
+05:18.730 --> 05:19.120
+Correct.
+
+05:19.450 --> 05:26.140
+So for each and every day if that was the parent for the image and the icon we had also class of service
+
+05:26.170 --> 05:27.400
+image container.
+
+05:27.430 --> 05:34.090
+So if prior to that we had styles already added there of course we would head over back there and add
+
+05:34.300 --> 05:41.040
+the style of position relative to that particular class or in this case we haven't add any kind of styles.
+
+05:41.170 --> 05:49.870
+So I can just write here above the surface icon service image container and then for this particular
+
+05:49.870 --> 05:53.590
+container I'm going to set it as a position relative.
+
+05:53.980 --> 06:01.360
+So now when I'm going to set my service icon with position absolute Well it's in fact in a reference
+
+06:01.660 --> 06:03.120
+the image container.
+
+06:03.120 --> 06:05.430
+OK so let's go with position absolute.
+
+06:06.310 --> 06:08.960
+And first let's place it in the bottom line.
+
+06:09.160 --> 06:15.600
+Let's say bottom is going to be 50 percent or you know what knowledge just go with zero.
+
+06:15.640 --> 06:20.860
+So that's going to sit all the way in the bottom as you can see right now and then let's go with 50
+
+06:20.860 --> 06:25.280
+percent left like so and now we have our icon.
+
+06:25.510 --> 06:31.120
+Then let's add more styles and eventually like I said we're gonna have to use the transform property
+
+06:31.420 --> 06:33.670
+to even move it more.
+
+06:34.120 --> 06:36.850
+So let's go with font size.
+
+06:37.350 --> 06:44.050
+We're gonna set it as two arms as you can see it is bigger than we also can maybe add some background
+
+06:44.050 --> 06:44.890
+here.
+
+06:44.890 --> 06:49.720
+The background is going to be secondary color which in fact is my yellow color.
+
+06:49.870 --> 06:56.040
+So let's write secondary color like so I do have my background that's working out really well.
+
+06:56.150 --> 07:02.950
+And then let's add a little bit of padding so zero point twenty five our hems top bottom zero point
+
+07:02.950 --> 07:04.540
+six are am left and right.
+
+07:04.540 --> 07:09.950
+And again these values are really up to you if you want more padding if you want different colors.
+
+07:10.000 --> 07:10.720
+Go ahead.
+
+07:10.900 --> 07:12.310
+You can do it however you'd like.
+
+07:12.310 --> 07:12.960
+All right.
+
+07:12.960 --> 07:18.530
+And then like I said I would want to make right now my span my service icon in fact around.
+
+07:18.800 --> 07:19.480
+Okay.
+
+07:19.570 --> 07:25.300
+And the way we do that is in fact by using border radius like so.
+
+07:25.300 --> 07:28.130
+And then we just set it up as 50 percent.
+
+07:28.150 --> 07:28.850
+All right.
+
+07:28.990 --> 07:31.990
+Now we have our icon has around it.
+
+07:32.180 --> 07:32.650
+OK.
+
+07:32.770 --> 07:39.390
+Now remember again we have the span that is in fact has the padding as well as this border radius of
+
+07:39.400 --> 07:40.450
+50 percent.
+
+07:40.450 --> 07:44.020
+And then within that span that's when we have our icon.
+
+07:44.020 --> 07:44.830
+All right.
+
+07:44.830 --> 07:50.970
+Now also what we would like to do is set up the border so let's go with border.
+
+07:51.100 --> 07:56.410
+And in this case I would like to have the same border as I have for my background because I would like
+
+07:56.410 --> 08:02.590
+to have in fact this layout where I do have my image container and then there's border is in fact that
+
+08:02.950 --> 08:08.620
+right now currently for my services info is in fact continuing here.
+
+08:08.630 --> 08:08.990
+Right.
+
+08:09.070 --> 08:11.140
+That's the layout that I'm shooting for.
+
+08:11.140 --> 08:14.350
+So the way we do that is by setting a border.
+
+08:14.350 --> 08:17.330
+Again the width is up to you.
+
+08:17.440 --> 08:23.170
+I'm going to go with you our yams solid and let's add our primary color.
+
+08:23.520 --> 08:26.230
+So let's add primary color.
+
+08:26.300 --> 08:27.850
+That's my border.
+
+08:27.850 --> 08:29.980
+And that works out really well.
+
+08:29.980 --> 08:31.660
+And then what else we have.
+
+08:31.660 --> 08:34.970
+Well then we would like to in fact add a color.
+
+08:35.440 --> 08:35.740
+All right.
+
+08:35.770 --> 08:43.640
+So I'm going to go with color and we're going to go with main dark var main dark white.
+
+08:43.690 --> 08:48.670
+So we added the color and then we have the border we have the color.
+
+08:48.670 --> 08:51.920
+Why don't we in fact move our icon down.
+
+08:52.280 --> 08:52.910
+OK.
+
+08:53.030 --> 08:54.320
+That's currently what happens.
+
+08:54.380 --> 08:58.040
+Well it is sitting in the bottom of our image container correct.
+
+08:58.190 --> 09:04.280
+But you are noticing one thing where it is not sitting actually exactly in the middle.
+
+09:04.350 --> 09:09.030
+OK because the actual icon has its own width and height.
+
+09:09.110 --> 09:15.350
+So we would like to use the transform property so transform property and therefore transform property
+
+09:15.350 --> 09:17.410
+we can use a translate function.
+
+09:17.550 --> 09:23.540
+Now within the translate function we can either translate left and right or we can translate it up and
+
+09:23.540 --> 09:23.840
+down.
+
+09:24.140 --> 09:26.850
+So the first value is going to be the x axis.
+
+09:26.930 --> 09:28.030
+So left and right.
+
+09:28.040 --> 09:36.290
+So if I'm gonna write minus 50 percent or negative 50 percent what that means is that we're going to
+
+09:36.290 --> 09:42.700
+move our icon 50 percent of its own width and height to the left.
+
+09:43.180 --> 09:50.270
+Okay I'm sorry with I guess in this case not width and height as you see we moved it 50 percent so now
+
+09:50.270 --> 09:56.620
+it is sitting exactly in the center as previously we had already some kind of with on wrong.
+
+09:56.660 --> 09:59.120
+Now we moved it 50 percent to the left.
+
+09:59.240 --> 10:04.510
+And second I would like to move with 50 percent off its height also done.
+
+10:04.700 --> 10:10.850
+So that's going to be our layout where we have the image container and our icon is going to sit exactly
+
+10:10.850 --> 10:17.330
+in the middle of the bottom quarter right now if we're gonna go with negative 50 percent well we're
+
+10:17.330 --> 10:19.090
+going to move our icon up.
+
+10:19.390 --> 10:19.570
+Okay.
+
+10:19.650 --> 10:23.510
+And that's not what we want our like to even move it down.
+
+10:23.540 --> 10:29.870
+So if we're going to move 50 percent right now our icon is sitting exactly in the center.
+
+10:29.870 --> 10:35.330
+Now there's one thing though where I would like to add in fact some kind of box shadow or something
+
+10:35.330 --> 10:39.990
+like that for my icon because as you can see it's kind of hard to see here.
+
+10:40.130 --> 10:41.460
+The borer in the bottom.
+
+10:41.570 --> 10:45.290
+Now if you'd like to course you can leave it and leave it like this.
+
+10:45.290 --> 10:52.130
+You don't have to add in fact the border or I'm sorry box shadow properties but I'm going to do that
+
+10:52.520 --> 10:59.750
+now I could add it manually myself but I always find it actually the fastest way this way where I have
+
+10:59.750 --> 11:01.770
+box shut our generator.
+
+11:01.800 --> 11:02.230
+OK.
+
+11:02.330 --> 11:06.500
+So we look for this particular website and we write or we have our values.
+
+11:06.500 --> 11:10.090
+Now here this is just simply click and change the values.
+
+11:10.220 --> 11:16.180
+So let's say if you don't like this particular value you can change it here with these nice buttons.
+
+11:16.190 --> 11:16.430
+Right.
+
+11:16.430 --> 11:20.180
+So we just keep on clicking on whatever we would like.
+
+11:20.180 --> 11:24.860
+So we have horizontal length than we have of course vertical block radius.
+
+11:24.860 --> 11:30.350
+Then also we have spread and we can change the color how we would like but since I would like to keep
+
+11:30.350 --> 11:34.040
+it simple I'm just going to grab these codes and you can right away see that.
+
+11:34.100 --> 11:36.690
+You also have your perfect sir setup.
+
+11:36.690 --> 11:39.720
+All right so technically you don't have to do it yourself.
+
+11:39.770 --> 11:49.170
+So let me select this one and let's head over back here and let's just add a comment of box shadow like
+
+11:49.200 --> 11:52.920
+so let's copy paste it and we should have the box shut up again.
+
+11:53.010 --> 11:57.960
+If you don't like my box shut of course change these values and just grab this code.
+
+11:57.960 --> 11:58.450
+All right.
+
+11:58.650 --> 12:03.820
+So you're going to have these range inputs where you can change these values and let's change that.
+
+12:03.840 --> 12:09.540
+Now lastly remember when we were working with the service card I also mentioned that there's going to
+
+12:09.540 --> 12:11.910
+be some styles for a buck shadow.
+
+12:11.910 --> 12:18.570
+So my plan was very simple where the actual card itself has some dark shadow and as I'm hovering I'm
+
+12:18.570 --> 12:20.190
+just adding this Berkshire.
+
+12:20.580 --> 12:21.210
+OK.
+
+12:21.300 --> 12:29.040
+Now the way I did that I just went half with not five pixels arms are 10 pixels I went with let's say
+
+12:29.040 --> 12:32.050
+five and five and Blur was two.
+
+12:32.410 --> 12:40.630
+Like so then let's grab these three lines of code for the service card let's just copy and paste it.
+
+12:40.760 --> 12:46.540
+Now what happens also is I would want that effect to take place over time.
+
+12:46.760 --> 12:50.540
+So I would want to happen that instantly.
+
+12:50.570 --> 12:56.620
+So the way we do that is in fact again we set up a transform property or I'm sorry transition right.
+
+12:56.630 --> 13:05.540
+So transition property and we were just shooting for our variable of VAR and I believe it was made transition.
+
+13:05.540 --> 13:08.390
+So now the change happens over time.
+
+13:08.720 --> 13:11.160
+So right away we did have our shadow.
+
+13:11.240 --> 13:20.480
+But if we're going to add in fact a hover effect so let's write service card however so as we're hovering
+
+13:20.480 --> 13:23.060
+over the card I would like to change it.
+
+13:23.070 --> 13:25.940
+All right now I'm not going to add right now right away.
+
+13:25.940 --> 13:28.270
+All these values are you know what I could probably.
+
+13:28.270 --> 13:31.620
+Sorry I'm probably going to go with I don't know.
+
+13:31.730 --> 13:37.520
+Back to 10 not hundred but let's say 10 as well as the Blur ideas.
+
+13:37.580 --> 13:38.630
+Gonna be fine.
+
+13:38.630 --> 13:41.810
+Now again I'm not going to waste your time by changing colors.
+
+13:41.810 --> 13:43.760
+I'm just gonna grab these three values.
+
+13:43.760 --> 13:45.680
+All right let's copy and paste that.
+
+13:46.100 --> 13:49.130
+And now what happens as we're hovering over the card.
+
+13:49.130 --> 13:52.020
+In fact we are increasing the box shadow.
+
+13:52.450 --> 13:55.100
+Now we do that with using the hover effect.
+
+13:55.100 --> 14:01.410
+And the fact that we do have our transition property where we can set up change over time.
+
+14:01.400 --> 14:01.670
+All right.
+
+14:02.150 --> 14:08.950
+And successful guys we created our services section where we are implementing the card layout.
+
+14:09.410 --> 14:10.810
+So we have three cards.
+
+14:10.910 --> 14:14.990
+And then depending on the screen size we change the number of columns.
+
+14:15.020 --> 14:18.650
+So on a bigger screen we have three columns on a smaller one.
+
+14:18.650 --> 14:21.470
+Two columns and then an extra small screen.
+
+14:21.500 --> 14:28.820
+We have a one column layout and then also we took a look at the fact how we can set up in fact the and
+
+14:29.020 --> 14:32.450
+position absolute where we had our image container.
+
+14:32.690 --> 14:39.240
+And we just placed our icon all the way in the bottom of image container used transform property.
+
+14:39.320 --> 14:41.890
+We translate function to move it even more.
+
+14:42.080 --> 14:47.900
+So now it's sitting exactly in the middle and we have our three cards and now we're finally ready to
+
+14:48.200 --> 14:50.090
+deploy our project online.

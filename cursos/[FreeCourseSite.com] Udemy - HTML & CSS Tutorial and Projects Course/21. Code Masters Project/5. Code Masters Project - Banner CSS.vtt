@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.480 --> 00:05.930
+So let's go back to my thesis here and let's continue with the rules.
+
+00:05.950 --> 00:11.990
+Right now we're finished with the modern science and now we have them working but now we're interested
+
+00:12.240 --> 00:13.420
+here in the matter.
+
+00:13.680 --> 00:17.740
+However before we work with the banner we actually need to work with the letter.
+
+00:18.030 --> 00:18.410
+Right.
+
+00:18.450 --> 00:23.550
+Because like I was telling you that Heather is going to be our flex box container.
+
+00:23.550 --> 00:23.900
+Right.
+
+00:24.090 --> 00:28.290
+And now I know we're here and the band are going to be the children.
+
+00:28.290 --> 00:34.190
+So I'm going to go back to mention SS and we're here let's just create this is going to be a comment
+
+00:34.220 --> 00:34.510
+right.
+
+00:34.510 --> 00:38.590
+This is going to be the actual had once we have the actual header.
+
+00:38.670 --> 00:40.590
+I'm going to say Hetter here.
+
+00:40.710 --> 00:42.250
+And what would be the rules.
+
+00:42.480 --> 00:46.460
+Well I'm going to say mean height and all we're here we're going to say hundred viewpoints.
+
+00:46.470 --> 00:54.090
+So basically what we're saying is no matter what the minimum cost or here for the header should be on
+
+00:54.090 --> 00:54.800
+any screen.
+
+00:54.810 --> 00:55.370
+Right.
+
+00:55.440 --> 01:01.050
+Hundred yards or so it's always should be spanning all across our view.
+
+01:01.120 --> 01:01.350
+All right.
+
+01:01.380 --> 01:07.480
+So as much as we can see and then on here we're going to have a background so background you are around.
+
+01:07.590 --> 01:12.690
+And this is going to be the image here we're going to say image and all we're here and we're going to
+
+01:12.690 --> 01:15.300
+have a better BCG.
+
+01:15.500 --> 01:17.030
+So had our background.
+
+01:17.100 --> 01:21.990
+So this is going to be our image and over here we can do a few things right.
+
+01:22.410 --> 01:28.060
+So let's like let's first write a long version and then I'm going to look at the shorter version.
+
+01:28.110 --> 01:33.290
+So here the first thing we can say a background position is going to be Center.
+
+01:33.870 --> 01:42.210
+So we're going to see or hear ground position center here I guess we'll have a background and size and
+
+01:42.210 --> 01:48.340
+we're going to have a cover some background size rear cover.
+
+01:48.420 --> 01:55.020
+Is this pretty much said steam in the center of the background and this makes sure that we always cover
+
+01:55.020 --> 01:55.770
+the image.
+
+01:55.980 --> 02:01.870
+So no matter what we're going to cover the container where the image needs to be as a background and
+
+02:02.630 --> 02:08.040
+then we're going to say we're here and background attachment is going to be fixed for this parallax
+
+02:08.040 --> 02:08.980
+effect.
+
+02:09.270 --> 02:13.310
+And so here as I'm scrolling can see that there's going to be a parallax effect.
+
+02:13.830 --> 02:15.790
+That the image stays fixed.
+
+02:15.810 --> 02:22.420
+Oh yeah that's why I have a attachment fixed and then we'll have a background repeat no repeat.
+
+02:22.760 --> 02:30.330
+So we're going to have a background repeat and repeat and now once I wrote them just do a little bit
+
+02:30.330 --> 02:36.610
+of magic here and I'm going to say that I just want to come and this up.
+
+02:36.680 --> 02:42.030
+So I'm going to want one common these guys out here on this and then we're going to write it with the
+
+02:42.030 --> 02:47.190
+shortcut right then or here we're going to right center forward slash and cover.
+
+02:47.190 --> 02:53.990
+And the point over here is the position needs to be followed by the size right.
+
+02:54.180 --> 02:57.340
+And they need to be separated over here by this forward slash.
+
+02:57.540 --> 03:02.800
+And after that we can write the next properties how we would want and the values are going to get fixed
+
+03:03.270 --> 03:07.600
+and we're going to say no repeat repeat or here.
+
+03:07.810 --> 03:15.110
+So we pretty much look at the longhand version and that shouldn't be a shorthand version right now.
+
+03:15.130 --> 03:21.380
+Once we're done with this again like I said this is going to be the actually flex box container.
+
+03:21.390 --> 03:21.870
+Right.
+
+03:21.940 --> 03:26.490
+So what I'm going to say here is there shouldn't be display.
+
+03:26.490 --> 03:30.400
+I'm not going to say flex right now I can see both of them side by side.
+
+03:30.490 --> 03:35.150
+However not only flex but we're going to say flex direction we're going to say call them.
+
+03:35.250 --> 03:38.530
+Right so they're back to normal or here like this.
+
+03:38.730 --> 03:41.400
+Then I would want to work with I have.
+
+03:41.740 --> 03:43.300
+And I'm going to say we're going to have.
+
+03:43.410 --> 03:43.720
+All right.
+
+03:43.750 --> 03:47.270
+As a child I'm going to say flex and I don't want it to grow.
+
+03:47.320 --> 03:48.650
+I don't want it to shrink.
+
+03:48.660 --> 03:52.050
+I just want it to be flex basis to be Arto.
+
+03:52.320 --> 03:54.870
+So very much nothing should change or here.
+
+03:54.910 --> 03:56.470
+However for the banner.
+
+03:56.490 --> 03:56.790
+All right.
+
+03:56.830 --> 03:58.680
+Remember this banner over here right.
+
+03:58.900 --> 04:00.050
+This was our banner.
+
+04:00.280 --> 04:02.230
+What should happen to the banner.
+
+04:02.240 --> 04:05.910
+The banner here is going to have a banner.
+
+04:05.980 --> 04:11.200
+Right so we're selecting class of banner flex and on here we're going to say we're here like this flex
+
+04:11.200 --> 04:18.910
+grow one flex shrink zero and then flex bases or let's add the background so we can see that what's
+
+04:18.910 --> 04:19.360
+happening.
+
+04:19.360 --> 04:20.020
+Right.
+
+04:20.050 --> 04:21.450
+So see what happens right.
+
+04:21.460 --> 04:23.860
+If I don't have this flex all right.
+
+04:24.100 --> 04:26.190
+You see how the bat is going to look great.
+
+04:26.200 --> 04:28.410
+So with this legs grow This is what we get.
+
+04:28.460 --> 04:28.730
+Right.
+
+04:28.870 --> 04:32.850
+So it grows exactly to the rest of the header.
+
+04:32.920 --> 04:38.890
+Right now I have take so much of space that it needs and everything else over here is going to be flex.
+
+04:38.890 --> 04:39.360
+Right.
+
+04:39.580 --> 04:41.340
+So let's get to that is background.
+
+04:41.350 --> 04:47.450
+We don't need it for now and for the actual data we're also going to do a display flex right.
+
+04:47.650 --> 04:50.930
+So we're going to see again display flex right.
+
+04:50.980 --> 04:58.290
+Not only that as a child becomes apparent and then we're going to say all line items Center.
+
+04:58.310 --> 05:03.080
+All right so Line them more here and center and over here just if eye contact we're going to say Center
+
+05:03.470 --> 05:04.380
+on here like this.
+
+05:04.410 --> 05:05.410
+Right.
+
+05:05.650 --> 05:11.810
+So once we have them in a center that's actually work with the banner card here.
+
+05:12.040 --> 05:17.710
+So I'm going to say we're here and this is going to be a banner card like this.
+
+05:17.770 --> 05:23.380
+And what I'm going to say is that since it is the child and in fact it's the only child we're going
+
+05:23.380 --> 05:28.150
+to say over here and this is going to be again flex 0 0 and 90 percent.
+
+05:28.150 --> 05:34.160
+So basically what I'm saying you know what they should always be is a flex right.
+
+05:34.180 --> 05:41.590
+So what we're saying is we could have ridden just with right but we can use also flex properties because
+
+05:41.590 --> 05:43.580
+this is a child of the brain.
+
+05:43.860 --> 05:49.920
+All right the parent container flex parent container so we can also set that with the flex bases.
+
+05:49.960 --> 05:55.830
+Then after that we're going to have a text on line center right now and the text is in the center.
+
+05:55.900 --> 06:01.070
+Then the padding is going to be hundred pixels top bottom and zero on the sides.
+
+06:01.420 --> 06:06.760
+Then we're going to do a little outline here and you can see this line over here right.
+
+06:06.760 --> 06:07.910
+So it's not a border.
+
+06:08.090 --> 06:09.490
+It's going to be a hold line.
+
+06:09.490 --> 06:14.530
+So we're going to say hold line and we're going to say this is going to be one pixel solid.
+
+06:14.590 --> 06:17.980
+I wanted to say hash tag 1 9 1 9 1 9.
+
+06:18.310 --> 06:22.790
+So the black one and we're going to say out line and we're going to say OFF-SIDE.
+
+06:23.050 --> 06:23.400
+All right.
+
+06:23.440 --> 06:26.150
+When I say negative 10 pixels right.
+
+06:26.170 --> 06:31.210
+So what's happening is that you can see that it actually moves and pixels over here like this and then
+
+06:31.210 --> 06:33.180
+let's do the background for the whole thing.
+
+06:33.430 --> 06:37.400
+So I'm going to say background here and I'm going to say R.G. b.a.
+
+06:37.420 --> 06:41.390
+And again we are all going to use the same as for this guy or her right.
+
+06:41.590 --> 06:48.680
+Remember for this container 255 to 55 to 55 0.5.
+
+06:48.920 --> 06:49.630
+That's right.
+
+06:49.820 --> 06:57.300
+So now I can see that we have a white background or then once we have this old style this had a Heading
+
+06:57.310 --> 06:57.830
+1.
+
+06:58.360 --> 07:01.400
+So I'm going to say that this is going to be a banner card.
+
+07:01.820 --> 07:08.620
+And one more here we're going to have a fun size 40 pixels here.
+
+07:08.850 --> 07:20.260
+Then we have a color how color is going to be hashed like eight F C and F B F D B F or here D.
+
+07:20.260 --> 07:23.220
+And you know what I actually had one more half.
+
+07:23.230 --> 07:32.340
+So this now we have this light blue or then once we have this we're going to see a font style hair style
+
+07:33.710 --> 07:37.370
+and we're going to saying this is going to be taluk like this.
+
+07:37.760 --> 07:40.980
+And then we're going to have little this plan.
+
+07:40.990 --> 07:41.270
+All right.
+
+07:41.270 --> 07:48.670
+So let's say here and this is going to be banner card span and or hear when we're going to have is a
+
+07:48.670 --> 07:55.510
+color so we're just going to change the color and this is going to be hash tag 0 3 2 and then it's going
+
+07:55.510 --> 07:58.950
+to be 4 3 4 3 4 here right.
+
+07:58.960 --> 08:03.810
+So this is going to be the darker blue the same as our here just for this logo.
+
+08:04.210 --> 08:06.330
+And then we're going to have a heading three.
+
+08:06.330 --> 08:06.650
+All right.
+
+08:06.740 --> 08:13.420
+So we're going to say for the heading three as we're going to say that this is going to be a browner
+
+08:13.810 --> 08:22.520
+card here and this and we're going to say heading three and this and then we're going to say letter
+
+08:22.560 --> 08:26.220
+spacing would say we're going to have a 10 pixels.
+
+08:26.380 --> 08:30.830
+All right and maybe let's do text transform.
+
+08:30.860 --> 08:37.460
+We're going to say that this is going to be capitalized like this but we have a letter spacing set then
+
+08:37.470 --> 08:46.890
+pixels like let's just do maybe for deciding what to also do a text transform transform and we're going
+
+08:46.890 --> 08:48.210
+to say uppercase.
+
+08:48.390 --> 08:50.130
+So it's going to look like this.
+
+08:50.250 --> 08:57.460
+And once we're done here with this manner now we can go ahead and let's work with this.
+
+08:57.490 --> 09:00.230
+Now we're right to make this response.
+
+09:00.490 --> 09:05.660
+And so as the screen changes and so does the value or.
+
+09:05.800 --> 09:06.160
+Right.
+
+09:06.180 --> 09:06.900
+That's right.
+
+09:06.900 --> 09:09.320
+So let's go ahead and let's actually do this.

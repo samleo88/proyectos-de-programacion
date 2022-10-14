@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.420 --> 00:03.050
+Awesome guys we're done with our project.
+
+00:03.060 --> 00:10.950
+As far as HD the CSX is concerned and the only thing left is adding some functionality using JavaScript
+
+00:11.850 --> 00:17.560
+before we proceed though I would like to mention a few things as far as javascript is concerned.
+
+00:17.670 --> 00:24.720
+First adding javascript is optional and the main purpose of this project was to showcase the use of
+
+00:24.870 --> 00:26.540
+C as plex blocks.
+
+00:26.580 --> 00:33.360
+Second since it's not a job script I'm not going to spend tons of time covering the javascript code
+
+00:33.360 --> 00:38.220
+that we're gonna write so I'm not going to cover JavaScript in great detail.
+
+00:38.220 --> 00:44.760
+As a side note if you are interested in learning javascript I do have an awesome project based javascript
+
+00:44.760 --> 00:48.220
+course on your DME so be sure to check it out.
+
+00:48.230 --> 00:55.530
+And third if you get stuck or you just don't want to bother typing javascript but still would like to
+
+00:55.530 --> 00:57.490
+add functionality to your project.
+
+00:57.630 --> 01:05.730
+Just head over to a set of files and look for complete AB J.S. file on that file and copy and paste
+
+01:05.760 --> 01:13.260
+the contents of that file in the app just file that we're going to work on in the following videos.
+
+01:13.290 --> 01:20.610
+Remember the app Jazz that we created all the way in the set of video and you're gonna have to have
+
+01:20.610 --> 01:21.900
+some tweaks though.
+
+01:21.900 --> 01:27.560
+Meaning keep in mind that even though you're going to have all the javascript there's still some HD
+
+01:27.570 --> 01:31.860
+the amount and CSF tweaks that you're going to have to do.
+
+01:31.860 --> 01:34.500
+All right in order to afford javascript to work.
+
+01:34.950 --> 01:41.040
+So I would still suggest watching the following videos where in the beginning of the video I'm going
+
+01:41.040 --> 01:46.320
+to set up the HDMI or see Asus and then later we're going to write JavaScript.
+
+01:46.320 --> 01:52.560
+Now if you don't want to write JavaScript just copy and paste whatever content we have in the complete
+
+01:52.620 --> 01:53.840
+app J.S. file.
+
+01:54.000 --> 02:00.480
+So let's head over to the set of files and then within the setup files you're going to notice the file
+
+02:00.480 --> 02:02.340
+by the name of complete.
+
+02:02.340 --> 02:10.050
+Have J.S. and what you can do is just open up this file in your text that are like I said You can either
+
+02:10.050 --> 02:16.060
+grab everything just select everything and copy and paste it in the app Jess again.
+
+02:16.080 --> 02:22.680
+Please keep in mind you're going to have to do some tweaks in the HCM now or spaces in order for this
+
+02:22.680 --> 02:24.870
+to work so you can do it this way.
+
+02:24.930 --> 02:31.410
+If you don't like to actually write just or you can do video by video more let's say we're gonna start
+
+02:31.410 --> 02:32.790
+by setting up the date.
+
+02:32.790 --> 02:39.800
+So just grab whatever we have as far as data is concerned and then copy in the app Jesus just so you
+
+02:39.800 --> 02:41.350
+can see that everything's working.
+
+02:41.760 --> 02:49.620
+Now I would like to also mention that again your I.D. and classes need to match whatever I have in my
+
+02:49.620 --> 02:56.100
+project because the javascript that is sitting within the complete app and the same javascript we're
+
+02:56.100 --> 03:01.870
+gonna write depends on the classes and ideas that you have in your HDMI out.
+
+03:02.130 --> 03:07.210
+All right now first of all let me delete everything that I had here in the app Jess.
+
+03:07.350 --> 03:13.200
+And starting from next video we're gonna work on the functionality for our project.

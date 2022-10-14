@@ -1,0 +1,6 @@
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Entidades\bin\Debug\Prueba.Entidades.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Entidades\bin\Debug\Prueba.Entidades.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Entidades\obj\Debug\Prueba.Entidades.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Entidades\obj\Debug\Prueba.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Entidades\obj\Debug\Prueba.Entidades.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Entidades\obj\Debug\Prueba.Entidades.pdb

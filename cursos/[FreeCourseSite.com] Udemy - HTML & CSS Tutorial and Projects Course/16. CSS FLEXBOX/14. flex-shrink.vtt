@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.270 --> 00:03.120
+Similarly how we have legs grow.
+
+00:03.120 --> 00:06.090
+We also have a flex shrink.
+
+00:06.090 --> 00:09.840
+And by default again all the children have the Flex shrink.
+
+00:09.860 --> 00:14.000
+However in this case since 40 legs grow we have a zero.
+
+00:14.280 --> 00:16.290
+So they were not growing.
+
+00:16.290 --> 00:18.980
+In this case flex shrink is set to 1.
+
+00:19.080 --> 00:25.540
+So there are going to shrink in order to in fact make space for rest of the Arabs grow up.
+
+00:25.600 --> 00:31.200
+Now as always the best case scenario would be for me to show you with an example.
+
+00:31.590 --> 00:38.670
+So let's imagine this case where I have the item number two and I think that my Item 2 is going to look
+
+00:38.670 --> 00:41.480
+best if it is let's say 300 pixels.
+
+00:41.820 --> 00:46.500
+So we're gonna set box number and I said no to some reason I'm targeting number 3.
+
+00:46.890 --> 00:48.610
+So my apologies.
+
+00:48.630 --> 00:51.610
+Well let's go with Box Number Two.
+
+00:51.670 --> 00:54.080
+Waste of 300 pixels.
+
+00:54.630 --> 01:01.810
+We set a box but I can already know is that once my screen size gets in fact smaller.
+
+01:02.110 --> 01:04.600
+Well it's definitely not 300 pixels.
+
+01:05.010 --> 01:09.420
+Now if I go to the bigger screen yes sure enough I have my 300 pixels.
+
+01:09.420 --> 01:16.500
+But then as my screen size gets smaller and smaller in order to fit my elements within my container
+
+01:16.770 --> 01:20.630
+of course flux is in fact shrinking my box number two.
+
+01:20.720 --> 01:26.580
+Now the reason why we are shrinking our box well because by default again we have flex shrink and instead
+
+01:26.580 --> 01:33.360
+of zero like we had for Flex grow when they were not growing by default by default all the items are
+
+01:33.360 --> 01:34.530
+going to be shrinking.
+
+01:34.740 --> 01:41.760
+Okay now in order to fix that we are going to go with Flex shrink that is the property and we're going
+
+01:41.760 --> 01:43.670
+to set it equal to zero.
+
+01:43.680 --> 01:44.410
+Now in this case.
+
+01:44.420 --> 01:49.440
+Notice I have my 300 pixel item or a box.
+
+01:49.440 --> 01:51.090
+Call it all it like.
+
+01:51.270 --> 01:57.120
+And then as my screen size gets smaller and smaller the item is not going to get smaller.
+
+01:57.120 --> 02:03.690
+And if we cannot fit in fact rest of the items Well again we're going to have the overflow.
+
+02:03.750 --> 02:08.820
+Now please keep in mind that doesn't mean that we're going to shrink the rest of the items basically
+
+02:08.820 --> 02:09.780
+to nothing.
+
+02:09.780 --> 02:16.500
+We also had here the farm sizes and the patterns all that so the Flex box is not just gonna get rid
+
+02:16.500 --> 02:16.870
+of them.
+
+02:17.200 --> 02:17.810
+Okay.
+
+02:17.880 --> 02:22.880
+When I say shrink that means we're still going to have some base values.
+
+02:23.190 --> 02:29.520
+However of course we do have right now wrapping and we know that in order to fix that now had our property
+
+02:29.670 --> 02:34.910
+by the name of flux wrap and we're just gonna wrap our content.
+
+02:34.920 --> 02:44.220
+So in this case if there is not enough room to let's say set box number two with rest of the items well
+
+02:44.220 --> 02:46.060
+we're gonna be wrapping in new lines.
+
+02:46.230 --> 02:47.350
+That's all we're gonna be doing.
+
+02:47.850 --> 02:52.650
+And that's how we can work with a flex shrink property in the flex box.

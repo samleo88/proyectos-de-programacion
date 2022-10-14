@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.480 --> 00:01.450
+So far so good.
+
+00:01.470 --> 00:05.220
+We have headings covered and now we can move on to paragraph.
+
+00:05.220 --> 00:10.390
+Now before we start covering paragraph elements let me just quickly correct myself.
+
+00:10.470 --> 00:16.230
+I believe in the last video I said HDMI components and components we haven't react in HD the amount
+
+00:16.250 --> 00:17.220
+we have is they have elements.
+
+00:17.220 --> 00:21.090
+So what I meant was heading elements not adding components.
+
+00:21.090 --> 00:26.040
+So I would like to correct that first and second I would like to show you that starting from the last
+
+00:26.040 --> 00:31.440
+video whenever we're going to do any kind of coding in the video there's gonna be resources for it.
+
+00:31.980 --> 00:37.980
+So as you're watching maybe you start to understand something you can always go underneath the resources
+
+00:37.980 --> 00:40.440
+of the video and you can just download this.
+
+00:40.500 --> 00:46.620
+Now obviously in the download what you're going to have is the same exact thing we're doing in the video.
+
+00:46.620 --> 00:50.270
+So it's not like I'm gonna send you some kind of black magic wall here.
+
+00:50.330 --> 00:54.720
+This is gonna be the same information we already covered as you can see this is gonna be a zip file.
+
+00:54.720 --> 00:59.260
+Now I already automatically open up the zip file and I'm gonna have my index file.
+
+00:59.310 --> 01:04.470
+Now I don't think I need to go as far as opening the next session email to show you that this would
+
+01:04.470 --> 01:06.080
+be same exact thing.
+
+01:06.180 --> 01:11.340
+Now for a project it might be a little bit different because already previously for the previous projects
+
+01:12.000 --> 01:17.610
+you noticed that underneath the setup video we had the whole zip file where it was the starter files
+
+01:17.930 --> 01:19.580
+as well as the finished project.
+
+01:19.590 --> 01:27.300
+Now as I'm rerecording the course I might add a again folder for each and every video that we're doing
+
+01:27.660 --> 01:32.640
+that might be something that I'll do not because I wouldn't want to do it but unfortunately I have a
+
+01:32.670 --> 01:37.080
+pretty bad memory so I might forget but I hopefully I'll gonna try to remember.
+
+01:37.080 --> 01:40.170
+So the same would go for the projects as well.
+
+01:40.410 --> 01:45.000
+But in general for sure I'm going to try to do that with tutorials so everything that we covered in
+
+01:45.000 --> 01:48.600
+the last video it should be accessible for you in resources.
+
+01:49.050 --> 01:54.840
+OK enough of talking about again about everything else but the actual the email.
+
+01:54.960 --> 02:00.270
+And now let's get rid of all the tags since you can have always access them in the actual resources
+
+02:00.780 --> 02:03.010
+and let's say what we would need for a paragraph.
+
+02:03.160 --> 02:05.550
+Now for the paragraph this is gonna be very straightforward.
+
+02:05.550 --> 02:10.710
+We have P so that wouldn't be a letter P which would reflect a paragraph on it.
+
+02:10.840 --> 02:15.930
+And again same old spiel same old shrink syntax opening Clegg door closing tag.
+
+02:16.000 --> 02:21.120
+And here we can write whatever a novel if we'd like to do it now again like I said you can still do
+
+02:21.120 --> 02:26.950
+it in a and the actual heading but probably paragraph is where you're going to put your content.
+
+02:26.970 --> 02:31.830
+So here I can just say I don't know some kind of content and I can just keep on typing and as you can
+
+02:31.830 --> 02:38.520
+see since we have the nice word break everything is formatted really nicely and we can just save it.
+
+02:38.880 --> 02:40.640
+And this is going to be my paragraph.
+
+02:40.680 --> 02:45.740
+However if we're going to head over to the browser in a bigger browser window and let's say I'm going
+
+02:45.740 --> 02:53.200
+to type 1 27 because that is where the local development server or live development server is going
+
+02:53.200 --> 02:57.970
+to serve up my next patient email notice that everything is set incorrectly like it should.
+
+02:58.380 --> 03:04.110
+But again here as well I have the zoom or two hundred and again just so we can see better everything
+
+03:04.110 --> 03:08.060
+that we're doing but in the essence that would be about the paragraph.
+
+03:08.070 --> 03:10.350
+Again it is very straightforward.
+
+03:10.350 --> 03:16.200
+We wouldn't just need paragraph tags and whatever text is going to be sitting within this text is gonna
+
+03:16.200 --> 03:17.340
+be displayed as paragraph.

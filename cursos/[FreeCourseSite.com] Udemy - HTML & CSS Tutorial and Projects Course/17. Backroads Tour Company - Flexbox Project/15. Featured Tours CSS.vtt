@@ -1,0 +1,547 @@
+WEBVTT
+
+00:00.550 --> 00:05.620
+Before we head over to see who says though why don't we also add a link.
+
+00:05.650 --> 00:11.740
+That's one thing that I forgot to mention were notice we do have the talks but all the way in the bottom
+
+00:11.740 --> 00:16.060
+we also have the link and in fact I did forget to add that.
+
+00:16.090 --> 00:24.430
+So first of all let me see Where is my tour center because in fact I would like to place it outside
+
+00:24.430 --> 00:25.900
+detox center.
+
+00:25.900 --> 00:28.920
+So we have a featured center.
+
+00:28.990 --> 00:31.440
+This is the day that I was talking about.
+
+00:31.540 --> 00:42.660
+But what I would like to do is in fact place it outside so let's write and off towards center like so.
+
+00:42.840 --> 00:51.270
+And then once we have that comment we're going to have a div with a class of towards link and then within
+
+00:51.270 --> 00:53.750
+this div we're going to place a link.
+
+00:53.790 --> 00:57.480
+Now it's going to be a dummy link meaning we're going to place a hash tag here.
+
+00:57.930 --> 01:02.730
+Let's have a class of Beatty and primary here.
+
+01:02.760 --> 01:06.260
+Remember man was the class that we already created before.
+
+01:06.330 --> 01:08.740
+Let's just write all thoughts now.
+
+01:08.790 --> 01:15.570
+The moment we save that all the way in the bottom we should have this link that has this class of BD
+
+01:15.570 --> 01:16.680
+and primary.
+
+01:16.680 --> 01:22.870
+Remember we set up this class already previously when we were in the About section.
+
+01:22.920 --> 01:29.070
+Once we have completed totally our Asia and now now we're going to head over back to the styles.
+
+01:29.310 --> 01:32.640
+And we already set up our featured class.
+
+01:32.640 --> 01:34.880
+That was our background so knowledge.
+
+01:34.890 --> 01:38.760
+Go line by line and start adding the rest of the styles.
+
+01:38.760 --> 01:44.710
+As far as our tours are concerned first of all I would like to add some kind of hover effect.
+
+01:45.450 --> 01:48.460
+Now first of all why don't we select the worse.
+
+01:48.510 --> 01:54.810
+So we're a card that is going to be each and every card that we're working with and let's maybe add
+
+01:54.810 --> 01:56.770
+margin bottom I'm off.
+
+01:56.790 --> 02:03.030
+I don't know for our teams just so we have some distance in between our cards and then like I said I
+
+02:03.030 --> 02:07.090
+would like to have some kind of box shadow.
+
+02:07.320 --> 02:12.540
+So let's write first of all box shadow property Mark shadow property.
+
+02:12.540 --> 02:17.190
+And now I'd like to use the values that we had all the way on the top.
+
+02:17.190 --> 02:23.770
+Remember when we set up our variables we had a light shadow as well as the dark shadow.
+
+02:23.790 --> 02:29.370
+So first of all for all my cards I would like to grab this light shadow value.
+
+02:29.430 --> 02:34.970
+And again we can use of course our block shadow generator or anything like that.
+
+02:34.980 --> 02:38.000
+But I just went with these particular values.
+
+02:38.190 --> 02:47.340
+So not say box shadow again where access var then hyphen hyphen and the value was like shadow the moment
+
+02:47.340 --> 02:52.740
+we do that notice even though we do have the white background as well as background within the card
+
+02:52.740 --> 02:53.580
+is white.
+
+02:53.580 --> 02:55.450
+Now we have this distinction.
+
+02:55.500 --> 02:57.660
+So now we can see where is our card.
+
+02:58.170 --> 03:03.050
+And also as I'm hovering over the card I would like to add a dark shadow.
+
+03:03.070 --> 03:07.180
+However I would want that transition to happen over time.
+
+03:07.320 --> 03:09.890
+So I'm gonna transition then for that.
+
+03:09.900 --> 03:11.730
+I already had my variable.
+
+03:11.730 --> 03:19.790
+So let's go with main transition like so and then let's say as we're hovering over these two or card.
+
+03:20.130 --> 03:21.540
+So let's write to work hard.
+
+03:21.540 --> 03:25.220
+However I would want that box shadow to change.
+
+03:25.650 --> 03:28.380
+I would want it to go to a dark shadow.
+
+03:28.890 --> 03:30.390
+So it's red box shadow.
+
+03:31.110 --> 03:37.440
+And then again var I find hyphen and the variable name is going to be dark shadow.
+
+03:37.920 --> 03:43.900
+So now as we're hovering over the card notice our shadow changes from light to dark.
+
+03:44.070 --> 03:46.710
+However it takes over time.
+
+03:46.890 --> 03:49.730
+And the reason why this is happening over time.
+
+03:49.780 --> 03:56.510
+Well because we are using our main transition variable and that would be step number one.
+
+03:56.520 --> 04:01.860
+Now let's start dealing with this date when I said I would like to place this date all the way here
+
+04:01.890 --> 04:03.190
+on the top.
+
+04:03.660 --> 04:11.940
+Now since I'm going to use a position absolute for that I would like to use my image container in fact
+
+04:12.540 --> 04:14.130
+as my parents container.
+
+04:14.130 --> 04:19.680
+So that way I can set that paragraph relative to my image container.
+
+04:19.680 --> 04:21.330
+Now remember what was the class name.
+
+04:22.140 --> 04:27.850
+Let's head over here and the class name was Tau hyphen image hyphen container.
+
+04:27.870 --> 04:31.180
+So first of all let's set this up as a position relative.
+
+04:31.200 --> 04:35.300
+So Tau hyphen image hyphen container.
+
+04:35.580 --> 04:38.690
+Well let's set this as position relative.
+
+04:38.700 --> 04:40.350
+That's step number one.
+
+04:40.530 --> 04:42.950
+And then we're going to work with toward date.
+
+04:43.200 --> 04:46.170
+And that is the class of course for our program.
+
+04:46.290 --> 04:50.360
+Like I said I would like to use position absolute.
+
+04:51.000 --> 04:53.830
+First of all we just take it out of the normal flow.
+
+04:54.050 --> 04:59.250
+Then let's place it on the top so top zero left zero.
+
+04:59.280 --> 05:05.040
+Step number one as you can see my paragraph is now sitting all the way on the left hand side.
+
+05:05.070 --> 05:13.770
+On the top then why don't we add some background and we're going to go with var primary color like so.
+
+05:13.770 --> 05:15.470
+OK looking good.
+
+05:15.480 --> 05:22.290
+Text transform capitalize text transform kept less and why don't we add a little bit of padding.
+
+05:22.320 --> 05:25.310
+Zero point twenty five our Ms.
+
+05:25.770 --> 05:28.460
+Top bottom zero point five.
+
+05:28.560 --> 05:30.610
+Our aims left and right.
+
+05:30.640 --> 05:31.530
+Right.
+
+05:31.620 --> 05:38.520
+Then once we're done with our awesome awesome paragraph we're gonna switch gears and we're gonna talk
+
+05:38.640 --> 05:46.430
+about the two word footer so I'm going to select the class of two or footer and I guess start very simply
+
+05:46.430 --> 05:48.180
+by adding some padding.
+
+05:48.380 --> 05:57.360
+So it's right padding one point to our hems to bottom and one point five our teams left and right now
+
+05:57.510 --> 06:03.450
+and is going to be my pairing then as far as your title is concerned.
+
+06:03.560 --> 06:12.980
+When we selected the word title and we're going to write text transform capitalized like so.
+
+06:13.380 --> 06:20.000
+So now our title is of course capitalized and then we're gonna start working with eight or country.
+
+06:20.000 --> 06:23.840
+So first of all let's add some kind of color to weight or country.
+
+06:24.110 --> 06:27.950
+So let's selected to work country.
+
+06:27.980 --> 06:35.860
+And we're gonna go for color var and primary color as well as I would like to capitalize it as well.
+
+06:36.440 --> 06:46.350
+So text transform we're gonna set it as capitalized and now once we have this added as a color.
+
+06:46.490 --> 06:51.050
+So once we have our primary color for our country.
+
+06:51.050 --> 06:58.010
+Well now I'd like to set up my two column layout because remember that is going to be our eventual goal
+
+06:58.490 --> 07:00.810
+where my country's sitting on the left hand side.
+
+07:01.160 --> 07:07.040
+And in fact the rest of the info is sitting all the way on the right hand side and we're using justified
+
+07:07.040 --> 07:08.720
+content space between.
+
+07:08.720 --> 07:13.210
+So they are in fact positioned as far as possible from each other.
+
+07:13.220 --> 07:17.550
+Now in order to do that remember we had to orient for that.
+
+07:17.560 --> 07:22.670
+It was our parent container for the country as well as for the rest of the info.
+
+07:22.680 --> 07:25.860
+Why don't we write display looks.
+
+07:25.940 --> 07:33.080
+So now they're sitting side by side like I said I would want to use justified content space between
+
+07:33.950 --> 07:37.310
+just so we have some distance in between them.
+
+07:37.310 --> 07:44.000
+But I also like to add a flex wrap just in case you know maybe there's not enough room at some certain
+
+07:44.000 --> 07:49.010
+screen size and then that way at least they are rapping to our next line.
+
+07:49.580 --> 07:56.700
+Now we also would like to do a little bit more styling for our paragraphs because remember we had a
+
+07:56.700 --> 08:02.270
+towards details div and then within this day we had these two paragraphs.
+
+08:02.270 --> 08:10.220
+So I would like to target them right now so let's write two more details and I'm going to target paragraphs
+
+08:10.250 --> 08:12.010
+within the two or details.
+
+08:12.200 --> 08:19.880
+And first of all I'm going to have a little less line height and I'm going to shoot for zero point two.
+
+08:20.100 --> 08:28.670
+Like so so now my line height is less text transform why don't we add capitalized and also let's change
+
+08:28.670 --> 08:29.150
+the color.
+
+08:29.160 --> 08:32.910
+So var main grey or you're not.
+
+08:32.930 --> 08:35.910
+Let's go with dark grey my apologies.
+
+08:35.910 --> 08:37.870
+I'm gonna go with da grey.
+
+08:37.960 --> 08:39.580
+That is of course my text.
+
+08:39.730 --> 08:40.630
+And last but not least.
+
+08:40.630 --> 08:47.860
+Why don't we add a little bit of letter spacing and letter spacing is gonna be zero point zero two or
+
+08:47.910 --> 08:48.650
+three.
+
+08:48.810 --> 08:49.850
+Like so.
+
+08:50.050 --> 08:56.000
+And last but not least we have the Center for detour country.
+
+08:56.230 --> 09:00.950
+So remember we already had the tour country selected correct.
+
+09:00.970 --> 09:04.900
+We added the color as well as we add a d text transform.
+
+09:04.900 --> 09:11.950
+Now I also like to in fact align it in the center because what I would like to do is just have all the
+
+09:11.950 --> 09:12.270
+time.
+
+09:12.280 --> 09:13.650
+This text in the center.
+
+09:13.870 --> 09:19.870
+Now it could obviously added here or I can just show you that of course we can selected separately as
+
+09:19.870 --> 09:20.570
+well.
+
+09:20.620 --> 09:21.550
+It's really up to you.
+
+09:21.550 --> 09:23.640
+I'm just going to select that separately.
+
+09:23.650 --> 09:29.320
+Just please remember that in general we could just add Aditi afforded to our country so let's select
+
+09:29.410 --> 09:35.170
+a country and let's just write a line self in the center.
+
+09:35.190 --> 09:40.930
+Again the reason why I'm doing that is if I'm going to add this particular property in here as we're
+
+09:41.230 --> 09:42.980
+initially working with our country.
+
+09:43.130 --> 09:47.770
+Well it's not going to make much sense correct because only later we're using display flux.
+
+09:47.920 --> 09:54.040
+So that's the reason when I'm doing the screen test I might repeat some particular selector with different
+
+09:54.040 --> 10:00.500
+property as well as the value I normally again you would place it here where all countries are initially
+
+10:00.520 --> 10:04.630
+but in this case I'm just going to add it as a one more selector.
+
+10:04.630 --> 10:10.300
+And lastly I would like to work with a tour link now that was my div.
+
+10:10.350 --> 10:17.380
+Remember here all the way the bottom and we're going to go with to our link text online and we're gonna
+
+10:17.390 --> 10:19.040
+sub this center now.
+
+10:19.460 --> 10:21.860
+So now we're just sitting in a center.
+
+10:21.890 --> 10:27.650
+And lastly we just need to come up with our column layout because what I would like to do is once we
+
+10:27.650 --> 10:32.990
+get to a certain screen size there's going to be a two column lamp and then we're going to have a three
+
+10:32.990 --> 10:33.910
+column land.
+
+10:33.920 --> 10:39.610
+Now of course since we have four items we are just going to wrap it to a next line.
+
+10:39.740 --> 10:43.470
+Now for that remember we needed to have the media queries.
+
+10:43.670 --> 10:53.150
+So let's go with media screen and mean with like so and we're going to shoot for seven hundred and sixty
+
+10:53.150 --> 10:54.080
+eight pixels.
+
+10:54.170 --> 11:01.600
+So starting from that particular screen size I'm going to target a class of featured center.
+
+11:01.750 --> 11:04.000
+And why don't we add some values here.
+
+11:04.000 --> 11:07.480
+So first of all I would want it to be displayed flex.
+
+11:08.020 --> 11:12.460
+Now we show you that on a bigger screen says there you go.
+
+11:12.460 --> 11:17.330
+That is going to be my display a flex course a bunch of things we still need to do.
+
+11:17.500 --> 11:22.270
+First of all what we would want is to work hard to be remember 50 percent.
+
+11:22.330 --> 11:32.950
+So flex can 0 0 calc function then 50 percent minus and then whatever margin you would like.
+
+11:32.950 --> 11:34.580
+So I'm gonna go with one Harry.
+
+11:34.630 --> 11:39.620
+I'm not going to switch back each and every time after property because we have already covered it.
+
+11:39.700 --> 11:44.680
+But what I would like to do is justify content space between.
+
+11:44.680 --> 11:46.060
+Again that is my preference.
+
+11:46.060 --> 11:47.230
+You can use different values.
+
+11:47.230 --> 11:49.750
+Let's say space around the space evenly.
+
+11:49.750 --> 11:55.330
+I just like my columns to be having as much space as possible.
+
+11:55.330 --> 12:02.070
+And then when we use flex wrap wrap because otherwise we're not going to start a new line.
+
+12:02.190 --> 12:03.130
+Let's do that.
+
+12:03.160 --> 12:03.970
+And there you go.
+
+12:04.170 --> 12:05.610
+And we have our two column layout.
+
+12:06.060 --> 12:12.050
+And lastly we would just want to have a three column layout once we get to a bigger screen size.
+
+12:12.090 --> 12:14.350
+Now what is going to be my screen size.
+
+12:14.550 --> 12:19.630
+I believe I'm going to shoot for eleven hundred and seventy.
+
+12:20.010 --> 12:27.790
+So make up and paste it and let me add the curly brace here the closing one so I don't have any errors.
+
+12:27.840 --> 12:35.010
+I'm going to grab a two card and as far as your card is concerned since I would like to have a three
+
+12:35.010 --> 12:36.290
+column layout.
+
+12:36.510 --> 12:40.440
+Well why don't we have a three three dot.
+
+12:40.470 --> 12:42.160
+3 3 3 3 3 something.
+
+12:42.580 --> 12:43.650
+Okay.
+
+12:43.920 --> 12:44.460
+Yep.
+
+12:44.460 --> 12:45.000
+There you go.
+
+12:45.000 --> 12:49.830
+We have our three column loud and that's how it's gonna look like.
+
+12:49.830 --> 12:54.570
+So once we get a bigger screen size we're gonna have a three count my out.
+
+12:54.600 --> 12:56.040
+So we start with one.
+
+12:56.280 --> 12:59.430
+Then we have a two column layout.
+
+12:59.940 --> 13:01.810
+And then of course we have three Commonwealth.
+
+13:02.100 --> 13:08.070
+Now I believe I messed that up here because I left it as 768.
+
+13:08.340 --> 13:12.270
+So I'll go with eleven hundred and seventy.
+
+13:12.480 --> 13:18.660
+And now we have to call them loud and then only once we get to the bigger screen size and of course
+
+13:18.660 --> 13:24.960
+we have our three column loud and we successfully completed our feature towards section.

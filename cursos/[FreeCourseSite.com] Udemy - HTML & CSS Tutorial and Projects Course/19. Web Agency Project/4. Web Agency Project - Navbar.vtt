@@ -1,0 +1,802 @@
+WEBVTT
+
+00:00.650 --> 00:04.060
+And for this project I'm going to be using seven images.
+
+00:04.060 --> 00:08.120
+I'm going to be using here this one and I'll have this background.
+
+00:08.340 --> 00:09.930
+This is going to be called Project.
+
+00:09.930 --> 00:14.580
+This is going to be for the project and we're going to have for the filler then we're going to have
+
+00:14.640 --> 00:17.620
+a services over here and this is going to be here.
+
+00:17.640 --> 00:18.160
+Right.
+
+00:18.270 --> 00:21.470
+And everything else is pretty much the same like we already did.
+
+00:21.480 --> 00:26.160
+Now the only thing that extra that I did over here you can see that we're going to have a small screen
+
+00:26.170 --> 00:31.770
+right so we can right away see for the moment you know here we have a theme that actually we're going
+
+00:31.770 --> 00:32.750
+to be creating.
+
+00:32.810 --> 00:33.360
+Right.
+
+00:33.390 --> 00:38.160
+And this is the one that we're actually working on right so we're all going to work we're going to do
+
+00:38.160 --> 00:39.990
+or here we're going to be able to see.
+
+00:40.080 --> 00:44.100
+And this is already the finished Web site right so we can check it out it.
+
+00:44.100 --> 00:45.770
+We did everything correctly.
+
+00:45.900 --> 00:49.140
+And the first thing that we need to do is create this map.
+
+00:49.170 --> 00:49.820
+Right.
+
+00:49.830 --> 00:55.290
+So let's go ahead and let's go here to the body section or here and I'm just going to create a little
+
+00:55.290 --> 00:58.500
+bit more room so you can see better what's happening.
+
+00:58.500 --> 01:03.110
+I think we can make this one smaller because we're either way going to be using this for the mobile
+
+01:03.130 --> 01:09.300
+view and we're here what I'm going to say this is going to be a comment I'm going to send this is going
+
+01:09.300 --> 01:10.040
+to be now.
+
+01:10.400 --> 01:14.760
+And once we have the now I'm just going to say this is going to be not element and this is going to
+
+01:14.760 --> 01:20.130
+be an ordered list and this is going to be a list item and then the last item we're going to have a
+
+01:20.130 --> 01:20.490
+try.
+
+01:20.600 --> 01:21.110
+Right.
+
+01:21.160 --> 01:26.850
+So I'm going to say this is going to be a link like this and this is going to be dummy link over here.
+
+01:27.030 --> 01:31.710
+But for the first one I'm going to actually have a class and I'm going to say that the class is going
+
+01:31.710 --> 01:36.690
+to be low because we're going to style this one little bit differently and we're going to say this is
+
+01:36.690 --> 01:41.870
+going to be web agency and or here and this is also going to have a phone to us.
+
+01:41.940 --> 01:49.060
+I might say it is going to be I have a half a and we're going to say narrow it down.
+
+01:49.470 --> 01:51.760
+I think some of this is going to be out font of some.
+
+01:51.880 --> 01:53.570
+Right so we have our first one.
+
+01:53.700 --> 02:00.550
+And for some reason the agency went in we didn't want or here's what I'm going to do is all right.
+
+02:00.600 --> 02:02.630
+Agency.
+
+02:02.730 --> 02:08.060
+Agency and then or here we just need to write I so apologize for that.
+
+02:08.070 --> 02:13.220
+And now we have a web agency and now we have done a fantastic night.
+
+02:13.320 --> 02:15.420
+And then we need another few weeks.
+
+02:15.420 --> 02:15.640
+Right.
+
+02:15.640 --> 02:19.330
+So total we would have six so we would need five more.
+
+02:19.530 --> 02:23.980
+So what I'm going to do we're here I'm going to copy this guy but I'm just going to delete this phone
+
+02:25.020 --> 02:26.010
+because I don't need it.
+
+02:26.040 --> 02:27.720
+I just need it for the first one.
+
+02:27.780 --> 02:35.910
+So if I do this and instead of with my agency I'm going to say this is going to be a actually let's
+
+02:35.910 --> 02:40.710
+say this is not also going to have a logo on it and it's not going to be a or logo.
+
+02:40.800 --> 02:42.180
+And this is just going to be home.
+
+02:42.320 --> 02:47.430
+And so we're all going to run this is going to be home and we're going to copy this guy and we're going
+
+02:47.430 --> 02:50.510
+to have skilled services portfolio.
+
+02:50.590 --> 02:56.670
+Now that just copy this line here and this is one two three.
+
+02:56.760 --> 03:03.900
+We're here for it's all him home skills services portfolio and work.
+
+03:04.090 --> 03:06.200
+So really going around this is going to be skills
+
+03:09.410 --> 03:10.330
+skills.
+
+03:10.360 --> 03:13.440
+On here and this is going to be services.
+
+03:13.480 --> 03:13.770
+Right.
+
+03:13.780 --> 03:20.540
+So we're going to say this is going to be services and this is going to be over here instead of home.
+
+03:20.550 --> 03:24.680
+It's going to be portfolio and then we need one more.
+
+03:24.990 --> 03:31.260
+So grab over here and just copy this guy and we're going to say this is going to be what it's all going
+
+03:31.260 --> 03:33.050
+to go back over here.
+
+03:33.150 --> 03:38.550
+We're going to let's maybe use a beautiful way to make it a little bit better.
+
+03:38.550 --> 03:38.820
+Right.
+
+03:38.820 --> 03:40.850
+So they look a little bit nicer.
+
+03:40.870 --> 03:46.730
+And now that we have the links we're obviously going to go to means this and start styling here.
+
+03:46.730 --> 03:47.330
+Right.
+
+03:47.430 --> 03:52.080
+So if we go back and see this the first thing that I'm going to do is I'm just going to write down the
+
+03:52.080 --> 03:56.730
+colors that I'm going to be using right now I'm going to be making a comment over here I'm just going
+
+03:56.730 --> 04:03.420
+to say that for a black or here I'm just going to say it is going to be black and this is going to be
+
+04:03.450 --> 04:09.510
+1 9 1 7 1 6 1 7 1 6 here.
+
+04:09.690 --> 04:14.850
+And then we will need to copy this three times one two three and we're really going to write and this
+
+04:14.850 --> 04:21.470
+is going to be for the white one white and for the white one is going to be a little bit different right.
+
+04:21.480 --> 04:24.290
+Obviously he and then we'll get to zero.
+
+04:24.300 --> 04:31.690
+He will have to be to the right then the next one is going to be yellow.
+
+04:31.770 --> 04:32.690
+All right.
+
+04:32.800 --> 04:37.120
+Hello and for the hour going to be using a E6.
+
+04:37.240 --> 04:46.060
+So the hash tag six and we're going to have a F and then we're going to have to be right and then we're
+
+04:46.060 --> 04:46.970
+going to have a great one.
+
+04:47.010 --> 04:49.210
+So we're going to come back here and say Great.
+
+04:49.440 --> 04:53.150
+And the gray one is going to be B E B B B.
+
+04:53.290 --> 04:56.690
+And they're going to have 7 8 4 7 4.
+
+04:56.850 --> 05:01.100
+Now that we have the colors right now the first rule that we're going to be creating is going to be
+
+05:01.100 --> 05:06.320
+for the whole document and we're going to say that this isn't going to have a margin of zero.
+
+05:06.400 --> 05:13.660
+And so all the elements initially right margin zero padding zero zero.
+
+05:13.940 --> 05:17.700
+And over here we're going to say this is going to be a box sizing.
+
+05:18.060 --> 05:21.680
+I know we're going to say box sizing is going to be border box right.
+
+05:21.770 --> 05:23.150
+So you know like this.
+
+05:23.150 --> 05:27.540
+And then when we had one we have for the whole document we can actually start styling.
+
+05:27.680 --> 05:28.120
+Right.
+
+05:28.280 --> 05:30.650
+So over here I'm just going to put the body.
+
+05:30.920 --> 05:33.430
+Here I'm going to write a column and this is going to be now.
+
+05:33.860 --> 05:36.540
+And what was going to be the first rule for the now.
+
+05:36.860 --> 05:41.900
+What he's going to say and this is going to be none of your well written or least list style type.
+
+05:41.910 --> 05:43.040
+None.
+
+05:43.190 --> 05:44.470
+None here.
+
+05:44.540 --> 05:48.050
+And we're going to have a border top and.
+
+05:48.150 --> 05:55.400
+We're going to have a yellow lights on and say six pixels solid so they know we're here and we're going
+
+05:55.400 --> 06:00.470
+to use the night so we can just write it or we can just copy this one is obviously going to be a little
+
+06:00.470 --> 06:01.470
+bit faster.
+
+06:01.760 --> 06:06.240
+So we just go here copy this and go here and we just paste.
+
+06:06.290 --> 06:06.660
+Right.
+
+06:06.830 --> 06:09.530
+So now we have the yellow border on the top.
+
+06:09.530 --> 06:13.280
+Then we have a list actual link right.
+
+06:13.610 --> 06:15.170
+So we're going to say we're here now.
+
+06:15.350 --> 06:16.140
+We're here.
+
+06:16.480 --> 06:18.460
+Well hello I say.
+
+06:18.710 --> 06:23.700
+And what would be the properties and values would want to change text decoration.
+
+06:23.930 --> 06:26.400
+None none.
+
+06:26.420 --> 06:33.090
+And we're going to have a display here we're going to say this is going to be block here and this and
+
+06:33.200 --> 06:42.270
+this play lock and we're going to be saying that this is going to be also a text align center text on
+
+06:42.570 --> 06:44.410
+your center.
+
+06:44.450 --> 06:51.710
+We're going to have a font size 20 on size over here and we're going to say this is going to be 20 pixels
+
+06:52.300 --> 07:00.760
+and then we're going to have a padding and padding is going to be 15 pixels by 25 pixels or you know
+
+07:00.790 --> 07:07.750
+I guess and then we're going to have a color and the color is actually going to be that black.
+
+07:07.810 --> 07:08.360
+Right.
+
+07:08.480 --> 07:09.470
+So we're going to go here.
+
+07:09.470 --> 07:13.500
+This is going to be sort Sorry it's going to be the yellow one or here.
+
+07:13.690 --> 07:15.800
+So if we go back over here.
+
+07:15.800 --> 07:17.160
+Copy and paste this right.
+
+07:17.170 --> 07:20.920
+So it's going to be E-6 a f 2.
+
+07:21.290 --> 07:30.850
+So he E-6 a have to know guess and that obviously you would want a background right for the actual you.
+
+07:30.950 --> 07:36.610
+Right or here you can see that I actually missed a background color so I'm going to say Baghran code
+
+07:36.620 --> 07:43.120
+here and I'm going to say this is going to be the black on rights 1 9 7 1 6.
+
+07:43.200 --> 07:50.240
+Right so now we have the black one and the links are also down right now we would want as we were hovering
+
+07:50.240 --> 07:52.520
+over the links we would want a different color.
+
+07:52.520 --> 07:52.960
+Right.
+
+07:53.170 --> 07:56.170
+So I'm going to create a little bit more space so I can see better.
+
+07:56.460 --> 07:58.850
+I don't know if we're going to say we're hovering right.
+
+07:58.890 --> 08:00.840
+Some things should be different.
+
+08:00.840 --> 08:03.040
+We're just going to copy this guy.
+
+08:03.060 --> 08:07.610
+You know we're going to pace that and we're going to say that this is going to be over and as we're
+
+08:07.640 --> 08:10.300
+covering the color is going to be a white one.
+
+08:10.320 --> 08:10.840
+Right.
+
+08:10.870 --> 08:14.170
+Well whitish and it's not going to be completely white.
+
+08:14.240 --> 08:16.680
+So we're all going to say this is going to be easy.
+
+08:16.840 --> 08:23.800
+And then we're going to have zero G and then we're going up to the B to the right so I can say this
+
+08:23.810 --> 08:25.990
+guy we're here and we can check it out.
+
+08:25.990 --> 08:28.040
+Right so this is going to be the white one.
+
+08:28.160 --> 08:31.820
+Now also you need to style the logo.
+
+08:31.820 --> 08:32.090
+Right.
+
+08:32.090 --> 08:37.660
+So remember that first one that we created the web agency we would need to style this right.
+
+08:37.670 --> 08:42.380
+So here I'm going to say for this law go right for this class some some time in the class.
+
+08:42.380 --> 08:44.270
+Now I can see what's happening right.
+
+08:44.270 --> 08:47.350
+First we're going to say this is going to be a display of flex right.
+
+08:47.570 --> 08:52.790
+Because you can see that I won them actually not side my side and one them actually separate right.
+
+08:52.810 --> 08:53.990
+So when I said this.
+
+08:54.350 --> 09:01.280
+Flex right there I'm going to say text transfer when you're transformed I'm going to say this is going
+
+09:01.280 --> 09:03.220
+to be upper case.
+
+09:03.290 --> 09:06.350
+Upper case like this or here maybe.
+
+09:06.410 --> 09:13.040
+Right away as we have this play flex let's deal with a flex and say this is going to be justify content
+
+09:13.420 --> 09:16.840
+and here space between right now we have this one.
+
+09:16.920 --> 09:20.030
+I can see the font awesome right away flies all the way to the right.
+
+09:20.110 --> 09:20.840
+Yeah.
+
+09:20.930 --> 09:27.590
+So now we have a text transform that we want a font size and we're going to say it's going to be 40
+
+09:27.590 --> 09:30.700
+pixels and then we're going to have a background.
+
+09:30.920 --> 09:31.460
+Right.
+
+09:31.610 --> 09:33.410
+And the background is actually going to be different.
+
+09:33.410 --> 09:33.700
+Right.
+
+09:33.710 --> 09:42.830
+So we're here we're going to say the six hey we're here and then it's going to be too high for this.
+
+09:42.890 --> 09:50.820
+And then the actual color is going to be the black it's 1 9 1 7 1 7 1 6 9.
+
+09:50.840 --> 09:57.230
+So it's other way around how it would be interacted with links and then the font style is going to be
+
+09:57.510 --> 10:01.950
+taluk taluk then we need to add the rule as we're having.
+
+10:01.950 --> 10:02.420
+Right.
+
+10:02.590 --> 10:06.700
+So the background color is going to be different and actual colors are going to be different.
+
+10:06.880 --> 10:11.640
+So rerum so low and are here I'm going to say have I.
+
+10:11.740 --> 10:16.750
+And what we're going to say or her background color and the background color is going to be on here.
+
+10:16.990 --> 10:19.500
+And the zero G.
+
+10:19.580 --> 10:29.500
+And then is going to be to be to the right and then the color is going to be or the 6 a 6 and 8.
+
+10:29.710 --> 10:34.210
+And then this is going to be F to the two.
+
+10:34.630 --> 10:39.690
+And so we can go ahead and check it out over here when we have with the web engines he writes or going
+
+10:39.690 --> 10:45.190
+to have a white one and the actual color is going to be right now the most interesting part or here.
+
+10:45.220 --> 10:45.670
+Right.
+
+10:45.850 --> 10:48.240
+So you can see that we have set up for the small screen right.
+
+10:48.250 --> 10:49.120
+Everything is working.
+
+10:49.120 --> 10:50.520
+Everything looks nice right.
+
+10:50.650 --> 10:55.650
+But if I say this over here and if we go to the big screen right it's also going to look the same.
+
+10:55.660 --> 10:56.040
+Right.
+
+10:56.170 --> 10:57.370
+And this is not what we want.
+
+10:57.370 --> 10:59.820
+We obviously would want a bigger screen.
+
+10:59.830 --> 11:00.100
+Right.
+
+11:00.100 --> 11:04.930
+So the moment we're actually leaving the small screen where I actually would want it to be laid out
+
+11:04.960 --> 11:05.880
+in a row.
+
+11:05.960 --> 11:11.280
+So what we're going to do over here is we're going to have a responsive mini screen.
+
+11:11.320 --> 11:18.430
+And so we're going to go here and we're going to write that this is going to be media at media and then
+
+11:18.430 --> 11:21.390
+we're going to say screen and then we're going to.
+
+11:21.430 --> 11:22.040
+Right.
+
+11:22.120 --> 11:27.600
+And the minimum with actually is going to be a five hundred seventy six pixels.
+
+11:27.720 --> 11:30.970
+And I just stole this one from a trap right.
+
+11:30.980 --> 11:32.050
+Because that's what they have.
+
+11:32.050 --> 11:38.420
+So for the smaller screen right now they have five so many sects so I just took that one as an example
+
+11:38.420 --> 11:39.520
+I'm going to go off.
+
+11:39.570 --> 11:39.990
+Right.
+
+11:40.210 --> 11:44.220
+So only when we're leaving the small screen what should happen right.
+
+11:44.350 --> 11:45.950
+First we're going to target a.
+
+11:46.000 --> 11:46.820
+Now have you.
+
+11:46.840 --> 11:47.810
+All right.
+
+11:47.890 --> 11:53.800
+We're all going to say that this is going to be this play and we're going to say this play for x y once
+
+11:53.800 --> 11:56.980
+we have the flex then we would want a flex.
+
+11:57.760 --> 12:04.270
+Because what's going to happen is as we're actually making this screen smaller the actual links are
+
+12:04.270 --> 12:05.700
+going to be bumping into each other.
+
+12:05.700 --> 12:06.160
+Right.
+
+12:06.240 --> 12:10.000
+There are going to be shrinking and we don't want that we're just going to say this is going to be flex
+
+12:10.420 --> 12:15.100
+or here we're going to say wrap it and we're going to say this is going to be rapid.
+
+12:15.240 --> 12:20.440
+So they're not really going to be stacking underneath each other once the screen gets more than we're
+
+12:20.440 --> 12:24.180
+going to have a whole line items and we're going to say baseline.
+
+12:24.340 --> 12:26.680
+And the reason for that is for the bigger screen.
+
+12:26.760 --> 12:27.340
+Right.
+
+12:27.370 --> 12:34.360
+What's going to happen is that over here can see that I didn't say this means VSS I mean but if I say
+
+12:34.370 --> 12:39.630
+this right for the bigger screen what's happening is that this font size is going to be different than
+
+12:39.630 --> 12:39.930
+this.
+
+12:39.940 --> 12:40.500
+Right.
+
+12:40.540 --> 12:45.510
+So you don't want to actually center these ones or something like you can just go online baseline.
+
+12:45.650 --> 12:49.710
+They're all going to be the same because they're all going to be actually looking at the value where
+
+12:49.720 --> 12:51.200
+the text is right now.
+
+12:51.250 --> 12:56.170
+How big are the boxes and when we're talking about wrapping you can see right at the moment it's actually
+
+12:56.170 --> 12:57.820
+going to hit this edge.
+
+12:57.880 --> 13:01.380
+It's actually going to wrapped in the next line instead of actually shrinking.
+
+13:01.410 --> 13:06.430
+Right so it's going to look much more nicer once we have the baseline done then we're going to say that
+
+13:06.430 --> 13:12.880
+we would want a justified count in between right over here can say this is going to be space between
+
+13:13.180 --> 13:17.520
+here and then what we would want is actually styled the actual links right.
+
+13:17.570 --> 13:19.850
+And we're going to say this going to me now.
+
+13:19.990 --> 13:20.400
+Hello.
+
+13:20.410 --> 13:21.130
+Hi.
+
+13:21.130 --> 13:27.300
+And we're going to use a flex property and we're going to say can to be flex and this should grow always
+
+13:27.310 --> 13:29.470
+that's why we're going to set it to one more here.
+
+13:29.470 --> 13:32.450
+We're going to say this is never going to shrink so it's going to be zero.
+
+13:32.680 --> 13:34.030
+And this is going to be hard.
+
+13:34.360 --> 13:38.970
+Remember one thing that when you're using this order right you're not specifically saying how big it
+
+13:38.970 --> 13:39.810
+is right.
+
+13:39.820 --> 13:45.710
+You're just pretty much saying whatever how big the link is that's how it always should stay.
+
+13:45.760 --> 13:50.190
+Now the way you control the link is over here with this padding right now.
+
+13:50.210 --> 13:50.630
+Right.
+
+13:50.800 --> 13:56.020
+Because if you're not specifically say so remember if you're going to settle here padding to let's say
+
+13:56.020 --> 13:57.100
+60.
+
+13:57.110 --> 13:57.660
+Right.
+
+13:57.760 --> 13:59.430
+And this is going to go here back.
+
+13:59.470 --> 14:00.010
+Right.
+
+14:00.010 --> 14:04.030
+So obviously there are going to be shrinking way faster right now I can see that there's three of them
+
+14:04.030 --> 14:04.460
+right.
+
+14:04.600 --> 14:06.830
+Because the actual padding is much more bigger.
+
+14:06.850 --> 14:07.480
+Right.
+
+14:07.510 --> 14:10.500
+So I'm going to go back and I'm going to sell it to 25.
+
+14:10.510 --> 14:11.940
+I said I had before.
+
+14:12.040 --> 14:12.400
+Right.
+
+14:12.520 --> 14:17.410
+But remember that with the padding is that's where you were actually controlling the width of the actual
+
+14:17.410 --> 14:20.740
+link and then you're going to have a full logo.
+
+14:20.740 --> 14:21.170
+Right.
+
+14:21.310 --> 14:27.430
+I don't want this phantasm to be on a bigger screen so I'm going to say logo here and I'm going to say
+
+14:27.580 --> 14:29.500
+this is going to be display block.
+
+14:29.650 --> 14:30.020
+Right.
+
+14:30.160 --> 14:33.700
+So first of all just set the whole thing as display block.
+
+14:33.960 --> 14:40.120
+We're going to have a text align center next to line center and the last thing is going to be actual
+
+14:40.120 --> 14:40.450
+font.
+
+14:40.450 --> 14:41.150
+Awesome.
+
+14:41.500 --> 14:44.960
+So we're going to sell go and we're going to say for phantasm.
+
+14:45.070 --> 14:45.700
+Right.
+
+14:45.910 --> 14:48.870
+Not a log log but actual long ago.
+
+14:48.890 --> 14:53.860
+And here we're going to say they would want a display and we're going to say none.
+
+14:54.340 --> 15:01.390
+So for the bigger screen with one we wouldn't want it to show so now we say this actually we can refresh.
+
+15:01.450 --> 15:04.300
+And this should look exactly the same like we had before.
+
+15:04.300 --> 15:04.960
+Right.
+
+15:04.980 --> 15:07.170
+So you can see that we have one agency right.
+
+15:07.240 --> 15:11.000
+We have the hovering effect and as we're hovering over the links right.
+
+15:11.020 --> 15:12.690
+But then they're not shrinking.
+
+15:12.700 --> 15:13.040
+Right.
+
+15:13.090 --> 15:18.700
+So as you can see it is screening at smaller smaller and the moment actually the link is supposed to
+
+15:18.700 --> 15:19.920
+start to shrink.
+
+15:19.920 --> 15:23.500
+You can see this is going to fall to the next line with the flex wrap probably.
+
+15:23.500 --> 15:24.240
+Right.
+
+15:24.250 --> 15:28.990
+And this is going to be it for this number and next section are going to be creating a banner.

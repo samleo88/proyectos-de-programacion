@@ -1,0 +1,394 @@
+1
+
+00:00:00,000  -->  00:00:02,070
+Alright, so, we're going to do things a
+
+2
+
+00:00:02,070  -->  00:00:04,650
+little bit differently here, and what I
+
+3
+
+00:00:04,650  -->  00:00:06,720
+mean by that is before we
+
+4
+
+00:00:06,720  -->  00:00:10,170
+were just calling plt.plot, and
+
+5
+
+00:00:10,170  -->  00:00:13,259
+then we were showing it, but in this
+
+6
+
+00:00:13,259  -->  00:00:14,460
+video we're going to do things a little
+
+7
+
+00:00:14,460  -->  00:00:15,719
+bit differently and that's so that we
+
+8
+
+00:00:15,719  -->  00:00:18,600
+have more control, and we have access to
+
+9
+
+00:00:18,600  -->  00:00:22,230
+more configurations. So what we're
+
+10
+
+00:00:22,230  -->  00:00:23,580
+going to do is we're going to put this
+
+11
+
+00:00:23,580  -->  00:00:27,840
+into a variable, we're going to
+
+12
+
+00:00:27,840  -->  00:00:30,570
+call lines, and then we're going to stuff
+
+13
+
+00:00:30,570  -->  00:00:34,200
+our x and y-axis into here. So it's
+
+14
+
+00:00:34,200  -->  00:00:37,500
+going to be years for the x-axis, and
+
+15
+
+00:00:37,500  -->  00:00:42,180
+then pops, and then years again, and then deaths.
+
+16
+
+00:00:42,180  -->  00:00:48,960
+Now if I say plt.show I don't think
+
+17
+
+00:00:48,960  -->  00:00:52,050
+anything is going to happen, ok, actually
+
+18
+
+00:00:52,050  -->  00:00:54,690
+it does show it. Ok, cool, so just by capturing
+
+19
+
+00:00:54,690  -->  00:00:56,940
+this it's going to show it, but what we
+
+20
+
+00:00:56,940  -->  00:01:03,629
+need to do is we need to, well what we
+
+21
+
+00:01:03,629  -->  00:01:05,100
+can do is we can use a different method
+
+22
+
+00:01:05,100  -->  00:01:09,600
+here and it's called setp. Where's that?
+
+23
+
+00:01:09,600  -->  00:01:13,560
+Here it is. So with this we can actually
+
+24
+
+00:01:13,560  -->  00:01:17,490
+use all of these arguments that we can
+
+25
+
+00:01:17,490  -->  00:01:19,799
+pass in to really customize how it looks.
+
+26
+
+00:01:19,799  -->  00:01:22,890
+So, what I'm going to do is just
+
+27
+
+00:01:22,890  -->  00:01:27,330
+something quick before I show you guys.
+
+28
+
+00:01:27,330  -->  00:01:31,110
+You can set lines equal to, or lines.
+
+29
+
+00:01:31,110  -->  00:01:34,740
+grid(True), and this is going to put a grid
+
+30
+
+00:01:34,740  -->  00:01:38,250
+on the background of your graph. It's
+
+31
+
+00:01:38,250  -->  00:01:41,060
+actually not going to happen...
+
+32
+
+00:01:42,909  -->  00:01:48,369
+and as you can see there's now a grid
+
+33
+
+00:01:48,369  -->  00:01:49,840
+background so it makes it easier to
+
+34
+
+00:01:49,840  -->  00:01:53,109
+find the coordinates of each line. Now
+
+35
+
+00:01:53,109  -->  00:01:55,090
+another thing is that you can actually
+
+36
+
+00:01:55,090  -->  00:02:00,490
+put different markers at each point, and
+
+37
+
+00:02:00,490  -->  00:02:01,689
+we're going to talk about how to get
+
+38
+
+00:02:01,689  -->  00:02:03,880
+the data from each marker as we go along
+
+39
+
+00:02:03,880  -->  00:02:05,289
+as well, but for right now what we're
+
+40
+
+00:02:05,289  -->  00:02:08,049
+going to do is we're going to use plt.
+
+41
+
+00:02:08,049  -->  00:02:11,290
+setp, and in here the first argument is
+
+42
+
+00:02:11,290  -->  00:02:13,120
+going to be our lines, and then after
+
+43
+
+00:02:13,120  -->  00:02:14,200
+here are going to be any of these
+
+44
+
+00:02:14,200  -->  00:02:16,060
+arguments that you see on the left hand side.
+
+45
+
+00:02:16,060  -->  00:02:19,450
+So, for for example, we're going to say
+
+46
+
+00:02:19,450  -->  00:02:24,459
+color, and we're going to say 1,
+
+47
+
+00:02:24,459  -->  00:02:28,720
+.4, .4, and this is going to
+
+48
+
+00:02:28,720  -->  00:02:31,599
+make both lines red. I believe we can
+
+49
+
+00:02:31,599  -->  00:02:35,260
+also pass a list in here where we define
+
+50
+
+00:02:35,260  -->  00:02:37,599
+two different colors, and it will use
+
+51
+
+00:02:37,599  -->  00:02:40,959
+them incrementally how we're telling
+
+52
+
+00:02:40,959  -->  00:02:43,299
+them to. So .4, .4, and 1,
+
+53
+
+00:02:43,299  -->  00:02:50,579
+and no, that's not the case.
+
+54
+
+00:02:57,040  -->  00:03:00,310
+Color only works with one color which is
+
+55
+
+00:03:00,310  -->  00:03:05,019
+strange, maybe I'm missing something.l
+
+56
+
+00:03:05,019  -->  00:03:08,170
+Alright, but what you can do is add markers,
+
+57
+
+00:03:08,170  -->  00:03:12,579
+and this is going to take a string,
+
+58
+
+00:03:12,579  -->  00:03:15,189
+and it means a difference, so you can use
+
+59
+
+00:03:15,189  -->  00:03:17,739
+different symbols in here, and each
+
+60
+
+00:03:17,739  -->  00:03:21,159
+symbol is going to be used as the marker
+
+61
+
+00:03:21,159  -->  00:03:26,109
+at each point where data is contained.
+
+62
+
+00:03:26,109  -->  00:03:29,620
+Now aside from what they show you here, I
+
+63
+
+00:03:29,620  -->  00:03:31,420
+mean you can use the period and it puts
+
+64
+
+00:03:31,420  -->  00:03:35,650
+a little dot there, so these are the
+
+65
+
+00:03:35,650  -->  00:03:37,359
+markers that it shows you, but I have also
+
+66
+
+00:03:37,359  -->  00:03:47,379
+found that it can do large circles like
+
+67
+
+00:03:47,379  -->  00:03:52,629
+dots, I guess, just by using the letter o,
+
+68
+
+00:03:52,629  -->  00:03:55,030
+small letter o, and then run the app and
+
+69
+
+00:03:55,030  -->  00:03:56,829
+you'll see that now those points are
+
+70
+
+00:03:56,829  -->  00:04:01,780
+larger and easier to see. So, you can also
+
+71
+
+00:04:01,780  -->  00:04:05,319
+put, I mean you can configure the
+
+72
+
+00:04:05,319  -->  00:04:10,120
+marker size, the market color, marker
+
+73
+
+00:04:10,120  -->  00:04:12,519
+width, etc. You can do a lot of things
+
+74
+
+00:04:12,519  -->  00:04:14,260
+with this. You can configure the line
+
+75
+
+00:04:14,260  -->  00:04:17,079
+style, and I recommend really exploring
+
+76
+
+00:04:17,079  -->  00:04:19,720
+these different arguments that you can
+
+77
+
+00:04:19,720  -->  00:04:23,470
+pass in to the set p method because
+
+78
+
+00:04:23,470  -->  00:04:24,520
+that's going to make things a lot easier
+
+79
+
+00:04:24,520  -->  00:04:28,289
+as we go along as well.

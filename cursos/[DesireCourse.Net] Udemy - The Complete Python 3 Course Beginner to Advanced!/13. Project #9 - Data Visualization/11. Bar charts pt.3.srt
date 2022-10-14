@@ -1,0 +1,764 @@
+1
+
+00:00:00,000  -->  00:00:02,159
+Alright guys, so, now we're going to talk
+
+2
+
+00:00:02,159  -->  00:00:04,620
+about making this even easier to read,
+
+3
+
+00:00:04,620  -->  00:00:07,710
+and that's by adding specific numbers
+
+4
+
+00:00:07,710  -->  00:00:10,349
+for each chart, and I'm going to show you
+
+5
+
+00:00:10,349  -->  00:00:12,150
+how we're going to do that. So, basically,
+
+6
+
+00:00:12,150  -->  00:00:15,599
+these items that we create here, these
+
+7
+
+00:00:15,599  -->  00:00:19,560
+objects, so for instance k1, has a lot of
+
+8
+
+00:00:19,560  -->  00:00:21,960
+different methods that we can call on it.
+
+9
+
+00:00:21,960  -->  00:00:25,859
+So, what I mean by that is this is just a
+
+10
+
+00:00:25,859  -->  00:00:28,859
+collection of items, okay. So what I'm
+
+11
+
+00:00:28,859  -->  00:00:31,710
+going to do is I'm going to drop down to
+
+12
+
+00:00:31,710  -->  00:00:34,079
+the bottom here, and just for an example
+
+13
+
+00:00:34,079  -->  00:00:39,600
+I'm going to say for item in k1: print
+
+14
+
+00:00:39,600  -->  00:00:45,780
+item.get_height. Then I'm going to save,
+
+15
+
+00:00:45,780  -->  00:00:49,440
+I'm going to re-run the application, and
+
+16
+
+00:00:49,440  -->  00:00:50,579
+down here it's going to give you
+
+17
+
+00:00:50,579  -->  00:00:55,230
+exact numbers for each of the
+
+18
+
+00:00:55,230  -->  00:01:03,180
+bars height. You can also get width, so
+
+19
+
+00:01:03,180  -->  00:01:06,540
+let's rerun this, and it gives us the
+
+20
+
+00:01:06,540  -->  00:01:09,180
+bars width and then you can also get X,
+
+21
+
+00:01:09,180  -->  00:01:13,439
+and you can get Y as well I'm sure, but
+
+22
+
+00:01:13,439  -->  00:01:14,549
+we're not really interested in that
+
+23
+
+00:01:14,549  -->  00:01:17,640
+right now. So as you can see this is
+
+24
+
+00:01:17,640  -->  00:01:20,369
+placed at minus -0.05 which would be like
+
+25
+
+00:01:20,369  -->  00:01:25,080
+right here, .95, and 1.95. So we can
+
+26
+
+00:01:25,080  -->  00:01:27,630
+actually use this data to pinpoint where
+
+27
+
+00:01:27,630  -->  00:01:30,360
+certain numbers would show and then show
+
+28
+
+00:01:30,360  -->  00:01:33,000
+those numbers there. So, we're going to be
+
+29
+
+00:01:33,000  -->  00:01:36,630
+doing that in this video. What I'm going
+
+30
+
+00:01:36,630  -->  00:01:38,430
+to do here is I'm going to create a
+
+31
+
+00:01:38,430  -->  00:01:43,020
+method called create labels, and it's
+
+32
+
+00:01:43,020  -->  00:01:53,070
+going to take data, and I've been writing in
+
+33
+
+00:01:53,070  -->  00:01:54,990
+C++ and you can tell because I opened up
+
+34
+
+00:01:54,990  -->  00:01:59,009
+curly braces. Alright, so what we
+
+35
+
+00:01:59,009  -->  00:02:01,110
+need to do is we need to do the same
+
+36
+
+00:02:01,110  -->  00:02:05,159
+thing for item in data, so this is
+
+37
+
+00:02:05,159  -->  00:02:08,039
+essentially the same as for item in k1,
+
+38
+
+00:02:08,039  -->  00:02:11,849
+or c1, or ch1, and for instance there's
+
+39
+
+00:02:11,849  -->  00:02:13,380
+three items in it
+
+40
+
+00:02:13,380  -->  00:02:16,020
+and the three items are this, this, and
+
+41
+
+00:02:16,020  -->  00:02:19,980
+this. Simple. So what we're going to be
+
+42
+
+00:02:19,980  -->  00:02:21,840
+doing, and each of those items has a
+
+43
+
+00:02:21,840  -->  00:02:24,540
+property like X, Y, height, width stuff like that,
+
+44
+
+00:02:24,540  -->  00:02:27,570
+so let's go ahead and we're going to set
+
+45
+
+00:02:27,570  -->  00:02:29,940
+the height variable and this is going to
+
+46
+
+00:02:29,940  -->  00:02:37,980
+be equal to item.get_height, and then we're
+
+47
+
+00:02:37,980  -->  00:02:43,560
+going to say plt.txt and we can
+
+48
+
+00:02:43,560  -->  00:02:46,320
+actually add text to the chart, and so
+
+49
+
+00:02:46,320  -->  00:02:47,130
+that's what we're going to be doing.
+
+50
+
+00:02:47,130  -->  00:02:50,220
+We're going to be defining the position
+
+51
+
+00:02:50,220  -->  00:02:54,900
+first and then the actual value, so the
+
+52
+
+00:02:54,900  -->  00:02:58,590
+exposition is going to be a bit of math
+
+53
+
+00:02:58,590  -->  00:03:05,700
+here, item.get_width, et's start with the
+
+54
+
+00:03:05,700  -->  00:03:15,300
+exposition, plus item.get_width / 2.
+
+55
+
+00:03:15,300  -->  00:03:19,980
+It's important to make that a float. The height
+
+56
+
+00:03:19,980  -->  00:03:27,420
+is going to be height x 1.05, and it's
+
+57
+
+00:03:27,420  -->  00:03:29,280
+going to put it a bit above the height
+
+58
+
+00:03:29,280  -->  00:03:32,280
+of the chart. Now we're going to be
+
+59
+
+00:03:32,280  -->  00:03:37,320
+getting into the actual printing the
+
+60
+
+00:03:37,320  -->  00:03:39,930
+actual numbers there, and how we're going
+
+61
+
+00:03:39,930  -->  00:03:42,330
+to do that is, and I'm going to show you guys
+
+62
+
+00:03:42,330  -->  00:03:44,730
+something neat here, and let's actually
+
+63
+
+00:03:44,730  -->  00:03:46,800
+do that before we get into this. So I'm
+
+64
+
+00:03:46,800  -->  00:03:53,760
+going to comment this out. I'm going to
+
+65
+
+00:03:53,760  -->  00:03:55,080
+show you guys something let's say we
+
+66
+
+00:03:55,080  -->  00:03:59,459
+have an integer here, and it's equal to 365 the
+
+67
+
+00:03:59,459  -->  00:04:02,280
+number of days in the year, and we wanted to
+
+68
+
+00:04:02,280  -->  00:04:13,650
+print that out. There are 365 days in a
+
+69
+
+00:04:13,650  -->  00:04:16,010
+year,
+
+70
+
+00:04:16,930  -->  00:04:19,539
+and then we ran this that definitely
+
+71
+
+00:04:19,539  -->  00:04:23,440
+would work, but it can get messy looking
+
+72
+
+00:04:23,440  -->  00:04:25,060
+especially with all this extra white
+
+73
+
+00:04:25,060  -->  00:04:27,190
+space, the plus signs, just converting it to
+
+74
+
+00:04:27,190  -->  00:04:29,380
+a string, etc. So what we do actually,
+
+75
+
+00:04:29,380  -->  00:04:32,680
+we're going to erase all this, we're able
+
+76
+
+00:04:32,680  -->  00:04:36,970
+to create placeholders in a string, and
+
+77
+
+00:04:36,970  -->  00:04:40,539
+then passing data afterwards at the end of a
+
+78
+
+00:04:40,539  -->  00:04:45,669
+string. So we're going to say data, and
+
+79
+
+00:04:45,669  -->  00:04:49,030
+then we're going to use a percent symbol
+
+80
+
+00:04:49,030  -->  00:04:51,099
+here, and then we're going to pass in
+
+81
+
+00:04:51,099  -->  00:04:53,500
+whatever variable we want, so integer
+
+82
+
+00:04:53,500  -->  00:04:58,210
+right there. And now if we rerun the app
+
+83
+
+00:04:58,210  -->  00:05:01,090
+you're going to see that it still says
+
+84
+
+00:05:01,090  -->  00:05:03,130
+the same thing but it looks nicer and that's
+
+85
+
+00:05:03,130  -->  00:05:06,039
+using percent symbols, and what we can do
+
+86
+
+00:05:06,039  -->  00:05:09,729
+is we can put another one there and then
+
+87
+
+00:05:09,729  -->  00:05:13,979
+say year.
+
+88
+
+00:05:19,380  -->  00:05:23,720
+No, we can't. Can we put that in the tuple?
+
+89
+
+00:05:28,340  -->  00:05:30,340
+...
+
+90
+
+00:05:36,409  -->  00:05:39,259
+Okay, sorry, that's how to put
+
+91
+
+00:05:39,259  -->  00:05:42,349
+numbers in to strings. There's a similar
+
+92
+
+00:05:42,349  -->  00:05:45,249
+way to do it for...
+
+93
+
+00:05:57,990  -->  00:06:00,120
+Alright, so, what I'm going to do is drop
+
+94
+
+00:06:00,120  -->  00:06:04,410
+down here and I'm going to print out,
+
+95
+
+00:06:04,410  -->  00:06:06,960
+well first we're going to set a variable
+
+96
+
+00:06:06,960  -->  00:06:09,060
+called integer, it's going to be equal to
+
+97
+
+00:06:09,060  -->  00:06:12,900
+365 let's say, and now we're going to
+
+98
+
+00:06:12,900  -->  00:06:20,340
+print "there are," you convert this to a
+
+99
+
+00:06:20,340  -->  00:06:29,970
+string, 365 days in a year, and if we save
+
+100
+
+00:06:29,970  -->  00:06:32,190
+this and run the application it
+
+101
+
+00:06:32,190  -->  00:06:33,720
+definitely will print out exactly what
+
+102
+
+00:06:33,720  -->  00:06:42,540
+we want. It should...oh, I added a 365 there.
+
+103
+
+00:06:42,540  -->  00:06:45,660
+There we go. But it can get looking messy
+
+104
+
+00:06:45,660  -->  00:06:47,580
+when you have multiple numbers that you
+
+105
+
+00:06:47,580  -->  00:06:49,620
+have to throw into a string especially
+
+106
+
+00:06:49,620  -->  00:06:51,090
+with all this white space, and the plus
+
+107
+
+00:06:51,090  -->  00:06:52,410
+symbols, and stuff. So what we're going to
+
+108
+
+00:06:52,410  -->  00:06:54,660
+do here instead is we're just going to put
+
+109
+
+00:06:54,660  -->  00:06:57,000
+a placeholder there, and then we use the
+
+110
+
+00:06:57,000  -->  00:06:59,700
+percent symbol, and then we define what
+
+111
+
+00:06:59,700  -->  00:07:04,470
+needs to go in that placeholder. So
+
+112
+
+00:07:04,470  -->  00:07:07,170
+then we can save it, and we can run it
+
+113
+
+00:07:07,170  -->  00:07:08,430
+again, and it's going to say the same
+
+114
+
+00:07:08,430  -->  00:07:10,710
+thing but this looks a bit nicer. So
+
+115
+
+00:07:10,710  -->  00:07:12,570
+we're going to be using that here in the
+
+116
+
+00:07:12,570  -->  00:07:19,620
+create labels method, and so the
+
+117
+
+00:07:19,620  -->  00:07:21,540
+parameter that it takes in third, so
+
+118
+
+00:07:21,540  -->  00:07:24,660
+first is the exposition, second is the y
+
+119
+
+00:07:24,660  -->  00:07:27,720
+position, the third parameter it takes is
+
+120
+
+00:07:27,720  -->  00:07:30,300
+the actual label that we want to give it,
+
+121
+
+00:07:30,300  -->  00:07:36,630
+so we're going to say integer or int
+
+122
+
+00:07:36,630  -->  00:07:41,880
+sorry, and then height because the height
+
+123
+
+00:07:41,880  -->  00:07:43,740
+is equal to you know what point this is
+
+124
+
+00:07:43,740  -->  00:07:46,530
+at. So this should be 507, and this would be 609 I
+
+125
+
+00:07:46,530  -->  00:07:49,020
+think. So that's the number that the
+
+126
+
+00:07:49,020  -->  00:07:51,540
+actual value is, and then we're going to
+
+127
+
+00:07:51,540  -->  00:07:56,550
+say horizontal align center, and vertical
+
+128
+
+00:07:56,550  -->  00:08:05,160
+align bottom. So now I can run this
+
+129
+
+00:08:05,160  -->  00:08:07,740
+method on each one of our data points
+
+130
+
+00:08:07,740  -->  00:08:11,460
+here before we
+
+131
+
+00:08:11,460  -->  00:08:20,190
+show the grid, so CreateLabels(k1),
+
+132
+
+00:08:20,190  -->  00:08:27,569
+CreateLabels(c1), CreateLabels(ch1), and create
+
+133
+
+00:08:27,569  -->  00:08:30,389
+CreateLabels(f1). So now when I run the
+
+134
+
+00:08:30,389  -->  00:08:33,180
+application we should see that each of
+
+135
+
+00:08:33,180  -->  00:08:35,250
+the bars has the exact number
+
+136
+
+00:08:35,250  -->  00:08:39,779
+correlating to it's score, and you'll see
+
+137
+
+00:08:39,779  -->  00:08:41,070
+right here they are kind of close together.
+
+138
+
+00:08:41,070  -->  00:08:44,820
+We could specify you know wider bars in
+
+139
+
+00:08:44,820  -->  00:08:47,130
+order to do this, and we might actually.
+
+140
+
+00:08:47,130  -->  00:08:52,770
+So let's set bar equal to 2 here, then what
+
+141
+
+00:08:52,770  -->  00:08:58,529
+we need to do is to 2, 3, 4, or 2, 4, 6? I think where
+
+142
+
+00:08:58,529  -->  00:09:00,810
+it's point .1 we're going to have to do...
+
+143
+
+00:09:00,810  -->  00:09:10,980
+yeah 2. So .2, .4, .6,
+
+144
+
+00:09:10,980  -->  00:09:18,990
+and .8. That's not right, what am I doing? 2, 4,
+
+145
+
+00:09:18,990  -->  00:09:27,630
+and 6, there we go. And these numbers
+
+146
+
+00:09:27,630  -->  00:09:30,240
+now fit better in here. We can also
+
+147
+
+00:09:30,240  -->  00:09:32,910
+stretch it out make it wider or we could
+
+148
+
+00:09:32,910  -->  00:09:35,490
+give a default width as well. So that's
+
+149
+
+00:09:35,490  -->  00:09:37,560
+how to add specific numbers to each,
+
+150
+
+00:09:37,560  -->  00:09:39,630
+and we could actually put it inside the
+
+151
+
+00:09:39,630  -->  00:09:42,000
+bar as well if we wanted to, and we can do
+
+152
+
+00:09:42,000  -->  00:09:43,829
+all that sort of fancy stuff with it as
+
+153
+
+00:09:43,829  -->  00:09:45,980
+well.

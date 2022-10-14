@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.590 --> 00:04.770
+Input elements are not the only thing that we can display within the form.
+
+00:04.820 --> 00:07.280
+So let's look at the other popular ones.
+
+00:07.400 --> 00:12.500
+Now with your permission I'm just gonna continue working with the same file again if you'd like to access
+
+00:12.500 --> 00:14.640
+the resources of the previous video.
+
+00:14.750 --> 00:21.470
+You can just download resources for the previous video but after the email input we're just gonna look
+
+00:21.470 --> 00:24.280
+at the few other more popular ones.
+
+00:24.410 --> 00:30.170
+Now the first one is gonna be text area where we can have some longer description and you can already
+
+00:30.170 --> 00:35.780
+see that right away as we start typing with them and this gives us few attributes that we haven't seen
+
+00:35.780 --> 00:36.540
+before.
+
+00:36.650 --> 00:40.690
+Now first one would be columns and the second one is gonna be there.
+
+00:41.330 --> 00:44.570
+So let's say we would like to have some kind of description.
+
+00:44.570 --> 00:45.650
+Check this out.
+
+00:45.680 --> 00:51.190
+So again this is not gonna be styled very nicely right now because we have everything all over the place.
+
+00:51.410 --> 00:56.120
+But let's say that if you would like to have some kind of line break in between them.
+
+00:56.120 --> 01:02.120
+Again just for styling for now we all gonna have our description let's say here and maybe we can just
+
+01:02.120 --> 01:09.310
+add the paragraph of the description and we can accurately write our description within our text editor
+
+01:10.150 --> 01:15.900
+and columns would mean how many columns of I'm going to say 40 I'm going to have 40 columns if I'm going
+
+01:15.900 --> 01:20.760
+to say 20 I'm going to have 20 columns and the same thing would go for.
+
+01:20.900 --> 01:25.220
+Now also we have the radio buttons and for the radio buttons.
+
+01:25.220 --> 01:30.890
+What's unique is that you can have only one value meaning you can submit one value.
+
+01:30.920 --> 01:36.920
+That's the whole point of the radio but now you don't have to specifically do it that way but that would
+
+01:36.920 --> 01:39.910
+make sense since are obviously we're designed for that.
+
+01:40.270 --> 01:44.260
+And again let me add another line break just so it's gonna be displayed there.
+
+01:44.420 --> 01:58.230
+And let's say that we're gonna have a paragraph which ask Louise please like select your favorite coding
+
+01:58.950 --> 02:02.790
+language so hopefully this is written correctly.
+
+02:02.790 --> 02:08.650
+Once we have our paragraph read and for us what is your most favorite coding language.
+
+02:08.690 --> 02:13.590
+Also maybe add a question mark gonna make a little bit more sense and then we are going to be working
+
+02:13.590 --> 02:19.890
+with the input type of radio so we can use the semicolon or we can just create a basic one and change
+
+02:19.890 --> 02:19.980
+it.
+
+02:20.530 --> 02:25.710
+So I'm gonna use the right away I'm at and here I'm gonna have the name and I.D. Now I'm not going to
+
+02:25.710 --> 02:31.090
+need any of them for now meaning I will gonna use later on name but for now I'm not going to use it.
+
+02:31.130 --> 02:33.570
+Let's just write that this is gonna be javascript.
+
+02:33.830 --> 02:38.760
+So once I'm gonna save it notice I'm gonna have my radio button and there's gonna be some kind of value.
+
+02:39.390 --> 02:46.740
+Now the thing is with the radio buttons the names should match because the whole idea behind radio button
+
+02:46.740 --> 02:52.410
+is the fact is that you would just choose one of them later on you will gonna have select boxes where
+
+02:52.410 --> 02:59.420
+we can pick multiple but if you would like to use the radio button the name of the input should match.
+
+02:59.470 --> 03:03.310
+Now how this is going to look first of all let me copy and paste this.
+
+03:03.330 --> 03:08.340
+So let's say there's gonna be three of them and let's write the second one is gonna be Java language
+
+03:08.790 --> 03:14.780
+and the third one we're gonna have as Python python.
+
+03:14.940 --> 03:21.000
+Now the moment I'm gonna save this I'm gonna have an option of choosing one over here because again
+
+03:21.000 --> 03:24.490
+the idea was would be that if I am selecting something.
+
+03:24.840 --> 03:30.720
+Now you also would want as you're submitting it as some kind of value because you not only would want
+
+03:30.720 --> 03:34.300
+to click on the radio button you would like to collect the value.
+
+03:34.670 --> 03:38.150
+So in our case we're gonna hard code that this is gonna be javascript.
+
+03:38.190 --> 03:44.630
+Now as the value has to match to whatever you would like to submit if you would like to submit some
+
+03:44.630 --> 03:48.130
+kind of John Doe obviously you would need to write it in the value John Doe.
+
+03:48.560 --> 03:52.620
+So in our case for Java we're gonna write all your Java.
+
+03:52.730 --> 03:55.920
+This is gonna be my value as well as for the python.
+
+03:56.020 --> 03:59.900
+I'm going to copy and paste it and here we're gonna write Python.
+
+03:59.960 --> 04:02.840
+I hope you understand the whole purpose of this.
+
+04:02.950 --> 04:09.170
+Since you would want to submit this kind of data whether this is gonna be a javascript language or Java
+
+04:09.170 --> 04:14.510
+language and radio button is gonna allow you to choose which one you're submitting.
+
+04:14.510 --> 04:20.720
+However the value is gonna be the one that's passed on whenever we're adding this information to the
+
+04:20.720 --> 04:21.520
+data.
+
+04:21.550 --> 04:24.300
+This is just showing what the user is picking.
+
+04:24.350 --> 04:29.840
+So again in our case we're not using the actual value for now but is obviously important to use it later
+
+04:29.840 --> 04:32.530
+on as you actually submitting the data.
+
+04:32.570 --> 04:38.450
+Now if you mess up here with this name remember the name attribute all of them need to match.
+
+04:38.450 --> 04:42.530
+Because if I'm gonna do like this if I'm going to say that let's say the second one is gonna be not
+
+04:42.530 --> 04:46.280
+coding it's gonna be called in and if we're gonna save it.
+
+04:46.340 --> 04:52.010
+Now the trick here is that I can pick javascript and I can pick Java and this is not something we would
+
+04:52.010 --> 04:57.380
+want with radio button because the whole idea is to use checkboxes for that.
+
+04:57.770 --> 04:58.280
+Okay.
+
+04:58.280 --> 04:59.950
+So your next question probably is.
+
+04:59.980 --> 05:03.710
+Well what is checkbox is then how do we start using it.
+
+05:03.860 --> 05:09.380
+Well again we're gonna do the same old deal where we have first of all probably some kind of Lindberg
+
+05:10.450 --> 05:11.140
+in between.
+
+05:11.150 --> 05:17.060
+So we can see a little bit better and let's say again before we submit and right after the radio button
+
+05:17.700 --> 05:21.740
+that's and the airline break and we'll gonna have to again have the input.
+
+05:21.860 --> 05:24.560
+Now in this case this is gonna be checkbox.
+
+05:24.560 --> 05:27.890
+So again we're not looking for radio or this is gonna be the checkbox.
+
+05:27.890 --> 05:33.410
+And you know what right away also let's add the paragraph and let's write out the same old deal that
+
+05:33.410 --> 05:34.750
+we had before.
+
+05:34.760 --> 05:40.700
+So with your permission I'm just gonna copy paste this just so we save a little bit of time as well
+
+05:40.700 --> 05:47.180
+as you notice we have the type of checkbox and now again we have the same old deal where we have the
+
+05:47.180 --> 05:48.970
+name as well as the value.
+
+05:49.820 --> 05:53.250
+So what do you think what a value what we would like to write.
+
+05:53.300 --> 05:54.850
+I think we can do the same thing right.
+
+05:54.860 --> 05:59.600
+So we have the value first of all is gonna be javascript that's gonna be the first thing that's gonna
+
+05:59.600 --> 06:04.180
+be passed on as well as we would need to write the actual javascript here.
+
+06:04.250 --> 06:05.210
+So I'm going to say you know what.
+
+06:05.240 --> 06:05.520
+Okay.
+
+06:05.540 --> 06:07.280
+So this is gonna be javascript.
+
+06:07.310 --> 06:13.360
+Now the difference with actual checkboxes here is that we can pick multiple.
+
+06:13.760 --> 06:17.380
+So let's say we're gonna change first of all the name to programming.
+
+06:17.510 --> 06:23.880
+Again this is gonna be our name programming and let me make sure that I read this correctly.
+
+06:24.000 --> 06:25.440
+And now it's copy and paste this.
+
+06:26.060 --> 06:28.380
+Let's say one two three.
+
+06:28.400 --> 06:29.400
+And you know what I did.
+
+06:29.430 --> 06:30.180
+One too many.
+
+06:30.780 --> 06:37.410
+So let's first of all change whatever value we have because I was so we don't want to JavaScript or
+
+06:37.410 --> 06:42.240
+3 JavaScript in our case we would want only to meeting.
+
+06:42.300 --> 06:43.980
+Sorry we would want only one.
+
+06:44.250 --> 06:47.210
+And let's change the second one to Java.
+
+06:47.740 --> 06:49.910
+Is also gonna be value of Java.
+
+06:50.460 --> 06:52.590
+Value of Python.
+
+06:52.590 --> 06:57.540
+And again I know I'm repeating this but the values we're gonna use only when we're submitting data.
+
+06:57.690 --> 07:04.580
+Now you could write whatever you would like order and let's write Python on right over here and what
+
+07:04.600 --> 07:10.470
+we have here is the checkbox is all with checkbox checkboxes we can click multiple so we can choose
+
+07:10.470 --> 07:14.530
+let's say that our favorite languages are gonna be all three of them.
+
+07:14.550 --> 07:20.350
+So that would be the biggest difference between checkboxes and the radio buttons.
+
+07:20.380 --> 07:25.960
+The simple fact that with trademarks is we can click multiple look and choose multiple but we have the
+
+07:25.960 --> 07:26.650
+radio buttons.
+
+07:26.650 --> 07:29.100
+The whole idea is that you're just choosing one.
+
+07:29.830 --> 07:30.210
+OK.
+
+07:30.220 --> 07:36.490
+So we also have an option of select so select would be something like a drop down menu or something
+
+07:36.490 --> 07:36.880
+like that.
+
+07:37.360 --> 07:43.600
+So again same old deal right after the python let's create maybe in this case again a paragraph and
+
+07:43.600 --> 07:45.760
+the paragraph is gonna same old deal.
+
+07:45.760 --> 07:51.610
+We're gonna ask the same old question because again I don't see the point of being really creative during
+
+07:51.610 --> 07:57.820
+the editorial right now because the most important thing is to understand the general concept and for
+
+07:57.820 --> 07:58.900
+the select box.
+
+07:59.110 --> 08:04.240
+This would be different where again we create an element and the element is gonna be select.
+
+08:04.240 --> 08:08.580
+And here we need to write let's say what kind of name it would be.
+
+08:08.590 --> 08:15.920
+Now we're going to write again languages which is how we can just leave the idea for now empty.
+
+08:15.940 --> 08:16.360
+You know what.
+
+08:16.360 --> 08:17.060
+You know what.
+
+08:17.080 --> 08:22.390
+One last thing that I wanted to show you with checkboxes we also have an option of check.
+
+08:22.900 --> 08:30.060
+So if we have checked already the checkbox let's say by default we can add an attribute.
+
+08:30.070 --> 08:36.550
+So for this I'm gonna add our back to let's say my first one and we have the attribute of checked and
+
+08:36.550 --> 08:39.560
+we can just leave it like this or we can set it equal to check.
+
+08:39.810 --> 08:41.730
+It's gonna work exactly the same way.
+
+08:41.800 --> 08:42.290
+So I notice.
+
+08:42.310 --> 08:47.640
+Now once they have the check for JavaScript the javascript is gonna be automatically checked.
+
+08:47.680 --> 08:52.660
+Now I can still on track it but by default is gonna be checked since we added this attribute and we
+
+08:52.660 --> 08:58.030
+can add this attribute to all of them if you want and sometimes you're gonna see the long way written
+
+08:58.150 --> 09:05.380
+not the HD email where we're gonna be looking for check is going to be to check again this would mean
+
+09:05.380 --> 09:09.130
+exactly the same thing as just having a check like this.
+
+09:09.790 --> 09:18.490
+So let's get rid of this and now let's finish off we can select now within the select we have options.
+
+09:18.490 --> 09:24.400
+Those would be something similar like you have with all the Nord list Remora you had the list items.
+
+09:24.490 --> 09:31.000
+So the same deal would work with select where within the select there is an option element now within
+
+09:31.000 --> 09:31.840
+the option element.
+
+09:31.840 --> 09:34.030
+Again we're working with the values.
+
+09:34.030 --> 09:36.790
+So we're saying okay what is the value here.
+
+09:36.880 --> 09:42.850
+Again we're gonna start with a javascript javascript which again will be submitted.
+
+09:42.870 --> 09:48.070
+I know I've said this many times but I just think that it's important to kind of get this point across
+
+09:48.070 --> 09:50.540
+where the value is gonna be shown.
+
+09:50.890 --> 09:55.900
+So the text is gonna be shown within the amount but the value is gonna be something that's going to
+
+09:55.900 --> 09:57.000
+be submitted.
+
+09:57.010 --> 09:59.740
+Now again we have few other options.
+
+09:59.740 --> 10:01.160
+So let me you know what.
+
+10:01.170 --> 10:06.210
+Maybe let me make this a little bit smaller on the right hand side.
+
+10:06.220 --> 10:12.370
+So then we can see better and if we copy and paste this multiple times and again we're gonna do the
+
+10:12.370 --> 10:21.900
+same deal where we have Java where we have also Python python and we also would like to change these
+
+10:21.900 --> 10:22.880
+values.
+
+10:23.190 --> 10:25.000
+So let's say Java.
+
+10:25.380 --> 10:29.950
+And last one but not least we have the python.
+
+10:30.450 --> 10:33.120
+So this would be a drop down menu now and you know what.
+
+10:33.120 --> 10:34.440
+Maybe not.
+
+10:34.530 --> 10:40.350
+And a little bit more might break and sure enough now this is there's gonna be a lot more space.
+
+10:40.350 --> 10:43.320
+So if we want to collect something let's say again we can choose Java.
+
+10:43.770 --> 10:44.820
+And this is gonna work.
+
+10:45.000 --> 10:46.610
+So let's say if we wanna test it all.
+
+10:46.620 --> 10:52.090
+But let me just write some mumbo jumbo gibberish here and add something to the email this is gonna work.
+
+10:52.090 --> 11:00.240
+This is gonna be inscription Jar Jar Jar our Java and something let's say from the select is gonna be
+
+11:00.240 --> 11:01.570
+select as a job.
+
+11:01.590 --> 11:08.520
+And again we can just submit now in the URL we're gonna see our key value pairs if we're going to copy
+
+11:08.520 --> 11:11.880
+paste it or whatever if we're gonna name this bigger notice.
+
+11:11.880 --> 11:15.800
+Now these are gonna be the value pairs key value pairs there are going to be some.
+
+11:16.140 --> 11:21.840
+Again in our case we don't care about them we only will gonna care about them has we start working with
+
+11:21.840 --> 11:28.460
+some back in language but this would be the general principles of working with the forms and the HMO.

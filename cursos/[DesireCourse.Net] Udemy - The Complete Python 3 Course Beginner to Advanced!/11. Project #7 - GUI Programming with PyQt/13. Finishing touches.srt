@@ -1,0 +1,149 @@
+1
+
+00:00:00,000  -->  00:00:02,639
+Alright guys, so to finish off this set
+
+2
+
+00:00:02,639  -->  00:00:03,810
+of videos what we're going to be doing is
+
+3
+
+00:00:03,810  -->  00:00:05,549
+we're going to be finishing up this delete
+
+4
+
+00:00:05,549  -->  00:00:08,700
+function here. So, in the last video what
+
+5
+
+00:00:08,700  -->  00:00:10,410
+i did was I have replaced one of the
+
+6
+
+00:00:10,410  -->  00:00:14,009
+buttons with one that says DEL, and then in the
+
+7
+
+00:00:14,009  -->  00:00:16,320
+handle input for that button we check if
+
+8
+
+00:00:16,320  -->  00:00:19,020
+it's equal to delete, then we're going to
+
+9
+
+00:00:19,020  -->  00:00:20,910
+get the current value, and then we're
+
+10
+
+00:00:20,910  -->  00:00:22,740
+going to, we're basically just going to
+
+11
+
+00:00:22,740  -->  00:00:25,560
+set the current value equal to the
+
+12
+
+00:00:25,560  -->  00:00:29,670
+current value minus the last
+
+13
+
+00:00:29,670  -->  00:00:33,600
+character. So, let's go ahead and type
+
+14
+
+00:00:33,600  -->  00:00:38,460
+self.results.setText equal to
+
+15
+
+00:00:38,460  -->  00:00:43,410
+current value, and then you open it up as
+
+16
+
+00:00:43,410  -->  00:00:51,690
+a list, put a colon, and 1, or minus 1, sorry. So I'm going to save
+
+17
+
+00:00:51,690  -->  00:00:56,879
+this, and run the app, I'm going to type 55, we're going to
+
+18
+
+00:00:56,879  -->  00:01:00,120
+delete, and as you can see it works. So 84
+
+19
+
+00:01:00,120  -->  00:01:05,580
+x 99, and we can delete each number,
+
+20
+
+00:01:05,580  -->  00:01:09,900
+and then perform operations on that, or
+
+21
+
+00:01:09,900  -->  00:01:12,060
+just reset it right there. So that is our
+
+22
+
+00:01:12,060  -->  00:01:15,299
+calculator guys, and this is as you can
+
+23
+
+00:01:15,299  -->  00:01:18,090
+see a lot of Python here. I'd like to see
+
+24
+
+00:01:18,090  -->  00:01:20,759
+your calculator, I will host this
+
+25
+
+00:01:20,759  -->  00:01:23,430
+code on github as well so you guys can go
+
+26
+
+00:01:23,430  -->  00:01:26,610
+ahead and look at my code. I will add
+
+27
+
+00:01:26,610  -->  00:01:28,560
+comments to it before I upload it as well.
+
+28
+
+00:01:28,560  -->  00:01:31,200
+So thanks for watching this, in the next
+
+29
+
+00:01:31,200  -->  00:01:32,700
+video I think we're going to start
+
+30
+
+00:01:32,700  -->  00:01:35,840
+creating a text editor.

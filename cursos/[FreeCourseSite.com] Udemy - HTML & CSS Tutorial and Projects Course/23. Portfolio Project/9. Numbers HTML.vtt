@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.120 --> 00:04.040
+The next section are going to be creating is going to be the numbers section.
+
+00:04.050 --> 00:08.240
+So we're really going to have a background the background image is going to be fixed.
+
+00:08.300 --> 00:14.410
+Then this is going to be the title here here again these are going to be fun Tarsem with some text.
+
+00:14.640 --> 00:17.090
+So let's go back to the index page.
+
+00:17.100 --> 00:24.140
+Now let's go to the bottom where is the end of services section and oh here again create a comment.
+
+00:24.210 --> 00:27.990
+So this will be an adverse section here.
+
+00:27.990 --> 00:33.530
+Copy paste this and on here like me they fix my typo here.
+
+00:33.540 --> 00:35.090
+This is going to be section.
+
+00:35.100 --> 00:42.900
+And once we have the actual numbers section comments non-sexually place or here this section element
+
+00:43.640 --> 00:49.060
+here maybe that's right and of numbers section here and now it's place the section.
+
+00:49.310 --> 00:58.590
+So here for the numbers let's start with a section with a class of numbers and let's say numbers numbers
+
+00:58.920 --> 01:00.150
+here press.
+
+01:00.300 --> 01:02.050
+And we have our numbers section.
+
+01:02.170 --> 01:05.990
+Now here is a section title the one that we created before.
+
+01:06.000 --> 01:10.290
+So what I'm going to say here I would want to find a section that will.
+
+01:10.430 --> 01:13.220
+Once I found the actual section title.
+
+01:13.250 --> 01:19.030
+I'm just going to go up over here and select along with the comments that I'm just going to copy and
+
+01:19.040 --> 01:19.880
+paste this.
+
+01:19.970 --> 01:25.640
+I'm going to go down where I finished actually working in the numbers section and just copy and paste.
+
+01:25.660 --> 01:28.590
+Now obviously all here what I would want to change is the value.
+
+01:28.800 --> 01:32.510
+So this is not going to be services this is going to be actually numbers.
+
+01:32.640 --> 01:39.480
+And once they scroll down in my page or here you can see that right now I have right away my title and
+
+01:39.480 --> 01:45.900
+this is how we're making use of the fact that we can create the title one time and then we don't need
+
+01:45.900 --> 01:46.920
+to actually repeat it.
+
+01:46.920 --> 01:50.030
+We can just change the value for that name.
+
+01:50.230 --> 01:56.120
+So once I have a title now we're going to have again the same thing as numbers center.
+
+01:56.130 --> 02:01.090
+So this is going to be again a wrapper for our actual phantasms and everything.
+
+02:01.120 --> 02:04.380
+So we're going to say numbers and center.
+
+02:04.400 --> 02:04.650
+All right.
+
+02:04.650 --> 02:07.750
+So this is going to be the day when we're going to use for centric.
+
+02:07.830 --> 02:14.610
+And after that again what I would want is only a single number so a single number here.
+
+02:14.610 --> 02:18.830
+Copy and paste and or here right write and of a single number.
+
+02:18.830 --> 02:21.220
+And what I would want or here in this single number.
+
+02:21.420 --> 02:24.030
+So first of all let's do an article.
+
+02:24.030 --> 02:30.580
+The article is actually going to have a class here and the class is going to be numbers that have 200
+
+02:30.580 --> 02:31.430
+scores.
+
+02:31.500 --> 02:34.980
+Single single number.
+
+02:35.010 --> 02:37.380
+So this is going to be a single element.
+
+02:37.540 --> 02:42.370
+Now once we have or here in this article then let's place a fantasy in my gut.
+
+02:42.410 --> 02:46.330
+And in this case we're not going to use a div we are actually going to use a span.
+
+02:46.560 --> 02:49.430
+So I'm going to say numbers 200 scores again.
+
+02:49.470 --> 02:56.390
+And this is going to be single number and number and we're going to call this icon here.
+
+02:56.660 --> 02:58.090
+So this is going to be the icon.
+
+02:58.240 --> 03:05.450
+No in this band and we're going to have a I element has a user's on here.
+
+03:05.760 --> 03:12.150
+Let's say it here let me get back my M and save it over here and sure enough out here you can see that
+
+03:12.150 --> 03:20.340
+if we have Arakan now after we have this brown ready the next one is actually going to be our number.
+
+03:20.340 --> 03:22.680
+So I'm going to say we're heading 1 again.
+
+03:22.710 --> 03:29.500
+The class numbers are here single and we're going to say number one here text.
+
+03:29.530 --> 03:29.950
+All right.
+
+03:29.970 --> 03:31.760
+So this is going to be.
+
+03:31.980 --> 03:35.240
+Once I press the time and then heading one we'll get it right.
+
+03:35.250 --> 03:36.710
+This is going to be hundred.
+
+03:36.960 --> 03:40.950
+And after that last one we're going to have here this is going to be next.
+
+03:40.950 --> 03:49.410
+So here we're going to say heading to with a glass of numbers and we're going to say single number title
+
+03:49.720 --> 03:52.500
+or this is going to be our title or he'll win.
+
+03:52.500 --> 03:52.770
+Right.
+
+03:52.770 --> 03:56.740
+And this is going to be happy clients here say it.
+
+03:56.880 --> 03:59.110
+Now again we know what we need to do.
+
+03:59.110 --> 04:03.250
+So we're going to check where is our single number we're going to copy and paste.
+
+04:03.260 --> 04:04.430
+What are you doing this.
+
+04:04.500 --> 04:07.230
+And you can see that I want one too much.
+
+04:07.460 --> 04:07.730
+All right.
+
+04:07.780 --> 04:14.270
+So me go back over here and let's say that I would want to copy to the end of where it is my title and
+
+04:14.270 --> 04:19.460
+let's just copy and paste this one two three or here and honestly again the same thing.
+
+04:19.580 --> 04:22.330
+No one is going to have to change the values.
+
+04:22.410 --> 04:26.710
+I'm going to go back and hop over here and you can see this was my start.
+
+04:26.970 --> 04:30.030
+So let's change this first this users.
+
+04:30.300 --> 04:35.700
+So I'm going to change this users and we're going to say here thumbs up.
+
+04:35.700 --> 04:39.460
+So this is going to be my first column that I'm changing.
+
+04:39.520 --> 04:42.030
+So once I say it check it out or here.
+
+04:42.030 --> 04:43.710
+Now we have our thumbs up.
+
+04:43.710 --> 04:46.150
+So here we're also going to have a different.
+
+04:46.180 --> 04:52.230
+Are you going to say that this is going to be 245 and this is going to be project.
+
+04:52.220 --> 04:57.930
+So here we're going to say this is going to be instead of happy playing it's going to call this a project.
+
+04:57.960 --> 05:03.900
+Now after that the next one is going to read the lines of code so I'm going to call this and I it.
+
+05:03.930 --> 05:05.860
+So are you going to say this is going to be.
+
+05:05.870 --> 05:10.890
+And I did it here and read it.
+
+05:10.910 --> 05:15.420
+What I would want is going to be lines of code so let's say we're like this.
+
+05:15.590 --> 05:18.720
+Maybe I don't know some some kind of volume like this.
+
+05:18.890 --> 05:24.220
+And we're going to call these lines of code here.
+
+05:24.320 --> 05:29.080
+And the last one is going to be trophy and trophies are going to be words of five.
+
+05:29.390 --> 05:36.740
+So here what we would need to use to change our here is users to a trophy here.
+
+05:36.800 --> 05:42.290
+So we sell it then we're going to have let's say five of them or six of them and here we're going to
+
+05:42.290 --> 05:49.700
+call these words and once we're done here with writing words ready to jump to see us and actually start
+
+05:49.950 --> 05:51.380
+styling our numbers section.

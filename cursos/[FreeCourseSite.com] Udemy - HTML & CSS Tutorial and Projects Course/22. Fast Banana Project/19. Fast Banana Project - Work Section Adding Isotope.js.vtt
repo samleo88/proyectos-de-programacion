@@ -1,0 +1,337 @@
+WEBVTT
+
+00:00.040 --> 00:05.130
+And let's go ahead and let's actually we can copy in the same code more here like this.
+
+00:05.130 --> 00:05.770
+Right.
+
+00:05.790 --> 00:09.630
+We had in our isotope file right because this is not going to change.
+
+00:09.690 --> 00:13.740
+We're still using a filter bottom group we're using to grow.
+
+00:13.740 --> 00:15.130
+So what I'm going to do here.
+
+00:15.350 --> 00:21.870
+We're going to copy and paste the script whatever we actually copy and pasted on here from the Web site.
+
+00:21.970 --> 00:23.910
+We're going to go back to indexation the amount.
+
+00:24.180 --> 00:25.420
+And we're going to see.
+
+00:25.430 --> 00:29.550
+And so now we have script GNAS and now this is going to be our rights.
+
+00:29.790 --> 00:34.460
+So what I'm going to say we're here and this is going to be script here press tab No.
+
+00:34.500 --> 00:36.570
+Here we're going to say that this is going to be isotope.
+
+00:36.730 --> 00:41.850
+So this is going to be source and we're going to say we're here this is going to be isotope.
+
+00:41.980 --> 00:42.370
+Right.
+
+00:42.510 --> 00:48.460
+So let's say Yes here's what I would want to do is we're going to create a new file.
+
+00:48.520 --> 00:55.470
+I say I so jealous know here we're going to do the same thing we're going to have any dollar sign document
+
+00:56.340 --> 01:01.850
+document and we're here and we're going to say that we would want a document ready.
+
+01:02.070 --> 01:02.340
+Right.
+
+01:02.340 --> 01:06.080
+And that's going to be the function function and Hanuman's function.
+
+01:06.270 --> 01:09.860
+Oh curly braces and we're here now what.
+
+01:09.870 --> 01:14.640
+When the document is actually ready what we would want to do right here I'm going to copy and paste
+
+01:14.640 --> 01:19.000
+the code and on here this we need to change the grid.
+
+01:19.170 --> 01:22.960
+We need to change here to here in this container.
+
+01:23.220 --> 01:25.410
+Picture containers like this.
+
+01:25.410 --> 01:27.770
+So I'm going to say so here.
+
+01:28.020 --> 01:33.790
+Picture a container come here or here.
+
+01:33.990 --> 01:35.700
+And then this one is going to stay the same.
+
+01:35.700 --> 01:37.010
+It's a filter group.
+
+01:37.110 --> 01:40.450
+And again depending on the value would want to filter it.
+
+01:40.490 --> 01:45.540
+So I'm going to save this one over here we can close the house set up and go back or read in exchange
+
+01:45.560 --> 01:46.430
+you know.
+
+01:46.440 --> 01:46.740
+All right.
+
+01:46.740 --> 01:50.580
+Make sure that we have the actual source is working right.
+
+01:50.610 --> 01:56.370
+So maybe let's go back over here and we're going to say this is going to be a comment right.
+
+01:56.400 --> 01:59.420
+So yes we're hearing this.
+
+01:59.670 --> 02:00.890
+So I would say this.
+
+02:01.080 --> 02:07.200
+And over here once we are going to go back to the actual page right recording and refresh and I can
+
+02:07.200 --> 02:07.920
+see what we have.
+
+02:07.920 --> 02:10.680
+Right now our isotope is working.
+
+02:10.890 --> 02:14.210
+And you can see how it's actually adjusting to the screen size.
+
+02:14.280 --> 02:15.260
+Or like this.
+
+02:15.450 --> 02:21.750
+And once we go back or here if we want the city we get the city we want the country to country for what
+
+02:21.790 --> 02:25.190
+water we get the water the more we get them back.
+
+02:25.380 --> 02:29.050
+Now there's one more thing that I to talk about with the ISO.
+
+02:29.080 --> 02:29.680
+Right.
+
+02:29.790 --> 02:32.200
+You're dealing with an images right.
+
+02:32.250 --> 02:33.750
+And what's happening with an image.
+
+02:33.780 --> 02:36.890
+I mean maybe we're going to be using filtering for something else.
+
+02:36.900 --> 02:42.800
+But in most cases you're going to be using these for images and images take a long time to download.
+
+02:42.890 --> 02:43.140
+All right.
+
+02:43.140 --> 02:47.950
+In some cases and what you don't want is actually images loading one by one.
+
+02:47.980 --> 02:54.450
+I can tell you one Actually I said start working only when the images have been downloaded completely.
+
+02:54.450 --> 02:59.290
+And if we go back to I set up and actually have a way of fixing it.
+
+02:59.460 --> 03:02.360
+So I'm there to lay out like this.
+
+03:02.370 --> 03:05.490
+If we scroll down right we have images loaded.
+
+03:05.600 --> 03:06.030
+Right.
+
+03:06.240 --> 03:08.010
+And first of all that's what they're saying.
+
+03:08.010 --> 03:10.850
+First you would need to have this kind of code right.
+
+03:10.890 --> 03:16.090
+And then you wouldn't need to download another CD and so I'm going to go back over here and once again
+
+03:16.140 --> 03:18.670
+to say that this is what we would want right.
+
+03:18.690 --> 03:24.600
+So I'm going to select this guy like this and we're just going to say copy and we're going to go back
+
+03:24.600 --> 03:26.220
+over here to our file.
+
+03:26.220 --> 03:29.150
+We're going to go to ISO right over here.
+
+03:29.190 --> 03:32.040
+We will need to find where this is ending.
+
+03:32.050 --> 03:32.310
+All right.
+
+03:32.310 --> 03:39.270
+So this is going to be a still this one for the filter button group where we're going to go underneath
+
+03:39.270 --> 03:39.910
+here.
+
+03:39.920 --> 03:43.970
+All right and see images loaded here.
+
+03:44.220 --> 03:46.000
+Just copy and paste this one right.
+
+03:46.050 --> 03:48.440
+So this is going to be another code right.
+
+03:48.510 --> 03:51.210
+It's still working with a grid.
+
+03:51.570 --> 03:53.710
+It's going to be still same very.
+
+03:53.730 --> 03:54.330
+Right.
+
+03:54.340 --> 03:57.630
+We're just making sure that everything works right.
+
+03:57.810 --> 04:01.630
+Just when images are loaded I'm going to say this one over here.
+
+04:01.860 --> 04:06.390
+And then what you need to do is we're going to go back and we're going to go back and we're going to
+
+04:06.390 --> 04:10.340
+see where these images loaded which is loaded with I'm going to click it over here.
+
+04:10.530 --> 04:13.670
+And again you can see really have a seat here.
+
+04:13.680 --> 04:14.110
+Right.
+
+04:14.220 --> 04:16.950
+So again we can have a modified right.
+
+04:17.040 --> 04:22.530
+So I was going to say we're here and this is what you should always do if you want to work with ISO
+
+04:22.620 --> 04:24.260
+in your projects right.
+
+04:24.270 --> 04:28.670
+Right before the actual isotope when want copy and paste the CD-ROM.
+
+04:28.680 --> 04:35.720
+Right and I'm going to give it a comment of images loaded right here.
+
+04:35.730 --> 04:36.010
+All right.
+
+04:36.030 --> 04:39.190
+We're going to copy and paste this one or your right hand over here.
+
+04:39.190 --> 04:41.140
+Now this is a fast connection right.
+
+04:41.240 --> 04:45.360
+So obviously we're not going to see this right now but in general this is what you should always do
+
+04:45.360 --> 04:48.200
+if somebody who is visiting your site.
+
+04:48.350 --> 04:48.560
+Right.
+
+04:48.570 --> 04:52.350
+If he has a slow connection then the isotope is actually going to start working.
+
+04:52.350 --> 04:52.890
+Right.
+
+04:52.920 --> 04:57.060
+Only when the images are loaded right then you can still see that everything works.
+
+04:57.270 --> 05:03.870
+And like I was saying in the beginning right if you want to explore the actual isotope right you are
+
+05:03.870 --> 05:06.680
+more of them more than welcomed over there.
+
+05:06.710 --> 05:07.320
+Right.
+
+05:07.350 --> 05:12.390
+And you can go to I said don't print and or here you can see that everything starts from the from the
+
+05:12.390 --> 05:13.170
+scratch.
+
+05:13.320 --> 05:16.260
+Now again we went over things right.
+
+05:16.280 --> 05:18.330
+Obviously we skipped some things right.
+
+05:18.330 --> 05:21.390
+We were not going line by line and everything right.
+
+05:21.390 --> 05:25.420
+But over there you can really go you know and explore everything right.
+
+05:25.590 --> 05:29.670
+Starting from the install then after that we have an actual set up.
+
+05:29.670 --> 05:30.240
+Right.
+
+05:30.240 --> 05:34.270
+So here you can see that getting started and pretty much they're telling you right.
+
+05:34.300 --> 05:37.280
+So you need isotope right for sure.
+
+05:37.350 --> 05:44.220
+Then you need or hear these days like this then or here we would need a seat assess.
+
+05:44.320 --> 05:44.580
+Right.
+
+05:44.610 --> 05:49.630
+If you want to do it just right and then obviously they're asking you to initialize with Jake Querrey
+
+05:49.680 --> 05:50.960
+or with javascript right.
+
+05:51.150 --> 05:55.040
+But again this is a whole another tutorial right.
+
+05:55.080 --> 05:57.560
+We just needed in our case right.
+
+05:57.590 --> 06:01.280
+Just it for a page so our page stands out.

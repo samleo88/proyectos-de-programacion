@@ -1,0 +1,265 @@
+WEBVTT
+
+00:00.120 --> 00:00.690
+All right.
+
+00:00.720 --> 00:06.230
+Up next we have e m values which again in one sentence would be relative value.
+
+00:06.300 --> 00:09.410
+However the key is in the details.
+
+00:09.450 --> 00:16.110
+So basically devil is in the details where it depends on a parent again and as always I think it's just
+
+00:16.110 --> 00:19.110
+easier to go through with an example.
+
+00:19.140 --> 00:24.030
+Now we're gonna head over first to indexation AML and we're going to create something else.
+
+00:24.150 --> 00:27.490
+I'm gonna say there's gonna be paragraph and four paragraph.
+
+00:27.510 --> 00:29.640
+I don't know can be you know what.
+
+00:29.640 --> 00:34.770
+Let's just write text absolute and actually change my mind so I'm can read Paragraph.
+
+00:34.770 --> 00:41.050
+We're gonna be hearing three with a text off first maybe relative as well as we're going to have the
+
+00:41.050 --> 00:45.730
+same class so there was a class and this is also gonna be relative.
+
+00:45.730 --> 00:50.800
+Now what I would like to do with the second heading one since I'm going to copy and paste it is I'm
+
+00:50.800 --> 00:57.410
+gonna change this value from the relative and I'm gonna say this will gonna be absolute.
+
+00:58.060 --> 00:59.520
+So two hitting threes.
+
+00:59.710 --> 01:01.940
+One with relative and the other one with absolute.
+
+01:02.200 --> 01:08.650
+So far so good then we're heading back to style C assess and we can obviously get rid of these styles
+
+01:08.680 --> 01:14.390
+because we already don't have the diff so there's no use for them whenever I'm gonna be working right
+
+01:14.420 --> 01:20.520
+now with the relative and absolute I would like to select the class because this is what I have in my
+
+01:20.520 --> 01:21.830
+indexation you know.
+
+01:21.980 --> 01:23.830
+So first let me try to select.
+
+01:24.460 --> 01:29.930
+So I'm going to say for relative value I'm gonna add something that's not going to make sense right
+
+01:29.930 --> 01:34.040
+now I'm gonna say let's say font size the property we already know.
+
+01:34.040 --> 01:37.640
+So this should make sense but I'm gonna write to Ms.
+
+01:37.720 --> 01:38.060
+Okay.
+
+01:38.540 --> 01:40.000
+So I'm getting the text.
+
+01:40.220 --> 01:46.750
+I mean doesn't really matter what I have there because I haven't covered yet what is in MS but now let's
+
+01:46.750 --> 01:47.710
+look at the absolute.
+
+01:47.890 --> 01:54.200
+So I'm going to say absolute absolute and this is gonna be font size and obviously this would be second
+
+01:54.220 --> 01:58.750
+hand and three and we're gonna say font size is gonna be 32 pixels.
+
+01:59.340 --> 02:00.200
+Okay.
+
+02:00.520 --> 02:03.910
+Now I know it might be hard to see because it's a different text.
+
+02:03.910 --> 02:08.680
+So maybe if you want you can go back and just write in different text the one that would match absolute
+
+02:08.720 --> 02:13.890
+but I can tell you right away they are exactly the same now how do I know.
+
+02:14.690 --> 02:19.670
+Well you see first of all as I'm looking here what do you think is a parent element for my relative
+
+02:19.670 --> 02:21.170
+class here.
+
+02:21.170 --> 02:28.240
+Well if I'm looking at it I see that this is a body and for the body by default in most cases the base
+
+02:28.240 --> 02:34.510
+text or default browser styles which will by the way cover the default browser styles right after this
+
+02:34.510 --> 02:38.880
+section and the default browser style is 16 pixels.
+
+02:39.010 --> 02:47.050
+Basically the font size or default browsers I'm sorry in the browser default font size is 16 pixels
+
+02:47.920 --> 02:57.470
+now 1 a.m. 1 E M value is equal to in this case 16 pixels however if we're going to change this value
+
+02:57.950 --> 03:00.360
+then also the E M is going to change.
+
+03:00.380 --> 03:02.360
+So for now both of them are exactly the same.
+
+03:02.960 --> 03:06.140
+Because this is 32 pixels absolute value.
+
+03:06.140 --> 03:14.570
+And this to them is also 32 pixels because my default browser style is 16 pixel.
+
+03:14.570 --> 03:18.740
+But what about if we're going to go to the settings and again you don't have to do this you can just
+
+03:18.740 --> 03:19.840
+watch how I'm doing it.
+
+03:20.240 --> 03:24.160
+But as I click on the second order here I have an option for the settings.
+
+03:24.170 --> 03:28.580
+Now I'm going to click on the settings and then as you scroll down noticed you have an option for font
+
+03:28.580 --> 03:29.240
+size.
+
+03:29.240 --> 03:33.900
+Now again if you're using different browser it would be look a different place but if you are using
+
+03:33.900 --> 03:37.630
+Google Chrome you should be able to find here font size.
+
+03:37.670 --> 03:41.500
+Now in this case I have right away medium which is default style.
+
+03:42.020 --> 03:43.550
+Well what if I would change this.
+
+03:43.550 --> 03:45.770
+What I would say over here very large.
+
+03:45.880 --> 03:47.360
+I can close the settings.
+
+03:47.360 --> 03:49.140
+Notice something interesting.
+
+03:49.160 --> 03:57.680
+So now my relative is actually way bigger than the absolute because I changed this default browser style
+
+03:57.680 --> 03:58.660
+font size.
+
+03:58.670 --> 04:00.830
+Now this is not anymore 16.
+
+04:00.860 --> 04:01.940
+This is in fact bigger.
+
+04:01.940 --> 04:07.130
+And I can see this because this relative is actually bigger than absolute.
+
+04:07.130 --> 04:13.140
+Now let me first of all change it back and once I change it back let's create another example.
+
+04:13.210 --> 04:16.600
+And just so you know for sure that this is exactly what I'm saying.
+
+04:16.820 --> 04:19.480
+Now I'm gonna head over again back to indexation email.
+
+04:19.740 --> 04:24.470
+And in this case we're going to create our own parent containers for these heading three so for the
+
+04:24.470 --> 04:30.000
+first one we're gonna create some random div and Megan selected probably going to place it here within
+
+04:30.000 --> 04:30.410
+the day.
+
+04:30.740 --> 04:33.640
+And for the second one we're also going to do the same thing.
+
+04:33.710 --> 04:35.650
+So almost everything the same.
+
+04:35.650 --> 04:41.830
+However now both of our heading threes are as a children for two of the dips.
+
+04:42.170 --> 04:44.770
+So have parent Dave as well as the second parent.
+
+04:45.350 --> 04:46.610
+What about now.
+
+04:46.610 --> 04:49.850
+Well I'm gonna go back to a safe house.
+
+04:49.940 --> 04:56.240
+I'm going to say for all the divs the font size the base font size shouldn't be let's say I don't know
+
+04:56.680 --> 04:58.080
+20 pixels.
+
+04:58.080 --> 05:02.270
+So font size they're my property and I'm going to say 20 pixels.
+
+05:02.360 --> 05:05.560
+Now what do you think is going to happen notice.
+
+05:05.600 --> 05:06.860
+Again this is bigger.
+
+05:06.860 --> 05:11.690
+And if I would actually want to maybe prove the point a little bit better I'm going to say 10 pixels.
+
+05:11.840 --> 05:20.450
+So right now the ESM is following the fact that the parent has the base size the 10 pixel so it's 1
+
+05:20.450 --> 05:22.800
+a.m. or is the right now equal to what.
+
+05:22.820 --> 05:24.990
+Well this is equal to a 10 pixel.
+
+05:25.550 --> 05:30.850
+So now this font size is in fact 20 pixels because all we're doing is basically multiplying.
+
+05:31.490 --> 05:38.160
+So if my base font size is 10 pixels now I multiply by 2 and I'm getting 20 pixels right here.
+
+05:38.450 --> 05:44.000
+Then the absolute one doesn't care about that the absolute still stays 32.
+
+05:44.120 --> 05:47.320
+So that's the key whenever you're working with the E M values.
+
+05:47.390 --> 05:53.070
+Remember that you will gonna be depending on the parent container and if you're changing something in
+
+05:53.070 --> 05:57.970
+the parent container that's gonna reflect of what's happening with he e m values.

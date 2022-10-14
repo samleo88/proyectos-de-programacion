@@ -1,0 +1,76 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.servidor.mundo;
+
+/**
+ * Esta clase representa a un jugador que se conectó al servidor para jugar batalla pokémon y está participando en una batalla.<br>
+ * <b>inv:</b><br>
+ * registroJugador != null<br>
+ * puntosEncuentro >= 0
+ */
+public class JugadorRemoto
+{
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Registro con la información de los juegos del jugador antes de iniciar la batalla.
+     */
+    private RegistroJugador registroJugador;
+
+
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye el objeto para mantener la información del jugador remoto. <br>
+     * @param pRegistro Registro del jugador antes de empezar el encuentro actual. pRegistro != null.
+     */
+    public JugadorRemoto( RegistroJugador pRegistro )
+    {
+        registroJugador = pRegistro;
+        verificarInvariante( );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Retorna el registro del jugador.
+     * @return Registro del jugador.
+     */
+    public RegistroJugador darRegistroJugador( )
+    {
+        return registroJugador;
+    }
+
+
+    // -----------------------------------------------------------------
+    // Invariante
+    // -----------------------------------------------------------------
+
+    /**
+     * Verifica el invariante de la clase<br>
+     * <b>inv</b><br>
+     * registroJugador != null<br>
+     * puntosEncuentro >= 0;
+     */
+    private void verificarInvariante( )
+    {
+        assert ( registroJugador != null ) : "El registro de un jugador no puede ser null";
+    }
+}

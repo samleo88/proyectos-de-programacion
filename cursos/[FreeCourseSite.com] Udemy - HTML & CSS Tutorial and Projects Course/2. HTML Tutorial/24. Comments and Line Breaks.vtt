@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.190 --> 00:04.130
+And this moment in time my original document is small.
+
+00:04.140 --> 00:09.130
+I would even say tiny so adding comments would probably be an overkill.
+
+00:09.720 --> 00:16.020
+However as your projects are gonna grow bigger in size it's wise to have some kind of documentation.
+
+00:16.200 --> 00:18.850
+What is happening in the project for us.
+
+00:18.870 --> 00:21.590
+We use the comments in an email.
+
+00:21.770 --> 00:24.630
+Now the syntax for the comment would be very simple.
+
+00:24.660 --> 00:30.400
+We have the angle bracket then we're going to be looking for exclamation mark and then we have to dash.
+
+00:30.850 --> 00:34.910
+Now the moment you type that as you notice you're having this green line.
+
+00:34.940 --> 00:38.760
+So now whatever we're going to write is not going to be shown on a web page.
+
+00:38.760 --> 00:42.290
+So in order to test it out you can just say hello there.
+
+00:42.710 --> 00:44.600
+Notice what I'm gonna say.
+
+00:44.710 --> 00:47.210
+It's not going to be shown here on a webpage.
+
+00:47.250 --> 00:50.320
+Now again we can write here a novel if we would like to.
+
+00:50.460 --> 00:56.190
+But in general you would just write some kind of comments about what is happening whether you were working
+
+00:56.190 --> 01:00.650
+with the team or whether you're just working on this by yourself.
+
+01:00.780 --> 01:07.740
+Because trust me if you work on something let's say two weeks ago and then again you load the file on
+
+01:07.740 --> 01:13.650
+your starting going through comments really help you to get up and running of what's happening in your
+
+01:13.650 --> 01:20.820
+project because even though you created it trust me two weeks later it's gonna be hard for you to remember.
+
+01:20.850 --> 01:26.070
+Now we also have an option of just creating comments with a shortcut and that shortcut would be very
+
+01:26.070 --> 01:26.970
+simple.
+
+01:26.970 --> 01:32.220
+We would have to press command and then forward slash the forward slash is gonna be left from your shift
+
+01:32.220 --> 01:35.460
+key and then just like that again we have the comment.
+
+01:35.820 --> 01:43.620
+So let's say here I could say you get me image image and then I'm gonna head over to where the second
+
+01:43.620 --> 01:44.920
+having three is.
+
+01:45.040 --> 01:49.300
+Again I'm going to create another comment and let's say laptop image again.
+
+01:49.470 --> 01:55.260
+In this case this would be clearly an overkill but in general this is how we would work with comments.
+
+01:55.280 --> 01:59.550
+Now I also would like to show you how we can use the line break because having a comment is one thing
+
+01:59.800 --> 02:00.330
+or you know what.
+
+02:00.330 --> 02:02.060
+No I forgot to tell you something.
+
+02:02.130 --> 02:08.460
+We also have an option of adding the code within the comment that we would like to hide or that particular
+
+02:08.460 --> 02:08.830
+time.
+
+02:09.330 --> 02:14.640
+So let's say that I would like to just check how this image on the laptop was gonna look like.
+
+02:15.300 --> 02:18.770
+However I wouldn't want to delete the DMA altogether.
+
+02:18.810 --> 02:24.840
+So what we can do all here is we can create a comment and as you can see this would be my comment.
+
+02:24.840 --> 02:30.630
+And if I'm gonna place whatever regime elements I would like within this comment they're not going to
+
+02:30.630 --> 02:32.100
+be displayed on a page.
+
+02:32.100 --> 02:35.510
+So for now I just cut them out and copy and paste them in here.
+
+02:35.520 --> 02:37.520
+Now notice first of all they're green.
+
+02:37.740 --> 02:40.750
+So we can see already that they're not going to be rendered.
+
+02:40.830 --> 02:43.180
+And the moment I'm going to service trying this out.
+
+02:43.470 --> 02:47.340
+So obviously I don't have this anymore rendered image.
+
+02:47.340 --> 02:52.750
+Now obviously if you would like to render it again just delete the comments and everything is gonna
+
+02:52.770 --> 02:53.490
+be working fine.
+
+02:53.940 --> 02:58.500
+So that's another use where you would use the comment where let's say you would like to test something
+
+02:58.500 --> 03:02.780
+out of something looks but you don't want to delete that other part.
+
+03:02.880 --> 03:08.490
+Then you would just basically comment it out now like I said back to the line breaks because as you
+
+03:08.490 --> 03:13.890
+can see even though I'm adding here let's say more space in my email hours and nothing is happening
+
+03:13.890 --> 03:18.080
+in my webpage because again I actually email would be whitespace collapsing.
+
+03:18.330 --> 03:23.280
+So instead we would need to use the element and the element would be Lindberg.
+
+03:23.280 --> 03:26.120
+Now the syntax for the Lindberg would be very simple.
+
+03:26.250 --> 03:28.610
+We would just need to write booyah.
+
+03:28.720 --> 03:31.090
+And again we can use them for that obviously.
+
+03:31.250 --> 03:35.090
+And obviously if I'm going to press on it not as this.
+
+03:35.130 --> 03:37.260
+Now I'm starting to get some kind of line breaks.
+
+03:37.740 --> 03:39.630
+Now that ours is only one break.
+
+03:39.630 --> 03:45.040
+So let me just copy and paste it to have a few more just so we can see for sure that we have more.
+
+03:45.060 --> 03:50.610
+One two three or four something and the one terminal served notice I'm getting line breaks.
+
+03:50.820 --> 03:56.340
+Not that would work whether in between the image and having three as well as if we're going to have
+
+03:56.340 --> 03:57.940
+some line breaks over here.
+
+03:58.020 --> 04:04.740
+So again we just cut this out or copy paste it and we can do the same thing over here and obviously
+
+04:04.740 --> 04:09.900
+the more line breaks we're going to add apologies then the more space you're going to have in between.

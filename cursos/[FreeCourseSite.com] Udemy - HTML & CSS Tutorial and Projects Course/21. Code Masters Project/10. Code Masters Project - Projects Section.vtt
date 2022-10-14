@@ -1,0 +1,802 @@
+WEBVTT
+
+00:00.430 --> 00:05.320
+And the next section are going to be building is going to be all here in this project section right.
+
+00:05.460 --> 00:09.390
+And this one I'm going to do exclusively with A C is great.
+
+00:09.440 --> 00:10.020
+Right.
+
+00:10.080 --> 00:14.430
+So basically what we're going to do is we're going to have a blocks.
+
+00:14.480 --> 00:19.080
+All right we're going to have 10 blocks then we're going to set these back rooms right.
+
+00:19.150 --> 00:22.740
+And on some of them we're actually going to have them as background effects.
+
+00:22.740 --> 00:23.310
+Right.
+
+00:23.310 --> 00:27.740
+And I'm basically going to show you how we can do this using C Ss great.
+
+00:27.810 --> 00:32.310
+So we're going to go back over here and we're going to go back there and it's a shame now because that's
+
+00:32.310 --> 00:34.160
+the first thing that we would need to do.
+
+00:34.410 --> 00:39.450
+So here I'm going to create a comment and I'm going to say projects this is going to be project section
+
+00:39.450 --> 00:44.900
+that I'm going to select the whole line copied and pasted then I'm going to say end of projects right.
+
+00:45.000 --> 00:52.200
+So once we have this thing now I would want a section like this and I'm going to say first and this
+
+00:52.200 --> 00:58.020
+is going to have a class of project here and then we're going to have a idea of projects.
+
+00:58.240 --> 01:06.180
+So here when I say both ID and the class now once we have this now we want 10 articles so I'm going
+
+01:06.180 --> 01:07.410
+to say we're here.
+
+01:07.410 --> 01:09.280
+This is going to be a hard call right.
+
+01:09.540 --> 01:15.000
+And the article is going to be with two classes project like this.
+
+01:15.240 --> 01:21.920
+And also with the number so I'm going to say project here like this and let's say that this case I'm
+
+01:21.930 --> 01:23.550
+just going to leave it the way it is.
+
+01:23.550 --> 01:24.150
+All right.
+
+01:24.150 --> 01:30.480
+Plus tab now have article on here I'm going to write one right now I'm going to select the whole thing
+
+01:30.840 --> 01:32.840
+and let's say we're going to copy this one.
+
+01:33.050 --> 01:37.680
+And like I said we need number done so here and this is going to be number two.
+
+01:37.880 --> 01:48.820
+This is going to be number three number four number five six seven eight nine and over here last 110.
+
+01:48.940 --> 01:51.680
+Right so we did one too many.
+
+01:51.690 --> 01:54.610
+So we can just say on here that the lead is.
+
+01:54.800 --> 02:00.670
+I mean like I said we're going to be using serious as grade and going to be using the math runs right.
+
+02:00.840 --> 02:04.910
+So you can see how easy it actually is right in order to create something like this.
+
+02:04.920 --> 02:07.120
+This is all you need for ADHD.
+
+02:07.500 --> 02:12.480
+So save this and we're going to go back to Main this and we're going to start dialing.
+
+02:12.510 --> 02:17.280
+So here I'm going to have a project right here.
+
+02:17.490 --> 02:20.900
+So what are we going to do here and we're going to say like this.
+
+02:20.900 --> 02:21.560
+Right.
+
+02:21.570 --> 02:31.320
+So for the project like this we're going to have some setup right here and this is going to be projects
+
+02:32.060 --> 02:33.340
+hash stack.
+
+02:33.570 --> 02:33.840
+Right.
+
+02:33.840 --> 02:35.290
+And what would be durable.
+
+02:35.640 --> 02:37.400
+Well first of all what we're going to say like this.
+
+02:37.410 --> 02:38.110
+Right.
+
+02:38.190 --> 02:44.680
+So here we're going to say that the projects always are going to be hundred View Heights.
+
+02:44.700 --> 02:45.100
+Right.
+
+02:45.120 --> 02:47.030
+So this is going to be the first rule.
+
+02:47.160 --> 02:49.210
+So I'm going to say men right.
+
+02:49.440 --> 02:51.810
+And we're going to say hundred again.
+
+02:51.870 --> 02:55.980
+So this is always going to be spanning all across the screen.
+
+02:56.270 --> 02:56.570
+Right.
+
+02:56.580 --> 02:59.490
+Or you can see so this is going to be our project.
+
+02:59.670 --> 03:06.450
+Now after that we would want a display and we're going to say grade right and for sure what we're wanting
+
+03:06.450 --> 03:08.620
+to do is create more space right now.
+
+03:08.640 --> 03:10.350
+Right on this.
+
+03:10.530 --> 03:19.160
+And when working with grid I'm going to say green grid template one template and you're going to say
+
+03:19.160 --> 03:25.760
+columns like this I'm going to say repeat and we're going to say five and one for action.
+
+03:25.760 --> 03:30.010
+So basically what I'm saying is I want five equal columns are here.
+
+03:30.110 --> 03:30.600
+Right.
+
+03:30.830 --> 03:32.030
+And this is how we can do it.
+
+03:32.040 --> 03:34.920
+It's using a repeat function.
+
+03:35.020 --> 03:37.160
+And this is for the columns.
+
+03:37.160 --> 03:43.680
+But then we also went for the ropes so to say grade template and we're going to say Rose and that's
+
+03:43.700 --> 03:49.220
+going to be a repeat and this is going to be different because it's going to be four and then it's going
+
+03:49.220 --> 03:50.850
+to be one for action here.
+
+03:50.890 --> 03:51.280
+Right.
+
+03:51.440 --> 03:52.430
+So four of them.
+
+03:52.610 --> 03:55.810
+So we're getting the roles that the cops are in.
+
+03:55.820 --> 04:02.090
+So if you count or here right and one column or here this is going to be the second cone this is going
+
+04:02.090 --> 04:03.190
+to be the third.
+
+04:03.320 --> 04:06.390
+This is going to be the fourth and this is going to be our fight.
+
+04:06.710 --> 04:12.130
+Now just because these items are spanning all right this is what we're going to be creating would see
+
+04:12.250 --> 04:13.190
+as great.
+
+04:13.450 --> 04:19.300
+But the column number is actually five because it's one two three four five.
+
+04:19.580 --> 04:26.710
+Now the same goes for those see first row second row third row fourth row right.
+
+04:26.810 --> 04:28.520
+This is where I'm getting these numbers from.
+
+04:28.520 --> 04:29.020
+Right.
+
+04:29.130 --> 04:32.720
+And obviously it's something that you need to set it up how you would one right.
+
+04:32.750 --> 04:34.640
+I already know how I wanted.
+
+04:34.640 --> 04:36.680
+So that's why I said them like this right.
+
+04:36.890 --> 04:41.440
+If you would want a different lay out you would have to lay them out differently.
+
+04:41.440 --> 04:42.210
+Right.
+
+04:42.220 --> 04:47.560
+I know here what I'm going to say grade template and I'm going to say areas right.
+
+04:47.660 --> 04:53.420
+And the way we work with grid template areas we're going to have a quotation marks here basically right
+
+04:53.690 --> 04:56.060
+on where each item should go.
+
+04:56.180 --> 05:00.990
+So I'm going to say Item one here and one more here.
+
+05:01.010 --> 05:03.730
+Item two more here.
+
+05:03.830 --> 05:08.550
+Item three over here really like this where I'm getting this from.
+
+05:08.550 --> 05:09.160
+All right.
+
+05:09.530 --> 05:10.290
+So let's go back.
+
+05:10.300 --> 05:10.930
+All right.
+
+05:10.940 --> 05:13.540
+You can see I'm saying item one.
+
+05:13.540 --> 05:18.540
+First column item one still second column item 3 over here.
+
+05:18.710 --> 05:19.100
+I'm sorry.
+
+05:19.100 --> 05:25.230
+Add them to third column and Item three fourth and fifth column.
+
+05:25.230 --> 05:25.650
+All right.
+
+05:25.730 --> 05:29.590
+So you can see over here right 1 1 2 and 3.
+
+05:29.690 --> 05:34.010
+And what I'm going to do when we're here I'm going to select this line and we're just going to copy
+
+05:34.010 --> 05:34.600
+and paste this.
+
+05:34.610 --> 05:35.210
+Right.
+
+05:35.300 --> 05:40.680
+And since we have four rows right we should have four rows over here right.
+
+05:40.770 --> 05:41.010
+No.
+
+05:41.020 --> 05:43.120
+Here we're going to start changing the values.
+
+05:43.300 --> 05:43.850
+Right.
+
+05:44.240 --> 05:47.350
+And the way we change the values is here.
+
+05:47.600 --> 05:49.660
+This is going to be item number four.
+
+05:49.890 --> 05:55.010
+All right then we have a item 5 an item 5 right again.
+
+05:55.040 --> 05:56.630
+Let's look at where I'm getting this from.
+
+05:56.630 --> 05:57.190
+Right.
+
+05:57.500 --> 06:05.440
+So second row first column still item 1 still item 1 0 here.
+
+06:05.450 --> 06:09.390
+This was item number number for healing this.
+
+06:09.680 --> 06:12.920
+And then we have item 5 right here.
+
+06:12.920 --> 06:15.660
+Item 5 and this one is spanning or here like this.
+
+06:15.660 --> 06:16.230
+All right.
+
+06:16.310 --> 06:18.390
+So this is where we get this line from.
+
+06:18.470 --> 06:26.170
+Now what we have next then after that we have eight items six here and six.
+
+06:26.390 --> 06:29.070
+Item seven here.
+
+06:29.340 --> 06:31.760
+Item 7 or here.
+
+06:31.900 --> 06:34.220
+And then we have two fives again right.
+
+06:34.380 --> 06:38.870
+So again let's just check it out where we get this from Item 6.
+
+06:38.880 --> 06:41.180
+And this is going to span or here to next throw.
+
+06:41.200 --> 06:42.660
+But we don't care about this rule.
+
+06:42.780 --> 06:48.590
+We care about 3 6 7 7 and this one still has the 5 right.
+
+06:48.600 --> 06:50.580
+So this is spanning or here from this guy.
+
+06:50.620 --> 06:51.310
+Right.
+
+06:51.360 --> 06:57.990
+And then the last row is going to be Item 6 item 8 0 here.
+
+06:58.380 --> 07:01.220
+And then we have nine nine 10 right.
+
+07:01.280 --> 07:05.680
+So this is going to be 9 9 and 10.
+
+07:05.880 --> 07:08.680
+Now what about the actual lineups.
+
+07:08.990 --> 07:13.300
+So because you can see or hear I just said the grid template there.
+
+07:13.330 --> 07:20.850
+So right now the reason when we had had these classes on this project one project to project three right
+
+07:21.260 --> 07:23.120
+is because we're going to be targeting them.
+
+07:23.150 --> 07:29.160
+All right so I'm going to say project or here and I'm going to say project one like this.
+
+07:29.430 --> 07:34.390
+And when I'm going to say all here is this is going to be grid area right.
+
+07:34.500 --> 07:36.390
+And I would want this to be very.
+
+07:36.510 --> 07:37.270
+Right.
+
+07:37.290 --> 07:39.460
+This one over here for these two.
+
+07:39.720 --> 07:39.910
+Right.
+
+07:39.960 --> 07:41.770
+This is what I would care about.
+
+07:41.980 --> 07:48.600
+So I'm going to say or here I am one and what I would want or here is I'm going to have a background
+
+07:49.380 --> 07:52.700
+here and I'm going to say you are wrong on all images.
+
+07:52.710 --> 07:58.070
+Now honestly I have a ton of projects right so you can see that I have 10 images so I'm going to say
+
+07:58.080 --> 08:01.850
+number one more here we're going to say Center here.
+
+08:01.850 --> 08:13.430
+Cover cover here fixed here and no repeat no repeat or here now we can say this one over here and you
+
+08:13.430 --> 08:15.380
+can see that this is going to be fixed.
+
+08:15.380 --> 08:17.060
+This is going to be the fixed one right.
+
+08:17.060 --> 08:21.620
+Because you can see ASMS crawling them and just stay in the rest of them are not going to be fixed.
+
+08:21.610 --> 08:22.050
+Right.
+
+08:22.070 --> 08:23.520
+So there's going to be three of them.
+
+08:23.720 --> 08:31.430
+So this is why we have this fixed or now what we want to do is actually just copy and paste this again
+
+08:31.460 --> 08:32.400
+10 times.
+
+08:32.410 --> 08:33.820
+Well another nine.
+
+08:33.820 --> 08:37.850
+All right so to get a total of 10 and we're just going to have to change these values.
+
+08:37.880 --> 08:39.190
+That's all we will have to do.
+
+08:39.380 --> 08:43.340
+So here maybe we can do just so we don't need this.
+
+08:43.360 --> 08:44.900
+He does everything right.
+
+08:44.900 --> 08:51.540
+So we're going to delete these guys on here so we can just add these values on this and let's copy this
+
+08:51.770 --> 08:52.820
+10 times right.
+
+08:53.000 --> 08:57.020
+So one two three four five six seven eight nine.
+
+08:57.280 --> 08:57.790
+All right.
+
+08:57.890 --> 09:05.820
+So we have 10 of them and over here let's select this and let's actually make a little bit more clear.
+
+09:05.960 --> 09:08.930
+So we're going to say we're here to beautify right now.
+
+09:09.020 --> 09:10.220
+You can see that looks better.
+
+09:10.230 --> 09:10.890
+Right.
+
+09:10.970 --> 09:15.240
+So we have a project one item one on one here.
+
+09:15.240 --> 09:23.390
+This is going to be the projects and then for the grade project to add them to an order here.
+
+09:23.390 --> 09:24.360
+Item 2.
+
+09:24.410 --> 09:27.520
+Now the problem is I didn't need this fix though right.
+
+09:27.650 --> 09:35.780
+So I can get rid of this fixed then or here this is going to be number three or here and number three
+
+09:35.780 --> 09:39.170
+or here and number three are here.
+
+09:39.170 --> 09:39.940
+All right.
+
+09:39.980 --> 09:42.690
+Now again do we need this fix.
+
+09:42.710 --> 09:44.190
+No we don't need this fixed.
+
+09:44.390 --> 09:49.640
+So we're going to get rid of this guy and the next one that we need fixed is actually going to be number
+
+09:49.640 --> 09:50.750
+five on it.
+
+09:50.750 --> 09:53.660
+So for this go we can also get rid of it.
+
+09:53.660 --> 09:54.320
+All right.
+
+09:54.320 --> 09:56.110
+So can get rid of fixed.
+
+09:56.150 --> 09:57.870
+This is going to be number four.
+
+09:57.950 --> 09:59.700
+This is going to be number four.
+
+09:59.760 --> 10:04.130
+This is going to be number four and you can see that pretty much is because they are easily numbered
+
+10:04.130 --> 10:04.980
+them like this right.
+
+10:04.980 --> 10:09.790
+So Project 4 is going to have project for you could get a different background right.
+
+10:09.790 --> 10:15.560
+It doesn't really matter how you would work and just remember that for whatever item you want to place
+
+10:15.560 --> 10:16.520
+an hour here right.
+
+10:16.670 --> 10:19.870
+It makes sense if you actually numbered them the same way.
+
+10:19.870 --> 10:20.550
+Right.
+
+10:20.570 --> 10:26.490
+So item 5 and 5 and item 5 again let's delete fixed or you know what.
+
+10:26.490 --> 10:28.360
+No this one actually states sorry.
+
+10:28.460 --> 10:33.410
+And then over here let's check the last one that's actually going to have fixed which is going to be
+
+10:33.500 --> 10:34.300
+8.
+
+10:34.520 --> 10:39.800
+So this five six seven eight and the rest of them we're going to do it right.
+
+10:39.830 --> 10:43.120
+So this is going to be deleting fixed right.
+
+10:43.140 --> 10:48.380
+I can see that I made a mistake I should have probably copied without a fix and this would actually
+
+10:48.380 --> 10:49.280
+make more sense.
+
+10:49.320 --> 10:50.010
+Right.
+
+10:50.090 --> 10:52.700
+And here it's just these values.
+
+10:52.760 --> 11:08.110
+So again six or six and six this is going to be 7 7 7 or 8 8 8.
+
+11:08.360 --> 11:13.440
+Then will have a 9 9 0 9.
+
+11:13.700 --> 11:18.590
+And this is going to be 10 10 10.
+
+11:18.660 --> 11:20.220
+I don't last one time.
+
+11:20.570 --> 11:21.480
+Right.
+
+11:21.710 --> 11:26.780
+What we would want to do is we would want to add a little bit of Pasotti as we're hovering.
+
+11:26.990 --> 11:33.440
+So I'm going to say we're here project or here and I'm going to say transition and transition is going
+
+11:33.440 --> 11:34.610
+to be Pasotti.
+
+11:34.810 --> 11:37.860
+We're going to say two seconds is all here like this.
+
+11:38.120 --> 11:44.660
+And as we were hovering the capacity is going to change so I'm going to say project here.
+
+11:44.730 --> 11:47.640
+However.
+
+11:48.140 --> 11:58.160
+And this is going to be opacity 0.5 0.5 or whatever and cursor pointer or hair like this.
+
+11:58.180 --> 12:00.120
+All right let's say this.
+
+12:00.260 --> 12:01.290
+Here like this.
+
+12:01.330 --> 12:03.260
+Now let's go back over here and check it out.
+
+12:03.270 --> 12:03.940
+We have.
+
+12:04.130 --> 12:04.470
+All right.
+
+12:04.510 --> 12:05.990
+Well we're going to refresh.
+
+12:06.180 --> 12:09.630
+We're actually we were rushing that's already made.
+
+12:09.700 --> 12:12.580
+Let's go back over here and let's refresh our here.
+
+12:12.580 --> 12:13.250
+All right.
+
+12:13.420 --> 12:18.620
+And now I can see that there is some kind of mistake because it's not working right.
+
+12:18.640 --> 12:21.770
+So let's go ahead and let's find out what it is.
+
+12:21.780 --> 12:22.410
+Right.
+
+12:22.600 --> 12:29.890
+So if we have all read projects right let's make sure that index actually was working right and we had
+
+12:29.980 --> 12:37.960
+a project on here this was a project 1 and let's go back to main success and you can see my mistake
+
+12:38.130 --> 12:38.820
+right.
+
+12:38.890 --> 12:42.400
+I didn't have project or here right.
+
+12:42.410 --> 12:48.700
+So I copied and paste them all right I actually wrote a different wrong name.
+
+12:48.760 --> 12:51.320
+Right so I need to get rid of the.
+
+12:51.430 --> 12:52.300
+All right.
+
+12:52.390 --> 12:55.170
+So again I'm sorry for this right.
+
+12:55.540 --> 13:02.800
+I just messed up over here and nine and 10 right and now we have the project.
+
+13:02.890 --> 13:04.490
+So let's refresh now.
+
+13:04.600 --> 13:06.290
+This should be working right.
+
+13:06.340 --> 13:10.030
+And sure enough now you can see that we have a grid right.
+
+13:10.080 --> 13:15.670
+You can see that these ones are going to be actually we're transparent right.
+
+13:15.760 --> 13:18.700
+Not only starting at transparencies that are going to be fixed.
+
+13:18.760 --> 13:20.770
+All right I can see how they image things.
+
+13:20.830 --> 13:22.760
+And these won't be right.
+
+13:22.810 --> 13:25.230
+Now let me show you also one more thing right.
+
+13:25.250 --> 13:28.180
+Remember how we had this background or here right.
+
+13:28.180 --> 13:30.040
+This dark background right.
+
+13:30.250 --> 13:33.790
+So now let me show you why we had a z index.
+
+13:33.790 --> 13:39.480
+So let me scroll back up and find where is the nav number the z index.
+
+13:39.490 --> 13:40.000
+Right.
+
+13:40.300 --> 13:45.610
+And maybe let's add this Nav. a little bit darker background.
+
+13:45.740 --> 13:50.360
+So it's something like 9 you 8.
+
+13:50.560 --> 13:51.750
+So we can see it better.
+
+13:51.970 --> 13:54.340
+Let's say this and let's come on top.
+
+13:54.340 --> 13:55.770
+This is the index.
+
+13:55.780 --> 13:59.330
+Let's do this and see what happens with this clip effect.
+
+13:59.340 --> 13:59.920
+All right.
+
+14:00.130 --> 14:06.420
+So what happens is you see we're here I have my nav All right it does have this back black background.
+
+14:06.580 --> 14:12.430
+I'm scrolling scrolling and look what happens to them as I get to the clip or here right.
+
+14:12.490 --> 14:13.750
+You can see it disappears.
+
+14:13.790 --> 14:14.300
+Right.
+
+14:14.410 --> 14:16.380
+If I don't have the zone you can see right.
+
+14:16.660 --> 14:19.590
+This clip actually goes on top.
+
+14:19.600 --> 14:20.150
+All right.
+
+14:20.230 --> 14:23.780
+This is why would we would need or here is the Zendiks.
+
+14:23.830 --> 14:25.730
+That's the reason why we're using this.
+
+14:25.780 --> 14:30.200
+And obviously if all the numbers are zero you need a bigger number than zero.
+
+14:30.200 --> 14:30.580
+All right.
+
+14:30.730 --> 14:33.030
+So in this case I just set it down.
+
+14:33.130 --> 14:40.410
+But if you had clip path let's say this about image's you would add a bigger z index right.
+
+14:40.420 --> 14:41.860
+This would do the same thing.
+
+14:41.860 --> 14:43.090
+Now I refresh.
+
+14:43.420 --> 14:44.500
+You can see right now.
+
+14:44.500 --> 14:50.210
+All right now what's happening is obviously I didn't say it when I saved it.
+
+14:50.220 --> 14:57.850
+Now I can see that actual Now bar is spanning over to right as you as you're hovering right.
+
+14:57.850 --> 14:59.420
+It's not disappearing anymore.
+
+14:59.770 --> 15:01.580
+So that's the reason for the Zendiks.
+
+15:01.760 --> 15:04.400
+Now we ready to work on the next section.

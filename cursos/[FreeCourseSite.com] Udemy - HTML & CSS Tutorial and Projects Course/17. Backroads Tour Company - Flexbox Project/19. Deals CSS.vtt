@@ -1,0 +1,409 @@
+WEBVTT
+
+00:00.450 --> 00:06.280
+In order to write our styles we're going to have to head over to styles seahorses.
+
+00:06.330 --> 00:07.950
+Same old deal.
+
+00:07.980 --> 00:09.450
+We do need to comment.
+
+00:09.530 --> 00:14.970
+And of course if you're sick reading these comments cause you don't have to do it but I always find
+
+00:14.970 --> 00:19.050
+it more useful especially if I have to share my code.
+
+00:19.140 --> 00:20.260
+Now are you for sure.
+
+00:20.430 --> 00:25.460
+Which section is ending where and when the other one starts.
+
+00:25.560 --> 00:27.790
+So let's write deals.
+
+00:28.020 --> 00:30.410
+Let's change this one to deals now.
+
+00:30.600 --> 00:34.850
+First things first I would like to work with input group.
+
+00:34.890 --> 00:36.600
+Now where is the input group.
+
+00:37.050 --> 00:40.650
+Well that is going to be my one element.
+
+00:40.740 --> 00:46.210
+So I have my input group and then within the input group I have two things input as well as the button.
+
+00:46.680 --> 00:49.410
+So first of all let's target input group.
+
+00:49.590 --> 00:57.330
+Let's say that input group is going to have a width of 80 percent of the screen size width that's the
+
+00:57.330 --> 01:01.010
+reason why we're using view with values.
+
+01:01.060 --> 01:02.660
+That's step number one.
+
+01:02.760 --> 01:09.120
+And then why don't we also write a way set up the max width and for the max with I'm going to use 600
+
+01:09.510 --> 01:10.010
+pixels.
+
+01:10.280 --> 01:10.900
+Okay.
+
+01:11.220 --> 01:14.240
+Then why don't we also add maybe a margin.
+
+01:14.310 --> 01:20.220
+Now I would like to place it in the center so I'm gonna say margin tab bottom zero and left and right
+
+01:20.260 --> 01:20.840
+order.
+
+01:21.000 --> 01:25.280
+Now my input in fact is sitting in the center right now.
+
+01:25.460 --> 01:26.900
+That's step number one.
+
+01:26.910 --> 01:33.570
+Now I also can use flex marks because this particular input group is in fact a parent container right
+
+01:33.570 --> 01:36.780
+now because it has two children items.
+
+01:36.780 --> 01:39.350
+So we can do something like this.
+
+01:39.510 --> 01:41.310
+This play of flex.
+
+01:41.470 --> 01:41.940
+OK.
+
+01:41.940 --> 01:43.710
+That's awesome start.
+
+01:43.830 --> 01:47.330
+And then why don't we target different control.
+
+01:47.400 --> 01:54.930
+Remember that was the class for our input and what I would like to do is set up that the form control
+
+01:54.990 --> 02:02.670
+or my input is taking all the space and all the necessary space and then submit button while it just
+
+02:02.670 --> 02:06.300
+takes as much space as it needs or its content.
+
+02:06.300 --> 02:08.980
+Now how we were able to do that.
+
+02:09.180 --> 02:11.340
+Let's head over back and let's think about it.
+
+02:11.370 --> 02:14.270
+So we have form control so first of all we'd like to target.
+
+02:14.400 --> 02:17.780
+We already have the parent container correct.
+
+02:17.820 --> 02:22.040
+So we had our input group and now I can use a flex property.
+
+02:22.050 --> 02:28.520
+And in this case I'm going to say like this I mean I say you know what input you can grow as much as
+
+02:28.520 --> 02:29.140
+you need to.
+
+02:29.150 --> 02:31.690
+So that's the reason why we're using one right now.
+
+02:31.700 --> 02:34.210
+Now you can also shrink if you need to.
+
+02:34.250 --> 02:37.430
+That's the reason why we also set up one here for the shrinking.
+
+02:37.490 --> 02:41.510
+And lastly I'm just going to say you're not your base value is just going to be an arrow and that's
+
+02:41.510 --> 02:41.870
+it.
+
+02:41.870 --> 02:42.400
+There you go.
+
+02:42.400 --> 02:46.630
+We right away our input that is stretching all across.
+
+02:47.450 --> 02:48.180
+Awesome.
+
+02:48.530 --> 02:48.980
+Now.
+
+02:49.100 --> 02:54.640
+Well let's target both of them form control as well as our buttons segment.
+
+02:54.770 --> 02:59.830
+So let's add a comma dot n sub met.
+
+02:59.890 --> 03:00.550
+Okay.
+
+03:00.590 --> 03:08.300
+That was our button and first of all why don't we add a little bit of padding so zero point 3 7 5 0
+
+03:08.320 --> 03:13.290
+3 M's and zero point seven five our aims left and right.
+
+03:13.740 --> 03:15.050
+Okay.
+
+03:15.620 --> 03:25.630
+Then why don't we change the font size font size is going to be one hour Iams or both of them then line
+
+03:25.630 --> 03:26.550
+height.
+
+03:26.620 --> 03:30.960
+I don't know we can do one point five one point five a line height.
+
+03:31.150 --> 03:40.720
+Then also why don't we change the font weight font weight is going to be 300 then we also have a letter
+
+03:40.720 --> 03:41.490
+spacing.
+
+03:42.190 --> 03:48.850
+So let's use letter spacing and for my value I'm gonna use the variable that we already initially created.
+
+03:49.090 --> 03:51.840
+So let's override main spacing.
+
+03:51.850 --> 03:54.670
+I believe that was the name memorable.
+
+03:54.670 --> 03:55.270
+There you go.
+
+03:55.270 --> 04:02.720
+That is my main spacing and maybe let's write a background of transparent so both of them are going
+
+04:02.720 --> 04:10.450
+to have the transparent background and text could be uppercase so text transform on the case.
+
+04:10.450 --> 04:13.890
+And lastly the outline is going to be none.
+
+04:13.930 --> 04:21.930
+So as we're going to focus over our elements well we're not going to have this outline.
+
+04:22.420 --> 04:24.530
+That as our initial setup.
+
+04:24.550 --> 04:29.800
+Now first of all out right away like to point out something that even though for the button notice the
+
+04:29.800 --> 04:32.410
+color is in fact black.
+
+04:32.560 --> 04:33.300
+Correct.
+
+04:33.410 --> 04:36.610
+Or here we have a different some kind of grayish color.
+
+04:36.610 --> 04:41.560
+And the reason for that is because as you can see we can start typing and everything works really well.
+
+04:41.680 --> 04:48.820
+But for the place holder Well it is not inheriting the color that we set up for the whole body remember
+
+04:49.300 --> 04:50.950
+all the way on the top.
+
+04:50.950 --> 04:56.830
+What we did we had for the body we had in fact the color as well as the font family.
+
+04:56.830 --> 05:04.250
+Now in my case I think that my fam font family is correct but I can see clearly that my color is not.
+
+05:04.270 --> 05:11.190
+However if let's say you can clearly also see that your font family is in fact different.
+
+05:11.200 --> 05:13.740
+And in this case it's kind of hard to tell.
+
+05:13.810 --> 05:18.400
+Usually if you have like let's say something that is really slanted that is very easy.
+
+05:18.400 --> 05:24.460
+But in this case I mean it's kind of hard to tell and I'm just I don't want to bother with Google Developer
+
+05:24.460 --> 05:29.410
+tools but in general when I opened some properties are not going to be inherited which in my case I
+
+05:29.410 --> 05:31.710
+can clearly see that the color is the issue.
+
+05:31.780 --> 05:38.200
+Now if you also have let's say different properties which one example could be the font family then
+
+05:38.530 --> 05:44.580
+just head over back grab whatever properties you would like and just add it in place order in the moment
+
+05:44.590 --> 05:45.280
+you're going to do that.
+
+05:45.280 --> 05:51.430
+Notice right away you're going gonna have this color as well as some other things change there as well
+
+05:51.700 --> 05:53.110
+meaning different family.
+
+05:53.110 --> 05:53.930
+All right.
+
+05:54.130 --> 05:56.450
+Now that is done.
+
+05:56.450 --> 05:56.780
+OK.
+
+05:56.830 --> 05:58.610
+So we have this particular setup.
+
+05:59.110 --> 06:08.200
+And lastly I would like to just work with buttons submit OK let's grab the class Beaty and met and we're
+
+06:08.200 --> 06:10.830
+going to have a first of all border.
+
+06:10.900 --> 06:16.180
+Now what I would like to do is just have one border because currently what happens is I do have this
+
+06:16.180 --> 06:22.150
+border here for my input as well as I have for the submit.
+
+06:22.330 --> 06:26.940
+And you know what I say that I have the border but in fact that's something that is missing.
+
+06:26.980 --> 06:33.100
+So let's have a border and I'm going to go with two pixels solid.
+
+06:33.520 --> 06:36.850
+And again we're going to use the primary color.
+
+06:36.850 --> 06:38.170
+So let's set this up.
+
+06:38.170 --> 06:43.840
+Now we have our primary color and this is what I'm talking about where I have two borders.
+
+06:43.960 --> 06:47.200
+I have one for the input as well as one for the button.
+
+06:47.200 --> 06:52.010
+And what I would like to do right now is in fact for the button you know what I'm just gonna say more
+
+06:52.030 --> 06:52.690
+left none.
+
+06:53.110 --> 06:57.030
+So border left and we're going to set this up as none.
+
+06:57.190 --> 07:03.460
+So that's where it looks a little bit more presentable kept than cursor is going to be pointer as we're
+
+07:03.460 --> 07:05.020
+hovering.
+
+07:05.080 --> 07:05.950
+What else what else.
+
+07:05.950 --> 07:11.890
+Transition well as we're going to transition over this button as we're going to hover over this button
+
+07:12.270 --> 07:15.370
+I would like to change the background to a primary color.
+
+07:15.370 --> 07:18.430
+So again we're going to use our main transition.
+
+07:18.430 --> 07:22.040
+So that change is happening over time.
+
+07:22.390 --> 07:27.710
+So last but not least we have our N submit our surmised.
+
+07:27.720 --> 07:29.200
+We're hovering.
+
+07:29.470 --> 07:38.400
+We're gonna change the color to a main white main white and background to her primary color.
+
+07:38.440 --> 07:41.260
+Var primary color.
+
+07:41.570 --> 07:43.240
+And there you go.
+
+07:43.240 --> 07:45.550
+As we're hovering we're gonna have this effect.
+
+07:45.700 --> 07:49.810
+So there's two things that I would like you'd take away from this video.
+
+07:49.810 --> 07:55.870
+So first of all if you'd like to have your input as well as the button Well you're gonna have to have
+
+07:55.870 --> 08:01.210
+some kind of parent container which in this case is just one with some kind of div with a class of input
+
+08:01.210 --> 08:09.220
+group and then we use the Flex properties where if I set the parent for a display flex I can just clone
+
+08:09.250 --> 08:10.480
+troll my input.
+
+08:10.820 --> 08:11.110
+All right.
+
+08:11.530 --> 08:14.670
+And then whatever styles we're going to apply for both of them.
+
+08:14.770 --> 08:19.420
+Now I'm not going to be ex play displayed exactly the same.
+
+08:19.430 --> 08:19.990
+All right.
+
+08:20.110 --> 08:26.890
+Now lastly for the place holder if you have any issues getting in fact the properties with the values
+
+08:26.890 --> 08:33.100
+that you already previously set up make sure that you target the place holder by having colon colon
+
+08:33.340 --> 08:38.170
+and then a place holder and then of course you're just setting up whatever values you would like.
+
+08:38.170 --> 08:41.490
+All right so that should do it for the hard DLC assess.
+
+08:41.530 --> 08:49.030
+So now we have our form our nice looking forum where the input and the submit button in fact are one
+
+08:49.120 --> 08:49.630
+element.

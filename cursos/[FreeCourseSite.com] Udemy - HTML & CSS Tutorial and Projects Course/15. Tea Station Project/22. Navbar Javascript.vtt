@@ -1,0 +1,283 @@
+WEBVTT
+
+00:00.390 --> 00:05.300
+We have finished part of our task where we have the number that we cannot see right now.
+
+00:05.310 --> 00:07.340
+Why don't we set up everything with JavaScript.
+
+00:07.740 --> 00:12.950
+And just as a disclaimer if you have never worked with JavaScript I'm not gonna be covering this in
+
+00:12.990 --> 00:19.100
+detail because literally you need to go for separate course just to get up with like some kind of basics
+
+00:19.110 --> 00:20.630
+or something like that.
+
+00:20.790 --> 00:23.340
+And my solution would be again I'm gonna write the code.
+
+00:23.340 --> 00:26.270
+This is gonna be like five six lines of code.
+
+00:26.430 --> 00:28.680
+And then if you have any issues.
+
+00:28.830 --> 00:33.990
+Again as always you have access to the source code and that way what you can do is you can just say
+
+00:34.020 --> 00:34.600
+OK.
+
+00:34.740 --> 00:36.260
+So you can copy and paste it.
+
+00:36.420 --> 00:41.760
+And if something doesn't match you can just get a whole source code meaning you can get the whole folder
+
+00:42.060 --> 00:44.230
+with JavaScript already setup.
+
+00:44.270 --> 00:49.890
+Now that being said what I would like to be doing is creating the new JavaScript file.
+
+00:50.070 --> 00:53.980
+And for this I'm going to go back to my roots and I'm going to say up.
+
+00:54.210 --> 01:00.780
+And Heroes is going to first target some ideas now before maybe with target the ideas that I would like
+
+01:00.780 --> 01:03.980
+to also set up in the style C assess the actual class.
+
+01:03.990 --> 01:10.050
+There's going to be controlling this because at the moment or not Barra's hard core right now the class
+
+01:10.050 --> 01:15.520
+here and I can name this what our like but I'm just gonna name the show NAV.
+
+01:15.660 --> 01:22.050
+Now what this show now is gonna do is that instead of transforming it negative on our percent or 100
+
+01:22.050 --> 01:27.810
+percent we can just do it the other way where we can say transform and transformation is going to be
+
+01:27.810 --> 01:34.590
+very simple of translate X and we're gonna set this equal to zero something already we have done already
+
+01:34.590 --> 01:39.570
+previously but in this case obviously we're working with some kind of animation we're hovering or something
+
+01:39.570 --> 01:40.220
+like that.
+
+01:40.440 --> 01:44.590
+Now we're gonna be working on javascript where at the moment we're gonna click on the button.
+
+01:44.670 --> 01:51.960
+Then this class is gonna be added to the number and then obviously since the order matters first the
+
+01:51.960 --> 01:56.760
+order is going to be negative hundred and then we're gonna overwrite this by the zero and then the moment
+
+01:56.760 --> 02:00.630
+will then open up the number we all gonna remove this class by clicking x.
+
+02:00.750 --> 02:02.760
+And again we're gonna go back to 100 percent.
+
+02:03.270 --> 02:10.440
+So let's say here first I would like to select them all and there's gonna be three actors in our scene.
+
+02:10.470 --> 02:11.590
+The first one is gonna be now.
+
+02:11.590 --> 02:15.820
+Button then this obviously is gonna have a I.D..
+
+02:15.870 --> 02:17.770
+So I'm gonna be looking for document.
+
+02:17.790 --> 02:23.220
+And again my apologies but I'm not gonna be spending too much time on this because this is out of the
+
+02:23.220 --> 02:24.240
+scope of this course.
+
+02:24.240 --> 02:28.560
+So this is just to get you up and running with these buttons were metal.
+
+02:28.680 --> 02:35.170
+We're not going to be covering what are the variables or what is document get element by Eddie because
+
+02:35.230 --> 02:37.330
+you can do that in the javascript course.
+
+02:37.750 --> 02:41.880
+So I'd say get element by I.D. and we're gonna call this nav button.
+
+02:41.980 --> 02:43.530
+So that's gonna be my first one.
+
+02:43.720 --> 02:48.730
+And you know what I do want to close the sidebar because it's gonna be easier to see and I'm gonna copy
+
+02:48.820 --> 02:49.340
+paste it.
+
+02:49.660 --> 02:57.310
+Now the second guy is gonna be the number and I'm gonna be targeting the idea of now more so let's say
+
+02:57.400 --> 02:58.140
+no more.
+
+02:58.140 --> 03:02.790
+In a nutshell what we're doing is we're targeting we're getting these elements and then we're gonna
+
+03:03.280 --> 03:06.510
+like to add some kind of uh event listener to it.
+
+03:06.700 --> 03:08.850
+And here the last one is gonna be NAF closed.
+
+03:08.890 --> 03:10.800
+So that is gonna be within the number.
+
+03:10.990 --> 03:19.660
+I'm going to again call this nav close and the I.D. if I'm still remembering correctly was also nav
+
+03:19.690 --> 03:26.680
+close so we have selected the three actors in our little scene and what else we're gonna be having.
+
+03:26.680 --> 03:32.800
+Well now I'd like to add the event listener so I'm going to say now button since I have already selected
+
+03:33.250 --> 03:39.460
+my button and I'm going to say nav button I would like to add a listener and the avowed event listener
+
+03:39.460 --> 03:42.490
+is going to be click here we're gonna write a function.
+
+03:42.490 --> 03:44.780
+Now I'm going to use the euro function here.
+
+03:45.040 --> 03:47.350
+I'm gonna say that within the area of function.
+
+03:47.410 --> 03:52.750
+Now I'd like to target the number and I would like to add the class of show now.
+
+03:52.750 --> 03:58.660
+Now what was the add of class of show love where this translated back to the normal state not normal
+
+03:58.660 --> 04:04.450
+state was on a small screen covering the whole thing and on the bigger one it's just gonna be spanning
+
+04:04.450 --> 04:06.620
+like 20 or 30 of you.
+
+04:06.910 --> 04:13.390
+So here we can just say like this one and say nav bar class list we're going to be adding the class
+
+04:13.390 --> 04:16.130
+name is gonna be show now.
+
+04:16.570 --> 04:19.640
+So this is gonna be a setup that's gonna be the first thing.
+
+04:19.760 --> 04:24.820
+And now it may copy and pasted and with the close button we're gonna do the opposite.
+
+04:24.830 --> 04:31.710
+Let me say here now button not button but nav close and I would like to remove.
+
+04:31.780 --> 04:39.250
+So instead of hiring we all just gonna write to remove and hopefully this is gonna work out so we can
+
+04:39.250 --> 04:42.810
+either just drill here on a small one and it's not working.
+
+04:42.880 --> 04:48.160
+And the reason why it's not working is because we also need to go back to indexation amount since we
+
+04:48.160 --> 04:49.770
+have created the objectors.
+
+04:49.870 --> 04:51.760
+We also need to link it.
+
+04:51.820 --> 04:54.410
+So in this case we're going to head over to the body.
+
+04:54.400 --> 04:58.150
+We're gonna say that we need to use the script the same how used for remains.
+
+04:58.150 --> 05:03.280
+Yes yes we're styling we need to use for JavaScript and I'm going to call this up jazz.
+
+05:03.280 --> 05:04.890
+Hopefully this is gonna work.
+
+05:04.930 --> 05:09.970
+Now we're going to refresh the page and obviously I can see the number because on a click on a button
+
+05:10.420 --> 05:15.430
+and what happens is I'm adding and removing that class and the moment I'm going to click this guy then
+
+05:15.430 --> 05:20.800
+the class is gonna be removed while you want to see it a little bit more an example meaning in maybe
+
+05:20.800 --> 05:26.260
+a little bit more detail we can again refresh maybe we can click on inspect.
+
+05:26.270 --> 05:29.070
+We already know we can go for browser tools.
+
+05:29.180 --> 05:32.790
+And now what happens is first I would like to look for a number.
+
+05:33.230 --> 05:39.540
+So notice I have the NAV and now has what class of Nambour and then I'm gonna be targeting this number.
+
+05:39.620 --> 05:44.620
+The moment I'm gonna click it you'll notice that the show nav class is gonna be added to that network.
+
+05:44.720 --> 05:45.560
+Check this out.
+
+05:45.590 --> 05:51.070
+Now I have never with the class of show of no what is the class of show number.
+
+05:51.090 --> 05:52.740
+Well this is this translating.
+
+05:52.790 --> 05:54.160
+You can also see it actually.
+
+05:54.200 --> 05:55.610
+Here we can see that.
+
+05:55.610 --> 05:59.300
+Let's say for a number I'm going to click on a number I have right now.
+
+05:59.330 --> 05:59.990
+What.
+
+05:59.990 --> 06:05.630
+Well I have this translate but the moment as I'm clicking on them first of all I have the translate
+
+06:05.720 --> 06:06.750
+by hundred.
+
+06:06.890 --> 06:12.770
+But the moment we click it this is being removed because we are adding this class and in a nutshell
+
+06:12.800 --> 06:18.000
+this is how we're gonna be able to add the our functionality for our number.
+
+06:18.290 --> 06:24.440
+And again if you got stuck or something or anything like that please head over to resources and just
+
+06:24.440 --> 06:27.530
+download the code that everything is already set up for you.

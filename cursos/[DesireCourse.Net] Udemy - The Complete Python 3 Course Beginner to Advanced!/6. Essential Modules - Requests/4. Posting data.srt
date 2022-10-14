@@ -1,0 +1,200 @@
+1
+
+00:00:00,000  -->  00:00:04,710
+So far we've been using the requests
+package to the extent of getting data,
+
+2
+
+00:00:04,710  -->  00:00:10,620
+but what happens if we actually want to
+post data? So, when you build an HTML form
+
+3
+
+00:00:10,620  -->  00:00:17,670
+there's two types of ways that the form
+can submit, basically there's a get and
+
+4
+
+00:00:17,670  -->  00:00:24,060
+post. Let's say you have a forum with
+name and email address setup, and the
+
+5
+
+00:00:24,060  -->  00:00:31,500
+names of each input is name and email. If
+you set the form type to get. then
+
+6
+
+00:00:31,500  -->  00:00:35,820
+basically what's going to happen is when
+you hit submit all of the parameters are
+
+7
+
+00:00:35,820  -->  00:00:40,590
+going to be added to the URL similar to
+how we did the to get request on Bing
+
+8
+
+00:00:40,590  -->  00:00:46,410
+for images last time, or a search query.
+So that's a get request, basically they
+
+9
+
+00:00:46,410  -->  00:00:50,640
+go into the URL, but a post request
+is not shown in the URL so it's
+
+10
+
+00:00:50,640  -->  00:00:55,110
+information that's sent in the headers
+only. So we can actually use the requests
+
+11
+
+00:00:55,110  -->  00:00:59,520
+package to do that. So let's go ahead and
+open up
+
+12
+
+00:00:59,520  -->  00:01:05,460
+PyCharm here, let's remove this we
+actually don't need anything except
+
+13
+
+00:01:05,460  -->  00:01:10,290
+requests for this, and let me open up
+Safari. So I have found a page that has a
+
+14
+
+00:01:10,290  -->  00:01:18,600
+simple form and it posts to I think
+itself, does it post to itself? No, it posts to
+
+15
+
+00:01:18,600  -->  00:01:21,810
+welcome.php, so this is the URL that we
+need.
+
+16
+
+00:01:23,880  -->  00:01:32,909
+So let's go ahead and create a request, so 
+r = requests.post" So this time we
+
+17
+
+00:01:32,909  -->  00:01:38,040
+are not using get, we're using post. Going
+to enter the URL here that we want to
+
+18
+
+00:01:38,040  -->  00:01:44,820
+post to, and then we're going to add in
+the data. So, data is going to be equal to
+
+19
+
+00:01:44,820  -->  00:01:59,939
+my data "data=mydata" Let's go ahead and create "my_data = " and I believe that the two inputs
+
+20
+
+00:01:59,939  -->  00:02:04,560
+here are named name and email, as my example, they are name and email so let's go
+
+21
+
+00:02:04,560  -->  00:02:07,560
+ahead and add a name and email.
+
+22
+
+00:02:11,480  -->  00:02:22,970
+So "{"name": "Nick"," and
+
+23
+
+00:02:22,970  -->  00:02:25,970
+"email": "nick@example.com"}"
+
+24
+
+00:02:28,220  -->  00:02:32,540
+So these are the two variables that
+we're gonna be sending in a post format
+
+25
+
+00:02:32,540  -->  00:02:37,940
+to this URL which is welcome.php,
+and we're actually going to capture the
+
+26
+
+00:02:37,940  -->  00:02:43,879
+response so let's go ahead and actually
+just save it into, do we have an HTML file?
+
+27
+
+00:02:43,879  -->  00:02:49,430
+Let's just save it into an HTML file. So,
+let's go ahead and open, actually,
+
+28
+
+00:02:49,430  -->  00:02:59,629
+"f = open("myfile.html", "w+")" and "f.write" and we're going to write
+
+29
+
+00:02:59,629  -->  00:03:10,400
+"(r.txt)" Let's go ahead and save
+this and then run the file, and what
+
+30
+
+00:03:10,400  -->  00:03:15,980
+we're going to get is this myfile.html. Now where PHP is rendered on the
+
+31
+
+00:03:15,980  -->  00:03:20,900
+server side we should get this page that
+says Welcome Nick, Your email address is:
+
+32
+
+00:03:20,900  -->  00:03:28,370
+nick@example.co, and that's the same as if we enter that information here, I just cannot
+
+33
+
+00:03:28,370  -->  00:03:33,139
+spell my name is today, you'll see that
+that's the exact same thing. So that's a
+
+34
+
+00:03:33,139  -->  00:03:37,849
+way to post specific data to URL, and
+that's going to be useful if you're
+
+35
+
+00:03:37,849  -->  00:03:39,500
+working with API's and whatnot.

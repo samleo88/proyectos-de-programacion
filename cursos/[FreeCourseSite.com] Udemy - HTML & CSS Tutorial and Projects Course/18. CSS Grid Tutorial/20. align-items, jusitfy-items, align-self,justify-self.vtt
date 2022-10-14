@@ -1,0 +1,163 @@
+WEBVTT
+
+00:00.380 --> 00:07.710
+And similarly how we can align items themselves whether that's horizontally and vertically we can also
+
+00:07.770 --> 00:10.790
+align the content within the items.
+
+00:10.890 --> 00:18.150
+Now in order to cover that one I'm going to do right now in fact again use our favor repeat function
+
+00:18.780 --> 00:22.350
+and the way I'm going to set this up is following.
+
+00:22.350 --> 00:27.630
+So I'm gonna write repeat I would like to have three columns all of them are going to be one fraction
+
+00:27.830 --> 00:28.140
+like.
+
+00:28.190 --> 00:31.200
+So let's do the same thing with a row.
+
+00:31.300 --> 00:37.920
+But of course let's just change it to a two rows two rows and each of them is going to be one fraction
+
+00:38.550 --> 00:44.760
+and then if you'd like to work with the content within the items vertically we're going to use the line
+
+00:44.970 --> 00:45.780
+items.
+
+00:45.790 --> 00:52.230
+Then we have also justified items for the horizontal one and then we can move the actual individual
+
+00:52.230 --> 00:54.510
+content within the item.
+
+00:54.510 --> 01:00.180
+Now I'm not going to cover all the values because again we are already repeating ourselves but we're
+
+01:00.180 --> 01:02.210
+just going to go over these basics.
+
+01:02.340 --> 01:05.450
+So let's write let's say a line items.
+
+01:05.460 --> 01:08.100
+So this should be a vertical alignment.
+
+01:08.160 --> 01:12.620
+So if I'm gonna set this up to a center you're going to notice something interesting.
+
+01:12.720 --> 01:19.570
+We're right now in fact the content within the item is sitting in the center.
+
+01:20.010 --> 01:26.700
+Now in order to show that I am going to go over and we're going to take a look at the dev tools so let's
+
+01:26.700 --> 01:36.000
+inspect and let's look at our grid and you're going to notice that we still have our actual cell that
+
+01:36.000 --> 01:42.500
+is using one fraction whether that is a column and then one fraction that is using as a rule.
+
+01:42.550 --> 01:47.850
+Okay but the content within the row right now is vertically aligned in the center.
+
+01:48.180 --> 01:50.110
+So that would be a distinction.
+
+01:50.130 --> 01:54.570
+Now we also have of course the value of let's say flex.
+
+01:54.630 --> 01:59.820
+And so now we're placing the content all the way in the end and place it in the start.
+
+01:59.940 --> 02:05.400
+And you get an idea now similarly how we have a line items.
+
+02:05.400 --> 02:07.910
+We also have justify hand items.
+
+02:07.920 --> 02:13.820
+So what I could do here is I can justify my items and let's say center.
+
+02:13.890 --> 02:15.690
+So what's going to happen right now.
+
+02:15.690 --> 02:17.590
+Again let's head over to the bigger screen.
+
+02:17.700 --> 02:20.080
+Again we still have our grid.
+
+02:20.280 --> 02:20.730
+Correct.
+
+02:20.730 --> 02:27.140
+So we still have ourselves but the actual content within the cell has been shifted.
+
+02:27.540 --> 02:33.030
+So now it is sitting actually in a center all the way in the top because we have the Flex start and
+
+02:33.030 --> 02:36.630
+then we have a justify item's value of center.
+
+02:36.630 --> 02:42.360
+And if you'd like to look at the values of course there right here like sand like start and so on and
+
+02:42.360 --> 02:43.530
+so forth.
+
+02:43.740 --> 02:51.060
+Now I'm going to go with let's say flex start and we also have justified cell and a line cell for single
+
+02:51.060 --> 02:51.690
+item.
+
+02:51.780 --> 02:57.890
+So let's say I would like to change my positioning for the content within the cell number one.
+
+02:58.080 --> 02:59.710
+So let's select cell number one.
+
+02:59.820 --> 03:01.000
+That's number one.
+
+03:01.140 --> 03:09.540
+And then why do we say justify self and why don't we go then let's say something like that.
+
+03:09.540 --> 03:14.890
+So now my content has been shifted to the right hand side like so.
+
+03:14.910 --> 03:20.220
+And again we can head over here and we can see that it is still sitting within our cell but now we're
+
+03:20.220 --> 03:22.430
+talking about the content itself.
+
+03:22.440 --> 03:23.090
+OK.
+
+03:23.130 --> 03:29.390
+Our text and of course I can move it all the way to let's say bottom OK where instead of the line items
+
+03:29.410 --> 03:39.690
+flex start I could say align self and I'm going to go with a flex and like so now my content is setting
+
+03:39.990 --> 03:41.550
+all the way in the bottom.
+
+03:41.550 --> 03:47.480
+So that's how we can in fact control the individual item content.
+
+03:47.850 --> 03:54.410
+So whatever we have within the actual item we can also control it by using a line items just for items
+
+03:54.930 --> 04:01.380
+or if we would like to control the specific item we can use justify self as well as a line.
+
+04:01.460 --> 04:01.890
+Self.

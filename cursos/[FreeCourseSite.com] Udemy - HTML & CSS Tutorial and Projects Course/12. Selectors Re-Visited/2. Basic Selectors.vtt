@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.230 --> 00:00.790
+All right.
+
+00:00.810 --> 00:05.580
+Why don't we start with the basics that we already have covered all through our discourse.
+
+00:05.880 --> 00:08.400
+But it's kind of important starting point.
+
+00:08.400 --> 00:12.980
+So let's say within the age the amount we're going to say there's going to be heading and I'm going
+
+00:12.980 --> 00:15.480
+to purposely name them exactly the same.
+
+00:15.480 --> 00:17.590
+Just so we can kind of see the difference.
+
+00:17.590 --> 00:21.840
+So I'm going to say there's going to be heading one with an idea of heading and I'm going to call this
+
+00:21.900 --> 00:30.420
+I am I.D. heading so extremely simple and we'll get a copy and paste this line and we're going to write
+
+00:30.420 --> 00:33.410
+that not there's going to be heading with an I.D..
+
+00:33.740 --> 00:40.270
+There is going to be instead of glass and here we can just write a last hearing again just so we can
+
+00:40.270 --> 00:43.060
+see that there's obviously going to be a difference with selections.
+
+00:43.270 --> 00:50.520
+And you know what last but not least let's add a little tiny paragraph with a hello world in it.
+
+00:50.740 --> 00:52.050
+So far so good.
+
+00:52.060 --> 00:56.820
+Now what's happening in the CSI as we already know what basic selectors we can use.
+
+00:56.890 --> 01:02.080
+So let's say if want to select them all I can just say selection of all and we're going to be looking
+
+01:02.080 --> 01:06.170
+for the color red now all of them are going to be with a color red.
+
+01:06.220 --> 01:11.220
+We can also select the 80 and I can say for the I.D. I would want one.
+
+01:11.220 --> 01:15.940
+Well first of all I would need to have the hash tag then I would need the name of the I.D. and then
+
+01:15.940 --> 01:20.400
+let's add maybe different font size 40 pixels is gonna be good enough.
+
+01:20.530 --> 01:22.860
+Then we have text transform property also.
+
+01:22.990 --> 01:26.580
+So let's transform it to uppercase.
+
+01:26.710 --> 01:28.950
+So this is gonna be my upper case dude.
+
+01:29.060 --> 01:29.890
+And you know what.
+
+01:29.890 --> 01:31.130
+Let's change the color.
+
+01:31.150 --> 01:32.760
+So here we would like to change the color.
+
+01:33.100 --> 01:35.990
+And we already know that there is gonna be specificity.
+
+01:36.010 --> 01:44.470
+So even though we selected all the elements and added color red since this is more specific we are overriding
+
+01:44.680 --> 01:49.480
+the property value that we had with a less specific selector.
+
+01:49.480 --> 01:50.940
+Now we can also use the class.
+
+01:50.950 --> 01:56.890
+And again this would be the difference that if with an idea we had a hashtag with class we always need
+
+01:56.890 --> 01:57.900
+to use the dot.
+
+01:57.940 --> 02:03.240
+And even though they're named the same they're going gonna perform the completely opposite because we're
+
+02:03.250 --> 02:04.780
+gonna be adding different styles here.
+
+02:05.200 --> 02:08.950
+So let's say font size is gonna be instead 20 pixels.
+
+02:09.010 --> 02:10.640
+So this is going to be simple.
+
+02:10.840 --> 02:17.740
+Then text transform going to be looking for the capitalization as well as let's add the color green.
+
+02:17.740 --> 02:19.660
+And again more specific.
+
+02:19.780 --> 02:25.340
+So we will gonna be up overwriting this whatever value we had with universal selective.
+
+02:25.390 --> 02:32.500
+Now last but not least we had the element selector where we can just write a letter spacing it is gonna
+
+02:32.500 --> 02:34.050
+be I don't know 20 pixels.
+
+02:34.300 --> 02:39.310
+Again basics that we have covered but it's important to keep them in mind.
+
+02:39.310 --> 02:41.290
+So just in case we wouldn't forget them.

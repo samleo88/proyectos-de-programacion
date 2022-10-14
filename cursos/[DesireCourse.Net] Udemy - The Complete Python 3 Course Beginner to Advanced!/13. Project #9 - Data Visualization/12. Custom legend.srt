@@ -1,0 +1,369 @@
+1
+
+00:00:00,000  -->  00:00:04,470
+So we've got a functional chart now. If I run
+
+2
+
+00:00:04,470  -->  00:00:07,259
+this you'll see that it has specific
+
+3
+
+00:00:07,259  -->  00:00:09,960
+numbers, it's got colors, it's got bars,
+
+4
+
+00:00:09,960  -->  00:00:12,150
+it's got everything we want, and it's even got
+
+5
+
+00:00:12,150  -->  00:00:13,980
+a legend so that we can actually tell
+
+6
+
+00:00:13,980  -->  00:00:15,990
+which one is which, which is good but
+
+7
+
+00:00:15,990  -->  00:00:17,820
+this overlaps the chart, and so we're
+
+8
+
+00:00:17,820  -->  00:00:20,039
+going to be talking in this video a bit
+
+9
+
+00:00:20,039  -->  00:00:21,960
+about how to style this legend and how
+
+10
+
+00:00:21,960  -->  00:00:25,170
+to move it around. So, for instance, you
+
+11
+
+00:00:25,170  -->  00:00:26,970
+can change the edge color and the face
+
+12
+
+00:00:26,970  -->  00:00:30,570
+color of this legend just by using those
+
+13
+
+00:00:30,570  -->  00:00:32,940
+arguments, keyword arguments. So I'm going
+
+14
+
+00:00:32,940  -->  00:00:39,480
+to set the edge color to red so we can
+
+15
+
+00:00:39,480  -->  00:00:41,370
+see it clear, and I'm going to set face
+
+16
+
+00:00:41,370  -->  00:00:47,520
+color equal to a lighter red. I'm going
+
+17
+
+00:00:47,520  -->  00:00:49,230
+to save this and run the application again,
+
+18
+
+00:00:49,230  -->  00:00:52,800
+and you're going to see that what it has
+
+19
+
+00:00:52,800  -->  00:00:54,870
+done is exactly what I told it to. It's
+
+20
+
+00:00:54,870  -->  00:00:58,230
+changed the border color to red and then
+
+21
+
+00:00:58,230  -->  00:01:01,289
+the internal color to to a lighter shade
+
+22
+
+00:01:01,289  -->  00:01:03,660
+of red, but we don't want to do that. We
+
+23
+
+00:01:03,660  -->  00:01:11,250
+want to set the edge color to none, and
+
+24
+
+00:01:11,250  -->  00:01:15,450
+shadow to none, we want to set shadow as
+
+25
+
+00:01:15,450  -->  00:01:22,170
+well. So shadow equals false. Now if we
+
+26
+
+00:01:22,170  -->  00:01:25,560
+reset this, we still got the shadow it looks
+
+27
+
+00:01:25,560  -->  00:01:31,920
+like. I'm going to remove face color
+
+28
+
+00:01:31,920  -->  00:01:34,430
+here...
+
+29
+
+00:01:38,510  -->  00:01:40,850
+it definitely still does have that
+
+30
+
+00:01:40,850  -->  00:01:44,180
+shadow there. What we're going to do
+
+31
+
+00:01:44,180  -->  00:01:46,580
+we're going to set the frame to none so
+
+32
+
+00:01:46,580  -->  00:01:48,380
+basically you can turn on or off the
+
+33
+
+00:01:48,380  -->  00:01:50,810
+frame, and the frame is basically the
+
+34
+
+00:01:50,810  -->  00:01:52,670
+border of the background and the shadow.
+
+35
+
+00:01:52,670  -->  00:01:58,220
+So if I set the keyword frameon to
+
+36
+
+00:01:58,220  -->  00:02:01,250
+false, and then restart the application,
+
+37
+
+00:02:01,250  -->  00:02:04,010
+you're going to see that now there's
+
+38
+
+00:02:04,010  -->  00:02:06,200
+nothing behind it, which is alright
+
+39
+
+00:02:06,200  -->  00:02:08,810
+except for the fact that it doesn't look
+
+40
+
+00:02:08,810  -->  00:02:11,570
+right. So what we're going to do is
+
+41
+
+00:02:11,570  -->  00:02:13,340
+we're now going to change the position
+
+42
+
+00:02:13,340  -->  00:02:16,040
+to put it outside that corner, and how
+
+43
+
+00:02:16,040  -->  00:02:17,600
+you're going to do that is using the
+
+44
+
+00:02:17,600  -->  00:02:21,920
+lok, or the location keyword, and you're
+
+45
+
+00:02:21,920  -->  00:02:24,890
+going to use a string or a tuple. So if I
+
+46
+
+00:02:24,890  -->  00:02:26,690
+scroll down here you're going to see
+
+47
+
+00:02:26,690  -->  00:02:30,530
+these are the codes that you can use. So
+
+48
+
+00:02:30,530  -->  00:02:35,120
+you can set location equal to 3, 2, 1, etc.,
+
+49
+
+00:02:35,120  -->  00:02:41,450
+and I'm going to set mine to 2, and this
+
+50
+
+00:02:41,450  -->  00:02:44,540
+is going to put it outside of the actual
+
+51
+
+00:02:44,540  -->  00:02:47,540
+chart, actually inside the actual chart,
+
+52
+
+00:02:47,540  -->  00:02:50,330
+because what we also need to do is
+
+53
+
+00:02:50,330  -->  00:02:52,850
+bboxed_to_anchor. This one's a little
+
+54
+
+00:02:52,850  -->  00:02:55,730
+more complicated but basically it tells
+
+55
+
+00:02:55,730  -->  00:02:59,750
+it where to anchor it to. So, bbox_
+
+56
+
+00:02:59,750  -->  00:03:02,930
+to_anchor, mine is going to be equal to a
+
+57
+
+00:03:02,930  -->  00:03:05,360
+tuple, and this is going to be 1, 1, and
+
+58
+
+00:03:05,360  -->  00:03:07,489
+you're going to see that this
+
+59
+
+00:03:07,489  -->  00:03:10,459
+combination now puts it outside the
+
+60
+
+00:03:10,459  -->  00:03:16,760
+right hand side. So if we look at, where is that,
+
+61
+
+00:03:16,760  -->  00:03:19,700
+bbox_to_anchor, so it's a box base
+
+62
+
+00:03:19,700  -->  00:03:23,480
+instance. So, left, bottom, width, and height.
+
+63
+
+00:03:23,480  -->  00:03:25,940
+So we're not worrying about width and
+
+64
+
+00:03:25,940  -->  00:03:27,260
+height at this point, we're worrying about
+
+65
+
+00:03:27,260  -->  00:03:33,290
+left and bottom which we're setting. So that's
+
+66
+
+00:03:33,290  -->  00:03:35,780
+a little bit about how to modify the
+
+67
+
+00:03:35,780  -->  00:03:37,580
+legend, and if you guys want to try out
+
+68
+
+00:03:37,580  -->  00:03:39,680
+all of these keywords you definitely can.
+
+69
+
+00:03:39,680  -->  00:03:41,870
+You can set the color, the font size, the
+
+70
+
+00:03:41,870  -->  00:03:44,630
+marker, you know you can set all those,
+
+71
+
+00:03:44,630  -->  00:03:47,269
+the border padding, etc. So, go ahead and
+
+72
+
+00:03:47,269  -->  00:03:48,530
+experiment with that and we're going to
+
+73
+
+00:03:48,530  -->  00:03:49,780
+be making this chart better
+
+74
+
+00:03:49,780  -->  00:03:52,680
+in the next video as well.

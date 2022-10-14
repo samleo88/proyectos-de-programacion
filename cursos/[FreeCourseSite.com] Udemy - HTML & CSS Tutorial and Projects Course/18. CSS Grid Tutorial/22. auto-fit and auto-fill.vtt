@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.200 --> 00:06.000
+Now lastly I would like to talk about the auto fill an auto fit values.
+
+00:06.000 --> 00:14.160
+And again those are going to be the values that will help you to in fact set up your CSX grid without
+
+00:14.250 --> 00:16.180
+using media queries.
+
+00:16.220 --> 00:22.020
+And again I'm going to repeat myself but we are going to cover that in more detail with more realistic
+
+00:22.020 --> 00:27.670
+example with cards when we're gonna of work with our CSX mini project.
+
+00:28.020 --> 00:35.310
+But I would want to cover at least the basics of what would be the use for on a file as well as all
+
+00:35.310 --> 00:35.890
+of it.
+
+00:36.030 --> 00:41.320
+And notice how I kept here the comma enough keeps creating and only.
+
+00:41.490 --> 00:44.780
+And you're going to see what that means in Sec.
+
+00:45.000 --> 00:48.710
+And maybe maybe you'll let me write only fits.
+
+00:49.080 --> 00:50.210
+Something like that.
+
+00:50.280 --> 00:56.370
+Now first of all what I would like to do is get rid of what we had here before and you know what I think
+
+00:56.370 --> 01:02.450
+I can just delete the great template rose but I'm going to leave the columns.
+
+01:02.520 --> 01:08.970
+So let's imagine this scenario where I would want to have let's say a three column layer.
+
+01:09.630 --> 01:13.630
+Now the thing is I do have six items OK.
+
+01:14.250 --> 01:19.080
+And yes I could also obviously create here six columns.
+
+01:19.380 --> 01:23.580
+But what if I don't know how many items I'm going to have.
+
+01:23.580 --> 01:29.520
+So let's imagine a very simple scenario where you are getting something back from the database and you
+
+01:29.520 --> 01:35.530
+don't know whether that is going to be out on all three items 40 items or 60 items.
+
+01:35.550 --> 01:41.790
+So there has to be some kind of better way where I'm not limited to just setting up three columns because
+
+01:41.790 --> 01:46.180
+in my case I have six items or maybe have nine or 20 or something like that.
+
+01:46.350 --> 01:50.680
+So maybe I would want to align all of them in one row.
+
+01:50.730 --> 01:53.430
+Well there's not possible right now currently right.
+
+01:53.430 --> 01:55.980
+Because even though I go to the bigger screen size.
+
+01:56.190 --> 02:02.850
+Well I'm not going to be able to fit them in one screen because I have three columns and then grid is
+
+02:02.850 --> 02:07.290
+smart enough to keep on creating this implicit grid.
+
+02:07.320 --> 02:09.510
+Now what would be the solution.
+
+02:09.510 --> 02:12.600
+Well you could say OK so we have our repeat function.
+
+02:12.600 --> 02:18.240
+So I could run the repeat function and then within a repeat function I could say you know what.
+
+02:18.360 --> 02:24.510
+Instead of creating three columns create six columns and then I don't know.
+
+02:24.510 --> 02:28.020
+Again we can load one fraction or we can go with two hundred pixels.
+
+02:28.140 --> 02:31.290
+It doesn't matter what I'm talking about right now is that.
+
+02:31.770 --> 02:33.160
+Once we set this up.
+
+02:33.270 --> 02:40.590
+Now I have my one column layout meaning I have one column and it is all sitting within the one row.
+
+02:40.650 --> 02:45.960
+But again we need to keep guessing of how many items we're going to have.
+
+02:45.960 --> 02:48.400
+So if I'm going to say let's say five.
+
+02:48.630 --> 02:50.180
+If I'm gonna be wrong.
+
+02:50.220 --> 02:56.820
+Notice my sixth item is gonna be sitting here on the next row reason's very symbol because I only set
+
+02:56.820 --> 02:58.370
+up five columns.
+
+02:58.470 --> 03:05.760
+So there has to be a way where I could just set up the columns as many items as I have.
+
+03:05.760 --> 03:13.200
+And the way we do that is in fact using the order fill or off it and you're going to see in a second
+
+03:13.470 --> 03:14.700
+one in fact that means.
+
+03:15.030 --> 03:20.910
+So what we could do here is use the audiophile and now let's notice something interesting.
+
+03:20.910 --> 03:27.540
+So as the screen size gets smaller we are creating more columns correct because we are there's no way
+
+03:27.540 --> 03:31.160
+for us to fit those two hundred pixels in one row.
+
+03:31.260 --> 03:34.290
+But as our screen size gets bigger.
+
+03:34.290 --> 03:36.780
+In fact we can't fit them in one row.
+
+03:36.880 --> 03:38.840
+And this is exactly what we're doing.
+
+03:38.880 --> 03:45.990
+And by the time you get to a bigger screen size where you could fit all of them in one row in fact they're
+
+03:45.990 --> 03:51.030
+going to behave exactly the same because notice as the screen says get smaller.
+
+03:51.030 --> 03:53.490
+Well we just start creating our rows.
+
+03:53.640 --> 04:01.800
+But then as we are able to fit them in one row while we just fit them in one row no difference is going
+
+04:01.800 --> 04:04.830
+to be once we are able to fit them in one row.
+
+04:04.950 --> 04:09.680
+What happens whether we're using the audiophile or all of it.
+
+04:09.720 --> 04:16.920
+Now what happens with audiophile as you can see clearly when we're using our developer tools we just
+
+04:16.920 --> 04:18.980
+keep on creating columns.
+
+04:18.990 --> 04:22.720
+Now we don't see anything here because obviously we don't have the atoms.
+
+04:22.770 --> 04:28.150
+So if let's say I'm going to keep on adding the atoms we're going to be able to see these items.
+
+04:28.170 --> 04:33.590
+But even if we don't have the atom we still have space here for this particular column.
+
+04:33.630 --> 04:37.290
+Now if we're going to use the auto fit.
+
+04:37.300 --> 04:38.700
+So instead of auto fill.
+
+04:39.000 --> 04:40.820
+So as you see it only fits.
+
+04:40.980 --> 04:47.730
+And I'm going to delete the last two items you're going to notice that instead we don't have these extra
+
+04:47.730 --> 04:48.510
+columns.
+
+04:48.630 --> 04:55.830
+So we are only creating as many columns as we would want meaning as many items we currently have.
+
+04:55.830 --> 05:03.430
+So if I have let's say from the database six items coming well I'm just going to set up my six columns.
+
+05:03.430 --> 05:07.870
+Now keep in mind though this needs to fit within that screen.
+
+05:07.870 --> 05:14.470
+So if I'm gonna say let's say 700 then of course I'm going to have more lines because I can fit only
+
+05:14.470 --> 05:16.120
+700 700.
+
+05:16.150 --> 05:18.190
+And then I need to go to the next line.
+
+05:18.220 --> 05:25.690
+So like I keep saying they only differ once you get to the screen size where you can fit all your items
+
+05:25.990 --> 05:27.610
+within one row.
+
+05:27.610 --> 05:29.380
+Now why that is important.
+
+05:29.380 --> 05:34.600
+Well because what happens is not only we can use a two hundred pixels.
+
+05:34.690 --> 05:38.410
+I could also use the min max that we covered in the previous video.
+
+05:38.440 --> 05:39.850
+So how is that going to look like.
+
+05:40.330 --> 05:43.750
+Well I could say min max correct.
+
+05:43.900 --> 05:50.800
+And then I can say my minimum is going to be two hundred pixels but then my max is going to be one fraction
+
+05:51.250 --> 05:58.090
+and now noticed something really really interesting and I guess the best way to show you would be set
+
+05:58.090 --> 05:59.750
+them side by side.
+
+05:59.770 --> 06:04.360
+So first of all let me get rid of this main height for my container.
+
+06:04.360 --> 06:07.600
+So I'm just going to set them up like this.
+
+06:07.600 --> 06:16.830
+And why don't we write here maybe adding one or fill or Phil or I'm sorry that is out of it.
+
+06:16.830 --> 06:19.950
+First one that we're showing is in fact or fit.
+
+06:20.100 --> 06:28.820
+And then what I'm going to do is up and paste it like so and we're gonna change this around to or profile
+
+06:29.280 --> 06:35.470
+because the best thing is in fact to show you that side by side and my mouse battery's low.
+
+06:35.490 --> 06:36.830
+Let me speed the symbol.
+
+06:36.840 --> 06:41.120
+But so it's a container number one so I'm just repeating here.
+
+06:41.280 --> 06:47.510
+And this guy is going to be with Oroville now what I would like to do is just copy paste everything.
+
+06:47.640 --> 06:49.950
+Now I'm going to select container 1.
+
+06:50.110 --> 06:55.690
+And now let's change this value from auto fit to Oroville.
+
+06:55.780 --> 07:02.200
+And like I said when we cannot fit all of them in one rope because we have two hundred two hundred two
+
+07:02.200 --> 07:03.080
+hundred.
+
+07:03.300 --> 07:04.420
+There is no difference.
+
+07:04.590 --> 07:11.140
+But as our screen size is going to get bigger and bigger and bigger and now known as something.
+
+07:11.670 --> 07:18.280
+Now we get to that one particular screen size where we can fit all of them in one row.
+
+07:18.510 --> 07:22.880
+And then as my screen size gets bigger and bigger and bigger.
+
+07:22.950 --> 07:30.400
+Notice for our our fill it keeps on creating these columns here for the auto fit is just gonna say all
+
+07:30.410 --> 07:32.090
+right how many items I have.
+
+07:32.280 --> 07:33.210
+I have six.
+
+07:33.210 --> 07:34.740
+So my minimum is two hundred.
+
+07:34.740 --> 07:35.270
+Correct.
+
+07:35.400 --> 07:37.380
+And my max was 1 fraction.
+
+07:37.380 --> 07:44.610
+So what I'm gonna do is I'm just going to evenly spread it out mean between my six items because I have
+
+07:44.610 --> 07:51.570
+my max as one fraction how are the auto fill is gonna be like Okay so I needed my two hundred pixels.
+
+07:51.570 --> 07:52.800
+Can I fit more items.
+
+07:52.800 --> 07:53.970
+Well sure I can.
+
+07:54.210 --> 07:57.200
+So that's the reason why we keep on creating more items.
+
+07:57.300 --> 08:04.950
+Now I can tell you right away that once we get to a C says mini project you're going to see in more
+
+08:04.950 --> 08:12.120
+real life scenario when we cover with the cards with a cards column layout what would be the difference
+
+08:12.420 --> 08:17.340
+in the real world because probably you're looking like looking at the boxes right now and you're saying
+
+08:17.340 --> 08:18.840
+well what is the difference.
+
+08:18.840 --> 08:21.730
+I mean I could go with one and I can go with another one.
+
+08:21.810 --> 08:22.200
+Yeah.
+
+08:22.230 --> 08:27.490
+But just give you kind of a little clue what happens if you have one item.
+
+08:27.720 --> 08:30.410
+Are you gonna be happy with one item spanning all across.
+
+08:30.600 --> 08:38.400
+Or you would still want to keep let's say some kind of height and width so why don't we delete this
+
+08:38.760 --> 08:44.550
+and why don't we just keep with one item and you're going out is that let's say if you have one item
+
+08:44.940 --> 08:48.300
+this one still keeps this two hundred pixels.
+
+08:48.300 --> 08:50.580
+So this one just gets bigger and bigger.
+
+08:50.610 --> 08:56.630
+So if you get let's say one card back from the database would you want to display your item like this.
+
+08:56.730 --> 08:58.870
+Or would you want a day display like this.
+
+08:59.100 --> 09:03.650
+So there's gonna be a case is where you're going to settle for out of it where you would want let's
+
+09:03.680 --> 09:05.880
+say few items here of course.
+
+09:05.960 --> 09:11.040
+That is not always gonna be the case where you're going to have a one item but there's going to be cases
+
+09:11.310 --> 09:13.800
+where you would want to split them out evenly.
+
+09:13.800 --> 09:18.750
+Once you get to that one particular row and then there's gonna be cases where you're gonna be like you
+
+09:18.750 --> 09:25.950
+know it doesn't matter that I don't have more items I would still like to keep the structure that I
+
+09:25.950 --> 09:27.960
+set up all the way in the beginning.
+
+09:27.960 --> 09:35.400
+So that would be the difference between all of it and I feel like I said when we are going to set up
+
+09:35.460 --> 09:44.280
+our CSX mini project using cards and grade column loud that's when we're gonna take a look at it in
+
+09:44.280 --> 09:46.560
+more realistic detail.

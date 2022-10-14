@@ -1,0 +1,9 @@
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\bin\Debug\Tienda.Datos.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\bin\Debug\Tienda.Datos.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\bin\Debug\Tienda.Entidades.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\bin\Debug\Tienda.Entidades.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\obj\Debug\Optica.Datos.csprojAssemblyReference.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\obj\Debug\Optica.Datos.csproj.CoreCompileInputs.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\obj\Debug\Optica.Datos.csproj.CopyComplete
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\obj\Debug\Tienda.Datos.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Datos\obj\Debug\Tienda.Datos.pdb

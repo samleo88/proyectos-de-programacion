@@ -1,0 +1,256 @@
+1
+
+00:00:00,000  -->  00:00:05,069
+Hey guys, welcome back. So, now that we've learned how to actually build an
+
+2
+
+00:00:05,069  -->  00:00:07,500
+application, it's still pretty bare,
+
+3
+
+00:00:07,500  -->  00:00:10,469
+and so what we're going to be learning
+about is templates and how to use them
+
+4
+
+00:00:10,469  -->  00:00:17,160
+effectively. And so what we're going to
+do is create a template here, and it's
+
+5
+
+00:00:17,160  -->  00:00:20,609
+just going to be inside of a directory
+so let's go ahead and create a directory
+
+6
+
+00:00:20,609  -->  00:00:30,119
+called "resources" Now we're also going to be storing bootstrap here later on and
+
+7
+
+00:00:30,119  -->  00:00:34,469
+so we're just going to create a new HTML
+file in here and we're going to call it
+
+8
+
+00:00:34,469  -->  00:00:47,850
+"main" and in here let's just type, I'm
+going to type some HTML so that you guys
+
+9
+
+00:00:47,850  -->  00:00:50,850
+can see basically what this is going to
+look like.
+
+10
+
+00:00:51,420  -->  00:01:03,359
+So let's create "&lt;h1&gt;Name: $name&lt;/h1&gt;"
+and the way that you access the
+
+11
+
+00:01:03,359  -->  00:01:14,010
+variables that you pass into this is
+through the "$" there and so
+
+12
+
+00:01:14,010  -->  00:01:19,740
+what we're going to do is we need to
+actually import that into this HTML file
+
+13
+
+00:01:19,740  -->  00:01:26,130
+and you do that as "$def with (name)" and then the variables that you're going to be
+
+14
+
+00:01:26,130  -->  00:01:28,020
+capturing into this file.
+
+15
+
+00:01:28,020  -->  00:01:34,350
+Let's go ahead and remove actually all this, just write it for right now just with
+
+16
+
+00:01:34,350  -->  00:01:46,470
+HTML, and we're also going to be passing
+along an age. So, your "&lt;p&gt;Your age is $age&lt;/p&gt;"
+
+17
+
+00:01:46,470  -->  00:01:55,110
+What we need to do here is import ", age"
+variable as well. So let's go ahead and save
+
+18
+
+00:01:55,110  -->  00:02:00,810
+this. Now if we jump back over to our
+main Python file we're going to actually
+
+19
+
+00:02:00,810  -->  00:02:06,119
+have to tell Python where to find all
+our templates, so let's go ahead and type
+
+20
+
+00:02:06,119  -->  00:02:11,940
+"render = web.template.render"
+
+21
+
+00:02:12,510  -->  00:02:22,799
+and tell it to look in the "("resources/")" Now, when we create
+
+22
+
+00:02:22,799  -->  00:02:29,849
+the, when we create the function down
+here, what we actually need to do is we
+
+23
+
+00:02:29,849  -->  00:02:37,829
+need to "return render.main" and our files
+called main so we're going to put the name
+
+24
+
+00:02:37,829  -->  00:02:42,569
+of the file, and then we're going to
+capture the variables "(name, age)" in
+
+25
+
+00:02:42,569  -->  00:02:49,049
+here. Now we need to extend this a little
+further to also pass name/age into here.
+
+26
+
+00:02:49,769  -->  00:02:57,269
+So what we're going to do put another "/" and that right there  "(.*)"
+
+27
+
+00:02:58,079  -->  00:03:02,579
+We're going to go ahead and save that, so
+what we should be able to do now is
+
+28
+
+00:03:02,579  -->  00:03:08,849
+access nick/ and then my age, it's to come here it's going to run this method right
+
+29
+
+00:03:08,849  -->  00:03:12,900
+here within the index class because
+again we're telling it to look for the
+
+30
+
+00:03:12,900  -->  00:03:20,129
+index class if this URL is accessed. It's
+going to render the main HTML file,
+
+31
+
+00:03:20,129  -->  00:03:22,199
+and let's just run it and see,
+
+32
+
+00:03:22,199  -->  00:03:31,530
+stop that there, run it again, we're
+say that as you can see this is
+
+33
+
+00:03:31,530  -->  00:03:38,340
+Name: Nick, Your age is 27. So just a little
+note if you're wondering how can we get
+
+34
+
+00:03:38,340  -->  00:03:42,030
+them in these names if we're not
+specifying the name of each variable,
+
+35
+
+00:03:42,030  -->  00:03:46,709
+this is going to be the first argument
+here, and this is going to become the
+
+36
+
+00:03:46,709  -->  00:03:48,449
+second argument here.
+
+37
+
+00:03:48,449  -->  00:03:53,669
+So, again, if we wanted a third one we'd
+have to pass them in the same order into
+
+38
+
+00:03:53,669  -->  00:04:00,510
+this function in order to name them and
+then use them elsewhere. Now, again we're
+
+39
+
+00:04:00,510  -->  00:04:04,560
+going to define this with these two
+variables, so you need to name the
+
+40
+
+00:04:04,560  -->  00:04:09,629
+variables that you're pushing into this
+render method, you need to push those
+
+41
+
+00:04:09,629  -->  00:04:14,790
+down to the HTML file, and then use them
+by using dollar side proceeding that
+
+42
+
+00:04:14,790  -->  00:04:20,880
+variable name. And that is how to
+get a basic template setup and we're
+
+43
+
+00:04:20,880  -->  00:04:23,610
+going to be following this a little
+further as well, actually what we're
+
+44
+
+00:04:23,610  -->  00:04:25,340
+going to be doing we're going to be
+setting up
+
+45
+
+00:04:25,340  -->  00:04:30,169
+Mongo to this web application that we're creating.

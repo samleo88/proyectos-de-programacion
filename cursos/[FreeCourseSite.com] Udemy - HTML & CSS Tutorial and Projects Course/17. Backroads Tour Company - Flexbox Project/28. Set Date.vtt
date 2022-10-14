@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.150 --> 00:07.320
+And we're going to start very simply by in fact adding our date dynamically no all the way in the bottom
+
+00:07.350 --> 00:08.520
+in the footer.
+
+00:08.520 --> 00:11.560
+We have the date now when I say date.
+
+00:11.580 --> 00:20.700
+I mean of course the year when this website was created and I just hardcoded first to 2019 here and
+
+00:20.700 --> 00:26.790
+what I would like to do is depending on which year we currently have we're going to showcase that.
+
+00:26.790 --> 00:36.420
+Also in the project meaning even if the year is let's say 2020 20 to 25 2015 is a matter we're going
+
+00:36.420 --> 00:40.830
+to right away use the javascript core functionality to showcase the proper date.
+
+00:41.220 --> 00:44.720
+So in my case I would like to delete the 2019.
+
+00:44.740 --> 00:46.480
+And that is going to be my start.
+
+00:46.500 --> 00:49.860
+And as you can see in the footer now I have the empty space.
+
+00:49.860 --> 00:57.030
+Again just please make sure that your I.D. is in fact as the value for the date.
+
+00:57.090 --> 01:03.070
+Now once we have this particular setup then I would like to head over back to AB J.S. first of all let
+
+01:03.080 --> 01:09.050
+just write a function by the name of console log and let's write Hello world.
+
+01:09.060 --> 01:14.670
+Now the reason why I'm typing in this function is I'm going to head over back to indexation Schimmel
+
+01:15.020 --> 01:18.600
+and remember when we had a comment for JavaScript.
+
+01:18.990 --> 01:24.130
+So now I'd like to use the script tags and the syntax is in fact following.
+
+01:24.290 --> 01:31.290
+So the same way how we used LINQ when we needed to have our style sheet remember we had a link that
+
+01:31.290 --> 01:35.510
+relationship as well as where these assets are sitting.
+
+01:35.540 --> 01:41.100
+Same we are doing with a javascript where for adjustable we're using these script tags.
+
+01:41.250 --> 01:43.910
+So we say script tags then the source.
+
+01:43.920 --> 01:47.660
+So this is going to be the path where the file is located.
+
+01:47.910 --> 01:50.130
+And yeah this is how we're gonna do it.
+
+01:50.160 --> 01:55.740
+So remember we have the app J.S. sitting within the s folder.
+
+01:55.970 --> 02:00.500
+So first of all let's not get to the Dress folder and then we have the app.
+
+02:00.750 --> 02:01.810
+We save that.
+
+02:01.950 --> 02:08.790
+And now if we right click it and click on inspect and instead of looking for the elements we're going
+
+02:08.790 --> 02:13.440
+to look at in the console and in the console you should have the hello world.
+
+02:13.440 --> 02:19.380
+Now the reason why we're doing that is because I want to make sure that in fact you have connected to
+
+02:19.440 --> 02:26.370
+a proper file because there's cases where you do some kind of functionality and you're looking for the
+
+02:26.380 --> 02:33.120
+errors because nothing is in fact working but in fact the error is not the code itself it's the fact
+
+02:33.120 --> 02:38.010
+that you have not properly provided the path for your file.
+
+02:38.310 --> 02:44.250
+So if you're having a console hello world you're good to go and we can start by setting up our date.
+
+02:44.700 --> 02:50.610
+Now what I'm going to do is in fact I'm going to add a comment of testing file and I'm just going to
+
+02:50.610 --> 02:53.280
+comment this out just for your reference.
+
+02:53.280 --> 02:53.840
+All right.
+
+02:54.000 --> 03:01.530
+Now first of all let me set up my comments and I'm going to use stars again and I'm going to write set
+
+03:01.830 --> 03:05.220
+date and we're going to add some more stars.
+
+03:05.310 --> 03:11.220
+So that is going to be our first step by setting up the date and first and foremost I would like to
+
+03:11.220 --> 03:15.480
+create a variable and again I apologize guys but this is not a jobs of course.
+
+03:15.480 --> 03:20.210
+So I'm not going to go over what this means setting up the variable or anything like that.
+
+03:20.220 --> 03:23.910
+All right so I'm gonna be quite swift with my code.
+
+03:23.910 --> 03:30.360
+So let's write a variable by the name of date and then we would like to select our I.D..
+
+03:30.750 --> 03:38.460
+So essentially the span with the idea of date so I'm gonna write document get element by D.
+
+03:38.590 --> 03:44.810
+And now I'd like to provide what would be in fact that I.D. and remember it was date.
+
+03:44.820 --> 03:52.320
+Now once we have selected our proper element then we have an option of setting up the in our HMO and
+
+03:52.320 --> 03:57.170
+I'm gonna set my inner HCM male equal to a new date.
+
+03:57.390 --> 04:05.100
+That is a job script object that we have access to and then we have a method of get full year.
+
+04:05.160 --> 04:08.820
+And since it is the method we do you need to use the parentheses.
+
+04:08.820 --> 04:16.200
+And now if we're going to scroll to the bottom you're gonna notice that even though in my index HMO
+
+04:16.880 --> 04:18.630
+it is nothing therefore a date.
+
+04:18.630 --> 04:20.070
+So this plan is empty.
+
+04:20.100 --> 04:22.450
+I do have two thousand ninety.
+
+04:22.750 --> 04:23.670
+Now the reason for that.
+
+04:23.670 --> 04:30.610
+Because when using just and functionality I can just get my current year and inserted in my HMO.
+
+04:30.720 --> 04:38.310
+So congrats guys we're done with our first functionality that is in fact setting up our year dynamically
+
+04:38.310 --> 04:39.260
+using job script.

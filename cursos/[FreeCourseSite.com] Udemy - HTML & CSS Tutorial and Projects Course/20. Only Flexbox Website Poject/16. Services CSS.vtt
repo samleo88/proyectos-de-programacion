@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.050 --> 00:04.610
+And now that we are in our services see rates are Mengesha assessed.
+
+00:04.610 --> 00:11.460
+However you can see that we have a comment services now it starts styling services and we're going to
+
+00:11.460 --> 00:18.710
+select all services services here we're going to say padding 40 pixels.
+
+00:18.730 --> 00:20.860
+When you consider what happened right.
+
+00:20.910 --> 00:22.730
+So the padding went all around.
+
+00:23.010 --> 00:26.140
+Then after that we're going to have a background here.
+
+00:26.280 --> 00:31.410
+And you know just let's leave the magnet away right because we already have the background for the whole
+
+00:31.410 --> 00:33.750
+body so we can just skip this one.
+
+00:33.750 --> 00:37.360
+So we're off today and what we would want is target the actual service.
+
+00:37.380 --> 00:42.030
+And what I want to do is place this font awesome with this text right.
+
+00:42.150 --> 00:45.800
+Because if you remember we place them in two separate divs right.
+
+00:45.810 --> 00:47.530
+Or here if you remember.
+
+00:47.550 --> 00:50.870
+Here we have a single service right here.
+
+00:50.940 --> 00:53.100
+This was the service over here.
+
+00:53.130 --> 00:55.850
+First was the icon and then was the text.
+
+00:55.910 --> 00:59.170
+Right so we purposely have them side by side or here right.
+
+00:59.220 --> 01:01.170
+So we don't have any more elements.
+
+01:01.220 --> 01:07.200
+So we're now the only thing we need to do over here as I'm going to say sir is this and I'm going to
+
+01:07.200 --> 01:10.760
+say that this is first of all this is going to have a margin.
+
+01:10.880 --> 01:14.800
+Top bottom 30 pixels over here then zero on the sides.
+
+01:14.800 --> 01:15.450
+All right.
+
+01:15.540 --> 01:18.790
+And then we're going to say very simply display flex.
+
+01:18.860 --> 01:21.020
+Now I can see right away what happened right.
+
+01:21.060 --> 01:25.310
+So the phantasm is side by side with that text.
+
+01:25.320 --> 01:32.160
+Now obviously we need to add more styles but this is the most simplest and easier easiest way how to
+
+01:32.160 --> 01:32.810
+do it.
+
+01:32.960 --> 01:40.470
+So here I'm going to say service here and I'm going to say I can I can and then I'm going to say for
+
+01:40.980 --> 01:41.360
+it.
+
+01:41.520 --> 01:47.880
+So now that we have that we're going to say font size 60 pixels right.
+
+01:47.910 --> 01:52.830
+So right away first what happened we added some font sizes that are going to have a color.
+
+01:52.890 --> 02:00.020
+And again we're going to use the blue color so this is going to be to be 9 8 0 0 like this.
+
+02:00.090 --> 02:04.390
+And then we're going to have a margin know where we're going to say margin right.
+
+02:04.740 --> 02:06.740
+Let's say on here 20 pixels.
+
+02:06.820 --> 02:09.190
+Right so we got a little bit of margin.
+
+02:09.390 --> 02:10.990
+And don't be discouraged right.
+
+02:11.010 --> 02:16.380
+If you see something like this because what's going to happen is that are some actual high cards right.
+
+02:16.380 --> 02:17.400
+There's a difference right.
+
+02:17.400 --> 02:18.520
+What kind of icon.
+
+02:18.520 --> 02:19.160
+That's right.
+
+02:19.170 --> 02:21.870
+So don't worry about this what you're actually seeing or hear.
+
+02:21.870 --> 02:22.360
+Right.
+
+02:22.410 --> 02:27.900
+So if there's a marginally different than the other one is right because the actual size 0 here is also
+
+02:27.900 --> 02:28.690
+different.
+
+02:28.800 --> 02:34.620
+And after that we're going to have a service here in fall and what we're going to say or here this is
+
+02:34.620 --> 02:41.390
+going to be a margin and we're going to see margin on top and we're going to say 10 pixels.
+
+02:41.420 --> 02:42.840
+Well that's right.
+
+02:42.840 --> 02:48.210
+So basically what I'm saying is I would want margin on here for this paragraph and here I'm going to
+
+02:48.210 --> 02:56.010
+say line height and we're going to again say 1.5 year then after that we're going to have for the actual
+
+02:56.670 --> 02:57.530
+hovering effect.
+
+02:57.540 --> 02:58.030
+Right.
+
+02:58.230 --> 03:03.990
+So what I'm going to say here that if I'm actually hovering over them right something should actually
+
+03:03.990 --> 03:04.950
+change.
+
+03:05.000 --> 03:11.720
+So I'm going to say service we're here and then I'm going to say that I would want to have a hover.
+
+03:11.940 --> 03:12.590
+All right.
+
+03:12.660 --> 03:15.080
+And that I would say fantastic.
+
+03:15.460 --> 03:20.720
+And then after that I'm going to say that I would want to service well here.
+
+03:20.760 --> 03:24.690
+And again I'm going to say however I know we're going to.
+
+03:24.690 --> 03:31.370
+This is going to be service subtile subtitle over here and what should happen.
+
+03:31.590 --> 03:36.450
+So we're going to go back over here and we're going to say color and all this is going to go back on
+
+03:36.450 --> 03:37.110
+here like this.
+
+03:37.110 --> 03:44.510
+Our B 0 0 0 0 and this is going to be zero point eight.
+
+03:44.630 --> 03:45.250
+Right.
+
+03:45.330 --> 03:51.050
+So here what's going to happen as we're actually hovering right you can see that actual colors are changing
+
+03:51.060 --> 03:51.590
+right.
+
+03:51.630 --> 03:53.850
+So the color is changing for those guys.
+
+03:53.850 --> 03:54.530
+Right.
+
+03:54.540 --> 03:56.610
+And also for the actual font.
+
+03:56.610 --> 03:57.600
+Awesome.
+
+03:57.750 --> 04:04.820
+Now that when this is actually done right you can see that I actually forgot the stylus subtitle.
+
+04:05.010 --> 04:08.110
+I went right away from phantasm right away.
+
+04:08.250 --> 04:13.420
+So here we actually need to add a service subtitle.
+
+04:13.500 --> 04:19.810
+So this is going to be heading to I don't know really going to say text really transform when you say
+
+04:19.830 --> 04:20.550
+capitalized.
+
+04:20.550 --> 04:26.330
+First of all then we're going to have a caller and I will going out another note blue color.
+
+04:26.700 --> 04:27.710
+So are you going.
+
+04:27.720 --> 04:32.970
+This is going to run this color copy paste.
+
+04:33.000 --> 04:41.100
+Right now we have the color and then we'll get our font size of 20 font size 20 pixels of this right.
+
+04:41.250 --> 04:44.480
+But the point is as I'm hovering You can see what's happening right.
+
+04:44.520 --> 04:52.520
+So basically service however right here then this is actually happening as I'm hovering over the service
+
+04:53.790 --> 05:00.760
+the icon and text both black then after that you're going to save for the service info.
+
+05:00.780 --> 05:03.290
+This all shows should turn different colors.
+
+05:03.540 --> 05:11.720
+So I'm going to say service over here or here I'm going to say service and this is going to be painful.
+
+05:11.770 --> 05:19.360
+So this is going to be the paragraph this is going to have a color of our G-B on here like this.
+
+05:19.410 --> 05:24.760
+This is going to be 1:47 1:47 1:47.
+
+05:24.930 --> 05:26.250
+So basically great.
+
+05:26.580 --> 05:35.580
+Remember with our G-B we had zero to 2:55 255 is white Zero he's black so gray would be somewhere in
+
+05:35.580 --> 05:36.560
+the middle right.
+
+05:36.660 --> 05:37.900
+Again we save this.
+
+05:38.010 --> 05:44.360
+And the point is that as I'm hovering over the whole thing right then these guys turn black over here
+
+05:44.370 --> 05:44.980
+right.
+
+05:45.060 --> 05:47.320
+And these guys going to actually turn right.
+
+05:47.530 --> 05:52.100
+So now we're ready to go on and actually at a minute queries right.
+
+05:52.140 --> 05:53.880
+So there's actually a response.
+
+05:54.120 --> 05:56.870
+So they're not displayed like this right in line.
+
+05:56.880 --> 06:00.550
+But as the screen gets bigger they actually get side by side.

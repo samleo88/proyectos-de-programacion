@@ -1,0 +1,175 @@
+WEBVTT
+
+00:00.060 --> 00:03.300
+We have added responsiveness using Fluxbox.
+
+00:03.600 --> 00:06.930
+Let's go ahead and let's actually do this with CSL grade.
+
+00:07.130 --> 00:12.090
+So we're going to go back over here and we're going to go to Maine you assess and let's say we're here
+
+00:12.090 --> 00:14.250
+we're going to come and disrupt this.
+
+00:14.360 --> 00:14.940
+Right.
+
+00:14.970 --> 00:18.180
+So we're going to come and go out and we're going to come and go.
+
+00:18.370 --> 00:21.740
+And and again we're going to have to start with the media.
+
+00:22.080 --> 00:28.140
+So we're going to say I mean here we are going to say screen right and we're going to say and now we're
+
+00:28.140 --> 00:36.540
+going to say men with or here and I'm going to say five so the six lines of 576 pixels.
+
+00:36.580 --> 00:37.000
+Right.
+
+00:37.030 --> 00:39.670
+And then we're starting the same way here.
+
+00:39.960 --> 00:47.300
+And then we're going to have a skills center know this and then we're going to have this play.
+
+00:47.360 --> 00:49.440
+We're going to Sigrid.
+
+00:49.500 --> 00:54.930
+So instead of flex now we're using the grid and all here and we're going to say for the grid template
+
+00:54.930 --> 01:04.170
+columns grid template columns and all are all going to say one fraction one fraction here and then we'll
+
+01:04.170 --> 01:08.920
+have a Grid column and then we're going to say gap.
+
+01:09.060 --> 01:11.370
+So we're going to say Grid column gap.
+
+01:11.370 --> 01:13.230
+And this is going to be space in between.
+
+01:13.420 --> 01:14.550
+And so we're going to say one.
+
+01:14.570 --> 01:15.220
+Yeah.
+
+01:15.630 --> 01:22.160
+And then over here again we would want for the actual skill to place the text in the center to say scale
+
+01:22.680 --> 01:29.420
+and this is going to be text align center line and I'm going to say Center this.
+
+01:29.450 --> 01:30.770
+We saved this.
+
+01:30.810 --> 01:37.610
+Then once we have the skill right you can see I misspelled it and over here we would want for a paragraph.
+
+01:37.920 --> 01:45.530
+So I'm going to say skill paragraph or here we're going to say margin or 0 zero.
+
+01:45.870 --> 01:50.230
+Again we're just placing it right in the center and all going out there with.
+
+01:50.320 --> 01:50.490
+Right.
+
+01:50.520 --> 01:54.940
+So with is going to be an 80 percent on hand like this.
+
+01:54.980 --> 01:58.350
+Now we need the same one for a bigger screen.
+
+01:58.450 --> 01:58.800
+Right.
+
+01:58.830 --> 02:01.530
+But this goes the columns are going to be four.
+
+02:01.780 --> 02:07.230
+So pretty much the same deal over here right just or here and we're going to do is we're going to copy
+
+02:07.230 --> 02:10.220
+and paste this like this.
+
+02:10.320 --> 02:13.790
+Then we're going to grab it and we're going to say 9 9 2.
+
+02:14.100 --> 02:17.930
+So this is going to be 9 9 to one like this.
+
+02:17.940 --> 02:21.850
+Then again we just need to check what is going to be the same right.
+
+02:21.940 --> 02:24.460
+This play grid Well we already have it right.
+
+02:24.690 --> 02:28.470
+Then gap Well we want the same gap actually right.
+
+02:28.470 --> 02:29.640
+So we just leave it over here.
+
+02:29.670 --> 02:29.900
+Right.
+
+02:29.910 --> 02:34.700
+So we can delete it in here let's do it this way again let's use a repeat.
+
+02:34.700 --> 02:39.090
+All right so what I'm saying is a repeat and repeat four of them right.
+
+02:39.120 --> 02:41.390
+One fraction really.
+
+02:41.700 --> 02:45.510
+Then we have all here skill and are here let's say the skill.
+
+02:45.590 --> 02:46.130
+Fine.
+
+02:46.140 --> 02:47.800
+We don't really care about skill.
+
+02:47.880 --> 02:50.470
+Skill is going to stay the same text align center.
+
+02:50.640 --> 02:56.840
+And here again with actually with 100 percent so we're going to back over here hundred percent.
+
+02:57.030 --> 03:00.510
+Let's say this and let's see whether we have the same look over here.
+
+03:00.780 --> 03:04.640
+So we're going to go back over here and we're going to check it out.
+
+03:04.730 --> 03:08.440
+Right now we can see that this is the look we have on here.
+
+03:08.580 --> 03:08.900
+Right.
+
+03:08.940 --> 03:10.970
+And if we go back over here right.
+
+03:11.160 --> 03:12.640
+This is the look that we have here.
+
+03:12.690 --> 03:13.210
+Right.
+
+03:13.230 --> 03:19.490
+So this is how it's going to work with any See it says X marks and with zero says GREEN Right.
+
+03:19.500 --> 03:21.280
+So basically we have two options.
+
+03:21.440 --> 03:22.920
+However you actually want to work with them.

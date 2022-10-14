@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.120 --> 00:00.710
+Excellent.
+
+00:00.720 --> 00:03.790
+We are down with our hero element.
+
+00:03.990 --> 00:04.790
+Next one up.
+
+00:04.800 --> 00:08.490
+We have the about section now within the about section.
+
+00:08.500 --> 00:10.710
+There's gonna be some global stars.
+
+00:10.860 --> 00:14.040
+So let's say we're going to work on our section class.
+
+00:14.190 --> 00:19.520
+Then we're also gonna set up our title that we are later on gonna reuse.
+
+00:19.680 --> 00:23.870
+And then there's going to be a two column layout using legs marks.
+
+00:23.970 --> 00:32.490
+Once we get to a bigger screen size as you see we have here our image as well as the info but when we're
+
+00:32.490 --> 00:39.120
+gonna be on a smaller screen size both of them are going to be stacked on top of each other and only
+
+00:39.120 --> 00:44.790
+once we get to a bigger screen size then we're gonna use our pseudo element.
+
+00:44.790 --> 00:51.810
+And in this case we're gonna use before where we're going to set up this particular layout when there's
+
+00:51.810 --> 00:55.510
+gonna be some pseudo element with a border.
+
+00:55.590 --> 01:01.470
+And this is going to give us this nice look where we have not only the image but also a little bit of
+
+01:01.470 --> 01:02.930
+styling.
+
+01:03.120 --> 01:09.930
+Now let's start very simply by adding all our HD email so let's head over back to the indexation amount.
+
+01:11.140 --> 01:18.420
+Then I'm gonna head over back to my end of header and let's create two comments about section.
+
+01:18.510 --> 01:24.600
+Copy and paste and end about Section 9 within the about section.
+
+01:24.680 --> 01:26.500
+What are we going to do.
+
+01:26.510 --> 01:28.990
+Well let's start by creating a section.
+
+01:29.120 --> 01:30.090
+You know what.
+
+01:30.260 --> 01:33.780
+I'm gonna scroll down just so we can see a little bit better.
+
+01:33.920 --> 01:42.950
+So section it is going to have two classes a generic section class as well as the about class and I
+
+01:42.950 --> 01:47.390
+would also like to add adhd with a value of about.
+
+01:47.540 --> 01:50.930
+Now let's start by creating a title so title.
+
+01:50.960 --> 01:56.900
+Let's copy and paste the comment and title like so.
+
+01:56.900 --> 02:03.890
+And then again title is going to be an element that we are going to reuse all throughout our section.
+
+02:03.980 --> 02:10.410
+So let's start by creating div with the class of the title wrapper like so.
+
+02:10.520 --> 02:18.230
+And then within this title let's set up a hearing too with a class of title let's say title and then
+
+02:18.230 --> 02:24.680
+let's just write about and then let's set up this plan and then within the span where we also add a
+
+02:24.680 --> 02:32.920
+class of subtitle and then let's write us and that is going to be our title.
+
+02:32.960 --> 02:38.210
+Now of course we haven't styled anything but later on we're gonna do exactly that.
+
+02:38.390 --> 02:45.980
+Then right after the title we're gonna set up another div we're gonna call this about Senator and this
+
+02:45.980 --> 02:51.710
+Davis specifically therefore centering because that is going to be our Flex box parent container.
+
+02:51.920 --> 02:56.630
+So let's write first of all a class of about centre.
+
+02:56.810 --> 03:03.940
+But I'm also gonna add a generic class or a global C asset class that is just gonna add some padding.
+
+03:04.160 --> 03:09.410
+And of course we haven't created that class yet but we're gonna do that in a second.
+
+03:09.470 --> 03:17.150
+So let's write section center and then within this div there is going to be two articles one by the
+
+03:17.150 --> 03:19.300
+name of about image.
+
+03:19.490 --> 03:22.020
+And the second one about full.
+
+03:22.220 --> 03:31.790
+So let's write about image and then like I said let's have the article article online as far as articles
+
+03:31.790 --> 03:39.200
+those concerned well we're gonna set up about I am G class for this article and then let's place in
+
+03:39.200 --> 03:40.700
+fact our image.
+
+03:40.700 --> 03:48.310
+So let's say image then again we're gonna navigate through images then let's look for about J Peg and
+
+03:48.320 --> 03:54.920
+why don't we also add a class of about photo so class about for.
+
+03:55.320 --> 04:05.610
+And then for alternative why don't we write awesome are some beach like so and then like I said we have
+
+04:05.610 --> 04:08.220
+the about image and that's number one.
+
+04:08.220 --> 04:16.580
+But I'd also like to place in fact about info now Norris since we do have our global stars for images.
+
+04:16.620 --> 04:24.660
+Our image is not in fact getting out of the page so it is nicely sitting with a waste of parent container
+
+04:24.930 --> 04:31.980
+which in our case is our article because we do have this with a hundred as well as the margin in the
+
+04:31.980 --> 04:36.150
+bottom of course that is that annoying margin that is in fact missing right now.
+
+04:36.150 --> 04:40.300
+So we successfully added in our global styles.
+
+04:40.410 --> 04:42.820
+So now we don't have to deal with it anymore.
+
+04:43.020 --> 04:49.500
+So let's write about in full and then forward about it from going again to start with article.
+
+04:50.100 --> 04:59.290
+Let's add a class of about in with me in fact selected properly and I'm gonna go with a hearing tree.
+
+04:59.400 --> 05:10.540
+We explore the difference the difference like so and then let's add two paragraphs.
+
+05:10.810 --> 05:17.160
+Let's say first paragraph is going to be I don't know 15 words or 20 words.
+
+05:17.200 --> 05:19.460
+It doesn't really matter.
+
+05:19.720 --> 05:25.630
+That is going to be my first paragraph or you know what I'm going gonna add more words when we delete
+
+05:25.660 --> 05:35.020
+this and we're gonna go for let's say 20 then I'm going to copy and paste in fact this particular paragraph
+
+05:35.710 --> 05:43.120
+like so and all the way in the bottom right after the two paragraphs we're gonna set up in fact our
+
+05:43.120 --> 05:49.630
+button primary so button primary is gonna be very familiar to our button white but there's going to
+
+05:49.630 --> 05:52.580
+be some differences so let's have our link.
+
+05:52.650 --> 05:58.570
+Now this case is going to be a dummy link not the reason why I'm adding the hashtag here and let's just
+
+05:58.570 --> 06:04.490
+write class BD and primary which of course we haven't started yet.
+
+06:04.750 --> 06:07.540
+And let's just write read more.
+
+06:07.540 --> 06:13.630
+That is our age the email for about section and now we're ready to proceed with our C says.

@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.640 --> 00:01.890
+Before I let you go.
+
+00:01.930 --> 00:05.570
+Well we're still on the subject on CSI as Box model.
+
+00:05.620 --> 00:09.880
+I would like to cover one more property as well as one more value.
+
+00:09.880 --> 00:15.080
+Now the property name is gonna be border radius and the value is gonna be negative margin.
+
+00:15.160 --> 00:16.210
+So how this is gonna work.
+
+00:16.810 --> 00:21.760
+Well first and foremost let me just make some changes here because otherwise this is not going to look
+
+00:21.820 --> 00:23.140
+as well as I would like to.
+
+00:23.650 --> 00:28.840
+So let's say by this time I hope that you already know all these values and properties meaning at least
+
+00:28.840 --> 00:29.980
+the basics of them.
+
+00:30.040 --> 00:33.410
+So we're going to start deleting them just so have a little bit more room.
+
+00:33.430 --> 00:38.320
+And again if you need to go back just go back to the previous video and you can obviously get the source
+
+00:38.320 --> 00:39.110
+code.
+
+00:39.220 --> 00:45.130
+Now what I have here I have the border but I have the ash and it's only for the bottom so that's not
+
+00:45.130 --> 00:46.470
+something I'm interested.
+
+00:46.570 --> 00:50.980
+So we had reason to say that I'm going to get rid of all these three and we're going to work with border
+
+00:51.530 --> 00:57.890
+let's say five pixels solid and I'm gonna go with something that we can see clearer.
+
+00:57.970 --> 01:02.830
+So I'm gonna go black and that's going to be my border as well as I'm gonna get rid of this margin.
+
+01:02.830 --> 01:07.190
+So I was just going to leave the default margin for whatever heading one.
+
+01:07.300 --> 01:14.360
+Now I'm also gonna make some changes for the paragraph and here we're also gonna do something similar.
+
+01:14.380 --> 01:18.870
+We're all gonna get rid of all the margins as well as we're gonna change the color.
+
+01:18.870 --> 01:22.140
+So here let's say the color is going to be green.
+
+01:22.250 --> 01:25.330
+Maybe this case we're gonna see it a little bit better.
+
+01:25.430 --> 01:27.070
+Now what about border radius.
+
+01:27.110 --> 01:27.740
+What does it do.
+
+01:28.370 --> 01:33.690
+Well with border radius property we can work on the edges of the border.
+
+01:33.800 --> 01:38.720
+And I think it's gonna be easier again to show use over the border than we have radius.
+
+01:38.720 --> 01:41.880
+And now again we can insert whatever values you would like.
+
+01:41.880 --> 01:44.590
+Now in my case let's start with 20 pixels.
+
+01:44.600 --> 01:51.680
+So check this out the moment we do that we have right now the border but the edges around that's the
+
+01:51.680 --> 01:53.830
+whole point of this border radius.
+
+01:53.840 --> 01:57.660
+Now if you want to be really creative we can obviously change the values here.
+
+01:57.720 --> 01:59.840
+We can add more and more value.
+
+01:59.870 --> 02:04.300
+Now the option though is we can also go and make it totally round.
+
+02:04.490 --> 02:11.540
+So let's say in my case we can use border radius and let's set this to 50 percent because we can also
+
+02:11.540 --> 02:12.810
+use the percentages.
+
+02:13.040 --> 02:15.950
+So I can do something like this and check this out.
+
+02:15.950 --> 02:21.680
+Now my paragraph is actually around like this if I'm going with 50 percent now you can obviously go
+
+02:21.680 --> 02:27.400
+80 if you want and you can go even more but probably in most cases you are going to be dealing.
+
+02:27.540 --> 02:29.920
+Is going to go at 50 percent.
+
+02:30.050 --> 02:33.860
+Now we also have an option for negative margin.
+
+02:33.860 --> 02:39.260
+So how that is going to work well for now we're looking at it and we see that this would be the default
+
+02:39.260 --> 02:42.290
+margin that we're getting from the default browser.
+
+02:42.620 --> 02:47.840
+So there's some margin here in the bottom and then there's also some on the top for the pie.
+
+02:48.350 --> 02:50.400
+What about if you change all that.
+
+02:50.480 --> 02:56.570
+What if you were going to say here Boehner or I'm sorry margin of border and for the margin top for
+
+02:56.570 --> 03:01.410
+the paragraph we're going to set margin but this is not going to be a positive value.
+
+03:01.420 --> 03:05.000
+Instead I'm gonna go with like negative hundred pixels.
+
+03:05.420 --> 03:06.920
+So what's gonna happen here.
+
+03:06.920 --> 03:13.190
+Now the moment we served notice that right now our paragraph is sitting actually on the top of our previous
+
+03:13.190 --> 03:14.990
+element which was setting one.
+
+03:15.080 --> 03:21.660
+And in most cases whenever you want to deal with some kind of layout this might be one of the options.
+
+03:21.680 --> 03:25.460
+Now I'm not saying this is going to be the only option you're gonna be using but it's good to be aware
+
+03:25.460 --> 03:27.280
+of it because it might come in handy.

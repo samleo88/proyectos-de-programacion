@@ -1,0 +1,399 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+package uniandes.cupi2.batallaPokemon.cliente.mundo;
+
+import java.util.ArrayList;
+
+/**
+ * Clase que representa una batalla del jugador.
+ */
+public class Batalla
+{
+
+    // -----------------------------------------------------------------
+    // Constantes
+    // -----------------------------------------------------------------
+
+    /**
+     * Mensaje inicial de un jugador.
+     */
+    public static final String JUGADOR = "JUGADOR";
+
+    /**
+     * Mensaje con el registro del jugador.
+     */
+    public static final String INFO_JUGADOR = "INFO";
+
+    /**
+     * Mensaje para indicar que un jugador tiene el primer turno..
+     */
+    public static final String PRIMER_TURNO = "1";
+
+    /**
+     * Mensaje para indicar que un jugador tiene el segundo turno.
+     */
+    public static final String SEGUNDO_TURNO = "2";
+
+
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Pokemón que el jugador ha seleccionado.
+     */
+    private Pokemon seleccionado;
+
+    /**
+     * Pokemónes que posee el jugador.
+     */
+    private ArrayList pokemonesJugador;
+
+    /**
+     * Pokemónes posibles para seleccionar.
+     */
+    private Pokemon[] pokemonesExistentes = new Pokemon[8];
+
+    /**
+     * Nombre del oponente.
+     */
+    private String nombreOponente;
+    
+    /**
+     * Imagen del oponente.
+     */
+    private String avatarOponente;
+
+    /**
+     * Nombre del pokemón actual del oponente.
+     */
+    private String nombrePokemonOponente;
+
+    /**
+     * Cantidad de pokemónes con salud en cero del oponente.
+     */
+    private int cantidadPokemonesDebilesOponente;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Constructor de la batalla. <br>
+     * <b> post: </b> Se inicializa la lista que posee las pokemónes del jugador. pokemonesJugador != null. <br>
+     * Se inicializa el pokemón seleccionado en null. seleccionado = null. <br>
+     * Se inicializa el arreglo que contiene los pokemones existentes con los siguientes valores: Pokemón posición 0: Pokemón posición 1: Pokemón posición 2: Pokemón posición
+     * 3: Pokemón posición 4: Pokemón posición 5: Pokemón posición 6: Pokemón posición 7:
+     */
+    public Batalla( )
+    {
+
+        seleccionado = null;
+        pokemonesJugador = new ArrayList( );
+        pokemonesExistentes[ 0 ] = new Pokemon( Pokemon.TIPO_ELECTRICO, "Pikachu", "./data/imagenes/Pikachu" );
+        pokemonesExistentes[ 1 ] = new Pokemon( Pokemon.TIPO_FUEGO, "Charmander", "./data/imagenes/Charmander" );
+        pokemonesExistentes[ 2 ] = new Pokemon( Pokemon.TIPO_PLANTA, "Bulbasaur", "./data/imagenes/Bulbasaur" );
+        pokemonesExistentes[ 3 ] = new Pokemon( Pokemon.TIPO_AGUA, "Squirtle", "./data/imagenes/Squirtle" );
+        pokemonesExistentes[ 4 ] = new Pokemon( Pokemon.TIPO_ROCA, "Geodude", "./data/imagenes/Geodude" );
+        pokemonesExistentes[ 5 ] = new Pokemon( Pokemon.TIPO_VOLADOR, "Pidgey", "./data/imagenes/Pidgey" );
+        pokemonesExistentes[ 6 ] = new Pokemon( Pokemon.TIPO_FUEGO, "Flareon", "./data/imagenes/Flareon" );
+        pokemonesExistentes[ 7 ] = new Pokemon( Pokemon.TIPO_AGUA, "Vaporeon", "./data/imagenes/Vaporeon" );
+        nombreOponente = null;
+        nombrePokemonOponente = null;
+        cantidadPokemonesDebilesOponente = 0;
+
+        verificarInvariante( );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Retorna el pokemón seleccionado por el jugador.
+     * @return Pokemón que el jugador seleccionó para jugar.
+     */
+    public Pokemon darPokemonSeleccionado( )
+    {
+        return seleccionado;
+    }
+
+    /**
+     * Retorna el nombre del oponente.
+     * @return Nombre del oponente.
+     */
+    public String darNombreOponente( )
+    {
+        return nombreOponente;
+    }
+    
+    /**
+     * Retorna la imagen del oponente.
+     * @return Imagen del oponente.
+     */
+    public String darAvatarOponente( )
+    {
+        return avatarOponente;
+    }
+
+    /**
+     * Retorna el nombre del pokemón seleccionado por el oponente.
+     * @return Nombre del pokemón del oponente.
+     */
+    public String darNombrePokemonOponente( )
+    {
+        return nombrePokemonOponente;
+    }
+
+    /**
+     * Retorna la lista de pokemónes del jugador.
+     * @return Lista con los pokemónes del jugador.
+     */
+    public ArrayList darPokemonesJugador( )
+    {
+        return pokemonesJugador;
+    }
+
+    /**
+     * Retorna la cantidad de pokemónes debilitados del oponente.
+     * @return Cantidad de pokemónes con salud en cero.
+     */
+    public int darCantidadPokemonesDebilesOponente( )
+    {
+        return cantidadPokemonesDebilesOponente;
+
+    }
+
+    /**
+     * Modifica el nombre del oponente.
+     * @param pNombre Nuevo nombre del oponente. pNombre != null.
+     */
+    public void modificarNombreOponente( String pNombre )
+    {
+        nombreOponente = pNombre;
+    }
+    
+    /**
+     * Modifica el avatar del oponente.
+     * @param pAvatar Avatar del oponente. pNombre != null.
+     */
+    public void modificarAvatarOponente( String pAvatar )
+    {
+        avatarOponente = pAvatar;
+    }
+
+    /**
+     * Modifica la cantidad de pokemónes con vida en cero del oponente.
+     * @param pCantidadPokemones Cantidad de pokemónes debilitados. pCantidadPokemones >= 0.
+     */
+    public void modificarCantidadPokemonesDebilesOponente( int pCantidadPokemones )
+    {
+        cantidadPokemonesDebilesOponente = pCantidadPokemones;
+    }
+
+    /**
+     * Modifica el nombre del pokemón seleccionado por el oponente.
+     * @param pPokemon Nombre del pokemón seleccionado. pPokemon != null.
+     */
+    public void modificarNombrePokemonSeleccionadoOponente( String pPokemon )
+    {
+        nombrePokemonOponente = pPokemon;
+    }
+
+    /**
+     * Retorna la salud del pokemón seleccionado actualmente.
+     * @return Salud del jugador.
+     */
+    public double darSaludPokemonActual( )
+    {
+        return seleccionado.darSalud( );
+    }
+
+    /**
+     * Ingresa los pokemónes seleccionados por el jugador.
+     * @param pPokemonesSeleccionados Lista de pokemónes.
+     */
+    public void ingresarPokemones( ArrayList pPokemonesSeleccionados )
+    {
+        for( int i = 0; i < pPokemonesSeleccionados.size( ); i++ )
+        {
+            pokemonesJugador.add( pokemonesExistentes[ ( int )pPokemonesSeleccionados.get( i ) ] );
+        }
+
+        modificarPokemonSeleccionado( ( ( Pokemon )pokemonesJugador.get( 0 ) ).darNombre( ) );
+
+    }
+
+    /**
+     * Modifica el pokemón seleccionado por el jugador.
+     * @param pNombrePokemon Nombre del nuevo pokemón seleccionado. pNombrePokemon != null.
+     */
+    public void modificarPokemonSeleccionado( String pNombrePokemon )
+    {
+        Pokemon pokemonBuscado = null;
+        for( int i = 0; i < pokemonesJugador.size( ); i++ )
+        {
+            Pokemon pokemonActual = ( Pokemon )pokemonesJugador.get( i );
+            if( pokemonActual.darNombre( ).equals( pNombrePokemon ) )
+            {
+                pokemonBuscado = pokemonActual;
+            }
+
+        }
+        seleccionado = pokemonBuscado;
+    }
+
+    /**
+     * Retorna el daño según el tipo de pokemón que atacó y el pokemón que recibe el ataque.
+     * @param pTipo Tipo de pokemón que atacó.
+     * @return Daño que realiza el ataque del oponente.
+     */
+    public double realizarJugada( String pTipo )
+    {
+        String tipoPokemon = seleccionado.darTipo( );
+        double danioResultante = 0.0;
+        int danio = ( int ) ( Math.random( ) * 4 + 1 );
+
+        if( pTipo.equals( Pokemon.TIPO_FUEGO ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || tipoPokemon.equals( Pokemon.TIPO_AGUA ) || tipoPokemon.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) || tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 2;
+            }
+
+        }
+        else if( pTipo.equals( Pokemon.TIPO_AGUA ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || pTipo.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_AGUA ) || pTipo.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) || pTipo.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio;
+            }
+
+        }
+        else if( pTipo.equals( Pokemon.TIPO_ELECTRICO ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) || pTipo.equals( Pokemon.TIPO_AGUA ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) || pTipo.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || pTipo.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio;
+            }
+
+        }
+        else if( pTipo.equals( Pokemon.TIPO_PLANTA ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || pTipo.equals( Pokemon.TIPO_PLANTA ) || pTipo.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_AGUA ) || pTipo.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) )
+            {
+                danioResultante = danio;
+            }
+
+        }
+        else if( pTipo.equals( Pokemon.TIPO_VOLADOR ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || pTipo.equals( Pokemon.TIPO_AGUA ) || pTipo.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ROCA ) || pTipo.equals( Pokemon.TIPO_ELECTRICO ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 2;
+            }
+        }
+        else if( pTipo.equals( Pokemon.TIPO_ROCA ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || pTipo.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_AGUA ) || pTipo.equals( Pokemon.TIPO_ELECTRICO ) || pTipo.equals( Pokemon.TIPO_PLANTA ) || pTipo.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio;
+            }
+
+        }
+
+        return danioResultante;
+
+    }
+
+    /**
+     * Retorna la cantidad de pokemónes con salud en cero.
+     * @return Cantidad de pokemones debilitados.
+     */
+    public int darCantidadPokemonesDebilitados( )
+    {
+        int cantidadPokemonesDebilitados = 0;
+
+        for( int i = 0; i < 4; i++ )
+        {
+            double saludPokemon = ( ( Pokemon )pokemonesJugador.get( i ) ).darSalud( );
+            if( saludPokemon == 0.0 )
+            {
+                cantidadPokemonesDebilitados++;
+            }
+        }
+
+        return cantidadPokemonesDebilitados;
+
+    }
+
+    // -----------------------------------------------------------------
+    // Invariante
+    // -----------------------------------------------------------------
+
+    /**
+     * Verifica el invariante de la clase Juego.<br>
+     * <b>inv: </b><br>
+     * No existen fichas repetidas en todo el juego. <br>
+     */
+    private void verificarInvariante( )
+    {
+        // assert ( !hayFichasRepetidas( ) ) : "No puede contener fichas
+        // repetidas en el juego.";
+    }
+
+}

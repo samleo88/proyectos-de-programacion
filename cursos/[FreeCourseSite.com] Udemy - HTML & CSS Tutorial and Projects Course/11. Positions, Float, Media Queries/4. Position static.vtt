@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00.240 --> 00:05.160
+Moving on we're gonna talk about positions whether that's going to be static whether that's going to
+
+00:05.160 --> 00:06.000
+be fixed.
+
+00:06.090 --> 00:08.390
+We also have relative an absolute.
+
+00:08.550 --> 00:10.050
+Not the first one is going to be static.
+
+00:10.050 --> 00:15.510
+But to tell you honestly most of the this video we're gonna do with the setup for the next positions
+
+00:15.750 --> 00:21.390
+because the static is gonna be by default and there's gonna be nothing really exciting about that position
+
+00:21.390 --> 00:22.260
+value.
+
+00:22.260 --> 00:26.230
+Now what I would want to do is I'm gonna get rid of this Dave.
+
+00:26.370 --> 00:29.490
+I'm gonna say there's gonna be another Dave just a simple Dave.
+
+00:29.490 --> 00:34.710
+Then let's add a two paragraphs with let's say I don't know 40 words here or maybe you know what.
+
+00:34.710 --> 00:38.310
+That was an overkill I think 20 is gonna be fine.
+
+00:38.310 --> 00:39.050
+I can just save it.
+
+00:39.060 --> 00:45.750
+So that's gonna be my paragraph then for this guy I'm gonna add class of 1 then I'm gonna do exactly
+
+00:45.750 --> 00:49.520
+the same with the next one where the class is gonna be number two.
+
+00:49.680 --> 00:51.940
+That's gonna be sufficient enough.
+
+00:52.110 --> 00:55.430
+And then within this paragraph let me add this back.
+
+00:55.890 --> 00:59.910
+I can tell you right away though that again this plan is not special.
+
+01:00.060 --> 01:05.160
+The positioning we're going to use is gonna be special but it's gonna work with any kind of element.
+
+01:05.220 --> 01:09.040
+In my case I'm using Spain as an example but you can use anything.
+
+01:09.240 --> 01:10.890
+And here I'm gonna say I am.
+
+01:10.940 --> 01:17.970
+Or Hey I am so hey buddy I am absolute now at this moment.
+
+01:17.970 --> 01:20.580
+He is not or she is not absolute at all.
+
+01:20.580 --> 01:27.690
+But later on we're gonna make it absolute and let's say class is gonna be special and this is gonna
+
+01:27.690 --> 01:29.090
+be our special kid.
+
+01:29.250 --> 01:30.660
+We have the hey I'm absolute.
+
+01:31.170 --> 01:32.740
+So what do we have in CSX.
+
+01:33.740 --> 01:35.080
+Let's start with Dave.
+
+01:35.090 --> 01:41.630
+Dave is gonna be boarder and I have a warning for you in this video or next following videos.
+
+01:41.660 --> 01:47.510
+The coloring is not gonna be the most exciting one who's gonna be actually quite hideous but hopefully
+
+01:47.510 --> 01:49.590
+we're gonna be able to get through this.
+
+01:49.730 --> 01:51.480
+Let's do background yellow.
+
+01:51.770 --> 01:58.940
+And my hope was is that it would help you at least understand the general idea what we'll see.
+
+01:58.940 --> 02:00.350
+Maybe it's gonna be the opposite.
+
+02:00.350 --> 02:03.090
+Maybe you'll be like well this doesn't make sense at all.
+
+02:03.290 --> 02:04.510
+So I don't know.
+
+02:04.520 --> 02:07.160
+We'll see we'll have margin to operate away.
+
+02:07.160 --> 02:10.610
+Again this is gonna make a little bit more sense later on.
+
+02:10.610 --> 02:11.700
+So I have the day.
+
+02:11.700 --> 02:12.790
+It has a margin top.
+
+02:12.800 --> 02:13.200
+You know what.
+
+02:13.430 --> 02:14.640
+I'm gonna have more.
+
+02:14.750 --> 02:16.100
+I'm gonna say 40 pixels.
+
+02:16.310 --> 02:17.270
+Then what else I have.
+
+02:17.270 --> 02:20.900
+Well I have two paragraphs now for that one.
+
+02:20.930 --> 02:24.260
+I'm gonna do a I'm not padding.
+
+02:24.260 --> 02:26.140
+Background is gonna be blue.
+
+02:26.450 --> 02:27.860
+So that's my one.
+
+02:27.870 --> 02:32.820
+Then I'm also gonna select it and I'm going to select it properly.
+
+02:32.990 --> 02:34.710
+I'm going to say oh you know what.
+
+02:34.710 --> 02:38.580
+And the lead in I'm gonna say that I'm selecting this guy.
+
+02:38.780 --> 02:42.780
+We are copying pasting for number two.
+
+02:42.960 --> 02:49.170
+I don't know we can do maybe number two is gonna be I don't know what we could do.
+
+02:49.290 --> 02:51.060
+Green what do you think.
+
+02:51.080 --> 02:52.640
+Yeah I think green is gonna be fine.
+
+02:53.170 --> 02:57.070
+Okay so we have number two and then we have the class of special.
+
+02:57.180 --> 02:59.510
+Now for a class of special let's just add.
+
+02:59.790 --> 03:00.180
+I don't know.
+
+03:00.180 --> 03:07.090
+Background and I chose something like this like coral which is again going to be very very hairy.
+
+03:07.140 --> 03:10.170
+But we're gonna live with that font size.
+
+03:10.170 --> 03:13.020
+I don't know 20 pixels something like this.
+
+03:13.050 --> 03:15.140
+So this is gonna be my spam.
+
+03:15.240 --> 03:22.380
+Like I said position static is very very boring because all the elements again by default just have
+
+03:22.380 --> 03:29.850
+this position static what position Static means in general that if I had this class with para I'm sorry
+
+03:30.060 --> 03:35.820
+paragraph with the class of number two after the paragraph with the class of 1 This is how it's gonna
+
+03:35.820 --> 03:36.420
+be displayed.
+
+03:36.930 --> 03:39.960
+So that's gonna be exactly our normal flow of document.
+
+03:39.990 --> 03:45.410
+So if I'm having here in the span let's say after the text then this is gonna be displayed after text.
+
+03:45.480 --> 03:48.180
+Now where would you use the position of static.
+
+03:48.190 --> 03:52.190
+Well similarly remember how we had the text the line property.
+
+03:52.200 --> 03:56.460
+So if I had let's say text on line of all of them right.
+
+03:56.610 --> 04:03.720
+If I would want some of them just to be normal one I used to use a text and then we use text the line
+
+04:03.720 --> 04:04.380
+left.
+
+04:04.380 --> 04:10.950
+Now in general by default all of them were and this is obviously a mistake all of them were text aligned
+
+04:10.950 --> 04:11.650
+to the left.
+
+04:11.820 --> 04:17.580
+But if you set the parent to some kind of let's say text line right then you use this default one well
+
+04:17.580 --> 04:19.050
+the same with the position static.
+
+04:19.950 --> 04:24.420
+If you're going to use some kind of different positioning for the parent then if you would want some
+
+04:24.540 --> 04:30.660
+other one within that parent to have the normal positioning when the static then you would use position
+
+04:30.660 --> 04:36.070
+static otherwise you can write it here I can say position and I'm not going to use a relative.
+
+04:36.420 --> 04:37.630
+I'm going to use static.
+
+04:37.650 --> 04:42.750
+You'll notice that nothing is going to change because by default all of them having this position static.
+
+04:43.050 --> 04:45.230
+So that's the reason why everything stays the same.

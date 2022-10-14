@@ -1,0 +1,154 @@
+WEBVTT
+
+00:00.420 --> 00:03.720
+I would also like to talk about the external resources.
+
+00:03.720 --> 00:08.940
+And while we're at it we're all going to look at the head allotment and the many attacks that I promised
+
+00:08.940 --> 00:10.430
+you in the beginning.
+
+00:10.500 --> 00:16.800
+Now two really good resources are going to be Mozilla Development Network and the easiest way to search
+
+00:16.800 --> 00:21.090
+it again would be just going to Google and you can just type the end.
+
+00:21.330 --> 00:25.080
+Now with Mozilla Development Network it is really good.
+
+00:25.080 --> 00:31.560
+However I think that you'll probably gonna start using it once you are already somewhat comfortable
+
+00:31.560 --> 00:38.370
+with HP email or any kind of technology because while the documentation is really good they need is
+
+00:38.370 --> 00:39.500
+also very extensive.
+
+00:39.990 --> 00:44.400
+So let's say first of all if you would like to go back there we can always have an option of searching
+
+00:44.400 --> 00:45.100
+right.
+
+00:45.120 --> 00:52.200
+So we have an option of searching let's say email in our case and then we have an option for documentation.
+
+00:52.240 --> 00:58.800
+So in our case we would like to select the email then within the email we need to start navigating to
+
+00:58.800 --> 01:00.630
+wherever we would like research.
+
+01:00.660 --> 01:06.390
+So let's say we're gonna be looking for H name or tutorial or you can have the Asian email documentation
+
+01:06.480 --> 01:13.290
+or Mozilla develop and airport and in my case let's just click on the tutorial now and editorial notice.
+
+01:13.500 --> 01:19.440
+We're gonna have all these options where on the left hand side they right away give you the CSX but
+
+01:19.560 --> 01:24.870
+if in the beginning you would just like to understand everything about the email then this is where
+
+01:24.870 --> 01:30.240
+you're gonna be doing research whether that's going to be multiple media and embedding what images in
+
+01:30.440 --> 01:35.840
+the email or let's say the head element in the email.
+
+01:35.880 --> 01:42.810
+Now a little bit more user friendly especially in the beginning would be W3 schools where again you
+
+01:42.810 --> 01:49.800
+would just search it in Google for W3 schools and once we click on it obviously there's bunch of tutorials
+
+01:49.890 --> 01:51.240
+available to us.
+
+01:51.240 --> 01:56.610
+Now again in our case we will gonna select each email since this is what we're covering.
+
+01:56.850 --> 02:02.550
+And then within the email let's go ahead and let's find the h the email header element and now we can
+
+02:02.550 --> 02:04.500
+start reading everything that there raised about it.
+
+02:05.010 --> 02:12.570
+So like I said this would be a container for metadata so data about the actual site and that would be
+
+02:12.570 --> 02:17.490
+placed within the head element obviously and the metadata is not going to be displayed.
+
+02:18.210 --> 02:22.270
+Now there is going to be tags let's say for the title and we are covered.
+
+02:22.280 --> 02:28.530
+Title title would be for the page title but then later on as we're gonna be working with style sheets
+
+02:28.920 --> 02:34.950
+we're also going to work with style tags as well as linking the style sheets so linking the CSX as well
+
+02:34.950 --> 02:37.170
+as we have an option for JavaScript.
+
+02:37.260 --> 02:43.470
+Now there's always gonna be mad attacks and for the mad attacks and again this would be the title and
+
+02:43.470 --> 02:48.270
+as you can see you can read everything that there is about title then the style element would be for
+
+02:48.270 --> 02:48.870
+styling.
+
+02:48.870 --> 02:56.070
+Like I said style element we're gonna cover in the scene as this link is going to be linking to the
+
+02:56.460 --> 03:04.120
+external style sheet and then we have the metro element now in the metro arm and you have multiple options.
+
+03:04.230 --> 03:06.410
+Let's say we have characters.
+
+03:06.570 --> 03:12.670
+Now if we're going back and checking our basic setup with an name and we noticed that our first murder
+
+03:12.670 --> 03:14.570
+attack would be character set.
+
+03:14.760 --> 03:21.360
+So this answers what is meant attack is doing then also we have an option let's say for a description.
+
+03:21.390 --> 03:23.410
+So again the syntax would be matter.
+
+03:23.790 --> 03:27.170
+Then we have the name and not because that wouldn't be description.
+
+03:27.180 --> 03:29.280
+And then here would place the content.
+
+03:29.410 --> 03:35.340
+Now the same old spiel would be for the keywords if we were not keywords author in the bottom we have
+
+03:35.340 --> 03:41.500
+the viewport meditating that explains how the viewport murder attack is going to work.
+
+03:41.550 --> 03:46.140
+So you viewport medal tag allows us or allows our pages to be responsible.
+
+03:46.770 --> 03:52.170
+So again if we're going to head over back to our basic setup with them and will notice that we already
+
+03:52.170 --> 04:00.440
+have the Newport tag that sets up the width properly and that way our page is gonna be responsive.
+
+04:00.450 --> 04:06.150
+So again if you'd like to research more information but anything that we talked about it this is a very
+
+04:06.150 --> 04:09.540
+good resource as well as Mozilla developer network.

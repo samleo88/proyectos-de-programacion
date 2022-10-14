@@ -1,0 +1,490 @@
+1
+
+00:00:00,000  -->  00:00:03,899
+Hey guys, welcome back. In this section of videos, or this subsection because we're
+
+2
+
+00:00:03,899  -->  00:00:09,750
+still on section 5, this will be 5.3 I
+guess, we're going to be covering a
+
+3
+
+00:00:09,750  -->  00:00:18,660
+package called PyMongo and what it is
+a Python binding for the program
+
+4
+
+00:00:18,660  -->  00:00:25,140
+Mongo or MongoDB. So if you don't know what Mongo is or MongoDB you're probably
+
+5
+
+00:00:25,140  -->  00:00:29,519
+going to love it, and if you do know
+what it is you probably already love it,
+
+6
+
+00:00:29,519  -->  00:00:35,520
+so let's get into it. For those of you
+who don't know let me bring up a browser
+
+7
+
+00:00:35,520  -->  00:00:50,160
+here. and let's go to "mongodb" So, MongoDB is a NoSQL database driver, so if you've
+
+8
+
+00:00:50,160  -->  00:00:55,350
+done any work in PHP you've probably
+used my MySQL, and that's I mean it's
+
+9
+
+00:00:55,350  -->  00:01:00,840
+just it's a relational database that has
+to have a certain structure, so each
+
+10
+
+00:01:00,840  -->  00:01:04,589
+table needs to have a certain amount of
+columns, and then when you insert data
+
+11
+
+00:01:04,589  -->  00:01:11,250
+you need to like if information isn't
+sent in for a specific column the column
+
+12
+
+00:01:11,250  -->  00:01:15,720
+still exists it's just blank, and so you
+have to follow the same structure, but
+
+13
+
+00:01:15,720  -->  00:01:20,729
+with MongoDB you can really you don't
+have that limitation so it's a bit
+
+14
+
+00:01:20,729  -->  00:01:24,000
+different in that regard. If you guys
+don't have it you're going to need to
+
+15
+
+00:01:24,000  -->  00:01:27,000
+install MongoDB on your computer.
+
+16
+
+00:01:27,000  -->  00:01:37,860
+With Windows you should be able to
+just come to the site and open-source
+
+17
+
+00:01:37,860  -->  00:01:43,799
+I believe download, alright there is a
+great big button right there.
+
+18
+
+00:01:44,430  -->  00:01:52,500
+Alright, so, you can get it for free
+with different platforms, the
+
+19
+
+00:01:52,500  -->  00:01:57,149
+installation is going to be a bit
+different for each one. If you're using
+
+20
+
+00:01:57,149  -->  00:02:02,369
+Linux you should be able to go through
+your package manager and install it by
+
+21
+
+00:02:02,369  -->  00:02:07,649
+default, so if you you know you can
+install it through yum, I believe you can
+
+22
+
+00:02:07,649  -->  00:02:12,000
+install it with apt-get as well. With OS 10
+we're going to be installing with
+
+23
+
+00:02:12,000  -->  00:02:12,870
+homebrew,
+
+24
+
+00:02:12,870  -->  00:02:16,290
+so I'm not gonna be downloading this. On
+Windows you are going to be downloading
+
+25
+
+00:02:16,290  -->  00:02:20,310
+the installer and you're gonna be
+running that. So, I've already got this,
+
+26
+
+00:02:21,000  -->  00:02:24,330
+so you need to install two things to use
+with Python, you need to install
+
+27
+
+00:02:24,330  -->  00:02:29,370
+MongoDB itself and then you need to
+install the Mongo bindings for
+
+28
+
+00:02:29,370  -->  00:02:35,849
+Python. So to install MongoDB on OS 10
+basically we're going to using homebrew
+
+29
+
+00:02:35,849  -->  00:02:42,599
+again, so jump in the terminal type "brew
+install mongodb" is it or mongod?
+
+30
+
+00:02:42,599  -->  00:02:49,560
+It is one of the two sometimes they use
+different package names specifically.
+
+31
+
+00:02:49,560  -->  00:02:54,060
+Alright, so it is MongoDB and I already
+have it installed so I'm going to get this
+
+32
+
+00:02:54,060  -->  00:02:55,019
+message.
+
+33
+
+00:02:55,019  -->  00:03:00,510
+You guys probably don't or if you do
+awesome. Once you get MongoDB installed
+
+34
+
+00:03:00,510  -->  00:03:10,109
+you need to start it, so go ahead run
+"brew services start mongodb" and
+
+35
+
+00:03:10,109  -->  00:03:16,799
+mine is already started I guess it's
+configured to start on boot, so that's
+
+36
+
+00:03:16,799  -->  00:03:17,340
+awesome.
+
+37
+
+00:03:17,340  -->  00:03:22,109
+Now once you've got all this setup you
+have Mongo installed you should be able
+
+38
+
+00:03:22,109  -->  00:03:32,099
+to type "curl http://localhost27017" So if you get
+
+39
+
+00:03:32,099  -->  00:03:36,989
+this message it means that MongoDB is
+setup and configured properly. If you
+
+40
+
+00:03:36,989  -->  00:03:41,099
+have any other issues I could try to
+help you out but not doing this course
+
+41
+
+00:03:41,099  -->  00:03:44,459
+specifically on MongoDB, but I will do my
+best
+
+42
+
+00:03:44,459  -->  00:03:48,540
+you should also be able to find support
+on the documentation they should also
+
+43
+
+00:03:48,540  -->  00:03:50,459
+have a support page on the website as well.
+
+44
+
+00:03:50,459  -->  00:03:55,290
+Now once you do have Mongo setup you
+need to install a Python package called
+
+45
+
+00:03:55,290  -->  00:04:03,750
+PyMongo. So go ahead run "pip3 install pymongo" and now I don't have
+
+46
+
+00:04:03,750  -->  00:04:09,389
+it installed yet and that's how quick it
+is to install, so just grab the, grab the
+
+47
+
+00:04:09,389  -->  00:04:15,060
+file, have it installed, and now we're
+good to go. So I'm going to clear this.
+
+48
+
+00:04:15,060  -->  00:04:21,030
+Now if I open back up the browser you
+should just be able to Google "pymongo"
+
+49
+
+00:04:21,030  -->  00:04:23,670
+and it should
+
+50
+
+00:04:23,670  -->  00:04:28,740
+here we go that's the API. Here's a
+tutorial database API documentation,
+
+51
+
+00:04:28,740  -->  00:04:34,530
+alright. So here's some documentation
+this should be a full referenced so if
+
+52
+
+00:04:34,530  -->  00:04:40,950
+you need any help with Mongo or
+PyMongo you should be able to get the
+
+53
+
+00:04:40,950  -->  00:04:47,820
+help here. So, MongDB's official
+website api.mongodb.com/python/current/api
+
+54
+
+00:04:47,820  -->  00:04:56,850
+Alright, now let's jump into a Python shell, so "python3" and
+
+55
+
+00:04:56,850  -->  00:04:57,960
+we're good to go.
+
+56
+
+00:04:57,960  -->  00:05:01,320
+First thing we need to do obviously
+we're going to need to "import pymongo"
+
+57
+
+00:05:01,320  -->  00:05:03,660
+just like that, it's that simple,
+
+58
+
+00:05:03,660  -->  00:05:10,440
+and then let's go ahead and run a Mongo
+client. So what we need to do is now
+
+59
+
+00:05:10,440  -->  00:05:13,260
+import "MongoClient( )" I believe.
+
+60
+
+00:05:13,260  -->  00:05:18,480
+Let's check this out if it's not already
+installed, alright it's not defined. So
+
+61
+
+00:05:18,480  -->  00:05:30,180
+what we need to do is "from pymongo
+import MongoClient" and it's camelcase.
+
+62
+
+00:05:30,180  -->  00:05:38,700
+Once you get Mongo client imported you
+now need to actually instantiate the Mongo
+
+63
+
+00:05:38,700  -->  00:05:45,330
+client, so basically it's really simple
+to instantiate it. Create a variable
+
+64
+
+00:05:45,330  -->  00:05:53,490
+called "client = MongoClient( )" and
+its class, and we just created an object
+
+65
+
+00:05:53,490  -->  00:05:59,190
+from that. Now alternatively this is
+going to connect on the default host and
+
+66
+
+00:05:59,190  -->  00:06:10,560
+port which means writing that is
+essentially the same as writing this. So
+
+67
+
+00:06:10,560  -->  00:06:16,020
+if you have it set up to run on a
+different port or a different host, you
+
+68
+
+00:06:16,020  -->  00:06:19,800
+will be able to connect like this, change
+the port or the house
+
+69
+
+00:06:19,800  -->  00:06:26,880
+accordingly. Now, additionally, you can use a mongo URL. So what a mongo URL is, is a
+
+70
+
+00:06:26,880  -->  00:06:33,270
+specific URL that Mongo can use to
+connect to a machine. So how you are gonna do
+
+71
+
+00:06:33,270  -->  00:06:36,100
+that is rather than using HTTP which are
+
+72
+
+00:06:36,100  -->  00:06:40,450
+common protocols you now have
+access to a new protocol called
+
+73
+
+00:06:40,450  -->  00:06:53,350
+"('mongodb://localhost:27017/')" So no matter
+
+74
+
+00:06:53,350  -->  00:06:57,010
+which one of these ways you get
+connected, the idea should be that
+
+75
+
+00:06:57,010  -->  00:07:03,490
+you are connected to the Mongo service
+which means that you are now able to
+
+76
+
+00:07:03,490  -->  00:07:08,710
+connect to a database. So we're going to
+connect to a database and we're going to
+
+77
+
+00:07:08,710  -->  00:07:12,310
+be ending the video there and then we'll
+continue in the next video. So to get
+
+78
+
+00:07:12,310  -->  00:07:16,960
+connected to a database, i'm not sure if
+we actually need one set up first or if
+
+79
+
+00:07:16,960  -->  00:07:21,190
+it will create on the fly here, so let's
+go ahead and try. We're going to set "db =
+
+80
+
+00:07:21,190  -->  00:07:30,850
+client." whatever database we want. So,
+let's say it's going to be called
+
+81
+
+00:07:30,850  -->  00:07:39,610
+".pytests" and that's how to create a
+collection, nothing
+
+82
+
+00:07:39,610  -->  00:07:43,630
+the collection doesn't exist yet because
+we haven't or the database doesn't exsist
+
+83
+
+00:07:43,630  -->  00:07:46,780
+yet because we haven't put anything into
+it, and so that's what we're going to be
+
+84
+
+00:07:46,780  -->  00:07:50,710
+going over the next video. We're going to
+be going over the collection or what a
+
+85
+
+00:07:50,710  -->  00:07:54,880
+table is in Mongo, and how to set one up.

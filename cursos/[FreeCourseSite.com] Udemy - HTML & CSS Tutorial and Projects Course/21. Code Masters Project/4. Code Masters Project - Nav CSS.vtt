@@ -1,0 +1,931 @@
+WEBVTT
+
+00:00.020 --> 00:02.420
+Well let's go to Mayne's he says.
+
+00:02.670 --> 00:06.340
+For now we only have a four of five for the body.
+
+00:06.390 --> 00:06.630
+Right.
+
+00:06.630 --> 00:09.900
+So this is going to be the role for Marri But what are we going to do right.
+
+00:09.900 --> 00:13.680
+Well we're going to get rid of these default margins and paddings.
+
+00:13.890 --> 00:22.390
+So we're going to say select all we're going to say margin zero and paddings zero or here like this.
+
+00:22.500 --> 00:28.950
+And once we have these two zeros and also we're going to have a box sizing here and we're going to say
+
+00:28.960 --> 00:29.880
+more books.
+
+00:29.960 --> 00:36.330
+And basically what I mean what do we mean by that is that once you actually set some kind of value to
+
+00:36.330 --> 00:40.740
+any kind of element right if we're going to be changing anything with margins and paddings the actual
+
+00:40.740 --> 00:43.020
+element is not going to get bigger.
+
+00:43.410 --> 00:48.590
+It's actually what's going to happen that this is going to affect the inside of an element.
+
+00:48.610 --> 00:48.920
+Right.
+
+00:48.930 --> 00:53.420
+This is not going to affect the outside it's not going to become bigger at the margins and paddings
+
+00:53.450 --> 00:55.050
+are going to work in work.
+
+00:55.230 --> 00:55.800
+So we're here.
+
+00:55.800 --> 01:00.210
+Well I'm sorry to paddings right now at the margins margins are actually going to work towards the outside
+
+01:00.630 --> 01:03.470
+but departing is not going to work towards the outside.
+
+01:03.540 --> 01:06.100
+So or here if we have a body.
+
+01:06.270 --> 01:13.050
+And this is going to be fun family one way and then after that would we would want is now of links here
+
+01:13.410 --> 01:15.330
+and we would want a list style type.
+
+01:15.330 --> 01:20.190
+None because we would want to get rid of these both in points which we can see right now because we
+
+01:20.190 --> 01:22.710
+got over the padding right but they're still there.
+
+01:22.710 --> 01:29.940
+So I'm going to say and have links and what I'm going to say a list style type here and I'm going to
+
+01:29.940 --> 01:36.300
+say in and then we're going to do a rule here we're going to sell property and I'm going to say this
+
+01:36.300 --> 01:41.270
+plane but what I'm going to do right away I'm going to copping actually common this one out.
+
+01:41.460 --> 01:41.820
+Right.
+
+01:41.970 --> 01:47.400
+And the reason for that why we're using this plane on is first I want to style them and then actually
+
+01:47.400 --> 01:49.090
+have this rule right.
+
+01:49.110 --> 01:52.550
+And the reason for this rule is that once we go to the smaller screen.
+
+01:52.820 --> 01:53.440
+Right.
+
+01:53.610 --> 01:55.470
+What I want to do is once I refresh.
+
+01:55.480 --> 01:58.900
+Right I want this links to be gone.
+
+01:58.910 --> 01:59.380
+All right.
+
+01:59.520 --> 02:05.070
+And only when I click the button or where right then I want them to actually appear and because otherwise
+
+02:05.070 --> 02:10.320
+if I'm not using the display on there all the time once I go to the small screen aren't going to be
+
+02:10.320 --> 02:11.280
+like this.
+
+02:11.280 --> 02:12.320
+And that's not what I want.
+
+02:12.330 --> 02:17.460
+Actually once I refresh the page I want them to be gone like this and only when I click the button I
+
+02:17.460 --> 02:19.020
+want them to appear.
+
+02:19.050 --> 02:20.190
+So what are you going do over here.
+
+02:20.180 --> 02:22.810
+I'm going to say of lengths right now we have this play out.
+
+02:22.890 --> 02:27.930
+And later on once we have styled them once you can actually see what we're doing then I'm going to come
+
+02:27.930 --> 02:32.400
+and this one again out and here we're going to say is this is going to be Nav..
+
+02:32.620 --> 02:38.970
+We're going to say links and we're going to Target or here the element right here we're going to we're
+
+02:38.970 --> 02:41.910
+going to be targeting is the links going on here.
+
+02:41.910 --> 02:44.390
+First I'm going to say this play and I'm going to say this play.
+
+02:44.390 --> 02:45.990
+BLOCK So what's happening now.
+
+02:45.990 --> 02:47.820
+They're displaying all across the screen.
+
+02:47.880 --> 02:48.200
+Right.
+
+02:48.300 --> 02:49.510
+100 percent.
+
+02:49.830 --> 02:53.090
+Then we're going to have a padding and padding all around.
+
+02:53.090 --> 02:54.420
+We're going to have a 20.
+
+02:54.560 --> 02:55.050
+Right.
+
+02:55.120 --> 02:59.950
+And the reason for display block is that you can see or hear as I'm hovering right doesn't mean I don't
+
+03:00.000 --> 03:03.130
+need to be on here in order for the link to work.
+
+03:03.140 --> 03:03.640
+All right.
+
+03:03.750 --> 03:05.910
+So this is going to be panning 20.
+
+03:05.910 --> 03:12.840
+Then we'll have a background hash tag 1 9 1 9 1 9 is going to be the black one that we're going to have
+
+03:12.900 --> 03:14.670
+a font size.
+
+03:14.670 --> 03:20.840
+This is going to be 17 pixels right here then we're going to have a text declaration for these on the
+
+03:20.850 --> 03:26.220
+lines to be done to have a noun like this.
+
+03:26.310 --> 03:34.380
+Then we're going to have a text transform uppercase text transformable we want to have a uppercase and
+
+03:34.380 --> 03:36.560
+so now these links are going to look like this.
+
+03:36.750 --> 03:41.210
+And then we're going to that car and the color over here is going to be a hash tag.
+
+03:41.460 --> 03:50.280
+This is going to be 8 F C and then we're here then we're going to have a B F D B if the order.
+
+03:50.340 --> 03:55.100
+So this is going to be this light blue color red and we're going to be using this quite often.
+
+03:55.320 --> 03:57.220
+And then we would want a transition.
+
+03:57.340 --> 04:02.100
+And so here you can see that as I'm hovering right fewer things are happening the colors are changing
+
+04:02.100 --> 04:06.690
+and the background is changing and the batting you can see or hear is changing and all those things
+
+04:06.690 --> 04:07.910
+you can actually do.
+
+04:09.070 --> 04:10.330
+With the transition.
+
+04:10.570 --> 04:14.690
+And basically what we're saying is that we would want that change to happen over time.
+
+04:14.710 --> 04:19.210
+I think we can still just do it on a hover right but it's not going to look very pretty if we're doing
+
+04:19.210 --> 04:20.230
+without transition.
+
+04:20.230 --> 04:23.060
+Basically it's going to right away happen right.
+
+04:23.110 --> 04:24.550
+So what's what's happening on here.
+
+04:24.550 --> 04:31.720
+We're going to say transition here and we're going to say color 2 seconds is then we're going to have
+
+04:31.750 --> 04:33.590
+a background here.
+
+04:33.730 --> 04:34.600
+Two seconds each.
+
+04:34.610 --> 04:37.370
+So these would be the properties that were in effect right.
+
+04:37.410 --> 04:40.350
+These and all here will have a padding.
+
+04:40.660 --> 04:41.840
+Two seconds each.
+
+04:42.030 --> 04:46.040
+And let me go over what we're actually writing or here is right.
+
+04:46.090 --> 04:51.180
+So what's happening is first what I'm saying what property shouldn't be affected by transition then
+
+04:51.190 --> 04:53.130
+I'm saying how long this should take.
+
+04:53.170 --> 04:59.360
+And I always use these two seconds because I just want us to see actual property that's changing right.
+
+04:59.410 --> 05:03.930
+Most case scenarios you're also going to use something like 0.5 seconds or something like this right.
+
+05:04.000 --> 05:06.700
+Because two seconds is quite long here.
+
+05:06.740 --> 05:09.320
+This is what I'm saying how this transition should happen.
+
+05:09.330 --> 05:10.000
+Right.
+
+05:10.030 --> 05:14.060
+Does it start faster and faster or easier.
+
+05:14.090 --> 05:18.080
+Now there's another option right now I'm just going with a pretty generic one with an ease.
+
+05:18.110 --> 05:18.690
+Right.
+
+05:19.020 --> 05:23.610
+And here or here I'm saying another property right is going to be the background again.
+
+05:23.620 --> 05:26.540
+Two seconds each then another one is going to be bad.
+
+05:26.610 --> 05:26.950
+Right.
+
+05:27.100 --> 05:30.990
+So basically what I'm saying are here these are going to be the properties that are going to be affected.
+
+05:31.150 --> 05:33.970
+And all here now going to write what should actually happen.
+
+05:34.130 --> 05:36.870
+So I'm going to say now I have links here.
+
+05:37.050 --> 05:37.670
+And however.
+
+05:37.710 --> 05:38.190
+All right.
+
+05:38.220 --> 05:40.400
+So I was I'm having de-link what should happen.
+
+05:40.540 --> 05:47.450
+And once we have a link cover first thing we're going to say is going to be background background and
+
+05:47.450 --> 05:52.250
+we're going to say all here hashtag this is going to be nine one and one and one.
+
+05:52.320 --> 05:58.820
+And so as I'm hovering the background check right you can see that my is changing over two seconds as
+
+05:58.820 --> 05:59.940
+I'm hovering.
+
+05:59.940 --> 06:02.750
+Then after that what you want is a color.
+
+06:03.080 --> 06:09.200
+And we would want a color to change and what would be the color we're going to say or the hash tag 0
+
+06:09.230 --> 06:18.730
+3 2 and then we're going to say for three four three or say this and over here we can see as we're hovering.
+
+06:18.730 --> 06:20.090
+Two things are changing right.
+
+06:20.090 --> 06:21.540
+Background and color.
+
+06:21.800 --> 06:24.600
+And after that all we want is padding left.
+
+06:24.650 --> 06:30.170
+So I'm going to say we're here padding and we're going to say padding left and over here this is going
+
+06:30.170 --> 06:31.430
+to be 20 pixels.
+
+06:31.460 --> 06:34.180
+So we save this note here you can see what's happening.
+
+06:34.220 --> 06:34.770
+Right.
+
+06:34.790 --> 06:40.100
+So this is going to be on here instead of 20 sorry you know what let's do 30 because 20 wouldn't be
+
+06:40.100 --> 06:40.970
+exactly the same.
+
+06:40.970 --> 06:42.420
+That's why nothing was happening.
+
+06:42.680 --> 06:48.060
+Over here as you can see right now right as I'm hovering and it's actually changing also on the padding
+
+06:48.190 --> 06:48.510
+right.
+
+06:48.530 --> 06:53.510
+Not just a color in the background and once we're done with these three.
+
+06:53.510 --> 06:56.390
+Now would be the time for the icons.
+
+06:56.570 --> 06:58.450
+However what's going to happen with icons.
+
+06:58.490 --> 07:01.610
+I don't want them to actually appear on a smaller screen.
+
+07:01.780 --> 07:03.840
+So over here with the nav icons.
+
+07:03.900 --> 07:04.850
+What are all going to do over here.
+
+07:04.850 --> 07:11.950
+I'm going to say now comes icons and I'm going to say this play I'm going to say actually this plane
+
+07:12.760 --> 07:19.430
+edition totally didn't disappear once we're working with a smaller screen right now then what I would
+
+07:19.430 --> 07:25.160
+want to do is deal with this not contain it or hear what I'm going to say that this is going to be in.
+
+07:25.740 --> 07:32.510
+And I'm going to see that container container doing this and I'm going to say first and this should
+
+07:32.510 --> 07:39.140
+have a padding of zero bottom and 20 pixels left and right here like this.
+
+07:39.140 --> 07:45.320
+Then I'm going to add a background and the background is going to be here and then I'm going to say
+
+07:45.400 --> 07:54.650
+2:55 255 and 255 0.4 And so it's going to be completely white collar.
+
+07:54.680 --> 08:01.550
+However that person is going to be 0.5 or hear like this and it's going to be better seen once you can
+
+08:01.550 --> 08:03.950
+actually have this background event.
+
+08:04.050 --> 08:04.640
+Right.
+
+08:04.670 --> 08:06.690
+So this is how it's going to look eventually.
+
+08:06.740 --> 08:09.990
+Now obviously everything is white so we can see the difference.
+
+08:10.050 --> 08:14.580
+No here now would want a broader bottom more bottom.
+
+08:14.870 --> 08:20.300
+And this is going to be five pixels solid here like this.
+
+08:20.330 --> 08:22.350
+And then we're going to have a hash tag.
+
+08:22.400 --> 08:29.670
+This is going to be FCB and this is going to be a 8 year sorry a mistake.
+
+08:29.960 --> 08:34.710
+So we're going to have eight FCB and if is going to have the.
+
+08:34.770 --> 08:35.330
+All right.
+
+08:35.330 --> 08:37.650
+So light blue color over here.
+
+08:37.990 --> 08:43.550
+And I would want a display flex number for the work on display flex.
+
+08:43.550 --> 08:46.830
+What I would want to do is actually create these elements so we can see them.
+
+08:46.880 --> 08:50.840
+And so for the container image first I would want to change the size.
+
+08:50.840 --> 08:57.120
+All right so now I'm selecting this image or what I'm going to say here that this is going to be a with
+
+08:57.920 --> 09:01.380
+here of hundred pixels here.
+
+09:01.400 --> 09:03.660
+All right so this is going to be hundred pixels.
+
+09:03.920 --> 09:09.620
+And then over here would want another flex properties and we're not going to add right now because we're
+
+09:09.620 --> 09:11.920
+not working on a flex yet or here.
+
+09:11.940 --> 09:15.950
+Now let's go ahead and let's actually work with this button.
+
+09:16.000 --> 09:16.570
+All right.
+
+09:16.580 --> 09:24.680
+So let's create the button so we can see or I'm going to say bar one and bar two and bar three.
+
+09:24.680 --> 09:28.660
+So all the bars that were created would be in the bottom more.
+
+09:28.830 --> 09:30.320
+Three more here.
+
+09:30.440 --> 09:32.930
+Now I would want a with.
+
+09:33.150 --> 09:39.990
+And this is going to be 25 pixels then we're going to have a height of four pixels here.
+
+09:40.070 --> 09:43.110
+They're going to have a margin of five pixels.
+
+09:43.110 --> 09:45.500
+Now let's add the color so we can see what we're doing.
+
+09:45.570 --> 09:46.230
+All right.
+
+09:46.230 --> 09:51.370
+So again we're going to have a background and we're going to we're going to use this light color so
+
+09:51.360 --> 09:55.130
+I'm going to copy and paste this here like this.
+
+09:55.150 --> 09:58.600
+Right now I can see or hear this is going to be our button.
+
+09:58.800 --> 10:01.750
+Right so if I go over here you can see these three lines right.
+
+10:01.920 --> 10:03.890
+So this is going to be about an hour here.
+
+10:04.140 --> 10:11.070
+And once we have this what I'm going to say or here is now I would want to work actually on the button
+
+10:11.850 --> 10:14.640
+so I'm going to say over here this is going to be between.
+
+10:15.140 --> 10:19.000
+And here this is going to be padding is going to be two pixels all around.
+
+10:19.320 --> 10:24.900
+And then we're going to have a display an inline block like this.
+
+10:24.900 --> 10:32.610
+Then we'll have a border border here and we're going to say we're here and this is going to be for pixels
+
+10:33.000 --> 10:33.960
+solid.
+
+10:33.960 --> 10:36.550
+And again we're going to use this light Great color over here.
+
+10:36.570 --> 10:37.060
+Right.
+
+10:37.320 --> 10:42.750
+And then we have a cursor going to say cursor and this is going to be a pointer.
+
+10:43.140 --> 10:45.410
+So cursor and pointer.
+
+10:45.510 --> 10:49.340
+So once we have these now we would want to use the flex box to actually line them up.
+
+10:49.350 --> 10:49.950
+All right.
+
+10:49.950 --> 10:51.980
+So we're going to go back to now container.
+
+10:52.320 --> 10:55.120
+And over here we're going to send this play.
+
+10:55.120 --> 10:56.520
+I'm going to say flex.
+
+10:56.820 --> 11:02.780
+So now there is play flex then we'll have a justified content space between.
+
+11:03.270 --> 11:05.560
+So now they look like this or here.
+
+11:05.610 --> 11:13.530
+Then if we're going to go back to Nav. container so we're going to say a line self here self and we're
+
+11:13.530 --> 11:14.760
+going to say Center.
+
+11:14.970 --> 11:19.790
+So right away when we're doing we're placing all here this image right.
+
+11:19.800 --> 11:25.210
+It's not anymore stretched right because by default the flex box is always going to stretch its elements
+
+11:25.210 --> 11:25.690
+like this.
+
+11:25.710 --> 11:26.220
+Right.
+
+11:26.220 --> 11:31.250
+So what we're doing here we're saying we don't want to be stretch we saying lines self center.
+
+11:31.440 --> 11:37.590
+And then after that we want to do is work over here with this button right and actually have the same
+
+11:37.590 --> 11:38.150
+thing.
+
+11:38.370 --> 11:43.890
+So I'm going to say over here a line self We're going to say Center.
+
+11:43.980 --> 11:44.800
+That's right.
+
+11:44.810 --> 11:51.220
+So now both of them are actually aligned or here in the center and now what we actually care about is
+
+11:51.610 --> 11:53.120
+this change.
+
+11:53.160 --> 11:57.700
+I so here you can see that as I'm pressing right something is happening.
+
+11:57.700 --> 12:02.620
+Well two things are happening first of all which are you see or hear all our elements are appearing
+
+12:02.740 --> 12:03.880
+and disappearing.
+
+12:03.880 --> 12:04.440
+Right.
+
+12:04.540 --> 12:06.670
+But also here these bars are changing.
+
+12:06.940 --> 12:07.520
+Right.
+
+12:07.540 --> 12:11.130
+And let's actually create a class that actually does this change.
+
+12:11.260 --> 12:11.480
+Right.
+
+12:11.500 --> 12:16.690
+So what I'm going to say here and there's going to be a class that's going to be called change here
+
+12:17.110 --> 12:23.260
+and the change once I have the class change the bar one or here is going to have one effect.
+
+12:23.260 --> 12:23.940
+Right.
+
+12:23.980 --> 12:26.520
+And the effect is going to be transform.
+
+12:26.530 --> 12:31.920
+We're here and we're going to say rotate and we're going to say negative 45 degrees.
+
+12:32.070 --> 12:32.590
+Right.
+
+12:32.860 --> 12:34.650
+And then we'll have a translator.
+
+12:34.870 --> 12:35.120
+Right.
+
+12:35.150 --> 12:37.260
+Why not just rotate but also translate.
+
+12:37.580 --> 12:44.460
+And we're going to say negative 7 pixels here and this is going to be six pixels like this.
+
+12:44.470 --> 12:48.940
+So this was four bar one and you can see or hear what's happening right.
+
+12:48.940 --> 12:58.350
+So the bar one translate and transform and bar three over bar two we're just actually deleting it.
+
+12:58.480 --> 13:01.550
+We're just we're setting opacity of zero.
+
+13:01.720 --> 13:07.590
+So I'm saying here is that we can copy and paste this here two more times.
+
+13:07.810 --> 13:13.560
+And this class is going to have an effect on different effect on the bar to it.
+
+13:13.570 --> 13:20.500
+So this is going to be this more and we're going to say we're here and this is going to be opacity of
+
+13:20.590 --> 13:21.860
+0 4.
+
+13:21.900 --> 13:22.220
+All right.
+
+13:22.300 --> 13:24.110
+So this is going to disappear.
+
+13:24.130 --> 13:31.840
+And then for the March 3 again we're going to have a two of the same things rotate is going to be instead
+
+13:31.840 --> 13:33.760
+of negative 45 right.
+
+13:33.790 --> 13:36.770
+This is the bar three with one actually lift that up.
+
+13:36.790 --> 13:44.020
+So this is going to be 45 degrees and this is going to be negative 7 and negative 8 so negative.
+
+13:44.410 --> 13:50.920
+Now what is missing or here is the fact that again I want this change to happen over time.
+
+13:50.920 --> 13:54.200
+So I'm going to go back over here to the barge right here.
+
+13:54.310 --> 13:58.260
+We're going to write that this is going to be a transition here.
+
+13:58.570 --> 14:05.920
+And again we'll have a what property should be effect and then we have a transform and we have opacity.
+
+14:06.010 --> 14:12.100
+So these are two properties I don't worry about these values because we care only about properties.
+
+14:12.100 --> 14:18.580
+So we're going to we're going to have a transform and this is going to be two seconds each and opacity
+
+14:19.740 --> 14:21.540
+also two seconds.
+
+14:21.630 --> 14:23.220
+So this is going to be for the bars.
+
+14:23.310 --> 14:28.010
+But again this class is going to be only affected once we actually work with the Jake work right.
+
+14:28.020 --> 14:33.090
+It's not going to appear anywhere in our HD and now we're actually only have this class once we press
+
+14:33.090 --> 14:36.560
+the button and we're going to do it with the help of Jake.
+
+14:36.750 --> 14:40.170
+So let's head actually and let's go and let's set it up.
+
+14:40.170 --> 14:42.410
+This button that it wouldn't work.
+
+14:42.430 --> 14:42.980
+Right.
+
+14:43.050 --> 14:47.950
+So what I'm going to do or here I'm going to go back to my script readers or here.
+
+14:47.980 --> 14:50.810
+Right we have now a document ready function.
+
+14:50.820 --> 14:53.070
+All right we have everything more.
+
+14:53.660 --> 14:58.770
+And over here what I'm going to say first right once I click the button I would want Actually these
+
+14:58.770 --> 15:00.270
+links to appear and disappear.
+
+15:00.610 --> 15:00.860
+Right.
+
+15:00.930 --> 15:06.710
+So I'm going to say we're here and then I would want to select a button right or hit class Button.
+
+15:06.780 --> 15:11.960
+And so this is the class with the button we're going to play is not and will say click.
+
+15:12.000 --> 15:17.610
+So once we actually click it right now or hear what should happen here we're going to have a anonymous
+
+15:17.610 --> 15:20.210
+function again like this.
+
+15:20.310 --> 15:26.390
+And within this anonymous function we're going right over here that these now have links right.
+
+15:26.400 --> 15:27.720
+Something shouldn't happen to them.
+
+15:27.760 --> 15:28.240
+Right.
+
+15:28.260 --> 15:35.980
+So first of all we need to do is select them like this and we're going to have links right and over
+
+15:36.000 --> 15:39.780
+here we're going to say that this is going to be a slide toggle.
+
+15:40.040 --> 15:43.070
+Right and that's the function we're interested in here.
+
+15:43.090 --> 15:47.470
+We're going to say that this should happen over a span of time.
+
+15:47.510 --> 15:48.030
+Right.
+
+15:48.060 --> 15:48.800
+All right.
+
+15:48.840 --> 15:49.830
+Three seconds.
+
+15:49.980 --> 15:54.020
+Now again this is a little bit over exaggerated right.
+
+15:54.030 --> 15:59.530
+Probably you would want something quicker but I just like it when it's actually happening longer or
+
+15:59.570 --> 16:02.570
+here like this because then we can actually see what's happening.
+
+16:02.670 --> 16:07.320
+What I'm going to do or here I'm just going to say this right a novel length slide toggle.
+
+16:07.560 --> 16:08.970
+Let's actually see what happens.
+
+16:09.000 --> 16:09.510
+Right.
+
+16:09.540 --> 16:10.290
+Is it working.
+
+16:10.290 --> 16:11.490
+Sure enough right.
+
+16:11.490 --> 16:16.620
+So as I'm clicking on here you can see that links are appearing and actually disappear.
+
+16:16.680 --> 16:18.770
+Right now what we want to do.
+
+16:18.990 --> 16:19.680
+All right.
+
+16:19.680 --> 16:22.970
+We would want to actually see what would be the issue.
+
+16:22.980 --> 16:23.370
+Right.
+
+16:23.520 --> 16:29.280
+So I'm going to go back to our Codemasters site and you can see that once I refresh these links are
+
+16:29.280 --> 16:30.400
+always here right.
+
+16:30.600 --> 16:32.640
+And remember what we needed to do.
+
+16:32.640 --> 16:38.100
+We went to Maine back to Maine she says we're going to go back to now links in or here this plane.
+
+16:38.120 --> 16:38.420
+Right.
+
+16:38.430 --> 16:42.400
+And what I'm going to do here now they're actually disappearing by default.
+
+16:42.580 --> 16:46.850
+All right so if I'm saying this and if I refresh or hear not exceeded they're gone.
+
+16:46.860 --> 16:51.190
+However as I press it right now my links are actually up here right.
+
+16:51.300 --> 16:56.140
+Because obviously you can see later on once you're going to go back to the different screen right.
+
+16:56.200 --> 16:57.520
+There's going to be different.
+
+16:57.690 --> 16:59.400
+And that's the reason for that.
+
+16:59.400 --> 17:07.640
+Now what I also want to do is add here does change remember this class right through these bars on this.
+
+17:07.700 --> 17:08.120
+Right.
+
+17:08.130 --> 17:09.880
+So how do I do that.
+
+17:10.170 --> 17:12.450
+We're going to go back to a now.
+
+17:12.660 --> 17:17.630
+I'm certain the script right and everything is happening as I'm pressing the button.
+
+17:17.630 --> 17:24.120
+All right so still within the curly braces and all hinges parentheses what are we going to say or here
+
+17:24.540 --> 17:30.570
+is that we will once again for the button you know this we're going to say we will want to select the
+
+17:30.570 --> 17:31.640
+actual button.
+
+17:31.890 --> 17:32.070
+Right.
+
+17:32.070 --> 17:34.900
+So instead of selecting a number of links.
+
+17:35.070 --> 17:41.130
+Now we want to select the actual button on here and all this is going to again have a toggle class.
+
+17:41.130 --> 17:46.290
+Basically we're going to add the change class once we click click in once and then remove it and we
+
+17:46.290 --> 17:52.170
+can do this by doing this toggle class once or here we're going to say we're here to change what what
+
+17:52.250 --> 17:56.070
+is the class name we're going to say on here and this is going to be change.
+
+17:56.220 --> 17:56.540
+Right.
+
+17:56.580 --> 18:00.570
+Once we have this I can say with over here and you can see what's happening.
+
+18:00.580 --> 18:02.700
+Right as I click it.
+
+18:02.700 --> 18:05.050
+Right now the bars are working here.
+
+18:05.160 --> 18:09.270
+Click it again and the change is actually not work right.
+
+18:09.270 --> 18:17.250
+So basically we do this by just going all this class then once we're done with this we can actually
+
+18:17.250 --> 18:21.340
+go ahead and can work all here on this banner.

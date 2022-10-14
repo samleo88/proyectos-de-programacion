@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.560 --> 00:01.360
+Next one up.
+
+00:01.400 --> 00:06.620
+We're all going to have the margin on again we're just going to check it out first in the image and
+
+00:06.620 --> 00:12.470
+we see that pairing was the distance in between the edge of the element and the content and then the
+
+00:12.470 --> 00:19.020
+margin would be the distance in between let's say the screen or other elements and we can just test
+
+00:19.020 --> 00:20.230
+that out first.
+
+00:20.240 --> 00:25.430
+Now you know what I can just get rid of all these values and I was going to keep it simply by padding
+
+00:25.900 --> 00:30.330
+and let's say 20 pixels there's gonna be 20 pixels all around.
+
+00:30.500 --> 00:33.050
+And also let's do the same thing over here.
+
+00:33.170 --> 00:39.650
+I will go to common to south just so we know that this obviously works but I'm going to uncommon right
+
+00:39.680 --> 00:46.640
+now and I'm first putting analysts do exactly the same thing where it was 20 pixels awesome.
+
+00:46.660 --> 00:48.850
+Everything is working really nice with the panic.
+
+00:48.850 --> 00:49.890
+Well what about the margin.
+
+00:50.560 --> 00:55.930
+Well we have the same options we can write margin and then we again we're looking for margin but our
+
+00:55.930 --> 00:58.910
+margin left margin to maybe not.
+
+00:58.930 --> 01:00.950
+Let's test that out all of the options.
+
+01:00.960 --> 01:04.210
+Let's just say first with margin right.
+
+01:04.270 --> 01:06.270
+What do you think is going to happen right now.
+
+01:06.280 --> 01:11.950
+I have some kind of margin and this is some case already where even though we didn't at any margins
+
+01:12.460 --> 01:15.820
+the default browser stars are adding these margins.
+
+01:15.840 --> 01:18.650
+This is the reason why you see these distances in between.
+
+01:18.990 --> 01:24.310
+And this is gonna be a lot of times especially in the beginning once you start out the annoying factor
+
+01:24.310 --> 01:29.680
+where you're like oh wait a minute I'm doing all this with a layout and why this is not working why
+
+01:29.680 --> 01:31.340
+am I keep getting this margin.
+
+01:31.780 --> 01:35.250
+Well that's the case because it starts off by default.
+
+01:35.270 --> 01:39.110
+You need to be very careful with that but with margin right.
+
+01:39.320 --> 01:43.630
+What I would like to write and let's try 50 pixels.
+
+01:43.870 --> 01:45.110
+What do I have right now.
+
+01:45.130 --> 01:49.310
+So I have more than my margin on right is going to be 50 pixel.
+
+01:49.420 --> 01:55.480
+And again I can go all around like we did with the padding but I think it would be a waste of our time
+
+01:55.480 --> 02:01.000
+since we know that they wouldn't work exactly the same like we had with the padding what I do want to
+
+02:01.000 --> 02:03.730
+show you is that how we can get rid of this default.
+
+02:04.450 --> 02:11.440
+I already set the preset previously in my videos where I just select all the elements and we added the
+
+02:11.470 --> 02:12.430
+property.
+
+02:12.580 --> 02:16.830
+Now I'm not going to do this in this video because eventually we're going to come back to it anyway.
+
+02:17.050 --> 02:22.420
+But I do want to show you that if I'm gonna head over to margin and in this case I would like to have
+
+02:22.900 --> 02:24.240
+margin bottom.
+
+02:24.310 --> 02:28.930
+Now the reason why I would want to set margin bottom is because I would want to show you how we can
+
+02:28.930 --> 02:35.030
+stack one on top of each other because at the moment you notice they do have the margin in between.
+
+02:35.320 --> 02:36.900
+But we didn't work on that margin.
+
+02:37.290 --> 02:39.250
+It's obviously nowhere in our system.
+
+02:39.850 --> 02:40.620
+So how do we do.
+
+02:41.220 --> 02:42.700
+Where does the margin bottom.
+
+02:42.700 --> 02:48.400
+And instead of the value of 20 pixels 50 pixels hundred and twenty pixels.
+
+02:48.520 --> 02:50.710
+I'm going to go with simple zero.
+
+02:50.710 --> 02:51.790
+What happens.
+
+02:51.790 --> 02:54.200
+Well I'm getting my margin smaller.
+
+02:54.280 --> 03:00.580
+I do still have the margin because the key here is paragraph still has the margin on top.
+
+03:01.180 --> 03:04.210
+Okay let's get rid of it let's say margin.
+
+03:04.250 --> 03:08.300
+We're looking for margin up and margin to surprise surprise.
+
+03:08.300 --> 03:09.990
+We're gonna go with 0.
+
+03:10.060 --> 03:11.650
+What do you see right now.
+
+03:11.650 --> 03:16.620
+Did we eventually get rid of the default margin that we're getting.
+
+03:16.720 --> 03:17.990
+I think we did.
+
+03:18.130 --> 03:24.520
+So again the short way you would do it something like this you would say the Asterix and then you would
+
+03:24.520 --> 03:30.820
+say margin zero again will we will gonna be adding more properties later on but you will do something
+
+03:30.820 --> 03:35.680
+like this where you would just say whatever I'm getting I want to get rid of all the default margins
+
+03:35.770 --> 03:38.460
+and just let me work from scratch.
+
+03:38.550 --> 03:43.270
+And this is again something you would normally do and this is something we will in fact do throughout
+
+03:43.270 --> 03:44.390
+the project.
+
+03:44.390 --> 03:45.610
+So let me again.
+
+03:45.610 --> 03:46.150
+You know what.
+
+03:46.150 --> 03:51.400
+Let me comment this or comment this out just so you know that this is an option but let's keep working
+
+03:51.400 --> 03:51.970
+with these guys.
+
+03:52.450 --> 03:56.660
+So now I have margin bottom zero as well as this guy now you know what.
+
+03:56.680 --> 04:02.690
+We can also maybe get rid of this and let's look at again whether we have the same options for shortcuts
+
+04:03.280 --> 04:08.720
+because we know our lead margin top margin left and all those properties are gonna be available to us.
+
+04:09.010 --> 04:10.600
+How often we'll use it.
+
+04:10.600 --> 04:12.710
+I have no idea in most cases.
+
+04:12.790 --> 04:18.850
+I think you are gonna go with either this one where there's going to be margin around or the top bottom
+
+04:18.930 --> 04:20.090
+and left and right.
+
+04:20.110 --> 04:22.040
+So why don't we practice on these ones.
+
+04:22.180 --> 04:29.440
+So let's say or here I'm going to say margin all around is gonna be I don't know 30 pixels or something
+
+04:29.440 --> 04:31.530
+like this or that would be the margin.
+
+04:31.540 --> 04:33.630
+And I'm also going to be working with the paragraph.
+
+04:34.060 --> 04:42.670
+So for the paragraph no let's try margin top bottom is going to be 50 pixels and I don't know 20 pixels
+
+04:42.670 --> 04:46.290
+left and right that would look something like this.
+
+04:46.360 --> 04:53.830
+And once we have a margin top bottom why don't we also try all four options where we have margin all
+
+04:53.830 --> 04:57.650
+around and for this we're going to say margin again.
+
+04:57.700 --> 05:02.110
+Let's look for some kind of values hundred pixels just so we can see.
+
+05:02.200 --> 05:05.700
+I don't know 20 pixels again left and right.
+
+05:05.710 --> 05:06.910
+I mean sorry.
+
+05:06.910 --> 05:09.620
+Right not left and right the bottom.
+
+05:09.700 --> 05:14.170
+Obviously we're not going to be able to see there's nothing here right now but let's just start again.
+
+05:14.170 --> 05:15.750
+Something like 20 pixels.
+
+05:15.810 --> 05:20.770
+And last but not least we're going to be looking at a right one where we can get again something like
+
+05:20.770 --> 05:28.740
+50 pixels what service and what do I have I have hundred so I have 20 and I have all around.
+
+05:28.750 --> 05:32.650
+So this is how the margin would work in the US as Box model.

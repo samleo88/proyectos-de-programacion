@@ -1,0 +1,487 @@
+WEBVTT
+
+00:00.120 --> 00:06.720
+Now that we're ready to start working on our project we would need to do our basic set up because all
+
+00:06.720 --> 00:10.630
+our projects Herger ago cowriter pretty much the same things right.
+
+00:10.740 --> 00:14.310
+Even though for different projects they would be actually customized.
+
+00:14.760 --> 00:19.470
+So all our projects we're going to need to find some icons and we're going to need to pick some kind
+
+00:19.470 --> 00:26.250
+of fund that our hero when we need pick some images or he'll going to pick some colors.
+
+00:26.310 --> 00:31.870
+So let's go ahead and let's start working on our basic setup so you can see or hear it.
+
+00:32.220 --> 00:38.700
+I have a folder like Project and it's completely empty or it's sitting on my desktop and I'm using a
+
+00:38.700 --> 00:39.930
+bracket's texter.
+
+00:40.140 --> 00:46.200
+So I'm going to do or I'm just going to drag this folder on here like this like drag it all the way
+
+00:46.200 --> 00:51.870
+to my text for once it's in there what I'm going to do first I'm going to create a new file and I'm
+
+00:51.870 --> 00:54.040
+going to say this is going to be the next page.
+
+00:54.500 --> 00:59.670
+And for here we're going to make right away a live preview so we can actually start working side by
+
+00:59.670 --> 01:00.260
+side.
+
+01:00.660 --> 01:06.350
+So this is going to be my real life preview and that I'm going to make it a full screen here like this.
+
+01:06.360 --> 01:06.990
+Right.
+
+01:07.020 --> 01:11.950
+And then the first thing that will do we're going to add hd a mascot.
+
+01:11.970 --> 01:17.430
+So here I'm just going to say this is going to be full HD all sculpt and home like this.
+
+01:17.430 --> 01:22.890
+The language you're going to have is going to be English then or here the style sheet right.
+
+01:22.950 --> 01:25.790
+Is going to be linked to our style sheet that's out here.
+
+01:25.880 --> 01:30.630
+And this is going to be project rent and this is going to be the name of our file.
+
+01:30.710 --> 01:31.760
+We're here link.
+
+01:31.790 --> 01:33.820
+This is going to be our main success.
+
+01:33.870 --> 01:35.720
+I'm going to leave a comment.
+
+01:35.800 --> 01:39.550
+Main see it says that on here you can see this is going to be doing.
+
+01:39.570 --> 01:42.540
+And here we're going to say also main CIRCE's.
+
+01:42.600 --> 01:49.010
+Right now we would need to create a space as file to send you file maned see this.
+
+01:49.110 --> 01:52.270
+Now that we have this we're going to leave this one for now.
+
+01:52.530 --> 01:54.650
+And we're going to go back to the next page tomorrow.
+
+01:54.810 --> 01:56.140
+And this is going to be script.
+
+01:56.160 --> 01:57.870
+This is going to be for javascript.
+
+01:57.890 --> 02:04.120
+We're all going out once in a while some type of javascript in order to make our website function.
+
+02:04.140 --> 02:06.160
+So now that we have this set up.
+
+02:06.300 --> 02:09.050
+First things first let's get our fantastic.
+
+02:09.280 --> 02:13.980
+So going to we're going to save this one over here and we're going to go back over here and you can
+
+02:13.980 --> 02:20.270
+see that if we go to a farm or some IO well here or you can just go back to Google you can see that
+
+02:20.320 --> 02:27.570
+if I'm right the font or some or some icons like this you can see that this is going to be the first
+
+02:27.570 --> 02:29.160
+link that's going to open up.
+
+02:29.310 --> 02:34.220
+So we bravely open up the link and we right away head for a down.
+
+02:34.220 --> 02:35.180
+All right.
+
+02:35.190 --> 02:39.350
+So here at home you can see that it's down.
+
+02:39.660 --> 02:44.010
+So it's going to say we're here and we're going to say that we would want to download.
+
+02:44.070 --> 02:44.590
+Right.
+
+02:44.610 --> 02:49.000
+You can say over here you don't need to agree all this right with all new messages.
+
+02:49.110 --> 02:55.560
+You can just say no phone number four and or hear what is going to happen is this going to say show
+
+02:55.560 --> 02:57.980
+in Finder and this is going to be our downloads.
+
+02:58.020 --> 03:04.200
+So once we open up our zip file or here right you can see the zip file opens and now what we need to
+
+03:04.200 --> 03:06.360
+do is drag it or fold.
+
+03:06.810 --> 03:09.240
+So here are just going to minimize this.
+
+03:09.350 --> 03:16.110
+Here find the folder project and on here with we're going to do is going to drag this one and actually
+
+03:16.110 --> 03:17.560
+place it in a project.
+
+03:17.560 --> 03:22.400
+So now when it's sitting in our project Let's go ahead and actually add a fantastic.
+
+03:22.500 --> 03:25.310
+So here you can see that this is going to be my farm Tarsem.
+
+03:25.470 --> 03:29.850
+So here and there the main thing is this what we're going to do is we're going to say this is going
+
+03:29.850 --> 03:30.510
+to be common.
+
+03:30.520 --> 03:36.150
+This is going to be Fonte awesome icons here like this.
+
+03:36.210 --> 03:40.520
+So let's create a link here with a Amut.
+
+03:40.620 --> 03:43.160
+So here I'm going to say this is going to be Fonte right.
+
+03:43.220 --> 03:47.170
+So now I need to actually show where's my folder awesome.
+
+03:47.310 --> 03:48.960
+Then we're going to go to see assess.
+
+03:49.050 --> 03:51.170
+And we're going to go to phantasm.
+
+03:51.270 --> 03:51.960
+Yes.
+
+03:52.110 --> 03:54.920
+And all here just to test that out and everything is working.
+
+03:54.930 --> 03:56.960
+We're going to do a very basic one.
+
+03:57.030 --> 04:01.900
+We're going to say this is going to be high with a class of hey here.
+
+04:01.990 --> 04:05.400
+Hey And let's say this is going to be home when you're like this.
+
+04:05.400 --> 04:11.910
+And now I can see that I have the home and I was the side note for typing my age the e-mail I'm going
+
+04:11.910 --> 04:18.960
+to be using and met bracket's extension or here let me show you where it is basically or here it is
+
+04:19.050 --> 04:20.340
+already downloaded.
+
+04:20.380 --> 04:24.340
+Right so now you can see the fish sitting in a bracket extensions.
+
+04:24.600 --> 04:27.890
+And it just takes a little bit of time to actually see right.
+
+04:28.140 --> 04:34.080
+And within that if we go down here right this is going to be high speed HD Malins see this workflow.
+
+04:34.320 --> 04:38.190
+And basically what it means is that this is going to speed up our workflow.
+
+04:38.370 --> 04:42.050
+We don't need to type all the time the full element right.
+
+04:42.090 --> 04:48.870
+The force and or development we can just type few things and it's basically going to do the out of feel
+
+04:48.870 --> 04:49.500
+for us.
+
+04:49.620 --> 04:52.560
+But obviously at the end you're still going to be able to see what you're writing.
+
+04:52.560 --> 05:00.070
+So even if I'm even if you are not using them right you'll see what's actually being typed.
+
+05:00.100 --> 05:06.760
+I would suggest for you to switch it because it is really going to speed up your workflow and avoid
+
+05:06.850 --> 05:10.390
+unnecessary typing class and IDs and all those kind of things.
+
+05:10.390 --> 05:10.960
+Right.
+
+05:11.020 --> 05:16.240
+So what I'm going to do here I'm going to say this now we have found us when we see or hear and next
+
+05:16.240 --> 05:18.870
+we're going to move one and look at what is the next thing.
+
+05:19.090 --> 05:20.300
+So now we're done with fun.
+
+05:20.300 --> 05:20.670
+Awesome.
+
+05:20.680 --> 05:22.480
+Next what would be Google fonts.
+
+05:22.560 --> 05:29.740
+And again we just go here and type Google fonts and we are led all here to this page and on here I'm
+
+05:29.740 --> 05:34.960
+going to download right away rebottle because I like them and they're popular and all kinds of good
+
+05:34.960 --> 05:35.670
+stuff.
+
+05:35.680 --> 05:41.130
+However obviously you can see or hear that you have choices upon choices of choice.
+
+05:41.180 --> 05:41.880
+Right.
+
+05:41.920 --> 05:44.150
+And on here you can be more specific right.
+
+05:44.170 --> 05:50.510
+You can click whatever class you want right so you can choose the categories or you have styles right.
+
+05:50.510 --> 05:55.260
+Or you can choose the thickness and slant and I mean I going to go over these options because they're
+
+05:55.270 --> 06:00.580
+very self-explanatory what you can do however how you download this right.
+
+06:00.610 --> 06:05.220
+So what you can do here was going out here and you can see that it's a family select.
+
+06:05.230 --> 06:10.570
+So what we do here you can see that it opens up and then it says all right to this is we wouldn't be
+
+06:10.570 --> 06:11.950
+doing that we would need.
+
+06:12.100 --> 06:17.770
+And this is the link that we need to place actually in our head element and our hand is when we would
+
+06:17.770 --> 06:18.620
+need to add.
+
+06:18.640 --> 06:19.020
+Right.
+
+06:19.060 --> 06:22.130
+And obviously this we would have tactual body.
+
+06:22.180 --> 06:23.740
+So what you going to do here.
+
+06:23.830 --> 06:26.330
+We're going to say that this is going to be phantasm.
+
+06:26.470 --> 06:32.250
+And after that or here we're going to say this is going to be Google and we're going to say for months.
+
+06:32.260 --> 06:32.800
+Right.
+
+06:32.880 --> 06:38.470
+So here what is going to happen when the copy and paste this writing this is going to be new fonts will
+
+06:38.470 --> 06:41.030
+save this and we're going to go back over here.
+
+06:41.040 --> 06:43.400
+I don't know what to say for the whole body.
+
+06:43.420 --> 06:49.390
+We're going to go back and we're going to get this from the family room Otto So here I'm going to copy
+
+06:49.390 --> 06:55.690
+this and we're going to go back over here and and copy paste this font family everybody.
+
+06:55.810 --> 07:03.220
+So now when we have our custom fonts Let's check it out where we could get a images and where we can
+
+07:03.220 --> 07:04.660
+get colors and clothes.
+
+07:04.700 --> 07:06.100
+This from Tarsem.
+
+07:06.370 --> 07:09.820
+And obviously you can get images from Google if you want.
+
+07:09.820 --> 07:14.430
+However there's always going to be an issue if you're actually trying to sell something right.
+
+07:14.500 --> 07:19.420
+Has your web page or something like that that you obviously need to have a copyright.
+
+07:19.470 --> 07:20.030
+Right.
+
+07:20.350 --> 07:26.310
+You cannot just willy nilly starting other people's images because they obviously belong to them.
+
+07:26.380 --> 07:28.800
+So you can always do is go to pixels.
+
+07:28.920 --> 07:33.640
+That's one of the Web sites and there's obviously few of them right where you can actually get images
+
+07:33.640 --> 07:38.110
+for free more here and they're very actually good quality.
+
+07:38.290 --> 07:41.500
+All right so we've got the pixels you can see what's happening right.
+
+07:41.560 --> 07:43.410
+You can see that these are going to be images.
+
+07:43.430 --> 07:46.360
+But obviously here you can just search right.
+
+07:46.360 --> 07:50.320
+So I'm kind of right on your computer doing this right.
+
+07:50.320 --> 07:55.700
+And I was going to have computer images on here if I'm going to type on City.
+
+07:55.880 --> 08:00.770
+Right and we're going to be getting a lot of my city images and I can go on and on.
+
+08:00.790 --> 08:01.750
+Right.
+
+08:01.810 --> 08:05.100
+So this would be a very nice site to actually get images.
+
+08:05.110 --> 08:09.910
+And actually once you start getting images from here and once you're going to be surfing around the
+
+08:09.910 --> 08:15.870
+web you actually are going to notice that a lot of even well-known Web sites use this as free images
+
+08:15.880 --> 08:16.270
+right.
+
+08:16.270 --> 08:21.210
+It might come as a surprise but you're actually very soon to notice a lot of people are using these
+
+08:21.210 --> 08:22.080
+sites.
+
+08:22.090 --> 08:27.660
+So here the next one would be Gratus the graphy just because it gives you a lot of funky images.
+
+08:27.850 --> 08:32.980
+So if you have like some type of I don't know section of your web site or the whole project you want
+
+08:32.980 --> 08:34.390
+to make it funky right.
+
+08:34.450 --> 08:39.840
+Go to grad discover it because you can really get some some really cool and interesting images.
+
+08:39.880 --> 08:45.950
+Then after that we have afterimages we have colors so I'm going to call these guys here.
+
+08:46.240 --> 08:52.540
+And for the colors I would suggest over here this see and over here this is going to be two O's and
+
+08:52.540 --> 08:53.540
+then colors right.
+
+08:53.560 --> 08:55.810
+So cool person or something like that right.
+
+08:56.050 --> 09:02.020
+And or a nice thing oh here is the generator to go back over here and we click on generator.
+
+09:02.230 --> 09:07.420
+And now what we would need to do is actually just start pressing the space bar and we're going to be
+
+09:07.420 --> 09:08.750
+giving five options.
+
+09:08.780 --> 09:13.870
+It's all anti-fracking repressing spreadable you can see that my colors are changing.
+
+09:13.960 --> 09:17.270
+However I can go back over here and let's say you can see this lock.
+
+09:17.500 --> 09:20.200
+So you can lock this car and now I'm getting for.
+
+09:20.320 --> 09:20.840
+Right.
+
+09:20.890 --> 09:23.090
+So now if I pick again something right.
+
+09:23.130 --> 09:25.310
+So now I'm going to be having over here.
+
+09:25.640 --> 09:27.090
+Then let's say I'm going to pick.
+
+09:27.100 --> 09:28.160
+I don't know.
+
+09:28.490 --> 09:29.350
+And the collar on.
+
+09:29.350 --> 09:30.290
+Right right.
+
+09:30.310 --> 09:31.720
+So now we have all of them right.
+
+09:31.720 --> 09:33.810
+So let's say I would just need last one.
+
+09:33.910 --> 09:38.800
+So I'm just going to keep on pressing all here wherever and till I find whatever color I want.
+
+09:38.800 --> 09:41.610
+Now obviously you don't need to use all five of them right.
+
+09:41.750 --> 09:45.590
+But what it does it actually has a good suggestions right.
+
+09:45.670 --> 09:52.720
+Which colors would actually go together and now that we're actually done with our basic setup we can
+
+09:52.720 --> 09:55.270
+go ahead and start working on our project.

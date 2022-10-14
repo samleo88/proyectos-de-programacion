@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00.640 --> 00:05.540
+There's gonna be some cases where we would like to use special characters in IMO.
+
+00:05.810 --> 00:09.860
+So maybe let's look at it how we can work with them and how we can access them.
+
+00:10.310 --> 00:13.190
+First and foremost let me get rid of this paragraph.
+
+00:13.190 --> 00:17.600
+I'm not going to need it right now as well as let's create a hearing one maybe.
+
+00:17.600 --> 00:19.960
+And you know what I didn't want to delete the body.
+
+00:20.150 --> 00:23.330
+So let me just uh go back.
+
+00:23.390 --> 00:28.400
+Uh here let's say that there is gonna be a ring one and within the heading One will like to use the
+
+00:28.430 --> 00:33.220
+copyright special character so I can just write over here copy right.
+
+00:33.230 --> 00:34.570
+So some kind of text.
+
+00:34.760 --> 00:38.450
+And then how would access the special characters engage him.
+
+00:39.170 --> 00:42.680
+Well first of all I would have to access the ampersand sign.
+
+00:42.940 --> 00:49.460
+And if you know that you would need to do the shift as well as on my keyboard at least it's above the
+
+00:50.120 --> 00:51.930
+number seven on orders.
+
+00:51.950 --> 00:53.880
+Now I'm getting my Ampersand sign.
+
+00:54.070 --> 00:57.560
+And next I would need to come up with the name that I would be looking for.
+
+00:57.560 --> 01:02.750
+So obviously I already know that I'm gonna be looking for copy and check it out.
+
+01:02.750 --> 01:06.350
+I would need to write whatever the character I'm looking for.
+
+01:06.440 --> 01:09.740
+And then I would like to use the semicolon.
+
+01:09.740 --> 01:16.500
+So the moment we're gonna save it I'm gonna have the whatever text I had as well as the special character.
+
+01:16.510 --> 01:21.760
+Now you can look for special characters obviously online there's a bunch of tables that give you all
+
+01:21.760 --> 01:22.860
+kinds of names.
+
+01:22.900 --> 01:24.520
+I'm not gonna go through those tables.
+
+01:24.520 --> 01:28.510
+It's really gonna be time consuming and a lot of wasted time.
+
+01:28.510 --> 01:33.190
+Just remember that whenever you would be looking for some kind of special character again you can just
+
+01:33.190 --> 01:39.460
+google more special characters and that's gonna give you tons and tons of options as you can place it
+
+01:39.490 --> 01:41.180
+within your agency email element.
+
+01:41.560 --> 01:44.180
+But again the syntax would be exactly the same.
+
+01:44.260 --> 01:45.830
+We would have the ampersand again.
+
+01:45.850 --> 01:50.920
+We would know some kind of name or number that we're looking for and we would finish off with a semicolon
+
+01:51.310 --> 01:55.900
+and then we're gonna have this special character displayed in our HCM I'll document.

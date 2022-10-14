@@ -1,0 +1,245 @@
+1
+
+00:00:00,000  -->  00:00:08,880
+So let's create a few utility classes to
+get properties so "def get_hp(self):" we're just
+
+2
+
+00:00:08,880  -->  00:00:20,130
+going to "return self.hp" "def get_max_hp(self): going to be the same except with the
+
+3
+
+00:00:20,130  -->  00:00:35,670
+different property "return self.maxhp"
+We're going to "def get_mp(self):" "return self.mp"
+
+4
+
+00:00:35,670  -->  00:00:45,480
+and "def get_max_mp(self):" and going to be "return self.maxmp"
+
+5
+
+00:00:45,480  -->  00:00:54,360
+So, what we're going to do now is
+a way to when we cast a spell it's going
+
+6
+
+00:00:54,360  -->  00:01:00,960
+to be able to generate spell damage and
+then run this method on the enemy to
+
+7
+
+00:01:00,960  -->  00:01:06,420
+reduce the enemy's MP, but we also need
+to be able to reduce the magic points
+
+8
+
+00:01:06,420  -->  00:01:09,330
+that we have because there's going to be
+a cost.
+
+9
+
+00:01:09,330  -->  00:01:13,290
+So what we're going to do is we're just
+going to define a function called
+
+10
+
+00:01:13,290  -->  00:01:24,509
+"def reduce_mp(self, cost)" parameter and it's just going to
+
+11
+
+00:01:24,509  -->  00:01:29,460
+reduce the cost so return,
+
+12
+
+00:01:29,460  -->  00:01:39,000
+actually we don't need to return anything, so "self.mp -+ cost" Almost
+
+13
+
+00:01:39,000  -->  00:01:39,840
+done,
+
+14
+
+00:01:39,840  -->  00:01:46,829
+we've got a few more methods then we can start on the procedural stuff. So, we also
+
+15
+
+00:01:46,829  -->  00:01:50,939
+need to get the spell name because we need to be able to return data to the user
+
+16
+
+00:01:50,939  -->  00:01:58,770
+about what they've chosen, so we're going
+to define a method called "def get_spell_name(self, i):"
+
+17
+
+00:01:58,770  -->  00:02:08,190
+and pass it an index number, and we're
+just going to "return self.magic[i]["name"]"
+
+18
+
+00:02:08,740  -->  00:02:21,430
+as you can probably guess.
+We're gonna get the spells MP costs as
+
+19
+
+00:02:21,430  -->  00:02:27,970
+well, so "def get_spell_mp_cost(self, i):" We are also going to pass it an index there and
+
+20
+
+00:02:27,970  -->  00:02:40,840
+we're going to "return self.magic[i]["cost"]"
+I believe i've named that "cost." Let me go back
+
+21
+
+00:02:40,840  -->  00:02:41,650
+here,
+
+22
+
+00:02:41,650  -->  00:02:51,400
+yep. Alright, good stuff. So we need two
+more methods, one to be able to choose an
+
+23
+
+00:02:51,400  -->  00:02:56,620
+action like attack or magic, and then if
+we choose magic we need a way to then
+
+24
+
+00:02:56,620  -->  00:03:07,990
+choose the magic. So, we're gonna define
+those two right here. So let's go ahead
+
+25
+
+00:03:07,990  -->  00:03:13,480
+and create the first of those choice
+options which is going to be action. So,
+
+26
+
+00:03:13,480  -->  00:03:20,800
+"def choose_action(self):" we're not going to pass anything in here, we're just going
+
+27
+
+00:03:20,800  -->  00:03:28,060
+to set an "i = 1" because we want
+the option to start with 1.
+
+28
+
+00:03:28,060  -->  00:03:41,020
+So then we're going to go "for item in self.actions:" "print" we need to convert
+
+29
+
+00:03:41,020  -->  00:03:53,110
+the index number two string so that we
+can do this "(str(i) + ":",  then we're just going to put
+
+30
+
+00:03:53,110  -->  00:04:01,870
+"item)'" then we're going to increment "i += 1"
+
+31
+
+00:04:03,730  -->  00:04:09,010
+Same kind of thing for choose magic
+except it's going to also print out the
+
+32
+
+00:04:09,010  -->  00:04:22,300
+cost of the magic. So, let's go ahead and
+define choose spell, actually it's going to
+
+33
+
+00:04:22,300  -->  00:04:29,440
+make more sense to "def choose_magic(self):" so we're using that word quite a bit in here and
+
+34
+
+00:04:29,440  -->  00:04:35,050
+I don't want to forget what we're doing.
+So index is going to be set to one "i = 1" as
+
+35
+
+00:04:35,050  -->  00:04:52,300
+well, and "for spell in self.magic:" print
+same thing we're going to convert the
+
+36
+
+00:04:52,300  -->  00:05:00,190
+the index number to a string "print(str(i) +" going to concatenate it with a ":" then we're
+
+37
+
+00:05:00,190  -->  00:05:15,849
+going to print out the spell name, and
+then the cost. So ", spell["name"], "(cost:"
+
+38
+
+00:05:15,849  -->  00:05:31,510
+", str(spell["mp"]) + ")")""
+
+39
+
+00:05:31,510  -->  00:05:42,880
+Then we're going to also increment "i += 1" So, we're actually going to before we
+
+40
+
+00:05:42,880  -->  00:05:49,090
+get the list of actions I guess we
+should make it say what this relates to.
+
+41
+
+00:05:49,090  -->  00:05:56,800
+So we're just going to "print("Actions")"
+and then here we're going to
+
+42
+
+00:05:56,800  -->  00:05:59,800
+"print("Magic")"
+
+43
+
+00:06:00,409  -->  00:06:06,439
+So that is all we need for right now in
+our class, so let's go ahead and get back
+
+44
+
+00:06:06,439  -->  00:06:13,279
+on over to our main file here, and we're
+going to generate an enemy as well.

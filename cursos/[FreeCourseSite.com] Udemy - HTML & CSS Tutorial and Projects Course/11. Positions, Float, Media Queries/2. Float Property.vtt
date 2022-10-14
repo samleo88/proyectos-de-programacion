@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.720 --> 00:01.390
+All right.
+
+00:01.390 --> 00:04.130
+First on our agenda is gonna be the flow property.
+
+00:04.140 --> 00:09.740
+I'm going to start very simply by creating some kind of Dave can actually give it a class let's say
+
+00:09.760 --> 00:14.620
+class again is gonna be something like manner then within the better we're going to place our image
+
+00:14.680 --> 00:16.840
+and we're gonna go with a small one.
+
+00:16.840 --> 00:22.840
+So let's say source we're looking for small let's go to the image name and then let's write.
+
+00:22.850 --> 00:26.770
+No no whatever some kind of alternative so small image.
+
+00:26.770 --> 00:31.360
+And by the way I know that I have been avoiding alternatives all the time so that's probably something
+
+00:31.360 --> 00:32.550
+we should always add.
+
+00:32.770 --> 00:34.320
+What was in the small image.
+
+00:34.360 --> 00:35.650
+Just double check.
+
+00:35.710 --> 00:40.700
+So we had some kind of mountains let's say and this is gonna be nice view.
+
+00:40.860 --> 00:43.640
+It's gonna be a text some nice view.
+
+00:43.670 --> 00:45.100
+Okay so far so good.
+
+00:45.130 --> 00:47.830
+And once I say it obviously this is gonna be my image.
+
+00:47.830 --> 00:49.060
+Now what else I would like here.
+
+00:49.300 --> 00:52.330
+Well I'm gonna say paragraph for the paragraph.
+
+00:52.330 --> 00:55.870
+I don't know 50 words that should do I say.
+
+00:55.880 --> 00:57.580
+So now we have the program.
+
+00:57.830 --> 01:02.200
+We already know that the reason why we're having the margins here and the reason why we're starting
+
+01:02.200 --> 01:05.740
+new line is because paragraph is block level.
+
+01:06.250 --> 01:08.610
+But let me throw you a mind Gurney.
+
+01:08.620 --> 01:10.460
+I'm gonna head over back to Celsius.
+
+01:10.510 --> 01:17.910
+First we're gonna select the winner and then for the banner I would like to have just some kind of water.
+
+01:18.040 --> 01:22.090
+The border is it gonna be five pixels solid.
+
+01:22.180 --> 01:24.510
+And as always I'm gonna go with the red.
+
+01:24.640 --> 01:30.640
+And let me add maybe a little bit of padding let's say padding is gonna be 10 pixels all around.
+
+01:30.640 --> 01:33.340
+Now what happens if we use the float property.
+
+01:33.340 --> 01:38.560
+Well I can just say for the image since I have an image that I would like to float it and I can just
+
+01:38.560 --> 01:42.240
+say flow and then we're looking for a few options here.
+
+01:42.280 --> 01:44.560
+Let me get my suggestions again.
+
+01:44.560 --> 01:50.610
+Let's say float and float we have left we have right and we have not.
+
+01:50.680 --> 01:56.770
+Now you would be tempted to say that this is already floated to the real left because what's happening
+
+01:56.770 --> 01:59.020
+is that image is already floated to the left.
+
+01:59.290 --> 02:01.750
+However by default we have for all of them.
+
+02:02.440 --> 02:05.210
+Now do you want me to project what happens here.
+
+02:05.320 --> 02:07.560
+So I'm gonna save it float it to the left.
+
+02:07.600 --> 02:08.650
+Now check this out.
+
+02:08.950 --> 02:15.760
+Even though the paragraph supposed to be a block level moment where this is starting a new line right
+
+02:15.790 --> 02:20.200
+now it took the element out in our case image out of the normal flow.
+
+02:20.710 --> 02:23.860
+So now the paragraph is actually wrapping around.
+
+02:23.860 --> 02:30.520
+Now if we don't want this look then we would need to go for what we have an option of clear.
+
+02:30.610 --> 02:36.550
+So for the paragraph I would say that I would want to use the clear and then I have few options I can
+
+02:36.550 --> 02:37.860
+have clear both.
+
+02:37.900 --> 02:41.650
+So in that case if there is going to be let's say two elements that have been one floated to the left
+
+02:41.680 --> 02:46.060
+and I want the right or I'm going to be looking for the actual flow direction.
+
+02:46.060 --> 02:50.670
+So in this case if I floated to the left I would need to write that I would want to clear it.
+
+02:50.770 --> 02:52.170
+Also on the left hand side.
+
+02:52.490 --> 02:58.690
+So now I'm having back again the look that I had before where the paragraph was actually respecting
+
+02:58.690 --> 03:01.550
+the fact that it was starting in your line.
+
+03:01.570 --> 03:06.280
+Now if I'm gonna make him let's say mistake and right there I would want to clear it from the right
+
+03:06.670 --> 03:07.200
+notice.
+
+03:07.210 --> 03:09.570
+Again this is not going to work well this case.
+
+03:09.570 --> 03:12.310
+This is not going to work because I wrote it incorrectly.
+
+03:12.310 --> 03:19.750
+This should be g h t but still what's happening is that even though I use the clear property my value
+
+03:19.750 --> 03:20.730
+was incorrect.
+
+03:20.890 --> 03:27.040
+So that's something you need to remember that if you're lowering something let's say in one direction
+
+03:27.490 --> 03:33.760
+if you want the next element to clear it and start a normal flow of documents like it should be.
+
+03:33.820 --> 03:38.160
+You also need to use the right or left property in our case.
+
+03:38.170 --> 03:39.400
+That would be the left.
+
+03:39.400 --> 03:45.580
+So now we have the paragraph that is actually respecting that it needs to start in your mind just like
+
+03:45.580 --> 03:46.540
+it should.
+
+03:46.760 --> 03:49.570
+So let's start out with a right one.
+
+03:49.570 --> 03:52.200
+Let's say that I'm going to be looking on the right and again.
+
+03:52.240 --> 03:56.560
+Same thing happens is because we're using for the Clear left.
+
+03:56.620 --> 03:58.970
+So now the paragraph actually goes up.
+
+03:59.020 --> 04:03.780
+So if I'm going to again use the right that would be the correct one notice.
+
+04:03.790 --> 04:05.750
+Again we're going to be starring in your line.
+
+04:06.250 --> 04:08.640
+What else we'll have when we have an option of.
+
+04:08.680 --> 04:14.230
+Like I said if there's going to be let's say two of them we can use something like both.
+
+04:14.230 --> 04:15.530
+Now where we'll do that.
+
+04:15.610 --> 04:16.060
+I don't know.
+
+04:16.060 --> 04:21.430
+We can head over to indexation AML and we can copy paste this image.
+
+04:21.520 --> 04:23.690
+Then there's gonna be two small images.
+
+04:23.710 --> 04:29.720
+Now one is gonna be let's say with a class of first just to show you kind of how everything would work.
+
+04:29.890 --> 04:31.740
+We're gonna add a class.
+
+04:31.780 --> 04:33.600
+It's gonna be one.
+
+04:33.970 --> 04:35.820
+This is gonna be number two.
+
+04:35.830 --> 04:37.630
+Now what's gonna happen right now.
+
+04:37.630 --> 04:41.130
+Well both of them first of all gonna be floated to the left side by side.
+
+04:41.150 --> 04:47.110
+Well I'm sorry to late because we added float right but in my case now we want to use the class of 1.
+
+04:47.800 --> 04:52.740
+So I'm going to say that only the first one is gonna be floated to the right and then this guy is gonna
+
+04:52.750 --> 04:53.560
+stay.
+
+04:53.560 --> 04:55.190
+So everything is working fine.
+
+04:55.210 --> 05:02.240
+However if I'm going to say two and also I'm gonna float it to the left so floated to the left.
+
+05:02.330 --> 05:08.030
+Now again the reason why we have normal everything because if we have cleared both what we found right.
+
+05:08.030 --> 05:12.360
+Just clear right now is where our tax is gonna be sitting right now.
+
+05:13.010 --> 05:13.730
+All right.
+
+05:13.730 --> 05:16.400
+And now my tax is sitting exactly in the middle.
+
+05:16.400 --> 05:24.020
+Because even though it is avoiding the actual one that we have on the right hand side it's not avoiding
+
+05:24.020 --> 05:25.480
+the left one.
+
+05:25.520 --> 05:28.010
+Well you might say this is not true.
+
+05:28.120 --> 05:29.630
+I can see where starting new line.
+
+05:29.900 --> 05:30.180
+OK.
+
+05:30.200 --> 05:35.610
+What if I go here on a number two and let's say that the height is going to be 300.
+
+05:35.690 --> 05:37.530
+What is gonna happen right now.
+
+05:37.550 --> 05:39.590
+Now my image is really big.
+
+05:39.590 --> 05:46.160
+So even though we're starting a new line because there is the one on the right the left one is still
+
+05:46.430 --> 05:48.170
+not being taken care of.
+
+05:48.170 --> 05:51.860
+So in this case if we would want to avoid that we would say clear both.
+
+05:51.860 --> 05:56.470
+And now we finally have our paragraph where we have as normal next time.
+
+05:56.960 --> 06:02.120
+Now it's really up to you if you want to float it to the left and have paragraph side by side.
+
+06:02.150 --> 06:08.060
+That is also an option just to quickly show you though if we're gonna go bigger with this image right
+
+06:08.060 --> 06:08.300
+now.
+
+06:08.650 --> 06:12.140
+If let's say I'm going to go with thousand is gonna be my head.
+
+06:12.180 --> 06:18.440
+Notice that this is pretty much really going to be big and it's gonna leave actually.
+
+06:18.440 --> 06:19.190
+Also my dear.
+
+06:19.760 --> 06:22.250
+So what would be the suggestion how we can fix that.
+
+06:22.700 --> 06:29.960
+Well we have an option here of overflow and hitting so that way the image whenever it's gonna be getting
+
+06:29.960 --> 06:37.220
+too big for the parent if we can use this overflow with the value of hidden and now at least the image
+
+06:37.220 --> 06:39.440
+is gonna stay within the bounds of this day.
+
+06:39.560 --> 06:45.320
+Now again this was a little bit too drastic let's say 300 and you know what I can just get rid of the
+
+06:45.320 --> 06:50.490
+second one just to show you how we can do with him side by side so let's say there's not gonna be anymore
+
+06:50.580 --> 06:57.260
+the second one and now we we're going to imagine the scenario where we want them side by side so we
+
+06:57.260 --> 06:59.420
+like to look how everything looks great.
+
+06:59.450 --> 07:01.470
+So we have floated here this one to the left.
+
+07:01.490 --> 07:04.660
+So this was fine or you don't want to the right.
+
+07:04.850 --> 07:09.590
+We can delete the second one we don't need it anymore and we also don't need to clear property.
+
+07:09.590 --> 07:13.580
+Let's say that this is exactly how you would want would want them side by side.
+
+07:13.740 --> 07:17.030
+Now we can always do nicely is to have some kind of margin.
+
+07:17.570 --> 07:24.320
+So for number one I can say margin and let's say margin left is gonna be I don't know 50 pixels so that
+
+07:24.320 --> 07:30.140
+way I can get more margins in between them if that's something you like and that's in general how we're
+
+07:30.140 --> 07:31.580
+gonna work with a float.

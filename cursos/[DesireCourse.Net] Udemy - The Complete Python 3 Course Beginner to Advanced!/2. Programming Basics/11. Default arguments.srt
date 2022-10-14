@@ -1,0 +1,297 @@
+1
+
+00:00:00,000  -->  00:00:04,440
+Alright guys, in this video we're going to
+be talking about arguments a little
+
+2
+
+00:00:04,440  -->  00:00:08,280
+further, we were going to move onto
+keyword arguments but before we do that
+
+3
+
+00:00:08,280  -->  00:00:13,170
+it's going to make more sense to cover
+default arguments first. So, let's go
+
+4
+
+00:00:13,170  -->  00:00:18,270
+ahead I've cleared out my script here I
+suggest you guys do the same just for
+
+5
+
+00:00:18,270  -->  00:00:22,109
+repetition. I mean you could remodel your
+current function to work with this,
+
+6
+
+00:00:22,109  -->  00:00:27,960
+however repetition is the key to mastering
+something. So let's go ahead drop down
+
+7
+
+00:00:27,960  -->  00:00:33,239
+two lines, define a new function, we're
+going to name it "print_something" and it's going
+
+8
+
+00:00:33,239  -->  00:00:37,320
+to take two parameters, one is going to
+be "(name, age)"
+
+9
+
+00:00:37,320  -->  00:00:44,040
+let's open that with a ":" and print out
+one string which we're going to
+
+10
+
+00:00:44,040  -->  00:00:58,379
+concatenate with name and age. So "My name is name " + name + " and my age is " + age"
+
+11
+
+00:00:59,100  -->  00:01:13,290
+Now we're going to go down here and call this function "print_something("Nick" , 27)" I'm
+
+12
+
+00:01:13,290  -->  00:01:18,780
+sure you guys already see a problem with
+this, so I'll give you props for that because
+
+13
+
+00:01:18,780  -->  00:01:20,490
+this is not going to work,
+
+14
+
+00:01:20,490  -->  00:01:24,570
+that's exactly why I'm showing you. We're
+going to run it amd it's going to say that it
+
+15
+
+00:01:24,570  -->  00:01:30,630
+"Can't convert 'int' object to a str implicity" Now there's a few different resolutions to
+
+16
+
+00:01:30,630  -->  00:01:38,009
+this, one I've already shown you, you can
+just wrap this in a string. Now you can run
+
+17
+
+00:01:38,009  -->  00:01:44,579
+it and it will work. Now, this is why I
+mentioned this earlier because you can
+
+18
+
+00:01:44,579  -->  00:01:49,920
+definitely do this, however what we're
+going to do is instead of concatenating
+
+19
+
+00:01:49,920  -->  00:01:54,149
+the string we're going to remove all these
+extra characters, we're going to separate
+
+20
+
+00:01:54,149  -->  00:01:57,149
+things by a comma, going to
+
+21
+
+00:01:59,570  -->  00:02:04,460
+remove the extra spaces around the text
+as well because we don't need them and
+
+22
+
+00:02:04,460  -->  00:02:12,260
+you'll see why. Now this will work
+without converting this integer to a
+
+23
+
+00:02:12,260  -->  00:02:22,310
+string, and the reason is because when we use commas it just says print out
+
+24
+
+00:02:22,310  -->  00:02:25,790
+these four things one after another.
+
+25
+
+00:02:26,420  -->  00:02:30,890
+We don't need to concatenate different
+pieces of data, it's actually printing
+
+26
+
+00:02:30,890  -->  00:02:35,239
+out a different number of things. So, it's
+going to print this out as a string, it's
+
+27
+
+00:02:35,239  -->  00:02:39,080
+going to print this out as a string
+because we're passing it in as a string. This
+
+28
+
+00:02:39,080  -->  00:02:42,770
+is going to be printed out as a string
+and this is going to be printed out as
+
+29
+
+00:02:42,770  -->  00:02:47,750
+an integer, however when I save it here
+and run it you won't know the difference.
+
+30
+
+00:02:48,320  -->  00:02:52,580
+See it says my name is Nick and my age 27. You don't notice that this is an int so
+
+31
+
+00:02:52,580  -->  00:02:57,530
+this is a perfectly acceptable way to do
+that. Now, what if I only wanted to pass
+
+32
+
+00:02:57,530  -->  00:03:08,600
+it one argument? What we can do
+there is we can create default arguments.
+
+33
+
+00:03:08,600  -->  00:03:19,130
+Actually, let's pass in "Nick" So, let's go
+ahead and change these to accommodate
+
+34
+
+00:03:19,130  -->  00:03:24,799
+only passing in some of the values. So,
+what we're going to do is set a default
+
+35
+
+00:03:24,799  -->  00:03:29,630
+value and how you do that is inside the
+parameter list of the function you're
+
+36
+
+00:03:29,630  -->  00:03:34,070
+going to assign values to these
+variables. These are just variables that
+
+37
+
+00:03:34,070  -->  00:03:39,140
+you're creating right here, so you can
+create a variable and assign a default
+
+38
+
+00:03:39,140  -->  00:03:46,579
+name, and then same with age. You're going to assign a default age which we're
+
+39
+
+00:03:46,579  -->  00:03:56,299
+going to say is "Unknown" Now we're going to save it. Now when I run this what we have
+
+40
+
+00:03:56,299  -->  00:04:01,730
+here is my name is Nick and my age is unknown because I'm only passing in this.
+
+41
+
+00:04:01,730  -->  00:04:07,130
+So what happens is you think well,
+shouldn't name equal someone? It
+
+42
+
+00:04:07,130  -->  00:04:10,639
+would if I didn't pass anything in so we
+can do that as well. We're going to save
+
+43
+
+00:04:10,639  -->  00:04:11,490
+this
+
+44
+
+00:04:11,490  -->  00:04:14,220
+and run it and it's going to say my
+name is someone and my age is unknown
+
+45
+
+00:04:14,220  -->  00:04:17,760
+because we're not passing in anything.
+However, we're going to pass in the first
+
+46
+
+00:04:17,760  -->  00:04:21,900
+argument here and this is going to take
+priority over this value here. This
+
+47
+
+00:04:21,900  -->  00:04:29,520
+basically means this variable is going
+to be equal to someone, if no value is passed
+
+48
+
+00:04:29,520  -->  00:04:30,750
+in.
+
+49
+
+00:04:30,750  -->  00:04:36,240
+Age is going to be equal to unknown, if
+no value is passed in for it. So, that's
+
+50
+
+00:04:36,240  -->  00:04:40,770
+how to use default arguments in
+functions. In the next video we're going
+
+51
+
+00:04:40,770  -->  00:04:46,950
+to be talking about passing in specific
+parameters by using keyword
+
+52
+
+00:04:46,950  -->  00:04:47,610
+arguments.

@@ -1,0 +1,183 @@
+1
+
+00:00:00,000  -->  00:00:08,820
+Alright, so let's discuss lists and what
+they are in Python. So, let's open up
+
+2
+
+00:00:08,820  -->  00:00:17,430
+terminal again and launch a Python 3
+console. So, if you do have experience
+
+3
+
+00:00:17,430  -->  00:00:22,590
+with programming in other languages,
+let's say PHP, you know how to create an
+
+4
+
+00:00:22,590  -->  00:00:29,490
+array and what an array is. For anybody
+else it's a way to to keep data organized
+
+5
+
+00:00:29,490  -->  00:00:33,480
+and within one construct. So we're going
+to go ahead and define an array and how
+
+6
+
+00:00:33,480  -->  00:00:39,480
+we do that Python is just open up and
+close square brackets, and then in them
+
+7
+
+00:00:39,480  -->  00:00:46,710
+we're going to have some items and those items are going to each have their own
+
+8
+
+00:00:46,710  -->  00:00:54,030
+index number within the array. So, let's
+say we're making a list of things that I
+
+9
+
+00:00:54,030  -->  00:01:05,700
+like. I'm going to type "["Movies", "Games", "Python"]" Now what this
+
+10
+
+00:01:05,700  -->  00:01:11,280
+becomes is a list that has three indexes
+and we saw earlier when we split a
+
+11
+
+00:01:11,280  -->  00:01:15,630
+string apart that created one of these
+and so you guys already know how to
+
+12
+
+00:01:15,630  -->  00:01:22,020
+access items within this array, however if
+you forgot we're going to go ahead and
+
+13
+
+00:01:22,020  -->  00:01:28,439
+do that. So, basically I can put an index
+of 0 "[0]" and it's going to print out movies.
+
+14
+
+00:01:28,439  -->  00:01:32,579
+Now if we put that in a print statement,
+
+15
+
+00:01:36,990  -->  00:01:43,950
+we're going to concatenate it, "print("I Like" +"
+
+16
+
+00:01:43,950  -->  00:01:54,119
+Alright, we're gonna get there so...let's
+go ahead and print this out it says "I like
+
+17
+
+00:01:54,119  -->  00:01:58,110
+movies" if we change that index number [1] it'ss going to say "I like games" and if I
+
+18
+
+00:01:58,110  -->  00:01:59,490
+change that to [2],
+
+19
+
+00:01:59,490  -->  00:02:06,210
+oh not 3, so "I like Python" as well.
+Now what happens if one of these are a
+
+20
+
+00:02:06,210  -->  00:02:11,720
+number? Let's say I replace this with the number 16,
+
+21
+
+00:02:11,720  -->  00:02:19,910
+let's say "I like 16" go ahead and change
+this index to "[1]" then hit enter. It can't
+
+22
+
+00:02:19,910  -->  00:02:25,790
+convert the integer to string. So what we
+would do is if we were trying to print,
+
+23
+
+00:02:25,790  -->  00:02:30,410
+and this specifically printing out an
+array and then choosing an index that
+
+24
+
+00:02:30,410  -->  00:02:34,610
+time of recreation or list, that's
+impractical and we're never going to do
+
+25
+
+00:02:34,610  -->  00:02:40,340
+things that way. So, what we just saw
+this error message doesn't really matter.
+
+26
+
+00:02:40,910  -->  00:02:44,630
+Basically again if you're trying to
+concatenate strings with an integer it's
+
+27
+
+00:02:44,630  -->  00:02:49,880
+gonna freak out because it doesn't know
+how to do that. So that is what a list is,
+
+28
+
+00:02:49,880  -->  00:02:54,470
+it's just a way to to create a collection
+under one variable name and when we
+
+29
+
+00:02:54,470  -->  00:02:59,840
+discuss variables we will revisit this
+so you guys can see what i mean. In the
+
+30
+
+00:02:59,840  -->  00:03:05,630
+next video we're going to be talking
+about dictionaries, and basically these
+
+31
+
+00:03:05,630  -->  00:03:13,580
+are like in JavaScript you can create
+JSON objects and that's basically what
+
+32
+
+00:03:13,580  -->  00:03:16,700
+they are. So, let's get into that.

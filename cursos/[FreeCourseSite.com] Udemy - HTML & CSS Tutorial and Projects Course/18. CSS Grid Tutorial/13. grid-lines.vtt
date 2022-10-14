@@ -1,0 +1,391 @@
+WEBVTT
+
+00:00.740 --> 00:06.860
+Once we have looked at the developer tools next one on one and we cover the grid lines that we already
+
+00:06.860 --> 00:09.220
+looked at in the previous video.
+
+00:09.290 --> 00:16.040
+First and foremost not only in the browser but also in my actual set of files as well as the current
+
+00:16.040 --> 00:16.980
+working project.
+
+00:17.300 --> 00:24.720
+I'm gonna add a margin all around for a container just so we can see a bit clear our grid lines.
+
+00:24.920 --> 00:27.600
+So it's going to look something like that.
+
+00:27.810 --> 00:34.370
+So I added margin all around and we could technically head over again back to our project and just check
+
+00:34.370 --> 00:39.120
+it out the grid lines but I would just like to show you the resources that you can use.
+
+00:39.250 --> 00:46.250
+So within a browser I just type see us as grid and then we're going to click on the images and you're
+
+00:46.250 --> 00:49.450
+going to see a bunch of very very useful images.
+
+00:49.580 --> 00:55.480
+And again we're just gonna keep on scrolling and we're gonna notice the image that I like the most.
+
+00:55.490 --> 00:59.480
+So let me grab this image and that's not what I wanted to do.
+
+00:59.990 --> 01:02.320
+So let me roll over back and let me zoom in.
+
+01:02.900 --> 01:09.710
+So I would like to point out right now is the fact that as we're working with the grid we have a grid
+
+01:09.710 --> 01:13.340
+container so that is of course our parent container.
+
+01:13.340 --> 01:16.130
+And then of course we have our grid lines.
+
+01:16.280 --> 01:21.780
+So we have grid lines for the columns as well as we have the grid lines for the rows.
+
+01:21.830 --> 01:27.860
+So these would be the grid lines for the rows and then these ones would be for the columns.
+
+01:27.940 --> 01:31.270
+Then we also have something called track.
+
+01:31.340 --> 01:37.370
+So whether that will be horizontal track then we are talking about the road track as well as for the
+
+01:37.370 --> 01:39.630
+columns we have the contra.
+
+01:39.680 --> 01:44.160
+So I will be this thing when we have grid cells and that would be our track.
+
+01:44.340 --> 01:50.490
+And then of course we're also going to have the grid area which again we're going to cover just inside.
+
+01:50.870 --> 01:55.840
+So this just gives you an idea that if you don't like my explanations then I'm going to use the number
+
+01:55.840 --> 01:56.490
+either.
+
+01:56.570 --> 02:04.010
+You can always always head over back to a web and you can find whatever image or visual explanation
+
+02:04.310 --> 02:06.510
+that you actually enjoy the most.
+
+02:06.830 --> 02:13.430
+So you can also use maybe this one where again we have the cell and we have a track and then we have
+
+02:13.430 --> 02:16.580
+the area me close it for now.
+
+02:17.150 --> 02:18.320
+Let's close this guy.
+
+02:18.320 --> 02:22.950
+And then once we had over back to our project again we have our lines.
+
+02:23.000 --> 02:31.190
+So we have the com lines starting from one and two then three and four and the more columns you want
+
+02:31.190 --> 02:33.070
+to add all the more lines.
+
+02:33.080 --> 02:34.890
+I'm going to have as well.
+
+02:35.180 --> 02:41.090
+So have three columns and then of course it ends with a line number four for my columns.
+
+02:41.090 --> 02:44.640
+So the same works with a rose I have three rows.
+
+02:44.710 --> 02:49.420
+That's the reason why it ends with a number for now.
+
+02:49.440 --> 02:52.130
+Now that we know that we have those lines.
+
+02:52.130 --> 02:57.230
+Let's take a look at how we can use them by in fact rearranging our grid.
+
+02:57.260 --> 03:07.150
+So let's imagine the scenario where I would like my first cell to be spanning all the way from the column
+
+03:07.150 --> 03:12.310
+line one to a column line number three like cell.
+
+03:12.370 --> 03:16.080
+And I also like to use the second row as well.
+
+03:16.210 --> 03:24.800
+So I would like to have my cell spanning from the wrong number one to a row line number three.
+
+03:24.820 --> 03:28.140
+So I would want it to be spanning in the second row.
+
+03:28.210 --> 03:33.260
+So the way we do that is first all we need to target the individual cell.
+
+03:33.410 --> 03:36.370
+And that's the reason why we added here this class as well.
+
+03:36.370 --> 03:41.380
+So let's target this particular cell and then the properties are following.
+
+03:41.380 --> 03:47.310
+So we have a grid column and then we have the end and the start.
+
+03:47.350 --> 03:52.080
+Now I'm going to show you also the shorter later on but let's just start the long way.
+
+03:52.120 --> 03:53.600
+We have grid columns start.
+
+03:53.890 --> 03:56.770
+So let's say you know what I'm going to start with.
+
+03:56.770 --> 04:01.220
+Let's say a grid column line number one correct.
+
+04:01.420 --> 04:06.880
+Then I would want a grid column and then we say well where would want to end.
+
+04:07.360 --> 04:13.050
+So it's really up to us currently it ends with a column line of two.
+
+04:13.060 --> 04:16.600
+Now I could end it at three and four.
+
+04:16.630 --> 04:18.240
+It's really up to me.
+
+04:18.400 --> 04:25.990
+So I'm going to go with let's say three and the moment we do that right away myself spans now automatically
+
+04:25.990 --> 04:31.840
+again we're just shifting the Arabs notice once we have seven items we have three rows and now we just
+
+04:31.840 --> 04:33.300
+move the rest of the Arabs.
+
+04:33.430 --> 04:39.100
+So cell number two right now are sitting here where the cells number three was and all the way up to
+
+04:39.160 --> 04:41.240
+a cell number seven.
+
+04:41.250 --> 04:48.850
+Now I also like to in fact use this to span my cell in a second row.
+
+04:48.850 --> 04:50.070
+Can we do that.
+
+04:50.090 --> 04:51.240
+Well of course we can.
+
+04:51.250 --> 04:55.370
+So we have grid row then we have again start.
+
+04:55.420 --> 05:03.260
+So we're gonna start with number one like so and then we have grid rule and then we go with end.
+
+05:03.280 --> 05:04.560
+So where it should end.
+
+05:04.630 --> 05:12.750
+Again remember the lines were four rows one then this guy was number two then three and then four.
+
+05:12.760 --> 05:17.320
+So it's really up to you where you would want this particular column to span.
+
+05:17.410 --> 05:21.980
+So I'm gonna go you know what I would like it to span two rows.
+
+05:22.120 --> 05:28.060
+So I'm gonna say that my grade Roland is going to be equal to three and check it out.
+
+05:28.390 --> 05:35.680
+Now we have my cell that is spanning in fact two columns as well as two rows and we can do that by using
+
+05:35.680 --> 05:39.730
+the fact that we have numbers for our columns.
+
+05:39.730 --> 05:46.540
+We have lines that have numbers for our columns as well as for our particular rows.
+
+05:46.540 --> 05:52.240
+Now let's imagine that I would want my cell cell number four to span all across.
+
+05:52.420 --> 05:54.030
+But you not before we do that.
+
+05:54.040 --> 06:01.630
+Why don't I show you the shortcut so we could also write it like this so grid column and then we have
+
+06:01.930 --> 06:08.560
+the first line so where it should start and then we have a forward slash and then we add here where
+
+06:08.560 --> 06:14.740
+we would want our cell to end and which column and that's the reason why we had one and then forward
+
+06:14.740 --> 06:15.490
+slash three.
+
+06:15.640 --> 06:18.680
+Again this is exactly what we wrote before.
+
+06:18.850 --> 06:25.420
+This is just a bit of a shorthand and you can probably already guess that if we're going to write a
+
+06:25.420 --> 06:30.490
+grid row then of course we're going to also have a want three.
+
+06:30.550 --> 06:34.270
+So where it starts forward slash and where it ends.
+
+06:34.300 --> 06:39.400
+Now I'm going to come on this out just so I can see the long way as well but the moment will be saved
+
+06:39.730 --> 06:42.100
+of course nothing changes.
+
+06:42.100 --> 06:44.370
+Now I also would like to point it out.
+
+06:44.410 --> 06:45.400
+Two things.
+
+06:45.400 --> 06:47.670
+First of all we can use the negative values.
+
+06:47.680 --> 06:53.500
+Remember I also mentioned that where if we're checking this out we notice that we have negative values
+
+06:53.500 --> 06:53.940
+here.
+
+06:54.070 --> 06:56.410
+We have one two three four.
+
+06:56.470 --> 06:58.180
+Those would be my column lines.
+
+06:58.300 --> 07:03.730
+Then I also have negative 1 negative 2 negative 3 and negative 4.
+
+07:04.120 --> 07:11.880
+So what if let's say I would want my cell number for the span all across this row.
+
+07:11.940 --> 07:14.200
+Now I could say something like this.
+
+07:14.200 --> 07:16.900
+I could say cell four.
+
+07:16.960 --> 07:20.760
+I know it's sitting in let's say row number three correct.
+
+07:20.770 --> 07:28.360
+Because remember now again we are doing the same thing where we are creating the implicit grid because
+
+07:28.360 --> 07:35.230
+even though our normal layout was three columns and three rows in fact the cell number four is sitting
+
+07:35.230 --> 07:36.220
+in a third row.
+
+07:36.220 --> 07:38.070
+But we right away have already.
+
+07:38.070 --> 07:44.980
+The fourth row now that particular fourth row is already implicit and we can tell that because we don't
+
+07:44.980 --> 07:46.350
+have any numbers here.
+
+07:46.360 --> 07:50.200
+Notice there is no numbers here because we're just creating right away.
+
+07:50.350 --> 07:52.110
+Our implicit great.
+
+07:52.230 --> 08:01.750
+Now back to our task where I would like to span from this cell for an hour one Hispanic from the column
+
+08:01.750 --> 08:05.120
+line number 1 all the way to the end of the column.
+
+08:05.390 --> 08:09.870
+Let's say that it's hard for me to actually count how many lines I have.
+
+08:09.870 --> 08:11.000
+I can be like you know what.
+
+08:11.100 --> 08:12.890
+I just cannot bother counting.
+
+08:13.050 --> 08:17.610
+Well I could write a great column and then remembered a shortcut.
+
+08:17.700 --> 08:23.360
+We had a one so it's gonna start with one and then forward slash and we would want to end it.
+
+08:23.640 --> 08:26.800
+Negative 1 y negative 1 0.
+
+08:26.820 --> 08:28.280
+That would be our last one correct.
+
+08:28.590 --> 08:31.070
+So let's say we don't want to count the four.
+
+08:31.140 --> 08:34.310
+So you're not span all across to a negative four.
+
+08:34.560 --> 08:35.620
+Not saying that.
+
+08:35.640 --> 08:36.770
+And there you go.
+
+08:36.820 --> 08:40.390
+And this is something that it would be impossible to do.
+
+08:40.410 --> 08:47.370
+In fact with a 4 x marks because as we're working with Flex bars again flex box is very powerful like
+
+08:47.390 --> 08:48.820
+box is very great.
+
+08:48.840 --> 08:51.260
+I'm not dissing right now on the Flex box.
+
+08:51.420 --> 08:57.120
+What I'm saying is when we're using the Flex box we were limited to only working in one dimensional
+
+08:57.120 --> 09:01.890
+layout whether that would be a horizontal or vertical.
+
+09:01.890 --> 09:08.550
+Now in this case what happens in fact with a C is as great is that we're not limited to that by a very
+
+09:08.550 --> 09:11.190
+simple example when we're using grid lines.
+
+09:11.190 --> 09:18.630
+Notice how powerful it is to create this type of layout and in fact how easy it is to create this kind
+
+09:18.630 --> 09:19.190
+of layout.
+
+09:19.440 --> 09:23.760
+Even if we're just knowing the basic facts about the grid lines.

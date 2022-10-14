@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.070 --> 00:05.700
+Well now that we are in our SS file over here you can see that I already made a comment and now we're
+
+00:05.700 --> 00:11.410
+going to start styling this section so here you can see that this is going to be create Web site Easyway
+
+00:11.790 --> 00:15.410
+and we're going to start here within about an hour we're going to say like this.
+
+00:15.420 --> 00:22.560
+This is going to be padding 40 pixels over here and we're going to have a background and the background
+
+00:22.560 --> 00:26.390
+and a hashtag see 1999 right here.
+
+00:26.490 --> 00:33.080
+This grayish color then we're going to have for both of them for a about text and about video.
+
+00:33.090 --> 00:37.200
+We're going to say like this or say about or hear text.
+
+00:37.200 --> 00:44.070
+So those are the two ideas and then we're going to hashtag about video for both of them are going to
+
+00:44.070 --> 00:47.600
+have a padding for the pixels when you're doing this.
+
+00:47.610 --> 00:48.390
+All right.
+
+00:48.390 --> 00:54.960
+So you can see that I must stop all that because I put a padding pixels over here so this shouldn't
+
+00:54.960 --> 00:56.110
+be like this.
+
+00:56.210 --> 00:59.170
+And I can see that both of them got 40 pixels.
+
+00:59.390 --> 01:03.870
+Now I think that we would want to work with and about this heading to.
+
+01:03.920 --> 01:10.520
+So I'm going to say hash tag about your text and I'm going to say this is going to be heading we're
+
+01:10.610 --> 01:11.580
+here too.
+
+01:11.910 --> 01:17.130
+Then once we actually select this we're going to say color and we're going to say or here and this is
+
+01:17.130 --> 01:21.780
+going to be 5 5 5 year like this.
+
+01:21.780 --> 01:27.150
+And then we're going to give it a font size font size and say 35 pixels.
+
+01:27.280 --> 01:32.320
+Right so now we have a bigger heading to then we're going to have a paragraph.
+
+01:32.340 --> 01:37.770
+So we're going to say or hear hash tag about them say text.
+
+01:37.770 --> 01:39.400
+And this is going to be paragraph.
+
+01:39.710 --> 01:46.670
+And over here all of them say this is going to be a margin margins is going to be 20 pixels and 0.
+
+01:46.720 --> 01:51.890
+So here on the sides again there's no margin on the top bottom 20 pixels.
+
+01:52.170 --> 01:55.530
+And then we're going to work over here with the like.
+
+01:55.560 --> 02:03.410
+So what we would need to do is actually go back over here to the next page and actually create a link.
+
+02:03.410 --> 02:09.360
+We're going to go back over here to in exchange IMAO and find underneath the paragraphs we're going
+
+02:09.360 --> 02:09.920
+to go here.
+
+02:09.930 --> 02:15.210
+We're going to say this is going to be a link so I can just press a time then this is going to be a
+
+02:15.210 --> 02:17.180
+hash tag because it's a dummy link.
+
+02:17.390 --> 02:24.210
+Or here we're going to say no more but we actually need to write inside the link more and our hero going
+
+02:24.210 --> 02:33.090
+to create a I is going to be for four years like this press tab and now we have all here our button
+
+02:33.720 --> 02:35.120
+with a link.
+
+02:35.120 --> 02:35.470
+All right.
+
+02:35.460 --> 02:38.540
+So this is going to be late but we're going to it like a button.
+
+02:38.560 --> 02:42.340
+Then we're going to go back to main success and we're going to keep on styling.
+
+02:42.540 --> 02:47.020
+So here are going to say that this is going to be about text only this time.
+
+02:47.040 --> 02:49.000
+This is going to be actual link.
+
+02:49.200 --> 02:55.180
+So we're going to like this and this is going to be a hashtag about it text.
+
+02:55.200 --> 02:57.520
+Hey we're going to stay like this.
+
+02:57.570 --> 03:01.170
+This is going to be on display in line block.
+
+03:01.190 --> 03:04.200
+We're here because we don't want it to be spanning all across.
+
+03:04.200 --> 03:04.740
+Right.
+
+03:04.770 --> 03:10.360
+So basically we want to have some kind of padding right for the actual button.
+
+03:10.380 --> 03:10.820
+Right.
+
+03:11.040 --> 03:15.630
+But if we're going to have a blog that is going to be with is going to be hundred percent all right.
+
+03:15.670 --> 03:18.460
+But if we're going to leave it like this then it's going to be in line on.
+
+03:18.540 --> 03:22.930
+So therefore this is going to be a middle ground where we're seeing this plane line work.
+
+03:22.990 --> 03:25.140
+We're going to have a text decoration.
+
+03:25.140 --> 03:26.370
+None.
+
+03:26.370 --> 03:30.650
+Then we're going to have a font size let's say 30 pixels.
+
+03:30.670 --> 03:35.300
+When you're doing this then we're going out over here a ring.
+
+03:35.490 --> 03:37.670
+So I'm going to say padding 10 pixels.
+
+03:37.950 --> 03:45.020
+Then over here we're going to say that this is going to be text transform text transform to uppercase.
+
+03:45.360 --> 03:48.510
+Then we're going to have a color code is going to hash tag.
+
+03:48.510 --> 03:50.540
+F5 F5 F5.
+
+03:50.850 --> 03:58.500
+And then after that we're going to have a border and the border is going to be two pixels solid solid
+
+03:58.500 --> 04:07.290
+over here and we're going to say hash tag to be on here 9 8 0.
+
+04:07.660 --> 04:09.150
+So over here like this.
+
+04:09.150 --> 04:11.800
+Then after that we would want the actual background.
+
+04:12.010 --> 04:15.120
+So we're going to say over here that this is going to be a background.
+
+04:15.130 --> 04:16.970
+This is going to be again the same color.
+
+04:17.190 --> 04:24.960
+So can you just grab this one and actually copy I'm going copy copy and paste and now we have all that
+
+04:25.250 --> 04:32.550
+and I you are going to are going to do transition transition is going to be background my ground zero
+
+04:32.590 --> 04:36.970
+point five seconds ease and we're going to have a border.
+
+04:37.440 --> 04:42.480
+And this is going to be zero point five seconds as we're hearing this.
+
+04:42.750 --> 04:47.320
+Now did we have this was going to work with in about text a hover.
+
+04:47.500 --> 04:51.040
+And so once we're hovering what what should happen here.
+
+04:51.040 --> 04:55.710
+We're going to say a about and we're going to say text.
+
+04:56.160 --> 05:01.060
+And this is going to be however you know here what should happen so we're going to say first of all
+
+05:01.060 --> 05:07.300
+background and we're going to get a transparent transparent background and then we're going to have
+
+05:07.390 --> 05:09.720
+a border here.
+
+05:10.000 --> 05:14.410
+And this is going to be two pixels solid and we are going to say.
+
+05:14.410 --> 05:18.200
+F5 F5 F5 F5 F5.
+
+05:18.520 --> 05:19.440
+And this.
+
+05:19.450 --> 05:23.250
+So now we can actually save this main CSSA over here right.
+
+05:23.330 --> 05:25.140
+And now we're ready to go.
+
+05:25.300 --> 05:27.730
+And actually I mean equerries right.
+
+05:27.730 --> 05:33.440
+Because if we go back over here and we look over here right with the project that we're working on that
+
+05:33.520 --> 05:34.740
+everything is fine right.
+
+05:34.750 --> 05:36.080
+Once we refresh.
+
+05:36.130 --> 05:40.880
+However over here you can see that this is not what one would actually want them side by side.
+
+05:41.050 --> 05:43.550
+So something along the lines how they look over here.
+
+05:43.780 --> 05:46.090
+So we're going to have to have a media queries.

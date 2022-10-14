@@ -1,0 +1,1180 @@
+WEBVTT
+
+00:00.110 --> 00:06.270
+So let's go to Mayne's here says let's open the main thesis and are here you can see that we have the
+
+00:06.270 --> 00:07.260
+body.
+
+00:07.290 --> 00:12.420
+Now what I'm going to do here I'm going to create a comment and then I'm going to say that this is going
+
+00:12.420 --> 00:16.200
+to be a light blue light blue.
+
+00:16.410 --> 00:20.000
+And this is going to be discovered that we're mostly going to be using.
+
+00:20.050 --> 00:23.160
+So this or is going to be to be going right.
+
+00:23.160 --> 00:28.500
+This is going to be 9 8 and we're going to have 0 3.
+
+00:28.650 --> 00:34.890
+So now when we have this color right just because it's easier for us to actually remember this one right.
+
+00:34.890 --> 00:36.640
+And then we don't need to look for it.
+
+00:36.660 --> 00:39.740
+If we ever let's say fun forget it or something like that.
+
+00:39.750 --> 00:40.510
+Right.
+
+00:40.560 --> 00:45.180
+And then the first thing that we're going to do is we're going to select all the elements here and this.
+
+00:45.180 --> 00:50.700
+So now we're selecting all the elements and we're going to say for all of them we're going to have a
+
+00:50.780 --> 00:56.240
+padding zero then on here we're going to have a margin zero.
+
+00:56.310 --> 00:59.480
+And I can see that all the default margins are gone.
+
+00:59.850 --> 01:06.780
+Then after that we're going to see a box sizing box over here and we're going to say board box.
+
+01:07.050 --> 01:14.250
+Basically what this means is then as we're changing something actually the value on the outside of our
+
+01:14.250 --> 01:18.000
+box right of mine is not going to change it's going to go anywhere.
+
+01:18.240 --> 01:24.410
+So basically if we change anything with an element it's not going to affect or lay out the actual element
+
+01:24.410 --> 01:26.490
+it's just going to change.
+
+01:26.650 --> 01:33.450
+Then after that once we have a body here for the whole body we're going to give it a little bit background.
+
+01:33.630 --> 01:37.610
+So we're going to see the background and the backgrounds are going to be hash tag.
+
+01:37.880 --> 01:41.220
+I have five five and they're fine.
+
+01:41.550 --> 01:45.450
+So you could see that this is going to be grayish color.
+
+01:45.650 --> 01:51.780
+All right so if we go back to get it you can see this is going to be a local color and with RGV this
+
+01:51.780 --> 01:53.850
+is going to be 2:45 here.
+
+01:53.900 --> 01:54.360
+Right.
+
+01:54.550 --> 02:02.790
+And if you remember that we when we were working actually with a R.G. right 2:55 was the max that was
+
+02:02.790 --> 02:03.420
+the white one.
+
+02:03.420 --> 02:06.730
+So you can see that it's almost white but it's still gray.
+
+02:06.960 --> 02:12.280
+So here now that we have a color and actually switch back to the right.
+
+02:12.390 --> 02:16.190
+Not that there is any reason for it but I just like the hex values better.
+
+02:16.350 --> 02:21.750
+And after that we would want actually right away set up this flex thing.
+
+02:21.750 --> 02:22.290
+Right.
+
+02:22.320 --> 02:28.500
+So what we would want to do is actually have a nav bar to be all the way down the top.
+
+02:28.530 --> 02:32.880
+However the rest of the space we would want Actually this banner.
+
+02:33.090 --> 02:34.970
+And let me show you what I mean by that.
+
+02:35.190 --> 02:38.300
+So here first thing that I'm going to say for the whole there.
+
+02:38.430 --> 02:41.660
+Right so now I'm talking about all these elements in here.
+
+02:41.690 --> 02:43.690
+We're in the header right.
+
+02:43.740 --> 02:46.450
+You can see it over here actually in an index right.
+
+02:46.620 --> 02:48.390
+So you can see this is going to be the header.
+
+02:48.390 --> 02:51.870
+This is going to be our name named main guy.
+
+02:51.930 --> 02:52.350
+Right.
+
+02:52.350 --> 02:53.660
+This is going to be harder.
+
+02:53.880 --> 02:55.030
+So I'm going to go here.
+
+02:55.070 --> 03:00.960
+We're going to say for the Henare we would want a display with a Cephalexin we're here.
+
+03:01.070 --> 03:07.900
+I'm going to say a flex direction and I'm going to say call right and I can see that they go back over
+
+03:07.910 --> 03:13.980
+here to original size then over here we're going to say that we would want a mean height for Heather
+
+03:14.400 --> 03:16.020
+to be you know what we would want.
+
+03:16.020 --> 03:19.290
+Hey hundred you worked on here like this.
+
+03:19.410 --> 03:22.430
+And then after that we have actually two things right.
+
+03:22.440 --> 03:25.200
+First we have the novel here so we're going to say now.
+
+03:25.390 --> 03:26.910
+And we're going to say that.
+
+03:27.270 --> 03:33.230
+It's going to have a flex in this zero zero nada.
+
+03:33.540 --> 03:37.060
+Basically what we're saying is we don't want it to grow.
+
+03:37.200 --> 03:40.870
+We don't want to actually for it to shrink more here right.
+
+03:40.940 --> 03:43.950
+And the set up is going to be R-OH wherever we are.
+
+03:43.960 --> 03:46.390
+However restyled This is how it's going to be.
+
+03:46.440 --> 03:52.420
+However over here for the banner we're going to say banner we're here and here we're going to write.
+
+03:52.430 --> 03:54.920
+This is going to be flex on here.
+
+03:55.020 --> 04:01.380
+And this guy we want actually we would want it to grow then we would want zero here.
+
+04:01.410 --> 04:04.210
+Right so we wouldn't want it to shrink.
+
+04:04.470 --> 04:06.550
+And then over here again we're going to say our.
+
+04:06.790 --> 04:11.690
+And you can see what is going to happen is as we're actually changing these values right.
+
+04:11.790 --> 04:16.710
+You can see that they're going to change now to actually test it out whether this actually worked.
+
+04:16.920 --> 04:23.050
+Let's go ahead and get a background on here we're going to say background blue moon here.
+
+04:23.230 --> 04:23.600
+Right.
+
+04:23.640 --> 04:25.010
+This is going to be here now.
+
+04:25.260 --> 04:30.570
+And over here we're going to say that this is going to be let's say a background and we're going to
+
+04:30.570 --> 04:31.220
+see red.
+
+04:31.270 --> 04:32.290
+All right.
+
+04:32.370 --> 04:34.330
+So you can see what happens right.
+
+04:34.380 --> 04:37.760
+This guy is going to be whatever we made it out to be.
+
+04:37.910 --> 04:39.420
+Here you can see the difference right.
+
+04:39.420 --> 04:40.430
+There's number one.
+
+04:40.590 --> 04:44.860
+Basically what happens if I change to 0 0 it doesn't grow.
+
+04:45.150 --> 04:47.310
+I changed it back to what it actually grows.
+
+04:47.520 --> 04:53.580
+And you can see that the whole thing is going to be actual hundred percent right 100 percent of the
+
+04:53.580 --> 04:56.170
+view right now.
+
+04:56.300 --> 04:59.890
+We can leave these ones over here for now I'll be working with them.
+
+05:00.150 --> 05:01.240
+We can see what's happening.
+
+05:01.460 --> 05:03.010
+Or we can just get rid of them right.
+
+05:03.020 --> 05:06.800
+We understood the idea what's happening so you can just delete them.
+
+05:06.800 --> 05:07.220
+Right.
+
+05:07.230 --> 05:12.980
+And because we are going to be placing obviously for the banner there's going to be a background now
+
+05:12.980 --> 05:17.430
+after that we are done with the knife and the banner we have set them up.
+
+05:17.510 --> 05:20.330
+Now would start working on here with this on our list.
+
+05:20.450 --> 05:26.330
+So I'm going to say have an on our list or here and we're going to say this is going to be a list style
+
+05:26.330 --> 05:26.750
+type.
+
+05:26.750 --> 05:27.560
+None.
+
+05:27.650 --> 05:30.280
+And now we can see those annoying dots.
+
+05:30.420 --> 05:34.440
+But however because we had a margin carrying 2 0.
+
+05:34.550 --> 05:40.640
+But in general if we wouldn't want to go over those dots once we create an our list so list of type
+
+05:40.640 --> 05:43.570
+is basically going to really get rid of those dots.
+
+05:43.760 --> 05:47.560
+Then after that we would want to target these actual links here.
+
+05:47.600 --> 05:53.210
+So what we're going to say or hear is we're going to say have you well and lie any more here.
+
+05:53.330 --> 05:58.430
+And the first thing that we would want is this play and we're going to say block the reason why displaying
+
+05:58.460 --> 06:01.310
+them blocked because they would be all the way right.
+
+06:01.310 --> 06:06.800
+So whenever we're actually hovering around the whole screen is going to be one link.
+
+06:07.010 --> 06:11.540
+And this is obviously going to be for the small screen right because we're starting mobile first you
+
+06:11.540 --> 06:16.070
+can see that with whatever we're doing on here this is going to be for the small screen and then for
+
+06:16.070 --> 06:20.300
+the bigger screens we're actually going to add media queries and we're going to set up a little bit
+
+06:20.300 --> 06:22.490
+differently than the next.
+
+06:22.640 --> 06:29.260
+Well you would want is actually going to go back over here and I'm going to say for the caller and or
+
+06:29.270 --> 06:30.970
+here we're going to use that balloon.
+
+06:31.160 --> 06:36.740
+So I'm going to say this is going to be to be one here and this is going to be 9:08 this is going to
+
+06:36.740 --> 06:39.530
+be EF 0 here.
+
+06:39.600 --> 06:42.790
+You can see that we're getting this light blue color.
+
+06:43.010 --> 06:47.990
+Then after that we're going to have a background and the background actually is going to be transparent
+
+06:48.620 --> 06:49.460
+on here.
+
+06:49.550 --> 06:55.330
+So this is going to leave it the way it is for actual background whatever we have for a parent.
+
+06:55.330 --> 07:00.090
+And then after that we're going to have a text and we're going to see text decoration.
+
+07:00.080 --> 07:00.910
+None.
+
+07:00.950 --> 07:06.190
+In order to get those on the lines then we're going to have a padding and pixels.
+
+07:06.200 --> 07:09.210
+Right so you can see that we're adding padding all around.
+
+07:09.240 --> 07:09.570
+Right.
+
+07:09.680 --> 07:11.360
+All of the pixels.
+
+07:11.360 --> 07:17.150
+And then we're going to have font size and that's going to be 20 pixels when you're doing this.
+
+07:17.390 --> 07:24.800
+Then after that we would want to have a transition and the transition we would want is once we are going
+
+07:24.800 --> 07:28.040
+to have actually set up the button for here right.
+
+07:28.280 --> 07:32.620
+Once we actually press the button this is going to disappear.
+
+07:32.660 --> 07:33.010
+Right.
+
+07:33.050 --> 07:36.320
+And appear again and therefore writing transition.
+
+07:36.320 --> 07:40.490
+So here what we can do is say here we can actually create the comment right.
+
+07:40.490 --> 07:43.580
+So for now it actually doesn't mess up what we're doing.
+
+07:43.580 --> 07:49.670
+So I'm going to say transitional here and then I'm going to say this is going to be color 1 second is
+
+07:49.820 --> 07:54.980
+right because I want to go over them once we're actually working with them and I'm going to say background
+
+07:55.450 --> 07:55.970
+no.
+
+07:55.990 --> 08:00.590
+And also I'm going to say one second is and then we're going to have padding.
+
+08:00.920 --> 08:05.950
+And this is also going to be one second ease more you're doing this right.
+
+08:05.990 --> 08:07.370
+And we come in this way now.
+
+08:07.370 --> 08:13.440
+So that's why it's not affecting and then often that we would want to set up actual rules.
+
+08:13.680 --> 08:14.390
+Right.
+
+08:14.480 --> 08:20.090
+And what I'm saying here that as I'm transitioning these properties should be affected.
+
+08:20.220 --> 08:20.580
+Right.
+
+08:20.630 --> 08:23.770
+And now I'm going to set up the actual transition.
+
+08:23.810 --> 08:25.970
+So I'm going to say have you.
+
+08:25.990 --> 08:32.450
+Well hi we're here and I'm going to say and I'm going to say hover right so I'm going to say how were
+
+08:32.900 --> 08:34.050
+you doing this.
+
+08:34.190 --> 08:42.740
+And then we're going to say this is going to be color and this is going to be a five EF 5 EF 5 or this
+
+08:43.220 --> 08:49.040
+and we're going to say parding and we're going to say padding left here and we're going to say this
+
+08:49.040 --> 08:56.300
+is going to be padding left of 60 pixels or here and then we're going to have a background and the background
+
+08:56.300 --> 09:06.530
+is going to be we're here hash tag to be here 9 8 and we're going to say this is going to be EF 0.
+
+09:06.650 --> 09:07.160
+Right.
+
+09:07.220 --> 09:11.760
+So we say this now we can go back let's say in on here and comment this one right.
+
+09:11.930 --> 09:13.130
+And let's see what happens.
+
+09:13.130 --> 09:13.370
+Right.
+
+09:13.370 --> 09:16.660
+So we say this one we're here in our main see is this.
+
+09:16.720 --> 09:17.770
+And let's see what happens.
+
+09:17.780 --> 09:18.590
+Right.
+
+09:18.590 --> 09:23.010
+So what's happening as I'm hovering already you can see the three things are changing.
+
+09:23.150 --> 09:29.840
+My background my color and my padding on here like this and the way it works is that on here you can
+
+09:29.840 --> 09:35.810
+see that I am saying transition then or here I need to write what is going to be transitioned properly
+
+09:36.240 --> 09:41.470
+Vienneau I'm going to say how long the transition is going to take this is how it would happen.
+
+09:41.480 --> 09:41.780
+Right.
+
+09:41.780 --> 09:43.970
+So there's going to be easier or easier now.
+
+09:44.090 --> 09:49.190
+So I'm going to mostly I was going to settle with these because I'm just finding that that's the easiest
+
+09:49.580 --> 09:51.830
+especially for these examples.
+
+09:51.890 --> 09:55.790
+And then after that we have a delay if we want to if we will write another value.
+
+09:55.790 --> 09:56.030
+Right.
+
+09:56.030 --> 10:00.920
+So I'm going to say let's in one second and this would be delayed but we're not going used to do X for
+
+10:00.940 --> 10:05.850
+now so I can just say this when or where and when we're working with transitions.
+
+10:05.850 --> 10:12.720
+The key word here is that we need to write the properties are here and then on here we would want to
+
+10:12.720 --> 10:15.150
+write the actual properties that would change right.
+
+10:15.390 --> 10:20.040
+So if the colors is going to be changing the padding is going to be hard here changing and the background
+
+10:20.070 --> 10:26.240
+right here if we had these three properties over here then we also also going to write these three properties
+
+10:26.430 --> 10:30.380
+here and then start actually working on here with this guy.
+
+10:30.720 --> 10:37.290
+And with this coating or here we're are going to say all here that we would want a Nav. top so we're
+
+10:37.290 --> 10:44.550
+going to say hash tag we have top and then we're going to say we would want this display and then this
+
+10:44.670 --> 10:47.930
+same display flex or here like this.
+
+10:47.940 --> 10:55.090
+Then after that we would want actually a justified content and we're going to say space between all
+
+10:55.590 --> 10:56.200
+this.
+
+10:56.520 --> 10:59.630
+And then after that we're going to have a party for this.
+
+10:59.660 --> 11:08.060
+Now we're going to say padding and this is going to be 20 pixels by 20 pixels by 20 pixels by 10 pixels.
+
+11:08.380 --> 11:09.550
+Were here like this.
+
+11:09.570 --> 11:14.420
+So this is going to be set up then we're going to start working with this coding thing.
+
+11:14.610 --> 11:22.260
+So we're going to say over here that this is going to be a Nav. Top going to say having three on healing
+
+11:22.260 --> 11:27.240
+this letter we're going to say font size 30 pixels.
+
+11:27.240 --> 11:32.640
+Then after that this is going to be a padding is going to be five pixels and over here and this is going
+
+11:32.640 --> 11:38.730
+to be a color and we're going to use the same color so I'm going to go back over here and we're going
+
+11:38.730 --> 11:46.560
+to copy and paste this color know this now that we have the color let's do a border and we're going
+
+11:46.560 --> 11:49.630
+to say that you know what this is Mr. Palmer.
+
+11:49.930 --> 11:55.690
+So what I would want to do is actually cut this here copy and paste it over here back.
+
+11:55.830 --> 12:03.200
+And again let's make more room here so you can see better now that we have a heading three color.
+
+12:03.300 --> 12:11.030
+Then after that we would want a border and we're going to say all three pixels are here solid and we're
+
+12:11.160 --> 12:14.360
+going to leave it the way it is and you can see here with the color right.
+
+12:14.370 --> 12:17.530
+We're getting right away this kind of bore.
+
+12:17.700 --> 12:21.200
+So obviously food right over here red would be different.
+
+12:21.510 --> 12:26.490
+But since we're leaving the way the actual color is right so this is how it's going to be.
+
+12:26.820 --> 12:29.990
+And then after that we would want again a transition.
+
+12:30.270 --> 12:37.810
+So we're going to see a transition and are all going to say color when you say two seconds he's here
+
+12:37.970 --> 12:41.200
+they're all going to have a background also change.
+
+12:41.330 --> 12:42.790
+So we're going to say background.
+
+12:42.970 --> 12:44.660
+We're going to say two seconds.
+
+12:44.780 --> 12:53.280
+He's not going to do a hovering effect so I'm going to say that can have up and we're going to say heading
+
+12:53.280 --> 12:57.790
+three however and adding three however and what should happen.
+
+12:58.090 --> 13:03.020
+Background first of all should it happen not an attachment but a background.
+
+13:03.240 --> 13:08.150
+So what are going to say again that we will going to flip them around so we're going to say a caller
+
+13:08.150 --> 13:17.910
+over here call and hash tag on here 5 5 5 and then on here this is going to be the Magro.
+
+13:18.210 --> 13:21.260
+So basically what's going to happen is going to flip them around.
+
+13:21.550 --> 13:29.870
+So here we're going to grab this cooler get a copy and copy paste is right and then we're going to place
+
+13:29.960 --> 13:31.590
+a.
+
+13:31.630 --> 13:32.050
+Right.
+
+13:32.150 --> 13:33.590
+And you can see what we have.
+
+13:33.870 --> 13:40.560
+We have a knot of top end in three of her right to see what's happening right.
+
+13:40.580 --> 13:45.300
+So as I'm hovering over this thing right you can see that the color is changing.
+
+13:45.320 --> 13:51.760
+If this one was white now it's actually turning that now it's actually time to create this menu button
+
+13:51.760 --> 13:52.420
+on here.
+
+13:52.670 --> 13:55.940
+And then we're going to make much more sense of what we did over here.
+
+13:55.980 --> 14:00.050
+Right when we had to display flex and just fat content space between.
+
+14:00.390 --> 14:08.110
+So we're going to say that for the menu button menu and I'm going to say between this and the menu button
+
+14:08.150 --> 14:10.230
+button we're going to have a padding.
+
+14:10.550 --> 14:11.820
+Five pixels.
+
+14:11.820 --> 14:12.430
+All right.
+
+14:12.440 --> 14:15.040
+And you can see that we're starting working on here.
+
+14:15.260 --> 14:23.430
+Then after that we're going to have a border we're going to see border and this is going to be two pixels
+
+14:23.720 --> 14:26.280
+solid solid.
+
+14:26.370 --> 14:32.430
+We're here and we're going to say this is going to be a good hashtag to be here.
+
+14:32.500 --> 14:36.830
+Nine Eight an EF 0 miss.
+
+14:36.950 --> 14:41.340
+Then after that we're going to have a cursor and we're going to see a pointer.
+
+14:41.360 --> 14:46.250
+So as we were hovering over this is actually going to change right so you can see or hear becomes a
+
+14:46.250 --> 14:47.060
+pointer.
+
+14:47.360 --> 14:52.460
+And then after that we're going to have a line self and that's going to be Center.
+
+14:52.550 --> 14:57.950
+And again this is going to be for a few Xmarks because obviously there's going to be a difference of
+
+14:57.980 --> 15:03.400
+how actually they look because of what is the content for these guys over here.
+
+15:03.410 --> 15:03.730
+Right.
+
+15:03.740 --> 15:06.180
+Because both of them right now are on fluxbox.
+
+15:06.470 --> 15:11.950
+So I'm going to see or hear a line self say Center here like this.
+
+15:12.170 --> 15:14.570
+Then off to now we need to work with those actually bars.
+
+15:14.570 --> 15:16.200
+Right so we need to create.
+
+15:16.550 --> 15:21.110
+So here I'm going to say this is going to be bar one.
+
+15:21.410 --> 15:26.600
+And then I'm place a comma and all three classes bar to one here.
+
+15:26.620 --> 15:33.170
+And last one is going to be bar one here three and we're all going to say over here that we would want
+
+15:33.770 --> 15:43.760
+them to have a height of five pixels or we would want a with of 35 pixels on here.
+
+15:43.760 --> 15:47.810
+Then we want a background color green car.
+
+15:47.840 --> 15:56.090
+And again we're going to use the blue ones are going to to be here nine ain't an EF 0 here.
+
+15:56.240 --> 16:01.740
+And the last thing is going to be margin 5 pixels zero like this.
+
+16:01.880 --> 16:09.730
+And then we're going to say that we would want a transition and transition should be one second.
+
+16:09.740 --> 16:15.450
+So to say transition but we're going to see or hear transform.
+
+16:16.280 --> 16:22.550
+And this is going to be one second long or it is more like this.
+
+16:22.550 --> 16:25.180
+So now let's go over what we actually did.
+
+16:25.190 --> 16:26.230
+All right.
+
+16:26.660 --> 16:28.360
+So you see this now top.
+
+16:28.730 --> 16:31.350
+Right now we're selecting the whole thing.
+
+16:31.460 --> 16:35.400
+You can see over here that I have this play and this is flex.
+
+16:35.400 --> 16:37.850
+Right now I'm sitting in a flex box.
+
+16:38.020 --> 16:40.880
+Right so now there are actually side by side.
+
+16:41.080 --> 16:41.650
+Right.
+
+16:41.720 --> 16:44.020
+And then we have a space in between.
+
+16:44.120 --> 16:47.000
+So that pushes them all the way away from each other.
+
+16:47.000 --> 16:50.090
+Right now we just need some padding all around.
+
+16:50.090 --> 16:50.460
+All right.
+
+16:50.490 --> 16:53.030
+So this would be the set up for the small screen.
+
+16:53.330 --> 16:59.840
+Now after that you can see this one line self center and so it's doing this and you can see that it
+
+16:59.880 --> 17:03.800
+actually things move up a little bit right.
+
+17:03.800 --> 17:12.800
+So as I like to hear center there actually this button is centered regarding this or here text.
+
+17:13.070 --> 17:13.310
+Right.
+
+17:13.310 --> 17:18.630
+So therefore we're choosing this online self center and now we're done with this.
+
+17:18.860 --> 17:23.240
+We actually have a few things that actually work.
+
+17:23.300 --> 17:25.970
+Now what I'm what do I mean by the end right.
+
+17:26.120 --> 17:33.440
+So what I'm going to say here now I would want to actually set up that once I press the button and this
+
+17:33.710 --> 17:36.250
+actually all disappears.
+
+17:36.560 --> 17:40.160
+So let's go ahead and let's actually start working on it.
+
+17:40.160 --> 17:43.880
+So the first thing that I would want to do is actually get a query.
+
+17:43.920 --> 17:49.880
+So what I'm going to do here I'm going to go to Google and I'm going to say that this will be Jake worry
+
+17:50.720 --> 17:57.640
+here and this is going to be Google CD and CD and here.
+
+17:58.020 --> 18:01.730
+Then you can see that this is going to be Google hosted libraries.
+
+18:01.870 --> 18:05.840
+So we're going to pick this guy over here and we're going to find where it is.
+
+18:05.840 --> 18:06.140
+Right.
+
+18:06.140 --> 18:08.850
+So we're going to grab the script here.
+
+18:08.870 --> 18:13.070
+This is going to be Jay Querrey and the reason why we're picking Jake we're here because this is pretty
+
+18:13.070 --> 18:18.590
+much going to be a few lines of code and we're going to have a responsive nav bar.
+
+18:18.860 --> 18:25.130
+So we're going to go back over here and we need to go back to in Exige the amount and or all the way
+
+18:25.130 --> 18:30.040
+in the bottom we're going to say this is going to be coming out and this is going to be J.
+
+18:30.040 --> 18:34.040
+Where are you going to do is copy and paste this.
+
+18:34.170 --> 18:37.270
+And over here we're going to say this is going to be script.
+
+18:37.430 --> 18:38.300
+Yes.
+
+18:38.390 --> 18:45.440
+So now we have a script tags and there's going to be source within the source right now we need to create
+
+18:45.500 --> 18:46.280
+a script.
+
+18:46.380 --> 18:47.380
+Yes.
+
+18:47.420 --> 18:53.020
+So we're going to see a new file like this and we're going to have a script.
+
+18:53.040 --> 18:54.150
+Yes.
+
+18:54.220 --> 18:56.180
+So it's a script.
+
+18:56.870 --> 18:57.450
+Yes.
+
+18:57.640 --> 18:57.920
+Right.
+
+18:57.920 --> 19:03.950
+So now I can see that they are actually linked and they are working now in order to test whether this
+
+19:03.950 --> 19:09.890
+is working or you need to write a jack where you function and don't worry if you don't know Jake Weary
+
+19:09.920 --> 19:15.380
+or if you haven't worked with Jake where the only thing you need to really do is just actually type
+
+19:15.380 --> 19:19.210
+this or you can just copy pasted from your source files.
+
+19:19.380 --> 19:24.750
+So I'm going to say document document here to really function.
+
+19:25.100 --> 19:28.680
+So I'm going to saying if the document ready something should happen.
+
+19:28.870 --> 19:31.520
+No real going to say a function no.
+
+19:31.560 --> 19:34.150
+Here we're going to write what should happen right.
+
+19:34.170 --> 19:42.830
+So I can just say every simple word and I just say hello world just to see whether it's working.
+
+19:43.010 --> 19:47.460
+If we're fresh you can see that now we're going to have a hello world so everything is working.
+
+19:47.710 --> 19:53.240
+Again don't worry if you don't worry you can just copy and paste of what we're actually doing.
+
+19:53.240 --> 20:00.170
+So what we're saying here is that we would want our query to run only when the document is loaded.
+
+20:00.200 --> 20:02.750
+So then here we're going to have a dollar sign.
+
+20:03.220 --> 20:08.030
+And within the dollars then we're going to say this is going to be a menu here.
+
+20:08.030 --> 20:17.080
+Hash tag menu BT end on here and we're going to say click on here and here we're going to write a function
+
+20:17.350 --> 20:24.620
+and the function is going to be change and I'm going to say that now once we have this function now
+
+20:24.620 --> 20:26.490
+we actually need to write the function.
+
+20:26.760 --> 20:31.070
+So here I'm going to say this is going to be a function change.
+
+20:31.220 --> 20:37.790
+I have more here and then we're going to have parentheses and curly braces and or here we're going to
+
+20:37.790 --> 20:45.050
+say that we would want to select on this guy so we would want to select the links on here like this
+
+20:45.140 --> 20:53.780
+and hash tag links and then we're going to say that this would be a function toggle here and we're going
+
+20:53.780 --> 21:00.310
+to say two seconds because two thousand milliseconds actually stand for a few seconds.
+
+21:00.380 --> 21:03.920
+And basically this line of code was the only reason why we don't.
+
+21:04.120 --> 21:04.500
+Right.
+
+21:04.730 --> 21:06.530
+Because this is actually very fast.
+
+21:06.540 --> 21:09.710
+We can just add this method over here of toggle.
+
+21:09.870 --> 21:13.160
+And now once I'm going to click the button you can see what's going to happen.
+
+21:13.250 --> 21:16.090
+So I'm going to say this group J.S. and it's great.
+
+21:16.100 --> 21:18.400
+So they're all here next.
+
+21:18.410 --> 21:20.150
+And let's check it out.
+
+21:20.270 --> 21:20.600
+Right.
+
+21:20.600 --> 21:24.470
+And you can see what happens right now every time I press the button.
+
+21:24.470 --> 21:25.040
+Right.
+
+21:25.160 --> 21:33.110
+I actually have a responsive nav bar mate meaning that I can click over here and my links appear and
+
+21:33.120 --> 21:34.470
+are here to disappear.
+
+21:34.730 --> 21:40.890
+And now the last thing that I would want to actually do is I would want where these bars are changing.
+
+21:41.240 --> 21:44.710
+So we're going to go back to Maine she says this.
+
+21:44.840 --> 21:51.430
+And what we're going to say is we're going to add a few more classes and the class is going to be turned.
+
+21:51.500 --> 21:56.210
+So I'm going to say we're here and this is going to be turned right so this is going to be the class
+
+21:56.210 --> 21:59.810
+name and I'm going to say for the bar one what should happen.
+
+22:00.070 --> 22:00.660
+No.
+
+22:01.100 --> 22:07.240
+You can see that we had a transition right transform right and on here we were going right.
+
+22:07.280 --> 22:08.590
+This is going to be transformed.
+
+22:08.870 --> 22:15.880
+And the value from transform is going to be rotate and we're going to say negative here negative.
+
+22:16.250 --> 22:23.230
+And this is going to be negative 45 degrees negative forty five degrees then we're going to say translate.
+
+22:23.300 --> 22:30.280
+So and this is going to be negative 7 pixels here 6 pixels.
+
+22:30.420 --> 22:30.850
+Right.
+
+22:31.070 --> 22:37.130
+And again we can go back over here and once we're done then it's actually easier to show you what's
+
+22:37.130 --> 22:42.950
+happening because we can change the values and you can see what is going to happen right then all of
+
+22:42.960 --> 22:44.060
+this is going to be turn.
+
+22:44.150 --> 22:47.920
+And this is going to be class bar to all like this.
+
+22:48.080 --> 22:52.450
+And for this one I was going to say opacity and we're going to say zero.
+
+22:52.520 --> 22:53.030
+Right.
+
+22:53.090 --> 22:55.780
+So the middle one actually is going to disappear.
+
+22:55.940 --> 23:01.910
+And then after another we're going to have a turn around and this is going to be bar three right.
+
+23:02.020 --> 23:10.630
+So one by one we have bar one or two or three here and we're going to have is transform and again we're
+
+23:10.630 --> 23:14.590
+going to have the same values but we're going to change them around.
+
+23:14.650 --> 23:15.340
+Right.
+
+23:15.400 --> 23:22.090
+So you say your copy is going to be copy paste this is actually going to be all going to say this is
+
+23:22.090 --> 23:24.980
+going to be 45 degrees not negative.
+
+23:25.300 --> 23:29.080
+And over here we're going to say negative seven and negative eight.
+
+23:29.310 --> 23:32.860
+So here like this will have a negative rate.
+
+23:33.220 --> 23:34.430
+So let's say this.
+
+23:34.650 --> 23:40.300
+And the last thing that we would want to do is actually add this in our Jacqui.
+
+23:40.340 --> 23:46.260
+All right so again once we click the button that the bar should change around and I'm going to say dollar
+
+23:46.280 --> 23:53.210
+sign and then I'm going to say this is going to be a hash tag menu Betty and.
+
+23:53.390 --> 23:53.640
+Right.
+
+23:53.650 --> 23:55.070
+So for the whole button.
+
+23:55.300 --> 23:59.830
+So now I'm not saying that I'm targeting the length and targeting the actual button and I'm going to
+
+23:59.830 --> 24:04.340
+say toggle class and or here we're going to write a class.
+
+24:04.340 --> 24:07.530
+So I'm going to say we're here and we're here like this.
+
+24:07.550 --> 24:12.450
+So once we say this here you can see what's happening with these bars right.
+
+24:12.640 --> 24:17.730
+So first my links are disappearing and appearing right click on here.
+
+24:17.740 --> 24:20.120
+But look what happens with the bars right.
+
+24:20.140 --> 24:26.980
+So we have all here this cross and it goes back to normal bars and again now we can go back over here
+
+24:26.980 --> 24:29.260
+and actually have a look what's happening right.
+
+24:29.260 --> 24:31.480
+So this is going to rotate the bar.
+
+24:31.690 --> 24:33.290
+And this is actually going to move it.
+
+24:33.340 --> 24:38.500
+Right so here let's change the values and let's say here and this is going to be 65 degrees.
+
+24:38.500 --> 24:39.040
+Right.
+
+24:39.400 --> 24:41.420
+And let's say this is going to be 10.
+
+24:41.680 --> 24:46.020
+And this is actually the easiest way how you can work with this right because then you can see where
+
+24:46.020 --> 24:47.160
+you're actually going.
+
+24:47.350 --> 24:48.680
+So we say this.
+
+24:49.040 --> 24:50.460
+There are few things happening.
+
+24:50.620 --> 24:54.120
+First of all we can see that this line is much bigger over here right.
+
+24:54.310 --> 24:58.730
+And also the actual bottom right because this is the value or here right.
+
+24:58.730 --> 25:02.470
+So here I can have a 20 pixel's 30 pixels right.
+
+25:02.530 --> 25:06.910
+You can see we're actually moving on here if we change these values.
+
+25:06.920 --> 25:07.210
+Right.
+
+25:07.210 --> 25:10.840
+Also you can see where you are actually moving this bar right.
+
+25:10.900 --> 25:15.380
+So this is how we can actually find out what is actually happening.
+
+25:15.380 --> 25:16.450
+Exactly right.
+
+25:16.510 --> 25:23.350
+So here with this one we're just turning it right over here we're actually moving it around the actual
+
+25:23.350 --> 25:24.500
+candidates right.
+
+25:24.760 --> 25:31.780
+So here what I'm going to go back and then I'll go back to our values and that was 45 degrees negative
+
+25:32.920 --> 25:42.040
+45 here and we're going to say negative seven pixels on this and then we're going to have a 6 pixels
+
+25:42.570 --> 25:43.090
+on here.
+
+25:43.160 --> 25:44.090
+That's right.
+
+25:44.170 --> 25:53.440
+Man what we would want to do right now is actually go ahead and add a few x values for when we're actually
+
+25:53.440 --> 25:54.640
+making our screen bigger.
+
+25:54.640 --> 25:55.220
+Right.
+
+25:55.270 --> 25:57.470
+Because again this was for a small screen.
+
+25:57.530 --> 25:58.110
+Right.
+
+25:58.150 --> 26:06.250
+So let's go ahead and let's add some rules then as we're changing the value of our screen size actually
+
+26:06.630 --> 26:13.060
+our neighbors are responding differently because for now the only thing we have done is create an NAV
+
+26:13.060 --> 26:15.720
+bar and we added some functionality.

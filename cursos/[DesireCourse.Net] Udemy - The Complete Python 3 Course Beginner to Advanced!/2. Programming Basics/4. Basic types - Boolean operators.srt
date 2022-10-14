@@ -1,0 +1,336 @@
+1
+
+00:00:00,000  -->  00:00:03,780
+Welcome back people, in this video we're
+going to be talking about boolean
+
+2
+
+00:00:03,780  -->  00:00:09,840
+operators. So, what is a boolean? Well,
+basically is not just a Python specific
+
+3
+
+00:00:09,840  -->  00:00:15,809
+concept it's a programming concept in
+general and it consists of two items, one
+
+4
+
+00:00:15,809  -->  00:00:17,789
+is true, one is false.
+
+5
+
+00:00:17,789  -->  00:00:23,250
+Now in a lot of programming languages
+you typed true as "true" and false as, well you
+
+6
+
+00:00:23,250  -->  00:00:27,900
+know how to spell those, but you'd spell
+them all lowercase, Python's different. So
+
+7
+
+00:00:27,900  -->  00:00:34,170
+let's explore that a bit and open up
+terminal here, and launch a Python3
+
+8
+
+00:00:34,170  -->  00:00:40,559
+console, and we're going to just type in true and it's going to return true, this is
+
+9
+
+00:00:40,559  -->  00:00:44,550
+not in quotations, make sure when you're
+typing true and false for truth checking
+
+10
+
+00:00:44,550  -->  00:00:50,039
+that you're typing true and false and
+not like this, because that will return a
+
+11
+
+00:00:50,039  -->  00:00:51,930
+string which is true,
+
+12
+
+00:00:51,930  -->  00:00:59,730
+yeah. So let's talk about what
+these operators do. Basically, and we're
+
+13
+
+00:00:59,730  -->  00:01:04,199
+going to get into comparison operators a
+bit later which is like checking if
+
+14
+
+00:01:04,199  -->  00:01:08,850
+something is equal to something, or more
+or less than, or if it even exists, or if
+
+15
+
+00:01:08,850  -->  00:01:13,950
+it's a certain type, and so you can
+basically perform different actions on
+
+16
+
+00:01:13,950  -->  00:01:18,180
+different types of data and that's why
+it's necessary to do some fact checking
+
+17
+
+00:01:18,180  -->  00:01:23,250
+with that. So, we need the true and false
+in programming,
+
+18
+
+00:01:23,250  -->  00:01:28,110
+however we can explicitly declare
+true-and-false like we've just done by
+
+19
+
+00:01:28,110  -->  00:01:33,150
+just typing true or false, or we can
+generate it in other ways. So let's have a
+
+20
+
+00:01:33,150  -->  00:01:37,409
+look at some of the ways we
+can generate a true or false.
+
+21
+
+00:01:38,189  -->  00:01:44,939
+So let's type "5 = 5"
+
+22
+
+00:01:45,689  -->  00:01:51,479
+that's true. Now when you're comparing
+two objects and you're checking if they're
+
+23
+
+00:01:51,479  -->  00:01:57,149
+equal to each other you can't type that
+because the single quote, the
+
+24
+
+00:01:57,149  -->  00:02:01,950
+single equal sign there, is used for a
+different purpose and programming it's
+
+25
+
+00:02:01,950  -->  00:02:07,590
+used to assign a value to a variable, and
+we'll go over that here soon as well. So
+
+26
+
+00:02:07,590  -->  00:02:11,430
+when we're comparing to check if two
+numbers or two strings are equal to each
+
+27
+
+00:02:11,430  -->  00:02:13,319
+other we need to put two equal signs,
+
+28
+
+00:02:13,319  -->  00:02:17,760
+so you'll see that returns true. So let's
+go ahead and "5 == 4" that's going
+
+29
+
+00:02:17,760  -->  00:02:23,189
+to return false because of course we've
+all been through grade 2 math and we
+
+30
+
+00:02:23,189  -->  00:02:28,709
+all know that 5 is a little larger
+than 4. Now you can also do this with
+
+31
+
+00:02:28,709  -->  00:02:33,359
+strings and also without using equal
+signs at all, you can actually type "5 is
+
+32
+
+00:02:33,359  -->  00:02:41,760
+5" and that will return true, and you can type "5 is not 5" and that will equal false.
+
+33
+
+00:02:41,760  -->  00:02:47,609
+So basically you're saying 5 is not
+5 and Python is saying well that's
+
+34
+
+00:02:47,609  -->  00:02:49,169
+false.
+
+35
+
+00:02:49,169  -->  00:02:55,980
+So you could type "5 is not 6" and that will
+return true. Again you can do this
+
+36
+
+00:02:55,980  -->  00:03:00,510
+with strings as well so you can type
+"This" is "This" and this is going to compare
+
+37
+
+00:03:00,510  -->  00:03:03,870
+both of these strings to see if they're
+equal to each other and it's going to
+
+38
+
+00:03:03,870  -->  00:03:08,040
+return true because yes, it is. Now
+
+39
+
+00:03:08,040  -->  00:03:15,269
+we can also do this "True is True" will
+return true because of course true is
+
+40
+
+00:03:15,269  -->  00:03:26,310
+true. Now that last one is a bit of
+a you know obvious result, so let's go
+
+41
+
+00:03:26,310  -->  00:03:32,819
+ahead and compare this with this "True" is True. If you think this will return true because
+
+42
+
+00:03:32,819  -->  00:03:35,310
+we're comparing true and true
+
+43
+
+00:03:35,310  -->  00:03:39,030
+the results will not be as obvious as
+you expect because one of them is a
+
+44
+
+00:03:39,030  -->  00:03:42,930
+string and the other one is a boolean
+operator. So, not only when you compare
+
+45
+
+00:03:42,930  -->  00:03:46,169
+two items is it checking if the value is
+equal,
+
+46
+
+00:03:46,739  -->  00:03:53,669
+it's also checking the type of data that
+it is. So, if we wanted to make the above
+
+47
+
+00:03:53,669  -->  00:04:01,889
+statement return true we would have to
+convert true into a string. So just like
+
+48
+
+00:04:01,889  -->  00:04:07,349
+you would convert a number into a string,
+you can just wrap the boolean operator
+
+49
+
+00:04:07,349  -->  00:04:14,340
+in the str function and it will convert
+it to a string prior to the comparison,
+
+50
+
+00:04:14,340  -->  00:04:19,919
+and then it will return the result of true
+is true which equals true. Now,
+
+51
+
+00:04:19,919  -->  00:04:24,720
+true-and-false again they're going to
+come up in in the if-else statements
+
+52
+
+00:04:24,720  -->  00:04:29,550
+because that's where we're really going
+to do some error checking and you know
+
+53
+
+00:04:29,550  -->  00:04:33,750
+make sure things are set and that you
+know they're not just not equal to each
+
+54
+
+00:04:33,750  -->  00:04:37,740
+other, and you're going to see more
+practical uses of boolean operators
+
+55
+
+00:04:37,740  -->  00:04:42,450
+later on, but this was just to show you
+guys what true and false is and again
+
+56
+
+00:04:42,450  -->  00:04:46,890
+you should already know this without a
+programming background. So in the next
+
+57
+
+00:04:46,890  -->  00:04:50,460
+video we're going to be looking at
+Pythons version of arrays which are
+
+58
+
+00:04:50,460  -->  00:04:51,660
+called lists.

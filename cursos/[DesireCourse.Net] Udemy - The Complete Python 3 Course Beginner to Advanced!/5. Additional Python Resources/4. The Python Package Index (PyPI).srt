@@ -1,0 +1,195 @@
+1
+
+00:00:00,000  -->  00:00:06,390
+Hey guys, so I wanted to discuss more
+about Python packages and where you
+
+2
+
+00:00:06,390  -->  00:00:10,590
+could find some if you're looking for
+some packages. So let's go ahead and open
+
+3
+
+00:00:10,590  -->  00:00:17,250
+up a browser here, and there's actually a
+Python package index which is called PyPI,
+
+4
+
+00:00:17,250  -->  00:00:26,340
+and if we come here there's the
+ability to browse packages here, you can
+
+5
+
+00:00:26,340  -->  00:00:29,640
+also see packages here as well.
+
+6
+
+00:00:30,269  -->  00:00:33,329
+Now, if we go to browse packages,
+
+7
+
+00:00:33,329  -->  00:00:37,500
+I mean you can also submit packages if
+you build modules and you want to submit
+
+8
+
+00:00:37,500  -->  00:00:44,730
+them to the Python package index which
+allows them to be installed using pip. So,
+
+9
+
+00:00:44,730  -->  00:00:55,260
+let's go ahead and narrow down some into, there we go we've got webgobbler
+
+10
+
+00:00:55,260  -->  00:01:02,010
+here, let's go ahead and take a look at
+this. If you click on a package, and I
+
+11
+
+00:01:02,010  -->  00:01:08,369
+mean you can search packages too, but if
+you get to a packages page it's going to
+
+12
+
+00:01:08,369  -->  00:01:14,850
+give you a description here, gives you
+some meta information about it, and
+
+13
+
+00:01:14,850  -->  00:01:23,340
+basically all we have to do is grab this,
+open up terminal here and "pip3 install
+
+14
+
+00:01:23,340  -->  00:01:36,270
+webgobbler" Couldn't find a version so, no matching distribution.
+
+15
+
+00:01:36,270  -->  00:01:39,840
+Alright, well, you can also go to the
+download URL.
+
+16
+
+00:01:40,680  -->  00:01:45,149
+Let's look for django because this is
+something we're going to be getting into
+
+17
+
+00:01:45,149  -->  00:01:53,040
+very soon as well. So if i just search
+django on the python package
+
+18
+
+00:01:53,040  -->  00:01:59,159
+index you'll see a bunch of modules here
+as well, however we're just going to look
+
+19
+
+00:01:59,159  -->  00:02:05,280
+for this one right here which is Django.
+You can download directly from here if
+
+20
+
+00:02:05,280  -->  00:02:06,869
+you'd like to,
+
+21
+
+00:02:06,869  -->  00:02:12,670
+however we're not going to. It says it
+requires bcrypt,
+
+22
+
+00:02:12,670  -->  00:02:22,060
+argon2, and extra so let's go ahead and
+jump into terminal here, and "pip3
+
+23
+
+00:02:22,060  -->  00:02:28,599
+install django" see if that installs it, awesome.
+
+24
+
+00:02:28,599  -->  00:02:34,750
+So we are installing django here, it should
+pull in any additional packages that it
+
+25
+
+00:02:34,750  -->  00:02:39,700
+requires, and then once we get it
+installed we can just begin using
+
+26
+
+00:02:39,700  -->  00:02:44,380
+it just like any other python package. So,
+we're going to get into that in the next
+
+27
+
+00:02:44,380  -->  00:02:49,300
+section, for right now that's all I
+wanted to talk about regarding getting
+
+28
+
+00:02:49,300  -->  00:02:53,019
+packages, and of course you know how to
+use them.
+
+29
+
+00:02:53,019  -->  00:02:57,130
+You can go to the homepage of the Python package as well if you want to get more
+
+30
+
+00:02:57,130  -->  00:03:02,470
+information, and they usually have pretty
+good documentation. So, for django we're
+
+31
+
+00:03:02,470  -->  00:03:05,680
+just going to drop into the
+documentation here and you can see
+
+32
+
+00:03:05,680  -->  00:03:09,580
+tutorials, reference, guides, etc., and most
+packages have a pretty good
+
+33
+
+00:03:09,580  -->  00:03:16,630
+documentation, even if it's a github page
+instead of the website, it it's usually
+
+34
+
+00:03:16,630  -->  00:03:17,859
+pretty straightforward.

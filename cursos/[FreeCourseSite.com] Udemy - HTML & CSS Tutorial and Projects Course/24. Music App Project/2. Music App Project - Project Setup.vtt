@@ -1,0 +1,532 @@
+WEBVTT
+
+00:00.900 --> 00:06.440
+As always before we can start building anything we actually need to do our set up.
+
+00:06.440 --> 00:12.990
+So we're here and that's going to create a new folder and I'm going to call this a music app so I'm
+
+00:12.990 --> 00:17.750
+going to say over here and this is going to be a music app on this.
+
+00:17.820 --> 00:22.440
+And let me just rename it music up here.
+
+00:22.560 --> 00:28.110
+Then once I have this open that I'm going to open the brackets here and I'm going to close these ones
+
+00:28.110 --> 00:29.070
+for now.
+
+00:29.070 --> 00:35.130
+So I'm going to get I'm a text editor and I'm just going to drag this folder over here.
+
+00:35.340 --> 00:37.270
+And this pretty much is going to.
+
+00:37.320 --> 00:38.130
+All right.
+
+00:38.150 --> 00:39.960
+We're having that before.
+
+00:39.960 --> 00:43.980
+All right so this is going to be a completely empty folder.
+
+00:44.130 --> 00:50.730
+Then over here I'm going to say no this is going to be a index actually i'm how you know this then I'm
+
+00:50.730 --> 00:58.390
+going to write a way place a H.T. Moscow in full human skeleton and we're going to write a way and mean
+
+00:58.600 --> 01:00.050
+CSSA over here.
+
+01:00.300 --> 01:08.380
+So now that I have the indexation Amendment right away I can have a live preview on this.
+
+01:08.400 --> 01:15.350
+So once we have the live preview then let's create a main see it says which is going to be for styling.
+
+01:15.740 --> 01:21.630
+And she says that all readers is also going to be Mencius us in the next one.
+
+01:21.870 --> 01:22.380
+That's right.
+
+01:22.380 --> 01:30.120
+So we're going to say main success we're here we're going to call this a music app music here.
+
+01:30.330 --> 01:33.230
+Then we're also going to have our script.
+
+01:33.230 --> 01:35.620
+So I'm going to say we're here and this is going to be script.
+
+01:35.810 --> 01:38.370
+Jay has filed an order here.
+
+01:38.400 --> 01:40.320
+We're going to have a query.
+
+01:40.530 --> 01:45.430
+Right so what just make a comment on whether there's going to be a query.
+
+01:45.840 --> 01:47.930
+So let's make the comment over here.
+
+01:47.940 --> 01:53.910
+I'm going to say this is going to be Jake where now once we have all heard this initial set up right
+
+01:53.910 --> 01:57.240
+with the mates he says now maybe let's do a script.
+
+01:57.240 --> 02:03.900
+Julius also scrubbed here overhearing this and I will go ahead and let's start adding what we would
+
+02:03.900 --> 02:04.850
+want.
+
+02:04.860 --> 02:07.580
+So first we're going to do with fonts.
+
+02:07.720 --> 02:08.830
+Just go to Google.
+
+02:08.850 --> 02:13.820
+We're going to get font and let's get something quite funky.
+
+02:13.820 --> 02:17.210
+All right so let's do thickness right on this.
+
+02:17.220 --> 02:18.620
+And you know what.
+
+02:18.620 --> 02:20.980
+No that wasn't a number of styles.
+
+02:20.990 --> 02:25.890
+What was the thickness and what do slant and so words do or he this guy.
+
+02:26.210 --> 02:28.050
+Right so I'm going to press it on here.
+
+02:28.260 --> 02:31.830
+Now this tells me how I can add it to my project.
+
+02:32.040 --> 02:35.720
+So I'm going to select this copy and paste this and go back.
+
+02:35.760 --> 02:38.590
+And now I can close the screen just for now.
+
+02:38.860 --> 02:44.700
+I here we're going to say that this is going to be a Google font's and you can see that I puts the comment
+
+02:44.700 --> 02:47.560
+in the wrong place on Google.
+
+02:47.670 --> 02:55.530
+I'm going to say fonts we have Google fonts we just copy and paste this here and let's place a heading
+
+02:55.530 --> 03:00.930
+one just to test that slogan to say hello world and you can see that it's not working yet because I
+
+03:00.930 --> 03:08.040
+haven't added a rule to my body so I'm going to save this and I'm really going to get this guy and it's
+
+03:08.040 --> 03:10.090
+all going to copy and paste this.
+
+03:10.170 --> 03:11.910
+I'm going to go to Maine see assess.
+
+03:12.060 --> 03:16.390
+I'm going to say for the whole body I'd copy and paste from family on here.
+
+03:16.740 --> 03:17.570
+Right.
+
+03:17.760 --> 03:21.910
+And then I'll go ahead and let's maybe actually refresh.
+
+03:22.020 --> 03:24.200
+Now I can see that everything is working.
+
+03:24.300 --> 03:28.150
+So we have our Hello world and we are fans.
+
+03:28.430 --> 03:35.140
+Now the next one we would want is actually Jacquard right because we're here for these buttons.
+
+03:35.370 --> 03:37.130
+We're going to need a javascript.
+
+03:37.330 --> 03:43.050
+It's all going to get Actually Jake we're in order to do that so we can close all these Google fonts
+
+03:43.560 --> 03:51.840
+and we can go here and we're going to use a Google J.A.G. CDN So we just hope and this and we're going
+
+03:51.840 --> 03:59.960
+to find words or Genk worry or here just get this Jake worry here and we're going to go back and just
+
+03:59.970 --> 04:06.860
+copy and paste this and months maybe like create another comment I'm going to say this is going to be
+
+04:06.870 --> 04:08.050
+script file.
+
+04:08.120 --> 04:11.050
+Right just so there's a distinction between them.
+
+04:11.100 --> 04:13.830
+Now what I would want to do is test whether I actually have Jake.
+
+04:13.830 --> 04:14.690
+All right.
+
+04:15.060 --> 04:21.150
+So I'm going to go over here and since I have the access right now Jake worry I have an access to function
+
+04:21.570 --> 04:25.270
+so I'm going to select the whole document like this right.
+
+04:25.290 --> 04:26.700
+I'm going to say document.
+
+04:26.880 --> 04:34.080
+And then over here I'm going to write already you know this then I have a Prentice's curly braces and
+
+04:34.080 --> 04:36.330
+all over here I need to write a function.
+
+04:36.600 --> 04:39.460
+I'm turning right and this is going to be anonymous function.
+
+04:39.720 --> 04:42.350
+And then over here let's write just a simple I don't know.
+
+04:42.350 --> 04:45.950
+Alert alert here.
+
+04:46.110 --> 04:48.140
+Hello hello there.
+
+04:48.240 --> 04:49.210
+Hello there.
+
+04:49.230 --> 04:49.980
+We're here.
+
+04:50.160 --> 04:54.190
+Once we say this you can see that I have a alert with Hello there.
+
+04:54.450 --> 04:55.690
+All right so everything is working.
+
+04:55.690 --> 04:57.000
+We have our Jake Weary.
+
+04:57.180 --> 05:05.400
+And basically what this means is that I'm saying I would want to run my code only when the actual Dom
+
+05:05.400 --> 05:06.460
+has been loaded.
+
+05:06.540 --> 05:06.830
+Right.
+
+05:06.840 --> 05:10.310
+When the document is ready this is the ready function.
+
+05:10.520 --> 05:14.700
+So I'm going to delete this alert it because we don't need it right now we know that it's working.
+
+05:14.700 --> 05:17.400
+How are we going to be placing all our code here.
+
+05:17.400 --> 05:17.760
+Right.
+
+05:17.780 --> 05:22.970
+And basically what we're saying is that we would want our code to run only one document has been loaded.
+
+05:23.250 --> 05:28.710
+So I'm going to say this and I'm going to go back to actually now and then we'll check what else we
+
+05:28.710 --> 05:28.940
+need.
+
+05:28.950 --> 05:29.420
+Right.
+
+05:29.580 --> 05:34.930
+And the next thing we need is phantasm and the latest version is found on some five.
+
+05:34.950 --> 05:39.520
+So here the first thing that we can right away do is get download free.
+
+05:39.550 --> 05:46.430
+Now if you are used to working with an all right you can head over here Word says old $4.7.
+
+05:46.470 --> 05:46.970
+Right.
+
+05:47.010 --> 05:49.090
+And you going to be taking back to the old page.
+
+05:49.110 --> 05:49.500
+Right.
+
+05:49.620 --> 05:52.680
+But we're going to be working with a fantastic amphi right.
+
+05:52.680 --> 05:57.180
+So that's where we're going to be working or here right away with these down don't forget now we're
+
+05:57.180 --> 06:01.790
+here they say to get started what would you need to do.
+
+06:01.800 --> 06:08.220
+They are using with as 3G javascript and they are for you or here just free CDN but we're not going
+
+06:08.220 --> 06:09.000
+to use them.
+
+06:09.200 --> 06:15.060
+And then once you download you we're going to have a squeegee with us then in jazz you're going to have
+
+06:15.060 --> 06:17.090
+found us some are just fine.
+
+06:17.320 --> 06:23.820
+You you've got your head and you add a script right with the source to that font that has some jazz
+
+06:23.820 --> 06:24.480
+file over here.
+
+06:24.480 --> 06:25.040
+Right.
+
+06:25.050 --> 06:27.280
+So let's go ahead and let's actually do it.
+
+06:27.330 --> 06:30.060
+So we're going to go here I'm going to find where's my downloads.
+
+06:30.060 --> 06:32.640
+There should be already a few of them there.
+
+06:32.870 --> 06:34.350
+So I'm going to have downloads right.
+
+06:34.350 --> 06:38.060
+And sure enough I have found that semi-valid curso was right.
+
+06:38.070 --> 06:39.320
+So let's go here.
+
+06:39.540 --> 06:44.710
+And you know what let me just quickly move all this to the trash.
+
+06:44.770 --> 06:45.210
+Right.
+
+06:45.240 --> 06:48.660
+So it's not in our way and we have found ourselves up for it.
+
+06:48.750 --> 06:54.510
+We open up the zip code here like this and then we should have a folder on it once we have the folder
+
+06:54.690 --> 07:01.920
+we open it up and we're starting to have a look where it is Rigi with Julius go here then we go to J.S.
+
+07:02.280 --> 07:04.690
+and then we have fun Tarsem all day.
+
+07:04.890 --> 07:10.050
+Now we can drag it or we can copy this one right and so but I'm going to do it here as I'm going to
+
+07:10.050 --> 07:13.610
+select this file and I'm just going to drag it to my music.
+
+07:14.280 --> 07:20.650
+Once I have it in my hand up front of some genius I'm going to go over here and in the head.
+
+07:20.770 --> 07:26.340
+All right we're going to have a fun time some jackass so I'm going to say script or you know let's do
+
+07:26.340 --> 07:27.220
+a comic.
+
+07:27.390 --> 07:32.210
+All right let's say Fonte awesome going on here.
+
+07:32.250 --> 07:39.300
+We're going to say that this is going to be a script I'm here and we going to say source and the source
+
+07:39.300 --> 07:43.140
+is going to be fantastic and Mongia is now in order to test this.
+
+07:43.200 --> 07:51.140
+What's create or hear a phantasm Michael it's all going to say hey and in the new syntax we need to
+
+07:51.140 --> 07:58.100
+write f hey yes right here and there we're going to write home and we're going to have a let's say 5
+
+07:58.100 --> 07:59.400
+x y.
+
+07:59.660 --> 08:04.810
+So here we're going to test this why this is not actually working maybe we will refresh.
+
+08:04.820 --> 08:06.170
+Now I can see that everything is fine.
+
+08:06.200 --> 08:06.600
+Right.
+
+08:06.800 --> 08:11.020
+So we'll have our Hello world and we have our fantastic Mica.
+
+08:11.140 --> 08:19.610
+Now if we're going to go back over here and go all the way up to how to use it you're able to see what
+
+08:19.610 --> 08:20.610
+they're asking right now.
+
+08:20.630 --> 08:21.150
+Right.
+
+08:21.200 --> 08:24.170
+And like I said the difference with the style free fix right.
+
+08:24.290 --> 08:29.240
+We have a solid one which would be for us and then we have bronze.
+
+08:29.300 --> 08:36.770
+So FHB So this would be a different thing or here you can see that right if a prefix has been depreciated.
+
+08:36.770 --> 08:38.010
+Right and the version 5.
+
+08:38.180 --> 08:42.280
+So you remember in all the way you would read just F.A. NFA.
+
+08:42.560 --> 08:45.370
+Now that's enough with a phantasm.
+
+08:45.500 --> 08:45.750
+Right.
+
+08:45.830 --> 08:50.090
+Because we're all going to be working with them we're going to have we're going to look at the prefixes
+
+08:50.090 --> 08:54.370
+read or hear the images were packed cells.
+
+08:54.470 --> 08:59.780
+So I just read on him music and you can see that I misspelled it for you right.
+
+08:59.780 --> 09:01.050
+Music right.
+
+09:01.250 --> 09:03.260
+Well these would be the images that I'm using.
+
+09:03.440 --> 09:03.640
+Right.
+
+09:03.650 --> 09:07.610
+But obviously I'm going to include the images files so you can download it if you want.
+
+09:07.610 --> 09:08.030
+All right.
+
+09:08.240 --> 09:15.260
+So again I would say just pixels to get all your images because I think it's a very good site and provides
+
+09:15.260 --> 09:20.880
+a lot of great content then with the colors we can use a color.
+
+09:21.040 --> 09:24.830
+But no here like always this is the generator right.
+
+09:25.070 --> 09:32.110
+We just press tab and it gives us colors and then if we want we can lock the color right and keep looking.
+
+09:32.120 --> 09:38.900
+We already have covered this a few times and then after that we're going to have a logo right and the
+
+09:38.900 --> 09:42.500
+logo here is going to be free logo design.
+
+09:42.500 --> 09:46.580
+I'm going to go here and I'm going to look at what logo would want right.
+
+09:46.580 --> 09:49.210
+So these are a few options that actually have more.
+
+09:49.220 --> 09:52.980
+So we're going to have a new logos here.
+
+09:53.360 --> 09:57.380
+And then once we would say pick whatever you want.
+
+09:57.370 --> 09:57.680
+Right.
+
+09:57.680 --> 10:03.210
+So let's say we're here food and drink then you can see or hear these logos they offer.
+
+10:03.410 --> 10:11.180
+Now you're not limited to only this look obviously right which you can do here is you can actually customize
+
+10:11.180 --> 10:17.630
+this right so if I go here if I say company or ones let's say in different font in a different color.
+
+10:17.980 --> 10:22.330
+When press or here right and I can have my custom colors over here right.
+
+10:22.540 --> 10:25.280
+So let's say over here 1 9 1 9 1 9.
+
+10:25.610 --> 10:29.350
+So when I say select and you can see that I change the color basically.
+
+10:29.420 --> 10:36.800
+So once you're done with working with this logo you say Well here it's actually starting to save the
+
+10:36.800 --> 10:39.470
+moment it's going to save it's going to offer you an option.
+
+10:39.470 --> 10:39.710
+Right.
+
+10:39.710 --> 10:44.690
+So we have free one high resolution for turning and then 129.
+
+10:44.810 --> 10:48.200
+Once you click download you'll see or hear the free one.
+
+10:48.350 --> 10:50.550
+You need to enter first name address.
+
+10:50.560 --> 10:51.580
+They'll send you a link.
+
+10:51.590 --> 10:56.780
+You go back over here and you download automatically the logo and they're not going to charge you for
+
+10:56.780 --> 10:59.100
+anything at least they haven't been charging me.
+
+10:59.550 --> 11:01.110
+And you can get it right away.
+
+11:01.130 --> 11:03.540
+A very nice good looking logo.
+
+11:03.740 --> 11:08.270
+So once you're done with this we're done actually with our set up and we can start working on her app.

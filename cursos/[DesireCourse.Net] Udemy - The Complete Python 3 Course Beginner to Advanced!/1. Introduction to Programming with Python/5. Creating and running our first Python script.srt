@@ -1,0 +1,90 @@
+1
+
+00:00:00,000  -->  00:00:04,380
+So, let's go ahead and create a Python
+script and learn how to run it. So, i'm
+
+2
+
+00:00:04,380  -->  00:00:07,230
+going to be doing this in terminal
+completely we will discuss other options
+
+3
+
+00:00:07,230  -->  00:00:18,480
+later, what I need to do first is change
+directory into "pycharm projects" and
+
+4
+
+00:00:18,480  -->  00:00:23,430
+there's nothing really in here so i'm
+going to create a file using the nano
+
+5
+
+00:00:23,430  -->  00:00:26,939
+text editor, you guys don't have to
+follow along,
+
+6
+
+00:00:27,750  -->  00:00:32,759
+however if you want to that's great too.
+I'm just going to call it test.py. Now
+
+7
+
+00:00:32,759  -->  00:00:39,450
+all Python scripts need to have the .py
+extension. So, what we're going to do is
+
+8
+
+00:00:39,450  -->  00:00:46,920
+just a simple, simple script it's going
+to print "hello world"
+
+9
+
+00:00:48,780  -->  00:00:51,870
+So, I'm going to control +
+
+10
+
+00:00:51,870  -->  00:01:00,600
+O to save, and control + C to exit, control + X to exit.
+
+11
+
+00:01:03,030  -->  00:01:06,630
+Alright, now if we just type "test.py"
+
+12
+
+00:01:07,830  -->  00:01:15,180
+you'll see BASH doesn't know what to do
+with this command because test.py is
+
+13
+
+00:01:15,180  -->  00:01:23,520
+not an installed program. So what we need to do is run "python3 test.py" and it will
+
+14
+
+00:01:23,520  -->  00:01:30,689
+return the result of anything in that
+script. So, that's how to run python
+
+15
+
+00:01:30,689  -->  00:01:34,950
+scripts, in the next video what we're going to be doing is setting up an actual work
+
+16
+
+00:01:34,950  -->  00:01:42,720
+environment using an IDE, and get you
+guys all ready to start with the basics.

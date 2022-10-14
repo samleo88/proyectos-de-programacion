@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.420 --> 00:05.490
+Once we know how we can work with the columns in C A says grid where we just need to use the property
+
+00:05.490 --> 00:12.240
+by the name of grid template columns and then set up the values that we would like to use for the columns.
+
+00:12.360 --> 00:14.550
+Why don't we take a look at the rows.
+
+00:14.640 --> 00:21.450
+Now as far as rows are concerned well the setup is very very similar where we have the property named
+
+00:21.450 --> 00:26.010
+by the grid template and then the ending his rows.
+
+00:26.310 --> 00:29.580
+So this is gonna be the property that sets up the rows.
+
+00:29.580 --> 00:30.510
+Now let's start again.
+
+00:30.540 --> 00:34.360
+Let's say I want my first row to be 300 pixels.
+
+00:34.560 --> 00:39.450
+And then let's say the second one is going to be 20 our.
+
+00:39.480 --> 00:46.650
+Now let's say that and sure enough what we have we have the first column and first row is going to be
+
+00:46.650 --> 00:53.760
+in fact 300 pixels on the second row is 20 arms because this is the value that we set it up.
+
+00:53.760 --> 01:00.270
+Now we also know that we have the implicit grid correct just because we have seven items while in fact
+
+01:00.270 --> 01:06.180
+this is this grid is creating this extra row for that item number seven.
+
+01:06.180 --> 01:09.420
+Now what do you think is going to happen if explicitly.
+
+01:09.420 --> 01:13.240
+I'm going to go and say that my role is going to be two hundred.
+
+01:13.400 --> 01:14.510
+Well you guessed that.
+
+01:14.580 --> 01:19.910
+Now my third row is in fact this 200 pixels that I explicitly set up.
+
+01:19.950 --> 01:25.860
+That's the reason why it is called implicit grid where in this case I am explicitly saying what would
+
+01:25.860 --> 01:28.890
+be the height of my particular low.
+
+01:28.890 --> 01:34.770
+But previously when I didn't add it well it was set in fact in the order.
+
+01:34.800 --> 01:37.410
+Now you're probably wondering well what are you talking about.
+
+01:37.500 --> 01:40.020
+Why are you saying that it is being set to zero.
+
+01:40.470 --> 01:41.660
+Well let's test it out.
+
+01:41.700 --> 01:44.460
+We know we can use the order value correct.
+
+01:44.490 --> 01:46.980
+And you know it just to spice things up.
+
+01:47.010 --> 01:51.020
+I'm gonna change this around I'm gonna add the order for the second column.
+
+01:51.390 --> 01:56.300
+Otherwise you're probably thinking the order could be only on the row or column.
+
+01:56.310 --> 01:57.490
+That is the last one.
+
+01:57.540 --> 01:58.360
+So let's say that.
+
+01:58.380 --> 02:01.790
+So now of course the second column is using auto.
+
+02:02.010 --> 02:09.710
+But even if I'm gonna go back in if I'm gonna set the value for the height of my third row to the auto
+
+02:10.050 --> 02:15.840
+while nothing is changing because that is in fact the default behavior that we're getting with implicit
+
+02:16.040 --> 02:16.880
+grid right.
+
+02:17.130 --> 02:21.970
+So when we're setting up the implicit grid our rows are being set to auto.
+
+02:21.990 --> 02:27.290
+Now we cannot see that that is happening behind the scenes but that is the general idea behind it.
+
+02:27.300 --> 02:29.880
+Now you're also probably wondering well wait a minute.
+
+02:29.940 --> 02:35.820
+So auto in this case was nice and it was responsive has the screen size was changing.
+
+02:35.910 --> 02:38.270
+So is the change in the width of the car.
+
+02:38.710 --> 02:42.150
+Why don't we have the same behavior here with the rule.
+
+02:42.270 --> 02:43.710
+And the answer is very simple.
+
+02:43.830 --> 02:47.020
+What do you think is the height right now so the with.
+
+02:47.050 --> 02:48.240
+It's very simple.
+
+02:48.280 --> 02:53.430
+We have the div that is spanning all across our window.
+
+02:53.470 --> 02:54.190
+Correct.
+
+02:54.190 --> 02:59.740
+So as the screen size is changing so is the width of the auto column.
+
+02:59.740 --> 03:01.220
+What about the height.
+
+03:01.240 --> 03:05.440
+We haven't set up any kind of height for our parent container correct.
+
+03:05.440 --> 03:10.800
+So if I'm going to go back and I can set up whatever height I would like but I'm going to go with mean
+
+03:10.810 --> 03:13.810
+height of let's say hundred yards.
+
+03:13.960 --> 03:19.030
+Some would say you know what I would want this particular container to be a hundred percent height of
+
+03:19.030 --> 03:24.430
+the screen and the moment we're going to save it in fact you're going to notice that the third column
+
+03:24.700 --> 03:30.730
+is in fact taking the rest of the space because it is having the same behavior like we have for the
+
+03:30.730 --> 03:34.770
+column where we have the value of all the same works for the row.
+
+03:34.780 --> 03:37.750
+Now again let me maybe change this one around.
+
+03:37.810 --> 03:43.720
+We're not 20 hour aims but I'm gonna go with the smaller and you're going to notice that now my container
+
+03:44.020 --> 03:45.310
+is hundred percent.
+
+03:45.430 --> 03:51.190
+Height of the screen our speed with was already there but the height right now is hundred percent on
+
+03:51.190 --> 03:51.870
+the screen.
+
+03:52.060 --> 03:57.970
+And then my last column the auto column is in fact taking up the rest of the space.
+
+03:57.970 --> 04:04.160
+Now I could also do something like this Remember I said we could set up more values where we would like.
+
+04:04.160 --> 04:09.680
+So now I'll have one that's being set tomorrow and the third one that's being set are not the same is
+
+04:09.680 --> 04:16.600
+going to work even if I'm going to delete my explicit row there's still first one is auto.
+
+04:16.610 --> 04:19.340
+So of course it is all on since I have right now right.
+
+04:19.760 --> 04:22.550
+Then there's explicit height for my second row.
+
+04:22.940 --> 04:29.300
+But for the third row again we are just implicitly creating this and since right now we already have
+
+04:29.300 --> 04:34.160
+the height and that's the reason why the third row is taking up the rest of the space.

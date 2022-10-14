@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.570 --> 00:07.150
+Now why don't we take a breather and in fact let's test that out and let's explore in more detail the
+
+00:07.210 --> 00:12.550
+awesome Firefox developer tools and how they can help you when you're developing.
+
+00:12.550 --> 00:13.490
+Great.
+
+00:13.510 --> 00:14.310
+OK.
+
+00:14.380 --> 00:18.940
+Now first of all why don't we change this to just a simple grid gap.
+
+00:19.000 --> 00:24.730
+Grid gap and I'm gonna set this to let's say one hour Ms.
+
+00:24.820 --> 00:28.400
+Most organized right away one fraction like so.
+
+00:28.450 --> 00:32.410
+So now I have three column layout as well as three rows.
+
+00:32.410 --> 00:40.540
+Now Firefox has awesome developer tools whether you are using the Firefox developer edition or just
+
+00:40.600 --> 00:41.980
+a simple Firefox.
+
+00:42.000 --> 00:48.580
+Now in my case I'm using developer ignition but when I said you could as easily use a simple Firefox
+
+00:48.580 --> 00:52.840
+as well so I could test them out right here in a small browser window.
+
+00:53.220 --> 00:58.120
+But it's just going to be a little bit useful if we're going to head over to a bigger browser window
+
+00:58.570 --> 01:00.920
+as you see I'm using the Firefox.
+
+01:01.090 --> 01:02.330
+That should do it.
+
+01:02.410 --> 01:09.700
+Then in order to actually open up developer tools we just right click it click on Inspect Element and
+
+01:09.700 --> 01:12.110
+right away we can notice something interesting.
+
+01:12.120 --> 01:17.340
+There's this little tab that says okay you know what you are using the grid.
+
+01:17.380 --> 01:18.790
+That's an awesome start.
+
+01:18.790 --> 01:25.400
+Then if we head over here to the right hand side where we have our layout that is displayed we can notice
+
+01:25.420 --> 01:28.930
+that the container is in fact using the grid.
+
+01:28.930 --> 01:31.480
+Now here you also have a checkboxes.
+
+01:31.480 --> 01:38.770
+Now we haven't talked about yet the line numbers we haven't talked about the area names but then also
+
+01:38.770 --> 01:42.900
+we have extend lines indefinitely or infinitely sorry.
+
+01:42.910 --> 01:49.990
+So again we're gonna cover the line numbers the display area names as well as how is going to look like
+
+01:50.080 --> 01:53.080
+once we extend the lines infinitely.
+
+01:53.080 --> 02:02.460
+But notice we right away have the idea the actual display idea how our grid is going to look like.
+
+02:02.830 --> 02:06.860
+And that's usually one of the things as you're starting out with the grid.
+
+02:06.900 --> 02:07.840
+Well you kind of have this.
+
+02:07.840 --> 02:08.120
+Okay.
+
+02:08.140 --> 02:12.120
+So I'm setting up the grid but visually how this is going to look like.
+
+02:12.430 --> 02:20.020
+So this is where really Firefox come into play where you can in fact just visualize right away how your
+
+02:20.020 --> 02:21.790
+glare is going to look like.
+
+02:21.880 --> 02:30.220
+And as you notice as I'm going over my cells I can clearly see so that is going to be let's say a row
+
+02:30.220 --> 02:31.620
+three and column three.
+
+02:31.650 --> 02:33.350
+It says that right away.
+
+02:33.520 --> 02:35.820
+So as I'm going over I can notice.
+
+02:35.820 --> 02:36.060
+OK.
+
+02:36.070 --> 02:39.010
+Which cell I'm exactly talking about.
+
+02:39.010 --> 02:44.500
+Now when I said in order to make things interesting we're gonna head over back and I'm gonna change
+
+02:44.500 --> 02:50.580
+these values I'm going to say that you know what it is going to be hundred pixels or pixels.
+
+02:50.740 --> 02:57.860
+I'm going to have a three hundred pixel layout when we do the same thing here for this guy.
+
+02:58.300 --> 03:02.080
+And you know why don't we change it also around 4 euros.
+
+03:02.090 --> 03:05.980
+So I'm just going to grab all these values and you're gonna see in a second why I'm doing that.
+
+03:05.980 --> 03:12.650
+But when I copy and pasted so I'm going to have three rows as well as three three columns.
+
+03:12.670 --> 03:17.140
+Now if we head over back I would also like to see the line numbers.
+
+03:17.200 --> 03:20.970
+We haven't talked about them but I just want to show you how they're going to look like.
+
+03:21.340 --> 03:26.740
+So we're going to click on the line numbers and you'll notice that there's going to be some line numbers
+
+03:26.740 --> 03:27.370
+here.
+
+03:27.370 --> 03:33.340
+Now currently cannot see unfortunately the number one not sitting here on the left hand side.
+
+03:33.760 --> 03:39.730
+So one of the solutions if you have the same problem we can just head over where we have right now our
+
+03:39.730 --> 03:40.930
+container.
+
+03:40.930 --> 03:41.670
+Correct.
+
+03:41.680 --> 03:47.440
+And then for a container I'm just going to add a margin all around and I'm gonna go with I don't know
+
+03:47.470 --> 03:49.090
+let's say 10 areas.
+
+03:49.090 --> 03:52.630
+Now again please remember that I'm just changing that within the browser.
+
+03:52.660 --> 03:56.620
+So the moment I'm going to refresh it's going to go back to normal.
+
+03:56.760 --> 03:57.300
+OK.
+
+03:57.400 --> 04:03.640
+So now I set up an arms and notice there's going to be a line numbers where we have line numbers for
+
+04:03.640 --> 04:10.240
+the columns as well as the line numbers for these rows and this is gonna be very helpful when we're
+
+04:10.240 --> 04:16.150
+going to learn about them because this is going to again help us visualize what we are doing in fact
+
+04:16.540 --> 04:23.620
+because when using here says grid we're going to be able to in fact set up to sell let's say that uses
+
+04:23.980 --> 04:30.910
+the rows and the columns let's say columns starting from Column number 1 all the way to Column number
+
+04:30.910 --> 04:38.320
+three as well as using the rows starting here from the line number one all the way to line number three.
+
+04:38.630 --> 04:45.880
+But this should give you a visual idea that when we're setting up the grade we get these line numbers
+
+04:46.090 --> 04:50.070
+as well as for the columns as well as the robes correct.
+
+04:50.110 --> 04:52.120
+So everything is going to be numbered.
+
+04:52.120 --> 04:58.630
+So for the columns again we start with one then we go all the way to the four and you also notice that
+
+04:58.630 --> 05:04.220
+we have the negative this is gonna be come in handy later on when I'm going to show you how we can just
+
+05:04.220 --> 05:08.900
+set up calm spanning from one side all the way to another side.
+
+05:09.080 --> 05:12.980
+If let's say we don't know the number so that would be the line numbers.
+
+05:12.980 --> 05:17.050
+Now we're also going to later on talk about display Aryan names.
+
+05:17.120 --> 05:23.240
+Now currently we cannot see any area names because we haven't talked about areas yet but of course this
+
+05:23.240 --> 05:24.810
+is something that we're going to do.
+
+05:24.920 --> 05:32.360
+And then most of all we can also see the extend lines infinitely where I could just set up and you can
+
+05:32.360 --> 05:38.570
+see right now the lines that I'm using for the columns are in fact spanning infinitely as well as the
+
+05:38.570 --> 05:42.360
+lines that I'm using for the rows are spanning in fluently.
+
+05:42.380 --> 05:52.460
+Again these would be CSX grid tools that we can nicely use in the Firefox browser that really help you
+
+05:52.460 --> 05:55.670
+visualize of what kind of grid you have.
+
+05:55.670 --> 06:02.000
+Now I'm not going to do that on a smaller browser window because I already have everything pretty much
+
+06:02.330 --> 06:08.030
+using exactly the space that I would want because I would want you to clearly see what corner we're
+
+06:08.030 --> 06:10.210
+typing and what would be the result.
+
+06:10.460 --> 06:16.250
+But once in a while I'm going to switch back and forth and just to show you let's say what kind of values
+
+06:16.250 --> 06:17.480
+we have visually.
+
+06:17.480 --> 06:23.480
+Now it is going to be especially important once we start talking about the display numbers and display
+
+06:23.480 --> 06:28.760
+area names because it is going to help you visualize how your grid actually looks like.

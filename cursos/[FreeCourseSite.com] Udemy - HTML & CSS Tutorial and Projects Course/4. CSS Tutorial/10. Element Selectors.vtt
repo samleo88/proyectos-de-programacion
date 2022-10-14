@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.390 --> 00:01.020
+Excellent.
+
+00:01.020 --> 00:06.870
+Now that we know the syntax why don't we start with our first most basic selector.
+
+00:06.870 --> 00:08.950
+Which is gonna be the type selector.
+
+00:09.030 --> 00:13.450
+Now in order to work properly let me just delete everything that I have in a see assess.
+
+00:13.470 --> 00:19.320
+Now you don't have to do this but in my opinion I would like to start from scratch is that way you don't
+
+00:19.320 --> 00:22.470
+get confused with the previous code essentially AML.
+
+00:22.500 --> 00:28.610
+I'm gonna create a new element so there's gonna be one having one with hello world then heading to.
+
+00:28.700 --> 00:30.680
+Now let's add maybe a paragraph.
+
+00:30.810 --> 00:36.750
+Now please understand that we can add all the HCM elements we would like but in my case I'm just gonna
+
+00:36.750 --> 00:40.050
+add three of them because it's gonna work exactly the same.
+
+00:40.050 --> 00:44.780
+So there's gonna be a heading one heading to paragraph with 50 words.
+
+00:44.850 --> 00:45.350
+Okay.
+
+00:45.600 --> 00:46.350
+So far so good.
+
+00:46.920 --> 00:52.120
+Then I'm gonna head over to styles assess and make my first selection.
+
+00:52.320 --> 00:57.600
+Now whenever we're gonna be working with selectors the most basic selector is gonna be the type select
+
+00:58.410 --> 01:03.270
+now type selector reflect of the type of email element you'd like to select.
+
+01:03.960 --> 01:09.120
+So if you want to select having one you're gonna type hearing one you're going to want to select having
+
+01:09.120 --> 01:11.940
+two you're gonna type heading to.
+
+01:12.450 --> 01:17.250
+Now what do you think you're gonna have to type if you want to select paragraph.
+
+01:17.300 --> 01:22.890
+I think you probably answered b meaning for paragraph so that would be correct.
+
+01:22.910 --> 01:27.790
+Now in order to work with that we already know we would need to create a selector.
+
+01:28.010 --> 01:34.790
+In my case let's say having one and now like to say what kind of styles I would want to add or this
+
+01:34.970 --> 01:40.880
+element now in my case I'm gonna write colour again and we're gonna use color quite excessively in the
+
+01:40.880 --> 01:44.390
+beginning because that's just easier one to show you.
+
+01:44.410 --> 01:49.070
+Because you can right away see it on the browser and let's say again we're going to start very simply
+
+01:49.070 --> 01:51.770
+by having one is going to be read.
+
+01:51.770 --> 01:57.940
+So sure enough all the heading ones or in our case is just one that we have in our document.
+
+01:58.070 --> 02:03.190
+Are we gonna have the colour right now the same is gonna work if I'm gonna have the heading to.
+
+02:03.250 --> 02:06.800
+And again I'm just selecting this as my selector.
+
+02:06.800 --> 02:13.850
+So all the elements on my page that are gonna be heading to I'm gonna have colour and let's say green
+
+02:14.090 --> 02:18.790
+again nothing really earth shattering but we know that this is working.
+
+02:18.980 --> 02:25.510
+And last but not least we have the paragraph and again exactly the same way of whatever age the male
+
+02:25.520 --> 02:32.420
+element you have in my case I have a paragraph and let's say colour is gonna be great.
+
+02:32.420 --> 02:34.830
+So so far so good.
+
+02:34.940 --> 02:41.870
+Every time we would like to style some kind of HDMI element the easiest and the most basic selector
+
+02:41.870 --> 02:48.440
+would be type selector where we just select the type of the H M element we would like to style.

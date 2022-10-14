@@ -1,0 +1,715 @@
+WEBVTT
+
+00:00.300 --> 00:05.290
+Before we start working on our first element which is going to be a hero.
+
+00:05.460 --> 00:08.790
+So we're going to have the header eventually within the header.
+
+00:08.790 --> 00:15.630
+There is going to be a number but we're going to start very very simply by testing out the Flex properties
+
+00:15.990 --> 00:23.740
+just so we can place the text all the way in the center whether that's vertically as well as horizontal.
+
+00:24.180 --> 00:30.040
+Now like I said before we start working on this particular element.
+
+00:30.180 --> 00:33.730
+I'm going to have to set up some global sea assets.
+
+00:33.780 --> 00:36.570
+Now why am I setting up a global services.
+
+00:36.570 --> 00:39.250
+First of all we're going to set up DC assess variables.
+
+00:39.330 --> 00:44.760
+So just in case you let's say don't like the color because as you can see my main color was this green
+
+00:44.760 --> 00:44.960
+one.
+
+00:45.200 --> 00:47.720
+Well let's say you like to go with the different one.
+
+00:47.730 --> 00:52.980
+So in that case you can just change the value for that particularly as this variable and that goes for
+
+00:53.070 --> 00:55.960
+any kind of values that I'm going to have within the variables.
+
+00:55.980 --> 00:59.520
+This is going to allow you to customize your project how really like.
+
+00:59.540 --> 01:00.690
+That's number one.
+
+01:00.690 --> 01:08.370
+Second as your projects get bigger and bigger I like the fact that I can use some global spaces where
+
+01:08.400 --> 01:11.740
+I don't have to recreate for each and every section.
+
+01:11.790 --> 01:15.330
+The CEO says that is repeating right.
+
+01:15.360 --> 01:17.910
+That would be the deal with let's say images.
+
+01:17.910 --> 01:23.400
+I would want all my images to have a width of hundred and display a block because I know that I'm going
+
+01:23.400 --> 01:26.190
+to apply the same see says for all the images.
+
+01:26.220 --> 01:32.550
+So I do like to set up my synapses where there are some global styles whether that is going to be the
+
+01:32.550 --> 01:38.970
+buttons so all the buttons look or what would be the padding for the section and so on and so forth.
+
+01:38.970 --> 01:44.250
+Now if you don't like using the global sea CSX or you're just bored during this video you can skip the
+
+01:44.250 --> 01:45.110
+next video.
+
+01:45.240 --> 01:50.430
+And as always you can get the source code within the resources of the video.
+
+01:50.850 --> 01:57.240
+Now enough of me yapping like I said I would like to set up some global sources and I'm going to start
+
+01:57.540 --> 01:59.050
+with my variables.
+
+01:59.190 --> 02:05.190
+Now please if you're not familiar or if you need to brush up with the variables head over to a tutorial
+
+02:05.400 --> 02:11.460
+part where we talk about variables or you can also check it out the previous T station project.
+
+02:11.460 --> 02:18.330
+Now I'm gonna set up my variables within the road so I'm going to target the root or HDMI element and
+
+02:18.330 --> 02:18.830
+you know what.
+
+02:18.840 --> 02:21.870
+In this case I'm going to create some comments.
+
+02:22.050 --> 02:23.380
+So let's.
+
+02:23.500 --> 02:31.380
+Yes as the variables like so and then maybe as well for the fonts let's just leave these funds have
+
+02:31.800 --> 02:35.850
+some kind of comment and within the road.
+
+02:35.850 --> 02:40.180
+Like I said I'm going to set up some variables and there's quite a few of them.
+
+02:40.270 --> 02:44.600
+So to start by primary color primary color.
+
+02:44.610 --> 02:47.460
+And again that is of course the name of my variable.
+
+02:47.460 --> 02:50.030
+Now my value is going to be hashtag.
+
+02:50.030 --> 02:58.560
+And then three of these and then zero the four again if you'd like to use a different value because
+
+02:58.560 --> 03:01.050
+as you can clearly see that is my green color.
+
+03:01.050 --> 03:06.290
+Go ahead just change whether that's the name of the variable or in fact the value.
+
+03:06.660 --> 03:09.780
+But in this case as I'm working with the project there's two things.
+
+03:09.780 --> 03:12.560
+First of all I'm not going to have to repeat this hashtag.
+
+03:12.570 --> 03:16.920
+Three of these because I might find that annoying as I'm doing that.
+
+03:16.920 --> 03:19.260
+I don't know 16 20 or 25 times.
+
+03:19.650 --> 03:20.850
+Instead I'm going to say you know what.
+
+03:20.850 --> 03:23.860
+Let's grab our primary color variable.
+
+03:23.980 --> 03:29.520
+That's number one and second like I said if later on you don't like this particular color you want to
+
+03:29.520 --> 03:30.960
+change it to something else.
+
+03:30.960 --> 03:34.840
+Well the only thing you need is just to change this value.
+
+03:35.010 --> 03:42.300
+Then let's in fact create few more variables like I said Main White is going to be hashtag FFL.
+
+03:42.750 --> 03:44.940
+So that's going to be my main color.
+
+03:44.940 --> 03:52.380
+Then let's also add the off white a little bit darker white color so hashtag seven.
+
+03:52.400 --> 03:54.860
+I have seven and seven.
+
+03:55.200 --> 03:56.180
+That should do it.
+
+03:56.190 --> 04:01.600
+Then we have the main black main black is going to be hashtag 2 2 2.
+
+04:01.650 --> 04:03.090
+That's my next color.
+
+04:03.090 --> 04:05.260
+Then also we have a main Gray.
+
+04:05.910 --> 04:12.110
+So again we have hyphen hyphen and then the name of the variable and I'm going to go with hashtag.
+
+04:12.110 --> 04:14.590
+Easy easy easy.
+
+04:14.640 --> 04:16.170
+That's my man Gray.
+
+04:16.170 --> 04:24.450
+And then when we also add a dark gray dark gray is going to be hashtag of a f f a.
+
+04:25.210 --> 04:26.020
+OK.
+
+04:26.070 --> 04:28.860
+Now there is also going to be some transitions.
+
+04:28.860 --> 04:35.760
+So let's say as I'm hovering over the button and as you can see the color is changing over time it's
+
+04:35.760 --> 04:37.250
+not changing instantly.
+
+04:37.440 --> 04:39.970
+And for that we use the transition properly.
+
+04:39.990 --> 04:46.330
+But in order to make it easier we're going to set up the value right away for my base transition.
+
+04:46.350 --> 04:51.180
+So every time I'm going to use the transition in fact I'm going to have these variable.
+
+04:51.180 --> 04:56.400
+Now of course you can make it custom or each and every case but I'm just going to make things easier
+
+04:56.400 --> 05:01.140
+by setting up the values for my transition in one place in one variable.
+
+05:01.290 --> 05:06.300
+So then each and every time I would like to use this transition while the only thing I need is access
+
+05:06.300 --> 05:07.260
+that variable.
+
+05:07.260 --> 05:15.570
+Right now my variable name is going to be hyphen hyphen main transition and like so and I'm going to
+
+05:15.570 --> 05:18.660
+say that I would want to affect all the properties.
+
+05:18.870 --> 05:27.270
+Then it's going to take zero point three seconds and the transition is going to happen linearly.
+
+05:27.270 --> 05:33.200
+Now again since this is not our first project I'm going to be skipping on things already.
+
+05:33.270 --> 05:36.870
+I'm assuming that you're already familiar with transition property.
+
+05:36.900 --> 05:42.580
+If you're not please head over that Oriel and cover it one more time.
+
+05:42.610 --> 05:43.200
+OK.
+
+05:43.380 --> 05:50.490
+Now as far as transition I would also want to have some main spacing so I'm going to use this particular
+
+05:50.490 --> 05:52.710
+variable for my letter spacing.
+
+05:52.710 --> 05:59.550
+So again in that case my letter spacing is going to be exactly the same as I'm using throughout the
+
+05:59.550 --> 06:00.300
+project.
+
+06:00.300 --> 06:06.330
+You can make it more custom and in some cases we're gonna make it bigger or smaller but there should
+
+06:06.330 --> 06:14.100
+be some base letter spacing and that's the reason for my main spacing variable and that particular spacing
+
+06:14.100 --> 06:17.140
+is going to be zero point two areas.
+
+06:17.160 --> 06:24.410
+Now there's two more variables I would like to create as you see as we're hovering over the cards.
+
+06:24.450 --> 06:27.680
+First of all would you already have some box shadow here.
+
+06:27.720 --> 06:31.880
+The latter one as I'm hovering it in fact gets darker.
+
+06:31.920 --> 06:38.610
+So again since our project is quite big if I would want to have the same box shadow let's say all over
+
+06:38.610 --> 06:40.930
+my project and I can always change it.
+
+06:40.950 --> 06:47.160
+What's the reason why set up the variables so I'm going to go for light shadow and that's number one
+
+06:47.640 --> 06:56.890
+and I'm going to go with values of two pixels five pixels three pixels zero in fact is going to be for
+
+06:56.890 --> 07:04.610
+the spread and then for a color I'm gonna go for zero zero zero twenty five.
+
+07:04.950 --> 07:12.360
+Okay let's copy and paste it that's my light shadow and then let's go for double the values for my dark
+
+07:12.360 --> 07:21.870
+shadow first of all let's rename it dark shadow and then let's set it up ten pixels right here and then
+
+07:21.870 --> 07:30.450
+five pixels blur as well as the color is going to be a little bit darker as I already mentioned previously
+
+07:30.900 --> 07:40.080
+if you'd like to quickly generate these colors you can just go for blocks shadow generator and then
+
+07:40.080 --> 07:46.260
+you just click on the box shadow generator and as you see the first value is going to be horizontal
+
+07:46.260 --> 07:52.140
+length and we have vertical line playing we have blurred radius as well as the spread radius we can
+
+07:52.140 --> 07:53.850
+change the colors and all that.
+
+07:53.880 --> 08:01.270
+Now I wouldn't suggest using the all of them meaning all the values as well as with a prefix.
+
+08:01.290 --> 08:06.510
+Because at the end of the project since we're using with the flux box and I would like to show you how
+
+08:06.510 --> 08:12.990
+we can quickly add in fact prefixes Well we're going to take a look at the extension that I'm using
+
+08:13.410 --> 08:19.020
+and the extension name is pre fixing a prefix R which currently I don't have.
+
+08:19.050 --> 08:22.680
+So we're going to install it together and then we're gonna start using it together as well.
+
+08:23.160 --> 08:28.090
+So I would just suggest grabbing the last value here.
+
+08:28.170 --> 08:33.720
+So we have three values I would suggest just grabbing the last one because like I said at the end of
+
+08:33.720 --> 08:40.570
+the project we're going to use our our prefix R extension which in fact is going to do the same thing.
+
+08:40.610 --> 08:41.270
+OK.
+
+08:41.400 --> 08:47.080
+Now that is if you'd like to have some kind of custom box shadow that should do it.
+
+08:47.100 --> 08:49.920
+As far as my variables are concerned.
+
+08:50.040 --> 08:53.210
+So why don't we do the recent right now.
+
+08:53.220 --> 09:00.480
+So first of all let me close the sidebar with me and the comment of where we'd like to reset some default
+
+09:00.480 --> 09:02.400
+styles that come with the browser.
+
+09:02.400 --> 09:08.840
+Now in this case though I'm gonna go with a star so all the elements as well.
+
+09:08.840 --> 09:11.080
+Remember we had before and after.
+
+09:11.220 --> 09:16.860
+So we have a before as well as comma after.
+
+09:16.870 --> 09:24.220
+Now the reason why I'm selecting these two as well because when we're going to work within the about
+
+09:24.610 --> 09:31.060
+in fact we're going to use these before in order to grade this effect and for that I would like to have
+
+09:31.060 --> 09:34.450
+the box sizing to be border box.
+
+09:34.660 --> 09:39.790
+Because if we would like to apply some kind of padding if there's some kind of with already I wouldn't
+
+09:39.790 --> 09:42.020
+want my element to get bigger.
+
+09:42.080 --> 09:48.280
+And the reason why first of all I would want to have a margin of zero for all the elements including
+
+09:48.280 --> 09:53.260
+the before and after as well as the padding of zero padding of zero.
+
+09:53.280 --> 10:00.810
+And lastly like I said box sizing should be border box more remarks that should do it.
+
+10:01.260 --> 10:04.970
+And then line by line why don't we add some scissors.
+
+10:05.430 --> 10:08.930
+So let's go for the body and what we would want for the body.
+
+10:08.990 --> 10:16.020
+Like I said we're gonna start with a fine family and I'm gonna move this guy outside like so and then
+
+10:16.020 --> 10:23.790
+let's say we're gonna have the color for all the fans and I'm gonna go for the dark color so far main
+
+10:24.180 --> 10:25.100
+black.
+
+10:25.270 --> 10:28.250
+That's the color then also for the background.
+
+10:28.320 --> 10:30.050
+I'm gonna go with an off white.
+
+10:30.330 --> 10:34.950
+So not with the regular white but instead we're gonna go with white.
+
+10:35.010 --> 10:41.080
+And again if would like to access the variables with IVR and then the name of that particular variable.
+
+10:41.100 --> 10:48.030
+So since I'm looking for off white while I just grab the White then line height should be one point
+
+10:48.030 --> 10:54.900
+four and you're gonna see how we change it in fact for the paragraphs and all that but the default one
+
+10:54.900 --> 11:03.720
+should be one point four and font size is going to be one harems by default like so one Arias.
+
+11:03.780 --> 11:04.500
+Now.
+
+11:04.800 --> 11:11.400
+Well then I'm gonna add some more global stars because like I said there are some things that are repeating
+
+11:11.820 --> 11:13.710
+like for example for the images.
+
+11:13.710 --> 11:18.240
+Remember if we don't add for the images the width of hundred and then display a block will Well two
+
+11:18.240 --> 11:19.450
+things are happening.
+
+11:19.530 --> 11:21.790
+First of all the image is going to be massive.
+
+11:21.900 --> 11:27.550
+It's just going to have its generic or not maybe generic.
+
+11:27.660 --> 11:31.170
+It's going to have its general width and height.
+
+11:31.170 --> 11:36.810
+So that's probably something that you wouldn't want because you would want to control the width of the
+
+11:36.810 --> 11:37.570
+image.
+
+11:37.630 --> 11:41.080
+The in fact the same as the parent container.
+
+11:41.610 --> 11:46.560
+That's number one and second if we don't have display of Block Well there's going to be this annoying
+
+11:46.560 --> 11:48.300
+margin in the bottom.
+
+11:48.300 --> 11:54.650
+So that's the reason why I'm gonna have some global styles and we're gonna set up some global styles.
+
+11:54.750 --> 11:59.150
+Like I said for all the images there are going to be included in our project.
+
+11:59.170 --> 12:06.690
+I right away I want to set up the width of hundred percent so it nicely is responsive and it only gets
+
+12:06.780 --> 12:10.470
+as big as the parent container and that's number one.
+
+12:10.470 --> 12:16.020
+And second I would want them to be display block so that way we get rid of this annoying margin that
+
+12:16.020 --> 12:17.370
+comes by default.
+
+12:17.470 --> 12:23.460
+Then let's right away work with all our headings because like I said I don't want to come back for each
+
+12:23.460 --> 12:30.960
+and every section and then let's say add some kind of font size for my headings I could set up this
+
+12:30.960 --> 12:37.110
+right away and then each and every time when I wouldn't want to use the heading unless I would want
+
+12:37.110 --> 12:39.270
+to do something custom I could be like you know what.
+
+12:39.360 --> 12:43.980
+In this case I'm going to use the heading for land in this case I'm going to use heading to and so on
+
+12:43.980 --> 12:44.670
+and so forth.
+
+12:44.760 --> 12:51.160
+So that way you don't have to jump from section to section and just keep on repeating the same style
+
+12:51.180 --> 12:52.640
+that we already had.
+
+12:52.670 --> 13:00.420
+Right now the way we're going to write is heading 1 and 2 and in 3 so I'm selecting all the headings
+
+13:00.720 --> 13:04.750
+adding 4 and 5 as well as having 6.
+
+13:04.860 --> 13:11.490
+And for these headings I would like to have the font family of the Poppins as you clearly can see and
+
+13:11.490 --> 13:15.060
+then I would also want to add a little bit of margin bottom.
+
+13:15.300 --> 13:23.820
+So I'm gonna go for one point twenty five are Iams like so that of what else we would like.
+
+13:23.820 --> 13:26.850
+Well let's right away at the letter spacing.
+
+13:26.850 --> 13:30.090
+Remember we have the variable for that so let's write.
+
+13:30.090 --> 13:34.550
+Main spacing that is going to be for my headings.
+
+13:34.590 --> 13:38.820
+Now let's go more specifically for each and every heading.
+
+13:38.820 --> 13:44.460
+And when I say each and every headings I'm talking about heading one all the way to four where I'm going
+
+13:44.460 --> 13:54.200
+to add these specific in fact font size so let's write font size and I'm gonna go for three point three
+
+13:54.560 --> 13:56.090
+for one hour.
+
+13:56.360 --> 14:02.570
+Meaning for having one and this is really up to you if you'd like to change these values later on of
+
+14:02.570 --> 14:07.130
+course you can do it if you find my font to be too big or too small.
+
+14:07.130 --> 14:14.750
+Now let's in fact copy and paste that one to three times and let's just change these values where for
+
+14:14.770 --> 14:15.480
+heading to.
+
+14:16.220 --> 14:24.290
+I'm gonna set up two point three arms font size then heading three is going to be now let's see two
+
+14:24.290 --> 14:28.760
+arms like so to our.
+
+14:28.800 --> 14:35.420
+And then lastly we have a hearing for the heading for is going to be one point you again if you don't
+
+14:35.420 --> 14:36.630
+like my values.
+
+14:36.650 --> 14:38.740
+Fair enough you can use different values.
+
+14:38.740 --> 14:44.090
+And this is the case where again I want to show that I have massively zoomed in so normally it's going
+
+14:44.090 --> 14:50.960
+to look something like that but I'm going to keep mine one at 175 and just in case once in a while I'm
+
+14:50.960 --> 14:52.460
+just going to switch around.
+
+14:52.460 --> 14:54.100
+Then we have our paragraphs.
+
+14:54.110 --> 14:58.490
+So what I would like to first of all do for all my paragraphs that I'm going to have within the text.
+
+14:59.030 --> 15:05.600
+Well I'm going to go for the margin and I'm gonna set up margin bottom margin bottom is going to be
+
+15:05.600 --> 15:10.130
+one point twenty five arms and then line height.
+
+15:10.130 --> 15:11.330
+I'm going to increase.
+
+15:11.390 --> 15:17.020
+So I'm going to set up two as well as font of weight is going to be 300.
+
+15:17.030 --> 15:22.450
+Remember when we got it from google funds we had an option of 400 to 300.
+
+15:22.890 --> 15:30.480
+Now in my case I'm gonna go for font weight and I'm gonna set this up Rs 300.
+
+15:30.920 --> 15:32.390
+Now what else I would like to do.
+
+15:32.390 --> 15:38.510
+Lastly since we're gonna use the links throughout our project remember that for each and every link
+
+15:38.540 --> 15:41.970
+we're adding It comes with this annoying underline.
+
+15:42.120 --> 15:42.370
+Right.
+
+15:42.710 --> 15:47.990
+So I'd like to get rid of it where I'm gonna say for all the links that I'm gonna have within my project
+
+15:48.340 --> 15:54.340
+I would like to get a text declaration text declaration of nine.
+
+15:54.350 --> 15:58.220
+Now we're not done totally with a global stars.
+
+15:58.250 --> 16:03.080
+There's going to be some more global stars but we're not going to write them right now.
+
+16:03.080 --> 16:10.280
+So as we're working element or section by section in fact there's going to be some global stars some
+
+16:10.280 --> 16:11.360
+more global stars.
+
+16:11.720 --> 16:15.980
+So I'm just going to write here more global styles.
+
+16:16.090 --> 16:17.660
+And that's number one.
+
+16:17.660 --> 16:23.700
+And then right after that I'm in fact going to set up for my nav bar and hero.
+
+16:23.870 --> 16:30.370
+Like I said we're not going to start with a nav bar I'm just going to create some comments where there's
+
+16:30.380 --> 16:33.120
+going to be some stars here.
+
+16:33.340 --> 16:34.460
+And that's right.
+
+16:34.500 --> 16:36.670
+Now I have bar graph.
+
+16:37.080 --> 16:41.390
+And let's add some more styles or stars or not styles.
+
+16:41.390 --> 16:43.110
+Let's copy and paste it.
+
+16:43.190 --> 16:45.740
+Let's see end of number again.
+
+16:45.800 --> 16:52.460
+Now bar we're going to create all the way at the end of the project but it should still work where I'm
+
+16:52.460 --> 16:55.130
+going to copy and paste both these lines.
+
+16:55.130 --> 17:00.050
+And then let's just change these values where we're going to have the hero component and of course we're
+
+17:00.050 --> 17:02.390
+going to have later on some more comments.
+
+17:02.390 --> 17:08.470
+But for now let's just have end of Hero hero.
+
+17:08.670 --> 17:09.750
+And then you know what.
+
+17:09.750 --> 17:14.880
+Why don't we also do the same thing where we are going to copy and paste the knob bar and let's place
+
+17:14.880 --> 17:17.880
+it here right after the body.
+
+17:17.880 --> 17:27.280
+So I'm going to have a bigger comment where I'm going to write global styles like so and I guess I can
+
+17:27.280 --> 17:31.190
+get rid of it then at the end of this guy.
+
+17:31.240 --> 17:33.210
+We have more global stars.
+
+17:33.400 --> 17:41.230
+But before the number I'm gonna add end of global stars and just so we can in fact navigate around our
+
+17:41.240 --> 17:47.860
+success a little bit better where we have some kind of separations where these are gonna be my global
+
+17:47.860 --> 17:49.950
+stars and again we're not done.
+
+17:50.110 --> 17:56.900
+There's gonna be some more global stars like for example buttons metallurgists right here and of little
+
+17:56.940 --> 17:59.970
+more stars all right.
+
+17:59.970 --> 18:06.390
+Now once we're done with our global sea us at least for now why don't we start working on our first
+
+18:06.450 --> 18:08.580
+element the hero element.

@@ -1,0 +1,514 @@
+WEBVTT
+
+00:00.120 --> 00:04.280
+Well let's go ahead and let's actually create comments here.
+
+00:04.280 --> 00:08.000
+All right so first of all well actually this is the wrong place.
+
+00:08.000 --> 00:13.410
+I mean do we this or here what we're going to say here you comment or here and then we're going to say
+
+00:13.410 --> 00:14.770
+this is going to be in the header.
+
+00:14.770 --> 00:15.380
+All right.
+
+00:15.390 --> 00:19.920
+So this is going to be the banner the first one was heard or now we're going to be working with the
+
+00:19.920 --> 00:23.250
+banner and the banner here is going to be this guy.
+
+00:23.310 --> 00:27.110
+And the first thing that we're going to say is we would want a back room.
+
+00:27.150 --> 00:32.520
+So I'm going to say we're here this is going to be hash tag banner and maybe let's again create a lot
+
+00:32.520 --> 00:33.490
+of room.
+
+00:33.540 --> 00:36.710
+So it is easy for us to work out here.
+
+00:36.720 --> 00:42.590
+I'm going to say curly braces and then I'm going to say background and I know you are going to write.
+
+00:42.600 --> 00:48.270
+You are all right here and then we're going to place the image right here you can see that I have a
+
+00:48.480 --> 00:53.960
+background image right now because here we have a background image but we're here.
+
+00:54.000 --> 00:55.680
+We need to fix things.
+
+00:55.710 --> 01:02.460
+So first of all we would want to fix is we would actually fix a background attachment and that's going
+
+01:02.460 --> 01:07.500
+to create this parallax effect right as we were actually scrolling up and down.
+
+01:07.500 --> 01:13.020
+You can see that the background is going to be moving slower than the text that's actually placed in
+
+01:13.020 --> 01:13.930
+the background.
+
+01:14.170 --> 01:17.860
+I don't have a background size background.
+
+01:17.940 --> 01:24.890
+And we're going to say size and that's going to be a cover on here because we would want not can ever
+
+01:25.530 --> 01:27.740
+cover more here.
+
+01:27.740 --> 01:27.980
+All right.
+
+01:27.990 --> 01:34.180
+So you would want to cover the whole thing then or here we would want a background repeat and we're
+
+01:34.180 --> 01:41.350
+going to say background repeat no repeat background repeat no repeat.
+
+01:41.400 --> 01:48.060
+Then after that we're going to have a background position back ground position and we're going to say
+
+01:48.060 --> 01:51.170
+Senator on this.
+
+01:51.310 --> 01:56.500
+We're going to place it in the center and then we're going to have all here we want to place this text
+
+01:56.500 --> 01:57.490
+in the center.
+
+01:57.530 --> 02:01.230
+So I'm going to say this play works here.
+
+02:01.230 --> 02:07.480
+So now the actual battery is going to be flex parent then all here we're going to have a line items
+
+02:08.300 --> 02:15.910
+and I'm going to say line items center here and just if I can to also Center to actually want to place
+
+02:15.910 --> 02:22.390
+them both in the center and you can see the beauty over here and the very very beginning right when
+
+02:22.390 --> 02:26.010
+we had over here this letter and this play flaks right.
+
+02:26.050 --> 02:29.110
+So this is going to be hundred review right now.
+
+02:29.150 --> 02:31.690
+Here we had it now and we had about it.
+
+02:31.690 --> 02:39.070
+So basically what I'm saying is this whole screen right here should be always 100 percent.
+
+02:39.370 --> 02:43.730
+And the Nav. We're here with a banner should actually split it.
+
+02:43.800 --> 02:44.050
+Right.
+
+02:44.050 --> 02:48.870
+However they would want and you can see or hear the key or here this is flex one.
+
+02:49.090 --> 02:49.340
+Right.
+
+02:49.360 --> 02:51.070
+Because you find get rid of this right.
+
+02:51.070 --> 02:52.760
+This is how it's going to look like.
+
+02:52.780 --> 03:00.180
+However if we go back to grow now the banner grows all the way right to fill up the screen because over
+
+03:00.190 --> 03:03.430
+here the height was 100 percent or 100 yards.
+
+03:03.460 --> 03:03.900
+All right.
+
+03:03.910 --> 03:05.700
+So this is how we come together.
+
+03:06.070 --> 03:09.190
+Now we have placed the text in the center now.
+
+03:09.280 --> 03:10.770
+Is just the easy part.
+
+03:10.840 --> 03:14.460
+We actually need to have a styling for this text.
+
+03:14.590 --> 03:21.130
+So here I'm going to say this is going to be banner and I'm going to say box here and this and then
+
+03:21.130 --> 03:31.810
+we're going to have over here a color here on this and we're going to say this 5 5 5 here and we're
+
+03:31.810 --> 03:34.790
+going to have the text align center.
+
+03:35.100 --> 03:42.790
+And this then we're going to have a banner Tyrel I'm going to say Vanner title like this and then we're
+
+03:42.790 --> 03:44.530
+going to say text.
+
+03:44.720 --> 03:51.790
+I'm going to say transform and we would want capitalize on line so we would want the title to actually
+
+03:51.790 --> 03:53.140
+be kept twice.
+
+03:53.300 --> 04:01.180
+Then after that we would want a font size font size over here and we're going to say 60 pixels like
+
+04:01.210 --> 04:01.750
+this.
+
+04:01.780 --> 04:04.080
+So 60 pixels is great.
+
+04:04.090 --> 04:05.740
+Again more room.
+
+04:05.750 --> 04:12.820
+All right then the next one after title is going to be barnburner on the line banner are you on the
+
+04:12.830 --> 04:13.590
+line.
+
+04:13.930 --> 04:20.050
+And then when we're going to say this is going to be with of I'd say 200 pixels.
+
+04:20.490 --> 04:25.490
+You know this is going to have a margin of 10 pixels over here.
+
+04:25.620 --> 04:26.650
+All right.
+
+04:26.650 --> 04:31.720
+And you can't see anything right because we haven't added the most important thing is going to be border
+
+04:32.400 --> 04:38.680
+where three pixels on here are solid and we're going to create a blue one here and we're going to say
+
+04:38.680 --> 04:45.000
+hash tag to be here 9 8 0.
+
+04:45.060 --> 04:45.930
+All right.
+
+04:46.170 --> 04:48.480
+So now we have the blue line.
+
+04:48.580 --> 04:52.270
+Then after that we're going to have a banner subtitle.
+
+04:52.270 --> 04:56.780
+So we're going to say we're here banner on your sub title.
+
+04:56.870 --> 05:00.250
+So that's going to be text underneath the slim margin.
+
+05:00.310 --> 05:01.900
+Twenty pixels.
+
+05:01.900 --> 05:03.840
+And this is going to be zero pixels.
+
+05:04.000 --> 05:08.470
+So on the sides we're going to zero pixels on top bottom and have some margins.
+
+05:08.470 --> 05:10.580
+This is going to be 40 pixels down.
+
+05:10.840 --> 05:19.930
+And after that it's going to be zero again text or here transform is going to be a capitalize on this
+
+05:20.460 --> 05:26.450
+and then we're going to have a font size 25 pixels we're 25 pixels.
+
+05:26.530 --> 05:29.750
+Then after that we would want to use to work with them.
+
+05:30.160 --> 05:34.030
+But before we work with the link you can see or hear there's one issue right.
+
+05:34.090 --> 05:38.130
+You can see it over here my picture right is very bright.
+
+05:38.480 --> 05:39.710
+And how do we do that.
+
+05:39.730 --> 05:41.080
+How do we get rid of this right.
+
+05:41.080 --> 05:43.650
+Because the text is white in the pictures right.
+
+05:43.710 --> 05:47.540
+We can go back over here and we can place a linear gradient.
+
+05:47.620 --> 05:52.810
+So we're going to sell in here gradient here and then we're going to get in place.
+
+05:52.810 --> 06:02.380
+RG beat be 0 0 0 here and then we're going to say we're here I don't know I'd say something along the
+
+06:02.380 --> 06:05.420
+5 or 3 or something like that right.
+
+06:05.470 --> 06:08.470
+So this is going to be basically how transparent it is.
+
+06:08.480 --> 06:10.630
+So I'm going to say we're three closer.
+
+06:10.630 --> 06:20.320
+Come on NRG be zero zero zero zero point three and then we're going to place a camera here.
+
+06:20.330 --> 06:20.900
+All right.
+
+06:21.070 --> 06:27.230
+So now we can see that we placed the overlay in front of the image here right.
+
+06:27.310 --> 06:31.010
+And you can see that with this one right we first selected the color.
+
+06:31.130 --> 06:33.410
+Right so you can select whatever color you want.
+
+06:33.410 --> 06:35.770
+I just picked the black one with all the zeros.
+
+06:36.070 --> 06:37.810
+Here you can see how transparent.
+
+06:37.870 --> 06:38.430
+Right.
+
+06:38.470 --> 06:42.370
+So obviously one would mean that it's totally all hair black.
+
+06:42.370 --> 06:46.520
+You can see on the top right and 0.3 is over here right.
+
+06:46.540 --> 06:52.340
+But I'm going to keep both of them 0.3 right so it's not too much or not too well now that we are done
+
+06:52.340 --> 06:56.720
+with this let's go back and let's just style the link here.
+
+06:56.840 --> 07:06.560
+What I'm going to say is this is going to be a id banner here box and this a.
+
+07:06.860 --> 07:10.260
+And then I'm going to say display.
+
+07:10.310 --> 07:12.650
+Inline block here.
+
+07:12.890 --> 07:17.360
+Then I'm going to say padding and padding is going to be 10 pixels here.
+
+07:17.420 --> 07:21.770
+And the reason why we're doing inline blocks are actually when we're adding the padding.
+
+07:21.770 --> 07:27.320
+It actually means something otherwise if you're just if you're not going to have inline block or block
+
+07:27.730 --> 07:33.170
+and pretty much padding it's still not going to affect you and it's still going to be bumping into the
+
+07:33.170 --> 07:34.580
+different elements.
+
+07:34.580 --> 07:40.070
+So basically if we know that we're here and this link will be in line element right now we're actually
+
+07:40.070 --> 07:46.030
+making it a block element but we don't want it to be spanning all across that we're making inline block.
+
+07:46.160 --> 07:54.140
+Then after that we would want a font size and we're going to set font size is going to be 40 pixels.
+
+07:54.890 --> 08:03.490
+Then that we're going to be text decoration in here then we're going to have a color.
+
+08:03.680 --> 08:06.180
+F5 F5 F5.
+
+08:06.430 --> 08:13.880
+You know there's going to have a background and the background is going to be hash tag to be on here
+
+08:14.390 --> 08:20.950
+9 8 0 and you can see this and this was supposed to be hash tag right.
+
+08:21.150 --> 08:26.660
+Now this is going to be a blue background then we're going to have a border here and we're going to
+
+08:26.660 --> 08:29.640
+say three pixels solid here.
+
+08:29.690 --> 08:31.640
+And again we're going to use the same car.
+
+08:32.000 --> 08:37.910
+And the reason why we're adding all these more is because once we're going to be actually adding a hovering
+
+08:37.910 --> 08:38.840
+effect right.
+
+08:38.990 --> 08:43.550
+If we don't do this then your actual whole screen is going to be changing and I'm going to show you
+
+08:43.550 --> 08:44.700
+this again.
+
+08:44.710 --> 08:45.010
+Right.
+
+08:45.010 --> 08:46.880
+So we'll have a border.
+
+08:46.920 --> 08:50.410
+And again we're going to use this transition smooth transition.
+
+08:50.560 --> 08:55.820
+And again by now you should know that we're going to actually have to write a properties that we would
+
+08:55.820 --> 08:57.930
+want to listen in to the ground.
+
+08:58.250 --> 08:59.490
+Three seconds.
+
+08:59.540 --> 09:07.280
+He's going to have a border and the board is going to be 0.5 he's here like this.
+
+09:07.450 --> 09:09.730
+So now that we have them.
+
+09:11.180 --> 09:17.210
+So we're going to go back over here and what we're going to say and this is going to be a banner box
+
+09:17.710 --> 09:22.970
+and I'm going to say hey I'm here and I'm going to say hover.
+
+09:23.030 --> 09:26.320
+So once we have the Hummer we're going to say background.
+
+09:26.690 --> 09:38.430
+Transparent transparent like this and then to say border this is going to be three pixels solid here
+
+09:38.580 --> 09:43.280
+and we're going to have a hash tag and 5 5 5.
+
+09:43.860 --> 09:46.600
+Now let's say this and let's see what happens.
+
+09:46.620 --> 09:48.990
+Now I can see that it's actually changing right.
+
+09:49.230 --> 09:51.650
+But this is not happening the way we want.
+
+09:51.660 --> 09:51.890
+Right.
+
+09:51.900 --> 09:56.160
+Because this is pretty much changing as we're actually hovering right.
+
+09:56.340 --> 10:02.180
+But that's not what we wanted we would want a three seconds easy or here right.
+
+10:02.490 --> 10:09.870
+So let's go back over here and the mistake here is the fact that I missed the second answer or here
+
+10:09.880 --> 10:14.290
+if we say this I can see that it's actually doing this gradually right.
+
+10:14.310 --> 10:16.040
+So this was my mistake.
+
+10:16.050 --> 10:17.780
+That's why nothing was happening.
+
+10:17.910 --> 10:23.820
+And now we can go back over here and we can actually figure out why we had over this border.
+
+10:23.860 --> 10:24.430
+Right.
+
+10:24.450 --> 10:30.050
+So let's say if we would come in this one out and this and let's say this and let's see what happens
+
+10:30.060 --> 10:32.850
+right now I can see that the whole text is moving.
+
+10:32.950 --> 10:33.430
+Right.
+
+10:33.600 --> 10:36.260
+Because you can see that we're actually adding the border.
+
+10:36.390 --> 10:41.550
+Now if we wouldn't have done that right then obviously this would be the result.
+
+10:41.580 --> 10:43.800
+So therefore we had to do more.
+
+10:43.980 --> 10:47.310
+And then over here you can see that text is not changing right.
+
+10:47.340 --> 10:49.850
+Only the hovering effect is happening.
+
+10:50.070 --> 10:54.910
+And now we can go back or here right and we can see how it would look on the full screen.
+
+10:54.930 --> 10:55.550
+Right.
+
+10:55.590 --> 10:59.870
+So this is going to be our nav bar on here like this right.
+
+10:59.880 --> 11:04.370
+This is going to be our search on if we have a row here this is going to be defect.
+
+11:04.370 --> 11:04.850
+Right.
+
+11:05.040 --> 11:07.410
+And we just need to refresh it over here right.
+
+11:07.470 --> 11:13.920
+And now I can see that it's actually going to be doing this even though we actually save this so save
+
+11:13.950 --> 11:15.780
+it again fresh.
+
+11:15.840 --> 11:18.320
+And now I can see that everything is working right.
+
+11:18.330 --> 11:26.250
+However if we got the smaller screen or here like this than what we have is our number then we can actually
+
+11:26.250 --> 11:32.670
+use in this or here and everything is moving and or here you can see that this is going to be exactly
+
+11:33.060 --> 11:40.060
+hundred units and now we're ready to move onto the next section and start working with the skills section.

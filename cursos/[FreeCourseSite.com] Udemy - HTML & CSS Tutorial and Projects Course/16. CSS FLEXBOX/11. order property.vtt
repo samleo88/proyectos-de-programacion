@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.330 --> 00:07.080
+And the first property we're going to look at the one that affects only the Flex items or children is
+
+00:07.080 --> 00:09.030
+going to be an older property.
+
+00:09.330 --> 00:15.990
+And by default all children are going to have or property with a value of zero.
+
+00:15.990 --> 00:17.400
+Now what does that mean.
+
+00:17.490 --> 00:19.170
+We have five items correct.
+
+00:19.320 --> 00:22.070
+And all of them have the order of zero.
+
+00:22.080 --> 00:28.660
+And since we know that in fact we can start manipulating our items without changing the HMO because
+
+00:28.680 --> 00:34.380
+obviously you could place let's say the item number two on the front if you just move it here within
+
+00:34.380 --> 00:42.860
+the HMO or what we're gonna do is in fact we're gonna make our changes only in the CSF so our operational
+
+00:42.900 --> 00:45.760
+structure is going to stay the same.
+
+00:46.290 --> 00:48.140
+Let's start with Box Number 1.
+
+00:48.180 --> 00:55.300
+Let's imagine the scenario where all like the move box number one all the way at the end of my line.
+
+00:55.580 --> 01:01.380
+Now the way we can do that is in fact setting a box number one some targeting box number one and I'm
+
+01:01.380 --> 01:07.060
+going to use my order property and knowing that the rest of the boxes have order 0 0.
+
+01:07.080 --> 01:12.120
+Well what we could do is I could set up order being 1.
+
+01:12.150 --> 01:18.000
+Now this case what happens is that number 2 has 0 3 0 4 0 5 0.
+
+01:18.000 --> 01:22.410
+However this guy the box number one as the order of 1.
+
+01:22.650 --> 01:26.540
+And now since this order is in fact bigger than 0.
+
+01:26.710 --> 01:30.620
+And that's the reason why this box is sitting all the way at the end.
+
+01:30.660 --> 01:37.200
+Now since we know that both of them or I'm sorry all of them are by default 0 less than 1.
+
+01:37.200 --> 01:37.740
+Of course not.
+
+01:37.740 --> 01:38.990
+We changed our No.
+
+01:39.060 --> 01:46.100
+Well I could do the same thing only move box number five all the way to the beginning of my line.
+
+01:46.200 --> 01:49.610
+Now the way I do that is in fact go less than zero.
+
+01:49.620 --> 01:52.640
+So remember all of them are zero by default.
+
+01:52.920 --> 02:00.340
+So if I'm gonna set up as negative 1 as you notice my box is in fact moving to a beginning of the line.
+
+02:00.360 --> 02:07.200
+And again keep in mind we're not touching on each team no more racially in our structure stays exactly
+
+02:07.200 --> 02:07.940
+the same.
+
+02:07.980 --> 02:11.160
+We're making our changes only see SS now.
+
+02:11.250 --> 02:18.540
+I also like to show that the same is going to work if we're going to go with Lux direction and we're
+
+02:18.540 --> 02:24.750
+going to set it for column and doesn't change the fact again five is number one even though it shouldn't
+
+02:24.750 --> 02:25.090
+be.
+
+02:25.230 --> 02:33.270
+No reason why because the order is less than zero and then sends box number one as bigger than zero.
+
+02:33.270 --> 02:36.150
+Or that's the reason why is all the way at the end.
+
+02:36.180 --> 02:44.100
+Now if I'm gonna change let's say or the box number 1 to 2 and let's say I would want to place box number
+
+02:44.100 --> 02:45.740
+2 in between.
+
+02:45.810 --> 02:49.610
+So I want to place it in between 4 and 1.
+
+02:49.620 --> 02:51.120
+How I would do that.
+
+02:51.280 --> 02:59.040
+Well very simply not just set up box number two and let's go with order now needs to be bigger 0 and
+
+02:59.040 --> 03:00.570
+less than 2.
+
+03:00.630 --> 03:03.060
+And of course the answer is 1.
+
+03:03.140 --> 03:09.840
+So that way again we're just changing the order of our content just by using our SS.

@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00.210 --> 00:01.010
+Beautiful.
+
+00:01.020 --> 00:06.670
+We now know how to implement colors and ANC assess what's next on our agenda.
+
+00:06.720 --> 00:10.880
+How about see assess units over the course of next two years.
+
+00:10.890 --> 00:17.160
+We'll discuss what are units what is the difference between absolute and relative units as well as take
+
+00:17.160 --> 00:25.290
+a closer look at pixels e m r m values as well as viewport units of width and height.
+
+00:25.290 --> 00:31.020
+In the process we're also going to learn new C assess properties that implement units in their values.
+
+00:31.590 --> 00:34.020
+OK enough theory let's get after.

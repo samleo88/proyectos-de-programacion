@@ -1,0 +1,973 @@
+WEBVTT
+
+00:00.520 --> 00:06.900
+And last but not least we would like to set up a smooth scroll functionality where once we click on
+
+00:06.900 --> 00:11.530
+a link we in fact smooth scroll to that particular section.
+
+00:11.530 --> 00:16.940
+So let's say we're going to go for featured services about can go back home.
+
+00:16.950 --> 00:21.330
+You can also set this up on this particular link where we'd like to explore resource.
+
+00:21.670 --> 00:27.520
+So then we scroll to the stores and if we go all the way to the bottom let's say gallery and then we
+
+00:27.520 --> 00:32.500
+can also do the same thing from the footer where within the footer we do have the about.
+
+00:32.500 --> 00:38.140
+So again we can head over to about again and we click on the gallery and we go to feature and so on
+
+00:38.140 --> 00:39.090
+and so forth.
+
+00:39.160 --> 00:43.450
+So essentially which ever link we would want to be small scroll.
+
+00:43.570 --> 00:46.200
+We're gonna have a functionality for that.
+
+00:46.210 --> 00:54.550
+So in this case we are not going to work on the style Sears has in fact we're going to do our work first
+
+00:54.550 --> 00:57.720
+in the indexation email and then app J.S..
+
+00:57.730 --> 01:04.800
+So first of all in the index yes or I'm sorry indexation email we would like to set up a new class.
+
+01:04.900 --> 01:10.660
+Now the class name here is going to be smooth scroll or scrolling again.
+
+01:11.020 --> 01:18.310
+You can name this how you like as long as your later on in fact use it within the same functionality
+
+01:18.640 --> 01:21.580
+when you are in fact using the javascript.
+
+01:21.610 --> 01:22.230
+OK.
+
+01:22.390 --> 01:29.080
+So first of all let me come up with or maybe let me check for sure which class I used and I believe
+
+01:29.080 --> 01:30.940
+I use scrolling.
+
+01:30.940 --> 01:34.090
+So let's set up scroll link class.
+
+01:34.090 --> 01:42.310
+Now you're gonna have to add this particular class to all the links which you'd want to be smooth scroll
+
+01:42.760 --> 01:48.850
+meaning to all the links that you would want to have functionality where you click on the link and then
+
+01:48.850 --> 01:50.500
+you're gonna smooth scroll.
+
+01:50.500 --> 01:54.130
+So let me select this class.
+
+01:54.400 --> 02:01.810
+Currently I'm sitting with a number so I'm gonna add this to all my links so I'm about services and
+
+02:01.810 --> 02:10.060
+what we're doing again we're adding a new class with the value of scrolling and then I also like to
+
+02:10.060 --> 02:16.090
+do the same thing for my hero remember within the hero we had this explorer torch.
+
+02:16.180 --> 02:18.960
+So I'd like to add the same functionality here as well.
+
+02:19.060 --> 02:20.410
+So we have a trough.
+
+02:20.410 --> 02:24.500
+It is currently pointing to the featured and we have button of white.
+
+02:24.520 --> 02:26.220
+So let me copy and pasted.
+
+02:26.260 --> 02:30.410
+And now we're gonna have a smooth or I'm sorry scrolling as well.
+
+02:30.430 --> 02:35.180
+Now keep in mind though one thing then currently once we have our current setup with the nature trip
+
+02:35.560 --> 02:39.290
+we already are heading over to that particular section.
+
+02:39.430 --> 02:43.150
+Now the only thing is though that it is not happening smoothly.
+
+02:43.220 --> 02:48.680
+Well once we click on it we have featured we have about and all that.
+
+02:49.030 --> 02:55.780
+So keep in mind that we already are heading over to that particular section is just we do not have a
+
+02:55.780 --> 02:56.680
+smooth scroll.
+
+02:56.860 --> 02:58.600
+So that should be a hero.
+
+02:58.660 --> 03:04.190
+And also remember we had links all the way in the bottom when we had our footer.
+
+03:04.240 --> 03:13.780
+So whenever you have a photo or a link you can also add a scrolling scrolling scrolling scrolling and
+
+03:14.440 --> 03:17.010
+it scrolling as well.
+
+03:17.020 --> 03:23.230
+Let's say that and then we're going to head over back to Algiers again and we're going to have a comment
+
+03:24.190 --> 03:24.910
+on the like.
+
+03:24.920 --> 03:28.640
+So now our value is not going to be now fixed.
+
+03:28.850 --> 03:39.070
+We're going to say a smooth scroll let's first of all write smooth scroll.
+
+03:39.260 --> 03:43.320
+And then first and foremost we're going to target dealings.
+
+03:43.370 --> 03:44.160
+So it's right.
+
+03:44.150 --> 03:47.410
+Concert scroll links.
+
+03:47.480 --> 03:56.030
+Again we're just coming up with some kind of name for the variable and let's say document query selector.
+
+03:56.030 --> 04:02.330
+Now in this case we would want to select multiple items so we need to use query selector all and then
+
+04:02.330 --> 04:06.940
+we are using that class that we just added to all our links.
+
+04:06.980 --> 04:13.040
+So let's say scroll links and again let's start very simply by just looking whether our selection was
+
+04:13.040 --> 04:13.900
+correct.
+
+04:13.970 --> 04:19.520
+So let's look at the scroll links and within the console we should have a node list right now.
+
+04:19.520 --> 04:26.510
+Currently this node list is in fact telling me that while it is empty and I can clearly see that again
+
+04:26.780 --> 04:32.410
+there's something wrong with that because we should have a list of items.
+
+04:32.420 --> 04:34.960
+Now my error is very simple.
+
+04:35.300 --> 04:42.350
+I used scroll links where I should use scrolling because it should match exactly the class that I added.
+
+04:42.740 --> 04:49.460
+And again I'm just showing you a very simple examples how your functionality might actually work that
+
+04:49.550 --> 04:55.280
+if you're not targeting the correct element Well you're gonna have to you're gonna have an error.
+
+04:55.700 --> 04:58.080
+So once we console log we have a scroll links.
+
+04:58.210 --> 05:04.990
+And notice I do have my noticed that it was in fact something that I was interested in getting right.
+
+05:05.350 --> 05:11.900
+Now once I have my scroll links then I would like to use the for each method because I would like to
+
+05:11.930 --> 05:16.030
+add a vent listener for each and every link.
+
+05:16.040 --> 05:24.500
+Now when we do that is by using a link or I'm sorry not links scrolling is sorry scroll links then we
+
+05:24.500 --> 05:26.650
+use the for each method.
+
+05:26.660 --> 05:33.800
+That particular method is in fact iterating over our node list and we're gonna say that we're passing
+
+05:33.800 --> 05:40.280
+in the callback function and then each and every item is in fact representing that particular item in
+
+05:40.280 --> 05:41.370
+that list.
+
+05:41.780 --> 05:47.420
+So that is my function and in fact I could sum this up as an our function just so you can see a little
+
+05:47.420 --> 05:48.870
+bit clearer.
+
+05:48.980 --> 05:56.660
+And then once I pass in let's say the parameter that particular parameter is going to reflect each and
+
+05:56.660 --> 05:58.270
+every item in my link.
+
+05:58.430 --> 06:04.780
+So item number 0 is going to be there and 1 and all the way up to and 9.
+
+06:05.240 --> 06:11.020
+So in this case it is a parameter so I can call this like someone go with a link.
+
+06:11.150 --> 06:16.640
+Right now what I would like to do for the link is in fact add a vent listener.
+
+06:16.640 --> 06:21.920
+So each and every time we click on a link we're going to add a listener so we're going to be listening
+
+06:21.920 --> 06:25.300
+for that particular event the Click event.
+
+06:25.490 --> 06:30.570
+And once we click in fact on that particular button Well we're gonna do something.
+
+06:30.570 --> 06:37.760
+And first and foremost we're also gonna pass the event object within our callback function.
+
+06:37.760 --> 06:42.710
+So once we click on a link we're gonna in fact get our event object.
+
+06:42.740 --> 06:48.270
+Now first of all let's just check it by console logging and let's say hello.
+
+06:48.410 --> 06:51.290
+You click a link.
+
+06:51.680 --> 06:52.600
+Something like that.
+
+06:53.920 --> 06:54.820
+Let's save it.
+
+06:54.820 --> 06:58.160
+And what I would like to do right now is once we click on it.
+
+06:58.180 --> 06:59.140
+NORRIS halo.
+
+06:59.140 --> 07:04.780
+You click the link and twice third time and fourth time and all that.
+
+07:04.780 --> 07:12.910
+Now first of all you're also gonna notice that once we click on those links like I said we are right
+
+07:12.910 --> 07:19.120
+away navigating to our specific section and that is in fact not what I would want.
+
+07:19.120 --> 07:26.830
+So since we have our event object what I would like to do first is use this prevent default.
+
+07:26.830 --> 07:27.400
+Okay.
+
+07:27.610 --> 07:29.220
+So we're going to use the prevent default.
+
+07:29.500 --> 07:35.020
+So in this case what is going to happen that once we click on the link even though we are using the
+
+07:35.020 --> 07:36.880
+extra funnel that we click on it.
+
+07:36.880 --> 07:43.000
+Notice how our page is not moving to our about section okay or services or any of like that because
+
+07:43.000 --> 07:47.920
+previously this is exactly what was happening because that was the default behavior of the link.
+
+07:47.950 --> 07:53.800
+So since we would like to set up smooth scrolling we need to make sure that we use event prevent default.
+
+07:53.800 --> 07:55.060
+That's number one.
+
+07:55.060 --> 07:57.110
+Now also on a smaller screen size.
+
+07:57.130 --> 08:01.870
+Now that is not an issue for the bigger screen sizes but on a smaller screen size.
+
+08:01.870 --> 08:08.980
+What I would like to do is once we click on this particular link I would like to close again my links.
+
+08:08.980 --> 08:10.990
+So I like to hide my links.
+
+08:10.990 --> 08:13.450
+Now remember what was the functionality for that.
+
+08:13.600 --> 08:16.600
+We used a toggle for show links.
+
+08:16.600 --> 08:22.480
+So what I would like to do right now is in fact once we click on it first and foremost I would like
+
+08:22.480 --> 08:28.560
+to in fact remove that class list or class of short lengths.
+
+08:28.600 --> 08:33.010
+So instead of toggling so I just copy paste it but I'm gonna remove it.
+
+08:33.010 --> 08:38.950
+So each and every time we're gonna click on that particular link we in fact are going to close it as
+
+08:38.950 --> 08:39.650
+well.
+
+08:39.680 --> 08:45.510
+Right now we're not navigating to that particular section because again we used event prevent default.
+
+08:46.000 --> 08:49.890
+So we in fact avoided the default behavior.
+
+08:49.900 --> 08:54.760
+But what we're doing right now essentially is each and every time we're clicking on it we're also closing
+
+08:54.760 --> 08:59.950
+the number because I think it's gonna be better for the smaller screen size now doesn't matter on a
+
+08:59.950 --> 09:01.310
+bigger screen size of course.
+
+09:01.480 --> 09:05.720
+But on a small screen size it makes all the difference in the world.
+
+09:05.830 --> 09:12.760
+And once we're done setting up prevent default meaning once we're going to click on the links we're
+
+09:12.760 --> 09:20.110
+not gonna scroll there by default as well as once we are done removing the show links class from the
+
+09:20.110 --> 09:27.770
+Navarre or I'm sorry from the links then that means that we can proceed and in fact set up our logic.
+
+09:27.790 --> 09:33.760
+Now what I'm gonna do right now is in fact delete this particular console log and of course you can
+
+09:33.760 --> 09:38.800
+leave it if you like but I'm just going to delete it and then let's think about it.
+
+09:39.190 --> 09:42.290
+So for each and every link what do we have.
+
+09:42.700 --> 09:49.870
+Well we do have this H ref attribute and there is a way for us in fact to access that H ref attribute
+
+09:49.900 --> 09:52.240
+using JavaScript and the way we can do that.
+
+09:52.240 --> 09:59.380
+Again we are going to use the event object because the event object has the target property on it and
+
+09:59.380 --> 10:05.860
+by using that in fact I could access that interest attribute for each and every link that I'm clicking
+
+10:06.250 --> 10:13.270
+whether that is going to be on a no war whether that is going to be somewhere let's say within the footer.
+
+10:13.270 --> 10:13.750
+OK.
+
+10:13.750 --> 10:15.060
+Same deal.
+
+10:15.100 --> 10:19.840
+Now let's do that by in fact getting our ideas.
+
+10:19.870 --> 10:26.690
+So what I'm going to do right now is set up my idea variable like I said I'm going to use event target.
+
+10:26.780 --> 10:31.400
+And the reason why I can access the event object is because I passed it here within the callback function
+
+10:31.970 --> 10:39.980
+and then we have a method by the name of get an attribute the attribute of Morgan for is going to be
+
+10:40.070 --> 10:44.240
+a nature of and in fact what I can do is I can just cancel it again.
+
+10:44.240 --> 10:46.200
+So let's look for that particular item.
+
+10:46.490 --> 10:51.890
+So what I would like to do is just click on it and notice I'm gonna get my idea of about and I can get
+
+10:51.890 --> 10:53.470
+services featured.
+
+10:53.570 --> 10:58.750
+And essentially what we're doing is we're accessing all the traps that we have.
+
+10:58.820 --> 11:03.820
+So whatever link we click on well we get this particular picture of.
+
+11:03.880 --> 11:09.680
+Now what I would like to do though is remove that hashtag now just coming in front and the way we do
+
+11:09.680 --> 11:12.920
+that is use the slice method and we just say that.
+
+11:12.920 --> 11:18.730
+Get me everything starting from the item that is in the position of one.
+
+11:18.830 --> 11:27.290
+So we in fact removing the zero index or item that is in the zero index in our string which is that
+
+11:27.290 --> 11:28.170
+hashtag.
+
+11:28.190 --> 11:29.550
+So now once we click on it.
+
+11:29.550 --> 11:31.340
+Notice the hashtag is gone.
+
+11:31.520 --> 11:34.400
+And in fact we're just getting these ideas.
+
+11:34.760 --> 11:42.650
+Now once we have this particular idea I could select an element and I can say const element and that
+
+11:42.650 --> 11:52.460
+element is going to be document get element by I.D. and the I.D. I'm going to use is in fact this particular.
+
+11:52.750 --> 11:54.890
+And one that we just got from the target.
+
+11:55.410 --> 12:03.630
+And what we could do again is console log the element right away or we can use the offset to our property
+
+12:03.870 --> 12:05.100
+on that element.
+
+12:05.130 --> 12:14.650
+So I'm going to right away console log the offset top property so let's write element offset TARP and
+
+12:14.740 --> 12:23.500
+what is going to happen is that once we let's say click on the about so we open up our number and we
+
+12:23.500 --> 12:25.020
+click on the above.
+
+12:25.030 --> 12:30.230
+Now this tells me the pixels from the top that about section etc..
+
+12:30.290 --> 12:33.090
+And in this case this is six hundred ninety six.
+
+12:33.100 --> 12:34.440
+Now I can also check it out.
+
+12:34.450 --> 12:40.600
+Let's say featured again same deal in this case though it's two thousand seven hundred eighty two.
+
+12:40.600 --> 12:45.200
+Then if we look for two hours then we have two thousand four hundred and forty nine.
+
+12:45.340 --> 12:47.420
+And hopefully you get the gist.
+
+12:47.440 --> 12:55.340
+So once I get this particular property I know where the actual element it is sitting within the document.
+
+12:55.390 --> 13:08.300
+And once I know the distance I can use another method by the name of scroll to so window window scroll
+
+13:08.300 --> 13:12.480
+to this particular method is on the window object.
+
+13:12.650 --> 13:21.210
+So let's say we know scroll through and then within this particular method we're going to pass in the
+
+13:21.210 --> 13:25.720
+object and then within there an object we have few properties.
+
+13:25.740 --> 13:30.840
+So first one is going to be what is going to be our horizontal position.
+
+13:30.870 --> 13:33.380
+So that's the reason again we're using the left.
+
+13:33.390 --> 13:39.870
+So that is very similar how we used a position fixed for example or position absolute where we say well
+
+13:39.930 --> 13:42.730
+where we would like to be horizontally and vertically.
+
+13:42.950 --> 13:48.090
+And we're going to start with horizontal position and I'm going to say left should be zero because I
+
+13:48.090 --> 13:50.520
+wouldn't want to scroll left and right.
+
+13:50.640 --> 13:55.510
+In fact I would like to scroll up and down meaning vertically.
+
+13:55.510 --> 13:58.300
+And that's the reason where we also have a top position.
+
+13:58.470 --> 14:04.590
+And for the top position for the time being we're going to use that off set property.
+
+14:04.620 --> 14:10.620
+So each and every element has this offset property and we're going to say scroll to that particular
+
+14:10.620 --> 14:15.140
+element the one that has been selected and use that offset properly.
+
+14:15.150 --> 14:17.210
+So that's where we're going to scroll.
+
+14:17.220 --> 14:22.850
+Now we also have an option of setting up behavior so how we're going to scroll and what I'm going to
+
+14:22.980 --> 14:26.510
+use is a smooth value for that.
+
+14:26.520 --> 14:28.770
+Now there's gonna be some issues right now.
+
+14:28.770 --> 14:29.060
+All right.
+
+14:29.050 --> 14:33.300
+I can tell you right away there's still some fixes that we're going to have to do.
+
+14:33.360 --> 14:38.750
+However I just want to show that we are going to have some kind of functionality at least.
+
+14:38.880 --> 14:42.630
+So something is going to be working now like I said there's going to be some issues that we're going
+
+14:42.630 --> 14:43.350
+to fix.
+
+14:43.440 --> 14:49.480
+But once you click on it notice which caused the services and we scroll to about then we scroll to let's
+
+14:49.480 --> 14:50.790
+say a gallery and all that.
+
+14:51.000 --> 14:53.520
+Now what are the problems.
+
+14:53.520 --> 14:57.540
+Well first of all our nav bar has its own height.
+
+14:57.690 --> 14:59.610
+It has that 62 pixels.
+
+14:59.640 --> 15:06.300
+So essentially when we're scrolling we are not ending a right on the edge of that particular element
+
+15:06.360 --> 15:07.240
+or section.
+
+15:07.290 --> 15:11.710
+In fact we are in the up 62 pixels below.
+
+15:11.790 --> 15:12.420
+Right.
+
+15:12.540 --> 15:18.540
+Because like I said we are scrolling to the position of that element but we're not taking into account
+
+15:18.900 --> 15:21.230
+the actual height of the napper.
+
+15:21.270 --> 15:27.360
+Now before we do anything right now before we fix these issues first of all I would like to zoom out
+
+15:27.680 --> 15:33.300
+right because there's one more thing that I would like to fix as well because remember previously when
+
+15:33.300 --> 15:37.130
+we were looking for our links I said that it was 217 1.
+
+15:37.200 --> 15:41.140
+Remember within these stars we set this up as to 71.
+
+15:41.130 --> 15:45.990
+Now the issue was that I was zooming in back then.
+
+15:45.990 --> 15:52.920
+So what is going to happen if we're going to comment out the NAV links and show links both of the classes
+
+15:52.920 --> 15:56.380
+I'm going to show you that in fact it was wrong.
+
+15:57.240 --> 16:05.390
+If we head over to let's say nav links you're going to notice that the NAV links are 270 not to 71.
+
+16:05.430 --> 16:13.410
+So in order to in fact avoid that behavior by adding to seventy one point forty three I'm going to set
+
+16:13.410 --> 16:19.740
+it correctly because on 100 percent is in fact two hundred and seventy pixels instead.
+
+16:19.740 --> 16:20.250
+All right.
+
+16:20.250 --> 16:22.080
+So first of all let me fix that.
+
+16:22.110 --> 16:24.420
+That is the step number one.
+
+16:24.420 --> 16:31.320
+Now after that like I said we would want to fix the issue of element offset and the fact that we are
+
+16:31.320 --> 16:36.150
+having these 62 pixels and that we are going below.
+
+16:36.210 --> 16:40.950
+And again the reason is very simple because once we click on it because we scroll all the way down here
+
+16:41.390 --> 16:47.530
+now there is also a difference where there is going to be some more logic on a smaller screen size.
+
+16:47.610 --> 16:52.860
+But why don't we start with the bigger screen size so the recording right now and fix the fact that
+
+16:52.980 --> 17:00.540
+if I click on the about us I just scroll whatever 62 or one hundred and twenty four pixels below where
+
+17:00.540 --> 17:01.440
+I should be.
+
+17:01.440 --> 17:08.700
+So first of all let's set up a variable so let's let our position or position variable.
+
+17:08.700 --> 17:09.560
+Something like that.
+
+17:09.570 --> 17:10.620
+So let's say let.
+
+17:10.620 --> 17:11.780
+Position.
+
+17:11.850 --> 17:15.990
+Now I'm not going to sign any kind of value to this position variable I'm just going to leave it blank
+
+17:15.990 --> 17:22.400
+for now and then I would like to check whether the nav bar has the class or fixed.
+
+17:22.470 --> 17:30.480
+So if the NAB bar has the class of fixed well then I would like to actually set position to a element
+
+17:30.540 --> 17:33.210
+offset minus sixty two.
+
+17:33.210 --> 17:45.900
+So what I'm saying is if Navarre let me set this up properly if nav bar class list then contains if
+
+17:45.900 --> 17:49.490
+the nav bar contains the class are fixed.
+
+17:49.550 --> 17:55.170
+Essentially if we are scrolling around the page where we are sitting on the top of the page remember
+
+17:55.170 --> 17:56.840
+we added this class of fixed.
+
+17:57.000 --> 18:01.880
+Only when we started scrolling so I'm just checking whether I'm actually scrolling right now or it's
+
+18:01.890 --> 18:03.690
+sitting in a normal position.
+
+18:03.810 --> 18:10.650
+So if it has the class affixed then of course I know that I'm scrolling so we're not in a normal position
+
+18:10.650 --> 18:11.960
+we already scrolling.
+
+18:12.060 --> 18:13.730
+So if we are already scrolling.
+
+18:13.740 --> 18:22.860
+My position is going to be element then we have offset job and I'm going to in fact subtract these 62
+
+18:22.860 --> 18:23.760
+pixels.
+
+18:23.760 --> 18:29.730
+So what I'm saying if I'm scrolling and if I click on a link so if I'd like to navigate move to that
+
+18:29.820 --> 18:34.420
+element offset up but also subtract the 62 pixels.
+
+18:34.470 --> 18:41.880
+So once we set that I would like to change the top value in fact to a position like so.
+
+18:41.880 --> 18:43.740
+And you're gonna notice that.
+
+18:43.930 --> 18:50.100
+Well eventually once my def sir is going to kick into gear you're going to notice as we are scrolling.
+
+18:50.100 --> 18:55.290
+Once we click on a link we move right exactly where our section is.
+
+18:55.310 --> 18:56.410
+We move to services.
+
+18:56.420 --> 18:58.480
+Again we move there move to feature.
+
+18:58.500 --> 19:01.380
+We move right on top of the section.
+
+19:01.440 --> 19:06.380
+Now the problem is going to be when we sit in a normal position once we click on about.
+
+19:06.390 --> 19:08.830
+Well first of all we cannot navigate even there.
+
+19:09.360 --> 19:11.620
+Because we haven't set up our if statement.
+
+19:11.730 --> 19:16.830
+But even if we would just use the same position while it's going to move even more.
+
+19:16.830 --> 19:22.710
+Now the reason for that is because we're not accounting to these 62 pixels because once we start scrolling
+
+19:22.950 --> 19:25.300
+we take it out of the normal flow.
+
+19:25.320 --> 19:29.290
+So in that case we need to say if we are sitting all the way in the top.
+
+19:29.290 --> 19:36.570
+So if the position fixed is not added to our number well then we need to subtract even more than we
+
+19:36.570 --> 19:43.950
+need to say position alignment and then offset top and subtract.
+
+19:43.950 --> 19:45.910
+Hundred and twenty four.
+
+19:46.300 --> 19:51.820
+And then you're going to see that if we click on let's say about again we move exactly where our section
+
+19:51.820 --> 19:52.630
+starts.
+
+19:52.630 --> 19:53.920
+When you click on services.
+
+19:53.920 --> 19:55.950
+Now of course we already are scrolling.
+
+19:55.990 --> 19:57.160
+So we have to position fixed.
+
+19:57.430 --> 20:03.490
+So everything works regardless but we just needed to add this because once we are in the top we're not
+
+20:03.550 --> 20:06.430
+again accounting for these 62 pixels.
+
+20:06.430 --> 20:12.130
+Now last thing that I would like to point out that this particular setup is not going to work on a smaller
+
+20:12.130 --> 20:17.070
+screen size because now we're not accounting for the whole size of the number.
+
+20:17.070 --> 20:18.280
+Okay let me show you.
+
+20:18.430 --> 20:21.150
+Once we click on it notice how much lower we scroll.
+
+20:21.220 --> 20:23.420
+So we should be somewhere here right.
+
+20:23.560 --> 20:27.400
+But we scroll let's say to the services now.
+
+20:27.460 --> 20:32.980
+In this case it works because again we took out the now bar of the normal flow but if we are all the
+
+20:32.980 --> 20:38.830
+way on a back and if we click on any of the links we're going to scroll below where we would want to
+
+20:38.830 --> 20:39.330
+be.
+
+20:39.430 --> 20:45.070
+And in order to fix that we're going to have to add one more if statement more first of all I would
+
+20:45.070 --> 20:51.940
+like to check the height of my nav bar and I I would like to check what is the height of the number
+
+20:51.950 --> 20:53.410
+on a small screen size.
+
+20:53.470 --> 21:00.160
+Again the way we do that is by looking at developer tools we'll look at elements and let's find right
+
+21:00.190 --> 21:03.210
+now our home and let's look at their whole nav bar.
+
+21:03.340 --> 21:06.980
+And as far as I can see my now bar is three hundred and thirty two.
+
+21:07.030 --> 21:15.570
+So I would need to subtract 332 plus the sixty two pixels and you're going to see that in a second.
+
+21:15.580 --> 21:17.360
+So first of all let's start doing that.
+
+21:17.440 --> 21:25.780
+Let's say if and now I'd like to check if the window in a row with window in or with is in fact less
+
+21:25.870 --> 21:27.720
+than nine hundred ninety two.
+
+21:27.880 --> 21:33.800
+Because remember at nine hundred and ninety two in fact we change it around in our styling correct.
+
+21:33.820 --> 21:40.660
+Remember we had a neat media query that started to work when while when we moved to nine hundred ninety
+
+21:40.660 --> 21:46.570
+two and we know that everything works on a bigger screen size normally but we would like to fix it when
+
+21:46.570 --> 21:49.480
+the screen size is less than nine hundred ninety two.
+
+21:49.510 --> 21:57.900
+So if the actual screen size is less than nine hundred ninety two that position should be equal to a
+
+21:57.900 --> 21:58.590
+element.
+
+21:58.940 --> 22:03.690
+So that's right over here element of set up.
+
+22:03.880 --> 22:10.240
+And now we need to subtract two things First of all we need to subtract 332 pixels.
+
+22:10.240 --> 22:12.700
+That is the height of the number.
+
+22:12.700 --> 22:20.350
+Initially once or no sitting in on top as well as these 62 pixels that we have for the height of the
+
+22:20.350 --> 22:22.740
+number when we are scrolling.
+
+22:22.750 --> 22:26.140
+So now let's just not scroll all the way to the top.
+
+22:26.170 --> 22:27.480
+Let's open up our number.
+
+22:27.760 --> 22:28.670
+Let's click on it.
+
+22:28.750 --> 22:35.240
+And notice how we're nicely going to scroll to a starting point for our section.
+
+22:35.250 --> 22:35.650
+OK.
+
+22:35.770 --> 22:41.740
+Now again let's try this on the top because it's not exactly going to work as we already scrolling.
+
+22:41.860 --> 22:45.580
+Again we come to exactly where the services start.
+
+22:45.580 --> 22:51.940
+Now if we're going to start doing that as we're scrolling so noticed right now the height of our neighbor
+
+22:52.000 --> 22:54.170
+is not the 332.
+
+22:54.250 --> 23:00.160
+So we don't need to have this 300 to 32 plus the 62 and check it out.
+
+23:00.160 --> 23:05.160
+If I click on a feature notice I'm definitely not where the featured section start.
+
+23:05.170 --> 23:11.760
+So what do we would like to do is in this case also set up one more if statement where again I'm going
+
+23:11.760 --> 23:20.570
+to use this nav bar class fixed like so I'm just going to say if the nav bar class fixed is then I would
+
+23:20.570 --> 23:27.240
+like to use the position and I'm going to set position to the same thing that I had already here where
+
+23:27.260 --> 23:29.300
+I had element offset.
+
+23:29.780 --> 23:31.580
+Minus 62.
+
+23:31.640 --> 23:35.510
+So that is the case if the class is in fact there.
+
+23:35.510 --> 23:41.690
+So if I have the Flex class then I would just like to in fact move it here and then of course if not
+
+23:41.690 --> 23:43.170
+then I'm gonna use the other one.
+
+23:43.310 --> 23:50.200
+Now are my particular setup is not going to work because I need to include this health statement.
+
+23:50.240 --> 23:53.030
+So let me move this position right now within the else.
+
+23:53.360 --> 23:56.630
+And now everything is going to move actually work correctly.
+
+23:56.660 --> 23:57.990
+We're on a smaller screen size.
+
+23:58.010 --> 24:03.680
+If I click on the about from the top I'm going to correctly navigate to the start of the section off
+
+24:03.710 --> 24:04.810
+about let's say.
+
+24:04.940 --> 24:11.210
+But if I'm already scrolling noticed again we're going to nicely go to a feature towards now everything
+
+24:11.210 --> 24:13.090
+already worked on the bigger screen size.
+
+24:13.220 --> 24:14.920
+So there should be no issue.
+
+24:15.050 --> 24:20.030
+I have about I have the services featured gallery back home.
+
+24:20.030 --> 24:26.420
+I can move back home and then I can scroll directly to the services so successfully guys we added also
+
+24:26.420 --> 24:29.870
+functionality to our Flex box project.

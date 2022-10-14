@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.120 --> 00:00.670
+You know what.
+
+00:00.700 --> 00:05.890
+I changed my mind just because I would like to be done covering the tax properties.
+
+00:05.920 --> 00:11.190
+We're gonna cover five properties in this video and then we can move on to the next module.
+
+00:11.190 --> 00:13.820
+How are we gonna do a little bit of spring cleaning.
+
+00:13.890 --> 00:16.820
+So first I'm gonna get rid of the Google fonts.
+
+00:17.070 --> 00:20.120
+Then as well we're gonna get her of rest of the styles.
+
+00:20.320 --> 00:27.060
+I'm gonna delete them and within the next session email let's do a little bit of different setup where
+
+00:27.210 --> 00:27.930
+we again.
+
+00:28.000 --> 00:30.440
+I just want to delete everything and we're gonna start from scratch.
+
+00:30.900 --> 00:35.050
+So first I would like to create a link and then we can create this dummy link.
+
+00:35.100 --> 00:39.760
+So if this link is not going to work going anywhere we can just add a hashtag and we're good to go.
+
+00:39.970 --> 00:44.860
+And let's right over here let's say Google is gonna be a link which is not gonna go anywhere.
+
+00:45.210 --> 00:55.870
+And then we're all gonna have one having one and we're gonna say Hey I am I am the main heading something
+
+00:55.870 --> 00:56.290
+like this.
+
+00:56.290 --> 01:00.050
+Main heading lets say this and see what we have.
+
+01:00.050 --> 01:01.760
+This is going to be your main heading.
+
+01:01.760 --> 01:06.520
+And then we can have two paragraphs with let's say each of them class of one two three.
+
+01:06.690 --> 01:08.200
+First let's create a paragraph.
+
+01:08.210 --> 01:11.000
+This paragraph is gonna be Laura I'm on.
+
+01:11.100 --> 01:12.100
+Twenty five.
+
+01:12.320 --> 01:13.820
+I actually want multiple lines.
+
+01:13.870 --> 01:15.520
+So that's kind of my important thing.
+
+01:15.790 --> 01:18.180
+I think three lines is more enough.
+
+01:18.270 --> 01:19.190
+I'm just gonna say here.
+
+01:19.190 --> 01:20.140
+Class.
+
+01:20.270 --> 01:21.810
+Class is gonna be number one.
+
+01:21.840 --> 01:23.970
+And now we'd like to copy and paste this.
+
+01:24.080 --> 01:26.520
+So I'm gonna select all of this on one too.
+
+01:26.660 --> 01:29.910
+So there's gonna be paragraph where the class of number two.
+
+01:29.930 --> 01:34.150
+You know what I can just use the multiple sectors deleted here.
+
+01:34.340 --> 01:38.450
+Then head over back to my class number two.
+
+01:38.510 --> 01:39.960
+That class actually.
+
+01:40.430 --> 01:43.090
+Let's say that class is going to be number two.
+
+01:43.310 --> 01:47.340
+And then for a third guy this is gonna be the class of number three.
+
+01:47.360 --> 01:53.440
+Again not very original but this is gonna do a job now within the tiles.
+
+01:53.470 --> 01:54.430
+Yes yes.
+
+01:54.520 --> 01:57.630
+We're gonna start by simply looking at the line right now.
+
+01:57.650 --> 02:03.290
+The line high is going to control how the lines have the space in between them.
+
+02:03.650 --> 02:06.670
+So let's start out on the paragraph number one.
+
+02:06.770 --> 02:08.220
+And here let's write.
+
+02:08.240 --> 02:13.690
+Line height property since that is obviously the names that we're looking for and for the line height.
+
+02:13.700 --> 02:15.210
+This is gonna be relative.
+
+02:15.620 --> 02:20.630
+Again at the moment we haven't set it up and anything that the parent which would be the body but in
+
+02:20.630 --> 02:22.850
+general this is gonna be relative to something.
+
+02:22.850 --> 02:25.400
+So at the moment this is gonna be relative to the browser.
+
+02:25.400 --> 02:31.610
+So we're gonna say one point five M's notice right down my line heights are getting bigger don't believe
+
+02:31.610 --> 02:31.850
+me.
+
+02:31.850 --> 02:36.530
+Let's try 2.5 and you'll see that right now I have way bigger line height.
+
+02:36.980 --> 02:40.480
+But again if we're going to change this somewhere in the body or the parent element let's say there
+
+02:40.480 --> 02:46.960
+is gonna be div then this is going to depend again of how we're controlling for the parent at the moment.
+
+02:46.970 --> 02:52.320
+This is working with the browser and let's say I'm gonna say zero point five then my lines are going
+
+02:52.320 --> 02:53.270
+to be very small.
+
+02:53.590 --> 02:55.280
+And that's how the line height would work.
+
+02:55.280 --> 03:00.390
+Next up we have the letter spacing so let's write for the paragraph number two.
+
+03:00.400 --> 03:06.500
+We're going to be looking for the letter spacing and will be the name and again let's go with pixels
+
+03:06.500 --> 03:07.150
+in this case.
+
+03:07.160 --> 03:10.620
+But you can use different values and four letter spacing.
+
+03:10.640 --> 03:14.600
+We're gonna add a five pixels and what do you think is gonna happen.
+
+03:14.600 --> 03:17.320
+I think the name is quite self-explanatory.
+
+03:17.370 --> 03:18.460
+The one we're going to save it.
+
+03:18.500 --> 03:24.740
+I'm gonna be getting these five pixels in between each and every letter on the actual element that I
+
+03:24.740 --> 03:27.100
+have selected so far so good.
+
+03:27.110 --> 03:33.770
+We also have the word spacing so let's say for the guy number three we're gonna have the word spacing
+
+03:33.770 --> 03:36.900
+property so let's say what is words spacing.
+
+03:37.040 --> 03:40.910
+Yeah let's do the same thing 20 pixels should be more than enough.
+
+03:41.000 --> 03:44.660
+Now in between each and every word we are getting our 20 pixels.
+
+03:44.660 --> 03:47.400
+Again extremely self explanatory.
+
+03:47.570 --> 03:54.770
+The two properties with letter spacing and word spacing as well as line height is also very self-explanatory.
+
+03:54.840 --> 03:56.210
+Then we have text transform.
+
+03:56.450 --> 03:59.140
+So why don't we practice on our heading here.
+
+03:59.140 --> 04:04.790
+I'm going to say we're still having one and then we're going to be looking for text transform and in
+
+04:04.790 --> 04:07.890
+the text or form we're going to have capitalized.
+
+04:08.010 --> 04:11.390
+I'm going to have lowercase and we're going to be looking for uppercase.
+
+04:11.720 --> 04:14.720
+So these are the ones that we will going to use most of the time.
+
+04:15.290 --> 04:20.570
+So let's say I start with an upper case the whole text is gonna be uppercase and sure enough write down
+
+04:20.570 --> 04:28.520
+my headings uppercase I can also do let's say capitalized then the letter of each word is going to first
+
+04:28.520 --> 04:31.100
+letter is going to be capitalized just like this.
+
+04:31.100 --> 04:36.590
+And then if we want to test that out lowercase Obviously again we're gonna have to go to the body and
+
+04:36.590 --> 04:43.040
+let's say for all of them for all the elements I have text transform is gonna be the uppercase and here
+
+04:43.040 --> 04:47.450
+for the heading I'm going to change my mind and I'm gonna say I would like to go with the default one
+
+04:47.450 --> 04:48.550
+which is lowercase.
+
+04:48.860 --> 04:55.250
+But if you're not gonna add anything to the parent element which in our case would be the body then
+
+04:55.400 --> 05:01.130
+obviously nothing is gonna happen if you're going to add lowercase because this comes by default as
+
+05:01.130 --> 05:03.350
+well as we have text decoration.
+
+05:03.440 --> 05:09.410
+Now the easiest way to show you text declaration especially the default one for the length is by looking
+
+05:09.410 --> 05:09.850
+at the link.
+
+05:10.550 --> 05:15.180
+Ok maybe let's make it a little bit bigger just so I can get my point across.
+
+05:15.200 --> 05:20.240
+So in order to select the link I can use the easiest selector that is out there which is an element
+
+05:20.240 --> 05:24.610
+selector because you guessed the right link as what.
+
+05:24.860 --> 05:26.790
+Well the element is a.
+
+05:26.830 --> 05:33.860
+So I'm just selecting the link and let's have the property we already know the font size let's say 40
+
+05:33.860 --> 05:34.520
+pixel.
+
+05:34.820 --> 05:36.950
+Now I have a massive massive link.
+
+05:37.130 --> 05:43.460
+Now one of the things that is kind of annoying about the link here is the fact that it has this underline
+
+05:43.580 --> 05:44.810
+by default.
+
+05:44.810 --> 05:49.220
+So what you are going to do a lot whenever you're going to be working with he you're going to be looking
+
+05:49.220 --> 05:55.850
+for text decoration and in this case we're not going to be looking for colors going to say that we would
+
+05:55.850 --> 06:02.150
+want text decoration not so you're gonna get rid of this underline unless you really dig down the line
+
+06:02.800 --> 06:08.090
+and let's look at different properties that we have down the line and let's say not for the whole body
+
+06:08.120 --> 06:09.950
+but for the heading One.
+
+06:09.980 --> 06:13.880
+Let's again go for tax decoration and for tax decoration.
+
+06:13.880 --> 06:19.350
+Let's do a line through I'm not going gonna have line Eric through our Eric one.
+
+06:19.490 --> 06:22.610
+Also we have the on over line option.
+
+06:22.700 --> 06:28.360
+Why don't we test it out on this guy on paragraph number two where we have the line.
+
+06:28.610 --> 06:37.130
+I'm sorry that line text tax declaration would be in our case over line and this would go not underline
+
+06:37.220 --> 06:38.940
+and not hold delays.
+
+06:39.180 --> 06:45.050
+We're going to have over line and sure enough what happens is you see that we have overlap.
+
+06:45.470 --> 06:47.450
+Now again it kind of does make sense.
+
+06:47.450 --> 06:48.910
+We have multiple lines right.
+
+06:49.280 --> 06:54.800
+So you might be thinking well it's kind of like an underline Yeah it is underlined because if you're
+
+06:54.800 --> 07:00.960
+looking from this perspective and just to kind of give you an idea we know we can use line height.
+
+07:01.160 --> 07:06.260
+So why don't we get really creative and add this line right now for sure.
+
+07:06.320 --> 07:11.690
+You must agree with me that this is going to be overlap and last but not least we have the underlying
+
+07:11.960 --> 07:13.520
+which again we can use it.
+
+07:13.550 --> 07:18.590
+So let's say for this guy we will gonna change and to underline so.
+
+07:18.600 --> 07:19.560
+That's right.
+
+07:19.600 --> 07:22.620
+Tax uh decoration Yeah.
+
+07:23.030 --> 07:24.010
+Not text decoration.
+
+07:24.020 --> 07:24.200
+Yeah.
+
+07:24.200 --> 07:25.250
+Text decoration.
+
+07:25.280 --> 07:29.370
+Uh it was the underlined and sure enough we have it as an underline.
+
+07:29.870 --> 07:37.070
+So this is how we can use all these five properties line night layer spacing words spacing text transform
+
+07:37.430 --> 07:39.050
+as well as text decoration.

@@ -1,0 +1,235 @@
+WEBVTT
+
+00:00.600 --> 00:03.280
+We is however pseudo class selector.
+
+00:03.420 --> 00:05.160
+It was somewhat straightforward.
+
+00:05.400 --> 00:09.140
+So only the changes were happening as we're hovering over a deal.
+
+00:09.870 --> 00:12.660
+However with links we have a little bit more state.
+
+00:12.750 --> 00:16.860
+So Lincoln v just general link then Lincoln we visited.
+
+00:16.860 --> 00:20.100
+We can also hover over the link and the active link.
+
+00:20.160 --> 00:22.530
+So why don't we take a look again.
+
+00:22.560 --> 00:23.490
+Bye bye.
+
+00:23.490 --> 00:24.690
+You're going to be gone.
+
+00:24.900 --> 00:27.320
+And also within the next session email.
+
+00:27.560 --> 00:28.370
+What is it gonna create.
+
+00:28.370 --> 00:29.100
+Bunch of links.
+
+00:29.110 --> 00:31.530
+So let me first delete all of them.
+
+00:31.560 --> 00:35.170
+Then let's say here again this is gonna be just a general link.
+
+00:35.430 --> 00:38.400
+So let's write general and link.
+
+00:38.730 --> 00:41.080
+Then we're going to copy and paste it here.
+
+00:41.100 --> 00:43.200
+Gonna write and on now visited link.
+
+00:43.200 --> 00:44.650
+We can go with this.
+
+00:44.670 --> 00:49.120
+Can you just say visited is a dead link.
+
+00:49.590 --> 00:50.390
+The second one.
+
+00:50.550 --> 00:57.310
+Then we have the active one and the hardcover one so for the hover one again this is gonna be very simple.
+
+00:57.310 --> 01:02.070
+I was gonna say however although what's gonna happen is as we're hovering all of them you're obviously
+
+01:02.070 --> 01:10.920
+gonna be able to see anyway but that is just a side note and let's right with active one so active link
+
+01:11.460 --> 01:12.260
+something like this.
+
+01:12.630 --> 01:18.860
+So here that more with capital letter and fewer of them are is gonna be with the lowercase letter.
+
+01:19.290 --> 01:25.220
+Now this is again somewhat straightforward meaning only thing we need to do is just say that.
+
+01:25.410 --> 01:27.150
+Let's say would want to select all the links.
+
+01:27.660 --> 01:28.640
+So how you gonna write.
+
+01:28.830 --> 01:34.280
+Well we can just say that all the links that have been on a page.
+
+01:34.280 --> 01:38.310
+So let's say a link and then we're looking for something.
+
+01:38.340 --> 01:43.030
+Let's start very simply by color and let's say the color is going to be OK.
+
+01:43.110 --> 01:47.610
+Now all my links are going to have this color again very soon.
+
+01:48.000 --> 01:52.870
+Now we also have option of visiting because we can click on a link so that way we're visiting the link.
+
+01:53.050 --> 01:55.830
+Now in order to do that we're just going to say visited.
+
+01:55.860 --> 02:01.930
+So if we have clicked on a link let's say or read something like this.
+
+02:01.990 --> 02:04.950
+Now I'm gonna head over to the second one to visit anyone.
+
+02:05.070 --> 02:09.150
+But again you can click on any link and what's going to happen the moment we're going to click on it
+
+02:09.600 --> 02:11.550
+all of them are gonna be read.
+
+02:11.550 --> 02:13.900
+Now what is the reason why all of them are red.
+
+02:14.040 --> 02:18.290
+Because our H rough attribute is here to hashtag.
+
+02:19.050 --> 02:22.360
+So if we would want we wouldn't want this annoying thing.
+
+02:22.530 --> 02:25.890
+Who's gonna write ATP ATP.
+
+02:25.890 --> 02:31.820
+Then again we're gonna have to forward slashes and let's say Google dot com on the moment gonna save
+
+02:31.830 --> 02:32.360
+it.
+
+02:32.370 --> 02:38.900
+Notice this is not visit like Oh just please remember that if you're gonna have multiple links they're
+
+02:38.910 --> 02:40.940
+all going to be pointing to the same thing.
+
+02:40.940 --> 02:46.200
+If you're going to click on one of them obviously the same thing is gonna happen now again we hear we
+
+02:46.200 --> 02:47.370
+have multiple options.
+
+02:47.670 --> 02:52.170
+If you don't like the fact that all of them technically have been visited could just change this around
+
+02:52.170 --> 02:52.850
+to Google.
+
+02:52.860 --> 02:57.130
+Just remember that the moment you were gonna click on one of the Googles there are also gonna be visited.
+
+02:57.660 --> 02:58.490
+Let's save this.
+
+02:58.510 --> 03:00.780
+Okay so this is gonna be visit and link.
+
+03:00.910 --> 03:02.010
+Then what else we had.
+
+03:02.010 --> 03:03.400
+So we had a hover effect.
+
+03:03.810 --> 03:08.120
+So that was again for all of them obviously since we're all gonna be able to hover.
+
+03:08.190 --> 03:11.520
+In this case I don't know what color is gonna be blue.
+
+03:11.640 --> 03:12.330
+Now what happened.
+
+03:12.330 --> 03:16.190
+So as I'm hovering over the link obviously the color is going to turn blue.
+
+03:16.350 --> 03:21.470
+Even the one that has visited because again this just shows that we have clicked on a link.
+
+03:21.660 --> 03:27.630
+Now last but not least we have the active one and the active one happens as we're clicking on the link
+
+03:27.710 --> 03:32.840
+so there's gonna be a split second as we click on the link so link is active before.
+
+03:32.850 --> 03:35.190
+Technically it says that it was visited.
+
+03:35.190 --> 03:42.650
+So for this we can just say active again and I don't know we can have the green one and this is where
+
+03:42.650 --> 03:47.540
+we're gonna be really have to pay attention because this is gonna change literally over the second.
+
+03:47.610 --> 03:52.680
+So as what happens is as I have a rule here and if I click on it I mean yeah.
+
+03:52.700 --> 03:58.070
+And if I'm holding the left key then obviously we're gonna be able to see that this is not visited the
+
+03:58.320 --> 03:59.200
+link yet.
+
+03:59.250 --> 04:01.760
+This is not any more blue because when the hovering.
+
+04:02.010 --> 04:03.420
+So this would be the active one.
+
+04:03.420 --> 04:07.280
+So that's where we would use this pseudo class selector on the moment.
+
+04:07.290 --> 04:13.440
+I'm gonna let go of the actual obviously left key and what happens is I'm visiting the Google first
+
+04:13.440 --> 04:17.190
+and foremost because this was the link and now all of them are red.
+
+04:17.250 --> 04:19.740
+Now the reason why this is red because we already clicked on it.
+
+04:20.190 --> 04:22.560
+But rest of them were Google anyway.
+
+04:22.560 --> 04:25.650
+So now my links are showing us visited.
+
+04:25.740 --> 04:31.650
+Now this is in general how we can use pseudo class selectors with links whether that's link visited
+
+04:31.650 --> 04:33.150
+hover or active.

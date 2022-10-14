@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.560 --> 00:06.780
+Now one thing I forgot to mention is in fact that I also would like to fix my hero.
+
+00:06.830 --> 00:08.180
+Now what do I mean by that.
+
+00:08.180 --> 00:14.900
+Well what happens is that once we get to a bigger screen says notice that nav bar has some kind of height
+
+00:14.960 --> 00:16.490
+already correct.
+
+00:16.490 --> 00:22.550
+Now what I would like to do is in fact use that height when I'm setting up my hero because currently
+
+00:22.550 --> 00:24.880
+what happens if I'm looking at it.
+
+00:24.890 --> 00:28.030
+My hero is hundred new heights correct.
+
+00:28.100 --> 00:29.680
+And then I have my number.
+
+00:29.720 --> 00:31.940
+So in fact I'm scrolling up and down.
+
+00:32.120 --> 00:36.430
+Now what I would like to do is first of all check how big is my number.
+
+00:36.530 --> 00:39.240
+And we can do that by using dev tools.
+
+00:39.290 --> 00:41.560
+So I'm gonna head over back to my project.
+
+00:41.720 --> 00:44.680
+I'm gonna write inspect or are not gonna write.
+
+00:44.690 --> 00:47.700
+I'm gonna look for my developer tools by right clicking.
+
+00:47.900 --> 00:53.270
+And then if we check out our number you're going to notice that there's going to be a width and height
+
+00:53.640 --> 00:57.110
+and in my case height is sixty two pixels.
+
+00:57.110 --> 00:59.690
+Now you can also check it over here.
+
+00:59.690 --> 01:03.570
+Notice how you have this padding all where you have sixteen and sixteen.
+
+01:03.740 --> 01:11.220
+Plus you have 30 so 30 is for the content and then we have 16 and 16 and total is going to be 62.
+
+01:11.240 --> 01:15.770
+So what I would like to do is you know where we have the hero.
+
+01:15.890 --> 01:20.010
+So let me find in this case hero hero.
+
+01:20.020 --> 01:24.010
+Once we find a hero we had the mean height of hundred v heads.
+
+01:24.010 --> 01:32.460
+So what I would like to do instead is not make it hundred view hides but actually subtract these 62
+
+01:32.460 --> 01:38.170
+pixels so that I weigh my nav bar and my hero our hundred yards.
+
+01:38.220 --> 01:47.130
+So the way we do that we just write Hulk minus minus 62 pixels.
+
+01:47.590 --> 01:55.150
+So that way our setup is going to be where once we open up the page this is exactly hundred percent
+
+01:55.420 --> 01:57.350
+hundred viewers both of them.
+
+01:57.550 --> 02:01.240
+Now bar as well as the hero component.
+
+02:01.240 --> 02:06.700
+So that way just looks a little bit nicer whereas we start scrolling we're right away get to the next
+
+02:06.700 --> 02:07.440
+section.
+
+02:07.480 --> 02:13.060
+Not a big deal but something that I thought I should mention before we move on and start working with
+
+02:13.060 --> 02:13.660
+the javascript.

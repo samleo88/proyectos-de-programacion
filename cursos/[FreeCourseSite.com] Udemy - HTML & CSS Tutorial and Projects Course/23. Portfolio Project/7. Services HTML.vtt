@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.390 --> 00:04.510
+The next section you're going to be building is going to be services section.
+
+00:04.770 --> 00:11.040
+So here we're going to create our first title and actually we're going to reuse our title in the next
+
+00:11.040 --> 00:17.460
+sections or here like for this project and or here we're going to place a fantastic mark on when this
+
+00:17.460 --> 00:20.200
+is going to be taxed and there is going to be some other text.
+
+00:20.280 --> 00:22.780
+And they're also going to make some hover effect.
+
+00:22.830 --> 00:28.020
+So as you can see as I'm hovering over each and every service you can see that we're going to have a
+
+00:28.020 --> 00:30.770
+box with some box shatter.
+
+00:31.140 --> 00:38.010
+So let's go ahead and let's go to our index the amount and in the index age the amount we need to go
+
+00:38.010 --> 00:44.890
+where is the about section and or here and let's say that this is going to be a services section.
+
+00:44.970 --> 00:51.830
+So let's say we're comment services or section or Again copy and paste this on here.
+
+00:51.960 --> 00:54.870
+And let's say end of services section.
+
+00:54.890 --> 00:57.330
+Now what we would want or here in the section.
+
+00:57.420 --> 01:06.040
+Well first we're going to say section with a class of services services or here now also in this section.
+
+01:06.210 --> 01:09.540
+We're going to have like I said a title so section title.
+
+01:09.580 --> 01:16.380
+So this is going to be that we're going to create and reuse or here let's say section on here section
+
+01:16.590 --> 01:17.420
+title.
+
+01:17.430 --> 01:23.250
+Now again let's create another comment and we're going to say end of section right now what we would
+
+01:23.250 --> 01:29.070
+want in the section title sexually going to be very simple we're going to have a div with a class of
+
+01:29.730 --> 01:32.250
+section title.
+
+01:32.460 --> 01:39.110
+And inside there we're going to have a Heading 1 section title or here are going to be to underscore
+
+01:39.110 --> 01:41.700
+his name on here and for the name.
+
+01:41.730 --> 01:47.940
+In this case we're going to say services just like the name of our section or here again.
+
+01:47.940 --> 01:54.060
+Let me get back my helmet once I save it and if I scroll down on here you can see that I have my services
+
+01:54.060 --> 01:54.930
+title.
+
+01:55.110 --> 01:58.980
+I want to have the section title done next.
+
+01:59.050 --> 02:05.310
+What I actually want is the actual services and what I would want for the services first is the same
+
+02:05.310 --> 02:09.150
+as with and about oh we're going to want a service center.
+
+02:09.150 --> 02:13.210
+So this is going to serve here as a centering tool.
+
+02:13.320 --> 02:18.490
+So I'm going to say ready with a class of services center here within the div..
+
+02:18.680 --> 02:21.120
+We're going to start placing our services.
+
+02:21.370 --> 02:24.820
+Now first let's say that this is going to be single service.
+
+02:25.220 --> 02:29.070
+So first and foremost we're going to create each and every service.
+
+02:29.250 --> 02:34.370
+However it's going to just make it easier whenever we are copying pasting if we're going to have or
+
+02:34.380 --> 02:40.710
+hear these comments because we're going to make sure that we know where we are copying pasting your
+
+02:40.820 --> 02:42.000
+service.
+
+02:42.000 --> 02:45.090
+So these are going to be our two comments.
+
+02:45.270 --> 02:51.290
+Now here we're going to place first an article now in this article we would want is a.
+
+02:51.490 --> 02:56.570
+So this class is going to be like this so I'm going to say class and we're going to say services so
+
+02:56.590 --> 03:00.530
+services and services single service.
+
+03:00.710 --> 03:05.790
+So to all here underscores Singo on your service.
+
+03:05.790 --> 03:11.430
+So this is going to be the end on here once we will have this article or here.
+
+03:11.460 --> 03:13.380
+Now we want a few things.
+
+03:13.530 --> 03:15.760
+First what I want is the icon.
+
+03:16.170 --> 03:21.030
+So again let me just create a little bit more room for here and let's say Well here that this is going
+
+03:21.030 --> 03:21.960
+to be the icon.
+
+03:22.040 --> 03:28.930
+So I'm going to say this is going to be a day of with a class of what services we're here to underscores.
+
+03:28.950 --> 03:31.470
+Single service.
+
+03:31.710 --> 03:36.460
+And then we're going to call this icon or is this is going to be in my class and what I would want.
+
+03:36.470 --> 03:45.930
+And this is going to be element with a class of f a s and we're going to have FAA and Kalender on recherche.
+
+03:46.020 --> 03:47.940
+So this is going to be my fondest memory.
+
+03:48.270 --> 03:55.500
+So if I scroll down on here this is going to be my phone right now after this Dave out one text so I'm
+
+03:55.500 --> 04:03.390
+going to say we're heading to then we're going to have a services two underscores and single service
+
+04:03.750 --> 04:05.860
+and we're going to call this title on here.
+
+04:05.910 --> 04:10.650
+So this is going to be the single service title and here we're going to say this is going to be punctual
+
+04:11.790 --> 04:17.080
+like this so we can save it and sure enough this is going to be my next story.
+
+04:17.220 --> 04:23.340
+And then after that we will want the actual paragraph here and the last element that we are having is
+
+04:23.340 --> 04:28.230
+going to be paired off with a class of services with two underscores.
+
+04:28.320 --> 04:32.110
+Single service service.
+
+04:32.160 --> 04:38.250
+And let's just say or it text and or Again let's do something like 10 words like this.
+
+04:38.320 --> 04:39.320
+Let's say it.
+
+04:39.480 --> 04:42.600
+And sure enough now I can see that this is going to be my text.
+
+04:42.630 --> 04:48.090
+Now what I would want over here is I would want to create six of them so I'm going to go back over here
+
+04:48.180 --> 04:54.690
+to the top and I'm going to select this one service and I was going to copy and paste this five times
+
+04:54.780 --> 04:57.410
+one two three four five.
+
+04:57.960 --> 05:03.150
+Here what we would need is actually change the values for the font.
+
+05:03.150 --> 05:03.940
+Awesome.
+
+05:03.960 --> 05:06.050
+So the first one was calendar check.
+
+05:06.270 --> 05:09.240
+If we see or hear the next one is going to be a rocket.
+
+05:09.540 --> 05:12.290
+So let's say where is the first one.
+
+05:12.300 --> 05:17.880
+So this was a first service or it was our service single service.
+
+05:17.880 --> 05:23.270
+Now if we would want not a calendar check but actually we would want is a rocket.
+
+05:23.340 --> 05:28.490
+So I'm going to go back over here and we're going to write and this is going to be a rocket then we're
+
+05:28.500 --> 05:32.890
+going to say also going to change the actual name here.
+
+05:33.000 --> 05:35.600
+So I'm going to say that this is not going to be punctual.
+
+05:35.610 --> 05:39.000
+This is actually going to be creativity here.
+
+05:39.140 --> 05:43.260
+So I say this we keep on going we'll find the next one.
+
+05:43.260 --> 05:48.830
+Next one is actually going to be a mobile one here so we're going to find where is that account there
+
+05:48.870 --> 05:49.590
+check.
+
+05:49.890 --> 05:55.140
+And we're going to go over here and we're going to say this is not going to be Conder check.
+
+05:55.140 --> 06:00.520
+This is going to be immobile here and we can just check it whether we have it sure enough you can see
+
+06:00.630 --> 06:06.600
+this is going to be mobile and out here the text is also going to change and the text actually is going
+
+06:06.600 --> 06:10.900
+to say that this is going to be and this is going to be responsive in design.
+
+06:11.190 --> 06:15.650
+So responsive design really does.
+
+06:15.750 --> 06:23.460
+And once we have the mobile next one is going to be the Cong's and we're going to call this a hard work.
+
+06:23.560 --> 06:26.750
+We're here to say that this is going to be hard work.
+
+06:26.790 --> 06:30.750
+So Cong's you I on and on here for that text.
+
+06:30.750 --> 06:32.810
+We're going to say hard work.
+
+06:32.890 --> 06:37.690
+So you know like this when I say hard work order.
+
+06:38.070 --> 06:42.750
+Now once we save this then we have development and photography.
+
+06:42.750 --> 06:46.210
+So for that development we're going to have a laptop.
+
+06:46.680 --> 06:50.490
+So we're here once again to lead this their check.
+
+06:50.650 --> 06:57.260
+Let's say on your laptop like this and for the laptop we're going to say that this is going to be development
+
+06:58.200 --> 07:07.640
+and this development and once we have the development then the last one is going to be in photography.
+
+07:07.640 --> 07:16.280
+So I guess I'm going to say this is going to be a photography fee here and here we're going to have
+
+07:16.310 --> 07:17.310
+a camera.
+
+07:17.660 --> 07:21.620
+So the last one is going to be camera camera.
+
+07:22.220 --> 07:29.240
+And once we have more here are in the exchange e-mail now we are ready to go to the main says and starts
+
+07:29.250 --> 07:29.610
+dialing.

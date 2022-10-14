@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.090 --> 00:00.870
+Excellent.
+
+00:00.900 --> 00:07.320
+We now know how to implement basic age the amount document structure our live server is working correctly
+
+00:07.670 --> 00:14.770
+and we are good to go and start actually working more with a Schimmel meaning learning more HDMI element.
+
+00:14.820 --> 00:20.880
+However before we do that let me quickly show you two very important things that are going to come very
+
+00:20.880 --> 00:24.740
+beneficial as well going to be working with HDMI elements.
+
+00:24.750 --> 00:27.690
+Now first of all I would like to talk about the word wrap.
+
+00:27.870 --> 00:33.120
+As you notice since we have the paragraph and it's quite a long and let's say if I'm going to be adding
+
+00:33.510 --> 00:38.190
+more here exclamation marks and I'm gonna say with everything isn't going to be displayed nicely in
+
+00:38.190 --> 00:39.060
+the page.
+
+00:39.070 --> 00:41.940
+However notice what happens with our actual text.
+
+00:42.430 --> 00:47.640
+So now I need to start scrolling left and right and you can say well you can always do mark right.
+
+00:48.000 --> 00:49.100
+So I can keep zooming out.
+
+00:49.110 --> 00:51.830
+However what if we're gonna be adding more text here.
+
+00:52.030 --> 00:56.310
+That's not gonna make sense because then basically we're going to have to make it really small.
+
+00:56.310 --> 01:01.440
+And first of all I've heard of the tutorial and it's gonna be very hard for you to see as well as in
+
+01:01.440 --> 01:03.420
+general whenever you're going to be working.
+
+01:03.450 --> 01:05.010
+This is not going to make sense.
+
+01:05.040 --> 01:06.870
+So what would be the solution.
+
+01:06.870 --> 01:09.600
+Well again we're going to have to go back to the settings.
+
+01:09.740 --> 01:14.290
+I'm going to click on a cog and then we'll look for the setting of the word wrap.
+
+01:14.930 --> 01:19.740
+So let me find this and then you're going to have this control how lines should wrap.
+
+01:20.010 --> 01:22.970
+And here in this case we just need to say that this would be OK.
+
+01:23.100 --> 01:27.240
+So instead of off that was there before most are going to go off or on.
+
+01:27.240 --> 01:28.350
+Now what's gonna happen again.
+
+01:28.350 --> 01:33.880
+This is going to auto save right away and we can just see that in a text that are right now.
+
+01:33.960 --> 01:35.530
+This is gonna wrap the line.
+
+01:35.640 --> 01:41.070
+And again this will you make your life easier because you will not going to have to scroll left and
+
+01:41.070 --> 01:42.750
+right as well as zoom out.
+
+01:43.200 --> 01:49.480
+So now whenever you're going to have a longer line this is just going to wrap into a new line now.
+
+01:49.480 --> 01:51.750
+Next I would like to talk about Emmett.
+
+01:51.850 --> 01:53.860
+No one in the world is them.
+
+01:53.910 --> 01:58.700
+You see Emmett is something that speeds up your rage the amount workflow.
+
+01:58.780 --> 02:02.380
+Now if you're using different texture you can still access them.
+
+02:03.010 --> 02:07.380
+However in the Visual Studio code it is built in.
+
+02:07.420 --> 02:12.670
+Now again if you would like to have a little bit more information about Emmett you can head over again
+
+02:12.670 --> 02:18.490
+in the Google and just type Emmett and you'll see that this is essential tool for window shop where
+
+02:18.490 --> 02:20.850
+we can quickly write bunch of code.
+
+02:20.890 --> 02:22.930
+Now there's tons of things about Emmett.
+
+02:22.990 --> 02:26.100
+And again I wouldn't want to spend a lot of time on that.
+
+02:26.500 --> 02:32.930
+However in our most basic example what's gonna happen is that every time I would like to create a page
+
+02:32.930 --> 02:36.760
+the email element I don't have to start by the angle bracket.
+
+02:36.760 --> 02:39.830
+I can just say whatever element I would like to render.
+
+02:39.970 --> 02:45.340
+So let's say I'm looking again for heading one note is the moment I'm just gonna type each one and the
+
+02:45.340 --> 02:46.780
+same is gonna be for you.
+
+02:46.840 --> 02:51.590
+We're gonna have a suggestion and as you can see it says clearly Emmett abbreviation.
+
+02:51.640 --> 02:56.430
+So what happens is if let's say I would like to have having one writing to or heading six.
+
+02:56.500 --> 03:01.490
+I can just type and Mike H and then we can choose whatever heading we would like.
+
+03:01.630 --> 03:07.300
+The same would work if I want a paragraph again I just need to type whatever name of the element or
+
+03:07.300 --> 03:13.390
+let's say not the name of the element but starting letter of the arm and Emmett is gonna do the rest.
+
+03:13.390 --> 03:20.240
+Now if I would like to render that element I would have to press tab or return and basically the entropy.
+
+03:20.250 --> 03:22.660
+So once you press it notice right now I have my own.
+
+03:23.500 --> 03:28.870
+Now again this is just the most basic thing that we can do with them and later on throughout the course
+
+03:29.230 --> 03:34.290
+obviously we're going to expand our knowledge regarding M and not just on a very basic level.
+
+03:34.420 --> 03:40.780
+This is going to save us from again typing and typing and typing unnecessary email where we can just
+
+03:40.780 --> 03:45.500
+look or whatever element we would like and right away it's going to be random.
+
+03:45.820 --> 03:53.750
+So let's say here I'm gonna say this is an eight paragraph meaning paragraph like with just to be noticed
+
+03:53.800 --> 03:55.120
+if I'm going to say this.
+
+03:55.120 --> 03:58.940
+Sure enough I'm gonna have an hour sleep I didn't save it first.
+
+03:58.960 --> 04:04.810
+So now once I save it notice I'll have this is M paragraph so all this is very cool again if you like
+
+04:04.810 --> 04:11.030
+to find out more information you can just head over to this and I go and if you're using different text
+
+04:11.070 --> 04:14.710
+or you should be able to install it as an extension.
+
+04:14.860 --> 04:19.100
+However with Visual Studio code it comes in pre-built.
+
+04:19.180 --> 04:24.490
+Now last but not least all this work that we did we could have done it actually with an element.
+
+04:24.580 --> 04:25.900
+So let me delete this.
+
+04:26.030 --> 04:28.000
+And once you're gonna have an exclamation mark.
+
+04:28.350 --> 04:33.410
+So I'm gonna press shift an exclamation mark and I this again this is gonna give me Emmet and privation
+
+04:33.740 --> 04:34.990
+and the moment we press center.
+
+04:34.990 --> 04:36.340
+Notice what happens.
+
+04:36.400 --> 04:41.890
+So now we're getting the preparation email structure that we worked on in the last video.
+
+04:41.890 --> 04:47.290
+So this pretty much saves this time where we don't have to retype this and again please don't focus
+
+04:47.290 --> 04:52.620
+on these mad attacks we we're gonna talk about them once we already have sufficient knowledge of the
+
+04:52.630 --> 04:53.190
+email.
+
+04:53.360 --> 04:58.510
+There is no point right now to fill your head with this information as well as this language.
+
+04:58.510 --> 05:04.960
+Again what we need to focus right now is the fact of the title that's sitting within the head element
+
+05:05.380 --> 05:08.570
+as well as all the work that we're going to do in the body element.
+
+05:08.980 --> 05:13.690
+So let me close maybe this summit for now as you can see right now this is still saying Hello my name
+
+05:13.690 --> 05:22.210
+is John but once we're going to save this I don't know proper structure let's call there's this one
+
+05:22.990 --> 05:30.420
+structure structure as you can see my typing is just awesome and we're all gonna have just a simple
+
+05:30.420 --> 05:34.290
+hiding one with the title of the page being a document.

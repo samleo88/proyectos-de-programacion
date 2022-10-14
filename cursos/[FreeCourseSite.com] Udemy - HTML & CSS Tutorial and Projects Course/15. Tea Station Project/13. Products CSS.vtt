@@ -1,0 +1,670 @@
+WEBVTT
+
+00:00.210 --> 00:05.370
+We were successful with our age the amount but that is probably not the look that we want.
+
+00:05.370 --> 00:06.780
+Meaning these massive images.
+
+00:07.200 --> 00:15.180
+So why don't we head over again two main CSO style sources and start styling this window of about.
+
+00:15.240 --> 00:18.180
+Then we're going to add some comments of products.
+
+00:18.180 --> 00:24.300
+This is gonna be commented out and of product and then let's write something here and buy something
+
+00:24.300 --> 00:26.910
+I mean first let's start working on a product.
+
+00:27.120 --> 00:30.630
+And I would like to add the background the background is gonna be the main dark one.
+
+00:31.110 --> 00:35.840
+So let's say background then we're going to be looking for the color and we can say man dark.
+
+00:36.000 --> 00:41.510
+Now my whole product section is going to be made dark success.
+
+00:41.520 --> 00:48.130
+We also would want a little bit of again padding in between because as you see right now the image is
+
+00:48.780 --> 00:51.990
+up all the way where is our button.
+
+00:51.990 --> 00:53.300
+And that's not something we want.
+
+00:53.290 --> 00:59.910
+So we're gonna write product I'm going to be looking for both of the columns so products info as well
+
+00:59.910 --> 01:05.480
+as karma of products in Van story.
+
+01:05.610 --> 01:08.850
+Those were my two column names and let's just had some padding.
+
+01:09.030 --> 01:12.690
+Planning is gonna be top bottom of two left and right zero.
+
+01:12.750 --> 01:16.230
+We are getting there people what else we're gonna have.
+
+01:16.230 --> 01:17.530
+Well let's see.
+
+01:17.640 --> 01:22.920
+We also would like to maybe work with this product text maybe a little bit nicer and you know what.
+
+01:22.930 --> 01:24.840
+There's also gonna be another class.
+
+01:24.960 --> 01:27.170
+Now what is that class gonna be.
+
+01:27.170 --> 01:32.550
+Remember all the way in the beginning when we were working with these utility classes I was looking
+
+01:32.550 --> 01:38.700
+at it and I was saying we can have the text WHITE Now what text WHITE IS GONNA DO IT'S GONNA MAKE THIS
+
+01:38.700 --> 01:44.520
+TEXT white so let's say if I don't want to go back and change it or create another class for just this
+
+01:44.520 --> 01:51.330
+particular section we can head over here we can say that whenever we have the section title we would
+
+01:51.330 --> 01:55.450
+just like to add this class of text white.
+
+01:55.600 --> 01:57.190
+And now this text is gonna be white.
+
+01:57.220 --> 02:02.740
+So again we do not have to do any extra work in the CSF if you just want a quick fix.
+
+02:02.740 --> 02:04.400
+We can just do it like this.
+
+02:04.480 --> 02:05.610
+That would be the first thing.
+
+02:05.650 --> 02:08.770
+What else we're gonna have in the series as well.
+
+02:08.950 --> 02:12.490
+We do have the product text also here.
+
+02:12.490 --> 02:18.430
+So why don't we select this product text and what we would like for this guy.
+
+02:18.430 --> 02:20.850
+Again we're going to do the same thing with a color.
+
+02:20.860 --> 02:26.020
+So the color is going to be made white as well as we're going to add a little bit of margin the same
+
+02:26.020 --> 02:28.740
+margin the bottom is going to be one arms and zero.
+
+02:28.900 --> 02:29.530
+And you know what.
+
+02:29.530 --> 02:36.330
+Let's use Macs with let's say max width of twenty six harem as you're looking at it you can see that
+
+02:36.340 --> 02:38.880
+this is a lot like we had already before.
+
+02:39.070 --> 02:41.120
+Apart from obviously text white.
+
+02:41.260 --> 02:47.740
+So your other option would be reusing this so you could have just said some general name and since we're
+
+02:47.740 --> 02:51.810
+using the margin Max with the same you could have done it that way.
+
+02:51.860 --> 02:53.120
+That is also an option.
+
+02:53.230 --> 02:58.570
+I'm not gonna do it but just just to let you know that you can do it and then let's start working with
+
+02:58.570 --> 03:03.280
+these products because each and every product has the same age and all that.
+
+03:03.280 --> 03:07.790
+And why don't we start with an image because probably that's going to be the most annoying part here.
+
+03:07.840 --> 03:16.850
+And for this I'm gonna say like this that um uh the product image product image is gonna have following
+
+03:16.850 --> 03:23.510
+styles first of all with a hundred percent so they're not too big then we're gonna be looking for display
+
+03:23.510 --> 03:24.750
+of block.
+
+03:24.780 --> 03:28.630
+So I would say a display block and now the image is look already much nicer.
+
+03:29.240 --> 03:30.550
+What else I would like.
+
+03:30.620 --> 03:34.570
+I don't know some border radius border radius.
+
+03:34.730 --> 03:42.330
+And then here I'm going to say zero point four zero point four is gonna be my border areas as well as
+
+03:42.330 --> 03:49.250
+we can do a little bit of margin bottom and for this we can do maybe like two arms so not maybe a little
+
+03:49.260 --> 03:53.430
+with quite a big what else I would like for the product.
+
+03:53.430 --> 03:56.280
+Well I would like to have some distance in between them.
+
+03:56.280 --> 04:03.420
+So right now all my products are jammed one against another the same how we had both of the initial
+
+04:03.420 --> 04:04.120
+columns.
+
+04:04.260 --> 04:09.080
+So here we're gonna save for the product since that is the class that we can target.
+
+04:09.180 --> 04:16.020
+Let's add some padding off again to heading off to our.
+
+04:16.090 --> 04:19.450
+Some would say to our homes top bottom left and right zero.
+
+04:19.640 --> 04:21.720
+Now that should be our padding.
+
+04:22.010 --> 04:24.250
+And for some reason this is not working.
+
+04:24.290 --> 04:28.370
+So let me actually check this because this shouldn't be working.
+
+04:28.370 --> 04:33.140
+We shouldn't be getting comparing and what is happening here.
+
+04:33.230 --> 04:35.580
+So we have a section title product.
+
+04:35.700 --> 04:42.440
+Text products and then I did not and the class and that's the reason why this is happening so maybe
+
+04:42.440 --> 04:49.820
+let me selected in multiple cases where I can just write product and then copy paste it let me grab
+
+04:49.820 --> 04:56.590
+this value scroll over here and paste it as well as for a third one.
+
+04:56.600 --> 04:57.980
+Mistakes happen.
+
+04:57.980 --> 05:00.430
+We just need to fix them and move on.
+
+05:00.740 --> 05:01.760
+What else we're having.
+
+05:01.760 --> 05:10.250
+Well I guess we can work with product title so let's say like this let's say product title and what
+
+05:10.250 --> 05:12.210
+I would want for the title title.
+
+05:12.680 --> 05:16.100
+I don't know let me decide and be color white again.
+
+05:16.100 --> 05:23.480
+So let's right color not 0 0 but we're gonna look for main white and we know what we do need to use
+
+05:23.480 --> 05:30.400
+the main white and for some reason this is not again giving me suggestions.
+
+05:30.400 --> 05:33.990
+Let's try it out now mainly white is working fine.
+
+05:34.120 --> 05:42.340
+Text transform uppercase would want to be upper case per case and what else we have maybe a similar
+
+05:42.340 --> 05:49.010
+spacing letter spacing is gonna be our general one so letter spacing and the Lisbon list we're gonna
+
+05:49.020 --> 05:54.030
+have some margin in the bottom which would be I don't know one arms.
+
+05:54.120 --> 05:57.300
+So now we're gonna push a little but this text or you know what.
+
+05:57.300 --> 05:58.330
+More like price.
+
+05:58.500 --> 06:03.130
+And then we have product price before we start working with our mere equals.
+
+06:03.180 --> 06:09.960
+So let's say here product price that's gonna be your class name then we're gonna have the color again
+
+06:09.960 --> 06:12.390
+the color is gonna be the same the primary color.
+
+06:12.390 --> 06:17.750
+And when I say the same I thought that I'm going to be placing the white but that's actually primary.
+
+06:17.790 --> 06:22.080
+So technically it's not going to be same primary color and that's going to be green.
+
+06:22.200 --> 06:29.280
+I would also want to do the same letter spacing and letter spacing that's gonna be our setup and then
+
+06:29.280 --> 06:30.090
+what else we have.
+
+06:30.090 --> 06:38.040
+I don't know maybe font family just so the text is slanted font family text slant and that should be
+
+06:38.040 --> 06:38.680
+it.
+
+06:38.770 --> 06:39.650
+This should work.
+
+06:39.700 --> 06:42.220
+Now we're gonna have our price.
+
+06:42.360 --> 06:43.180
+Okay.
+
+06:43.260 --> 06:48.930
+Now let's start working as we're floating everything because at the moment this is not gonna look really
+
+06:48.930 --> 06:51.690
+good on a bigger screen and this is not what I want.
+
+06:51.960 --> 06:55.980
+I actually need to not open this one not this one.
+
+06:55.980 --> 07:01.990
+This is the one that I want to open and uh let's see where we're working this is our recording and I
+
+07:02.150 --> 07:03.900
+see the images are really big.
+
+07:03.950 --> 07:06.630
+We haven't floated anything so everything is massive.
+
+07:07.080 --> 07:14.520
+So why don't we start with our media queries where we can set up the responsive design some say media
+
+07:15.210 --> 07:23.220
+screen and mean with starting from some kind of screen size and the screen size I'm gonna start with
+
+07:23.370 --> 07:32.040
+is gonna be seven sixty eight pixels and starting from that screen size I would like to first of all
+
+07:32.460 --> 07:38.030
+float the product and have it a width of let's say 50 percent.
+
+07:38.130 --> 07:39.180
+How is this gonna work.
+
+07:39.690 --> 07:44.910
+Well I'm going to say that I'm going to select the product and we're going to use float.
+
+07:45.110 --> 07:45.930
+We're gonna float left.
+
+07:45.930 --> 07:48.840
+So that's gonna be with all these products that we have here.
+
+07:48.840 --> 07:54.180
+All of them are going to be floated to the left and then I also want to have some with and the West
+
+07:54.180 --> 07:55.830
+is going to be 50 percent.
+
+07:55.830 --> 07:59.030
+And last but not least I would want to keep adding.
+
+07:59.150 --> 08:03.070
+Now before I add the padding let me show you what would be the issue and I would want to do that.
+
+08:03.540 --> 08:10.500
+So this outlet is not going to be what I want but let's say the moment I get past the 768 out one them
+
+08:10.500 --> 08:11.150
+side by side.
+
+08:11.640 --> 08:16.890
+But I do want to get some padding in between and that's the reason why for the product I'm gonna have
+
+08:16.920 --> 08:22.400
+padding then not only I'm gonna add top and bottom padding which is gonna be to our arms.
+
+08:22.470 --> 08:25.110
+Remember that's the same padding we already had.
+
+08:25.110 --> 08:28.350
+So the reason for that is because I don't want to override this.
+
+08:28.350 --> 08:31.830
+I want to say yeah I want to keep the same padding on here.
+
+08:31.830 --> 08:34.620
+Let's write one our aim is gonna be left and right.
+
+08:34.620 --> 08:36.050
+So this should fix our issue.
+
+08:36.180 --> 08:38.160
+Now we should be having some padding in between.
+
+08:38.730 --> 08:41.520
+However the key here is that notice what's happening.
+
+08:41.520 --> 08:48.750
+So we have two column land but this column right now does not have this one padding that one RTM left
+
+08:48.750 --> 08:49.410
+and right.
+
+08:49.410 --> 08:53.320
+And what happens is this one is being pushed out more to the left and to the right.
+
+08:53.370 --> 08:56.140
+Now we don't see that on the right of course but we do see it anyway.
+
+08:56.640 --> 09:03.350
+So why don't we go back and say from starting also from 768 we will going to have product info and we're
+
+09:03.350 --> 09:04.960
+going to add that padding as well.
+
+09:04.980 --> 09:11.670
+So I say again not only top and bottom and I will gonna repeat myself but the reason for that is again
+
+09:11.700 --> 09:13.260
+we added this planning already.
+
+09:13.260 --> 09:17.520
+So I'm just making sure that we're still keeping this and then I'm going to say left and right is also
+
+09:17.520 --> 09:23.570
+going to be one RTM and now this is going to look much nicer where we will gonna have them pushed here.
+
+09:23.640 --> 09:25.700
+Now with this button and you know what.
+
+09:25.710 --> 09:27.840
+Let me make Chuck product in full.
+
+09:28.530 --> 09:35.070
+Yeah that's the one where I wanted to add the one I am but obviously this button is gonna be looking
+
+09:35.130 --> 09:38.040
+a little bit different because we already have the outline.
+
+09:38.070 --> 09:44.430
+So that's not gonna fix everything completely but we are getting into the right right direction where
+
+09:44.430 --> 09:48.290
+this is not going to be any more pushed out as far as our image here.
+
+09:48.330 --> 09:49.150
+Okay.
+
+09:49.170 --> 09:50.460
+What else we would like to do.
+
+09:51.000 --> 09:56.000
+Well let's say as I get to nine hundred ninety two I would want to have three column.
+
+09:56.610 --> 09:59.830
+So all of them should be in one line.
+
+10:00.120 --> 10:01.390
+How we can do that.
+
+10:01.530 --> 10:06.130
+We already know we've just selected copy and paste it.
+
+10:06.420 --> 10:10.040
+Then we're going to change in here to nine hundred ninety two.
+
+10:10.110 --> 10:13.770
+That's gonna be on land and then we only care about the product.
+
+10:13.770 --> 10:14.930
+We already have the float.
+
+10:14.940 --> 10:16.500
+We don't care about the float.
+
+10:16.500 --> 10:17.580
+We already have the padding.
+
+10:17.580 --> 10:19.030
+We don't care about the padding.
+
+10:19.180 --> 10:24.650
+And we already set up this product and for now maybe just to test it out maybe let's add product info
+
+10:24.780 --> 10:25.500
+to our teams.
+
+10:25.500 --> 10:30.690
+Maybe this is going to look better but I can still delete it here and let's say here this is gonna be
+
+10:30.690 --> 10:33.540
+thirty three point three percent.
+
+10:33.600 --> 10:38.850
+Now once I save it the moment we're gonna get to nine hundred ninety two.
+
+10:38.970 --> 10:45.270
+Now we're gonna have this kind of layout where what's gonna happen is that there is gonna be our whatever.
+
+10:45.330 --> 10:51.030
+First column and then we're looking with a second column on the second column as I'm gonna have all
+
+10:51.030 --> 10:52.190
+three of them here.
+
+10:52.260 --> 10:53.460
+One two three.
+
+10:53.460 --> 10:55.640
+These are gonna be our three product.
+
+10:55.710 --> 11:02.610
+Now finally once I get to a two column layout to a twelve hundred pixels I would want to put them side
+
+11:02.610 --> 11:03.050
+by side.
+
+11:03.330 --> 11:04.480
+So how this is gonna work.
+
+11:04.800 --> 11:06.750
+And I don't think this really helped me a lot.
+
+11:07.380 --> 11:11.260
+So I can just say what I am and this is gonna be good enough.
+
+11:11.400 --> 11:18.610
+Then here let's add another media query and let's copy paste it and let's say here from twelve hundred.
+
+11:18.840 --> 11:22.050
+So starting from twelve hundred what's gonna happen.
+
+11:22.050 --> 11:24.240
+Now I would like to work with both of them.
+
+11:24.450 --> 11:26.770
+I would work with a product in.
+
+11:26.920 --> 11:30.090
+Some would say first of all product info.
+
+11:30.660 --> 11:34.710
+And that's always going to be my first column and that's gonna be this dude over here.
+
+11:35.010 --> 11:43.200
+And what I would like for this product info is I would like to float it to the left to the left as well
+
+11:43.200 --> 11:48.380
+as give it a worth of notes a 30 hour.
+
+11:48.510 --> 11:53.850
+So our sorry not our MS 30 percentages.
+
+11:53.910 --> 11:56.210
+That's gonna be starting from the top 1.
+
+11:56.340 --> 12:00.390
+Now the moment I was get twelve hundred at the moment nothing is gonna happen.
+
+12:00.390 --> 12:04.310
+We need to take care of the other dude because for now we haven't done that.
+
+12:04.440 --> 12:08.100
+So we have men with but not only I won't work with product info.
+
+12:08.400 --> 12:08.990
+And you know what.
+
+12:09.240 --> 12:15.150
+I'm having suspicion right now that not for some reason targeting this product and for letting me head
+
+12:15.150 --> 12:21.380
+over here and yeah of course there's not product info but I have the product info.
+
+12:21.480 --> 12:27.420
+So what would be the better suggestion if I messed it up over here.
+
+12:27.420 --> 12:28.220
+Mm hmm.
+
+12:28.230 --> 12:30.390
+Let's see what I how I named the other one.
+
+12:30.450 --> 12:33.110
+And my apologies I didn't mess this one up.
+
+12:33.120 --> 12:35.070
+I have products inventory so you know what.
+
+12:35.250 --> 12:40.540
+I might as well go and fix it everywhere where I have products.
+
+12:40.560 --> 12:43.250
+Then the same thing is gonna happen over here.
+
+12:43.410 --> 12:46.650
+Let me make sure yeah I do have it products in for.
+
+12:46.710 --> 12:47.970
+Product product.
+
+12:47.970 --> 12:52.020
+That's all good product price product.
+
+12:52.170 --> 12:54.490
+And here I need to again product.
+
+12:54.870 --> 12:56.870
+And this is also gonna be products.
+
+12:56.880 --> 13:03.600
+So as you can see a small mistake one us and it really messes up everything that you're doing.
+
+13:03.600 --> 13:06.850
+So now finally everything is looking correct or it should be.
+
+13:06.850 --> 13:08.460
+So now we're having the padding.
+
+13:08.580 --> 13:11.670
+Now let me make this bigger at the moment.
+
+13:11.670 --> 13:13.330
+Again we are not having any floats.
+
+13:13.370 --> 13:14.110
+Not great.
+
+13:14.250 --> 13:15.200
+We'll figure this one out.
+
+13:15.570 --> 13:19.860
+So product info is gonna be float it was left with a width of 30.
+
+13:19.860 --> 13:27.820
+However we also have the product inventory copy and paste this product inventory that's right in when
+
+13:28.160 --> 13:30.920
+two or three like this.
+
+13:31.050 --> 13:32.730
+And we're also going to float it is left.
+
+13:33.000 --> 13:36.840
+However here we're gonna give it a 70 percent so we're gonna make this smaller.
+
+13:37.110 --> 13:39.200
+So now we're having them side by side.
+
+13:39.300 --> 13:45.240
+And what's neat is that nothing is being messed up because we do have right now are clear fixes.
+
+13:45.330 --> 13:47.570
+We have a clear fix for the whole column as well.
+
+13:47.570 --> 13:49.170
+We have the clear fix here.
+
+13:49.260 --> 13:52.020
+So there is no unwanted surprises.
+
+13:52.170 --> 13:55.430
+What I do want though maybe a little bit smaller.
+
+13:55.470 --> 14:01.410
+I don't know some padding but I would like to change with these guys with these products.
+
+14:01.770 --> 14:08.180
+So I'm also gonna say for all the products and the class was the product I'm going to add different
+
+14:08.180 --> 14:15.230
+padding of one point five grams and that I'm gonna say one hour am left or right.
+
+14:15.230 --> 14:18.050
+And then one is gonna be on the left hand side.
+
+14:18.500 --> 14:23.000
+So what I'm doing here is I'm just gonna making this padding smaller because before that we had like
+
+14:23.000 --> 14:27.200
+two arms and I just don't see how that would be a better look.
+
+14:27.200 --> 14:28.930
+So I'm just gonna go with one point five.
+
+14:29.180 --> 14:35.030
+And yeah that's how we can create a nested column layout using the floats and we have right now our
+
+14:35.030 --> 14:36.100
+product section.
+
+14:36.140 --> 14:38.510
+So now we can move on and start working on our next section.

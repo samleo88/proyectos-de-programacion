@@ -1,0 +1,463 @@
+WEBVTT
+
+00:00.510 --> 00:06.900
+So let's go to main sources here all the way in the bottom as always we're all just going to say this
+
+00:06.900 --> 00:08.500
+is going to be a post.
+
+00:08.500 --> 00:09.220
+Right.
+
+00:09.330 --> 00:15.960
+So your posts are going to create a lot a lot of space right because there's going to be quite a few
+
+00:15.960 --> 00:18.090
+rules that warning you right away.
+
+00:18.130 --> 00:20.940
+I want to start over here with the most basic one posts right.
+
+00:20.970 --> 00:26.040
+So what we would want for the post and we're going to say this is going to have a background and the
+
+00:26.080 --> 00:27.810
+background as being hash.
+
+00:28.140 --> 00:31.310
+B E B are here like this.
+
+00:31.350 --> 00:33.840
+And then it's going to be seventy four seventy four.
+
+00:33.930 --> 00:34.710
+All right.
+
+00:34.860 --> 00:36.720
+Now that we have this padding.
+
+00:37.080 --> 00:38.240
+Twenty pixels.
+
+00:38.310 --> 00:40.490
+Then we're going to have a zero.
+
+00:40.500 --> 00:43.830
+It's going to be 80 pixels and then have zero on it.
+
+00:43.990 --> 00:50.550
+So we're going to set up the batting and then we're going to have a post container post container and
+
+00:50.690 --> 00:56.740
+here we're going to save the max with here and we're going to say this is going to be 90.
+
+00:56.870 --> 01:00.420
+You right and then we're going to have a margin.
+
+01:00.420 --> 01:02.140
+0 auto Right.
+
+01:02.150 --> 01:05.590
+And again we're just placing the actual whole container in the center.
+
+01:05.790 --> 01:10.920
+And then we're going to have a post item know this and we're going to say this is going to be background
+
+01:10.920 --> 01:18.870
+color and I'm going to say it's going to be hash tag e 0 we no longer have to be right.
+
+01:18.870 --> 01:21.850
+So something like this is 0.
+
+01:22.020 --> 01:24.200
+And two DBI right.
+
+01:24.270 --> 01:32.530
+So then we go ahead and say color and the color is going to be hash tag 1 9 1 7 1 6 1 7 1 6.
+
+01:32.570 --> 01:34.710
+This is going to be our color.
+
+01:34.800 --> 01:39.960
+And then over here we're going to say this is going to be more margin and we're going to say 20 pixels
+
+01:40.770 --> 01:42.790
+right and 0 right.
+
+01:42.810 --> 01:45.120
+So that's going to be margin in between them right.
+
+01:45.290 --> 01:49.760
+So now we're done with post item would go to the actual post image.
+
+01:49.760 --> 01:53.600
+So here I'm going to say post an image.
+
+01:53.680 --> 01:59.360
+Right so now we're just targeting the image and we're going to say this is going to be worth more here.
+
+01:59.460 --> 02:02.470
+I'm going to say 100 percent on this.
+
+02:02.510 --> 02:06.300
+I'm going to say this is going to be this black block right.
+
+02:06.300 --> 02:10.660
+So now that we have this we would want a image container.
+
+02:10.910 --> 02:15.210
+So we're going to go here and we're going to say image container.
+
+02:15.330 --> 02:19.630
+I'm not going to say this is going to be position relative.
+
+02:19.740 --> 02:20.310
+Right.
+
+02:20.400 --> 02:29.100
+And the background and the magnet is going to be a linear linear gradient gradient and again this is
+
+02:29.100 --> 02:43.800
+going to be R-GA G.P.A. 0 0 0 0 7 and then you're going to LGB a 0 0 0 0 7 right.
+
+02:43.860 --> 02:45.630
+So maybe we can change the rate.
+
+02:45.640 --> 02:48.730
+Maybe it's going to be a little darker maybe it looks nicer.
+
+02:48.730 --> 02:50.110
+So zero way.
+
+02:50.420 --> 02:51.470
+Zero.
+
+02:52.000 --> 02:52.650
+All right.
+
+02:52.660 --> 02:59.850
+So two of them are here now do we have this one image container phantasm.
+
+03:00.090 --> 03:05.560
+So we go here class image container over here.
+
+03:05.570 --> 03:07.180
+We're going to see some.
+
+03:07.650 --> 03:15.750
+And what we would want is position to say absolute and then this is going to be left 50 percent and
+
+03:15.750 --> 03:25.530
+it's going to be bottom or top 50 percent top or here 50 percent then we're going to have a transformer
+
+03:25.530 --> 03:36.210
+translate transform translate and it's going to be negative 50 percent and again negative 50 percent.
+
+03:36.250 --> 03:40.340
+Right so now that we have this we would want a font size.
+
+03:40.500 --> 03:43.190
+We're going to say this is going to be 50 pixels.
+
+03:43.310 --> 03:45.770
+So it's going to be quite a big one right.
+
+03:45.810 --> 03:48.680
+Then the color Natcore we're going to go with yellow.
+
+03:48.840 --> 03:54.990
+So e six A F E F TO.
+
+03:55.630 --> 04:01.580
+So now we have this would want a transition and transition is going to be opacity.
+
+04:01.780 --> 04:05.020
+I see no real way to say for four seconds.
+
+04:05.040 --> 04:05.780
+Right.
+
+04:05.880 --> 04:07.620
+And over here the actual opacity.
+
+04:07.680 --> 04:09.520
+Right away set it is zero.
+
+04:09.540 --> 04:15.880
+Right so if it is sitting right now I can see it but obviously once we're all going to be hovering we
+
+04:15.880 --> 04:16.780
+will to be able to.
+
+04:16.790 --> 04:17.590
+Right.
+
+04:17.610 --> 04:20.700
+So obviously all here where is the image container.
+
+04:20.690 --> 04:23.480
+And so it over here right away.
+
+04:23.640 --> 04:27.090
+Copy and paste.
+
+04:27.210 --> 04:29.340
+I can just say hover right.
+
+04:29.340 --> 04:31.480
+And what should happen as we're hovering.
+
+04:31.580 --> 04:37.740
+We're going to say this is going to be Pasotti and this is going to be zero point four here.
+
+04:37.980 --> 04:42.510
+And then for the actual image right here the same image.
+
+04:42.780 --> 04:45.300
+And then the next one is going to be for the phantasm.
+
+04:45.400 --> 04:53.790
+So copy and paste are going to go here and we're going to say font awesome awesome and opacity is going
+
+04:53.790 --> 04:54.480
+to be one.
+
+04:54.480 --> 05:01.290
+All right so one is actually going to be losing the capacity right image the actual phantasm is actually
+
+05:01.290 --> 05:02.120
+going to be gaining.
+
+05:02.130 --> 05:02.610
+Right.
+
+05:02.820 --> 05:07.890
+So if we go back over here we're Bajun C check it out.
+
+05:07.900 --> 05:08.580
+All right.
+
+05:08.620 --> 05:15.380
+I can see that this one is actually losing capacity right and phantasms appearing.
+
+05:15.490 --> 05:18.000
+Now there's one issue right.
+
+05:18.060 --> 05:20.810
+Right now those images are really big.
+
+05:20.850 --> 05:21.160
+Right.
+
+05:21.160 --> 05:23.870
+So we're obviously going to need to go and work on that.
+
+05:23.870 --> 05:24.330
+Right.
+
+05:24.510 --> 05:31.300
+So we're going to go ahead or here and we're going to say this is going to be a text container and all
+
+05:31.300 --> 05:32.970
+this is going to have a paddings.
+
+05:32.970 --> 05:33.790
+All right.
+
+05:33.810 --> 05:38.970
+So I'm going to go all the way over here and the bottom and we're going to say this is going to be text
+
+05:39.850 --> 05:41.380
+contained there.
+
+05:41.480 --> 05:41.780
+Right.
+
+05:41.880 --> 05:50.220
+And we're going to say this is going to be a paddings will say padding 10 pixels going to 5 pixels of
+
+05:50.330 --> 05:54.060
+30 pixels and it will have five pixels high.
+
+05:54.360 --> 06:03.030
+So we're going to have like this it will have a margin for a actual paragraph text container.
+
+06:03.120 --> 06:11.730
+And this is going to be for a paragraph on the same margin 15 pixels or hear 15 pixels that are we're
+
+06:11.730 --> 06:13.420
+going to have a zero.
+
+06:13.470 --> 06:17.150
+And then we're going to 25 pixels and it zero again.
+
+06:17.510 --> 06:18.890
+So something like this.
+
+06:18.990 --> 06:23.970
+And then we're going to have a text container text container
+
+06:26.490 --> 06:30.330
+danger and then we're going to have a link right.
+
+06:30.360 --> 06:39.150
+And what happened to the link when I say text decoration on one down the line they don't want a font
+
+06:39.150 --> 06:50.460
+size 20 pixels and let's make a semi colon padding padding is going to be five pixels.
+
+06:51.030 --> 06:57.030
+Then we're going to have a border here of two big TSOs solid.
+
+06:57.060 --> 06:58.490
+And this is needs to be here.
+
+06:58.540 --> 07:02.030
+So we're going to see e 6.
+
+07:02.400 --> 07:06.410
+An EF 2 EF 2.
+
+07:06.690 --> 07:07.200
+Right.
+
+07:07.310 --> 07:10.660
+So now that we have this we would want a color also.
+
+07:10.650 --> 07:17.070
+And we're going to have the same one that's so color and more use the same one here was going to grab
+
+07:17.070 --> 07:22.470
+this guy and copy over here and say paste.
+
+07:22.690 --> 07:31.880
+Right so now the color has changed and we would want a margin about 20 pixels on this so we just moved
+
+07:31.890 --> 07:36.480
+up a little bit and then we would want as we're hovering right now that's going to be the last one before
+
+07:36.480 --> 07:40.180
+the media before we actually make and responsive.
+
+07:40.230 --> 07:46.200
+So we're going to go over here and we're going to copy this and paste it over here I'm going to say
+
+07:46.300 --> 07:49.140
+however and what should happen is we're hovering.
+
+07:49.140 --> 07:50.450
+We're going to change the colors.
+
+07:50.520 --> 07:53.130
+So we'll see background color.
+
+07:53.320 --> 07:57.880
+And this is going to be hash tag 1 9 1 7 1 6 right.
+
+07:57.900 --> 07:59.040
+So the black one.
+
+07:59.200 --> 08:02.250
+And obviously the color is going to be the same.
+
+08:02.250 --> 08:06.870
+All right so we're going to go here I'm going to say this is going to be water.
+
+08:06.960 --> 08:09.900
+Water color is going to be the same right.
+
+08:09.900 --> 08:11.380
+So check it out.
+
+08:11.400 --> 08:11.660
+Right.
+
+08:11.660 --> 08:16.710
+So as you can see as important as how it's going to look and then we have a media screen that's going
+
+08:16.710 --> 08:19.270
+to be to last ones for the media screen.
+
+08:19.710 --> 08:23.060
+We're here we're going to say that this is going to be here.
+
+08:23.640 --> 08:24.830
+Yes.
+
+08:25.060 --> 08:25.670
+We're here.
+
+08:25.680 --> 08:32.380
+I'm going to say and I don't know what year this was a little bit too early but we needed to see a man
+
+08:33.540 --> 08:42.670
+with men all going to say 5 6 7 5 7 6 0 here and then we're going to close this one out and then we're
+
+08:42.690 --> 08:53.390
+going to have a post or a container or you doing this and then we're going to say this play and then
+
+08:53.400 --> 09:03.390
+we're going to have a great template columns grid template Cong's here template columns and then we're
+
+09:03.390 --> 09:05.860
+going to say this is going to be repeat right.
+
+09:05.880 --> 09:09.250
+And we're going to have two and one for action.
+
+09:09.330 --> 09:09.540
+Right.
+
+09:09.540 --> 09:10.920
+So something like this.
+
+09:11.130 --> 09:20.900
+Then we're going to have a grid column gap grid column gap or call them gap and we're here we're going
+
+09:20.910 --> 09:28.690
+to say this is going to be one of them and then great program grade Roe gap.
+
+09:28.770 --> 09:33.540
+So this is going to be in between the rows we're going to say one him and what we would want to do is
+
+09:33.540 --> 09:40.140
+just copy this or order change this one to 9 9 2.
+
+09:40.190 --> 09:41.720
+I'm going to go into.
+
+09:42.030 --> 09:45.310
+And of course this is going to be repeated is going to be three.
+
+09:45.630 --> 09:50.780
+And once we're done over here with our media screens we just go back to our page.
+
+09:50.820 --> 09:51.190
+Right.
+
+09:51.240 --> 09:54.730
+And we can refresh and you can see that this is we're all going to have right.
+
+09:54.730 --> 10:02.420
+So this is going to be three posts font or some search or here and if we try to make it smaller right
+
+10:02.700 --> 10:03.890
+then it's going to be two of them.
+
+10:03.890 --> 10:04.160
+Right.
+
+10:04.160 --> 10:05.170
+The same thing.
+
+10:05.330 --> 10:08.020
+And if we got a smaller screen this is going to be one of them.
+
+10:08.030 --> 10:08.600
+Right.
+
+10:08.660 --> 10:11.680
+And this is how we can get done with this section.
+
+10:11.780 --> 10:14.920
+And the last section we have left is actually a footer section.

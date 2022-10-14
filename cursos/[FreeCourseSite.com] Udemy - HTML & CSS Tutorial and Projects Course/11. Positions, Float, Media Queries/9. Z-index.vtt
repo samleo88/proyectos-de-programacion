@@ -1,0 +1,424 @@
+WEBVTT
+
+00:00.270 --> 00:07.230
+Another interesting doozy is a Zen index in the CSX and what we're going to do is we're going set up
+
+00:07.230 --> 00:11.420
+some example with some images just so we can see a little bit better.
+
+00:11.610 --> 00:17.470
+And for this you know what I will gonna get rid of all this mumbo jumbo that we had before and see.
+
+00:17.850 --> 00:24.000
+First I'm gonna save it and in then indexation email we all gonna create maybe the same thing we can
+
+00:24.000 --> 00:30.360
+leave the dev but within Dev we'll gonna add some images now we're gonna start with the small one first
+
+00:30.600 --> 00:35.190
+and it doesn't really matter because we're gonna be changing the sizes and let's say here I'm gonna
+
+00:35.190 --> 00:36.650
+be looking for image.
+
+00:36.640 --> 00:42.780
+Now I'm going to start with the small one so I can just say small JPEG and let me add the class because
+
+00:42.780 --> 00:47.110
+we will gonna be adding some changes individually by each of the images.
+
+00:47.220 --> 00:54.100
+So let's copy and paste it first of all it's a class of number two and all can be locked in for class.
+
+00:54.100 --> 00:57.480
+And number three what else we can have.
+
+00:57.480 --> 00:57.680
+Okay.
+
+00:57.720 --> 01:01.650
+So we have small We obviously also want the big one.
+
+01:01.830 --> 01:05.150
+So I'm going to say big j peg and then let's look for the folder.
+
+01:05.190 --> 01:08.700
+And again just for simple reason that I would want them to be different.
+
+01:08.700 --> 01:13.620
+And then you know this was obviously not in a folder but in images and then we're looking for a folder
+
+01:13.620 --> 01:14.400
+image.
+
+01:14.490 --> 01:16.710
+First things first we would need to fix our slate.
+
+01:16.710 --> 01:20.070
+The with here the heights are just massive.
+
+01:20.070 --> 01:22.760
+So let's say for all the images I would like to have.
+
+01:22.830 --> 01:26.640
+I don't know with of two hundred pixels.
+
+01:26.660 --> 01:29.100
+Well let's try it out with 200 pixels.
+
+01:29.100 --> 01:31.950
+And right away the height of two hundred pixels.
+
+01:32.190 --> 01:33.830
+And we'll see what happens.
+
+01:33.840 --> 01:39.480
+So two hundred and two hundred and this is obviously a mess up is not what I want.
+
+01:39.760 --> 01:42.080
+Let's go back over here and let's save it.
+
+01:42.210 --> 01:46.050
+And now we have 200 by 200 so far so good.
+
+01:46.200 --> 01:46.670
+You know what.
+
+01:46.770 --> 01:53.400
+Maybe it's not so far so good because let's do maybe hundred pixels because that way this is gonna look
+
+01:53.460 --> 01:55.260
+a little bit more decent.
+
+01:55.300 --> 01:55.890
+So OK.
+
+01:55.890 --> 01:56.840
+Hundred but hundred.
+
+01:57.270 --> 02:03.240
+Now this is gonna look at what else I would like more for now let's just work with the div and let's
+
+02:03.240 --> 02:09.210
+say for the day of or maybe let's say banner since we have the class already I would want to have some
+
+02:09.210 --> 02:10.260
+margin.
+
+02:10.380 --> 02:14.180
+Now the margins are gonna be like 20 pixels all around.
+
+02:14.190 --> 02:21.690
+So there's going to be some margin and I would like to add some with let's say 70 viewers.
+
+02:21.750 --> 02:28.850
+That's gonna be my with as well as some height with some I don't know 70 view height.
+
+02:29.020 --> 02:31.540
+So 70 view heads let's say.
+
+02:31.560 --> 02:37.680
+So this would be my live and let me add the border right now and for the border I would like to add
+
+02:37.770 --> 02:41.710
+I don't know five pixels solid.
+
+02:41.760 --> 02:43.290
+Let's go with the red.
+
+02:43.290 --> 02:47.370
+So something like this just so we can see where the data is actually sitting.
+
+02:47.370 --> 02:48.150
+Excellent.
+
+02:48.150 --> 02:48.960
+You know what though.
+
+02:49.050 --> 02:53.030
+One thing missing we can maybe do with of a little bit wider.
+
+02:53.130 --> 02:55.040
+So this is going to look a little bit better.
+
+02:55.140 --> 02:55.980
+Now what.
+
+02:55.980 --> 03:00.390
+Well knowledge that stood out something else we're going to say position and since we already have covered
+
+03:00.390 --> 03:03.180
+position absolute let's say oh this is gonna look like.
+
+03:03.750 --> 03:08.490
+So what I'm saying for all the images that we're gonna have to position absolute and again we have already
+
+03:08.490 --> 03:09.460
+covered this.
+
+03:09.480 --> 03:11.280
+So now they're just sitting here.
+
+03:11.280 --> 03:13.590
+Now we have an added position relative yet.
+
+03:13.590 --> 03:18.030
+So that's maybe something we should do because we know that we have an ancestor.
+
+03:18.030 --> 03:20.780
+And for the answers there we would like to add position relative.
+
+03:21.390 --> 03:25.340
+And at the moment what I would like is to control them one by one.
+
+03:25.370 --> 03:31.390
+So since I have classes there is gonna be the image with the class of one and then image with obviously
+
+03:31.410 --> 03:35.740
+class of two and three and let's just first start by positioning them.
+
+03:35.850 --> 03:42.390
+So for the image number one I'm going to say top there's gonna be zero left is gonna be zero then what
+
+03:42.390 --> 03:43.740
+else we're gonna have.
+
+03:43.740 --> 03:47.820
+Now let's just copy and paste it let's say 2 and 3.
+
+03:47.820 --> 03:53.000
+And then lastly here we would need to change different classes than zero.
+
+03:53.070 --> 03:53.300
+Right.
+
+03:53.310 --> 03:54.280
+Number three.
+
+03:54.420 --> 03:57.180
+And then here we're going to have different positions.
+
+03:57.180 --> 04:02.970
+So let's say for number two I would want 10 percent 10 percent from the top 10 percent from the left.
+
+04:03.180 --> 04:07.520
+Same thing or here can do 10 percent from the left.
+
+04:07.530 --> 04:16.080
+And you know what for this guy maybe 20 percent from the top and 20 percent from the left and the moment
+
+04:16.080 --> 04:17.600
+we say well what happens.
+
+04:17.760 --> 04:23.950
+What we're noticing that we're having the images we have the image number one then the image number
+
+04:23.950 --> 04:26.040
+two and the image number three.
+
+04:26.260 --> 04:30.960
+And as we're looking at it we can see that the third one is closer to us.
+
+04:31.060 --> 04:37.120
+Now the reason for that is very simple because this was the third image but this would be the Zen next
+
+04:37.120 --> 04:38.980
+that we're controlling with.
+
+04:39.040 --> 04:39.600
+I'm sorry.
+
+04:39.640 --> 04:41.800
+The access that we're controlling within.
+
+04:42.640 --> 04:49.180
+And the reason why the third one is gonna be the closer because the actual image was the third in line
+
+04:49.540 --> 04:56.650
+and the first one was further away or is further away because it was first on the line.
+
+04:56.710 --> 04:58.270
+So how we can change that.
+
+04:58.270 --> 05:04.410
+Well we know that we have the option of working with ze index that would control this Xie act.
+
+05:05.170 --> 05:06.710
+And why don't we test it up.
+
+05:06.730 --> 05:09.460
+Why don't we have a look of how this is gonna work.
+
+05:09.580 --> 05:13.340
+So let's say for number one we would want to work with Zen.
+
+05:13.720 --> 05:19.330
+Now one thing that I would need to let you know right away is that we've seen X automatically all gonna
+
+05:19.360 --> 05:20.240
+be getting zero.
+
+05:20.680 --> 05:23.330
+So all of them by default are gonna have zero.
+
+05:23.350 --> 05:28.870
+So even though I'm gonna add for the first one zero nothing is gonna change because the rest of them
+
+05:28.870 --> 05:32.230
+also right away have the easy index of zero.
+
+05:32.230 --> 05:38.200
+So instead of what I would like to do either I need to go bigger zero so in my case I could go to 1
+
+05:38.620 --> 05:39.910
+and check this out.
+
+05:39.910 --> 05:47.350
+Now my first one is actually closer to us because we increase this Zen x value on the Zen x property
+
+05:47.800 --> 05:54.520
+or we can do something like this if we know that all of them are by default 0 in a way it doesn't really
+
+05:54.520 --> 05:54.850
+matter.
+
+05:54.850 --> 06:00.250
+I can just say that this was gonna stay zero which again would be the default and then we can say Zen
+
+06:00.250 --> 06:01.910
+X negative 1.
+
+06:02.020 --> 06:07.460
+So that would be for this guy and then for the third one this is gonna be seen next number two.
+
+06:07.480 --> 06:11.680
+So the index and we can just go negative now what do we see.
+
+06:11.680 --> 06:17.620
+We see that the first one even though this shouldn't be like that normally is displayed closer to us
+
+06:18.140 --> 06:21.730
+than the second one is further a little bit away.
+
+06:21.730 --> 06:25.890
+And the third one we're controlling here with the index of negative 2.
+
+06:25.960 --> 06:27.970
+So this one is further and further away.
+
+06:28.320 --> 06:34.120
+And like I said even if I'm gonna come on this out by default this is how it works with z index of zero.
+
+06:34.150 --> 06:37.430
+So that's that's the reason why this is going gonna be displayed closer.
+
+06:37.480 --> 06:39.520
+Now we can have all kinds of values here.
+
+06:39.540 --> 06:40.450
+It doesn't really matter.
+
+06:40.450 --> 06:45.320
+You can write something like this nine hundred ninety nine as long as this value.
+
+06:45.640 --> 06:52.690
+And obviously this is the case if you want to place this one behind the element number two is more negative
+
+06:52.780 --> 06:53.560
+than this guy.
+
+06:53.950 --> 06:59.510
+So instead if I'm gonna write let's say nine hundred and this one I'm going to say nine hundred one
+
+06:59.920 --> 07:02.140
+then you can already guess what's going to happen.
+
+07:02.680 --> 07:09.520
+So now the third image is gonna be displayed closer to us than the one that is number two because we
+
+07:09.520 --> 07:11.580
+changed the z index values.
+
+07:11.650 --> 07:17.080
+However there is one kicker about disease index and that is the simple fact that it will only gonna
+
+07:17.080 --> 07:23.380
+work if you're going to have position relative or position absolute meaning it's not gonna work with
+
+07:23.380 --> 07:24.190
+position static.
+
+07:24.580 --> 07:30.010
+So let's have a look at how this is going to work and in our case what we can do well we can go back
+
+07:30.010 --> 07:33.940
+again to negative 1 as well as negative 2.
+
+07:34.210 --> 07:37.660
+Let's do something like this and this would be negative too.
+
+07:37.810 --> 07:44.080
+You can save it and you know what maybe let's flip around and let's say that we would want I don't know
+
+07:44.320 --> 07:45.000
+to be shot.
+
+07:45.690 --> 07:47.470
+Okay so how this is gonna work.
+
+07:47.710 --> 07:52.140
+Well we can do an opposition static right because we added the.
+
+07:52.180 --> 07:54.740
+For all the images we had of this position absolutely.
+
+07:54.790 --> 07:55.330
+So what if.
+
+07:55.330 --> 08:01.600
+Why don't we go back and why don't we say that for the number two we would like to add positions that
+
+08:02.800 --> 08:03.270
+OK.
+
+08:03.300 --> 08:04.540
+So far so good.
+
+08:04.590 --> 08:07.170
+So this image is still gonna be a front.
+
+08:07.200 --> 08:12.580
+But then let's say in this case we're gonna change this and we're gonna say that you know what the z
+
+08:12.580 --> 08:16.040
+index is not going to be negative but instead of we're gonna go with a positive.
+
+08:16.290 --> 08:21.020
+And we're also gonna go with this guy being positive so we can do something like this.
+
+08:21.030 --> 08:24.810
+So now again we have pretty much default look like we had anyway.
+
+08:24.810 --> 08:27.020
+But you know what I would say hmm.
+
+08:27.360 --> 08:32.800
+I don't like this even though I still have the static one I would like to have design X in my case I'm
+
+08:32.800 --> 08:37.920
+going to say design next is gonna be hundred just so I'm making sure that this would be bigger than
+
+08:37.920 --> 08:43.710
+the previous two and nothing changes the moment we save it because it's not gonna work on the static
+
+08:43.710 --> 08:44.400
+one.
+
+08:44.400 --> 08:47.580
+So we cannot do the static one with AC next.
+
+08:47.680 --> 08:53.880
+However if we're gonna change this one relative I say this is gonna be our up front because we can use
+
+08:53.880 --> 08:56.370
+it with relative as well as with absolute.

@@ -1,0 +1,19 @@
+WEBVTT
+
+00:00.300 --> 00:05.030
+At this point we already know how to add background colors in CSI as well.
+
+00:05.050 --> 00:06.960
+What about images as background.
+
+00:07.440 --> 00:12.720
+I think it would be really cool if we would learn that not only will learn how to use background image
+
+00:12.720 --> 00:13.480
+properties.
+
+00:13.530 --> 00:20.190
+We're also going to take a closer look at shorthand syntax which in essence will gonna save us the unnecessary
+
+00:20.190 --> 00:20.600
+typing.

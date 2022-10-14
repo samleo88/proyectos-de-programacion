@@ -1,0 +1,93 @@
+1
+
+00:00:00,000  -->  00:00:04,350
+Hey guys, the last part of requests
+package that we're going to be
+
+2
+
+00:00:04,350  -->  00:00:09,660
+discussing is the headers. So, we've been
+sending very few headers here and
+
+3
+
+00:00:09,660  -->  00:00:14,130
+there's actually quite a few more you
+can send. If you're not familiar with
+
+4
+
+00:00:14,130  -->  00:00:16,800
+headers i recommend reading up on them,
+
+5
+
+00:00:16,800  -->  00:00:22,380
+there's a lot of different ways you can
+spoof rendering engines and browsers if
+
+6
+
+00:00:22,380  -->  00:00:27,420
+you need to, you can spoof quite a bit of
+information, or just configure the post
+
+7
+
+00:00:27,420  -->  00:00:32,099
+request or get request to how it needs
+to be sent by using headers, but we
+
+8
+
+00:00:32,099  -->  00:00:36,329
+didn't discuss is actually how to get
+headers back and how to look at those. So,
+
+9
+
+00:00:36,329  -->  00:00:40,680
+basically it's really simple you just
+print out or do whatever you want with
+
+10
+
+00:00:40,680  -->  00:00:45,030
+the request object at the headers
+property.
+
+11
+
+00:00:45,030  -->  00:00:50,399
+So let's go ahead and save this and run
+this again, and you'll see that we've got
+
+12
+
+00:00:50,399  -->  00:00:56,640
+quite a few headers sent back from the
+server. So, max-age=0, Transfer Encoding,
+
+13
+
+00:00:56,640  -->  00:01:00,660
+chunked, etc., and if this is all
+gibberish to you that's ok, that's not
+
+14
+
+00:01:00,660  -->  00:01:05,460
+really what we're focusing on, but if you
+do need it then it's all right there if
+
+15
+
+00:01:05,460  -->  00:01:08,729
+you want to debug some stuff, or if you
+just want to capture it save it
+
+16
+
+00:01:08,729  -->  00:01:09,229
+somewhere.

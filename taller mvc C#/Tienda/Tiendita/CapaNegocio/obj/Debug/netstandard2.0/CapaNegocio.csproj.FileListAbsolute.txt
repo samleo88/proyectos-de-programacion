@@ -1,0 +1,4 @@
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\CapaNegocio\obj\Debug\netstandard2.0\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\CapaNegocio\obj\Debug\netstandard2.0\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\CapaNegocio\obj\Debug\netstandard2.0\CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\CapaNegocio\obj\Debug\netstandard2.0\CapaNegocio.AssemblyInfo.cs

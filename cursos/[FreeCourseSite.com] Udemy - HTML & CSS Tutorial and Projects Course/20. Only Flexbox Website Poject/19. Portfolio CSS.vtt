@@ -1,0 +1,673 @@
+WEBVTT
+
+00:00.150 --> 00:08.410
+And the first thing in the C Ss we're going to say this is going to be hash tag poort we know this and
+
+00:08.530 --> 00:13.680
+we're going to say padding 40 pixels like this all around.
+
+00:13.690 --> 00:15.140
+And I have a background.
+
+00:15.210 --> 00:18.830
+And this is going to be hash tag see 1999.
+
+00:19.010 --> 00:20.280
+Here is a great one.
+
+00:20.510 --> 00:23.670
+And then I'm going to right away away got this work I'm right.
+
+00:23.700 --> 00:25.740
+So remember this was the whole article.
+
+00:26.100 --> 00:27.840
+So here I'm going to say work.
+
+00:28.290 --> 00:34.900
+And then first we're going to say position route and the position relative was actually for this overlay.
+
+00:34.920 --> 00:35.280
+Right.
+
+00:35.280 --> 00:41.190
+So in order to get this effect right we need position relative for the whole box.
+
+00:41.190 --> 00:46.680
+And then over here Disney I mean the one that's actually disappearing and appearing right this is going
+
+00:46.680 --> 00:47.850
+to be absolutely right.
+
+00:47.850 --> 00:51.220
+So just remember that then we all have position.
+
+00:51.310 --> 00:52.740
+We're here for the whole world.
+
+00:53.190 --> 01:00.120
+Then for the whole thing is going to say grown linear gradient and that's going to create this effect
+
+01:00.150 --> 01:04.410
+that as we're hovering right there is going to be dark more here effect.
+
+01:04.670 --> 01:13.440
+Some the r g b c this is going to be 0 0 0 here and not let's say 7.
+
+01:13.530 --> 01:15.170
+It's almost black.
+
+01:15.320 --> 01:21.300
+Another one are G-B a 0 0 0 0 point seven here.
+
+01:21.390 --> 01:21.960
+Right.
+
+01:21.960 --> 01:24.010
+So now can see what happens right.
+
+01:24.030 --> 01:28.090
+So this is going to be on the back right of the image.
+
+01:28.310 --> 01:34.340
+And right now we're going to do is we are going to send this one on like this and we're here to say
+
+01:34.360 --> 01:40.580
+for the actual work we're going to say max height and let's leave it at 300 pixels.
+
+01:40.670 --> 01:43.480
+Right so this shouldn't be more than 300 pixels.
+
+01:43.480 --> 01:48.840
+We're here to say more were going to say radius and we're going to save five pixels.
+
+01:49.060 --> 01:55.000
+That's for around the edges and maybe actually look more than 10.
+
+01:55.410 --> 02:03.350
+Then after that or here we're going to have a margin and we're going to say 10 pixels and zero willingness.
+
+02:03.690 --> 02:07.050
+And then the last thing is going to be over here a overflow.
+
+02:07.050 --> 02:07.660
+Hidden.
+
+02:07.830 --> 02:12.680
+But again we're going to write it here overflow and over here here.
+
+02:12.870 --> 02:18.240
+And again this is going to be for the actual text text when it's actually going to be appearing from
+
+02:18.240 --> 02:19.260
+the bottom right.
+
+02:19.290 --> 02:22.640
+So make a comment that this is going to be Image overlay.
+
+02:22.770 --> 02:27.830
+Just so you remember why we're actually doing this because obviously right now nothing changes.
+
+02:27.870 --> 02:33.480
+If we had an image of it then or here we would want to start working with an image some of them say
+
+02:33.480 --> 02:42.720
+port folio and I'm going to say image or here I'm going to have display block like this first then I'm
+
+02:42.720 --> 02:48.580
+going to say with and without one actually 100 percent to see what happened.
+
+02:48.570 --> 02:54.540
+I'm basically the image right now is going to be 100 percent and then again you are going to have a
+
+02:54.540 --> 03:00.980
+max height and are going to say 300 pixels 300 pixels on this.
+
+03:01.160 --> 03:06.540
+And then after that we would want a cursor and we're going to say pointer's So as we're actually hovering
+
+03:06.690 --> 03:12.670
+around the image right this would be cursor pointer and then we're going to say we're here a passerby
+
+03:13.560 --> 03:20.940
+and we're going to set it equal to one and then we'll have a transition or transition transition we're
+
+03:20.940 --> 03:29.130
+going to say this is going to be a opacity and we're all going to say two seconds is this and then let's
+
+03:29.130 --> 03:31.090
+go to hovering effect.
+
+03:31.130 --> 03:40.210
+So I'm going to support forwell image here hover in or here what we would have is very simple.
+
+03:40.260 --> 03:44.960
+We're going to say opacity zero point four as we're actually hovering.
+
+03:44.990 --> 03:45.420
+All right.
+
+03:45.420 --> 03:51.010
+So this is what happens right now I can see that they are passing the changes or the text.
+
+03:51.600 --> 03:58.890
+However Greg you can see that as the opacity changes the background comes into play.
+
+03:59.080 --> 04:03.790
+Or here we can actually do a maybe a little bit different it.
+
+04:03.930 --> 04:09.950
+So instead of max height here right we can try it out what will happen with men.
+
+04:10.020 --> 04:16.200
+Men height all here and now you can see that it totally goes over the actual image.
+
+04:16.200 --> 04:16.650
+Right.
+
+04:16.830 --> 04:21.550
+So this is how we can actually change it from men height let's say over here right.
+
+04:21.570 --> 04:25.850
+So now we're saying this is actually going to be 300 pixels right.
+
+04:26.070 --> 04:29.370
+And this over here is now going to be more than 300 pixels.
+
+04:29.430 --> 04:36.390
+Now we're here to go back all here and you can see that if I don't have this over head and had you can
+
+04:36.390 --> 04:40.070
+see this this little text be peeking out right.
+
+04:40.170 --> 04:45.410
+But if we actually come on this right now you can see that it actually disappeared.
+
+04:45.810 --> 04:50.430
+Now after that what we would want to do is we would want to actually going to start working with this
+
+04:50.520 --> 04:54.070
+image overlay and how this would actually work.
+
+04:54.180 --> 04:54.770
+Right.
+
+04:54.780 --> 05:02.190
+So here what I'm going to say first is I'm going to say is MCCLYMONT class image we're like this.
+
+05:02.420 --> 05:06.070
+And remember when we had position relative over here right.
+
+05:06.260 --> 05:11.420
+This is going to be position and this is going to be absolute like this.
+
+05:11.520 --> 05:18.500
+You going to have a bottom here and we're going to say we're here zero and you know what let's go back
+
+05:18.500 --> 05:20.860
+over here and I can see where it is right.
+
+05:20.900 --> 05:23.270
+So now we have an absolute right.
+
+05:23.390 --> 05:26.690
+But now we place it all the way or here at the bottom.
+
+05:26.690 --> 05:34.530
+And what we want to do is now we would want a left or so 0 say left and left.
+
+05:34.700 --> 05:42.020
+We're going to say zero here but now we need to put some mark on and on here the same thing right now
+
+05:42.030 --> 05:47.430
+is do a with of 100 percent with.
+
+05:47.450 --> 05:51.040
+We're here with Hundred percent.
+
+05:51.200 --> 05:56.600
+And then over here we're going to have is a height of hundred pixels on here like this.
+
+05:56.600 --> 05:57.030
+Right.
+
+05:57.200 --> 06:00.310
+So we made this whole thing hundred pixels high.
+
+06:00.320 --> 06:00.880
+All right.
+
+06:00.890 --> 06:02.870
+So you can see or hear this line.
+
+06:02.930 --> 06:04.660
+This is your 100 pixels.
+
+06:04.850 --> 06:08.730
+And again it's an arbitrary value you can use whatever you want.
+
+06:08.780 --> 06:10.960
+Actually you're your.
+
+06:11.390 --> 06:17.460
+And the next thing that we would want to do is actually have a margin bottom of negative hand.
+
+06:17.490 --> 06:19.680
+Right so basically that's push down.
+
+06:19.700 --> 06:25.460
+So I'm going to see or hear margin bottom and I'm going to say negative hundred pixels right.
+
+06:25.490 --> 06:29.560
+And obviously the way it works is if the height over here is a hundred pixels right.
+
+06:29.570 --> 06:31.980
+What I'm doing here is pushing it all the way down.
+
+06:32.090 --> 06:38.930
+And again if I go back over here and come and this more flow here in right you can see where is this
+
+06:38.930 --> 06:39.640
+guy right.
+
+06:39.830 --> 06:45.800
+So I push it down but if the old hit is not set and actually would actually still be shown.
+
+06:45.880 --> 06:46.220
+Right.
+
+06:46.340 --> 06:52.640
+So therefore we're using or hit it and let's leave it for now just so we can see what we're.
+
+06:52.670 --> 06:54.750
+What other things we're having right.
+
+06:54.930 --> 06:59.540
+Otherwise if I'm going to hide it right you're not going to be able to see and I get and we can do two
+
+06:59.540 --> 07:00.610
+ways right.
+
+07:00.650 --> 07:04.950
+We can actually uncommon this one with maybe not not have the margin yet right.
+
+07:05.000 --> 07:09.240
+So let's go here to margin bottom let's uncommon this one right.
+
+07:09.260 --> 07:11.820
+You can see where we still have this thing right.
+
+07:11.860 --> 07:14.990
+And what we're going to have is we're going to use a flex property.
+
+07:15.110 --> 07:17.640
+So we're going to say we're here first of all.
+
+07:18.070 --> 07:22.240
+First of all this play and we're going to say flex on here.
+
+07:22.370 --> 07:24.710
+Right and I can see that side by side.
+
+07:24.830 --> 07:31.700
+Then we're going to have a justified content space on here between then we are going to have a a line
+
+07:32.380 --> 07:37.840
+and we're here we're going to say a line items Santror because I want to place them both in the middle.
+
+07:38.410 --> 07:38.960
+This.
+
+07:39.200 --> 07:48.020
+Then after that we would want is actually a padding zero top bottom but 20 pixels on the sides.
+
+07:48.330 --> 07:51.860
+So here now I can see that we actually push them on each side.
+
+07:52.130 --> 07:54.740
+And then after that we would want a background.
+
+07:55.040 --> 08:04.610
+And again really your choice of color what would you want is 1 4 7 1 4 7 1 4 7.
+
+08:05.450 --> 08:10.740
+Right so the gray one or here and then what we want is actually transition right.
+
+08:10.730 --> 08:16.820
+So I'm going to say on here transition and we're going to transition margin I'm going to see margin
+
+08:17.290 --> 08:21.060
+two seconds ease on here he's right.
+
+08:21.290 --> 08:28.430
+And what's going to happen over here is obviously read knowledge's do the margin bottom line let's actually
+
+08:28.430 --> 08:30.260
+common this out.
+
+08:30.350 --> 08:30.700
+Right.
+
+08:30.740 --> 08:33.170
+And I can see that we have a modern bottom.
+
+08:33.290 --> 08:35.930
+If I said on here you can see now this disappears.
+
+08:36.140 --> 08:43.180
+However if we're going to go back to more cover I'm going to say work over here.
+
+08:43.190 --> 08:51.740
+When I say image overlay over here I'm going to say margin bottom zero real like this.
+
+08:51.740 --> 08:54.850
+So now this is only had to happen as I'm hovering right.
+
+08:55.070 --> 09:00.290
+So as you can see as I'm hovering You can see the first of all the background changes and or here it
+
+09:00.290 --> 09:04.450
+appears right and the same or the same or.
+
+09:04.830 --> 09:05.210
+Right.
+
+09:05.210 --> 09:10.140
+And if we go over here right this should also work the same or here.
+
+09:10.250 --> 09:18.620
+Now the next thing we want to do is actually work with these values right with a heading three with
+
+09:18.620 --> 09:22.380
+a phantasm or here with an actual button.
+
+09:22.500 --> 09:23.120
+Right.
+
+09:23.210 --> 09:28.250
+So what I'm going to do here again we're is going to commandeers guy out right so we can see actually
+
+09:28.250 --> 09:29.020
+where it is.
+
+09:29.240 --> 09:30.930
+And let's add some styles.
+
+09:31.040 --> 09:38.300
+So I'm going to say image overlay and I'm going to say this is going to be let's say starting with you
+
+09:38.300 --> 09:45.040
+know what now let's do image text image text and I'm going to say heading 3 right.
+
+09:45.050 --> 09:51.860
+And what should be on here first I'm going to say this is going to be text transform and we're going
+
+09:51.860 --> 10:01.010
+to say uppercase then we're going to have a font size 20 20 pixels here then we're going to have a margin
+
+10:01.010 --> 10:05.460
+bottom five pixels using this color.
+
+10:05.570 --> 10:10.760
+We're going to use a hash that F5 F5 F5 and this.
+
+10:10.800 --> 10:12.560
+And now let's go over here to the font.
+
+10:12.560 --> 10:13.400
+Awesome.
+
+10:13.630 --> 10:20.780
+And when you say image delay and we're going to say Funtown some on here like this and we're going to
+
+10:20.780 --> 10:26.920
+have a font size over here and this is going to be 30 pixels.
+
+10:27.280 --> 10:31.880
+And then over here we're going to say this is going to be a color and we're going to use the blue color
+
+10:31.880 --> 10:35.670
+so I'm going to say or hear a hash tag right.
+
+10:35.690 --> 10:45.050
+So this is going to be hash tag and this is going to be a to b and 0 9 8 0.
+
+10:45.080 --> 10:50.390
+Right so now we have the blue color that we're going to have a padding and pixels.
+
+10:50.390 --> 10:57.500
+Then over here we're going to have a background and this is going to be hash like F5 F5 F5 here like
+
+10:57.560 --> 10:58.340
+this.
+
+10:58.340 --> 11:00.930
+And then we have a more a radius of 50.
+
+11:01.100 --> 11:05.960
+So I'm going to say border right here is 50 percent.
+
+11:05.960 --> 11:10.820
+Knowing this and then I got to we're going to have this separate transition or here for this guy.
+
+11:11.070 --> 11:21.960
+So I'm going to say transition in order here I'm going to say Trents forum on here two seconds is right
+
+11:22.400 --> 11:29.720
+and the background is here two seconds is either here right.
+
+11:29.720 --> 11:30.670
+I always say this.
+
+11:30.680 --> 11:34.090
+And now we're going to go to actual hovering effect right.
+
+11:34.160 --> 11:43.310
+So I'm going to say image here we're away and we're going to say from some one here like this and then
+
+11:43.310 --> 11:49.610
+we're going to say for a hovering right we're going to have my core here and we're going to say how
+
+11:49.610 --> 11:52.300
+we're all going to ride over here.
+
+11:52.310 --> 12:01.180
+We're going to say transform this say transform and this guy we're going to transform to translate Why
+
+12:01.540 --> 12:07.390
+so translate why we're here and we're going to say negative pixels.
+
+12:07.490 --> 12:12.770
+So as we were hovering over it's actually going to move up and pixels and that this is going to be a
+
+12:12.770 --> 12:14.040
+different ground.
+
+12:14.270 --> 12:23.530
+So the macaronis hashtags Zero Eight two to three eight or a year and all you can see what happens right.
+
+12:23.810 --> 12:27.480
+As you can see as I'm going to be hovering right this is what's going to happen.
+
+12:27.580 --> 12:38.240
+And then after that we would want a section button section here between this and here we're going to
+
+12:38.240 --> 12:39.990
+say text online.
+
+12:40.200 --> 12:47.600
+Going to say Center Yes and that over here I'm going to say a margin I don't know where this is going
+
+12:47.600 --> 12:56.460
+to be 20 pixels here then this is going to be zero and all of this is going to be 10 pixels.
+
+12:56.460 --> 12:57.100
+Right.
+
+12:57.140 --> 13:00.020
+And over here this is going to be another zero.
+
+13:00.090 --> 13:07.730
+And actually I'm already starting to apply styles to something that I didn't create in IMO in a very
+
+13:07.820 --> 13:09.720
+actually bottom right.
+
+13:09.790 --> 13:12.210
+We actually would need to create a button.
+
+13:12.350 --> 13:17.300
+So let's go back over here and here you can see that section right.
+
+13:17.300 --> 13:19.920
+This is going to be the end of portfolio.
+
+13:19.920 --> 13:21.020
+All right.
+
+13:21.260 --> 13:22.810
+Well we're going to do here.
+
+13:23.010 --> 13:28.250
+We're going to say that this is going there's going to be a section button some say we're here and this
+
+13:28.250 --> 13:35.780
+is going to be div where the class of Section really between press tab over here we're going to have
+
+13:35.840 --> 13:44.720
+a link and we're going to press tab with the link hashtag over here and are going to have a far far
+
+13:44.720 --> 13:49.780
+hour here and this is going to be a light bulb.
+
+13:49.850 --> 13:55.520
+Oh and we're going to press time again and our hero is going to write simply that this is going to be
+
+13:55.620 --> 14:01.890
+X or more projects more projects.
+
+14:01.930 --> 14:02.470
+Right.
+
+14:02.470 --> 14:04.630
+So we say again the amount.
+
+14:04.830 --> 14:06.640
+And now this should actually work.
+
+14:06.640 --> 14:06.880
+Right.
+
+14:06.880 --> 14:10.180
+So we'll then have a section between.
+
+14:10.510 --> 14:12.080
+So it's going back on here.
+
+14:12.250 --> 14:17.650
+And we have a section between tax law and center margin like this right.
+
+14:17.710 --> 14:22.710
+And then let's add some more styles or here for the actual link.
+
+14:23.110 --> 14:29.680
+So what I'm going to say here is I'm going to say very simple and this is going to be section between
+
+14:29.770 --> 14:35.800
+a right to know I'm working with going on here I'm going to say this play and we're going to say in
+
+14:35.880 --> 14:46.330
+mine block this and we're going to have a padding 0.5 AMS like this and you can see what we're working
+
+14:46.330 --> 14:47.580
+on here right.
+
+14:47.650 --> 14:51.250
+And then we'll will have a text decoration.
+
+14:51.250 --> 14:57.430
+None here and there we're going to have a font size 30 pixels.
+
+14:57.520 --> 15:08.370
+Then after that we're going to have here a color and color is going to be EF 5 5 5 5.
+
+15:08.950 --> 15:12.060
+And the background and the background is going to be the moon.
+
+15:12.250 --> 15:23.680
+So we're going to hashtag to be 9 8 0 here so have zero blue background and or here are going to have
+
+15:23.770 --> 15:25.240
+a transition again.
+
+15:25.490 --> 15:25.770
+Right.
+
+15:25.790 --> 15:30.530
+So I'm going to say background 2 seconds.
+
+15:30.550 --> 15:31.830
+He is.
+
+15:31.890 --> 15:33.850
+And then we're going to have a caller.
+
+15:34.180 --> 15:37.840
+Two seconds is he is here.
+
+15:37.840 --> 15:39.870
+So both of those things are going to change.
+
+15:40.060 --> 15:46.660
+So let's go back over here and we're going to say this is going to be section or here section and this
+
+15:46.660 --> 15:53.640
+is going to be between a and we're going to have our own or here we're going to write a color.
+
+15:53.710 --> 16:03.020
+And again this is going to be the blue color print so we can just grab this guy over here and copy and
+
+16:03.020 --> 16:07.080
+pasted over here and then we're going to have a background.
+
+16:07.310 --> 16:10.110
+5 5 5 1 here.
+
+16:10.130 --> 16:12.320
+So basically it's going to be the opposite way.
+
+16:12.350 --> 16:12.990
+Right.
+
+16:13.040 --> 16:17.080
+So now I can see this is going to be white and this is going to be that afternoon.
+
+16:17.090 --> 16:19.350
+Let's do one last thing.
+
+16:19.570 --> 16:31.720
+I'm going to say a section on here between a class of F A and font size let's say 40 40 pixels or we're
+
+16:31.750 --> 16:33.800
+all going to say margin right.
+
+16:33.950 --> 16:36.890
+And this is going to be 10 pixels.
+
+16:37.040 --> 16:43.340
+So basically we just pushed this guy a little bit away from from the actual text and now we're actually
+
+16:43.340 --> 16:48.110
+ready to go back over here where we are uncommon in margin bottom.
+
+16:48.150 --> 16:49.290
+Going back over here.
+
+16:49.370 --> 16:50.990
+Now it's going to be coming in.
+
+16:51.090 --> 16:53.690
+And now let's add some media queries.
+
+16:53.780 --> 16:55.370
+So this would be responsive.

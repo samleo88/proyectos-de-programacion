@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.090 --> 00:01.000
+All right all right.
+
+00:01.230 --> 00:04.740
+I know you're eager to start working with actual properties and values.
+
+00:04.740 --> 00:11.040
+So here it goes even though we have already used color properties pretty much for all our examples why
+
+00:11.040 --> 00:16.980
+don't we start with colors and then we're going to go from there and we'll start very simply by looking
+
+00:16.980 --> 00:23.340
+at two properties that you'll use most of the time with colors color property responsible for the color
+
+00:23.340 --> 00:27.900
+of the text and background color responsible for the color of the background.
+
+00:27.900 --> 00:30.370
+First let's practice with some more Ashley and.
+
+00:30.540 --> 00:35.540
+So I'm gonna head over to my index agency now and you know what maybe before we do that I'm gonna get
+
+00:35.540 --> 00:41.030
+rid of these paragraphs and whatever Asterix I'm not gonna need it right now.
+
+00:41.130 --> 00:47.460
+And then within the next session you know I'm just gonna create basically two headings with each of
+
+00:47.460 --> 00:52.350
+them having a separate div or I'm sorry not just Div I would separate ideas.
+
+00:52.410 --> 00:57.060
+So I'm going to say let's say there's going to be hanging three and within having three we're gonna
+
+00:57.090 --> 01:05.750
+write out an I.D. and let's call this first and this is just gonna be I am heading adding number one.
+
+01:05.760 --> 01:08.580
+And by the way I notice that all the time a misspelling this.
+
+01:08.970 --> 01:10.440
+So if you are annoyed by this.
+
+01:10.440 --> 01:14.100
+My apologies but unfortunately that's what happens.
+
+01:14.100 --> 01:17.970
+I do like the misspelled stuff so let's right here second.
+
+01:18.150 --> 01:19.750
+So I'm gonna have two headings.
+
+01:19.830 --> 01:26.340
+One is gonna be number and one let's say and the other one is gonna be number two.
+
+01:26.340 --> 01:28.470
+So let's see how this is gonna look like.
+
+01:28.470 --> 01:30.650
+Very simply we have two headings.
+
+01:30.810 --> 01:36.950
+Now I'm gonna head over back to Celsius as like I said I'm going to start working with the color properties.
+
+01:37.020 --> 01:39.120
+Now we're not gonna look at the values right now.
+
+01:39.120 --> 01:41.440
+Meaning all can I use the most basic ones.
+
+01:41.460 --> 01:48.330
+Those are all gonna cover in next videos but let's just start by looking at the properties that you
+
+01:48.330 --> 01:50.300
+will use all the time with your colors.
+
+01:50.310 --> 01:55.490
+So first let's start by selecting a div now the div or I'm sorry the I.D..
+
+01:55.560 --> 02:02.850
+Some reason I keep naming my I.D. the divs and my first I.D. is going to have color.
+
+02:02.930 --> 02:04.980
+Now the color property again could be anything.
+
+02:05.400 --> 02:10.140
+We're gonna go with I don't know something like this and this is gonna be my color and then we're looking
+
+02:10.140 --> 02:11.530
+for the background color.
+
+02:11.610 --> 02:16.320
+Now the background color is I going to be responsible for the background of the moment I'm gonna save
+
+02:16.320 --> 02:16.670
+it.
+
+02:16.710 --> 02:23.070
+Notice right now my I.D. with a name first is gonna look like this.
+
+02:23.070 --> 02:26.470
+So it's gonna have this background and obviously this would be the color.
+
+02:26.750 --> 02:31.830
+And again this would work with any element that you would like to apart from obviously something like
+
+02:31.890 --> 02:37.890
+image where image is totally separate HDMI element of let's say it would work with the link it would
+
+02:37.890 --> 02:41.400
+work with the paragraph now with the links there are some caveats to it.
+
+02:42.400 --> 02:47.410
+But generally speaking every time you would want the color of the text to be some kind of color you
+
+02:47.410 --> 02:48.930
+would use the code properly.
+
+02:48.940 --> 02:52.960
+And every time you would want a background you use the background color property.
+
+02:52.960 --> 02:58.930
+Now let's also test that out for the second Heidi because I would like to show you where the background
+
+02:58.930 --> 03:00.780
+actually has the shorthand.
+
+03:00.790 --> 03:05.700
+So I'm gonna go here and we're going to say that there is gonna be obviously the idea.
+
+03:05.710 --> 03:08.140
+Second I believe that's how he named it.
+
+03:08.650 --> 03:11.130
+And yeah let's again use some kind of color.
+
+03:11.170 --> 03:14.220
+Now this is just gonna be some crimson or something like this.
+
+03:14.440 --> 03:17.720
+And then let's work with the background now with the background.
+
+03:17.770 --> 03:24.410
+Eventually will and also look at the background images and what happens is that all images we would
+
+03:24.410 --> 03:28.700
+use something like this and again we're not going to cover this in a great detail right now because
+
+03:28.700 --> 03:33.950
+we're going to look at it later but at the end of the day we can combine both of these properties here
+
+03:34.340 --> 03:35.900
+and just write the shorthand.
+
+03:35.900 --> 03:38.910
+And this is something that you're going to see a lot in a C assess.
+
+03:39.080 --> 03:43.710
+And obviously we're going to cover this a lot because we can do the same thing we had let's say pairings
+
+03:43.730 --> 03:45.820
+or margin and you get an idea.
+
+03:45.830 --> 03:50.950
+So in our case instead of writing the long way where we're just looking for the color we can just write
+
+03:50.950 --> 03:51.600
+background.
+
+03:51.650 --> 03:56.360
+And then here we can write either the color or later on we're obviously going to start working with
+
+03:56.360 --> 04:01.630
+images as our background so in our case let's just say that this is gonna be yellow and we can save
+
+04:01.630 --> 04:01.850
+it.
+
+04:01.870 --> 04:04.370
+And notice that it's going to work exactly the same way.
+
+04:04.940 --> 04:10.820
+So just please be aware that you can use background color just as you're working on the color but later
+
+04:10.820 --> 04:16.010
+on as we're going to start work with the images we're also can use the background shorthand where we
+
+04:16.010 --> 04:19.820
+just write background and then whatever value we're typing here for the color.

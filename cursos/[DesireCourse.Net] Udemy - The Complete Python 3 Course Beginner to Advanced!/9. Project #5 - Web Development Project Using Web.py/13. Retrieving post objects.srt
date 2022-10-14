@@ -1,0 +1,311 @@
+1
+
+00:00:00,000  -->  00:00:04,049
+Hey guys, so now we've got our posts in
+the database and they're entirely
+
+2
+
+00:00:04,049  -->  00:00:07,589
+useless to us because we can't see them
+on the front end, so what we're going to
+
+3
+
+00:00:07,589  -->  00:00:12,179
+do is we're going to turn this little
+static code right here into a dynamic
+
+4
+
+00:00:12,179  -->  00:00:17,340
+repeating content based on all posts
+that we bring out of the database. So how
+
+5
+
+00:00:17,340  -->  00:00:21,390
+we're going to do that we're going to
+jump into the Posts model again, and
+
+6
+
+00:00:21,390  -->  00:00:30,510
+we're going to "def get_all_posts:" and this
+is going to be simple,
+
+7
+
+00:00:31,019  -->  00:00:41,430
+this is going to be "all_posts = self.Post.find( )" and
+
+8
+
+00:00:41,430  -->  00:00:44,399
+then what we're going to have to do is,
+and this is where it's going to get a
+
+9
+
+00:00:44,399  -->  00:00:48,870
+little tricky, when we pull out the
+posts from the database we can navigate
+
+10
+
+00:00:48,870  -->  00:00:54,059
+them in Python but we won't be able to
+navigate them in the template files. So
+
+11
+
+00:00:54,059  -->  00:01:00,480
+what we've got to do is we've got to
+manually kind of recreate a list of
+
+12
+
+00:01:00,480  -->  00:01:05,460
+posts using Python dictionaries rather
+than pymongo cursors, and i'll show you
+
+13
+
+00:01:05,460  -->  00:01:09,299
+guys why right now. So, we're going to get
+all posts,
+
+14
+
+00:01:09,299  -->  00:01:14,430
+we're just going, we need to actually get
+the user of the post as well, so "for post in
+
+15
+
+00:01:14,430  -->  00:01:17,040
+all_posts:"
+
+16
+
+00:01:17,040  -->  00:01:29,340
+Let's set posts.user = self.Users.find_one( )" and here we're going
+
+17
+
+00:01:29,340  -->  00:01:36,299
+to look for "{"username": post.username}"  because we are storing that, and then
+
+18
+
+00:01:36,299  -->  00:01:43,320
+we're going to just "return all_posts" Now
+in our controller what we've got to do,
+
+19
+
+00:01:43,320  -->  00:01:48,329
+and we've got to make a few changes here and in the home file, let's jump up here
+
+20
+
+00:01:48,329  -->  00:01:53,490
+to the home file. We've got the
+post model so let's jump down instantiate
+
+21
+
+00:01:53,490  -->  00:01:56,490
+it, whoa what just happened there?
+
+22
+
+00:02:00,930  -->  00:02:11,820
+So let's go ahead and instantiate the
+"post_model = Posts.Posts( )" "posts = post_model.get_all_posts( )"
+
+23
+
+00:02:11,820  -->  00:02:28,290
+and then what we're going to do is we're
+going to pass "posts" into the home
+
+24
+
+00:02:28,290  -->  00:02:32,250
+method, and then we're going to jump over into the Home file and we're going to
+
+25
+
+00:02:32,250  -->  00:02:41,130
+"$def with (posts)" and then up here at the top, actually right here before the posts
+
+26
+
+00:02:41,130  -->  00:02:45,480
+begin, i'm just going to print out "$posts"
+and you guys are going to see what
+
+27
+
+00:02:45,480  -->  00:02:56,430
+happens. We're getting the server error and that's because...ok, one sec.
+
+28
+
+00:03:00,880  -->  00:03:12,070
+It's that all right, let's change this to
+this, start again. We're still getting an
+
+29
+
+00:03:12,070  -->  00:03:19,060
+error because we need to do that in both
+places here, we can't access them as an
+
+30
+
+00:03:19,060  -->  00:03:29,350
+object if they're a dictionary. There we
+go. Now you see we get a map object. What
+
+31
+
+00:03:29,350  -->  00:03:40,030
+I'm going to do in the Home file is I'm
+going to go "$for post in posts:" "$post" I'm going to try
+
+32
+
+00:03:40,030  -->  00:03:45,160
+and print out each post. You guys are going to see this didn't work very well at all,
+
+33
+
+00:03:45,160  -->  00:03:51,490
+and this is because it is a map object,
+and so the stuff in here the template
+
+34
+
+00:03:51,490  -->  00:03:53,560
+doesn't really know what to do with it.
+
+35
+
+00:03:53,560  -->  00:03:56,830
+So what we have to do as I told you guys
+before we're going to come over the
+
+36
+
+00:03:56,830  -->  00:04:03,100
+Posts model here, we're going to create a
+new variable called "new_posts = [ ]"
+
+37
+
+00:04:03,100  -->  00:04:11,170
+and then for, actually let's do this but that, because we can make
+
+38
+
+00:04:11,170  -->  00:04:15,250
+things a lot easier, i'll show you guys
+why. So just before the for statement
+
+39
+
+00:04:15,250  -->  00:04:19,630
+here we're going to add a new variable
+called posts, and for each post in all posts
+
+40
+
+00:04:19,630  -->  00:04:27,970
+we're going to go "new_posts.append(post)" and then
+
+41
+
+00:04:27,970  -->  00:04:35,050
+instead of returning all posts we're
+going to return "new" posts. We are going to
+
+42
+
+00:04:35,050  -->  00:04:43,360
+save this, restart the server, and now refresh, and as you can see now I can access the
+
+43
+
+00:04:43,360  -->  00:04:48,910
+content in here, and you'll also see that
+the user is the entire user object that
+
+44
+
+00:04:48,910  -->  00:04:49,960
+posted it.
+
+45
+
+00:04:49,960  -->  00:04:54,850
+Maybe we'll want to strip out the
+password at some point, but for right now
+
+46
+
+00:04:54,850  -->  00:05:01,360
+that's, that's ok. So, what we're going to
+do is we're going to iterate over these
+
+47
+
+00:05:01,360  -->  00:05:06,340
+and put the dynamic content in each
+post instead of printing it out, so let's
+
+48
+
+00:05:06,340  -->  00:05:09,340
+jump into the Home file,
+
+49
+
+00:05:11,620  -->  00:05:33,940
+there. So, we're going to access "$post['user']['name']" and then "$post['content']" I'm going to
+
+50
+
+00:05:33,940  -->  00:05:40,780
+refresh, and you'll see that each one of
+my posts that I posted Mongo is now
+
+51
+
+00:05:40,780  -->  00:05:51,280
+there, and if I "Even having a new one." and post that it's going to be there as well.
+
+52
+
+00:05:51,280  -->  00:05:55,600
+Now, we could insert it with the date, and
+most likely going to do that at some
+
+53
+
+00:05:55,600  -->  00:06:00,010
+point and so we can flip this around so
+most recent is at the top, for right now this
+
+54
+
+00:06:00,010  -->  00:06:07,389
+is really all we need to understand is
+how to get PyMongo map objects into
+
+55
+
+00:06:07,389  -->  00:06:11,440
+lists that we can actually iterate over
+in the template file.

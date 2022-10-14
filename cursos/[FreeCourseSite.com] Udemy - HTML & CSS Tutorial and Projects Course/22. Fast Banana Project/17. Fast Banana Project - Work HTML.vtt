@@ -1,0 +1,457 @@
+WEBVTT
+
+00:00.060 --> 00:06.850
+So let's go ahead and let's start working on here with this future project or work section.
+
+00:07.080 --> 00:13.650
+So again we're going to go back or here right now we can close or here and so dope but here and there
+
+00:13.820 --> 00:19.170
+is going to maybe copy and paste like I don't know the Cdn or something that we don't need to jam back
+
+00:19.200 --> 00:22.430
+and forth to the actual isotope website.
+
+00:22.440 --> 00:23.140
+Right.
+
+00:23.160 --> 00:24.730
+So can just close it over here.
+
+00:24.990 --> 00:31.630
+We can go back to index on this and then we can first find out what we need to do right.
+
+00:31.730 --> 00:33.850
+Maybe let's go ahead and then right away.
+
+00:33.850 --> 00:35.550
+And I said All right.
+
+00:35.580 --> 00:40.850
+So I'm going to say go back to the top or here right where we got our CDN.
+
+00:40.890 --> 00:44.820
+So this is going to be set up here like this.
+
+00:45.030 --> 00:47.230
+And then we're going to copy and paste this.
+
+00:47.310 --> 00:52.600
+So I'm going to go back to the e-mail here and we're going to copy and paste it somewhere right.
+
+00:52.630 --> 00:53.260
+Right.
+
+00:53.280 --> 00:57.750
+So this is going to be the Jack Murray going on here in the bottom we're just going to copy and paste
+
+00:57.750 --> 00:58.730
+the isotope.
+
+00:58.750 --> 00:59.270
+Right.
+
+00:59.360 --> 01:01.060
+So now we have a nice set up.
+
+01:01.130 --> 01:03.780
+Well let's say we're here we're going to write a script.
+
+01:03.820 --> 01:04.820
+Jeff's right.
+
+01:04.890 --> 01:06.040
+This is going to be our script.
+
+01:06.060 --> 01:06.680
+Yes.
+
+01:07.140 --> 01:13.380
+Then after that once we are done with this let's go ahead and let's actually create a work section so
+
+01:13.380 --> 01:13.990
+we're here.
+
+01:14.070 --> 01:20.630
+We're going to have in the form so let's comment work section.
+
+01:20.760 --> 01:25.500
+Then once we have worked section let's select the line copy and paste.
+
+01:25.750 --> 01:28.050
+And we're going to do and of works.
+
+01:28.080 --> 01:35.820
+And then once we have this then what we would want is section ID and we're going to say work.
+
+01:36.140 --> 01:40.960
+And then what we would want is actually title which really created tile.
+
+01:41.040 --> 01:43.290
+And so we don't need to recreate it.
+
+01:43.380 --> 01:43.670
+Right.
+
+01:43.680 --> 01:47.760
+So let's go ahead and let's see where is skills right.
+
+01:47.850 --> 01:49.630
+This is going to be the title.
+
+01:49.650 --> 01:52.380
+So what we're going to do is line by line what is going on.
+
+01:52.450 --> 01:53.880
+Copy this right.
+
+01:54.090 --> 01:54.850
+So c'mon.
+
+01:54.860 --> 01:59.830
+See we didn't go down and let's find where is the work section.
+
+01:59.830 --> 02:00.410
+All right.
+
+02:00.510 --> 02:03.230
+This is going to be the work copy and paste it.
+
+02:03.270 --> 02:04.850
+And now we have the title.
+
+02:04.880 --> 02:06.910
+Obviously we need to change some values around.
+
+02:06.910 --> 02:07.630
+Right.
+
+02:07.680 --> 02:17.380
+First of all we're going to have a different I can say I'm going to say hey and so here square here.
+
+02:17.500 --> 02:19.160
+Oh my.
+
+02:19.320 --> 02:24.470
+First of all this icon is going to be different than over here we're going to say future projects like
+
+02:24.680 --> 02:25.100
+this.
+
+02:25.100 --> 02:31.990
+And we're going to see if future projects like this future projects like this.
+
+02:32.030 --> 02:37.310
+Then once we have this what's actually working on it right on actual works action.
+
+02:37.510 --> 02:37.840
+Right.
+
+02:37.840 --> 02:41.530
+So here we have future projects titles done right.
+
+02:41.590 --> 02:44.630
+And like I said in a sensible action we're going to flip it around right.
+
+02:44.740 --> 02:47.390
+But we need to get there first.
+
+02:47.410 --> 02:54.050
+So here I'm going to say that first this is going to be a collapse of the class of work.
+
+02:54.220 --> 02:57.710
+I'm going to call it Center work center.
+
+02:58.000 --> 03:00.750
+Then we're going to have a button container.
+
+03:01.080 --> 03:07.220
+So I'm going to say Divx button and this is going to be container press table.
+
+03:07.220 --> 03:09.170
+Here now we have a button container.
+
+03:09.340 --> 03:14.330
+And now we would want that div that was actually button group and filter button.
+
+03:14.720 --> 03:15.230
+Right.
+
+03:15.280 --> 03:18.530
+So here what I'm going to say this is going to be a button.
+
+03:18.520 --> 03:19.250
+All right.
+
+03:19.260 --> 03:24.430
+Dave So I'm going to say bottom group and again we can name it.
+
+03:24.430 --> 03:26.200
+However we would want.
+
+03:26.240 --> 03:26.860
+All right.
+
+03:27.040 --> 03:30.730
+The key right now naming it like this so it's not confusing.
+
+03:30.730 --> 03:30.980
+Right.
+
+03:30.970 --> 03:39.190
+We're really getting this from now on here I'm going to say another class filter here bottom group right
+
+03:39.190 --> 03:39.480
+here.
+
+03:39.600 --> 03:40.120
+Right.
+
+03:40.150 --> 03:43.300
+And these are the same ones that we actually used previously.
+
+03:43.300 --> 03:44.640
+Press time on here.
+
+03:44.740 --> 03:49.050
+Now we have a div button group and filter button.
+
+03:49.570 --> 03:52.180
+And here we're going to have a button on here.
+
+03:52.480 --> 03:58.450
+And for the button we're going to have a data filter that you remember when we were using this right
+
+03:58.500 --> 03:59.780
+to actually filter it.
+
+03:59.980 --> 04:02.750
+And the first one I'm going to set it equal to star.
+
+04:02.790 --> 04:04.950
+I mean because we want to select them all.
+
+04:05.050 --> 04:07.730
+And what I'm going to do here is copy and paste this.
+
+04:07.810 --> 04:10.970
+So I'm going to settle at the line and I'm not going to have three more.
+
+04:11.080 --> 04:11.460
+Right.
+
+04:11.650 --> 04:13.380
+So they add a filter.
+
+04:13.390 --> 04:16.370
+This one is going to be class city.
+
+04:16.540 --> 04:19.260
+This is going to be class country.
+
+04:19.330 --> 04:22.180
+This is going to be the types of pictures we're going to have.
+
+04:22.390 --> 04:27.940
+This is going to be class of water and oh here we're going to write what the bleep button actually selects
+
+04:28.420 --> 04:29.600
+right here.
+
+04:29.620 --> 04:35.310
+When you say all this is going to be selecting all then this is going to be selecting city right and
+
+04:35.350 --> 04:37.480
+obviously these classes need to match.
+
+04:37.550 --> 04:39.540
+Not here I'm going to say country now.
+
+04:39.580 --> 04:41.080
+I mean they don't need to match.
+
+04:41.090 --> 04:46.060
+But it's not going to make much sense if you're selecting country button but you're actually selecting
+
+04:46.060 --> 04:47.850
+water images right.
+
+04:47.940 --> 04:53.000
+We're going to say water when we have this and we can save this right too.
+
+04:53.020 --> 04:57.000
+Now we have our button group still within our work center.
+
+04:57.220 --> 04:58.860
+Let's go back over here.
+
+04:58.930 --> 05:05.180
+Actually and our images here what I'm going to say is this is going to be a live picture.
+
+05:05.470 --> 05:09.010
+Container container here press them.
+
+05:09.190 --> 05:11.930
+And now we can actually add our images.
+
+05:12.000 --> 05:18.600
+What I'm going to do is I'm going to wrap the images in article so I'm going to say article article
+
+05:19.050 --> 05:20.930
+here and I'm going to press.
+
+05:20.970 --> 05:21.370
+Right.
+
+05:21.540 --> 05:23.700
+And this is going to be actually class.
+
+05:23.770 --> 05:30.690
+I know what I'm going to go to class and I'm going to see a picture item item more here.
+
+05:30.990 --> 05:32.450
+And then all I need.
+
+05:32.640 --> 05:39.150
+I want to match actually first one of these data right on the first one is going to be city again and
+
+05:39.150 --> 05:44.610
+this is important because I would want to select when this button would have this article and you hear
+
+05:44.610 --> 05:48.460
+what I'm going to say is this is going to be image here.
+
+05:48.510 --> 05:55.260
+And the source is going to be images then we're going to have a project here and you can see how I am
+
+05:55.340 --> 06:01.370
+that images project city one might then I suggest doing the same especially if you're duplicating this
+
+06:01.380 --> 06:06.780
+right and here when I'm going to do is I'm going to say this is going to be work one and this is just
+
+06:06.780 --> 06:07.960
+for alternative.
+
+06:08.110 --> 06:08.340
+Right.
+
+06:08.340 --> 06:11.230
+We don't really care about much about this right.
+
+06:11.440 --> 06:12.750
+But we'll see what happened right.
+
+06:12.770 --> 06:13.260
+Right.
+
+06:13.290 --> 06:14.670
+So we have to go.
+
+06:14.850 --> 06:16.310
+And this is the city.
+
+06:16.380 --> 06:22.470
+Now what I would want is actually copy and paste this or you know and this someone to select this hard
+
+06:22.470 --> 06:26.590
+to go and I'm going to copy two more times and here what I'm going to do.
+
+06:26.680 --> 06:27.380
+All right.
+
+06:27.510 --> 06:33.720
+You can see them right now I'm selecting Siri and let me actually use the beautifier just so we can
+
+06:33.720 --> 06:35.460
+see better what we are doing right.
+
+06:35.520 --> 06:40.620
+So this is going to be silly but this one is going to be country or here.
+
+06:40.730 --> 06:43.240
+We are also going to change this value.
+
+06:43.270 --> 06:48.580
+The country country or here country right.
+
+06:48.610 --> 06:52.240
+This is going to be our country image and they're all here this is going to be our water.
+
+06:52.420 --> 06:59.510
+And the important thing is again if you want these images to match they need the classes need to merge.
+
+06:59.560 --> 07:01.920
+And over here obviously these values need to watch.
+
+07:01.930 --> 07:05.850
+So we're here I'm going to get in water and this is going to be one jetpack.
+
+07:05.850 --> 07:07.170
+All right so see what we have.
+
+07:07.330 --> 07:08.840
+We have three images right now.
+
+07:08.850 --> 07:09.540
+Right.
+
+07:09.640 --> 07:13.790
+And what we're going to do right now we're going to copy these three articles actually.
+
+07:13.810 --> 07:14.300
+Right.
+
+07:14.500 --> 07:16.800
+So this is going to be our container right.
+
+07:16.840 --> 07:19.050
+And one is going to copy and paste these articles.
+
+07:19.280 --> 07:25.540
+So I'm going to select them one time and second time and now would we would want to do is change the
+
+07:25.540 --> 07:27.340
+city to three.
+
+07:27.470 --> 07:27.670
+I.
+
+07:27.670 --> 07:33.630
+This is going to be city image three country ministry water imagery and all here.
+
+07:33.760 --> 07:35.800
+We're going to have a second right.
+
+07:35.830 --> 07:42.590
+So this is going to be water image number two country image number two city image number two.
+
+07:42.760 --> 07:45.380
+So let's say this let's head back over here.
+
+07:45.580 --> 07:48.880
+Let's look at our recording what we have done.
+
+07:49.020 --> 07:51.790
+So I could see that I have nine images lining up like this.
+
+07:51.790 --> 07:52.370
+Right.
+
+07:52.390 --> 07:56.170
+So first one city then country water.
+
+07:56.410 --> 07:59.040
+Second City image second country image.
+
+07:59.050 --> 07:59.610
+Right.
+
+07:59.620 --> 08:01.430
+And so on and so forth.
+
+08:01.780 --> 08:05.700
+And this pretty much is it for our HD.
+
+08:05.990 --> 08:10.680
+Right now what we would need to do is actually go to see assess and start dialing.

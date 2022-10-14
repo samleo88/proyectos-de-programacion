@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.150 --> 00:04.770
+The next section we're going to be building is actually going to be the contact section.
+
+00:04.770 --> 00:10.950
+So here we're going to have a name and email textarea And over here this would be a button.
+
+00:10.980 --> 00:13.940
+So let's go again to the text that are.
+
+00:14.110 --> 00:16.220
+Let's go to the next thing.
+
+00:16.290 --> 00:21.920
+Now more here and let's find where is actually the end of our last section on here and here.
+
+00:21.960 --> 00:28.920
+This was the end of the project or we're all going to say that this would be a contact contact section
+
+00:29.270 --> 00:35.970
+we're here and we're going to create this a and contact section and of contact section or here in the
+
+00:35.970 --> 00:36.670
+section.
+
+00:36.660 --> 00:43.680
+As always we're going to start with a section with a class of contact here then what we would want is
+
+00:43.680 --> 00:44.680
+a title.
+
+00:44.700 --> 00:48.380
+So we're going to we're going to search for a section title.
+
+00:48.410 --> 00:54.870
+So are you going to write section title here and you can see that I I'm going to find a service style.
+
+00:54.960 --> 01:00.960
+So we're going to say I'm going to just copy and paste this again here and we're going to go all the
+
+01:00.960 --> 01:03.760
+way down to our last section or here.
+
+01:03.930 --> 01:09.230
+And I was going to copy and paste this title and they're all going to change some things around so here
+
+01:09.240 --> 01:11.980
+I'm going to say this is not going to be services.
+
+01:12.090 --> 01:15.350
+This is actually going to be contact here.
+
+01:15.480 --> 01:22.170
+So let's say I read or here you can see that I have my compact section now once we're done with a title
+
+01:22.590 --> 01:26.990
+then the next one is going to be contact on your center.
+
+01:27.180 --> 01:29.690
+So again this is going to be for sundering.
+
+01:29.730 --> 01:34.850
+And then once we have any contact center then the next one we're going to have a form.
+
+01:34.860 --> 01:36.890
+So here we're going to have a form.
+
+01:36.900 --> 01:38.830
+So I'm going to create it for a moment.
+
+01:38.890 --> 01:43.980
+We're also going to delay the action because there's not going to be any action now in the form we're
+
+01:43.980 --> 01:47.730
+going to start with a comment or form at all here.
+
+01:47.760 --> 01:53.580
+So this is going to be our first to put on here and or here we're going to say that this is going to
+
+01:53.580 --> 01:54.690
+be form letter.
+
+01:54.720 --> 02:01.800
+So it's also going to be a day of off contact or year and two scores better.
+
+02:01.800 --> 02:02.440
+All right.
+
+02:02.520 --> 02:07.980
+So this is going to be the class we're all going to have an input now the input is actually going to
+
+02:07.980 --> 02:09.880
+be taxed more here.
+
+02:10.050 --> 02:13.110
+We're going to leave the name and ID and over here.
+
+02:13.380 --> 02:16.200
+We're going to have a placeholder and we're going to say name.
+
+02:16.380 --> 02:18.520
+And also we would want to create a class.
+
+02:18.640 --> 02:24.020
+So we're here we're going to say that this is going to be class contact here and name.
+
+02:24.270 --> 02:28.020
+So this is going to be our class for our input on here.
+
+02:28.150 --> 02:33.580
+And you can see in the bottom this is going to be on now also still in the header.
+
+02:33.620 --> 02:38.480
+I'm going to create another input which is going to be an email reader so we're going to put in put
+
+02:38.870 --> 02:43.580
+one here and then we're going to have an e-mail or you know do the same thing.
+
+02:43.770 --> 02:46.400
+We're going to have a placeholder on here.
+
+02:46.410 --> 02:48.030
+Now this is going to be e-mail.
+
+02:48.240 --> 02:50.090
+And also it's new A-Class.
+
+02:50.110 --> 02:56.410
+So again for the class we're going to say contact two underscores and this is going to be an e-mail.
+
+02:56.640 --> 03:04.110
+So this is how we're going to say this now after we're done or here with this contact letter now outside
+
+03:04.110 --> 03:15.000
+this contact letter what I would want is to create a common form text area where text area and or here
+
+03:15.000 --> 03:19.820
+we're going to say that in this text area we would want a text there.
+
+03:20.130 --> 03:23.070
+So I would say over here and this is going to be text element.
+
+03:23.220 --> 03:26.200
+Now for a name of getting a mortgage is going to leave it like the way it is.
+
+03:26.370 --> 03:28.700
+Heidi we're also not going to touch it.
+
+03:28.800 --> 03:31.820
+The columns and rows are going to leave it like the way it is.
+
+03:31.930 --> 03:34.410
+Here again we're going to have placeholder here.
+
+03:34.410 --> 03:34.920
+We're going to write.
+
+03:34.920 --> 03:37.820
+How can I say.
+
+03:37.870 --> 03:41.100
+Help help you know this.
+
+03:41.220 --> 03:45.000
+And we're also the one to write a class for the class.
+
+03:45.000 --> 03:54.170
+We're going to take on that and two underscores and textarea this is going to be our class text area
+
+03:54.410 --> 03:55.150
+here.
+
+03:55.310 --> 04:03.960
+Now I'm going to say this on here and we have input email or text area and after we are done with textarea
+
+04:04.350 --> 04:07.760
+still within the form we will want to place a button.
+
+04:07.890 --> 04:15.030
+So I'm going to go after a textarea and I'm going to say that this is going to be a button or here then
+
+04:15.150 --> 04:16.550
+type button.
+
+04:16.600 --> 04:20.760
+This is going to be a segment and we're going to be submit.
+
+04:20.760 --> 04:27.520
+And then in the bottom we're going to say that there is actually going to be a fun awesome moment.
+
+04:27.600 --> 04:34.970
+So before that let's create a class let's say for the class this is going to be contact your two underscores
+
+04:35.050 --> 04:45.120
+between you know here in button we would want a span with a class of contact all your contact and two
+
+04:45.250 --> 04:52.300
+underscores icon or here and within our economy we would want to actually place like home.
+
+04:52.510 --> 05:00.600
+So this is going to be I f s f a and we're going to call this a plane or here now outside this band
+
+05:00.630 --> 05:05.750
+but still within the button we're going to say send message here.
+
+05:06.080 --> 05:10.420
+So we're going to save it and you can see that this is not what I want to do.
+
+05:10.650 --> 05:12.070
+I may save it on here.
+
+05:12.150 --> 05:19.110
+Now I can see that I have my name put my email textarea and the message now that we're done with the
+
+05:19.110 --> 05:23.130
+amount we're ready to go and start dialing this in masseuses.

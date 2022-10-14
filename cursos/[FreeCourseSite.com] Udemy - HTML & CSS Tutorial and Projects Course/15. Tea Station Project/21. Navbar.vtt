@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.360 --> 00:01.250
+So far so good.
+
+00:01.260 --> 00:02.360
+So we have our now.
+
+00:02.360 --> 00:02.970
+Button.
+
+00:02.970 --> 00:05.040
+Well what else are we looking for.
+
+00:05.040 --> 00:07.300
+We also would want to Navarre correct.
+
+00:07.560 --> 00:12.590
+Because once I click it I'm gonna get my number and then I can navigate to a different page.
+
+00:12.610 --> 00:13.880
+This would be the home page.
+
+00:13.990 --> 00:15.770
+And also I have the skills.
+
+00:15.810 --> 00:21.770
+So this is gonna be my skill section as well as product and about how I'm not going to show you about
+
+00:21.780 --> 00:22.770
+you understand the idea.
+
+00:22.800 --> 00:26.730
+But we would want to have the Napper now with this number.
+
+00:26.850 --> 00:33.030
+There's also gonna be a little bit of different setup because there's gonna be a few things here as
+
+00:33.030 --> 00:38.130
+we're opening the now bar and if we're gonna be on a smaller screen or wanted to take it the whole with
+
+00:38.310 --> 00:45.360
+the screen or as our screen size gets bigger we're gonna make the NAB bar smaller as well as we're gonna
+
+00:45.360 --> 00:49.510
+make it obviously able so we can close it and open up to now.
+
+00:50.130 --> 00:53.720
+And in this case this there is gonna be a little bit of more code.
+
+00:53.810 --> 00:55.280
+And why don't we start working on it.
+
+00:55.680 --> 01:00.600
+Well first all we have to now button and then right after the NAV button we're gonna be looking at our
+
+01:00.600 --> 01:02.900
+number within the now bar first.
+
+01:02.910 --> 01:09.140
+We're gonna have the NAV element now it's gonna be our name of semantic element with few classes.
+
+01:09.150 --> 01:13.600
+We're gonna have the class of Navarre as well as the idea of Navarre.
+
+01:13.650 --> 01:16.110
+And again this is just used for JavaScript.
+
+01:16.110 --> 01:20.470
+So we'll make sure if you will gonna be using JavaScript then you have these ideas.
+
+01:20.570 --> 01:27.090
+However I want you to know that if you don't let's say understand JavaScript or anything like that you
+
+01:27.090 --> 01:32.340
+can just copy and paste the code or just use the code from the lecturer resources.
+
+01:32.400 --> 01:37.140
+So please don't be worried even if you're going to mess up something here it doesn't matter you can
+
+01:37.140 --> 01:39.540
+just get the correct code from the resources.
+
+01:39.750 --> 01:45.600
+But if you will gonna mess it up on your own end meaning if you're going to try to code with me within
+
+01:45.600 --> 01:51.990
+javascript then most cases that will happen is that people just misspelled their I.D. or something like
+
+01:51.990 --> 01:52.560
+that.
+
+01:52.630 --> 01:59.400
+And so that way if you are trying to write the javascript code with me then make sure that those ideas
+
+01:59.400 --> 02:01.880
+actually match what I'm writing.
+
+02:01.920 --> 02:08.430
+Anyway long story short make sure that they had these match within the Navarre let's do maybe header
+
+02:08.850 --> 02:12.810
+and within the header we're going to be placing our close button.
+
+02:13.200 --> 02:18.870
+So when we say now bar header and here I would like to have this power span is gonna have the class
+
+02:18.870 --> 02:23.900
+again and can I use the close as well as the idea of close.
+
+02:23.910 --> 02:25.250
+So now close.
+
+02:25.510 --> 02:30.240
+And the idea of NAV flows so something like this.
+
+02:30.810 --> 02:34.480
+And then within the span again I would want to use the font awesome.
+
+02:34.560 --> 02:39.420
+So it's a I that is I have a times.
+
+02:39.420 --> 02:43.660
+So we would need to have a times and hopefully this is gonna work.
+
+02:43.740 --> 02:46.220
+So we have times and then more and we say.
+
+02:46.650 --> 02:52.530
+Yeah we have our header lastly we still have a lot of work to do in the CSM But for now at least we
+
+02:52.530 --> 02:57.870
+have the header right after the header not within the header but right after the header we can write
+
+02:57.870 --> 03:06.480
+we unordered list and then would know within the UN or list we could maybe go with class of NAV items
+
+03:06.750 --> 03:14.340
+and then within the items we could have a list item with no class actually we can leave the last blank
+
+03:14.760 --> 03:18.990
+but we're gonna place our links and again for now these links are not going to be working apart from
+
+03:18.990 --> 03:22.970
+indexation email but we're gonna set up those different pages later.
+
+03:23.490 --> 03:25.660
+So let's say here with a class I would want.
+
+03:25.660 --> 03:29.530
+Now link for my links and then just write home.
+
+03:29.670 --> 03:33.670
+And now I would like to copy and paste them because I would want four of them.
+
+03:33.670 --> 03:36.190
+And in this case we're just gonna have to change the values.
+
+03:36.450 --> 03:43.140
+So I'm going to select all these values here just like that and then we're gonna write that the second
+
+03:43.140 --> 03:51.550
+page is going to be skills then we have about then we also have the product and you know what we also
+
+03:51.550 --> 03:57.020
+need obviously change these pages which don't exist anymore or not anymore not yet.
+
+03:57.150 --> 04:01.600
+Interesting mouth skills then we're having about page.
+
+04:01.780 --> 04:08.100
+This is gonna match and we do need to ADHD email so make sure you do the image email.
+
+04:08.540 --> 04:12.860
+And here we're also gonna have product product and you know what.
+
+04:12.890 --> 04:17.950
+Let's add the quotation marks thing that way is just gonna work out a little bit better.
+
+04:17.970 --> 04:20.480
+So for now this button obviously is covering it.
+
+04:20.520 --> 04:23.170
+But we're going to fix that in a second.
+
+04:23.170 --> 04:24.120
+Oh what else we need.
+
+04:24.120 --> 04:26.130
+Well we need to house is hers.
+
+04:26.340 --> 04:31.890
+Then we're gonna head over whereas the now more and we're gonna start adding our styles first and foremost
+
+04:31.920 --> 04:37.620
+let's start working with a number because I do want it position fixed and again depending on the screen
+
+04:37.620 --> 04:40.080
+size we are gonna be changing the width.
+
+04:40.170 --> 04:43.050
+So first and foremost let's do position.
+
+04:43.380 --> 04:44.950
+Position is maybe be fixed.
+
+04:44.970 --> 04:46.940
+So so far so good.
+
+04:47.070 --> 04:51.870
+And if I would want this position fixed to take up the whole screen I can deal like this.
+
+04:51.870 --> 04:56.360
+I can say top is going to be zero left is gonna be zero.
+
+04:56.390 --> 04:56.790
+Right.
+
+04:56.790 --> 05:01.170
+It's gonna be zero and you guessed it the bottom one is also going to be zero.
+
+05:01.170 --> 05:03.310
+So I mean right bottom.
+
+05:03.310 --> 05:05.670
+And that should be zero.
+
+05:05.820 --> 05:09.280
+The moment we're gonna save it for so we're not gonna be able to see anything.
+
+05:09.390 --> 05:11.550
+Now what is again the reason for that.
+
+05:11.580 --> 05:15.840
+Well we do need to use this index and in this case I'm not going to use design index of one.
+
+05:16.170 --> 05:22.380
+I'm gonna use the z index of two and reason for that is because I would want this nav bar to be covering
+
+05:22.380 --> 05:26.810
+whatever I have within it but I also would want to have some kind of background.
+
+05:27.480 --> 05:33.600
+So background is gonna be I don't know main grey that I think should work out and yeah there's gonna
+
+05:33.600 --> 05:35.720
+be a number so far so good.
+
+05:35.760 --> 05:36.660
+What else we would want.
+
+05:36.690 --> 05:44.770
+Well let's do pairing top and in this case looking at I don't know putting it up one hour Yeah this
+
+05:44.830 --> 05:52.360
+is gonna work out padding left is gonna be what say to our having left to our arms so this is gonna
+
+05:52.380 --> 05:58.790
+push it away from the side and then we also see these annoying list items and then we're gonna fix that
+
+05:59.010 --> 06:00.380
+literally in a second.
+
+06:00.420 --> 06:09.060
+However before we do anything I do want to add a transition because as we're gonna be closing and opening
+
+06:09.060 --> 06:11.420
+the number we would want to do it.
+
+06:11.640 --> 06:16.830
+So it actually happens fluidly not right away but with our usual transition.
+
+06:16.970 --> 06:18.480
+So we already know how to do that.
+
+06:18.480 --> 06:24.810
+We're looking for the main transition and now let me add the comment that we're all going to be working
+
+06:24.810 --> 06:26.360
+a little bit with transformation.
+
+06:26.770 --> 06:28.610
+So let me write transform.
+
+06:28.740 --> 06:30.470
+Just in case I forget.
+
+06:30.600 --> 06:34.040
+And after that I'm going to be working with nav close.
+
+06:34.080 --> 06:39.100
+So right now I've closed so that is gonna be Horrocks here and here for this guy.
+
+06:39.090 --> 06:44.550
+We're gonna say font size is gonna be to our AMS So it will gonna be bigger as well as we're gonna have
+
+06:44.550 --> 06:45.610
+a cursor point.
+
+06:46.750 --> 06:47.990
+Not too much stuff.
+
+06:48.040 --> 06:49.900
+I think that's gonna do okay.
+
+06:49.930 --> 06:58.890
+Like I said Now I'd like to get her off this list of type of items I believe that was our unknown list.
+
+06:59.230 --> 07:05.650
+And here we said that we would want list style type and we'd just set it equal to none.
+
+07:05.880 --> 07:07.710
+And hopefully this is going to work out.
+
+07:07.910 --> 07:10.510
+And I think it does what else we have.
+
+07:10.550 --> 07:16.030
+We have the link remember in the annexation email we added this link with the class of now.
+
+07:16.610 --> 07:22.380
+So I don't wish to style it when I was say nav link but for the novel link I would want it to be display
+
+07:22.380 --> 07:28.910
+in block not inland log but display block because remember this was in general right away displayed
+
+07:28.910 --> 07:30.260
+in line by default.
+
+07:30.740 --> 07:32.740
+So I always say display block.
+
+07:32.810 --> 07:35.090
+So now our links are going to be spanning all across.
+
+07:35.090 --> 07:40.780
+First of all as I'm hovering over anywhere over the link I'm going to be able to click on the link.
+
+07:40.880 --> 07:42.090
+So that's first of all.
+
+07:42.390 --> 07:47.690
+Now second I would want a bigger some font size so too are you.
+
+07:47.690 --> 07:52.700
+I'm just gonna do text transform and go with an upper case.
+
+07:52.910 --> 07:57.440
+Color is gonna be primary color primary color.
+
+07:57.590 --> 07:59.280
+It's gonna be green.
+
+07:59.280 --> 08:04.890
+And then we're gonna add also a transition because as I'm hovering over the links I would want to have
+
+08:04.890 --> 08:06.240
+a little bit of an effect.
+
+08:06.240 --> 08:07.610
+So let's see here.
+
+08:07.650 --> 08:09.990
+I'm gonna have this little padding moving to the left.
+
+08:10.020 --> 08:11.690
+So why don't we have that.
+
+08:11.760 --> 08:13.530
+Why don't we say again transition.
+
+08:13.650 --> 08:19.140
+And since this is not our first rodeo I'm going to be kind of skipping that because we have done quite
+
+08:19.140 --> 08:23.440
+a few of them so they should be already feeling very comfortable.
+
+08:23.640 --> 08:27.970
+And then we have the main transition as well as we'd like to set up to our effect.
+
+08:28.350 --> 08:32.460
+So let's say here and have link and as we're hovering.
+
+08:32.460 --> 08:33.930
+Something should happen.
+
+08:33.930 --> 08:39.510
+So let's say here like this nav link as we're hovering the NAV link is actually going to have a dark
+
+08:39.510 --> 08:39.990
+color.
+
+08:40.560 --> 08:45.960
+So going you use the main dark as well as we're gonna add a little bit of padding to the left.
+
+08:45.980 --> 08:53.350
+So that's gonna be our effect powering to the left is gonna be let's say zero point five grams.
+
+08:53.600 --> 08:56.510
+And now we have successfully almost done.
+
+08:56.540 --> 09:02.330
+However I would want to set up the media query like I said that once we get to a bigger screen size
+
+09:02.780 --> 09:06.210
+then we're gonna have only this much space with a number.
+
+09:06.230 --> 09:11.390
+However if this is going to be smaller then the number is going to be taking the whole page.
+
+09:11.390 --> 09:20.270
+And for this we're gonna use the media query some say media screen and let's say like this let's say
+
+09:20.270 --> 09:24.580
+and and men with and then basically starting from what kind of screen.
+
+09:24.640 --> 09:30.110
+So I'm gonna say man with it is gonna be so and pixels.
+
+09:30.170 --> 09:36.480
+So starting from that screen size I do want to work with the number and for my nav bar I'm going to
+
+09:36.480 --> 09:42.940
+say that starting from that screen size I'm going to have 30 view widths so 30 percent on the screen.
+
+09:43.080 --> 09:47.440
+However I want to make sure that the max with is always gonna be 20.
+
+09:47.610 --> 09:49.620
+So it never is gonna get any big.
+
+09:50.280 --> 09:51.960
+And yeah this is gonna be the setup.
+
+09:51.960 --> 09:58.130
+However there is one thing that I need to obviously mention is that by default I don't want my name
+
+09:58.330 --> 09:59.240
+to be show.
+
+09:59.370 --> 10:04.890
+So originally I would want my number to be hidden and then we're going to set it up with the javascript.
+
+10:04.890 --> 10:11.220
+The moment we click on one button and the second button then we can close it and open up the tab.
+
+10:11.520 --> 10:17.280
+So in order to do this I'm gonna head over back to the nav bar and we'll add the transform and what
+
+10:17.280 --> 10:19.160
+I'm going to say is gonna be transformed.
+
+10:19.440 --> 10:21.600
+And then we have an option of translating.
+
+10:21.630 --> 10:23.540
+Now remember we had translate x.
+
+10:23.670 --> 10:25.950
+So what if I would move a hundred percent.
+
+10:25.950 --> 10:31.470
+What that means is that my Navarre is going to be totally moved out of the site the moment I'm gonna
+
+10:31.500 --> 10:31.950
+save it.
+
+10:32.300 --> 10:33.900
+There is no no that's it.
+
+10:33.900 --> 10:35.130
+We cannot see the net.
+
+10:35.460 --> 10:40.680
+What's gonna happen though is later on as we're working obviously with our buttons and everything then
+
+10:40.680 --> 10:43.220
+we're gonna be able to see the number we can add.
+
+10:43.230 --> 10:48.540
+Hundred percent like this where we can do a hundred negative doesn't really matter what you're doing
+
+10:48.540 --> 10:52.770
+is you're just hiding the number either the right hand side on the left hand side.

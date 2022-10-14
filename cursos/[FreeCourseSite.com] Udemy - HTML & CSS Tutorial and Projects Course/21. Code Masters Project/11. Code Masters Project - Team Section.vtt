@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00.090 --> 00:06.020
+And the next section are going to be building is going to be team members section or you are we're here
+
+00:06.020 --> 00:09.040
+we're going to use our curso or here like this.
+
+00:09.050 --> 00:09.690
+Right.
+
+00:09.840 --> 00:15.950
+So what we're going to do here is we're going to go back to the mantle we're going to have.
+
+00:15.990 --> 00:17.510
+And of project.
+
+00:17.520 --> 00:20.520
+So here we're going to say this is going to be a team.
+
+00:20.780 --> 00:21.420
+Right.
+
+00:21.490 --> 00:26.360
+And select the line I'm going to say and of theme.
+
+00:26.430 --> 00:34.890
+Then once we have the end of team then we're going to have a section section here and then we're going
+
+00:34.890 --> 00:40.920
+to say class and you know what let's do it differently let's say that this is going to be a section
+
+00:41.880 --> 00:49.830
+with a class of team members here and with the idea of team or you like this.
+
+00:49.880 --> 00:51.220
+All right press time.
+
+00:51.480 --> 01:01.710
+Then once we have this we're going to create a div here with a class of team center center over here.
+
+01:01.710 --> 01:04.340
+Then the class of owl.
+
+01:05.070 --> 01:05.380
+Right.
+
+01:05.400 --> 01:09.500
+And we're going to explore in the next video why we had English classes.
+
+01:09.510 --> 01:10.080
+All right.
+
+01:10.080 --> 01:17.000
+So we're going to have an hour or so then we're going to have a Auel theme all theme.
+
+01:17.160 --> 01:23.400
+Right so these are the three classes that we need for the right team center out carrousel now.
+
+01:23.790 --> 01:28.920
+And then we're going to place eight articles and we're going to start with the first one to say article
+
+01:29.920 --> 01:35.200
+we're here and we're going to say class of member press tab here like this.
+
+01:35.200 --> 01:38.900
+Then we're going to have a image or here like this.
+
+01:38.900 --> 01:44.220
+And for the image we're going to say pretty basic We're going to say we're the source of your image
+
+01:44.730 --> 01:49.020
+and we're going to find we're a team and we need team won.
+
+01:49.200 --> 01:58.040
+So this is going to be team one then we are going to send member number one in this once we have this
+
+01:58.040 --> 01:58.850
+div..
+
+01:59.160 --> 02:06.420
+These are the ones we have an article with an image that we would want a div with a member text or like
+
+02:06.420 --> 02:06.650
+that.
+
+02:06.650 --> 02:09.570
+All right press tab and on here we're going to write it.
+
+02:09.580 --> 02:11.360
+This is going to be heading 3.
+
+02:11.470 --> 02:16.920
+This is going to be team member team member or press press.
+
+02:17.400 --> 02:24.240
+Then we're going to have a heading six like this and we're going to save and this is going to be a web
+
+02:24.960 --> 02:33.240
+developer here like this and then we'll have a paragraph right then we're going to have a paragraph
+
+02:33.240 --> 02:37.500
+over here and the paragraph is just going to have like let's say 10 words.
+
+02:37.530 --> 02:43.950
+All right so we're going to say we're I'm going to say then press time and press another tab or here
+
+02:43.950 --> 02:44.400
+like this.
+
+02:44.400 --> 02:44.900
+Right.
+
+02:45.120 --> 02:50.700
+So this is going to be a team member developer and read a paragraph and then once we have this let's
+
+02:50.820 --> 02:52.590
+create the icons.
+
+02:52.670 --> 02:53.180
+Right.
+
+02:53.280 --> 02:56.510
+So here what I'm going to say this is going to be a div.
+
+02:56.530 --> 02:56.780
+Right.
+
+02:56.800 --> 03:02.950
+But still still within this article number and still number text.
+
+03:03.120 --> 03:03.440
+Right.
+
+03:03.510 --> 03:05.720
+Because you can see or hear that.
+
+03:05.790 --> 03:07.670
+This is what we're going to deal with right.
+
+03:07.790 --> 03:12.630
+So this is going to be a team member here and this is going to be the theme text right.
+
+03:12.630 --> 03:15.080
+And the images over here are going to be separate.
+
+03:15.380 --> 03:15.960
+All right.
+
+03:16.170 --> 03:23.250
+So if we have Article number image and member text over here right once we have this over here we're
+
+03:23.250 --> 03:29.400
+going to say this is going to remember we're going to say icons right press tab now we have the icons
+
+03:29.790 --> 03:32.910
+and for the icons we're going to say this is going to be a link.
+
+03:33.300 --> 03:36.390
+And within the link We're going to have a hash tag.
+
+03:36.390 --> 03:40.620
+Then over here we're going to have my be here.
+
+03:40.770 --> 03:46.200
+And then we're going to say hey and let's say again we're just going to leave this blank for now because
+
+03:46.200 --> 03:49.880
+we're going to copy and paste this subject line one two three.
+
+03:49.880 --> 03:54.630
+All right the first one is going to be Twitter here.
+
+03:54.710 --> 04:00.290
+Then you have a Facebook Facebook here.
+
+04:00.530 --> 04:08.430
+Then you're going to have a Google and then you will have linked in or sorry Instagram Instagram.
+
+04:08.430 --> 04:09.370
+All right.
+
+04:09.490 --> 04:15.450
+And now what do we need to do is have eight of these articles so we need to copy paste this segment.
+
+04:15.560 --> 04:15.970
+Right.
+
+04:16.100 --> 04:25.740
+So one two on here and now we have what a total of three and then we need four five six seven eight.
+
+04:25.980 --> 04:27.840
+And so now we should have eight of them.
+
+04:28.010 --> 04:32.790
+And now what we wanted to do is obviously change where is the images.
+
+04:32.810 --> 04:33.400
+Right.
+
+04:33.470 --> 04:36.430
+Because everything else is going to stay the same.
+
+04:36.620 --> 04:38.130
+So we're going to scroll up.
+
+04:38.210 --> 04:43.250
+We're going to start with the first one the one then this is going to be Team Two.
+
+04:43.430 --> 04:52.370
+Then after that we're going to have a team three then we'll have a D before then we'll have team.
+
+04:52.540 --> 04:58.760
+This is going to be six then we're going to have a seven and then we'll have eight.
+
+04:59.000 --> 04:59.210
+Right.
+
+04:59.210 --> 05:02.010
+So then you have seven and then you have eight or here.
+
+05:02.030 --> 05:02.920
+Right.
+
+05:02.970 --> 05:04.580
+So now we have eight of them.
+
+05:04.580 --> 05:06.230
+So let's go to Maine.
+
+05:06.440 --> 05:08.600
+And let's actually start dialing.
+
+05:09.350 --> 05:16.830
+So what we're going to do first is we're going to create a comment on this.
+
+05:16.850 --> 05:23.320
+All right we're going to say hashtags and I know we're going to say team members are here like this.
+
+05:23.360 --> 05:24.000
+Right.
+
+05:24.290 --> 05:30.320
+And I'm going to we're going to have hashtags over here and then we're going to say team members.
+
+05:30.410 --> 05:39.020
+So class members knowing this that we're going to say padding and you can see that over here I messed
+
+05:39.020 --> 05:41.250
+up that I got rid of or here right.
+
+05:41.270 --> 05:43.700
+So now everything is fine.
+
+05:43.730 --> 05:53.120
+Team members battings padding or her hundred pixels or here and 20 pixels right so something like this.
+
+05:53.330 --> 06:04.700
+Then background let's say that we're going to have a white one hashtag and 5 3 and 3 and 5 on here and
+
+06:04.700 --> 06:11.120
+the color and the color we're going to say this is going to be hashtag 1 9 1 9 1 9 or here like this.
+
+06:11.140 --> 06:11.860
+Right.
+
+06:12.080 --> 06:16.520
+Once we have the color now we would want a member.
+
+06:16.830 --> 06:26.090
+Right so we're going to say a member member and we're going to say text align center here and margin
+
+06:26.490 --> 06:28.860
+the bottom 40 pixels right.
+
+06:28.880 --> 06:34.930
+So once on a smaller screen you can see it will have some margins and then out here zero then we're
+
+06:34.940 --> 06:37.510
+going to work with member right image.
+
+06:37.510 --> 06:46.540
+So I'm going to say member image here and here we're going to say I like this border and radius right.
+
+06:46.730 --> 06:51.500
+And we're going to say like 30 pixels is going to make these round edges or here right.
+
+06:51.920 --> 07:01.600
+So once we have the image with around here hijras the same member heading three.
+
+07:01.600 --> 07:01.870
+All right.
+
+07:01.880 --> 07:12.430
+So this is going to be remember having three text here transform capitalize here and margin 10 pixels
+
+07:12.440 --> 07:15.110
+top bottom zero on the sides.
+
+07:15.350 --> 07:20.310
+All right then we're going to actually work with a heading 6.
+
+07:20.300 --> 07:31.110
+So remember adding six like this and this one is going to be margin 0 0 7 pixels.
+
+07:31.160 --> 07:34.070
+I want to hear but I'm zero again.
+
+07:34.310 --> 07:42.650
+So this is going to be four and six text transform text transform capitalize like this.
+
+07:42.650 --> 07:44.680
+And then we're going to have a color.
+
+07:44.790 --> 07:51.490
+Right so we're here we're going to say color are here like this and this is going to be hash tag here.
+
+07:51.540 --> 07:58.360
+A 7 1 2 1 2 1 2 1 2 1 or here like this right.
+
+07:58.370 --> 08:03.230
+Basically we're just going to add some red color over here and now we would want to work with a paragraph
+
+08:03.230 --> 08:05.380
+and then start working with icons.
+
+08:05.420 --> 08:13.040
+So we're going to say or here this is going to be member we're here paragraph and for this one we would
+
+08:13.040 --> 08:26.930
+want a margin first in the bottom so margin 0 0 10 pixels 0 and then line height to less then color
+
+08:28.350 --> 08:37.860
+red color and the color is going to be hash tag 9 9 9 9 and a 9 a.
+
+08:38.290 --> 08:41.110
+So we're going to make this a great color.
+
+08:41.180 --> 08:41.410
+Right.
+
+08:41.420 --> 08:44.030
+So it kind of blends out a little bit.
+
+08:44.300 --> 08:50.690
+I'm sorry are blends in and here we're going to say that this is going to be mamber icons like this
+
+08:50.800 --> 08:51.360
+right.
+
+08:51.440 --> 08:56.590
+And for the icons we're going to see this play we're going to say flex right away like this.
+
+08:56.810 --> 09:04.210
+And I'm going to say just if I content space around it's all going to evenly spread them out like this
+
+09:04.960 --> 09:10.570
+and then we're going to add some paddings right or here we're going to say padding and that's going
+
+09:10.570 --> 09:14.420
+to be zero and 30 pixels or here like this.
+
+09:14.730 --> 09:24.010
+And now what we would want is a member icons a slogan to say member icons A All right we would want
+
+09:24.010 --> 09:28.880
+to select them font size 30 pixels.
+
+09:28.890 --> 09:30.950
+Right so now we make them bigger.
+
+09:30.970 --> 09:36.820
+And now we each and every one of them we would just want to make change the color right and we would
+
+09:36.820 --> 09:40.840
+want to change for the hex colors that actually they relate to.
+
+09:40.840 --> 09:42.520
+So if I right over here right.
+
+09:42.880 --> 09:46.340
+All right member icons right.
+
+09:46.360 --> 09:55.090
+And I write a phrase book on here what I'm going to say that this is going to be color hash tag three
+
+09:55.700 --> 10:02.240
+be 5 9 9 8 5 9 9 8.
+
+10:02.470 --> 10:02.950
+Right.
+
+10:03.150 --> 10:05.030
+So this is going to be the face car.
+
+10:05.310 --> 10:08.140
+Then after that once a member.
+
+10:08.550 --> 10:13.080
+And we're just going to change these values I'm just going to copy and paste this three times one two
+
+10:13.230 --> 10:14.910
+three right or here.
+
+10:15.270 --> 10:21.360
+Then we're going to write member icons we're here we're going to write Instagram instead of grandma
+
+10:21.360 --> 10:22.290
+over here.
+
+10:22.440 --> 10:24.090
+And then we're going to do.
+
+10:24.090 --> 10:32.730
+Here is where we're going to write and this is going to be F B three B three then we'll have a 9 5 8
+
+10:34.080 --> 10:36.350
+9 5 8 9.
+
+10:36.490 --> 10:43.400
+So this is going to be Instagram and then we're going to have four to go right there until he does go
+
+10:43.470 --> 10:46.820
+Whoa whoa whoa.
+
+10:46.840 --> 10:48.080
+Can delete this one.
+
+10:48.300 --> 10:55.010
+So we're going to write F and for C and 2 0.
+
+10:55.010 --> 10:56.200
+D.
+
+10:56.240 --> 10:56.700
+Right.
+
+10:56.710 --> 10:59.560
+So this is going to be yellow from the Google.
+
+10:59.580 --> 11:06.120
+Now obviously Google doesn't I don't I haven't seen Google has a color like this meaning it is written
+
+11:06.120 --> 11:08.810
+in Google as the yellow color.
+
+11:08.810 --> 11:09.350
+Right.
+
+11:09.360 --> 11:10.590
+This is what we're using.
+
+11:10.620 --> 11:12.260
+But usually you don't see these G.
+
+11:12.330 --> 11:12.600
+Right.
+
+11:12.600 --> 11:14.440
+So I usually use in different color.
+
+11:14.640 --> 11:16.340
+I just wanted to show you that.
+
+11:16.340 --> 11:19.980
+Let's see if we can get like a yellow color for example right.
+
+11:20.010 --> 11:30.920
+And then last one on here is going to be 0 0 for a Twitter 00 and a c e d.
+
+11:30.960 --> 11:31.340
+All right.
+
+11:31.350 --> 11:36.100
+So this is going to be a Twitter color and we just need to change it or here to Twitter.
+
+11:36.250 --> 11:43.650
+So Twitter or Right now we have the Twitter culture and now the next thing that we need to do is actually
+
+11:44.040 --> 11:48.840
+add a so our color so our document.
+
+11:48.840 --> 11:49.050
+Right.
+
+11:49.050 --> 11:52.760
+Because for now all you can see is basically blocks of images.
+
+11:52.770 --> 11:54.120
+And over here with some text.

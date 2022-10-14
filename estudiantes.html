@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>MyUni:Estudiantes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/estiloEstudiante.css">
+  <script src="../funciones/js/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="../css/sweetalert.css">
+</head>
+<!------ Include the above in your HEAD tag ---------->
+<script type="text/javascript">
+  function buscarPublicaciones(){
+    $.ajax({
+      url: "../funciones/php/FUESTUD.php",
+      type: "POST",
+      data: "accion=buscarPublicaciones",
+      success: function(result){
+        $("#contenido").html(result);
+      }
+    });
+  }
+
+  //cambiarPaginaPublicaciones
+  function cambiarPaginaPublicaciones(pag){
+    $.ajax({
+      url: "../funciones/php/FUESTUD.php",
+      type: "POST",
+      data: "accion=cambiarPaginaPublicaciones&pagina="+pag,
+      success: function(result){
+        $("#contenido").html(result);
+      }
+    });
+  }
+
+  //postularse a la publicacion
+  function postularse(publ_idxx){
+    $.ajax({
+      url: "../funciones/php/FUESTUD.php",
+      type: "POST",
+      data: "accion=postularse&publ_idxx="+publ_idxx,
+      success: function(result){
+        swal("Ya estaspostulado en esta publicacion.");
+      }
+    });
+  }
+
+  //detalle la publicacion
+  function detallePublicacion(publ_idxx){
+    $.ajax({
+      url: "../funciones/php/FUESTUD.php",
+      type: "POST",
+      data: "accion=detallePublicacion&publ_idxx="+publ_idxx,
+      success: function(result){
+        swal({
+          html:result
+        });
+      }
+    });
+  }
+
+  //guardar la publicacion
+  function guardar(publ_idxx){
+    $.ajax({
+      url: "../funciones/php/FUESTUD.php",
+      type: "POST",
+      data: "accion=guardar&publ_idxx="+publ_idxx,
+      success: function(result){
+        swal("Ya guardaste esta publicacion.");
+      }
+    });
+  }
+  
+</script>
+<body onload="buscarPublicaciones();">
+
+<div class="view">
+  <main class="page">
+    <div class="transform-container">
+      <div class="catalog">
+        <span class="menu-opener"></span>
+        <span class="profile-opener"></span>
+        <center>
+          <input type="text" name="buscarUniversidades" id="buscarUniversidades" class="form-control">
+          <div id="contenido">
+            
+          </div>
+          <!--
+          <div id="publicaciones">
+            <img class="avatar" src="../imagenes/ayudaEstudiante3.jpg" >
+            <div id="titulo">      
+              <h3><b>uninpahu</b></h3>
+              <br>
+            </div>
+            <div id="imagen">
+              <img src="../imagenes/ayudaEstudiante3.jpg" style="width:100%;">
+            </div>
+            <div class="row" id="descripcion" style="width:100%;">      
+              <h3><b>TITLE HEADING</b></h3>
+              <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+              <div class="col-sm-4"><a onclick="ventanaIngreso()" class="button">Postularse</a></div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4"><a onclick="ventanaIngreso()" class="button">Guardar</a></div>
+            </div>
+          </div>
+          <br> -->
+        </center>
+      </div>
+    </div>
+  </main>
+
+    <br>
+            <SCRIPT language=JavaScript>
+var NS4 = (document.layers);    
+var IE4 = (document.all);
+var win = window;    
+var n   = 0;
+function findInPage(str) {
+  var txt, i, found;
+  if (str == "")
+    return false;
+  if (NS4) {
+    if (!win.find(str))
+      while(win.find(str, false, true))
+        n++;
+    else
+      n++;
+    if (n == 0)
+      alert("Not found.");
+  }
+  if (IE4) {
+    txt = win.document.body.createTextRange();
+    for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
+      txt.moveStart("character", 1);
+      txt.moveEnd("textedit");
+    }
+    if (found) {
+      txt.moveStart("character", -1);
+      txt.findText(str);
+      txt.select();
+      txt.scrollIntoView();
+      n++;
+    }
+    else {
+      if (n > 0) {
+        n = 0;
+        findInPage(str);
+      }
+      else
+        alert("Su busqueda no produjo, ningun resultado. Intente con otro");
+   }
+  }
+  return false;
+}
+</SCRIPT>
+
+<FORM name=search onsubmit="return findInPage(this.string.value);">
+<P align=center><FONT size=3>
+<INPUT 
+style="BORDER-RIGHT: #666666 4px solid; BORDER-TOP: #666666 4px solid; FONT-SIZE: 14pt; BORDER-LEFT: #666666 4px solid; BORDER-BOTTOM: #666666 4px solid" 
+onchange="n = 0;" size=25 name=string></FONT>
+<INPUT style="BORDER-RIGHT: #663C84 6px solid; BORDER-TOP: #663C84 6px solid; FONT-SIZE: 14pt; BORDER-LEFT: #663C84 6px solid; BORDER-BOTTOM: #663C84 6px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #aaaaaa" type=submit value=BUSCAR in page ><center><font size=2pt;><font family=Times New Roman;>
+
+
+ 
+</P></FORM></DIV>
+
+  <div class="overlay"></div>
+
+  <div class="nav-slide side-menu">
+   
+   <center><h2>MENU</h2></center>
+    <h1><ul>
+      <li><a href="#">Inicio </a></li>
+      <li><a href="#">Filtracion de publicaciones</a></li>
+      <li><a href="#">Publicaciones guardadas</a></li>
+      <li><a href="#">Postulaciones</a></li>
+      <li><a href="#">Universidades de interes</a></li>
+    </ul></h1>
+  </div>
+  
+  <div class="nav-slide side-profile">
+ 
+    <h2>PERFIL</h2>
+    <h1><ul>
+      <li><a href="#">Editar perfil</a></li>
+      <li><a href="#">Privacidad</a></li>
+      <li><a href="#">Ayuda</a></li>
+      <li><a href="#">Salir</a></li>
+      
+    </ul></h1> 
+  </div>
+</div>
+<script>
+$('.menu-opener').on('click', function() {
+  $('body').addClass('no-scroll menu-open');
+});
+
+$('.profile-opener').on('click', function() {
+  $('body').addClass('no-scroll profile-open');
+});
+
+$('.overlay').on('click', function() {
+  $('body').removeClass('no-scroll menu-open profile-open');
+});
+    </script>
+</script>
+
+<footer style="background-color: #4d4d4d;">
+  <br>
+  <center>
+    <table>
+      <tr>
+        <td>
+          <p>contacto:</p>
+        </td>
+        <td width="5px">
+        </td>
+        <td>
+              <p>correo@gmail.com</p>
+            </td>
+            <td width="5px">
+        </td>
+        <td>
+              <p>018000123456789</p>
+            </td>
+      </tr>
+    </table>
+  </center>
+</footer>
+</body>
+</html>

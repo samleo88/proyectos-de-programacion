@@ -1,0 +1,524 @@
+1
+
+00:00:00,000  -->  00:00:02,909
+So in the last video we learned about
+how to make some soup, and in this video
+
+2
+
+00:00:02,909  -->  00:00:05,879
+we're going to be learning about how to
+get into that soup and get stuff out of
+
+3
+
+00:00:05,879  -->  00:00:17,100
+it. So let's go ahead and type "from bs4
+import  BeautifulSoup" and "import requests"
+
+4
+
+00:00:17,100  -->  00:00:21,900
+So, as in the previous video we're going
+to create a search variable which is
+
+5
+
+00:00:21,900  -->  00:00:30,119
+going to be "search = input("Search for:")"
+let the user search for something. Going
+
+6
+
+00:00:30,119  -->  00:00:37,410
+to build the params object which is going to be "params = {"q": search}" and the search results
+
+7
+
+00:00:37,410  -->  00:00:42,360
+so again this is going to send the get
+variable of q equal to whatever we
+
+8
+
+00:00:42,360  -->  00:00:47,129
+search for along with URL. Then we're
+going to create a request, so "r = requests
+
+9
+
+00:00:47,129  -->  00:01:02,129
+.get("http://www.bing.com/search, params=params)"
+
+10
+
+00:01:02,129  -->  00:01:06,000
+So there we've got our requests sent now let's build the
+
+11
+
+00:01:06,000  -->  00:01:06,600
+soup,
+
+12
+
+00:01:06,600  -->  00:01:10,860
+so to do this you create a variable and
+call the "soup = BeautifulSoup class" we're
+
+13
+
+00:01:10,860  -->  00:01:16,409
+going to pass it in the "(r.text, )" that we get
+back we're going to be the actual HTML
+
+14
+
+00:01:16,409  -->  00:01:21,270
+content, and we're going to use the "html.parser" Now this should default to the
+
+15
+
+00:01:21,270  -->  00:01:22,650
+html.parser but
+
+16
+
+00:01:22,650  -->  00:01:26,430
+we don't want to see that little warning
+message there so we're going to specify that anyway.
+
+17
+
+00:01:26,430  -->  00:01:36,780
+Now, what we need to do is get the
+results of this page, so i've loaded up an
+
+18
+
+00:01:36,780  -->  00:01:43,350
+example search on the bing.com website to see kind of what we're going to need to
+
+19
+
+00:01:43,350  -->  00:01:47,009
+parse through. So as you can see here as
+I highlight over each thing it's going
+
+20
+
+00:01:47,009  -->  00:01:50,430
+to highlight what we're looking at, so
+what we're going to need to do is first
+
+21
+
+00:01:50,430  -->  00:01:54,299
+we need to get the list of results, so
+we're going to need to get an ordered
+
+22
+
+00:01:54,299  -->  00:02:01,380
+list with an ID of the results. How to
+do that is using the find property or
+
+23
+
+00:02:01,380  -->  00:02:05,850
+method from the soup. So we're going to
+create a variable called
+
+24
+
+00:02:07,890  -->  00:02:14,790
+"results = soup.find" and here the first
+thing that we're going to pass into this
+
+25
+
+00:02:14,790  -->  00:02:19,860
+function is going to be the element
+we're looking for ("ol", ) then we're also going
+
+26
+
+00:02:19,860  -->  00:02:24,510
+to pass a dictionary object of any
+attributes that we're going to look for.
+
+27
+
+00:02:24,510  -->  00:02:29,430
+So for this instance we're going to be
+looking for an "{"id": "b_results"}"
+
+28
+
+00:02:29,430  -->  00:02:33,570
+then we can get the results loaded up
+into a variable. What we can do there is
+
+29
+
+00:02:33,570  -->  00:02:37,890
+we are going to look for each list item
+with a class of b_algo and the reason we're
+
+30
+
+00:02:37,890  -->  00:02:44,250
+doing that is because some list items
+have the list or the class of b_ad, and
+
+31
+
+00:02:44,250  -->  00:02:49,110
+basically those structures are different and we don't really want the ads, we don't want
+
+32
+
+00:02:49,110  -->  00:02:52,019
+any of this information on the side
+either like they've got wikipedia
+
+33
+
+00:02:52,019  -->  00:02:57,630
+information, and a map &amp; stuff, we just
+want search results here. Let's go ahead
+
+34
+
+00:02:57,630  -->  00:03:00,630
+and we're going to use a different
+
+35
+
+00:03:01,350  -->  00:03:08,610
+method here. So we're going to create a links variable what is
+
+36
+
+00:03:08,610  -->  00:03:19,890
+going to be equal to the results to
+find all list items with a class equal
+
+37
+
+00:03:19,890  -->  00:03:28,140
+to that "links = results.findAll("li", {"class": "b_algo"})" So notice the capital A right here, essentially the parameters
+
+38
+
+00:03:28,140  -->  00:03:33,000
+we're passing into the method is exactly the same as the parameters we're passing into
+
+39
+
+00:03:33,000  -->  00:03:37,860
+this one, so they work the same way.
+You could also if you're looking for a
+
+40
+
+00:03:37,860  -->  00:03:41,910
+very specific href attribute you can
+change that to href, then whatever
+
+41
+
+00:03:41,910  -->  00:03:43,590
+you're looking for.
+
+42
+
+00:03:43,590  -->  00:03:47,040
+So once we've got the links built what
+we're going to do is we're gonna put it
+
+43
+
+00:03:47,040  -->  00:03:53,310
+in a for statement. So "for item in links:"
+and we're gonna have to get two things out of this,
+
+44
+
+00:03:53,310  -->  00:03:59,280
+we're gonna have to get the text of the
+a element, and then also the href property.
+
+45
+
+00:03:59,280  -->  00:04:05,910
+So how we do that is first for the text
+of any element it's really simple type
+
+46
+
+00:04:05,910  -->  00:04:13,709
+"item_text = item.find("a").text"
+
+47
+
+00:04:13,709  -->  00:04:18,239
+So we get the text of that a element,
+
+48
+
+00:04:18,889  -->  00:04:24,889
+and then "item_href = item.find("a").attrs" and here we're
+
+49
+
+00:04:24,889  -->  00:04:31,340
+going to use a variable property called
+attrs for attributes, and this is a list
+
+50
+
+00:04:31,340  -->  00:04:35,509
+so we put square brackets there and then
+find whatever attribute of this specific
+
+51
+
+00:04:35,509  -->  00:04:41,810
+element we're looking for going to be "["href"]" So what we're going to do here we
+
+52
+
+00:04:41,810  -->  00:04:45,740
+need to make sure there's both text and
+a href for this to work, so let's put it
+
+53
+
+00:04:45,740  -->  00:04:53,629
+in an if statement. "if item_text and item_href:" we're basically going to
+
+54
+
+00:04:53,629  -->  00:05:01,759
+print about. So "print(item_text)" underneath "print(item_href)"
+
+55
+
+00:05:01,759  -->  00:05:06,020
+Let's go ahead and save this, we'll run it once, then we will look back over it. I'll try to
+
+56
+
+00:05:06,020  -->  00:05:10,069
+explain more in depth. So its first going
+to ask what we want to search for of
+
+57
+
+00:05:10,069  -->  00:05:14,870
+course we're going to search for pizza,
+and we search that we see the first
+
+58
+
+00:05:14,870  -->  00:05:22,759
+page of results which has the links here
+as well. So I could click on that and it will load up
+
+59
+
+00:05:23,599  -->  00:05:31,729
+Dominos Pizza's website. So, basically,
+let's go over this again. We need to import
+
+60
+
+00:05:31,729  -->  00:05:38,419
+requests in beautifulsoup, we allow the user to input whatever text that they're
+
+61
+
+00:05:38,419  -->  00:05:42,889
+looking for, and then we're going to put that to a search variable that we're going to
+
+62
+
+00:05:42,889  -->  00:05:47,569
+stuff into the params object which is
+going to make the get variable q equal
+
+63
+
+00:05:47,569  -->  00:05:52,039
+to the search, and this basically means that it's going to tell the URL that it needs
+
+64
+
+00:05:52,039  -->  00:05:58,430
+to append this part onto it. Then we're
+going to create the request,
+
+65
+
+00:05:58,430  -->  00:06:02,569
+here's the URL, this is the parameters
+that were passing in. Once we get the
+
+66
+
+00:06:02,569  -->  00:06:08,330
+request object we're able to access the
+content of the HTML from r.text, so
+
+67
+
+00:06:08,330  -->  00:06:11,870
+we need to build soup so that we can
+actually parse through it. So we set a
+
+68
+
+00:06:11,870  -->  00:06:16,099
+soup variable equal to the beautiful
+soup class, and what we're passing into
+
+69
+
+00:06:16,099  -->  00:06:20,810
+that is both the content and the parser
+that we want to use. Now the default
+
+70
+
+00:06:20,810  -->  00:06:25,129
+parser is going to be the HTML parser,
+but if you just leave it up to the
+
+71
+
+00:06:25,129  -->  00:06:27,740
+default it's going to print out a
+warning and it's not going to look as
+
+72
+
+00:06:27,740  -->  00:06:31,220
+nice, so we specify it here.
+
+73
+
+00:06:31,220  -->  00:06:36,980
+Once we've got the soup equal to the
+entire webpage, essentially, we're going
+
+74
+
+00:06:36,980  -->  00:06:39,410
+to create another variable called
+results and we're going to search
+
+75
+
+00:06:39,410  -->  00:06:45,350
+through the soup for the first instance
+of an ordered list with an ID of
+
+76
+
+00:06:45,350  -->  00:06:49,250
+b_results. So again this is going to be the
+element you're looking for and this list
+
+77
+
+00:06:49,250  -->  00:06:54,380
+is going to contain any attributes
+you're looking for, and then from within
+
+78
+
+00:06:54,380  -->  00:06:58,160
+the results we can use the find all
+method, and we're going to pass it the
+
+79
+
+00:06:58,160  -->  00:07:05,630
+elements were looking for within the results, and then the class attribute that we're
+
+80
+
+00:07:05,630  -->  00:07:09,590
+looking for. So this is going to find all
+list items with the class of b_algo
+
+81
+
+00:07:09,590  -->  00:07:14,960
+and store them in a list called links.
+Then what we do it's basic stuff,
+
+82
+
+00:07:14,960  -->  00:07:19,640
+we create a for statement for items and
+links, we're going to create the text, and
+
+83
+
+00:07:19,640  -->  00:07:25,040
+href, and how you get the text of
+any element is just by targeting the
+
+84
+
+00:07:25,040  -->  00:07:28,970
+element and then putting the text
+property there, and then if you want a
+
+85
+
+00:07:28,970  -->  00:07:35,720
+specific attribute from an element you
+use the attrs and then in this list
+
+86
+
+00:07:35,720  -->  00:07:40,520
+item you need to type what you want, what attribute you're looking for, and
+
+87
+
+00:07:40,520  -->  00:07:44,810
+then we just print it out. So as you can
+see this is very powerful stuff and we
+
+88
+
+00:07:44,810  -->  00:07:49,040
+can actually we could target the bottom
+
+89
+
+00:07:49,040  -->  00:07:55,790
+links right here, and we could also grab
+the results from the second page as well
+
+90
+
+00:07:55,790  -->  00:08:02,300
+if we wanted to. We would most likely
+want to create a recursive function for
+
+91
+
+00:08:02,300  -->  00:08:07,040
+that which we might do in the next video,
+but we are going to be doing some more
+
+92
+
+00:08:07,040  -->  00:08:12,080
+stuff and parsing with beautiful soup. So
+thank you guys for watching.

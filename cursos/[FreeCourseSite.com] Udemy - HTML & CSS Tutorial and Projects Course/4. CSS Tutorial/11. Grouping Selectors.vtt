@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.580 --> 00:05.590
+If you want to be extremely precise we should address these selectors as elements elect.
+
+00:06.280 --> 00:08.190
+So if you're a stickler for names.
+
+00:08.290 --> 00:09.340
+Here we go.
+
+00:09.340 --> 00:15.220
+Keep in mind though at least in my opinion it is much more important to know how to use them not remember.
+
+00:15.220 --> 00:17.330
+Every naming convention out there.
+
+00:17.540 --> 00:22.220
+Well that being said once we have elements selectors now see us as tool belt.
+
+00:22.650 --> 00:29.680
+CSX offer something really cool called Element grouping where we can combine multiple selectors while
+
+00:29.680 --> 00:32.320
+we all use elements selectors as our example.
+
+00:32.650 --> 00:39.780
+Please understand that you can group any features CSO selectors will cover in the future the same way.
+
+00:39.910 --> 00:42.690
+So how selector grouping would work.
+
+00:42.820 --> 00:45.100
+So let's say right now we have three selectors.
+
+00:45.160 --> 00:50.950
+We have the heading One heading to and part and what we would want to do is let's say we would want
+
+00:51.070 --> 00:52.270
+the whole text to be blue.
+
+00:52.960 --> 00:58.420
+While you can say the simplest way would be very simple we could just select the body.
+
+00:58.600 --> 01:05.980
+Since this is a tag and add colour blue so let's try this out maybe let me delete this and let's say
+
+01:05.980 --> 01:14.830
+that instead of selecting adding one or paragraph we can just do body and we can use colour blue so
+
+01:14.830 --> 01:15.830
+simple enough.
+
+01:16.000 --> 01:17.560
+Let's see what happens now.
+
+01:17.560 --> 01:18.500
+Sure enough at work.
+
+01:19.330 --> 01:19.890
+Okay.
+
+01:19.990 --> 01:24.510
+What about if I would just want the heading One and heading to to be.
+
+01:24.910 --> 01:29.200
+Our paragraph should say no no no stay read or something like that.
+
+01:29.320 --> 01:34.140
+So let's say the whole body is going to be read but then these two old want to be blue.
+
+01:34.580 --> 01:42.340
+Well I can either select them specifically separately so I can say having one and having two or I can
+
+01:42.340 --> 01:43.860
+just group them together.
+
+01:43.870 --> 01:46.630
+In this case I can just say having one comma.
+
+01:46.720 --> 01:52.040
+So that would be the syntax and having two is gonna be in a different color.
+
+01:52.120 --> 01:54.790
+In our case let's say that it would be blue.
+
+01:54.820 --> 02:01.360
+So I'm gonna again use the color blue and the Mon we say would notice what AB so both of the selectors
+
+02:01.360 --> 02:03.740
+that we have if we group them together.
+
+02:03.850 --> 02:07.510
+Both of them have the same property we have the same value.
+
+02:07.960 --> 02:12.130
+So this is that we can use grouping selectors in C assess.

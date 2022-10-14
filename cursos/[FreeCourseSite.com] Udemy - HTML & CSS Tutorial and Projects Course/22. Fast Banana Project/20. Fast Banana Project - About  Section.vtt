@@ -1,0 +1,688 @@
+WEBVTT
+
+00:00.040 --> 00:04.810
+And the next section we're going to be building is going to be about us.
+
+00:05.220 --> 00:12.420
+And just for a change and just so we know that actually everything is working on just more than one
+
+00:12.420 --> 00:14.560
+browser can see or hear to.
+
+00:14.700 --> 00:17.870
+Right now our files are open and Mazola right.
+
+00:17.920 --> 00:24.240
+So you can try that too if you're using Chrome right now just see that everything is working on both
+
+00:24.240 --> 00:26.510
+browsers and or here.
+
+00:26.520 --> 00:30.260
+This is what we're going to say we're going to say first you need your mouth.
+
+00:30.500 --> 00:37.710
+Someone to saying this is going to be about and I'm going to say section here then I'm going to select
+
+00:38.100 --> 00:45.110
+a comment copy and paste the comment in I'm going to say and of about it Item that.
+
+00:45.200 --> 00:52.260
+Well the first thing that I would want to do is actually have a section here with an idea of about and
+
+00:52.260 --> 00:59.250
+once we have the section now we would want the title now here we can just go here and actually get that
+
+00:59.250 --> 01:00.090
+title.
+
+01:00.130 --> 01:05.860
+So you're going to say that this is going to be a title and we're just going to copy it out here than
+
+01:05.910 --> 01:07.140
+once we're going to go down.
+
+01:07.140 --> 01:13.690
+Copy and paste and instead of future projects this is going to be a bolt section.
+
+01:13.920 --> 01:21.320
+So we're all going to say about us if we the witness what to say about us and we're here would you want
+
+01:21.320 --> 01:22.800
+to do is actually change the font.
+
+01:22.800 --> 01:23.790
+Awesome.
+
+01:23.820 --> 01:31.320
+So here we're going to say this is going to be user soon this is going to be a new user or you know
+
+01:31.390 --> 01:37.600
+once we have this now I would want to actually build the actual About section.
+
+01:37.650 --> 01:45.230
+So once the title is over first things first you're going to have a div here with an ID.
+
+01:45.300 --> 01:48.710
+So when I say hash tag and this is going to be about.
+
+01:49.020 --> 01:51.990
+And this is going to be center like this.
+
+01:51.990 --> 01:56.970
+Then we're going to have a two articles so the first one is going to be hard to go.
+
+01:57.150 --> 01:59.310
+And so here is our photo.
+
+01:59.340 --> 02:05.010
+So this is going to be I.D. with about photo price over here.
+
+02:05.010 --> 02:11.790
+Now we have our article out here we're going to have an image again press tab and we're going to have
+
+02:11.880 --> 02:18.170
+I'm going to be using a current project image so I'm seeing images here.
+
+02:18.210 --> 02:23.760
+And we're going to say worst current project and this and then look for alternative.
+
+02:23.820 --> 02:24.680
+Also going right.
+
+02:24.690 --> 02:30.750
+This is going to be current current project and you can see that the photo is actually going to be messing
+
+02:30.750 --> 02:32.420
+up our view for now right.
+
+02:32.430 --> 02:38.400
+Because you can see that this is going to be so big and obviously at the end all right on the finished
+
+02:38.400 --> 02:40.010
+version or you can see that.
+
+02:40.190 --> 02:41.670
+Well this is going to make it smaller.
+
+02:41.910 --> 02:46.830
+So don't worry about this right now it is just by default this big.
+
+02:46.860 --> 02:47.550
+Right.
+
+02:47.640 --> 02:53.630
+And then out here we're going to write another article and this article is going to be using a query.
+
+02:53.800 --> 02:54.620
+You.
+
+02:54.930 --> 02:56.880
+Right for security.
+
+02:57.210 --> 02:57.540
+Right.
+
+02:57.540 --> 03:02.340
+So therefore there is going to be a divide that we're actually going to be using for this.
+
+03:02.360 --> 03:02.740
+Right.
+
+03:02.910 --> 03:04.630
+So this is going to be our to go.
+
+03:05.040 --> 03:13.950
+So we're going to say Article Here article and for the article I would want a hash tag and we're going
+
+03:13.950 --> 03:21.630
+to say how about text about text press tab over here and now within the article would want the actual
+
+03:21.630 --> 03:22.470
+accordion.
+
+03:22.770 --> 03:29.340
+So here I'm going to say to Dave and on here we're going to say this is going to be hash tag be an accordion
+
+03:29.700 --> 03:30.180
+now.
+
+03:30.300 --> 03:33.160
+Obviously the actual idea can be whatever.
+
+03:33.180 --> 03:33.480
+Right.
+
+03:33.480 --> 03:39.860
+I'm just using the accordion idea because this is going to be what we're going to be getting from documentation.
+
+03:40.140 --> 03:43.050
+And it's just going to make a little bit more sense what we're doing.
+
+03:43.050 --> 03:43.710
+Right.
+
+03:43.740 --> 03:45.340
+So this is going to be our accordion.
+
+03:45.450 --> 03:48.490
+And for the accordion we need a heading.
+
+03:48.630 --> 03:49.010
+Right.
+
+03:49.020 --> 03:52.090
+So here is going to say press here for more info.
+
+03:52.140 --> 03:58.330
+Some say press here for more info or here.
+
+03:58.450 --> 04:01.220
+And then the next one is going to be the actual div..
+
+04:01.600 --> 04:07.830
+So we're all going to say Dave and we're really going to write that this is going to be Warum let's
+
+04:07.840 --> 04:09.240
+say 20 right.
+
+04:09.310 --> 04:15.940
+First time now we have a text and what we want is actually three of them.
+
+04:16.000 --> 04:17.570
+Three of these sets.
+
+04:17.580 --> 04:21.330
+All right so Dave including the headings so one two.
+
+04:21.520 --> 04:21.830
+Right.
+
+04:21.850 --> 04:24.010
+And now we have actually three of them.
+
+04:24.340 --> 04:32.080
+And this actually finishes the section about which you now would want to actually go ahead and style
+
+04:32.080 --> 04:33.780
+the About section.
+
+04:33.820 --> 04:44.070
+So what we can do is say read here and go to Maine say assess and start working with a About section.
+
+04:44.110 --> 04:50.800
+So what we're going to say here is we're going to have a we're going to scroll all the way in the bottom
+
+04:51.100 --> 04:55.210
+right mean this then or you are going to have some hashtags.
+
+04:55.520 --> 05:03.220
+And so we're going to make a comment and then we're going to say about section on this and what we're
+
+05:03.220 --> 05:09.850
+going to do or here is we're going to first start with an actual about how it's all going to start over
+
+05:09.850 --> 05:11.420
+here with the full section.
+
+05:11.620 --> 05:15.100
+And over here what I'm going to say and this is going to be Monheit.
+
+05:15.340 --> 05:21.240
+Now before we do that maybe it was about and let's do about four row and right away image right.
+
+05:21.250 --> 05:25.230
+Just so we can make it actually smaller so we can see what we're doing.
+
+05:25.450 --> 05:28.540
+So I'm going to say with an I'm going to say 100 percent.
+
+05:28.740 --> 05:29.770
+I really get this right.
+
+05:29.800 --> 05:37.210
+So now you can see that I got way smaller than I'm going to say border radius and I was going to say
+
+05:37.210 --> 05:43.830
+20 pixels on this and then I'm going to say a transition transform.
+
+05:44.070 --> 05:51.010
+It's all going to say transition and we're going to say transform transform and we're going to say two
+
+05:51.010 --> 05:52.090
+seconds each.
+
+05:52.330 --> 05:54.070
+And don't worry about this transition right.
+
+05:54.070 --> 05:56.150
+We're not going to write it right now.
+
+05:56.270 --> 05:56.470
+Right.
+
+05:56.470 --> 06:00.890
+We just said it all the properties and values for now for the image.
+
+06:01.050 --> 06:06.910
+And so we can see what's happening how we're actually standing here for about we're going to say hash
+
+06:06.910 --> 06:14.600
+tag about and you know the first thing we're going to say min height 19 View Heights this.
+
+06:14.770 --> 06:17.810
+Then after that we would want a padding.
+
+06:18.070 --> 06:22.750
+And I'm going to say batting 40 pixels here and zero.
+
+06:22.780 --> 06:25.720
+So just a bottom is going to be 40 pixels.
+
+06:25.720 --> 06:30.250
+And then you want a background and all we're here for in the background we're going to say like this
+
+06:30.260 --> 06:35.200
+we're going to say background we're going to say you are real and they use the same photo that I use
+
+06:35.200 --> 06:36.030
+those here.
+
+06:36.390 --> 06:41.800
+All right so here we're going to see images and then this is going to be current project 1.
+
+06:41.950 --> 06:48.460
+And so this is going to be the same background nor here we're going to write actually in a shorter version.
+
+06:48.460 --> 06:49.040
+Right.
+
+06:49.120 --> 06:53.830
+Because there's a shortcut for all the properties and remember how we're dealing with them right.
+
+06:53.890 --> 06:57.340
+When we had a background attachment position.
+
+06:57.340 --> 07:04.600
+Repeat size and all that right now we can write them actually much more faster by actually writing them
+
+07:04.600 --> 07:05.210
+in one line.
+
+07:05.210 --> 07:08.260
+And I'm going to make this smaller and just so we can see better.
+
+07:08.260 --> 07:10.860
+All right so first I'm going to place a position.
+
+07:10.890 --> 07:14.770
+This is going to be center and then we're going to have a size cover.
+
+07:15.100 --> 07:21.620
+And the rule is that you need to write the size after position and they need to be separated here by
+
+07:21.630 --> 07:22.630
+this world.
+
+07:22.990 --> 07:29.360
+Then over here we're going to write a no repeat which is going to start from bagong repeat this and
+
+07:29.370 --> 07:35.260
+then we'll have a background attachment fixed and it's all those four things you can basically write
+
+07:35.300 --> 07:36.420
+within four words.
+
+07:36.440 --> 07:36.910
+Right.
+
+07:36.970 --> 07:44.290
+But just remember this that the actual size needs to be after the position and or here what we can do
+
+07:44.290 --> 07:47.050
+is we can right away have a clip path.
+
+07:47.180 --> 07:53.910
+We used it before so I can say clip I'm going to say path or here and we're going to say polygon we're
+
+07:54.040 --> 07:57.350
+going on here and I going to we're going to make some shapes.
+
+07:57.350 --> 08:00.770
+All right so here we're going to make these shapes are here like this right.
+
+08:00.790 --> 08:06.440
+So this is a little bit higher than this one and this is over here a little bit lower than the side.
+
+08:06.700 --> 08:12.030
+So the way we do that we already know we start with 0 2 zeroes.
+
+08:12.250 --> 08:15.470
+Then we have a 100 percent on this.
+
+08:15.550 --> 08:19.140
+Then we have a 5 percent on this.
+
+08:19.300 --> 08:22.400
+And over here again we're going to have a hundred percent.
+
+08:22.840 --> 08:30.250
+So this is going to be the x value the Y Y O U X Y U right now it's 100 the y l you start to get lower.
+
+08:30.250 --> 08:36.670
+So this is going to be five then out here this is going to be actual hundred hundred here and you can
+
+08:36.670 --> 08:37.720
+see what happens right.
+
+08:37.720 --> 08:42.300
+So this is how it would look like if you'd have only three dots.
+
+08:42.310 --> 08:46.990
+But we have actually for real going to write 0 and we're going to write 95.
+
+08:47.410 --> 08:48.930
+So this is how we're going to look like.
+
+08:48.940 --> 08:49.480
+Right.
+
+08:49.480 --> 08:55.870
+So again these two corners and actually one is higher the other one is going to be or not.
+
+08:55.920 --> 09:00.460
+We have a clip path that's actually at a linear gradient.
+
+09:00.770 --> 09:05.070
+So here we're going to do again in front in here.
+
+09:05.240 --> 09:10.020
+I'm going to say gradient here and we can place right away.
+
+09:10.190 --> 09:13.740
+And over here what we do is actually work with this color.
+
+09:13.830 --> 09:14.280
+All right.
+
+09:14.450 --> 09:19.150
+So I'm going to say we're here hashtag FFC 9 1 4.
+
+09:19.190 --> 09:21.730
+Remember that was our yellow color.
+
+09:21.740 --> 09:25.290
+Now what I can do over here is I'm going to go with quick headed.
+
+09:25.290 --> 09:30.290
+All right so this is going to be a real color and I'm just going to go with G B and what I'm going to
+
+09:30.470 --> 09:37.990
+say or here is R G B A and or here we're going to place a comma and we're going to place a zero point.
+
+09:38.390 --> 09:40.150
+Let's say three right.
+
+09:40.220 --> 09:43.370
+So maybe you know what let's say five or six.
+
+09:43.370 --> 09:44.030
+Right.
+
+09:44.060 --> 09:50.090
+So what I'm saying is I would want a linear gradient right but I don't want all the time to have a black
+
+09:50.090 --> 09:50.650
+one.
+
+09:50.880 --> 09:51.280
+All right.
+
+09:51.280 --> 09:55.980
+Because we have a choice and we can actually use other colors too.
+
+09:56.270 --> 10:02.440
+So what I'm going to say or hand out a copy and paste this are G.P.A. this.
+
+10:02.600 --> 10:05.910
+Right now I can see that I have a yellow background right.
+
+10:05.960 --> 10:10.130
+So it all depends on a color note here also this depends on opacity.
+
+10:10.280 --> 10:12.300
+The higher this number is going to be right.
+
+10:12.300 --> 10:14.300
+This is you can see completely yellow.
+
+10:14.420 --> 10:21.130
+Now we don't want that let's say this is going to be 0.3 and this is going to be much easier 0.3.
+
+10:21.140 --> 10:29.370
+Now once we're done with an actual about what we would want or here right now we would want about Center.
+
+10:29.530 --> 10:29.940
+Right.
+
+10:29.970 --> 10:35.570
+The idea of actually holding these two things inside here and again we're going to do the same thing
+
+10:35.570 --> 10:40.380
+as always we're going to say about what we're going to say center right.
+
+10:40.400 --> 10:45.270
+So this is going to be the one that actually has them both right.
+
+10:45.290 --> 10:49.520
+So this is the knave and articles are two children.
+
+10:49.520 --> 10:54.410
+So we're all going to say about Center and first we're going to have a max.
+
+10:54.590 --> 10:58.360
+I'm going to say Max with Max what is going to be 90.
+
+10:58.430 --> 11:01.000
+You with us like this.
+
+11:01.010 --> 11:03.760
+All right so now I can see that we got the 9 out of this guy.
+
+11:03.950 --> 11:09.230
+Now I would want to place it in the center so we're going to say marginata again right now we actually
+
+11:09.230 --> 11:14.890
+place them side by side in the center and then once we're actually done with an image.
+
+11:15.030 --> 11:15.590
+All right.
+
+11:15.610 --> 11:18.800
+We already wrote an image because that will be the next thing.
+
+11:18.800 --> 11:22.710
+So let me just cut this one out and paste it over here.
+
+11:22.820 --> 11:27.950
+And remember I said through transition and what we would want for and position we would want to scale.
+
+11:28.160 --> 11:30.440
+So it actually would zoom out right.
+
+11:30.440 --> 11:37.900
+So we're going to say about photo image however you know this and what should happen.
+
+11:38.120 --> 11:47.990
+So we're going to say transform and we're going to say scale here zero point eight like this and we're
+
+11:48.080 --> 11:50.250
+going to place a semi colon.
+
+11:50.570 --> 11:56.180
+So when's it going to happen is that as you can see hovering right and actually it gets smaller and
+
+11:56.180 --> 11:59.450
+then all hear from both of them we would want a little bit of margin.
+
+11:59.650 --> 12:05.360
+So I'm going to say over here about we're going to say row and over here we're going to say this is
+
+12:05.360 --> 12:06.670
+going to be next.
+
+12:06.990 --> 12:11.840
+So I'm going to say him about an intercept text right from both of them.
+
+12:11.850 --> 12:19.940
+We will do what Jim one just so I'm going to say we're here again and we're going to say 40 pixels here
+
+12:20.090 --> 12:21.640
+and 0.
+
+12:21.680 --> 12:28.880
+Now since this is all going to be styling once we get the actual J query we're going to go ahead and
+
+12:28.880 --> 12:31.010
+actually apply right away.
+
+12:31.070 --> 12:33.860
+A rules for responsiveness.
+
+12:33.930 --> 12:34.220
+Right.
+
+12:34.220 --> 12:41.570
+Because if I say this all here like this I can if I go to my recording and if we show him right you
+
+12:41.570 --> 12:47.620
+can see that right now I have one big image right here where my accordion is still not done right.
+
+12:47.630 --> 12:52.580
+So first let's add a responsiveness and then we're going to deal with the actual accordion.
+
+12:52.570 --> 12:55.740
+We're going to have to get Google CDN and all that.
+
+12:55.740 --> 13:02.570
+So let's first acquire responsiveness of this and what we're going to say or here that we would want
+
+13:02.660 --> 13:12.440
+a year here and we're going to say screen screen over here and we're going to say and and then all really
+
+13:12.490 --> 13:22.040
+going to write like this we're going to say this is going to be men with five 576 or 776 1776.
+
+13:22.430 --> 13:27.020
+Then after that we would want a about Center Center.
+
+13:27.170 --> 13:33.380
+And over here we're going to say this play I'm going to say flex I want to display flexible going to
+
+13:33.380 --> 13:41.390
+suggest the fat content space between here and we're going to have a line content and we're going to
+
+13:41.390 --> 13:42.100
+say something.
+
+13:42.130 --> 13:43.190
+All right.
+
+13:43.190 --> 13:45.010
+So again we can say this.
+
+13:45.020 --> 13:48.550
+Let's go back to recordings and let's see what we are right now.
+
+13:48.590 --> 13:50.990
+Both of them are actually side by side.
+
+13:51.020 --> 13:54.580
+Now what I would want to do is actually go back over here.
+
+13:54.690 --> 14:03.050
+We're going to say about a text and we're going to say about I don't want to say photo and so here we're
+
+14:03.050 --> 14:03.950
+going to write like this.
+
+14:03.950 --> 14:14.240
+All right so both of them once the screen gets bigger and 776 let's say flex 0 0 and 0 0 and this is
+
+14:14.240 --> 14:17.090
+going to be Kelk function or here again right.
+
+14:17.090 --> 14:20.240
+So this is going to be 50 percent minus.
+
+14:20.420 --> 14:26.780
+And again Wanny is that's arbitrary you can use Ousley pixels but it's just for me it's a little bit
+
+14:26.780 --> 14:29.260
+easier once you can go in just with one hand right.
+
+14:29.650 --> 14:33.690
+And or here on Swissair was a chicken and what we have right.
+
+14:33.730 --> 14:36.400
+So here we have both of them right.
+
+14:36.440 --> 14:41.320
+But then I would want or hear this accordion about text actually place it in the center.
+
+14:41.330 --> 14:43.350
+We already know how to do that.
+
+14:43.400 --> 14:43.640
+All right.
+
+14:43.640 --> 14:50.390
+So we're going to go back over here about moosic text and this and then we're going to say this is going
+
+14:50.390 --> 14:57.000
+to be a online self and we're going to say something like this.
+
+14:57.010 --> 14:57.360
+All right.
+
+14:57.380 --> 14:59.210
+And before we go have a look.
+
+14:59.450 --> 15:05.900
+Let me actually add two more selectors that we're not going to be tackling right now right because like
+
+15:05.900 --> 15:11.470
+I said we still need to get that accordion but we're really going to say we're here is class you high.
+
+15:11.630 --> 15:14.420
+This is going to be our accordion.
+
+15:14.610 --> 15:21.140
+We're here at our Andr and legis have a curly braces no real going out.
+
+15:21.190 --> 15:28.180
+A You I don't know where this is going to be accordion and all of this is going to be another class
+
+15:28.500 --> 15:33.230
+you high accordion and content.
+
+15:33.520 --> 15:33.870
+Right.
+
+15:33.880 --> 15:38.020
+And again like I said we're going to be styling them in the next video because then I'm going to be
+
+15:38.020 --> 15:40.970
+able to show you where I'm actually getting these correct classes.
+
+15:41.020 --> 15:41.840
+Right.
+
+15:41.860 --> 15:45.600
+Once we save this remember that we have aligned so Center.
+
+15:45.880 --> 15:51.700
+And once we refresh all here right now here you can see that everything is working right.
+
+15:51.730 --> 15:57.380
+The only thing left over here to get this accordion and make the accordion start working.

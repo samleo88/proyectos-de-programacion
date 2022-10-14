@@ -1,0 +1,1427 @@
+/****************************Formulario Login*************************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+using System.Data.SqlClient;
+using Tienda.Entidades;
+using Tienda.Negocio;
+
+namespace TiendaWindows
+{
+    public partial class FormLogin : Form
+    {
+        public FormLogin()
+        {
+            InitializeComponent();
+            
+        }
+
+        EntidadLogin objEntidad = new EntidadLogin();
+        NegocioLogin objNegocio = new NegocioLogin();
+
+        private void txtSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void txtIngresar_Click(object sender, EventArgs e)
+        {
+            objEntidad.Usuario = txtUsuario.Text;
+            objEntidad.Password = txtPassword.Text;
+
+            DataTable tbl = objNegocio.LogonN(objEntidad);
+            if (tbl.Rows.Count == 0)
+            {
+                MessageBox.Show("No cohensiden Usuario y Contraseña \n Intentelo nuevamente",
+                    "Acceso al Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtUsuario.Text = "";
+                txtPassword.Text = "";
+                txtUsuario.Focus();
+            }
+            else
+            {
+                MessageBox.Show("Bienvenido al Sistema", "Acceso al Sistema", MessageBoxButtons.OK);
+
+                if (tbl.Rows[0][3].ToString()=="administrador")
+                {
+                    program.vacceso = "1";
+                    
+                    FormPrincipal Frm = new FormPrincipal();
+                    Frm.Show();
+                }
+                else
+                {
+                    program.vacceso = "0";
+                    FormPrincipal Frm1 = new FormPrincipal();
+                    Frm1.Show();
+                }
+            }
+
+
+
+            /*DataTable Datos = Tienda.Negocio(this.txtUsuario.Text,this.txtPassword.Text);
+            //Evaluar si existe el Usuario
+            if (Datos.Rows.Count==0)
+            {
+                MessageBox.Show("NO Tiene Acceso al Sistema","Sistema de Ventas",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+            else
+            {
+                FormVendedor frm = new ();
+                frm.Id = Datos.Rows[0][0].ToString();
+                frm.Apellidos = Datos.Rows[0][1].ToString();
+                frm.Nombre = Datos.Rows[0][2].ToString();
+                frm.Acceso = Datos.Rows[0][3].ToString();
+
+                frm.Show();
+                this.Hide();
+
+            }*/
+        }
+    }
+}
+/****************************Formulario Principal*********************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace TiendaWindows
+{
+    public partial class FormPrincipal : Form
+    {
+        public FormPrincipal()
+        {
+            InitializeComponent();
+            ActivarButton(program.vacceso);
+            
+        }
+        private void ActivarButton(string x)
+        {
+            if (program.vacceso == "1")
+            {
+                btArticulo.Enabled = true;
+                btCategoria.Enabled = true;
+                btCliente.Enabled = true;
+                btPedido.Enabled = true;
+                btVendedor.Enabled = true;
+            }
+            else {
+                btArticulo.Enabled = false;
+                btCategoria.Enabled = false;
+                btCliente.Enabled = true;
+                btPedido.Enabled = true;
+                btVendedor.Enabled = false;
+            }
+        }
+
+        private void btCliente_Click(object sender, EventArgs e)
+        {
+            FormCliente Frm = new FormCliente();
+            Frm.Show();
+        }
+
+        private void btVendedor_Click(object sender, EventArgs e)
+        {
+            FormVendedor Frm = new FormVendedor();
+            Frm.Show();
+        }
+
+        private void btCategoria_Click(object sender, EventArgs e)
+        {
+            FormCategorias Frm = new FormCategorias();
+            Frm.Show();
+        }
+
+        private void btArticulo_Click(object sender, EventArgs e)
+        {
+            FormArticulo Frm = new FormArticulo();
+            Frm.Show();
+        }
+
+       private void btPedido_Click(object sender, EventArgs e)
+        {
+           FormPedido Frm = new FormPedido();
+           Frm.Show();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+/*************************Formulario Categoria*********************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Tienda.Entidades;
+using Tienda.Negocio;
+
+namespace TiendaWindows
+{
+    public partial class FormCategorias : Form
+    {
+        List<Categoria> lista = null;
+        BLCategoria blCategoria = new BLCategoria();
+        Categoria c;
+        bool _nuevo = false;
+
+
+
+        public FormCategorias()
+        {
+            InitializeComponent();
+            ActivarControlDatos(gbDatos, false);
+            CargarDatos();
+
+        }
+
+        private void ActivarControlDatos(Control Contenedor, bool Estado)
+        {
+            try
+            {
+                foreach (var item in Contenedor.Controls)
+                {
+                    if (item.GetType() == typeof(TextBox))
+                    {
+                        ((TextBox)item).Enabled = Estado;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void LimpiarControl(Control Contenedor)
+        {
+            foreach (var item in Contenedor.Controls)
+            {
+                if (item.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)item).Clear();
+                }
+            }
+        }
+
+        private void ActivarButton(bool Estado)
+        {
+            btnNuevo.Enabled = Estado;
+            btnGrabar.Enabled = !Estado;
+            btnEliminar.Enabled = Estado;
+            btnSalir.Enabled = Estado;
+        }
+
+        private void CargarDatos()
+        {
+            if (lista == null)
+            {
+                lista = blCategoria.Listar();
+            }
+            if (lista.Count > 0)
+            {
+                dgvDatos.Rows.Clear();
+                for (int i = 0; i < lista.Count; i++)
+                {
+                    dgvDatos.Rows.Add(lista[i].Id, lista[i].Codigo,
+                        lista[i].Nombre, lista[i].Descripcion);
+                }
+            }
+        }
+
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            _nuevo = true;
+            ActivarControlDatos(gbDatos, true);
+            btnEditar.Text = "Cancelar";
+            ActivarButton(false);
+            LimpiarControl(gbDatos);
+            txtCodigo.Focus();
+
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e)
+        {
+            int n = -1;
+            if (_nuevo)
+            {
+                c = new Categoria(0, txtCodigo.Text,
+                    txtNombre.Text, txtObservacion.Text);
+                n = blCategoria.Insertar(c);
+            }
+            else
+            {
+                c.Codigo = txtCodigo.Text;
+                c.Nombre = txtNombre.Text;
+                c.Descripcion = txtObservacion.Text;
+                n = blCategoria.Actualizar(c);
+            }
+            if (n > 0)
+            {
+                MessageBox.Show("Datos grabados correctamente", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                LimpiarControl(gbDatos);
+                btnEditar.Text = "Editar";
+                lista = blCategoria.Listar();
+                CargarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Error al grabar", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            _nuevo = false;
+            if (btnEditar.Text == "Cancelar")
+            {
+                LimpiarControl(gbDatos);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                btnEditar.Text = "Editar";
+            }
+            else
+            {
+                if (dgvDatos.RowCount > 0)
+                {
+                    c = blCategoria.TraerPorId((int)dgvDatos[0, dgvDatos.
+                        CurrentRow.Index].Value);
+                    txtCodigo.Text = c.Codigo;
+                    txtNombre.Text = c.Nombre;
+                    txtObservacion.Text = c.Descripcion;
+                    ActivarControlDatos(gbDatos, true);
+                    ActivarButton(false);
+                    dgvDatos.Enabled = false;
+                    btnEditar.Text = "Cancelar";
+                }
+            }
+
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvDatos.RowCount > 0)
+            {
+                c = blCategoria.TraerPorId((int)dgvDatos[0, dgvDatos.
+                    CurrentRow.Index].Value);
+                DialogResult rpta =
+                    MessageBox.Show("Desea eliminar el registro", "Eliminar",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rpta == System.Windows.Forms.DialogResult.Yes)
+                {
+                    int n = blCategoria.Eliminar(c.Id);
+                    if (n > 0)
+                    {
+                        MessageBox.Show("Registro eliminado", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        lista = blCategoria.Listar();
+                        CargarDatos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+            }
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
+/************************Formulario Articulo**************************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Tienda.Entidades;
+using Tienda.Negocio;
+
+namespace TiendaWindows
+{
+    public partial class FormArticulo : Form
+    {
+        List<Articulo> lista = null;
+        BLArticulo bLArticulo = new BLArticulo();
+        Articulo c;
+        bool _nuevo = false;
+        public FormArticulo()
+        {
+            InitializeComponent();
+            ActivarControlDatos(gbDatos, false);
+            CargarDatos();
+        }
+       
+        
+
+        private void ActivarControlDatos(Control Contenedor, bool Estado)
+        {
+            try
+            {
+                foreach (var item in Contenedor.Controls)
+                {
+                    if (item.GetType() == typeof(TextBox))
+                    {
+                        ((TextBox)item).Enabled = Estado;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void LimpiarControl(Control Contenedor)
+        {
+            foreach (var item in Contenedor.Controls)
+            {
+                if (item.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)item).Clear();
+                }
+            }
+        }
+
+        private void ActivarButton(bool Estado)
+        {
+            btnNuevo.Enabled = Estado;
+            btnGrabar.Enabled = !Estado;
+            btnEliminar.Enabled = Estado;
+            btnSalir.Enabled = Estado;
+        }
+
+        private void CargarDatos()
+        {
+            if (lista == null)
+            {
+                lista = bLArticulo.Listar();
+            }
+            if (lista.Count > 0)
+            {
+                dgvDatos.Rows.Clear();
+                for (int i = 0; i < lista.Count; i++)
+                {
+                    dgvDatos.Rows.Add(lista[i].Idarticulo, lista[i].Codigo, lista[i].Nombre, lista[i].Descripcion,
+                        lista[i].Idcategoria, lista[i].Precio_compra, lista[i].Precio_venta, lista[i].Stock_inicial, lista[i].Stock_actual,
+                        lista[i].Fecha_produccion, lista[i].Fecha_vencimiento);
+                }
+            }
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            _nuevo = true;
+            ActivarControlDatos(gbDatos, true);
+            btnEditar.Text = "Cancelar";
+            ActivarButton(false);
+            LimpiarControl(gbDatos);
+            txtNombre.Focus();  
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e)
+        {
+            int n = -1;
+            if (_nuevo)
+            {
+                c = new Articulo(0,
+                    txtCodigo.Text,
+                    txtNombre.Text,
+                    txtDescripcion.Text,
+                    Convert.ToInt16(txtIdCategoria.Text), 
+                    Convert.ToInt64(txtPrecio_compra.Text),
+                   Convert.ToInt64(txtPrecio_venta.Text),
+                   Convert.ToInt64(txtStock_inicial.Text),
+                    Convert.ToInt64(txtStock_actual.Text),
+                    txtFechadeProduccion.Text,
+                    txtFechadeVencimiento.Text);
+                n = bLArticulo.Insertar(c);
+            }
+            else
+            {
+
+                
+                c.Codigo = txtCodigo.Text;
+                c.Nombre = txtNombre.Text;
+                c.Descripcion = txtDescripcion.Text;
+                c.Idcategoria = Convert.ToInt16(txtIdCategoria.Text);
+                c.Precio_compra = Convert.ToInt64(txtPrecio_compra.Text);
+                c.Precio_venta = Convert.ToInt64 (txtPrecio_venta.Text);
+                c.Stock_inicial = Convert.ToInt64(txtStock_inicial.Text);
+                c.Stock_actual = Convert.ToInt64(txtStock_actual.Text);
+                c.Fecha_produccion = txtFechadeProduccion.Text;
+                c.Fecha_vencimiento= txtFechadeVencimiento.Text;
+
+                n = bLArticulo.Actualizar(c);
+            }
+            if (n > 0)
+            {
+                MessageBox.Show("Datos grabados correctamente", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                LimpiarControl(gbDatos);
+                btnEditar.Text = "Editar";
+                lista = bLArticulo.Listar();
+                CargarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Error al grabar", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            _nuevo = false;
+            if (btnEditar.Text == "Cancelar")
+            {
+                LimpiarControl(gbDatos);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                btnEditar.Text = "Editar";
+            }
+            else
+            {
+                if (dgvDatos.RowCount > 0)
+                {
+                    c = bLArticulo.TraerPorId((int)dgvDatos[0, dgvDatos.
+                        CurrentRow.Index].Value);
+                    txtCodigo.Text = c.Codigo;
+                    txtNombre.Text = c.Nombre;
+                    txtDescripcion.Text = c.Descripcion;
+                    txtIdCategoria.Text = Convert.ToString(c.Idcategoria); 
+                    txtPrecio_compra.Text = Convert.ToString(c.Precio_compra);
+                    txtPrecio_venta.Text = Convert.ToString(c.Precio_venta);
+                    txtStock_inicial.Text = Convert.ToString(c.Stock_inicial);
+                    txtStock_actual.Text = Convert.ToString(c.Stock_actual);
+                    txtFechadeProduccion.Text = c.Fecha_produccion;
+                    txtFechadeVencimiento.Text = c.Fecha_vencimiento;
+                    ActivarControlDatos(gbDatos, true);
+                    ActivarButton(false);
+                    dgvDatos.Enabled = false;
+                    btnEditar.Text = "Cancelar";
+                }
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvDatos.RowCount > 0)
+            {
+
+                c = bLArticulo.TraerPorId((int)dgvDatos[0, dgvDatos.
+                    CurrentRow.Index].Value);
+                DialogResult rpta =
+                    MessageBox.Show("Desea eliminar el registro", "Eliminar",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rpta == System.Windows.Forms.DialogResult.Yes)
+                {
+                    int n = bLArticulo.Eliminar(c.Idarticulo);
+                    if (n > 0)
+                    {
+                        MessageBox.Show("Registro eliminado", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        lista = bLArticulo.Listar();
+                        CargarDatos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
+/********************Formulario Cliente**************************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Tienda.Entidades;
+using Tienda.Negocio;
+
+namespace TiendaWindows
+{
+    public partial class FormCliente : Form
+    {
+       List <Cliente> lista = null;
+        BLCliente blCliente = new BLCliente();
+        Cliente c;
+        bool _nuevo = false;
+        public FormCliente()
+        {
+            InitializeComponent();
+            ActivarControlDatos(gbDatos, false);
+            CargarDatos();
+        }
+
+        private void ActivarControlDatos(Control Contenedor, bool Estado)
+        {
+            try
+            {
+                foreach (var item in Contenedor.Controls)
+                {
+                    if (item.GetType() == typeof(TextBox))
+                    {
+                        ((TextBox)item).Enabled = Estado;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void LimpiarControl(Control Contenedor)
+        {
+            foreach (var item in Contenedor.Controls)
+            {
+                if (item.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)item).Clear();
+                }
+            }
+        }
+
+        private void ActivarButton(bool Estado)
+        {
+            btnNuevo.Enabled = Estado;
+            btnGrabar.Enabled = !Estado;
+            btnEliminar.Enabled = Estado;
+            btnSalir.Enabled = Estado;
+        }
+
+        private void CargarDatos()
+        {
+            if (lista == null)
+            {
+                lista = blCliente.Listar();
+            }
+            if (lista.Count > 0)
+            {
+                dgvDatos.Rows.Clear();
+                for (int i = 0; i < lista.Count; i++)
+                {
+                   dgvDatos.Rows.Add(lista[i].Idcliente, lista[i].Nombre, lista[i].Apellidos, lista[i].Sexo,
+                       lista[i].Tipo_Documento, lista[i].Num_Documento, lista[i].Direccion, lista[i].Telefono, lista[i].Email);
+                }
+            }
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            _nuevo = true;
+            ActivarControlDatos(gbDatos, true);
+            btnEditar.Text = "Cancelar";
+            ActivarButton(false);
+            LimpiarControl(gbDatos);
+            txtNombre.Focus();
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e)
+        {
+            int n = -1;
+            if (_nuevo)
+            {
+                c = new Cliente(0,
+                    txtNombre.Text,
+                    txtApellido.Text,
+                    txtSexo.Text,
+                    txtTipo_documento.Text,
+                    txtNum_documento.Text,
+                    txtDirreccion.Text,
+                    txtTelefono.Text,
+                    txtEmail.Text);
+                n = blCliente.Insertar(c);
+            }
+            else
+            {
+                
+                c.Nombre = txtNombre.Text;
+                c.Apellidos = txtApellido.Text;
+                c.Sexo = txtSexo.Text;
+                c.Tipo_Documento = txtTipo_documento.Text;
+                c.Num_Documento = txtNum_documento.Text;
+                c.Direccion = txtDirreccion.Text;
+                c.Telefono = txtTelefono.Text;
+                c.Email = txtEmail.Text;
+                n = blCliente.Actualizar(c);
+            }
+            if (n > 0)
+            {
+                MessageBox.Show("Datos grabados correctamente", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                LimpiarControl(gbDatos);
+                btnEditar.Text = "Editar";
+                lista = blCliente.Listar();
+                CargarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Error al grabar", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            _nuevo = false;
+            if (btnEditar.Text == "Cancelar")
+            {
+                LimpiarControl(gbDatos);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                btnEditar.Text = "Editar";
+            }
+            else
+            {
+                if (dgvDatos.RowCount > 0)
+                {
+                    c = blCliente.TraerPorId((int)dgvDatos[0, dgvDatos.
+                        CurrentRow.Index].Value);
+                    txtNombre.Text = c.Nombre;
+                    txtApellido.Text = c.Apellidos;
+                    txtSexo.Text = c.Sexo;
+                    txtTipo_documento.Text = c.Tipo_Documento;
+                    txtNum_documento.Text = c.Num_Documento;
+                    txtDirreccion.Text = c.Direccion;
+                    txtTelefono.Text = c.Telefono;
+                    txtEmail.Text = c.Email;
+                    ActivarControlDatos(gbDatos, true);
+                    ActivarButton(false);
+                    dgvDatos.Enabled = false;
+                    btnEditar.Text = "Cancelar";
+                }
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvDatos.RowCount > 0)
+            {
+                c = blCliente.TraerPorId((int)dgvDatos[0, dgvDatos.
+                    CurrentRow.Index].Value);
+                DialogResult rpta =
+                    MessageBox.Show("Desea eliminar el registro", "Eliminar",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rpta == System.Windows.Forms.DialogResult.Yes)
+                {
+                    int n = blCliente.Eliminar(c.Idcliente);
+                    if (n > 0)
+                    {
+                        MessageBox.Show("Registro eliminado", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        lista = blCliente.Listar();
+                        CargarDatos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
+/*****************************Formulario Vendedor*******************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Tienda.Entidades;
+using Tienda.Negocio;
+
+namespace TiendaWindows
+{
+    public partial class FormVendedor : Form
+    {
+        List<Vendedor> lista = null;
+        BLVendedor blvendedor = new BLVendedor();
+        Vendedor c;
+        bool _nuevo = false;
+        public FormVendedor()
+        {
+            InitializeComponent();
+            ActivarControlDatos(gbDatos, false);
+            CargarDatos();
+        }
+
+        private void ActivarControlDatos(Control Contenedor, bool Estado)
+        {
+            try
+            {
+                foreach (var item in Contenedor.Controls)
+                {
+                    if (item.GetType() == typeof(TextBox))
+                    {
+                        ((TextBox)item).Enabled = Estado;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void LimpiarControl(Control Contenedor)
+        {
+            foreach (var item in Contenedor.Controls)
+            {
+                if (item.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)item).Clear();
+                }
+            }
+        }
+
+        private void ActivarButton(bool Estado)
+        {
+            btnNuevo.Enabled = Estado;
+            btnGrabar.Enabled = !Estado;
+            btnEliminar.Enabled = Estado;
+            btnSalir.Enabled = Estado;
+        }
+
+        private void CargarDatos()
+        {
+            if (lista == null)
+            {
+                lista = blvendedor.Listar();
+            }
+            if (lista.Count > 0)
+            {
+                dgvDatos.Rows.Clear();
+                for (int i = 0; i < lista.Count; i++)
+                {
+                    dgvDatos.Rows.Add(lista[i].Idvendedor, lista[i].Nombre, lista[i].Apellidos, lista[i].Sexo,
+                        lista[i].Tipo_Documento, lista[i].Num_Documento, lista[i].Direccion, lista[i].Telefono, lista[i].Email,
+                        lista[i].Acceso,lista[i].Usuario, lista[i].Password);
+                }
+            }
+        }
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            _nuevo = true;
+            ActivarControlDatos(gbDatos, true);
+            btnEditar.Text = "Cancelar";
+            ActivarButton(false);
+            LimpiarControl(gbDatos);
+            txtNombre.Focus();
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e)
+        {
+            int n = -1;
+            if (_nuevo)
+            {
+                c = new Vendedor(0,
+                    txtNombre.Text,
+                    txtApellido.Text,
+                    txtSexo.Text,
+                    txtTipo_documento.Text,
+                    txtNum_documento.Text,
+                    txtDirreccion.Text,
+                    txtTelefono.Text,
+                    txtEmail.Text,
+                    txtAcceso.Text,
+                    txtUsuario.Text,
+                    txtPassword.Text);
+                n = blvendedor.Insertar(c);
+            }
+            else
+            {
+
+                c.Nombre = txtNombre.Text;
+                c.Apellidos = txtApellido.Text;
+                c.Sexo = txtSexo.Text;
+                c.Tipo_Documento = txtTipo_documento.Text;
+                c.Num_Documento = txtNum_documento.Text;
+                c.Direccion = txtDirreccion.Text;
+                c.Telefono = txtTelefono.Text;
+                c.Email = txtEmail.Text;
+                c.Acceso = txtAcceso.Text;
+                c.Usuario = txtUsuario.Text;
+                c.Password = txtUsuario.Text;
+                n = blvendedor.Actualizar(c);
+            }
+            if (n > 0)
+            {
+                MessageBox.Show("Datos grabados correctamente", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                LimpiarControl(gbDatos);
+                btnEditar.Text = "Editar";
+                lista = blvendedor.Listar();
+                CargarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Error al grabar", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            _nuevo = false;
+            if (btnEditar.Text == "Cancelar")
+            {
+                LimpiarControl(gbDatos);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                btnEditar.Text = "Editar";
+            }
+            else
+            {
+                if (dgvDatos.RowCount > 0)
+                {
+                    c = blvendedor.TraerPorId((int)dgvDatos[0, dgvDatos.
+                        CurrentRow.Index].Value);
+                    txtNombre.Text = c.Nombre;
+                    txtApellido.Text = c.Apellidos;
+                    txtSexo.Text = c.Sexo;
+                    txtTipo_documento.Text = c.Tipo_Documento;
+                    txtNum_documento.Text = c.Num_Documento;
+                    txtDirreccion.Text = c.Direccion;
+                    txtTelefono.Text = c.Telefono;
+                    txtEmail.Text = c.Email;
+                    txtAcceso.Text = c.Acceso;
+                    txtUsuario.Text = c.Usuario;
+                    txtPassword.Text = c.Password;
+
+                    ActivarControlDatos(gbDatos, true);
+                    ActivarButton(false);
+                    dgvDatos.Enabled = false;
+                    btnEditar.Text = "Cancelar";
+                }
+            }
+
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvDatos.RowCount > 0)
+            {
+                c = blvendedor.TraerPorId((int)dgvDatos[0, dgvDatos.
+                    CurrentRow.Index].Value);
+                DialogResult rpta =
+                    MessageBox.Show("Desea eliminar el registro", "Eliminar",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rpta == System.Windows.Forms.DialogResult.Yes)
+                {
+                    int n = blvendedor.Eliminar(c.Idvendedor);
+                    if (n > 0)
+                    {
+                        MessageBox.Show("Registro eliminado", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        lista = blvendedor.Listar();
+                        CargarDatos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
+/*************************Formulario Pedido*********************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Tienda.Entidades;
+using Tienda.Negocio;
+
+namespace TiendaWindows
+{
+    public partial class FormPedido : Form
+    {
+        List<Pedido> lista = null;
+        BLPedido bLPedido = new BLPedido();
+        Pedido c;
+        bool _nuevo = false;
+        public FormPedido()
+        {
+            InitializeComponent();
+            ActivarControlDatos(gbDatos, false);
+            CargarDatos();
+        }
+
+        private void ActivarControlDatos(Control Contenedor, bool Estado)
+        {
+            try
+            {
+                foreach (var item in Contenedor.Controls)
+                {
+                    if (item.GetType() == typeof(TextBox))
+                    {
+                        ((TextBox)item).Enabled = Estado;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void LimpiarControl(Control Contenedor)
+        {
+            foreach (var item in Contenedor.Controls)
+            {
+                if (item.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)item).Clear();
+                }
+            }
+        }
+
+        private void ActivarButton(bool Estado)
+        {
+            btnNuevo.Enabled = Estado;
+            btnGrabar.Enabled = !Estado;
+            btnEliminar.Enabled = Estado;
+            btnSalir.Enabled = Estado;
+        }
+
+        private void CargarDatos()
+        {
+            if (lista == null)
+            {
+                lista = bLPedido.Listar();
+            }
+            if (lista.Count > 0)
+            {
+                dgvDatos.Rows.Clear();
+                for (int i = 0; i < lista.Count; i++)
+                {
+                    dgvDatos.Rows.Add(lista[i].Idpedido, lista[i].Idcliente, lista[i].Idvendedor, lista[i].Idarticulo,
+                        lista[i].Fecha_pedido, lista[i].Aceptacion_pedido);
+                }
+            }
+        }
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            _nuevo = true;
+            ActivarControlDatos(gbDatos, true);
+            btnEditar.Text = "Cancelar";
+            ActivarButton(false);
+            LimpiarControl(gbDatos);
+            txtIdarticulo.Focus();
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e)
+        {
+            int n = -1;
+            if (_nuevo)
+            {
+                c = new Pedido(0,
+                    
+                    Convert.ToInt16(txtIdcliente.Text),
+                    Convert.ToInt16(txtIdvendedor.Text),
+                   Convert.ToInt16(txtIdarticulo.Text),                  
+                    txtFecha_pedido.Text,
+                    txtAceptacion_pedido.Text);
+                n = bLPedido.Insertar(c);
+            }
+            else
+            {
+
+
+                
+                c.Idcliente = Convert.ToInt16(txtIdcliente.Text);
+                c.Idvendedor = Convert.ToInt16(txtIdvendedor.Text);
+                c.Idarticulo = Convert.ToInt16(txtIdarticulo.Text);                
+                c.Fecha_pedido= txtFecha_pedido.Text;
+                c.Aceptacion_pedido = txtAceptacion_pedido.Text;
+
+                n = bLPedido.Actualizar(c);
+            }
+            if (n > 0)
+            {
+                MessageBox.Show("Datos grabados correctamente", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                LimpiarControl(gbDatos);
+                btnEditar.Text = "Editar";
+                lista = bLPedido.Listar();
+                CargarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Error al grabar", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            _nuevo = false;
+            if (btnEditar.Text == "Cancelar")
+            {
+                LimpiarControl(gbDatos);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                btnEditar.Text = "Editar";
+            }
+            else
+            {
+                if (dgvDatos.RowCount > 0)
+                {
+                    c = bLPedido.TraerPorId((int)dgvDatos[0, dgvDatos.
+                        CurrentRow.Index].Value);
+                    
+                    txtIdcliente.Text = Convert.ToString(c.Idcliente);
+                    txtIdvendedor.Text = Convert.ToString(c.Idvendedor);
+                    txtIdarticulo.Text = Convert.ToString(c.Idarticulo);
+                    txtFecha_pedido.Text = c.Fecha_pedido;
+                    txtAceptacion_pedido.Text = c.Aceptacion_pedido;                   
+                    ActivarControlDatos(gbDatos, true);
+                    ActivarButton(false);
+                    dgvDatos.Enabled = false;
+                    btnEditar.Text = "Cancelar";
+                }
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvDatos.RowCount > 0)
+            {
+
+                c = bLPedido.TraerPorId((int)dgvDatos[0, dgvDatos.
+                    CurrentRow.Index].Value);
+                DialogResult rpta =
+                    MessageBox.Show("Desea eliminar el registro", "Eliminar",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rpta == System.Windows.Forms.DialogResult.Yes)
+                {
+                    int n = bLPedido.Eliminar(c.Idpedido);
+                    if (n > 0)
+                    {
+                        MessageBox.Show("Registro eliminado", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        lista = bLPedido.Listar();
+                        CargarDatos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
+/*******************************Formulario Detalle_pedido*************************/
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Tienda.Entidades;
+using Tienda.Negocio;
+namespace TiendaWindows
+{
+    public partial class FormDetalle_pedido : Form
+    {
+        /*List<Articulo> lista = null;
+        BLArticulo bLArticulo = new BLArticulo();
+        Articulo c;
+        bool _nuevo = false;*/
+        List<Detalle_pedido> lista = null;
+        BLDetalle_pedido bLDetalle_Pedido = new BLDetalle_pedido();
+        Detalle_pedido c;
+        bool _nuevo = false;
+        public FormDetalle_pedido()
+        {
+            InitializeComponent();
+            ActivarControlDatos(gbDatos, false);
+            CargarDatos();
+
+        }
+
+        private void ActivarControlDatos(Control Contenedor, bool Estado)
+        {
+            try
+            {
+                foreach (var item in Contenedor.Controls)
+                {
+                    if (item.GetType() == typeof(TextBox))
+                    {
+                        ((TextBox)item).Enabled = Estado;
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        private void LimpiarControl(Control Contenedor)
+        {
+            foreach (var item in Contenedor.Controls)
+            {
+                if (item.GetType() == typeof(TextBox))
+                {
+                    ((TextBox)item).Clear();
+                }
+            }
+        }
+
+        private void ActivarButton(bool Estado)
+        {
+            btnNuevo.Enabled = Estado;
+            btnGrabar.Enabled = !Estado;
+            btnEliminar.Enabled = Estado;
+            btnSalir.Enabled = Estado;
+        }
+
+        private void CargarDatos()
+        {
+            if (lista == null)
+            {
+                lista = bLDetalle_Pedido.Listar();
+
+            }
+            if (lista.Count > 0)
+            {
+                dgvDatos.Rows.Clear();
+                for (int i = 0; i < lista.Count; i++)
+                {
+                    dgvDatos.Rows.Add(lista[i].IdDetalle, lista[i].IdPedido,lista[i].IdArticulo, lista[i].Nombre,
+                        lista[i].Precio_unitario, lista[i].Cantidad, lista[i].Valor_total);
+                }
+            }
+        }
+
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            _nuevo = true;
+            ActivarControlDatos(gbDatos, true);
+            btnEditar.Text = "Cancelar";
+            ActivarButton(false);
+            LimpiarControl(gbDatos);
+            txtPrecio_unitario.Focus();
+        }
+
+        private void btnGrabar_Click(object sender, EventArgs e)
+        {
+            int n = -1;
+            if (_nuevo)
+            {
+                c = new Detalle_pedido(0,
+                   int.Parse(txtIdPedido.Text),
+                    Convert.ToInt32(txtIdArticulo.Text),
+                   
+                    Convert.ToDecimal (txtPrecio_unitario.Text),                    
+                   Convert.ToInt32(txtCantidad.Text),
+                   decimal.Parse(txtPrecio_total.Text)
+                  );
+                n = bLDetalle_Pedido.Insertar(c);
+            }
+            else
+            {
+
+
+                c.IdPedido= Convert.ToInt16(txtIdPedido.Text);
+                c.IdArticulo = Convert.ToInt32(txtIdArticulo.Text);
+                c.Precio_unitario = Convert.ToDecimal(txtPrecio_unitario.Text);
+                c.Cantidad = Convert.ToInt32(txtCantidad.Text);
+                c.Valor_total = Convert.ToDecimal(Convert.ToInt32( txtCantidad.Text) * Convert.ToDecimal( txtPrecio_unitario));
+                        
+               n = bLDetalle_Pedido.Actualizar(c);
+            }
+            if (n > 0)
+            {
+                MessageBox.Show("Datos grabados correctamente", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                LimpiarControl(gbDatos);
+                btnEditar.Text = "Editar";
+                lista = bLDetalle_Pedido.Listar();
+                CargarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Error al grabar", "Aviso",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            _nuevo = false;
+            if (btnEditar.Text == "Cancelar")
+            {
+                LimpiarControl(gbDatos);
+                ActivarControlDatos(gbDatos, false);
+                ActivarButton(true);
+                dgvDatos.Enabled = true;
+                btnEditar.Text = "Editar";
+            }
+            else
+            {
+                if (dgvDatos.RowCount > 0)
+                {
+                    c = bLDetalle_Pedido.TraerPorId((int)dgvDatos[0, dgvDatos.
+                        CurrentRow.Index].Value);
+                    txtIdPedido.Text = Convert.ToString(c.IdPedido);
+                    txtIdArticulo.Text = Convert.ToString(c.IdArticulo);
+                    txtPrecio_unitario.Text = Convert.ToString(c.Precio_unitario);
+                    txtCantidad.Text = Convert.ToString(c.Cantidad);
+                    txtPrecio_total.Text = Convert.ToString(c.Valor_total);
+                  
+                    ActivarControlDatos(gbDatos, true);
+                    ActivarButton(false);
+                    dgvDatos.Enabled = false;
+                    btnEditar.Text = "Cancelar";
+                }
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dgvDatos.RowCount > 0)
+            {
+
+                c = bLDetalle_Pedido.TraerPorId((int)dgvDatos[0, dgvDatos.
+                    CurrentRow.Index].Value);
+                DialogResult rpta =
+                    MessageBox.Show("Desea eliminar el registro", "Eliminar",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (rpta == System.Windows.Forms.DialogResult.Yes)
+                {
+                    int n = bLDetalle_Pedido.Eliminar(c.IdDetalle);
+                    if (n > 0)
+                    {
+                        MessageBox.Show("Registro eliminado", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        lista = bLDetalle_Pedido.Listar();
+                        CargarDatos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al eliminar", "Aviso",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
+}
+

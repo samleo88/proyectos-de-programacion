@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.480 --> 00:07.050
+The last page in our project is gonna be contact page where again we have tons of things that we have
+
+00:07.050 --> 00:13.320
+from the indexation email page meaning our homepage but we to the form we're in there is gonna be the
+
+00:13.320 --> 00:18.350
+name input email input as well as the description text there.
+
+00:18.390 --> 00:21.220
+Now let's head over back to our project.
+
+00:21.270 --> 00:26.050
+First let's create the page so we're going to say contact H.
+
+00:26.100 --> 00:32.240
+Now that's going to be your name and within the page again we would like to copy and paste from the
+
+00:32.240 --> 00:37.130
+about or numbers because they are just going to be shorter since again and we're going to reuse tons
+
+00:37.130 --> 00:38.630
+of things from there.
+
+00:38.630 --> 00:40.910
+And maybe let's delete the long text.
+
+00:40.960 --> 00:45.410
+We are not going to use it or we're not gonna need it in our case.
+
+00:45.440 --> 00:51.590
+So once that is deleted we can also change the heading One AND LET'S WRITE.
+
+00:51.590 --> 00:52.870
+Contact us.
+
+00:53.420 --> 00:59.420
+Going to be our heading and within a little browser window and just navigate the contact page.
+
+00:59.600 --> 01:01.380
+And this is gonna be our page.
+
+01:01.490 --> 01:05.470
+Now before we start working on a form maybe let's also change the title.
+
+01:05.570 --> 01:06.950
+There should be contact.
+
+01:07.250 --> 01:09.980
+And now here are on the top of the tab.
+
+01:10.070 --> 01:12.560
+I have my title of the page.
+
+01:12.560 --> 01:14.590
+Now what we have for the forum.
+
+01:14.840 --> 01:16.720
+Well we have the heading One right.
+
+01:17.030 --> 01:21.520
+And then we would need to create the form element or element.
+
+01:21.780 --> 01:26.280
+And we can use the element obviously for this and we can just leave the action blank.
+
+01:26.310 --> 01:32.840
+Again we're not going to be collecting the values as well as let's start with the simple comment just
+
+01:32.840 --> 01:35.830
+to separate later on what we're going to be creating.
+
+01:35.910 --> 01:39.600
+This is going to be the name we need to use the label element.
+
+01:39.680 --> 01:46.420
+Now the label element will have the four attribute and this is gonna point to the idea that we're gonna
+
+01:46.430 --> 01:53.300
+be creating now in our case the idea we're going to have to be name mostly for the label to match as
+
+01:53.300 --> 01:57.040
+well as let's write input with a type of text.
+
+01:57.050 --> 02:02.570
+I also would like to add name attribute and we're gonna set the name attribute equal to the name in
+
+02:02.570 --> 02:03.500
+this case.
+
+02:03.500 --> 02:09.590
+And last but not least we have the 80 and the idea needs to match for attributes in the label.
+
+02:09.590 --> 02:10.350
+So in this case.
+
+02:10.360 --> 02:16.910
+Well then also a name with name and now I have excellent input where if I'm gonna click on the label
+
+02:17.330 --> 02:19.490
+the input is gonna be highlighted.
+
+02:19.490 --> 02:25.850
+So this is gonna be my name and again the reason for the comment is just making a separation later on
+
+02:26.080 --> 02:29.660
+it since this is gonna be the name but the next one is gonna be e-mail.
+
+02:29.780 --> 02:35.740
+So I'm gonna change the comment through email and now we're gonna change name in a few places.
+
+02:35.930 --> 02:41.180
+Since we don't want to keep the name but in fact this is gonna be email server so we're gonna be deleting
+
+02:41.180 --> 02:44.900
+it from the floor as well as the name on the label.
+
+02:44.900 --> 02:48.870
+The I.D. And last but not least the name attribute.
+
+02:49.080 --> 02:55.580
+So I can just delete all of them at the same time and let's write your email as long as email.
+
+02:55.580 --> 02:56.780
+Now we could have written.
+
+02:56.780 --> 03:02.290
+Same way how we did it deletion but since this is capital I just kind of rewrote it.
+
+03:02.900 --> 03:05.730
+All of them one at the same time.
+
+03:05.730 --> 03:11.890
+Now we have everything we have for attribute name I.D. email once we're gonna save it.
+
+03:11.960 --> 03:18.840
+We're gonna have our e-mail now maybe we can also add the Lindberg This is gonna look a little bit better
+
+03:19.240 --> 03:27.180
+and just get the actual line work as well as yeah maybe another one that might look a little bit more
+
+03:27.180 --> 03:29.640
+decent if we have two lines in between.
+
+03:29.640 --> 03:30.750
+And what else we have.
+
+03:30.840 --> 03:34.740
+Well we can also use the text area for a description.
+
+03:35.190 --> 03:42.050
+So let me copy this and now I have two line breaks as well here and here I'm gonna say that there's
+
+03:42.060 --> 03:48.880
+going to be a comment in the description and this wouldn't be the common form and description and let's
+
+03:48.880 --> 03:52.280
+write personal paragraph the corruption.
+
+03:52.510 --> 03:59.280
+So this would be my paragraph basically the value within the paragraph is gonna be description and we
+
+03:59.280 --> 04:02.580
+know that we have the text area right.
+
+04:02.860 --> 04:06.030
+We have a text area element now within the text area.
+
+04:06.360 --> 04:09.540
+Let's also write a name for description.
+
+04:09.540 --> 04:14.600
+Now as you can see in this case we're not using the label so we don't really care about Daddy.
+
+04:14.730 --> 04:16.140
+It can stay there blank.
+
+04:16.170 --> 04:17.690
+It doesn't really matter.
+
+04:17.700 --> 04:24.060
+Columns are gonna stay 30 rows are gonna say 10 and you know what let's write just a placeholder let's
+
+04:24.060 --> 04:28.870
+say for the place holder we're gonna say your description.
+
+04:29.040 --> 04:36.030
+This is something we should write and now we have a nice text area with a place holder of description.
+
+04:36.310 --> 04:40.450
+And yeah I think that's gonna be enough for our contact page.
+
+04:40.480 --> 04:45.020
+Let me just double check whether everything is working in the bigger browser window.
+
+04:45.160 --> 04:48.760
+We'll have the numbers from the numbers we can navigate in the contact.
+
+04:48.820 --> 04:54.070
+This is where we'll have our simple form and I think that everything is working fine.
+
+04:54.070 --> 04:56.950
+And we have successfully created all our four pages.

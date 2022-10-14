@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.450 --> 00:01.240
+As always.
+
+00:01.260 --> 00:04.130
+First let's check out it looks like right now.
+
+00:04.240 --> 00:10.490
+And so we can see over here that we have the master image that is stretched stretched out on here in
+
+00:10.500 --> 00:11.350
+this rain.
+
+00:11.520 --> 00:16.620
+And as we hover over here right and it's actually appearing and reappearing again.
+
+00:16.690 --> 00:24.030
+So maybe over here let's actually refresh right now what we would need to do is actually go ahead and
+
+00:24.150 --> 00:26.200
+add equerries.
+
+00:26.220 --> 00:27.960
+So what I'm going to do here.
+
+00:28.200 --> 00:34.110
+We're going to go back over here and what we're going to say is that once actually there's a meteor
+
+00:34.350 --> 00:40.590
+screenwriter we're going to see media screen here and I'm going to say and I'm not going to we're going
+
+00:40.590 --> 00:44.460
+to start with men with here.
+
+00:44.560 --> 00:47.740
+We're going to say five seventy six.
+
+00:47.780 --> 00:49.460
+You're doing this right.
+
+00:49.500 --> 00:51.800
+And they're all going to have a team center.
+
+00:52.230 --> 01:01.590
+So I'm going to say here that we would want a hash tag team Center team and they're all here or here
+
+01:01.590 --> 01:09.220
+would we would want is actually we would want a man with or minimum or maximum with lights or can say
+
+01:09.770 --> 01:10.870
+minimax right.
+
+01:10.910 --> 01:17.570
+So let's go with men men with here and don't going to say this is going to be 90.
+
+01:17.610 --> 01:21.340
+Were you with or here than the margin.
+
+01:21.390 --> 01:23.490
+We're here we're going to leave it the way it is.
+
+01:23.490 --> 01:28.900
+Right so 0 1 0 0 0 on here knowing this I'm going to place it in the center.
+
+01:29.020 --> 01:33.990
+Then after that we would want to display and display flex here.
+
+01:34.020 --> 01:38.210
+Right now we can say this and let's actually see what we got.
+
+01:38.260 --> 01:40.230
+All right so now we have how many.
+
+01:40.230 --> 01:40.930
+Right.
+
+01:41.010 --> 01:45.420
+So we have a team here and we have four of them all in one line.
+
+01:45.870 --> 01:53.150
+So here we're going to do is we're going to say first justify Canton's space between justify current
+
+01:53.160 --> 01:54.980
+and space between.
+
+01:55.170 --> 01:57.380
+And then we're going to have a flex.
+
+01:57.510 --> 01:58.090
+All right.
+
+01:58.120 --> 01:59.630
+And we can just go and check it out.
+
+01:59.660 --> 02:00.990
+It looks like right now.
+
+02:01.080 --> 02:06.160
+So I would say this refresh rate and nothing has changed.
+
+02:06.180 --> 02:10.360
+So what we would want is we would want to actually have a flex wrap.
+
+02:10.580 --> 02:18.960
+So here we're going to say is we want to flex wrap or here we're going to say wrap or healing this right
+
+02:19.070 --> 02:20.330
+now is going to be wrapping.
+
+02:20.610 --> 02:28.170
+And then let's talk to the actual single item I'm going to say team member here and here we're going
+
+02:28.170 --> 02:36.970
+to write flex and again 0 0 for flaggers grow and flex drink Coke here calculating.
+
+02:37.030 --> 02:44.150
+And this is going to be 50 percent minus 10 pixels or here like this.
+
+02:44.150 --> 02:44.880
+All right.
+
+02:44.880 --> 02:46.890
+So then we can save this.
+
+02:47.010 --> 02:52.090
+This is going to be for the small screen now so we really know how to do it to make it right.
+
+02:52.110 --> 02:57.570
+So what we're going to do is was going to copy and paste this or here and we can grab this guy over
+
+02:57.570 --> 03:04.090
+here to 776 get rid of all this here.
+
+03:04.110 --> 03:06.040
+It's not necessary.
+
+03:06.250 --> 03:09.840
+Change this one to 25 here.
+
+03:10.110 --> 03:15.350
+We're going to save this on here and let's just take it on what we have when we refresh.
+
+03:15.350 --> 03:16.060
+Right.
+
+03:16.080 --> 03:18.030
+You can see these are going to be 10 pixels.
+
+03:18.030 --> 03:20.380
+Now it's going to be four of them on here.
+
+03:20.410 --> 03:21.400
+This right.
+
+03:21.420 --> 03:25.020
+If we got a smaller screen now it's going to be two of them.
+
+03:25.020 --> 03:28.150
+If we go to the small screen there's only one of them.
+
+03:28.230 --> 03:33.360
+However as I'm hovering You can see that the image is showing here this icon.
+
+03:33.560 --> 03:36.270
+And what happens if I want to turn the icon right.
+
+03:36.270 --> 03:40.080
+Only thing I need to do is actually hover over the icon.

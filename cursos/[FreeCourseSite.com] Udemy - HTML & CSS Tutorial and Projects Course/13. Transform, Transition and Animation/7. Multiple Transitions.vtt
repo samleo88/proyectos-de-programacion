@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00.240 --> 00:06.420
+Luckily for us as we working we transition property we're not limited to only one property.
+
+00:06.420 --> 00:12.510
+So what if let's say for number three the one that actually has the transition I would like to add another
+
+00:12.510 --> 00:14.510
+thing and other property with a hover.
+
+00:15.030 --> 00:20.130
+Well we have two options I can either add this property here or all of them since here I'm just selecting
+
+00:20.130 --> 00:20.810
+all the divs.
+
+00:21.130 --> 00:23.490
+Moreover it can be more precise and I can say you know what.
+
+00:23.670 --> 00:27.950
+As I'm hovering over the three I would like to change in on border radius.
+
+00:28.260 --> 00:31.620
+And in this case I would need to add my sudo selector.
+
+00:31.620 --> 00:36.750
+So I'm going to say as I'm hovering over the three I would like to have border radius and let's say
+
+00:36.750 --> 00:38.410
+this is gonna be 50 percent.
+
+00:38.550 --> 00:43.560
+And again I would just like to pay attention to the fact that I could have added this to all of them
+
+00:43.980 --> 00:45.720
+and it's gonna do exactly the same thing.
+
+00:45.720 --> 00:51.090
+The difference would be that this is gonna be applied to all the divs in this case since this is the
+
+00:51.090 --> 00:53.720
+only one we're using the transition property.
+
+00:53.770 --> 00:57.940
+That's the reason why I'm adding it specifically to hover off 3.
+
+00:57.990 --> 01:04.830
+So as I'm hovering what happened what I see is that my border areas changes instantly and the color
+
+01:04.830 --> 01:06.050
+is taking for.
+
+01:06.510 --> 01:09.820
+Because for now only thing we're having is transition property.
+
+01:09.820 --> 01:15.190
+And the name was background so the way we're going to do this is we're going to have a comma that will
+
+01:15.190 --> 01:19.050
+be the syntax and then we just need to again write the property name.
+
+01:19.280 --> 01:19.720
+OK.
+
+01:19.770 --> 01:25.440
+This is going to be border natives and we also have an option of let's say what kind of duration is
+
+01:25.440 --> 01:29.010
+gonna be for the second property if we don't want it to be for seconds.
+
+01:29.070 --> 01:34.110
+We just need to again another value in our case we're gonna leave it for now the same.
+
+01:34.110 --> 01:35.560
+So this would be four seconds.
+
+01:35.700 --> 01:41.980
+And this is gonna happen the same way where the color is gonna take four seconds as well as the Boeri.
+
+01:42.340 --> 01:49.980
+However if we're gonna add here I don't know two seconds then the radius is going to happen in two seconds
+
+01:50.310 --> 01:52.670
+and you can see still that color is changing.
+
+01:52.920 --> 01:57.690
+So that would be the way how we can add multiple properties with our transition property.

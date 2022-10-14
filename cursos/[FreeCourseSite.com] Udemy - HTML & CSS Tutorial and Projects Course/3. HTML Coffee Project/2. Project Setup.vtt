@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.320 --> 00:00.920
+OK.
+
+00:01.020 --> 00:07.110
+Our first task is to create some kind of folder structure because obviously we're going to have to have
+
+00:07.110 --> 00:11.080
+the project and within the project there's gonna be multiple files.
+
+00:11.100 --> 00:17.580
+Now we can obviously work in the example folder that we had before but I think this is going to actually
+
+00:17.580 --> 00:23.370
+help us by going over the steps again to kind of solidify in our mind.
+
+00:23.390 --> 00:27.260
+Now let's start first by again creating the folder you can created wherever you would like.
+
+00:27.270 --> 00:29.190
+But I'm going to do this in the next stop.
+
+00:29.220 --> 00:35.580
+And let me just rename this and I'm going to say that a folder name is going to be coffee and then obviously
+
+00:35.580 --> 00:39.290
+I would need my text order so I can just open up my text there and again.
+
+00:39.300 --> 00:43.950
+However you would like it but we would need to get this folder or text order.
+
+00:44.400 --> 00:49.350
+I'm just gonna drag and drop it and sure enough this is going to be my folder now within the folder
+
+00:49.350 --> 00:51.930
+First I would like to create my homepage.
+
+00:51.930 --> 00:55.310
+So I'm going to say that there will gonna be index e-mail.
+
+00:55.380 --> 01:01.650
+And since I know that we can use them and I'm gonna use the exclamation mark to get my basic structure.
+
+01:01.790 --> 01:08.070
+Now within this basic structure maybe let's just change the title and let's say coffee and let's call
+
+01:08.070 --> 01:13.380
+this junky and maybe within the heading One let's write some kind of hello world.
+
+01:13.380 --> 01:17.370
+Now obviously there's going to be more work that we're going to be doing but I would just like to set
+
+01:17.370 --> 01:21.440
+up the live server first and all kinds of things after that.
+
+01:21.510 --> 01:27.410
+So let's say first since we know how to work with life server we would need to open it up again.
+
+01:27.420 --> 01:31.440
+We have an option of opening up in multiple ways.
+
+01:31.440 --> 01:36.900
+So it's a we know that we can right click it and then I have an option of open live server.
+
+01:37.200 --> 01:41.280
+So I'm going to click on that and this is going to open up the life sir.
+
+01:41.310 --> 01:47.940
+Now this is all good but what's happening is I would like to have to screen so one screen is gonna have
+
+01:47.940 --> 01:53.400
+the final project where I'm going to show you what we're going to be doing as well as I'm going to look
+
+01:53.400 --> 01:59.710
+at my current project in the bigger browser one hour whereas I'm working side by side with my project.
+
+01:59.760 --> 02:03.450
+I would also like to show you how the project looks in a small browser window.
+
+02:04.020 --> 02:08.970
+So what I'm going to do right now I'm going to open up the new window and look just let me just make
+
+02:08.970 --> 02:10.720
+this a little bit smaller.
+
+02:10.750 --> 02:17.440
+This is really big right now and I'm gonna again check for 127 for my indexation amount.
+
+02:17.820 --> 02:21.260
+Now in this case what I'm gonna do is I'm just going to set these one side by side.
+
+02:21.810 --> 02:24.420
+So as you can see this would be my project where I'm working.
+
+02:24.720 --> 02:26.950
+Hopefully you can see everything correctly.
+
+02:27.060 --> 02:29.640
+Maybe let me make this one a little bit smaller.
+
+02:29.820 --> 02:33.480
+And then this is where we're gonna be doing most of our work.
+
+02:33.600 --> 02:39.030
+This is the small browser window so you can see exactly what everything is happening and then this would
+
+02:39.030 --> 02:42.720
+be a bigger browser and that would be initial setup.
+
+02:42.930 --> 02:48.120
+Now also the right to right away I create my folder where we're gonna be placing our images.
+
+02:48.720 --> 02:52.900
+So let's say a new folder I'm gonna name my folder images.
+
+02:53.380 --> 02:56.320
+So this would be our basic structure for the project.
+
+02:56.770 --> 03:01.360
+And now we can ready to go and start importing our images.

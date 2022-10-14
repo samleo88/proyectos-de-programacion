@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.500 --> 00:01.620
+All right people.
+
+00:01.650 --> 00:06.430
+Next topic is extremely important because you will practice it daily.
+
+00:06.450 --> 00:14.250
+The name of the topic will be CSX box model and since it is so important we will get some visual help.
+
+00:14.490 --> 00:17.040
+And by the way if you are falling asleep.
+
+00:17.070 --> 00:17.910
+Get up.
+
+00:17.970 --> 00:18.840
+You don't want to miss it.
+
+00:19.290 --> 00:21.670
+So see it says Box model.
+
+00:21.970 --> 00:28.080
+Now like I said we're all going to be getting some visual help so we're all going to head over to bronzer
+
+00:28.620 --> 00:33.710
+and within the browser which is going to types yes us Box model.
+
+00:33.870 --> 00:39.730
+And then instead of looking for the text I'm going to be looking for the images I'm gonna pick this
+
+00:39.730 --> 00:40.240
+image.
+
+00:40.390 --> 00:46.660
+You can pick any image that you like because pretty much there can explain the same things that I'm
+
+00:46.660 --> 00:47.410
+going to be talking about.
+
+00:48.010 --> 00:52.370
+Now I'm going to click on the image and now let's get over what's happening here.
+
+00:52.420 --> 00:58.000
+You see every time that we're working with us each and every element is going to be displayed as a box
+
+00:58.890 --> 01:00.390
+now within that box.
+
+01:00.390 --> 01:06.180
+You're going to be dealing with three properties bearing That's that great distance between the content
+
+01:06.180 --> 01:09.750
+you have in your element and the hedge.
+
+01:09.890 --> 01:13.050
+Oh here there and we're gonna have the border.
+
+01:13.060 --> 01:18.720
+That's gonna go around the element and then we're looking for the margin that's going to be the distance
+
+01:18.900 --> 01:24.180
+between let's say either at the edges of the screen or some other element.
+
+01:24.210 --> 01:28.690
+Now as always the best way is to practice with these properties.
+
+01:28.720 --> 01:33.900
+I'm gonna head over back to our document but I will gonna be switching back and forth because I think
+
+01:33.900 --> 01:39.390
+at some point maybe we're all gonna need some help here again with an image and actually looking at
+
+01:39.390 --> 01:41.330
+this visually might help us a little bit.
+
+01:42.430 --> 01:43.900
+Now back to the document.
+
+01:44.050 --> 01:48.330
+I know it might be annoying to some of you but I will going to delete this.
+
+01:48.340 --> 01:49.850
+I'm going to say blah blah blah.
+
+01:49.850 --> 01:51.990
+I would like to select everything here.
+
+01:52.180 --> 01:53.880
+We welcome to delete this.
+
+01:53.890 --> 01:58.840
+So once we delete it we're going to head over to NSA Schimmel and also we're going to do a little bit
+
+01:58.840 --> 02:02.440
+of spring cleaning since it takes like 30 seconds.
+
+02:02.440 --> 02:04.570
+I don't think you should be that annoyed by that.
+
+02:04.850 --> 02:06.600
+Now within the body what we're gonna have.
+
+02:06.760 --> 02:07.140
+I don't know.
+
+02:07.140 --> 02:09.680
+We can start by hitting one and you know what.
+
+02:09.810 --> 02:14.170
+Maybe let's make this a little bit smaller because I think it's gonna be easier for us.
+
+02:14.410 --> 02:17.010
+And here let's write some Hello.
+
+02:17.140 --> 02:28.710
+I would like to learn about it says Box model and let's add maybe some exclamation mark now that is
+
+02:28.710 --> 02:30.160
+gonna be marrying one nugget.
+
+02:30.240 --> 02:31.560
+So far so good.
+
+02:31.560 --> 02:32.610
+What about the paragraph.
+
+02:32.850 --> 02:41.490
+I don't know let's add Laura I'm 20 so there's gonna be a paragraph with some text of 20 words.
+
+02:41.730 --> 02:43.130
+So far so good.
+
+02:43.260 --> 02:46.970
+We're gonna head over back to the styles we still have our comment.
+
+02:47.040 --> 02:48.210
+Now let's start working.
+
+02:48.210 --> 02:54.060
+We had the famous CEO says Box model first let's start with having one and we're gonna add simply a
+
+02:54.060 --> 02:55.300
+color or you know what.
+
+02:55.410 --> 02:57.000
+Let's add background color.
+
+02:57.000 --> 02:58.870
+That's just gonna make a little bit more sense.
+
+02:59.090 --> 03:03.800
+And for the background we're gonna do a very pretty one which is gonna be red.
+
+03:04.850 --> 03:05.300
+OK.
+
+03:05.310 --> 03:06.560
+So far so good.
+
+03:06.570 --> 03:12.630
+Then we also have the paragraph and the paragraph is gonna be background and let's say blue.
+
+03:13.110 --> 03:15.480
+So we have to Ellen now.
+
+03:15.480 --> 03:21.380
+Like I said we all gonna have to start working with our box model within the box model what do we have.
+
+03:21.520 --> 03:27.220
+I believe we have the padding and that was one of the properties that was available to us.
+
+03:27.880 --> 03:32.470
+So if I'm going to head over back and I'm gonna say for the heading What I'm going to be looking for
+
+03:32.470 --> 03:35.680
+the padding and then notice I have a bunch of options here.
+
+03:35.680 --> 03:37.750
+Well let's start with the most basic.
+
+03:37.860 --> 03:39.580
+You're going to have padding top.
+
+03:39.870 --> 03:44.760
+Now what is going to be in the padding that we can use any kind of values we already covered.
+
+03:44.870 --> 03:45.550
+As this unit.
+
+03:45.580 --> 03:51.580
+So we should be very comfortable with let's say I don't know 30 pixels.
+
+03:51.680 --> 03:57.980
+So what do you think is gonna happen right now as I'm looking at my text and the edge of my element.
+
+03:57.980 --> 04:00.690
+Right now I'm getting this padding in between.
+
+04:00.770 --> 04:03.620
+Does that reflect what we see in the picture.
+
+04:03.710 --> 04:09.140
+So we have the padding that's gonna be around the content within the element.
+
+04:09.140 --> 04:11.440
+In this case we just add it to the top.
+
+04:11.480 --> 04:16.510
+Okay let's start out let's say padding is gonna be also on the bottom.
+
+04:16.590 --> 04:17.980
+What's happening bottom.
+
+04:18.210 --> 04:20.370
+And let's also do three picks.
+
+04:20.920 --> 04:24.580
+And we have right now the padding in between where the text ends.
+
+04:24.800 --> 04:30.980
+And again the edge of our element now maybe let's increase it and get really creative and let's say
+
+04:30.980 --> 04:32.580
+this is gonna be 60.
+
+04:32.580 --> 04:34.990
+So now I'm getting my padding with 60.
+
+04:35.240 --> 04:36.930
+I also can do padding left.
+
+04:37.170 --> 04:39.370
+Right write padding left.
+
+04:39.890 --> 04:42.560
+And in this case you know what let's do.
+
+04:42.560 --> 04:46.250
+I don't know twenty five pixels getting doesn't really matter.
+
+04:46.250 --> 04:50.540
+Now my text is being pushed here on the left hand side.
+
+04:51.080 --> 04:53.560
+I'm getting my padding as well as we are.
+
+04:53.570 --> 04:57.990
+They have padding right since we are covering pretty much top bottom left.
+
+04:57.990 --> 05:01.040
+We can also do right now within the right.
+
+05:01.190 --> 05:02.660
+I don't know how we can do 50 pixels.
+
+05:03.230 --> 05:05.890
+So now I'm pushing my padding here from my right.
+
+05:06.740 --> 05:09.710
+So this is how we can write with the padding the long way.
+
+05:09.800 --> 05:14.000
+However in the C assess we're going to have bunch of shortcuts.
+
+05:14.000 --> 05:19.730
+And now we can look at it how we can create these shortcuts with the padding so for this case we're
+
+05:19.730 --> 05:21.040
+going to use the program.
+
+05:21.200 --> 05:27.910
+So instead of writing each and every time putting top bottom putting left right we can write padding
+
+05:28.280 --> 05:33.290
+and then we need to start working with the values now right away I can tell you that this is gonna work
+
+05:33.290 --> 05:37.660
+exactly the same with the margin that we're going to look at the next video and there's also gonna be
+
+05:37.660 --> 05:39.150
+shortcuts for the border.
+
+05:39.260 --> 05:46.880
+So just as a side note now for the batting first I have an option of using the same padding all around.
+
+05:46.880 --> 05:52.430
+Now why do I use the same word now because if I'm going to write 50 pixels notice what's gonna happen
+
+05:52.430 --> 05:53.080
+with my batting.
+
+05:53.660 --> 05:56.820
+So I'm going to be getting the exact same padding all around.
+
+05:56.840 --> 06:02.810
+So if you know that you want exactly the same padding just down the number and then you're gonna be
+
+06:02.810 --> 06:03.720
+getting the value.
+
+06:03.830 --> 06:05.640
+So everything is going to be working fine.
+
+06:05.840 --> 06:12.200
+Now since I want to test out a few more options for my shortcuts I would like to first of all comment
+
+06:12.200 --> 06:15.310
+this out just so you can see that this is still valuable.
+
+06:15.500 --> 06:18.580
+But I would like to see you show you other options.
+
+06:18.680 --> 06:23.880
+Now the other option is using two values the top bottom and left and right.
+
+06:23.900 --> 06:25.430
+So how is that gonna work.
+
+06:25.430 --> 06:29.420
+I'm gonna say batting then the first value is going to be top bottom and you know what.
+
+06:29.420 --> 06:31.130
+Let me just first say it.
+
+06:31.160 --> 06:35.930
+Notice right now it's basically complaining and saying while you have a syntax error you haven't added
+
+06:35.930 --> 06:40.940
+any value but the padding basically goes back to zero ultimately.
+
+06:41.030 --> 06:46.850
+And in my case I'm going to say the first value the top bottom is going to be three pixels and left
+
+06:46.850 --> 06:49.250
+and right we're gonna have 60 pixels.
+
+06:49.250 --> 06:50.150
+Now what happens right.
+
+06:50.690 --> 06:57.360
+So I have the padding on the top three pixels bottom is also going to be 30 pixels and left and right
+
+06:57.380 --> 07:00.660
+there's gonna be 60 pixels so quite predictable.
+
+07:00.670 --> 07:00.980
+Okay.
+
+07:01.010 --> 07:02.130
+So far so good.
+
+07:02.180 --> 07:04.000
+Again let's do the same thing.
+
+07:04.130 --> 07:05.230
+Let's comment this out.
+
+07:05.240 --> 07:10.550
+We know that this is gonna be valuable option but we also have an option of checking each and every
+
+07:10.550 --> 07:11.190
+value.
+
+07:11.210 --> 07:12.400
+Now how is that gonna work.
+
+07:12.480 --> 07:18.500
+Well we're gonna write panning and now I can start looking by the first value is gonna be the top the
+
+07:18.500 --> 07:20.540
+next value is gonna be right hand side.
+
+07:20.690 --> 07:25.760
+The third value is going to be the bottom and then the fourth value would be the left hand side.
+
+07:25.760 --> 07:27.160
+All right we're here.
+
+07:27.170 --> 07:28.070
+Let's test it out.
+
+07:28.130 --> 07:37.400
+Let's say 20 pixels on a top then let's say 40 pixels on the right hand side 60 pixels on the bottom
+
+07:38.060 --> 07:44.330
+and then let's do I don't know 80 pixels or you know what 10 pixels on the left hand side.
+
+07:44.360 --> 07:51.870
+Now what do we have here I have 20 pixels predictably on the top then I have 40 here then 60 over here
+
+07:52.230 --> 07:54.460
+and the time is gonna be all the way on left hand side.
+
+07:54.930 --> 08:01.650
+Please keep in mind all of them are valid or you would need to pick whatever value you would like to
+
+08:01.650 --> 08:03.630
+use for the property.
+
+08:03.790 --> 08:08.700
+What are you going to write that there's gonna be partying all around whether there's going to be padding
+
+08:08.700 --> 08:14.760
+left and right and top and bottom Morial gonna be single handedly working with each and every dimension
+
+08:15.330 --> 08:18.310
+top right left and the bottom.
+
+08:18.480 --> 08:25.740
+And again just to cover the basics the padding is gonna be different in between or spacing in between
+
+08:25.740 --> 08:26.370
+the content.
+
+08:26.420 --> 08:33.540
+You have an element and the edge of an element and we can have more options that would be top right
+
+08:33.780 --> 08:35.100
+bottom and the left.

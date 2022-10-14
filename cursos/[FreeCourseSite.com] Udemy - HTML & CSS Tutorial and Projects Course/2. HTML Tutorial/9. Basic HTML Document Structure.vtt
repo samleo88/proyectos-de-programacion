@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00.520 --> 00:04.760
+Well we are very happy with our first web page as we should be.
+
+00:04.780 --> 00:09.760
+It's hard to miss an error message by the life server in the very bottom of the screen.
+
+00:09.880 --> 00:12.630
+So there has to be something missing in our page.
+
+00:12.940 --> 00:16.600
+Now that something is a proper age the email structure.
+
+00:16.600 --> 00:21.730
+So let's take another quick pit stop in the slide wheel to discuss that.
+
+00:21.730 --> 00:28.060
+You see all age normal elements follow the same basic structure so that the browser that renders the
+
+00:28.060 --> 00:30.940
+file knows what to do at the very top.
+
+00:30.940 --> 00:37.510
+We have a dog type declaration that tells the browser what age the animal version of the page is written.
+
+00:38.140 --> 00:45.130
+The doctor you see in the slide corresponds to the latest version of the email which is HDMI 5.
+
+00:45.190 --> 00:52.120
+Next we have h the email root element that will wrap all our code in the page and will always contain
+
+00:52.120 --> 00:55.380
+one had element and one body element.
+
+00:55.380 --> 01:00.810
+And notice however things kind of sandwich nested inside each the animal element by the way.
+
+01:00.810 --> 01:02.130
+That is really important.
+
+01:02.350 --> 01:09.390
+And we'll discuss that in more detail once we head back to texter after each their root element.
+
+01:09.400 --> 01:14.520
+We have reached the animal head element that will contain information about the page.
+
+01:14.770 --> 01:22.780
+Like for example page title page metadata and links to external resources like CSI style sheets and
+
+01:22.780 --> 01:29.050
+JavaScript files content within the header element will not be visible on the page that is being rendered
+
+01:29.770 --> 01:35.620
+and with your permission I would like to hold off on covering head element content in any more detail
+
+01:35.980 --> 01:42.370
+because at this point in time we have more important business to attend in short head element will contain
+
+01:42.370 --> 01:47.860
+information about the page and will not be visible on the page that is being rendered.
+
+01:47.860 --> 01:54.940
+Now body element is whole another ballgame because this is where we'll do all of our work like adding
+
+01:54.940 --> 02:00.140
+headings paragraphs links and basically creating our fantastic webpage.
+
+02:00.220 --> 02:05.140
+Now that we know the basics of HCM or page structure let's implement it.
+
+02:05.140 --> 02:06.400
+In our first web page.

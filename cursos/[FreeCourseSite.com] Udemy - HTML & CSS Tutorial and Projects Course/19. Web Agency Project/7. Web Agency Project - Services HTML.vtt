@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.290 --> 00:04.810
+And the next section we're going to be creating here this is going to be disservices action.
+
+00:04.890 --> 00:05.140
+Right.
+
+00:05.190 --> 00:07.680
+So there's going to be two things that are going to be looking at.
+
+00:07.680 --> 00:11.920
+Obviously I want to put it in the center and we're going to look at see a system move this text up a
+
+00:11.920 --> 00:12.490
+noun.
+
+00:12.690 --> 00:15.050
+And they're also going to be changing the order.
+
+00:15.100 --> 00:15.520
+All right.
+
+00:15.690 --> 00:19.920
+So let's go to the next page to him now or here in our file.
+
+00:19.980 --> 00:22.900
+And this was the end of the skills section right now.
+
+00:22.930 --> 00:23.730
+Two comments.
+
+00:23.810 --> 00:24.670
+You can see better.
+
+00:24.900 --> 00:26.060
+I overdo it.
+
+00:26.220 --> 00:26.670
+Right.
+
+00:26.820 --> 00:28.370
+And this is going to be.
+
+00:28.450 --> 00:30.890
+First one is going to be services section right.
+
+00:31.090 --> 00:35.780
+And the services section is also going to have the title read the title the role going to be actually
+
+00:35.780 --> 00:36.390
+reusing.
+
+00:36.390 --> 00:37.020
+Right.
+
+00:37.020 --> 00:43.970
+So we're all going to say services section know like this and then we're going to say the end of services.
+
+00:43.980 --> 00:49.660
+Right and of services services.
+
+00:49.910 --> 00:50.420
+Right.
+
+00:50.460 --> 01:00.040
+So now that we have this we will want a section here section with an ID of services services right.
+
+01:00.120 --> 01:03.760
+Once we have that the first thing we're going to do is actually place a title.
+
+01:03.910 --> 01:04.380
+Right.
+
+01:04.440 --> 01:07.150
+So I'm going to say we're here to come and this is going to be tied up.
+
+01:07.440 --> 01:11.520
+And this is going to be the end of title because we're going to be using title.
+
+01:11.510 --> 01:19.230
+So I'm going to say end of title and tired of all this and then I'm going to have a div with a class
+
+01:19.230 --> 01:29.110
+of title title tied to all this and then I'm going to have a title text is going to be another day I
+
+01:29.180 --> 01:31.810
+don't text here.
+
+01:31.950 --> 01:35.820
+And then with an intro text we're going to have heading one and we're going to say this is going to
+
+01:35.820 --> 01:44.820
+be services service you know and this and I pressed in the wrong space so we're here to press now we
+
+01:44.820 --> 01:46.030
+have services right.
+
+01:46.200 --> 01:49.820
+And then we'll have a title on the line right here.
+
+01:49.880 --> 01:51.290
+This is separate.
+
+01:51.290 --> 01:51.570
+Right.
+
+01:51.600 --> 01:55.470
+And then we're going to have a div of title on the line.
+
+01:55.750 --> 02:05.370
+I know there's a line over here and then we're going to have pretty much the end of the horror title.
+
+02:05.370 --> 02:05.930
+All right.
+
+02:05.940 --> 02:07.450
+So you have the title right.
+
+02:07.460 --> 02:11.800
+Then we have thunder on the line and this is going to be a title text right.
+
+02:11.800 --> 02:13.800
+So here this is going to be the end of title.
+
+02:13.830 --> 02:16.130
+Now we can start creating the sections.
+
+02:16.140 --> 02:16.730
+Right.
+
+02:16.800 --> 02:21.780
+So we're here we're going to say this is going to be first of all Dave and this is going to be services
+
+02:21.780 --> 02:28.490
+container services container container or here.
+
+02:28.680 --> 02:31.180
+And then within this day we're going to have articles right.
+
+02:31.380 --> 02:35.550
+And the first article right we're going to say this is going to be our logo and then we're going to
+
+02:35.550 --> 02:36.910
+have the end of article.
+
+02:36.990 --> 02:37.200
+Right.
+
+02:37.200 --> 02:39.690
+So what we're going to do is just copy and paste this.
+
+02:39.810 --> 02:42.200
+I'm going to say end of article right.
+
+02:42.240 --> 02:48.660
+And as we go over here we're going to have an element of article we're all going to have a class of
+
+02:48.660 --> 02:57.230
+service Irom I had them on here like this and or here there's going to be a lot of class service I had
+
+02:57.240 --> 02:58.830
+on black.
+
+02:58.980 --> 02:59.440
+Right.
+
+02:59.640 --> 03:03.170
+So we're going to change this one around for a great one.
+
+03:03.180 --> 03:03.510
+Right.
+
+03:03.510 --> 03:05.090
+And this is going to be white instead.
+
+03:05.250 --> 03:06.890
+But for this one this is going to be black.
+
+03:06.900 --> 03:07.620
+Right.
+
+03:07.620 --> 03:11.300
+And once we have the article set up let's go here.
+
+03:11.370 --> 03:15.660
+And first we're going to create a div with a class of front text right.
+
+03:15.660 --> 03:17.200
+So that's going to appear from.
+
+03:17.220 --> 03:17.880
+Right.
+
+03:17.880 --> 03:18.960
+So we have the day.
+
+03:19.220 --> 03:24.810
+And so here we're going to say this is going to be an eye for rear fog here.
+
+03:25.270 --> 03:31.230
+So this is going to be phantasm from gears here and this and that we're going to have a heading one
+
+03:31.550 --> 03:33.020
+so we're here.
+
+03:33.020 --> 03:37.920
+We're going to say this is going to be heading one and we're going to say this is going to be web development
+
+03:39.090 --> 03:41.120
+or healing this press time.
+
+03:41.130 --> 03:46.950
+Now we have had one and this is going to be it for the Frontex right now here we need to create a back
+
+03:46.950 --> 03:47.820
+text right.
+
+03:47.990 --> 03:51.920
+That's going to going in up here once we're actually hovering right.
+
+03:52.070 --> 03:58.350
+So here Dave and this is going to be back next hour here and I'm going to say this is going to be hunting
+
+03:58.350 --> 04:02.300
+one and this is also going to be web development right.
+
+04:02.400 --> 04:04.970
+Web Developer love man.
+
+04:05.560 --> 04:09.630
+Here again press time and we have one right here.
+
+04:09.630 --> 04:11.910
+We're going to place the actual paragraph right.
+
+04:11.920 --> 04:14.280
+So here let's make this bigger a little bit.
+
+04:14.280 --> 04:14.720
+Right.
+
+04:14.910 --> 04:22.420
+So paragraph and within the paragraph again we're going to say let's say Lauren 15 or 15 words you know
+
+04:22.440 --> 04:28.270
+here you can see that if I press type again now I have my paragraph and then I'm going to have a button.
+
+04:28.390 --> 04:30.130
+Right so here I'm going to say.
+
+04:30.350 --> 04:38.250
+And this is going to have a type or your type button and then this is going to be read more read or
+
+04:38.440 --> 04:39.600
+hear more.
+
+04:39.690 --> 04:40.070
+Right.
+
+04:40.200 --> 04:45.240
+So now we have a Frontex and the back text and we have the whole article right.
+
+04:45.390 --> 04:46.980
+So let's check it out where it ends.
+
+04:46.980 --> 04:52.260
+Right so this is the end of the article so I'm going to grab together with a comment and I need three
+
+04:52.260 --> 04:52.660
+more.
+
+04:52.680 --> 04:54.550
+One two three.
+
+04:54.630 --> 04:55.390
+Right.
+
+04:55.890 --> 05:00.680
+So I would want to do here create a new line and I'm going to check it out.
+
+05:00.680 --> 05:02.450
+What is different in the next door.
+
+05:02.500 --> 05:02.930
+Right.
+
+05:03.110 --> 05:09.590
+So first of all in the next one to me I'm black it's going to be actually I'm white.
+
+05:09.710 --> 05:11.570
+So this is the first difference.
+
+05:11.690 --> 05:18.850
+Well here we're going to ride actually design and branding design over here and branding.
+
+05:19.010 --> 05:25.070
+So we're going to find where it is here and we're going to say branding and then we're going to have
+
+05:25.070 --> 05:28.820
+pencil square hole on here instead of gears.
+
+05:29.000 --> 05:37.250
+So we're going to say for so here's where we're here we're going to say oh my.
+
+05:37.430 --> 05:41.590
+So now we have this font or some analysis say we need to change this guy to.
+
+05:41.630 --> 05:42.100
+Right.
+
+05:42.290 --> 05:49.150
+So here I'm just going to copy this one design and branding copy and we're going to delete this guy
+
+05:50.360 --> 05:52.250
+and we're going to paste this one right.
+
+05:52.250 --> 05:54.230
+So now we have the design and branding.
+
+05:54.230 --> 06:02.180
+Next one is going to be service item black here and then it's going to have a pie chart as a phone or
+
+06:02.180 --> 06:05.900
+some pie chart.
+
+06:05.900 --> 06:11.930
+And then this one is not going to be web development this is actually going to be analytics and analytics
+
+06:12.360 --> 06:13.470
+or here.
+
+06:13.640 --> 06:19.330
+And then the next one is going to be a service item again.
+
+06:19.780 --> 06:25.590
+So this is going to be white or heatless maybe change this one to analytics too.
+
+06:26.110 --> 06:33.500
+So now we have this copy this guy there's a guy here and paste.
+
+06:33.510 --> 06:38.300
+And then once we have the analytics the last one is going to be CEO and this is going to be following
+
+06:38.310 --> 06:40.550
+chart over here.
+
+06:40.550 --> 06:40.870
+All right.
+
+06:40.870 --> 06:45.550
+Follow the line line chart right.
+
+06:45.610 --> 06:49.960
+And all he'll going to run this is going to be CEO CEO.
+
+06:50.090 --> 06:51.430
+I don't know what he'll say.
+
+06:51.610 --> 06:55.150
+And right as am I right.
+
+06:55.380 --> 07:02.250
+So again let's grab this one copy this one and paste this one over here.
+
+07:02.280 --> 07:04.180
+We have text white text black.
+
+07:04.180 --> 07:04.590
+Right.
+
+07:04.770 --> 07:06.980
+And this is going to be it for the hour.
+
+07:07.010 --> 07:10.740
+The i'm all set up and now we're ready to go to see assistance the.

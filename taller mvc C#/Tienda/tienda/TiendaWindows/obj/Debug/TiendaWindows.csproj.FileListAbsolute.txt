@@ -1,0 +1,48 @@
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\TiendaWindows.exe
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\TiendaWindows.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Entidades.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Negocio.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Datos.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Entidades.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Negocio.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Datos.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.Properties.Resources.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csproj.CopyComplete
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.exe
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormCategorias.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormCliente.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormVendedor.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormLogin.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormPrincipal.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormArticulo.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormPedido.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormDetalle_pedido.resources
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\TiendaWindows.exe.config
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\TiendaWindows.exe.config
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\TiendaWindows.exe
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\TiendaWindows.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Entidades.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Negocio.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Datos.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Entidades.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Negocio.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\bin\Debug\Tienda.Datos.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csprojAssemblyReference.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormArticulo.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormCategorias.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormCliente.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormDetalle_pedido.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormLogin.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormPedido.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormPrincipal.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.FormVendedor.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.Properties.Resources.resources
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csproj.GenerateResource.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csproj.CoreCompileInputs.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.csproj.CopyComplete
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.exe
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\TiendaWindows\obj\Debug\TiendaWindows.pdb

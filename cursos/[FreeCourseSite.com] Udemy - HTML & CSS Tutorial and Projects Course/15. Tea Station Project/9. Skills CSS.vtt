@@ -1,0 +1,1033 @@
+WEBVTT
+
+00:00.090 --> 00:03.150
+Hopefully your life sir is working properly.
+
+00:03.150 --> 00:07.590
+Or you went along with me and installed a preview on your browser right.
+
+00:07.610 --> 00:07.830
+What.
+
+00:07.850 --> 00:10.470
+That was the name preview on the web server.
+
+00:10.510 --> 00:13.710
+That was the name of the extension or you just don't care.
+
+00:13.740 --> 00:19.230
+That might be the third option which is also valid in this case since obviously it is more important
+
+00:19.230 --> 00:24.510
+for me to show you what's happening maybe in your case you don't care you can just work in your success
+
+00:24.930 --> 00:28.680
+and just look at the big browser for all the changes.
+
+00:28.740 --> 00:34.490
+Let me just go back to the files again and I'm gonna close the sidebar and we're gonna head over to.
+
+00:34.500 --> 00:36.350
+Surprise surprise the stars.
+
+00:36.360 --> 00:36.990
+Yes.
+
+00:37.320 --> 00:38.340
+Right after these stars.
+
+00:38.340 --> 00:40.170
+Yes that's why don't we do this properly.
+
+00:40.170 --> 00:41.600
+I'm gonna get rid of this.
+
+00:41.670 --> 00:43.290
+We're gonna add some comments.
+
+00:43.290 --> 00:44.560
+This is gonna be skills.
+
+00:44.560 --> 00:50.610
+Copy and paste not switching the screens just copying pasting and skills.
+
+00:50.640 --> 00:52.550
+And here let's start styling this.
+
+00:52.620 --> 00:55.610
+So first of all probably let me say this and we'll see that.
+
+00:55.650 --> 00:58.530
+This is gonna go back to the normal age to email that we had before.
+
+00:59.070 --> 01:00.850
+I can maybe make this bigger.
+
+01:00.930 --> 01:04.790
+Might as well because there's still plenty of space for me here.
+
+01:04.800 --> 01:06.180
+Let's say first skills.
+
+01:06.180 --> 01:11.450
+Now what I would like to do with the skills are I would first want to add the background.
+
+01:11.460 --> 01:12.740
+Now what kind of background.
+
+01:12.960 --> 01:18.180
+You see that we have this great background and for this we already have the variable so we can target
+
+01:18.210 --> 01:18.690
+this.
+
+01:18.720 --> 01:23.290
+And I believe that was what I was main Gray.
+
+01:23.310 --> 01:27.970
+So now the background for my whole skills section is going to be great.
+
+01:28.020 --> 01:29.610
+Mark what else.
+
+01:29.640 --> 01:30.870
+Well we have the skill.
+
+01:30.900 --> 01:38.910
+Now what was the skill or skill was each and every article that has the icon title and text.
+
+01:39.060 --> 01:41.730
+So each and every article has here the class of skill.
+
+01:42.060 --> 01:47.490
+What I would want for that particular column or stool might be let's start with pairing zero or I'm
+
+01:47.500 --> 01:48.620
+starting at zero.
+
+01:48.720 --> 01:53.160
+2.5 our team's top bottom and left and right is gonna be zero.
+
+01:53.160 --> 01:55.050
+Now we're having our panic.
+
+01:55.110 --> 01:56.190
+Well what else we would like.
+
+01:56.340 --> 01:59.750
+Well we can also do text to line maybe in the center.
+
+01:59.900 --> 02:03.890
+So now we're gonna line everything in the center and we can also add right away.
+
+02:03.890 --> 02:08.310
+Transition what is gonna be transition well later on we're gonna set up the hover effect.
+
+02:08.370 --> 02:13.410
+So as I'm hovering I'm going to be changing the color here and since I would want that change to happen
+
+02:13.410 --> 02:14.170
+over time.
+
+02:14.370 --> 02:18.200
+And since more importantly we have already covered is more than a few times.
+
+02:18.420 --> 02:23.200
+So you should be more uncomfortable understanding that I'm writing right now my main transition.
+
+02:23.370 --> 02:27.920
+And later on I'm gonna work on that transition because at the moment I was there nothing changes.
+
+02:27.930 --> 02:30.040
+We haven't added Our hover effect.
+
+02:30.430 --> 02:31.130
+Okay.
+
+02:31.320 --> 02:37.440
+Next in line we have skill icon and what I would like to do with the skill icon and first of all let
+
+02:37.440 --> 02:45.660
+me head over back to the next century email and show you that I did wrap my skill icon within the span.
+
+02:45.660 --> 02:50.040
+However I think I messed it up a little bit where I did not and the class.
+
+02:50.160 --> 02:55.800
+So we're not going to be able to select the reason if you're asking well why you are using the span
+
+02:55.800 --> 02:57.560
+you're wrapping this and all that.
+
+02:57.660 --> 02:59.700
+Well it is a very simple answer.
+
+02:59.700 --> 03:07.590
+Remember I was telling you that the moment they switched from four point seventy five they started using
+
+03:07.590 --> 03:11.040
+the syntax where you had to have them of course.
+
+03:11.040 --> 03:13.040
+Now I showed you that with vandalism.
+
+03:13.170 --> 03:18.240
+We can place these classes here or we can select them or you know no sorry we cannot place the classes
+
+03:18.240 --> 03:25.200
+here as far as I remember but we can select this we can say let's say this class but I still find it
+
+03:25.560 --> 03:30.030
+I don't know by habit I guess I'm adding these classes here to the parent element.
+
+03:30.120 --> 03:31.730
+You technically don't have to do it.
+
+03:31.830 --> 03:36.780
+You can select this class and apply the same changes and I think everything should be working fine.
+
+03:37.110 --> 03:42.930
+But since I have this bad habit as they were or maybe you know not that habit since I have the habit
+
+03:42.930 --> 03:50.340
+of as I was applying Phantasm as they were moving from one version to another one I will gonna be using
+
+03:50.340 --> 03:56.400
+this parent Whenever I'm working with Phantasm I might switch around somewhere but I think I'm going
+
+03:56.410 --> 03:57.930
+to stay like this.
+
+03:57.930 --> 03:58.580
+You know what name.
+
+03:58.590 --> 04:04.110
+Maybe in a photo I will gonna do it or we're just selecting a class but for now all I'm doing right
+
+04:04.110 --> 04:06.250
+now is adding this class to this plan.
+
+04:06.360 --> 04:12.240
+There is a parent of my Phantasm so that was number three as well as to this guy.
+
+04:12.250 --> 04:18.120
+Otherwise of course I can selected everything in a style C assess and nothing is gonna happen.
+
+04:18.120 --> 04:25.890
+What I would like here for this stylized font size is going to be 2.5 hour in so my icon is gonna be
+
+04:25.890 --> 04:29.920
+much bigger margin bottom is gonna be one point five.
+
+04:30.400 --> 04:32.870
+So I've announced some margin bottom.
+
+04:32.950 --> 04:35.200
+Then we also have an option or what.
+
+04:35.200 --> 04:40.210
+Well I think we can do to transition because again has I'm going to be hovering I'm going to be lifting
+
+04:40.210 --> 04:40.910
+this icon.
+
+04:41.230 --> 04:44.440
+However I would want to do it over some period of time.
+
+04:44.440 --> 04:47.430
+And that's the reason again why I'm using transition.
+
+04:47.500 --> 04:50.990
+Well since we're using the variable and variable is gonna be exactly the same.
+
+04:51.130 --> 04:52.150
+You can copy and paste it.
+
+04:52.240 --> 04:57.490
+You can just say that both of them are gonna have exactly the same transition last but not least since
+
+04:57.490 --> 05:01.670
+I'm using the margin bottom and this is a span.
+
+05:01.900 --> 05:05.940
+Previously you noticed probably how I added the margin bottom but nothing changed.
+
+05:05.980 --> 05:09.940
+Now just to double check let's see if this is going to be three point five.
+
+05:09.940 --> 05:11.660
+Do you think something is going to change or not.
+
+05:12.160 --> 05:14.930
+And what is the reason why nothing is changing.
+
+05:15.010 --> 05:23.130
+Remember we talked about inline elements block elements in line block and if you remember we were talking
+
+05:23.140 --> 05:28.490
+was the span was what Well I think it was the Enlightenment.
+
+05:28.680 --> 05:31.830
+So we can add 10 hour EMC or nothing is going to change.
+
+05:32.070 --> 05:39.260
+What we need to do is we need to have display and instead of in line we're gonna do inline block now.
+
+05:39.300 --> 05:42.200
+So this is gonna add three point five which is not what I want.
+
+05:42.660 --> 05:44.180
+So I'll just go in one point five.
+
+05:44.400 --> 05:46.980
+So that way we're getting our margin in the bottom.
+
+05:47.040 --> 05:51.810
+Also I would like to work on a skill title which is this guy right over here.
+
+05:51.820 --> 06:02.040
+Ask Yale to hold that was my class and then I would like to start by phone size zero point nine or Iams.
+
+06:02.160 --> 06:07.240
+So the fans are gonna get you guys a little bit smaller than font weight.
+
+06:07.410 --> 06:13.710
+We can maybe add our font weight on bold so make them a little bit bolder.
+
+06:14.660 --> 06:15.530
+What else we have.
+
+06:15.530 --> 06:20.690
+And I believe you know what I was told and save it and second for the headings you're gonna be hearing
+
+06:20.690 --> 06:21.380
+the bold anyway.
+
+06:21.380 --> 06:24.140
+So in some cases this might be a no work.
+
+06:24.440 --> 06:26.310
+But just in case let's add.
+
+06:26.480 --> 06:29.640
+Text transform notes do uppercase.
+
+06:29.680 --> 06:34.010
+Now this is gonna be uppercase as well as we have the letter spacing.
+
+06:34.130 --> 06:38.260
+And for this we have the variable remember where spacing variable.
+
+06:38.270 --> 06:40.410
+Now the letters are gonna be spaced out.
+
+06:40.700 --> 06:42.710
+You know what we're gonna do the same margin bottom.
+
+06:42.740 --> 06:45.270
+So I can copy and paste it here.
+
+06:45.290 --> 06:47.390
+Margin of error is going to be one point five.
+
+06:47.570 --> 06:50.180
+And I would want to have the color.
+
+06:50.360 --> 06:53.060
+Now the color is gonna be primary again.
+
+06:53.060 --> 06:56.830
+So primary color and now this is gonna be green.
+
+06:57.050 --> 07:03.460
+However again as I'm hovering notice what happens not only I'm changing the background not only I'm
+
+07:03.470 --> 07:08.550
+lifting up the icon I'm forcing the changing the color here for the tile.
+
+07:08.570 --> 07:14.620
+So what do you think I need to do if we are thinking about it well we want that change but we want it
+
+07:14.620 --> 07:16.160
+all the time right.
+
+07:16.300 --> 07:20.640
+So don't you think we need to also transition here and this is what's happening.
+
+07:20.680 --> 07:21.790
+What is neat.
+
+07:21.790 --> 07:27.160
+The fact that we set up this transition and later on you can change that transition if you don't like
+
+07:27.160 --> 07:28.420
+zero point three okay.
+
+07:28.450 --> 07:34.140
+Granted granted if you want multiple transitions that are let's say different timing and all.
+
+07:34.180 --> 07:36.340
+Yeah that's probably not gonna work.
+
+07:36.340 --> 07:41.760
+The fact that we're storing here variable but in our case since I know that my transitions are going
+
+07:41.760 --> 07:42.940
+to be all the same.
+
+07:43.020 --> 07:48.580
+So for all my pay I just want the same transitions I can set this up here as a variable and then I can
+
+07:48.580 --> 07:49.410
+just reuse it.
+
+07:49.420 --> 07:52.500
+I don't have to retype this annoying all zero point three.
+
+07:52.500 --> 07:54.880
+He's an out blah blah blah blah blah blah.
+
+07:54.880 --> 08:03.340
+So I think overall the variables really really save are behind because they just allow us to work much
+
+08:03.340 --> 08:07.250
+more faster that way if we want to change that transition how it works.
+
+08:07.360 --> 08:12.520
+We just need to change it in one place instead of again jumping through the whole our document and then
+
+08:12.520 --> 08:13.360
+start changing.
+
+08:13.660 --> 08:18.670
+And because think about it at the moment our document is kind of small but it's already.
+
+08:18.670 --> 08:22.880
+How many transitions we have no sure thing that on a big page this is gonna be much more.
+
+08:22.930 --> 08:24.450
+Well I think it will right.
+
+08:24.700 --> 08:29.820
+Anyway long story short we're adding this transition because we will gonna be changing the color and
+
+08:29.860 --> 08:30.920
+that would be for the tile.
+
+08:31.600 --> 08:37.670
+And last we are having this skill text so I'm gonna say scale text here.
+
+08:37.790 --> 08:39.980
+Let's do some line height.
+
+08:40.160 --> 08:42.640
+I believe this was 1 point 5 but you know what.
+
+08:42.650 --> 08:46.040
+No we already set it up globally anyway it doesn't really matter.
+
+08:46.040 --> 08:48.830
+So when we say a line height what else I would like.
+
+08:49.400 --> 08:54.980
+Well I'm gonna add a little bit of I'm not font size I think font size is also gonna be good.
+
+08:55.760 --> 09:00.160
+Let's also work maybe with max width so that's what I would like to do.
+
+09:00.410 --> 09:05.660
+Because at the moment you're probably gonna notice something kind of annoying where this text is gonna
+
+09:05.660 --> 09:10.930
+be spanning all across and that's gonna be even worse as we're working with the bigger screen.
+
+09:10.970 --> 09:13.220
+Know this is probably not a look that you would want.
+
+09:13.700 --> 09:15.060
+So what would be the solution.
+
+09:15.080 --> 09:19.550
+What we have here a property called Max with Mm hmm.
+
+09:19.580 --> 09:20.760
+Works again.
+
+09:20.900 --> 09:23.680
+Main with Max with mean height Max right.
+
+09:23.690 --> 09:25.760
+They work in very very similar way.
+
+09:25.790 --> 09:30.680
+So what's happening with Max with I'm saying be the with whatever you want to be.
+
+09:31.010 --> 09:33.970
+However you will never gonna be bigger does some kind of way.
+
+09:34.310 --> 09:35.270
+Now what kind of with.
+
+09:35.300 --> 09:40.630
+Well I can pick and choose I can say 10 pixels 20 pixels or two hundred pixels.
+
+09:40.640 --> 09:42.580
+Now my guess I'm gonna say 13.
+
+09:42.620 --> 09:43.310
+Ari.
+
+09:43.820 --> 09:49.550
+Now what happens is I just like how this text looks much better when it's small.
+
+09:49.550 --> 09:54.350
+And even though when we were going to be changing later on to column layout and this is going to still
+
+09:54.350 --> 09:56.000
+stay exactly the same.
+
+09:56.000 --> 09:59.670
+Now the way we're going to work with this though we need to place it down a center.
+
+10:00.110 --> 10:04.650
+So at the moment we have the max width so this is not anymore sitting in a center.
+
+10:04.790 --> 10:08.510
+Remember the display had multiple things right.
+
+10:08.510 --> 10:14.240
+So we had a display element and we couldn't just place it in the center with text center even though
+
+10:14.270 --> 10:15.430
+we are adding this.
+
+10:15.440 --> 10:17.090
+Let's say for the whole skill.
+
+10:17.210 --> 10:18.950
+Now I will digress a little bit.
+
+10:18.950 --> 10:24.540
+But anyway what we can do with the black ones we can see margin and remember it was zero.
+
+10:24.540 --> 10:25.300
+No.
+
+10:25.330 --> 10:27.370
+So now I'm going to place it in the center.
+
+10:27.520 --> 10:30.740
+Is there a secret value here for this 13 arms.
+
+10:30.760 --> 10:35.680
+No I just I looked at multiple screens and I just kind of came up with this.
+
+10:35.710 --> 10:38.230
+There is no real secret or anything about it.
+
+10:38.380 --> 10:42.760
+You can say bigger ones if you like your text to be kind of spending more.
+
+10:42.760 --> 10:43.420
+You can do that.
+
+10:43.510 --> 10:49.090
+I just kind of looked at this whatever title and I decided that in most cases this is just gonna look
+
+10:49.630 --> 10:50.890
+decent again.
+
+10:50.980 --> 10:53.460
+There's nothing secretive about this right.
+
+10:53.970 --> 10:54.920
+All right.
+
+10:54.970 --> 10:59.080
+Why don't we start working with these hover effects because at the moment we have been adding a lot
+
+10:59.080 --> 11:04.540
+of things but as we're hovering nothing is happening now in my case we're going to say or in our case
+
+11:04.840 --> 11:07.630
+I'm sorry we're all working together not just me.
+
+11:07.630 --> 11:12.640
+And then when I say has I'm hollering what I would want to do now let's think about it what the rest
+
+11:12.730 --> 11:14.030
+has said background first.
+
+11:14.440 --> 11:18.460
+So each and every time we're gonna be hovering over this skill article I would like to change the background
+
+11:19.150 --> 11:25.500
+what color you can change this to red blue pink whatever.
+
+11:25.540 --> 11:29.290
+What I would like to change is drum roll please.
+
+11:29.290 --> 11:33.570
+And we're looking for the primary color because that's going to be the color that I'm changing.
+
+11:33.610 --> 11:38.360
+So what's happening right now as I'm hovering the changes applied over time.
+
+11:38.470 --> 11:41.390
+Again why the changes over time because of the transition.
+
+11:41.400 --> 11:48.850
+People transition transition transition you want your hover effects to be nice transition early on.
+
+11:48.970 --> 11:51.350
+Let's not transition that transition.
+
+11:51.410 --> 11:51.930
+OK.
+
+11:51.940 --> 11:56.650
+Long story short we are hovering we're changing the background so far so good.
+
+11:57.370 --> 11:59.350
+What else we have.
+
+11:59.500 --> 12:02.330
+I believe we were working with the title and the icon.
+
+12:02.470 --> 12:04.750
+So how do we make those selections.
+
+12:04.750 --> 12:08.590
+Well first of all I'm going to say skill and then we're gonna be hovering.
+
+12:08.590 --> 12:11.030
+So we're still gonna be hovering over the skill.
+
+12:11.200 --> 12:11.830
+How low.
+
+12:11.830 --> 12:15.310
+What I'm saying right now is I'm gonna have the syntax of space.
+
+12:15.310 --> 12:20.350
+So there has to be space here and then I'm gonna be targeting again the class that I would like to change
+
+12:20.800 --> 12:27.040
+now in my case I'm going to say skill Tyrell is gonna have to change as I'm hovering as well as I'm
+
+12:27.040 --> 12:30.260
+gonna copy and paste this I'm not gonna set it up like this.
+
+12:30.280 --> 12:32.050
+Not only in the skill title.
+
+12:32.050 --> 12:34.810
+Remember we are also changing the skill icon.
+
+12:34.810 --> 12:35.710
+Correct.
+
+12:35.710 --> 12:39.360
+So we had skill and this is gonna be the icon.
+
+12:39.400 --> 12:45.910
+Now what I'm saying right now is as I'm hovering over the skill article something about this needs to
+
+12:45.910 --> 12:48.840
+be changed not that something can be anything.
+
+12:48.910 --> 12:54.760
+In our case this is just gonna be simply color because we're going to say for the skill titled color
+
+12:54.760 --> 12:58.540
+is going to change to green because otherwise you're not going to be able to see the title.
+
+12:59.170 --> 13:00.530
+So let's write again.
+
+13:00.640 --> 13:03.370
+The main white color right then was color.
+
+13:03.610 --> 13:09.490
+And what else we're having now you can copy and paste the color and we're gonna say here and and this
+
+13:09.490 --> 13:10.980
+is not going to be main white.
+
+13:11.200 --> 13:14.050
+And you know what no my but we're not changing the color.
+
+13:14.050 --> 13:15.880
+We're lifting up the icon.
+
+13:15.880 --> 13:23.670
+So my apologies we're doing in fact the transform transform and how we can translate it.
+
+13:24.070 --> 13:32.120
+Well I already told you we can translate it with a property with translate Y which will gonna be a function.
+
+13:32.320 --> 13:38.170
+And I'm just gonna lift it up five pixels and again this might seem a little bit confusing the more
+
+13:38.170 --> 13:42.050
+and more you're gonna start using this the more you're gonna understand the more sections we're gonna
+
+13:42.070 --> 13:47.650
+cover where what I'm saying is not has I'm hovering over this particular icon what I'm saying as I'm
+
+13:47.650 --> 13:54.540
+hovering over the parent container then I want some changes here happening to whatever the title or
+
+13:54.550 --> 13:55.450
+the icon.
+
+13:55.470 --> 13:56.280
+And let me save it.
+
+13:56.350 --> 13:57.640
+And notice what happened.
+
+13:57.640 --> 14:05.430
+So two things or I'm not actually three the background changes for the skill the icon is lifted up five
+
+14:05.440 --> 14:11.690
+pixels as well as the color and all of them are happening with the not nice transition because we added
+
+14:11.690 --> 14:15.190
+the nice transition also what else we're having.
+
+14:15.250 --> 14:21.340
+Well you probably are looking at it on a bigger screen and you're like Well I mean it looks good but
+
+14:21.790 --> 14:27.410
+I mean I don't think so I would want to have some kind of calm layer that probably would make a lot
+
+14:27.430 --> 14:34.390
+more sense and you're right we do need to make a column layout for this one Muslim media so we can be
+
+14:34.390 --> 14:37.370
+looking again with the media queries we're going to be working with them.
+
+14:37.510 --> 14:43.190
+The syntax was at media screen and then I'm going to say and get rid of this sand.
+
+14:43.780 --> 14:50.230
+And now we need to decide starting from what screen size because I mostly like to use men with that
+
+14:50.230 --> 14:55.570
+doesn't mean that I exclusively work with men with but a lot of times men with just makes a little bit
+
+14:55.570 --> 14:56.480
+more sense.
+
+14:56.530 --> 15:01.870
+So when I say men with so starting from what kind of screen and I'm gonna say starting from five hundred
+
+15:01.870 --> 15:08.320
+and seventy six pixels so starting from that screen size I would like to work with this skill article
+
+15:08.830 --> 15:14.860
+and for each and every article I would like the flow rate restored to the left and add some kind of
+
+15:14.860 --> 15:15.500
+way.
+
+15:15.580 --> 15:21.130
+Now in this case my with is going to be 50 percent now at the moment we're not going to be able to see
+
+15:21.130 --> 15:25.100
+anything because we're less than five so many six hour.
+
+15:25.120 --> 15:25.760
+Check this out.
+
+15:26.040 --> 15:32.560
+So if I'm gonna make this bigger bigger bigger bigger bigger bigger bigger I have to column layer and
+
+15:32.560 --> 15:40.020
+I can also see this in the bigger screen and I have to call and learn more okay.
+
+15:40.090 --> 15:44.440
+Why don't we make a four column layout as we get to even bigger screen.
+
+15:45.010 --> 15:48.700
+So I think you're gonna be able to see if I work here.
+
+15:48.700 --> 15:55.180
+I mean correct me if I'm wrong but I think we can leave this for now just so we can see the columns
+
+15:55.180 --> 15:59.350
+and everything and we can have the media query right here.
+
+15:59.380 --> 16:01.110
+So what we're doing is that.
+
+16:01.120 --> 16:01.900
+Okay.
+
+16:02.050 --> 16:05.150
+So we have one media query starting from 576.
+
+16:05.170 --> 16:12.380
+How about if we go to twelve hundred instead and then change the with two twenty five.
+
+16:12.430 --> 16:15.140
+Now we don't need to add any more this left.
+
+16:15.220 --> 16:18.330
+Now the reason for that because we already added this on a smaller screen size.
+
+16:19.000 --> 16:22.690
+So what's happening is that this is being already applied.
+
+16:22.700 --> 16:28.220
+Now what I can do is I can just get rid of this and I can say that starting from the screen size of
+
+16:28.230 --> 16:32.080
+twelve hundred pixels the layout is going to be twenty five.
+
+16:32.710 --> 16:34.760
+So this is how it's gonna look like.
+
+16:34.780 --> 16:38.770
+Let me serve this properly and we have been successful.
+
+16:38.800 --> 16:42.980
+Now we cannot kind of see it here and I don't want to mess up the whole view here.
+
+16:43.120 --> 16:47.290
+So I'm just going to leave it here like this or say that we're gonna be working on this screen size
+
+16:47.680 --> 16:53.710
+but on a bigger screen size the bigger browser window you can see that I'm having four of them now with
+
+16:53.710 --> 16:54.130
+this guy.
+
+16:54.130 --> 16:55.100
+I don't really care.
+
+16:55.150 --> 16:57.790
+I can mess this up a little bit.
+
+16:57.790 --> 17:03.520
+I can say that this is gonna be my let's say past twelve hundred but as I'm making smaller notice the
+
+17:03.520 --> 17:07.920
+moment we're gonna get less than 100 we're gonna have to call them later.
+
+17:07.930 --> 17:09.860
+Now you can go even more drastic.
+
+17:09.880 --> 17:11.450
+This is really up to you.
+
+17:11.510 --> 17:14.620
+Understand that you can control whatever columns you want.
+
+17:14.800 --> 17:18.540
+You want to set up something here in the middle with let's say 33.
+
+17:18.640 --> 17:19.860
+You can obviously do that.
+
+17:20.140 --> 17:25.830
+However there is an issue and let me show you the issue so we're gonna head over back to indexation
+
+17:25.830 --> 17:28.980
+the amount we're gonna go let's say right for the section.
+
+17:29.170 --> 17:35.530
+This is gonna be end of scale section and let's add some random having one and say hey low world the
+
+17:36.100 --> 17:36.840
+hello world.
+
+17:36.870 --> 17:37.490
+Okay.
+
+17:37.630 --> 17:39.520
+So we're having our hello world.
+
+17:39.520 --> 17:44.850
+Now let me show you what happens because of the floating has we're actually floating everything.
+
+17:45.160 --> 17:49.900
+Now it might be a little bit hard to see you notice how quickly it happened but you will clearly see
+
+17:49.900 --> 17:50.200
+this.
+
+17:50.200 --> 17:56.080
+If I were going to head over here and the single skill let's just comment it out the last one.
+
+17:56.230 --> 17:59.900
+So I'm not deleting this will still going to keep it but for now let's just comment.
+
+18:00.040 --> 18:04.570
+Let me save this and let's see what happens is that something you want.
+
+18:04.900 --> 18:06.700
+We have the section we have the columns.
+
+18:06.760 --> 18:09.400
+What is this dude doing here.
+
+18:09.400 --> 18:10.580
+You're not welcome.
+
+18:10.600 --> 18:11.750
+We didn't need you.
+
+18:11.980 --> 18:13.180
+But what happens.
+
+18:13.180 --> 18:19.900
+That's one of the annoying things with loads is you are taking this out of the normal flow.
+
+18:20.050 --> 18:24.000
+So you're floating everything to the left so it fits wherever it can fit.
+
+18:24.010 --> 18:29.860
+But it even is triggering even as you saw that even when we had four columns it was annoying a little
+
+18:29.860 --> 18:36.010
+bit when depending on the screen size it jumped a little bit inside there and you probably want to avoid
+
+18:36.010 --> 18:36.190
+that.
+
+18:36.790 --> 18:41.470
+Now the way we do that is something called clear fix hack.
+
+18:41.650 --> 18:46.480
+This is not really obviously had didn't come up with anything like that but you can write clear fix
+
+18:47.050 --> 18:53.410
+hack and maybe add CSX or something like this and they're just gonna basically give you a lot of places
+
+18:53.410 --> 18:56.820
+where you can get the hack you don't have to.
+
+18:56.920 --> 19:01.990
+Again there is no specific place the way basically this is gonna work is I'm going to show you but just
+
+19:01.990 --> 19:08.290
+in case you don't believe me again you can search the online you can find pretty much the same scenario
+
+19:08.730 --> 19:14.740
+the way this is gonna work is first of all come on this out and then we're gonna head all back to style
+
+19:14.740 --> 19:19.480
+CSI now within the style cirrhosis remember we had some elements right.
+
+19:19.480 --> 19:27.430
+So we had these help our utility glasses what I would like to do right now is set up the selector where
+
+19:27.580 --> 19:33.670
+as I'm working set up some kind of class and with this class I'm just gonna add some properties and
+
+19:33.680 --> 19:37.430
+values that are gonna help me to get rid of this.
+
+19:37.610 --> 19:42.140
+Now the way this is gonna work let's say this is gonna be clear fix now there's gonna be a clear fixed
+
+19:42.140 --> 19:45.830
+class we haven't added this class in our email yet but we will.
+
+19:46.490 --> 19:50.140
+And remember these pseudo elements before and after.
+
+19:50.140 --> 19:58.310
+So when we say clear fix after as well as comma clear fix before.
+
+19:58.310 --> 20:04.190
+Remember those were the two that placed before and after the content before.
+
+20:04.190 --> 20:09.140
+And then we need to light three lines of cotton since we're using the pseudo elements we do need to
+
+20:09.140 --> 20:16.710
+use the content is gonna be at least an empty quotation marks we also need to use remember we had wooden
+
+20:16.710 --> 20:22.680
+floats we had clear now in my case I would like to use the boat just in case maybe I'm floating something
+
+20:22.680 --> 20:23.570
+to the right.
+
+20:23.580 --> 20:29.730
+So you're saying clear both and last but not least you would want to use this play and table.
+
+20:29.730 --> 20:33.880
+Now again I don't want you to really worry about this cone.
+
+20:33.900 --> 20:38.940
+This is something that just being copied and pasted in your projects and what you're doing is you're
+
+20:38.940 --> 20:45.150
+getting rid of this fact that as you're floating then the next content is gonna be sticking up where
+
+20:45.150 --> 20:47.280
+the original content should be.
+
+20:47.280 --> 20:54.480
+So in this case what I can do is I can head over back to indexation IMO and since this skills is where
+
+20:54.480 --> 21:00.180
+I'm floating everything I'm just going to have this glass I'm going to say clear fix.
+
+21:00.290 --> 21:01.380
+Now I'm gonna save it.
+
+21:01.380 --> 21:03.790
+And just to show you that this is gonna work.
+
+21:03.870 --> 21:11.050
+Let me again come on this out and as I say it even though we're gonna go to the bigger screen size you'll
+
+21:11.050 --> 21:13.430
+see that I have my normal column layout.
+
+21:13.690 --> 21:20.350
+So this heading one is not anymore being let's say here side by side because there's not enough space
+
+21:20.350 --> 21:20.920
+for the count.
+
+21:21.460 --> 21:26.560
+And what we're doing here is we are saying that wherever we're going to be placing this class before
+
+21:26.560 --> 21:27.780
+and after.
+
+21:27.830 --> 21:33.010
+Would you like to make sure that if we're floating everything here or anything here would you use the
+
+21:33.010 --> 21:36.260
+clear both the content whatever and then display table.
+
+21:36.370 --> 21:42.070
+Now again this is nothing really you need to lose your sleepover you're going to copy and pasted in
+
+21:42.070 --> 21:46.600
+your projects and you're just gonna have to remember it whatever you're going to be floating something.
+
+21:46.600 --> 21:48.320
+Make sure that you add that class.
+
+21:48.400 --> 21:53.410
+So let's say for the parent element if you're gonna be floating the let's say the skills or anything
+
+21:53.410 --> 21:55.410
+like that or any kind of element.
+
+21:55.570 --> 21:59.470
+Just add this class and that is gonna solve all your problems.
+
+21:59.530 --> 22:04.180
+And yeah I think that we're done with this section and we're ready to move on and start working on our
+
+22:04.180 --> 22:04.750
+next section.

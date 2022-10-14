@@ -1,0 +1,1049 @@
+1
+
+00:00:00,000  -->  00:00:01,680
+Alright guys, so first off what we're
+
+2
+
+00:00:01,680  -->  00:00:02,790
+going to be doing in this video is
+
+3
+
+00:00:02,790  -->  00:00:05,400
+simply learning how to play audio files,
+
+4
+
+00:00:05,400  -->  00:00:09,120
+and this is just a very basic part
+
+5
+
+00:00:09,120  -->  00:00:11,340
+of what our program is going to be, and
+
+6
+
+00:00:11,340  -->  00:00:13,920
+basically the playing of the audio files
+
+7
+
+00:00:13,920  -->  00:00:15,450
+it's just going to play a notification
+
+8
+
+00:00:15,450  -->  00:00:18,330
+sound when we begin recording, and when
+
+9
+
+00:00:18,330  -->  00:00:20,310
+we end the recording, and so that way we
+
+10
+
+00:00:20,310  -->  00:00:22,109
+always know if it is listening
+
+11
+
+00:00:22,109  -->  00:00:25,769
+we can tell. So, let's go ahead and what we
+
+12
+
+00:00:25,769  -->  00:00:27,269
+need to do is jump on over to
+
+13
+
+00:00:27,269  -->  00:00:31,289
+notificationsounds.com. I have gone to
+
+14
+
+00:00:31,289  -->  00:00:34,350
+notification sounds and then page 7 is
+
+15
+
+00:00:34,350  -->  00:00:36,930
+where I want my stuff. I want this one to
+
+16
+
+00:00:36,930  -->  00:00:40,920
+play after the audio, and this one played
+
+17
+
+00:00:40,920  -->  00:00:43,800
+before we start to record. So, I've
+
+18
+
+00:00:43,800  -->  00:00:45,510
+already downloaded those, just click on
+
+19
+
+00:00:45,510  -->  00:00:47,760
+the link there for each one and click
+
+20
+
+00:00:47,760  -->  00:00:49,170
+download, you're going to be downloading
+
+21
+
+00:00:49,170  -->  00:00:54,570
+as mp3. Once you've got those downloaded,
+
+22
+
+00:00:54,570  -->  00:00:56,670
+I'm not sure where mine went so let me
+
+23
+
+00:00:56,670  -->  00:01:04,260
+jump in here and have a look. So I'm
+
+24
+
+00:01:04,260  -->  00:01:05,640
+going to show you guys two ways to do
+
+25
+
+00:01:05,640  -->  00:01:09,689
+this because those sounds are neat. This
+
+26
+
+00:01:09,689  -->  00:01:11,670
+one and this one. Alright, I'm going
+
+27
+
+00:01:11,670  -->  00:01:21,060
+to copy all these over to our, no wait, yes
+
+28
+
+00:01:21,060  -->  00:01:27,299
+over to PycharmProjects, and we've
+
+29
+
+00:01:27,299  -->  00:01:31,320
+created one called audio I believe,
+
+30
+
+00:01:31,320  -->  00:01:34,229
+assist. So I'm going to create a new
+
+31
+
+00:01:34,229  -->  00:01:38,640
+folder here called audio, and here I'm
+
+32
+
+00:01:38,640  -->  00:01:41,630
+going to paste my items.
+
+33
+
+00:01:44,810  -->  00:01:48,110
+So once you've got those pasted in there
+
+34
+
+00:01:48,110  -->  00:01:51,200
+we're going to be using two libraries
+
+35
+
+00:01:51,200  -->  00:01:53,119
+and that's because one of them is going to
+
+36
+
+00:01:53,119  -->  00:01:54,409
+play a WAV file, one of them is going to
+
+37
+
+00:01:54,409  -->  00:01:56,810
+play an mp3 file, so we are actually
+
+38
+
+00:01:56,810  -->  00:02:02,570
+going to use the WAV files when
+
+39
+
+00:02:02,570  -->  00:02:06,950
+we actually play, when we actually build
+
+40
+
+00:02:06,950  -->  00:02:09,200
+our system. But, if you guys have mp3
+
+41
+
+00:02:09,200  -->  00:02:10,759
+files instead I want to show you guys
+
+42
+
+00:02:10,759  -->  00:02:13,340
+how to do this. So go ahead and import,
+
+43
+
+00:02:13,340  -->  00:02:15,620
+well we need to install the library
+
+44
+
+00:02:15,620  -->  00:02:20,930
+actually. So, pip3 install pyglet.
+
+45
+
+00:02:20,930  -->  00:02:25,400
+It's called piglet, pretty sure that's
+
+46
+
+00:02:25,400  -->  00:02:29,540
+how it's pronounced. So here we're going
+
+47
+
+00:02:29,540  -->  00:02:34,160
+to import pyglet, I'm not
+
+48
+
+00:02:34,160  -->  00:02:36,170
+sure if that's how it's pronounced. It says it
+
+49
+
+00:02:36,170  -->  00:02:37,819
+doesn't find it but it definitely should,
+
+50
+
+00:02:37,819  -->  00:02:41,510
+maybe it needs to refresh or something.
+
+51
+
+00:02:41,510  -->  00:02:45,950
+Let's run it and just make sure it's, yeah.
+
+52
+
+00:02:45,950  -->  00:02:54,470
+Let me see...which interpreter did I use
+
+53
+
+00:02:54,470  -->  00:02:56,329
+for this, because I just installed some
+
+54
+
+00:02:56,329  -->  00:03:01,760
+interpreters. It's using Cellar 3.5, and
+
+55
+
+00:03:01,760  -->  00:03:07,790
+pretty sure the version I installed was
+
+56
+
+00:03:07,790  -->  00:03:13,090
+3.5, yeah
+
+57
+
+00:03:16,140  -->  00:03:19,590
+it's 3.5.2. So I did install 3.5.3 but I've
+
+58
+
+00:03:19,590  -->  00:03:26,160
+also got 3.6. So, let me just go ahead and
+
+59
+
+00:03:26,160  -->  00:03:34,800
+make this easy and project interpreter,
+
+60
+
+00:03:34,800  -->  00:03:42,120
+going to choose 3.5, yeah 3.5 right
+
+61
+
+00:03:42,120  -->  00:03:46,830
+there. This should be the 3.5.3
+
+62
+
+00:03:46,830  -->  00:03:50,459
+that I'm trying to use.
+
+63
+
+00:03:50,459  -->  00:03:54,930
+So I need to wait for these two
+
+64
+
+00:03:54,930  -->  00:03:58,260
+processes to run, and it's updating the
+
+65
+
+00:03:58,260  -->  00:04:00,330
+interpreter it's just looking through
+
+66
+
+00:04:00,330  -->  00:04:01,830
+all the stuff we have I guess, so we gotta
+
+67
+
+00:04:01,830  -->  00:04:04,400
+wait for that.
+
+68
+
+00:04:13,210  -->  00:04:19,450
+My computer here is sounding like
+
+69
+
+00:04:19,450  -->  00:04:22,960
+an airplane...it's terrible. So, yeah,
+
+70
+
+00:04:22,960  -->  00:04:27,400
+we're going to run this here, and as you
+
+71
+
+00:04:27,400  -->  00:04:28,960
+can see now it did find the right one.
+
+72
+
+00:04:28,960  -->  00:04:32,080
+Okay, so, what I've done is I did look at
+
+73
+
+00:04:32,080  -->  00:04:40,000
+being able to compile our
+
+74
+
+00:04:40,000  -->  00:04:41,680
+programs and that is something we're
+
+75
+
+00:04:41,680  -->  00:04:44,590
+going to go over as well, so what I've
+
+76
+
+00:04:44,590  -->  00:04:47,920
+done was I installed multiple versions
+
+77
+
+00:04:47,920  -->  00:04:50,830
+of Python. So now aside from the
+
+78
+
+00:04:50,830  -->  00:04:52,330
+3.5.2 that we began with
+
+79
+
+00:04:52,330  -->  00:04:55,990
+i also downloaded a mac OS installer for
+
+80
+
+00:04:55,990  -->  00:04:57,790
+3.5 which installed 3.5.3,
+
+81
+
+00:04:57,790  -->  00:04:59,770
+and I also downloaded the
+
+82
+
+00:04:59,770  -->  00:05:02,140
+Installer for 3.6. Now you'll notice that
+
+83
+
+00:05:02,140  -->  00:05:04,570
+these are in very different places. So
+
+84
+
+00:05:04,570  -->  00:05:06,460
+when you install I believe when we
+
+85
+
+00:05:06,460  -->  00:05:07,900
+started we installed through cellar or
+
+86
+
+00:05:07,900  -->  00:05:10,060
+homebrew, I think it was homebrew, we
+
+87
+
+00:05:10,060  -->  00:05:11,950
+installed Python through, and so it
+
+88
+
+00:05:11,950  -->  00:05:13,960
+installed it here. When you download the
+
+89
+
+00:05:13,960  -->  00:05:16,390
+actual installers for mac OS from python.org
+
+90
+
+00:05:16,390  -->  00:05:18,940
+it installs them to the frameworks
+
+91
+
+00:05:18,940  -->  00:05:24,370
+library. So, if you haven't installed a
+
+92
+
+00:05:24,370  -->  00:05:25,780
+bunch of different interpreters you will
+
+93
+
+00:05:25,780  -->  00:05:27,940
+not have this problem, so it
+
+94
+
+00:05:27,940  -->  00:05:29,860
+should import correctly. So what we're
+
+95
+
+00:05:29,860  -->  00:05:31,780
+going to do is we're going to get our
+
+96
+
+00:05:31,780  -->  00:05:36,010
+file, and we're going to say it is equal
+
+97
+
+00:05:36,010  -->  00:05:43,180
+to pyglet.resource.media, and
+
+98
+
+00:05:43,180  -->  00:05:45,670
+here we're going to import from audio/
+
+99
+
+00:05:45,670  -->  00:05:55,240
+wet.mp3. So,
+
+100
+
+00:05:55,240  -->  00:05:57,760
+we've now just obtained the audio and
+
+101
+
+00:05:57,760  -->  00:05:59,890
+now we're just going to say file play.
+
+102
+
+00:05:59,890  -->  00:06:05,920
+Then down here let's run pyglet.app.run.
+
+103
+
+00:06:05,920  -->  00:06:14,980
+Save this, play this again, and we've got
+
+104
+
+00:06:14,980  -->  00:06:18,130
+an issue...AVbin is required to decode compressed
+
+105
+
+00:06:18,130  -->  00:06:22,550
+media. Alright, so,
+
+106
+
+00:06:22,550  -->  00:06:40,130
+okay let's try audio_end.wav...not a WAV file. Audio_end is
+
+107
+
+00:06:40,130  -->  00:06:41,780
+definitely a WAV file. Alright, let's
+
+108
+
+00:06:41,780  -->  00:06:43,670
+try with pyaudio because I never had a
+
+109
+
+00:06:43,670  -->  00:06:46,760
+problem with that before. I guess let's
+
+110
+
+00:06:46,760  -->  00:06:52,070
+just use wav files. So, go ahead
+
+111
+
+00:06:52,070  -->  00:06:57,770
+and import pyaudio, and import wave,
+
+112
+
+00:06:57,770  -->  00:07:02,330
+and now down here what you're going to
+
+113
+
+00:07:02,330  -->  00:07:05,840
+do is let's create that method I was
+
+114
+
+00:07:05,840  -->  00:07:10,460
+talking about. So, def play_audio,
+
+115
+
+00:07:10,460  -->  00:07:13,340
+and we're going to pass in a
+
+116
+
+00:07:13,340  -->  00:07:16,550
+file. We're going to set the chunk
+
+117
+
+00:07:16,550  -->  00:07:23,750
+size to 1024, that's a neat number. The
+
+118
+
+00:07:23,750  -->  00:07:25,700
+actual file which is going to be
+
+119
+
+00:07:25,700  -->  00:07:29,240
+abbreviated as wf for WAV file is going to
+
+120
+
+00:07:29,240  -->  00:07:33,320
+be equal to wave.open filename, and we're going to
+
+121
+
+00:07:33,320  -->  00:07:35,420
+read it and write it, well we're just
+
+122
+
+00:07:35,420  -->  00:07:37,580
+going to read it actually as binary, and
+
+123
+
+00:07:37,580  -->  00:07:41,300
+then we're going to instantiate pyaudio.
+
+124
+
+00:07:41,300  -->  00:07:44,930
+Som pa is going to be equal to pyaudio.
+
+125
+
+00:07:44,930  -->  00:07:49,250
+PyAudio, that's the class that
+
+126
+
+00:07:49,250  -->  00:07:53,090
+we're instantiating, and then we're
+
+127
+
+00:07:53,090  -->  00:07:55,460
+going to create a stream from this file.
+
+128
+
+00:07:55,460  -->  00:08:02,120
+So basically what a stream is, is it's
+
+129
+
+00:08:02,120  -->  00:08:04,100
+a data stream within the app, so within
+
+130
+
+00:08:04,100  -->  00:08:05,780
+memory so we're actually loading the
+
+131
+
+00:08:05,780  -->  00:08:09,440
+file into some sort of binary object
+
+132
+
+00:08:09,440  -->  00:08:11,660
+that we can then use. So, go ahead and
+
+133
+
+00:08:11,660  -->  00:08:14,030
+create a variable here called stream and
+
+134
+
+00:08:14,030  -->  00:08:16,580
+it's going to be equal to pa.open,
+
+135
+
+00:08:16,580  -->  00:08:20,600
+and here we're opening a file. So we need
+
+136
+
+00:08:20,600  -->  00:08:22,520
+to pass in arguments so what we're going
+
+137
+
+00:08:22,520  -->  00:08:25,580
+to be doing is we're getting the format
+
+138
+
+00:08:25,580  -->  00:08:28,280
+from the width of the file, so from the
+
+139
+
+00:08:28,280  -->  00:08:33,110
+files basically, so pa.get_format_
+
+140
+
+00:08:33,110  -->  00:08:34,680
+from_width,
+
+141
+
+00:08:34,680  -->  00:08:38,610
+and then in here we're going to say
+
+142
+
+00:08:38,610  -->  00:08:46,050
+wf.getsampwidth. We're going to get the
+
+143
+
+00:08:46,050  -->  00:08:48,690
+number of channels from the file, so
+
+144
+
+00:08:48,690  -->  00:08:56,640
+channels equals wf.getnchannels.
+
+145
+
+00:08:56,640  -->  00:09:01,440
+The rate, this is going to be the frame
+
+146
+
+00:09:01,440  -->  00:09:05,520
+rate which the file moves at, so again
+
+147
+
+00:09:05,520  -->  00:09:08,070
+just going to say wf.get framerate,
+
+148
+
+00:09:08,070  -->  00:09:16,320
+and then output is going to be true. Now
+
+149
+
+00:09:16,320  -->  00:09:18,779
+that we've got our stream we can now
+
+150
+
+00:09:18,779  -->  00:09:21,300
+read the frames from it. So we're going
+
+151
+
+00:09:21,300  -->  00:09:23,430
+to create a new variable called data
+
+152
+
+00:09:23,430  -->  00:09:27,300
+stream, and this is only to be the actual
+
+153
+
+00:09:27,300  -->  00:09:32,100
+stream. So wf.readframes and we
+
+154
+
+00:09:32,100  -->  00:09:40,650
+need to pass in a chunk number. This
+
+155
+
+00:09:40,650  -->  00:09:43,440
+isn't going to do anything just yet, not
+
+156
+
+00:09:43,440  -->  00:09:45,089
+only because we didn't call the method,
+
+157
+
+00:09:45,089  -->  00:09:47,100
+but also because we didn't actually do
+
+158
+
+00:09:47,100  -->  00:09:49,320
+anything with the data stream. So let's
+
+159
+
+00:09:49,320  -->  00:09:53,070
+go ahead and type while data_stream. So
+
+160
+
+00:09:53,070  -->  00:09:55,830
+while there is more stream to read we're
+
+161
+
+00:09:55,830  -->  00:09:59,760
+going to say stream.write, and we're
+
+162
+
+00:09:59,760  -->  00:10:03,180
+going to write the data_stream to it, and
+
+163
+
+00:10:03,180  -->  00:10:09,300
+then data_stream is going to be
+
+164
+
+00:10:09,300  -->  00:10:22,440
+wf.read, readframes in chunk again. So,
+
+165
+
+00:10:22,440  -->  00:10:24,779
+basically what this is doing is we're
+
+166
+
+00:10:24,779  -->  00:10:26,820
+defining the chunks that we're reading at
+
+167
+
+00:10:26,820  -->  00:10:32,579
+at 124, or 1024, we're opening the file as
+
+168
+
+00:10:32,579  -->  00:10:34,950
+a binary wave file here, and we're
+
+169
+
+00:10:34,950  -->  00:10:38,520
+instantiating the pyaudio class. We're
+
+170
+
+00:10:38,520  -->  00:10:43,589
+now creating a stream and this stream is
+
+171
+
+00:10:43,589  -->  00:10:45,329
+going to be used
+
+172
+
+00:10:45,329  -->  00:10:48,119
+to actually stream the audio,
+
+173
+
+00:10:48,119  -->  00:10:50,579
+that's what it means there it's creating
+
+174
+
+00:10:50,579  -->  00:10:51,899
+a data stream. So we're
+
+175
+
+00:10:51,899  -->  00:10:58,920
+opening the file through pyaudio here,
+
+176
+
+00:10:58,920  -->  00:11:00,929
+through our pyaudio class, we're opening
+
+177
+
+00:11:00,929  -->  00:11:05,489
+a file and these are the
+
+178
+
+00:11:05,489  -->  00:11:07,499
+variables or the arguments we're passing
+
+179
+
+00:11:07,499  -->  00:11:08,670
+it. So we're getting the format, we're
+
+180
+
+00:11:08,670  -->  00:11:10,230
+getting the number of channels, we're
+
+181
+
+00:11:10,230  -->  00:11:11,579
+getting a frame rate, and we're seeing
+
+182
+
+00:11:11,579  -->  00:11:14,610
+output equals true. Then we're creating a
+
+183
+
+00:11:14,610  -->  00:11:16,799
+data stream variable which is equal to
+
+184
+
+00:11:16,799  -->  00:11:19,290
+read frames. This is the initial chunk
+
+185
+
+00:11:19,290  -->  00:11:23,999
+which is 1024, so it's 1024 bytes or
+
+186
+
+00:11:23,999  -->  00:11:27,480
+kilobytes not sure which, I think bytes
+
+187
+
+00:11:27,480  -->  00:11:31,110
+of this file then we're reading it, and
+
+188
+
+00:11:31,110  -->  00:11:33,929
+then while there is some left we're also
+
+189
+
+00:11:33,929  -->  00:11:35,910
+going to just continue reading it at the
+
+190
+
+00:11:35,910  -->  00:11:40,139
+next chunk of frames. So what we need to
+
+191
+
+00:11:40,139  -->  00:11:42,360
+do after is we need to close the stream,
+
+192
+
+00:11:42,360  -->  00:11:49,079
+and then we need to terminate our
+
+193
+
+00:11:49,079  -->  00:11:54,689
+pyaudio, and that's all we need to do there.
+
+194
+
+00:11:54,689  -->  00:11:57,480
+So now we can just run this method by
+
+195
+
+00:11:57,480  -->  00:12:01,739
+passing an audio file to this method. So
+
+196
+
+00:12:01,739  -->  00:12:05,100
+open file, and then I'm going to say
+
+197
+
+00:12:05,100  -->  00:12:16,799
+audio/audio_end.wav. Oh, I didn't
+
+198
+
+00:12:16,799  -->  00:12:19,169
+call it open file I called it play_audio.
+
+199
+
+00:12:19,169  -->  00:12:26,129
+There we go. So now when I run this you
+
+200
+
+00:12:26,129  -->  00:12:27,929
+guys didn't hear that I don't think
+
+201
+
+00:12:27,929  -->  00:12:31,470
+because it's difficult to be able to
+
+202
+
+00:12:31,470  -->  00:12:35,489
+record system sound along with
+
+203
+
+00:12:35,489  -->  00:12:37,559
+microphone sound through quicktime, which
+
+204
+
+00:12:37,559  -->  00:12:39,480
+is what I'm using to record, but it did
+
+205
+
+00:12:39,480  -->  00:12:43,439
+play it. Maybe I'll try and capture that
+
+206
+
+00:12:43,439  -->  00:12:48,869
+sound as well. So that is how to play WAV
+
+207
+
+00:12:48,869  -->  00:12:51,269
+files within Python, and this is exactly
+
+208
+
+00:12:51,269  -->  00:12:53,189
+what we're going to be using when we're
+
+209
+
+00:12:53,189  -->  00:12:55,169
+recording, and we're going to be getting
+
+210
+
+00:12:55,169  -->  00:12:58,220
+to that in the next video.

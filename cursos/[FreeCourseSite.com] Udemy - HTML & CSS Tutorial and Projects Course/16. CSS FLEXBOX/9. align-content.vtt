@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.330 --> 00:08.370
+Once we have created our hero element why don't we switch gears and head over back to our indexation
+
+00:08.370 --> 00:08.980
+email.
+
+00:09.150 --> 00:16.740
+And then within the next session now we're going to cover the last property that affects all the children
+
+00:17.070 --> 00:20.750
+that we have within our Flex container.
+
+00:21.240 --> 00:27.660
+Now in order to do everything when we first get her this fund says let's get her that.
+
+00:27.680 --> 00:30.020
+So all of them are exactly the same.
+
+00:30.190 --> 00:36.510
+And as far as online content properties concerned will it affect if we have multiple lines.
+
+00:36.550 --> 00:40.930
+So that's the case where I'm going to head over back I'm going to select everything.
+
+00:40.930 --> 00:41.640
+Now you know what.
+
+00:41.680 --> 00:46.290
+For the time being I don't think we need to link either anymore since we're done with that.
+
+00:46.630 --> 00:49.040
+And then remember once we add more items.
+
+00:49.150 --> 00:52.750
+By default we have our no wrap.
+
+00:52.780 --> 01:03.090
+So let's also do it this way Let's say that we're going to have a flex wrap equal to over that way we're
+
+01:03.090 --> 01:04.810
+going to create multiple lines.
+
+01:05.280 --> 01:12.180
+Because we would like to start out our online content and the default value for the line content is
+
+01:12.180 --> 01:14.680
+in fact going to be stretch.
+
+01:14.740 --> 01:17.440
+That's the reason when we have multiple lines.
+
+01:17.460 --> 01:18.270
+Well that's the layout.
+
+01:18.780 --> 01:25.500
+So we have items that are stretching from the line or all number one and also the items in row number
+
+01:25.500 --> 01:32.250
+two are stretching right now just to show that it is not a black magic and in fact it is true.
+
+01:32.400 --> 01:39.510
+We're gonna set up a line content or not a line items but a line content and lines go it's stretch and
+
+01:39.510 --> 01:42.450
+you'll notice that our layout did not change at all.
+
+01:42.740 --> 01:47.150
+And so we know that it is in fact our default behaviour.
+
+01:47.520 --> 01:52.020
+Now let's copy and paste it and let's set it equal to a flex.
+
+01:52.020 --> 02:00.100
+And right now what happens right now both of my rows are in fact sitting in the bottom here.
+
+02:00.480 --> 02:07.110
+Because that's the reason when we have a flex and while that's the layout just like we had with a line
+
+02:07.110 --> 02:13.530
+items when we can align them in fact all the way in the bottom at the end of our container while the
+
+02:13.530 --> 02:19.660
+same thing works here only in this case we are actually selecting both of the rows.
+
+02:20.100 --> 02:26.910
+Now the same way can just copy and it and I could do it like this and could say that there can be a
+
+02:26.910 --> 02:33.680
+line at the start that is also my option and then I have space around and space between there are gonna
+
+02:33.690 --> 02:37.680
+be extremely similar like we had already would justify content.
+
+02:37.940 --> 02:41.730
+OK now before we covered that what do we place them in a centre.
+
+02:41.850 --> 02:46.980
+Because that should be very very straightforward where I place them in a centre and of course both of
+
+02:46.980 --> 02:49.190
+them are sitting right now in the centre.
+
+02:49.260 --> 02:56.310
+And lastly like I said we have space around and space between now in order to cover both of these values
+
+02:56.310 --> 03:03.240
+first of all what I'm gonna do is make more rows nice and not made more rows and of course if I make
+
+03:03.240 --> 03:09.540
+them really really small of course it is not going to be possible but if I make let's say three rows
+
+03:09.600 --> 03:13.690
+in my case and also as a side note I have zoomed in massively.
+
+03:14.100 --> 03:19.340
+So please keep in mind just because I think it's easier a little bit for me to show you how it works.
+
+03:19.410 --> 03:20.850
+That's the reason why I'm zooming in.
+
+03:21.210 --> 03:27.380
+But if I'm going to go with let's say two rows and three rows notice I'm gonna have right now.
+
+03:27.390 --> 03:35.070
+Of course my three rows in my container and then also can always do a bigger size for my container.
+
+03:35.070 --> 03:36.350
+And that way you can see.
+
+03:36.510 --> 03:43.500
+So if we are using space around we do have right now those margins like we have will justify content
+
+03:43.900 --> 03:46.920
+only in this case it is not happening on the sides.
+
+03:46.980 --> 03:52.440
+In fact it is sitting on the top and on the bottom and then in between the rows of course we have the
+
+03:52.440 --> 03:53.430
+same margin.
+
+03:53.570 --> 03:59.480
+However both of the items have that same margin but we also have a space between.
+
+03:59.580 --> 04:08.040
+So if we copy and paste it and we set this up as space between you're going to notice that the top row
+
+04:08.280 --> 04:15.320
+is sitting flush with top edge and the bottom one is sitting in fact flush with a bottom edge.
+
+04:15.420 --> 04:15.670
+Right.
+
+04:16.050 --> 04:23.520
+So that is the whole line content that is responsible if we have multiple rows or children rows in our
+
+04:23.520 --> 04:24.570
+Flex container.

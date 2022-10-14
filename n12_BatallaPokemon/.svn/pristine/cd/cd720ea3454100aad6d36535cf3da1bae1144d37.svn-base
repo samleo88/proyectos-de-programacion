@@ -1,0 +1,233 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.interfaz;
+
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+
+/**
+ * Diálogo para conectarse al servidor del juego.
+ */
+public class DialogoConectar extends JDialog implements ActionListener
+{
+
+    // -----------------------------------------------------------------
+    // Constantes
+    // -----------------------------------------------------------------
+
+    /**
+     * Constante de serialización.
+     */
+    private static final long serialVersionUID = -4436546417032269683L;
+
+    /**
+     * Representa el comando Conectar.
+     */
+    private final static String CONECTAR = "Conectar";
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Ventana principal de la aplicación.
+     */
+    private InterfazCupiPokemon principal;
+
+    // -----------------------------------------------------------------
+    // Atributos de interfaz
+    // -----------------------------------------------------------------
+
+    /**
+     * Etiqueta servidor.
+     */
+    private JLabel labelServidor;
+
+    /**
+     * Etiqueta puerto.
+     */
+    private JLabel labelPuerto;
+
+    /**
+     * Etiqueta nombre de usuario.
+     */
+    private JLabel labelUsuario;
+
+    /**
+     * Etiqueta alias del usuario.
+     */
+    private JLabel labelAlias;
+
+    /**
+     * Campo de texto servidor.
+     */
+    private JTextField textServidor;
+
+    /**
+     * Campo de texto puerto.
+     */
+    private JTextField textPuerto;
+
+    /**
+     * Campo de texto nombre del usuario.
+     */
+    private JTextField textUsuario;
+
+    /**
+     * Campo de texto alias del usuario.
+     */
+    private JTextField textAlias;
+
+    /**
+     * Botón ingresar.
+     */
+    private JButton btnIngresar;
+
+    /**
+     * Radio avatar hombre.
+     */
+    private JRadioButton rbAvatarMasculino;
+
+    /**
+     * Radio avatar mujer.
+     */
+    private JRadioButton rbAvatarFemenino;
+
+    /**
+     * Grupo de los radio button.
+     */
+    private ButtonGroup group;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Constructor del diálogo.
+     * @param pPrincipal Ventana principal de la aplicación.
+     */
+    public DialogoConectar( InterfazCupiPokemon pPrincipal )
+    {
+        super( pPrincipal, true );
+        this.principal = pPrincipal;
+        setResizable( false );
+
+        setTitle( "Conectar" );
+        setLayout( new BorderLayout( ) );
+
+        JPanel panelInfo = new JPanel( );
+        panelInfo.setPreferredSize( new Dimension( 400, 150 ) );
+
+        GridLayout layout = new GridLayout( 4, 2 );
+
+        layout.setVgap( 10 );
+        layout.setHgap( -150 );
+        panelInfo.setLayout( layout );
+
+        labelServidor = new JLabel( "Servidor: " );
+        panelInfo.add( labelServidor );
+        textServidor = new JTextField( "Localhost" );
+        panelInfo.add( textServidor );
+
+        labelPuerto = new JLabel( "Puerto: " );
+        panelInfo.add( labelPuerto );
+        textPuerto = new JTextField( "9999" );
+        panelInfo.add( textPuerto );
+
+        labelUsuario = new JLabel( "Nombre: " );
+        panelInfo.add( labelUsuario );
+        textUsuario = new JTextField( );
+        panelInfo.add( textUsuario );
+
+        labelAlias = new JLabel( "Alias: " );
+        panelInfo.add( labelAlias );
+        textAlias = new JTextField( );
+        panelInfo.add( textAlias );
+
+        rbAvatarMasculino = new JRadioButton( "Avatar masculino", false );
+        rbAvatarFemenino = new JRadioButton( "Avatar femenino", true );
+
+        group = new ButtonGroup( );
+        group.add( rbAvatarFemenino );
+        group.add( rbAvatarMasculino );
+
+        JPanel radioPanel = new JPanel( new GridLayout( 1, 2 ) );
+        radioPanel.add( rbAvatarFemenino );
+        radioPanel.add( rbAvatarMasculino );
+
+        add( panelInfo, BorderLayout.NORTH );
+        add( radioPanel, BorderLayout.CENTER );
+
+        btnIngresar = new JButton( CONECTAR );
+        btnIngresar.setActionCommand( CONECTAR );
+        btnIngresar.addActionListener( this );
+        add( btnIngresar, BorderLayout.SOUTH );
+        pack( );
+        setLocationRelativeTo( null );
+
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Manejo de los eventos de los botones.
+     * @param pEvento Acción que generó el evento.
+     */
+    public void actionPerformed( ActionEvent pEvento )
+    {
+
+        if( pEvento.getActionCommand( ).equals( CONECTAR ) )
+        {
+            try
+            {
+                String servidor = textServidor.getText( );
+                String usuario = textUsuario.getText( );
+                String alias = textAlias.getText( );
+                int puerto = Integer.parseInt( textPuerto.getText( ) );
+                String avatar= (rbAvatarFemenino.isSelected( )) ? "AvatarFemenino": "AvatarMasculino";
+
+                if( servidor.equals( "" ) || usuario.equals( "" ) && alias.equals( "" )  )
+                {
+                    JOptionPane.showMessageDialog( this, "Debe ingresar los datos.", "Conectar", JOptionPane.ERROR_MESSAGE );
+                }
+                else
+                {
+                    this.setTitle( "Conectar: Conectando...." );
+
+                    principal.configurarDatosConexion( servidor, puerto, usuario, alias, avatar );
+
+                }
+            }
+            catch( NumberFormatException ex )
+            {
+                JOptionPane.showMessageDialog( this, "Formato del puerto no válido.", "Conectar", JOptionPane.ERROR_MESSAGE );
+            }
+
+        }
+    }
+
+}

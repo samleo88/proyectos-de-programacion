@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.150 --> 00:04.440
+Our next target is probably going to be the most challenging one because we're going to be working on
+
+00:04.440 --> 00:09.990
+the product and what's really cool about the products that we're going to look at the nested floating
+
+00:09.990 --> 00:15.630
+thing where we're going to have to column layout to begin with some of the products and the pictures
+
+00:15.660 --> 00:20.120
+all of them are gonna be one column and this is going to be all second column.
+
+00:20.220 --> 00:24.910
+However within the second column we're also gonna do another three column layout.
+
+00:25.010 --> 00:26.890
+So I think this is gonna be really cool.
+
+00:26.910 --> 00:32.160
+We're also gonna reuse quite a few things you'll see that we're going to be reusing the section center
+
+00:32.550 --> 00:35.170
+or reusing the title as well as the button.
+
+00:35.250 --> 00:37.050
+So you'll see more and more.
+
+00:37.080 --> 00:41.880
+The neat thing of creating some kind of class that you can reuse it throughout our project.
+
+00:42.090 --> 00:48.000
+As always our journey is gonna have to begin with indexation email because we cannot really style anything
+
+00:48.000 --> 00:49.890
+unless there's some kind of content.
+
+00:50.090 --> 00:57.380
+The spiel is going to be products then end of product and that's gonna be our setup and not end for
+
+00:57.740 --> 00:59.790
+but end of product.
+
+00:59.790 --> 01:05.250
+HERE WE'RE GONNA START WITH A SECTION NOW THE SECTION IS GONNA HAVE THE CLASS OF SURPRISED YOU GUESSED
+
+01:05.250 --> 01:08.540
+IT product and then we're gonna be looking right away for the day.
+
+01:08.550 --> 01:13.650
+We're the class of Section center as well as because we will gonna be floating it twice.
+
+01:13.770 --> 01:18.890
+So we all gonna be floating two of these columns and then three of the smaller ones we will gonna add
+
+01:18.900 --> 01:24.660
+not only section of center there's gonna add nice padding and the width but also we're gonna use the
+
+01:24.660 --> 01:25.340
+clear fix.
+
+01:25.440 --> 01:30.780
+Remember our little hack that we had before and the moment we were going to save it I was gonna be getting
+
+01:30.780 --> 01:35.220
+a bigger screen now I cannot see anything obviously we haven't played that here but I already see that
+
+01:35.220 --> 01:42.630
+I'm getting the the width here with a paddock right now what is gonna be within this div well here we're
+
+01:42.630 --> 01:44.790
+gonna have two again columns to begin with.
+
+01:45.270 --> 01:52.000
+So we're going to have product info column in form and then we're going to have product inventory now
+
+01:52.000 --> 01:54.640
+for this let me add first of all an article.
+
+01:54.640 --> 02:02.080
+Now this article is gonna have products info class that's gonna be for styling and here I can copy and
+
+02:02.080 --> 02:11.710
+paste them both and let's set up maybe here the product inventory so we're gonna have to I'm not selectors
+
+02:12.040 --> 02:17.190
+to cursors and we're gonna write inventory that's gonna be our second column.
+
+02:17.380 --> 02:20.080
+Like I said from the start we're gonna have to come.
+
+02:20.770 --> 02:25.390
+And then within this inventory there's going to be another 3Com layer and that's the reason why we're
+
+02:25.390 --> 02:28.230
+having the nested layout here.
+
+02:28.240 --> 02:30.940
+Let's start very simply by having a title.
+
+02:31.030 --> 02:33.900
+Now we already created the title in a previous section.
+
+02:33.940 --> 02:40.740
+Remember this was the about and this was the skills now within the about we had a section title.
+
+02:40.900 --> 02:42.220
+So why don't we borrow this.
+
+02:42.220 --> 02:44.530
+Why don't we say that we're going to scroll down.
+
+02:44.530 --> 02:46.140
+We're going to look for products in four.
+
+02:46.570 --> 02:49.030
+And the first thing we're going to copy and paste is the title.
+
+02:49.540 --> 02:53.310
+Now here again obviously we would like to change the values.
+
+02:53.460 --> 03:04.930
+So going to say check out that's gonna be the subtitle and for the title we're gonna use our products.
+
+03:04.930 --> 03:08.110
+Hopefully you can see how nifty this is.
+
+03:08.230 --> 03:09.800
+We don't have to again recreate it.
+
+03:09.820 --> 03:12.370
+And I know that I'm gonna say this probably 50 more times.
+
+03:12.370 --> 03:20.470
+But the point that I'm kind of trying to hammer home is the fact that you want to like try to at least
+
+03:20.810 --> 03:24.710
+set up something globally where you can reuse this.
+
+03:24.730 --> 03:28.930
+Now that doesn't mean that you're gonna be able to do it with each and every section because obviously
+
+03:28.960 --> 03:31.030
+there's gonna be unique things about the section.
+
+03:31.180 --> 03:34.290
+Otherwise you're just gonna be copying pasting and dissection.
+
+03:34.480 --> 03:39.970
+But let's say having some kind of titles some kind of layout things it does make sense to create them
+
+03:39.970 --> 03:45.340
+once and then reuse them instead of each and every time that you come back and back and back and so
+
+03:45.340 --> 03:46.570
+on and so forth.
+
+03:46.660 --> 03:49.290
+What else we're going gonna have while there is a title.
+
+03:49.300 --> 03:59.760
+So we have in the title and I think we're gonna have a nice paragraph with a class of product taxed
+
+04:00.400 --> 04:02.070
+here within the paragraph.
+
+04:02.070 --> 04:02.550
+That's right.
+
+04:02.560 --> 04:06.420
+I don't know 20 words so lower I'm 20 and you know what.
+
+04:06.420 --> 04:10.830
+We also can place a button now the button is gonna be right now or you know what.
+
+04:10.950 --> 04:16.260
+Well class is gonna be main button but it's gonna be actually a link and this link is gonna be pointing
+
+04:16.260 --> 04:18.720
+to again the page that we don't have.
+
+04:18.810 --> 04:20.360
+So productivity email.
+
+04:20.460 --> 04:26.740
+However we do need to have this class of main medium so our main button and then let's write here.
+
+04:26.760 --> 04:29.130
+Inventory is gonna be written.
+
+04:29.160 --> 04:32.650
+Button and I think this is looks really awesome.
+
+04:32.650 --> 04:33.780
+So I have the title.
+
+04:33.780 --> 04:36.480
+We didn't have to struggle with any kind of success.
+
+04:36.570 --> 04:42.720
+Everything is already premade and we can move on and we can start working on our next column which is
+
+04:42.720 --> 04:44.040
+gonna be product inventory.
+
+04:44.790 --> 04:47.760
+Here's the kicker though as you're looking at it what do you see.
+
+04:47.760 --> 04:54.450
+Well you see two column layout and then another three column layout since we are again using the floats
+
+04:54.450 --> 04:55.140
+for this.
+
+04:55.140 --> 04:57.510
+We need to use the clear fix again.
+
+04:57.510 --> 04:59.850
+So I'm gonna n I'm gonna copy and paste the class.
+
+05:00.270 --> 05:04.050
+So just so I don't get some surprise results or anything like that.
+
+05:04.380 --> 05:09.510
+And then within this inventory there's gonna be three products for each of the products I'm gonna use
+
+05:09.510 --> 05:14.470
+single product as a comment as well as copy pasted.
+
+05:14.550 --> 05:19.140
+I'm gonna write and off single product and within a single product we're gonna have a few things.
+
+05:19.170 --> 05:20.690
+Well first of all this is gonna be Dave.
+
+05:20.970 --> 05:23.510
+You can create this as an article.
+
+05:23.540 --> 05:24.640
+Is also an option.
+
+05:24.640 --> 05:25.140
+Ah you know what.
+
+05:25.170 --> 05:25.350
+Yeah.
+
+05:25.380 --> 05:26.770
+Let's just go with article.
+
+05:26.970 --> 05:32.040
+Just so you don't think that I'm actually lying to you but in general again we could have used the Dave
+
+05:32.310 --> 05:38.190
+but we can use the article and we can say here we're gonna be looking for first of all image.
+
+05:38.190 --> 05:39.830
+So first there's gonna be an image.
+
+05:39.960 --> 05:41.540
+Now the image is gonna be massive.
+
+05:41.610 --> 05:45.920
+I can tell you right away that this is again gonna mess up pretty much all of review.
+
+05:45.990 --> 05:51.210
+But you know we do need to place them so first let's start looking for images then we're gonna be looking
+
+05:51.210 --> 05:57.060
+for product one and then you know what for alternatives I will gonna cheat a little bit.
+
+05:57.060 --> 06:02.670
+I'm just gonna say product because I don't want to look at the image and then go to the text in general
+
+06:02.670 --> 06:07.410
+obviously you need to write something that reflects this image but I'm just gonna cheat a little bit
+
+06:08.070 --> 06:08.820
+as well as you know what.
+
+06:08.820 --> 06:14.760
+Let's add some class and the class is gonna be product image.
+
+06:14.760 --> 06:19.830
+Now it's gonna be for my image and then right of the image we're gonna have two things we're going to
+
+06:19.830 --> 06:26.990
+have heading three with the class of product title so class of product title.
+
+06:27.120 --> 06:34.290
+And here let's write product title as you can see that again I was being held lazy even with the finished
+
+06:34.290 --> 06:35.150
+project.
+
+06:35.420 --> 06:37.250
+I didn't see the point of writing this.
+
+06:37.380 --> 06:39.100
+You can write whatever you want.
+
+06:39.210 --> 06:39.690
+What are you.
+
+06:39.720 --> 06:41.360
+Whatever you feel like for the product.
+
+06:41.380 --> 06:43.180
+But I'm just gonna skip a little bit.
+
+06:43.230 --> 06:48.120
+I'm gonna say product title because that's the whole idea of what we're gonna have there some say product
+
+06:48.120 --> 06:54.240
+title and you know what I will gonna copy paste this and I'm going to say for the second one this is
+
+06:54.240 --> 06:55.920
+not going to be product title.
+
+06:55.920 --> 07:05.210
+This will be product price product price and let's set up some kind of default price of six ninety nine.
+
+07:05.490 --> 07:07.630
+That's gonna be our first product.
+
+07:07.680 --> 07:11.610
+Like I said the image is gonna be massive and a little bit annoying right now.
+
+07:11.670 --> 07:16.650
+So you just need to bear with me where we will gonna copy and paste this single product.
+
+07:16.650 --> 07:19.420
+So we're gonna start from the first comment to the second one.
+
+07:19.430 --> 07:24.960
+1 2 and then we just need to change the images again we're not gonna be changing or at least I'm not
+
+07:24.960 --> 07:31.890
+gonna be changing any kind of text here and I would like to say that product number three product number
+
+07:31.910 --> 07:35.490
+2 and product number 1 We already have.
+
+07:35.490 --> 07:42.030
+This is how our product section should look like not right now as we're done with HCM normal and we're
+
+07:42.030 --> 07:44.360
+ready to go and start styling it in the as.

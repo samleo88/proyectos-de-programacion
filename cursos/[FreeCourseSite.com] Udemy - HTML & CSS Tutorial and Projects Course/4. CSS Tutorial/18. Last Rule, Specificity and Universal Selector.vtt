@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.530 --> 00:08.240
+As you start working with CSX inevitably you are going to meet the last rule principle as well as specificity.
+
+00:08.450 --> 00:14.850
+And then you also going to see later on whenever we are working we have universal select and I'm gonna
+
+00:14.870 --> 00:21.230
+kind of lump them together because I think all of them pretty much work on a principle of the previous
+
+00:21.230 --> 00:21.380
+one.
+
+00:21.980 --> 00:24.190
+So let's start with a last rule.
+
+00:24.260 --> 00:30.790
+So let's imagine this scenario again we have our Dave we have had him two and then here I have to program.
+
+00:30.980 --> 00:36.140
+Now let's just get rid of all the styles just so you don't get confused and let's imagine they're all
+
+00:36.140 --> 00:38.060
+going to be styling just a paragraph by itself.
+
+00:38.600 --> 00:43.350
+So when we get as always we're going to use the color example and I'm gonna say color is blue.
+
+00:43.460 --> 00:51.440
+Now if I'm gonna later on in the same style sheet had the same selection for the paragraph with a different
+
+00:51.440 --> 00:53.900
+color what do you think is gonna happen.
+
+00:53.900 --> 00:58.070
+So let's say here I'm going to say a paragraph and in my case this is gonna be red.
+
+00:58.880 --> 01:00.470
+Now what do you think is gonna happen.
+
+01:00.470 --> 01:06.350
+Well we can already see that paragraphs are right now and to be with a color of red.
+
+01:06.350 --> 01:07.940
+Now why is that happening.
+
+01:07.940 --> 01:14.700
+Well because CSX is gonna use the last rule that you added and then apply that to the station.
+
+01:14.840 --> 01:20.680
+Now usually what's gonna happen is that you're gonna be kind of hard working with your CSX and you're
+
+01:20.700 --> 01:25.820
+gonna be adding lines and lines and lines and CSX and then later on you're gonna come here somewhere
+
+01:25.820 --> 01:31.280
+on line thirty two or three thousand and forty nine and then you're all gonna add in the that.
+
+01:31.460 --> 01:36.260
+So what happens is that you're going to kind of fuse the fact that you already have your style selection
+
+01:36.260 --> 01:36.810
+or here.
+
+01:36.860 --> 01:43.160
+And he says it's gonna be like Okay so you had your first rule or whatever second rule or whatever but
+
+01:43.160 --> 01:45.080
+later on you actually create a new one.
+
+01:45.530 --> 01:51.630
+So I'm going to use right now in the fact that you added this last rule and I'm gonna apply only the.
+
+01:52.010 --> 01:58.190
+So please remember whenever you're working that your last rule is gonna be applied regardless of what
+
+01:58.190 --> 01:59.180
+you have in between.
+
+01:59.780 --> 02:04.090
+So that's something to really too important to remember because there's gonna be cases where you're
+
+02:04.100 --> 02:09.820
+going to find yourself looking for the reasoning of why certain C S S is displayed.
+
+02:09.830 --> 02:16.280
+So always check whether you haven't applied another rule that pretty much overrides your initial one.
+
+02:16.310 --> 02:19.610
+No I also have a topic of specificity.
+
+02:19.850 --> 02:21.380
+Now what would that mean.
+
+02:21.380 --> 02:23.880
+Well okay let's look at the same example.
+
+02:24.080 --> 02:27.120
+We have one paragraph and the second one.
+
+02:27.410 --> 02:30.340
+So let's add maybe some kind of class to them.
+
+02:30.500 --> 02:31.250
+Well let's write.
+
+02:31.250 --> 02:36.330
+Class is going to be read here as well as for this guy.
+
+02:36.410 --> 02:42.100
+Let's add the class and right now what happens if I'm gonna head over again back and assess first of
+
+02:42.100 --> 02:44.030
+all let's tile the class of red.
+
+02:44.210 --> 02:48.140
+Let's write obviously the color and in our case is going to be red.
+
+02:48.140 --> 02:54.620
+But let's say that later on again somewhere in the document we're going to write that where all my paragraphs
+
+02:54.620 --> 02:58.010
+in this case I would like to style them blue.
+
+02:58.040 --> 03:02.930
+Do you think there are gonna be blue right now since we just covered the last rule or there's still
+
+03:02.930 --> 03:03.440
+gonna be red.
+
+03:04.100 --> 03:08.400
+Well my to out as you notice they are staying red.
+
+03:08.450 --> 03:14.750
+And the reason for that is even though we are applying this with a last rule the first rule is more
+
+03:14.750 --> 03:15.290
+specific.
+
+03:15.830 --> 03:22.430
+So what's happening with CSX CSX has a specific measurement system for specificity.
+
+03:22.430 --> 03:29.170
+And if you want to be really diligent about that you can just go ahead and google specificity measurement
+
+03:29.180 --> 03:30.290
+in CSX.
+
+03:30.290 --> 03:35.480
+Now I'm not going to cover this because I don't really find it useful right now especially if we're
+
+03:35.480 --> 03:37.730
+just starting with CSX.
+
+03:37.730 --> 03:42.600
+However if you would like to go and explore on your own you're more than welcome to do that.
+
+03:42.710 --> 03:49.100
+And at the very beginning I believe I would go with W3 schools again because their explanation probably
+
+03:49.100 --> 03:54.680
+is gonna be the most straightforward especially as you're just starting out with a CSX.
+
+03:54.710 --> 04:00.590
+Now I'd also like to cover very quickly the fact that we have the universal selector which select all
+
+04:00.590 --> 04:01.440
+they own.
+
+04:01.550 --> 04:07.190
+So if I'm just going to get rid of this and if I'm gonna say there's gonna be universal selector and
+
+04:07.190 --> 04:14.030
+the way we type universal selector is by this asterisk and again let's add some kind of value so let's
+
+04:14.030 --> 04:16.400
+say color is gonna be blue.
+
+04:16.400 --> 04:18.580
+All my elements are going to meet the blue.
+
+04:18.620 --> 04:26.090
+However the kicker here is that universal selector has the least amount of the actual specificity.
+
+04:26.090 --> 04:30.780
+So even though we can add this at the very end if we're gonna be overwriting this somewhere.
+
+04:30.780 --> 04:34.780
+So let's say again for the paragraphs we're gonna say color red.
+
+04:34.950 --> 04:39.940
+Then the actual universal selector is gonna be the least powerful one.
+
+04:40.310 --> 04:43.160
+So it's gonna have the least amount of specificity.
+
+04:43.190 --> 04:49.610
+Now we are using universal selector whenever we want to reset the default browser stars which we will
+
+04:49.610 --> 04:55.130
+going to cover a little bit later and we will gonna use this universal selector as we start working
+
+04:55.130 --> 04:56.270
+with the project.
+
+04:56.270 --> 05:03.430
+But in general this is all it's gonna do it's gonna select all the however with least amount of specificity.

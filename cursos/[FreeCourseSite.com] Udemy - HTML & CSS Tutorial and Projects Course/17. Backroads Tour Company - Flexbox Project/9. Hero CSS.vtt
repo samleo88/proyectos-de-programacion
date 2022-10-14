@@ -1,0 +1,559 @@
+WEBVTT
+
+00:00.480 --> 00:05.580
+Now once we have our age email let's set up our sea assess as well.
+
+00:05.580 --> 00:10.110
+So like I said skipping that bar for now unknown.
+
+00:10.200 --> 00:12.150
+Let's ride away start working on a hero.
+
+00:12.540 --> 00:14.910
+So the hero had a class of hero.
+
+00:14.950 --> 00:16.690
+That's the reason why we're targeting.
+
+00:16.860 --> 00:17.970
+And let's just write.
+
+00:17.990 --> 00:20.810
+Mean height to be hundred viewers.
+
+00:21.000 --> 00:27.120
+Because if the content within this particular hero element is going to be less than run and view heads
+
+00:27.450 --> 00:32.310
+while at the end of the day it's going to be under review Heights which is going to be a hundred percent
+
+00:32.730 --> 00:38.280
+of the viewport whether that's a desktop or a mobile screen size.
+
+00:38.670 --> 00:44.820
+Now I also said on the extra small screen size and small screen size I would want to have a background
+
+00:45.210 --> 00:51.180
+that is just going to be our primary color because I wouldn't want to force our massive image on those
+
+00:51.180 --> 00:52.770
+small screen sizes.
+
+00:52.770 --> 00:57.210
+Then I also like to right away place the text in the center.
+
+00:57.270 --> 01:03.000
+And since we have already covered flex box we know that if I would like to in fact get it in the center
+
+01:03.090 --> 01:08.410
+I just need to use a line items as well as justify content for the horizontal center.
+
+01:08.430 --> 01:12.630
+So first and foremost let's set this up as this play flex.
+
+01:12.630 --> 01:19.880
+So it should be our parent container and then let's place it vertically and horizontal in the center.
+
+01:19.900 --> 01:21.680
+So justify content center.
+
+01:21.820 --> 01:24.170
+That place is horizontal in the center.
+
+01:24.250 --> 01:27.720
+And also I would like to place it vertically in the center.
+
+01:27.790 --> 01:33.540
+So let's right on the line items and I would also like to place it in the center right.
+
+01:33.970 --> 01:35.350
+That's number one.
+
+01:35.350 --> 01:36.530
+Well what else.
+
+01:36.640 --> 01:42.300
+Now of course we would want to also start working in fact on our hero title correct.
+
+01:42.310 --> 01:51.640
+So let's go for the hero title your own title and then as far as hero title is concerned we're gonna
+
+01:51.660 --> 01:55.600
+set up a text transform to be in fact uppercase.
+
+01:55.800 --> 01:56.910
+So let's write.
+
+01:56.910 --> 02:03.580
+Text transform upper case uppercase.
+
+02:03.850 --> 02:11.530
+And then what else we have we have a little bit of margin and bottom margin model is going to be let's
+
+02:11.530 --> 02:14.980
+say to our rhythms.
+
+02:15.180 --> 02:19.640
+And last but not least we are going to have some letter spacing so we're not gonna use.
+
+02:19.660 --> 02:24.450
+In fact our generic one is gonna be a little bit bigger than our variable.
+
+02:24.460 --> 02:26.250
+So I'm gonna go with zero point four.
+
+02:26.380 --> 02:32.530
+And as you see we're working with hero title and that's the reason why we have right now a little bit
+
+02:32.530 --> 02:37.350
+of in fact bigger margin in the bottom as well as the letter spacing.
+
+02:37.360 --> 02:45.610
+Now remember before we had a hero title and was responsible for continually exploring we also had the
+
+02:45.610 --> 02:51.780
+hero banner and this specifically was used again to place everything in the center.
+
+02:51.790 --> 02:58.840
+Now even though it is sitting horizontal in a center there is currently one issue and the simple issue
+
+02:58.840 --> 03:07.340
+is that we're going to have to target the hero banner and like so let's use text online also on center
+
+03:07.670 --> 03:13.630
+because we would want to center our text as well because even though our device sitting in the center.
+
+03:13.760 --> 03:19.560
+Well since we have here the text I would also like to place the text in center.
+
+03:19.640 --> 03:21.700
+Then what else we can do.
+
+03:21.710 --> 03:26.020
+Well as far as the color I could change the color.
+
+03:26.150 --> 03:31.260
+I could set this up as main white for my whole banner like so.
+
+03:31.900 --> 03:33.850
+So the whole text is going to be white.
+
+03:33.950 --> 03:37.070
+And let's also add a little bit of padding on the sides.
+
+03:37.280 --> 03:41.930
+So let's write padding 0 2 harems.
+
+03:41.960 --> 03:44.270
+So that gives me this particular pattern.
+
+03:44.360 --> 03:48.810
+And again I would like to point out that I have massively zoomed in.
+
+03:48.890 --> 03:52.000
+So that's how it is going to look like 100 percent.
+
+03:52.190 --> 03:57.580
+But I'm having 175 men right after the hero banner and hero title.
+
+03:57.710 --> 04:05.350
+I'm gonna work with hero text that is going to be my paragraph where I'm going to say hero text and
+
+04:05.360 --> 04:12.730
+let's go with with 85 percent so the width is going to be a little bit less than I would like to place
+
+04:12.730 --> 04:13.840
+it in the center.
+
+04:13.840 --> 04:20.980
+So I'm going to go for margin bottom zero and then all that is going to place it exactly in the center
+
+04:20.980 --> 04:21.610
+again.
+
+04:21.790 --> 04:28.210
+And then let's add a little bit of letter spacing and four letter spacing in this case I am going to
+
+04:28.210 --> 04:35.920
+use my main spacing variable so let's say main spacing that has my variable and line height is going
+
+04:35.920 --> 04:37.330
+to be in fact.
+
+04:37.330 --> 04:39.490
+No you're not we already set this up.
+
+04:39.580 --> 04:46.510
+Remember when we work with paragraph we already set this up as to so we can skip right now and then
+
+04:46.510 --> 04:48.400
+run after the main spacing.
+
+04:48.400 --> 04:50.430
+We're going to go with font weight.
+
+04:50.590 --> 04:53.720
+And in this case we're going to go for 400.
+
+04:53.890 --> 05:01.780
+So if previously all my paragraphs are gonna be in fact 300 on this case I'm setting this up as 400.
+
+05:01.930 --> 05:05.950
+Now we are almost done with our extra small screen size.
+
+05:05.950 --> 05:13.510
+However I would love also like to have some styles for my buttons and in this particular case since
+
+05:13.570 --> 05:18.130
+I'm going to reuse the button I'm gonna set this up in a global start.
+
+05:18.190 --> 05:23.920
+Now you don't have to technically you can set this up on course you can always access the class but
+
+05:24.370 --> 05:31.240
+everything that I'm accessing in fact multiple times in my assess I would like to set up in my global
+
+05:31.240 --> 05:34.210
+stars because that way it's a little bit easier for me to find it.
+
+05:34.300 --> 05:35.590
+Now that is my preference.
+
+05:35.590 --> 05:37.210
+You don't have to do it of course.
+
+05:37.330 --> 05:37.960
+So let's write.
+
+05:37.960 --> 05:47.320
+Button white and then what I would like let's go with text transform case like so then let's also add
+
+05:47.320 --> 05:56.470
+right of way some letter spacing letter spacing so main spacing variable then we have a color.
+
+05:56.470 --> 05:58.500
+So I'm going to go for the White one.
+
+05:58.780 --> 06:09.470
+So var main white like so then let's also add a little bit of border so let's write more and I'm going
+
+06:09.470 --> 06:12.390
+to go for two pixels solid.
+
+06:12.630 --> 06:19.320
+And again we're gonna go for the main white and that is our color then we are gonna have a little bit
+
+06:19.320 --> 06:19.890
+of padding.
+
+06:20.550 --> 06:28.050
+So let's go top bottom zero point nine harems one point six left and right and then I would want it
+
+06:28.050 --> 06:37.250
+to be display inline block so let's write display inline block because that way we're going to be respecting
+
+06:37.340 --> 06:43.640
+the margins there are in fact added to the rest of the elements then also let's add maybe a little bit
+
+06:43.640 --> 06:52.490
+of transition let's say transition is going to be I don't know main transition so let's write var main
+
+06:52.550 --> 06:53.720
+transition.
+
+06:53.870 --> 06:59.390
+So as we're hovering I would like to change the color on as far as the cursor while the cursor is going
+
+06:59.390 --> 07:01.450
+to be deep winter.
+
+07:01.820 --> 07:06.170
+Then once we have this particular setup what we would want.
+
+07:06.200 --> 07:06.770
+Wow.
+
+07:06.770 --> 07:14.210
+After that I would like to in fact also set up some hovering where as I'm hovering over the button white
+
+07:14.710 --> 07:17.120
+I'm going to change the color as well.
+
+07:17.120 --> 07:27.450
+So let's right here beat n Beatty can hover Beatty and white hover sorry Beatty and wide hover and as
+
+07:27.450 --> 07:32.430
+we're hovering over it I'm going to change the background and the background is going to be men white
+
+07:33.700 --> 07:40.120
+so mane white like so and color is going to be a primary color.
+
+07:40.200 --> 07:43.810
+So far primary color like so.
+
+07:44.390 --> 07:45.400
+So as we're hovering.
+
+07:45.470 --> 07:48.790
+Notice that is in fact our button now.
+
+07:49.280 --> 07:56.210
+While we're also going to set up like I said once we get to a bigger screen says I would like to place
+
+07:56.270 --> 07:59.150
+in fact there a background image.
+
+07:59.150 --> 08:06.800
+So currently what I have is in fact the background of just my color or what I would like to do is as
+
+08:06.800 --> 08:08.460
+we get to the bigger screen size.
+
+08:08.600 --> 08:10.930
+I would like to have a background image.
+
+08:11.450 --> 08:17.350
+Now I'm going to head over back to my hero like so and I'm gonna set up the media query some would a
+
+08:17.370 --> 08:22.460
+medium screen and then let's go with men with.
+
+08:22.670 --> 08:24.650
+So we just need to come up with.
+
+08:24.680 --> 08:27.580
+Well what would be the screen size where we're starting.
+
+08:27.590 --> 08:34.300
+In fact our background as the image and I'm going to say 768 pixels.
+
+08:34.310 --> 08:38.440
+So starting from 768 In fact we're gonna change it around.
+
+08:38.690 --> 08:42.640
+We're hero is going to have a background.
+
+08:42.920 --> 08:47.190
+However the background is not going to be just a color.
+
+08:47.270 --> 08:50.420
+In fact we're going to set up a image.
+
+08:50.420 --> 08:55.870
+Now I am missing and that's the reason why I have in fact the error and now everything should work.
+
+08:56.210 --> 08:57.060
+So background.
+
+08:57.170 --> 08:59.990
+Let's start by simply placing the.
+
+08:59.990 --> 09:04.490
+You are all that is the syntax and then let's pass in our image.
+
+09:04.520 --> 09:10.850
+Now we need to understand one thing though that since our style CSX is sitting within the systems folder
+
+09:11.360 --> 09:18.200
+in order to access the images Wow we're gonna have to do some navigation where I have to leave in fact
+
+09:18.260 --> 09:25.400
+myself as folder and then I'm going to put images online within the images we're shooting for this main
+
+09:25.400 --> 09:28.770
+J.P. Morgan since it is our second project.
+
+09:28.910 --> 09:34.490
+I really kind of expect that you remember our background properties if you don't.
+
+09:34.490 --> 09:39.920
+Again please head over back tutorial where we cover them where I would like to right away place my image
+
+09:39.980 --> 09:43.040
+in the center I would make sure that covers everything.
+
+09:43.190 --> 09:46.670
+And I'm also gonna go for no repetition.
+
+09:46.700 --> 09:49.080
+All right and I'm gonna set this as fixed.
+
+09:49.160 --> 09:53.060
+So we're gonna have our parallax effect now in order to test that out.
+
+09:53.060 --> 09:59.450
+I'm not going to make this particular screen size bigger but we're gonna head over back to our project
+
+09:59.890 --> 10:03.750
+like so and as you can see once we get to the bigger screen size.
+
+10:03.830 --> 10:05.250
+Well there you go.
+
+10:05.270 --> 10:11.460
+We do have our image where previously we have course had our background color.
+
+10:11.870 --> 10:13.000
+That's number one.
+
+10:13.010 --> 10:20.780
+Then I would also like to increase my font size once I get the bigger screen size as well as make the
+
+10:20.900 --> 10:23.940
+paragraph a little bit less with.
+
+10:24.100 --> 10:27.980
+So I'm gonna set it up like let's say 70 percent.
+
+10:27.980 --> 10:37.710
+So the way we do that within the media I'm going to set up as a hero title like so why don't we go for
+
+10:37.710 --> 10:38.650
+font size.
+
+10:38.760 --> 10:39.890
+I don't know.
+
+10:39.900 --> 10:44.850
+Four point five rhythms like so as you say.
+
+10:44.850 --> 10:52.290
+Now my text is massive and then like I said for the paragraph we already had a width of 80 percent initially
+
+10:52.290 --> 10:53.450
+or 85.
+
+10:53.700 --> 11:00.060
+Let's go for hero text and I'm gonna set this text as with of 80.
+
+11:00.060 --> 11:02.850
+So arms are not 80 70.
+
+11:02.880 --> 11:03.900
+So let's set this up.
+
+11:03.940 --> 11:08.570
+And now it's sitting nicely within a center with a with of 80.
+
+11:08.850 --> 11:15.710
+Then I would also like to place some linear gradient as a background as currently it's hard to see our
+
+11:15.720 --> 11:17.010
+white text.
+
+11:17.030 --> 11:25.130
+Right now the way we're gonna do that is in fact in front of the URL we're gonna write a linear gradient.
+
+11:25.170 --> 11:29.450
+Then let's add comma and we can add whatever colors we'll like.
+
+11:29.760 --> 11:34.380
+By default the first color we're gonna add is going to be our top color.
+
+11:34.650 --> 11:39.570
+And then the bottom one is going to be our bottom color or I'm sorry the second color is going to be
+
+11:39.570 --> 11:40.950
+the bottom color.
+
+11:40.950 --> 11:46.020
+Now of course you can change in fact directions as well but I'm going to go with default one where the
+
+11:46.020 --> 11:50.390
+top one is going to be RGA 63.
+
+11:51.660 --> 11:53.160
+Two hundred eight.
+
+11:53.670 --> 11:56.800
+And lastly two hundred twelve.
+
+11:56.970 --> 12:00.830
+And then it's going to have the capacity of zero point seven.
+
+12:00.840 --> 12:02.110
+That's my first color.
+
+12:02.130 --> 12:07.710
+Make sure that you have the common between linear gradient and the URL as well as between the first
+
+12:07.710 --> 12:09.080
+color and the second color.
+
+12:09.450 --> 12:17.190
+And let's write our GPA that is of course my value and then let's write zero zero zero point seven.
+
+12:17.820 --> 12:23.180
+So my bottom color is going to be black with opacity of zero point seven OK.
+
+12:23.620 --> 12:24.730
+And there you go.
+
+12:24.750 --> 12:29.970
+We have right now our linear gradient as well as the background image.
+
+12:29.970 --> 12:38.610
+Now as far as flags box is concerned what we used while we had our properties for display of flux correct
+
+12:38.870 --> 12:40.140
+and that was display flex.
+
+12:40.140 --> 12:46.630
+So now our hero component or hero element is in fact display flex.
+
+12:46.680 --> 12:54.530
+And then once we have that particular setup we also have in fact the case where I'm using justified
+
+12:54.530 --> 13:02.840
+content so I'm gonna be placing right now the div Exactly exactly in the center correct.
+
+13:02.850 --> 13:06.290
+And then I also place it horizontal in the center.
+
+13:06.300 --> 13:13.620
+Now since we have all our text wrapped already within div we do need to set up a text line center.
+
+13:13.620 --> 13:19.380
+Now lastly I'm noticing one thing that even though I went with margin zero so top bottom 0 and left
+
+13:19.380 --> 13:26.130
+and right or for my paragraph to place it in the center you know what I'm also gonna add some margin
+
+13:26.130 --> 13:27.380
+just for the bottom.
+
+13:27.420 --> 13:32.070
+Now I could write all these four values here but I think it's just going to be easier I'm going to go
+
+13:32.070 --> 13:38.730
+with margin bottom to our OEM's for my paragraph and then once we're done with setting up everything
+
+13:38.730 --> 13:39.660
+with flux.
+
+13:39.660 --> 13:42.540
+So that is as far as flex box is concerned.
+
+13:42.540 --> 13:44.210
+Well then we used our background.
+
+13:44.490 --> 13:48.900
+So once we get the bigger screen size then in fact we're getting our image.
+
+13:48.930 --> 13:55.160
+So we're using your URL then we placed it in the center and make sure it covers there's no repetition.
+
+13:55.200 --> 13:56.000
+It is fixed.
+
+13:56.310 --> 14:02.330
+So in fact as we're going to start scrolling you'll notice that it is going to be a parallax effect.
+
+14:02.520 --> 14:09.720
+And then of course we just increase the size for my hero title as well as make that text a little bit
+
+14:09.720 --> 14:14.210
+less in a width so it sits a little bit more nicely in the center.
+
+14:14.280 --> 14:20.310
+And once we're done with a hero element now we're ready to move on to our about section.

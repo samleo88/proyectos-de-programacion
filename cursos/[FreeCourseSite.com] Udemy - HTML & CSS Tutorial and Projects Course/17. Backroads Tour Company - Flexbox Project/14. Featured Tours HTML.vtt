@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.480 --> 00:04.340
+And as always we're gonna start by setting up our indexation.
+
+00:04.680 --> 00:08.900
+Again we're going to navigate through end of services section.
+
+00:09.090 --> 00:12.180
+We're going to create two more comments.
+
+00:12.180 --> 00:13.320
+What are we going to write.
+
+00:13.320 --> 00:16.590
+I think we're gonna go with feature tours.
+
+00:16.590 --> 00:26.640
+So why don't we in fact delete this and let's write each word worse then we're going to add for the
+
+00:26.640 --> 00:27.460
+second one.
+
+00:27.470 --> 00:35.750
+End of and feature two words then once we have our comments next one up I would like to create a section
+
+00:35.750 --> 00:40.480
+with the classes again the generic section class with the padding.
+
+00:40.640 --> 00:45.900
+Then of course we're also gonna have the class for the feature towards.
+
+00:46.070 --> 00:51.520
+Or you can just go with featured so featured the worse.
+
+00:51.520 --> 00:53.650
+Like so as well as the ADA.
+
+00:53.680 --> 00:58.760
+Now Ida is going to be featured featured like so.
+
+00:59.140 --> 01:07.060
+Now once we have this particular setup as far as the section Why don't we in fact start creating our
+
+01:07.300 --> 01:11.000
+rest of the email which in fact is going to be the title.
+
+01:11.500 --> 01:16.740
+Now you know what I'm going to change with the feature towards the doors.
+
+01:17.050 --> 01:21.950
+So I'm just going to say class a featured and then within a section like I said we're gonna start with
+
+01:21.950 --> 01:22.620
+the title.
+
+01:22.990 --> 01:30.490
+So again we can just find a title then navigate to a title that we are interested in let's grab our
+
+01:30.490 --> 01:32.480
+title let's copy and paste it.
+
+01:32.770 --> 01:39.570
+Let's look for featured and then we go we have our title and we can just copy and paste it.
+
+01:39.580 --> 01:47.990
+Now as far as the text within the title we are going to write featured doors and that's it.
+
+01:48.010 --> 01:50.930
+Nothing really earth shattering.
+
+01:51.320 --> 01:52.380
+Let's check it out.
+
+01:52.400 --> 01:54.270
+We do have our featured doors.
+
+01:54.280 --> 01:55.240
+Awesome.
+
+01:55.240 --> 02:03.000
+Now in order to have some kind of distinguished layout here within the style CSX I'm also going out
+
+02:03.040 --> 02:06.330
+right away a little bit of styling here.
+
+02:06.370 --> 02:09.280
+So first of all let's select again both comments.
+
+02:09.430 --> 02:11.400
+Delete them.
+
+02:11.540 --> 02:17.700
+Let's write featured then again and off and off.
+
+02:17.760 --> 02:25.800
+And then why don't we start by selecting this featured class and then let's add a background of main
+
+02:25.800 --> 02:26.910
+white.
+
+02:26.910 --> 02:32.140
+So let's go with the main white remember that was my color.
+
+02:32.160 --> 02:32.700
+There you go.
+
+02:32.880 --> 02:35.550
+Now I have my white background.
+
+02:35.550 --> 02:41.900
+Then right after the title again we're gonna do the same thing where there's going to be some column
+
+02:41.910 --> 02:46.920
+loud so we're gonna do that by featured center class.
+
+02:46.950 --> 02:50.070
+And then of course I'm gonna have a div.
+
+02:50.070 --> 02:56.610
+So they view the class of Section center with generic patterns already as well as the width and then
+
+02:56.610 --> 02:59.820
+featured center feature center.
+
+02:59.820 --> 03:03.570
+Now within this particular div why don't we start creating artworks.
+
+03:03.630 --> 03:06.480
+So again let's write single tour.
+
+03:06.480 --> 03:15.330
+I've been paste it and off single tour and then we're gonna have the article article with a class to
+
+03:15.330 --> 03:24.440
+work hard so to war hard article and we're going to start with a image container.
+
+03:24.450 --> 03:27.270
+Now why are we placing the image container.
+
+03:27.270 --> 03:33.480
+Because I would like to have two things I would like to have the image as well as you notice there is
+
+03:33.480 --> 03:35.710
+a date all the way in the top.
+
+03:35.730 --> 03:40.980
+And in order to set this up we're gonna use a position absolute so we're gonna have the image container
+
+03:40.980 --> 03:47.700
+that holds both the paragraph as well as the image and then we're gonna use position absolute in order
+
+03:47.700 --> 03:51.080
+to place this paragraph all the way there on the top.
+
+03:51.690 --> 04:00.150
+Now let's start by having our div by the class of tau I am G container and then within this div like
+
+04:00.150 --> 04:06.360
+I said we're going to have the image and that's number one and I'm going to shoot for images folder
+
+04:07.620 --> 04:14.400
+and then within the images folder I have 2 or 1 2 3 4 5 6 and I'm gonna use a one.
+
+04:14.970 --> 04:25.560
+Then let's also add the class of Tor I am G just for the styling and let's just write awesome tor some
+
+04:27.060 --> 04:32.790
+tor for our torrents of text and right after that we do have our program.
+
+04:33.240 --> 04:36.240
+So why don't we set up paragraph with the class of Tor
+
+04:38.840 --> 04:46.870
+and then let's just write August I don't know 14th of course in normal a scenario that is going to be
+
+04:46.870 --> 04:48.220
+coming from your data.
+
+04:48.400 --> 04:54.010
+So you're gonna change this dynamically in our case we're just gonna set up this statically with some
+
+04:54.010 --> 05:03.900
+kind of value of August 14th 2019 name that is as far as our image content container is concerned so
+
+05:03.930 --> 05:10.600
+why don't we write image container container and then we're gonna have the rest of the tour data just
+
+05:10.610 --> 05:13.470
+to make sure that you don't place it within the container.
+
+05:13.960 --> 05:20.600
+So why don't we add a comment here and I'm going to write to your footer and then we're going to have
+
+05:20.600 --> 05:27.180
+a div in the class of two or four then within the div we're gonna have a few things.
+
+05:27.410 --> 05:30.110
+First of all there's going to be a title.
+
+05:30.200 --> 05:37.580
+So let's start by creating an issue for the class of Tor title and for the first one I'm going to write.
+
+05:37.670 --> 05:48.350
+I bet I'd venture the venture would say that cause there is going to be my title and then there's going
+
+05:48.350 --> 05:54.980
+to be a story for now why I'm creating this in a separate dev because I would like to have a two column
+
+05:54.980 --> 06:02.210
+layout where there's going to be a country on one side and then some more info about it or how long
+
+06:02.210 --> 06:02.810
+it takes.
+
+06:02.810 --> 06:04.980
+And what would be the cost.
+
+06:05.000 --> 06:11.090
+So this is going to be my second child and we're gonna have a two column layout now.
+
+06:11.110 --> 06:18.000
+Now as for us to in info we just go with the dev of tour and for class info.
+
+06:18.050 --> 06:26.450
+Class like so let's make sure we add that and then we're gonna start by having a paragraph with a class
+
+06:26.450 --> 06:36.170
+of tour country and then within this paragraph why don't we add a span we our font awesome and overwrite
+
+06:36.230 --> 06:41.740
+f a s f a map and then when we write some value.
+
+06:41.760 --> 06:48.650
+So we have a span but we're also like to write some text and I'm gonna write China.
+
+06:48.650 --> 06:50.130
+Okay one second.
+
+06:50.580 --> 06:51.420
+Let's save that.
+
+06:51.750 --> 06:52.910
+And there you go.
+
+06:53.010 --> 07:00.580
+And you have my country now the second child is going to be a div with a class of toward details.
+
+07:00.810 --> 07:07.230
+So two more details and then we're gonna have a paragraph with how long it takes.
+
+07:07.290 --> 07:15.590
+So we're gonna say six days and let's go with the second paragraph from twenty one hundred twenty one
+
+07:15.590 --> 07:16.300
+hundred.
+
+07:16.540 --> 07:17.250
+Not say that.
+
+07:17.260 --> 07:24.100
+And of course since we haven't implemented any C assess well everything is displayed one on top of the
+
+07:24.100 --> 07:25.130
+other.
+
+07:25.480 --> 07:30.460
+Now let's head over back to our single tour what selected.
+
+07:30.460 --> 07:38.240
+So again from one comment to the end comment like so and I'm gonna copy and paste it three times.
+
+07:38.260 --> 07:40.660
+One two three.
+
+07:40.660 --> 07:46.240
+And now why don't we head over back and let's just change these values here.
+
+07:46.330 --> 07:49.940
+So we started with our Tibet adventure.
+
+07:50.020 --> 07:58.630
+Now the second one is going to be best of Java meaning the coffee Java not the programming language
+
+07:58.660 --> 07:59.440
+Java.
+
+07:59.640 --> 08:07.870
+And for that I'm gonna set up a two or image number two save it that is going to be my image then.
+
+08:07.940 --> 08:11.900
+The date is going to be also a little bit different.
+
+08:11.900 --> 08:14.360
+Why don't we write October.
+
+08:14.660 --> 08:15.980
+And that's not what I wanted.
+
+08:15.980 --> 08:18.580
+In fact I mean delete this.
+
+08:18.580 --> 08:26.030
+Let's write OK over and we're going to go with first 2019.
+
+08:26.080 --> 08:30.940
+Now this messes up a little bit my layout so why don't we set up my paragraph.
+
+08:31.000 --> 08:31.610
+Yep.
+
+08:31.870 --> 08:32.850
+There you go.
+
+08:32.930 --> 08:41.470
+Then like I said best of Java is going to be name so best of Java is my name.
+
+08:41.470 --> 08:48.520
+The country is in fact Indonesia Indonesia okay.
+
+08:48.530 --> 08:50.570
+And then the tourist.
+
+08:50.630 --> 08:55.340
+Days and the cost is forty one hundred.
+
+08:56.090 --> 08:57.520
+Let's change that around.
+
+08:57.560 --> 09:04.120
+Now next one up is image with a value of 2 or 3 0.
+
+09:04.130 --> 09:06.640
+The date is September twenty sixth.
+
+09:06.740 --> 09:09.960
+And again as always you can add whatever values you would like.
+
+09:10.580 --> 09:12.340
+I was just spit balling here.
+
+09:12.410 --> 09:17.400
+So September twenty sixth.
+
+09:17.420 --> 09:29.280
+2019 on the Tor name is going to be explore crying Kong here.
+
+09:30.040 --> 09:35.200
+Country is Hong Kong Kong.
+
+09:35.230 --> 09:36.220
+How long.
+
+09:36.220 --> 09:38.570
+Well why don't we go with 12 days.
+
+09:38.650 --> 09:40.030
+It's a beautiful place.
+
+09:40.030 --> 09:42.070
+Twelve days.
+
+09:42.070 --> 09:43.180
+Thirty one hundred.
+
+09:43.810 --> 09:47.240
+Let's say a little bit on the cheaper side let's say that.
+
+09:47.260 --> 09:51.810
+And lastly there's going to be a two or number four.
+
+09:52.270 --> 09:57.170
+It's going to take place on December 5th so it's right here.
+
+09:57.180 --> 10:02.810
+December samba 5th like so.
+
+10:03.030 --> 10:05.760
+And then it is going to be in Africa.
+
+10:06.650 --> 10:07.640
+So all right.
+
+10:07.640 --> 10:12.430
+Kenya high lights.
+
+10:12.430 --> 10:19.110
+Lights like so the country is Kenya more you can leave China.
+
+10:19.140 --> 10:20.690
+That would be interesting.
+
+10:20.690 --> 10:23.550
+And then the tourist twenty two days.
+
+10:23.600 --> 10:27.300
+And in fact the cost is fifty four hundred.
+
+10:27.470 --> 10:27.890
+Always.
+
+10:27.890 --> 10:31.900
+These are just some random values you can add to whatever you would like.
+
+10:32.390 --> 10:38.120
+Now once we have our age the amount set up we're going to move on and start working in our CSX.

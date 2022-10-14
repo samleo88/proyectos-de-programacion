@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00.180 --> 00:04.540
+Now before we dive in into exciting world of SEUS hasn't read.
+
+00:04.770 --> 00:10.830
+There are two important things we need to discuss browsers support and vendor prefixes.
+
+00:10.830 --> 00:17.940
+If you want to find out what is the current browser support for series as grid or any other services
+
+00:17.970 --> 00:19.540
+property for that matter.
+
+00:19.590 --> 00:21.270
+You can go to Web site.
+
+00:21.280 --> 00:23.020
+Can I use dot com.
+
+00:23.160 --> 00:32.320
+And very quickly find out that information and as you can see at the time of this recording browser
+
+00:32.340 --> 00:38.970
+support for UN prefixes as grid is seventy two point four percent.
+
+00:39.390 --> 00:46.830
+And once we have covered browser support let's talk about vendor prefixes when working with C S grid.
+
+00:46.860 --> 00:54.180
+We need to use vendor prefixes However in order not to make this material more confusing because we
+
+00:54.180 --> 00:59.640
+already have plenty to cover I won't be using vendor prefixes in this course.
+
+00:59.640 --> 01:03.110
+So during lectures we will be using a simple syntax.
+
+01:03.150 --> 01:05.750
+In this case this is going to be a display grid.
+
+01:05.850 --> 01:12.970
+But remember when working with CIRCE's grid in the real world we have to use vendor prefixes.
+
+01:13.170 --> 01:17.910
+Now that we have covered all the basics let's start learning CSSA great.

@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.300 --> 00:03.650
+And before we start working on Navarre why don't we check it out.
+
+00:03.650 --> 00:06.730
+What is going to be our end result.
+
+00:07.230 --> 00:11.410
+So first and foremost that is how our number is going to look.
+
+00:11.430 --> 00:18.490
+On a small screen size where there is going to be some kind of logo as well as button for the functionality.
+
+00:18.600 --> 00:21.270
+Then we're going to have our links.
+
+00:21.270 --> 00:25.740
+And then once we get to a bigger screen size then we're gonna have the logo.
+
+00:25.840 --> 00:31.740
+There is going to be no button for toggling in the links as links are going to be displayed in the center.
+
+00:31.950 --> 00:37.390
+And then all the way in right hand side we're going to have some social media icons.
+
+00:37.650 --> 00:40.530
+So that is our final product.
+
+00:40.530 --> 00:42.090
+Now why don't we start working on it.
+
+00:42.150 --> 00:45.620
+And first of all we're going to set up some H the email structure.
+
+00:45.660 --> 00:52.650
+Now I'm going to go back to for a few times because like I said I'd like to also in fact use the icons
+
+00:52.680 --> 00:54.330
+and links that I already have.
+
+00:54.390 --> 00:59.760
+We're just going to have to change some classes now as a side note when you're creating static pages
+
+00:59.760 --> 01:01.250
+like this with gestation amounts.
+
+01:01.250 --> 01:01.710
+Yes yes.
+
+01:02.190 --> 01:04.620
+Unfortunately that's how you're going to have to do it.
+
+01:04.980 --> 01:11.880
+So even though you have already let's say links as well as these social media icons if you want them
+
+01:11.880 --> 01:14.950
+in a different place you also need to copy and paste them.
+
+01:15.090 --> 01:20.610
+Once you start working with templating engines once you start working with BHP once you start working
+
+01:20.610 --> 01:27.780
+with react there is of course ways how you can just create that particular item element or component
+
+01:27.780 --> 01:31.740
+in one place and then reuse it all throughout your document.
+
+01:31.740 --> 01:36.990
+Now since we're just creating static pages using actually amounts to assess unfortunately we're going
+
+01:36.990 --> 01:38.970
+to have to do some copying pasting.
+
+01:39.150 --> 01:40.580
+Now not the biggest fan of that.
+
+01:40.590 --> 01:47.150
+But again it just makes a little bit more sense instead of just re typing everything from the scratch.
+
+01:47.160 --> 01:48.940
+Right now we have our NAV.
+
+01:49.110 --> 01:54.930
+First of all I would like to add a class here some say class is going to be a nav bar.
+
+01:54.930 --> 02:00.120
+And by the way we needed to scroll up all the way to the header and then within the header we already
+
+02:00.120 --> 02:01.070
+had a hero.
+
+02:01.290 --> 02:03.900
+But now we're going to add our NAV bar.
+
+02:04.440 --> 02:09.700
+Then let's create a deal with a class of NAV center.
+
+02:10.200 --> 02:14.400
+Now within this nerve center there's going to be few things that we're going to create.
+
+02:14.460 --> 02:16.820
+First I'm going to worry about that header.
+
+02:16.830 --> 02:18.670
+Now what do I mean by header.
+
+02:18.750 --> 02:24.280
+So first of all let me make again the smaller because I just want to show you header specifically.
+
+02:24.280 --> 02:30.890
+And as far as header is concerned it is going to be my logo here as well as my little icon.
+
+02:31.080 --> 02:36.090
+Now icon is gonna be the buttons so I'm gonna set up the button and place the icon within.
+
+02:36.090 --> 02:39.660
+But that is the header and that is what I mean by header.
+
+02:39.670 --> 02:49.770
+Now let's create a div Nav Error and you know what I am going to add here a Nav Error comment because
+
+02:49.770 --> 02:56.040
+there's gonna be a nav links as well as now icons like I said let's first start by getting the image
+
+02:56.400 --> 03:02.160
+and the image is sitting within the images and then we have logo switching manage the image that I'm
+
+03:02.160 --> 03:07.960
+using and I would like to add some class of nav logo.
+
+03:08.250 --> 03:13.780
+As far as alternative let's write back roads.
+
+03:14.040 --> 03:20.520
+I don't know company something like that and then also like I said there's gonna be an image but also
+
+03:20.580 --> 03:21.630
+a button.
+
+03:21.630 --> 03:28.240
+So why don't we add a button then for the type we're going to go with type of button.
+
+03:28.440 --> 03:33.540
+And then within the button I would like to place my icon.
+
+03:33.630 --> 03:40.760
+So F yes if a barge OK now let's save it then we're going to have to add few things.
+
+03:40.770 --> 03:48.660
+Now let my local dev server to spin up for a while but I'm gonna add a few things here for my button.
+
+03:48.690 --> 03:57.300
+First of all I would like to add a class and the class is going to be a nav toggle and for some reason.
+
+03:57.300 --> 03:57.760
+OK.
+
+03:57.780 --> 03:58.740
+Now it works.
+
+03:59.040 --> 04:04.170
+Now toggle and also the idea is going to be nav toggle nav toggle.
+
+04:04.170 --> 04:12.810
+Now please guys if you're going to use my javascript and see as well I guess but it is very important
+
+04:12.810 --> 04:18.030
+for the javascript because CSX you're gonna be technically able to see right away if your classes are
+
+04:18.030 --> 04:23.050
+not working but I'm adding these ideas later on when we're going to use the javascript.
+
+04:23.070 --> 04:25.530
+Now if your values are gonna be different.
+
+04:25.530 --> 04:30.050
+Unfortunately even though you're going to copy and paste my code your code is not going to work.
+
+04:30.240 --> 04:38.150
+Even though code should work exactly the same but unless your naming is exactly the same as well the
+
+04:38.160 --> 04:41.010
+land code is not going to work.
+
+04:41.610 --> 04:48.180
+Now let's also add a Ariel label just because we have nothing inside the button anyway so let's write
+
+04:48.240 --> 04:54.270
+Ariel label and I'm just going to say nav tag or something like that.
+
+04:54.270 --> 04:59.880
+Now you notice something really interesting where I do have my logo and it is massive.
+
+04:59.880 --> 05:02.030
+It is just spanning all across.
+
+05:02.040 --> 05:06.290
+Now we're gonna fix that once we start working with CSX but I can give you right away.
+
+05:06.360 --> 05:13.710
+And the reason why it is doing that is because remember we set up all our images to be with a hundred
+
+05:13.710 --> 05:14.360
+percent.
+
+05:14.610 --> 05:21.000
+And in fact in order to fix it we're going to cover not selector in the CSX and that is very very interesting
+
+05:21.000 --> 05:22.060
+selector by the way.
+
+05:22.290 --> 05:24.120
+But don't be freaked out by this.
+
+05:24.150 --> 05:31.290
+This in fact is looking hundred percent because we set all our images to be hundred percent.
+
+05:31.850 --> 05:36.020
+Now header is done and that is great.
+
+05:36.030 --> 05:38.580
+That was our header and next went up.
+
+05:38.580 --> 05:40.280
+We're going to have the Mavericks.
+
+05:40.290 --> 05:49.620
+Now I'm gonna add one more comment and of NAV bar header and again please keep in mind your values for
+
+05:49.620 --> 05:53.830
+your ideas and let me just repeat one more time.
+
+05:54.120 --> 05:56.060
+Are gonna have to be exactly the same.
+
+05:56.160 --> 06:04.430
+Now I'm saying that because I think I messed it up a little but we're not only have nav toggle but also
+
+06:04.450 --> 06:06.920
+like to have the idea of not toggle.
+
+06:07.020 --> 06:12.800
+So let me add a d of NAV toggle.
+
+06:13.500 --> 06:15.090
+Let me save that.
+
+06:15.120 --> 06:16.390
+And that should work.
+
+06:16.410 --> 06:24.030
+Now I do have my handy right because again I repeat myself but we're gonna use it when we set up the
+
+06:24.030 --> 06:27.650
+functionality with JavaScript so we have end of header.
+
+06:28.030 --> 06:28.390
+Okay.
+
+06:28.410 --> 06:29.820
+That's number one.
+
+06:29.820 --> 06:32.470
+But now I'd like to work with links.
+
+06:32.560 --> 06:36.170
+Now I'd like to place all the links that I had here.
+
+06:36.180 --> 06:40.850
+Now remember though we already had those links within the footer.
+
+06:40.890 --> 06:49.440
+So what we're gonna do is again instead of just re typing everything I'm gonna grab this div first I'm
+
+06:49.440 --> 06:57.540
+gonna grab this div we're gonna head over back to the Navarre like so and then within the nav bar and
+
+06:57.540 --> 07:05.280
+have no header there's going to be an NAV bar links let's copy and paste it let's say and often have
+
+07:05.280 --> 07:08.610
+bar links and let's copy paste our footer links.
+
+07:08.640 --> 07:14.240
+Now first of all we need to change the classes so we don't want the styling that we had within the footer.
+
+07:14.340 --> 07:16.990
+So let's write here nav links.
+
+07:17.020 --> 07:18.030
+That's number one.
+
+07:18.150 --> 07:24.870
+But also let's add the idea for our jobs and functionality with a value of NAV links.
+
+07:25.530 --> 07:28.270
+Now the H riff stays the same.
+
+07:28.470 --> 07:30.330
+So that doesn't change.
+
+07:30.510 --> 07:34.280
+However what I would like to change is here this footer link.
+
+07:34.380 --> 07:38.430
+So again let's select all of them by using multiple cursors.
+
+07:38.430 --> 07:44.790
+So again we're pressing out and the mouse and then let's write here have nav link.
+
+07:44.790 --> 07:50.220
+Now later on we're gonna add one more class for JavaScript functionality for the scrolling.
+
+07:50.550 --> 07:53.430
+But again we don't have to worry about her right now.
+
+07:53.520 --> 07:55.450
+We have our setup right.
+
+07:55.800 --> 08:01.440
+And technically once you press on services you're going to navigate to services so everything works
+
+08:01.440 --> 08:03.090
+really really well.
+
+08:03.090 --> 08:07.800
+But lastly I would like to add in fact my social media icons.
+
+08:08.400 --> 08:10.010
+So let me add one more comment.
+
+08:10.020 --> 08:19.020
+Now have social media icons like so and like I said we're gonna have to head over back to the footer
+
+08:20.080 --> 08:24.760
+for her and then within the firm by the way that's the wrong footer.
+
+08:24.920 --> 08:26.900
+That's not where I would want to go.
+
+08:27.070 --> 08:30.370
+And for some reason is not going to the football where I was looking for.
+
+08:30.540 --> 08:33.610
+Hour now it is it's just it's taking its time.
+
+08:33.610 --> 08:37.390
+So let's get footer icons.
+
+08:37.960 --> 08:42.650
+Let's grab this div so everything that we had here.
+
+08:43.060 --> 08:47.360
+Let's grab that and again let's navigate back to the number.
+
+08:47.410 --> 08:53.920
+In this case I'm just going to navigate with the cursor and we're going to head over to our links.
+
+08:53.920 --> 09:01.930
+Social media icons and then again let's copy paste it and let's change the class where it's not going
+
+09:01.930 --> 09:04.000
+to be a photo or icons.
+
+09:04.090 --> 09:10.750
+We're gonna name the NAV icons and then each and every icon is also going to be a nav icon.
+
+09:10.930 --> 09:15.750
+So let's set this up let's have a nav icon.
+
+09:15.860 --> 09:16.800
+Let's save it.
+
+09:16.940 --> 09:19.250
+And that should be our basic structure.
+
+09:19.280 --> 09:26.180
+So as you see we have quite a bit of sea assets to do in order to get our Navarre looking like that
+
+09:26.180 --> 09:27.390
+on a smaller screen.
+
+09:27.440 --> 09:31.330
+And then of course this particular layout on a bigger screen size.
+
+09:31.340 --> 09:34.820
+But no worries we're going to get there in no time.

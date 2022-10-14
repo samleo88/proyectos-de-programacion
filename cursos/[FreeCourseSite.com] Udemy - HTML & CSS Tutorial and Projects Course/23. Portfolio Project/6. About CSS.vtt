@@ -1,0 +1,793 @@
+WEBVTT
+
+00:00.090 --> 00:04.680
+So let's go ahead to the main C Ss and actually start styling.
+
+00:04.710 --> 00:10.870
+So as you can see or here we have the end of Boughner and now what we would want is the about section.
+
+00:10.950 --> 00:14.230
+So we're going to say or hear about section on here.
+
+00:14.400 --> 00:20.670
+Copy and paste this line on here and then we're going to say and of about section and what kind of rules
+
+00:20.670 --> 00:21.410
+we would want.
+
+00:21.420 --> 00:22.070
+Or.
+
+00:22.270 --> 00:27.930
+Well the first thing that we actually would want or hear is we would actually want to create one more
+
+00:27.930 --> 00:28.750
+variable.
+
+00:28.800 --> 00:31.830
+So I'm going to go all the way where I have my very most.
+
+00:31.950 --> 00:36.600
+And as you can see or here I have this section right now I'm actually going to create one more we're
+
+00:36.710 --> 00:43.360
+going to see a section what I'm going to say on here section right now I'm going to use the same color
+
+00:43.360 --> 00:45.100
+on here as this light.
+
+00:45.120 --> 00:50.670
+However in this case if you want to change the colors for the section they are actually separate.
+
+00:50.670 --> 00:55.200
+And if you want to change the colors you're actually working with fonts.
+
+00:55.230 --> 00:56.320
+They are also separate.
+
+00:56.520 --> 00:58.390
+So let's just first create this fact.
+
+00:58.680 --> 01:02.070
+And once we have created the variable that's right away use it.
+
+01:02.100 --> 01:09.440
+So I'm going to say on here we would want to target about section or here would want a panning to RPMs
+
+01:09.470 --> 01:10.550
+for the.
+
+01:10.590 --> 01:16.250
+I know you're going to say zero and I can see that we created a padding of top bottom.
+
+01:16.260 --> 01:20.130
+Now let's create a little bit more space on here and next.
+
+01:20.130 --> 01:23.810
+What I would want is actually have the background for the About section.
+
+01:23.940 --> 01:26.670
+So the background again we're going to say the same thing.
+
+01:26.800 --> 01:28.550
+Var key word here.
+
+01:28.770 --> 01:33.270
+And then we would want section and section white on this.
+
+01:33.270 --> 01:37.350
+So once we save it now we have our background as a section white.
+
+01:37.560 --> 01:42.330
+Now after that what I would want is actually work with about Center.
+
+01:42.540 --> 01:49.190
+So this was the center of all this because every year has about more here and center.
+
+01:49.200 --> 01:55.530
+So this is going to be to underscore center note here what I would want is a max with some to say that
+
+01:55.530 --> 01:58.080
+it never gets bigger than 90.
+
+01:58.080 --> 02:00.600
+Are you with us over here.
+
+02:00.600 --> 02:04.040
+And also what I would want is I would want to place it in a center.
+
+02:04.290 --> 02:09.520
+So once I save it I would want to place it in the center or here I'm going to save some of the same
+
+02:09.520 --> 02:12.620
+margin to R.E.M. start bottom.
+
+02:12.630 --> 02:16.580
+So this is going to be the margin for the bottom line here we're going to say Oh.
+
+02:16.710 --> 02:20.520
+So this is going to make sure that we have the margin on top bottom.
+
+02:20.700 --> 02:28.360
+But the fact that we're also always in the center now after that let's actually fix the photo.
+
+02:28.420 --> 02:36.030
+So let's say we're here and we would want is about I am g here and I'm going to say 4.
+
+02:36.220 --> 02:44.040
+So 2 underscores for all here for the photo first we would want a display block or here and then we
+
+02:44.040 --> 02:47.660
+would want a with or here of 100 percent.
+
+02:47.670 --> 02:52.770
+So in this case what happens now I can see that our image actually fits perfectly.
+
+02:52.920 --> 02:59.350
+Mike Not like before where actually it was stretching and actually making a scroll.
+
+02:59.490 --> 03:05.160
+And also let's do right away a height of 100 percent like this.
+
+03:05.310 --> 03:09.340
+And the last one we're going to say is going to be position route.
+
+03:09.360 --> 03:13.760
+So we're going to save here position and we're going to do it.
+
+03:14.100 --> 03:21.030
+So once we have about photo let's actually come back a little bit and let's say about actual image.
+
+03:21.030 --> 03:25.730
+So this is going to be the parent and then we would want for this about image.
+
+03:25.830 --> 03:28.640
+Also some margins and some positioning.
+
+03:28.680 --> 03:31.080
+So we're going to see or hear about G.
+
+03:31.290 --> 03:36.010
+And here we're going to see margin 3 RPMs and 0.
+
+03:36.210 --> 03:43.890
+So top bottom on here for this Dave is going to be free all Reems and then we're going to want a position
+
+03:44.370 --> 03:46.580
+relative like this.
+
+03:46.590 --> 03:50.120
+So this is what we're going to do here for the parent content.
+
+03:50.130 --> 03:55.150
+Now the last thing that I would want here is to work more here.
+
+03:55.260 --> 04:03.210
+You see that we have this dark underline on here so we can see that there's going to be a dark day of
+
+04:03.600 --> 04:06.790
+there's going to be placed somewhere around the edge.
+
+04:06.810 --> 04:08.160
+So how do we do this.
+
+04:08.400 --> 04:15.450
+Well here we're going to go and we're going to create a new rule so we're going to say about we're here
+
+04:15.450 --> 04:16.270
+I am g.
+
+04:16.320 --> 04:21.840
+So the parent container for the image and then on going right before.
+
+04:21.840 --> 04:27.630
+So now once we have this rule then we're here we're going to say content and we're going to say that
+
+04:27.630 --> 04:32.970
+this is just going to be an empty card and then we would want is a background and for this we're going
+
+04:32.970 --> 04:36.790
+to say this is going to be var and then we're going to use the green one.
+
+04:36.850 --> 04:39.780
+So he'll say that this is going to be in great one.
+
+04:39.780 --> 04:48.600
+So once I say that nothing is actually shot now let's do a width of 100 percent then let's do a height
+
+04:48.950 --> 04:52.380
+so of 100 percent like this.
+
+04:52.410 --> 04:57.750
+And then we would want is a position an absolute rule like this.
+
+04:57.870 --> 05:01.930
+So we're going to have a position of and we still cannot see it.
+
+05:02.010 --> 05:09.630
+Now let's do a bottom here bottom and bottom is going to be negative 10 pixels or here.
+
+05:09.800 --> 05:16.650
+So I can see that it's popping over here from the bottom and then all we want is a left here of negative
+
+05:16.680 --> 05:18.200
+10 pixels also.
+
+05:18.210 --> 05:21.660
+So now you can see that we're making this effect here.
+
+05:21.780 --> 05:25.130
+Now obviously we can place whatever we want on here.
+
+05:25.140 --> 05:30.420
+Let's say we could place an image or whatever we would want but important thing to remember is that
+
+05:30.870 --> 05:35.340
+if we're using this before then we're setting it is absolute.
+
+05:35.460 --> 05:41.080
+So whatever we do in a place it's all about image we need to make sure that this is going to be rolled.
+
+05:41.330 --> 05:43.520
+So that's going to be the most important thing.
+
+05:43.690 --> 05:46.240
+Now we are done with an about image.
+
+05:46.350 --> 05:48.960
+Let's start working with an about in full.
+
+05:49.050 --> 05:50.750
+So again let's do the same thing.
+
+05:51.000 --> 05:59.280
+Let's just create more room here and let's say that we would want about info and what we would want
+
+05:59.480 --> 06:00.350
+about it.
+
+06:00.520 --> 06:05.140
+And then we would want to margin three RPMs and zero.
+
+06:05.160 --> 06:12.440
+And the reason why we're actually selecting this is because we want to have more margins in between.
+
+06:12.450 --> 06:18.580
+So basically we will want to make sure that in the small screen they're not bumping into each other.
+
+06:18.600 --> 06:25.540
+So we're here to consider if we have or hear about info and or hear about image to make sure that they
+
+06:25.650 --> 06:27.960
+are actually stacked on top of each other.
+
+06:27.960 --> 06:30.940
+However there's still some space in between.
+
+06:31.200 --> 06:40.990
+So once we have selected class about inform what to do about an info and for how about info title.
+
+06:41.000 --> 06:42.940
+So first let's do a trial.
+
+06:43.230 --> 06:44.840
+And what we would want for the title.
+
+06:45.140 --> 06:49.960
+Well first words do any font size three rpms.
+
+06:50.180 --> 06:56.200
+And this is going to be bigger text than we're going to have a text transform.
+
+06:56.220 --> 07:05.940
+And for a text form we're going to capitalize and let's do also a letter spacing 0.5 RPM.
+
+07:06.100 --> 07:11.050
+And last but not least let's actually set a background so that the background will just say I really
+
+07:11.050 --> 07:16.750
+like this background then we're going to have a U R L and R here are going to we're going to go to the
+
+07:16.750 --> 07:17.610
+Heminges.
+
+07:17.710 --> 07:25.950
+So quotation marks that we're going to find images and then we will want is a tidal mangrove Rigi or
+
+07:25.960 --> 07:26.350
+here.
+
+07:26.490 --> 07:27.610
+So I'm going to save this.
+
+07:27.760 --> 07:30.400
+And you can see that now it's spanning all across.
+
+07:30.440 --> 07:33.050
+The only thing we need to write is here no.
+
+07:33.250 --> 07:37.340
+So now this image is going to be only here in the.
+
+07:37.770 --> 07:39.710
+And once we're done with it.
+
+07:39.970 --> 07:42.850
+And it's actually work with this text here.
+
+07:42.970 --> 07:44.470
+So this is going to be the next one.
+
+07:44.560 --> 07:50.120
+So about here in info and we're all going to say text.
+
+07:50.430 --> 07:52.110
+And what we would want for the text.
+
+07:52.300 --> 07:54.370
+Well first let's make it a color.
+
+07:54.580 --> 08:02.250
+And again let's use voire and let's use gray or grey variable is going to be for a text.
+
+08:02.260 --> 08:09.060
+Now once we have the text gray let's do a line height for the line height.
+
+08:09.070 --> 08:12.460
+We're going to say one point five or here.
+
+08:12.670 --> 08:20.180
+So the line is going to be bigger font size is going to be 1.2 RPMs here.
+
+08:20.380 --> 08:27.010
+And also you'd want a margin and for the margin again we would want the same thing for your IEMs and
+
+08:27.010 --> 08:27.980
+0.
+
+08:28.000 --> 08:31.800
+So this is going to make sure we have a bigger margin for it.
+
+08:32.080 --> 08:34.550
+And then let's actually style the length.
+
+08:35.040 --> 08:38.050
+So here again let's create more space here.
+
+08:38.320 --> 08:40.840
+And let's actually styled it.
+
+08:41.020 --> 08:41.920
+Now for the link.
+
+08:41.980 --> 08:49.330
+Remember we had a class of about 1 here in fall and then we had a single link here.
+
+08:49.390 --> 08:50.700
+And this was our class.
+
+08:50.950 --> 08:56.160
+So what we would want first of all we would want display an inline block.
+
+08:56.240 --> 09:01.210
+So this is going to be our first rule because what we would want is we would want to actually apply
+
+09:01.480 --> 09:04.990
+the margins and paddings and this is going to be better way.
+
+09:05.040 --> 09:06.950
+So text decoration.
+
+09:07.090 --> 09:08.150
+We're going to say not.
+
+09:08.270 --> 09:12.790
+So we're going to get rid of this annoying the line then we're going to do a panning.
+
+09:12.880 --> 09:17.410
+The bottom is going to be 1.5 RPMs and you know what.
+
+09:17.410 --> 09:23.500
+No actually it's going to be for RPMs and this is going to be one area two left and right is going to
+
+09:23.500 --> 09:29.940
+be one of the lead we would want is a font size or here one size.
+
+09:30.070 --> 09:35.470
+And what do fun size 1 point 1.5 are Ahab's.
+
+09:35.480 --> 09:43.120
+Now once we have the fun size let's do letters spacing 0.2 Reems and after the letter spacing again
+
+09:43.150 --> 09:48.120
+text transform capitalize and border.
+
+09:48.340 --> 09:51.280
+Let's do a border and this is going to be dark.
+
+09:51.280 --> 09:57.540
+So I'm going to say over here and this is going to be three pixels solid and let's do one here and again
+
+09:57.540 --> 09:59.250
+and we're going to use this variable.
+
+09:59.290 --> 10:01.900
+So I'm going to say here and this is going to be dark.
+
+10:01.930 --> 10:05.510
+Now we can see that we have this dark border.
+
+10:06.010 --> 10:11.560
+And then after that we would want is a transition because what I would want is as you can see as I'm
+
+10:11.560 --> 10:17.870
+hovering over the change is happening over time as you can see that we can always make the hover effect.
+
+10:17.980 --> 10:20.870
+However the hover effect doesn't happen over time.
+
+10:20.920 --> 10:27.400
+So what we want to do is we would want is a transition no different transition we have couple of things.
+
+10:27.400 --> 10:29.440
+First of all what kind of transition.
+
+10:29.500 --> 10:34.540
+Well we're going to say we're here all because we would want all transitions to be affected by this.
+
+10:34.540 --> 10:37.150
+Then this is going to be the time how long it's going to take.
+
+10:37.320 --> 10:39.050
+No this is going to be linear.
+
+10:39.130 --> 10:44.780
+So this is going to be how this transition is taking effect whether it's happening linearly and there's
+
+10:44.800 --> 10:51.450
+going to be an option say ease in and out or ease in and we're just going to pick a winner.
+
+10:51.460 --> 10:55.910
+So basically once this is going to start working it's going to all the way to the end without changing.
+
+10:56.140 --> 11:02.920
+And over here we're going to say margin and we're going to do a margin right in the margin rate is going
+
+11:02.920 --> 11:04.640
+to be 1 rpms.
+
+11:04.660 --> 11:07.720
+So I'm going to say one on TMZ or here like this.
+
+11:07.720 --> 11:11.500
+So this is going to be our margin right now.
+
+11:11.500 --> 11:17.370
+Also remember we had this dark button here and the lighting button number these guys.
+
+11:17.370 --> 11:19.570
+So now we're going to style the actual colors.
+
+11:19.750 --> 11:27.100
+So I'm going to go back over here and we're going to say that for these dark between we would want first
+
+11:27.190 --> 11:30.100
+a background and the background is going to be dark.
+
+11:30.130 --> 11:31.910
+So we're going to see dark.
+
+11:32.100 --> 11:37.300
+And once we say it you can see the dark background here and the colors is going to be white.
+
+11:37.360 --> 11:40.720
+So I'm going to say here we are and this is going to be light.
+
+11:40.870 --> 11:47.290
+So we say that the color is dark but the color is actually white and also do right away a effect.
+
+11:47.470 --> 11:50.080
+So dark DTN cover.
+
+11:50.260 --> 11:53.270
+So as we're hovering over this what should happen.
+
+11:53.480 --> 11:59.100
+Well first let's say this is going to be a background and the background is going to be the other way.
+
+11:59.290 --> 12:07.010
+So we're going to have a ground is going to be light so light or hearing this and the actual color is
+
+12:07.010 --> 12:08.060
+going to be dark.
+
+12:08.060 --> 12:13.880
+So basically it's opposite are here this is going to be dark or like this.
+
+12:13.900 --> 12:18.880
+So what happens as I'm hovering You can see that the change is happening over time.
+
+12:19.100 --> 12:24.800
+Now if I'm going to go back over here and if I'm just going to come on the sound and say you can see
+
+12:24.800 --> 12:26.180
+that it's going to happen right away.
+
+12:26.390 --> 12:31.310
+And this is not what you would want because with this transition we could actually manipulate how long
+
+12:31.310 --> 12:32.090
+we would want.
+
+12:32.270 --> 12:37.420
+So let's say here I can write 10 seconds if I would want in this case I'm going to write one but you
+
+12:37.780 --> 12:41.440
+just understand that this gives you way more options.
+
+12:41.810 --> 12:45.910
+Now once we have the door button we also need a light button.
+
+12:45.950 --> 12:52.190
+So in the same way we're here we're going to say that this is going to be light between light between.
+
+12:52.370 --> 12:56.580
+And for this guy we're actually going to be working the other way around.
+
+12:56.630 --> 12:59.920
+So first of all going to say that the caller is going to be dark.
+
+13:00.080 --> 13:07.610
+So for the caller was going to say that we would want dark Savar and dark or dark.
+
+13:07.610 --> 13:14.510
+So this is going to be a dark color for this light button and then once we're hovering then we basically
+
+13:14.510 --> 13:21.080
+will want the opposite way we would want the background to be dark and the actual color to be white
+
+13:21.290 --> 13:23.080
+symmetrical or something like this.
+
+13:23.090 --> 13:29.430
+So all we can do or here we can just copy and paste this and we're going to save for the light be diyan
+
+13:29.750 --> 13:33.400
+However again as we're hovering we would want these rules.
+
+13:33.500 --> 13:39.710
+So if all going to go back or here you can see that as I'm hovering now concede that it's changing from
+
+13:39.710 --> 13:46.550
+light and dark and so here this is changing from dark to white and the last thing that we would want
+
+13:46.640 --> 13:52.320
+is actually applied meteors because for now if we're going to go over here to our recording and fog
+
+13:52.360 --> 13:57.650
+and our fresh air here you can see that this is how they are going to be displaying doesn't matter of
+
+13:57.650 --> 13:59.090
+the screen size or here.
+
+13:59.270 --> 14:02.880
+And this is not what we would want at a certain screen size.
+
+14:02.900 --> 14:08.600
+We would actually would want to use a flex box and actually place them side by side or here like this.
+
+14:08.600 --> 14:13.280
+So you can see once here make it big enough for my screen you can see they're actually going to be side
+
+14:13.280 --> 14:14.130
+by side.
+
+14:14.180 --> 14:21.740
+So let's go back over here and let's say this is going to be an all out media screen and for this we're
+
+14:21.740 --> 14:28.100
+going to say and no one here would want a man with superhero going to see men with.
+
+14:28.100 --> 14:35.240
+And what would be this man with all these men with what we would want is going to be nine and two pixels.
+
+14:35.240 --> 14:38.010
+So this is where the change is actually going to happen.
+
+14:38.120 --> 14:42.420
+Now we're here what we would want or I would want first about Center.
+
+14:42.440 --> 14:49.310
+So if you remember here this was a class about CENTERA class which is actually a parent.
+
+14:49.370 --> 14:54.170
+It is a parent for the article about image and also the parent for about infant.
+
+14:54.340 --> 14:55.770
+So both of these actual work.
+
+14:55.860 --> 15:02.050
+So we're going to go back over here to the main thesis and we're going to say about Center here.
+
+15:02.180 --> 15:05.740
+And we would want to display flex here.
+
+15:05.750 --> 15:07.250
+This is going to be the first one.
+
+15:07.310 --> 15:12.650
+And also we would want to have justified content and we're going to say space between and this is going
+
+15:12.650 --> 15:18.740
+to make sure that since we're going to be applying our own paddings in between this is going to make
+
+15:18.740 --> 15:22.990
+sure that they're always as far away from each other as possible.
+
+15:23.170 --> 15:25.220
+Here we can have a space between.
+
+15:25.480 --> 15:30.950
+And once we have the above center then we would want to work with children and for the children is actually
+
+15:30.950 --> 15:36.530
+going to be very easy to say about here and this is going to be the end for this is going to be the
+
+15:36.530 --> 15:41.840
+first article child and on here who'd want a about an image.
+
+15:41.840 --> 15:47.840
+So this is going to be the second fluxbox show where you are and what we would want for both of them.
+
+15:48.020 --> 15:52.730
+Well first we would want is a flex and the flex is going to be like this.
+
+15:52.730 --> 15:53.810
+They're not going to grow.
+
+15:53.900 --> 15:55.390
+So the growth is going to be zero.
+
+15:55.400 --> 15:58.030
+They're not going to shrink shrink it's going to be zero.
+
+15:58.040 --> 15:59.850
+And here we're going to write Coke.
+
+15:59.920 --> 16:01.500
+So we're going to be calculating.
+
+16:01.580 --> 16:04.660
+So we're making use of this called function.
+
+16:04.660 --> 16:06.870
+Or here we can write the values.
+
+16:07.130 --> 16:09.550
+So here I'm going to say 50 percent.
+
+16:09.800 --> 16:12.390
+So I would want them to be 50 percent.
+
+16:12.530 --> 16:20.960
+However I'm going to actually subtract one rpm and this one rpm is actually going to be spacing between.
+
+16:21.020 --> 16:23.120
+So there are going to be 50 percent.
+
+16:23.120 --> 16:28.340
+How are you going to make sure that there is some distance in between or here that's why we're using
+
+16:28.340 --> 16:29.400
+the space between.
+
+16:29.510 --> 16:34.150
+Because this is going to make sure that they're actually placed as far away from each other.
+
+16:34.160 --> 16:39.770
+Now why are you working with cogged just be careful to actually have spaces in between the subtraction
+
+16:39.780 --> 16:40.210
+side.
+
+16:40.410 --> 16:44.690
+Otherwise you're not going to have it the success is not going to render properly.
+
+16:44.850 --> 16:49.300
+So let's say we're going to save this and that's got to put forward a record.
+
+16:49.470 --> 16:50.820
+And let's check it out here.
+
+16:51.050 --> 16:53.080
+So this is what we have over here.
+
+16:53.150 --> 16:58.370
+The last thing that I would want is depending on a marriage there's going to be cases where you would
+
+16:58.370 --> 16:58.700
+want.
+
+16:58.700 --> 17:01.120
+Actually this text you go lower.
+
+17:01.280 --> 17:02.870
+So how are you going to do this.
+
+17:02.870 --> 17:08.840
+Well remember whenever you've been working in the exchange hymnal we had this rapper we had this about
+
+17:08.880 --> 17:12.130
+in info container that we had over here.
+
+17:12.170 --> 17:15.980
+Now we also had a parent of about four.
+
+17:16.220 --> 17:23.160
+So the reason for placing everything in this wrapper was that I can use fluxbox properties again for
+
+17:23.340 --> 17:24.260
+about four.
+
+17:24.400 --> 17:27.340
+And what we need to remember that for is about Inform.
+
+17:27.390 --> 17:31.080
+There's only one child in this one about in full container.
+
+17:31.190 --> 17:38.570
+So if I'm going to go back over here and if I'm going to say that out 140 about info about info and
+
+17:38.570 --> 17:41.200
+what I would want for it first I'm going to say this play.
+
+17:41.300 --> 17:43.990
+And we're going to do flex more here like this.
+
+17:44.090 --> 17:50.600
+And once we actually have this play flex here we're going to say a line in EMS and we're going to just
+
+17:50.780 --> 17:51.210
+flex.
+
+17:51.230 --> 17:57.680
+And so basically if the image is actually going to be way bigger which is in our case it's not the case
+
+17:58.000 --> 18:03.200
+where we're going to do is we're going to make sure that you can see that right now my about is sitting
+
+18:03.200 --> 18:03.810
+over here.
+
+18:03.980 --> 18:08.600
+So if I'm going to go back all here and if I'm actually going to come on this out.
+
+18:08.600 --> 18:10.700
+So let's say that this is not going to exist.
+
+18:10.910 --> 18:12.960
+Let's see actually how this is going to look like.
+
+18:12.980 --> 18:20.480
+So once I refresh you can see that my text is on top but if I'm using this about info like this you
+
+18:20.480 --> 18:23.090
+can see that it is displaying flex.
+
+18:23.240 --> 18:30.500
+But since it has only one child it just basically moves this or this container all the way to the bottom
+
+18:30.800 --> 18:32.880
+with all the text inside already.
+
+18:32.900 --> 18:36.940
+So we're all going to say we're here is we're going to go back to main sources say.
+
+18:37.030 --> 18:38.290
+And once we refresh.
+
+18:38.420 --> 18:40.160
+Sure enough you can see or hear that.
+
+18:40.280 --> 18:42.800
+Now my text is actually in the bottom.

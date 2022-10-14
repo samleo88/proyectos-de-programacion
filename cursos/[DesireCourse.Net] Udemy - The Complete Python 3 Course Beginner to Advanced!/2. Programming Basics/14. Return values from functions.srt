@@ -1,0 +1,223 @@
+1
+
+00:00:00,000  -->  00:00:05,520
+Alright guys, this is the last video in
+the subsection for functions and we're
+
+2
+
+00:00:05,520  -->  00:00:12,240
+going to be talking about return values
+from functions. So, again this is not new
+
+3
+
+00:00:12,240  -->  00:00:17,640
+to some of you, to some of you it is, so
+if I mean it's a pretty basic concept
+
+4
+
+00:00:17,640  -->  00:00:22,260
+basically in the past we've created
+functions that do something in which
+
+5
+
+00:00:22,260  -->  00:00:25,980
+case each time the function was called
+it printed something to the screen
+
+6
+
+00:00:25,980  -->  00:00:31,650
+because inside that function that's what
+we've done, we've told it to print. But,
+
+7
+
+00:00:31,650  -->  00:00:36,510
+what if we want to return a value from
+the function and don't want to print it
+
+8
+
+00:00:36,510  -->  00:00:39,629
+out and do something else with it? So
+let's go ahead and define a function,
+
+9
+
+00:00:39,629  -->  00:00:49,980
+call it "do_math" and define two variables
+"(num1, num2)"
+
+10
+
+00:00:49,980  -->  00:00:59,370
+It's going to be a very simple function
+here, and we're going to "return num1 + num2"
+
+11
+
+00:00:59,370  -->  00:01:11,159
+Now, if we call "do_math" and pass in
+"(5, 7)"
+
+12
+
+00:01:11,159  -->  00:01:17,189
+it's not going to do anything because
+we're not printing anything out, right. So
+
+13
+
+00:01:17,189  -->  00:01:25,920
+what we could do is actually let's
+create a variable called "sum1" or
+
+14
+
+00:01:25,920  -->  00:01:34,110
+rather "math1" and this variable is
+going to include the sum of the two
+
+15
+
+00:01:34,110  -->  00:01:38,400
+numbers that we pass in. So we're going
+to call it a second time as well,
+
+16
+
+00:01:38,400  -->  00:01:52,140
+"math2 = do_math(11, 34)" and we're
+going to save it. Now when I run this
+
+17
+
+00:01:52,140  -->  00:01:58,409
+function, or when I run this script, again
+nothing happened because we haven't done
+
+18
+
+00:01:58,409  -->  00:02:02,280
+anything with it yet. So what we're going
+to do now is print out both results in
+
+19
+
+00:02:02,280  -->  00:02:07,530
+one print statements. So we are going to say "print("First sum is", math1
+
+20
+
+00:02:09,940  -->  00:02:22,900
+"and the second sum is", math2)"
+So we save this and hit the the run
+
+21
+
+00:02:22,900  -->  00:02:28,600
+button you'll see that the first sun is
+12 and the second sum is 45. So
+
+22
+
+00:02:28,600  -->  00:02:30,880
+let's go over this again
+
+23
+
+00:02:30,880  -->  00:02:35,800
+so you guys, I'm not sure if I've
+explained it well enough so i'm going to
+
+24
+
+00:02:35,800  -->  00:02:41,110
+do that again. We're defining a function,
+we're calling it do math, and we're
+
+25
+
+00:02:41,110  -->  00:02:45,430
+passing in number 1 and number 2, so
+there's two arguments going into this
+
+26
+
+00:02:45,430  -->  00:02:52,060
+function. Inside this block of code we
+are only returning the sum of num1
+
+27
+
+00:02:52,060  -->  00:02:59,560
+and num2, so in the case of the first
+sum it's going to be 12. So we are
+
+28
+
+00:02:59,560  -->  00:03:03,790
+returning to whatever part in our code we're at,
+
+29
+
+00:03:03,790  -->  00:03:09,220
+so this is going to become 12. So math1
+is equal to 12 and then math2
+
+30
+
+00:03:09,730  -->  00:03:13,780
+we're going to call that function again
+we're going to pass 11 and 34 in and
+
+31
+
+00:03:13,780  -->  00:03:18,730
+again it's going to return to the spot
+right here with the value that we tell
+
+32
+
+00:03:18,730  -->  00:03:24,010
+it to return with. So this line of code
+right here is going to become 45, so math2
+
+33
+
+00:03:24,010  -->  00:03:30,370
+equals 45. Then what we do we just
+print it out and math1 knows that it's
+
+34
+
+00:03:30,370  -->  00:03:36,940
+45 because that's what the result of
+that function is, and so this is going to
+
+35
+
+00:03:36,940  -->  00:03:42,340
+be useful for a lot of reasons later on
+in programming. So in the next video
+
+36
+
+00:03:42,340  -->  00:03:47,650
+we're going to create a calculator using
+Python and it's going to be a
+
+37
+
+00:03:47,650  -->  00:03:52,060
+command-line tool, so we'll be able to
+run it and perform different math
+
+38
+
+00:03:52,060  -->  00:03:52,720
+operations.

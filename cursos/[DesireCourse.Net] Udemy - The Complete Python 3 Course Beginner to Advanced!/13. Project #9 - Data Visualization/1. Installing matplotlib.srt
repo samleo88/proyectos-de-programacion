@@ -1,0 +1,264 @@
+1
+
+00:00:00,000  -->  00:00:02,460
+Hey guys, let's jump into data
+
+2
+
+00:00:02,460  -->  00:00:05,879
+visualization. So what we're going to be
+
+3
+
+00:00:05,879  -->  00:00:09,210
+using for this is a library for
+
+4
+
+00:00:09,210  -->  00:00:13,290
+Python called matplotlib, and it allows
+
+5
+
+00:00:13,290  -->  00:00:15,540
+you to create visualizations of data
+
+6
+
+00:00:15,540  -->  00:00:18,570
+like line charts, bar charts, etc. And so
+
+7
+
+00:00:18,570  -->  00:00:22,980
+let's go ahead and install it. I am going
+
+8
+
+00:00:22,980  -->  00:00:25,470
+to bring up terminal here, you do the
+
+9
+
+00:00:25,470  -->  00:00:28,140
+same. If you're on Windows you will need
+
+10
+
+00:00:28,140  -->  00:00:32,610
+to run pip3, and I hope it's in your
+
+11
+
+00:00:32,610  -->  00:00:38,190
+path. A little note on Python and Windows
+
+12
+
+00:00:38,190  -->  00:00:40,500
+is when you install it using the
+
+13
+
+00:00:40,500  -->  00:00:42,210
+installer there's an option that you
+
+14
+
+00:00:42,210  -->  00:00:43,980
+need to make sure it's checked
+
+15
+
+00:00:43,980  -->  00:00:49,469
+that says add to path. And then once you
+
+16
+
+00:00:49,469  -->  00:00:51,360
+do that and install it, if you open up a
+
+17
+
+00:00:51,360  -->  00:00:55,530
+command prompt and the Python command
+
+18
+
+00:00:55,530  -->  00:00:58,440
+isn't found, then just try restarting. You
+
+19
+
+00:00:58,440  -->  00:00:59,969
+can also check your path and stuff like
+
+20
+
+00:00:59,969  -->  00:01:01,350
+that. If you guys need more help
+
+21
+
+00:01:01,350  -->  00:01:04,229
+definitely just let me know, but if you
+
+22
+
+00:01:04,229  -->  00:01:06,659
+got to this point then I think you're
+
+23
+
+00:01:06,659  -->  00:01:12,960
+fine. So, Linux and Mac OS run terminal, on
+
+24
+
+00:01:12,960  -->  00:01:14,760
+Windows open up command prompt, and
+
+25
+
+00:01:14,760  -->  00:01:18,780
+you're going to type pip3 install
+
+26
+
+00:01:18,780  -->  00:01:22,710
+matplotlib. And it's going to pull in I
+
+27
+
+00:01:22,710  -->  00:01:26,220
+think numpy and scipy as well.
+
+28
+
+00:01:26,220  -->  00:01:30,119
+Yeah, there's numpy,
+
+29
+
+00:01:30,119  -->  00:01:32,310
+it's going to bring in a bunch of
+
+30
+
+00:01:32,310  -->  00:01:37,350
+dependencies here. So, there we've
+
+31
+
+00:01:37,350  -->  00:01:39,270
+installed it, and it also tells me that
+
+32
+
+00:01:39,270  -->  00:01:42,570
+pip has a new version. So let's go ahead
+
+33
+
+00:01:42,570  -->  00:01:45,920
+and update pip here.
+
+34
+
+00:01:50,140  -->  00:01:55,780
+There we go, and this should update it. No,
+
+35
+
+00:01:55,780  -->  00:02:03,250
+I ran pip instead of pip3, right. So
+
+36
+
+00:02:03,250  -->  00:02:07,060
+it's trying to update Python 2's
+
+37
+
+00:02:07,060  -->  00:02:14,410
+pip. There we go. No? Not pip3 either.
+
+38
+
+00:02:14,410  -->  00:02:21,520
+i will have to check out what's going on
+
+39
+
+00:02:21,520  -->  00:02:28,120
+with that. It's a permission denied problem...
+
+40
+
+00:02:28,120  -->  00:02:34,630
+sudo pip3 install --upgrade pip. If you guys ever
+
+41
+
+00:02:34,630  -->  00:02:37,090
+get a permission denied error with
+
+42
+
+00:02:37,090  -->  00:02:41,080
+Python, chances are you just need to run
+
+43
+
+00:02:41,080  -->  00:02:44,230
+it as sudo, but if you don't want to run
+
+44
+
+00:02:44,230  -->  00:02:47,500
+sudo commands just anywhere you know you
+
+45
+
+00:02:47,500  -->  00:02:51,670
+should, you might want to dig into
+
+46
+
+00:02:51,670  -->  00:02:54,850
+further why the permission was denied. But
+
+47
+
+00:02:54,850  -->  00:02:57,940
+for this instance root has access to
+
+48
+
+00:02:57,940  -->  00:03:01,959
+this file. So, I'm going to close this, and
+
+49
+
+00:03:01,959  -->  00:03:04,299
+we've just installed matplotlib. Now in
+
+50
+
+00:03:04,299  -->  00:03:05,860
+the next video we're going to get to
+
+51
+
+00:03:05,860  -->  00:03:09,070
+some basic usage, and we're going to ramp
+
+52
+
+00:03:09,070  -->  00:03:12,730
+up our usage of matplotlib to what I
+
+53
+
+00:03:12,730  -->  00:03:16,019
+hope will be intense levels.

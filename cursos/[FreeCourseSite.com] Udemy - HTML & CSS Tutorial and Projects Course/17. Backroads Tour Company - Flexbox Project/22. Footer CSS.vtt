@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00.370 --> 00:06.750
+And once we have our basic structure why don't we add styling so it looks a bit nicer.
+
+00:06.750 --> 00:13.050
+Now in this case I am going to add a few more comments because remember we still need to set up or not
+
+00:13.050 --> 00:14.510
+bar later on anyway.
+
+00:14.700 --> 00:18.980
+So I'm going to copy and paste it in fact four times then.
+
+00:19.170 --> 00:27.200
+In this case I'm gonna write for her then of course and the footer and then we're gonna have a nav bar
+
+00:28.130 --> 00:32.060
+and our last comment is just gonna signal another number.
+
+00:32.060 --> 00:35.170
+Now technically you don't have to have the end of Navarre.
+
+00:35.240 --> 00:36.830
+I'm just going to add it anyway.
+
+00:37.360 --> 00:43.280
+Now within a footer let's start with the background color and we're gonna do that by targeting the footer
+
+00:43.280 --> 00:44.520
+class.
+
+00:44.640 --> 00:45.950
+What's the background.
+
+00:45.950 --> 00:50.370
+We're gonna go with var main black like so.
+
+00:50.720 --> 00:57.230
+So we had our background then we're gonna go for the color and the color is going to be main white.
+
+00:57.380 --> 00:58.390
+So that's right.
+
+00:58.400 --> 00:59.430
+Main white.
+
+00:59.600 --> 01:00.860
+And there you go.
+
+01:00.860 --> 01:03.500
+Now our color is in fact man white.
+
+01:03.500 --> 01:06.740
+Now of course the color is not main white for our links.
+
+01:06.740 --> 01:11.560
+So we're gonna have to do that separately for the font awesome icon as well as the links.
+
+01:11.740 --> 01:12.320
+Okay.
+
+01:12.450 --> 01:20.370
+Now I do want to set everything in a center so text align center then padding the left and padding right.
+
+01:20.480 --> 01:23.370
+We're gonna do let's say two arms.
+
+01:23.900 --> 01:31.890
+So let's write putting ring left the left is going to be two arms.
+
+01:32.020 --> 01:36.470
+So and putting right is also gonna be two areas.
+
+01:36.550 --> 01:39.750
+Let's set them up like so.
+
+01:40.030 --> 01:44.500
+And next one up we're gonna work with footer links and footer icons.
+
+01:44.500 --> 01:47.200
+So both of these bad boys.
+
+01:47.270 --> 01:48.160
+Yeah.
+
+01:48.400 --> 01:58.880
+Now let's select both of them footer links karma footer icons and then let's just say display flex so
+
+01:58.900 --> 02:00.520
+display the muscle flex.
+
+02:00.530 --> 02:02.170
+And that's number one.
+
+02:02.170 --> 02:04.640
+Then I would like to use justified content.
+
+02:05.150 --> 02:09.140
+So justify content and let's in fact set them up in the center.
+
+02:09.160 --> 02:14.800
+Most of them like so both of them are gonna have some kind of margin and bottom and I'm gonna go with
+
+02:14.800 --> 02:22.420
+one point five more dreams and then I'm also gonna set up some flex wrap just in case the screen size
+
+02:22.420 --> 02:30.510
+gets too small and we need to wrap it into your line so let's write for legs wrap is equal to wrap.
+
+02:30.580 --> 02:31.570
+All right.
+
+02:31.660 --> 02:34.920
+Now more specifically we have two things.
+
+02:35.020 --> 02:41.200
+We have a footwear icon that is of course my fantasy and my cousins social media icons.
+
+02:41.410 --> 02:43.540
+And then I have a photo or a link.
+
+02:43.540 --> 02:51.250
+So now once we have the setup for all of them whether that's icons and links I'm going to target specifically
+
+02:51.250 --> 02:57.210
+the links first and I'm going to do that by selecting footer link that is my class.
+
+02:57.340 --> 03:02.240
+And in this case I am going to setup the color of course var main white.
+
+03:02.260 --> 03:05.350
+So I'm going to go with the main white leg.
+
+03:05.370 --> 03:07.630
+So so now my color is white.
+
+03:07.720 --> 03:12.940
+Then also let's capitalize the text text transform capitalized font size.
+
+03:12.960 --> 03:19.830
+Now I could go with one hour aims like so then let's maybe add margin right.
+
+03:19.870 --> 03:21.590
+One hour Ms.
+
+03:21.760 --> 03:29.980
+Margin right long RTM and we'll see I think that looks good enough.
+
+03:29.980 --> 03:30.520
+Then you're not.
+
+03:30.520 --> 03:36.700
+Why don't we and maybe at one point one or something like that just so it's little bit bigger differences
+
+03:37.210 --> 03:41.800
+letter spacing we can do the main spacing letter spacing.
+
+03:41.980 --> 03:51.460
+Var dash dash Maine's pacing like so now we have letter spacing and as you clearly can see since we
+
+03:51.460 --> 03:55.540
+have the Flex wrap we nicely wrap to the next line.
+
+03:55.540 --> 03:59.900
+Once we get to the smaller screen size as well as there's going to be some transition.
+
+04:00.010 --> 04:05.860
+So as I'm hovering I would like to have a different color but I would like that change to be over time.
+
+04:05.950 --> 04:08.580
+So why don't we do transition.
+
+04:08.980 --> 04:15.610
+And we have the variable remember main transition like so.
+
+04:15.700 --> 04:18.560
+And then why don't we set up the other effect.
+
+04:18.560 --> 04:25.980
+So footer link hover as we're hovering and we should want a different color color of our.
+
+04:26.500 --> 04:30.250
+And we're going to go with not main spacing.
+
+04:30.370 --> 04:32.140
+We're going to go with the primary color.
+
+04:32.170 --> 04:33.550
+I think that's good enough.
+
+04:33.670 --> 04:39.580
+Now there's one thing that I need to fix remember that when we set up the links thing I made a mistake
+
+04:39.610 --> 04:47.630
+by not in fact using two cursors and I did it the second time and the first time.
+
+04:47.710 --> 04:51.210
+I would like to fix where as you see I have two home links.
+
+04:51.400 --> 04:56.010
+So the value in this text should be about.
+
+04:56.220 --> 04:57.460
+Now let me fix that.
+
+04:57.550 --> 05:05.320
+And now that is fixed then within the styles we still need to deal with footer icon and copyright.
+
+05:05.320 --> 05:09.130
+So let's select water icon.
+
+05:09.220 --> 05:13.550
+Now what I would want for each and every icon while we could increase the font size.
+
+05:13.580 --> 05:21.820
+Well let's say one point and nine our Iams something like that margin right is again going to be one
+
+05:21.820 --> 05:22.820
+our aims.
+
+05:23.030 --> 05:28.210
+Just so there is some margin in between color is going to be also made right.
+
+05:28.210 --> 05:33.480
+So are main white like so.
+
+05:33.490 --> 05:36.150
+And then lastly let's add also a transition.
+
+05:36.580 --> 05:37.510
+So let's try.
+
+05:37.500 --> 05:45.310
+Transition and this is going to be a main transition transitions transition var when we had the variable
+
+05:45.310 --> 05:50.240
+of main transition and we're going to set up a primary color as well.
+
+05:50.290 --> 05:55.690
+So as I'm hovering the links the links are going to be displayed with primary color and the same old
+
+05:55.690 --> 05:57.480
+one for my hat cons.
+
+05:57.490 --> 06:09.190
+So let's go with footer link I'm sorry not link icon hover and let's change the color by color of our.
+
+06:09.350 --> 06:12.310
+And let's go with primary color like so.
+
+06:13.090 --> 06:18.070
+So the same thing happens right now to the links and you know it also may be why don't we push it up
+
+06:18.070 --> 06:19.550
+a little bit more icons.
+
+06:19.570 --> 06:27.370
+And for that we could use a transformed property and I could set this up as translate y so y direction
+
+06:27.520 --> 06:29.930
+and I'm going to move it like 10 percent.
+
+06:29.970 --> 06:35.880
+Right now if I would like to move it up I need to go negative value so I'm going to go negative 10 percent.
+
+06:36.040 --> 06:37.370
+Let's save that.
+
+06:37.450 --> 06:44.180
+And we should be able to see our icons are in fact more than 10 percent up as we're hovering over them.
+
+06:44.260 --> 06:48.700
+Now last thing let's set up the copyright copy right.
+
+06:48.700 --> 06:56.910
+Class and for that particular class we're going to go with text transform capitalized on like so what
+
+06:56.910 --> 07:04.760
+else we would like to do maybe letter spacing some letter and letter spacing is going to be main spacing
+
+07:06.050 --> 07:07.570
+main spacing.
+
+07:07.670 --> 07:11.480
+And as you can see how nice it is once you set up your variables.
+
+07:11.570 --> 07:17.380
+Then again if you would like to use the same value well you can just access that one particular variable.
+
+07:17.420 --> 07:22.850
+Now if you don't like that value in that variable let's say you just change it in one place and then
+
+07:22.910 --> 07:25.450
+it is affected anywhere you used it.
+
+07:25.460 --> 07:32.120
+Now of course if you're using a specific custom value for that particular scenario then you cannot do
+
+07:32.120 --> 07:36.500
+it but in most cases setting up variables is very very neat.
+
+07:36.500 --> 07:41.120
+Now once we're done with our footer we're ready to work on our NAV bar.

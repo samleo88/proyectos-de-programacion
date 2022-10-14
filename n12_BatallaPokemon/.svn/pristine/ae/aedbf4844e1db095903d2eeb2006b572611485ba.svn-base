@@ -1,0 +1,319 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.interfaz;
+
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.BorderFactory;
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+
+/**
+ * Dialogo para crear una cuenta
+ * 
+ */
+public class DialogoRegistrar extends JDialog implements ActionListener
+{
+
+    // -----------------------------------------------------------------
+    // Constantes
+    // -----------------------------------------------------------------
+
+    /**
+     * Constante para la serialización.
+     */
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * Representa el comando de la opción registrar.
+     */
+    private static final String REGISTRAR = "REGISTRAR";
+
+    /**
+     * Representa el comando de la opción cancelar.
+     */
+    private static final String CANCELAR = "CANCELAR";
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Es una referencia a la clase principal de la interfaz del cliente.
+     */
+    private InterfazBatallaPokemon principal;
+
+    // -----------------------------------------------------------------
+    // Atributos de la Interfaz
+    // -----------------------------------------------------------------
+
+    /**
+     * Botón para registrarse.
+     */
+    private JButton btnRegistrar;
+
+    /**
+     * Botón cancelar.
+     */
+    private JButton btnCancelar;
+
+    /**
+     * Label servidor.
+     */
+    private JLabel lblServidor;
+
+    /**
+     * Label servidor.
+     */
+    private JLabel lblPuerto;
+
+    /**
+     * Label usuario.
+     */
+    private JLabel lblAlias;
+
+    /**
+     * Label nombres.
+     */
+    private JLabel lblNombres;
+
+    /**
+     * Label apellidos.
+     */
+    private JLabel lblApellidos;
+
+    /**
+     * Label contraseña.
+     */
+    private JLabel lblPwd;
+
+    /**
+     * Label confirmación de contraseña.
+     */
+    private JLabel lblPwdConfirmacion;
+
+    /**
+     * Texto alias de usuario.
+     */
+    private JTextField txtServidor;
+
+    /**
+     * Texto alias de usuario.
+     */
+    private JTextField txtPuerto;
+
+    /**
+     * Texto alias de usuario.
+     */
+    private JTextField txtAlias;
+
+    /**
+     * Texto nombre del usuario.
+     */
+    private JTextField txtNombres;
+
+    /**
+     * Texto apellidos.
+     */
+    private JTextField txtApellidos;
+
+    /**
+     * Texto contraseña.
+     */
+    private JPasswordField txtPwd;
+
+    /**
+     * Texto confirmación de contraseña.
+     */
+    private JPasswordField txtPwdConfirmacion;
+
+    /**
+     * Radio avatar masculino.
+     */
+    private JRadioButton rbAvatarMasculino;
+
+    /**
+     * Radio avatar femenino.
+     */
+    private JRadioButton rbAvatarFemenino;
+
+    /**
+     * Grupo de los radio button.
+     */
+    private ButtonGroup group;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye un nuevo diálogo crear cuenta.
+     * @param pPrincipal Referencia a la ventana principal. pPrincipal != null
+     */
+    public DialogoRegistrar( InterfazBatallaPokemon pPrincipal )
+    {
+        super( pPrincipal, true );
+        setSize( 280, 370 );
+        setLocationRelativeTo( null );
+        setTitle( "Crear cuenta" );
+        principal = pPrincipal;
+
+        JPanel panelDatos = new JPanel( );
+        JPanel panelOpciones = new JPanel( );
+
+        setLayout( new GridLayout( ) );
+
+        panelDatos.setBorder( BorderFactory.createTitledBorder( "Información de registro" ) );
+        panelDatos.setLayout( new GridLayout( 0, 1 ) );
+
+        lblServidor = new JLabel( );
+        txtServidor = new JTextField( );
+        lblServidor.setText( "Servidor" );
+        txtServidor = new JTextField( "Localhost" );
+        panelDatos.add( lblServidor );
+        panelDatos.add( txtServidor );
+
+        lblPuerto = new JLabel( );
+        txtPuerto = new JTextField( );
+        lblPuerto.setText( "Puerto" );
+        txtPuerto = new JTextField( "9999" );
+        panelDatos.add( lblPuerto );
+        panelDatos.add( txtPuerto );
+
+        lblAlias = new JLabel( );
+        txtAlias = new JTextField( );
+        lblAlias.setText( "Alias" );
+        panelDatos.add( lblAlias );
+        panelDatos.add( txtAlias );
+
+        lblNombres = new JLabel( );
+        txtNombres = new JTextField( );
+        lblNombres.setText( "Nombres" );
+        panelDatos.add( lblNombres );
+        panelDatos.add( txtNombres );
+
+        lblApellidos = new JLabel( );
+        txtApellidos = new JTextField( );
+        lblApellidos.setText( "Apellidos" );
+        panelDatos.add( lblApellidos );
+        panelDatos.add( txtApellidos );
+
+        lblPwd = new JLabel( );
+        txtPwd = new JPasswordField( );
+        lblPwd.setText( "Contraseña" );
+        panelDatos.add( lblPwd );
+        panelDatos.add( txtPwd );
+
+        lblPwdConfirmacion = new JLabel( );
+        txtPwdConfirmacion = new JPasswordField( );
+        lblPwdConfirmacion.setText( "Confirmación contraseña" );
+        panelDatos.add( lblPwdConfirmacion );
+        panelDatos.add( txtPwdConfirmacion );
+
+        rbAvatarMasculino = new JRadioButton( "Avatar masculino", false );
+        rbAvatarFemenino = new JRadioButton( "Avatar femenino", true );
+
+        group = new ButtonGroup( );
+        group.add( rbAvatarFemenino );
+        group.add( rbAvatarMasculino );
+
+        JPanel radioPanel = new JPanel( new GridLayout( 1, 2 ) );
+        radioPanel.add( rbAvatarFemenino );
+        radioPanel.add( rbAvatarMasculino );
+        panelDatos.add( radioPanel );
+
+        panelOpciones.setLayout( new GridLayout( 1, 2 ) );
+
+        btnRegistrar = new JButton( );
+        btnRegistrar.setText( "Crear cuenta" );
+        btnRegistrar.addActionListener( this );
+        btnRegistrar.setActionCommand( REGISTRAR );
+        panelOpciones.add( btnRegistrar );
+
+        btnCancelar = new JButton( );
+        btnCancelar.setText( "Cancelar" );
+        btnCancelar.addActionListener( this );
+        btnCancelar.setActionCommand( CANCELAR );
+        panelOpciones.add( btnCancelar );
+
+        panelDatos.add( panelOpciones );
+
+        add( panelDatos );
+    }
+
+    /**
+     * Manejo de los eventos de los botones.
+     * @param pEvento Acción que generó el evento. pEvento!= null
+     */
+    public void actionPerformed( ActionEvent pEvento )
+    {
+        String command = pEvento.getActionCommand( );
+        if( command.equals( REGISTRAR ) )
+        {
+            String pass1 = txtPwd.getText( );
+            String pass2 = txtPwdConfirmacion.getText( );
+            String alias = txtAlias.getText( );
+            String nombre = txtNombres.getText( );
+            String apellido = txtApellidos.getText( );
+            String servidor = txtServidor.getText( );
+            String avatar = ( rbAvatarFemenino.isSelected( ) ) ? "AvatarFemenino" : "AvatarMasculino";
+            int puerto = Integer.valueOf( txtPuerto.getText( ) );
+
+            if( nombre != null && !nombre.isEmpty( ) && apellido != null && !apellido.isEmpty( ) )
+            {
+                if( alias != null && !alias.isEmpty( ) )
+                {
+                    if( pass1 != null && !pass1.isEmpty( ) && pass2 != null && !pass2.isEmpty( ) )
+                    {
+                        if( !pass1.equals( pass2 ) )
+                        {
+                            JOptionPane.showMessageDialog( this, "Las contraseñas no coinciden.", "Crear cuenta", JOptionPane.ERROR_MESSAGE );
+                        }
+                        else
+                        {
+                            principal.configurarDatosConexion( servidor, puerto );
+                            principal.crearRegistro( alias, nombre, apellido, pass1, avatar );
+                        }
+                    }
+                    else
+                    {
+                        JOptionPane.showMessageDialog( this, "Por favor, ingrese la contraseña y su confirmación.", "Crear cuenta", JOptionPane.ERROR_MESSAGE );
+                    }
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog( this, "Por favor, ingrese el nombre de usuario.", "Crear cuenta", JOptionPane.ERROR_MESSAGE );
+                }
+            }
+            else
+            {
+                JOptionPane.showMessageDialog( this, "Por favor, ingrese su nombre y apellido.", "Crear cuenta", JOptionPane.ERROR_MESSAGE );
+            }
+        }
+        else if( command.equals( CANCELAR ) )
+        {
+            dispose( );
+        }
+
+    }
+
+}

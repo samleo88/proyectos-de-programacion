@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.520 --> 00:05.750
+Once we have download the setup files now we're ready to go and start working on our project.
+
+00:05.770 --> 00:09.960
+So first things first let's create a new folder and desktop.
+
+00:10.010 --> 00:12.880
+But as always you can create wherever you would like.
+
+00:13.090 --> 00:17.900
+And I'm gonna call mind back roads.
+
+00:18.130 --> 00:19.310
+Back roads.
+
+00:19.310 --> 00:21.940
+Like so let me zoom in.
+
+00:21.950 --> 00:25.300
+As you can see that is the folder that I just created.
+
+00:25.300 --> 00:31.990
+Then I'm going to open up my favorite text header visual studio called Drag and drop my folder.
+
+00:31.990 --> 00:38.070
+And then within this particular project I would like to first of all create three files.
+
+00:38.230 --> 00:44.380
+All right now we're gonna start by creating index the email and we're right away.
+
+00:44.380 --> 00:46.750
+Gonna set up so much the email structure.
+
+00:46.750 --> 00:53.290
+Again remember we are using the Emmett so exclamation mark and tab and we do have our setup and let's
+
+00:53.290 --> 00:54.000
+say here.
+
+00:54.010 --> 01:00.910
+Hello hello from back back roads like so.
+
+01:01.040 --> 01:06.110
+Then also look to create another filed by the name of style CSX.
+
+01:06.140 --> 01:12.090
+However this particular style CSX while I would like to actually set it up within the separate folder.
+
+01:12.160 --> 01:16.970
+All right now the way I'm going to do that is in fact by creating another folder.
+
+01:17.010 --> 01:18.610
+And in this case I'm gonna zoom in.
+
+01:18.610 --> 01:23.920
+I'm going to say a folder name is going to be CSX as well as one folder for JavaScript.
+
+01:24.100 --> 01:28.250
+So let's create a j s folder and then we didn't seize this folder.
+
+01:28.260 --> 01:34.740
+When we create a new file and then let's just call the style or style CSX or main CSX.
+
+01:34.900 --> 01:36.550
+Doesn't really matter.
+
+01:36.550 --> 01:41.770
+Just have your style sheet and just so we can test it out whether our styles are working.
+
+01:41.830 --> 01:50.140
+I'm gonna go first of all for the body and why don't we have a background of Let's read something like
+
+01:50.140 --> 01:50.580
+that.
+
+01:50.650 --> 01:56.170
+Let's say it just so we can see for sure that we have linked it correctly and then as far as javascript
+
+01:56.170 --> 01:57.000
+is concerned.
+
+01:57.190 --> 02:00.550
+Well we're just going to create a new file.
+
+02:00.570 --> 02:03.740
+Gonna name it AB J S now.
+
+02:03.880 --> 02:06.160
+I don't think we're gonna test that right now.
+
+02:06.160 --> 02:10.120
+Of course I'm going to have the script tags where I'm linking my ab app.
+
+02:10.150 --> 02:12.360
+But we're not going to test it right now.
+
+02:12.380 --> 02:19.870
+All right now as far as the indexation of is concerned first and foremost why don't we change here the
+
+02:19.870 --> 02:27.650
+title let's say back roads to our company something like that.
+
+02:27.740 --> 02:35.260
+And you know what I could right away create two vertical lines as well so tour company is going to be
+
+02:35.260 --> 02:36.190
+my title.
+
+02:36.340 --> 02:37.690
+That's number one.
+
+02:37.690 --> 02:43.330
+And you know it since I'm gonna be recording and I already have my finished project.
+
+02:43.360 --> 02:49.560
+Also side by side I'm gonna add in my title a recording but you know have to so I'm going to write a
+
+02:49.560 --> 02:56.580
+recording like so and then I would like to open up also a smaller browser window side by side.
+
+02:57.060 --> 03:01.500
+So what I'm gonna do right now is I'm going to open up a new browser window right.
+
+03:02.010 --> 03:08.910
+And then I'm gonna use my extension again by the name of preview on a web server.
+
+03:08.920 --> 03:13.280
+And in this case I'm going to open up right now my local def server.
+
+03:13.410 --> 03:18.880
+So the way we do that is and then we can right click it and we can use the extension of course.
+
+03:19.050 --> 03:24.660
+Meaning we have the keyboard shortcut but I'm just gonna go here with launch on the browser.
+
+03:24.710 --> 03:31.650
+Can we open this up as you can see I have my project but we can clearly see that my CSF is not working
+
+03:32.160 --> 03:35.320
+because remember we did set up a background of red.
+
+03:35.610 --> 03:36.120
+OK.
+
+03:36.570 --> 03:41.100
+Now let's set this side by side and let's close the app James.
+
+03:41.160 --> 03:42.530
+We're not gonna need that.
+
+03:42.530 --> 03:49.650
+And as far as Stiles is concerned while we're gonna have within the head element we're gonna have two
+
+03:49.650 --> 03:50.490
+comments.
+
+03:50.550 --> 03:55.160
+One is going to be for font awesome font awesome.
+
+03:55.370 --> 03:59.730
+And then right after the font awesome we're gonna have our styles.
+
+03:59.810 --> 04:05.100
+So let's write styles and you know eventually there's also gonna be a favor cone but we're not going
+
+04:05.100 --> 04:06.910
+to worry about it right now.
+
+04:06.900 --> 04:12.900
+Now as far as styles is concerned well we need to link two styles assess.
+
+04:13.040 --> 04:13.790
+Correct.
+
+04:13.820 --> 04:16.390
+So let's go for ISIS.
+
+04:16.510 --> 04:23.900
+So but we're not looking for style C assess we are looking for the ISIS folder and you know what I'm
+
+04:23.900 --> 04:30.590
+going to add right away dot here as well just so everything is displayed properly also in the browser
+
+04:31.130 --> 04:33.810
+and then let's look for our style successes.
+
+04:33.860 --> 04:36.700
+Let's say we do have our red background.
+
+04:36.890 --> 04:39.850
+So that means that everything is working correctly.
+
+04:39.950 --> 04:46.360
+My style sheet has been linked collect correctly and then what I also like to do.
+
+04:46.420 --> 04:52.630
+Well last thing that I would like to do is in fact get my images as far as setup is concerned.
+
+04:52.700 --> 04:58.380
+So within the setup files we have our images folder and I'm just going to copy and paste this folder.
+
+04:58.550 --> 05:03.030
+So I'm going to copied it over back to backroads and copy and paste it.
+
+05:03.230 --> 05:05.500
+And now we have our images.
+
+05:05.530 --> 05:06.110
+OK.
+
+05:06.360 --> 05:12.680
+Now that should be it as far as the setup is concerned and I guess the last thing before we actually
+
+05:12.680 --> 05:19.640
+head over the next video I'm just gonna open up my local host 80 80 just so I can show you on a bigger
+
+05:19.640 --> 05:20.790
+browser window.
+
+05:20.840 --> 05:28.670
+Our current project I also like to mention that I have zoomed in as you can see my zoom is 175.
+
+05:29.060 --> 05:35.630
+So some things might not look exactly like yours in a sense because I have zoomed in just so I can see
+
+05:35.630 --> 05:36.420
+it better.
+
+05:36.620 --> 05:41.930
+But as far as the rest of the project is concerned of course everything is going to be exactly the same.
+
+05:41.930 --> 05:42.950
+Just please can mine.
+
+05:42.950 --> 05:49.730
+Keep in mind that when a man at a smaller browser window well some things might look a little bit different
+
+05:49.730 --> 05:50.330
+than yours.
+
+05:50.630 --> 05:52.220
+If you don't have the same zoom.

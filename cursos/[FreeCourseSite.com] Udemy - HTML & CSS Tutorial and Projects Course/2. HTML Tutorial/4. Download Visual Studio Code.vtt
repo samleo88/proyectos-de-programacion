@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.270 --> 00:00.860
+OK.
+
+00:00.960 --> 00:01.500
+Awesome.
+
+00:01.500 --> 00:03.080
+We have our browser now.
+
+00:03.630 --> 00:05.850
+Well I believe I told you that we need it.
+
+00:05.850 --> 00:12.780
+Also a text that are so we can put our good old friend Google right now already since it is on our machine
+
+00:13.440 --> 00:16.920
+to use and we can just search for the Visual Studio code.
+
+00:17.230 --> 00:18.870
+Again same old spiel.
+
+00:19.030 --> 00:20.910
+Can just say Visual Studio code.
+
+00:20.910 --> 00:22.560
+Well we're not going to be looking for a logo.
+
+00:22.560 --> 00:25.420
+We're going to be looking for a visual studio called.
+
+00:25.490 --> 00:27.950
+As this is going to be the first link that pops up.
+
+00:28.080 --> 00:32.110
+So again bravely without hesitation we just had over here.
+
+00:32.110 --> 00:35.590
+And as you can see it tells me right away what operating system are man.
+
+00:36.060 --> 00:38.960
+And it says well here is the download buddy.
+
+00:38.960 --> 00:39.290
+OK.
+
+00:39.310 --> 00:40.860
+So I'm just gonna click it over here.
+
+00:40.890 --> 00:43.020
+So this is gonna start my download again.
+
+00:43.140 --> 00:48.000
+The installation package is gonna be available to us in a second and again obviously if you're using
+
+00:48.000 --> 00:53.850
+different operating system they will going to provide you with a proper installation package for your
+
+00:53.850 --> 00:55.470
+operating system.
+
+00:55.470 --> 01:00.450
+Now here you can see that this would be my download so I can just open it over here and once I have
+
+01:00.450 --> 01:04.630
+it right next to Google Chrome I have my visual studio code.
+
+01:04.650 --> 01:10.080
+Now again the same old spiel I would just need to grab this and just drag and drop it in my applications
+
+01:10.530 --> 01:13.230
+so I'm done with getting my visual studio code.
+
+01:13.270 --> 01:19.410
+And again the same thing with any applications out first find the Visual Studio code and I'm going to
+
+01:19.410 --> 01:20.800
+open up over here.
+
+01:20.820 --> 01:23.130
+Now let me first of all maybe close this.
+
+01:23.130 --> 01:24.980
+I don't need the actual browser open.
+
+01:25.050 --> 01:27.890
+And again it will going to ask you Are you okay with this.
+
+01:27.900 --> 01:30.290
+Well obviously we are since we want to work with this.
+
+01:30.660 --> 01:34.070
+And before we do anything again I'm going to keep this in the dark.
+
+01:34.080 --> 01:37.060
+I'm just gonna say options and keep it in the dark.
+
+01:37.080 --> 01:41.940
+Now once we open up the Visual Studio code and you know what let me just make this bigger so it's all
+
+01:41.940 --> 01:43.170
+a bit easier to see.
+
+01:43.380 --> 01:49.260
+We all got to be met by welcoming string my own welcoming screen we have few options we can open up
+
+01:49.260 --> 01:53.590
+new file in the folder and as you can see we can also customize this.
+
+01:53.820 --> 01:59.100
+Now this is gonna be the first time when you are actually downloading Visual Studio code obviously all
+
+01:59.100 --> 02:01.320
+not gonna have the recent project.
+
+02:01.320 --> 02:08.280
+The only reason I do is because I had to reinstall the Visual Studio code just so we can go through
+
+02:08.280 --> 02:09.930
+all the steps together.
+
+02:09.990 --> 02:15.540
+Now I'm not going to spend tons of times right now on Visual Studio code because I would like to get
+
+02:15.540 --> 02:18.990
+us up and running and actually create our first webpage.
+
+02:19.020 --> 02:21.500
+I do want to show you know the general workspace.
+
+02:21.510 --> 02:25.590
+So let me close this personal and as you notice these icons right.
+
+02:26.040 --> 02:30.840
+So we have at the very top this is where we're gonna be working with our files.
+
+02:30.900 --> 02:36.900
+So as you notice I'm opening this up and this is going to be the space where all gonna be doing most
+
+02:36.900 --> 02:37.700
+of our work.
+
+02:37.800 --> 02:43.680
+In fact all the woodwork and this would be our file structure so whatever that is going to be folders
+
+02:43.680 --> 02:46.130
+files or images or anything like that.
+
+02:46.290 --> 02:50.250
+This is gonna be within this tab all here within the sidebar.
+
+02:50.250 --> 02:54.360
+Now next we have few other things few other icons that we're not going to use right now.
+
+02:54.780 --> 03:01.020
+Let's say search throughout documents and we also have for the source control which will we get as well
+
+03:01.020 --> 03:02.010
+as debugging.
+
+03:02.010 --> 03:06.810
+Now again we're not gonna cover them right now because we're not going to use them or they will gonna
+
+03:06.810 --> 03:12.570
+be something useful which is extensions meaning with every text that you basically have capabilities
+
+03:12.900 --> 03:20.040
+of adding more features to a text header and we're gonna do that actually in a second but for now just
+
+03:20.040 --> 03:24.120
+remember that these would be basically the extensions that you have available.
+
+03:24.120 --> 03:30.020
+So as you can see here recommended but for now you shouldn't have any extensions installed if you obviously
+
+03:30.030 --> 03:32.460
+just downloaded the Visual Studio code.
+
+03:32.520 --> 03:37.530
+Now if you'd like to search for extension again you can just type whatever extension we're looking for.
+
+03:37.710 --> 03:42.760
+And obviously this is not going to come up with anything but let's say we're going say javascript and
+
+03:42.780 --> 03:45.780
+this is going to bring me all kinds of extensions.
+
+03:45.840 --> 03:51.690
+Now last but not least regarding Visual Studio code something that will gonna be an important especially
+
+03:51.690 --> 03:56.580
+later on as we're gonna be working a little more and more with Visual Studio code.
+
+03:56.610 --> 03:57.700
+It's the settings.
+
+03:57.840 --> 04:04.560
+So if you click on this cog all the way in the bottom notice it's gonna give us settings now settings
+
+04:04.560 --> 04:06.960
+allow us to customize the works.
+
+04:07.710 --> 04:13.750
+So let's say we want a bigger font size so I could change this from 12 to let's say 22.
+
+04:13.830 --> 04:19.710
+If I would want a different tab size again we can just change this around and what I'm trying to tell
+
+04:19.710 --> 04:23.820
+you is that has the Morial gonna be working with your actual texture.
+
+04:24.030 --> 04:28.950
+There's going to be times when you're changing your settings to adjust whether that's gonna be an extension
+
+04:29.310 --> 04:31.990
+or just or your personal preference.
+
+04:32.010 --> 04:35.290
+Now also the settings are in fact in adjacent object.
+
+04:35.430 --> 04:40.560
+So this would be a basically graphical interface how we can work when the settings are worried let's
+
+04:40.560 --> 04:45.350
+say I'm going to change the setting from font size let's say I'm gonna say that this is gonna be twenty
+
+04:45.350 --> 04:51.900
+two and once I make the change the changes are gonna be automatically saved however there is also an
+
+04:51.900 --> 04:57.050
+option for the adjacent object and within Jay some object notice something interesting.
+
+04:57.060 --> 05:02.600
+So now these would be my settings as you notice I change it from whatever it was initially to let's
+
+05:02.600 --> 05:04.300
+say 22 so far.
+
+05:04.310 --> 05:05.480
+One add something else.
+
+05:05.480 --> 05:09.820
+I'm going to say I don't know that there's a setting for the font is going to be something like 30.
+
+05:09.860 --> 05:12.120
+Now in this case I would need to save it.
+
+05:12.200 --> 05:18.110
+So I have few options either I can go here and just look for a file and check this out that I can actually
+
+05:18.110 --> 05:24.800
+save it or I would have to use the shortcut and that would be command and ask again if you're working
+
+05:24.800 --> 05:30.050
+on Windows that probably would be control and as but since this is the Mac I'm just going to say that
+
+05:30.500 --> 05:31.750
+this would be commanded.
+
+05:32.090 --> 05:37.670
+Now in my case again I'm going to delete this because I would like to come back to it within a few videos
+
+05:38.090 --> 05:40.900
+whenever we're going to make our first web page already.
+
+05:41.270 --> 05:47.270
+But just to let you know that this is where the settings would be located for the Visual Studio called.

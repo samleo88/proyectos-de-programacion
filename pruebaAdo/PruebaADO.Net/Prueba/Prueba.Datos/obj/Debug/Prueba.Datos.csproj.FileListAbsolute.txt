@@ -1,0 +1,9 @@
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\bin\Debug\Prueba.Datos.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\bin\Debug\Prueba.Datos.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\bin\Debug\Prueba.Entidades.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\bin\Debug\Prueba.Entidades.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\obj\Debug\Prueba.Datos.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\obj\Debug\Prueba.Datos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\obj\Debug\Prueba.Datos.csproj.CopyComplete
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\obj\Debug\Prueba.Datos.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.Datos\obj\Debug\Prueba.Datos.pdb

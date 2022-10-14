@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.510 --> 00:04.650
+I know what some of you are probably thinking Ok smart guy.
+
+00:04.650 --> 00:10.290
+You just show us how to use inline CSX assess and then spend the next five minutes trashing it.
+
+00:10.320 --> 00:12.030
+So what is the better option.
+
+00:12.030 --> 00:13.920
+Well we have the internal yes.
+
+00:14.610 --> 00:17.830
+So first of all let me get rid of these style attribute.
+
+00:17.910 --> 00:22.160
+I'm not going to need right now and let's say there's going to be having one and just for kicks.
+
+00:22.170 --> 00:27.630
+Let's add a few more let's say that I'm gonna have three helo worlds with having one and then I was
+
+00:27.630 --> 00:32.790
+just gonna have one lonely one day heading to you know how do we add the internal CSF.
+
+00:33.180 --> 00:37.440
+Well we're going to have to head over to the head tags and again that is important.
+
+00:37.440 --> 00:40.260
+Please don't place them somewhere else and then expect them to work.
+
+00:40.770 --> 00:45.080
+And then within the head tags we would need to create another tag.
+
+00:45.090 --> 00:46.890
+Now that tag would be the style tag.
+
+00:47.430 --> 00:53.640
+So again we're gonna create two sets of tags the starting one and the closing one and then we write
+
+00:53.640 --> 00:55.850
+our CSF within these tax.
+
+00:55.860 --> 00:56.760
+Now how that would work.
+
+00:57.890 --> 01:03.300
+Again we're going to start with the selector and again please don't hang up right now on the syntax.
+
+01:03.450 --> 01:06.650
+We're going to cover it literally in a few videos.
+
+01:06.650 --> 01:09.010
+Well let's say I want to start with all the heading ones.
+
+01:09.490 --> 01:12.780
+So I'm going to say all the heading ones are gonna have some kind of style.
+
+01:12.920 --> 01:18.290
+Now again like I said I was gonna go with color because that is just gonna be the easier one and let's
+
+01:18.290 --> 01:19.400
+just go with blue.
+
+01:19.850 --> 01:24.300
+So my color is gonna be blue as well as I would like to add font size.
+
+01:24.340 --> 01:27.260
+And again let's go with something like three areas.
+
+01:27.260 --> 01:28.790
+So I noticed something else.
+
+01:28.790 --> 01:35.450
+Now I don't have to jump back and forth with my email and add for every kind of style and that way all
+
+01:35.450 --> 01:38.050
+of my heading ones have been styled right.
+
+01:38.130 --> 01:44.870
+With literally like what one two three and four lines of code and I can add whatever styles I would
+
+01:44.870 --> 01:50.900
+like oh here and all my heading ones are gonna be style if I have one heading to I can just say having
+
+01:50.900 --> 01:54.220
+two and then let's say again we're going to use color.
+
+01:54.380 --> 01:58.370
+Color is gonna be red and not red Olive but actually red.
+
+01:58.370 --> 02:01.020
+And let's add font size to be really small.
+
+02:01.900 --> 02:02.700
+Uh.
+
+02:02.720 --> 02:06.770
+That would be a don't no zero point five volumes something like this.
+
+02:06.770 --> 02:10.940
+So now my heading to is gonna be very small.
+
+02:10.940 --> 02:12.200
+We have color red.
+
+02:12.350 --> 02:16.580
+And if I'm gonna have more heading choose the same thing is gonna happen to them.
+
+02:16.640 --> 02:22.820
+And again you can see how much more powerful this is already because we don't have to first of all clog
+
+02:22.820 --> 02:24.240
+up outrageously amount.
+
+02:24.260 --> 02:26.190
+So I didn't need to add anything here.
+
+02:26.210 --> 02:32.630
+I can clearly see what kind of structure I have as well as the all the changes we're making are gonna
+
+02:32.630 --> 02:34.790
+be instantly added to all of them.
+
+02:34.790 --> 02:39.320
+Now let's say I'm gonna change my mind I'm going to say you know what I don't like the color blue so
+
+02:39.320 --> 02:41.350
+let's say we're going to go with chocolate.
+
+02:41.960 --> 02:45.720
+So instantly all my heading ones are going to get this done.
+
+02:45.950 --> 02:53.440
+So internal says is way way more powerful than jumping throughout the actual components that we have.
+
+02:53.450 --> 02:54.760
+I'm sorry not components.
+
+02:54.920 --> 02:59.450
+The elements that we have an HMO and adding them the inline styles.

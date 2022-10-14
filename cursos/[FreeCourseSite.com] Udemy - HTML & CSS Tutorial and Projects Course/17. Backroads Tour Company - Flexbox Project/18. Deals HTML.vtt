@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.330 --> 00:07.710
+Once we're done setting up our gallery next up we have a hot deals or just deal section where we're
+
+00:07.710 --> 00:14.160
+going to use a flux box in order to create this type of layout where the input as well as the submit
+
+00:14.160 --> 00:17.250
+button is going to be one element.
+
+00:17.250 --> 00:21.960
+All right now let's head over back to the indexation email.
+
+00:22.050 --> 00:28.080
+That's step number one all the way in the bottom we have our end of gallery then let's copy and paste
+
+00:28.080 --> 00:29.500
+that.
+
+00:29.640 --> 00:33.970
+I don't think we need the first end off as well as the gallery.
+
+00:34.050 --> 00:39.670
+Second gallery can go to and then maybe let's write here deals.
+
+00:39.960 --> 00:43.790
+Now you can write contact you can write deals you can write newsletter.
+
+00:43.800 --> 00:45.540
+Again the naming is really up to you.
+
+00:45.540 --> 00:47.290
+I'm gonna go with deals.
+
+00:47.520 --> 00:49.770
+So that is the name of my section.
+
+00:49.770 --> 00:59.370
+And then let's start by creating a section element with a class of section the generic pattern as well
+
+00:59.370 --> 01:00.550
+as deals.
+
+01:00.750 --> 01:08.250
+Class that is going to be used for styling and then of course we also need to use our I.D. by the name
+
+01:08.250 --> 01:09.070
+of deals.
+
+01:09.080 --> 01:09.720
+All right.
+
+01:09.930 --> 01:17.340
+Now once we have that let's say what do we have some reason now my life sir is just taking its time
+
+01:17.640 --> 01:19.890
+that's OK but that should be it.
+
+01:19.900 --> 01:26.140
+We have our deals then let's add our title again not our first rodeo we already know.
+
+01:26.170 --> 01:33.630
+Well let's look for the title once we have found the title What's selected copy paste it and let's look
+
+01:33.630 --> 01:42.880
+for the deals and deals it is let's copy and pasted like I said and let's write hot deals or join our
+
+01:42.880 --> 01:45.040
+newsletter or contact us.
+
+01:45.040 --> 01:53.020
+Doesn't really matter are deals like so and they actually Miller's gonna be quite simple in fact in
+
+01:53.020 --> 01:53.810
+this case.
+
+01:54.010 --> 01:58.360
+So we're gonna set up the form now we don't need any action.
+
+01:58.510 --> 02:04.010
+In fact we can just delete it and then we're gonna write the input group div.
+
+02:04.240 --> 02:11.290
+So let's write input group and that is the class of course for my div and then the input is going to
+
+02:11.290 --> 02:12.660
+be an email.
+
+02:13.030 --> 02:17.470
+So we're gonna use some basic HDMI five validation right away.
+
+02:17.560 --> 02:20.410
+So instead of text we're gonna go for the email.
+
+02:20.410 --> 02:27.730
+So that way when let's say somebody tries to write anything while we're gonna have right away let's
+
+02:27.730 --> 02:28.320
+say the.
+
+02:28.360 --> 02:32.570
+Type email where we need to have the I believe what was it.
+
+02:32.770 --> 02:39.430
+I believe it was that at symbol now type email that's fine.
+
+02:39.430 --> 02:47.790
+Then let's add a class of form control and it's going to be for styling and whether we add right away
+
+02:47.790 --> 02:56.680
+or so Holder by the name of your email hey we're adding that and that is of course our input and then
+
+02:56.680 --> 03:04.030
+right after the input I'm going to have my button by D type of segment so let's add button type of submit
+
+03:04.630 --> 03:17.060
+and then also let's add a class for the styling Beattie n hyphen sub omit submit like so and then within
+
+03:17.060 --> 03:20.020
+the button or three within the button.
+
+03:20.240 --> 03:28.010
+Why don't we writes Matt OK let's say that and now we have both things that we were looking for we have
+
+03:28.010 --> 03:35.360
+our input with a type of email as well as button for submitting the form and once we're done with our
+
+03:35.360 --> 03:38.540
+Asian email next up we have our CSX.

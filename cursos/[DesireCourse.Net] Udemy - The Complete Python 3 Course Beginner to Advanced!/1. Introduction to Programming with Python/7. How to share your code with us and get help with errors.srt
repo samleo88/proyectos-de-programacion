@@ -1,0 +1,279 @@
+1
+
+00:00:00,000  -->  00:00:06,120
+Hey guys, welcome back. I wanted to take
+this opportunity to help you guys let us
+
+2
+
+00:00:06,120  -->  00:00:07,140
+help you,
+
+3
+
+00:00:07,140  -->  00:00:12,750
+and so basically when you're picking up
+a programming language, or just the
+
+4
+
+00:00:12,750  -->  00:00:16,289
+programming skills in general,
+you're going to have problems and you're
+
+5
+
+00:00:16,289  -->  00:00:21,390
+gonna do things incorrectly most likely,
+hopefully not if I've done a good job at
+
+6
+
+00:00:21,390  -->  00:00:26,460
+explaining things you shouldn't, but even
+still you most likely will make some
+
+7
+
+00:00:26,460  -->  00:00:31,679
+small problems. In PHP it's common that a lot of beginners, well actually a lot of
+
+8
+
+00:00:31,679  -->  00:00:34,050
+advanced programs as well,
+
+9
+
+00:00:34,050  -->  00:00:37,230
+will face eventually the fact that their
+troubleshooting a problem for eight
+
+10
+
+00:00:37,230  -->  00:00:41,489
+hours and pulling their hair out and
+then they realize that the problem was
+
+11
+
+00:00:41,489  -->  00:00:48,090
+just that they missed a semicolon on line
+56, and luckily with Python we're not
+
+12
+
+00:00:48,090  -->  00:00:50,010
+going to have that problem with the
+semicolon,
+
+13
+
+00:00:50,010  -->  00:00:53,610
+however a lot of the problems that you
+might encounter are likely going to be
+
+14
+
+00:00:53,610  -->  00:00:59,850
+very simple like that, and so I want to
+show you guys a way to let us help you
+
+15
+
+00:00:59,850  -->  00:01:04,439
+better and also for you guys to help
+each other. When you have a problem with
+
+16
+
+00:01:04,439  -->  00:01:09,510
+your code and you want it reviewed or
+want someone to look at it and see if they
+
+17
+
+00:01:09,510  -->  00:01:13,530
+can find the problem because sometimes
+looking at your own code for a really
+
+18
+
+00:01:13,530  -->  00:01:17,670
+long time trying to find a problem
+you're looking at it too close,
+
+19
+
+00:01:17,670  -->  00:01:21,540
+you need to stand back, and sometimes you just can't get the proper perspective to
+
+20
+
+00:01:21,540  -->  00:01:25,409
+figure out the problem yourself. So, you
+guys are going to have to share your
+
+21
+
+00:01:25,409  -->  00:01:30,630
+code in the discussion to the right of
+this video you're gonna you know
+
+22
+
+00:01:30,630  -->  00:01:34,770
+basically say hey I got a problem with
+this, this is what I'm trying to do, but you're
+
+23
+
+00:01:34,770  -->  00:01:38,640
+also going to include a link to pastebin. So, if you guys don't know what
+
+24
+
+00:01:38,640  -->  00:01:44,340
+pastebin is it's pastebin.com, and you
+basically come here and you're going to
+
+25
+
+00:01:44,340  -->  00:01:51,000
+copy and paste your code in here. Now
+also you have a way to highlight for
+
+26
+
+00:01:51,000  -->  00:01:55,619
+certain syntax, in this case it's going to
+be Python. Paste exposure should be
+
+27
+
+00:01:55,619  -->  00:02:01,560
+public or unlisted basically if it's
+unlisted anybody that you give the link
+
+28
+
+00:02:01,560  -->  00:02:02,880
+to will be able to view it and
+
+29
+
+00:02:02,880  -->  00:02:06,780
+you can also title it, and then you just
+create the new post, and then it's going
+
+30
+
+00:02:06,780  -->  00:02:11,250
+to give you a URL. So, I'm just gonna do
+this really quickly so that you guys can
+
+31
+
+00:02:11,250  -->  00:02:12,690
+have an example.
+
+32
+
+00:02:12,690  -->  00:02:29,310
+So, i'm going to write out a simple
+line of code here that wouldn't work, it
+
+33
+
+00:02:29,310  -->  00:02:33,360
+wouldn't do anything, but then i'm going
+to share it. You can set expiry so just
+
+34
+
+00:02:33,360  -->  00:02:37,410
+leave this to never, paste exposure can
+be public or unlisted, and you can give
+
+35
+
+00:02:37,410  -->  00:02:47,280
+the name "problem instantiating 
+webpy" and I have selected the
+
+36
+
+00:02:47,280  -->  00:02:51,540
+syntax highlighter of Python because
+that's the programming language we're
+
+37
+
+00:02:51,540  -->  00:02:55,710
+using, and then just click create new
+paste. Now as you can see it did syntax
+
+38
+
+00:02:55,710  -->  00:02:59,640
+highlight it, it gives it line numbers
+and everything, you can download it, you
+
+39
+
+00:02:59,640  -->  00:03:03,990
+can clone it, etc. Now all you need to do
+to share is just come up to the address bar
+
+40
+
+00:03:03,990  -->  00:03:08,160
+here and just copy this, and you're going
+to put that link in the discussion
+
+41
+
+00:03:08,160  -->  00:03:11,760
+section to the right of the video so
+that when we look at the problem that
+
+42
+
+00:03:11,760  -->  00:03:15,270
+you're having we can come here and see
+your code, and we can tell you okay well
+
+43
+
+00:03:15,270  -->  00:03:19,290
+the problem is on line 12, and this is
+what's wrong with it, and then you can
+
+44
+
+00:03:19,290  -->  00:03:20,550
+modify it accordingly.
+
+45
+
+00:03:20,550  -->  00:03:26,070
+Now this also allows it to we can copy
+this into our own code editors and then
+
+46
+
+00:03:26,070  -->  00:03:30,570
+run your program on our computer just by
+copying the text, so that's going to be
+
+47
+
+00:03:30,570  -->  00:03:36,540
+helpful as well. So, thank you guys for
+watching this video and for joining this
+
+48
+
+00:03:36,540  -->  00:03:40,800
+course, and i'm excited to get started.
+This is going to be fun!

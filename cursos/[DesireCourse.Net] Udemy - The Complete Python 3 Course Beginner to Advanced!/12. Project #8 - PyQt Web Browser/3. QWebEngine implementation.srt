@@ -1,0 +1,1164 @@
+1
+
+00:00:00,000  -->  00:00:01,979
+Hey guys, I just recorded this video and
+
+2
+
+00:00:01,979  -->  00:00:05,910
+it was like 28 minutes, and then I
+
+3
+
+00:00:05,910  -->  00:00:07,859
+accidentally deleted it without saving
+
+4
+
+00:00:07,859  -->  00:00:10,980
+it. So, at least this time around I should
+
+5
+
+00:00:10,980  -->  00:00:12,990
+be able to make it quite a bit shorter
+
+6
+
+00:00:12,990  -->  00:00:15,089
+because i had a problem last time it was
+
+7
+
+00:00:15,089  -->  00:00:18,570
+really, really stupid problem, but you
+
+8
+
+00:00:18,570  -->  00:00:21,779
+guys won't see it, so that's neat. Alright, so, at this
+
+9
+
+00:00:21,779  -->  00:00:24,779
+point we have our application created,
+
+10
+
+00:00:24,779  -->  00:00:27,689
+and we have tabs created that we're able
+
+11
+
+00:00:27,689  -->  00:00:30,090
+to move around, and we've got an address
+
+12
+
+00:00:30,090  -->  00:00:33,780
+bar, but nothing does anything yet. So in
+
+13
+
+00:00:33,780  -->  00:00:36,149
+this video what I'm going to do is get a
+
+14
+
+00:00:36,149  -->  00:00:39,030
+stacked layout loaded in here, and get
+
+15
+
+00:00:39,030  -->  00:00:43,020
+web engine loaded. So, we need to talk
+
+16
+
+00:00:43,020  -->  00:00:47,370
+about the stacked layout a little more. When,
+
+17
+
+00:00:47,370  -->  00:00:55,379
+where is that? Stacked layout, it's not there.
+
+18
+
+00:00:55,379  -->  00:00:58,980
+Alright, so, I have not created it yet. So
+
+19
+
+00:00:58,980  -->  00:01:01,079
+what we need to do is we need to create
+
+20
+
+00:01:01,079  -->  00:01:03,120
+that, and how we're going to do that is
+
+21
+
+00:01:03,120  -->  00:01:09,000
+we're going to drop down
+
+22
+
+00:01:09,000  -->  00:01:11,220
+here a few lines and we are going to say set
+
+23
+
+00:01:11,220  -->  00:01:15,000
+main view, and down here we're going to
+
+24
+
+00:01:15,000  -->  00:01:19,020
+say self.container = QWidget,
+
+25
+
+00:01:19,020  -->  00:01:21,689
+and this is going to be added after the
+
+26
+
+00:01:21,689  -->  00:01:23,850
+toolbar. So you've got the tab bar, and you've got the
+
+27
+
+00:01:23,850  -->  00:01:26,280
+toolbar, and then you'll have this widget
+
+28
+
+00:01:26,280  -->  00:01:27,960
+which is going to have the stacked
+
+29
+
+00:01:27,960  -->  00:01:31,350
+layout inside of it. So container.
+
+30
+
+00:01:31,350  -->  00:01:38,159
+layout = QStackedLayout. Now we
+
+31
+
+00:01:38,159  -->  00:01:40,740
+need to set the containers layout to the
+
+32
+
+00:01:40,740  -->  00:01:44,250
+event handler, so self.container.
+
+33
+
+00:01:44,250  -->  00:01:48,090
+setLayout equals
+
+34
+
+00:01:48,090  -->  00:01:50,850
+self.container.layout. So, again we're
+
+35
+
+00:01:50,850  -->  00:01:52,799
+just telling this widget to use the
+
+36
+
+00:01:52,799  -->  00:01:57,240
+QStackedLayout. So when I save and
+
+37
+
+00:01:57,240  -->  00:01:59,820
+run the application, nothing happens
+
+38
+
+00:01:59,820  -->  00:02:01,200
+because we haven't actually added it to
+
+39
+
+00:02:01,200  -->  00:02:03,060
+the main window yet. So let's go ahead
+
+40
+
+00:02:03,060  -->  00:02:06,810
+and say self.layout.addWidget, and
+
+41
+
+00:02:06,810  -->  00:02:09,179
+we're going to add self.container.
+
+42
+
+00:02:09,179  -->  00:02:11,160
+Now this is being added after the
+
+43
+
+00:02:11,160  -->  00:02:11,850
+toolbar,
+
+44
+
+00:02:11,850  -->  00:02:13,140
+so it's under it because we're using
+
+45
+
+00:02:13,140  -->  00:02:15,150
+a vertical box, and as you can see that cleared
+
+46
+
+00:02:15,150  -->  00:02:17,610
+up a lot of spacing issues right now. So
+
+47
+
+00:02:17,610  -->  00:02:19,140
+you can see that it works but you can't
+
+48
+
+00:02:19,140  -->  00:02:21,450
+really see the stacked layout because we
+
+49
+
+00:02:21,450  -->  00:02:22,920
+actually didn't put anything in there
+
+50
+
+00:02:22,920  -->  00:02:24,780
+yet, and so that's what we're going to get
+
+51
+
+00:02:24,780  -->  00:02:28,800
+to now. We need an ad tab button and we
+
+52
+
+00:02:28,800  -->  00:02:32,970
+need to add that to the toolbar. So,
+
+53
+
+00:02:32,970  -->  00:02:38,070
+New tab button, so we're going to say
+
+54
+
+00:02:38,070  -->  00:02:43,170
+self.AddTabButton = QPushButton,
+
+55
+
+00:02:43,170  -->  00:02:45,630
+and it's going to just have a plus sign
+
+56
+
+00:02:45,630  -->  00:02:47,730
+for now. We are going to go through
+
+57
+
+00:02:47,730  -->  00:02:50,460
+here and put icons in here on the
+
+58
+
+00:02:50,460  -->  00:02:52,110
+toolbar buttons, but for right now we're
+
+59
+
+00:02:52,110  -->  00:02:53,850
+going to use plain text just because it's
+
+60
+
+00:02:53,850  -->  00:02:55,860
+easier, and then i'll show you how to set
+
+61
+
+00:02:55,860  -->  00:03:00,240
+icons and load icons at a later point. Now what
+
+62
+
+00:03:00,240  -->  00:03:03,720
+we need to do is connect AddTabButton.
+
+63
+
+00:03:03,720  -->  00:03:06,900
+clicked.connect and we need to
+
+64
+
+00:03:06,900  -->  00:03:09,240
+point it to the method that's actually
+
+65
+
+00:03:09,240  -->  00:03:11,940
+going to add tabs, and so that is going
+
+66
+
+00:03:11,940  -->  00:03:17,400
+to be called AddTab, which we're going to
+
+67
+
+00:03:17,400  -->  00:03:19,980
+have to create. So for now let's just create that
+
+68
+
+00:03:19,980  -->  00:03:25,170
+just to have it created, and we're just going to
+
+69
+
+00:03:25,170  -->  00:03:29,700
+pass. Now we need to add that into the
+
+70
+
+00:03:29,700  -->  00:03:35,010
+tool bar itself, so self.ToolbarLayout.
+
+71
+
+00:03:35,010  -->  00:03:41,400
+addWidget, and I'm going to add
+
+72
+
+00:03:41,400  -->  00:03:45,240
+self.AddTabButton. I'm going to save
+
+73
+
+00:03:45,240  -->  00:03:48,870
+this, run the app again, now you're going
+
+74
+
+00:03:48,870  -->  00:03:50,730
+to see there's a new tab button but it
+
+75
+
+00:03:50,730  -->  00:03:52,260
+doesn't do anything yet, so let's make
+
+76
+
+00:03:52,260  -->  00:03:54,090
+it do stuff.
+
+77
+
+00:03:54,090  -->  00:03:56,640
+Let's go ahead and delete the tabs that
+
+78
+
+00:03:56,640  -->  00:03:58,260
+we've got created right now just because
+
+79
+
+00:03:58,260  -->  00:04:00,180
+we're not going to need them,
+
+80
+
+00:04:00,180  -->  00:04:02,400
+we're going to be are calling AddTab
+
+81
+
+00:04:02,400  -->  00:04:06,420
+immediately so there is always a tab
+
+82
+
+00:04:06,420  -->  00:04:09,510
+active. Now we need to create a few
+
+83
+
+00:04:09,510  -->  00:04:13,290
+variables, and let's create them right
+
+84
+
+00:04:13,290  -->  00:04:16,430
+here. So,
+
+85
+
+00:04:17,310  -->  00:04:21,720
+it's for keeping track of the tabs and
+
+86
+
+00:04:21,720  -->  00:04:23,610
+the corresponding tab content, because
+
+87
+
+00:04:23,610  -->  00:04:26,550
+they're separate object. So, self.
+
+88
+
+00:04:26,550  -->  00:04:32,669
+tabCount = 0, and then we're going
+
+89
+
+00:04:32,669  -->  00:04:34,500
+to increase that each time a tab is
+
+90
+
+00:04:34,500  -->  00:04:36,570
+created and then use the tab count
+
+91
+
+00:04:36,570  -->  00:04:38,970
+within the object name, and we haven't
+
+92
+
+00:04:38,970  -->  00:04:40,650
+talked to the object names yet so that
+
+93
+
+00:04:40,650  -->  00:04:42,840
+is going to be fun. And then we need a
+
+94
+
+00:04:42,840  -->  00:04:45,960
+second variable called self.tabs, and
+
+95
+
+00:04:45,960  -->  00:04:48,810
+that is going to contain not the tabs
+
+96
+
+00:04:48,810  -->  00:04:51,990
+themselves but every widget that belongs
+
+97
+
+00:04:51,990  -->  00:04:53,820
+to a tab.
+
+98
+
+00:04:53,820  -->  00:04:56,700
+So the tab objects not the tab in the
+
+99
+
+00:04:56,700  -->  00:05:01,710
+tab bar. So, when we add a tab the first
+
+100
+
+00:05:01,710  -->  00:05:05,070
+thing we need to do is get the tab count,
+
+101
+
+00:05:05,070  -->  00:05:09,960
+so self.i equals self, not self.i,
+
+102
+
+00:05:09,960  -->  00:05:17,070
+i = self.tabCount. And then we need
+
+103
+
+00:05:17,070  -->  00:05:20,130
+to start adding stuff to the self.
+
+104
+
+00:05:20,130  -->  00:05:23,970
+tabsList. Now how we're going to do this
+
+105
+
+00:05:23,970  -->  00:05:27,150
+is we're going to append a QWidget to it,
+
+106
+
+00:05:27,150  -->  00:05:31,800
+and then use this index number
+
+107
+
+00:05:31,800  -->  00:05:35,729
+to access that widget. So, self.tabs.
+
+108
+
+00:05:35,729  -->  00:05:41,310
+append(QWidget( )), just like that. Now we can
+
+109
+
+00:05:41,310  -->  00:05:43,860
+modify that widget itself by calling
+
+110
+
+00:05:43,860  -->  00:05:47,400
+self.tabs[i], and then this is
+
+111
+
+00:05:47,400  -->  00:05:49,229
+going to access that QWidget, so we
+
+112
+
+00:05:49,229  -->  00:05:52,020
+can treat this little bit of code here
+
+113
+
+00:05:52,020  -->  00:05:54,210
+the same as a QWidget because it's
+
+114
+
+00:05:54,210  -->  00:05:57,090
+targeting a QWidget. So we're going to
+
+115
+
+00:05:57,090  -->  00:06:01,229
+set layout first, and that's going to be
+
+116
+
+00:06:01,229  -->  00:06:06,780
+equal to QVBoxLayout. And then we're
+
+117
+
+00:06:06,780  -->  00:06:09,570
+going to set the object name and I'm
+
+118
+
+00:06:09,570  -->  00:06:11,580
+going to demonstrate why it's important,
+
+119
+
+00:06:11,580  -->  00:06:14,490
+but i'll demonstrate that later. So, self.
+
+120
+
+00:06:14,490  -->  00:06:17,340
+tabs, and the tab we just
+
+121
+
+00:06:17,340  -->  00:06:19,979
+created, the QWidget that we just created,
+
+122
+
+00:06:19,979  -->  00:06:23,460
+we're going to set object name and we're
+
+123
+
+00:06:23,460  -->  00:06:25,470
+going to set it to "tab"
+
+124
+
+00:06:25,470  -->  00:06:28,650
++ i,
+
+125
+
+00:06:28,650  -->  00:06:31,650
+and we actually need to convert that
+
+126
+
+00:06:31,650  -->  00:06:36,990
+to a string before we use it. Now we're
+
+127
+
+00:06:36,990  -->  00:06:40,320
+going to create an attribute for the
+
+128
+
+00:06:40,320  -->  00:06:44,340
+QWidget called content, and the
+
+129
+
+00:06:44,340  -->  00:06:47,639
+content is going to be the QWebEngine. So
+
+130
+
+00:06:47,639  -->  00:06:49,259
+before we even do that we need to now
+
+131
+
+00:06:49,259  -->  00:06:53,910
+import WebEngine. So from
+
+132
+
+00:06:53,910  -->  00:06:59,070
+PyQt5.QtWebEngineWidgets import everything,
+
+133
+
+00:06:59,070  -->  00:07:02,430
+and then we're going to scroll back down
+
+134
+
+00:07:02,430  -->  00:07:05,310
+to our add tab method here, and we are
+
+135
+
+00:07:05,310  -->  00:07:08,490
+going to create the web engine view
+
+136
+
+00:07:08,490  -->  00:07:12,360
+which is the actual object that the
+
+137
+
+00:07:12,360  -->  00:07:14,610
+page is going to be loaded into, and its
+
+138
+
+00:07:14,610  -->  00:07:16,199
+really simple to do. So let's just go
+
+139
+
+00:07:16,199  -->  00:07:19,979
+ahead and write self.tabs current
+
+140
+
+00:07:19,979  -->  00:07:26,400
+tab content equals QWebEngineView,
+
+141
+
+00:07:26,400  -->  00:07:28,800
+and that's an object so open a parenthesis.
+
+142
+
+00:07:28,800  -->  00:07:32,430
+And then we're going to load google
+
+143
+
+00:07:32,430  -->  00:07:37,169
+immediately into this view. self.tabs[i].
+
+144
+
+00:07:37,169  -->  00:07:41,550
+content.load, we need to create a
+
+145
+
+00:07:41,550  -->  00:07:49,620
+QUrl.fromUserInput, and then just type
+
+146
+
+00:07:49,620  -->  00:07:57,150
+"http://google.com" So, QUrls
+
+147
+
+00:07:57,150  -->  00:08:00,810
+you're able to run this method on it
+
+148
+
+00:08:00,810  -->  00:08:03,419
+as soon as you declare it here,
+
+149
+
+00:08:03,419  -->  00:08:07,650
+this method is going to convert text
+
+150
+
+00:08:07,650  -->  00:08:11,970
+into an actual QUrl that Qt can
+
+151
+
+00:08:11,970  -->  00:08:15,810
+then use to do stuff, and now we need to add
+
+152
+
+00:08:15,810  -->  00:08:20,250
+this content to the the tabs layout
+
+153
+
+00:08:20,250  -->  00:08:22,470
+itself, and again this is a QWidget and
+
+154
+
+00:08:22,470  -->  00:08:25,020
+so it can be shown and it can have a
+
+155
+
+00:08:25,020  -->  00:08:27,990
+layout set on it, so we access this
+
+156
+
+00:08:27,990  -->  00:08:31,349
+object again by typing this. So let's go
+
+157
+
+00:08:31,349  -->  00:08:33,270
+ahead and set the layout, so self.
+
+158
+
+00:08:33,270  -->  00:08:35,959
+tabs[i].
+
+159
+
+00:08:37,110  -->  00:08:41,849
+setLayout, and we're going to set it to self.
+
+160
+
+00:08:41,849  -->  00:08:54,839
+tabs[i].layout. I'm going to comment
+
+161
+
+00:08:54,839  -->  00:08:57,420
+this here so you guys will have an easier
+
+162
+
+00:08:57,420  -->  00:09:04,290
+time following along, set top level tab from
+
+163
+
+00:09:04,290  -->  00:09:18,959
+list to layout. Alright, now we need to
+
+164
+
+00:09:18,959  -->  00:09:21,720
+add the content to the layout itself so we're going to
+
+165
+
+00:09:21,720  -->  00:09:23,070
+do that here,
+
+166
+
+00:09:23,070  -->  00:09:27,779
+add webview to tabs layout. We're going
+
+167
+
+00:09:27,779  -->  00:09:32,579
+to say self.tabs the current tab, layout.
+
+168
+
+00:09:32,579  -->  00:09:36,240
+addWidget, and we're going to add self.
+
+169
+
+00:09:36,240  -->  00:09:44,130
+tabs current tab content. Now we're
+
+170
+
+00:09:44,130  -->  00:09:47,279
+almost done, I promise guys, so what we
+
+171
+
+00:09:47,279  -->  00:09:49,949
+need to do is we need to set the
+
+172
+
+00:09:49,949  -->  00:09:53,130
+container which is the stackedlayout
+
+173
+
+00:09:53,130  -->  00:09:56,640
+right here, we need to add this widget,
+
+174
+
+00:09:56,640  -->  00:09:58,350
+the the QWidget that we've
+
+175
+
+00:09:58,350  -->  00:10:00,209
+stuffed into the tab, we need to add this
+
+176
+
+00:10:00,209  -->  00:10:04,500
+to the container, and then we need to set
+
+177
+
+00:10:04,500  -->  00:10:07,560
+the current widget to the widget that
+
+178
+
+00:10:07,560  -->  00:10:09,209
+we've just added, and how we're going to
+
+179
+
+00:10:09,209  -->  00:10:18,209
+do that we're going to just type out
+
+180
+
+00:10:18,209  -->  00:10:22,709
+self.container.layout.addWidget
+
+181
+
+00:10:22,709  -->  00:10:26,070
+and we're going to add self.
+
+182
+
+00:10:26,070  -->  00:10:29,820
+tabs and the current tab. So, again this
+
+183
+
+00:10:29,820  -->  00:10:32,760
+basically equals a QWidget which we've
+
+184
+
+00:10:32,760  -->  00:10:40,019
+defined here. And then self.
+
+185
+
+00:10:40,019  -->  00:10:47,630
+container.layout.setCurrentWidget, and I'm
+
+186
+
+00:10:47,630  -->  00:10:52,010
+going to set it to self.tabs and
+
+187
+
+00:10:52,010  -->  00:10:58,100
+the current tab. Alright, now we need to
+
+188
+
+00:10:58,100  -->  00:11:00,020
+show the tab at the top of the screen
+
+189
+
+00:11:00,020  -->  00:11:03,740
+like as an actual tab. So, this is going
+
+190
+
+00:11:03,740  -->  00:11:10,640
+to be a bit easier, set the tab at top of
+
+191
+
+00:11:10,640  -->  00:11:16,550
+screen. self.tabbar.addTab
+
+192
+
+00:11:16,550  -->  00:11:22,700
+and we're going to add "New Tab." And then
+
+193
+
+00:11:22,700  -->  00:11:24,650
+what we need to do is remember up here
+
+194
+
+00:11:24,650  -->  00:11:26,840
+where we set the object name of the top
+
+195
+
+00:11:26,840  -->  00:11:29,600
+level widget right here, we set that to
+
+196
+
+00:11:29,600  -->  00:11:32,510
+tab and then whatever number of tabs it
+
+197
+
+00:11:32,510  -->  00:11:34,670
+is, so what we're going to do is we're
+
+198
+
+00:11:34,670  -->  00:11:36,770
+going to set the data of, and let me show
+
+199
+
+00:11:36,770  -->  00:11:38,890
+you.
+
+200
+
+00:11:40,010  -->  00:11:43,730
+So this tab right here when we click it
+
+201
+
+00:11:43,730  -->  00:11:45,830
+we need to be able to tell the stacked
+
+202
+
+00:11:45,830  -->  00:11:48,950
+widget which widget to show. Now that's
+
+203
+
+00:11:48,950  -->  00:11:50,540
+fine but there's going to be a problem
+
+204
+
+00:11:50,540  -->  00:11:54,410
+when we do this it won't know,
+
+205
+
+00:11:54,410  -->  00:11:56,840
+like it actually changes the index
+
+206
+
+00:11:56,840  -->  00:11:58,520
+number of this, so if we say get a
+
+207
+
+00:11:58,520  -->  00:12:00,620
+current index of this this is now going
+
+208
+
+00:12:00,620  -->  00:12:02,990
+to be 0, if we drag it over here it's now
+
+209
+
+00:12:02,990  -->  00:12:06,800
+one, but the content, the QWidget within
+
+210
+
+00:12:06,800  -->  00:12:09,830
+our tabs list didn't change, so it's
+
+211
+
+00:12:09,830  -->  00:12:12,470
+going to show the wrong content. So what
+
+212
+
+00:12:12,470  -->  00:12:14,120
+we're doing is we're setting an object
+
+213
+
+00:12:14,120  -->  00:12:15,560
+name and we're going to use the object
+
+214
+
+00:12:15,560  -->  00:12:19,700
+name so we need to actually tell the tab
+
+215
+
+00:12:19,700  -->  00:12:28,730
+what you know basically what object
+
+216
+
+00:12:28,730  -->  00:12:31,400
+name it should control, and so we're
+
+217
+
+00:12:31,400  -->  00:12:34,610
+going to say setTabData, and we're going to
+
+218
+
+00:12:34,610  -->  00:12:36,890
+say "tab"
+
+219
+
+00:12:36,890  -->  00:12:42,010
+and then the index number here,
+
+220
+
+00:12:42,730  -->  00:12:45,820
+and then we need to set the current
+
+221
+
+00:12:45,820  -->  00:12:51,100
+index to this current tab. So self.tabbar.setCurrent
+
+222
+
+00:12:51,100  -->  00:12:53,500
+index and we're going to say this
+
+223
+
+00:12:53,500  -->  00:13:08,680
+right here. So, go ahead and save...
+
+224
+
+00:13:08,680  -->  00:13:11,079
+set the tab data, oh, alright. To set the tab data you need
+
+225
+
+00:13:11,079  -->  00:13:15,579
+to tell it what you know is the
+
+226
+
+00:13:15,579  -->  00:13:17,649
+index number of the tab you want to
+
+227
+
+00:13:17,649  -->  00:13:21,550
+modify, so there we go.
+
+228
+
+00:13:21,550  -->  00:13:26,110
+If I add a tab you're going to notice
+
+229
+
+00:13:26,110  -->  00:13:27,699
+that we haven't actually built
+
+230
+
+00:13:27,699  -->  00:13:29,649
+functionality for switching tabs so it
+
+231
+
+00:13:29,649  -->  00:13:31,660
+is constantly shows whatever tab was
+
+232
+
+00:13:31,660  -->  00:13:33,610
+loaded first, so we need to do that and we're
+
+233
+
+00:13:33,610  -->  00:13:36,839
+going to do that in the next video.

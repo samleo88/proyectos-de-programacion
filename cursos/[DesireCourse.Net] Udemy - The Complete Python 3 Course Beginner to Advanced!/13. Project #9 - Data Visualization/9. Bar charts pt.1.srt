@@ -1,0 +1,659 @@
+1
+
+00:00:00,000  -->  00:00:02,190
+Alright guys, so there's a few more
+
+2
+
+00:00:02,190  -->  00:00:03,840
+things that I want to cover when it
+
+3
+
+00:00:03,840  -->  00:00:06,420
+comes to data visualization, and so this
+
+4
+
+00:00:06,420  -->  00:00:08,730
+video is going to be about bar charts,
+
+5
+
+00:00:08,730  -->  00:00:10,230
+but it's also going to be about mapping
+
+6
+
+00:00:10,230  -->  00:00:14,130
+out some more data than just like
+
+7
+
+00:00:14,130  -->  00:00:16,199
+one or two lines. So we're going to be
+
+8
+
+00:00:16,199  -->  00:00:18,000
+making a bar chart and the bar chart
+
+9
+
+00:00:18,000  -->  00:00:19,859
+we're going to be making is going to be
+
+10
+
+00:00:19,859  -->  00:00:24,180
+based on different subjects from school
+
+11
+
+00:00:24,180  -->  00:00:28,320
+scores, the average score or country on
+
+12
+
+00:00:28,320  -->  00:00:31,590
+these subjects. So what I mean is if I
+
+13
+
+00:00:31,590  -->  00:00:33,750
+open up safari here I've got a chart
+
+14
+
+00:00:33,750  -->  00:00:38,070
+here that spells out basically the
+
+15
+
+00:00:38,070  -->  00:00:40,110
+scores, and we're going to be using the first
+
+16
+
+00:00:40,110  -->  00:00:43,170
+column the mean score here, and it's
+
+17
+
+00:00:43,170  -->  00:00:45,390
+going to be based on the year 2012. And
+
+18
+
+00:00:45,390  -->  00:00:46,890
+we're going to be choosing a few of
+
+19
+
+00:00:46,890  -->  00:00:48,360
+these countries and then putting in the
+
+20
+
+00:00:48,360  -->  00:00:53,129
+data for each subject here, math, reading,
+
+21
+
+00:00:53,129  -->  00:00:56,070
+and science, so that we can visualize it
+
+22
+
+00:00:56,070  -->  00:00:58,859
+because having exact numbers is neat but,
+
+23
+
+00:00:58,859  -->  00:01:00,420
+this is difficult to read especially
+
+24
+
+00:01:00,420  -->  00:01:02,250
+when you're trying to
+
+25
+
+00:01:02,250  -->  00:01:05,309
+trace and then compare numbers. A lot of
+
+26
+
+00:01:05,309  -->  00:01:07,409
+numbers are similar and that's why that
+
+27
+
+00:01:07,409  -->  00:01:09,479
+doesn't really work. Not that it is
+
+28
+
+00:01:09,479  -->  00:01:12,930
+impossible or difficult to do, I'm pretty
+
+29
+
+00:01:12,930  -->  00:01:15,509
+sure we can all read numbers, however it's
+
+30
+
+00:01:15,509  -->  00:01:17,250
+just easier sometimes to take a quick
+
+31
+
+00:01:17,250  -->  00:01:20,159
+glance at a chart, and be presented with the
+
+32
+
+00:01:20,159  -->  00:01:22,530
+same information just in a more visual
+
+33
+
+00:01:22,530  -->  00:01:25,740
+way. So what we're going to be doing here
+
+34
+
+00:01:25,740  -->  00:01:29,430
+is first we need to import a few things.
+
+35
+
+00:01:29,430  -->  00:01:33,360
+We're going to be using just pyplot
+
+36
+
+00:01:33,360  -->  00:01:36,840
+for this I guess, so import matplotlib.
+
+37
+
+00:01:36,840  -->  00:01:43,020
+pyplot as plt. We're going to be using
+
+38
+
+00:01:43,020  -->  00:01:47,850
+the same thing here, and so let's plot
+
+39
+
+00:01:47,850  -->  00:01:50,100
+out some of this data. Let's start with
+
+40
+
+00:01:50,100  -->  00:01:58,020
+Korea here, so Korea scores. Now let's go
+
+41
+
+00:01:58,020  -->  00:02:00,780
+ahead and create a tuple, and the first
+
+42
+
+00:02:00,780  -->  00:02:03,719
+one is 554, that's their
+
+43
+
+00:02:03,719  -->  00:02:06,630
+average score at mathematics, and now see
+
+44
+
+00:02:06,630  -->  00:02:08,340
+I have to trace the line over in order
+
+45
+
+00:02:08,340  -->  00:02:10,940
+to get the correct number, 536
+
+46
+
+00:02:10,940  -->  00:02:19,370
+in reading, and then pull this over even more, and then 538
+
+47
+
+00:02:19,370  -->  00:02:22,430
+in science. So as you can see it
+
+48
+
+00:02:22,430  -->  00:02:25,370
+takes you quite a while to to be able to
+
+49
+
+00:02:25,370  -->  00:02:27,440
+grab each number that you want to, and that's
+
+50
+
+00:02:27,440  -->  00:02:28,880
+why we're going to be putting this into
+
+51
+
+00:02:28,880  -->  00:02:38,750
+a chart. Let's go with Canada. Alright, so,
+
+52
+
+00:02:38,750  -->  00:02:46,910
+Canada math is 518, and now I'm going to
+
+53
+
+00:02:46,910  -->  00:02:50,570
+trace this again way over here, 523,
+
+54
+
+00:02:50,570  -->  00:03:00,560
+and 525, and this is gonna kind of be
+
+55
+
+00:03:00,560  -->  00:03:02,510
+boring because this chart is actually
+
+56
+
+00:03:02,510  -->  00:03:06,680
+already organized from most to least. So you could
+
+57
+
+00:03:06,680  -->  00:03:08,450
+just read the list here and find out you
+
+58
+
+00:03:08,450  -->  00:03:12,710
+know who has the higher mean score,
+
+59
+
+00:03:12,710  -->  00:03:22,520
+but, yeah. So, let's add in a Shanghai,
+
+60
+
+00:03:22,520  -->  00:03:27,620
+China, so China scores. I'm going to create another
+
+61
+
+00:03:27,620  -->  00:03:29,720
+tuple, and that's the first row here so it's
+
+62
+
+00:03:29,720  -->  00:03:32,420
+going to be easier, 613
+
+63
+
+00:03:32,420  -->  00:03:39,350
+for math, 570 for reading, then 580 for
+
+64
+
+00:03:39,350  -->  00:03:41,720
+science. And then one more, let's go ahead
+
+65
+
+00:03:41,720  -->  00:03:50,570
+with France. So, france_scores, so
+
+66
+
+00:03:50,570  -->  00:03:55,720
+we're gonna say math is 495,
+
+67
+
+00:03:59,480  -->  00:04:06,080
+reading is 505, and 499. Alright,
+
+68
+
+00:04:06,080  -->  00:04:12,709
+so, I've got all my data plotted out here,
+
+69
+
+00:04:12,709  -->  00:04:15,349
+well I've got it collected now and
+
+70
+
+00:04:15,349  -->  00:04:17,959
+arranged, so what we're going to do is
+
+71
+
+00:04:17,959  -->  00:04:24,410
+we're going to, I'm going to show you
+
+72
+
+00:04:24,410  -->  00:04:26,360
+guys just one thing printed out, and
+
+73
+
+00:04:26,360  -->  00:04:28,130
+we're gonna have a problem when we try
+
+74
+
+00:04:28,130  -->  00:04:29,419
+and add a second line. So let's go ahead
+
+75
+
+00:04:29,419  -->  00:04:35,660
+and we're going to say k1 equals...we
+
+76
+
+00:04:35,660  -->  00:04:37,580
+don't have a lot there so let's go ahead
+
+77
+
+00:04:37,580  -->  00:04:47,900
+and include numpy as well. import numpy as np,
+
+78
+
+00:04:47,900  -->  00:04:51,199
+and what we're going to do with that is
+
+79
+
+00:04:51,199  -->  00:04:54,260
+we're going to create an integer
+
+80
+
+00:04:54,260  -->  00:04:59,000
+variable with how many of these values
+
+81
+
+00:04:59,000  -->  00:05:03,350
+each item has, or how many columns each
+
+82
+
+00:05:03,350  -->  00:05:11,120
+will create, so in this case col_count
+
+83
+
+00:05:11,120  -->  00:05:14,270
+equals three, and we're going to need to
+
+84
+
+00:05:14,270  -->  00:05:18,950
+use this to manually space
+
+85
+
+00:05:18,950  -->  00:05:24,919
+some of our things. And then in order to
+
+86
+
+00:05:24,919  -->  00:05:26,690
+iterate to we're going to create a range,
+
+87
+
+00:05:26,690  -->  00:05:32,479
+so index equals np.arange, we're
+
+88
+
+00:05:32,479  -->  00:05:35,419
+going to pass in the column count. And
+
+89
+
+00:05:35,419  -->  00:05:38,450
+now this is going to act as the x-axis
+
+90
+
+00:05:38,450  -->  00:05:40,190
+for us, so we don't actually need to
+
+91
+
+00:05:40,190  -->  00:05:43,430
+create an x-axis at this point. We're
+
+92
+
+00:05:43,430  -->  00:05:48,470
+just going to pass in index, and you'll
+
+93
+
+00:05:48,470  -->  00:05:50,870
+see why we're doing this in a moment. Now
+
+94
+
+00:05:50,870  -->  00:05:55,490
+what we need to do is pass in the y-axis
+
+95
+
+00:05:55,490  -->  00:05:59,210
+which is vertical, so it's Korea stores,
+
+96
+
+00:05:59,210  -->  00:06:06,770
+the bar width for right now let's
+
+97
+
+00:06:06,770  -->  00:06:10,310
+just leave this as is. Let's drop down
+
+98
+
+00:06:10,310  -->  00:06:11,870
+here a few lines and I'm just going to
+
+99
+
+00:06:11,870  -->  00:06:12,590
+show the chart, because
+
+100
+
+00:06:12,590  -->  00:06:14,780
+this is where we're going to start. So
+
+101
+
+00:06:14,780  -->  00:06:21,470
+plt.show. So I'm going to save this and run
+
+102
+
+00:06:21,470  -->  00:06:29,090
+the program here, and I don't have
+
+103
+
+00:06:29,090  -->  00:06:40,460
+anything happening. Let me find out why,
+
+104
+
+00:06:40,460  -->  00:06:46,550
+that's weird. Label is Korea, let's add a
+
+105
+
+00:06:46,550  -->  00:06:58,460
+color, so
+
+106
+
+00:06:58,460  -->  00:07:08,270
+.3, .3, .7...
+
+107
+
+00:07:08,270  -->  00:07:11,980
+...
+
+108
+
+00:07:14,620  -->  00:07:17,199
+Okay, something terrible just happened,
+
+109
+
+00:07:17,199  -->  00:07:21,580
+and I can't figure this out. Okay, let me
+
+110
+
+00:07:21,580  -->  00:07:23,199
+see what's wrong. I'm going to erase this
+
+111
+
+00:07:23,199  -->  00:07:25,120
+because something went terribly wrong
+
+112
+
+00:07:25,120  -->  00:07:31,780
+there, and I'm going to redo this. Korea
+
+113
+
+00:07:31,780  -->  00:07:39,790
+scores, and then the bar width let's set
+
+114
+
+00:07:39,790  -->  00:07:44,020
+to .5 right now, and now let's drop down
+
+115
+
+00:07:44,020  -->  00:07:47,560
+here and put color. Why is it doing that,
+
+116
+
+00:07:47,560  -->  00:07:56,229
+when I'm trying to add the color? Oh, okay,
+
+117
+
+00:07:56,229  -->  00:07:59,380
+well I feel a bit silly right now. I'm
+
+118
+
+00:07:59,380  -->  00:08:01,030
+just creating a
+
+119
+
+00:08:01,030  -->  00:08:02,530
+tuple here, I'm not actually creating a
+
+120
+
+00:08:02,530  -->  00:08:05,800
+chart, so obviously this is a method of
+
+121
+
+00:08:05,800  -->  00:08:08,650
+the plt class or object that we're using
+
+122
+
+00:08:08,650  -->  00:08:11,470
+right now. So, plt.bar and that's where
+
+123
+
+00:08:11,470  -->  00:08:13,150
+we pass in all these variables, and
+
+124
+
+00:08:13,150  -->  00:08:14,979
+that will actually create the charts. Now
+
+125
+
+00:08:14,979  -->  00:08:18,250
+if I start it you will see this chart
+
+126
+
+00:08:18,250  -->  00:08:20,830
+right here. We're going to add a grid
+
+127
+
+00:08:20,830  -->  00:08:22,930
+just so that we can better identify between
+
+128
+
+00:08:22,930  -->  00:08:26,080
+the different subjects. So plt.grid is
+
+129
+
+00:08:26,080  -->  00:08:30,190
+going to be true. Now when I restart this
+
+130
+
+00:08:30,190  -->  00:08:31,270
+we're going to see a grid on the
+
+131
+
+00:08:31,270  -->  00:08:36,159
+background there. Makes it easier to find
+
+132
+
+00:08:36,159  -->  00:08:38,760
+out what goes where.

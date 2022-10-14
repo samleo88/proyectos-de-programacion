@@ -1,0 +1,19 @@
+@IDPEDIDO int,
+	@IdCliente int ,
+	@IdVendedor int ,
+	
+	@Fecha_pedido varchar(50) ,
+	@Aceptacion_pedido varchar(50) 
+	
+	
+AS
+
+declare @Total_pedido decimal 
+
+
+set @Total_pedido = ( select sum(Valor_total) from Detalle_pedido where IdPedido = @IDPEDIDO group by IdPedido) 
+
+
+
+INSERT INTO Pedido(IdCliente,IdVendedor,Total_pedido,Fecha_pedido,Aceptacion_pedido)
+VALUES (@IdCliente,@IdVendedor,@Total_pedido,@Fecha_pedido,@Aceptacion_pedido)

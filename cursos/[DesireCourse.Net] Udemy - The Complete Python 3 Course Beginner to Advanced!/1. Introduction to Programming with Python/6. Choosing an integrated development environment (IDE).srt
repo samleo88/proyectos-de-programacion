@@ -1,0 +1,500 @@
+1
+
+00:00:00,000  -->  00:00:05,069
+Alright, so what kind of work environment
+do we need to be efficient at
+
+2
+
+00:00:05,069  -->  00:00:10,380
+programming with Python? The question can be posed for any programming language
+
+3
+
+00:00:10,380  -->  00:00:14,820
+really, and so the answer is usually
+going to be same.
+
+4
+
+00:00:14,820  -->  00:00:21,480
+I mean feel free if you want to, to open
+up notepad on Windows or you know some
+
+5
+
+00:00:21,480  -->  00:00:25,380
+basic text editor and write a script and
+go over to the terminal and command prompt
+
+6
+
+00:00:25,380  -->  00:00:29,490
+and run it, however that's not efficient
+for a variety of reasons.
+
+7
+
+00:00:30,210  -->  00:00:34,530
+So, what we're going to be using is an
+IDE, which stands for integrated
+
+8
+
+00:00:34,530  -->  00:00:42,600
+development environment, and we're going to be using Jetbrains PyCharm. Now,
+
+9
+
+00:00:42,600  -->  00:00:47,129
+PyCharm is free for, I spelled that wrong
+
+10
+
+00:00:47,820  -->  00:00:57,000
+just go to Google, search PyCharm, and
+click on the link there which is from
+
+11
+
+00:00:57,000  -->  00:01:02,760
+jetbrains.com, and you can download it.
+Now when you get to the download screen
+
+12
+
+00:01:02,760  -->  00:01:06,990
+you're going to get a professional or
+community version, choose the community
+
+13
+
+00:01:06,990  -->  00:01:13,350
+version that is free, it's completely
+fully featured as far as i can tell, and
+
+14
+
+00:01:13,350  -->  00:01:16,860
+that's the one that we're going to be
+using in this video. Now
+
+15
+
+00:01:17,400  -->  00:01:22,350
+alternatively I mean you can go have a
+look at other IDEs for Python, but I find
+
+16
+
+00:01:22,350  -->  00:01:27,119
+that this one it just works really well,
+it's simple, and it does everything that
+
+17
+
+00:01:27,119  -->  00:01:32,490
+we need it to do, and it also has some
+advanced features which we may look at
+
+18
+
+00:01:32,490  -->  00:01:38,400
+some point in the future. So, go ahead
+download the installer for your platform,
+
+19
+
+00:01:38,400  -->  00:01:45,720
+it does require Java as well, so you can
+just open up Google and type download
+
+20
+
+00:01:45,720  -->  00:01:54,119
+Java, and it's going to take a java.com/download if you click that link, just
+
+21
+
+00:01:54,119  -->  00:01:59,100
+click download the appropriate
+version for your system, and once you
+
+22
+
+00:01:59,100  -->  00:02:04,079
+have that installed then you can install
+PyCharm. So, let's take a walk around
+
+23
+
+00:02:04,079  -->  00:02:07,079
+PyCharm right quick.
+
+24
+
+00:02:08,789  -->  00:02:12,840
+So, this is going to be the first screen
+that you see every time you start up
+
+25
+
+00:02:12,840  -->  00:02:16,530
+PyCharm. The first launch screen is a bit
+different you can choose a theme and
+
+26
+
+00:02:16,530  -->  00:02:17,579
+whatnot,
+
+27
+
+00:02:17,579  -->  00:02:23,459
+all that is relevant really. We're going
+to create a new project, it's going to be
+
+28
+
+00:02:23,459  -->  00:02:26,430
+pure Python, now there's also other
+options here if you want to start a
+
+29
+
+00:02:26,430  -->  00:02:32,159
+Django project, etc., but we're just going
+to start a Python project here and we're
+
+30
+
+00:02:32,159  -->  00:02:40,859
+going to choose version 3.5.1
+which is also going to tell the IDE
+
+31
+
+00:02:40,859  -->  00:02:48,299
+here where to find the binary files to
+run Python. Now, we're also going to name
+
+32
+
+00:02:48,299  -->  00:02:58,379
+the project here, so first program, and
+this is going to be the name of our
+
+33
+
+00:02:58,379  -->  00:03:02,310
+project. It's going to create a folder
+called first program and this is how
+
+34
+
+00:03:02,310  -->  00:03:13,709
+we're going to identify it within here.
+So, along the left-hand side here this
+
+35
+
+00:03:13,709  -->  00:03:18,180
+is the project view so let's go ahead
+and right click and create a new file.
+
+36
+
+00:03:18,180  -->  00:03:19,379
+Now,
+
+37
+
+00:03:19,379  -->  00:03:23,639
+additionally you can create a new
+directory, a Python package, and a bunch of
+
+38
+
+00:03:23,639  -->  00:03:26,669
+different file types here. We're just
+going to choose a Python file and i'm going to
+
+39
+
+00:03:26,669  -->  00:03:33,930
+name it main, which is going to name it
+main.py, and here we can start typing
+
+40
+
+00:03:33,930  -->  00:03:45,269
+our script. So, again i'm just going to
+use the hello world example, and that's
+
+41
+
+00:03:45,269  -->  00:03:50,010
+all it's going to be. I'm going to save
+it, keyboard shortcuts are going
+
+42
+
+00:03:50,010  -->  00:03:54,810
+to take you a long way if you're going
+to become a programmer, so I expect you
+
+43
+
+00:03:54,810  -->  00:03:59,879
+know some already, if you don't on
+Windows Linux control + S saves the file
+
+44
+
+00:03:59,879  -->  00:04:07,259
+and on OS 10 its command + S so you don't have to always go through the menus and
+
+45
+
+00:04:07,259  -->  00:04:11,639
+stuff, but let's have a look through the
+menus. If you want to create a new
+
+46
+
+00:04:11,639  -->  00:04:17,190
+project, a new file, or directory you can
+open one etcetera, you can actually
+
+47
+
+00:04:17,190  -->  00:04:21,870
+access the settings by going to default
+
+48
+
+00:04:22,380  -->  00:04:27,690
+settings for this project, and a bunch of
+different options down here that we
+
+49
+
+00:04:27,690  -->  00:04:31,800
+don't really need. If you go to edit
+you're going to see you can undo and
+
+50
+
+00:04:31,800  -->  00:04:35,700
+it's also going to show you the
+corresponding keyboard shortcuts for
+
+51
+
+00:04:35,700  -->  00:04:39,120
+each one of these options, so this is
+command + Z and that's going to undo
+
+52
+
+00:04:39,120  -->  00:04:44,580
+whatever action I previously did, this is
+also going to be useful if you're going
+
+53
+
+00:04:44,580  -->  00:04:52,110
+to become a professional programmer. Same is true for copy, paste, find. We're going
+
+54
+
+00:04:52,110  -->  00:04:56,910
+to be discussing find at some point, I
+mean it's a pretty powerful command you
+
+55
+
+00:04:56,910  -->  00:05:00,990
+can find not only in the current file
+but your entire project if you want to
+
+56
+
+00:05:00,990  -->  00:05:05,460
+look for instances of variable or string
+or something you can actually search
+
+57
+
+00:05:05,460  -->  00:05:13,290
+through the entire root directory of
+this project if you want. If you go to
+
+58
+
+00:05:13,290  -->  00:05:16,290
+view and go tool windows here
+
+59
+
+00:05:17,010  -->  00:05:21,690
+is what we're looking at here
+project if we select that it's going to,
+
+60
+
+00:05:21,690  -->  00:05:30,480
+it should hide that, yeah, so it hid the
+project sidebar, so we're going to leave
+
+61
+
+00:05:30,480  -->  00:05:36,480
+that open. Now, we can also show favorite structure, etcetera. If you have version
+
+62
+
+00:05:36,480  -->  00:05:40,980
+control setup this will not be disabled
+and you can use that to perform first
+
+63
+
+00:05:40,980  -->  00:05:42,270
+control actions.
+
+64
+
+00:05:42,270  -->  00:05:49,770
+We're going to open up a Python console
+here and here we can actually run Python
+
+65
+
+00:05:49,770  -->  00:05:55,680
+code. If we wanted to say 5+5 you know
+and it's going to return that so this is
+
+66
+
+00:05:55,680  -->  00:06:01,230
+the interpreter itself, however if we
+want to actually open terminal we can
+
+67
+
+00:06:01,230  -->  00:06:09,840
+open a terminal here and here we can
+just type python3 main.py and it's
+
+68
+
+00:06:09,840  -->  00:06:15,480
+going to run what we have up in this
+file right here. Now additionally we have
+
+69
+
+00:06:15,480  -->  00:06:23,010
+a run right here. We can set up run, a run
+configuration here, to actually every
+
+70
+
+00:06:23,010  -->  00:06:26,760
+time we hit the run it's going to
+automatically run our projec,t so let's
+
+71
+
+00:06:26,760  -->  00:06:31,080
+go ahead and hit the plus sign, choose
+python,
+
+72
+
+00:06:33,310  -->  00:06:42,640
+and it's gonna be called a Python run,
+script is going to be python3 or the
+
+73
+
+00:06:42,640  -->  00:06:46,360
+script is going to be the the actual
+python script that we want run so it's
+
+74
+
+00:06:46,360  -->  00:06:51,760
+going to be main.py, script parameters
+this is if we're passing in any arguments or
+
+75
+
+00:06:51,760  -->  00:06:54,850
+anything we're not going to it's already
+found the Python interpreter because
+
+76
+
+00:06:54,850  -->  00:07:00,370
+when we set up the project we chose the
+correct Python version. This is going to
+
+77
+
+00:07:00,370  -->  00:07:05,170
+be interpreter options we're not going
+to be using any, and that's all that we
+
+78
+
+00:07:05,170  -->  00:07:11,410
+need to do. So, let's go ahead and click
+apply and then run, and it's going to run
+
+79
+
+00:07:11,410  -->  00:07:15,640
+the script, output that, and then it says it
+finished with exit code zero which is
+
+80
+
+00:07:15,640  -->  00:07:17,230
+completely normal.
+
+81
+
+00:07:17,230  -->  00:07:21,460
+So, every time you want to run if you
+have this little section opened here
+
+82
+
+00:07:21,460  -->  00:07:25,540
+just hit that play button, the Run
+button there, it's going to run the code
+
+83
+
+00:07:25,540  -->  00:07:31,270
+in real time. So, make changes, hit ctrl + S,
+and then run the code right there, this
+
+84
+
+00:07:31,270  -->  00:07:37,480
+is the most efficient way to run a
+program in an IDE, you know, you don't have
+
+85
+
+00:07:37,480  -->  00:07:41,170
+to switch back and forth between windows and stuff. So, this is the primary reason
+
+86
+
+00:07:41,170  -->  00:07:46,000
+that we're going to be using this IDE
+for the sake of this course.

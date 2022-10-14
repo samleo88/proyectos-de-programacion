@@ -1,0 +1,426 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.interfaz;
+
+import java.awt.BorderLayout;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+
+import uniandes.cupi2.batallaPokemon.cliente.mundo.*;
+
+/**
+ * Ventana principal de la aplicación.
+ */
+public class InterfazCupiPokemon extends JFrame implements WindowListener
+{
+
+    // -----------------------------------------------------------------
+    // Constantes
+    // -----------------------------------------------------------------
+
+    /**
+     * Constante para la serialización.
+     */
+    private static final long serialVersionUID = -3722924491294788719L;
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Dirección del servidor.
+     */
+    private String servidor;
+
+    /**
+     * Nombre del usuario.
+     */
+    private String usuario;
+
+    /**
+     * Alias del usuario.
+     */
+    private String alias;
+    
+    /**
+     * Avatar del usuario.
+     */
+    private String avatar;
+
+    /**
+     * Puerto para conectarse al servidor.
+     */
+    private int puerto;
+
+    /**
+     * Clase principal del mundo.
+     */
+    private Jugador jugador;
+
+    // -----------------------------------------------------------------
+    // Atributos de la interfaz
+    // -----------------------------------------------------------------
+
+    /**
+     * Panel con las extensiones.
+     */
+    private PanelExtensionCliente panelExtension;
+
+    /**
+     * Panel con los mensajes para el jugador.
+     */
+    private PanelMensajes panelMensajes;
+
+    /**
+     * Panel donde se visualiza la batalla pokemón.
+     */
+    private PanelCampoBatalla panelCampo;
+
+    /**
+     * Panel con una imagen.
+     */
+    private PanelImagen panelImagen;
+
+    /**
+     * Diálogo para conectarse al servidor.
+     */
+    private DialogoConectarPokemon dialogoConectar;
+
+    /**
+     * Diálogo para seleccionar los pokemón.
+     */
+    private DialogoSeleccionarPokemones dialogoSeleccionarPokemones;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye la interfaz para un cliente del juego.
+     */
+    public InterfazCupiPokemon( )
+    {
+
+        jugador = new Jugador( );
+
+        dialogoConectar = new DialogoConectarPokemon( this );
+
+        dialogoConectar.addWindowListener( this );
+        dialogoConectar.setVisible( true );
+
+        setTitle( "Batalla Pokemón: " + jugador.darEstadoJuego( ) );
+        // Construye la forma
+        getContentPane( ).setLayout( new BorderLayout( ) );
+        setSize( 1000, 620 );
+        setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+
+        panelImagen = new PanelImagen( );
+        add( panelImagen, BorderLayout.NORTH );
+
+        JPanel panelCentral = new JPanel( new BorderLayout( ) );
+
+        panelMensajes = new PanelMensajes( );
+        panelCentral.add( panelMensajes, BorderLayout.SOUTH );
+        panelCampo = new PanelCampoBatalla( this, jugador );
+        panelCentral.add( panelCampo, BorderLayout.CENTER );
+
+        add( panelCentral, BorderLayout.CENTER );
+
+        panelExtension = new PanelExtensionCliente( this );
+        add( panelExtension, BorderLayout.SOUTH );
+
+        setLocationRelativeTo( null );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Selecciona los pokemones de un jugador.
+     */
+    public void seleccionarPokemones( )
+    {
+        dialogoSeleccionarPokemones = new DialogoSeleccionarPokemones( this );
+        dialogoSeleccionarPokemones.addWindowListener( this );
+        dialogoSeleccionarPokemones.setVisible( true );
+
+    }
+
+    /**
+     * Indica los pokemones que seleccionó el jugador.
+     * @param pPokemonesSeleccionados Lista con los índices de los pokemones seleccionados.
+     */
+    public void ingresarPokemonesSeleccionados( ArrayList pPokemonesSeleccionados )
+    {
+        jugador.ingresarPokemonesSeleccionados( pPokemonesSeleccionados );
+
+    }
+
+    /**
+     * Configura los datos de la conexión.
+     * @param pServidor Nombre del servidor. pServidor != null.
+     * @param pPuerto puerto para conectarse al servidor. pPuerto>=0.
+     * @param pNombreUsuario Nombre del usuario. pNombreUsuario!=null && pNombreUsuario != "".
+     * @param pAliasUsuario Alias del usuario. pAliasUsuario != null && pAliasUsuario != "".
+     * @param pAvatar Avatar del usuario. pAvatar != null && pAvatar != "".
+     */
+    public void configurarDatosConexion( String pServidor, int pPuerto, String pNombreUsuario, String pAliasUsuario, String pAvatar )
+    {
+        servidor = pServidor;
+        puerto = pPuerto;
+        usuario = pNombreUsuario;
+        alias = pAliasUsuario;
+        avatar= pAvatar;
+
+        dialogoConectar.dispose( );
+        conectar( );
+
+    }
+
+    /**
+     * Conectarse con el servidor. <br>
+     * El proceso de conexión al servidor se hace en un hilo aparte usando la clase ThreadConectar.
+     */
+    private void conectar( )
+    {
+        ThreadConectar t = new ThreadConectar( jugador, this, usuario, servidor, puerto, alias, avatar );
+        t.start( );
+
+    }
+
+    /**
+     * Actualiza la interfaz gráfica.
+     */
+    public void actualizarInterfaz( )
+    {
+        panelMensajes.agregarMensajes( jugador.darMensajesSinLeer( ) );
+        panelCampo.actualizar( jugador.darBatalla( ) );
+
+        if( jugador.darEstadoJuego( ) == Jugador.SIN_CONECTAR )
+        {
+            setTitle( "BatallaPokemón: Sin conexión" );
+        }
+        else if( jugador.darEstadoJuego( ) == Jugador.ESPERANDO_LOCAL )
+        {
+            setTitle( "BatallaPokemón: Jugando" );
+            panelExtension.activarJugar( );
+        }
+        else if( jugador.darEstadoJuego( ) == Jugador.ESPERANDO_OPONENTE )
+        {
+            setTitle( "BatallaPokemón: Esperando jugada" );
+            panelExtension.desactivarJugar( );
+        }
+
+    }
+
+    /**
+     * Actualiza la información mostrada en la ventana sobre el oponente.
+     */
+    public void actualizarDatosOponente( )
+    {
+        panelImagen.modificarDatosOponente( "x", "4", "5" );
+
+    }
+
+    /**
+     * Este método se encarga de consultar cuál fue el jugador que ganó el encuentro y avisarle al usuario.
+     */
+    public void mostrarGanador( )
+    {
+        JOptionPane.showMessageDialog( this, "El ganador del encuentro fue " + jugador.darNombreGanador( ) + ".", "Fin del juego", JOptionPane.INFORMATION_MESSAGE );
+        validate( );
+    }
+
+    /**
+     * Muestra un mensaje con el error enviado.
+     * @param pExcepcion Excepción con el error. pExcepcion != null.
+     */
+    public void mostrarError( BatallaPokemonException pExcepcion )
+    {
+        JOptionPane.showMessageDialog( this, pExcepcion.getMessage( ), "BatallaPokemón", JOptionPane.ERROR_MESSAGE );
+        
+    }
+
+    /**
+     * Cambia el pokemón del jugador, por el seleccionado. <br>
+     * El proceso para cambiar un pokemón se hace en un hilo aparte usando la clase ThreadEsperarPokemón.
+     */
+    public void cambiarPokemon( )
+    {
+        Pokemon pokemon = panelCampo.darPokemonSeleccionado( );
+        if( pokemon != null )
+        {
+            ThreadEsperarPokemon t = new ThreadEsperarPokemon( jugador, pokemon.darNombre( ), this );
+            t.start( );
+        }
+        else
+        {
+            JOptionPane.showMessageDialog( this, "Por favor seleccione un pokemón.", "BatallaPokemón", JOptionPane.ERROR_MESSAGE );
+        }
+
+    }
+
+    /**
+     * Desactiva los botónes de juego.
+     */
+    public void desactivarBotonesJugar( )
+    {
+        panelExtension.desactivarJugar( );
+
+    }
+
+    /**
+     * Espera una jugada del oponente. <br>
+     * El proceso para esperar una jugada se hace en un hilo aparte usando la clase ThreadEsperarJugada.
+     */
+    public void esperarJugada( )
+    {
+
+        if( jugador.darEstadoJuego( ) == Jugador.ESPERANDO_OPONENTE )
+        {
+            panelExtension.desactivarJugar( );
+            Thread t = new ThreadEsperarJugada( jugador, this );
+            t.start( );
+        }
+
+    }
+
+    /**
+     * Este método se encarga de realizar una jugada. <br>
+     * Después de que se envía el ataque se debe verificar si el juego terminó, y en caso negativo se debe esperar la jugada del oponente.<br>
+     * Las tareas relacionadas con enviar una jugada y esperar la respuesta del oponente se hacen en un hilo aparte que no bloquea la aplicación usando la clase
+     * ThreadEnviarJugada.
+     */
+    public void jugar( )
+    {
+
+        if( jugador.darEstadoJuego( ) == Jugador.ESPERANDO_LOCAL )
+        {
+            Thread t = new ThreadEnviarJugada( jugador, this, jugador.darBatalla( ).darPokemonSeleccionado( ).darTipo( ) );
+            t.start( );
+        }
+    }
+
+    // -----------------------------------------------------------------
+    // Puntos de Extensión
+    // -----------------------------------------------------------------
+
+    /**
+     * Método para la extensión 1.
+     */
+    public void reqFuncOpcion1( )
+    {
+        String resultado = jugador.metodo1( );
+        JOptionPane.showMessageDialog( this, resultado, "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+    }
+
+    /**
+     * Método para la extensión 2.
+     */
+    public void reqFuncOpcion2( )
+    {
+        String resultado = jugador.metodo2( );
+        JOptionPane.showMessageDialog( this, resultado, "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+    }
+
+    // -----------------------------------------------------------------
+    // Main
+    // -----------------------------------------------------------------
+
+    /**
+     * Ejecuta la aplicación, creando una nueva interfaz.
+     * @param args Argumentos para la ejecución de la aplicación. En este caso no son necesarios.
+     */
+    public static void main( String[] args )
+    {
+
+        InterfazCupiPokemon interfaz = new InterfazCupiPokemon( );
+        interfaz.setVisible( true );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos de WindowListener
+    // -----------------------------------------------------------------
+
+    /**
+     * Método para manejar los eventos de una ventana al momento de cerrarse.
+     * @param pEvento Evento de la ventana.
+     */
+    public void windowClosing( WindowEvent pEvento )
+    {
+        this.dispose( );
+        System.exit( 0 );
+    }
+
+    /**
+     * Método para manejar los eventos de una ventana al momento de activarse.
+     * @param pEvento Evento de la ventana.
+     */
+    public void windowActivated( WindowEvent pEvento )
+    {
+        // No se implementa.
+    }
+
+    /**
+     * Método para manejar los eventos de una ventana cuando ha sido cerrada.
+     * @param pEvento Evento de la ventana.
+     */
+    public void windowClosed( WindowEvent pEvento )
+    {
+        // No se implementa.
+    }
+
+    /**
+     * Método para manejar los eventos de una ventana cuando no está activa.
+     * @param pEvento Evento de la ventana.
+     */
+    public void windowDeactivated( WindowEvent pEvento )
+    {
+        // No se implementa.
+    }
+
+    /**
+     * Método para manejar los eventos de una ventana.
+     * @param pEvento Evento de la ventana.
+     */
+    public void windowDeiconified( WindowEvent pEvento )
+    {
+        // No se implementa.
+    }
+
+    /**
+     * Método para manejar los eventos de una ventana.
+     * @param pEvento Evento de la ventana.
+     */
+    public void windowIconified( WindowEvent pEvento )
+    {
+        // No se implementa.
+    }
+
+    /**
+     * Método para manejar los eventos de una ventana al momento abrirse.
+     * @param pEvento Evento de la ventana.
+     */
+    public void windowOpened( WindowEvent pEvento )
+    {
+        // No se implementa.
+    }
+
+}

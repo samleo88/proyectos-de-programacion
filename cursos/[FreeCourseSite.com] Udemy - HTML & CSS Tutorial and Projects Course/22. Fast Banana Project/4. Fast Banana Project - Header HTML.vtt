@@ -1,0 +1,532 @@
+WEBVTT
+
+00:00.060 --> 00:03.550
+Mounded we're done with a general set up.
+
+00:03.600 --> 00:09.900
+Let's actually go and see a specific set up that we have for our first on a project.
+
+00:09.960 --> 00:14.760
+So here you can see that this is going to be our finished project or here that I'm going to keep it
+
+00:15.240 --> 00:21.780
+in the browser or you know like this right now or here you can see that I have a desktop obviously.
+
+00:21.930 --> 00:23.770
+And here this is going to be my fault.
+
+00:23.980 --> 00:24.270
+Right.
+
+00:24.300 --> 00:29.520
+And in the folder I have a phantasm and on here I'm going to have a bunch of images that are going to
+
+00:29.520 --> 00:35.480
+be using then this is going to be the next H M L and C Ss and all her script.
+
+00:35.600 --> 00:36.060
+Right.
+
+00:36.240 --> 00:43.400
+So now that we have our folders set up let's go actually to our text to her or here like this.
+
+00:43.470 --> 00:44.960
+And you can see that over here right.
+
+00:44.970 --> 00:48.970
+I have a main style sheet and this is going to be my main.
+
+00:49.020 --> 00:54.800
+SS Then I have a link to font or some to this folder over here.
+
+00:55.060 --> 00:58.520
+Then over here this is going to be the Google fonts.
+
+00:58.650 --> 01:04.680
+Right so I'm getting my Google answer here and what I would need to do is actually check what I have
+
+01:04.710 --> 01:05.460
+in mind here.
+
+01:05.480 --> 01:06.440
+Yes right.
+
+01:06.480 --> 01:15.420
+So my main success or here I have the colors I'm so I have the yellow gray black blue cream and white
+
+01:15.900 --> 01:17.800
+and I was going to be working with all of them.
+
+01:17.800 --> 01:23.320
+So this is not really important to actually write them down right now.
+
+01:23.430 --> 01:23.640
+Right.
+
+01:23.640 --> 01:28.890
+Because once you're going to be styling the element we're actually going to be applying these colors
+
+01:29.640 --> 01:32.110
+and warriors crabgrass is going to be empty.
+
+01:32.110 --> 01:36.630
+And to tell you the truth there's not going to be much info anyway right.
+
+01:36.630 --> 01:40.660
+Because for the Jake werie plugins they're all going to be using right.
+
+01:40.890 --> 01:43.250
+Let's say for example this plug in right.
+
+01:43.260 --> 01:49.470
+We're going to create our own separate script js files meaning the javascript files that are going to
+
+01:49.470 --> 01:50.380
+be separate.
+
+01:50.450 --> 01:54.700
+Right so here let's say this is going to be our Jake Querrey plug in.
+
+01:54.720 --> 01:56.500
+Right so this is going to be the ISO job.
+
+01:56.670 --> 01:58.350
+And over here you can see what happens right.
+
+01:58.350 --> 02:02.040
+So basically this is going to be filtering over here images for us.
+
+02:02.040 --> 02:02.550
+Right.
+
+02:02.620 --> 02:10.830
+And again that will going to be creating a new separate javascript file just so we don't actually stuff
+
+02:10.890 --> 02:11.980
+everything together.
+
+02:12.180 --> 02:15.190
+And this is going to be much more understanding that way.
+
+02:15.210 --> 02:15.540
+Right.
+
+02:15.720 --> 02:22.380
+So what I'm going to do here is going to close the script jast we don't need the scramjets and we don't
+
+02:22.380 --> 02:28.740
+need for now the Says either or here Arnold's going to say that yes we would want to save what we were
+
+02:28.740 --> 02:31.490
+doing and over here in the exchange.
+
+02:31.530 --> 02:33.360
+Now we're going to start building.
+
+02:33.390 --> 02:38.240
+And the first thing that would want to build is out here would want to start building the nav bar.
+
+02:38.480 --> 02:38.730
+All right.
+
+02:38.730 --> 02:43.920
+So we would need all here now imagine we're going to need all headers button right and then we're going
+
+02:43.920 --> 02:49.350
+to need links and like a like we have done with the previous projects right.
+
+02:49.350 --> 02:51.620
+We are starting mobile first.
+
+02:51.840 --> 02:56.790
+So basically we're going to be starting to design for the mobile screen first and then we're going to
+
+02:56.790 --> 03:01.780
+do all kinds of set ups right and media queries right for the bigger screens.
+
+03:01.800 --> 03:02.270
+Right.
+
+03:02.330 --> 03:05.340
+So here this is going to be perfect for us right.
+
+03:05.370 --> 03:06.860
+Or here this life.
+
+03:07.160 --> 03:11.940
+And the first thing that I'm going to do in the body I'm going to create a header right and I'm going
+
+03:11.940 --> 03:16.210
+to create or hear a common that I'm creating better here.
+
+03:16.290 --> 03:21.520
+And I was going to copy this and I'm going to say and of better than on here.
+
+03:21.660 --> 03:23.820
+This is going to be a header element right.
+
+03:23.820 --> 03:26.500
+And I'm still going to be using meth right now right.
+
+03:26.550 --> 03:32.450
+And for those of you who don't know what is meant right this is really speeding up our workflow.
+
+03:32.460 --> 03:32.740
+Right.
+
+03:32.730 --> 03:37.800
+So only thing we need to type over here is the domain name and press tab and you can see that it creates
+
+03:37.800 --> 03:41.600
+or hear the closing and the opening tag for us.
+
+03:41.790 --> 03:45.280
+And after that in the header we're actually going to place now.
+
+03:45.390 --> 03:49.570
+And we're going to place now with an I.D. or year of NAV press.
+
+03:49.610 --> 03:54.720
+We're hearing this is going to be Nav. with an idea of you know we're here the first thing that we want
+
+03:54.720 --> 03:56.550
+to do is actually place a logo.
+
+03:56.910 --> 04:00.640
+So here I'm going to say like this that this is going to be actually a div.
+
+04:00.870 --> 04:01.240
+Right.
+
+04:01.330 --> 04:08.380
+And we can say like this class I have a logo or here press type or here now we have the door.
+
+04:08.730 --> 04:11.000
+Then within a day we're going to have an image.
+
+04:11.000 --> 04:11.450
+All right.
+
+04:11.580 --> 04:15.690
+So I'm just going to write an image and we're here with the source of we're going to go with images
+
+04:16.140 --> 04:18.410
+and then we will need a nav logo.
+
+04:18.610 --> 04:19.150
+Right.
+
+04:19.200 --> 04:21.490
+So I'm going to go with this banana right.
+
+04:21.510 --> 04:23.380
+This is where we're going to have here.
+
+04:23.580 --> 04:27.500
+And then after that we would want let's say alternative we're going to say this is going to be Nav.
+
+04:28.010 --> 04:29.910
+logo on here like this.
+
+04:29.910 --> 04:34.560
+And then after that we would want to have a phantasm like on right next to it.
+
+04:34.680 --> 04:36.210
+So I'm going to say we're here.
+
+04:36.630 --> 04:42.480
+This is going to be class here or here we're going to say far far down.
+
+04:42.550 --> 04:45.390
+So this is going to be erro down.
+
+04:45.620 --> 04:46.250
+Maicon.
+
+04:46.290 --> 04:48.860
+Now I can see that I'm not using them right now right.
+
+04:48.870 --> 04:54.120
+And you can see how much longer it takes to actually write something right there therefore actually
+
+04:54.120 --> 04:54.980
+using it.
+
+04:54.990 --> 04:57.230
+Does doesn't really speed up your work.
+
+04:57.630 --> 05:00.240
+But for these fun times I'm just going to say.
+
+05:00.690 --> 05:06.140
+This is going to be toggle here between this press table here.
+
+05:06.180 --> 05:09.020
+Now maybe let's do a closing diagram.
+
+05:09.360 --> 05:10.940
+You can see what happens right.
+
+05:11.070 --> 05:12.160
+We have an image.
+
+05:12.390 --> 05:14.540
+And then over here this is going to be are fun to us.
+
+05:14.760 --> 05:18.560
+And of course again we haven't applied any flex box nothing like that right.
+
+05:18.600 --> 05:20.300
+That's why it looks like that.
+
+05:20.340 --> 05:26.700
+And then after that one we would want is actually once the day is finished here we would want a on order
+
+05:26.770 --> 05:28.460
+list like this.
+
+05:28.560 --> 05:29.550
+I'm going to give it right away.
+
+05:29.550 --> 05:34.290
+Class and class is going to have legs or here presto.
+
+05:34.450 --> 05:35.950
+Now we have on our list.
+
+05:36.030 --> 05:44.230
+Then after that we want a list item more here within the list item we're going to have a Tref a link.
+
+05:44.370 --> 05:47.400
+And then after that we will want to say that we want.
+
+05:47.400 --> 05:48.710
+I don't know what say.
+
+05:48.720 --> 05:54.090
+Let's start with five of them right here where I'm going to say that I would want like this five of
+
+05:54.090 --> 06:01.140
+them so I'm going to say we're going this and I'm going to put put parentheses on multiplied by five.
+
+06:01.150 --> 06:04.470
+Press tab and I can see that I have five links right.
+
+06:04.500 --> 06:11.620
+And all of them have or here a Atra right and the edge is going to have it as a hash tag.
+
+06:11.810 --> 06:17.490
+And so this is going to be the debt ceiling Norio we're going to write home then we're going to write
+
+06:17.580 --> 06:25.180
+services next year we're going to say this is going to be port folio here.
+
+06:25.380 --> 06:28.070
+Then after that we're going to have a about.
+
+06:28.450 --> 06:31.730
+And last one is going to be contact contact.
+
+06:31.730 --> 06:32.660
+All right.
+
+06:32.760 --> 06:34.800
+So we have five links here.
+
+06:34.950 --> 06:36.450
+And after that we would want.
+
+06:36.610 --> 06:36.900
+Right.
+
+06:36.910 --> 06:39.750
+Or here you can see that on a smaller screen.
+
+06:40.010 --> 06:40.250
+Right.
+
+06:40.290 --> 06:43.250
+I'm actually going to have these fantastic in my All right.
+
+06:43.290 --> 06:44.920
+So you would need to create.
+
+06:45.180 --> 06:46.690
+So we're going to go back over here.
+
+06:46.770 --> 06:47.050
+Right.
+
+06:47.070 --> 06:49.900
+Still within this unheard list.
+
+06:50.040 --> 06:50.320
+Right.
+
+06:50.320 --> 06:51.820
+And this is going to be a list item.
+
+06:51.990 --> 06:52.250
+Right.
+
+06:52.340 --> 06:58.140
+And we're going to say this is going to be class and we're going to give it now have icons like this
+
+06:58.720 --> 07:06.540
+then or here in this time we're all going to say is that we would want Felix and someone to say we're
+
+07:06.540 --> 07:08.950
+here a miss.
+
+07:09.000 --> 07:10.080
+And then within.
+
+07:10.080 --> 07:14.280
+And they were going to say this is going to be I and that's right.
+
+07:14.440 --> 07:17.340
+And I can see that I have a link right.
+
+07:17.410 --> 07:22.030
+Again I'm going to have them using an order here and this is going to be a fun awesome read.
+
+07:22.050 --> 07:27.590
+You can see that I didn't finish it and I didn't write the full frontal assault like that out here.
+
+07:27.720 --> 07:30.320
+We would want a one two three four.
+
+07:30.530 --> 07:30.740
+Right.
+
+07:30.750 --> 07:37.160
+So I can just select this line and if I press control L right now it's going to copy this one.
+
+07:37.400 --> 07:38.400
+Let's say three times.
+
+07:38.400 --> 07:39.120
+Right.
+
+07:39.130 --> 07:48.030
+When are you going to start with a Facebook so far book than the next one is going to be a Instagram.
+
+07:48.030 --> 07:57.880
+So this is going to be for Instagram we're here then after that we would want a Twitter.
+
+07:57.890 --> 08:04.710
+So I would say for Twitter and then after the last one is going to be linked in once or linking then
+
+08:04.710 --> 08:11.000
+or however you want to pronounce it this is going to be a link then link it right.
+
+08:11.330 --> 08:12.910
+Now we have four icons.
+
+08:12.910 --> 08:13.780
+All right.
+
+08:14.130 --> 08:16.750
+And now you would actually want to text.
+
+08:16.770 --> 08:17.070
+All right.
+
+08:17.070 --> 08:18.880
+We would want this first banana.
+
+08:19.000 --> 08:20.290
+And this is what we do.
+
+08:20.290 --> 08:21.820
+And these two buttons.
+
+08:21.960 --> 08:22.530
+Right.
+
+08:22.530 --> 08:25.140
+And again what is going to be creating HDMI out for an hour right.
+
+08:25.140 --> 08:30.810
+We're just going to deal with CSSA first with over here with this.
+
+08:30.880 --> 08:31.420
+Right.
+
+08:31.470 --> 08:37.380
+It's just it's good if we have some kind of content the next year you can see that if we are doing some
+
+08:37.380 --> 08:44.160
+kind of changes or here whether it's actually work here once we have the nav after that we would want
+
+08:44.160 --> 08:45.210
+a banner.
+
+08:45.210 --> 08:52.380
+Someone said this is going to be ready or here with a banner so I'm going to see a D banner press time
+
+08:52.400 --> 08:53.200
+or here.
+
+08:53.370 --> 08:58.890
+And after that we were going to have a div with the class and the class over here is going to be banner
+
+08:59.880 --> 09:01.620
+text here.
+
+09:01.770 --> 09:05.800
+And within this banner text class we're going to have a few things right.
+
+09:05.820 --> 09:07.800
+First we're going to have a Hening one.
+
+09:07.980 --> 09:11.670
+And our hero is going to say that he's going to say fast.
+
+09:12.210 --> 09:13.710
+It's going right fast.
+
+09:13.710 --> 09:18.660
+And Ana you know Agnes press tab now I have my hand in one.
+
+09:18.900 --> 09:24.630
+After that I was going to have a heading three here like this and this is going to say this is what
+
+09:24.630 --> 09:25.750
+we do.
+
+09:25.760 --> 09:31.060
+I said this is what we do here again and press time.
+
+09:31.080 --> 09:32.780
+Now we have a heading three.
+
+09:32.880 --> 09:34.680
+And then it will need two things.
+
+09:34.750 --> 09:40.560
+So I'm going to say over here this is going to be our first link hashtag here and we're going to say
+
+09:40.560 --> 09:43.940
+on here start here now.
+
+09:44.220 --> 09:49.470
+This is going to be our text and we can just write all in lowercase just so later on you can see that
+
+09:49.470 --> 09:53.890
+are actually properties and values are actually changing once we apply them.
+
+09:54.160 --> 09:59.240
+So I'm going to start right now and again I'm just going to select a line and I'm going to copy this.
+
+09:59.330 --> 10:07.110
+And here we're going to say learn more and so can just in this text you know let's learn more now that
+
+10:07.110 --> 10:08.110
+we're done.
+
+10:08.230 --> 10:12.180
+We had reached him now for our.
+
+10:12.250 --> 10:19.290
+All right we're ready to move on to see a sense and actually start styling on here now.

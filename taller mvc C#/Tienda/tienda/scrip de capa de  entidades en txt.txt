@@ -1,0 +1,667 @@
+/***********Entidad Categoria*************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tienda.Entidades
+{
+    public class Categoria
+    {
+        // Atributos  de la clase Categoria
+        int _id;
+        string _codigo;
+        string _nombre;
+        string _descripcion;
+
+        // Se definen los metodos get y set
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+
+        public string Codigo
+        {
+            get { return _codigo; }
+            set { _codigo = value; }
+        }
+
+        public string Nombre
+        {
+            get { return _nombre; }
+            set { _nombre = value; }
+        }
+
+        public string Descripcion
+        {
+            get { return _descripcion; }
+            set { _descripcion = value; }
+        }
+
+        public Categoria(int Id, string Codigo, string Nombre, string Descripcion)
+        {
+            this._id = Id;
+            this._codigo = Codigo;
+            this._nombre = Nombre;
+            this._descripcion = Descripcion;
+        }
+
+        public Categoria(int Id, string Codigo, string Nombre) : this(Id, Codigo, Nombre, "")
+        {
+        }
+
+        public Categoria(int Id, string Nombre) : this(Id, "", Nombre, "")
+        {
+        }
+
+        public Categoria() : this(0, "", "", "")
+        {
+        }
+
+        
+    }
+
+
+}
+/*************************Entidad Articulo************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tienda.Entidades
+{
+    public class Articulo
+    {
+        int _Idarticulo;
+        string _Codigo;
+        string _Nombre;
+        string _Descripcion;
+        Int64 _Idcategoria;
+        Int64 _Precio_compra;
+        Int64 _Precio_venta;
+        Int64 _Stock_inicial;
+        Int64 _Stock_actual;
+        string _Fecha_produccion;
+        string _Fecha_vencimiento;
+
+
+        //Propiedades Métodos Set y Get
+
+        public int Idarticulo
+        {
+            get { return _Idarticulo; }
+            set { _Idarticulo = value; }
+        }
+        public string Codigo
+        {
+            get { return _Codigo; }
+            set { _Codigo = value; }
+        }
+        public string Nombre
+        {
+            get { return _Nombre; }
+            set { _Nombre = value; }
+        }
+        public string Descripcion
+        {
+            get { return _Descripcion; }
+            set { _Descripcion = value; }
+        }
+        public Int64 Idcategoria
+        {
+            get { return _Idcategoria; }
+            set { _Idcategoria = value; }
+        }
+        public Int64 Precio_venta
+        {
+            get { return _Precio_venta; }
+            set { _Precio_venta = value; }
+        }
+        public Int64 Precio_compra
+        {
+            get { return _Precio_compra; }
+            set { _Precio_compra = value; }
+        }
+        public Int64 Stock_inicial
+        {
+            get { return _Stock_inicial; }
+            set { _Stock_inicial = value; }
+        }
+        public Int64 Stock_actual
+        {
+            get { return _Stock_actual; }
+            set { _Stock_actual = value; }
+        }
+        public string Fecha_produccion
+        {
+            get { return _Fecha_produccion; }
+            set { _Fecha_produccion = value; }
+        }
+        public string Fecha_vencimiento
+        {
+            get { return _Fecha_vencimiento; }
+            set { _Fecha_vencimiento = value; }
+        }
+
+        //Constructores
+
+        public Articulo(int idarticulo, string codigo, string nombre, string descripcion,
+             int idcategoria, Int64 precio_compra, Int64 precio_venta, Int64 stock_inicial, Int64 stock_actual, 
+            string fecha_produccion, string fecha_vencimiento)
+        {
+            this.Idarticulo = idarticulo;
+            this.Codigo = codigo;
+            this.Nombre = nombre;
+            this.Descripcion = descripcion;
+            this.Idcategoria = idcategoria;
+            this.Precio_compra = precio_compra;
+            this.Precio_venta = precio_venta;
+            this.Stock_inicial = stock_inicial;
+            this.Stock_actual = stock_actual;
+            this.Fecha_produccion = fecha_produccion;
+            this.Fecha_vencimiento = fecha_vencimiento;
+         }
+        public  Articulo(int idarticulo, string codigo, string nombre, string descripcion,
+             int idcategoria, Int64 precio_compra, Int64 precio_venta, Int64 stock_inicial, Int64 stock_actual,
+            string fecha_produccion, string fecha_vencimiento, string txtbuscar) :
+            this(0, "", "", "", 0, 0, 0, 0, 0,"","" )
+        {
+        }
+        public Articulo( int idarticulo, string codigo) : this(0, codigo, "", "", 0, 0, 0,0, 0,"","" )
+        {
+        }
+        public Articulo(string codigo, string nombre) : this(0, "", nombre, "", 0, 0, 0, 0, 0, "", "")
+        {
+        }
+        public Articulo(string nombre, int idcategoria) : this(0, "", "", "", idcategoria,0,0,0,0,"","","")
+        {
+        }
+        public Articulo() : this(0, "", "", "", 0, 0, 0, 0, 0, "", "")
+        {
+        }
+        
+        
+    }
+}
+/************************Entidad Cliente***************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tienda.Entidades
+{
+   public class Cliente
+    {
+       int _Idcliente;
+       string _Nombre;
+       string _Apellidos;
+       string _Sexo;
+       string _Tipo_Documento;
+       string _Num_Documento;
+       string _Direccion;
+       string _Telefono;
+       string _Email;
+        //Propiedades Métodos Set y Get
+
+        public int Idcliente
+        {
+            get { return _Idcliente; }
+            set { _Idcliente = value; }
+        }
+
+        public string Nombre
+        {
+            get { return _Nombre; }
+            set { _Nombre = value; }
+        }
+
+        public string Apellidos
+        {
+            get { return _Apellidos; }
+            set { _Apellidos = value; }
+        }
+
+        public string Sexo
+        {
+            get { return _Sexo; }
+            set { _Sexo = value; }
+        }
+
+
+
+        public string Tipo_Documento
+        {
+            get { return _Tipo_Documento; }
+            set { _Tipo_Documento = value; }
+        }
+        public string Num_Documento
+        {
+            get { return _Num_Documento; }
+            set { _Num_Documento = value; }
+        }
+
+        public string Direccion
+        {
+            get { return _Direccion; }
+            set { _Direccion = value; }
+        }
+
+        public string Telefono
+        {
+            get { return _Telefono; }
+            set { _Telefono = value; }
+        }
+
+        public string Email
+        {
+            get { return _Email; }
+            set { _Email = value; }
+        }
+
+
+
+        //Constructores
+
+        public Cliente(int idcliente, string nombre, string apellidos, string sexo,
+             string tipo_documento, string num_documento, string direccion,
+            string telefono, string email)
+        {
+            this.Idcliente = idcliente;
+            this.Nombre = nombre;
+            this.Apellidos = apellidos;
+            this.Sexo = sexo;
+            this.Tipo_Documento = tipo_documento;
+            this.Num_Documento = num_documento;
+            this.Direccion = direccion;
+            this.Telefono = telefono;
+            this.Email = email;
+
+
+        }
+
+       
+
+        public Cliente(int idcliente, string nombre, string apellidos, string sexo, string tipo_documento, string num_documento, string direccion, string telefono, string email, string textobuscar) : 
+            this( idcliente,  nombre,  apellidos,  "",tipo_documento,  num_documento,  "", telefono, "")
+        {
+        }
+
+        public Cliente(int idcliente) : this(idcliente, "", "", "", "", "", "", "", "")
+        {
+        }
+
+        public Cliente(string nombre) : this(0, nombre, "", "", "", "", "", "", "")
+        {
+        }
+        public Cliente(string nombre, string apellido) : this(0, nombre, apellido, "", "", "", "", "", "")
+        {
+        }
+        public Cliente (int idcliente,string num_documento) : this( 0, "","", "","",num_documento,"","","" )
+        {
+        }
+
+        public Cliente() : this(0, "", "", "","","","","","","")
+        {
+        }
+
+
+
+
+
+    }
+}
+/*******************************Entidad Login*********************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tienda.Entidades
+{
+   public class EntidadLogin
+    {
+        public string Acceso { get; set; }
+        public string Usuario { get; set; }
+        public string Password { get; set; }
+        //Constructores
+
+        public EntidadLogin( string acceso, string usuario, string password)
+        {
+           
+            this.Acceso = acceso;
+            this.Usuario = usuario;
+            this.Password = password;
+
+        }
+        public EntidadLogin(string Acceso) : this(Acceso, "", "")
+        {
+        }
+
+        public EntidadLogin()        {
+        }
+        
+    }
+}
+/********************************Entidad Vendedor**************************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tienda.Entidades
+{
+    public class Vendedor
+    {
+
+        int _Idvendedor;
+        string _Nombre;
+        string _Apellidos;
+        string _Sexo;
+        string _Tipo_Documento;
+        string _Num_Documento;
+        string _Direccion;
+        string _Telefono;
+        string _Email;
+        string _Acceso;
+        string _Usuario;
+        string _Password;
+        //Propiedades Métodos Set y Get
+
+        public int Idvendedor
+        {
+            get { return _Idvendedor; }
+            set { _Idvendedor = value; }
+        }
+
+        public string Nombre
+        {
+            get { return _Nombre; }
+            set { _Nombre = value; }
+        }
+
+        public string Apellidos
+        {
+            get { return _Apellidos; }
+            set { _Apellidos = value; }
+        }
+
+        public string Sexo
+        {
+            get { return _Sexo; }
+            set { _Sexo = value; }
+        }
+
+
+
+        public string Tipo_Documento
+        {
+            get { return _Tipo_Documento; }
+            set { _Tipo_Documento = value; }
+        }
+        public string Num_Documento
+        {
+            get { return _Num_Documento; }
+            set { _Num_Documento = value; }
+        }
+
+        public string Direccion
+        {
+            get { return _Direccion; }
+            set { _Direccion = value; }
+        }
+
+        public string Telefono
+        {
+            get { return _Telefono; }
+            set { _Telefono = value; }
+        }
+
+        public string Email
+        {
+            get { return _Email; }
+            set { _Email = value; }
+        }
+
+        public string Acceso
+        {
+            get { return _Acceso; }
+            set { _Acceso = value; }
+        }
+
+        public string Usuario
+        {
+            get { return _Usuario; }
+            set { _Usuario = value; }
+        }
+
+        public string Password
+        {
+            get { return _Password; }
+            set { _Password = value; }
+        }
+
+        //Constructores
+
+        public Vendedor(int idvendedor, string nombre, string apellidos, string sexo,
+             string tipo_documento, string num_documento, string direccion,
+            string telefono, string email, string acceso, string usuario, string password)
+        {
+            this.Idvendedor = idvendedor;
+            this.Nombre = nombre;
+            this.Apellidos = apellidos;
+            this.Sexo = sexo;
+            this.Tipo_Documento = tipo_documento;
+            this.Num_Documento = num_documento;
+            this.Direccion = direccion;
+            this.Telefono = telefono;
+            this.Email = email;
+            this.Acceso = acceso;
+            this.Usuario = usuario;
+            this.Password = password;
+
+
+
+        }
+
+
+
+        public Vendedor(int idcliente, string nombre, string apellidos, string sexo, string tipo_documento, string num_documento, string direccion, string telefono, string email, bool acceso, string usuario, string password) :
+            this(0, "", "", "", "", "", "", "", "", "", usuario, password)
+        {
+        }
+
+        public Vendedor(int idvendedor) : this(idvendedor, "", "", "", "", "", "", "", "","", "", "")
+        {
+        }
+
+        public Vendedor(string nombre) : this(0, nombre, "", "", "", "", "", "", "", "", "", "")
+        {
+        }
+        public Vendedor(string nombre, string apellido) : this(0, nombre, apellido, "", "", "", "", "", "", "", "", "")
+        {
+        }
+        public Vendedor(int idcliente, string num_documento) : this(0, "", "", "", "", num_documento, "", "", "", "", "", "")
+        {
+        }
+
+        public Vendedor() : this(0, "", "", "", "", "", "", "", "", "", "", "")
+        {
+        }
+
+    }
+
+}
+/*****************************Entidad Pedido***************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tienda.Entidades
+{
+    public class Pedido
+    {
+        int _Idpedido;
+        int _Idcliente;
+        int _Idvendedor;
+        int _Idarticulo;
+        string _Fecha_pedido;
+        string _Aceptacion_pedido;
+        //Propiedades Métodos Set y Get
+        public int Idpedido
+        {
+            get { return _Idpedido; }
+            set { _Idpedido = value; }
+        }
+        public int Idcliente
+        {
+            get { return _Idcliente; }
+            set { _Idcliente = value; }
+        }
+        public int Idvendedor
+        {
+            get { return _Idvendedor; }
+            set { _Idvendedor = value; }
+        }
+        public int Idarticulo
+        {
+            get { return _Idarticulo; }
+            set { _Idarticulo = value; }
+        }
+        public string Fecha_pedido
+        {
+            get { return _Fecha_pedido; }
+            set { _Fecha_pedido = value; }
+        }
+        public string Aceptacion_pedido
+        {
+            get { return _Aceptacion_pedido; }
+            set { _Aceptacion_pedido = value; }
+        }
+
+
+        //Constructores
+
+        public Pedido(int idpedido,int idcliente, int idvendedor, int idarticulo,
+            string fecha_pedido, string aceptacion_pedido)
+        {
+            this.Idpedido = idpedido;
+            this.Idcliente = idcliente;
+            this.Idvendedor = idvendedor;
+            this.Idarticulo = idarticulo;
+            this.Fecha_pedido = fecha_pedido;
+            this.Aceptacion_pedido = aceptacion_pedido;
+           
+        }
+
+        public Pedido(int idpedido, int idcliente, int idvendedor, int idarticulo, string fecha_pedido, string aceptacion_pedido, string bucartxt) :
+            this( 0, 0, 0, 0, "", "")
+        {
+        }
+
+        public Pedido(int idpedido) : this(0, 0, 0, 0, "", "")
+        {
+        }
+        public Pedido(int idpedido, int idvendedor) : this(0, 0, 0, 0, "", "")
+        {
+        }
+
+        public Pedido(int idpedido, int idcliente, int idvendedor) : this(0,0, 0, 0, "", "")
+        {
+        }
+
+        public Pedido(int idpedido, int idcliente, int idvendedor, int idarticulo) : this(0, 0, 0, 0, "", "")
+        {
+        }
+
+        public Pedido() : this(0, 0, 0, 0, "", "")
+        {
+        }
+    }
+}
+/*********************Entidad Detalle_pedido*************************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tienda.Entidades
+{
+   public class Detalle_pedido
+    {
+        int _IdDetalle;
+        int _IdPedido;
+        int _IdArticulo;
+        string _Nombre;
+        decimal _Precio_unitario;
+        decimal _Valor_total;
+        int _Cantidad;
+        //Propiedades Métodos Set y Get
+
+        public int IdDetalle { get => _IdDetalle; set => _IdDetalle = value; }
+        public int IdPedido { get => _IdPedido; set => _IdPedido = value; }
+        public int IdArticulo { get => _IdArticulo; set => _IdArticulo = value; }
+        public decimal Precio_unitario { get => _Precio_unitario; set => _Precio_unitario = value; }
+        public decimal Valor_total { get => _Valor_total; set => _Valor_total = value; }
+        public int Cantidad { get => _Cantidad; set => _Cantidad = value; }
+        public string Nombre { get => _Nombre; set => _Nombre = value; }
+
+
+        //Constructores
+
+        public Detalle_pedido (int iddetalle, int idpedido,  int idarticulo, string nombre, decimal precio_unitario, decimal valor_total, int cantidad)
+        {
+            this.IdDetalle = iddetalle;
+            this.IdPedido = idpedido;
+            this.IdArticulo = idarticulo;
+            this.Nombre = nombre;
+            this.Precio_unitario = precio_unitario;
+            this.Valor_total = valor_total;
+            this.Cantidad = cantidad;                      
+        }
+
+        public Detalle_pedido(int iddetalle, int idpedido, int idarticulo,  string nombre, decimal precio_unitario, decimal valor_total, int cantidad, string textbuscar)
+           : this(0,0,0,"",0,0,0)
+        {            
+        }
+        public Detalle_pedido(int iddetalle,int idpedido, int idarticulo, decimal precio_unitario,  int cantidad, decimal valor_total)
+           : this(0, 0, 0,"",0,  0, 0)
+        {
+        }
+
+        public Detalle_pedido(int iddetalle)
+          : this(0, 0, 0,"", 0, 0, 0)
+        {
+        }
+
+        public Detalle_pedido(int iddetalle, int idpedido)
+         : this(0, 0, 0, "", 0, 0, 0)
+        {
+        }
+
+        public Detalle_pedido(int iddetalle, int idpedido, int idarticulo)
+         : this(0, 0, 0, "", 0, 0, 0)
+        {
+        }
+
+        public Detalle_pedido(int iddetalle, int idpedido, int idarticulo, int cantidad)
+         : this(0, 0, 0,"",  0, 0, 0)
+        {
+        }
+        public Detalle_pedido()
+         : this(0, 0, 0, "", 0, 0, 0)
+        {
+        }
+    }
+}

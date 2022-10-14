@@ -1,0 +1,265 @@
+1
+
+00:00:00,000  -->  00:00:04,589
+Hello everyone and welcome to the Python course that we're going to be doing. My
+
+2
+
+00:00:04,589  -->  00:00:08,220
+name is Nick and i'm going to be the
+instructor for this course, and it's
+
+3
+
+00:00:08,220  -->  00:00:12,210
+going to be my job to get you completely
+immersed in the Python programming
+
+4
+
+00:00:12,210  -->  00:00:18,240
+language. Now, this course is going to be
+aimed at somebody who may have basic
+
+5
+
+00:00:18,240  -->  00:00:22,470
+knowledge about what a programming
+language is but this would be your first
+
+6
+
+00:00:22,470  -->  00:00:26,699
+programming language, and this is a great programming language to start with. It
+
+7
+
+00:00:26,699  -->  00:00:30,300
+does have some limitations and sometimes this is not the right tool for the job,
+
+8
+
+00:00:30,300  -->  00:00:36,390
+but a lot of times this offers people
+who have no experience programming a
+
+9
+
+00:00:36,390  -->  00:00:40,410
+really great way of understanding what a
+programming language is and how to use
+
+10
+
+00:00:40,410  -->  00:00:45,899
+one. So, the main differences between
+Python and other languages like C++, or C,
+
+11
+
+00:00:45,899  -->  00:00:55,410
+or Java is that Python is built around
+two main focal points which I believe
+
+12
+
+00:00:55,410  -->  00:01:03,090
+are code readability and simplicity. So,
+we're gonna jump into the
+
+13
+
+00:01:03,090  -->  00:01:08,130
+language here and in a few videos but we
+need to do a few things first. First we
+
+14
+
+00:01:08,130  -->  00:01:14,310
+need to discuss what Python is, and then
+we need to get it installed, and then we
+
+15
+
+00:01:14,310  -->  00:01:19,560
+can start discussing you know what's an
+interpreter, how do you run a
+
+16
+
+00:01:19,560  -->  00:01:25,259
+Python script, and then get into the
+language itself. Now, the language is
+
+17
+
+00:01:25,259  -->  00:01:30,420
+different but it's easy, and once we get
+past an understanding of how the
+
+18
+
+00:01:30,420  -->  00:01:33,689
+programming language works, and the
+syntax, and all the different stuff you
+
+19
+
+00:01:33,689  -->  00:01:34,710
+do with it,
+
+20
+
+00:01:34,710  -->  00:01:41,189
+we're going to move on to actually
+programming real applications and
+
+21
+
+00:01:41,189  -->  00:01:46,170
+showing you guys different practical
+applications of the python programming
+
+22
+
+00:01:46,170  -->  00:01:50,130
+language. So, for instance, we're going to
+be building a website,
+
+23
+
+00:01:51,119  -->  00:01:57,869
+we're going to be building a web scraper,
+and a graphical utility we're actually
+
+24
+
+00:01:57,869  -->  00:02:01,560
+going to be building multiple graphical
+tools because there are a few different
+
+25
+
+00:02:01,560  -->  00:02:06,600
+graphical or GUI, GUI, whatever you want
+to call it there's a few different
+
+26
+
+00:02:06,600  -->  00:02:09,629
+frameworks for Python that we could use.
+
+27
+
+00:02:09,629  -->  00:02:12,750
+So we're going to explore three of them. So,
+
+28
+
+00:02:13,319  -->  00:02:18,150
+right off the bat here's a fun fact if
+you didn't know python is actually named
+
+29
+
+00:02:18,150  -->  00:02:23,129
+after Monty Python who's made some great films, so if you if you haven't seen
+
+30
+
+00:02:23,129  -->  00:02:26,879
+Search for the Holy Grail or the Life of
+Brian go do it,
+
+31
+
+00:02:28,170  -->  00:02:31,170
+they're great movies, which is completely
+beside the point.
+
+32
+
+00:02:31,769  -->  00:02:37,019
+So, Python is actually a pretty old
+programming language. It was first
+
+33
+
+00:02:37,019  -->  00:02:41,069
+introduced in 1991 which makes it 25
+years old.
+
+34
+
+00:02:41,909  -->  00:02:47,609
+There's two current versions, now this
+may be confusing as well, so there's a
+
+35
+
+00:02:47,609  -->  00:02:54,090
+Python 2 series and there's a Python 3
+series. The Python 2 is currently at 2.7.11
+
+36
+
+00:02:54,090  -->  00:03:00,000
+and the 3 series is at 3.5.1. Now we're going to be
+
+37
+
+00:03:00,000  -->  00:03:06,419
+using Python 3 in this course however
+Python 2 shouldn't be much different if
+
+38
+
+00:03:06,419  -->  00:03:11,489
+afterwards you want to explore using
+Python 2 that's completely acceptable.
+
+39
+
+00:03:11,489  -->  00:03:20,340
+Now as I said Python is based around
+simplicity and readability and this
+
+40
+
+00:03:20,340  -->  00:03:25,169
+means that when you look at Python code
+it's all indentation based. So, if you
+
+41
+
+00:03:25,169  -->  00:03:29,489
+looked at another code like Java you would see a lot of curly braces, and brackets, and a
+
+42
+
+00:03:29,489  -->  00:03:37,109
+lot of things that are just there to
+confuse the the novice programmer. Python
+
+43
+
+00:03:37,109  -->  00:03:41,310
+is based on indentation so you don't
+need to wrap blocks of code in curly
+
+44
+
+00:03:41,310  -->  00:03:45,959
+braces and you guys will see what I mean
+coming up in the next few
+
+45
+
+00:03:45,959  -->  00:03:51,419
+videos. So, that's all we're going to talk
+about today. I hope you guys enjoy this
+
+46
+
+00:03:51,419  -->  00:03:53,040
+course and find it useful.

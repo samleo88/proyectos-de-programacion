@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.230 --> 00:07.230
+And next up we have the services section where we would like to display what services the company provides.
+
+00:07.800 --> 00:14.770
+Now let's head over back to our project within the indexation memo right after the end of about section.
+
+00:14.880 --> 00:25.290
+I'm going to create two more comments and we'll then the right services section up in paste and end
+
+00:25.290 --> 00:27.530
+of services section.
+
+00:27.530 --> 00:28.280
+Okay.
+
+00:28.290 --> 00:31.850
+Now once we have the comments let's start by creating a section.
+
+00:32.070 --> 00:35.780
+Then let's add right away our generic class for departing.
+
+00:35.850 --> 00:39.210
+Remember the class name was section and land right away.
+
+00:39.210 --> 00:42.100
+Let's also add services class.
+
+00:42.390 --> 00:49.020
+And then last but not least we're going to add also a services I.D. just so later on we can set up our
+
+00:49.040 --> 00:49.670
+number.
+
+00:49.920 --> 00:52.620
+So once we click on a link we can navigate there.
+
+00:52.720 --> 00:58.170
+And then I'm gonna look for the title and in this case we could scroll up of course but we could also
+
+00:58.170 --> 01:05.730
+use a shortcut where I press command f then I could just type title and this in fact is going to find
+
+01:05.730 --> 01:10.740
+me a title if I am gonna be able to in fact spell it correctly.
+
+01:10.740 --> 01:13.800
+So let's look for the first title that's not what we're looking for.
+
+01:13.800 --> 01:17.630
+And then we have a hero title and then of course we have our own title.
+
+01:17.910 --> 01:20.360
+So that's exactly we're going to grab.
+
+01:20.370 --> 01:23.100
+So let me copy and paste that like so.
+
+01:23.460 --> 01:29.820
+Then again I can use in fact my shortcut where instead of title I'm going to look for services.
+
+01:29.850 --> 01:32.740
+And sure enough I'm back in the services section.
+
+01:32.760 --> 01:38.590
+As always you can scroll up and down and look for the title but I'm just showing you a shortcut.
+
+01:38.730 --> 01:42.760
+And in most cases the shortcut is gonna speed up your development.
+
+01:42.780 --> 01:43.270
+All right.
+
+01:43.590 --> 01:48.030
+Let me copy and paste that then let's write a different title.
+
+01:48.270 --> 01:58.690
+So let's write our services services like so the moment we say that since we already have the classes
+
+01:58.690 --> 02:05.380
+and see assess for the title as well as section set up remember our generic class well that's the reason
+
+02:05.380 --> 02:08.160
+why we write or we have this awesome layout.
+
+02:08.720 --> 02:12.470
+Now within the services section what we would like to do.
+
+02:12.490 --> 02:15.670
+Well let's create a section center class.
+
+02:15.730 --> 02:22.930
+Remember that was also responsible for already some success as well as services center for in fact setting
+
+02:22.930 --> 02:24.400
+up our columns.
+
+02:24.820 --> 02:31.150
+So we have a services section and then right after the title I'm going to write that there's going to
+
+02:31.150 --> 02:39.980
+be a div let's say section center comment something like that and then let's write like I said there.
+
+02:40.050 --> 02:49.430
+Section center that is the class that we already created before and then services center that is going
+
+02:49.430 --> 02:51.860
+to be responsible for a cloud.
+
+02:52.100 --> 02:56.540
+And then within in fact this Dave I'm going to set up a few articles.
+
+02:56.540 --> 03:04.400
+Now again I'm going to create some comment right away single service let's copy and paste that and let's
+
+03:04.400 --> 03:10.730
+in fact write and of single service and then within a third single service I'm going to have the article
+
+03:11.550 --> 03:19.490
+article with a class of service like so and then let's start placing our items first of all I would
+
+03:19.490 --> 03:20.800
+like to place an icon.
+
+03:21.260 --> 03:29.120
+So I'm going to have a span with the class of service icon like I previously mentioned.
+
+03:29.480 --> 03:35.210
+If you don't like this kind of setup of course within CSX you can just use the service class let's say
+
+03:35.690 --> 03:38.150
+and then style whatever you like.
+
+03:38.150 --> 03:43.170
+No I do prefer adding the classes because it just makes a little bit makes sense for me.
+
+03:43.250 --> 03:50.690
+But again it's really up to you then within this particular span I'm gonna place my icon and the value
+
+03:50.690 --> 03:52.510
+for the icon is going to be I.
+
+03:52.580 --> 03:58.580
+So I element and then few classes and I'm going to start with F and wallet.
+
+03:58.580 --> 04:05.660
+Now I'm also gonna add a fixed class for my icons because in that case all my icons are gonna have fixed
+
+04:05.660 --> 04:08.720
+with so the layout is gonna be exactly the same.
+
+04:08.770 --> 04:11.180
+And this class is coming from phantasm.
+
+04:11.210 --> 04:14.100
+So again we don't need to invent a door or anything like that.
+
+04:14.210 --> 04:17.930
+I just add this FAA fixed with and there you go.
+
+04:17.930 --> 04:23.480
+I'm gonna have my wallet icon then after that there's going to be some info.
+
+04:23.840 --> 04:32.240
+So right after this panel I'm gonna place a div with a class of service icon like so and then within
+
+04:32.240 --> 04:43.450
+this there there's going to be a hearing for with a class of service Tyrell let's just ride saving money.
+
+04:43.450 --> 04:46.130
+MIKE So let's say that that is going to be our title.
+
+04:46.330 --> 04:54.050
+And then right after the heading for there is going to be a paragraph with a class of service text.
+
+04:54.160 --> 04:59.800
+Now within the paragraph I'm gonna have it on all five 10 words something like that.
+
+04:59.860 --> 05:01.680
+So Lorem 10 12.
+
+05:01.690 --> 05:02.940
+It doesn't really matter.
+
+05:03.070 --> 05:04.670
+Let's go with 10.
+
+05:04.690 --> 05:07.900
+Let's say that and that is going to be our first service.
+
+05:07.930 --> 05:12.040
+Now what I would like to do right now is in fact grab my service.
+
+05:12.040 --> 05:17.630
+So single service comment all the way up to the end of single service comment and then let's just copy
+
+05:17.630 --> 05:21.290
+and paste it twice two times nice one.
+
+05:21.580 --> 05:27.670
+And then let's just change some of these values around where for a second one we're going to have a
+
+05:27.670 --> 05:35.230
+different icon and the icon is going to have a value of tree like so that is going to make my tree and
+
+05:35.230 --> 05:44.510
+as well as the title is going to be unless I can I King something like that.
+
+05:44.580 --> 05:48.290
+And last but not least we have our socks for amazing comfort.
+
+05:48.900 --> 06:00.340
+So let's change again the icon but change it to socks and let's write amazing comfort and amazing comfort.
+
+06:00.490 --> 06:01.740
+And there you go.
+
+06:01.810 --> 06:03.970
+We're done with our Asian email setup.
+
+06:03.970 --> 06:05.740
+Now we can start our styling.

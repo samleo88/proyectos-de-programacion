@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.750 --> 00:07.170
+We also have an option of using the route pseudo class selector where we're styling the root element
+
+00:07.290 --> 00:12.830
+of the document which in our case is gonna be h the email document and right off the bat I can tell
+
+00:12.830 --> 00:18.660
+that this is probably gonna be used mostly for general styles as well as we all gonna use it with C
+
+00:18.650 --> 00:21.800
+assessed variables that we haven't covered yet.
+
+00:21.810 --> 00:26.880
+Now this is gonna work well first of all let's get rid of all this old garbage.
+
+00:26.880 --> 00:30.800
+Well not really garbage but I just needed to use some kind of word.
+
+00:30.870 --> 00:37.020
+So let's get rid of the old code then in the indexation email we're going to add or not create adding
+
+00:37.080 --> 00:37.480
+one.
+
+00:37.740 --> 00:39.420
+That's not what I wanted to do.
+
+00:39.480 --> 00:43.480
+So I'd like to delete them here and let's start by having one.
+
+00:43.520 --> 00:46.420
+And this is gonna be simple heading one having one.
+
+00:46.440 --> 00:53.250
+Let's say I am heading and then let's add two paragraphs now for the paragraphs though I would want
+
+00:53.250 --> 01:00.390
+to have two classes of there's gonna be paragraph with Lauren so not 20 words as well as I would like
+
+01:00.390 --> 01:01.660
+to add the class.
+
+01:01.700 --> 01:07.050
+Now the class is going to be absolute doesn't really matter how you call the class as long as you as
+
+01:07.050 --> 01:13.650
+always remember how to actually start in a C assess meaning you remembered a name so you can access
+
+01:13.650 --> 01:20.160
+the class and here let's say responsive then we're gonna have a look at what would be the difference
+
+01:20.640 --> 01:21.770
+within the root element.
+
+01:21.810 --> 01:22.620
+So far so good.
+
+01:22.620 --> 01:25.570
+So we have all reached the email now for the road.
+
+01:25.590 --> 01:27.400
+Again we're gonna do something like this.
+
+01:27.600 --> 01:33.110
+And the most basic way would be doing well let's say background is going to be read.
+
+01:33.210 --> 01:35.770
+Now again this is something we already have covered.
+
+01:35.910 --> 01:41.320
+So obviously if we're selecting the h a melon we're saying that the background should be read.
+
+01:41.460 --> 01:47.580
+What happens is that since this is very much the route of oral document just because we start this thread
+
+01:47.610 --> 01:50.120
+obviously right now we're gonna have the background right.
+
+01:50.340 --> 01:51.110
+So far so good.
+
+01:51.150 --> 01:52.150
+Very simple.
+
+01:52.170 --> 01:57.840
+Now if this is annoying or can just come into out maybe some of you hate the red color especially since
+
+01:57.840 --> 01:59.250
+it's for the whole background.
+
+01:59.700 --> 02:04.740
+But what is more interesting and what it would be the cases apart from CFS variables that we haven't
+
+02:04.740 --> 02:07.020
+covered but we will gonna cover later.
+
+02:07.050 --> 02:12.540
+And again I'm willing to revisit the root because this we're all gonna be setting up the variables but
+
+02:12.540 --> 02:14.010
+where else we can use the root.
+
+02:14.040 --> 02:19.380
+Now we can use it for general styles so let's say that I would have a heading one and in the font size
+
+02:19.380 --> 02:20.200
+is here.
+
+02:20.220 --> 02:25.160
+I don't know could be anything as long as you're using the harem.
+
+02:25.170 --> 02:29.490
+So I'm just gonna say font size is gonna be three areas.
+
+02:29.620 --> 02:32.750
+So remember this was responsive values.
+
+02:32.950 --> 02:39.820
+However they were responsive towards the root so they were responsive as the root was changing.
+
+02:39.820 --> 02:40.560
+Okay.
+
+02:40.630 --> 02:43.390
+What about the paragraph that was absolute.
+
+02:43.400 --> 02:48.230
+Let's use actually the absolute values which would be pixels.
+
+02:48.800 --> 02:52.460
+And you're gonna say font size of 20 pixels.
+
+02:52.480 --> 02:55.900
+Now we're also trying to do is for the responsive one.
+
+02:56.020 --> 03:01.270
+I had the same value just with our M values because remember the whole idea was like this.
+
+03:01.300 --> 03:05.660
+That one our M was actually 16 pixels correct.
+
+03:05.670 --> 03:08.110
+That was the default one coming from the browser.
+
+03:08.320 --> 03:10.120
+So this should be exactly the same.
+
+03:10.510 --> 03:13.640
+So the question here is for the responsive one.
+
+03:13.660 --> 03:17.000
+If I'm gonna add let's say one point five.
+
+03:17.080 --> 03:18.430
+What is that going to be.
+
+03:18.430 --> 03:25.330
+Well if we do a little bit of math we know on that sixteen one point five meaning this would be 24 because
+
+03:25.330 --> 03:28.940
+we had one full sixteen and then we would add eight.
+
+03:28.960 --> 03:32.730
+So in that case we would be getting exactly the same 24.
+
+03:32.770 --> 03:38.540
+Now if you don't believe me think you can just check it out here in the browser and we'll see the both
+
+03:38.560 --> 03:40.440
+of them are exactly the same.
+
+03:40.510 --> 03:42.730
+So where does the root element come in right now.
+
+03:43.570 --> 03:49.630
+Well we already know that the reason why we're using the arms is that lets say if the user would like
+
+03:49.630 --> 03:50.800
+to change the font size.
+
+03:51.340 --> 03:57.140
+So if the user of the like you know what I don't like how the sponsor lets say too big or too small
+
+03:57.490 --> 04:03.940
+so the user cannot go always actually to their settings and the way we go to the settings again we click
+
+04:03.940 --> 04:08.610
+on this icon then we're looking for the settings and then within the settings we have the font size.
+
+04:08.860 --> 04:14.800
+So what happens is if we're gonna change this let's say to the very large the text that was used with
+
+04:14.800 --> 04:17.240
+our Iams is going to become very large.
+
+04:17.240 --> 04:18.490
+Now don't believe me.
+
+04:18.520 --> 04:24.640
+Notice this is large already we know this but we cannot see it technically that this was bigger than
+
+04:24.640 --> 04:25.720
+it used to be.
+
+04:25.720 --> 04:31.600
+However we can see it here with due paragraph where previously they were exactly the same because they
+
+04:31.600 --> 04:33.550
+were 24 pixels.
+
+04:33.670 --> 04:39.240
+The moment we change the settings on a user because this is depending on the settings on a user.
+
+04:39.250 --> 04:41.120
+Now this is getting much more bigger.
+
+04:41.220 --> 04:44.130
+Okay so that was just something we already have covered.
+
+04:44.170 --> 04:48.640
+Let me put this back on a medium just so we can see that again most of them are going to be exactly
+
+04:48.640 --> 04:49.490
+the same.
+
+04:49.520 --> 04:51.620
+And now let's look at the root element.
+
+04:51.940 --> 04:57.880
+So what's happening is if we're gonna be styling something relative the route we can go back to the
+
+04:57.880 --> 04:59.500
+route and we can change these settings.
+
+05:00.070 --> 05:03.310
+So let's say in this case our styling everything towards the road.
+
+05:03.700 --> 05:10.120
+So my heading one was three our Amazon obviously most likely you're going to have your paragraphs that
+
+05:10.180 --> 05:11.520
+are gonna be smaller.
+
+05:11.620 --> 05:14.440
+However they were smaller relative to the route.
+
+05:14.500 --> 05:20.440
+So if I'm gonna make a change here of let's say font size and if I'm going to start changing with the
+
+05:20.440 --> 05:25.810
+percentages if I'm going to say 100 percent nothing is going to change because this is still going to
+
+05:25.810 --> 05:27.330
+mean 16 pixels.
+
+05:27.340 --> 05:31.860
+However if we're gonna go hundred and fifty pixels notice what happens.
+
+05:31.870 --> 05:39.100
+So now we're increasing the value here by these 50 percent but this was relative to the actual route.
+
+05:39.490 --> 05:45.260
+So everything that we can change within this property in the road what we're going to have is the responsive
+
+05:45.290 --> 05:52.200
+values but again the absolute one didn't change because absolute was just 24 pixels.
+
+05:52.240 --> 05:53.630
+And I'm good to go.
+
+05:53.710 --> 05:58.550
+The relative one is the one that you can say okay this is gonna be three arms.
+
+05:58.600 --> 05:59.920
+So relative to the road.
+
+06:00.160 --> 06:04.990
+So if you're going to be changing something let's say you can make the whole document whole what page
+
+06:04.990 --> 06:11.530
+whole whatever application and at the end of the day you can be like Yeah well three arms is OK.
+
+06:11.550 --> 06:16.510
+And one point five but I would want to make it bigger so you can head over back to the road and you
+
+06:16.510 --> 06:22.030
+can just change these values and it will gonna be affected all throughout the document where you use
+
+06:22.030 --> 06:25.150
+the responsive values that are related to the root.

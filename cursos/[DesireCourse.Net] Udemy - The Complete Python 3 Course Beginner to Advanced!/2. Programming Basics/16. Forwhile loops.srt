@@ -1,0 +1,191 @@
+1
+00:00:00,670 --> 00:00:06,520
+Muy bien chicos, estamos a punto de crear un programa de calculadora en Python.
+
+2
+00:00:06,740 --> 00:00:10,150
+Y antes de hacerlo, necesitamos aprender algunas cosas más.
+
+3
+00:00:10,310 --> 00:00:14,760
+Así que vamos a revisar un par de tipos de bucle en Python.
+
+4
+00:00:14,930 --> 00:00:22,620
+Entonces, hay dos de ellos en un ciclo for y uno de ellos es un ciclo WHILE.
+
+5
+00:00:22,670 --> 00:00:32,010
+Entonces, básicamente, un bucle for es bueno si quieres iterar sobre una matriz o una lista de Python.
+
+6
+00:00:32,380 --> 00:00:35,890
+No puede hacer algo por cada elemento de la lista.
+
+7
+00:00:35,890 --> 00:00:44,520
+Así que sigamos y creamos una lista, así que simplemente llamemos números y vamos a crear una matriz.
+
+8
+00:00:44,540 --> 00:00:48,530
+Uno dos tres cuatro o cinco.
+
+9
+00:00:48,530 --> 00:00:59,280
+Digamos por los números de los ítems y vamos a imprimir el ítem con guardar.
+
+10
+00:00:59,340 --> 00:01:05,740
+Ahora sigamos y ejecutemos esto y verán que en cada línea imprime su número.
+
+11
+00:01:05,740 --> 00:01:11,380
+Entonces, podríamos hacer esto si quisiéramos tener cinco tiempos diferentes aquí.
+
+12
+00:01:11,380 --> 00:01:20,620
+Así que, de nuevo, escojamos a otra persona para que diga esto.
+
+13
+00:01:21,020 --> 00:01:22,870
+Avancemos y ejecutemos el script nuevamente.
+
+14
+00:01:23,150 --> 00:01:25,240
+E imprimirá a continuación a alguien y a otra persona.
+
+15
+00:01:25,360 --> 00:01:27,160
+Entonces, lo que podemos hacer aquí
+
+16
+00:01:31,600 --> 00:01:36,690
+es que podemos tener el nombre de esta persona y luego el nombre de la persona.
+
+17
+00:01:36,700 --> 00:01:40,330
+Así que sigamos y verás que para cada uno se imprime.
+
+18
+00:01:40,420 --> 00:01:41,980
+Entonces eso es un ciclo for.
+
+19
+00:01:42,010 --> 00:01:51,700
+Básicamente, el segundo parámetro aquí en el ciclo for es la matriz o la lista y luego el primero aquí es
+
+20
+00:01:51,700 --> 00:01:52,980
+lo que quieres.
+
+21
+00:01:52,990 --> 00:01:57,430
+Cada elemento de la lista se llamará mientras se encuentre dentro de su pequeño bloque de código.
+
+22
+00:01:57,760 --> 00:01:59,850
+Entonces en este caso estamos llamando elementos.
+
+23
+00:01:59,950 --> 00:02:01,700
+Entonces eso es un ciclo for.
+
+24
+00:02:01,930 --> 00:02:09,500
+Ahora vamos a aprender sobre un ciclo while así que sigamos adelante y creemos dos variables.
+
+25
+00:02:09,560 --> 00:02:12,350
+Uno se llamará run y va a ser igual a true.
+
+26
+00:02:12,800 --> 00:02:16,710
+Y el otro se llamará Actual.
+
+27
+00:02:16,850 --> 00:02:20,100
+Va a ser igual a cero que realmente quiero.
+
+28
+00:02:20,190 --> 00:02:29,500
+Avancemos y lo que vamos a hacer es escribir wild run y luego escribir lo que queremos que suceda.
+
+29
+00:02:29,510 --> 00:02:35,840
+Sabes si si se está ejecutando actualmente, entonces lo que vamos a hacer es poner
+
+30
+00:02:35,840 --> 00:02:42,570
+aquí una declaración if, así que vamos a ir si la corriente es igual a 100.
+
+31
+00:02:42,660 --> 00:02:47,540
+De hecho, no necesito esos corchetes correctos.
+
+32
+00:02:47,600 --> 00:02:55,900
+Entonces, si la corriente es igual a 100, vamos a establecer la ejecución en Phos.
+
+33
+00:02:56,540 --> 00:03:03,270
+Pero si no es así, vamos a Francia actual.
+
+34
+00:03:03,350 --> 00:03:05,500
+Y luego, después de
+
+35
+00:03:07,960 --> 00:03:13,070
+imprimir la corriente, actualícese. Esa es la última.
+
+36
+00:03:13,680 --> 00:03:18,980
+Avancemos y veamos si esto es lo que va a hacer, básicamente, estamos configurando la ejecución como
+
+37
+00:03:18,980 --> 00:03:22,190
+verdadera inicialmente porque queremos que se ejecute al menos una vez.
+
+38
+00:03:22,250 --> 00:03:27,480
+Entonces, mientras corro, en este caso, la primera vez que pasa, definitivamente va a ser cierto.
+
+39
+00:03:27,860 --> 00:03:30,970
+Comprobará que la corriente es igual a 100.
+
+40
+00:03:31,160 --> 00:03:32,830
+Bueno, la primera vez no, no lo es.
+
+41
+00:03:32,840 --> 00:03:33,970
+Es igual a 1.
+
+42
+00:03:34,280 --> 00:03:41,030
+Entonces, este bloque de código no se ejecutará si no es igual a 100 lo que va a
+
+43
+00:03:41,030 --> 00:03:48,170
+hacer va a imprimir el número actual y luego agregar 1 al número actual y luego ejecutar sigue siendo cierto.
+
+44
+00:03:48,170 --> 00:03:49,640
+Así que va a repasarlo de nuevo.
+
+45
+00:03:49,640 --> 00:03:56,540
+Entonces, lo que deberíamos ver aquí es imprimir los números del 1 al 99.
+
+46
+00:03:56,550 --> 00:04:02,270
+Así que sigamos y ejecutemos el script, y eso es exactamente lo que vemos aquí.
+
+47
+00:04:02,360 --> 00:04:05,510
+Ahora estos son dos conceptos útiles que vamos a usar.
+
+48
+00:04:05,510 --> 00:04:07,000
+Así que agárrate de eso.

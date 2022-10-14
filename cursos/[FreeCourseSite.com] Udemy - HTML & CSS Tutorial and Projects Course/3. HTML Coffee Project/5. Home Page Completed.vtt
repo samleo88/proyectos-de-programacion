@@ -1,0 +1,538 @@
+WEBVTT
+
+00:00.420 --> 00:07.680
+Right after the logo on the number we have the big background image as well as we have feature product
+
+00:08.130 --> 00:14.910
+where there's gonna be three products house blend French rose as well as Colombian rose and in each
+
+00:14.910 --> 00:20.150
+of them was gonna have some kind of link that will gonna go to Wikipedia.
+
+00:20.150 --> 00:23.040
+And as you can see it can open up in the new tab.
+
+00:23.160 --> 00:27.910
+Now at the very end we're gonna have here this whole paragraph with a copyright.
+
+00:27.910 --> 00:32.180
+Remember a special agent female character and then back to the tablet.
+
+00:32.410 --> 00:35.060
+So first of all let's start working on all this.
+
+00:35.130 --> 00:41.970
+So let's say there's a right after the navigation more or more we would like to get our first big image.
+
+00:42.450 --> 00:43.260
+So how do we do that.
+
+00:43.980 --> 00:46.000
+Well first of all we would need to get an image right.
+
+00:45.990 --> 00:47.490
+So we're gonna say I am G.
+
+00:47.640 --> 00:49.490
+And now we're looking for the source.
+
+00:49.590 --> 00:55.370
+And again we need to navigate the images folder and there we're gonna have our big background image.
+
+00:55.380 --> 00:56.910
+Now what else can we add here.
+
+00:56.910 --> 01:03.240
+Well let's say first that we would like to add alternative text and let's say coffee beans.
+
+01:03.260 --> 01:04.200
+And this is going to be met.
+
+01:05.000 --> 01:07.860
+Now as you notice right now the images are obviously big.
+
+01:07.890 --> 01:09.960
+We didn't adjust anything.
+
+01:09.960 --> 01:14.660
+And also let's check it out in the bigger browser window just so it's how it looks.
+
+01:14.760 --> 01:19.360
+Now as you can see there's two issues right now so for the smaller screen.
+
+01:19.370 --> 01:21.260
+Notice the image is way too big.
+
+01:21.260 --> 01:24.500
+However on a bigger screen it's not big enough.
+
+01:24.500 --> 01:26.960
+It's basically not spanning all across.
+
+01:26.990 --> 01:32.720
+Now in order to fix this usually with the work we had to assess however in our case since we haven't
+
+01:32.720 --> 01:40.190
+looked at the CSX we can do a tiny tiny little trick where remember we had the width and then previously
+
+01:40.190 --> 01:43.640
+will work with with only with pixels.
+
+01:43.640 --> 01:48.530
+When we were actually adding let's say hundred pixels here or something like this we also have an option
+
+01:48.530 --> 01:49.850
+of using the percentages.
+
+01:50.450 --> 01:53.660
+So instead of using pixels I'm going to add the hundred percent.
+
+01:54.230 --> 01:57.440
+And what happens right now the image is actually responsive.
+
+01:57.440 --> 02:05.570
+So notice on the small screen the image is exactly big enough for the whole screen instead of spanning
+
+02:05.570 --> 02:06.900
+it outside of the screen.
+
+02:07.070 --> 02:09.950
+And for the big screen notice.
+
+02:09.950 --> 02:12.070
+Now it's actually spanning all across.
+
+02:12.080 --> 02:16.760
+So essentially what we did is we made this image responsive again.
+
+02:16.760 --> 02:22.430
+Normally we're gonna do this within the CSX but again just because it's a little bit annoying I just
+
+02:22.490 --> 02:23.310
+add it here.
+
+02:23.330 --> 02:28.930
+This whatever two lines of code or with an attribute basically OK.
+
+02:29.060 --> 02:30.110
+Now what we have next.
+
+02:30.110 --> 02:33.200
+Well let's maybe create next a line break.
+
+02:33.350 --> 02:39.490
+Just so there there's some space in between and then I would like to start by placing having one.
+
+02:39.500 --> 02:44.520
+So I'm going to say had one and here on the right featured featured.
+
+02:44.750 --> 02:46.460
+Let's say product.
+
+02:46.490 --> 02:48.110
+So this is going to be my heading.
+
+02:48.340 --> 02:54.530
+Now after having one again let's add another windbreak and maybe right after the Lindberg let's start
+
+02:54.530 --> 03:00.710
+using the comments since there is gonna be three featured projects and all of them are going to be their
+
+03:00.710 --> 03:01.340
+own product.
+
+03:01.760 --> 03:05.420
+So I would have liked to have some kind of distinction of what is in there.
+
+03:05.600 --> 03:11.200
+So let's say first this is gonna be the house blend and for the house blend we'll start by heading to.
+
+03:11.260 --> 03:18.230
+So then add a hearing to right here and let's say house blend and we're gonna be looking for the coffee.
+
+03:18.860 --> 03:19.860
+Let me say this.
+
+03:19.880 --> 03:22.550
+And this is what I have here on the right hand side.
+
+03:23.230 --> 03:27.880
+Okay moving on I would like to place an image that I'm going to say image.
+
+03:27.940 --> 03:30.640
+Again we're gonna be looking for the source of the images.
+
+03:30.790 --> 03:32.830
+And now we have to look for the house.
+
+03:33.250 --> 03:33.880
+Now what else.
+
+03:33.940 --> 03:39.760
+Well we can always add the house blend like this and say that there's going to be alternative text.
+
+03:40.030 --> 03:46.350
+So if the images is not available or we can have displayed then there's gonna be alternative text.
+
+03:46.360 --> 03:48.070
+Now this is going to be my image.
+
+03:48.070 --> 03:49.270
+Now what else.
+
+03:49.270 --> 03:55.000
+Well I would like to have the paragraph let's say for the paragraph there is gonna be a text of I don't
+
+03:55.000 --> 03:58.780
+know twenty five words 50 words it doesn't really matter.
+
+03:58.900 --> 04:04.720
+Can just add some kind of power now the moment I'm gonna say this this is gonna look nice on the small
+
+04:04.720 --> 04:05.480
+screen right.
+
+04:05.560 --> 04:09.360
+As you can see right now however the issue is on a bigger screen.
+
+04:09.550 --> 04:10.840
+It is really annoying.
+
+04:10.840 --> 04:17.050
+If I see these lines like this again this is something we will gonna do would see SS But just because
+
+04:17.200 --> 04:19.750
+it does annoy me hell a lot.
+
+04:19.750 --> 04:24.340
+What I'm gonna do is I'm gonna add a new attribute that we haven't covered that yet and that is the
+
+04:24.340 --> 04:25.370
+style attribute.
+
+04:25.480 --> 04:29.050
+Again you're not going to use this later on once you learn to assess.
+
+04:29.050 --> 04:31.570
+But for now this is gonna help us a little bit.
+
+04:31.660 --> 04:35.820
+So within the assess this is basically a inline CSF.
+
+04:36.050 --> 04:40.910
+And again you don't need to remember this property you're going to learn it later on within the sense
+
+04:40.990 --> 04:45.880
+anyway but here I can just say with property and I'm gonna set it equal to 50 percent.
+
+04:46.330 --> 04:51.920
+So I'm going to say equals to 50 percent again please don't worry about the syntax for now.
+
+04:52.150 --> 04:57.830
+We all gonna cover this and say assessing this is a very very basic CSF syntax but it would involve
+
+04:57.850 --> 05:01.550
+gonna help us though because now I have my paragraph.
+
+05:01.590 --> 05:06.350
+It's only spanning 50 percent and it's going to look much more better on a bigger screen.
+
+05:06.370 --> 05:07.780
+Again it's really up to you.
+
+05:07.870 --> 05:13.740
+You can just skip this style attribute and just have the normal paragraph but I'm just going to chew
+
+05:13.740 --> 05:15.360
+it choose to do it this way.
+
+05:16.090 --> 05:21.550
+Then last but not least there's gonna be some type of link so I'm going to say having three and within
+
+05:21.550 --> 05:25.240
+the heading three I would like to have the link now for the link.
+
+05:25.300 --> 05:30.850
+Again we're gonna have to use some kind of attribute meaning the age of attribute where this link is
+
+05:30.850 --> 05:37.660
+gonna be going in our case we can either copy and paste it from the URL after we search for Wikipedia
+
+05:38.070 --> 05:44.430
+or since I know that this is gonna be my Euro I can write a really deep yes then two forward slashes
+
+05:44.440 --> 05:52.660
+then I believe W then we're looking for Vicky PDA Org so dot org and then let's add another forward
+
+05:52.680 --> 06:00.850
+site however since I would like to open this up in the new tab meaning I wouldn't want the user to navigate
+
+06:00.850 --> 06:08.230
+away from our page can you not target attribute and set it equal to underscore blank and let's call
+
+06:08.230 --> 06:09.280
+this details.
+
+06:09.280 --> 06:14.200
+So this would be the name of doing now once we save it what do we have.
+
+06:14.670 --> 06:18.690
+So we have our house blend and then we have also the details.
+
+06:19.320 --> 06:22.010
+So if we're going to click on a link not check it out what will go on.
+
+06:22.650 --> 06:27.020
+Well for now what's happening is that this is navigating away from our page.
+
+06:27.180 --> 06:33.220
+And the reason for that is as you can see I have a very small but at the end of the day very important
+
+06:33.220 --> 06:37.730
+error because this is not a target that should be target.
+
+06:37.770 --> 06:40.900
+As you can see how easy it is to make actually a mistake.
+
+06:40.920 --> 06:43.590
+Let me now get back maybe let me refresh.
+
+06:43.590 --> 06:45.710
+Just to make sure everything is working correct.
+
+06:45.900 --> 06:49.950
+And now we're opening up obviously in the correct Wikipedia.
+
+06:49.980 --> 06:55.820
+Now if you want to go any maybe further you can write coffee so maybe let's search in Wikipedia for
+
+06:55.830 --> 06:58.890
+coffee and then you are going to have a different URL.
+
+06:58.980 --> 07:04.490
+So maybe if you really like you can just copy and paste this your URL where you're gonna be for a coffee.
+
+07:04.500 --> 07:05.540
+No I'm not going to do that.
+
+07:05.540 --> 07:10.920
+I'm just gonna leave mine or the general Wikipedia but if you would like to do that obviously you just
+
+07:10.920 --> 07:13.060
+need to copy and paste this you know.
+
+07:13.180 --> 07:13.950
+Okay.
+
+07:14.130 --> 07:15.380
+So so far so good.
+
+07:15.390 --> 07:20.030
+So we have our first product our first feature product now next.
+
+07:20.040 --> 07:24.870
+What I would like to do is just copy and paste this because there's gonna be three of them.
+
+07:24.870 --> 07:28.190
+However I don't see the point of rewriting everything from scratch.
+
+07:28.410 --> 07:34.020
+If we can just copy and paste and create two more here I'm gonna say copy and we're going to copy and
+
+07:34.020 --> 07:34.530
+paste.
+
+07:34.530 --> 07:37.700
+So this is gonna be our I believe French Roast.
+
+07:37.890 --> 07:40.870
+And the last one is gonna be Colombia.
+
+07:41.100 --> 07:47.330
+Now once we are done with copying then we just need to start changing the values.
+
+07:47.340 --> 07:54.180
+So obviously here we're not gonna be looking for a house blend gonna be French roast.
+
+07:54.280 --> 07:56.990
+Then also the image we're gonna have to be different.
+
+07:57.070 --> 08:05.250
+So let's say that not a house with coffee French roast as well as remember image.
+
+08:05.290 --> 08:10.300
+So again let me look for the images and within the images we have the French Roast.
+
+08:10.600 --> 08:15.870
+And last but not least we have the alternative attribute French.
+
+08:16.490 --> 08:17.190
+Okay.
+
+08:17.280 --> 08:23.830
+That would be our second one and the last one a third but not the least one is gonna be our Colombian.
+
+08:24.160 --> 08:26.290
+But remember we can just keep this.
+
+08:26.290 --> 08:27.940
+However we would like.
+
+08:27.940 --> 08:30.970
+Meaning we can keep the link the same way.
+
+08:30.970 --> 08:38.020
+But you know what I would like to add though maybe two more line breaks after the end of the each of
+
+08:38.020 --> 08:42.970
+the items because I think is just gonna make a little bit more sense if they're going to be separated
+
+08:42.970 --> 08:43.450
+a little bit.
+
+08:44.020 --> 08:46.740
+So let me grab these two values here as well.
+
+08:46.970 --> 08:50.350
+Uh where we have Dan and I think it's right here.
+
+08:50.350 --> 08:54.600
+Let's copy these guys as well as at the end of the third link.
+
+08:54.710 --> 08:57.110
+And also just gonna add these line breaks.
+
+08:57.280 --> 09:06.780
+Like I said we still need to change this Colombian so Columbian bean and roast roast are.
+
+09:06.940 --> 09:07.590
+You know what.
+
+09:07.630 --> 09:15.200
+I can just maybe copy paste this maybe it's gonna be a little bit faster let me delete the title there.
+
+09:15.210 --> 09:17.810
+And we're also going to be looking for damage.
+
+09:17.860 --> 09:24.080
+So again I'm not a forward slash and sure enough we have Colombian and yeah I think the last thing just
+
+09:24.080 --> 09:26.680
+would be changing this alternative.
+
+09:26.870 --> 09:33.230
+Now what is that the very very end of our homepage that would be our simple paragraph.
+
+09:33.350 --> 09:34.820
+And let me show you again.
+
+09:34.820 --> 09:36.840
+Maybe we already forgot what you had.
+
+09:36.890 --> 09:39.080
+And by the way we can see right now.
+
+09:39.080 --> 09:42.230
+How old are page would look like on a bigger browser window.
+
+09:42.590 --> 09:48.980
+But at the very bottom we have our copyright 2019 and link back to the top.
+
+09:49.610 --> 09:50.240
+Okay.
+
+09:50.330 --> 09:55.460
+Now for the link back to the top maybe a little bit more line breaks here.
+
+09:55.610 --> 09:58.270
+Just because it's going to look a little bit better.
+
+09:58.490 --> 10:04.810
+And then here we're gonna have the paragraph within the paragraph there's gonna be copyright next.
+
+10:04.880 --> 10:05.740
+Let me save this.
+
+10:05.750 --> 10:06.380
+Let me show you.
+
+10:06.380 --> 10:07.880
+This is where we typing the paragraph.
+
+10:08.450 --> 10:11.700
+And then again let's use the special ed name character.
+
+10:11.750 --> 10:12.860
+Notice how.
+
+10:12.890 --> 10:15.040
+Remember it was the ampersand.
+
+10:15.170 --> 10:16.270
+Then the name of it.
+
+10:16.400 --> 10:18.180
+And in our case that was copy.
+
+10:18.380 --> 10:22.210
+And let's just say the year which would be 2019.
+
+10:22.250 --> 10:26.610
+Now if you're watching this in the future let's say 2000 whatever.
+
+10:26.660 --> 10:30.160
+Obviously right whatever year you're currently at.
+
+10:30.230 --> 10:35.000
+And last but not least we're all going to be looking forward to having having three that we'll going
+
+10:35.000 --> 10:36.680
+to include link back to the top.
+
+10:37.220 --> 10:40.230
+Now for the link again we're gonna have to have the trip.
+
+10:40.340 --> 10:43.610
+And then here we would need to navigate to a logo.
+
+10:44.270 --> 10:50.890
+So somewhere off the very top we're gonna have to create an I.D. or element with some kind of I.D. that's
+
+10:50.900 --> 10:57.180
+gonna match log and here let's just write back to to top.
+
+10:57.260 --> 10:58.760
+This is gonna be my text.
+
+10:58.850 --> 11:03.230
+Now what's happening right now is we don't have anything here that has the logo.
+
+11:03.230 --> 11:06.080
+I'm sorry the idea of Logo.
+
+11:06.080 --> 11:10.990
+So what I would like to do right now is for my image my logo image.
+
+11:11.090 --> 11:16.420
+I'm just gonna add the D and we're gonna set this equal to logo now moment.
+
+11:16.430 --> 11:17.840
+We're gonna save this.
+
+11:17.840 --> 11:18.670
+Check this out.
+
+11:19.190 --> 11:22.730
+I'm gonna scroll over and we're gonna click on it.
+
+11:22.730 --> 11:28.140
+We will gonna scroll all the way to the top so we're gonna navigate to the top of the page.
+
+11:28.370 --> 11:34.470
+And yeah we maybe should just check it out in a bigger browser window make sure that everything is working.
+
+11:34.670 --> 11:36.470
+Back to the top is fine.
+
+11:36.500 --> 11:39.470
+And now I can start working on our about page.

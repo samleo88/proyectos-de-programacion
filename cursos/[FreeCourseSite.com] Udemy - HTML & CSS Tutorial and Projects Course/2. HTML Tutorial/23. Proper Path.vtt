@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.640 --> 00:06.760
+While we're still on the topic of images I would like to talk about path in general.
+
+00:06.790 --> 00:13.120
+The email now and this example going to look at the images and how the path is important for images
+
+00:13.770 --> 00:14.080
+of war.
+
+00:14.080 --> 00:20.170
+Please remember later on we're gonna be working with new pages meaning there's gonna be multiple pages
+
+00:20.170 --> 00:22.650
+that we're going to be working with not just indexation.
+
+00:22.660 --> 00:26.050
+Email will also going to have about as well as contact.
+
+00:26.290 --> 00:33.380
+So the same will going to work with whenever we're working with email far more successful.
+
+00:33.430 --> 00:34.680
+Now what I'm talking about.
+
+00:34.970 --> 00:37.040
+So let's say for now again we have two images.
+
+00:37.160 --> 00:38.400
+World is great.
+
+00:38.450 --> 00:40.210
+We are good to go.
+
+00:40.220 --> 00:45.550
+Our imagined site where you have 50 images and you have I don't know twenty five.
+
+00:45.550 --> 00:48.750
+See as those files and then you have multiple jobs compiled.
+
+00:48.830 --> 00:54.110
+Now what's gonna happen is you're going to have to start having some kind of structure having all the
+
+00:54.110 --> 00:59.800
+files here in the folder is not going to make sense because there's gonna be really messy.
+
+00:59.810 --> 01:03.610
+So the logical thing is gonna be setting up let's say images on the site.
+
+01:04.130 --> 01:09.230
+So there's gonna be special folder with images and reality you're going to have images folder.
+
+01:09.350 --> 01:14.540
+And then within the images folder you have another folder for let's say home page images and then about
+
+01:14.540 --> 01:16.040
+images and you get the point.
+
+01:16.730 --> 01:22.370
+Now in our case we're just going to start very simply we're going to create a new folder and let's say
+
+01:22.370 --> 01:26.390
+image folder name is gonna be very simply image.
+
+01:26.430 --> 01:31.410
+Now what I would like to do right now is remove these images because obviously that was the whole point.
+
+01:31.420 --> 01:37.210
+Now I can move them one by one or I can just press on the second one as was the first one.
+
+01:37.370 --> 01:41.330
+And in order to select them both you would need to hold the command key.
+
+01:42.020 --> 01:47.330
+Now once we hold it notice I can just drag and drop them and now I'm dropping them off in the image
+
+01:47.330 --> 01:52.820
+as fast as you can see Visual Studio coders saying Hey listen buddy are you sure this is what you would
+
+01:52.820 --> 01:53.780
+like to do.
+
+01:53.930 --> 01:58.360
+And I'm just gonna bravely say yep this is exactly what I would like to do.
+
+01:58.620 --> 02:00.770
+And notice what happens.
+
+02:01.610 --> 02:03.460
+I have the heading three.
+
+02:03.650 --> 02:05.090
+So that's good.
+
+02:05.090 --> 02:09.290
+I have the other having three and I don't have my images.
+
+02:09.290 --> 02:15.110
+Now again the reason why I don't have the images because this path is correct only if the images are
+
+02:15.110 --> 02:19.780
+sitting in the same folder are they sitting in the same folder.
+
+02:19.790 --> 02:23.640
+Well now right now the images are in fact in the images folder.
+
+02:23.690 --> 02:29.300
+So what we would need to do is again we can obviously added here the extra path more I'm just going
+
+02:29.300 --> 02:32.300
+to delete this because this is just going to make a little bit more sense.
+
+02:32.300 --> 02:38.360
+And can we do the same thing now we do the forwards now forward slash is going to go to where it's gonna
+
+02:38.360 --> 02:42.350
+go to images folder and now we're looking for the specific image we would want.
+
+02:42.830 --> 02:43.910
+So now case you Demi.
+
+02:44.660 --> 02:50.750
+So again this is very important because you will gonna use this for your C assess where your javascript
+
+02:51.590 --> 02:55.870
+images make sure that the path actually makes sense.
+
+02:56.220 --> 03:01.790
+If it is in a separate folder you need to look in that folder and then you're gonna get an image.
+
+03:01.790 --> 03:06.120
+Now let me fix this the same way and again like I said we can just had it here.
+
+03:06.260 --> 03:11.720
+So let's say I added and images and sure enough once we do that again this is going to overwrite it
+
+03:12.320 --> 03:20.420
+again let's look for the laptop and sure enough this is gonna be proper rendering option since now we
+
+03:20.420 --> 03:21.740
+have a proper path.
+
+03:21.920 --> 03:26.140
+So always always please remember to make sure that your path is correct.

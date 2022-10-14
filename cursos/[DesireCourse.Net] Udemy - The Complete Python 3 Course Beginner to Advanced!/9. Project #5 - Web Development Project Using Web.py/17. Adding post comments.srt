@@ -1,0 +1,663 @@
+1
+
+00:00:00,000  -->  00:00:06,540
+Alright guys, welcome back. This is going
+to be probably a longer video than our
+
+2
+
+00:00:06,540  -->  00:00:10,170
+other ones, but we're going to be doing it a bit quicker because all of the key
+
+3
+
+00:00:10,170  -->  00:00:13,080
+concepts involved in what we're about to
+do
+
+4
+
+00:00:13,080  -->  00:00:18,600
+we've already learned and we've already
+used those concepts. So, this shouldn't be
+
+5
+
+00:00:18,600  -->  00:00:19,439
+anything new
+
+6
+
+00:00:19,439  -->  00:00:22,529
+it's just going to extend our application here a little bit further,
+
+7
+
+00:00:22,529  -->  00:00:26,670
+and that's where we're going to leave
+this application and move on from
+
+8
+
+00:00:26,670  -->  00:00:33,210
+Webpy on to some other things. So what we're going to do is basically add comments to
+
+9
+
+00:00:33,210  -->  00:00:36,930
+our application. We're not going to make
+them dynamic, we're not going to make them
+
+10
+
+00:00:36,930  -->  00:00:41,040
+like first maybe just show one comment
+and then you can toggle it and it'll
+
+11
+
+00:00:41,040  -->  00:00:44,670
+drop down, we're not going to do all that
+fancy stuff, we're just going to build a
+
+12
+
+00:00:44,670  -->  00:00:50,399
+bit of basic functionality for comments.
+So, we have a form here and this is
+
+13
+
+00:00:50,399  -->  00:00:54,360
+static right now it's just going to print
+out the actual posts content name and
+
+14
+
+00:00:54,360  -->  00:00:58,770
+what not, and so what we're going to do
+is I've already built this form for you guys
+
+15
+
+00:00:58,770  -->  00:01:02,399
+are going to want to go ahead and do
+this, so you might want to pause the
+
+16
+
+00:01:02,399  -->  00:01:06,060
+video now and make sure you have an
+input with the name post ID, and you're
+
+17
+
+00:01:06,060  -->  00:01:11,130
+going to actually print out the post ID
+in that input as a value, and you're going to
+
+18
+
+00:01:11,130  -->  00:01:15,840
+have a text area named comment-text and that's where we're actually going to
+
+19
+
+00:01:15,840  -->  00:01:23,280
+submit that comment. Now once you guys have this form built you need to make sure
+
+20
+
+00:01:23,280  -->  00:01:26,700
+it's in a form with a class name that
+you can target,
+
+21
+
+00:01:26,700  -->  00:01:30,900
+I've named mine comment form. I'm going to jump over to scripty here and we're
+
+22
+
+00:01:30,900  -->  00:01:36,630
+going to do the exact same thing we've
+done to this entire section. Just going
+
+23
+
+00:01:36,630  -->  00:01:50,220
+to say "$(document).on('submit'), ".comment-form", function(e){ }" We're going to "e.prevent
+
+24
+
+00:01:50,220  -->  00:01:55,350
+Default( );" action on form submit here, we don't want it refreshing the page, going to
+
+25
+
+00:01:55,350  -->  00:02:03,149
+create a "var form = S(this).serialize( );" and we're actually
+
+26
+
+00:02:03,149  -->  00:02:16,650
+going to build out our "$.ajax({ )}" request. The "url: "/submit-comment"," the "type:
+
+27
+
+00:02:16,650  -->  00:02:24,900
+"POST"," "data: form," and then on "success:
+
+28
+
+00:02:24,900  -->  00:02:32,010
+function(res){ }" and just "console.log(res);" Something else
+
+29
+
+00:02:32,010  -->  00:02:39,120
+we can return a JSON object here and
+set "dataType "json"," and
+
+30
+
+00:02:39,120  -->  00:02:44,280
+this will allow us to parse the response
+as JSON. I'm not sure if we're going to do
+
+31
+
+00:02:44,280  -->  00:02:50,430
+that, so i'm going to go ahead and save this. Now we need to jump over to the Controller and
+
+32
+
+00:02:50,430  -->  00:02:55,530
+build a route called SubmitComment, same route that you're ajax'ing the request
+
+33
+
+00:02:55,530  -->  00:02:57,569
+to, and name a class
+
+34
+
+00:02:57,569  -->  00:03:03,269
+SubmitComment like this. Let's go down here, and I've already built this out but i'm
+
+35
+
+00:03:03,269  -->  00:03:08,670
+going to remove it, and we're going to
+write it again. So we're going to "def
+
+36
+
+00:03:08,670  -->  00:03:15,690
+POST(self):" and we're going to get the
+"data = web.input( )"
+
+37
+
+00:03:15,690  -->  00:03:27,480
+and we're going to set "data.username = session_data["user"]['username']"
+
+38
+
+00:03:27,480  -->  00:03:34,230
+Then what we're going to do is we're
+going to have to write a bit of code in
+
+39
+
+00:03:34,230  -->  00:03:42,480
+the Posts model, so right now we're going
+to "post_model = Posts.Posts( ): and then
+
+40
+
+00:03:42,480  -->  00:03:51,989
+we're going to store inserted, let's name it "added_comment =" to
+
+41
+
+00:03:51,989  -->  00:03:56,700
+make a little more straightforward i
+guess. We're going to target the
+
+42
+
+00:03:56,700  -->  00:04:02,220
+"post_model.add_comment(data)" I'm going to
+
+43
+
+00:04:02,220  -->  00:04:10,870
+say "if added_comment:" "return added_comment" "else:"
+
+44
+
+00:04:10,870  -->  00:04:22,330
+"return {"error": "403"} which is a forbidden
+error.
+
+45
+
+00:04:24,790  -->  00:04:33,070
+Alright, so let's jump over to the post
+model and actually build out this method.
+
+46
+
+00:04:33,070  -->  00:04:48,010
+So we need to "def add_comment(self, comment):" here. What we're going to do is we're
+
+47
+
+00:04:48,010  -->  00:04:52,930
+simply going to we need a new collection,
+so go ahead and add this code
+
+48
+
+00:04:52,930  -->  00:04:57,460
+"self.Comments = self.db.comments" here actually instantiating the
+
+49
+
+00:04:57,460  -->  00:04:59,470
+collection itself.
+
+50
+
+00:04:59,470  -->  00:05:05,110
+We're also going to "import ObjectId" and
+this is necessary,
+
+51
+
+00:05:05,770  -->  00:05:08,860
+actually I don't think it is necessary.
+
+52
+
+00:05:08,860  -->  00:05:13,300
+Alright, so let's go ahead and jump down
+here. We're going to insert the comment
+
+53
+
+00:05:13,300  -->  00:05:29,229
+here so "inserted = self.Comments.insert({ })" So let's say "post_id":
+
+54
+
+00:05:29,229  -->  00:05:51,580
+comment.post_id comment.post, "comment-text":  comment
+
+55
+
+00:05:51,580  -->  00:05:56,320
+["comment-text"],
+
+56
+
+00:05:59,240  -->  00:06:09,860
+"date_added":  datetime.datetime.now( )" and as
+
+57
+
+00:06:09,860  -->  00:06:14,180
+you guys can see this has already become non PEPPY, so let's go ahead and do this,
+
+58
+
+00:06:14,180  -->  00:06:21,440
+and then we're going to add "username": comment
+
+59
+
+00:06:22,400  -->  00:06:28,940
+["username"] Going to turn that just to make things consistent with the same type of
+
+60
+
+00:06:28,940  -->  00:06:43,280
+dictionary access. Then let's "return inserted" let's refresh, let's refresh this, and
+
+61
+
+00:06:43,280  -->  00:06:49,759
+confirm that we're able to add a comment. Click add comment we get no response.
+
+62
+
+00:06:51,380  -->  00:06:58,099
+Let's go ahead and check in here, I should have two comments now and I do, awesome. As you
+
+63
+
+00:06:58,099  -->  00:07:04,070
+can see what we've done is we've stored
+comment text, post ID, date added, username
+
+64
+
+00:07:04,070  -->  00:07:05,780
+and then the ID of itself.
+
+65
+
+00:07:05,780  -->  00:07:15,650
+Now, this post ID if i go ahead and look
+at posts, this one's in 0330, so this is the
+
+66
+
+00:07:15,650  -->  00:07:18,770
+post that this comment is on and that's
+how we tie it would make it a bit
+
+67
+
+00:07:18,770  -->  00:07:24,139
+relational even though it's NoSQL. And
+that's how to insert comments. Now we're
+
+68
+
+00:07:24,139  -->  00:07:30,139
+going to talk about getting the comments
+out. So what we need to do is in the
+
+69
+
+00:07:30,139  -->  00:07:34,550
+get_all_posts here, for posts, and all posts
+this is going to target the post itself.
+
+70
+
+00:07:34,550  -->  00:07:46,880
+We're going to set "post["old_comments"] = self.
+
+71
+
+00:07:46,880  -->  00:07:57,319
+Comments.find({"post_id"})" and here we need to covert the
+
+72
+
+00:07:57,319  -->  00:08:03,680
+post ID into a string and "str(post["_id])" Now
+
+73
+
+00:08:03,680  -->  00:08:08,839
+i'm going to create a new variable
+called comments, actually,
+
+74
+
+00:08:10,400  -->  00:08:17,509
+"post["comments"]" we want this to be part of the post itself. It's going to be a "= [ ]"
+
+75
+
+00:08:17,509  -->  00:08:22,009
+You do something similar here so we can
+get the user timestamp of the the post
+
+76
+
+00:08:22,009  -->  00:08:29,840
+added. So what we're going to do is "for
+comment in post["old_comments]:"
+
+77
+
+00:08:30,380  -->  00:08:37,729
+Let's just make sure we can "print(comment)" and i'm going to remove this,
+
+78
+
+00:08:37,729  -->  00:08:43,310
+we don't want anything else printing out
+just so we can verify the comments are
+
+79
+
+00:08:43,310  -->  00:08:48,800
+being found and they are. As you see
+here, the post ID and this one also has a
+
+80
+
+00:08:48,800  -->  00:08:55,910
+post ID, so these are the actual comments for one particular post. So what we're
+
+81
+
+00:08:55,910  -->  00:09:03,740
+going to do is for comment we actually
+need to get this, "comment["user"] =
+
+82
+
+00:09:03,740  -->  00:09:14,209
+self.Users.find_one({"username":
+
+83
+
+00:09:14,209  -->  00:09:16,190
+comment
+
+84
+
+00:09:16,190  -->  00:09:31,250
+["username"]})" "Post timestamp, actually "comment["timestamp"]"
+
+85
+
+00:09:31,250  -->  00:09:43,010
+= to humanize.naturaltime(datetime.datetime.
+
+86
+
+00:09:43,010  -->  00:09:57,170
+now- comments( ) - comment["date_added"])" Then what
+we're going to do is "post["comments"].
+
+87
+
+00:09:57,170  -->  00:10:05,990
+append(comment)" Save this, refresh, we
+should not get any errors at all, if we
+
+88
+
+00:10:05,990  -->  00:10:10,730
+do it means we've done something
+terribly wrong, and we didn't. So, I'm
+
+89
+
+00:10:10,730  -->  00:10:15,230
+pretty sure at this point that we can
+now access post comments in the Home
+
+90
+
+00:10:15,230  -->  00:10:18,230
+file. Let's just go ahead and confirm
+that, "$post["comments"]
+
+91
+
+00:10:19,889  -->  00:10:34,379
+and as you can see indeed we did. So what we're going to do is "$for comment in post
+
+92
+
+00:10:34,379  -->  00:10:36,929
+["comments"]:"
+
+93
+
+00:10:36,929  -->  00:10:49,649
+we're going to basically use our
+iterative template here, and now perhaps
+
+94
+
+00:10:49,649  -->  00:11:00,779
+"$comment" timestamp, "$comment" users name, and "$comment" content, and also you know
+
+95
+
+00:11:00,779  -->  00:11:05,999
+link to the user's profile who wrote the
+comment. Then we're going to rerun, and
+
+96
+
+00:11:05,999  -->  00:11:11,129
+we're going to refresh, getting a server
+error so let's go find out why. KeyError:
+
+97
+
+00:11:11,129  -->  00:11:23,939
+'content' and that's right we named it
+'comment-text' right...there we go. KeyError
+
+98
+
+00:11:23,939  -->  00:11:31,619
+'comment-text' let's rename that to 'content'
+
+99
+
+00:11:33,040  -->  00:11:38,259
+What i'm going to do, is I'm just going to
+manually modify these comments here to
+
+100
+
+00:11:38,259  -->  00:11:51,459
+change comment text to "content" save it,
+and then this one the same thing, that's
+
+101
+
+00:11:51,459  -->  00:12:00,519
+already changed. Both of them were
+stored as content, alright, good stuff. Then
+
+102
+
+00:12:00,519  -->  00:12:07,149
+we need to change the post method here
+to make this store that is "content" that
+
+103
+
+00:12:07,149  -->  00:12:13,060
+was the problem in one of the
+objects the comment text didn't exist,
+
+104
+
+00:12:13,060  -->  00:12:18,670
+it had a comment or content used, and the other one was different so of course it
+
+105
+
+00:12:18,670  -->  00:12:22,839
+wouldn't work. Now, I believe I have
+another user here, i'm going to go log in
+
+106
+
+00:12:22,839  -->  00:12:28,449
+and comment on one these posts as that
+user. So let's go ahead and find that
+
+107
+
+00:12:28,449  -->  00:12:30,639
+user, nickwally1.
+
+108
+
+00:12:30,639  -->  00:12:40,930
+Alright, let's go ahead and logout "nickwally1" and "avocado1" and you guys are
+
+109
+
+00:12:40,930  -->  00:12:47,470
+going to see, oh wait, of course this won't
+work because once it hits this page it logs
+
+110
+
+00:12:47,470  -->  00:12:56,649
+in. We gotta go to the controller and then
+remove that auto login bit of code, save, refresh,
+
+111
+
+00:12:56,649  -->  00:13:06,190
+and now let's login again. So "nickwally1"
+and "avocado1"
+
+112
+
+00:13:06,190  -->  00:13:17,110
+Alright, let's write a comment "I'm writing a comment TOO!" submit, we have to refresh this, as you can see this
+
+113
+
+00:13:17,110  -->  00:13:23,380
+is going to redirect to my profile and
+this is actually working. Now we could
+
+114
+
+00:13:23,380  -->  00:13:28,149
+upload images for the avatars, well
+I think we're actually going to do that
+
+115
+
+00:13:28,149  -->  00:13:32,439
+just because I think that's like the
+last basic thing that this needs in
+
+116
+
+00:13:32,439  -->  00:13:34,029
+order for it to be complete,
+
+117
+
+00:13:34,029  -->  00:13:39,160
+managing the profiles information like
+the image and
+
+118
+
+00:13:39,160  -->  00:13:45,819
+the this right here. And if I go back and go
+to this profile I should also see, yeah,
+
+119
+
+00:13:45,819  -->  00:13:50,470
+awesome. But I'm not seeing the newest
+template for each post because we haven't
+
+120
+
+00:13:50,470  -->  00:13:51,009
+implemented that.

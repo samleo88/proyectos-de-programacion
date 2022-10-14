@@ -1,0 +1,172 @@
+WEBVTT
+
+00:00.330 --> 00:08.220
+And next up we have our gallery section where we're going to display images from our tours as well as
+
+00:08.220 --> 00:10.750
+we're going to place it in the center.
+
+00:10.830 --> 00:13.810
+The little Phantasm icon the search icon.
+
+00:13.950 --> 00:16.010
+But of course you can see that again.
+
+00:16.020 --> 00:19.570
+We're going to use a flex box or a car on layout.
+
+00:19.920 --> 00:23.050
+So we're gonna start with a one column layout.
+
+00:23.400 --> 00:29.190
+Then once we get to the bigger screen size we are going to have a two column layout and then of course
+
+00:29.250 --> 00:30.890
+a three column layout.
+
+00:30.900 --> 00:38.700
+Now I did add here the section as a background as well as the title but technically you could just skip
+
+00:38.790 --> 00:41.580
+altogether and just place images.
+
+00:41.790 --> 00:43.520
+Again it's really up to you.
+
+00:43.830 --> 00:49.410
+I'm just kind of went with the same layout like we had previously but technically since we are only
+
+00:49.410 --> 00:57.310
+displaying images we could just omit all that and then just have some kind of section with just images.
+
+00:57.340 --> 00:58.090
+All right.
+
+00:58.180 --> 01:04.770
+Now as always our journey is going to start in the age the email we have and the featured.
+
+01:04.770 --> 01:11.260
+So let's copy and paste that then let's write different values of course.
+
+01:11.340 --> 01:18.750
+So the comment is going to be gallery so in this case I'm gonna have to cursors I'm going to delete
+
+01:18.780 --> 01:26.910
+this and let's just write gallery once we have this particular setup then there's going to be a section
+
+01:27.300 --> 01:28.770
+with few classes.
+
+01:28.770 --> 01:35.910
+So let's start with the class of section that is of course our generic section class.
+
+01:36.030 --> 01:40.800
+Then let's also add a gallery that is going to be used for the background.
+
+01:40.980 --> 01:48.090
+And I'm also gonna have the 80s just so we can click on the link and we can navigate to that particular
+
+01:48.090 --> 01:48.770
+section.
+
+01:49.360 --> 01:54.210
+Once we have all that this is something that is going to look like.
+
+01:54.330 --> 02:02.580
+So there's going to be some kind of generic gallery section and then again let's look for our title.
+
+02:02.700 --> 02:05.730
+So title let's look where is it.
+
+02:05.940 --> 02:08.180
+Yep that's what I would want.
+
+02:08.340 --> 02:15.750
+So let's copy and paste that and let's look for our gallery section now within the gallery section.
+
+02:15.890 --> 02:20.160
+I said Let's copy and paste our title and let's write gallery as always.
+
+02:20.160 --> 02:24.090
+If you are using a different layout would just images.
+
+02:24.090 --> 02:25.100
+Of course you don't need.
+
+02:25.110 --> 02:29.610
+In fact this title lets say that we do have our gallery.
+
+02:29.620 --> 02:31.410
+That's number one.
+
+02:31.410 --> 02:38.740
+And then right after the title there's going to be a gallery center center here.
+
+02:39.000 --> 02:43.540
+It is going to be a div gallery center and then within this day.
+
+02:43.560 --> 02:48.510
+Why don't we have a single item or send or photo.
+
+02:48.510 --> 02:49.730
+Doesn't really matter.
+
+02:50.790 --> 02:59.740
+And off single item and then we're gonna set it up as a container because I do want my little icon here.
+
+02:59.760 --> 03:06.100
+So again we're going to use the container so we can place this icon relative to a container.
+
+03:06.720 --> 03:08.930
+Then let's do it.
+
+03:08.970 --> 03:18.010
+If we as a class of gallery I am je container and then within this container first of all let's place
+
+03:18.100 --> 03:23.210
+a image and the image is going to be from the images folder.
+
+03:23.440 --> 03:26.920
+And I'm just going to set this up as two or one.
+
+03:26.940 --> 03:34.880
+Then let's also add a class of gallery I am G for styling and as far as alternative.
+
+03:35.090 --> 03:39.180
+We're gonna say again awesome or something like that.
+
+03:39.280 --> 03:47.020
+Now I can get rid of this attribute I don't need it and then I would want to place my icon as well so
+
+03:47.020 --> 03:56.100
+span element with the class of gallery icon and then let's have our font awesome.
+
+03:56.260 --> 04:00.810
+So our face if a search curve.
+
+04:01.480 --> 04:02.980
+And there you go.
+
+04:02.980 --> 04:07.830
+We do have our image as well as our little font awesome icon.
+
+04:07.870 --> 04:12.890
+Now what I would like to do right now is in fact copy and paste it five times.
+
+04:12.940 --> 04:17.890
+And the only thing we're going to change is in fact the value for our image.
+
+04:17.890 --> 04:27.890
+So one two three four five and let's start with two or number six then two or number five four and you
+
+04:27.890 --> 04:30.860
+get to just three.
+
+04:31.120 --> 04:39.640
+And last but not least because we have two or number two let's save it and we have our six images for
+
+04:39.640 --> 04:42.490
+the tours as well as our Phantasm icons.
+
+04:42.550 --> 04:48.400
+Once we're done with our animal then we're going to head over to the CFS and start styling.

@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.590 --> 00:07.790
+One last thing that I would like to cover before we start working with Flex items properties is main
+
+00:07.790 --> 00:13.560
+axes and cross axes and how in fact is going to affect your layout.
+
+00:13.610 --> 00:21.800
+First and foremost I'm gonna show you a nice representation where when we have a flex box rule our main
+
+00:21.800 --> 00:27.780
+axis is going horizontal and our cross axis is in fact going vertically.
+
+00:28.250 --> 00:36.110
+However when we switch the Flex box column remember that was done by using flex direction where we set
+
+00:36.110 --> 00:43.530
+it up to where column our main axis easy in fact vertical and our cross axis is going horizontal.
+
+00:43.550 --> 00:49.040
+Now let me also show you example where you're going to see that in action.
+
+00:49.350 --> 00:53.780
+Now first and foremost I don't think I need these generic boxes.
+
+00:53.870 --> 00:55.820
+That's number one.
+
+00:55.820 --> 01:03.320
+Then also let's create another container and let's just do simply by container number one.
+
+01:03.400 --> 01:04.150
+Okay.
+
+01:04.250 --> 01:08.570
+And I'm also going to place all the same boxes in here.
+
+01:08.570 --> 01:10.190
+We're not going to be very original.
+
+01:10.370 --> 01:12.030
+So I have my second container.
+
+01:12.340 --> 01:18.850
+However for my second container the container number one I'm going to add a different border.
+
+01:19.100 --> 01:26.810
+So when you say container number one I'm also gonna add a little bit of more height let's go with 800
+
+01:26.860 --> 01:28.120
+pixels.
+
+01:28.400 --> 01:31.330
+Like so that's my container number one.
+
+01:31.390 --> 01:39.860
+Then let's add like I said another border border five pixels solid below like so.
+
+01:39.870 --> 01:44.470
+And lastly let's do a display flex display flex.
+
+01:44.470 --> 01:52.800
+However in this case remember we have our default on flux direction is set to 0 or in our case.
+
+01:52.810 --> 01:57.280
+I'm gonna go with Alex direction and we're gonna go with Carl here.
+
+01:57.730 --> 02:05.260
+Now let's imagine this scenario where I would like to place my atoms in a center horizontally and also
+
+02:05.260 --> 02:06.230
+vertically.
+
+02:06.220 --> 02:07.980
+Well no big deal right.
+
+02:07.990 --> 02:12.220
+We know we have just very content and we go with center correct.
+
+02:12.250 --> 02:13.400
+That's number one.
+
+02:13.420 --> 02:17.550
+So for our first container they're sitting horizontally innocent.
+
+02:18.130 --> 02:24.280
+And also we have a line items and that one is of course responsible for vertical line.
+
+02:24.400 --> 02:26.690
+And again we just set them up in a center.
+
+02:26.710 --> 02:29.380
+So everything works just like we planned.
+
+02:29.540 --> 02:37.690
+However what if our like to do the same thing with my container no one does in fact has the Flex direction
+
+02:37.690 --> 02:38.400
+of column.
+
+02:38.650 --> 02:40.160
+So how it's going to work.
+
+02:40.420 --> 02:45.820
+Well we know already that in order to place them let's say vertically what is the property.
+
+02:45.850 --> 02:50.080
+Well there is a line items and then a line item is innocent.
+
+02:50.680 --> 02:57.340
+However you're going to notice something really really interesting where for my flex direction of column
+
+02:57.760 --> 03:01.340
+we did not set them right now vertically in the center.
+
+03:01.390 --> 03:05.010
+In fact we set them up actually horizontal in the center.
+
+03:05.050 --> 03:12.010
+And the reason for that because again our axis change where our Flex blocks row at the main act is going
+
+03:12.010 --> 03:13.450
+here horizontally.
+
+03:13.450 --> 03:20.710
+Our flex box column has the main axis going in fact vertically and that's the reason if I would want
+
+03:20.710 --> 03:27.930
+to place it vertically in the center instead of on line items I would need to use justify content.
+
+03:27.930 --> 03:34.660
+And in this case once I set it up in fact justify content equal to center then I place them in fact
+
+03:35.350 --> 03:36.700
+vertically in a center.
+
+03:36.730 --> 03:44.290
+So please keep in mind when you're going to work with Flex box please keep in mind which is your flex
+
+03:44.290 --> 03:50.290
+direction whatever it is that column and if it is a column then your main axis changed right.
+
+03:50.590 --> 03:55.720
+So then the properties that you had previously for the role while you need to keep in mind which one
+
+03:55.720 --> 03:58.840
+is your main axis in which one is your cross axis.
+
+03:59.200 --> 04:06.170
+And that way you can in fact avoid any kind of confusion which would happen if you're trying to place
+
+04:06.170 --> 04:11.470
+something horizontal in the center and you know what it is not work you are actually in fact placing
+
+04:11.470 --> 04:12.760
+it vertically.
+
+04:13.090 --> 04:17.440
+So that's something you need to keep in mind when you work when the Flex box that there is something
+
+04:17.440 --> 04:19.420
+called main axis and cross axis.
+
+04:19.570 --> 04:22.930
+And it does change when you change your flex direction.

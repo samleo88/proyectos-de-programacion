@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00.510 --> 00:01.260
+Excellent.
+
+00:01.260 --> 00:05.610
+We know how to use the I.D. selectors but see assess our offers.
+
+00:05.640 --> 00:12.530
+Also something really cool called Class selectors so where we would use these bad boys as always we're
+
+00:12.540 --> 00:18.740
+gonna start by getting rid of what we had in the previous video and let's say in indexation IMO we're
+
+00:18.750 --> 00:23.040
+gonna change this around a little bit so I'm gonna say that I'm gonna get rid of all my headings and
+
+00:23.040 --> 00:25.580
+everything and I would just like to work with.
+
+00:25.610 --> 00:30.260
+I don't know having three and again it doesn't really matter what kind of elements we're creating.
+
+00:30.270 --> 00:32.220
+The whole point is gonna be working with classes.
+
+00:32.940 --> 00:38.560
+So let's say there is going to be adding three and I'm gonna call this I am gonna have green.
+
+00:38.610 --> 00:40.230
+So that would be a green hat.
+
+00:40.650 --> 00:47.330
+Now within the second heading the other having three I'm gonna say well you know what I am red.
+
+00:47.390 --> 00:50.670
+So those are gonna be my two headings so I can save this.
+
+00:50.780 --> 00:51.360
+And you know what.
+
+00:51.360 --> 00:55.050
+We can just select them both and copy and paste a few times.
+
+00:55.140 --> 01:01.710
+So let's say that there is gonna be six headings total three of them are gonna be green and three of
+
+01:01.710 --> 01:03.070
+them are gonna be red.
+
+01:03.180 --> 01:05.780
+Now as I'm looking at it I really can see that.
+
+01:05.940 --> 01:06.830
+Yeah everything is fine.
+
+01:06.840 --> 01:07.830
+So I have red red red.
+
+01:08.370 --> 01:09.720
+Everything is correct.
+
+01:09.720 --> 01:13.740
+Now how do I actually style them green or red.
+
+01:13.800 --> 01:18.300
+Well you can say we could use the I.D. right because we cannot select them all.
+
+01:18.450 --> 01:22.140
+I cannot do like this because otherwise this is not going to make sense.
+
+01:22.140 --> 01:25.740
+I'm going to style them but all of them are going to be exactly the same.
+
+01:25.770 --> 01:30.870
+So if I'm gonna write color green all of them are gonna be green and if I'm gonna write color red all
+
+01:30.870 --> 01:32.720
+of them are gonna be color red.
+
+01:32.880 --> 01:34.580
+So what would be the solution.
+
+01:35.050 --> 01:41.220
+Well you can say OK we can go back and we can start adding the I.D. we can say I don't know maybe one
+
+01:41.350 --> 01:41.670
+right.
+
+01:41.670 --> 01:48.270
+So this would be number one then number two three four and then go back yeah you could technically do
+
+01:48.270 --> 01:51.270
+this but that probably wouldn't be the fastest way.
+
+01:51.320 --> 01:54.700
+There's actually a better way now would be using the class now.
+
+01:54.810 --> 02:02.580
+Class is gonna be again attribute on our HMO and safe self-explanatory the name is gonna be class.
+
+02:02.580 --> 02:08.270
+So class selectors would be using the class attribute and again for a class attribute we would need
+
+02:08.270 --> 02:09.600
+to right the value.
+
+02:09.600 --> 02:15.080
+Now this is not the best naming convention I can tell you right away naming is green and we'll gonna
+
+02:15.090 --> 02:21.900
+cover this a lot in the project but for now let's just go with class of green where for every heading
+
+02:21.900 --> 02:25.530
+that I would like to have green I'm going gonna have this class of green.
+
+02:25.920 --> 02:31.140
+So instead of using that is we're going to create a class and for every hearing.
+
+02:31.140 --> 02:33.250
+Like I said that I would like to have green.
+
+02:33.360 --> 02:36.490
+I'm going to copy and paste this and add the value of green.
+
+02:36.720 --> 02:39.570
+Now for all the red ones I'm gonna change it.
+
+02:39.570 --> 02:41.220
+I'm not gonna say green.
+
+02:41.220 --> 02:43.050
+I'm going to use a red.
+
+02:43.090 --> 02:50.050
+So again let me select this value for this guy and let's say for the red one copy paste and for the
+
+02:50.050 --> 02:51.060
+last one the same.
+
+02:51.640 --> 02:54.110
+Now how do we select them and see as though.
+
+02:54.120 --> 02:57.170
+So we'll head over back and we're gonna get rid of the string three.
+
+02:57.610 --> 02:59.060
+I'm not interested in this.
+
+02:59.260 --> 03:04.730
+And now instead of the hash tag that we used for the 80s we need to use that.
+
+03:04.840 --> 03:10.930
+This is how we can select classes and again we need to write the name of the class and don't write Grandma
+
+03:10.940 --> 03:14.580
+Madea because you do have this class in your document.
+
+03:14.590 --> 03:17.580
+Well maybe you do have in yours but I don't have in mind.
+
+03:17.870 --> 03:21.950
+So in my case we're gonna write Green and now I again I can write whatever I would like.
+
+03:22.290 --> 03:28.630
+So in our case since this is gonna be best visual example we're gonna use green and what happens.
+
+03:28.810 --> 03:33.010
+Only the headings that have a class of green turn green.
+
+03:33.010 --> 03:34.090
+Simple enough.
+
+03:34.090 --> 03:40.810
+Now it's covering paste this let's say we're gonna select not the green bar instead we're gonna work
+
+03:40.810 --> 03:41.880
+with red.
+
+03:42.190 --> 03:43.120
+And what happens.
+
+03:43.120 --> 03:47.590
+Well we're gonna light let's say color red and also background.
+
+03:47.590 --> 03:52.180
+I don't know grey background is gonna be grey.
+
+03:52.330 --> 03:54.130
+Now what do you think is gonna happen in this case.
+
+03:54.760 --> 04:01.570
+So only the classes that were added to the hiring freeze with the value of Red were styled this way.
+
+04:02.080 --> 04:07.680
+So this is all we can use class directors in C assess and they are very very powerful.

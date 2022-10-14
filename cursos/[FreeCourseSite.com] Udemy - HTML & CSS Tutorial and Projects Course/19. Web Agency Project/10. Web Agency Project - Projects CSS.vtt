@@ -1,0 +1,568 @@
+WEBVTT
+
+00:00.330 --> 00:04.590
+So let's go to our main series house here.
+
+00:04.740 --> 00:06.780
+And as always all the way to the bottom right.
+
+00:06.810 --> 00:14.730
+We're going to create more space we're here and I was going to say this is going to be projects like
+
+00:14.730 --> 00:17.730
+this and then I'm going to say that for the project's title.
+
+00:17.730 --> 00:17.930
+Right.
+
+00:17.940 --> 00:24.780
+What would be the first thing that's going to say were here projects or here title text.
+
+00:24.900 --> 00:25.200
+Right.
+
+00:25.230 --> 00:27.360
+Because we're going to be changing different background.
+
+00:27.510 --> 00:32.460
+So I would want to text to stand out right so we're going to give this black color superhero in some
+
+00:32.480 --> 00:36.120
+sense going and we one nine or color.
+
+00:36.230 --> 00:40.640
+And this is going to be hash tag 1 9 1 7 1 6.
+
+00:40.700 --> 00:45.170
+So this is going to be black right now and then we're going to have for the actual project.
+
+00:45.180 --> 00:45.930
+Right.
+
+00:46.300 --> 00:52.110
+So over here right projects and they're all going to say we want.
+
+00:52.130 --> 00:55.310
+First we say this is going to be 20 pixels.
+
+00:55.490 --> 01:03.050
+We're going to zero and then we're going to be 80 pixels pixels or here and then we'll have zero in
+
+01:03.570 --> 01:04.140
+here.
+
+01:04.260 --> 01:10.180
+And then the background color and color over here we're going to say this is going to be hash tag.
+
+01:10.590 --> 01:12.100
+And it's going to be zero.
+
+01:12.480 --> 01:15.680
+And then we have to D-B to the right.
+
+01:15.710 --> 01:19.860
+So you know this and then we need to style the products contain.
+
+01:19.940 --> 01:20.570
+Right.
+
+01:20.640 --> 01:25.910
+So we're going to say projects and then I'm going to say container right.
+
+01:25.950 --> 01:30.970
+And this is actually class not a handy container.
+
+01:31.390 --> 01:36.590
+I was going to open this one and we're going to say Max with an we're here we're going to say 90.
+
+01:36.590 --> 01:37.040
+Right.
+
+01:37.050 --> 01:38.930
+And you remember again what we're doing right.
+
+01:38.970 --> 01:41.080
+So we're setting the whole container.
+
+01:41.200 --> 01:41.650
+Right.
+
+01:41.700 --> 01:48.000
+So those three items right these three pictures right now we're a huge they're actually living inside
+
+01:48.000 --> 01:48.170
+there.
+
+01:48.180 --> 01:48.640
+Right.
+
+01:48.750 --> 01:51.330
+So we're just setting the whole with the whole thing.
+
+01:51.340 --> 01:51.580
+Right.
+
+01:51.580 --> 01:59.520
+So you worked on this and then we're going to have a margin of zero auto right.
+
+01:59.610 --> 02:02.180
+So now I can see how we placed that actually in the center.
+
+02:02.340 --> 02:05.250
+And don't worry we're going to fix the image it's not going to look like this.
+
+02:05.250 --> 02:06.000
+Right.
+
+02:06.060 --> 02:08.160
+And then we have a project item.
+
+02:08.350 --> 02:08.970
+Right.
+
+02:09.380 --> 02:15.340
+So here we're going to write project we're going to say item here and what should be the item.
+
+02:15.450 --> 02:21.810
+And this is going to be a position to say relative that we're going to have a background that we're
+
+02:21.810 --> 02:23.470
+going to have a linear back room right.
+
+02:23.640 --> 02:26.420
+So we're great here.
+
+02:27.030 --> 02:36.330
+And then again we're going to do the same thing on G.P.A. and this is going to be 0 0 0 0 0 0 and this
+
+02:36.330 --> 02:44.720
+is let's say eight this time and again our G.P.A. and 0 0 0 0 0 8.
+
+02:44.880 --> 02:46.430
+So something like this.
+
+02:46.500 --> 02:50.530
+So now that we have this then we're going to go to cultural color.
+
+02:50.720 --> 03:00.990
+I'm going to say that color is going to be hash tag again 0 e to be to be like this and it's going to
+
+03:00.990 --> 03:03.350
+be the color then it's going to be overfull right.
+
+03:03.360 --> 03:08.550
+And again we need to sell it didn't him so he can actually work with these properties that we want to
+
+03:08.550 --> 03:09.020
+do.
+
+03:09.300 --> 03:15.540
+And then last thing is going to be margin is going to be 10 pixels and that is actually making let's
+
+03:15.540 --> 03:18.130
+say 20 light and 0.
+
+03:18.150 --> 03:23.660
+Right so this is only so they are again not stacking up against each other on the smaller screen.
+
+03:23.700 --> 03:24.350
+Right.
+
+03:24.360 --> 03:29.010
+Once we're set with a project item Let's time to actually make the images smaller.
+
+03:29.010 --> 03:29.770
+Right.
+
+03:29.820 --> 03:34.750
+So here I'm going to say this is going to be projects and we're going to say image right.
+
+03:35.080 --> 03:39.090
+And what should be the name module going to say first we're going to say with we're going to say 100
+
+03:39.120 --> 03:40.850
+percent right.
+
+03:40.920 --> 03:46.710
+So this is you can see right away how it actually got a Images right.
+
+03:46.710 --> 03:47.490
+They're not as big.
+
+03:47.820 --> 03:50.850
+They're sponsored right away when we have with 100.
+
+03:50.850 --> 03:57.600
+Right now we're going to say Monheit also going to say 100 million like this then we're going to say
+
+03:57.950 --> 03:58.750
+display.
+
+03:58.810 --> 04:00.680
+I'm we're going to say this play block.
+
+04:01.050 --> 04:05.110
+And the last thing that I'm willing to do is transition is transform.
+
+04:05.340 --> 04:11.640
+So I'm going to say we're here to transition transform we're here and transform is going to again I'm
+
+04:11.640 --> 04:14.080
+going to for four seconds.
+
+04:14.150 --> 04:14.990
+Right.
+
+04:15.600 --> 04:20.190
+Then for a actual image text or image.
+
+04:20.420 --> 04:22.270
+And we're going to say text right.
+
+04:22.290 --> 04:23.500
+What should happen right.
+
+04:23.700 --> 04:26.240
+First this is going to be positioned absolutely right.
+
+04:26.260 --> 04:29.330
+And again you right away you can see that we're going to start hiding right.
+
+04:29.460 --> 04:31.860
+So position absolute right.
+
+04:32.130 --> 04:36.750
+Then you're going to have a top say 50 percent.
+
+04:36.920 --> 04:37.420
+Right.
+
+04:37.710 --> 04:43.530
+Then we're going to have a left 50 percent 50 percent.
+
+04:43.530 --> 04:49.180
+And then over here we're going to have a transform and we're going to use the translate property right
+
+04:49.300 --> 04:56.740
+trancelike and we're going to say this is going to be negative 50 right and negative 50.
+
+04:56.790 --> 05:00.620
+And this is the old school way of doing of actually centering.
+
+05:00.620 --> 05:01.200
+Right.
+
+05:01.470 --> 05:05.770
+And over here we're going to say text the and center right.
+
+05:05.810 --> 05:11.090
+We obviously could have used a flex box but I just wanted to kind of show you what would be the old
+
+05:11.220 --> 05:11.740
+right.
+
+05:11.850 --> 05:16.640
+And we're going to say that we're going actually going high that we're going to say a possibly zero.
+
+05:16.640 --> 05:17.030
+Right.
+
+05:17.110 --> 05:23.510
+So now I can see that it's hidden and then transition and transition is going to be opacity Pasotti.
+
+05:23.570 --> 05:26.500
+And again this woman was set for four seconds.
+
+05:26.670 --> 05:32.990
+Right now we have this I actually need to have to work with a full length.
+
+05:33.170 --> 05:34.630
+So again we're going to go over here.
+
+05:34.720 --> 05:37.490
+We're going to say this is going to be image for her.
+
+05:37.580 --> 05:37.770
+Right.
+
+05:37.850 --> 05:40.790
+So class image for her.
+
+05:40.880 --> 05:45.890
+And again what's going to happen here we're going to say display and we're going to say display flex
+
+05:46.190 --> 05:48.930
+because we want to push them away from each other right.
+
+05:48.960 --> 05:53.990
+And here we're going to say just different content space between right and I can see in every way from
+
+05:53.990 --> 05:57.270
+each other with is going to be around 100 percent.
+
+05:57.620 --> 06:07.280
+So with 100 percent or here this then you're going to have a position and we're going to take an absolute
+
+06:07.850 --> 06:09.430
+position absolute.
+
+06:09.610 --> 06:18.830
+And then we're going to have left 0 0 0 or so replacing it all the way in the bottom of the image or
+
+06:18.830 --> 06:25.340
+image container and we're going to have padding of ten pixels all around then it's going to be font
+
+06:25.580 --> 06:31.150
+size 20 size 20 pixels over here.
+
+06:31.260 --> 06:37.580
+And then again we're going to say a is zero and CALLER 1 is going to be in the caller again is going
+
+06:37.580 --> 06:41.660
+to be hash tag six.
+
+06:42.030 --> 06:46.920
+Hey an F to e to.
+
+06:47.460 --> 06:47.850
+Right.
+
+06:47.990 --> 06:52.390
+So now that we have that transition again it's going to be capacity transition.
+
+06:52.470 --> 06:55.910
+I see no real going to say for seconds.
+
+06:56.210 --> 07:00.730
+So now we have this now we want to work with those image text and we.
+
+07:00.770 --> 07:01.190
+Right.
+
+07:01.370 --> 07:03.800
+So again we can maybe change this one for now.
+
+07:03.800 --> 07:06.160
+Right so we can actually see this.
+
+07:06.350 --> 07:10.080
+Otherwise this is going to take us we're not going to be able to see what we're doing right.
+
+07:10.280 --> 07:17.510
+So for image text 1 I know what no one can actually this is when we can hide or just do this is only
+
+07:17.510 --> 07:22.340
+two things or here I think you're going to forgive me for the fact that you can see what you are doing
+
+07:22.820 --> 07:31.970
+font size or here we're going to say 30 pixels and then we're going to see margin bottom right margin
+
+07:32.480 --> 07:35.030
+bottom 10 pixels.
+
+07:35.080 --> 07:37.140
+Right so now we have this guy over here.
+
+07:37.280 --> 07:42.710
+And then one for a image text six for heading six.
+
+07:42.800 --> 07:44.390
+So I don't know what we should do.
+
+07:44.420 --> 07:52.130
+Just copy and paste this or something like this 6 or here we're going to say font size it will say 15.
+
+07:52.520 --> 07:57.410
+So something like this and margin bottom was going to get rid of God.
+
+07:57.680 --> 08:00.200
+There's going to be no margin in the bottom.
+
+08:00.200 --> 08:04.860
+And now we wouldn't want actually to resolve the fact that we can see them.
+
+08:05.410 --> 08:13.340
+A project over here and we're going to see item and then we're going to have a hover effect.
+
+08:13.460 --> 08:17.030
+This is when we're going out we're going to have hover image.
+
+08:17.180 --> 08:25.630
+And what happens is we're going to have a capacity here and we're going to say 0.4 or this.
+
+08:25.640 --> 08:28.870
+So for the actual image read the passage is going to change.
+
+08:28.900 --> 08:35.420
+They're also going to have a transform and we're going to say this is going to be scaling 1.3.
+
+08:35.420 --> 08:35.850
+Right.
+
+08:35.900 --> 08:38.020
+So now we're working with an actual image.
+
+08:38.030 --> 08:38.670
+Right.
+
+08:38.720 --> 08:44.960
+And then the last thing that we would want to do as we're hovering we're right so we can just copy project
+
+08:45.040 --> 08:46.610
+items were.
+
+08:46.760 --> 08:53.320
+So copy this one pasted and then are really going to say this is going to be image text.
+
+08:53.420 --> 08:54.250
+Right.
+
+08:54.800 --> 08:58.730
+And then we're going to get this line copy this one in or here.
+
+08:58.770 --> 09:01.770
+This is not going to be image text this is going to be Image footer.
+
+09:01.890 --> 09:02.180
+Right.
+
+09:02.180 --> 09:07.410
+So for both of them we're going to set up passively and we're going to save one life.
+
+09:07.480 --> 09:12.290
+So now we say this over here you can see what happens right.
+
+09:12.350 --> 09:15.790
+First of all you can see the images zooming in right.
+
+09:15.920 --> 09:19.410
+And also everything is appearing only as I'm hovering right.
+
+09:19.550 --> 09:23.030
+You can see the Nampa is in four seconds becoming one.
+
+09:23.030 --> 09:23.660
+Right.
+
+09:23.660 --> 09:28.330
+So the last thing that we want to do is actually set up again in response class.
+
+09:28.340 --> 09:28.970
+Right.
+
+09:28.970 --> 09:34.960
+So again if we don't want to write the whole thing right we can find it more with the shorter version.
+
+09:35.030 --> 09:35.500
+Right.
+
+09:35.550 --> 09:41.480
+Well actually that wasn't so and maybe Let's create one here and we're going to say or here that this
+
+09:41.480 --> 09:43.660
+is going to be meteor screen.
+
+09:44.180 --> 09:51.380
+We're going to say screen and no real going to say this is going to be men with.
+
+09:51.440 --> 09:51.760
+Right.
+
+09:51.770 --> 09:55.640
+And we're going to say 576 576 pixels.
+
+09:55.820 --> 09:57.630
+And then what was going to happen.
+
+09:57.980 --> 10:04.460
+We're going to go with year cause it out and then this is going to be there all right.
+
+10:04.460 --> 10:10.910
+Or you know like this and then I'm going to have a project's container projects
+
+10:13.380 --> 10:21.840
+container and then over here we're going to have display grid this play grid and then we're going to
+
+10:21.840 --> 10:32.170
+have a grid template once grid grid or here template columns and this is going to be repeat.
+
+10:32.230 --> 10:36.440
+Right so we're going to use again this available option right.
+
+10:36.440 --> 10:38.280
+So we're going to be using a repeat.
+
+10:38.310 --> 10:39.690
+We're going to write to.
+
+10:40.140 --> 10:46.380
+And this is going to be one fraction of it so two times one for action and this is going to be for the
+
+10:46.380 --> 10:51.780
+Gap grade Kahlon or year gap.
+
+10:51.900 --> 10:53.460
+And this is going to be one.
+
+10:53.630 --> 10:57.870
+And this and then we're going to have for the bigger screen.
+
+10:57.870 --> 10:58.140
+Right.
+
+10:58.140 --> 11:00.200
+So this is for the smaller screen.
+
+11:00.210 --> 11:03.920
+So if go back or here copy and paste this.
+
+11:04.530 --> 11:12.360
+And this is going to be 9 9 2 9 9 9 2 and then we're going to have the same thing display red right
+
+11:12.750 --> 11:19.070
+gets cases going we repeat three and call them up again let's leave it at one right.
+
+11:19.310 --> 11:25.470
+So this has got to refresh our agency right now it can have a project.
+
+11:25.500 --> 11:28.150
+Right now you can see that we're hovering right.
+
+11:28.290 --> 11:33.600
+We have the effect you can see that I had it over here so my colon and we managed him down so that was
+
+11:33.600 --> 11:34.940
+pretty smart.
+
+11:34.940 --> 11:38.560
+So now I have to go all the way back and actually fix this.
+
+11:38.580 --> 11:44.080
+So here is the we don't want to see Michael and I know we're here.
+
+11:44.080 --> 11:51.540
+And if we can back up and just fix this I might call and say this right and fresh and you can see that
+
+11:51.540 --> 11:58.920
+if I'm going to make this smaller right as I'm making shrinking the screen now we have two columns and
+
+11:58.920 --> 12:03.200
+if we go all the way to the small screen is going to be two columns.
+
+12:03.250 --> 12:05.070
+But over here this is going to be one column.
+
+12:05.110 --> 12:05.660
+All right.
+
+12:05.670 --> 12:11.760
+And again you can always change the screen so you think would look better right now you know how but
+
+12:11.760 --> 12:16.230
+I just think that this is full for these kind of props for these kind of pictures right and it's going
+
+12:16.230 --> 12:17.400
+to look a little bit better.
+
+12:17.640 --> 12:21.060
+And now we're done with this section and really to move on to next.

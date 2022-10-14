@@ -1,0 +1,3 @@
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\CapaPresentacion\obj\Debug\netstandard2.0\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\CapaPresentacion\obj\Debug\netstandard2.0\CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\Tiendita\CapaPresentacion\obj\Debug\netstandard2.0\CapaPresentacion.AssemblyInfo.cs

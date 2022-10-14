@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.840 --> 00:02.060
+So far so good.
+
+00:02.100 --> 00:03.900
+We know how we can work with group.
+
+00:04.260 --> 00:06.820
+But let's imagine a little bit different scenario.
+
+00:06.960 --> 00:12.720
+So let's say I'm going to first delete this and we're gonna write heading one is gonna be titled heading
+
+00:13.280 --> 00:14.480
+idle.
+
+00:14.820 --> 00:18.590
+And then we're gonna need some kind of paragraph we're gonna say paragraph.
+
+00:18.630 --> 00:22.650
+And within the paragraph I don't know what what's place like 20 words or something like that.
+
+00:22.800 --> 00:27.540
+And then after the paragraph let's imagine there's gonna be another heading one more.
+
+00:27.540 --> 00:30.450
+This one is just gonna be I don't know food or hearing again.
+
+00:30.560 --> 00:35.140
+It doesn't really matter how we call this the main idea is gonna be very simple.
+
+00:35.220 --> 00:42.180
+So I would like to work with adding 1 and add some kind of styles only to the heading One and let's
+
+00:42.180 --> 00:46.910
+say the other heading one the further heading is gonna have a separate styles.
+
+00:47.270 --> 00:52.200
+Well first of all let me get rid of everything that I have for now in my style sheet and knowledge to
+
+00:52.200 --> 00:53.480
+decide how we're gonna do it.
+
+00:54.150 --> 00:57.480
+So only the title heading is gonna have specific styles.
+
+00:57.480 --> 01:00.590
+And then the footer heading mode have totally different styles.
+
+01:01.120 --> 01:07.570
+So how we would do this well in the Sear says we have an option of using the IDR.
+
+01:07.650 --> 01:11.730
+Now the way we work with the selector First we would need to create an idea.
+
+01:11.930 --> 01:19.230
+In my case I know that I would need to work with a attribute in my email which would be ideal and naming
+
+01:19.230 --> 01:23.760
+here is important because we all can I use it to actually select it in CSF.
+
+01:23.850 --> 01:27.080
+So let's call this I don't know a heading.
+
+01:27.330 --> 01:31.650
+And then also we can work with a hearing one we're gonna do that in a second.
+
+01:31.710 --> 01:36.840
+Once we understand how we can select this with the idea of having so far so good.
+
+01:36.930 --> 01:40.010
+So we have the idea with a value of having.
+
+01:40.260 --> 01:46.180
+Now once we go to styles assess if we would like to like this idea the syntax would be followed.
+
+01:46.610 --> 01:51.890
+So first we will go on and go with a hashtag and then we would need to come up with a name.
+
+01:51.900 --> 01:56.700
+Now when I say we would need to come up with a name that means that a name should match whatever you
+
+01:56.700 --> 01:58.110
+have here in the value.
+
+01:58.170 --> 02:04.690
+Otherwise if you gonna call this grandma Madea the CSX is not gonna be able to select it so in our case
+
+02:04.720 --> 02:09.960
+we know that we are selecting the heading and let's maybe use the color again properly and we're gonna
+
+02:09.970 --> 02:11.740
+say the color should be green.
+
+02:11.910 --> 02:18.040
+However let's also look at the other property that we can use for colors that would be for the background.
+
+02:18.040 --> 02:21.820
+And again we're gonna cover colors and literally few videos.
+
+02:21.840 --> 02:28.760
+However just remember that with a color what you're doing is you're selecting the color of the text.
+
+02:28.960 --> 02:33.060
+Then the background is gonna be self explanatory with a background.
+
+02:33.490 --> 02:35.140
+So let's say background should be.
+
+02:35.170 --> 02:36.510
+I don't know black.
+
+02:36.670 --> 02:39.040
+Now the moment we say with notice what happened.
+
+02:39.160 --> 02:47.170
+Only the heading be heading one that had the title of the heading has over here is background black
+
+02:47.560 --> 02:49.430
+as well as the color green.
+
+02:49.450 --> 02:53.930
+Now I can go back and I can change it and maybe let's call this title hiring.
+
+02:53.950 --> 02:57.460
+Maybe that should make more sense so I can write title.
+
+02:57.470 --> 03:04.230
+However the moment I changed the name or my value in the the attribute obviously the CSX is not anymore
+
+03:04.240 --> 03:06.280
+selecting because names don't match.
+
+03:06.640 --> 03:11.420
+So in our case again we would need to head over and let's say that this is gonna be the time.
+
+03:11.440 --> 03:17.320
+Now one thing with ideas what we should remember is the simple fact that they should be unique.
+
+03:17.320 --> 03:18.150
+What I mean by this.
+
+03:18.400 --> 03:23.260
+So let's say if we're gonna be working with the other heading the photo or heading we should have the
+
+03:23.260 --> 03:30.580
+I.D. our dad I.D. should match the I.D. that we already have currently on the page so I'm gonna call
+
+03:30.580 --> 03:32.170
+this here subheading.
+
+03:32.290 --> 03:37.780
+So instead of using again the title I.D. should be unique because there is other ways how we can work
+
+03:37.780 --> 03:43.720
+with SPSS in order to work with multiple elements together not just grouping the actual select.
+
+03:44.410 --> 03:49.420
+So that's something you should always remember that if you would like to use I.D. make sure that they
+
+03:49.420 --> 03:56.090
+are unique for that specific element meaning you're not reusing them somewhere around the actual page.
+
+03:56.170 --> 04:01.750
+Otherwise if the I.D. are not unique you're kind of losing the actual meaning of what is the reasoning
+
+04:01.750 --> 04:02.900
+for using data.
+
+04:03.190 --> 04:07.810
+Now if we have the subheading much changed around a little bit let's say again we're going to be selecting
+
+04:07.810 --> 04:09.270
+hub subheading.
+
+04:09.370 --> 04:12.070
+Now we know that the naming right now is correct.
+
+04:12.070 --> 04:15.220
+Maybe let's select these styles and let's just change this color.
+
+04:15.250 --> 04:19.880
+So instead of green one is gonna go with I don't text red.
+
+04:20.080 --> 04:21.990
+And then what we should use for the background.
+
+04:22.570 --> 04:23.960
+I don't know what to decide.
+
+04:24.000 --> 04:26.640
+So for the background we can use maybe gray.
+
+04:26.770 --> 04:28.590
+So let's test this out now.
+
+04:28.690 --> 04:30.000
+The moment we're gonna save it.
+
+04:30.010 --> 04:35.490
+Notice what the title lady we are selecting and background black and the color green.
+
+04:35.490 --> 04:40.180
+And for the subheading again we're using the added selector and we're saying that the background is
+
+04:40.180 --> 04:42.670
+gonna be gray and color is gonna be red.

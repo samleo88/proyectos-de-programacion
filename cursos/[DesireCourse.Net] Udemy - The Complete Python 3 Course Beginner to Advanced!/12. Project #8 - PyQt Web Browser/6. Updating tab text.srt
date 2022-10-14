@@ -1,0 +1,729 @@
+1
+
+00:00:00,000  -->  00:00:02,429
+Alright guys, so this gets a little
+
+2
+
+00:00:02,429  -->  00:00:06,390
+confusing, so I'm going to try and step
+
+3
+
+00:00:06,390  -->  00:00:09,480
+through it. I'm going to try to also use variable
+
+4
+
+00:00:09,480  -->  00:00:13,139
+names that explain things exactly how I
+
+5
+
+00:00:13,139  -->  00:00:15,059
+think would make most sense.
+
+6
+
+00:00:15,059  -->  00:00:17,190
+So if you guys remember, and I want to
+
+7
+
+00:00:17,190  -->  00:00:19,560
+make a little comment here under add tab,
+
+8
+
+00:00:19,560  -->  00:00:23,369
+I've changed this, alright, so we can
+
+9
+
+00:00:23,369  -->  00:00:25,199
+keep the number of it's initial position.
+
+10
+
+00:00:25,199  -->  00:00:28,619
+So, go ahead and create a dictionary and
+
+11
+
+00:00:28,619  -->  00:00:31,470
+the first key is object, and then
+
+12
+
+00:00:31,470  -->  00:00:35,579
+that's the tab of the number, so it
+
+13
+
+00:00:35,579  -->  00:00:38,370
+should tab 0, tab 1, etc. based on
+
+14
+
+00:00:38,370  -->  00:00:40,530
+how many times this tab count has
+
+15
+
+00:00:40,530  -->  00:00:43,079
+increased. And then the second key is
+
+16
+
+00:00:43,079  -->  00:00:46,350
+going to be initial and that values is i, so
+
+17
+
+00:00:46,350  -->  00:00:50,430
+I have changed that. What we're going to
+
+18
+
+00:00:50,430  -->  00:00:53,070
+do, I'm going to erase this, I'm going to
+
+19
+
+00:00:53,070  -->  00:01:03,359
+create a comment kind of as a helper, and why don't we do this. So, basically what
+
+20
+
+00:01:03,359  -->  00:01:06,720
+we've done here is we've set tabs object
+
+21
+
+00:01:06,720  -->  00:01:14,549
+name, so self.tabs[i].objectName equals
+
+22
+
+00:01:14,549  -->  00:01:20,100
+tab1, and then the tabbar self.
+
+23
+
+00:01:20,100  -->  00:01:31,619
+tabbar.tabData(i)["object"] that is
+
+24
+
+00:01:31,619  -->  00:01:33,810
+equal to the same thing, or it should
+
+25
+
+00:01:33,810  -->  00:01:37,890
+be. This is going to get the tab itself that
+
+26
+
+00:01:37,890  -->  00:01:40,979
+controls this tab object. I'm going to
+
+27
+
+00:01:40,979  -->  00:01:42,270
+copy this because what we're going to do
+
+28
+
+00:01:42,270  -->  00:01:45,479
+is we're going to connect some web view
+
+29
+
+00:01:45,479  -->  00:01:51,270
+events, basically. So, we want to
+
+30
+
+00:01:51,270  -->  00:01:53,729
+be able to update the tab's title text
+
+31
+
+00:01:53,729  -->  00:01:55,799
+every time the title of the page changes.
+
+32
+
+00:01:55,799  -->  00:01:58,229
+Now, we're in luck because web view
+
+33
+
+00:01:58,229  -->  00:02:01,560
+actually emits that signal. So, let's go
+
+34
+
+00:02:01,560  -->  00:02:07,250
+ahead and type self.tabs[i].
+
+35
+
+00:02:07,250  -->  00:02:18,110
+content.page, actually titleChanged.
+
+36
+
+00:02:18,110  -->  00:02:23,180
+connect, and we're going to reference, we
+
+37
+
+00:02:23,180  -->  00:02:25,430
+need to use lambda because we need to
+
+38
+
+00:02:25,430  -->  00:02:28,340
+pass through this index number here as
+
+39
+
+00:02:28,340  -->  00:02:30,709
+that is tab, you know we can get the name
+
+40
+
+00:02:30,709  -->  00:02:35,600
+from it. So, lambda: self.Set
+
+41
+
+00:02:35,600  -->  00:02:40,010
+TabsText, and we're going to send the index number
+
+42
+
+00:02:40,010  -->  00:02:46,640
+through. So what we need to do is jump down
+
+43
+
+00:02:46,640  -->  00:02:48,440
+here under our browse to method
+
+44
+
+00:02:48,440  -->  00:02:56,900
+and create that, so SetTabTitle. So,
+
+45
+
+00:02:56,900  -->  00:03:05,320
+what did set it to? SetTabText.
+
+46
+
+00:03:06,680  -->  00:03:11,870
+Alright, I'm going to paste my comment
+
+47
+
+00:03:11,870  -->  00:03:15,019
+here, because what we need to do is we need to
+
+48
+
+00:03:15,019  -->  00:03:18,410
+get the object name of the tabs content
+
+49
+
+00:03:18,410  -->  00:03:21,560
+itself. So this is how we're going to get
+
+50
+
+00:03:21,560  -->  00:03:23,630
+the object name, we just you know extract
+
+51
+
+00:03:23,630  -->  00:03:24,890
+object name. So,
+
+52
+
+00:03:24,890  -->  00:03:34,519
+tab_objectName = self.tabs, and
+
+53
+
+00:03:34,519  -->  00:03:37,220
+then you know whatever tap admitted the
+
+54
+
+00:03:37,220  -->  00:03:43,549
+the signal, and then object name. And then
+
+55
+
+00:03:43,549  -->  00:03:46,040
+what we need to do is we need to set a
+
+56
+
+00:03:46,040  -->  00:03:49,280
+for loop here, why is this, oh it's just one
+
+57
+
+00:03:49,280  -->  00:03:50,150
+too many lines.
+
+58
+
+00:03:50,150  -->  00:03:52,970
+Alright, cool, whatever. What we need to do...
+
+59
+
+00:03:52,970  -->  00:03:57,860
+alright let's ignore that.
+
+60
+
+00:03:57,860  -->  00:04:05,540
+I'm violating so many pep guidelines
+
+61
+
+00:04:05,540  -->  00:04:08,000
+right now it appears. Remember set tab
+
+62
+
+00:04:08,000  -->  00:04:10,880
+text method should receive your next
+
+63
+
+00:04:10,880  -->  00:04:14,959
+number there. So, this is for example
+
+64
+
+00:04:14,959  -->  00:04:16,849
+going to be tab1, that's what this is
+
+65
+
+00:04:16,849  -->  00:04:20,290
+going to return, that's the tab object name.
+
+66
+
+00:04:20,290  -->  00:04:23,080
+So now we need to basically iterate
+
+67
+
+00:04:23,080  -->  00:04:26,380
+through each tab, and then check if the
+
+68
+
+00:04:26,380  -->  00:04:30,700
+tab data object key in the dictionary
+
+69
+
+00:04:30,700  -->  00:04:34,180
+equals the tab name. So how we're going to
+
+70
+
+00:04:34,180  -->  00:04:35,680
+do that is we're going to do a pretty
+
+71
+
+00:04:35,680  -->  00:04:37,600
+standard thing here in Python, we're
+
+72
+
+00:04:37,600  -->  00:04:39,730
+going to set a count variable equal to 0,
+
+73
+
+00:04:39,730  -->  00:04:41,350
+so it's going to start at the beginning of
+
+74
+
+00:04:41,350  -->  00:04:43,630
+the list, and we're going to set running
+
+75
+
+00:04:43,630  -->  00:04:49,390
+equals true. And then while running what
+
+76
+
+00:04:49,390  -->  00:04:52,420
+we need to do is we need to get the tab
+
+77
+
+00:04:52,420  -->  00:05:01,720
+data of the tab, and
+
+78
+
+00:05:01,720  -->  00:05:03,160
+it's going to iterate through tabs so
+
+79
+
+00:05:03,160  -->  00:05:04,660
+it's going to return a bunch of tab data
+
+80
+
+00:05:04,660  -->  00:05:07,000
+here until it finds the correct one.
+
+81
+
+00:05:07,000  -->  00:05:11,920
+So, I'm going to say tab_data_name
+
+82
+
+00:05:11,920  -->  00:05:16,930
+equals self.tobbar.tabData, and
+
+83
+
+00:05:16,930  -->  00:05:21,400
+then we pass through count. Now what we
+
+84
+
+00:05:21,400  -->  00:05:24,700
+need to do we need to set a cut off
+
+85
+
+00:05:24,700  -->  00:05:26,890
+limit for right now, we can remove this
+
+86
+
+00:05:26,890  -->  00:05:29,740
+later. So if count is greater than or
+
+87
+
+00:05:29,740  -->  00:05:32,890
+equal to 99 we need to set running to
+
+88
+
+00:05:32,890  -->  00:05:38,680
+false. Just quit out of here, and then what
+
+89
+
+00:05:38,680  -->  00:05:48,880
+we're going to do is if tab_name equals
+
+90
+
+00:05:48,880  -->  00:05:53,400
+tab_
+
+91
+
+00:05:54,790  -->  00:06:01,870
+data_name, it's going to get the actual tab so object name
+
+92
+
+00:06:01,870  -->  00:06:06,930
+right there.
+
+93
+
+00:06:11,490  -->  00:06:12,860
+Sorry, I coughed there.
+
+94
+
+00:06:12,860  -->  00:06:16,849
+Alright, so tab object name right there
+
+95
+
+00:06:16,849  -->  00:06:21,979
+and I'm just going to set this up to tab_name just to make things simpler. So we've got tab_name
+
+96
+
+00:06:21,979  -->  00:06:24,379
+which is extracted from the actual tabs
+
+97
+
+00:06:24,379  -->  00:06:27,020
+list, and then we've got tab_data_name
+
+98
+
+00:06:27,020  -->  00:06:29,659
+which is iterated through the tab bar
+
+99
+
+00:06:29,659  -->  00:06:33,110
+itself. Now we check if tab_name equals
+
+100
+
+00:06:33,110  -->  00:06:35,509
+tab_data_name, and then the objects
+
+101
+
+00:06:35,509  -->  00:06:38,210
+within the data. If that equals each
+
+102
+
+00:06:38,210  -->  00:06:40,610
+other we've got the correct tab and we
+
+103
+
+00:06:40,610  -->  00:06:43,400
+now need to update the title text. So
+
+104
+
+00:06:43,400  -->  00:06:48,439
+what we're going to say is self.tab
+
+105
+
+00:06:48,439  -->  00:06:53,479
+bar.setTabText. Now we know that
+
+106
+
+00:06:53,479  -->  00:06:55,789
+the count variable is correct at this
+
+107
+
+00:06:55,789  -->  00:06:58,520
+point, so then we just need to set it to
+
+108
+
+00:06:58,520  -->  00:07:03,289
+the to the web views title. So, newTitle
+
+109
+
+00:07:03,289  -->  00:07:07,159
+is going to be equal to self.find
+
+110
+
+00:07:07,159  -->  00:07:11,810
+Child, and then we're going to find
+
+111
+
+00:07:11,810  -->  00:07:19,219
+QWidget with the name of tab_name, and then
+
+112
+
+00:07:19,219  -->  00:07:24,680
+content.title. So this, for example, when
+
+113
+
+00:07:24,680  -->  00:07:27,800
+the signal's emmitted on the web
+
+114
+
+00:07:27,800  -->  00:07:30,710
+view itself, this right here is going
+
+115
+
+00:07:30,710  -->  00:07:33,379
+to be set to the new title. So then we
+
+116
+
+00:07:33,379  -->  00:07:35,629
+just pass the new title into the set
+
+117
+
+00:07:35,629  -->  00:07:41,449
+tab text, and it should work. Now at this
+
+118
+
+00:07:41,449  -->  00:07:46,729
+point we need to set running to false so
+
+119
+
+00:07:46,729  -->  00:07:52,069
+that the while loop stops, but if they
+
+120
+
+00:07:52,069  -->  00:07:57,409
+don't match we need to increase count by
+
+121
+
+00:07:57,409  -->  00:08:05,000
+one. So if I run this, and again all this
+
+122
+
+00:08:05,000  -->  00:08:07,759
+is caused because we can move tabs, so
+
+123
+
+00:08:07,759  -->  00:08:09,830
+you can see that the tab title was set
+
+124
+
+00:08:09,830  -->  00:08:13,520
+correctly. Now if I go to facebook.com
+
+125
+
+00:08:13,520  -->  00:08:17,810
+for instance, it can see that this is set
+
+126
+
+00:08:17,810  -->  00:08:20,509
+correctly. Now when I add a new tab, I'm
+
+127
+
+00:08:20,509  -->  00:08:21,800
+really not sure why this jumps around
+
+128
+
+00:08:21,800  -->  00:08:23,449
+i'll try to figure that out,
+
+129
+
+00:08:23,449  -->  00:08:28,879
+and I go to youtube.com this one updates
+
+130
+
+00:08:28,879  -->  00:08:32,779
+correctly. Now if I switch them, switch back
+
+131
+
+00:08:32,779  -->  00:08:34,399
+to the facebook one, and go to google.com
+
+132
+
+00:08:34,399  -->  00:08:40,310
+you'll see that the correct one switches,
+
+133
+
+00:08:40,310  -->  00:08:44,180
+and again that's because we've got the
+
+134
+
+00:08:44,180  -->  00:08:46,940
+tab name extracted from the actual tab
+
+135
+
+00:08:46,940  -->  00:08:48,350
+that emits the signal that the title
+
+136
+
+00:08:48,350  -->  00:08:50,899
+has changed. And then we iterate through
+
+137
+
+00:08:50,899  -->  00:08:53,480
+all the tabs until we find one where the
+
+138
+
+00:08:53,480  -->  00:08:58,399
+tab data name object name actually equals
+
+139
+
+00:08:58,399  -->  00:09:00,019
+the tab name, and then we know
+
+140
+
+00:09:00,019  -->  00:09:04,310
+ok there's a match so this works. So that
+
+141
+
+00:09:04,310  -->  00:09:08,000
+was the big thing for this video, we're
+
+142
+
+00:09:08,000  -->  00:09:10,579
+going to cover more about how to
+
+143
+
+00:09:10,579  -->  00:09:13,970
+interact with web engine here soon.
+
+144
+
+00:09:13,970  -->  00:09:17,329
+This is probably just the most difficult
+
+145
+
+00:09:17,329  -->  00:09:18,380
+thing we're going to have to do.
+
+146
+
+00:09:18,380  -->  00:09:23,260
+Everything else is a lot simpler.

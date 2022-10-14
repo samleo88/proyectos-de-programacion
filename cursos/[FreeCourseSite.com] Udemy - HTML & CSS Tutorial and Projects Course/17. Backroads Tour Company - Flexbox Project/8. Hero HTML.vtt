@@ -1,0 +1,163 @@
+WEBVTT
+
+00:00.270 --> 00:04.350
+No like I said we're gonna start with our hero element.
+
+00:04.490 --> 00:10.430
+And as far as hero element is concerned we're gonna have some background here.
+
+00:10.440 --> 00:14.170
+There's gonna be also a linear gradient or background image.
+
+00:14.460 --> 00:20.910
+Then they're going to be some banner text in the center as well as the button.
+
+00:20.910 --> 00:27.840
+Now it'll also like to point out that on a smaller screen I wouldn't want to force this massive image.
+
+00:27.900 --> 00:32.680
+So that's the reason why we're gonna have only extra small screen and small screen.
+
+00:32.700 --> 00:35.790
+In fact just a primary color background.
+
+00:35.790 --> 00:36.420
+All right.
+
+00:36.620 --> 00:39.060
+Now let's start working on it.
+
+00:39.150 --> 00:42.730
+First things first we're gonna have to set up our indexation.
+
+00:42.960 --> 00:49.650
+Now the way it's going to work is I'm gonna delete right now right away the font awesome as well as
+
+00:49.650 --> 00:50.600
+this heading one.
+
+00:51.140 --> 00:52.200
+That's number one.
+
+00:52.200 --> 00:54.470
+Then let's set up some comments again.
+
+00:54.690 --> 00:58.050
+Just so it is easier for us to navigate later on.
+
+00:58.050 --> 01:05.170
+We have the header and let's write and off better now within these comments.
+
+01:05.190 --> 01:10.600
+I'm going to start by creating a header element and I'm also gonna give it the right away.
+
+01:10.620 --> 01:17.610
+A I D often like so then within the header there's going to be Nambour later on.
+
+01:17.640 --> 01:20.460
+But we're not going to work on it right now.
+
+01:20.460 --> 01:21.270
+So no.
+
+01:21.750 --> 01:25.590
+And we can right away maybe add a nav tax as well.
+
+01:25.590 --> 01:26.820
+It's really up to you.
+
+01:27.000 --> 01:35.640
+And then right after the NAV tags we're gonna have our hero component hero opponent and then as far
+
+01:35.640 --> 01:43.410
+as hero component is concerned it is going to be a div with a class of hero land within this particular
+
+01:43.410 --> 01:44.110
+div.
+
+01:44.110 --> 01:47.190
+There's going to be one more dev on this.
+
+01:47.190 --> 01:50.220
+Dev is there for the centering.
+
+01:50.370 --> 01:57.520
+So since we are going to have three children within dev but if I would like to place that div within
+
+01:57.520 --> 01:58.080
+the centre.
+
+01:58.410 --> 02:00.940
+Well I'm gonna set it up as one child.
+
+02:01.220 --> 02:08.120
+OK so we have the hero and then within the hero there's gonna be one more dev with a class of here no
+
+02:08.130 --> 02:08.920
+banner.
+
+02:09.000 --> 02:15.570
+And again the reason for the existence of this dev is because we're gonna use it for centering.
+
+02:15.790 --> 02:16.460
+OK.
+
+02:16.620 --> 02:24.500
+And then let's add within that day we're having one with a class of hero title hero title.
+
+02:24.770 --> 02:29.880
+And then let's write continue exploring.
+
+02:30.120 --> 02:32.530
+Like so as far as the heading One.
+
+02:32.630 --> 02:36.890
+And then within the paragraph let's write paragraph.
+
+02:36.980 --> 02:42.290
+Let's also write all the way the class of hero text.
+
+02:42.290 --> 02:48.560
+Now let's maybe add another not 12 words or something like that and then we're gonna create our button
+
+02:49.070 --> 02:52.840
+now our button is also gonna be a link.
+
+02:53.180 --> 02:56.840
+So right after the paragraph I'm gonna create a link.
+
+02:56.840 --> 03:07.100
+Now the draft is going to be hashtag towards so later on we're going to create a div or section with
+
+03:07.100 --> 03:08.130
+an idea of doors.
+
+03:08.300 --> 03:14.090
+And you know what I believe in fact it's not gonna be tours it's gonna be featured.
+
+03:14.630 --> 03:23.390
+And then as far as styling for the link Well we're gonna have the class BD n and Beatty and white Beatty
+
+03:23.390 --> 03:24.010
+and white.
+
+03:24.450 --> 03:31.880
+And as a side note the beat and white is going to be in fact our global styles because there's also
+
+03:31.880 --> 03:38.480
+gonna be a not only beat in white so button white but we're also gonna have the primary button.
+
+03:38.480 --> 03:41.220
+So there's gonna be some styles that both of them share.
+
+03:41.450 --> 03:47.860
+But let's say for example color is gonna be separate for each of the buttons.
+
+03:47.990 --> 03:54.410
+So we're gonna have some global styling for the button white as well as for the button primary.
+
+03:54.620 --> 04:01.790
+And let's write some text explore talks and yep we do have our link.
+
+04:01.800 --> 04:07.320
+However we haven't added any styling yet so this is exactly what we're gonna do next.

@@ -1,0 +1,619 @@
+1
+
+00:00:00,000  -->  00:00:02,010
+Alright guys, what we're going to do in
+
+2
+
+00:00:02,010  -->  00:00:04,049
+this video is just discuss the button
+
+3
+
+00:00:04,049  -->  00:00:05,910
+a little bit more, and we're going to
+
+4
+
+00:00:05,910  -->  00:00:07,830
+be specifically talking about signals
+
+5
+
+00:00:07,830  -->  00:00:12,450
+and slot. So, this is related to C++
+
+6
+
+00:00:12,450  -->  00:00:15,900
+because qt's native bindings are C++. So
+
+7
+
+00:00:15,900  -->  00:00:17,880
+you're going to see a bit of C++ code
+
+8
+
+00:00:17,880  -->  00:00:19,770
+here and it's cool if you're not sure
+
+9
+
+00:00:19,770  -->  00:00:21,930
+what it does because this is not a C++
+
+10
+
+00:00:21,930  -->  00:00:23,730
+course. What we're going to be doing is
+
+11
+
+00:00:23,730  -->  00:00:26,939
+using this to understand the basic
+
+12
+
+00:00:26,939  -->  00:00:29,519
+concepts of the widgets that we're using
+
+13
+
+00:00:29,519  -->  00:00:32,520
+and we're going to basically implement
+
+14
+
+00:00:32,520  -->  00:00:35,820
+this within pyqt. We should be
+
+15
+
+00:00:35,820  -->  00:00:38,910
+able to access clicked, pressed, released,
+
+16
+
+00:00:38,910  -->  00:00:43,379
+and toggled, these are inherited from the
+
+17
+
+00:00:43,379  -->  00:00:45,809
+Q abstract button here and they are
+
+18
+
+00:00:45,809  -->  00:00:47,760
+events, they're signals that we can hook into.
+
+19
+
+00:00:47,760  -->  00:00:51,239
+Also destroyed and custom context menu
+
+20
+
+00:00:51,239  -->  00:00:54,210
+requested. So, we're not going to be
+
+21
+
+00:00:54,210  -->  00:00:58,199
+focusing on this at all. What we're going
+
+22
+
+00:00:58,199  -->  00:01:00,270
+to be doing is just looking through here
+
+23
+
+00:01:00,270  -->  00:01:01,920
+you can set the icon, you can set
+
+24
+
+00:01:01,920  -->  00:01:04,559
+position and sizing, you can set event handles, and
+
+25
+
+00:01:04,559  -->  00:01:07,650
+whatnot. So let's go ahead and what we're
+
+26
+
+00:01:07,650  -->  00:01:09,659
+going to do is just go through some
+
+27
+
+00:01:09,659  -->  00:01:12,630
+connections here. Now in C++ it looks a
+
+28
+
+00:01:12,630  -->  00:01:15,600
+bit more complicated but in Python it's
+
+29
+
+00:01:15,600  -->  00:01:18,090
+basically just running a method where it
+
+30
+
+00:01:18,090  -->  00:01:20,189
+has a callback method. So what we're
+
+31
+
+00:01:20,189  -->  00:01:22,890
+going to do is in order to access any of
+
+32
+
+00:01:22,890  -->  00:01:25,680
+these right here you need to first type
+
+33
+
+00:01:25,680  -->  00:01:27,810
+the object's name, in this case it's button,
+
+34
+
+00:01:27,810  -->  00:01:30,180
+and then access it like you would access
+
+35
+
+00:01:30,180  -->  00:01:34,049
+any class methods anywhere else. So
+
+36
+
+00:01:34,049  -->  00:01:37,350
+clicked and then we're going to do
+
+37
+
+00:01:37,350  -->  00:01:42,090
+.connect. And PyCharm is
+
+38
+
+00:01:42,090  -->  00:01:43,890
+going to complain that connect isn't
+
+39
+
+00:01:43,890  -->  00:01:44,880
+found,
+
+40
+
+00:01:44,880  -->  00:01:47,790
+don't worry about it PyCharm is just out
+
+41
+
+00:01:47,790  -->  00:01:51,780
+of date with pyqt's bindings
+
+42
+
+00:01:51,780  -->  00:01:54,450
+I guess. So, anyway, what we're going to do
+
+43
+
+00:01:54,450  -->  00:01:56,460
+in here is we're going to pass a
+
+44
+
+00:01:56,460  -->  00:02:00,390
+function as a slot. So, think about it
+
+45
+
+00:02:00,390  -->  00:02:02,729
+like this, a signal is something that's
+
+46
+
+00:02:02,729  -->  00:02:05,189
+emitted from an object so when you click
+
+47
+
+00:02:05,189  -->  00:02:07,590
+the button the signal that's submitted is
+
+48
+
+00:02:07,590  -->  00:02:09,690
+hey I've been clicked, and then we're
+
+49
+
+00:02:09,690  -->  00:02:12,810
+going to connect it to a slot which is
+
+50
+
+00:02:12,810  -->  00:02:13,900
+actually going to make
+
+51
+
+00:02:13,900  -->  00:02:16,599
+the program able to respond to user
+
+52
+
+00:02:16,599  -->  00:02:17,709
+input.
+
+53
+
+00:02:17,709  -->  00:02:18,970
+So let's go ahead down here and let's
+
+54
+
+00:02:18,970  -->  00:02:21,790
+define another function called
+
+55
+
+00:02:21,790  -->  00:02:25,510
+action, well to make it a little easier to
+
+56
+
+00:02:25,510  -->  00:02:28,569
+understand I'm going to call it clicked, and
+
+57
+
+00:02:28,569  -->  00:02:33,670
+all its gonna do is print out "This
+
+58
+
+00:02:33,670  -->  00:02:40,390
+button has been clicked." The method is
+
+59
+
+00:02:40,390  -->  00:02:43,840
+actually now called clicked button. And
+
+60
+
+00:02:43,840  -->  00:02:46,000
+then up here we just need to type
+
+61
+
+00:02:46,000  -->  00:02:51,220
+self.clickedButton, and do not put the
+
+62
+
+00:02:51,220  -->  00:02:54,879
+parentheses after putting the
+
+63
+
+00:02:54,879  -->  00:02:56,799
+callback method in here, it will break, I'll
+
+64
+
+00:02:56,799  -->  00:02:59,920
+show you how to pass arguments
+
+65
+
+00:02:59,920  -->  00:03:02,439
+into slots in a moment.
+
+66
+
+00:03:02,439  -->  00:03:04,540
+So, first let's go ahead and save this
+
+67
+
+00:03:04,540  -->  00:03:08,319
+and now run the file here, and now when
+
+68
+
+00:03:08,319  -->  00:03:10,569
+we click the button you'll see each time
+
+69
+
+00:03:10,569  -->  00:03:12,189
+we click it it prints out this button has
+
+70
+
+00:03:12,189  -->  00:03:14,700
+been clicked.
+
+71
+
+00:03:17,109  -->  00:03:19,989
+So, let's try another one here, let's try
+
+72
+
+00:03:19,989  -->  00:03:28,090
+released. Whoops...alright, I replaced the wrong
+
+73
+
+00:03:28,090  -->  00:03:31,659
+part here. So, button.released.connect
+
+74
+
+00:03:31,659  -->  00:03:34,209
+let's run this, what's going to
+
+75
+
+00:03:34,209  -->  00:03:35,769
+happen now is when you hit down on the
+
+76
+
+00:03:35,769  -->  00:03:37,780
+button it doesn't do anything but when
+
+77
+
+00:03:37,780  -->  00:03:40,359
+you lift up it's going to print that out.
+
+78
+
+00:03:40,359  -->  00:03:45,790
+So you can have different methods,
+
+79
+
+00:03:45,790  -->  00:03:55,979
+pressed.connect(self.pressButton).
+
+80
+
+00:03:57,890  -->  00:04:03,230
+Then we're gonna come down here and
+
+81
+
+00:04:03,230  -->  00:04:06,530
+pressButton, and
+
+82
+
+00:04:06,530  -->  00:04:09,920
+we're going to print out "Button is
+
+83
+
+00:04:09,920  -->  00:04:13,340
+being pressed" and I think I want to throw
+
+84
+
+00:04:13,340  -->  00:04:16,190
+a variable there, we'll see in a moment. So
+
+85
+
+00:04:16,190  -->  00:04:17,180
+we're going to run this and we're going
+
+86
+
+00:04:17,180  -->  00:04:18,590
+to press the button, and we're going to
+
+87
+
+00:04:18,590  -->  00:04:19,880
+hold it down, and then we're going to
+
+88
+
+00:04:19,880  -->  00:04:21,739
+release it and it says the button has
+
+89
+
+00:04:21,739  -->  00:04:24,290
+been released. So, it's being held down,
+
+90
+
+00:04:24,290  -->  00:04:31,010
+it's been released. So that's a few of
+
+91
+
+00:04:31,010  -->  00:04:34,250
+the, a few of the methods within the button
+
+92
+
+00:04:34,250  -->  00:04:36,169
+itself, or events that we can hook  into,
+
+93
+
+00:04:36,169  -->  00:04:39,980
+you can also set the buttons name. So
+
+94
+
+00:04:39,980  -->  00:04:50,240
+let's go ahead and type "Clicked" so we're
+
+95
+
+00:04:50,240  -->  00:04:52,160
+going to measure how many times it
+
+96
+
+00:04:52,160  -->  00:04:53,570
+has been clicked,, so up here we're going to
+
+97
+
+00:04:53,570  -->  00:04:58,760
+set self.counter going to be equal
+
+98
+
+00:04:58,760  -->  00:05:02,450
+to 0. What we're going to do is when you
+
+99
+
+00:05:02,450  -->  00:05:04,610
+press the button it's going to increase
+
+100
+
+00:05:04,610  -->  00:05:06,650
+the counter by one and then print out
+
+101
+
+00:05:06,650  -->  00:05:11,150
+the button itself. So, let's go down here
+
+102
+
+00:05:11,150  -->  00:05:15,650
+and then let's set self.counter
+
+103
+
+00:05:15,650  -->  00:05:20,300
++= 1, and then self.button
+
+104
+
+00:05:20,300  -->  00:05:25,610
+and we need to create this within
+
+105
+
+00:05:25,610  -->  00:05:28,250
+the confines of the method not just
+
+106
+
+00:05:28,250  -->  00:05:30,530
+within this function. So, let's go ahead and put
+
+107
+
+00:05:30,530  -->  00:05:32,600
+self.button and then we're going to
+
+108
+
+00:05:32,600  -->  00:05:35,900
+need to access it like that everywhere
+
+109
+
+00:05:35,900  -->  00:05:41,240
+we use it. So, now what we can do is
+
+110
+
+00:05:41,240  -->  00:05:45,260
+self.button.setText, and we're going
+
+111
+
+00:05:45,260  -->  00:05:51,950
+to set it to "Clicked: ", self.counter).
+
+112
+
+00:05:51,950  -->  00:05:57,430
+Let's actually remove the space there.
+
+113
+
+00:05:58,780  -->  00:06:01,900
+So, let's go ahead and I think we need
+
+114
+
+00:06:01,900  -->  00:06:04,500
+to pass a string in there actually.
+
+115
+
+00:06:04,540  -->  00:06:13,630
+Alright, setText...so let's turn this into
+
+116
+
+00:06:13,630  -->  00:06:15,130
+a string because right now it's an
+
+117
+
+00:06:15,130  -->  00:06:20,200
+integer, and then let's run it again and
+
+118
+
+00:06:20,200  -->  00:06:21,760
+you'll see each time I click the button
+
+119
+
+00:06:21,760  -->  00:06:23,380
+it's now going to count how many times
+
+120
+
+00:06:23,380  -->  00:06:26,490
+we've clicked the button.
+
+121
+
+00:06:28,930  -->  00:06:30,610
+Alright, so, that's all we're going to do
+
+122
+
+00:06:30,610  -->  00:06:32,020
+in this video, in the next video we're
+
+123
+
+00:06:32,020  -->  00:06:32,800
+going to learn how to manipulate
+
+124
+
+00:06:32,800  -->  00:06:35,970
+the line edit here.

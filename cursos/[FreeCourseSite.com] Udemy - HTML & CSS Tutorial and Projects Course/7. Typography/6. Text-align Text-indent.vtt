@@ -1,0 +1,175 @@
+WEBVTT
+
+00:00.510 --> 00:04.290
+Since I mentioned it in the previous video why don't we check it out.
+
+00:04.290 --> 00:05.330
+Also right away.
+
+00:05.330 --> 00:11.280
+Text align property as well as text and then with your permission I would like to get rid of these font
+
+00:11.280 --> 00:17.340
+styles because this is annoying me a little but when I have all these selections I'm still gonna keep
+
+00:17.340 --> 00:23.490
+here and the selectors and curly braces but I'm just gonna give her the properties as well as the values
+
+00:24.240 --> 00:29.180
+I was going to delete them and now was gonna have a normal text now for text the line.
+
+00:29.190 --> 00:30.390
+What's gonna happen.
+
+00:30.390 --> 00:33.700
+Well we're gonna be able to control the alignment of the text.
+
+00:33.840 --> 00:38.540
+Now we can start very simply by the whole body and just save for the whole body.
+
+00:38.560 --> 00:47.310
+We would like to text to line it in the center or we can do left or so let's do the center one first.
+
+00:47.310 --> 00:49.880
+She's always gonna place that text in the center.
+
+00:49.890 --> 00:53.770
+Now I can maybe make my browser window with bigger.
+
+00:53.820 --> 00:54.690
+You can see right now.
+
+00:54.690 --> 00:57.760
+The text has been placed in the center.
+
+00:57.960 --> 01:00.780
+Now similarly if I'm gonna go text the line right.
+
+01:00.990 --> 01:03.120
+This is gonna place it all the way to the right.
+
+01:03.390 --> 01:08.310
+Now here I would like to again show you where we would use the normal one which wouldn't be the left
+
+01:08.310 --> 01:10.060
+one meaning the default.
+
+01:10.380 --> 01:13.520
+Because right now on us we have the text the line on the left.
+
+01:13.770 --> 01:15.480
+Wonder if I'm gonna comment this out.
+
+01:15.490 --> 01:20.390
+Nothing is going to change because this comes preset with browser icon.
+
+01:20.520 --> 01:21.540
+We can just delete this.
+
+01:21.540 --> 01:29.330
+Maybe this guy here and let's just again the same thing that for the whole text or whole body.
+
+01:29.460 --> 01:35.340
+I'M GONNA LINE IT TO THE RIGHT ALL MY headings so let's say my main one or you know what.
+
+01:35.340 --> 01:41.560
+Not all of them maybe the main one I'm gonna line it in the center say text align center.
+
+01:41.710 --> 01:45.000
+So this hearing the first one main one is gonna be the center.
+
+01:45.000 --> 01:47.580
+And let's say for both of the paragraphs.
+
+01:47.640 --> 01:48.180
+Well you know what.
+
+01:48.180 --> 01:49.520
+No I'm just lazy.
+
+01:49.530 --> 01:53.810
+Let's just write for the second paragraph I'm gonna place it all the way to the left.
+
+01:53.940 --> 01:58.240
+So we're gonna write text the line and this is gonna be on the right hand side.
+
+01:58.530 --> 01:58.980
+Or you know what.
+
+01:58.980 --> 02:01.840
+Not right inside and that's obviously coming from the body.
+
+02:01.890 --> 02:04.630
+Here we're gonna use the default one which would be the left.
+
+02:04.680 --> 02:06.850
+Now again this would be the case where we would use it.
+
+02:07.290 --> 02:13.380
+So if you're applying some kind of property either right or center in this case then if you would want
+
+02:13.380 --> 02:16.890
+to go for default one you would use text a line left.
+
+02:16.890 --> 02:22.140
+Now if you're not doing that there's no need for using the text line left because this is already preset
+
+02:22.140 --> 02:22.670
+for you.
+
+02:22.980 --> 02:28.840
+And we have text in that and maybe let's practice on this paragraph and that would basically indent
+
+02:28.850 --> 02:31.850
+the first line it accepts multiple values.
+
+02:31.860 --> 02:38.160
+We all just gonna use pixels but we can also look at our games let's say text and that was the property
+
+02:38.160 --> 02:43.220
+name intent and the values like I said you can use whatever I would like.
+
+02:43.260 --> 02:48.230
+We're gonna go first by let's say 50 pixels NO SAY LIKE THIS.
+
+02:48.270 --> 02:54.030
+NOW THIS IS GONNA indent this first line but maybe it is annoying the fact that everything is aligned
+
+02:54.030 --> 02:56.720
+right anyway so let me comment this out.
+
+02:56.760 --> 02:57.820
+I'm going to say it.
+
+02:57.930 --> 02:59.640
+Now this is gonna be normal.
+
+02:59.640 --> 03:03.040
+And then sure enough we have text and then 250 pixels.
+
+03:03.120 --> 03:04.120
+You don't believe me.
+
+03:04.180 --> 03:05.970
+Let's make hundred pixels.
+
+03:05.970 --> 03:07.770
+And now this is in the thing again.
+
+03:07.770 --> 03:08.560
+On first line.
+
+03:08.900 --> 03:11.650
+No like I said we can use also Harry M values.
+
+03:11.830 --> 03:13.070
+So I don't know.
+
+03:13.160 --> 03:14.030
+Our.
+
+03:14.130 --> 03:15.520
+That should do the trick.
+
+03:15.510 --> 03:21.600
+Now that's 10 arms and that's how we can work with text the line properties and text in the.

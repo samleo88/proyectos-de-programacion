@@ -1,0 +1,371 @@
+1
+
+00:00:00,000  -->  00:00:06,029
+Welcome back everyone, let's talk about
+variables now. Now you can probably guess
+
+2
+
+00:00:06,029  -->  00:00:10,950
+by the name a variable is something
+that is variable meaning that the name
+
+3
+
+00:00:10,950  -->  00:00:17,130
+the value of it is not always
+going to be constant. So by explicitly
+
+4
+
+00:00:17,130  -->  00:00:27,599
+stating strings they're not reusable as
+well. If I wanted to you know say let's
+
+5
+
+00:00:27,599  -->  00:00:33,420
+jump into a Python console, alright. If I
+wanted to create a string not using
+
+6
+
+00:00:33,420  -->  00:00:34,530
+variables,
+
+7
+
+00:00:34,530  -->  00:00:39,660
+"This is a string" I could create that.
+However, there's no way now for me to
+
+8
+
+00:00:39,660  -->  00:00:49,320
+reuse it to do something else so I'd
+have to do "This is a string" + "Hello"
+
+9
+
+00:00:49,320  -->  00:00:55,140
+and then there's no way for me to reuse
+that one and see you can see the problem.
+
+10
+
+00:00:55,140  -->  00:01:00,899
+Now that's a one reason why we use
+variables is so we can reuse the variables,
+
+11
+
+00:01:00,899  -->  00:01:05,760
+now another reason is because when you
+pass values into functions
+
+12
+
+00:01:05,760  -->  00:01:11,939
+it's going to take on the form of
+variable through the parameter list of
+
+13
+
+00:01:11,939  -->  00:01:14,640
+the function, we will get more functions
+later.
+
+14
+
+00:01:14,640  -->  00:01:18,450
+Now the difference between Python and
+some other programming languages is some
+
+15
+
+00:01:18,450  -->  00:01:24,420
+programming languages are typed, and you might say well hey aren't all programming
+
+16
+
+00:01:24,420  -->  00:01:27,420
+languages typed? Yes, you type them with your fingers on the keyboard,
+
+17
+
+00:01:27,930  -->  00:01:33,600
+however a typed language basically means that you need to define the type of
+
+18
+
+00:01:33,600  -->  00:01:36,840
+variable. So as we learned in the
+previous videos the different types are
+
+19
+
+00:01:36,840  -->  00:01:42,150
+integers, strings, booleans and stuff
+like that. So if you're setting a string
+
+20
+
+00:01:42,150  -->  00:01:46,950
+variable you would have to explicitly tell the program that it's a string but with
+
+21
+
+00:01:46,950  -->  00:01:49,950
+Python you don't need to do that. All you
+need to do is give your variable a name
+
+22
+
+00:01:49,950  -->  00:01:57,780
+and a value. So, let's go ahead and let's
+create a variable called greeting and
+
+23
+
+00:01:57,780  -->  00:02:01,500
+it's going to equal a string that's
+going to say "greeting = "hello world""
+
+24
+
+00:02:02,040  -->  00:02:09,179
+Now you'll notice when I hit enter it
+didn't print anything on the screen and
+
+25
+
+00:02:09,179  -->  00:02:13,319
+it didn't do anything noticeable and
+it's because setting a variable doesn't
+
+26
+
+00:02:13,319  -->  00:02:13,560
+have
+
+27
+
+00:02:13,560  -->  00:02:18,959
+have any type of response, so it just
+creates variable and it's there. Now we
+
+28
+
+00:02:18,959  -->  00:02:24,720
+can use it by using greeting. So I could
+type "print(greeting)" and it's going to
+
+29
+
+00:02:24,720  -->  00:02:29,489
+print "hello world" Now also now that I've
+got it in a variable we can manipulate
+
+30
+
+00:02:29,489  -->  00:02:36,150
+that variable in a number of ways. So i'm
+going to type
+
+31
+
+00:02:36,150  -->  00:02:46,380
+"greeting = greeting.split(" ")[0]"
+
+32
+
+00:02:46,380  -->  00:02:52,080
+So basically what we're doing
+here, and I can't use double quotation or
+
+33
+
+00:02:52,080  -->  00:02:56,519
+double equal sign there, we're setting
+greeting to a new value which is going
+
+34
+
+00:02:56,519  -->  00:03:01,260
+to be greeting which we're gonna split
+at the space, so we're going to split it
+
+35
+
+00:03:01,260  -->  00:03:05,310
+right here, and we're going to get the first
+item in there. So it's going to turn
+
+36
+
+00:03:05,310  -->  00:03:08,069
+greeting into just Hello.
+
+37
+
+00:03:08,069  -->  00:03:16,709
+So let's hit enter here. We've assigned it a new value so if we
+
+38
+
+00:03:16,709  -->  00:03:22,769
+now go ahead and "print(greeting)" you're
+going to see that it says Hello.
+
+39
+
+00:03:23,400  -->  00:03:28,410
+So now what we can do is now concatenate this with something else. So, we can do
+
+40
+
+00:03:28,410  -->  00:03:33,269
+that in a number of ways we can reuse
+the previous example where we just let's
+
+41
+
+00:03:33,269  -->  00:03:38,850
+just print it out first, we can "print(greeting + " Nick")" and it's going to
+
+42
+
+00:03:38,850  -->  00:03:40,890
+say Hello Nick.
+
+43
+
+00:03:40,890  -->  00:03:45,389
+Now if we wanted to store that in a
+variable we could do the same thing that
+
+44
+
+00:03:45,389  -->  00:03:51,569
+we did before, or you can continue using
+this variable for different people. So I
+
+45
+
+00:03:51,569  -->  00:03:53,280
+could say "print(greeting + "someone else""
+
+46
+
+00:03:53,280  -->  00:03:59,760
+and so that's how that works. Now if i did want to make the
+
+47
+
+00:03:59,760  -->  00:04:05,340
+greeting equal to concatenate a string
+all you have to do is redefine it as
+
+48
+
+00:04:05,340  -->  00:04:15,299
+"greeting = greeting + "Nick" Now
+when we print out greeting you'll see
+
+49
+
+00:04:15,299  -->  00:04:17,160
+that it says Hello Nick.
+
+50
+
+00:04:17,160  -->  00:04:21,599
+So that's a variable and the useful
+things that you can do with it, now you
+
+51
+
+00:04:21,599  -->  00:04:25,180
+can also assign values of other types.
+
+52
+
+00:04:25,180  -->  00:04:31,090
+So we can say number is going to equal 1 and then second number is going to equal
+
+53
+
+00:04:31,090  -->  00:04:37,090
+2. So now we've got number and second
+number stored in variables.
+
+54
+
+00:04:37,090  -->  00:04:43,479
+Let's do something with that. So,
+what we're just going to do is add these
+
+55
+
+00:04:43,479  -->  00:04:50,110
+two numbers together in a print
+statement. So, "print(number * secondnumber
+
+56
+
+00:04:50,110  -->  00:05:00,190
++ secondnumber * number)"
+and this is going to print out 4. So
+
+57
+
+00:05:00,190  -->  00:05:03,009
+essentially what the print statement is
+doing is before it prints it out it's
+
+58
+
+00:05:03,009  -->  00:05:08,650
+calculating this because we've stored
+these as integers, and so it's going
+
+59
+
+00:05:08,650  -->  00:05:18,820
+1*2+2*1 So it's essentially
+saying 1*2 + 1*2 and it's coming up
+
+60
+
+00:05:18,820  -->  00:05:28,030
+with this, so. And as well you can set
+"check = True" So, that's how to set
+
+61
+
+00:05:28,030  -->  00:05:28,930
+variables,
+
+62
+
+00:05:28,930  -->  00:05:32,380
+it's pretty simple and we're going to be
+doing a lot of this so this is a concept
+
+63
+
+00:05:32,380  -->  00:05:36,190
+that you're going to have to be very
+familiar with, and get used to using it.
+
+64
+
+00:05:36,190  -->  00:05:41,139
+In the next video, we're going to be
+talking about some built-in functions,
+
+65
+
+00:05:41,139  -->  00:05:43,270
+and we've already actually talked about
+some of them.

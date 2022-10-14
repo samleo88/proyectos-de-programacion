@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00.570 --> 00:01.300
+Job well done.
+
+00:01.440 --> 00:04.470
+We covered links in the Asian memo.
+
+00:04.560 --> 00:08.070
+Now I'd like to switch gears a little bit and take it easy on us.
+
+00:08.280 --> 00:12.960
+So first I would like to just get rid of all this information because like I said I would like to keep
+
+00:12.960 --> 00:15.240
+this clean everything within the body.
+
+00:15.240 --> 00:19.770
+I'm just going to delete and the moment I wish I'm going to save it I'm going to have the blank page
+
+00:20.250 --> 00:26.730
+and here within my text editor would like to talk about sub and sub elements and they're all gonna be
+
+00:26.820 --> 00:28.650
+as straightforward as it gets.
+
+00:29.070 --> 00:32.040
+So let's say we're going to have a creating a heading one.
+
+00:32.270 --> 00:40.590
+And within the heading One I'm gonna say hello Hello I am and here I would like to say first john in
+
+00:40.590 --> 00:43.350
+town now I could obviously write it like this.
+
+00:43.350 --> 00:50.790
+I can say first verse john in town or I can use up and sub elements.
+
+00:50.790 --> 00:53.460
+And again this is gonna be as straightforward as it gets.
+
+00:53.880 --> 00:56.260
+So first of all let me create a little bit of space.
+
+00:56.410 --> 01:00.200
+And as I stop typing notes again I'm getting from them at suggestion.
+
+01:00.390 --> 01:05.190
+Now what I would like to do right now is grab this verse and play.
+
+01:05.190 --> 01:07.200
+Place it within the sub.
+
+01:07.200 --> 01:09.630
+And again you're gonna see it in the second one happens.
+
+01:09.630 --> 01:15.540
+So I'm gonna spare us a little bit of time and let's just create these elements first and then obviously
+
+01:15.540 --> 01:19.100
+it's gonna be very clear on what is happening with these elements.
+
+01:19.230 --> 01:22.020
+So we don't have to spend hours and hours of talking about it.
+
+01:22.380 --> 01:23.550
+Instead we can just look at it.
+
+01:24.060 --> 01:29.810
+So in this case I'm gonna use the sub element where the first one was up and the second one was up.
+
+01:29.880 --> 01:32.030
+Now the moment I'm gonna say with notice what happened.
+
+01:32.480 --> 01:38.430
+So I'm having my text and then everything that's gonna be placed within the sub is gonna be here on
+
+01:38.490 --> 01:44.490
+top of the rest and text and everything that's going to be placed in the bottom is obviously going to
+
+01:44.490 --> 01:49.890
+be here in the bottom meaning everything and that's going to be placed in the sub element is gonna be
+
+01:50.190 --> 01:53.580
+eventually shown in the bottom of the rest of the text.
+
+01:54.120 --> 01:56.930
+So like I said as straightforward as it gets.
+
+01:57.030 --> 01:59.970
+If you ever need it you can use sub and sub elements.

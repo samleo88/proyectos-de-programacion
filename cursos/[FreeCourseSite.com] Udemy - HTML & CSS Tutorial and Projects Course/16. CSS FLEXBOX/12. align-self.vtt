@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.280 --> 00:01.090
+Beautiful.
+
+00:01.140 --> 00:06.270
+Next why don't we take a look at online self property now in order to do that.
+
+00:06.270 --> 00:09.480
+I'm going to make some changes to my tutorial.
+
+00:09.480 --> 00:16.170
+First of all let's add old of height so let's say 300 pixels is going to do it.
+
+00:16.220 --> 00:17.580
+That's number one.
+
+00:17.580 --> 00:24.720
+Then let's go with Flex and the property that I'm going to be looking for is in fact going to be a line
+
+00:24.720 --> 00:25.260
+items.
+
+00:25.490 --> 00:25.880
+Yeah.
+
+00:26.070 --> 00:29.430
+I'm going to go with a line items and I'm going to line all of them.
+
+00:29.430 --> 00:34.100
+Let's say in the center and we already know that the stretch was the default one.
+
+00:34.180 --> 00:36.690
+That's why my boxes were stretched.
+
+00:37.200 --> 00:39.980
+Now what would a line self do.
+
+00:40.350 --> 00:46.920
+Well let's imagine the scenario where we have all these five boxes but I would like to move box number
+
+00:46.920 --> 00:47.630
+five.
+
+00:47.790 --> 00:50.280
+Well in a different direction some more.
+
+00:50.640 --> 00:56.300
+So I wouldn't want the box number five to sit in a center where we could simply do it like this red
+
+00:56.310 --> 00:57.870
+box five.
+
+00:57.900 --> 00:59.300
+So we're targeting that one.
+
+00:59.430 --> 01:06.360
+And then once we use align self property we can really go wild where we could start you know what I
+
+01:06.360 --> 01:06.950
+don't like it.
+
+01:07.000 --> 01:12.120
+I don't want to place box number five at the end of it and sure enough when I opened my box right now
+
+01:12.120 --> 01:19.590
+it's sitting flush with the bottom edge of my container because even though I added this a line items
+
+01:19.920 --> 01:27.100
+which if we remember was in fact affecting all my children in this case once we start working with a
+
+01:27.200 --> 01:32.090
+self we can just move our boxes our individual boxes how do we like.
+
+01:32.250 --> 01:38.610
+And Sam is going to work even if I'm going to increase the size of my container by another 200 pixels.
+
+01:38.610 --> 01:43.800
+So still this one is sitting all the way in the bottom and then of course I can also change it to a
+
+01:43.800 --> 01:45.060
+start and you name it.
+
+01:45.420 --> 01:49.350
+So essentially all the property values that we had for a client Ms.
+
+01:49.440 --> 01:52.750
+I can individually apply for each and every item.
+
+01:52.790 --> 01:54.470
+Right now the same is gonna work.
+
+01:54.510 --> 02:02.910
+If I let's say move it flex a line items to where flex and same deal rest of my boxes are sitting here
+
+02:03.270 --> 02:08.850
+and five can be individually targeted and placed let's say all the way on top.
+
+02:08.850 --> 02:13.470
+Now I'm not going to cover all of them because we have already covered these properties but just to
+
+02:13.470 --> 02:14.510
+have some fun.
+
+02:15.140 --> 02:21.960
+And once we have our selector let's write a line self and let's look for the search value the moment
+
+02:21.960 --> 02:27.600
+we do that we know is that box number three is in fact stretched all day across the container.
+
+02:27.730 --> 02:31.330
+The last one we're going to look at is going to be center.
+
+02:31.350 --> 02:37.410
+So for Box Number One Again align self let's just place it in the center.
+
+02:37.800 --> 02:42.500
+So as you can see align self allows us to individually target our items.
+
+02:42.720 --> 02:45.600
+No question probably is where we're going to use that.
+
+02:45.600 --> 02:50.280
+Well again items and elements come in different sizes.
+
+02:50.280 --> 02:55.880
+So image is going to be different than the text text is gonna be different than a button.
+
+02:55.890 --> 03:02.010
+So once you're gonna have that type of scenario this is where you're going to start experimenting with
+
+03:02.010 --> 03:08.010
+different type of values to get the layout that you would like considering that your elements are different
+
+03:08.010 --> 03:09.900
+shapes and different sizes.

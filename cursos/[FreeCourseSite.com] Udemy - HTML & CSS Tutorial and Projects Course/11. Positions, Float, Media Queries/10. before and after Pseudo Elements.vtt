@@ -1,0 +1,1000 @@
+WEBVTT
+
+00:00.860 --> 00:01.420
+All right.
+
+00:01.450 --> 00:03.470
+We have covered position absolute.
+
+00:03.470 --> 00:05.780
+We have covered z index.
+
+00:05.780 --> 00:10.800
+So I think this would be a great time to look into pseudo elements before and after.
+
+00:10.870 --> 00:17.540
+In every practical case pseudo elements start specific parts of the element like for example in the
+
+00:17.540 --> 00:23.300
+case of before and after you guessed it before and after the element.
+
+00:23.300 --> 00:29.420
+But what's more cool we can insert HCM all dynamically from our shares is essentially allowing us to
+
+00:29.420 --> 00:31.550
+avoid extra markup.
+
+00:31.550 --> 00:32.780
+Don't believe me.
+
+00:32.780 --> 00:33.770
+Why don't we take a look.
+
+00:33.830 --> 00:39.860
+And by the way this might be a longer example because we were going to cover multiple other things as
+
+00:39.860 --> 00:43.360
+well like smaller things but still important.
+
+00:43.670 --> 00:49.010
+First and foremost I would like to get rid of the all the old stuff so I'm going to say all of you guys
+
+00:49.130 --> 00:51.160
+gone disappear.
+
+00:51.290 --> 00:53.600
+We'll head over back to indexation the email.
+
+00:53.810 --> 00:56.460
+We're gonna do a little bit of spring cleaning too.
+
+00:56.480 --> 01:02.560
+We're going to say that in the next stage CML we would just want first of all one paragraph that's it.
+
+01:02.630 --> 01:04.250
+Nothing really special.
+
+01:04.370 --> 01:15.980
+One paragraph on the way here let's write that down on before and after a pseudo pseudo elements just
+
+01:15.980 --> 01:17.510
+like the video name.
+
+01:17.710 --> 01:24.470
+I'd say it and we have the paragraph now I'm gonna head over back to the CEO says I can first very start
+
+01:24.470 --> 01:30.220
+very simply by saying that p and now I'm going to have the colon.
+
+01:30.260 --> 01:35.300
+Now what you're going to see maybe be an older syntax is something like this where people just wrote
+
+01:36.230 --> 01:40.760
+the name of the element because we are all going to be inserting before or after the paragraph.
+
+01:40.760 --> 01:42.100
+And then one colon.
+
+01:42.100 --> 01:47.720
+However you should probably stick with a CSF three syntax where you adding two columns.
+
+01:47.720 --> 01:50.890
+Again you'll see one colon and technically that is correct.
+
+01:50.900 --> 01:53.170
+But I would suggest working with two columns.
+
+01:53.380 --> 01:59.930
+And here we're gonna write the first one we've the element before and what's happening next and nothing
+
+01:59.930 --> 02:03.870
+is happening technically next but we always need to have the content.
+
+02:04.220 --> 02:06.770
+So the content properties should be always there.
+
+02:06.770 --> 02:09.990
+Now I'm going to show you example what happens if we don't added.
+
+02:10.160 --> 02:13.220
+But first let's just say content then we have the colon.
+
+02:13.550 --> 02:15.280
+And now what we would like to write over here.
+
+02:15.620 --> 02:17.180
+Well let's say I'm going to write over here.
+
+02:17.180 --> 02:18.100
+Hello.
+
+02:18.110 --> 02:19.820
+And I'm looking at the space.
+
+02:20.030 --> 02:21.850
+And check this out.
+
+02:22.010 --> 02:25.840
+Now the moment we're going to save the sea assets we'll see the hell over here.
+
+02:25.880 --> 02:28.640
+So that's really neat about the content.
+
+02:28.640 --> 02:34.540
+This is very much adding the content in our age the amount we didn't need to add this content.
+
+02:34.610 --> 02:38.370
+Don't believe me you can head over back to our browser tools.
+
+02:38.540 --> 02:45.110
+We can see the inspection and then as I'm looking at my body and I don't I mean this can say for now
+
+02:45.170 --> 02:51.470
+I think it's gonna be fine but if I'm looking at the paragraph notice we're having the day before we
+
+02:51.470 --> 02:54.200
+didn't have it here as the markup in the HD email.
+
+02:54.660 --> 02:58.970
+However we are able to do that from our CSF which is really really cool.
+
+02:58.970 --> 03:05.360
+Again very basic example right now where we can do a lot of interesting features using this now.
+
+03:05.660 --> 03:06.990
+What else we can do.
+
+03:07.190 --> 03:14.930
+Well we can add whatever CSF we would like or so I can say font let's say Wait you're gonna be bald.
+
+03:15.380 --> 03:21.410
+Then we can be looking for font size and say font size to our image or something like that.
+
+03:21.440 --> 03:25.750
+So very very massive text as well as maybe let's add colour.
+
+03:26.010 --> 03:31.640
+So the colour can be red and I can go on and on and on and actually we will gonna do that because we're
+
+03:31.640 --> 03:37.460
+gonna be looking at a little bit more sophisticated examples but to understand the basic idea we can
+
+03:37.460 --> 03:43.080
+add some kind of content before and after the content of the paragraph.
+
+03:43.130 --> 03:48.920
+Now that is important because if we're looking at the actual browser tools we see that this is before
+
+03:48.950 --> 03:53.630
+and after the content and this is going to become important once we're going to talk about images.
+
+03:53.630 --> 03:57.000
+So just please remember that Mark what we have next.
+
+03:57.230 --> 03:58.810
+Well let's look at the after.
+
+03:58.820 --> 04:01.580
+So again the syntax is going to be exactly the same.
+
+04:01.630 --> 04:06.190
+And why don't we start the same way where we just look at the content properly.
+
+04:06.290 --> 04:07.660
+So I'm going to say content.
+
+04:08.200 --> 04:13.070
+And in this case we're just going to write after the Hmong we say it we notice the little laughter so
+
+04:13.070 --> 04:14.480
+we know that this is gonna be work.
+
+04:14.870 --> 04:17.440
+But what if I would want to insert some kind of box here.
+
+04:18.080 --> 04:20.680
+Well at the moment everything is happening in line.
+
+04:20.750 --> 04:26.300
+We're seeing that whatever content we were adding this was happily happening in line and that is happening
+
+04:26.300 --> 04:32.590
+by default mode of what if I would copy and paste them and let's add it over here too and notice obviously
+
+04:32.630 --> 04:37.160
+this is going to be right now on the second line because there's more text more I can bring it back
+
+04:37.160 --> 04:43.880
+to the one line because again this is all in line happening but what we can do is we can do this is
+
+04:43.970 --> 04:50.630
+display block so I can say it like this instead of display in line I can just change this we can do
+
+04:50.630 --> 04:57.620
+a display block text is gonna be red but we can add let's say a background which is gonna be black and
+
+04:57.620 --> 04:58.920
+what happens now.
+
+04:58.940 --> 05:05.930
+Well we added the content in before and after the paragraph but we can add it as a block.
+
+05:05.940 --> 05:11.550
+So I can do the same thing over here and we can copy and paste it and sure enough what's going to happen
+
+05:11.550 --> 05:16.620
+is that I'm going to have my paragraph but before and after the content of the paragraph I'm going to
+
+05:16.620 --> 05:22.310
+have my pseudo elements and as you're looking and you're like OK well what if I don't want a text.
+
+05:22.380 --> 05:24.860
+What if let's say we would want some kind of box.
+
+05:24.880 --> 05:25.320
+Mm hmm.
+
+05:25.350 --> 05:25.710
+I don't know.
+
+05:25.740 --> 05:30.390
+Let's try it out so we can say we're here like this or I'm gonna delete everything that we had here
+
+05:30.900 --> 05:36.720
+and we can say this play this is gonna be display block why don't we get rid of the text because let's
+
+05:36.720 --> 05:43.830
+say we would just want simple box and more we will can add or here well we can do with maybe 50 pixels
+
+05:44.310 --> 05:49.860
+can do height 50 pixels and we can do background I don't know green.
+
+05:50.020 --> 05:51.390
+So something like this.
+
+05:51.390 --> 05:52.620
+Now what happens.
+
+05:52.620 --> 05:56.510
+Well the block is displayed so everything is working fine.
+
+05:56.650 --> 06:02.380
+But what if I decide and I say well what is the point of this content if all I want is here the book.
+
+06:02.380 --> 06:05.080
+So technically I wanted content only with a hello.
+
+06:05.530 --> 06:10.910
+Okay let's test it out I'm gonna come on out and sure enough nothing of this is displayed.
+
+06:11.370 --> 06:17.280
+And this is something that I want you to take away that content property even with an empty value is
+
+06:17.280 --> 06:18.250
+required.
+
+06:18.330 --> 06:23.490
+So whenever you want answered something even though there's not going be a text you do need to have
+
+06:23.490 --> 06:25.490
+this property with this kind of value.
+
+06:25.500 --> 06:26.910
+Simple enough.
+
+06:26.910 --> 06:31.710
+And typically I could just stop here with this example and say that okay we covered everything that
+
+06:31.710 --> 06:35.900
+there was at least at this point where is it before and after elements.
+
+06:35.940 --> 06:40.530
+But I would like to make a little bit more interesting example where I would kind of want to show you
+
+06:40.530 --> 06:46.410
+that how we can use position absolute so we can use the same index and more realistic scenario where
+
+06:46.410 --> 06:50.880
+you would use this because at the moment you're probably looking at it and you're like Okay thanks for
+
+06:50.880 --> 06:51.410
+telling me.
+
+06:51.430 --> 06:56.760
+But that is probably the first and only time that I'm gonna do that where in fact you can use the before
+
+06:56.760 --> 06:57.600
+and after.
+
+06:57.600 --> 06:59.870
+In a lot of interesting cases.
+
+07:00.120 --> 07:06.240
+Now enough of me mapping and let's head over to index H CML and we'll then add one more thing so we're
+
+07:06.270 --> 07:11.370
+gonna say here right after the paragraph now you can delete this you can delete the h the imbalance
+
+07:11.370 --> 07:13.750
+it says I'm going to leave it just in case.
+
+07:13.750 --> 07:20.130
+So you have it for your own explorations later on but I'm going to say here div and I'm going to add
+
+07:20.130 --> 07:20.930
+the image.
+
+07:20.930 --> 07:22.020
+Now this is important.
+
+07:22.230 --> 07:28.730
+So make sure that you're adding the of image because we're all gonna get over this image and just to
+
+07:28.740 --> 07:33.530
+give you a hint we're not going to be able to add before and after for the image and again we're going
+
+07:33.530 --> 07:39.720
+to cover this in a few seconds but just make sure you have the div and you have the image and also do
+
+07:39.720 --> 07:45.330
+that because I would like to show you a few other things how the image is gonna be interacting with
+
+07:45.330 --> 07:48.010
+this div and how we're going to use this later on.
+
+07:48.540 --> 07:54.990
+Let's start maybe with a I don't know what can do big a major we can do the small image you know what.
+
+07:55.000 --> 08:00.330
+Now let's do the big one because I do want to show you the actual responsive images.
+
+08:00.330 --> 08:03.250
+So at the moment obviously this image is massive.
+
+08:03.600 --> 08:04.590
+We already knew that.
+
+08:04.590 --> 08:11.580
+So typically what we would do now we're going to rush back to the US and we're going to right away try
+
+08:11.580 --> 08:16.680
+to add whatever property where we would change the width so we could do something like this we could
+
+08:16.680 --> 08:22.440
+say image is going to be the width of I don't know 300 and then hope for the best.
+
+08:22.440 --> 08:29.780
+The image is going to look like this but while this works and all this is fine there is a better way.
+
+08:29.850 --> 08:35.880
+What we're going to use all throughout probably the project will not every single case but you understand
+
+08:35.880 --> 08:39.600
+the idea where I'm gonna first work with a div.
+
+08:39.600 --> 08:44.580
+So I'm going to say that Dave is going to have some kind of with and in most cases that width is going
+
+08:44.580 --> 08:49.560
+to be responsive and then the image is gonna be set responsive to that Dave.
+
+08:49.560 --> 08:50.450
+Now how does that work.
+
+08:50.890 --> 08:56.910
+Well all I can say Dave since I have the Dave and for the developments that I'm gonna say with off let's
+
+08:56.910 --> 09:00.180
+say 50 view widths again we already know this.
+
+09:00.300 --> 09:06.120
+This would be the percentages of the screen and then let's add some margin to it let's say margin.
+
+09:06.130 --> 09:08.980
+Hundred pixels to a bottom and on the left and right.
+
+09:09.000 --> 09:12.210
+So I know that I'm gonna have it here somewhere in the middle.
+
+09:12.210 --> 09:16.780
+Now I also like to add maybe a let's say border.
+
+09:17.070 --> 09:24.540
+So let's say border to pixels solid just so you can see a few other things later on and solid or not
+
+09:24.570 --> 09:28.940
+as always we're going to go with red now OK so we're getting somewhere.
+
+09:28.980 --> 09:33.570
+So we have the right now the width of an image with something three hundred.
+
+09:33.630 --> 09:37.170
+And then Dave is actually responsive as it is sitting in the center.
+
+09:37.500 --> 09:44.570
+However what's happening is you see that the image obviously doesn't fit here so what we can do is with
+
+09:44.570 --> 09:45.410
+an image.
+
+09:45.410 --> 09:50.240
+So since this is already responsive we can add the hundred percent.
+
+09:50.300 --> 09:57.490
+So what's happening right now is the image is gonna be responsive depending on a day of meaning has
+
+09:57.520 --> 10:00.680
+I'm going to increase the size of the div.
+
+10:00.710 --> 10:06.500
+Also my image is gonna increase because I already set this up with hundred percent.
+
+10:06.500 --> 10:12.080
+So if we're gonna be creating some kind of column layout or anything like that this is exactly the syntax
+
+10:12.080 --> 10:13.430
+we're gonna be using.
+
+10:13.460 --> 10:19.470
+What are you noticing though is that even though the Dave covers nicely left and right and top there's
+
+10:19.520 --> 10:26.740
+this space in the bottom and you might be tempted to say well okay so I had the with me and the height
+
+10:27.110 --> 10:29.720
+and hopefully for the best everything is gonna work out.
+
+10:29.960 --> 10:32.090
+And the moment we say Well nothing changes.
+
+10:32.090 --> 10:37.880
+And in order to get rid of this annoying space in between let's say what we're going to have in Dave
+
+10:37.970 --> 10:43.370
+as well as the image we're gonna have to make the display property and we're going to strip display
+
+10:43.460 --> 10:48.890
+not in line but we're gonna have to display a block and this has nothing to do with before and after
+
+10:48.890 --> 10:50.180
+pseudo element.
+
+10:50.180 --> 10:56.660
+This has everything to do with how we're gonna be later on working with a Dave and image again and syntax
+
+10:56.660 --> 10:58.350
+would be that water.
+
+10:58.370 --> 11:02.330
+Let's say some kind of column layout that Dave is gonna be responsive.
+
+11:02.330 --> 11:07.310
+Then for Dave I don't think we'll gonna be adding more each and every time but we're gonna be adding
+
+11:07.310 --> 11:09.270
+the image within the Dave.
+
+11:09.320 --> 11:15.140
+And then the image is gonna be responsive depending on the width of the actual Dave as well as we're
+
+11:15.140 --> 11:17.150
+gonna set it as display block.
+
+11:17.150 --> 11:19.220
+Now we technically don't have to do it.
+
+11:19.280 --> 11:24.440
+We could have avoided that but by showing you this I believe that I'm going save you a little bit of
+
+11:24.440 --> 11:29.660
+time because as you're gonna be working with CSX eventually you're gonna have some kind of paragraph.
+
+11:29.680 --> 11:34.160
+Let's say hello there or something like this.
+
+11:34.280 --> 11:37.520
+And now for sure you're going to have some kind of input.
+
+11:37.550 --> 11:42.760
+Now obviously I'm gonna bring my paragraph right now because I already have selected all the paragraphs.
+
+11:42.870 --> 11:48.470
+Let me fix this let's say there's gonna be a hearing one and now you're gonna be able to style actually
+
+11:48.590 --> 11:54.770
+on the basic selection instead of what would happen if you were going to remove display block.
+
+11:54.800 --> 12:00.290
+What you're gonna see there is gonna be this extra margin some extra space and you're gonna be sometimes
+
+12:00.290 --> 12:05.690
+real annoyed when you're like listen I'm styling this left and right how I would want but this is not
+
+12:05.690 --> 12:06.110
+working.
+
+12:06.440 --> 12:11.990
+So in order to get rid of this annoying default margin that you're getting again we would just need
+
+12:11.990 --> 12:16.640
+to use display and display a block got nothing to do with zero elements.
+
+12:16.640 --> 12:22.370
+Everything has to do with how we're gonna be later on working with our devs and how they're are gonna
+
+12:22.370 --> 12:26.130
+be interacting with images within the device market.
+
+12:26.270 --> 12:27.670
+So we have covered this one.
+
+12:27.680 --> 12:30.810
+Now let me get rid of this water.
+
+12:30.830 --> 12:34.210
+We don't need this and now let's decide what we're gonna do.
+
+12:34.280 --> 12:37.280
+Well we can start working with before and after.
+
+12:37.400 --> 12:39.830
+Now the temptation would be like this.
+
+12:39.830 --> 12:44.810
+Well I have the image and I would like to insert something here in between the image so I could just
+
+12:44.810 --> 12:53.090
+say image before and let's go for the content and let's start very simply by not content and the content
+
+12:53.090 --> 12:54.020
+is gonna be hollow.
+
+12:54.440 --> 12:56.650
+Now the moment we say it nothing happens.
+
+12:56.750 --> 13:03.230
+And the reason why nothing happens because image element and I'm really shorten that this is obviously
+
+13:03.230 --> 13:10.160
+big theory behind this and all that but in general terms image is already the content because again
+
+13:10.340 --> 13:11.150
+let me repeat.
+
+13:11.150 --> 13:12.650
+And this was the wrong screen.
+
+13:12.740 --> 13:17.860
+If we're heading over again to our paragraph we're noticing that this is placed before and after the
+
+13:17.860 --> 13:18.420
+count.
+
+13:18.870 --> 13:22.940
+Now image tagged by itself the image is the content.
+
+13:23.060 --> 13:24.800
+So we're not gonna be able to do that.
+
+13:24.830 --> 13:29.540
+Long story short you're not gonna be able to add before and after for your image.
+
+13:29.540 --> 13:34.190
+This was one of the reasons why we added the dev because we do want to work with these new developments
+
+13:34.490 --> 13:35.390
+now in the process.
+
+13:35.390 --> 13:42.110
+I also showed you other things about how the devs with images are gonna be interacting but in general
+
+13:42.800 --> 13:44.420
+you're not going to be successful.
+
+13:44.420 --> 13:49.390
+So I mean I can repeat this 10 more times but this is not going to work.
+
+13:49.550 --> 13:50.610
+So far so good.
+
+13:50.660 --> 13:51.600
+We have covered this.
+
+13:51.620 --> 13:52.610
+What else we have left.
+
+13:52.970 --> 13:59.670
+Well why don't we actually look how we can insert the before and after as we having the dev an image.
+
+13:59.690 --> 14:01.920
+Now for the dev is actually very simple.
+
+14:01.940 --> 14:07.400
+We do have the content and then say Dev before Hello there buddy.
+
+14:07.550 --> 14:09.020
+And what I would like here.
+
+14:09.110 --> 14:12.500
+Well I know I need to have the content so I'm going to say content.
+
+14:12.530 --> 14:16.440
+And even though there's going to be something else I'm just going to say the empty content.
+
+14:16.520 --> 14:17.670
+So what else I would like.
+
+14:17.750 --> 14:24.730
+Well I'm gonna say border is gonna be two pixels solid and let's go with grey one.
+
+14:24.770 --> 14:25.360
+Okay.
+
+14:25.520 --> 14:26.980
+So for now I'm having this guy.
+
+14:27.080 --> 14:28.930
+So there's some kind of border.
+
+14:29.030 --> 14:31.340
+Okay why don't I make this interesting.
+
+14:31.340 --> 14:36.110
+I know that there's some kind of with and there's some kind of height and I know that I have the div
+
+14:36.670 --> 14:44.330
+so why don't I make it the with the B not some pixels not some absolute value but also percent as well
+
+14:44.330 --> 14:47.240
+as why don't make it height 1 percent.
+
+14:47.230 --> 14:49.700
+So I can just say here high 9 percent.
+
+14:50.000 --> 14:53.550
+Now the moment we say it then nothing changes.
+
+14:53.570 --> 14:54.610
+Okay.
+
+14:54.830 --> 14:56.930
+But we already know the position absolute right.
+
+14:57.470 --> 15:00.910
+So I can just say position it is gonna be absolute none.
+
+15:00.920 --> 15:02.120
+Let's see what happens.
+
+15:02.180 --> 15:05.330
+Not relative but absolute.
+
+15:05.480 --> 15:06.760
+What happens now.
+
+15:06.800 --> 15:07.800
+This is really big.
+
+15:08.300 --> 15:09.010
+Okay.
+
+15:09.020 --> 15:11.490
+Probably not something that we wanted.
+
+15:11.540 --> 15:11.850
+Mm hmm.
+
+15:11.870 --> 15:13.410
+What else we can do.
+
+15:13.430 --> 15:16.660
+Well we remember that whenever we were working with position absolute.
+
+15:16.670 --> 15:17.900
+This was looking for one.
+
+15:18.500 --> 15:25.580
+Well for the first ancestor that had what the position of relative because otherwise this is looking
+
+15:25.580 --> 15:26.390
+for the body.
+
+15:26.480 --> 15:28.120
+That's the reason why this is so massive.
+
+15:28.580 --> 15:30.590
+So what would be the solution.
+
+15:30.590 --> 15:32.080
+Well we have the answers there.
+
+15:32.120 --> 15:33.620
+The answers there would be live.
+
+15:33.680 --> 15:38.770
+In this case and what we can do is position and we're looking for relative.
+
+15:38.880 --> 15:42.230
+Now what happens is that this is gonna be a hundred percent.
+
+15:42.230 --> 15:47.030
+Now you can not be arguing you can say well this is not really hundred percent because what's happening
+
+15:47.030 --> 15:48.000
+right now you cannot.
+
+15:48.110 --> 15:52.640
+You can see these patients here and the reason for that again is going to be the border box so we can
+
+15:52.640 --> 15:58.550
+have box sizing and not Mark's shadow for some reason this is popping up and we will by the way Carol
+
+15:58.550 --> 15:59.470
+box shadow.
+
+15:59.480 --> 16:04.630
+So that's gonna be covered but if I'm gonna go with Mark sizing is this one.
+
+16:04.700 --> 16:11.720
+So right now I'm having the actual border box and what's really cool is that this is exactly like I
+
+16:11.720 --> 16:13.050
+would have when I.
+
+16:13.280 --> 16:14.360
+So you notice the idea.
+
+16:14.420 --> 16:21.230
+So we added this to pixels and now this is gonna be a hundred percent hundred height and then this way
+
+16:21.260 --> 16:24.100
+we can start actually doing some more interesting things.
+
+16:24.110 --> 16:26.160
+Now what would be the more interesting things.
+
+16:26.300 --> 16:34.130
+Well we know that we can place that relative relative obviously to our ancestor and also we can use
+
+16:34.130 --> 16:35.310
+the negative values.
+
+16:35.320 --> 16:35.800
+Mm hmm.
+
+16:35.840 --> 16:36.890
+So how this is gonna work.
+
+16:36.980 --> 16:43.210
+So I could say top is gonna be negative 40 pixels so I'm gonna lift that up a little bit as well as
+
+16:43.220 --> 16:45.830
+left is gonna be negative 40 pixels.
+
+16:45.830 --> 16:47.630
+So where this guy's gonna go.
+
+16:47.630 --> 16:52.430
+Well now this is gonna be sitting right here one annoying thing you might be looking at you're like
+
+16:52.460 --> 16:57.770
+Yeah well okay it looks kind of cool but why this is covering the image right now.
+
+16:58.010 --> 16:59.960
+Well you don't want to go wrong image.
+
+16:59.960 --> 17:00.930
+What do we have.
+
+17:00.980 --> 17:06.490
+What property we had in Nairobi actually showed you so probably the easy answer would be well z index
+
+17:06.500 --> 17:07.130
+right.
+
+17:07.160 --> 17:09.640
+So what is the scene next right now for the image.
+
+17:09.650 --> 17:15.850
+Now that's actually automatically zero but if I'm gonna make for days gone negative too what happens.
+
+17:15.980 --> 17:18.690
+Well now this is gonna be hidden behind them.
+
+17:19.880 --> 17:20.630
+So far so good.
+
+17:20.630 --> 17:24.950
+Why don't we take a look at the after one and here I'm gonna do something like this.
+
+17:24.950 --> 17:30.770
+I'm going to say Dave after Now in this case I would like to copy and paste a lot of them because I
+
+17:30.770 --> 17:33.120
+don't want to rewrite them all one by one.
+
+17:33.260 --> 17:36.740
+So I'm just gonna say something like this and now let's change the values.
+
+17:36.920 --> 17:41.720
+So we have Dave before and after content is this gonna stay the same empty.
+
+17:41.770 --> 17:43.760
+However here I'm not gonna be looking for the.
+
+17:43.970 --> 17:50.690
+I'm gonna say that there is gonna be actual background so not a border grey but we're gonna say background
+
+17:50.750 --> 17:53.600
+great so background is gonna be grey.
+
+17:53.840 --> 17:55.460
+Now what is gonna happen here.
+
+17:55.460 --> 17:59.420
+Well for now we're gonna cover everything because obviously the width and height is hundred percent
+
+17:59.960 --> 18:04.090
+and what we're doing is we're having this top is negative 40.
+
+18:04.310 --> 18:05.760
+But I can change this.
+
+18:06.110 --> 18:12.600
+I can say top is going to be negative 20 left is gonna be negative 20 as well as let's create a Z in
+
+18:12.620 --> 18:14.010
+next little bit smaller.
+
+18:14.120 --> 18:19.460
+So this is should be sitting all the way on the back then we're gonna be having this image we're not
+
+18:19.460 --> 18:24.440
+image basically block with background on grey and then we having our image.
+
+18:24.440 --> 18:25.070
+Okay.
+
+18:25.250 --> 18:32.000
+So this probably would be a little bit more interesting example where we can start using again the pseudo
+
+18:32.000 --> 18:33.530
+elements before and after.
+
+18:33.770 --> 18:39.380
+Probably again not the biggest example that you could see in the world.
+
+18:39.380 --> 18:45.170
+Meaning you can use all kinds of other things with pseudo element but at least this would give you like
+
+18:45.170 --> 18:49.340
+a little taste where it would be much more interesting than just displaying the block.
+
+18:49.370 --> 18:51.350
+Now we can add the block votes.
+
+18:51.350 --> 18:54.130
+I mean again there's tons of interesting things we can do.
+
+18:54.260 --> 18:58.550
+This is just I think in my opinion more interesting than what we didn't before.
+
+18:58.700 --> 19:03.530
+And you don't have to do this along with me because we haven't covered a few of these properties.
+
+19:04.430 --> 19:09.320
+But just to show you how this was going to interact with the page I'm gonna add some things we haven't
+
+19:09.320 --> 19:10.300
+covered yet again.
+
+19:10.310 --> 19:11.560
+You don't have to do them.
+
+19:11.630 --> 19:18.530
+I'm gonna leave them in your code so you can maybe actually explore them later on but don't worry about
+
+19:18.530 --> 19:18.960
+it again.
+
+19:18.980 --> 19:24.110
+We haven't covered them but what I would like to do right now is as I'm hovering I would want these
+
+19:24.110 --> 19:24.770
+guys to move.
+
+19:25.130 --> 19:26.210
+So how this is gonna work.
+
+19:26.660 --> 19:30.270
+Well first of all I'm gonna head over here and again we're going to cover.
+
+19:30.380 --> 19:32.470
+We're gonna write something we haven't done yet.
+
+19:32.660 --> 19:35.600
+So I'm going to say as I'm hovering the dev I would want.
+
+19:35.600 --> 19:38.350
+Before and after to actually move.
+
+19:38.350 --> 19:44.470
+So when would say after and I'm gonna copy and paste it one thing we have covered though even though
+
+19:44.470 --> 19:48.130
+we don't now understand the selectors yet we have covered that.
+
+19:48.130 --> 19:50.050
+We can actually group in together right.
+
+19:50.080 --> 19:53.680
+So I can say before and after.
+
+19:53.680 --> 19:55.660
+So both of them are going to be selected.
+
+19:55.660 --> 19:56.460
+And what I would want.
+
+19:56.470 --> 19:58.660
+Well I would want top of them.
+
+19:58.780 --> 20:02.310
+These zero left of them to be zero.
+
+20:02.390 --> 20:04.000
+And yeah that's gonna be it.
+
+20:04.060 --> 20:05.310
+So let me say this.
+
+20:05.350 --> 20:06.980
+Okay so what happened.
+
+20:06.990 --> 20:11.180
+So as I'm hovering This is actually getting headed now.
+
+20:11.410 --> 20:16.150
+We can also add a little bit of transition and again please don't worry about the properties the values
+
+20:16.510 --> 20:18.190
+we will gonna cover them as.
+
+20:18.190 --> 20:20.140
+Also don't worry about the selector.
+
+20:20.140 --> 20:27.160
+This is gonna be covered in few videos but what I can do here is I can say transition and you can do
+
+20:27.160 --> 20:34.550
+all zero point five pixels and we're going to write linear and now let me copy and paste this line of
+
+20:34.550 --> 20:35.650
+code.
+
+20:35.690 --> 20:37.220
+I'm gonna head over here.
+
+20:37.310 --> 20:38.600
+Copy and paste it to.
+
+20:38.750 --> 20:39.900
+And check this out.
+
+20:39.930 --> 20:44.300
+So as I'm hovering now this is happening over zero point five seconds.
+
+20:44.540 --> 20:51.440
+Much more color example than what we looked at a simple block and simple text here on the top.
+
+20:51.440 --> 20:56.320
+And in general terms this is how you would use the before and after elements.
+
+20:56.330 --> 21:01.850
+Just remember again you need to use the content you are not going to be successful using with an image
+
+21:02.540 --> 21:09.590
+and you're placing this before and after the actual content of the element not before and after the
+
+21:09.590 --> 21:09.980
+element.

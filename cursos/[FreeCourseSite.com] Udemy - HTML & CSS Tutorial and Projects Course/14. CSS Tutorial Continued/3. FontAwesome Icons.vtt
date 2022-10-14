@@ -1,0 +1,538 @@
+WEBVTT
+
+00:00.820 --> 00:05.500
+As you are going to be creating more and more web projects in most cases you will going to need some
+
+00:05.500 --> 00:06.460
+kind of.
+
+00:07.060 --> 00:08.800
+The service that I really like to use.
+
+00:08.800 --> 00:10.900
+Is font awesome icon.
+
+00:11.320 --> 00:15.510
+Just a disclaimer there is many many icons you can get out there.
+
+00:15.520 --> 00:21.700
+Well the reason why I like using Phantasm because they're free they are easy to get up and running and
+
+00:21.700 --> 00:27.150
+they have a very straightforward and simple syntax as always we're going to get rid of everything that
+
+00:27.160 --> 00:28.940
+we had within the census.
+
+00:29.230 --> 00:31.640
+Then the same with an ancient e-mail.
+
+00:31.910 --> 00:36.100
+I'm just gonna say that we're looking for them let's say we're going to be looking for adding one having
+
+00:36.100 --> 00:37.070
+three.
+
+00:37.090 --> 00:38.280
+This is all gone.
+
+00:38.320 --> 00:42.310
+You know what also I'm going to clean up a little bit my head because we're all gonna be copying pasting
+
+00:42.310 --> 00:48.130
+this so I'm going to say that I'm going to copy and paste it and then I'm gonna change this not to Google
+
+00:48.130 --> 00:48.610
+fonts.
+
+00:48.610 --> 00:53.650
+We're gonna say icons or we can say font awesome doesn't really matter.
+
+00:53.960 --> 00:55.190
+We'll save it.
+
+00:55.300 --> 00:58.060
+Now we have a clean document what's next.
+
+00:58.060 --> 01:06.070
+We always go to our good old friend Google and we're gonna be looking for font some dot com and we can
+
+01:06.070 --> 01:08.510
+type font awesome icons and doesn't matter.
+
+01:08.650 --> 01:13.890
+In my case I think I'm right or we're going to have font awesome icon and this is gonna be your startup
+
+01:13.910 --> 01:14.650
+screen.
+
+01:14.890 --> 01:18.360
+Now within the star screen if you never have worked with Phantasm icons.
+
+01:18.360 --> 01:24.550
+We can go to the docs where they explain everything that you need to do and the basic use would be very
+
+01:24.550 --> 01:30.700
+similar to what we have done already before meaning there's gonna be some kind of element and the difference
+
+01:30.700 --> 01:31.780
+would be you.
+
+01:31.780 --> 01:34.790
+We were going to have to include the phantasm to our document.
+
+01:34.850 --> 01:37.170
+Is going to be the first step which we're gonna do in a second.
+
+01:37.420 --> 01:42.050
+But the moment we have it included in the document we need to create an AI element.
+
+01:42.070 --> 01:46.960
+So this is where I'm saying something similar because we would need to create an element and then for
+
+01:46.960 --> 01:50.860
+this element we're going to have the classes depending on the name of your icon.
+
+01:50.860 --> 01:53.580
+This is where you're gonna be choosing different class color.
+
+01:53.620 --> 01:55.030
+Don't skip on this first one.
+
+01:55.030 --> 02:00.940
+You need to include IFRS or if there's gonna be different type of icons that would need F A B.
+
+02:00.970 --> 02:05.440
+Now there might be and also the pro one that's the one you need to pay more.
+
+02:05.440 --> 02:06.430
+This one says regular.
+
+02:06.430 --> 02:10.770
+But as far as I remember and this was for the pro one you had to pay.
+
+02:10.790 --> 02:13.700
+And this was the FIA.
+
+02:13.990 --> 02:14.890
+What else what else.
+
+02:14.890 --> 02:18.840
+As we're scrolling down that night tell us pretty much what would be defined.
+
+02:18.830 --> 02:22.020
+Wait we don't really care about that styling.
+
+02:22.130 --> 02:23.440
+We're going to cover in a second.
+
+02:23.440 --> 02:28.810
+The moment we're going to have actually in a document this is gonna be another styling.
+
+02:29.110 --> 02:33.250
+Yeah that would be pretty much when the docs here we would have the icons.
+
+02:33.520 --> 02:39.490
+So whenever you want to search for icons you just click on icons and go ahead just pick whatever icon
+
+02:39.490 --> 02:41.610
+you would like or if I would want.
+
+02:41.620 --> 02:43.170
+I don't know Amelia or Android.
+
+02:43.180 --> 02:48.370
+I just click on it and you're gonna get the syntax now like I said for Android let's say this is gonna
+
+02:48.370 --> 02:51.580
+be a baby and then the name FAA Android.
+
+02:52.180 --> 02:57.990
+Now if we're gonna head over back to the old icons let me show you just one with their face just so
+
+02:57.990 --> 03:02.000
+you don't think that I'm pulling the wool over your ears.
+
+03:02.260 --> 03:06.620
+Let's say archive maybe hopefully this is gonna be a face and yes it is.
+
+03:06.620 --> 03:13.620
+So this is gonna be a face that would be another type of syntax How can I start working with Phantasm
+
+03:13.820 --> 03:14.620
+no guy.
+
+03:14.890 --> 03:16.550
+Let's have a look.
+
+03:16.630 --> 03:21.730
+We have the start option so let's clip on the star option and the first thing they provide you is right
+
+03:21.730 --> 03:25.240
+away C.D. in the moment we're gonna understand the general syntax.
+
+03:25.240 --> 03:30.190
+I'll show you how to download and I'm also gonna explain why am I downloading.
+
+03:30.190 --> 03:34.120
+You don't have to download but I'll get to give you my reasons for it.
+
+03:34.840 --> 03:36.160
+Let's copy this right away.
+
+03:36.190 --> 03:38.980
+So it tells us that it has been copied.
+
+03:39.040 --> 03:44.840
+We're going to head over back to the head element and in this case above the style sheet and maybe let's
+
+03:44.950 --> 03:53.030
+add the some kind of comment here let's say customs here says Just so we can see not comes time and
+
+03:53.080 --> 03:56.600
+this is gonna be our sources within the body what we're gonna do.
+
+03:56.650 --> 04:03.010
+Well let's create these two icons let's say in the beginning because I don't think we need anymore to
+
+04:03.010 --> 04:08.020
+actually understand the basics of it on the first one like I said this would be the element and we can
+
+04:08.020 --> 04:08.920
+still use the iMac.
+
+04:09.040 --> 04:15.130
+So this hasn't changed and then we're gonna have the AI and they're all gonna be looking for class in
+
+04:15.130 --> 04:21.130
+my case I'm going to say Hefei Yes I have a home that would be a name that the icon that I'm looking
+
+04:21.130 --> 04:22.960
+for a moment I'm going to save it.
+
+04:22.960 --> 04:28.600
+Notice what's gonna happen in the document in the browser I'm gonna have my whole icon I'm just to give
+
+04:28.600 --> 04:34.460
+you a heads up if you want to control the height of the icon you can use their own classes.
+
+04:34.570 --> 04:39.640
+I always prefer to do it in my CEO says because I feel like I have more control over it because then
+
+04:39.640 --> 04:44.920
+I don't have to jump back in from the document and actually changing in here because I understand you're
+
+04:44.920 --> 04:46.670
+changing this in the HCM mail.
+
+04:46.870 --> 04:52.540
+So if you're going to add that in let's say 15 places I find it easier if we're going to set up actual
+
+04:52.540 --> 04:55.110
+class with the actual value.
+
+04:55.210 --> 05:01.590
+But again this is your option so you can say something like 5 x there's gonna be different values you
+
+05:01.590 --> 05:07.800
+can go with 1 X let's say this is going to be 1 x then we have 10x that would be the biggest one and
+
+05:07.800 --> 05:09.260
+so on and so forth.
+
+05:09.480 --> 05:15.150
+Again if that's really something you're interested you can head over the documentation export more.
+
+05:15.330 --> 05:17.390
+I don't prefer doing this way again.
+
+05:17.400 --> 05:21.410
+I told you my reasons but you can do really whatever you'd like.
+
+05:21.450 --> 05:22.590
+Awesome.
+
+05:22.600 --> 05:27.990
+We have our basic one and you know what I will gonna leave the size just so we can see actually better
+
+05:27.990 --> 05:29.280
+in a browser at the moment.
+
+05:29.280 --> 05:31.700
+So I'm gonna say something like 5 x.
+
+05:31.710 --> 05:37.170
+So now we're gonna have the big icon if we want to add some custom styling we can just head over back
+
+05:37.170 --> 05:43.410
+to the C assess and then remember we had a class name we have this class of f a home we can actually
+
+05:43.410 --> 05:45.430
+styled this in CFA.
+
+05:45.770 --> 05:51.810
+Now the name is important again if you're going to name this FAA orange obviously I'm gonna get in the
+
+05:51.810 --> 05:52.610
+class.
+
+05:52.600 --> 05:57.510
+However if I'm going to be targeted this class I'm going to say that the color of my home on corn is
+
+05:57.510 --> 05:58.460
+gonna be green.
+
+05:58.470 --> 06:00.070
+What do you see in a browser.
+
+06:00.070 --> 06:02.070
+Here is the green color icon.
+
+06:02.100 --> 06:06.390
+We also have an option of working some with some kind of a parent element.
+
+06:06.410 --> 06:12.420
+Second say span here and then let's maybe add the Facebook icon just so you can see that we can work
+
+06:12.420 --> 06:13.610
+with FNB.
+
+06:13.620 --> 06:18.960
+Now I'm gonna do a little bit of a shortcut that I haven't been doing and I'm gonna show you that actually
+
+06:18.960 --> 06:24.560
+in amateur video where we can just have the element and then dot and then we're adding the classes.
+
+06:24.630 --> 06:27.470
+So in my class we're gonna see a phase book.
+
+06:27.500 --> 06:33.000
+The result is gonna be exactly the same all going to be getting our element with our classes and I will
+
+06:33.000 --> 06:39.590
+gonna show you that in the video but in general this is how it's gonna speed up your workflow.
+
+06:39.660 --> 06:42.360
+We have the icon of the parent element.
+
+06:42.360 --> 06:47.950
+Why don't we add the class and let's say you're probably all the same class and we can use the idea
+
+06:47.970 --> 06:49.620
+we can target the actual element.
+
+06:49.740 --> 06:56.370
+Again it's really up to you and we're going to call the social icon and within the styles we can do
+
+06:56.370 --> 07:01.320
+the same thing we already did with a social icon.
+
+07:01.720 --> 07:02.460
+And now let's.
+
+07:02.500 --> 07:03.780
+I don't know what the font size.
+
+07:03.770 --> 07:09.580
+Like I said we can add the font size bigger so in our case since this is gonna be font awesome icons
+
+07:09.940 --> 07:17.050
+we can use the font size because we're all gonna be able to access the size with the this property and
+
+07:17.050 --> 07:19.150
+then let's say for our yams.
+
+07:19.150 --> 07:25.740
+So now there's just gonna be much more bigger and we can maybe add the color of I don't know Blue.
+
+07:26.050 --> 07:28.350
+This is gonna be my icon with a bold color.
+
+07:28.660 --> 07:35.020
+So those of these two options how we can access it with AC it says now I'd like to head over back to
+
+07:35.290 --> 07:42.040
+my Phantasm documentation and go why I would like to download especially why am I downloading for the
+
+07:42.040 --> 07:42.770
+project.
+
+07:42.910 --> 07:44.620
+The font awesome icon.
+
+07:44.620 --> 07:51.430
+Well here's the thing I really like font awesome icons but what's really sometimes annoying is the fact
+
+07:51.430 --> 07:58.000
+that they're updating their versions and they're changing some type of syntax just to give you an example
+
+07:58.360 --> 08:01.900
+when they switch to fire some five in the beginning.
+
+08:01.900 --> 08:07.810
+You only could styled with the parent element in the font awesome for you were actually able to access
+
+08:07.810 --> 08:10.730
+the class like this when it was sitting in high element.
+
+08:10.930 --> 08:17.920
+But then once they rolled out the font some 5 in the beginning you can style this only by accessing
+
+08:17.920 --> 08:18.860
+the parent on.
+
+08:19.030 --> 08:21.840
+Now they're back again where you can style the class.
+
+08:21.960 --> 08:28.540
+What happens is that if you include the CDM the CDM technically is just going to be dealing with whatever
+
+08:28.540 --> 08:29.500
+icons you have.
+
+08:29.650 --> 08:30.460
+So far so good.
+
+08:30.460 --> 08:35.790
+So that would be good enough for your project but in my case if somebody is watching that story all
+
+08:35.790 --> 08:42.880
+day are including their own CDO unless they're obviously using the source files but what happens is
+
+08:42.880 --> 08:48.880
+that they're using their own CDM and then the version has already updated and then they're trying to
+
+08:48.880 --> 08:55.870
+let's say styles their icons with just accessing the class of a home and for that particular reason
+
+08:55.870 --> 09:02.170
+they cannot do it for that particular version and they're mad because they're like well excuse me you
+
+09:02.170 --> 09:07.960
+are doing this material and you are able to access your font awesome icons directly with this class
+
+09:08.260 --> 09:12.520
+you're on the font awesome but then I would have to do it here with the parent.
+
+09:12.580 --> 09:18.550
+So that's the reason why I always like to include actually download different awesome icons include
+
+09:18.550 --> 09:22.640
+them in a set of files and then once they're in a set of files I can say hey listen.
+
+09:22.800 --> 09:25.780
+So I'm doing this Oriel if you want to follow along.
+
+09:25.780 --> 09:26.680
+Exactly.
+
+09:26.680 --> 09:32.140
+I don't know whether the font or some version has changed but you can always access the ones that I
+
+09:32.140 --> 09:34.550
+was using again long story short.
+
+09:34.630 --> 09:40.300
+It just saves me a time later on as they roll out the new versions of phantasm.
+
+09:40.510 --> 09:47.470
+After all this talking and yammering about unnecessary stuff maybe for you I'm gonna head over to download
+
+09:47.740 --> 09:50.080
+because that's where we get the icons.
+
+09:50.080 --> 09:54.820
+You can click on over here and first all that we're gonna tell you right away what files you would need
+
+09:54.820 --> 09:55.750
+to include.
+
+09:55.750 --> 09:57.100
+You want to use the SPG.
+
+09:57.100 --> 09:58.010
+Use this file.
+
+09:58.210 --> 10:00.930
+You want to use this RSS version use all CSA.
+
+10:01.300 --> 10:07.410
+However one thing that is very important is to have the whole folder there.
+
+10:07.480 --> 10:14.480
+So don't just drag and drop the file because the file is going to be looking for the actual folder.
+
+10:14.500 --> 10:17.770
+Now in order to do that let's just actually click it.
+
+10:17.770 --> 10:23.350
+Now we're starting to download I'm going to head over back to my actual documents and find out I'm gonna
+
+10:23.350 --> 10:30.180
+go to download and this is gonna be my Phantasm and I'm going to open up the zip file I'm just gonna
+
+10:30.190 --> 10:37.390
+say that I would like to copy this and let's copy this and within the sources not just copy and paste.
+
+10:37.780 --> 10:39.480
+Now this is gonna be my fantasy.
+
+10:39.910 --> 10:40.570
+Good.
+
+10:40.630 --> 10:41.710
+I have my fantasy.
+
+10:41.730 --> 10:42.640
+Now what's next.
+
+10:42.980 --> 10:46.130
+Well first of all let me show you what happens if we don't have the link.
+
+10:46.360 --> 10:50.960
+So I'm gonna delete this and Phantasm icons are gonna be gone.
+
+10:51.250 --> 10:58.750
+But then remember we have the option of looking for this file whether all GSL also says well let's look
+
+10:58.750 --> 10:59.530
+for it.
+
+10:59.530 --> 11:01.980
+So here again we would need to use the link.
+
+11:02.200 --> 11:03.370
+And then what am I doing.
+
+11:03.490 --> 11:05.210
+Well I'm looking for phantasm.
+
+11:05.300 --> 11:06.420
+That's my folder.
+
+11:06.420 --> 11:10.870
+Now I already know that CSL is going to be located there so I'm just gonna head over for to see assess
+
+11:11.320 --> 11:12.950
+and then I'm looking for all CSL.
+
+11:13.290 --> 11:14.350
+That's gonna be my.
+
+11:14.770 --> 11:21.010
+If you named your folder differently here then I understand that you need to look for the folder where
+
+11:21.010 --> 11:22.870
+you have your fantasy icon.
+
+11:22.870 --> 11:24.300
+And now I have no.
+
+11:24.480 --> 11:27.960
+And that's pretty much going to be in short how we can include fonts.
+
+11:28.010 --> 11:33.220
+My constant project and start using them and we will gonna use them a lot throughout our project.
+
+11:33.220 --> 11:35.920
+So you will really get to know font awesome icons.

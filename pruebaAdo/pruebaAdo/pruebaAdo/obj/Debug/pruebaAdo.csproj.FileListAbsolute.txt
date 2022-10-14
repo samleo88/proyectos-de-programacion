@@ -1,0 +1,9 @@
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\bin\Debug\pruebaAdo.exe.config
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\bin\Debug\pruebaAdo.exe
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\bin\Debug\pruebaAdo.pdb
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\obj\Debug\pruebaAdo.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\obj\Debug\pruebaAdo.Properties.Resources.resources
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\obj\Debug\pruebaAdo.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\obj\Debug\pruebaAdo.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\obj\Debug\pruebaAdo.exe
+C:\Users\usuario\Desktop\samil\pruebaAdo\pruebaAdo\pruebaAdo\obj\Debug\pruebaAdo.pdb

@@ -1,0 +1,859 @@
+1
+
+00:00:00,000  -->  00:00:02,879
+Alright, so, what I'm going to do now is
+
+2
+
+00:00:02,879  -->  00:00:04,920
+I'm going to start adding our multiple
+
+3
+
+00:00:04,920  -->  00:00:07,890
+data sets to this bar chart, and we're very
+
+4
+
+00:00:07,890  -->  00:00:10,950
+quickly going to see one problem
+
+5
+
+00:00:10,950  -->  00:00:12,900
+that we're going to need to account for.
+
+6
+
+00:00:12,900  -->  00:00:16,049
+So let's go ahead and create c1 which is
+
+7
+
+00:00:16,049  -->  00:00:18,630
+going to be Canada's data, and we're going to
+
+8
+
+00:00:18,630  -->  00:00:21,510
+say plt.bar and here we're going to pass
+
+9
+
+00:00:21,510  -->  00:00:25,019
+in our data. So the x-axis is going to be
+
+10
+
+00:00:25,019  -->  00:00:27,840
+the index variable there, which essentially
+
+11
+
+00:00:27,840  -->  00:00:32,160
+it's a list that says 0, 1, 2, and we're
+
+12
+
+00:00:32,160  -->  00:00:35,670
+going to add Canada scores, and then
+
+13
+
+00:00:35,670  -->  00:00:37,290
+we're going to set the bar width also
+
+14
+
+00:00:37,290  -->  00:00:42,239
+to .5. Now when I run this you're going to
+
+15
+
+00:00:42,239  -->  00:00:46,620
+see that the bars themselves are
+
+16
+
+00:00:46,620  -->  00:00:51,210
+occupying the same space, except
+
+17
+
+00:00:51,210  -->  00:00:52,829
+vertically because the vertical values
+
+18
+
+00:00:52,829  -->  00:00:54,750
+are different, but essentially when
+
+19
+
+00:00:54,750  -->  00:00:57,629
+setting the index here to 0, 1, and 2
+
+20
+
+00:00:57,629  -->  00:01:00,899
+we're setting the x axis or the
+
+21
+
+00:01:00,899  -->  00:01:04,019
+horizontal position to the same values,
+
+22
+
+00:01:04,019  -->  00:01:05,549
+and so they're going to occupy the same
+
+23
+
+00:01:05,549  -->  00:01:07,530
+space. So what we could do we definitely
+
+24
+
+00:01:07,530  -->  00:01:11,820
+could modify this maybe to make that
+
+25
+
+00:01:11,820  -->  00:01:14,220
+chart or to make those bars with it
+
+26
+
+00:01:14,220  -->  00:01:16,140
+thinner, and that way we could compare
+
+27
+
+00:01:16,140  -->  00:01:19,950
+the data. Actually, we do it the opposite
+
+28
+
+00:01:19,950  -->  00:01:22,740
+way there. Let's make Canada's, because Canada's
+
+29
+
+00:01:22,740  -->  00:01:25,290
+are on top so we could compare it like
+
+30
+
+00:01:25,290  -->  00:01:26,700
+that, but that just doesn't look right,
+
+31
+
+00:01:26,700  -->  00:01:29,400
+and we're going to be adding two more to
+
+32
+
+00:01:29,400  -->  00:01:33,810
+it. So what we need to do I'm going to
+
+33
+
+00:01:33,810  -->  00:01:39,210
+create a bar width here, and we're just
+
+34
+
+00:01:39,210  -->  00:01:41,820
+going to set it to .1 actually so
+
+35
+
+00:01:41,820  -->  00:01:42,810
+they're actually going to be a lot
+
+36
+
+00:01:42,810  -->  00:01:46,350
+smaller, and then we're going to use the
+
+37
+
+00:01:46,350  -->  00:01:49,229
+bar width variable here because we're
+
+38
+
+00:01:49,229  -->  00:01:52,229
+also going to be using this variable for
+
+39
+
+00:01:52,229  -->  00:01:55,049
+another calculation. So, if I go ahead and
+
+40
+
+00:01:55,049  -->  00:01:56,939
+restart the application you're going to
+
+41
+
+00:01:56,939  -->  00:01:57,899
+see they're thinner, but they're
+
+42
+
+00:01:57,899  -->  00:02:00,509
+occupying the same space, so what I can
+
+43
+
+00:02:00,509  -->  00:02:07,740
+do is this right here is from 0 to 0.1
+
+44
+
+00:02:07,740  -->  00:02:14,000
+or 0.5 because each bar width is
+
+45
+
+00:02:14,000  -->  00:02:20,540
+.1, so I can set the next bar or
+
+46
+
+00:02:20,540  -->  00:02:24,170
+Canada's bar instead of having a
+
+47
+
+00:02:24,170  -->  00:02:30,350
+starting point of 0, 1, and 2 I can
+
+48
+
+00:02:30,350  -->  00:02:34,940
+set that to 0.1, 1.1, and 2.1. So
+
+49
+
+00:02:34,940  -->  00:02:36,590
+how I'm going to do that is just in the
+
+50
+
+00:02:36,590  -->  00:02:38,600
+index which actually plots out the
+
+51
+
+00:02:38,600  -->  00:02:41,840
+x-axis I'm going to do a bit of math
+
+52
+
+00:02:41,840  -->  00:02:45,530
+here, and I'm going to basically just
+
+53
+
+00:02:45,530  -->  00:02:51,980
+index plus bar_width, and this should place
+
+54
+
+00:02:51,980  -->  00:02:55,880
+it in the orange one just to the right of
+
+55
+
+00:02:55,880  -->  00:02:58,700
+the blue ones, and as you can see that's
+
+56
+
+00:02:58,700  -->  00:03:01,730
+the exact desired result. So what I'm
+
+57
+
+00:03:01,730  -->  00:03:03,470
+going to do now is I'm going to add
+
+58
+
+00:03:03,470  -->  00:03:06,440
+China and France's score, and I'm also
+
+59
+
+00:03:06,440  -->  00:03:09,890
+going to apply this same method except
+
+60
+
+00:03:09,890  -->  00:03:13,130
+it's going to be bar_width x 2, and
+
+61
+
+00:03:13,130  -->  00:03:15,320
+bar_width x 3, for example. Or, we could also
+
+62
+
+00:03:15,320  -->  00:03:18,590
+simplify that into a different math
+
+63
+
+00:03:18,590  -->  00:03:21,470
+equation, but for right now let's go
+
+64
+
+00:03:21,470  -->  00:03:25,130
+ahead and create ch1, it's going to be
+
+65
+
+00:03:25,130  -->  00:03:31,700
+plt.bar, it's going to be index plus 0.2, it's
+
+66
+
+00:03:31,700  -->  00:03:36,200
+going to be china_scores, and we're going
+
+67
+
+00:03:36,200  -->  00:03:43,070
+to be using the same bar_width. And then
+
+68
+
+00:03:43,070  -->  00:03:46,519
+f1 is going to be the France bars, so
+
+69
+
+00:03:46,519  -->  00:03:54,950
+plt.bar index plus 0.3, and it's going to be
+
+70
+
+00:03:54,950  -->  00:04:00,680
+france_scores, and bar_width. So I'm going
+
+71
+
+00:04:00,680  -->  00:04:01,940
+to change one thing here instead of
+
+72
+
+00:04:01,940  -->  00:04:06,049
+using bar with right here, I'm going to
+
+73
+
+00:04:06,049  -->  00:04:07,910
+do this, and then this way you'll see
+
+74
+
+00:04:07,910  -->  00:04:12,620
+this would be 0, 0.1, 0.2, 0.3, and then the
+
+75
+
+00:04:12,620  -->  00:04:14,269
+rest of the space, and then it would
+
+76
+
+00:04:14,269  -->  00:04:17,930
+start at the next data point as well. So
+
+77
+
+00:04:17,930  -->  00:04:20,269
+there we go. We've got our four sets of
+
+78
+
+00:04:20,269  -->  00:04:25,070
+data, but this is kind of thrown off a
+
+79
+
+00:04:25,070  -->  00:04:26,940
+bit because now the axis,
+
+80
+
+00:04:26,940  -->  00:04:30,570
+or the ticks, are in the wrong position
+
+81
+
+00:04:30,570  -->  00:04:34,440
+and also they're labeled wrong. So what we're
+
+82
+
+00:04:34,440  -->  00:04:36,570
+going to be doing, well first we're
+
+83
+
+00:04:36,570  -->  00:04:41,940
+going to be adding the labels to
+
+84
+
+00:04:41,940  -->  00:04:43,530
+the values here, and also an alpha
+
+85
+
+00:04:43,530  -->  00:04:47,010
+setting. So, alpha is going to make it
+
+86
+
+00:04:47,010  -->  00:04:48,870
+look nicer, it's going to tone down the
+
+87
+
+00:04:48,870  -->  00:04:52,140
+the color, because the colors are very
+
+88
+
+00:04:52,140  -->  00:04:54,540
+vivid and vibrant and that's cool but
+
+89
+
+00:04:54,540  -->  00:04:57,030
+for this kind of chart it doesn't
+
+90
+
+00:04:57,030  -->  00:04:59,250
+work. So we're going to set alpha to .4 for
+
+91
+
+00:04:59,250  -->  00:05:00,480
+each of these, and then we're going to
+
+92
+
+00:05:00,480  -->  00:05:04,980
+set the label of each of them as well. So
+
+93
+
+00:05:04,980  -->  00:05:07,350
+this is going to be Korea, I'm going to drop down a
+
+94
+
+00:05:07,350  -->  00:05:11,730
+line. Do the same thing here, so alpha
+
+95
+
+00:05:11,730  -->  00:05:16,110
+equals 0.4, and then label i's going to
+
+96
+
+00:05:16,110  -->  00:05:24,420
+be Canada, and then alpha is going to be equal to
+
+97
+
+00:05:24,420  -->  00:05:28,950
+.4, and label is going to be equal to China,
+
+98
+
+00:05:28,950  -->  00:05:35,790
+and then the last one which is France
+
+99
+
+00:05:35,790  -->  00:05:43,950
+we're going to also set the Alpha here, there we go.
+
+100
+
+00:05:43,950  -->  00:05:46,919
+So now when I run the application you're
+
+101
+
+00:05:46,919  -->  00:05:48,180
+not going to notice any difference right
+
+102
+
+00:05:48,180  -->  00:05:50,010
+away, but we are going to turn the legend
+
+103
+
+00:05:50,010  -->  00:05:52,020
+on. So how you're going to do that is down
+
+104
+
+00:05:52,020  -->  00:05:54,600
+here where we're configuring the options
+
+105
+
+00:05:54,600  -->  00:05:57,390
+for the entire chart, think of this in
+
+106
+
+00:05:57,390  -->  00:06:00,330
+sections, like here where we're arranging
+
+107
+
+00:06:00,330  -->  00:06:03,240
+the data up here. So here we're creating
+
+108
+
+00:06:03,240  -->  00:06:06,120
+the data, here we're putting the data
+
+109
+
+00:06:06,120  -->  00:06:10,500
+into the chart, and then here we are
+
+110
+
+00:06:10,500  -->  00:06:12,240
+configuring and showing the chart. So
+
+111
+
+00:06:12,240  -->  00:06:17,070
+what I'll do is here plt.legend, and you
+
+112
+
+00:06:17,070  -->  00:06:18,510
+don't need to pass anything into that,
+
+113
+
+00:06:18,510  -->  00:06:21,330
+that's going to make the legend show, and
+
+114
+
+00:06:21,330  -->  00:06:23,130
+you can't configure the legend but for
+
+115
+
+00:06:23,130  -->  00:06:24,840
+right now these default values are
+
+116
+
+00:06:24,840  -->  00:06:28,350
+exactly how we want them, and now we're
+
+117
+
+00:06:28,350  -->  00:06:31,860
+going to take care of the x ticks here. So
+
+118
+
+00:06:31,860  -->  00:06:33,780
+the Y ticks are perfectly fine because
+
+119
+
+00:06:33,780  -->  00:06:35,340
+we want to see that data, that's the
+
+120
+
+00:06:35,340  -->  00:06:37,320
+actual scores that we're going to be
+
+121
+
+00:06:37,320  -->  00:06:40,020
+comparing, but what we need to do first
+
+122
+
+00:06:40,020  -->  00:06:40,560
+we need to
+
+123
+
+00:06:40,560  -->  00:06:43,169
+move this over to in the middle, so
+
+124
+
+00:06:43,169  -->  00:06:45,210
+between the orange and the green bars,
+
+125
+
+00:06:45,210  -->  00:06:46,980
+and then we also need to change the
+
+126
+
+00:06:46,980  -->  00:06:50,610
+labels. So, let's go ahead right here
+
+127
+
+00:06:50,610  -->  00:06:53,100
+above the legend call and we're going to
+
+128
+
+00:06:53,100  -->  00:06:59,550
+say plt.xticks. And, so we're going to
+
+129
+
+00:06:59,550  -->  00:07:01,320
+iterate through the indexes, we're going
+
+130
+
+00:07:01,320  -->  00:07:08,370
+to say index plus .3 divided by 2,
+
+131
+
+00:07:08,370  -->  00:07:13,800
+and you're going to
+
+132
+
+00:07:13,800  -->  00:07:15,750
+see now that it has moved correctly. So
+
+133
+
+00:07:15,750  -->  00:07:17,880
+basically what it's doing is it set it
+
+134
+
+00:07:17,880  -->  00:07:21,600
+to here, so what it's doing is it's plus
+
+135
+
+00:07:21,600  -->  00:07:26,190
+.3 divided by 2, alright, and so it's
+
+136
+
+00:07:26,190  -->  00:07:30,300
+1, 4, and then it divides it by 4, and then
+
+137
+
+00:07:30,300  -->  00:07:33,389
+it equals 2, plus the index. So, that's very
+
+138
+
+00:07:33,389  -->  00:07:34,889
+important right there, but then what
+
+139
+
+00:07:34,889  -->  00:07:35,940
+we're going to do is we're going to pass
+
+140
+
+00:07:35,940  -->  00:07:38,760
+a tuple into that as well, and these
+
+141
+
+00:07:38,760  -->  00:07:41,550
+are going to be the actual X data points
+
+142
+
+00:07:41,550  -->  00:07:43,889
+or the subjects that we're comparing, so
+
+143
+
+00:07:43,889  -->  00:07:54,960
+math, reading, and science. So I'm going to
+
+144
+
+00:07:54,960  -->  00:07:58,200
+save this, run it again, and now we're
+
+145
+
+00:07:58,200  -->  00:08:00,300
+going to start to see our chart actually
+
+146
+
+00:08:00,300  -->  00:08:05,669
+take form. So, what we're going to do is
+
+147
+
+00:08:05,669  -->  00:08:07,740
+we're also going to add a label on the
+
+148
+
+00:08:07,740  -->  00:08:09,630
+left-hand side to convey that it's the
+
+149
+
+00:08:09,630  -->  00:08:12,150
+mean score. So how we're going to do that
+
+150
+
+00:08:12,150  -->  00:08:18,450
+is the X&amp;Y label, so plt.ylabel, this of
+
+151
+
+00:08:18,450  -->  00:08:23,580
+course y is vertical, and it's going to
+
+152
+
+00:08:23,580  -->  00:08:33,270
+say, "Mean score in PISA 2012," and then
+
+153
+
+00:08:33,270  -->  00:08:39,950
+plt.xlabel is going to be "Subjects."
+
+154
+
+00:08:40,870  -->  00:08:45,130
+I'm going to add a title as well, and
+
+155
+
+00:08:45,130  -->  00:08:56,500
+it's going to be called, "Test Scores
+
+156
+
+00:08:56,500  -->  00:09:01,300
+by Country." Then we're going to restart
+
+157
+
+00:09:01,300  -->  00:09:06,100
+the application, and now we see something
+
+158
+
+00:09:06,100  -->  00:09:08,140
+that looks more like a complete chart.
+
+159
+
+00:09:08,140  -->  00:09:10,930
+You can also add more to this, and we're most
+
+160
+
+00:09:10,930  -->  00:09:12,730
+likely going to, but for right now we
+
+161
+
+00:09:12,730  -->  00:09:15,220
+have a good visualization of four
+
+162
+
+00:09:15,220  -->  00:09:18,250
+countries in three subjects, and we can
+
+163
+
+00:09:18,250  -->  00:09:21,190
+see well this is Korea so Korea is doing
+
+164
+
+00:09:21,190  -->  00:09:23,529
+second best in terms of mathematics
+
+165
+
+00:09:23,529  -->  00:09:26,170
+scores, where China is doing the best, and
+
+166
+
+00:09:26,170  -->  00:09:28,960
+Canada's pretty low there, so is France.
+
+167
+
+00:09:28,960  -->  00:09:32,800
+So, there we go we
+
+168
+
+00:09:32,800  -->  00:09:35,200
+with that. So thank you guys for watching this.
+
+169
+
+00:09:35,200  -->  00:09:37,000
+I'm probably going to be extending this
+
+170
+
+00:09:37,000  -->  00:09:39,070
+type of thing even further, or just cover
+
+171
+
+00:09:39,070  -->  00:09:41,200
+more options for different charts using
+
+172
+
+00:09:41,200  -->  00:09:45,420
+the same data points.

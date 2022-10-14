@@ -1,0 +1,153 @@
+1
+
+00:00:00,000  -->  00:00:05,879
+Hey guys, this is a quick video. What
+we're gonna be doing is say we want to
+
+2
+
+00:00:05,879  -->  00:00:09,990
+install some packages and set up one
+environment that has a certain set of
+
+3
+
+00:00:09,990  -->  00:00:14,009
+packages, but not have to install them
+globally. So what we've been doing so far
+
+4
+
+00:00:14,009  -->  00:00:19,170
+using pip is we've been globally
+installing packages, so any project that
+
+5
+
+00:00:19,170  -->  00:00:24,240
+I use I can now import simplejson as a
+package, but let's say I want to set up a
+
+6
+
+00:00:24,240  -->  00:00:27,840
+very specific environment for just one
+project that I want to install a bunch
+
+7
+
+00:00:27,840  -->  00:00:32,910
+of packages into, and we're going to be
+doing that very soon, so that's why we
+
+8
+
+00:00:32,910  -->  00:00:36,420
+need to learn about this and it's called
+virtualenv. So how you get that is
+
+9
+
+00:00:36,420  -->  00:00:43,620
+type "pip3 install virtualenv" and
+I've already got it installed but if you
+
+10
+
+00:00:43,620  -->  00:00:47,910
+guys don't, if you haven't manually
+installed it, it will install it. Once it's
+
+11
+
+00:00:47,910  -->  00:00:48,840
+installed,
+
+12
+
+00:00:48,840  -->  00:00:54,899
+what you can do is I'm going to change
+into my projects directory, and i'm going
+
+13
+
+00:00:54,899  -->  00:01:00,120
+to create a new virtual environment. So,
+what you do is just type "virtualenv"
+
+14
+
+00:01:00,120  -->  00:01:04,049
+and then the name of the virtual
+environment you want to create. So, i'm
+
+15
+
+00:01:04,049  -->  00:01:14,670
+going to type test projects, or "testnv"
+Now that we've got it
+
+16
+
+00:01:14,670  -->  00:01:20,610
+installed, you actually need to activate
+it, and you'll be able to tell if you're
+
+17
+
+00:01:20,610  -->  00:01:24,509
+working in a virtual environment because
+right here next to the prompt it would
+
+18
+
+00:01:24,509  -->  00:01:28,590
+say the name of the virtual environment
+if you're in it. So what we're going to
+
+19
+
+00:01:28,590  -->  00:01:37,890
+do to activate it basically if I list
+here you'll see testnv right here,
+
+20
+
+00:01:38,670  -->  00:01:46,380
+so what we need to do is we need to
+source a file from there "source testnv/bin/activate"
+
+21
+
+00:01:46,380  -->  00:01:53,790
+and now as you'll see
+i'm currently working in this virtual
+
+22
+
+00:01:53,790  -->  00:01:58,530
+environment. So any package that I
+install now is going to install just
+
+23
+
+00:01:58,530  -->  00:02:04,259
+this environment, and then once I you
+know if I close the terminal and open it
+
+24
+
+00:02:04,259  -->  00:02:08,220
+again I'll be back into the global
+Python environment, so if i install
+
+25
+
+00:02:08,220  -->  00:02:09,810
+packages there,
+
+26
+
+00:02:09,810  -->  00:02:12,540
+you know, they would be globally
+accessible to this one as well.

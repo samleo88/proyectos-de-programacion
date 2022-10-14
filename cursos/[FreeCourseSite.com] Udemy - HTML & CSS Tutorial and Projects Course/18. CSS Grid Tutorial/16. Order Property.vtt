@@ -1,0 +1,154 @@
+WEBVTT
+
+00:00.270 --> 00:00.840
+All right.
+
+00:00.900 --> 00:03.950
+Once we have tackled the grid template areas.
+
+00:03.960 --> 00:12.300
+Next one up we're going to talk about the order property and it should sound very very familiar because
+
+00:12.360 --> 00:13.050
+it is.
+
+00:13.050 --> 00:16.180
+We already covered it in the CSX legs box.
+
+00:16.260 --> 00:21.780
+So we're going to take a look at it again in the light of CSX grid.
+
+00:21.780 --> 00:27.570
+Now first of all what I would like to do is you know what I'm going to set up two columns.
+
+00:27.570 --> 00:33.820
+Hundred and hundred like so I am going to get rid of my template areas.
+
+00:34.110 --> 00:38.760
+I don't need them and I'm going to delete the cells even though we're going to add them at the very
+
+00:38.760 --> 00:41.820
+end anyway and let's save that.
+
+00:41.970 --> 00:50.040
+Then of course I do have some kind of issue because I think I deleted it the curly brace ended and we're
+
+00:50.040 --> 00:55.540
+back to our setup where we have a three columns as well as the two rows.
+
+00:55.710 --> 01:03.990
+So each and every item within our container so within our grid parent container each and every child
+
+01:03.990 --> 01:07.080
+item more a cell has the order of 0.
+
+01:07.650 --> 01:14.100
+So if we're going to change that order well we could either replace it at the end or in the beginning
+
+01:14.460 --> 01:17.460
+or a few of them how it actually in between.
+
+01:17.460 --> 01:23.440
+So I guess first let's try it out with cell number 1 and let's change that property.
+
+01:23.610 --> 01:27.220
+And by the way I do need to place it within the style.
+
+01:27.540 --> 01:29.120
+Otherwise I'm going to have the error.
+
+01:29.280 --> 01:34.590
+So let's select mortar and let's say or is going to be what.
+
+01:35.190 --> 01:37.590
+Well let's say order number two.
+
+01:37.620 --> 01:39.600
+Now what do you think is going to happen.
+
+01:39.600 --> 01:40.610
+Let's save it.
+
+01:40.680 --> 01:45.120
+And now my cell number one is sitting all the way at the end.
+
+01:45.120 --> 01:49.500
+Now the reason why it's sitting all the way in the end because the rest of them have the order of zero
+
+01:49.920 --> 01:50.660
+correct.
+
+01:50.670 --> 01:56.170
+So if we have a positive order we just place it at the end of the pack.
+
+01:56.190 --> 02:02.280
+Now if I would like to place the cell number six at the very beginning what I would need to do I need
+
+02:02.280 --> 02:05.310
+to set up my order to a negative value.
+
+02:05.310 --> 02:08.550
+So let's set up a cell number one.
+
+02:08.610 --> 02:10.380
+I'm sorry not cell number one.
+
+02:10.620 --> 02:13.080
+Truly let's set cell number six.
+
+02:13.090 --> 02:20.240
+That's what I was saying to a negative 1 and now I placed it in the center like I said I can always
+
+02:20.240 --> 02:23.990
+place it in between if I have some kind of values.
+
+02:24.200 --> 02:30.260
+So let's say I'm going to add four cell number to some kind of value.
+
+02:30.530 --> 02:36.330
+So since I am using let's say 2 I'm going to add like 4.
+
+02:36.340 --> 02:39.800
+OK so let's go the cell number.
+
+02:39.830 --> 02:42.560
+I said or you know what let's do three.
+
+02:42.560 --> 02:50.150
+Let's play cell number three is going to have the order value of four like so.
+
+02:50.210 --> 02:57.200
+So now I have cell number 1 and then cell number 3 is at the very end of the pack because order is the
+
+02:57.200 --> 02:58.350
+most positive.
+
+02:58.490 --> 03:01.950
+And now I'd like to place let's say cell number five in between them.
+
+03:01.980 --> 03:03.510
+Now how do I do that.
+
+03:03.530 --> 03:05.020
+I have 2 and 4.
+
+03:05.090 --> 03:13.100
+So we can just shockingly head over to a cell number five very easy.
+
+03:13.120 --> 03:18.620
+What's the order of three is that is in between two and four separate.
+
+03:18.630 --> 03:24.930
+And now I have cell number six as a first one because it has negative 1 and then I just rearranged the
+
+03:24.930 --> 03:26.070
+order a little bit.
+
+03:26.070 --> 03:26.560
+OK.
+
+03:26.700 --> 03:29.940
+Using the order of two three and four.
+
+03:30.020 --> 03:34.680
+And that's how we can use order properly when we're working with C says grid.

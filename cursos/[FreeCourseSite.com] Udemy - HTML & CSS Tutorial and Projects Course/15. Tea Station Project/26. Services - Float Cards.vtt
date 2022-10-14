@@ -1,0 +1,535 @@
+WEBVTT
+
+00:00.330 --> 00:00.950
+Next one up.
+
+00:00.960 --> 00:07.200
+Why don't we add more cards and set up our column layout where on the small screen and next to a small
+
+00:07.200 --> 00:07.800
+screen.
+
+00:07.950 --> 00:14.550
+We're gonna have a one column layout then we're gonna have a two column layout and then eventually we're
+
+00:14.550 --> 00:17.080
+going to have a three column layout.
+
+00:17.250 --> 00:22.730
+And of course you can set up even four or five or how many columns you would like.
+
+00:22.740 --> 00:23.640
+All right.
+
+00:23.640 --> 00:27.610
+Now let's start very simply by adding more items.
+
+00:27.630 --> 00:28.150
+All right.
+
+00:28.290 --> 00:30.200
+So we have our section center.
+
+00:30.390 --> 00:33.530
+And then within the section center we have our single card.
+
+00:33.930 --> 00:41.280
+So copy and paste everything that you have in between the single card as well as the fact that we have
+
+00:41.280 --> 00:42.990
+of course our common.
+
+00:42.990 --> 00:46.280
+So I selected everything I'm going to copy and paste it.
+
+00:46.500 --> 00:48.920
+And we're going to copy and paste it two times.
+
+00:48.960 --> 00:51.500
+So first then on the second time.
+
+00:51.630 --> 00:55.530
+Now first of all I would like to change values for my services.
+
+00:56.040 --> 01:00.380
+So the third one is not going to be a custom recipes.
+
+01:00.510 --> 01:05.420
+We're gonna write it as a t e aging.
+
+01:05.480 --> 01:08.020
+All right something like that.
+
+01:08.290 --> 01:15.310
+And then for the second one I'm going to have also different text and this is not going to be a custom
+
+01:15.310 --> 01:22.700
+recipes but in fact we're going to write a own delivery something like that.
+
+01:22.900 --> 01:25.500
+Let's say it and I do have my cards right.
+
+01:25.500 --> 01:33.460
+So I have the card for home delivery and then also 40 aging or I also would like to change the images
+
+01:33.460 --> 01:34.600
+that we have right.
+
+01:34.970 --> 01:40.570
+So for the T aging why don't we go for product number three the one that's sitting within the images
+
+01:40.570 --> 01:46.000
+folder and then card number two is going to have this image.
+
+01:46.540 --> 01:48.670
+So far so good.
+
+01:48.670 --> 01:56.280
+Now let's switch back to a style CSX and still within the services what we're going to do well we're
+
+01:56.350 --> 01:58.220
+going to set up our media queries.
+
+01:58.300 --> 01:58.680
+Right.
+
+01:59.020 --> 02:03.650
+So we're going to set up our sea assess where it's going to be responsive.
+
+02:03.760 --> 02:09.120
+So as we're changing the screen size while also our success is going to change a little bit.
+
+02:09.190 --> 02:14.300
+Currently you notice everything is going to have this one column layout.
+
+02:14.800 --> 02:16.780
+Regardless of the screen size.
+
+02:16.900 --> 02:18.160
+So how do we do that.
+
+02:18.360 --> 02:20.460
+Well we already work with the floats.
+
+02:20.500 --> 02:21.400
+Remember.
+
+02:21.400 --> 02:30.490
+So let's start by just setting up a media query so media screen and let's go for men with it's really
+
+02:30.490 --> 02:31.140
+up to you.
+
+02:31.150 --> 02:34.170
+I'm gonna start by 768.
+
+02:34.690 --> 02:38.870
+So I'm going to say starting from the screen size of 768.
+
+02:38.950 --> 02:44.380
+Well I'm gonna have some changes to my sources and the changes that I'm gonna have here are going to
+
+02:44.380 --> 02:52.670
+be service card and then let's float it all right let's say float the left and now first let's go off
+
+02:52.670 --> 02:55.110
+with our 50 percent OK.
+
+02:55.340 --> 02:57.460
+Just so we can see what would be the issue.
+
+02:57.620 --> 03:00.880
+And then second we're going to see how we can in fact fix that issue.
+
+03:01.280 --> 03:02.630
+So let's set this up.
+
+03:02.660 --> 03:03.100
+All right.
+
+03:03.140 --> 03:04.920
+I do have my 50 percent.
+
+03:05.060 --> 03:07.460
+And then of course in the bottom I have another card.
+
+03:08.060 --> 03:11.970
+Now the problem is following where it is sitting correctly.
+
+03:11.990 --> 03:12.220
+Right.
+
+03:12.230 --> 03:14.000
+So we have our hundred percent.
+
+03:14.060 --> 03:14.990
+I remember.
+
+03:14.990 --> 03:17.680
+Hundred percent is our section.
+
+03:17.780 --> 03:25.570
+I remember we had our section where we had the section center and it was responsible for the width and
+
+03:25.600 --> 03:26.190
+height.
+
+03:26.310 --> 03:29.190
+That's the reason why we had it as 80 percent.
+
+03:29.200 --> 03:29.800
+All right.
+
+03:29.810 --> 03:35.820
+And you can think of our 80 percent as 100 percent from both cards right.
+
+03:35.840 --> 03:40.250
+That's the reason when we set up in the styles with the 50 percent.
+
+03:40.350 --> 03:42.720
+Now we have a two column layout.
+
+03:42.800 --> 03:45.600
+We have one card and we have the second card.
+
+03:45.670 --> 03:49.450
+Are the problem right now is that there is no margin between.
+
+03:49.560 --> 03:50.070
+OK.
+
+03:50.330 --> 03:58.580
+And if I'm just going to add margin once a margin and we can go as little as let's say two pixels but
+
+03:58.640 --> 04:00.750
+our whole layout is going to break.
+
+04:00.760 --> 04:01.280
+All right.
+
+04:01.400 --> 04:07.100
+Now the reason why our whole layout is going to break is because we are already using a hundred percent
+
+04:07.640 --> 04:10.400
+because we have one card by 15 the other one by 50.
+
+04:10.880 --> 04:18.360
+So if we were adding let's say margin of two pixels while we are in fact outside already are 100 percent.
+
+04:18.380 --> 04:27.170
+So instead the way we are going to do that is by setting up a less with four hour column.
+
+04:27.170 --> 04:29.360
+So in this case why don't we go with 45.
+
+04:29.720 --> 04:31.420
+But it's really up to you.
+
+04:31.490 --> 04:35.500
+And then remember we have a hundred percent as our total.
+
+04:35.540 --> 04:37.290
+And by the way I can just leave the comments.
+
+04:37.430 --> 04:39.380
+So a hundred percent is our total.
+
+04:39.440 --> 04:44.600
+Now I'm using for two cards since I would like to have two column loud 45 percent.
+
+04:44.600 --> 04:46.080
+So how much is that.
+
+04:46.110 --> 04:47.750
+Well it is 90 percent correct.
+
+04:47.750 --> 04:48.770
+That's my total.
+
+04:48.800 --> 04:50.470
+So have 10 percent over.
+
+04:50.480 --> 04:56.710
+So what I could do is for each and every card I could use half of that 10 percent for my margin.
+
+04:56.930 --> 04:57.310
+So.
+
+04:57.390 --> 04:57.650
+Right.
+
+04:57.650 --> 04:59.050
+Margin.
+
+04:59.220 --> 05:00.620
+Let's go right.
+
+05:00.620 --> 05:01.410
+We can left.
+
+05:01.460 --> 05:02.600
+Doesn't really matter.
+
+05:02.720 --> 05:05.230
+And I only say 5 percent.
+
+05:05.280 --> 05:05.880
+So.
+
+05:05.980 --> 05:06.500
+Right.
+
+05:06.620 --> 05:07.720
+So now what happens.
+
+05:07.730 --> 05:09.820
+My total is 50 percent OK.
+
+05:09.860 --> 05:13.760
+Because my with is 45 and margin is using 5.
+
+05:14.180 --> 05:20.600
+So in this case I am going to have a two column loud but everything works correctly.
+
+05:21.020 --> 05:21.570
+OK.
+
+05:21.650 --> 05:23.470
+There is marching in between.
+
+05:23.870 --> 05:27.720
+And it is adding correctly not in fact breaking out loud.
+
+05:27.770 --> 05:33.830
+And then lastly I also want to do the same thing when we get to let's say nine hundred ninety two.
+
+05:33.890 --> 05:39.440
+So in order to speed this up again I'm going to select the whole media query.
+
+05:39.620 --> 05:40.980
+Let's copy and pasted.
+
+05:41.000 --> 05:42.680
+Let's change these values.
+
+05:42.680 --> 05:44.010
+Nine hundred and ninety two.
+
+05:44.360 --> 05:50.010
+So let's say starting from nine hundred ninety two pixels I would want to have a three column layout.
+
+05:50.060 --> 05:54.590
+So again we're gonna float it the left however let's change the width.
+
+05:55.280 --> 05:57.330
+Let's just change to 30 percent.
+
+05:57.740 --> 06:04.400
+Now in this case again I have three columns my total is going to be 90 percent again.
+
+06:04.400 --> 06:07.110
+But notice since I have three columns.
+
+06:07.250 --> 06:10.750
+Wow this total is going to be 15 percent.
+
+06:11.000 --> 06:12.860
+But I have a hundred percent total.
+
+06:12.860 --> 06:17.950
+So of course we just need to in fact go with a little margin so a little less margin.
+
+06:18.050 --> 06:23.480
+Now if you want bigger margin just make sure that you will also decrease the width of the particular
+
+06:23.480 --> 06:24.210
+card.
+
+06:24.230 --> 06:28.410
+So in my case I'm going to go with three point three three three three something.
+
+06:28.490 --> 06:28.870
+Right.
+
+06:28.890 --> 06:33.050
+Again my total is going to be a hundred let's say that.
+
+06:33.050 --> 06:34.040
+And sure enough.
+
+06:34.040 --> 06:37.350
+Now once I get to the bigger screen I have three column layout.
+
+06:37.520 --> 06:40.040
+If I'm gonna make my screen size smaller.
+
+06:40.040 --> 06:44.740
+Notice I'm going to get here where I have a two column layout.
+
+06:45.080 --> 06:50.720
+Then once I'm gonna get to the smaller screen size I'm going to have a one column layout and it's really
+
+06:50.720 --> 06:51.420
+up to you.
+
+06:51.560 --> 06:58.130
+If let's say you'd like to change a different media query let's say to have different column widths
+
+06:58.520 --> 07:01.360
+at the different screen sizes just change those values.
+
+07:01.760 --> 07:05.770
+If you want four columns let's say now we could do it this way.
+
+07:05.840 --> 07:07.850
+I'm just gonna copy and paste it for now.
+
+07:07.850 --> 07:13.960
+I'm going to delete it right away but if we're gonna head over to not services.
+
+07:13.970 --> 07:17.730
+Yes and of services and whereas my last card.
+
+07:17.750 --> 07:18.020
+All right.
+
+07:18.050 --> 07:20.310
+So I have this service card.
+
+07:20.510 --> 07:26.100
+Let's just grab everything and I'm going to try to apply it correctly.
+
+07:26.920 --> 07:28.220
+Let me selected.
+
+07:28.220 --> 07:32.150
+I think it's gonna be easier let's select everything.
+
+07:32.160 --> 07:35.910
+Let's copy and pasted like I said I'm going to delete it in a second.
+
+07:35.910 --> 07:43.170
+But let's say in styles instead of with of 20 or I'm of 30 percent I'm going to set it as 20 percent
+
+07:43.290 --> 07:46.400
+because currently I do have four columns.
+
+07:46.410 --> 07:47.160
+Correct.
+
+07:47.190 --> 07:51.220
+And also the margin is going to be five for each one of them.
+
+07:51.240 --> 07:53.060
+So that way I have four columns.
+
+07:53.280 --> 07:53.900
+OK.
+
+07:54.120 --> 07:59.130
+Now of course I'm going to have different heights because of different texts that we're typing.
+
+07:59.200 --> 08:03.930
+And that's one thing we would need to fix if that is going to be the scenario where right now we're
+
+08:03.930 --> 08:05.510
+using less space.
+
+08:05.510 --> 08:05.770
+OK.
+
+08:05.790 --> 08:11.460
+So since we are using less space than either we're going to have to have some kind of height already
+
+08:11.790 --> 08:18.420
+particular for this let's say the second the information or of course you could set it up a different
+
+08:18.420 --> 08:18.930
+way.
+
+08:18.930 --> 08:19.500
+All right.
+
+08:19.530 --> 08:23.610
+Now in my case I'm going to go back for 30 percent.
+
+08:23.610 --> 08:30.870
+So with this 30 percent then also let's say that as three point three three three something like that.
+
+08:30.870 --> 08:37.710
+And then lastly like I said I'm going to delete my card just remember as you're setting up for different
+
+08:37.710 --> 08:41.670
+columns you're going to have to do probably some extra work.
+
+08:42.210 --> 08:45.130
+Because your column with is going to change.
+
+08:45.240 --> 08:51.090
+So that way you need to start getting creative where in that particular media query you might need to
+
+08:51.090 --> 08:56.270
+set up some already some kind of heights for let's say sort of simple right.
+
+08:56.550 --> 08:58.960
+So all of them would be exactly the same.
+
+08:59.040 --> 08:59.540
+OK.
+
+08:59.670 --> 09:07.560
+Because as you see if your text of course changes if you're let's say in this case the text is less
+
+09:07.590 --> 09:13.080
+than we have for card one until then of course of course your layout is also going to change because
+
+09:13.080 --> 09:14.800
+you're going to start a new line.
+
+09:14.820 --> 09:15.110
+All right.
+
+09:15.420 --> 09:18.310
+But essentially it is as easy as it gets.
+
+09:18.330 --> 09:19.930
+We just set up our floats.
+
+09:19.940 --> 09:24.460
+Make sure that you calculate everything and the value is in fact a hundred.
+
+09:24.630 --> 09:26.790
+And when I say calculate everything.
+
+09:26.790 --> 09:30.420
+Also keep in mind the column with that you would like to have.
+
+09:30.420 --> 09:32.560
+There is a difference if you have three columns.
+
+09:32.610 --> 09:34.960
+Make sure that you count everything correctly.
+
+09:35.100 --> 09:38.130
+When you are adding your totals as well as with the margins.
+
+09:38.160 --> 09:38.640
+OK.
+
+09:38.760 --> 09:44.040
+So if you have two column layout then of course half of your column needs to be 50 percent then you
+
+09:44.040 --> 09:45.230
+have three column layout.
+
+09:45.240 --> 09:51.060
+Well then the third of the West needs to be for that particular column.
+
+09:51.170 --> 09:51.450
+Right.
+
+09:51.760 --> 09:54.870
+That's how we in fact set up a float layout.
+
+09:54.870 --> 09:56.220
+When we have the cards.

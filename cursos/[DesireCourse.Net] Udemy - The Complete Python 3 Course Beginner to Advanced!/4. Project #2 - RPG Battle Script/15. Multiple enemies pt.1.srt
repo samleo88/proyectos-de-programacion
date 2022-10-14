@@ -1,0 +1,944 @@
+1
+
+00:00:00,000  -->  00:00:02,399
+Alright, so we've got just about a
+
+2
+
+00:00:02,399  -->  00:00:05,910
+finished role-playing battle game here. A
+
+3
+
+00:00:05,910  -->  00:00:07,500
+few more improvements that I want to
+
+4
+
+00:00:07,500  -->  00:00:09,990
+make though is first we are going to
+
+5
+
+00:00:09,990  -->  00:00:13,799
+need to give the enemy both spells and
+
+6
+
+00:00:13,799  -->  00:00:16,949
+items, and secondly right now he only
+
+7
+
+00:00:16,949  -->  00:00:19,619
+attacks so we want to be able to add
+
+8
+
+00:00:19,619  -->  00:00:21,810
+some sort of conditions in there to make
+
+9
+
+00:00:21,810  -->  00:00:24,180
+him seem as though he was artificially
+
+10
+
+00:00:24,180  -->  00:00:26,730
+intelligent. Meaning if his hit points
+
+11
+
+00:00:26,730  -->  00:00:29,010
+are under 30 let's generate a number
+
+12
+
+00:00:29,010  -->  00:00:33,210
+between 1-100, and it's over 60 that means
+
+13
+
+00:00:33,210  -->  00:00:36,120
+he'll use potion. Ir if his hitpoints
+
+14
+
+00:00:36,120  -->  00:00:38,820
+are less than ten percent you know let's
+
+15
+
+00:00:38,820  -->  00:00:41,129
+generate a number between 1-100,
+
+16
+
+00:00:41,129  -->  00:00:44,219
+and if it's over 60 he uses the
+
+17
+
+00:00:44,219  -->  00:00:46,079
+hipotion, if it's over 40 he uses the
+
+18
+
+00:00:46,079  -->  00:00:48,870
+regular potion, etc. So, we need to
+
+19
+
+00:00:48,870  -->  00:00:50,760
+determine some of those things and we're
+
+20
+
+00:00:50,760  -->  00:00:52,260
+going to be doing that soon as well.
+
+21
+
+00:00:52,260  -->  00:00:54,539
+First of all we're going to be extending
+
+22
+
+00:00:54,539  -->  00:00:56,850
+this to allow us to add multiple enemies
+
+23
+
+00:00:56,850  -->  00:00:59,190
+and then target different enemies when each
+
+24
+
+00:00:59,190  -->  00:01:03,420
+person attacks. So, we're going to create
+
+25
+
+00:01:03,420  -->  00:01:09,000
+enemy2, it's going be person, and so there's going
+
+26
+
+00:01:09,000  -->  00:01:11,310
+to be one main enemy and that's
+
+27
+
+00:01:11,310  -->  00:01:13,530
+going to be Magus here. He's gonna be
+
+28
+
+00:01:13,530  -->  00:01:14,820
+the strong one as you can see with almost
+
+29
+
+00:01:14,820  -->  00:01:17,070
+20,000 hit points, and there's going to
+
+30
+
+00:01:17,070  -->  00:01:21,330
+be two smaller enemies which are going to
+
+31
+
+00:01:21,330  -->  00:01:23,280
+be henchmen, so they are going to be weaker.
+
+32
+
+00:01:23,280  -->  00:01:28,320
+So, we're just going to call them Imp, and
+
+33
+
+00:01:28,320  -->  00:01:29,400
+we're going to say they're going to have
+
+34
+
+00:01:29,400  -->  00:01:34,530
+about 1,250 hitpoints, their magic points
+
+35
+
+00:01:34,530  -->  00:01:38,189
+are going to be 130, their strength I
+
+36
+
+00:01:38,189  -->  00:01:40,650
+believe we pass in next is going to be
+
+37
+
+00:01:40,650  -->  00:01:42,420
+relatively weak, well
+
+38
+
+00:01:42,420  -->  00:01:47,460
+actually, no we want these guys
+
+39
+
+00:01:47,460  -->  00:01:49,710
+to be easier to defeat but also cause more
+
+40
+
+00:01:49,710  -->  00:01:52,890
+damage. So, we're going to set that to
+
+41
+
+00:01:52,890  -->  00:01:57,240
+about 560, what I have no idea what I
+
+42
+
+00:01:57,240  -->  00:01:59,549
+just did there I pressed something wrong,
+
+43
+
+00:01:59,549  -->  00:02:02,909
+560 and then their defence is going to be a
+
+44
+
+00:02:02,909  -->  00:02:07,050
+325, and the defense we're also going to
+
+45
+
+00:02:07,050  -->  00:02:10,080
+make important as well because what
+
+46
+
+00:02:10,080  -->  00:02:11,400
+we're going to do is we're going to take
+
+47
+
+00:02:11,400  -->  00:02:15,090
+the attack, the generated attack damage
+
+48
+
+00:02:15,090  -->  00:02:19,710
+and then minus the defense of the person
+
+49
+
+00:02:19,710  -->  00:02:21,240
+who they're attacking, and then the
+
+50
+
+00:02:21,240  -->  00:02:28,440
+resulting number is how much attack it's going to do.
+
+51
+
+00:02:28,440  -->  00:02:30,840
+Enemy3 is just going
+
+52
+
+00:02:30,840  -->  00:02:33,420
+to be another Imp witht the exact same stats
+
+53
+
+00:02:33,420  -->  00:02:43,710
+here. So, I'm going to name this enemy1, 2,
+
+54
+
+00:02:43,710  -->  00:02:49,160
+and 3.
+
+55
+
+00:02:49,160  -->  00:02:51,020
+And actually
+
+56
+
+00:02:51,020  -->  00:02:53,120
+I'm going to do it different because I'm
+
+57
+
+00:02:53,120  -->  00:02:55,280
+going to want just for preference
+
+58
+
+00:02:55,280  -->  00:03:00,860
+I don't want Magus then two Imps,
+
+59
+
+00:03:00,860  -->  00:03:02,930
+I want Magus to be in the middle, and that's
+
+60
+
+00:03:02,930  -->  00:03:05,390
+just you know because I can kind of
+
+61
+
+00:03:05,390  -->  00:03:08,510
+see how how it would lay out on a
+
+62
+
+00:03:08,510  -->  00:03:11,000
+typical RPG screen in the battle.
+
+63
+
+00:03:11,000  -->  00:03:14,630
+So, there's our enemies what we're going
+
+64
+
+00:03:14,630  -->  00:03:16,340
+to do is we're going to create another
+
+65
+
+00:03:16,340  -->  00:03:19,790
+array here or a list called enemies, and
+
+66
+
+00:03:19,790  -->  00:03:22,970
+it's going to be equal to enemy1, enemy2
+
+67
+
+00:03:22,970  -->  00:03:26,030
+enemy3.
+
+68
+
+00:03:26,030  -->  00:03:29,870
+There we go. So, what we're going to do
+
+69
+
+00:03:29,870  -->  00:03:34,400
+down here is see it says enemy.get_enemy_stats
+
+70
+
+00:03:34,400  -->  00:03:38,840
+we're going to say for enemy in enemies,
+
+71
+
+00:03:38,840  -->  00:03:44,450
+enemy.get_enemy_stats. And then what we're going to
+
+72
+
+00:03:44,450  -->  00:03:45,980
+have to do is we're gonna have to print
+
+73
+
+00:03:45,980  -->  00:03:49,250
+out so after they choose their attack,
+
+74
+
+00:03:49,250  -->  00:03:53,000
+there you know etc. here, we're going to
+
+75
+
+00:03:53,000  -->  00:03:56,510
+need to determine who the person is
+
+76
+
+00:03:56,510  -->  00:03:58,640
+attacking. So, what we're going to do is
+
+77
+
+00:03:58,640  -->  00:04:00,770
+we're going to create a function called
+
+78
+
+00:04:00,770  -->  00:04:07,459
+choose target, and actually we will put
+
+79
+
+00:04:07,459  -->  00:04:10,070
+that into the player class here, player
+
+80
+
+00:04:10,070  -->  00:04:12,080
+choose target and then we're going to
+
+81
+
+00:04:12,080  -->  00:04:16,250
+pass him enemies. So, now let's jump over to
+
+82
+
+00:04:16,250  -->  00:04:20,750
+our game here, and up with the other
+
+83
+
+00:04:20,750  -->  00:04:24,080
+choices like choose item and stuff we're just going
+
+84
+
+00:04:24,080  -->  00:04:26,300
+to create another method here called
+
+85
+
+00:04:26,300  -->  00:04:31,550
+def choose_target, and we're going to be
+
+86
+
+00:04:31,550  -->  00:04:37,430
+accepting enemies as a parameter. So, for
+
+87
+
+00:04:37,430  -->  00:04:43,070
+enemy in enemies: we are going to just print
+
+88
+
+00:04:43,070  -->  00:04:45,020
+out basically what we have been before.
+
+89
+
+00:04:45,020  -->  00:04:49,669
+We need to set an index to 0 so we can count, and
+
+90
+
+00:04:49,669  -->  00:04:50,960
+put a number actually it's going to be
+
+91
+
+00:04:50,960  -->  00:04:54,770
+1 there. So, for enemy in enemies we're
+
+92
+
+00:04:54,770  -->  00:04:59,720
+going to print out
+
+93
+
+00:04:59,720  -->  00:05:03,320
+the exact same kind of structure we've
+
+94
+
+00:05:03,320  -->  00:05:06,770
+been doing, so it's going to be FAIL and
+
+95
+
+00:05:06,770  -->  00:05:15,650
+bcolors, BOLD, 1, 2, 3, 4, TARGET, and then
+
+96
+
+00:05:15,650  -->  00:05:20,900
+bcolors.ENDC, and we're going to end the color. And actually
+
+97
+
+00:05:20,900  -->  00:05:23,180
+this needs to go above that for
+
+98
+
+00:05:23,180  -->  00:05:24,680
+statement otherwise it would print it out
+
+99
+
+00:05:24,680  -->  00:05:29,540
+three times, or four however many enemies we
+
+100
+
+00:05:29,540  -->  00:05:31,100
+have. Right now we're just setting it up
+
+101
+
+00:05:31,100  -->  00:05:34,040
+with three. So, here we're going to print
+
+102
+
+00:05:34,040  -->  00:05:34,940
+out
+
+103
+
+00:05:34,940  -->  00:05:41,210
+1, 2, 3, 4, 5, 6, 7, 8, and then the index number
+
+104
+
+00:05:41,210  -->  00:05:46,460
+here plus a dot, and then we're going to
+
+105
+
+00:05:46,460  -->  00:06:03,129
+say enemy.name, and that's it.
+
+106
+
+00:06:03,129  -->  00:06:08,080
+And then we're going to say i += 1.
+
+107
+
+00:06:08,080  -->  00:06:14,589
+So, what we need to return is the enemy
+
+108
+
+00:06:14,589  -->  00:06:16,209
+that they have chosen,
+
+109
+
+00:06:16,209  -->  00:06:19,749
+so this isn't going to be just a print
+
+110
+
+00:06:19,749  -->  00:06:21,610
+and then we capture the index in each
+
+111
+
+00:06:21,610  -->  00:06:24,399
+one as like we would have to capture
+
+112
+
+00:06:24,399  -->  00:06:26,229
+here and then if they're using magic we
+
+113
+
+00:06:26,229  -->  00:06:27,729
+would have to capture the target here,
+
+114
+
+00:06:27,729  -->  00:06:30,550
+etc., so what we're going to do is put this into a
+
+115
+
+00:06:30,550  -->  00:06:34,209
+variable called enemy, and we're actually
+
+116
+
+00:06:34,209  -->  00:06:36,849
+going to return the index number of that
+
+117
+
+00:06:36,849  -->  00:06:40,330
+enemy, or the object itself.
+
+118
+
+00:06:40,330  -->  00:06:45,009
+Let me see...no, just the index number. So,
+
+119
+
+00:06:45,009  -->  00:06:51,039
+we're going to say print choose, and I
+
+120
+
+00:06:51,039  -->  00:06:54,459
+believe choose was on four spaces in
+
+121
+
+00:06:54,459  -->  00:06:57,999
+yeah four spaces in it says choose, so I'm going
+
+122
+
+00:06:57,999  -->  00:07:04,869
+to say choose targets, and then we're
+
+123
+
+00:07:04,869  -->  00:07:07,300
+going to put actually that's an input i
+
+124
+
+00:07:07,300  -->  00:07:08,769
+believe
+
+125
+
+00:07:08,769  -->  00:07:12,579
+yeah that's an input. So, choice
+
+126
+
+00:07:12,579  -->  00:07:19,689
+equals input, turn this into an int right
+
+127
+
+00:07:19,689  -->  00:07:24,849
+off the bat, negative 1, and then we're
+
+128
+
+00:07:24,849  -->  00:07:28,929
+going to return choice. So, this is going
+
+129
+
+00:07:28,929  -->  00:07:30,369
+to let's say it's going to print out the
+
+130
+
+00:07:30,369  -->  00:07:32,649
+enemies and then we're going to select
+
+131
+
+00:07:32,649  -->  00:07:35,679
+the first one which is going to be the
+
+132
+
+00:07:35,679  -->  00:07:38,079
+first one in the array, so technically
+
+133
+
+00:07:38,079  -->  00:07:39,939
+that should be a zero, so we're reducing
+
+134
+
+00:07:39,939  -->  00:07:43,959
+the choice by one so if we input one it's
+
+135
+
+00:07:43,959  -->  00:07:45,789
+going to actually become 0 and then it's
+
+136
+
+00:07:45,789  -->  00:07:50,050
+going to return that is an integer to this
+
+137
+
+00:07:50,050  -->  00:07:53,829
+right here. So, enemy is now going to
+
+138
+
+00:07:53,829  -->  00:07:57,369
+be 0 so what we're going to say is
+
+139
+
+00:07:57,369  -->  00:08:03,459
+enemies, and then we're going to say the
+
+140
+
+00:08:03,459  -->  00:08:06,819
+correct enemy like that. So, we're actually
+
+141
+
+00:08:06,819  -->  00:08:11,400
+going to copy this bit
+
+142
+
+00:08:11,400  -->  00:08:16,919
+and we're actually going to also print
+
+143
+
+00:08:16,919  -->  00:08:23,910
+out which enemy you're attacking here, so
+
+144
+
+00:08:23,910  -->  00:08:33,360
+enemies enemy, and then their name.
+
+145
+
+00:08:33,360  -->  00:08:38,789
+Yeah, so, we're gonna copy this and then
+
+146
+
+00:08:38,789  -->  00:08:39,960
+we're going to bring this down to the
+
+147
+
+00:08:39,960  -->  00:08:42,870
+magic as well, so if we choose black
+
+148
+
+00:08:42,870  -->  00:08:44,610
+magic we need to then choose the target
+
+149
+
+00:08:44,610  -->  00:08:51,150
+here. So, same thing they're going to be
+
+150
+
+00:08:51,150  -->  00:08:54,180
+taking magic damage, and then we need to
+
+151
+
+00:08:54,180  -->  00:08:57,690
+print out which you attacked. So spell
+
+152
+
+00:08:57,690  -->  00:09:11,410
+name does X points of damage to
+
+153
+
+00:09:11,410  -->  00:09:17,019
+there, and then if we choose an attack
+
+154
+
+00:09:17,019  -->  00:09:19,990
+item we're going to, I think that
+
+155
+
+00:09:19,990  -->  00:09:22,120
+looks right, so if we choose an
+
+156
+
+00:09:22,120  -->  00:09:24,069
+attack item we're going to need to be
+
+157
+
+00:09:24,069  -->  00:09:31,060
+able to choose the enemy as well. So, I
+
+158
+
+00:09:31,060  -->  00:09:33,879
+take damage so it's going to take item.prop
+
+159
+
+00:09:33,879  -->  00:09:38,500
+as the damage, that's the value of
+
+160
+
+00:09:38,500  -->  00:09:40,180
+the item, so for instance if we choose a
+
+161
+
+00:09:40,180  -->  00:09:43,209
+grenade the grenade's prop property is
+
+162
+
+00:09:43,209  -->  00:09:46,660
+going to be equal to 500 i believe. So,
+
+163
+
+00:09:46,660  -->  00:09:48,699
+we're going to say item name deals
+
+164
+
+00:09:48,699  -->  00:09:57,310
+points of damage to enemies(enemy).name.
+
+165
+
+00:09:57,310  -->  00:10:01,600
+Now this should work and we're
+
+166
+
+00:10:01,600  -->  00:10:03,579
+gonna test it out here, we should be able
+
+167
+
+00:10:03,579  -->  00:10:05,649
+to choose targets, so
+
+168
+
+00:10:05,649  -->  00:10:08,110
+let's go ahead and save. Now still the
+
+169
+
+00:10:08,110  -->  00:10:10,930
+enemy is not going to be able to attack
+
+170
+
+00:10:10,930  -->  00:10:15,129
+us so what we need to do first is we're
+
+171
+
+00:10:15,129  -->  00:10:17,620
+going to say enemy0 is going to be
+
+172
+
+00:10:17,620  -->  00:10:23,139
+the one who attacks us. So, let's go ahead
+
+173
+
+00:10:23,139  -->  00:10:25,959
+and save, run this, and then we're going
+
+174
+
+00:10:25,959  -->  00:10:28,149
+to extend that to make each enemy attack
+
+175
+
+00:10:28,149  -->  00:10:30,069
+us. So we actually need to fix the names
+
+176
+
+00:10:30,069  -->  00:10:34,329
+well those should go in two spaces is
+
+177
+
+00:10:34,329  -->  00:10:40,060
+it, yep two, because it's twwo characters less. So,
+
+178
+
+00:10:40,060  -->  00:10:45,009
+where is that, there we go. I forgot about that.
+
+179
+
+00:10:45,009  -->  00:10:48,550
+So, let's refresh, there we go.
+
+180
+
+00:10:48,550  -->  00:10:51,610
+So as you can see we've now got two Imps
+
+181
+
+00:10:51,610  -->  00:10:55,779
+and a Magus. So if we select attack
+
+182
+
+00:10:55,779  -->  00:10:57,250
+we're going to have to choose a target,
+
+183
+
+00:10:57,250  -->  00:11:00,100
+so let's choose an Imp.
+
+184
+
+00:11:00,100  -->  00:11:03,550
+He's going to use magic, let's use
+
+185
+
+00:11:03,550  -->  00:11:08,379
+thunder on Imp, and then robot's going to
+
+186
+
+00:11:08,379  -->  00:11:11,470
+attack Imp. Here we get an error,
+
+187
+
+00:11:11,470  -->  00:11:16,809
+enemy damage is not subscriptable.
+
+188
+
+00:11:16,809  -->  00:11:18,630
+Enemies damage...oh enemies...I
+
+189
+
+00:11:18,630  -->  00:11:27,590
+forgot to change that there. Were is that?

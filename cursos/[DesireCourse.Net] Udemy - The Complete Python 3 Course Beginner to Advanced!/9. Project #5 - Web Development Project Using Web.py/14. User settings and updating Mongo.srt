@@ -1,0 +1,994 @@
+1
+
+00:00:00,000  -->  00:00:04,230
+Alright guys, welcome back. I've done
+a bit of work behind the scenes here
+
+2
+
+00:00:04,230  -->  00:00:08,220
+between the last video and this video, and
+the work is basically designed and
+
+3
+
+00:00:08,220  -->  00:00:12,599
+setting up some templates because that's
+not exactly relevant to what we're doing,
+
+4
+
+00:00:12,599  -->  00:00:16,800
+and I assume we're all going to be
+designing something slightly different,
+
+5
+
+00:00:16,800  -->  00:00:21,720
+so we're going to be focusing more on
+the back and functionality. So, what I've
+
+6
+
+00:00:21,720  -->  00:00:27,390
+done was I just included masonry isotope
+here for the layout so it makes it a
+
+7
+
+00:00:27,390  -->  00:00:32,759
+nice inconsistent column, and what I mean
+by that is this one doesn't have to
+
+8
+
+00:00:32,759  -->  00:00:38,550
+appear at the same beginning point as the
+left-hand column. So it's kinda, you know,
+
+9
+
+00:00:38,550  -->  00:00:43,440
+each one is consistent in how much
+border is between each one. So that's
+
+10
+
+00:00:43,440  -->  00:00:51,780
+isotope, go to "isotope.metafizzy.co"
+this is the package that I used, they
+
+11
+
+00:00:51,780  -->  00:00:55,230
+have great documentation, so check that
+out if you're interested in that.
+
+12
+
+00:00:55,890  -->  00:01:00,660
+Now the other thing I did was I have
+created a profile page here that
+
+13
+
+00:01:00,660  -->  00:01:04,470
+basically it's only going to show the
+users post that you're viewing the
+
+14
+
+00:01:04,470  -->  00:01:08,970
+profile of. So in this case i've mapped
+this link right here to the logged-in
+
+15
+
+00:01:08,970  -->  00:01:14,460
+user, so profile/whatever the user is.
+And I've also got an info section that
+
+16
+
+00:01:14,460  -->  00:01:20,310
+contains an About, Hobbies, Birthday, and then some professional information here. Now
+
+17
+
+00:01:20,310  -->  00:01:24,240
+I've also, I haven't done this or these you guys can do if you
+
+18
+
+00:01:24,240  -->  00:01:28,770
+want, I just put them there because
+that's kind of the scope of what we're
+
+19
+
+00:01:28,770  -->  00:01:38,850
+doing, so regarding the code what I was
+going to do is using ace editor which if
+
+20
+
+00:01:38,850  -->  00:01:42,180
+you guys don't know what it is it's a
+javascript library where you can create
+
+21
+
+00:01:42,180  -->  00:01:47,430
+a code editor directly within a web page,
+and you can customize it with different
+
+22
+
+00:01:47,430  -->  00:01:51,659
+syntax highlighting so you can make it
+work for Python. You can actually maybe
+
+23
+
+00:01:51,659  -->  00:01:58,229
+even a drop down for the user to select
+the syntax kinda like pastebin. That's
+
+24
+
+00:01:58,229  -->  00:02:00,689
+beyond the scope of what we're doing though. What we're going to be doing right
+
+25
+
+00:02:00,689  -->  00:02:04,200
+now is we're going to be learning about
+how to modify this information and
+
+26
+
+00:02:04,200  -->  00:02:09,780
+then print it out. If I go into my PyCharm
+file here for settings
+
+27
+
+00:02:09,780  -->  00:02:14,310
+you'll see that it's just a form and
+it's all static information as set in the
+
+28
+
+00:02:14,310  -->  00:02:17,580
+value, so we're not actually doing
+anything dynamic with this page yet,
+
+29
+
+00:02:17,580  -->  00:02:20,970
+and that's what we're going to be doing.
+We're first going to be focusing on the
+
+30
+
+00:02:20,970  -->  00:02:25,770
+settings page here, which again it's
+just a copy of this page except each one
+
+31
+
+00:02:25,770  -->  00:02:32,640
+of these is an input, and with the same
+names as you can see here, so name, about,
+
+32
+
+00:02:32,640  -->  00:02:39,360
+hobbies, and birthday. So we're going to be
+submitting that form through ajax so i'm
+
+33
+
+00:02:39,360  -->  00:02:43,380
+going to go ahead and copy the ID of
+this form, and i'm going to write out a new
+
+34
+
+00:02:43,380  -->  00:02:51,540
+eventhandler right here. So let's go
+ahead and write "$(document).on('submit',
+
+35
+
+00:02:51,540  -->  00:02:56,640
+'#settings-form', function(e){ });"
+
+36
+
+00:02:56,640  -->  00:03:02,250
+We are going to pass event into it "e.preventDefault( );" so that we
+
+37
+
+00:03:02,250  -->  00:03:08,100
+can prevent the default behavior of form
+submit, then we're going to serialize
+
+38
+
+00:03:08,100  -->  00:03:15,120
+formed by setting "var form = $(this).serialize( );" and this should look familiar to
+
+39
+
+00:03:15,120  -->  00:03:18,510
+you guys because this is how we've been
+doing it all along.
+
+40
+
+00:03:18,510  -->  00:03:22,739
+Now we're going to begin writing our
+"$.ajax({ })"
+
+41
+
+00:03:22,739  -->  00:03:35,940
+the "url: 'update-settings'," The "type: 'POST'," "data: form,"
+
+42
+
+00:03:35,940  -->  00:03:45,750
+and then on "success: function(res){ }" I'm going to say "if(res == 
+
+43
+
+00:03:45,750  -->  00:03:58,260
+"success"){ }" "window.location.href = window.location.href;" "else" For
+
+44
+
+00:03:58,260  -->  00:04:03,030
+simplicity you guys can make that dynamic, you can actually put the new content into
+
+45
+
+00:04:03,030  -->  00:04:09,209
+the the page itself. Otherwise, we're
+going to "alert(res);" itself.
+
+46
+
+00:04:12,700  -->  00:04:17,470
+So, now we need to go into the Controller,
+and what I've done also if you guys
+
+47
+
+00:04:17,470  -->  00:04:22,540
+haven't figured it out, which you should, I
+have created some new routes. It's
+
+48
+
+00:04:22,540  -->  00:04:27,070
+nothing special, it's the same things
+we've done up here. This is profile/
+
+49
+
+00:04:27,070  -->  00:04:32,530
+anything/info and that's going to
+redirect to the info page. The next one is
+
+50
+
+00:04:32,530  -->  00:04:37,330
+settings and this doesn't require any
+additional parameters, and then the next
+
+51
+
+00:04:37,330  -->  00:04:42,820
+one is profile/anything. So just to
+note, if you were to put this above this,
+
+52
+
+00:04:42,820  -->  00:04:48,310
+then if you tried to go to this link
+right here the info link it would always
+
+53
+
+00:04:48,310  -->  00:04:52,750
+go to the activity link, because this is
+kind of a catch-all. So any longer,
+
+54
+
+00:04:52,750  -->  00:04:59,770
+similar URLs you need to put before the
+catch all one level less, I guess. So, yeah.
+
+55
+
+00:04:59,770  -->  00:05:04,000
+So what we're going to do is you see
+that I've created settings equals UserSettings
+
+56
+
+00:05:04,000  -->  00:05:06,820
+well now what I'm going to do
+is I'm going to create the route for
+
+57
+
+00:05:06,820  -->  00:05:13,900
+ajax request which is '/update settings', and it's going to route to a class called
+
+58
+
+00:05:13,900  -->  00:05:20,650
+"UpdateSettings", Now we're going to go
+ahead and define that class and also
+
+59
+
+00:05:20,650  -->  00:05:25,090
+what I've done for the user profile is
+the user profile is the main activity
+
+60
+
+00:05:25,090  -->  00:05:29,950
+page here, so it's what shows my posts. So
+what I've done is I've added the
+
+61
+
+00:05:29,950  -->  00:05:34,419
+automatic login script because we don't
+want to always have to log in every time
+
+62
+
+00:05:34,419  -->  00:05:38,979
+we restart server, and then in the posts
+model i've created a new method called
+
+63
+
+00:05:38,979  -->  00:05:43,960
+get_user_posts and we're passing at the user name of the login, well actually, of
+
+64
+
+00:05:43,960  -->  00:05:48,490
+whatever username is right here, so it's
+only gonna get posts from them. So, if I
+
+65
+
+00:05:48,490  -->  00:05:53,110
+look at the Posts file here it's
+basically the same as get all posts, the
+
+66
+
+00:05:53,110  -->  00:05:58,539
+only differences were passing a
+parameter of username equals user in
+
+67
+
+00:05:58,539  -->  00:06:03,070
+the find method, and then we're also sorting it in descending order by date. So,
+
+68
+
+00:06:03,070  -->  00:06:10,660
+everything else should be same. So what
+we're going to do is down here we're
+
+69
+
+00:06:10,660  -->  00:06:14,979
+going to end, similar thing for user
+settings except we're not passing anything
+
+70
+
+00:06:14,979  -->  00:06:21,460
+in there, yet. So what we're going to do is
+we're going to define "class UpdateSettings"
+
+71
+
+00:06:22,930  -->  00:06:29,889
+and it's going to be a "def POST(self):" So,
+we're going to get the input here, so
+
+72
+
+00:06:29,889  -->  00:06:40,270
+"data = web.input( )" and then we're
+going to set username equal to our
+
+73
+
+00:06:40,270  -->  00:06:54,160
+sessions username. So, "data.username = session_data["user"]["username"]"
+
+74
+
+00:06:58,570  -->  00:07:04,720
+Now what we're going to do I'm, I should
+have named the login model accounts
+
+75
+
+00:07:04,720  -->  00:07:10,000
+model, and you know integrated the register model into it so that we only have one
+
+76
+
+00:07:10,000  -->  00:07:14,169
+model. So this should be accounts model,
+i'm going to be working in that to create a
+
+77
+
+00:07:14,169  -->  00:07:17,650
+new method, so we're going to be calling
+that new method here. What we're going to
+
+78
+
+00:07:17,650  -->  00:07:25,990
+do is instantiate the model, so "settings_model = LoginModel.LoginModel( )"
+
+79
+
+00:07:25,990  -->  00:07:38,409
+and then let's go ahead and write "if
+settings_model.update(data):"
+
+80
+
+00:07:38,409  -->  00:07:42,909
+So if this returns true then we're going to "return
+
+81
+
+00:07:43,720  -->  00:07:57,099
+"success" "else:" we're going to "return "A fatal error has occurred." So let's go ahead and
+
+82
+
+00:07:57,099  -->  00:08:01,060
+save this since we are done in the Controller file. Let's go into the Login model and
+
+83
+
+00:08:01,060  -->  00:08:06,070
+build out this update info method. So go ahead and "def update_info" we're going to
+
+84
+
+00:08:06,070  -->  00:08:15,099
+pass in "(self, data):" Now what we're going to do is we're just going to create a method,
+
+85
+
+00:08:15,099  -->  00:08:21,400
+so let's go ahead "updated =" and
+here's how to update information in
+
+86
+
+00:08:21,400  -->  00:08:28,509
+PyMongo. Go ahead and target the collection, so this case it's self.Users.update_one( )"
+
+87
+
+00:08:29,050  -->  00:08:36,370
+it's this simple. Now the parameters
+that we're going to be passing in are two
+
+88
+
+00:08:36,370  -->  00:08:43,209
+dictionary objects. So the first one is
+going to define which exact item or
+
+89
+
+00:08:43,209  -->  00:08:46,690
+document in the collection we want to
+update, so here we're going to target by
+
+90
+
+00:08:46,690  -->  00:08:58,750
+"{"username": data["username"]}," And then the second is going to be, you need to begin
+
+91
+
+00:08:58,750  -->  00:09:06,130
+it like this, with the keyword "{"$set": }" and
+then there's a dictionary inside there,
+
+92
+
+00:09:06,130  -->  00:09:11,649
+or in our case what we're setting as
+data in here should already be a
+
+93
+
+00:09:11,649  -->  00:09:17,470
+dictionary. So we're just gonna push all
+the information from "data" into this set
+
+94
+
+00:09:17,470  -->  00:09:23,920
+method. So let's go ahead and "return True"
+
+95
+
+00:09:27,100  -->  00:09:33,070
+We're going to save this, and refresh it, we're going to jump over this file and refresh
+
+96
+
+00:09:33,070  -->  00:09:36,520
+this. We're going to go to the settings
+page here and i'm going to update my
+
+97
+
+00:09:36,520  -->  00:09:45,730
+about section too. "This is my about section." and I'm going to save it, and it didn't save
+
+98
+
+00:09:45,730  -->  00:09:53,050
+it correctly. So let's go ahead and find
+out why. Oh, sorry,
+
+99
+
+00:09:53,050  -->  00:09:56,740
+yes it did. It's just we haven't
+dynamically generated this.
+
+100
+
+00:09:56,740  -->  00:09:59,860
+So what we're going to be doing now is
+just working on that, so I'm going to
+
+101
+
+00:09:59,860  -->  00:10:10,600
+come into the settings here, and i'm
+going to set it to "$session['user']
+
+102
+
+00:10:10,600  -->  00:10:17,980
+['name']" I'm going to copy
+this value because i'm going to just
+
+103
+
+00:10:17,980  -->  00:10:26,290
+paste here to save time. This value for
+hobbies and then the value for birthday,
+
+104
+
+00:10:26,290  -->  00:10:32,290
+so we're going to rename these accordingly. This is going to be "['about']" this is going
+
+105
+
+00:10:32,290  -->  00:10:40,120
+to be "['hobbies']" and this is going to be
+"['birthday']" and normally for a birthday field
+
+106
+
+00:10:40,120  -->  00:10:42,200
+you would use it a date or
+
+107
+
+00:10:42,200  -->  00:10:47,450
+timepicker, we're not gonna be doing that
+right now. So as you can see this is my
+
+108
+
+00:10:47,450  -->  00:10:53,900
+about section, i'm gonna update my name
+here to Nick Wally, save it, and you will
+
+109
+
+00:10:53,900  -->  00:10:57,470
+see that this does update. Now what we
+need to do on the main profile pages
+
+110
+
+00:10:57,470  -->  00:10:59,480
+implement that here.
+
+111
+
+00:10:59,480  -->  00:11:04,490
+So what I'm going to do is up at the top
+here we're just going to enter
+
+112
+
+00:11:04,490  -->  00:11:13,730
+the "$session" information because we're
+storing the entire "['user']" object in
+
+113
+
+00:11:13,730  -->  00:11:21,830
+this file. So session, user, and "['name']" and
+additionally we put a headline value
+
+114
+
+00:11:21,830  -->  00:11:25,910
+here, and that's basically the same as
+all this so we're not doing that. Now
+
+115
+
+00:11:25,910  -->  00:11:30,260
+what we're going to do is we're going to
+close the settings file and we're going
+
+116
+
+00:11:30,260  -->  00:11:33,440
+to do something similar with
+the info file.
+
+117
+
+00:11:33,440  -->  00:11:38,570
+So if we go to info here, as you can
+see it's all static and we don't want to
+
+118
+
+00:11:38,570  -->  00:11:42,830
+use the session information for this
+because we're actually targeting a user
+
+119
+
+00:11:42,830  -->  00:11:48,890
+in the URL here, so we need to get that
+out. So if i go over into the Controller
+
+120
+
+00:11:48,890  -->  00:11:52,970
+and look at UserInfo the username right
+here is this,
+
+121
+
+00:11:52,970  -->  00:11:56,600
+so what we're going to do is we're going
+to instantiate, well actually the login
+
+122
+
+00:11:56,600  -->  00:12:06,170
+model's already instantiated, what we're
+gonna do is we're going to "user_info =
+
+123
+
+00:12:06,170  -->  00:12:11,780
+login.get_profile(user)" 
+
+124
+
+00:12:11,780  -->  00:12:21,680
+What we're going to do at that point is we are going to send the "(user_info)"
+
+125
+
+00:12:21,680  -->  00:12:27,170
+into the profile. We actually need
+to go to find this method here get
+
+126
+
+00:12:27,170  -->  00:12:30,560
+profile, so let's go ahead and jump into
+the LoginModel as well
+
+127
+
+00:12:31,310  -->  00:12:37,100
+again and we're going to, whoops don't know why that copied, I think I named it "def
+
+128
+
+00:12:37,100  -->  00:12:44,210
+get_profile(self, user):" So what we're
+going to do is we're just basically
+
+129
+
+00:12:44,210  -->  00:12:48,530
+going to do the same things up here,
+except we're going to be passing it into
+
+130
+
+00:12:48,530  -->  00:12:52,160
+in a different format. So let's go ahead
+
+131
+
+00:12:53,010  -->  00:13:01,380
+and "user_info = self.Users.find_one( )" and we're going
+
+132
+
+00:13:01,380  -->  00:13:06,360
+to find based on "{"username": user}" which is going to be the user that we're passing
+
+133
+
+00:13:06,360  -->  00:13:09,060
+in, and then we're going to just "return
+
+134
+
+00:13:09,060  -->  00:13:15,000
+user_info" We're going to come back over to our Controller and we're passing it into the Info file,
+
+135
+
+00:13:15,000  -->  00:13:26,040
+so what we need to do in the Info file
+is we need to "$def with (user_info)" Go
+
+136
+
+00:13:26,040  -->  00:13:30,360
+ahead and save this. Now what we're going
+to do is I'm going to print out "$user_info
+
+137
+
+00:13:30,360  -->  00:13:39,810
+["name"]" We're going to refresh, going to,
+there you go.
+
+138
+
+00:13:41,100  -->  00:13:44,220
+Now this is going to be different if I
+login as someone else. So i'm gonna go
+
+139
+
+00:13:44,220  -->  00:13:49,470
+ahead and log out, i'm going to create a
+new user and this is going to be
+
+140
+
+00:13:52,890  -->  00:13:55,890
+"nickwally1" "Wally Germaine" "wally@pb.net"
+
+141
+
+00:13:56,820  -->  00:14:09,780
+and my password is going to be the same
+"avocado1" Login...and to do this what we
+
+142
+
+00:14:09,780  -->  00:14:13,740
+actually need to do is go into the
+controller here, I need to remove this
+
+143
+
+00:14:13,740  -->  00:14:21,480
+login method for each page because I
+don't want to be automatically logged in
+
+144
+
+00:14:21,480  -->  00:14:24,480
+at this point.
+
+145
+
+00:14:27,699  -->  00:14:36,669
+So here's a profile here as well, so i'm
+using the model there. And then post
+
+146
+
+00:14:36,669  -->  00:14:41,829
+activity we don't need to do anything,
+check login post registration and all, so
+
+147
+
+00:14:41,829  -->  00:14:47,859
+we need to remove it from the home page
+as well. Let's go ahead and save, and
+
+148
+
+00:14:47,859  -->  00:14:53,350
+refresh, going login as, I don't remember my username, so
+
+149
+
+00:14:53,350  -->  00:14:56,709
+let's go ahead and type "nickwally1"
+
+150
+
+00:14:56,709  -->  00:15:05,769
+Alright, i'm going to set it to "avocado1" going to login. As you can see
+
+151
+
+00:15:05,769  -->  00:15:08,769
+Nick Wally posted these posts, and if I
+go to my profile
+
+152
+
+00:15:09,339  -->  00:15:20,709
+it's going to be static again. What
+we're going to do is go to "nick1"
+
+153
+
+00:15:23,439  -->  00:15:29,859
+Alright it was the info that we stored
+that in. So activity, let me have a look here
+
+154
+
+00:15:29,859  -->  00:15:34,089
+on the activity page which is profile,
+
+155
+
+00:15:35,350  -->  00:15:38,559
+we're going to be passing the same thing.
+So we need to go to our Controller here,
+
+156
+
+00:15:38,559  -->  00:15:47,739
+and under UserProfile we need to do the
+same thing that we did in UserInfo. I'm going to copy
+
+157
+
+00:15:47,739  -->  00:15:56,889
+and paste this there, and we're going to
+pass in "user_info" and then in our
+
+158
+
+00:15:56,889  -->  00:16:04,869
+Profile here we're going to define with
+posts and "user_info" Here at the top
+
+159
+
+00:16:04,869  -->  00:16:11,709
+we're going to change this to "$user_info["name']"
+
+160
+
+00:16:17,630  -->  00:16:28,940
+and we're also going to change all these
+to "$user_info['username']" and i'm going to replace
+
+161
+
+00:16:28,940  -->  00:16:43,910
+copy this, change nick1 in there, and there we go.
+
+162
+
+00:16:44,480  -->  00:16:52,850
+So if I refresh, and refresh this, I get
+an internal server error. The type is not
+
+163
+
+00:16:52,850  -->  00:16:58,910
+because we need to login, alright. So let's go ahead
+
+164
+
+00:16:58,910  -->  00:17:06,980
+and login "nickwally1" We could build some protection around that but i'm not going
+
+165
+
+00:17:06,980  -->  00:17:14,030
+to focus on that right now. Going to login, go to my profile, and we see that my info is
+
+166
+
+00:17:14,030  -->  00:17:15,079
+this,
+
+167
+
+00:17:15,079  -->  00:17:26,900
+however if I go to settings, so
+here's where we would need to do some
+
+168
+
+00:17:26,900  -->  00:17:36,980
+error checking. So if we go into settings
+here, in here about, what we need to do is
+
+169
+
+00:17:36,980  -->  00:17:45,920
+check if it exists. So, you would need
+to do some error checking perhaps, maybe
+
+170
+
+00:17:45,920  -->  00:17:51,020
+set some default data here in the
+controller if user info doesn't include
+
+171
+
+00:17:51,020  -->  00:17:56,270
+any fields, so you can actually create a
+little function to go generate any empty
+
+172
+
+00:17:56,270  -->  00:18:01,730
+field, and maybe even just put a space in
+there just so that the key exists within that
+
+173
+
+00:18:01,730  -->  00:18:07,460
+database. So that's all for this video.
+In the next video, I'm not sure if we'll be
+
+174
+
+00:18:07,460  -->  00:18:12,170
+continuing WebPy or moving on, but
+either way we're going to have some fun.

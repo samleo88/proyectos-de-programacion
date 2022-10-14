@@ -1,0 +1,466 @@
+WEBVTT
+
+00:00.130 --> 00:04.890
+And the next section that we want to build is over here are going to be in these icons.
+
+00:04.890 --> 00:11.080
+But mostly we're going to be actually concentrating more here on this effect on the slanted effect.
+
+00:11.220 --> 00:16.520
+So we're going to go back over here and not over here we're actually going to go back to our next issue
+
+00:16.550 --> 00:21.250
+here now see or hear or comment and of Hetter I'll get a place on here.
+
+00:21.280 --> 00:29.850
+This is going to be icon section here to select the whole line I'm going to copy this line here and
+
+00:29.850 --> 00:36.000
+then you will have a section and this is going to be icon section and we're using Section elements to
+
+00:36.000 --> 00:37.550
+actually group our code.
+
+00:37.670 --> 00:40.120
+So I'm going to say section on here.
+
+00:40.210 --> 00:43.380
+Don't have hash tag an idea or here right.
+
+00:43.560 --> 00:48.840
+So this is going to be icon section on this time.
+
+00:48.960 --> 00:55.640
+And now within the section we're actually going to have links that are going to be a font of my comments.
+
+00:55.710 --> 01:02.220
+So here I'm going to say this and I'm going to say this is going to be and I know we're here we're going
+
+01:02.220 --> 01:06.990
+to said that the guy is going to have a fire or here for like this.
+
+01:07.030 --> 01:07.370
+Right.
+
+01:07.380 --> 01:12.800
+And then what he would want to do is actually enclose this again in parentheses like this.
+
+01:12.930 --> 01:16.730
+Multiply by four press tab.
+
+01:16.740 --> 01:17.930
+Now you can see what we have.
+
+01:17.930 --> 01:23.520
+All right so we have for fun task my God you're going to say this is going to be home.
+
+01:23.880 --> 01:27.310
+Then the next one is going to be broke.
+
+01:27.390 --> 01:34.270
+Then after that we're going to have a coffee here and just in case you're wondering they're appearing
+
+01:34.270 --> 01:34.620
+over here.
+
+01:34.670 --> 01:35.600
+Right.
+
+01:35.660 --> 01:41.730
+And then over here we do want a fantastic anchor anchor over here.
+
+01:42.070 --> 01:48.940
+Now we can say this and we can actually go to Maine she says and stop this section and we're going to
+
+01:48.940 --> 01:54.750
+start first thing that we're going to have it is actually a comment.
+
+01:55.060 --> 01:57.090
+So this is going to be our new section.
+
+01:57.120 --> 02:00.550
+So we're going to have a comment I'm going to write a hashtags.
+
+02:00.580 --> 02:02.110
+Much of hashtags.
+
+02:02.230 --> 02:04.540
+I'm going to say I can.
+
+02:04.700 --> 02:08.270
+S. writes This is going to be another hashtag.
+
+02:08.680 --> 02:16.790
+Then after that we will do what we want is we would want a hash tag icon section icon section here.
+
+02:17.050 --> 02:19.680
+And then first of all going to say what would be the heart.
+
+02:19.810 --> 02:20.120
+Right.
+
+02:20.170 --> 02:26.620
+And I'm going to say the height is going to be 70 pixels on KNOW this and we cannot see anything for
+
+02:26.620 --> 02:27.270
+now.
+
+02:27.340 --> 02:27.570
+Right.
+
+02:27.580 --> 02:29.790
+Because it's all white background.
+
+02:30.070 --> 02:32.920
+So here we're going to say it's going to be background.
+
+02:32.920 --> 02:42.650
+Hash tag to be like this and then you have to and that it will have eight to a.
+
+02:42.750 --> 02:43.400
+All right.
+
+02:43.400 --> 02:48.280
+So this is going to be our black background color then we're going to say we're here.
+
+02:48.320 --> 02:53.550
+Very simple text align center to place them in the center.
+
+02:53.570 --> 02:57.860
+Then after that we would want a clip path polygon.
+
+02:58.100 --> 02:59.230
+And what is clip.
+
+02:59.300 --> 03:02.420
+So with Clearpath basically this is what we can do.
+
+03:02.420 --> 03:04.090
+We can create these shapes here.
+
+03:04.130 --> 03:04.670
+Right.
+
+03:04.790 --> 03:09.260
+And we're going to get quite a few training right so going to start with this section then you can see
+
+03:09.260 --> 03:10.870
+with each one of them right.
+
+03:11.000 --> 03:13.560
+We're also going to practice of how we can actually do this.
+
+03:13.560 --> 03:16.920
+All right well here we're going to have a clip.
+
+03:17.060 --> 03:20.230
+So we're going to clip and we're going to right path.
+
+03:20.270 --> 03:25.750
+And I'm just letting you know that in general we're going to have to use vendor prefixes.
+
+03:25.850 --> 03:29.580
+I just don't want to confuse the viewers right now.
+
+03:29.570 --> 03:30.180
+All right.
+
+03:30.200 --> 03:33.570
+I don't want him to have too much or hear of the cold.
+
+03:33.630 --> 03:34.020
+Right.
+
+03:34.100 --> 03:36.090
+So therefore we're not going to be using them in general.
+
+03:36.100 --> 03:37.790
+We'll have to use them or use.
+
+03:37.810 --> 03:41.120
+In the last one we're going to be creating the Starro here right.
+
+03:41.300 --> 03:44.250
+Then I'm going to show you what the vendor prefixes are.
+
+03:44.540 --> 03:49.690
+So here we're going to have a clip path and then here we're going to write polygon here on this.
+
+03:49.850 --> 03:53.130
+And then with the polygon we can create whatever shape we want.
+
+03:53.210 --> 03:58.250
+And the basic idea is that we are dealing with a four or here point.
+
+03:58.320 --> 04:02.270
+Right now we knew we couldn't have as many points as we want but let's start with four because that's
+
+04:02.270 --> 04:04.140
+going to make more sense.
+
+04:04.150 --> 04:13.100
+So here you can see that this starts with x 0 0 0 here at this point is going to be X hundred y is still
+
+04:13.100 --> 04:13.930
+going to be zero.
+
+04:13.970 --> 04:14.540
+Right.
+
+04:14.840 --> 04:20.760
+Then once we go down here this is going to be X still hundred and y is going to be 100.
+
+04:21.020 --> 04:24.360
+However here you can see it x is back to zero.
+
+04:24.550 --> 04:27.850
+Now here this is going to be 50 or 60.
+
+04:27.850 --> 04:32.030
+All right so let me show you how this works and again we're going to get a lot of practice so don't
+
+04:32.030 --> 04:33.890
+worry if you don't get it right away.
+
+04:33.890 --> 04:39.930
+So here first I'm going to start 00 this is going to be my point then or here I'm going to place a.
+
+04:40.350 --> 04:41.850
+And what I'm going to say we're here.
+
+04:41.870 --> 04:44.060
+This is going to be a next one.
+
+04:44.060 --> 04:47.270
+Next point is going to be 100 like this.
+
+04:47.270 --> 04:49.220
+Then again you are going to place a zero.
+
+04:49.460 --> 04:52.950
+So why all here in this case is still zero.
+
+04:53.150 --> 04:54.940
+Then we're going to start moving down.
+
+04:55.220 --> 04:57.900
+So this is going to be hundred percent.
+
+04:57.920 --> 04:59.510
+Hundred percent.
+
+04:59.510 --> 04:59.810
+Right.
+
+04:59.810 --> 05:02.070
+And you can see already how we created 3.
+
+05:02.210 --> 05:04.440
+So we created three points.
+
+05:04.580 --> 05:05.930
+The first point.
+
+05:05.930 --> 05:06.940
+Second point.
+
+05:07.130 --> 05:08.570
+And the third point right.
+
+05:08.780 --> 05:12.420
+And everything that's not included in these points is basically cut out.
+
+05:12.530 --> 05:14.300
+And now it's at the fourth point.
+
+05:14.470 --> 05:18.530
+So I'm going to say zero and this is going to be why 40 percent.
+
+05:18.870 --> 05:19.870
+That's right.
+
+05:20.240 --> 05:25.130
+So obviously we're here you can see from start changing why 50 60.
+
+05:25.130 --> 05:29.350
+Right it keeps going down 9 because hundred is all the way down here.
+
+05:29.360 --> 05:29.590
+Right.
+
+05:29.590 --> 05:30.900
+This would be hundred.
+
+05:30.990 --> 05:32.640
+What's going to leave it at 40.
+
+05:32.660 --> 05:34.290
+Now let's add a padding.
+
+05:34.490 --> 05:38.620
+So we're going to say we're here hunting and we're going to say 20 pixels.
+
+05:38.870 --> 05:45.170
+So this is going to be a top hand and then we'll have zero to the side 40 pixels in the bottom.
+
+05:45.180 --> 05:46.970
+And here again we're going to have zero.
+
+05:47.190 --> 05:52.400
+And now would you would want to do is first of all let's create more space and let's actually style
+
+05:52.400 --> 05:53.880
+these links.
+
+05:53.880 --> 06:00.920
+So here let's make it a lot of space and we're going to say we're here hash tag icon section we're going
+
+06:00.920 --> 06:02.260
+to say right.
+
+06:02.300 --> 06:03.710
+And what you would want.
+
+06:03.710 --> 06:06.920
+First of all we're going to say for these guys we're going to say this play in again we're going to
+
+06:06.920 --> 06:08.700
+say this plane line block.
+
+06:08.910 --> 06:09.130
+Right.
+
+06:09.130 --> 06:15.380
+Because that allows us to actually style them really nice and we're going to say panning five pixels
+
+06:16.390 --> 06:21.420
+10 pixels over here left and right right so top bottom five left and right.
+
+06:21.470 --> 06:29.060
+And then after that we're going to have margin top bottom zero left right 5 pixels just so they have
+
+06:29.060 --> 06:31.720
+a little bit of space so they push away from the edge.
+
+06:32.090 --> 06:36.250
+Then the next one is going to be font size 30 pixels.
+
+06:36.370 --> 06:41.800
+It's all going to make them bigger color and the car is going to be hashtag FFC.
+
+06:41.930 --> 06:46.460
+Radio color 9 1 4 9 1 for this.
+
+06:46.670 --> 06:48.590
+And then we'll have a border radio.
+
+06:48.590 --> 06:51.290
+So we're going to make them around more radios.
+
+06:51.290 --> 06:54.400
+This is going to be five pixels like this.
+
+06:54.430 --> 06:54.950
+Right.
+
+06:55.100 --> 07:00.980
+Not much but once we had the background going to see it actually right now we don't see it because the
+
+07:00.980 --> 07:09.180
+background transparent and here the background again we're going to use our GPA values to be 0 0 0.
+
+07:09.200 --> 07:10.920
+So this is going to be a black color.
+
+07:11.120 --> 07:15.810
+However we're all going out of here like this are going to say zero point eight.
+
+07:16.060 --> 07:16.840
+Know this.
+
+07:16.880 --> 07:20.280
+Right now I can see a darker black color.
+
+07:20.660 --> 07:24.260
+And then we're going to another transition right to organise a transition.
+
+07:24.620 --> 07:31.100
+And again we're going to first transform right now what we're saying is transition is going to be using
+
+07:31.100 --> 07:33.010
+a transformed property instead.
+
+07:33.440 --> 07:39.850
+Not a color or background Bugan to say we're here transform it with seconds ease or this.
+
+07:39.910 --> 07:41.760
+And also color.
+
+07:42.070 --> 07:45.580
+Two seconds is easier here.
+
+07:45.670 --> 07:47.570
+And then you're going to do a hovering role.
+
+07:47.610 --> 07:48.330
+Right.
+
+07:48.400 --> 07:56.760
+So I'm going to say I can section here and I'm going to say link however and what you will be hovering
+
+07:56.760 --> 07:57.030
+right.
+
+07:57.030 --> 08:00.580
+We're going to say transform and we're going to say translate.
+
+08:00.600 --> 08:01.320
+Why.
+
+08:01.440 --> 08:05.320
+So we're going to say translate more here and we're going to say why.
+
+08:05.340 --> 08:07.400
+So basically what I want to do is I'm hovering right.
+
+08:07.410 --> 08:13.500
+I want them to push up all up and I'm going to say negative 10 pixels right and then I'm also going
+
+08:13.500 --> 08:19.380
+to change the color I'm going to take color and is going to be hash tag D 9.
+
+08:19.620 --> 08:24.270
+Then we're going to have e 5 and then we'll have D6 on this.
+
+08:24.360 --> 08:26.380
+Right so the code is also going to change.
+
+08:26.520 --> 08:31.730
+So we can say this and we can might as well go have a look at the bigger screen.
+
+08:31.760 --> 08:34.310
+We're going to go back over here to refresh.
+
+08:34.310 --> 08:36.240
+Right so this is going to be the original one.
+
+08:36.380 --> 08:38.630
+Let's do the recording.
+
+08:38.690 --> 08:46.060
+It's refreshing to hear and see this is what we read as I'm hovering actually lifting up or here.
+
+08:46.260 --> 08:51.210
+And the caller is also changing right from the elbow to kind of cream ish color and we're here this
+
+08:51.210 --> 08:53.500
+is where we used a clear path.
+
+08:53.670 --> 08:53.940
+Right.
+
+08:53.940 --> 08:58.180
+And again we're going to have a more practice with that so don't worry about right.
+
+08:58.260 --> 09:05.110
+But basically we're using the points in order to actually cut out some section or here from this element.

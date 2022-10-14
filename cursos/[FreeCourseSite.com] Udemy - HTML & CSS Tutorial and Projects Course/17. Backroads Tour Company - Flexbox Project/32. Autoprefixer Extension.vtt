@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00.580 --> 00:01.310
+Excellent guys.
+
+00:01.330 --> 00:06.280
+We're done with our project but there is one more thing that I would like to show you and that is how
+
+00:06.280 --> 00:14.230
+we can add our oral prefixes automatically so we don't have to manually go one by one and keep on adding
+
+00:14.260 --> 00:17.000
+in our sheer says no not to do that.
+
+00:17.020 --> 00:21.340
+We're gonna have to install the extension so let's head over to our extensions.
+
+00:21.430 --> 00:22.120
+Let me zoom in.
+
+00:22.120 --> 00:24.340
+That would be the tab that you need to click.
+
+00:24.790 --> 00:32.860
+And then up here on the top we're gonna have to search for order prefix sir extension.
+
+00:32.900 --> 00:38.730
+Now once we get the extension let's just install it and as a certain note this is just one of the ways.
+
+00:38.750 --> 00:44.540
+But in this particular case I think it's the probably fastest way how we can do that.
+
+00:44.660 --> 00:50.300
+So let's install it first of all our extension and then once we have our extension we're going to have
+
+00:50.300 --> 00:57.360
+to navigate to our command pallet and then just type a angle bracket and auto prefix services.
+
+00:57.380 --> 00:59.960
+So let me close my particular extension.
+
+00:59.960 --> 01:07.580
+Then let's select everything that we have within the CSX Well like so then in order to open the command
+
+01:07.580 --> 01:13.940
+pilot not just press command and B and then like I said we have the angle bracket and you know what.
+
+01:13.940 --> 01:20.520
+In this case let me zoom in and notice that we have a right away option of using model prefixes.
+
+01:20.540 --> 01:24.050
+Now we just type that and we should be good to go.
+
+01:24.100 --> 01:29.160
+Now let me zoom out in this case and if you need to run it one more time.
+
+01:29.330 --> 01:34.850
+If let's say it did more just do the same thing again select everything that you have within your assess
+
+01:35.150 --> 01:36.670
+and just run the command.
+
+01:36.680 --> 01:39.560
+Now in my case it ran right away.
+
+01:39.620 --> 01:46.670
+So notice I have even my box sizing and I have the browser prefix for that particular property.
+
+01:46.670 --> 01:50.150
+Now of course we are mostly interested in the flex box.
+
+01:50.150 --> 01:53.800
+So let's scroll down where we start using the Flex box.
+
+01:53.940 --> 01:55.010
+And there you go.
+
+01:55.010 --> 01:59.660
+Previously we had display of flex and justify content on all items.
+
+01:59.660 --> 02:05.880
+But now once we run our extension we have the browser prefixes that we were looking for.
+
+02:06.020 --> 02:08.670
+And as you saw we didn't have to do that manually.
+
+02:08.870 --> 02:10.970
+It was done automatically for us.
+
+02:10.970 --> 02:17.840
+So that is one of the ways how we can add browser prefixes automatically to our CSX.

@@ -1,0 +1,497 @@
+1
+
+00:00:00,000  -->  00:00:05,190
+Hey guys, welcome back. In this video
+we're going to be starting up our app
+
+2
+
+00:00:05,190  -->  00:00:13,830
+for blog, and we're going to put the app
+inside of the project. So, inside my
+
+3
+
+00:00:13,830  -->  00:00:18,420
+project directory here, am I in my project
+directory? Yes, I am. Alright, good stuff.
+
+4
+
+00:00:18,420  -->  00:00:23,699
+What we're going to do is we're going to,
+going to run
+
+5
+
+00:00:24,330  -->  00:00:36,690
+"django-admin startapp blog"
+and this should create an application
+
+6
+
+00:00:36,690  -->  00:00:42,809
+within our project called blog, and if we
+come over into PyCharm here you're going
+
+7
+
+00:00:42,809  -->  00:00:49,020
+to see that it shows here. Now, something
+I want to see if we can resolve right
+
+8
+
+00:00:49,020  -->  00:00:54,239
+now is one of the requests we've
+got from students was to increase the
+
+9
+
+00:00:54,239  -->  00:00:59,850
+font size in PyCharm, and I get this i'm
+filming at 1080p so if you're viewing on
+
+10
+
+00:00:59,850  -->  00:01:02,640
+a smaller screen it can be hard to see.
+
+11
+
+00:01:02,640  -->  00:01:06,930
+So what I'm going to do is I'm going to
+see if I can do that right now, going to go into
+
+12
+
+00:01:06,930  -->  00:01:11,939
+preferences, if I could actually scale
+the entire UI up, that would
+
+13
+
+00:01:11,939  -->  00:01:15,119
+probably be good too, because these files
+on the left you might not be able to see
+
+14
+
+00:01:15,119  -->  00:01:16,650
+that well either.
+
+15
+
+00:01:16,650  -->  00:01:19,650
+Let's have a look here.
+
+16
+
+00:01:29,260  -->  00:01:36,940
+Alright, so we're going to create "New
+Fontsize"
+
+17
+
+00:01:36,940  -->  00:01:42,670
+I've never done this, ok, and then it will
+allow us to increase the font size 16,
+
+18
+
+00:01:42,670  -->  00:01:46,420
+one step further 18.
+
+19
+
+00:01:46,420  -->  00:01:50,680
+Alright, this looks good, it's a good size
+for me, I hope it's a good size for you guys.
+
+20
+
+00:01:50,680  -->  00:02:00,460
+If not, let me know, and the font Courier
+New, we're going to leave that Menlo and
+
+21
+
+00:02:00,460  -->  00:02:03,700
+apply this, alright. So,
+
+22
+
+00:02:04,270  -->  00:02:11,140
+Django has created these files for us
+here in a blog subdirectory here, and so
+
+23
+
+00:02:11,140  -->  00:02:14,530
+we're going to be using some of these
+but first what we need to do is we need
+
+24
+
+00:02:14,530  -->  00:02:19,720
+to go to our main settings.py and we
+need to tell it that we want to include
+
+25
+
+00:02:19,720  -->  00:02:25,600
+this app in our installed apps. So how to
+do this is right here in installed apps
+
+26
+
+00:02:25,600  -->  00:02:34,570
+let's go ahead and just write 'blog' it's that
+simple. I'm going to save this. Now what we
+
+27
+
+00:02:34,570  -->  00:02:39,640
+need to do is we need to start writing
+models and basic code, so what we're
+
+28
+
+00:02:39,640  -->  00:02:49,630
+going to do is go into the models file
+in the blog here, and we need to also
+
+29
+
+00:02:49,630  -->  00:02:56,110
+import some other stuff. So let's go
+ahead we're going to import a URL
+
+30
+
+00:02:56,110  -->  00:03:07,959
+resolvers, so let's go ahead and write "from django.core.urlresolvers
+
+31
+
+00:03:08,470  -->  00:03:16,989
+import reverse" Now we're actually going
+to create our model so it's kind of like
+
+32
+
+00:03:16,989  -->  00:03:21,100
+when we, when we were writing Webpy.
+
+33
+
+00:03:21,640  -->  00:03:26,140
+We're going to be creating classes
+except these classes inherit from the
+
+34
+
+00:03:26,140  -->  00:03:33,910
+model, I guess root class we'll call
+it. Let's go ahead and write "class Post" this is
+
+35
+
+00:03:33,910  -->  00:03:39,010
+going to be the class of each blog post so
+we're going to add fields here that it
+
+36
+
+00:03:39,010  -->  00:03:45,970
+is going to contain. So write "(models.Model):" So when you inherit a class, I believe we
+
+37
+
+00:03:45,970  -->  00:03:46,900
+went over this,
+
+38
+
+00:03:46,900  -->  00:03:50,889
+we should have, I will check over this
+after and if we haven't i'll explain
+
+39
+
+00:03:50,889  -->  00:03:55,090
+this more in-depth. Now, anyway,
+this is the class that we're going to
+
+40
+
+00:03:55,090  -->  00:03:59,350
+inherit from so now this class that we're
+creating right now has access to all of
+
+41
+
+00:03:59,350  -->  00:04:03,760
+the code that's in this class and it
+becomes a part of this class, I hope that
+
+42
+
+00:04:03,760  -->  00:04:11,410
+made sense. So now we're going to create certain fields that every post is going
+
+43
+
+00:04:11,410  -->  00:04:15,880
+to have, so for example every post is
+going to have a post title, and the post
+
+44
+
+00:04:15,880  -->  00:04:22,900
+"title = models.CharField( )" and the
+
+45
+
+00:04:22,900  -->  00:04:28,180
+character field we need to pass in a
+keyword argument called "max_length
+
+46
+
+00:04:28,180  -->  00:04:37,900
+=" and then this is going to be the
+number of characters that can be a title,
+
+47
+
+00:04:37,900  -->  00:04:50,740
+so we're going to say "255" Every post is
+also going to need a URI or a slug so let's
+
+48
+
+00:04:50,740  -->  00:04:59,169
+go ahead and write "slug = models.SlugField( )" Now these are going to have
+
+49
+
+00:04:59,169  -->  00:05:06,520
+to have a few more parameters, we're going to make a "max length=255,"
+
+50
+
+00:05:06,520  -->  00:05:10,480
+and then it also needs to be unique. So
+basically the slug needs to be unique
+
+51
+
+00:05:10,480  -->  00:05:13,510
+for each post in the database,
+
+52
+
+00:05:13,510  -->  00:05:19,060
+otherwise we won't be able to access the
+correct posts, you know, because they won't
+
+53
+
+00:05:19,060  -->  00:05:26,169
+be unique. So pass the keyword
+argument "unique= True" it's a boolean
+
+54
+
+00:05:26,169  -->  00:05:34,180
+operator. Each is going to have a summary, so this is going to appear on the home
+
+55
+
+00:05:34,180  -->  00:05:37,630
+page when it shows all your blog posts,
+
+56
+
+00:05:37,630  -->  00:05:42,010
+it's going to instead of showing the
+entire content it's going to just show a
+
+57
+
+00:05:42,010  -->  00:05:47,800
+summary of the article. So "summary = model.CharField(
+
+58
+
+00:05:48,409  -->  00:05:59,209
+max_length=300)" Now is the content. Now this "content = models.TextField( )"
+
+59
+
+00:05:59,209  -->  00:06:08,269
+we don't want to limit any characters, so
+we're going to use text field and this
+
+60
+
+00:06:08,269  -->  00:06:15,949
+makes it a text area. So basically these
+are going to be inputs input fields and
+
+61
+
+00:06:15,949  -->  00:06:21,949
+this is equal to a text area, and this is
+all going to build the admin,
+
+62
+
+00:06:21,949  -->  00:06:27,289
+we're going to get to that moment
+actually, basically there's an admin site
+
+63
+
+00:06:27,800  -->  00:06:32,569
+that you're going to access so it's
+going to be whatever/admin and you can
+
+64
+
+00:06:32,569  -->  00:06:36,709
+login, you can post things, so this is
+going to build out what structure that
+
+65
+
+00:06:36,709  -->  00:06:44,300
+needs to be. So we're going to say
+published because we're going to be able
+
+66
+
+00:06:44,300  -->  00:06:52,550
+to publish it and you know unpublished
+articles, so it's going to be "published = models.
+
+67
+
+00:06:52,550  -->  00:06:58,099
+BooleanField(default=True) so when we save an
+
+68
+
+00:06:58,099  -->  00:07:03,589
+article it's automatically going to be
+inserted as published so that
+
+69
+
+00:07:03,589  -->  00:07:04,849
+people will be able to view it because
+
+70
+
+00:07:04,849  -->  00:07:08,119
+we're going to use that when we pull
+them out as well. And then here we are
+
+71
+
+00:07:08,119  -->  00:07:12,649
+going to create the created field which
+is going to be a datetime, and it's
+
+72
+
+00:07:12,649  -->  00:07:20,929
+going to be, it's going to default to now
+when the post is posted. So go ahead and write
+
+73
+
+00:07:20,929  -->  00:07:27,949
+"created = models.DateTimeField( )" we're
+going to pass in one argument it's going
+
+74
+
+00:07:27,949  -->  00:07:38,179
+to be "auto_now_add=True" So these
+are all going to be properties of each
+
+75
+
+00:07:38,179  -->  00:07:45,110
+post, basically. So now we're going to
+go ahead and define the subclass
+
+76
+
+00:07:45,110  -->  00:07:48,110
+called "class Meta:"
+
+77
+
+00:07:48,910  -->  00:07:59,770
+and "ordering = [ ]" we're going to sort this based on
+
+78
+
+00:07:59,770  -->  00:08:06,550
+the date, so put '-created' and then inside this
+
+79
+
+00:08:06,550  -->  00:08:12,790
+class we're going to define a few other
+things, we need to set the unicode in
+
+80
+
+00:08:12,790  -->  00:08:23,830
+order for the posts to work, so "def __unicode__(self):" and we're going to say "return u" and
+
+81
+
+00:08:23,830  -->  00:08:28,000
+here's where we're going to put the
+title. So we're going to convert the title
+
+82
+
+00:08:28,000  -->  00:08:40,870
+itself into title '%s'% self.title and then we're going to "def get_absolute_url(self):"
+
+83
+
+00:08:47,170  -->  00:08:59,050
+We're going to "return reverse" and we're going to define a view
+
+84
+
+00:08:59,050  -->  00:09:06,970
+that we haven't yet created, so "('blog.views.post',
+
+85
+
+00:09:06,970  -->  00:09:09,010
+args=
+
+86
+
+00:09:09,010  -->  00:09:18,370
+[self.slug])" and this is going to
+
+87
+
+00:09:18,370  -->  00:09:23,080
+connect to this, so that's going to be the
+arguments passed in to this view that we
+
+88
+
+00:09:23,080  -->  00:09:24,520
+have yet to create.

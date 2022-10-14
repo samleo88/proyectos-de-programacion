@@ -1,0 +1,120 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.mundo;
+
+import uniandes.cupi2.batallaPokemon.cliente.interfaz.*;
+
+/**
+ * Esta clase implementa lo que se debe hacer en un hilo de ejecución cuando se quiere conectar al cliente con el servidor.
+ */
+public class ThreadConectar extends Thread
+{
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Referencia al jugador.
+     */
+    private Jugador jugador;
+
+    /**
+     * Ventana principal de la aplicación
+     */
+    private InterfazCupiPokemon principal;
+
+    /**
+     * Nombre que utilizará el jugador
+     */
+    private String nombre;
+
+    /**
+     * Alias que utilizará el jugador
+     */
+    private String alias;
+
+    /**
+     * Avatar que utilizará el jugador
+     */
+    private String avatar;
+
+    /**
+     * Dirección para localizar al servidor
+     */
+    private String servidor;
+
+    /**
+     * Puerto a través del cual se realizará la conexión con el servidor
+     */
+    private int puerto;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye el nuevo hilo y lo deja listo para conectarse al servidor
+     * @param pJugador Referencia al juego - juego != null
+     * @param pInterfaz Referencia a la ventana principal de la aplicación - interfaz != null
+     * @param pNombreJugador El nombre que utilizará el jugador - nombreJugador != null
+     * @param pDireccionServidor La dirección para localizar al servidor - direccionServidor != null
+     * @param pPuertoServidor El puerto a través del cual se realizará la conexión con el servidor - puertoServidor != null
+     * @param pAlias Alias que utilizará el jugador. pAlias != null
+     * @param pAvatar Avatar que utilizará el jugador. pAvatar != null.
+     */
+    public ThreadConectar( Jugador pJugador, InterfazCupiPokemon pInterfaz, String pNombreJugador, String pDireccionServidor, int pPuertoServidor, String pAlias, String pAvatar )
+    {
+        jugador = pJugador;
+        principal = pInterfaz;
+        nombre = pNombreJugador;
+        servidor = pDireccionServidor;
+        puerto = pPuertoServidor;
+        alias = pAlias;
+        avatar = pAvatar;
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Inicia la ejecución del hilo que realiza la conexión con el servidor, dispara la selección de los pokemones e incializa la batalla.<br>
+     * Cuando se tiene la conexión y la información de la batalla entonces se actualiza la interfaz.
+     */
+    public void run( )
+    {
+        try
+        {
+            jugador.conectar( nombre, servidor, puerto, alias, avatar );
+            principal.seleccionarPokemones( );
+            jugador.enviarDatosAOponente( );
+            jugador.leerPokemonSeleccionado( );
+            principal.actualizarInterfaz( );
+            principal.actualizarDatosOponente( );
+
+            if( jugador.darEstadoJuego( ) == Jugador.ESPERANDO_OPONENTE )
+            {
+                principal.esperarJugada( );
+            }
+            else
+            {
+                principal.desactivarBotonesJugar( );
+            }
+        }
+        catch( BatallaPokemonException e )
+        {
+            principal.mostrarError( e );
+        }
+
+    }
+}

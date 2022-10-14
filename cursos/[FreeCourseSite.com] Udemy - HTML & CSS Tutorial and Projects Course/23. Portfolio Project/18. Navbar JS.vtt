@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.210 --> 00:03.610
+So as you can see or here we have a button.
+
+00:03.870 --> 00:09.340
+And in our final project you can see that actually we can toggle or hear me.
+
+00:09.540 --> 00:12.260
+So now let's have a look how we can actually do this.
+
+00:12.270 --> 00:15.530
+So here we have this now single cover.
+
+00:15.570 --> 00:17.890
+Now we're going to create a little bit of space.
+
+00:17.960 --> 00:24.030
+I'm going to purposely do a little bit wrong because technically I should be applying more here these
+
+00:24.030 --> 00:26.100
+properties and values over here.
+
+00:26.220 --> 00:29.940
+However I just want you to see the distinction of what we're doing.
+
+00:30.240 --> 00:33.530
+And I'm just going to write again from the start here.
+
+00:33.720 --> 00:36.100
+So basically what I'm going to say on this.
+
+00:36.110 --> 00:38.350
+So first I would want to target Mavericks.
+
+00:38.490 --> 00:41.670
+And like I said we already have them over here.
+
+00:41.670 --> 00:46.890
+However I'm just going to create it from scratch just so you can see what we're actually doing.
+
+00:47.220 --> 00:50.970
+And the first things first what I would want I would want them to disappear off here.
+
+00:51.170 --> 00:55.240
+So first I'm going to say we're here right and I'm going to say zero.
+
+00:55.380 --> 00:59.090
+So we're going to save it over here and you can see that the links actually disappear.
+
+00:59.440 --> 01:03.700
+Or you can see that only in the background disappear you can see the links are still here.
+
+01:03.930 --> 01:09.210
+So what we're going to do is overflow and we're going to say that overflow is going to be hit.
+
+01:09.510 --> 01:13.000
+So once we saved now actually links generally disappear.
+
+01:13.410 --> 01:19.940
+Then again what we would want is a transition and from transition we're going to say two seconds.
+
+01:19.950 --> 01:23.350
+And again this would be a linear or something like this.
+
+01:23.370 --> 01:28.470
+So what I'm saying is I'm going to click the button they will going to show however they are going to
+
+01:28.470 --> 01:30.240
+show within two seconds.
+
+01:30.290 --> 01:35.280
+Now how are we going to make them actually show what we're actually going to do is we're going to show
+
+01:35.640 --> 01:36.610
+links class.
+
+01:36.640 --> 01:41.880
+This is going to be the new Lynx class or you're not going to say or hear height is going to be two
+
+01:42.150 --> 01:44.120
+hundred and sixty four.
+
+01:44.130 --> 01:46.830
+Now how do I know this is going to be two hundred and sixty four.
+
+01:47.060 --> 01:53.700
+So basically I used a Google Developer Tools and while I had ensouled before they were actually height
+
+01:54.090 --> 02:01.570
+zero here I just looked at what would be the actual height of my UL of my novels.
+
+02:01.590 --> 02:04.580
+So this is how I know this is going to be two hundred sixty pixels.
+
+02:04.590 --> 02:12.060
+Now you can have whatever size you want on here but I think the easiest one is actually go and check
+
+02:12.420 --> 02:17.610
+before you actually hide them and or here with a heightened Norful and check it out.
+
+02:17.610 --> 02:22.470
+What would be the height and then you can just write whatever height you would want and it's going to
+
+02:22.470 --> 02:24.270
+be very simple with the javascript.
+
+02:24.270 --> 02:30.360
+Only thing I'm going to do is I'm going to have a listener whenever I can I click the button I'm going
+
+02:30.360 --> 02:34.720
+to apply here this class to this link sorry.
+
+02:34.980 --> 02:39.150
+So let's go ahead or head to the script and we're going to say very simple.
+
+02:39.150 --> 02:45.380
+So first we're going to say document here then we know that we have a selector.
+
+02:45.570 --> 02:50.910
+So for the click query selector we have a nav on here between.
+
+02:50.910 --> 02:55.610
+So this was our actual class that we would want to target.
+
+02:55.630 --> 02:58.240
+Now we're going to say add that listener.
+
+02:58.350 --> 03:02.490
+Now this is going to be click event listener and I'm going to say that this is going to be a function
+
+03:02.850 --> 03:04.430
+show nav.
+
+03:04.580 --> 03:09.060
+Right now the only thing left to do is actually create the function.
+
+03:09.060 --> 03:16.220
+So I'm going to say here function show now and what we're going to write inside this function.
+
+03:16.410 --> 03:22.330
+We're going to say that first we will want to select the links and we would want to target the class.
+
+03:22.350 --> 03:28.370
+So we're going to we're going to have a document and we're going to have a query selector then within
+
+03:28.370 --> 03:29.110
+a query sort.
+
+03:29.110 --> 03:31.250
+And now we will want to select the links.
+
+03:31.270 --> 03:34.150
+So now I have to underscore some links.
+
+03:34.180 --> 03:39.870
+So now we're targeting the links then we'll have a class list here.
+
+03:40.060 --> 03:45.300
+And for the class list we're going to say toggle and what class you do on a dog.
+
+03:45.770 --> 03:48.610
+You want to toggle actual show links.
+
+03:48.750 --> 03:50.450
+So we're here to underscore.
+
+03:50.530 --> 03:52.740
+And this is going to be schillings.
+
+03:52.740 --> 03:58.770
+So once we say right now once I'm going to click the button you can see that my links are actually going
+
+03:58.770 --> 04:04.950
+to be appearing and they're going to be appearing over here because I added the shoaling squarest.
+
+04:04.980 --> 04:11.080
+Now this is actually a good time to see that actually I was wrong because you can see or hear that there's
+
+04:11.100 --> 04:16.260
+something wrong with a height where the height is not actually enough.
+
+04:16.260 --> 04:22.790
+So first let's go back to the main CSSA here and let's just get rid of this here then.
+
+04:22.860 --> 04:29.430
+So let me just hide a note here let me go back over here to my recording refresher here.
+
+04:29.550 --> 04:34.890
+And once I click the inspector here and then I'm going to find where's my element.
+
+04:34.980 --> 04:40.190
+And within the elements we're going to find that links and you can see that my actual size shouldn't
+
+04:40.190 --> 04:45.640
+be 288 because you can see that I have eight hundred fifty seven by 280.
+
+04:45.840 --> 04:47.430
+So I'm going to go back on here.
+
+04:47.550 --> 04:49.000
+This is going to change this route.
+
+04:49.260 --> 04:56.130
+First of all that uncommon does not say we're here and instead of 264 this is actually going to be to
+
+04:56.300 --> 04:56.960
+80.
+
+04:57.210 --> 05:02.970
+So once I actually press it right now now you can see that I'm going to go back on here and now I'm
+
+05:02.970 --> 05:05.860
+going to get my actual knife that I want it.
+
+05:05.970 --> 05:10.200
+And this is how we can create or hear this now.
+
+05:10.440 --> 05:14.690
+That is actually appearing and disappearing and we're here with a click.
+
+05:15.000 --> 05:20.610
+And the last thing that we would want actually do is we would want to set up on the bigger screen a
+
+05:20.610 --> 05:25.440
+different layout or so as you can see we're here as I'm changing the screen.
+
+05:25.590 --> 05:27.280
+Also my layout is changing.
+
+05:27.300 --> 05:32.110
+So here you go this would be actually a flex way out or real like this.
+
+05:32.340 --> 05:38.040
+Now we're going to change it to the actual row over here this would be a column.
+
+05:38.100 --> 05:39.660
+This is going to be our year.
+
+05:40.050 --> 05:42.130
+So let's go ahead and let's actually do that.

@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00.720 --> 00:04.300
+How some we made it to the CSA as part of the course.
+
+00:04.340 --> 00:07.010
+If you're just joining us welcome to the course.
+
+00:07.070 --> 00:09.180
+If you just interstate e-mail.
+
+00:09.230 --> 00:10.610
+Welcome back.
+
+00:10.610 --> 00:14.600
+As always I would like to keep slide videos short and concise.
+
+00:14.600 --> 00:22.350
+So what in the world a CSX she says stands for cascading style sheets and in one short sentence answer.
+
+00:22.490 --> 00:30.490
+CSX is used to make our web projects awesome and beautiful so you can say CSX is responsible for styling
+
+00:30.490 --> 00:38.170
+the web while the mill was responsible for what elements will be displayed CSX takes care of how elements
+
+00:38.170 --> 00:45.790
+are displayed meaning the layout and the look of the Element Y will come back to the syntax like gazillion
+
+00:45.790 --> 00:52.210
+times in the course just to get our feet wet the general CSF syntax would be followed so we're gonna
+
+00:52.210 --> 00:55.120
+have a selector so what element we would like.
+
+00:55.120 --> 01:02.920
+Style a set of curly braces that start a declaration block and within the block we're gonna have a property
+
+01:02.920 --> 01:05.160
+of the element we would like to change.
+
+01:05.260 --> 01:11.740
+So let's say the font size of the element the color or the width just to name a few and value for that
+
+01:11.740 --> 01:12.630
+property.
+
+01:12.640 --> 01:18.430
+So for example for the color we would have to choose the color we would like to apply for that element.
+
+01:18.670 --> 01:25.720
+We'll come back to it during the course but always always make sure you add semicolon between declarations.
+
+01:25.900 --> 01:28.240
+Otherwise you're gonna get a syntax error.
+
+01:28.480 --> 01:31.940
+Now that we know the theory about here says let's start using it.

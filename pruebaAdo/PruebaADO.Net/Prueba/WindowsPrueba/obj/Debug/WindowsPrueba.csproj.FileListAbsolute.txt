@@ -1,0 +1,17 @@
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\WindowsPrueba.exe.config
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\WindowsPrueba.exe
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\WindowsPrueba.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\Prueba.Entidades.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\Prueba.negocio.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\Prueba.Datos.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\Prueba.Entidades.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\Prueba.negocio.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\bin\Debug\Prueba.Datos.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.Form1.resources
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.Properties.Resources.resources
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.csproj.CopyComplete
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.exe
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\WindowsPrueba\obj\Debug\WindowsPrueba.pdb

@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.430 --> 00:04.500
+How some were done covering the most important parts of any amount.
+
+00:04.560 --> 00:06.800
+Again this is just my opinion.
+
+00:06.840 --> 00:12.150
+Obviously you can find more and more information about more and more elements but in my opinion this
+
+00:12.150 --> 00:15.500
+would be in more than enough to get up and running with HDMI.
+
+00:15.990 --> 00:21.690
+Now before we dive into our first Asian e-mail project I would like to cover two things that I find
+
+00:21.690 --> 00:26.490
+really important regarding whether we are working with JavaScript whether we're working with e-mail
+
+00:26.640 --> 00:32.120
+or sources and those would be keyboard shortcuts as well as formatting our code.
+
+00:32.120 --> 00:35.970
+Now let's start with the easiest one which would be for the making our code.
+
+00:35.970 --> 00:39.480
+So we already know that the amount is whitespace collapsing.
+
+00:39.480 --> 00:39.720
+Right.
+
+00:40.110 --> 00:44.940
+So if we're going to write here let's say paragraph organizer types some text that I'm going to have
+
+00:44.940 --> 00:46.980
+more space and I'm gonna type more text.
+
+00:47.370 --> 00:48.260
+I'm going to save it.
+
+00:48.270 --> 00:54.780
+The whole text is gonna be displayed only with this one space since everything else is collapsed however
+
+00:54.840 --> 01:01.070
+has been working in the project in our e-mail or I'm sorry with our text error.
+
+01:01.080 --> 01:07.380
+Notice how this gets really annoying really fast where we do have these spaces and again for now we
+
+01:07.380 --> 01:11.380
+have what we have body with one paragraph element.
+
+01:11.570 --> 01:16.440
+I wonder if I'm gonna add another one like that if I'm going to say again another paragraph again time
+
+01:16.440 --> 01:23.460
+some mumbo jumbo gibberish there's something like this and the idea yeah what's going to happen again
+
+01:23.730 --> 01:26.220
+it's gonna get really hard to work.
+
+01:26.310 --> 01:31.640
+Now granted right now I'm obviously zooming in just so we can see everything better enough material
+
+01:31.980 --> 01:37.240
+but in general you wouldn't want something like this because it's gonna make your life really hard.
+
+01:37.440 --> 01:39.940
+You will gonna get annoyed really really quickly.
+
+01:40.350 --> 01:42.480
+So what would be the solution for this.
+
+01:42.480 --> 01:48.060
+Well you could say I mean jeez just don't do that just delete everything and make sure that everything
+
+01:48.060 --> 01:50.430
+is displayed correctly and that is true.
+
+01:50.700 --> 01:52.110
+Yes you could do that.
+
+01:52.260 --> 01:53.810
+However there is a better way.
+
+01:53.910 --> 01:59.460
+There is more automated way where I don't have to worry about what I'm doing.
+
+01:59.460 --> 02:04.620
+Meaning whether I'm actually typing everything correctly we can use the formatting for that.
+
+02:05.370 --> 02:10.760
+And in order to get up and running with the formatting we would need to install another extension.
+
+02:10.890 --> 02:17.040
+So already we know the spiel we all gonna have to head over what this like on click on extensions.
+
+02:17.100 --> 02:21.830
+For now we should have like server only installed unless you installed something else.
+
+02:21.990 --> 02:27.840
+And here on top search bar we're gonna write three and then we're gonna be looking for two T's.
+
+02:27.900 --> 02:29.680
+This should gives us the preview here.
+
+02:29.700 --> 02:31.820
+This is what we're looking for to install.
+
+02:31.860 --> 02:38.070
+So we're gonna click on this and we're gonna install our as we before we installing or right after we
+
+02:38.070 --> 02:39.880
+install it doesn't really matter.
+
+02:39.900 --> 02:44.020
+They tell us to use this Ed in that format on site.
+
+02:44.550 --> 02:47.960
+So this is something that we should also change in our settings.
+
+02:47.970 --> 02:50.270
+This is kind of important for this to work.
+
+02:50.280 --> 02:53.790
+First of all let's click on install and let's see.
+
+02:53.840 --> 02:58.340
+By the time this is going to be done installing I'm probably going to tell you my whole life story.
+
+02:58.390 --> 02:59.380
+No hopefully not.
+
+02:59.390 --> 03:03.650
+But as you can see takes for some reason quite a long time.
+
+03:03.650 --> 03:07.500
+So hopefully it will gonna be done installing and sure enough it does.
+
+03:07.580 --> 03:12.870
+So now I can reload my text and her first of all this is gonna be my first point.
+
+03:12.920 --> 03:15.770
+Then I would like to close probably these extensions.
+
+03:15.770 --> 03:23.080
+We can just go back again to our folder structure and now let's navigate to the settings and again we're
+
+03:23.080 --> 03:24.530
+gonna have to look for two things.
+
+03:24.980 --> 03:27.920
+So first one is gonna be editor format on save.
+
+03:28.130 --> 03:32.980
+So you can just write editor and you know this is not gonna give me what I wanted.
+
+03:33.110 --> 03:36.710
+This probably would work better here in the Jason object.
+
+03:36.770 --> 03:39.200
+Just write more math on save.
+
+03:39.200 --> 03:40.820
+So this should give us an option.
+
+03:41.000 --> 03:42.620
+And this is what I was looking for.
+
+03:43.100 --> 03:46.070
+So we have format on paste and format on set.
+
+03:46.520 --> 03:49.190
+So now I would like to click both of them.
+
+03:49.190 --> 03:51.600
+And again since this is gonna auto save.
+
+03:51.800 --> 03:53.590
+We don't need to save it anywhere else.
+
+03:53.690 --> 03:55.710
+And now let's go back to our file.
+
+03:55.820 --> 03:57.580
+So what's gonna happen again.
+
+03:57.620 --> 04:03.500
+For now everything is not formatted but let's say again I'm gonna add one more paragraph so let's create
+
+04:03.500 --> 04:09.560
+here another paragraph so I'm going to have the paragraph tags and for some reason I can get them.
+
+04:09.560 --> 04:15.200
+And again let's write it the same way where we're just typing some something that doesn't really make
+
+04:15.200 --> 04:15.950
+sense.
+
+04:16.100 --> 04:19.100
+Now the moment we're gonna press save notice what happens.
+
+04:19.130 --> 04:26.550
+So now the Visual Studio code with the help with our extension formats everything nicely.
+
+04:26.570 --> 04:32.700
+Now I understand that now it might not seem very useful because we really have three paragraphs and
+
+04:33.110 --> 04:36.620
+all the editorial that we did was pretty much six lines of code.
+
+04:37.400 --> 04:43.140
+However as we're gonna start working with the project and as you're gonna keep on working with assess
+
+04:43.140 --> 04:49.460
+and see as this project format in your code is really gonna help you out in a long run.
+
+04:49.460 --> 04:55.610
+And by the way you did need to restart the server as obviously we did reload the server.
+
+04:55.610 --> 05:01.670
+So I did this already behind the scenes but if you didn't do it then you're gonna have only two paragraphs
+
+05:01.670 --> 05:02.390
+shown.
+
+05:02.480 --> 05:05.350
+So again you would need to restart the server by going line.
+
+05:05.900 --> 05:08.370
+And just to make my point across.
+
+05:08.540 --> 05:14.330
+You should want to have some kind of formatting for your code because this is gonna be really painful
+
+05:14.660 --> 05:16.420
+if you're gonna have to do it manually.

@@ -1,0 +1,430 @@
+WEBVTT
+
+00:00.420 --> 00:03.230
+Well we're still on the topic of background images.
+
+00:03.240 --> 00:09.960
+I would like to cover gradients and see assess gradients are very very cool feature of CSX but I can
+
+00:09.960 --> 00:16.080
+tell you right away that there is more to gradients than what we will cover because we will use gradients
+
+00:16.080 --> 00:20.870
+for very specific reason to add overlay for our background images.
+
+00:20.970 --> 00:26.850
+And if you feel that you would like to research gradients in more detail you can always utilize external
+
+00:26.850 --> 00:27.890
+resources.
+
+00:27.930 --> 00:31.210
+With that being said what in the world are gradients.
+
+00:31.290 --> 00:33.710
+We always we're going to start with an example.
+
+00:33.720 --> 00:35.730
+And this is not going to be different.
+
+00:35.820 --> 00:41.430
+We we're gonna get rid of all the headache ones right now as well as this div and we're going to create
+
+00:41.430 --> 00:46.900
+six deaths so I'm gonna say if the class is going to be let's say 1 and then it was going to copy and
+
+00:46.920 --> 00:47.790
+paste it.
+
+00:47.820 --> 00:50.580
+So let's do the second one and you know what.
+
+00:50.580 --> 00:55.450
+Let's select all of them right away all the class values and what is gonna change here.
+
+00:55.560 --> 01:05.400
+Let's delay this and here let's say number two and number three read and we're looking for the war.
+
+01:05.400 --> 01:06.380
+Surprise surprise.
+
+01:06.390 --> 01:10.620
+This would be five and then this is gonna be box number six.
+
+01:10.620 --> 01:11.960
+I'm gonna say this right now.
+
+01:12.150 --> 01:17.160
+Then we're gonna head over to the C assess I'm gonna select everything and we'll just gonna delete it.
+
+01:17.160 --> 01:21.600
+We're gonna start very simply by adding some width and height to our all our lives.
+
+01:21.600 --> 01:27.210
+So they have a number one number two and all the way up to the six is going to have the width of hundred
+
+01:27.210 --> 01:28.920
+and fifty pixels.
+
+01:29.100 --> 01:34.070
+Then we're also gonna add the let's say height of hundred pix 50 pixels.
+
+01:34.100 --> 01:36.900
+So let's say height of hundred fifty pixels.
+
+01:36.900 --> 01:39.260
+And then we would like to set them side by side.
+
+01:39.330 --> 01:43.950
+So again we're gonna use the property with the value that we're going to cover a little bit later which
+
+01:43.950 --> 01:45.620
+will gonna be display flex.
+
+01:45.710 --> 01:50.970
+And again don't get hung up on this because this is very easy thing.
+
+01:50.970 --> 01:52.860
+We just haven't covered it yet.
+
+01:53.490 --> 01:58.410
+What we have when we have the gradient how we can start working with a gradient.
+
+01:59.040 --> 02:05.320
+Well there's many ways but in our case we're going to use the background to say that no one is going
+
+02:05.320 --> 02:07.150
+to have the property of the background.
+
+02:07.150 --> 02:11.820
+And here we can use the linear gradient known for the linear gradient.
+
+02:11.820 --> 02:19.240
+We have values that we're going to have to input for the colors as well as direction now direction again.
+
+02:19.240 --> 02:20.830
+There's gonna be already some default one.
+
+02:21.270 --> 02:26.780
+So if I'm gonna write for number one red and green what do you think is gonna happen when I'm going
+
+02:26.780 --> 02:27.590
+to save it.
+
+02:27.660 --> 02:32.970
+The gradient is starting from the top which again would be the default if you're not adding here the
+
+02:32.970 --> 02:39.030
+positioning and it gradually changes color from the red all the way to the green.
+
+02:39.090 --> 02:45.210
+We can also test that out let's say with number two let me cut and paste it let's say here that I'm
+
+02:45.210 --> 02:50.880
+gonna be selecting the box number two but for the box number two I'm gonna change the direction of where
+
+02:50.880 --> 02:51.820
+the color is going.
+
+02:52.230 --> 02:57.270
+So let's say in this case I'm gonna write two and then we're looking for the top at the moment we're
+
+02:57.270 --> 02:58.050
+gonna save it.
+
+02:58.060 --> 03:03.080
+Notice this box right now is in fact working like the way it should be.
+
+03:03.120 --> 03:03.690
+Now you know what.
+
+03:03.690 --> 03:10.190
+Let me add a little bit more margin say the margin is going to be let's say five pixels.
+
+03:10.200 --> 03:12.120
+So that's going to be my five pixels.
+
+03:12.270 --> 03:17.520
+And then you know what I shouldn't have added display flex to the div should have 1 to all of them.
+
+03:17.520 --> 03:19.620
+And here I'm want to say to the body.
+
+03:19.620 --> 03:20.940
+So my apologies.
+
+03:20.940 --> 03:26.590
+We're gonna head over here and we're gonna say that for the body we're gonna add display flags.
+
+03:26.640 --> 03:28.100
+Now technically you don't have to do it.
+
+03:28.120 --> 03:33.150
+We're probably gonna be able to see six boxes but I just think that it's gonna be a little bit easier
+
+03:33.150 --> 03:36.140
+if there are gonna be side by side on the moon we'll save it.
+
+03:36.150 --> 03:40.850
+Now this is how they're gonna look like but you know what I'm noticing right now.
+
+03:41.070 --> 03:45.490
+Actually the boxes are really small so maybe let's just leave it without a flex.
+
+03:45.660 --> 03:49.120
+So I'm gonna say it and then was going to see boxes one by one again.
+
+03:49.470 --> 03:54.090
+I did a little bit of detour but I think we all gonna get over that.
+
+03:54.120 --> 03:54.520
+Okay.
+
+03:54.540 --> 03:58.710
+So we have red coming all the way to the green which would be the gradient.
+
+03:58.740 --> 04:03.720
+And then again the direction wouldn't be the default one from the top to the bottom.
+
+04:03.720 --> 04:10.010
+But if we change it and if we say to the top and here we can say red green again color is going to start
+
+04:10.350 --> 04:11.260
+then to the top.
+
+04:11.610 --> 04:16.300
+So the first color rule gonna write is gonna start with the bottom and then we're gonna go to the top.
+
+04:16.650 --> 04:21.710
+We're not limited to adding these two colors we can add whatever color values you would like.
+
+04:21.720 --> 04:26.630
+So here I can just say blue yellow and just keep on typing away.
+
+04:26.760 --> 04:32.700
+Again I can add another 50 but hopefully already understand the idea of what's happening is that we
+
+04:32.700 --> 04:35.760
+are pretty much setting up these values so far so good.
+
+04:35.790 --> 04:37.220
+What else we have.
+
+04:37.230 --> 04:41.480
+Well then we have number two we can add our cell number three.
+
+04:41.920 --> 04:48.450
+So let's say and you know what it's probably gonna be easier for me to grab this class and did that
+
+04:48.480 --> 04:50.530
+because we're all going to be selecting class.
+
+04:50.680 --> 04:56.910
+And here we're gonna say for what I would like to show you right now is that we also have an option
+
+04:57.270 --> 05:04.490
+of working with the degrees were not limited only to adding this to the top.
+
+05:04.510 --> 05:06.340
+I can say that you know what.
+
+05:06.340 --> 05:08.330
+No I didn't want to change the second one.
+
+05:08.650 --> 05:12.370
+Let me undo it and let's say instead of red and green.
+
+05:12.560 --> 05:13.780
+Let's write like this.
+
+05:13.840 --> 05:19.310
+Let's say that we were going to be looking for degrees and hundred and fifty degrees.
+
+05:19.630 --> 05:23.650
+So let's see how this is going to look like I'm gonna save it.
+
+05:23.810 --> 05:26.930
+And now what's happening is I really did not the color.
+
+05:26.950 --> 05:30.630
+So let's say number three and this needs to be right after that.
+
+05:30.820 --> 05:37.270
+And now I see that I'm having it from the hundred and fifty degrees so it's starting from let's say
+
+05:37.270 --> 05:40.180
+red and then goes all the way to the green.
+
+05:40.250 --> 05:44.100
+I'm going to change it let's say 315.
+
+05:44.350 --> 05:48.870
+Again this is changing where the colors are starting.
+
+05:48.970 --> 05:51.040
+I get nothing really fancy.
+
+05:51.040 --> 05:54.060
+You're just changing of the direction of your grading.
+
+05:54.760 --> 05:57.960
+We also have an option of adding this by letters.
+
+05:58.000 --> 06:03.160
+So in this case if we all going to copy and paste it and you know it let me select properly these lines
+
+06:03.910 --> 06:09.940
+let's say I'm going to say these guys and again talking and typing is not going to be my strong suit
+
+06:09.940 --> 06:12.750
+at the moment I'm going to copy paste it.
+
+06:13.120 --> 06:19.930
+Let's say I'm going to change this one to number four four and here let's change it from the degrees
+
+06:20.380 --> 06:26.120
+let's say to the top left so I can say tilt up and left again.
+
+06:26.390 --> 06:32.730
+This would start with red then green and then would go all the way up to the top left.
+
+06:32.740 --> 06:35.910
+Now if you wanted the top right and right to the top right.
+
+06:36.140 --> 06:38.970
+So now it starts here and we end up here.
+
+06:38.970 --> 06:42.000
+We have a green one all the way on the right hand side.
+
+06:42.550 --> 06:48.820
+And hopefully you understand that by changing these directions we are changing where the linear gradient
+
+06:48.880 --> 06:51.660
+is going to start and where this is ending up.
+
+06:51.940 --> 06:55.910
+Now in our case what we all gonna be doing we're going to be doing this for the overlay.
+
+06:56.320 --> 07:00.740
+And we're going to see that next video with a very very clear example.
+
+07:00.940 --> 07:06.820
+But I would just want to show you two more things that we are not limited again to the color names we
+
+07:06.820 --> 07:09.510
+can use whatever color values we would like.
+
+07:09.550 --> 07:10.460
+So let's test it out.
+
+07:10.900 --> 07:14.380
+Let's say that we are going to be looking for number five.
+
+07:14.440 --> 07:20.080
+Then again we're going to have the background say background then we're having a linear gradient and
+
+07:20.080 --> 07:25.010
+here instead of using the color names we can also use the hex values.
+
+07:25.180 --> 07:29.050
+But what we were gonna do a lot is going to be what our GPA.
+
+07:29.080 --> 07:33.970
+Now the reason for it is our GPA is going to be much more clear in the next video we're going to be
+
+07:33.970 --> 07:36.090
+covering the actual background image.
+
+07:36.190 --> 07:37.810
+But for now let's just start out.
+
+07:37.900 --> 07:40.390
+Now remember for the background images what we had.
+
+07:40.420 --> 07:43.800
+I'm sorry for the RGA what we had what we had the values.
+
+07:43.810 --> 07:49.750
+So red green and blue and then we were looking for the opacity or the transparency.
+
+07:49.750 --> 07:53.470
+So let's say I'm going to start with zero point three transparency.
+
+07:53.470 --> 07:56.190
+This is not gonna be more towards the black.
+
+07:56.200 --> 08:00.690
+It's gonna be more towards the white because if I'm gonna go to total zero this is gonna be in white.
+
+08:01.120 --> 08:08.590
+And here the opposite would be the fact that if I'm going with 0 0 and here the last one is also gonna
+
+08:08.590 --> 08:10.680
+be let's say zero point nine.
+
+08:10.950 --> 08:14.020
+So me and the comma and then we're gonna have zero point nine.
+
+08:14.440 --> 08:16.650
+Now what's happening right now is nothing.
+
+08:17.350 --> 08:20.400
+Because I probably have some kind of mistake.
+
+08:20.530 --> 08:23.660
+And sure enough I do because I have here 1 0.
+
+08:23.980 --> 08:25.230
+So so far so good.
+
+08:25.690 --> 08:32.650
+And then I also have one extra zero because there should be only four values total and I have five.
+
+08:33.070 --> 08:39.610
+So once I added since the direction is the default one where it starts basically from the top to the
+
+08:39.610 --> 08:44.540
+bottom and actually to quickly show you the default one would be like this.
+
+08:44.560 --> 08:46.560
+So if you were gonna write to the bottom.
+
+08:46.710 --> 08:49.650
+Nothing is going to change because that would be the default one.
+
+08:49.660 --> 08:54.820
+So once we're gonna save it I get notice we're starting from the top and we go to the bottom again as
+
+08:54.820 --> 08:58.460
+always we have the default values and this pretty much is gonna be one of them.
+
+08:58.990 --> 09:01.900
+And here I would like to work with the RGA.
+
+09:02.230 --> 09:05.300
+So that's the reason we restart by zero point three.
+
+09:05.330 --> 09:11.830
+So this is kind of transparent and we go all the way to zero point nine which is almost almost black.
+
+09:11.830 --> 09:14.540
+Now four to six we can do the same thing.
+
+09:14.590 --> 09:20.320
+Nobody's gonna test that out with a to the left just to see that this for sure is going to work.
+
+09:20.320 --> 09:29.290
+So make up and paste it let's say let's say here we're looking for six so that six and then add let's
+
+09:29.290 --> 09:32.370
+just add here I don't know to the left or to the right.
+
+09:32.390 --> 09:34.030
+It doesn't really matter.
+
+09:34.120 --> 09:41.230
+So we can say to the left and now we have the initial color starts here with zero point three and then
+
+09:41.230 --> 09:45.100
+it goes to the black one which is gonna be on the left hand side.

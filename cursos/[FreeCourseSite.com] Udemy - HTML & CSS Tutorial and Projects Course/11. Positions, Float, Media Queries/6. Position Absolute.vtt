@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.730 --> 00:02.110
+A okay.
+
+00:02.120 --> 00:06.270
+If you thought that position relative was somewhat fun.
+
+00:06.470 --> 00:07.310
+Wait till you meet.
+
+00:07.310 --> 00:12.540
+Position absolute which is in my opinion a real rock star in a sea of sex.
+
+00:12.590 --> 00:14.000
+What do I mean by that.
+
+00:14.000 --> 00:16.530
+Well let's take a closer look.
+
+00:16.550 --> 00:22.520
+First I would like to get rid of this relative or we can just delete it maybe altogether later on.
+
+00:22.520 --> 00:24.470
+Actually throw out this video and add it back.
+
+00:24.470 --> 00:27.700
+But for now just to show you how everything is going work.
+
+00:27.770 --> 00:33.260
+I will gonna delete this position relative where does position upload come into play.
+
+00:33.260 --> 00:38.690
+First I'm gonna go to the special one since this was the reason why we added it and then let's say position
+
+00:38.690 --> 00:39.530
+here.
+
+00:39.530 --> 00:45.080
+Since this is our option or position then for position we're not going to go with the relative where
+
+00:45.100 --> 00:48.020
+we're going and go for absolute.
+
+00:48.040 --> 00:54.800
+Now once we say it notice what happens already we're having some interesting changes NOW OKAY SO FAR
+
+00:54.800 --> 00:55.630
+SO GOOD.
+
+00:55.640 --> 00:56.430
+SO WHAT'S HAPPENING.
+
+00:56.930 --> 01:05.150
+WELL WITH position absolute we're also placing this position relative or on this position relative to
+
+01:05.150 --> 01:09.290
+the nearest ancestor that has the position relative.
+
+01:09.290 --> 01:16.040
+Now if position absolute cannot find that ancestor if it doesn't exist then it places itself relative
+
+01:16.070 --> 01:17.240
+to the body.
+
+01:17.250 --> 01:22.910
+Now if for checking here in the next animal how many ancestors does this plan has.
+
+01:22.910 --> 01:29.150
+Well it has the first one the parent with the class of number two then it has the div which is the second
+
+01:29.150 --> 01:34.060
+one and then since none of them have position relative then it looks for the body.
+
+01:34.130 --> 01:35.530
+Now you don't believe me.
+
+01:35.630 --> 01:36.530
+Let's test it out.
+
+01:36.710 --> 01:42.650
+So here we go in all right top since again these are our properties for the manipulation of the position.
+
+01:42.890 --> 01:47.960
+And let's say for the top is gonna be easier because we can add any kind of value and we can also add
+
+01:47.960 --> 01:48.740
+zero.
+
+01:48.740 --> 01:52.910
+So let's say top 0 and right is also gonna be 0.
+
+01:53.090 --> 01:56.090
+Let's see what's gonna happen and what happened.
+
+01:56.090 --> 02:04.250
+Well the absolute special of the special class with position absolute moved all the way to the top right
+
+02:04.250 --> 02:10.850
+corner of the body because like I said if there's not gonna be an ancestor that basically is going to
+
+02:11.330 --> 02:15.740
+work as a position relative then we're not going to be able to capture that.
+
+02:16.400 --> 02:18.150
+You want me to show you Mark.
+
+02:18.440 --> 02:23.280
+So if indexation email I had position number two or class number two for the paragraph.
+
+02:23.750 --> 02:29.090
+If we're gonna head over back to the C assess and if we're in the right position and in this case this
+
+02:29.090 --> 02:31.320
+is going to be relative notice what's gonna happen.
+
+02:31.370 --> 02:38.720
+So now this span with a class of special is gonna be sitting in the same position with position absolute
+
+02:39.110 --> 02:41.480
+and top right corner 0 0.
+
+02:41.840 --> 02:45.000
+However this is gonna happen within this paragraph.
+
+02:45.020 --> 02:50.920
+We have a class of 2 and the reason for that because we added this class of relative where I'm sorry
+
+02:50.930 --> 02:53.060
+we added the position of relative.
+
+02:53.060 --> 02:56.750
+Now what's gonna happen if I'm going to remove it again it's gonna go back to the body.
+
+02:57.290 --> 03:01.820
+Well we can also test it out on the dev let's do the same thing we're going to say that the position
+
+03:01.820 --> 03:06.800
+is not going to be static and instead of going to change it and I was gonna say that this is going to
+
+03:06.800 --> 03:07.340
+be relative.
+
+03:07.730 --> 03:10.750
+So now this is saying zero and zero.
+
+03:10.880 --> 03:16.340
+However within the div now nothing is gonna happen if we're going to place here the position relative
+
+03:16.340 --> 03:20.070
+in one because what we need is the actual ancestor.
+
+03:20.300 --> 03:24.570
+In this case this is just gonna be a sibling for the class of Number Two program.
+
+03:24.580 --> 03:27.580
+This is not going to be an ancestor for this class of special.
+
+03:27.620 --> 03:33.770
+So that's the reason where whenever we play something with a position absolute.
+
+03:33.770 --> 03:39.470
+If we don't want it to be placed relative to the Murray we need to have some kind of parent element
+
+03:39.500 --> 03:43.580
+or transistor element that's going to have a class of relative.
+
+03:43.610 --> 03:49.010
+I'm sorry the position of a relative and just to show you that we can actually place it in the body
+
+03:49.010 --> 03:50.890
+again wherever we would like.
+
+03:50.990 --> 03:58.920
+First of all let me change it that I know 50 percent here let's say 50 percent up and 50 percent bottom.
+
+03:59.000 --> 03:59.630
+Or I'm sorry.
+
+03:59.630 --> 04:00.310
+Right.
+
+04:00.440 --> 04:05.720
+And this is gonna place it somewhere here and you can see that there is one thing missing and that one
+
+04:05.720 --> 04:11.330
+thing is the fact that we haven't looked at a transform properly yet and we will gonna look sooner because
+
+04:11.330 --> 04:14.920
+at the moment you can say well it's technically not sitting in the center.
+
+04:14.930 --> 04:19.760
+That is correct because we would need to shift a little bit the position of this element.
+
+04:20.180 --> 04:26.180
+However this is close enough for the Center for us just to show you that we can use any kind of values
+
+04:26.560 --> 04:30.080
+whether it be percentages will or just is going to be pixel again.
+
+04:30.080 --> 04:35.690
+Really anything you would like and then this time I can just remove the relative and you'll see that
+
+04:35.690 --> 04:42.500
+this is gonna be sitting pretty much all the way in the center here of the body because again there
+
+04:42.500 --> 04:46.220
+is no answers there that does have this position relative.
+
+04:46.220 --> 04:49.380
+So this is not placed relative to those answers there.
+
+04:49.520 --> 04:54.600
+Now one thing though in the next video we're going to be looking at position fixed in this case.
+
+04:54.620 --> 04:59.080
+If you place it here with this position top let's say 50 50.
+
+04:59.090 --> 05:01.830
+This is gonna disappear as we're scrolling.
+
+05:01.890 --> 05:05.310
+So if we're gonna be adding more elements here and there is going to be scrolling down.
+
+05:05.520 --> 05:10.860
+This element with a glass of special he is actually going to disappear as we're scrolling.
+
+05:10.980 --> 05:13.920
+So it's gonna be callable our weird position fixed.
+
+05:13.920 --> 05:16.530
+What's gonna happen is that the element is gonna stay.
+
+05:17.040 --> 05:20.760
+So even though we're placing right now relative to the body.
+
+05:20.910 --> 05:23.840
+This is not gonna stay on a page as we're scrolling down.

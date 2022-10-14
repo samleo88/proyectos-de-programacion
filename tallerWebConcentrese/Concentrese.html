@@ -1,0 +1,117 @@
+<html>
+	<head><title>  tablas </title>
+		<style>
+
+		td 
+			{
+				width: 160px; 
+				height: 160px; 
+			}
+			
+		</style>
+		<script>
+		primeraimagen=" ";
+		var imagenes = new Array(2);
+		totalPuntos = 0;
+		indice=0;
+
+		function cerrar()
+		{
+			alert("PERDISTE !!!........AHORA TIENES " + 0 + " PUNTOS!!");
+			totalPuntos = 0;
+			window.location.reload();
+		}
+
+		function cambia(celda,imagen) 
+		{
+			imagenes[indice]=imagen;
+			var laImagen = document.getElementById(celda);
+			var archivo = laImagen.src;
+			laImagen.src = imagen;
+			if (indice == 1)
+			{
+				if(imagenes[0] != imagenes[1]) 
+				{
+					setTimeout(cerrar,500);
+				}
+				else
+				{
+				total(200);
+				}
+				indice=0;
+			}
+			else 
+			{
+				indice++;
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		function cambiaCierra(celda,imagen) 
+		{
+			imagenes[indice]=imagen;
+			var laImagen = document.getElementById(celda);
+			var archivo = laImagen.src;
+			laImagen.src = imagen;
+			setTimeout(cerrar,200);
+			alert("TEN CUIDADO CON LAS CALAVERAS!!!");
+		}
+		
+		function total(puntos)
+		{
+			totalPuntos = totalPuntos + puntos;
+			//var p = document.getElementById("acumulado");
+			//p.text = '"ACUMULADO: " + totalPuntos';
+			document.getElementById("acumulado").innerHTML = "ACUMULADO: " + totalPuntos;
+			//alert(totalPuntos);
+			if (totalPuntos == 1800)
+			{
+				alert("GANASTE!!!")
+			}
+		}
+		
+		</script>
+	</head>
+	<body background = 'fondo.jpg'>
+		<TABLE BORDER="7"ALIGN="center">
+			<TR>
+				<td id= "celda1" onclick="cambia('logo1','guns.jpg')"> <IMG id="logo1" SRC="general.png" WIDTH="150" HEIGHT="150" align = "center"> </td>  
+				<td id= "celda2" onclick="cambia('logo2','pearl.jpg')"> <IMG id="logo2" SRC="general.png" WIDTH="150" HEIGHT="150" align = "center"> </td>
+				<td id= "celda3" onclick="cambia('logo3','zeppelin.png')"> <IMG id="logo3" SRC="general.png" WIDTH="150" HEIGHT="150" align = "center"> </td>
+				<td id= "celda4" onclick="cambia('logo4','beatles.jpg')"> <IMG id="logo4" SRC="general.png" WIDTH="150" HEIGHT="150" align = "center"> </td>
+				<td id= "celda5" onclick="cambia('logo5','floyd.jpg')"> <IMG id="logo5" SRC="general.png" WIDTH="150" HEIGHT="150" align = "center"> </td>
+			</TR>
+
+			<TR>
+				<TD id= "celda6" onclick="cambia('logo6','pearl.jpg')"> <IMG id="logo6" SRC="general.png" WIDTH="150" HEIGHT="150"> </TD>
+				<TD id= "celda7" onclick="cambia('logo7','velvet.jpg')">  <IMG id="logo7" SRC="general.png" WIDTH="150" HEIGHT="150"> </TD> 
+				<td id= "celda8" onclick="cambia('logo8','michael.jpg')"> <IMG id="logo8" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+				<td id= "celda9" onclick="cambia('logo9','radio.jpg')"> <IMG id="logo9" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+				<td id= "celda10" onclick="cambia('logo10','floyd.jpg')"> <IMG id="logo10" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+			</TR>
+
+			<TR>
+				<TD id= "celda11" onclick="cambiaCierra('logo11','calavera.png')"> <IMG id="logo11" SRC="general.png" WIDTH="150" HEIGHT="150"> </TD>
+				<TD id= "celda12" onclick="cambia('logo12','radio.jpg')">  <IMG id="logo12" SRC="general.png" WIDTH="150" HEIGHT="150"> </TD> 
+				<td id= "celda13" onclick="cambia('logo13','acdc.jpg')"> <IMG id="logo13" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+				<td id= "celda14" onclick="cambia('logo14','beatles.jpg')"> <IMG id="logo14" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+				<td id= "celda15" onclick="cambia('logo15','michael.jpg')"> <IMG id="logo15" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+			</TR>
+			
+			<TR>
+				<TD id= "celda16" onclick="cambia('logo16','acdc.jpg')"> <IMG id="logo16" SRC="general.png" WIDTH="150" HEIGHT="150"> </TD>
+				<TD id= "celda17" onclick="cambia('logo17','velvet.jpg')">  <IMG id="logo17" SRC="general.png" WIDTH="150" HEIGHT="150"> </TD> 
+				<td id= "celda18" onclick="cambia('logo18','guns.jpg')"> <IMG id="logo18" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+				<td id= "celda19" onclick="cambiaCierra('logo19','calavera.png')"> <IMG id="logo19" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+				<td id= "celda20" onclick="cambia('logo20','zeppelin.png')"> <IMG id="logo20" SRC="general.png" WIDTH="150" HEIGHT="150"> </td>
+			</TR>
+			<p id="acumulado" > ACUMULADO = 0</p>
+		</TABLE>
+	</body>
+</html>

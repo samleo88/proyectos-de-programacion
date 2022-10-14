@@ -1,0 +1,1134 @@
+1
+
+00:00:00,000  -->  00:00:02,700
+Alright, so, we've got a magic system and
+
+2
+
+00:00:02,700  -->  00:00:04,980
+it works but it's not ideal and that's
+
+3
+
+00:00:04,980  -->  00:00:07,770
+simply because it's taking up space in
+
+4
+
+00:00:07,770  -->  00:00:10,230
+our main Python file here, and in order to
+
+5
+
+00:00:10,230  -->  00:00:11,580
+get that out of there what we're going
+
+6
+
+00:00:11,580  -->  00:00:14,130
+to do is we're just going to create as
+
+7
+
+00:00:14,130  -->  00:00:18,480
+with our game.py classes here, we're
+
+8
+
+00:00:18,480  -->  00:00:21,810
+going to create a new file in the
+
+9
+
+00:00:21,810  -->  00:00:24,689
+classes directories, it's to be a python file,
+
+10
+
+00:00:24,689  -->  00:00:29,880
+and we're going to call it magic. Now in
+
+11
+
+00:00:29,880  -->  00:00:31,320
+here we're going to create a class
+
+12
+
+00:00:31,320  -->  00:00:36,570
+called Spell, and what we're going to
+
+13
+
+00:00:36,570  -->  00:00:38,940
+have, if we look over at our main python file, we're
+
+14
+
+00:00:38,940  -->  00:00:41,309
+going to have name, cost, damage, we're
+
+15
+
+00:00:41,309  -->  00:00:43,020
+also gonna have type and I'm going to show you
+
+16
+
+00:00:43,020  -->  00:00:45,329
+guys why. So let's go ahead and create
+
+17
+
+00:00:45,329  -->  00:00:48,450
+our init function, and we're going to
+
+18
+
+00:00:48,450  -->  00:00:59,969
+take in name, cost, prop, and type.
+
+19
+
+00:00:59,969  -->  00:01:03,210
+Actually, let's name this damage, and I will
+
+20
+
+00:01:03,210  -->  00:01:04,650
+show you guys why we're doing this in a
+
+21
+
+00:01:04,650  -->  00:01:06,420
+second. What we're going to do is we're
+
+22
+
+00:01:06,420  -->  00:01:08,159
+going to create instance variables
+
+23
+
+00:01:08,159  -->  00:01:10,380
+from the variables or from the
+
+24
+
+00:01:10,380  -->  00:01:28,049
+values that we pass in. So, name = name, self.cost = cost, and
+
+25
+
+00:01:28,049  -->  00:01:31,740
+self.type = type. So, we're just doing very
+
+26
+
+00:01:31,740  -->  00:01:35,490
+basic stuff here. Just to recap, when you say self
+
+27
+
+00:01:35,490  -->  00:01:38,400
+you mean this instance of the class. So, if we
+
+28
+
+00:01:38,400  -->  00:01:43,439
+instantiate, and let's look back here just to  recap, we're instantiating the person class
+
+29
+
+00:01:43,439  -->  00:01:47,939
+twice. This instance of the person class
+
+30
+
+00:01:47,939  -->  00:01:51,390
+goes into player, and this instance goes
+
+31
+
+00:01:51,390  -->  00:01:54,390
+into enemy. And as you can see the values
+
+32
+
+00:01:54,390  -->  00:01:56,850
+and variables here are different, and we're
+
+33
+
+00:01:56,850  -->  00:02:00,149
+able to access different variables. If we
+
+34
+
+00:02:00,149  -->  00:02:02,340
+say enemy.HP it's going to turn out
+
+35
+
+00:02:02,340  -->  00:02:05,790
+this. If we say player.HP it's going to say that, and that's
+
+36
+
+00:02:05,790  -->  00:02:09,030
+because in here we set HP equal to whatever
+
+37
+
+00:02:09,030  -->  00:02:10,110
+we pass in
+
+38
+
+00:02:10,110  -->  00:02:14,190
+there. Which it's not a difficult concept,
+
+39
+
+00:02:14,190  -->  00:02:15,630
+I think you guys remember, I just wanted
+
+40
+
+00:02:15,630  -->  00:02:18,840
+to you know go over that again just in
+
+41
+
+00:02:18,840  -->  00:02:20,640
+case as we're, that's something we're
+
+42
+
+00:02:20,640  -->  00:02:23,790
+doing right here. So, we have our spell
+
+43
+
+00:02:23,790  -->  00:02:25,620
+created and we don't really need to do
+
+44
+
+00:02:25,620  -->  00:02:31,860
+anything except, we have generate spell
+
+45
+
+00:02:31,860  -->  00:02:41,010
+damage there, I think...
+
+46
+
+00:02:41,010  -->  00:02:43,770
+We don't need that function, I'll show
+
+47
+
+00:02:43,770  -->  00:02:46,590
+you guys why. We don't need spell name, I'll  show
+
+48
+
+00:02:46,590  -->  00:02:48,000
+you guys why. So, I'm going to delete these,
+
+49
+
+00:02:48,000  -->  00:03:04,650
+and remove the heal, actually no
+
+50
+
+00:03:04,650  -->  00:03:06,239
+we're going to keep that one because
+
+51
+
+00:03:06,239  -->  00:03:10,020
+that is more player based than spell based.
+
+52
+
+00:03:10,020  -->  00:03:13,890
+And the spell damage we're going to
+
+53
+
+00:03:13,890  -->  00:03:19,440
+remove that as well. Alright,
+
+54
+
+00:03:19,440  -->  00:03:21,060
+let's go ahead and save this. Now that's
+
+55
+
+00:03:21,060  -->  00:03:23,489
+going to break our game here if we try
+
+56
+
+00:03:23,489  -->  00:03:27,780
+to play it again and we choose a spell.
+
+57
+
+00:03:27,780  -->  00:03:32,519
+It's going to have a dangerous effect because
+
+58
+
+00:03:32,519  -->  00:03:35,760
+we've just removed some essential code.
+
+59
+
+00:03:35,760  -->  00:03:37,799
+So what we're going to do is we're going to
+
+60
+
+00:03:37,799  -->  00:03:41,820
+fix this up by instantiating multiple
+
+61
+
+00:03:41,820  -->  00:03:43,470
+spells and we're going to reference them by
+
+62
+
+00:03:43,470  -->  00:03:44,970
+name.
+
+63
+
+00:03:44,970  -->  00:03:55,200
+Fire is going to equal spell...fire cost,
+
+64
+
+00:03:55,200  -->  00:03:59,489
+what order did I pass that in? Name, cost, damage, and
+
+65
+
+00:03:59,489  -->  00:04:03,480
+type. So, the cost is going to be 10,
+
+66
+
+00:04:03,480  -->  00:04:07,140
+the damage is going to be a 100, and
+
+67
+
+00:04:07,140  -->  00:04:11,430
+the type is going to be black magic.
+
+68
+
+00:04:11,430  -->  00:04:13,980
+Now as you can see this underlined
+
+69
+
+00:04:13,980  -->  00:04:18,750
+because we didn't import magic yet. So,
+
+70
+
+00:04:18,750  -->  00:04:19,510
+from
+
+71
+
+00:04:19,510  -->  00:04:23,320
+classes.magic import spell.
+
+72
+
+00:04:23,320  -->  00:04:28,510
+We're going to do the same thing with
+
+73
+
+00:04:28,510  -->  00:04:33,880
+thunder and blizzard as well, I'm also going to throw in
+
+74
+
+00:04:33,880  -->  00:04:39,010
+meteor, quake, and that's good for now. So,
+
+75
+
+00:04:39,010  -->  00:05:03,590
+thunder, blizzard, meteor, and quake.
+
+76
+
+00:05:03,590  -->  00:05:07,070
+They all do the same level of damage and
+
+77
+
+00:05:07,070  -->  00:05:08,720
+we're going to fix that a moment, I'm
+
+78
+
+00:05:08,720  -->  00:05:14,330
+just going to add a comment here, okay
+
+79
+
+00:05:14,330  -->  00:05:16,550
+black magic and now we're going to
+
+80
+
+00:05:16,550  -->  00:05:18,320
+balance this. So, meteor is going
+
+81
+
+00:05:18,320  -->  00:05:20,690
+to be about double the cost and double
+
+82
+
+00:05:20,690  -->  00:05:23,780
+the damage, quake is going to be about
+
+83
+
+00:05:23,780  -->  00:05:30,740
+.2 higher than both fire and thunder in both
+
+84
+
+00:05:30,740  -->  00:05:36,380
+MP costs, well .4. So, it's going to cost 14
+
+85
+
+00:05:36,380  -->  00:05:37,850
+and going to do 140 damage.
+
+86
+
+00:05:37,850  -->  00:05:41,270
+Now I'm going to create some white magic.
+
+87
+
+00:05:41,270  -->  00:05:49,190
+So we're going to create cure, I'm just going
+
+88
+
+00:05:49,190  -->  00:05:51,320
+to copy these, well I will print them out. So, cure
+
+89
+
+00:05:51,320  -->  00:05:58,790
+equals spell, the name is cure, the cost is
+
+90
+
+00:05:58,790  -->  00:06:00,200
+going to be, well let's look at a few
+
+91
+
+00:06:00,200  -->  00:06:03,650
+things first. So, the person has 400 points hit points, so
+
+92
+
+00:06:03,650  -->  00:06:08,420
+I think 120 is a decent amount here. So
+
+93
+
+00:06:08,420  -->  00:06:14,510
+the cost is going to be 12, and the damage is going to be that, and
+
+94
+
+00:06:14,510  -->  00:06:16,010
+we're going to say it's white magic.
+
+95
+
+00:06:16,010  -->  00:06:17,930
+We're going to create a more powerful
+
+96
+
+00:06:17,930  -->  00:06:22,700
+cure spell called cura, and that we're
+
+97
+
+00:06:22,700  -->  00:06:28,250
+taking from Final Fantasy. So it will
+
+98
+
+00:06:28,250  -->  00:06:30,320
+cost about 18 but it's actually
+
+99
+
+00:06:30,320  -->  00:06:33,920
+going to feel for 20, and we're going to classify that as
+
+100
+
+00:06:33,920  -->  00:06:36,350
+white magic as well. Now what we're going to
+
+101
+
+00:06:36,350  -->  00:06:38,540
+do is we don't want the player, well the
+
+102
+
+00:06:38,540  -->  00:06:40,250
+enemy can't use magic right now we're
+
+103
+
+00:06:40,250  -->  00:06:41,930
+going to fix that I think in the next
+
+104
+
+00:06:41,930  -->  00:06:43,850
+video, right now what we're just going to
+
+105
+
+00:06:43,850  -->  00:06:49,520
+do is create player magic. And then we're
+
+106
+
+00:06:49,520  -->  00:06:51,500
+just going to pass you the variables
+
+107
+
+00:06:51,500  -->  00:06:54,080
+that we created up here as magic for
+
+108
+
+00:06:54,080  -->  00:06:56,510
+whichever spells we want to...actually you
+
+109
+
+00:06:56,510  -->  00:06:58,490
+know what we're gonna move that all
+
+110
+
+00:06:58,490  -->  00:06:59,510
+together, we're just going to do it
+
+111
+
+00:06:59,510  -->  00:07:05,960
+straight in line.
+
+112
+
+00:07:05,960  -->  00:07:08,150
+And so we're going to create a list here,
+
+113
+
+00:07:08,150  -->  00:07:10,729
+and spells we want we're going to say
+
+114
+
+00:07:10,729  -->  00:07:15,979
+fire, thunder, blizzard, of course the
+
+115
+
+00:07:15,979  -->  00:07:27,289
+basic ones, then meteor, and cure, and cura. And
+
+116
+
+00:07:27,289  -->  00:07:30,740
+they're going to have no magic for right
+
+117
+
+00:07:30,740  -->  00:07:34,880
+now. So, if I save this we still need to
+
+118
+
+00:07:34,880  -->  00:07:38,750
+modify a few things. I believe we took
+
+119
+
+00:07:38,750  -->  00:07:42,229
+out generate spell damage in the player, so
+
+120
+
+00:07:42,229  -->  00:07:44,690
+what we need to do is add that into the
+
+121
+
+00:07:44,690  -->  00:07:58,400
+class here. So, I'm just going to say generate damage, and
+
+122
+
+00:07:58,400  -->  00:08:01,130
+what we're going to do is thing as
+
+123
+
+00:08:01,130  -->  00:08:04,159
+before, we're going to set low equals
+
+124
+
+00:08:04,159  -->  00:08:12,050
+self.damage - 15, and high is going
+
+125
+
+00:08:12,050  -->  00:08:18,650
+to be self.damage + 15. I believe
+
+126
+
+00:08:18,650  -->  00:08:23,000
+we used the random in the generate
+
+127
+
+00:08:23,000  -->  00:08:26,570
+damage, we have random randrange. So what
+
+128
+
+00:08:26,570  -->  00:08:28,669
+we're going to do, and this is as you
+
+129
+
+00:08:28,669  -->  00:08:31,370
+remember the randrange here generates a
+
+130
+
+00:08:31,370  -->  00:08:34,339
+number between a low and a high number or
+
+131
+
+00:08:34,339  -->  00:08:35,779
+guess you can use high and low as well,
+
+132
+
+00:08:35,779  -->  00:08:37,130
+it doesn't really matter what order you
+
+133
+
+00:08:37,130  -->  00:08:39,620
+pass in, so we need to import random.
+
+134
+
+00:08:39,620  -->  00:08:42,919
+Let's go ahead and do magic, let's drop down a few
+
+135
+
+00:08:42,919  -->  00:08:47,630
+lines, and run import random, and then
+
+136
+
+00:08:47,630  -->  00:08:50,329
+we're going to return random.randrange,
+
+137
+
+00:08:50,329  -->  00:08:53,480
+and we're going to pass in low
+
+138
+
+00:08:53,480  -->  00:09:00,140
+and high. So let's save this now, go
+
+139
+
+00:09:00,140  -->  00:09:03,950
+back over here, and we need to fix the
+
+140
+
+00:09:03,950  -->  00:09:07,760
+generate spell damage. So, what we're
+
+141
+
+00:09:07,760  -->  00:09:11,329
+going to do is, this is awesome, so as you
+
+142
+
+00:09:11,329  -->  00:09:13,339
+can see we passed our index number here
+
+143
+
+00:09:13,339  -->  00:09:16,100
+into an actual function, and what we're
+
+144
+
+00:09:16,100  -->  00:09:17,600
+going to do now, we're going to do the
+
+145
+
+00:09:17,600  -->  00:09:19,500
+opposite actually, we're going to
+
+146
+
+00:09:19,500  -->  00:09:22,260
+say, so this is going to be entirely
+
+147
+
+00:09:22,260  -->  00:09:23,730
+different, so I'm going to drop some
+
+148
+
+00:09:23,730  -->  00:09:25,530
+lines here and I'm going to rewrite the code
+
+149
+
+00:09:25,530  -->  00:09:28,140
+in the new way so you guys can see the
+
+150
+
+00:09:28,140  -->  00:09:32,340
+difference. So magic damage is going to be
+
+151
+
+00:09:32,340  -->  00:09:33,720
+equal to
+
+152
+
+00:09:33,720  -->  00:09:43,560
+player.magic, and we're going to
+
+153
+
+00:09:43,560  -->  00:09:48,810
+say the magic choice, and then we're
+
+154
+
+00:09:48,810  -->  00:09:52,080
+going to target the magic's function which
+
+155
+
+00:09:52,080  -->  00:09:58,920
+is generate damage. And then we're going
+
+156
+
+00:09:58,920  -->  00:10:02,250
+to see the spells name,
+
+157
+
+00:10:02,250  -->  00:10:04,830
+well what we can do is actually a little
+
+158
+
+00:10:04,830  -->  00:10:11,310
+bit easier. We're going to set spell, it's going to be equal
+
+159
+
+00:10:11,310  -->  00:10:15,990
+to player.magic, magic choice,
+
+160
+
+00:10:15,990  -->  00:10:19,140
+and so this is going to be the spell
+
+161
+
+00:10:19,140  -->  00:10:20,820
+itself. And so what we can do is we can
+
+162
+
+00:10:20,820  -->  00:10:22,800
+remove a lot of this, simplify this to
+
+163
+
+00:10:22,800  -->  00:10:27,660
+say spell.generate_damage, and then cost is
+
+164
+
+00:10:27,660  -->  00:10:33,210
+going to be spell cost. Actually, we forgot the
+
+165
+
+00:10:33,210  -->  00:10:34,950
+equal sign there, we don't even need to
+
+166
+
+00:10:34,950  -->  00:10:37,020
+do that because it's so short. What we can
+
+167
+
+00:10:37,020  -->  00:10:44,280
+do...alright. What we're going to do
+
+168
+
+00:10:44,280  -->  00:10:47,400
+down here is spell is set there, but we need
+
+169
+
+00:10:47,400  -->  00:10:51,960
+to target spell.name, and magic
+
+170
+
+00:10:51,960  -->  00:10:53,880
+damage there is a number
+
+171
+
+00:10:53,880  -->  00:10:56,640
+already, and that's all we need to do.
+
+172
+
+00:10:56,640  -->  00:10:59,820
+Actually, right here we need to say if
+
+173
+
+00:10:59,820  -->  00:11:03,000
+spell cost is more than current MP
+
+174
+
+00:11:03,000  -->  00:11:06,810
+than it fails. So I think we're good to go, I
+
+175
+
+00:11:06,810  -->  00:11:08,730
+think I did everything necessary, so I
+
+176
+
+00:11:08,730  -->  00:11:12,150
+can remove these old lines of code here,
+
+177
+
+00:11:12,150  -->  00:11:15,930
+I can save this, and let's try this again.
+
+178
+
+00:11:15,930  -->  00:11:18,750
+Oh, no, we're not gonna be able to choose
+
+179
+
+00:11:18,750  -->  00:11:21,960
+our magic because that's stored in player, so
+
+180
+
+00:11:21,960  -->  00:11:23,760
+we're going to have to put that...actually
+
+181
+
+00:11:23,760  -->  00:11:26,100
+we can't do that what we need to do is,
+
+182
+
+00:11:26,100  -->  00:11:30,190
+where's our game class?
+
+183
+
+00:11:30,190  -->  00:11:32,350
+Self magic is being set to what we set in
+
+184
+
+00:11:32,350  -->  00:11:39,550
+there, and then choose magic is now
+
+185
+
+00:11:39,550  -->  00:11:42,340
+that will work. Ok, so, we're going to list our
+
+186
+
+00:11:42,340  -->  00:11:43,030
+magic,
+
+187
+
+00:11:43,030  -->  00:11:57,600
+ok it's not gonna work and the reason is...
+
+188
+
+00:11:57,600  -->  00:12:04,589
+let's try that use an instance variable. Spell
+
+189
+
+00:12:04,589  -->  00:12:09,120
+object is not scriptable. So, let's go ahead
+
+190
+
+00:12:09,120  -->  00:12:22,680
+and import from .magic import Spell.
+
+191
+
+00:12:31,290  -->  00:12:34,170
+So, let's go ahead and look back at this.
+
+192
+
+00:12:34,170  -->  00:12:40,740
+Alright, in here
+
+193
+
+00:12:40,740  -->  00:12:43,139
+what I'm going to do what it says choose
+
+194
+
+00:12:43,139  -->  00:13:03,950
+magic I'm just going to print...
+
+195
+
+00:13:03,950  -->  00:13:09,140
+this is pretty print by the way, we are going
+
+196
+
+00:13:09,140  -->  00:13:16,430
+to pprint(self.magic), and as you can see
+
+197
+
+00:13:16,430  -->  00:13:20,270
+I've been working a lot in C++. Alright, let's go
+
+198
+
+00:13:20,270  -->  00:13:37,630
+ahead and rerun this and have a look...
+
+199
+
+00:13:37,630  -->  00:13:40,070
+ok.
+
+200
+
+00:13:42,380  -->  00:13:45,530
+So, we're able to print self magic, so
+
+201
+
+00:13:45,530  -->  00:13:54,560
+for i in self.magic:
+
+202
+
+00:13:54,560  -->  00:14:02,110
+print(i)
+
+203
+
+00:14:02,110  -->  00:14:08,470
+So it prints out each object correctly. I
+
+204
+
+00:14:08,470  -->  00:14:10,899
+should be able to target the name of
+
+205
+
+00:14:10,899  -->  00:14:16,810
+each one, and I can. So, it could be this
+
+206
+
+00:14:16,810  -->  00:14:20,170
+right here that is causing the problem because I can't
+
+207
+
+00:14:20,170  -->  00:14:22,810
+see anything else that would cause the
+
+208
+
+00:14:22,810  -->  00:14:27,370
+problems. So, let's remove this, save this,
+
+209
+
+00:14:27,370  -->  00:14:31,630
+rerun this, let's choose magic, and there we go.
+
+210
+
+00:14:31,630  -->  00:14:39,070
+We've finally got our magic working. I was looking for the problem like
+
+211
+
+00:14:39,070  -->  00:14:40,360
+there is not a problem here, but it's
+
+212
+
+00:14:40,360  -->  00:14:42,279
+just I was targeting that in the way that
+
+213
+
+00:14:42,279  -->  00:14:44,470
+you target a list and an index, rather
+
+214
+
+00:14:44,470  -->  00:14:46,360
+than how you target an object and an object
+
+215
+
+00:14:46,360  -->  00:14:52,930
+attribute, class attribute. So, that allows us to choose
+
+216
+
+00:14:52,930  -->  00:14:56,470
+our magic. We should be able here to say
+
+217
+
+00:14:56,470  -->  00:15:02,440
+we're going to choose fire, and reduce MP is not defined because cost is not defined,
+
+218
+
+00:15:02,440  -->  00:15:07,720
+so I missed something. Reduce MP is going
+
+219
+
+00:15:07,720  -->  00:15:15,459
+to be spell.cost, there we go. Let's try meteor,
+
+220
+
+00:15:16,810  -->  00:15:20,589
+meteor deals 211 damage. So, again we're
+
+221
+
+00:15:20,589  -->  00:15:24,010
+going to go with fire, and we're doing some
+
+222
+
+00:15:24,010  -->  00:15:28,209
+good damage here,, now we're losing so we
+
+223
+
+00:15:28,209  -->  00:15:32,199
+need to heal. So, we need to build in the
+
+224
+
+00:15:32,199  -->  00:15:34,570
+heal functionality, and we'll save that for
+
+225
+
+00:15:34,570  -->  00:15:37,329
+the next video, actually. I think we've done enough right now so in the next video
+
+226
+
+00:15:37,329  -->  00:15:39,040
+we're going to be focusing on creating a
+
+227
+
+00:15:39,040  -->  00:15:45,329
+heal function.

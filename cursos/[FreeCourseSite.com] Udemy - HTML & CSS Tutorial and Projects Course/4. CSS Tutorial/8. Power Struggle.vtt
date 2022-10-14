@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.310 --> 00:00.950
+Awesome.
+
+00:01.020 --> 00:05.240
+We have covered inline internal and external CSX.
+
+00:05.430 --> 00:11.970
+However before we dive into the syntax and how we can create a syntax what are the rules for the syntax.
+
+00:11.970 --> 00:14.780
+I would like to show you which one is more powerful.
+
+00:14.910 --> 00:19.060
+So if you're looking at these three options it's gonna come important later on.
+
+00:19.150 --> 00:24.030
+It's gonna basically matter a lot of times which one of them is more powerful.
+
+00:24.030 --> 00:26.150
+Now let me show you what I mean by this.
+
+00:26.190 --> 00:28.690
+First of all I'd like to clean up all of workspace a little bit.
+
+00:28.710 --> 00:33.510
+I mean you don't have to do this but I'm gonna set it up basically the workspace how we all going to
+
+00:33.510 --> 00:34.470
+use this.
+
+00:34.470 --> 00:35.220
+So let me close.
+
+00:35.220 --> 00:36.320
+First of all the tabs.
+
+00:36.320 --> 00:38.610
+For now I would just like to have my next Schimmel.
+
+00:39.060 --> 00:44.700
+I'm going to use the style C assess and I'm going to move them out of the C S this folder as well as
+
+00:44.700 --> 00:49.700
+I'm going to delete the C as this folder so I'm not going to use it right now and I'm gonna get rid
+
+00:49.710 --> 00:55.010
+of the about the email as well so I'm gonna be left with only index CML.
+
+00:55.230 --> 00:58.560
+And here let's create the proper path.
+
+00:58.560 --> 01:02.000
+So we're gonna have the style C assess and now this is gonna be my setup.
+
+01:02.700 --> 01:08.420
+So as I'm looking at this right I have my head in one as well as having two and for now what.
+
+01:08.430 --> 01:08.850
+You know what.
+
+01:09.000 --> 01:15.420
+I can just deal with adding one because we're only gonna show you one example and then if I have my
+
+01:15.420 --> 01:20.940
+styles with let's say color blue What do you think happens if I'm gonna create another one.
+
+01:20.940 --> 01:26.700
+The internal C assess and again remember this was done by using the style sheets and let's say here
+
+01:26.700 --> 01:28.720
+I'm gonna write that you know what.
+
+01:28.720 --> 01:31.600
+Heading ones are gonna be different color.
+
+01:31.650 --> 01:34.710
+I think one is gonna be let's say red.
+
+01:34.860 --> 01:40.650
+So again let me write the proper syntax which we will cover learn in the next video and let's say a
+
+01:40.650 --> 01:42.210
+color is gonna be red.
+
+01:42.300 --> 01:44.090
+What do you think is going to happen.
+
+01:44.260 --> 01:51.300
+This year I'm having having one with color blue but in my internal style sheet I am writing this has
+
+01:51.300 --> 01:52.050
+color red.
+
+01:52.110 --> 01:53.390
+Now I haven't saved it yet.
+
+01:53.700 --> 01:59.110
+So nothing obviously is happening but what do you think is gonna happen once I say it using heading
+
+01:59.190 --> 02:00.890
+one is going to be blue or red.
+
+02:01.130 --> 02:02.480
+Now let's test it out.
+
+02:02.610 --> 02:05.190
+Let me save this an interesting.
+
+02:05.190 --> 02:13.440
+What's happening is my headings not blue but in fact they're red so I can see that the internal style
+
+02:13.440 --> 02:18.780
+sheet is stronger than the external one because we are overwriting this.
+
+02:18.970 --> 02:22.800
+Now let me tell you right away that we can use both of them.
+
+02:22.800 --> 02:29.250
+So let's say if you would have some kind of styles here for having one but you would have different
+
+02:29.400 --> 02:31.080
+styling here for having two.
+
+02:31.170 --> 02:32.270
+You can do that.
+
+02:32.310 --> 02:35.740
+It's not like against the law or anything like that.
+
+02:35.760 --> 02:41.370
+However just remember that if you're going to have some kind of style here already for having one you
+
+02:41.370 --> 02:42.660
+will going to override this.
+
+02:43.200 --> 02:48.690
+So if you're selecting the same element for the same class or I.D. or whatever if you're having the
+
+02:48.690 --> 02:55.230
+same selector and you already have this style property and value in your external success in the internal
+
+02:55.230 --> 02:57.090
+one you're going to override.
+
+02:57.090 --> 03:03.020
+Now see if I'm selecting the heading to and for having two I have no selections right now I have no
+
+03:03.020 --> 03:06.630
+see ISIS rules in the external one it's obviously not going to matter.
+
+03:06.710 --> 03:10.610
+So let's say font size is gonna be I don't know three arms then.
+
+03:10.760 --> 03:16.760
+This is just going to affect it because I don't have any styles there but if I would have some different
+
+03:16.760 --> 03:21.440
+stuff here it will gonna get overwritten and that's something important.
+
+03:21.440 --> 03:24.260
+Now we also have the inline six as I remember.
+
+03:24.290 --> 03:29.900
+So what about if we go to one of the heading ones and obviously this is gonna work the same on all of
+
+03:29.900 --> 03:35.330
+them but I'm not going to show you the way we do it in all of them because there's just a waste of time.
+
+03:35.450 --> 03:42.230
+So let's just look at the first one and heroes again change the color and let's use the green one.
+
+03:42.260 --> 03:44.670
+Now what do you think is going to happen right now.
+
+03:44.900 --> 03:46.820
+So let's save this and let's see.
+
+03:46.820 --> 03:48.740
+Mm hmm interesting.
+
+03:48.800 --> 03:52.840
+So we have the external one that had a color blue.
+
+03:52.940 --> 03:57.080
+Then we use the internal one and we basically said you know what.
+
+03:57.080 --> 03:59.190
+No it's gonna be red.
+
+03:59.270 --> 04:04.910
+And then last but not least we have the inline one which pretty much override both of them.
+
+04:04.910 --> 04:07.040
+And now we have the color green.
+
+04:07.070 --> 04:11.760
+So what you need to remember is that the inline one is gonna be the most strongest one.
+
+04:11.780 --> 04:17.060
+So whatever you're gonna write here within in line he is going to overwrite everything that you have
+
+04:17.060 --> 04:19.390
+with an internal or external.
+
+04:19.490 --> 04:23.490
+The same way with internal you will going to override the external one.
+
+04:24.080 --> 04:29.720
+And again this is gonna save you a lot of time when you're looking for some kind of bugs is to remember
+
+04:29.720 --> 04:32.860
+that in line one would be the most powerful one.
+
+04:32.900 --> 04:37.100
+Then we have the internal one and only then we have the external.

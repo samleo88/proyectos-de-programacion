@@ -1,0 +1,307 @@
+1
+
+00:00:00,000  -->  00:00:05,640
+Hey guys, welcome back. What we're going to do now is get a JSON response from
+
+2
+
+00:00:05,640  -->  00:00:12,210
+requests, and it's basically the same as
+just parsing regular JSON. Now what you
+
+3
+
+00:00:12,210  -->  00:00:19,199
+see on my screen here is the Google URL
+shortener, and if you go to developers.google,
+
+4
+
+00:00:19,199  -->  00:00:24,539
+if you go to this domain right here
+url-shortener/v1/getting_started
+
+5
+
+00:00:26,400  -->  00:00:32,669
+Woah, i'll put that link in the discussion
+on the side there. You'll see this page
+
+6
+
+00:00:32,669  -->  00:00:39,989
+basically that explains how to use the
+the shortener via well, first you have an
+
+7
+
+00:00:39,989  -->  00:00:44,250
+example using curl, we're going to go
+through and make this work with Python,
+
+8
+
+00:00:44,250  -->  00:00:49,379
+basically. So here's the URL that we need
+to post to right here, that's the
+
+9
+
+00:00:49,379  -->  00:00:55,920
+content-type, and then we also need to
+post this variable, and then whatever URL
+
+10
+
+00:00:55,920  -->  00:00:58,500
+we're trying to shorten.
+
+11
+
+00:00:58,500  -->  00:01:05,189
+So let's go ahead we're going to copy the
+URL of the URL shortener, I'm just going
+
+12
+
+00:01:05,189  -->  00:01:15,270
+to come up here and we're going to
+"import simplejson as json" first, and then we're going
+
+13
+
+00:01:15,270  -->  00:01:20,640
+to create a payload of data and what
+that and with that generally refers to
+
+14
+
+00:01:20,640  -->  00:01:26,850
+in programming is basically the data
+that you're sending to a URL, it's a
+
+15
+
+00:01:26,850  -->  00:01:30,479
+payload. So what we're going to do we're
+going to create that now. So the
+
+16
+
+00:01:30,479  -->  00:01:49,890
+"payload = {"longUrl":"  and that's going to be, let's go with...
+
+17
+
+00:01:54,390  -->  00:01:57,390
+I need a domain here...
+
+18
+
+00:01:58,290  -->  00:02:08,910
+this is not still up so it won't show if it
+
+19
+
+00:02:08,910  -->  00:02:15,060
+works or not. Now, okay, we need a domain that does work so let's just go ahead
+
+20
+
+00:02:15,060  -->  00:02:24,090
+and go to example.com, good stuff. So this is the URL we're
+
+21
+
+00:02:24,090  -->  00:02:29,700
+going to shorten. We should be able to
+access this from within our code
+
+22
+
+00:02:29,700  -->  00:02:36,450
+basically. So let's go ahead and remove this, paste that in there "http://example.com" So that's the
+
+23
+
+00:02:36,450  -->  00:02:39,720
+payload that we're going to set up, now we actually need to create the request. So
+
+24
+
+00:02:39,720  -->  00:02:53,280
+"r = requests.post( )" and the
+request URL is going to be that right
+
+25
+
+00:02:53,280  -->  00:03:02,489
+there, so let me copy that, set that to
+URL right there. So simply i'm going to
+
+26
+
+00:03:02,489  -->  00:03:06,989
+send "(url, )" and then the JSON data. What we're going to do is we're going to
+
+27
+
+00:03:06,989  -->  00:03:12,450
+"json=payload)"
+
+28
+
+00:03:18,130  -->  00:03:22,570
+So, what we're going to do here, and let's see if that works we may actually need to
+
+29
+
+00:03:22,570  -->  00:03:28,420
+convert this into JSON before sending
+it over as JSON and I believe this is
+
+30
+
+00:03:29,380  -->  00:03:34,780
+yeah, content type is JSON. So let's go ahead and add a header here in the
+
+31
+
+00:03:34,780  -->  00:03:49,390
+content-type and I add headers using
+requests, very similar, "headers = {"Content-Type":
+
+32
+
+00:03:49,390  -->  00:03:59,110
+"application/json"}" there we go.
+
+33
+
+00:03:59,110  -->  00:04:03,940
+So we've just built a request basically it's
+the same as this. We're sending over
+
+34
+
+00:04:03,940  -->  00:04:08,680
+headers telling it what content type it
+is, then we're also sending along data
+
+35
+
+00:04:08,680  -->  00:04:15,100
+and this is a JSON formatted, and we're
+accessing that URL. So, this basically
+
+36
+
+00:04:15,100  -->  00:04:17,799
+should work and we should be able to get
+a response, so
+
+37
+
+00:04:17,799  -->  00:04:23,320
+let's go ahead and "print(r.txt)" Let's
+see what we get is a response, let's go
+
+38
+
+00:04:23,320  -->  00:04:32,350
+ahead and run this. So as you can see we
+get an error that's in JSON format, so
+
+39
+
+00:04:32,350  -->  00:04:42,280
+we can actually load that string. Where
+is JSON, and then you can see it's
+
+40
+
+00:04:42,280  -->  00:04:52,240
+displayed a little different, I can go
+"["error"] ["code"]"
+
+41
+
+00:04:52,240  -->  00:05:02,950
+"code"])" As you can see it's able to
+traverse the Jason data that we're
+
+42
+
+00:05:02,950  -->  00:05:09,010
+getting back. Now, obviously, I haven't
+set up an API key for this URL so it's
+
+43
+
+00:05:09,010  -->  00:05:13,150
+going to give me that bad request,
+however we've sent all the data
+
+44
+
+00:05:13,150  -->  00:05:17,440
+along that and as you can see, let me go
+over here, if we didn't send the correct
+
+45
+
+00:05:17,440  -->  00:05:21,580
+information over it would actually be a
+different error code. It would basically
+
+46
+
+00:05:21,580  -->  00:05:25,030
+say the message required parameter is
+not included, and
+
+47
+
+00:05:25,030  -->  00:05:29,650
+that's because here in the URL in the
+browser we did not actually post any
+
+48
+
+00:05:29,650  -->  00:05:30,640
+data to it.
+
+49
+
+00:05:31,870  -->  00:05:36,490
+In our script here we do post the data and
+we post it as JSON, so it's giving us
+
+50
+
+00:05:36,490  -->  00:05:43,600
+not the error message that we
+didn't do it correctly, but just that the
+
+51
+
+00:05:43,600  -->  00:05:48,760
+daily use has been exceeded and that
+basically means that we would need to
+
+52
+
+00:05:48,760  -->  00:05:56,560
+set up an API code and the yeah, in
+order to get that work. So, that is how to
+
+53
+
+00:05:56,560  -->  00:06:02,290
+both send JSON data and to receive
+JSON data, and how to traverse it
+
+54
+
+00:06:02,290  -->  00:06:03,880
+using requests.

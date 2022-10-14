@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.510 --> 00:04.890
+These days it would be really hard to find a Web site without images.
+
+00:04.890 --> 00:09.280
+So maybe let's see how we can get images to our HMO.
+
+00:09.530 --> 00:13.340
+The issue is that first we would need to get an image to our system.
+
+00:13.470 --> 00:18.360
+So some kind of image that we would use first of all let me get rid of this paragraph.
+
+00:18.360 --> 00:22.360
+I can just delete it and save it in hours and there's gonna be nothing here.
+
+00:22.530 --> 00:25.410
+And now we're gonna go online and search for image.
+
+00:25.410 --> 00:27.000
+Now I can obviously do it.
+
+00:27.020 --> 00:31.050
+You're on the right hand side but I think it's gonna be easier for us to see if I'm gonna open up the
+
+00:31.050 --> 00:33.580
+new browser window somewhere.
+
+00:33.590 --> 00:36.340
+I'm gonna make it out to maximize it again.
+
+00:36.480 --> 00:41.460
+It's easier for you to follow along and let's say that we're going to search for some kind of image.
+
+00:41.700 --> 00:51.640
+So let's say are you Demi in Demi image and let's see someone's gonna come up instead of some kind of
+
+00:51.640 --> 00:56.930
+text we're gonna click on images and now we have plenty of images to choose from.
+
+00:56.980 --> 00:59.890
+Now in this case I'm gonna get this one.
+
+00:59.890 --> 01:05.440
+And in order to save it our machine we would need to use the save him in jazz.
+
+01:05.440 --> 01:07.570
+And this is gonna save the image.
+
+01:07.570 --> 01:09.520
+Now obviously this is gonna somewhere.
+
+01:09.520 --> 01:11.090
+Save it wherever we are.
+
+01:11.130 --> 01:16.260
+We'd like so in our case we would like to save it in the folder we're working on.
+
+01:16.570 --> 01:22.140
+Now you can save it in desktop if you want but eventually would need to have access in the HMO.
+
+01:22.600 --> 01:28.030
+So I would suggest right away navigating through HD in my folder or folder whatever you have.
+
+01:28.030 --> 01:31.500
+Or this examples and then save this image.
+
+01:31.640 --> 01:37.700
+Now in my case I'm going to call this you Demi and then this is gonna give it the PMG extension.
+
+01:37.780 --> 01:39.500
+So now I'm gonna save the image.
+
+01:39.520 --> 01:45.290
+And sure enough we have the image now getting the image was the first part and we can always think that
+
+01:45.300 --> 01:46.880
+we'll check it a nation email.
+
+01:46.930 --> 01:49.180
+Sure enough this is gonna be our image.
+
+01:49.180 --> 01:55.420
+Now we need to see how we can get it in document because on lefthand side we can see that we have new
+
+01:55.420 --> 01:56.350
+file.
+
+01:56.350 --> 02:04.330
+We have you Demi TNG our it is obviously not showing up in a document now the way we display or render
+
+02:04.330 --> 02:10.900
+images in a single document is you guessed it the image element.
+
+02:10.900 --> 02:15.090
+Now for the image element the actual syntax would be I g.
+
+02:15.300 --> 02:19.660
+I can just start typing I am G and then it gives us plenty of options.
+
+02:19.660 --> 02:22.960
+Now we can just go with the regular one and notice what happens.
+
+02:23.140 --> 02:29.100
+We are giving the image element and remember team image element was without a closing tag.
+
+02:29.590 --> 02:35.530
+So this was a self closing element or we're noticing two interesting things we're getting something
+
+02:35.530 --> 02:42.160
+called sauce and old now sauce an old R attribute.
+
+02:42.730 --> 02:48.600
+So whenever we are thinking about HDMI elements whatever is going to be in in between the tags is gonna
+
+02:48.610 --> 02:53.440
+be rendered however attributes would describe the element.
+
+02:53.530 --> 02:59.460
+So there's gonna be attributes there are specific to a specific element and then there's gonna be attributes
+
+02:59.460 --> 03:06.700
+that say that each and every element can have now for the image we have the source that you never saw
+
+03:06.690 --> 03:10.590
+such a boot is gonna tell us where are we gonna be looking for the image.
+
+03:10.620 --> 03:16.520
+Because obviously for HD the email actually Mel would need to know where to get the image that's going
+
+03:16.520 --> 03:21.950
+to be rendered now alternative is gonna be if we cannot render the image for some reason.
+
+03:22.290 --> 03:26.500
+So let's say the path is wrong or something is not working correctly.
+
+03:26.700 --> 03:28.520
+Then this text is gonna be displayed.
+
+03:28.770 --> 03:33.020
+Now as always I thing is gonna be easier for me to show you how this would work.
+
+03:33.150 --> 03:39.170
+So if we know that we have this Udemy that page now in a source we would need to specifically say path
+
+03:39.850 --> 03:42.540
+no path is where this image is located.
+
+03:42.750 --> 03:47.460
+And if the image is located in the same folder we just need to have forward slash.
+
+03:47.460 --> 03:49.220
+And check this out what happened.
+
+03:49.230 --> 03:50.630
+So now we have two options.
+
+03:50.880 --> 03:56.690
+We have either indexation the amount which is the file that we work on and we have you at the MEP entry.
+
+03:56.760 --> 04:02.520
+So if you are in the image element and you would like to render this you dummy image.
+
+04:02.520 --> 04:03.990
+Which one do you think you would have to pick.
+
+04:04.680 --> 04:06.530
+Indexation MLA or your MEP entry.
+
+04:07.080 --> 04:09.030
+I think that would be your MEP entry.
+
+04:09.200 --> 04:12.570
+So once I say this notice what happened.
+
+04:12.570 --> 04:14.810
+Sure enough right now I'm getting my image.
+
+04:14.880 --> 04:20.490
+However let's say first of all I'm gonna change this and I'm gonna say for some reason I'm gonna mistakenly
+
+04:20.490 --> 04:23.170
+say that this is going to be J not be energy.
+
+04:23.190 --> 04:25.820
+First of all then let's see what happens.
+
+04:25.950 --> 04:28.980
+The image is not displayed because our path is wrong.
+
+04:29.100 --> 04:29.850
+It's not correct.
+
+04:30.160 --> 04:32.870
+However who would have the alternative here.
+
+04:33.050 --> 04:38.170
+And we're gonna say the image of you dummy.
+
+04:38.340 --> 04:40.890
+And sure enough now we're gonna have the image of you dummy.
+
+04:41.580 --> 04:45.400
+So this is gonna be displayed if we cannot access the image.
+
+04:45.400 --> 04:54.120
+This is gonna be like a alternative syntax if we cannot render the image properly in the HMO.
+
+04:54.120 --> 04:55.860
+First of all let me fix this.
+
+04:56.040 --> 04:58.510
+Let's say that this will gonna be PMG.
+
+04:58.530 --> 05:00.810
+And again we're getting back our image.
+
+05:00.930 --> 05:04.470
+So let's quickly reiterate what we learn in this video.
+
+05:04.470 --> 05:10.560
+First and foremost if we would need the image we would need to get a image from somewhere.
+
+05:10.590 --> 05:13.620
+Now that could be from Google like we just did.
+
+05:13.650 --> 05:20.100
+Later on we're going to look at a alternative sources how we can get image then once we have the image
+
+05:20.100 --> 05:24.650
+in our project in order to access the image we would need to use the image tags.
+
+05:24.870 --> 05:29.280
+So the image element now image element is gonna have attributes.
+
+05:29.310 --> 05:34.010
+Now one of the attributes is gonna be the source and the second was gonna be alternative.
+
+05:34.150 --> 05:40.440
+Now for the source we need to show the path and if the path is gonna be in the same folder we just use
+
+05:40.470 --> 05:43.660
+a forward slash and then whatever name of damage.
+
+05:43.680 --> 05:48.710
+However we also are going to have suggestions from the Visual Studio code.
+
+05:48.810 --> 05:54.660
+So if we're really not trying hard it's kind of hard to mess it up and then alternative is gonna be
+
+05:54.660 --> 05:55.220
+displayed.
+
+05:55.260 --> 05:57.990
+If the email cannot find the image.

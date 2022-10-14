@@ -1,0 +1,583 @@
+WEBVTT
+
+00:00.390 --> 00:04.080
+Okay so we have our aged here male 40 about S..
+
+00:04.080 --> 00:05.420
+How about safe sex.
+
+00:05.620 --> 00:07.540
+I think we can start working on it.
+
+00:07.730 --> 00:17.130
+And here again we're gonna do the same while Dale was gonna say bow section or just about and we can
+
+00:17.130 --> 00:21.280
+copy and paste it and off about and let's start adding now.
+
+00:21.660 --> 00:24.110
+The first style technically is gonna be the global one.
+
+00:24.300 --> 00:25.900
+And this is gonna be really up to you.
+
+00:25.950 --> 00:29.930
+You want to keep it in the About section or you can keep it in global.
+
+00:29.940 --> 00:32.370
+Well first of all you need to work on and like I said.
+
+00:32.370 --> 00:39.120
+The reason for this is because there is gonna be a section underclass and this is gonna be used for
+
+00:39.180 --> 00:42.860
+our land and not only in this section but in few other.
+
+00:43.360 --> 00:48.600
+No way they the way this is gonna work I'm gonna say section and we're looking for the class of center
+
+00:49.110 --> 00:51.090
+and I would like to add some padding.
+
+00:51.120 --> 00:54.990
+Now one thing that's gonna be annoying right now that you're not going to be able to see anything because
+
+00:54.990 --> 00:56.860
+of the actual image.
+
+00:56.910 --> 01:03.210
+So let me first add the padding and then you'll see that there is gonna be padding but this image is
+
+01:03.210 --> 01:05.630
+quite district so why don't we do this.
+
+01:05.640 --> 01:12.480
+I know that there is gonna be a picture image of about picture class was for image and I'm just like
+
+01:12.480 --> 01:18.990
+to add right now with 100 percent as well as the display block on display block at the moment is not
+
+01:18.990 --> 01:24.870
+necessary but I just find it easier if we can see everything that we're doing instead of this massive
+
+01:24.870 --> 01:28.090
+image so let me write again this play.
+
+01:28.090 --> 01:34.680
+BLOCK And now we're not gonna have this annoying margin in the bottom back to the sections and so now
+
+01:34.680 --> 01:38.870
+I'm adding the padding top and bottom as well.
+
+01:39.230 --> 01:43.970
+Remember that this is for all the sections that we're gonna be using whatever we're gonna be using Section
+
+01:43.980 --> 01:44.300
+Sander.
+
+01:44.300 --> 01:45.650
+This is gonna happen.
+
+01:45.650 --> 01:52.040
+And here I would like to have some kind of width so let's say with it is going to be like 80 view with
+
+01:52.640 --> 01:54.500
+as well as I would like to use.
+
+01:54.530 --> 01:56.420
+And you know what I didn't delete it.
+
+01:56.510 --> 01:58.510
+Now this is gonna be a review with.
+
+01:58.670 --> 02:05.180
+However since we're dealing with the screen a percentage of the screen I also would like to set it up
+
+02:05.180 --> 02:06.950
+the max with something to say.
+
+02:06.950 --> 02:11.430
+This should not get bigger than 11 hundred and seventy pixels.
+
+02:11.430 --> 02:16.250
+Now this is the reason as we're looking at the finished project that even if I'm gonna make this bigger
+
+02:16.700 --> 02:22.970
+the sections is let's say about section product section and here to contact session all of them are
+
+02:22.970 --> 02:26.420
+gonna have the same layout because we're using this section center.
+
+02:26.420 --> 02:27.930
+That's the whole reason behind.
+
+02:28.490 --> 02:34.740
+Now we also would like to place it always in the center and we have an option of margin zero.
+
+02:34.750 --> 02:35.370
+No no no.
+
+02:35.780 --> 02:38.520
+So this way our section is gonna be in center.
+
+02:38.720 --> 02:43.760
+And technically as you're looking at it you're like I don't know does this really affect.
+
+02:43.760 --> 02:48.640
+Yeah it does affect it does affect you even though we cannot see clearly maybe let's say background
+
+02:48.650 --> 02:55.500
+red or anything like that but it does affect our layout and you'll see how much more beneficial it is.
+
+02:55.610 --> 02:58.440
+Again you can keep this in the adult section.
+
+02:58.610 --> 03:06.560
+What I'm gonna do do is I'm gonna get it to a global because in theory at least this is a global one
+
+03:06.830 --> 03:10.490
+because we're using it throughout multiple sections.
+
+03:10.520 --> 03:12.330
+Again it's not really a big deal.
+
+03:12.350 --> 03:17.120
+You can keep it in about but in some cases might be where you're like looking for it and you're like
+
+03:17.480 --> 03:21.980
+OK now I need to remember which section it was in so where I had to see ss.
+
+03:22.100 --> 03:24.100
+Is that like a deal breaker.
+
+03:24.110 --> 03:25.720
+Depends how big is your project.
+
+03:25.730 --> 03:28.770
+Probably the bigger the project the harder it's going to be look for it.
+
+03:28.780 --> 03:29.130
+OK.
+
+03:29.300 --> 03:33.800
+So what else we have after the picture where you're not before the picture.
+
+03:33.810 --> 03:36.040
+Let's work on these two columns.
+
+03:36.200 --> 03:37.370
+Now what was the columns.
+
+03:37.370 --> 03:39.700
+One was about image the article.
+
+03:39.860 --> 03:41.670
+And second one was they are blocked in front.
+
+03:41.800 --> 03:46.520
+Now what I would like to do right now is just add some kind of margin or I'm sorry padding in between
+
+03:46.520 --> 03:52.490
+them because right now I have the image that would be about image and then I have this about our station
+
+03:52.910 --> 03:54.710
+that's gonna be already in full.
+
+03:54.830 --> 04:00.590
+So what I will do over here is I'm going to say about class and the class name was the image then comma.
+
+04:00.590 --> 04:07.400
+So I'd like to select two of them about info and for both of them let's add some padding top bottom
+
+04:07.400 --> 04:10.500
+is going to be to our arms and left all right there's gonna be zero.
+
+04:10.590 --> 04:12.450
+Now I was gonna have some padding in between.
+
+04:13.100 --> 04:17.810
+Okay so let's start working with this container because like I said there's gonna be some things that
+
+04:17.810 --> 04:21.300
+I want to do with an image but I do want to have the container.
+
+04:21.620 --> 04:24.880
+So first of all let's start working with a background.
+
+04:25.220 --> 04:32.080
+So let's say about that was the container picture glass container.
+
+04:32.150 --> 04:36.740
+And let's add some background now the background is gonna be primary color and I can tell you right
+
+04:36.740 --> 04:40.260
+away if everything is correct you're not gonna be able to see this color.
+
+04:40.540 --> 04:45.880
+So let must have it and everything is correct and we cannot see how or if we remove this block.
+
+04:46.040 --> 04:47.400
+Now this was gonna happen.
+
+04:47.490 --> 04:52.000
+There is gonna be this green color and there is the reasoning for this madness.
+
+04:52.040 --> 04:58.090
+Now let me again on come on this and now I can see the call also I would like to have some water some
+
+04:58.080 --> 05:04.550
+would say border zero point five or M So how thick is the border zero point five.
+
+05:04.550 --> 05:06.040
+What is the type solid.
+
+05:06.230 --> 05:12.350
+And then we're gonna be looking again for the primary color primary color is it gonna be our color.
+
+05:12.350 --> 05:14.540
+So now we're adding nice border all around.
+
+05:14.750 --> 05:21.600
+Also we'd like to have a little bit of border radius border radius and then we're looking for one area.
+
+05:21.690 --> 05:26.780
+I was gonna leave a comment that there is gonna be an awful but maybe for now I'm not gonna add it just
+
+05:26.780 --> 05:32.810
+so we can kind of make a mistake and then once we're gonna fix it then we're gonna figure out what is
+
+05:32.810 --> 05:33.850
+the mistake.
+
+05:33.850 --> 05:35.980
+Now let me say that this is going to be awful.
+
+05:36.290 --> 05:39.730
+And so far this is what I'm having with my container.
+
+05:39.950 --> 05:43.600
+I do want to add a little bit different setup for the picture.
+
+05:44.090 --> 05:46.000
+So first I would like to have some transitioning.
+
+05:46.340 --> 05:51.740
+So as I'm hovering I would like to make this picture big and I know that already for this I can do the
+
+05:51.740 --> 05:52.780
+transitioning.
+
+05:52.850 --> 05:59.180
+We already have the variable main transitioning like we had already before and now let's set up the
+
+05:59.180 --> 06:06.940
+hovering color it is important that hovering is going to happen as I'm hovering over the container because
+
+06:06.940 --> 06:08.890
+the container is the parent container.
+
+06:09.760 --> 06:11.590
+Let me find it here.
+
+06:11.620 --> 06:15.010
+We have the parent container and then we have our image.
+
+06:15.040 --> 06:19.150
+What I want is as I'm hovering over again this parent container.
+
+06:19.300 --> 06:21.610
+Then some changes are gonna be applied today.
+
+06:22.000 --> 06:23.170
+Oh this is gonna work.
+
+06:23.330 --> 06:30.280
+Well we're gonna say and we already have covered this about picture that was a name and we're looking
+
+06:30.280 --> 06:34.020
+for a container that has them hovering over this container.
+
+06:34.030 --> 06:39.700
+I would like to do something to this import picture now that something is gonna be first of all transformation
+
+06:40.150 --> 06:42.580
+and this name means to us they match.
+
+06:42.580 --> 06:45.510
+So here I just had a misspelling so this wouldn't work.
+
+06:45.790 --> 06:49.600
+And then we're gonna say first of all opacity is gonna go to zero point five.
+
+06:50.050 --> 06:51.250
+So what's gonna happen.
+
+06:51.250 --> 06:57.270
+Well we were all gonna be making the image more transparent and you'll see what's gonna happen as we're
+
+06:57.280 --> 07:00.630
+doing as well as we would like to transform it a little bit.
+
+07:01.210 --> 07:02.530
+And we're gonna say again scaling.
+
+07:02.560 --> 07:03.730
+So we're gonna make this bigger.
+
+07:03.730 --> 07:09.910
+X and y direction by one point to what do you think is going to happen right now as I'm hovering over
+
+07:09.910 --> 07:11.670
+the container notice.
+
+07:11.690 --> 07:15.120
+Well there's one nice thing that's working and what.
+
+07:15.150 --> 07:20.500
+But now the nice thing we can already see that there is some kind of background not a bad thing is that
+
+07:21.310 --> 07:26.860
+the image is obviously getting bigger even though we want that we don't want to make it bigger than
+
+07:26.860 --> 07:27.670
+the actual container.
+
+07:28.060 --> 07:30.440
+So this is the reason why we're using here overflow.
+
+07:30.610 --> 07:32.160
+And then we have the value of it.
+
+07:32.590 --> 07:37.550
+Now what's gonna happen is as I'm hovering the image is gonna get bigger within the container.
+
+07:37.570 --> 07:41.590
+So it's not going to be overflowing but we're also having this nice background.
+
+07:41.590 --> 07:44.550
+So even though in the beginning we were not able to see the background.
+
+07:44.610 --> 07:47.040
+You're like well why is this do it out in the background.
+
+07:47.200 --> 07:48.640
+There's no real difference.
+
+07:48.640 --> 07:54.770
+What I want is as I'm hovering I can change the opacity of the image so the image becomes more transparent.
+
+07:54.910 --> 07:56.500
+And now it can see the color.
+
+07:56.530 --> 07:59.620
+So that was the whole reasoning behind this man.
+
+07:59.740 --> 08:01.560
+Then we have again the global.
+
+08:01.630 --> 08:06.820
+This would be the section title and we can write it he is here or I'm just gonna head over right away
+
+08:06.820 --> 08:13.900
+to my Global's and we're gonna add these tiles because again I do think that since we're gonna be reusing
+
+08:14.620 --> 08:18.580
+all throughout the different sections we might as well write them into global.
+
+08:19.000 --> 08:28.980
+So here we have section dash subtitle title subtitle title and then for the subtitle 1 First of all
+
+08:28.990 --> 08:35.820
+font size I yams so the fans are going to be bigger font family I would want slanted so fun family is
+
+08:35.820 --> 08:42.750
+gonna be the slanted variable so not secondary color and I'm getting secondary color anyway so I'd want
+
+08:42.780 --> 08:46.740
+a slanted next and that's gonna be my fun family.
+
+08:46.740 --> 08:48.420
+Also one some letter spacing.
+
+08:48.420 --> 08:52.220
+Now what was our typical letter spacing that we had in our variable.
+
+08:52.350 --> 08:54.600
+So that's what it can be getting.
+
+08:54.750 --> 09:02.280
+I also would want some text transformation text transform capitalized as well as we're gonna add some
+
+09:02.280 --> 09:08.300
+different color so we say color is gonna be primary so primary color.
+
+09:08.500 --> 09:12.370
+And yeah this is gonna be our subtitle what's gonna be with the title.
+
+09:12.390 --> 09:13.550
+This is gonna be a little bit easier.
+
+09:14.820 --> 09:20.240
+We'll just gonna add section title and then here we're gonna be looking for what.
+
+09:20.760 --> 09:25.290
+Well we're gonna have fun size sized answers to our.
+
+09:25.350 --> 09:29.160
+So fans are gonna be a little bit bigger and Tex transform uppercase.
+
+09:29.160 --> 09:35.240
+Let me scroll down a little with maybe you can see better than uh Tex transform and was gonna transform
+
+09:35.240 --> 09:36.210
+it uppercase.
+
+09:36.210 --> 09:37.680
+Now this is gonna be our title.
+
+09:37.750 --> 09:38.260
+Okay.
+
+09:38.460 --> 09:40.270
+I think this is good enough.
+
+09:40.410 --> 09:45.990
+We can head over back again to where we were working because we only have one thing that we need to
+
+09:45.990 --> 09:51.720
+work on remember that was the about text the paragraph that we added and then we're gonna start dealing
+
+09:51.720 --> 09:56.010
+again with uh responsive layout because we were gonna be floating this.
+
+09:56.010 --> 10:00.900
+I'm gonna head over again back to where I finished here and we're gonna say that there is gonna be a
+
+10:00.900 --> 10:02.000
+class.
+
+10:02.220 --> 10:08.580
+So classes are gonna be about text and for the text it's gonna be very simply we're gonna say margin
+
+10:09.030 --> 10:12.570
+is gonna be top bottom one harem and left and right zero.
+
+10:12.720 --> 10:17.880
+So we're gonna add a little bit of margin but also let's add max width because again this is gonna be
+
+10:17.880 --> 10:20.880
+the case where from and you know what I can just get her on this.
+
+10:20.880 --> 10:25.050
+We don't need to clear fix but this does not look as good as I want.
+
+10:25.620 --> 10:32.670
+So what we're gonna be having this text spread out and I think that's a better fix if we add the max
+
+10:32.670 --> 10:36.390
+with max width there's gonna be 26.
+
+10:36.470 --> 10:39.870
+And like I said before this is not a magic number.
+
+10:40.000 --> 10:42.700
+I just decided that this is gonna look better.
+
+10:42.700 --> 10:48.640
+So in this case if I'm looking at bigger screen this looks to me better than what we had before.
+
+10:48.640 --> 10:53.430
+Now let's start floating this and let's start applying some kind of values.
+
+10:53.530 --> 11:01.540
+So what I'm going to say here is that for all we need media query media and we're gonna say screen and
+
+11:01.540 --> 11:08.890
+what we can do here while we can say that media screen starting from nine hundred ninety two would say
+
+11:08.950 --> 11:16.650
+and I'm going to be starting from Maine with and let's say nine hundred ninety two pixels that's gonna
+
+11:16.660 --> 11:24.520
+be about and here what I would like to do is for both of these articles obviously for both of my columns
+
+11:25.030 --> 11:32.800
+I would like to follow them and I would want to follow them to the left with a with the 50 percent.
+
+11:32.800 --> 11:36.400
+So let's do this let's say about image.
+
+11:36.490 --> 11:42.260
+Can mean one thing and then comma and also we can do about in full.
+
+11:42.490 --> 11:49.030
+So both of the columns and let's follow them to the left first as well as let's set up the width of
+
+11:49.060 --> 11:49.950
+50 percent.
+
+11:50.170 --> 11:53.660
+Because I would want them actually side by side.
+
+11:54.040 --> 11:55.300
+Let's see in a bigger screen.
+
+11:55.300 --> 11:57.890
+I think this is gonna be a bigger better scene.
+
+11:57.910 --> 11:58.920
+Let me go back again.
+
+11:58.930 --> 12:01.930
+This would be before we get to nine hundred ninety two.
+
+12:02.170 --> 12:08.650
+But the moment we get to 992 we do have a two column layer color if you're looking at it you're like
+
+12:08.890 --> 12:10.560
+Yeah I looks okay.
+
+12:10.570 --> 12:15.590
+I mean you have two columns and you obviously don't have any kind of issues here but like I don't know
+
+12:15.590 --> 12:20.500
+what's something floating right next to it but I probably don't want them side by side.
+
+12:21.010 --> 12:25.940
+I would want to have some kind of padding or something like that and we can definitely do that.
+
+12:26.060 --> 12:31.740
+Well let's say from 990 to remember initially we gave them the pairing of two arms.
+
+12:31.750 --> 12:33.760
+Now why don't we add something here.
+
+12:33.760 --> 12:38.770
+Why don't we say that padding for both of them is gonna be two arms all around.
+
+12:38.770 --> 12:41.370
+And we know the shortcut is gonna be two arms.
+
+12:41.370 --> 12:47.440
+So what I'm saying here is all the sides is gonna have two arms all around once we say right now we
+
+12:47.440 --> 12:50.940
+have a nice planet and this is our can basically fix this.
+
+12:51.080 --> 12:57.490
+And now this is gonna look nicer where both of them as they get side by side are gonna have some kind
+
+12:57.490 --> 12:58.020
+of padding.
+
+12:58.150 --> 13:00.550
+So there's gonna be some distinction in between them.
+
+13:00.760 --> 13:07.360
+So that way we can have two column layout which is gonna look really nice exactly like we work before
+
+13:07.370 --> 13:08.530
+and the final project.
+
+13:08.680 --> 13:11.800
+And now we can move on and start working on our next section.

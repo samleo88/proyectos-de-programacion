@@ -1,0 +1,913 @@
+WEBVTT
+
+00:00.480 --> 00:01.030
+Excellent.
+
+00:01.030 --> 00:04.570
+Once we have our HDMI outlet styled is bad boy.
+
+00:04.710 --> 00:10.350
+So we're gonna head over to Stiles he says we have end of hero.
+
+00:10.440 --> 00:14.910
+So what we could do is just copy and pasted two times.
+
+00:14.910 --> 00:17.930
+Let's in fact change this around.
+
+00:18.000 --> 00:28.070
+Say about we can write section we can just say about it doesn't really matter let's say about like so.
+
+00:28.080 --> 00:29.760
+Let's proceed.
+
+00:29.760 --> 00:32.250
+First of all remember the about class.
+
+00:32.250 --> 00:33.390
+And then we had.
+
+00:33.390 --> 00:40.540
+Well we're gonna use this class to set up some background some say background is going to be VR.
+
+00:40.750 --> 00:47.730
+And as you see we're using for the whole document for the body we have the background of of it.
+
+00:48.360 --> 00:51.190
+So in this case I'm gonna go for my main way.
+
+00:51.850 --> 00:54.180
+Remember we had that particular color.
+
+00:54.270 --> 01:01.070
+So my about section is going to be white instead of the typical off white.
+
+01:02.070 --> 01:06.890
+And then we have multiple items that I'm gonna set up within a global one.
+
+01:07.320 --> 01:12.210
+But again he's just a class name so you can access it all throughout the project.
+
+01:12.210 --> 01:14.240
+Even if you don't set it up in a.
+
+01:14.460 --> 01:16.530
+But I just prefer to do it this way.
+
+01:16.950 --> 01:22.510
+So one by one I'm gonna add the comments of what is being added within the global.
+
+01:22.590 --> 01:27.220
+So I'm gonna say section added to include.
+
+01:27.300 --> 01:32.430
+And then you know what I'm gonna copy and paste it in fact two more times.
+
+01:32.430 --> 01:36.020
+So title as well as the section center.
+
+01:36.480 --> 01:38.460
+So it may change this one around let's say.
+
+01:38.460 --> 01:46.580
+Title added also to the Global's as well as the section center of section and center.
+
+01:46.590 --> 01:52.970
+So let's head over to a Global's and one by one we can add these particular styles.
+
+01:53.160 --> 01:59.510
+So we had our buttons so we might as well also maybe add the comment of buttons.
+
+01:59.550 --> 02:01.640
+So these are gonna be our buttons styles.
+
+02:01.680 --> 02:05.070
+But then right after these buttons I'm going to say you know what.
+
+02:05.230 --> 02:08.080
+There's going to be some global style first section.
+
+02:08.220 --> 02:14.820
+And again remember within the next day she email we had this particular section correct.
+
+02:14.820 --> 02:19.170
+So we had a section and also about class.
+
+02:19.170 --> 02:22.480
+Now as far as about class we already added the background color.
+
+02:22.560 --> 02:25.610
+So what's gonna be with this global section class.
+
+02:25.640 --> 02:29.150
+Well we are just going to add a little bit of padding.
+
+02:29.280 --> 02:34.920
+We're gonna say padding is going to be top bottom five arms and then zero.
+
+02:34.920 --> 02:38.620
+So each and every time we would want to create a new section.
+
+02:38.790 --> 02:44.460
+I'm just gonna go grab this global class and just had it for my patterns so that way I don't have to
+
+02:44.460 --> 02:45.760
+repeat myself.
+
+02:45.810 --> 02:48.480
+Then right after the section we have the title.
+
+02:48.750 --> 02:54.830
+So let's write title and as far as title it was wrapped in the title wrapper.
+
+02:54.870 --> 02:58.710
+So first let's target title rapper and let's just write.
+
+02:58.710 --> 03:02.280
+Margin bottom is going to be two areas.
+
+03:02.370 --> 03:03.050
+That's it.
+
+03:03.120 --> 03:05.550
+We have right away the margin in the bottom.
+
+03:05.670 --> 03:10.240
+Then we also add a title class that's where we have all our text.
+
+03:10.260 --> 03:13.300
+So first let's align it in the center.
+
+03:13.360 --> 03:13.830
+That's right.
+
+03:13.830 --> 03:20.630
+Text align center text transform why don't we set it up as a uppercase.
+
+03:20.670 --> 03:26.660
+So all our titles are going to be uppercase font size why don't we change this around a little bit and
+
+03:26.670 --> 03:31.820
+let's write font size is going to be two point six harems.
+
+03:31.830 --> 03:38.130
+Now here's the question if you would like to set up in fact your heading whatever you have for heading
+
+03:38.490 --> 03:41.250
+let's say having two to two point six.
+
+03:41.250 --> 03:42.300
+Of course you can do that.
+
+03:42.720 --> 03:47.910
+So if I'm going to head over back and I can see that I have this particular heading you could technically
+
+03:47.910 --> 03:51.330
+just set this up as a two point six.
+
+03:51.420 --> 03:57.720
+Right now in this case I'm just using this for the title because that's just my preference.
+
+03:57.720 --> 03:59.180
+You don't have to do it this way.
+
+03:59.280 --> 04:04.860
+Course you can use the one in this case I'm just showing that even though you set up already some kind
+
+04:04.860 --> 04:08.770
+of height if you would like to override it you can always do that.
+
+04:08.910 --> 04:17.430
+And let's also write maybe a bigger letter spacing let's write letter spacing is going to be zero point
+
+04:17.430 --> 04:19.250
+five reams.
+
+04:19.470 --> 04:26.570
+And then last thing that I would like to do for my title is set up the color for the second text.
+
+04:26.580 --> 04:31.940
+Remember we had two of them we had the title that was just our heading to.
+
+04:31.950 --> 04:38.130
+But then also we have a subtitle where we just place one piece of our text and I would like to give
+
+04:38.130 --> 04:39.690
+it a different color.
+
+04:39.870 --> 04:41.820
+So let's write color.
+
+04:42.250 --> 04:46.820
+And I'm going to go for primary like so there you go.
+
+04:46.820 --> 04:48.670
+That is our title now.
+
+04:48.710 --> 04:55.910
+Lastly why don't we set up our section center so our section centers are gonna be our parent containers
+
+04:55.910 --> 04:57.230
+for the Flex box.
+
+04:57.410 --> 05:02.960
+And as far as the Flex barracks properties we're gonna set them up for each and every section separately
+
+05:03.380 --> 05:05.780
+because of course there's going to be different layout.
+
+05:05.900 --> 05:12.920
+However as far as the width of the actual section as well as the margin we're going to store this in
+
+05:12.920 --> 05:15.550
+the section center generic class.
+
+05:15.740 --> 05:21.760
+So that's the reason why after the title I'm gonna write section center.
+
+05:21.800 --> 05:29.140
+Let's target the class section center first of all let's set up some kind of with let's say that the
+
+05:29.150 --> 05:34.050
+width is going to be 85 percent of the width of the screen.
+
+05:34.070 --> 05:38.430
+That's the reason why I'm going to use view widths like so.
+
+05:38.450 --> 05:45.530
+And then let's also place some margins so top margin is going to be for our OEM's left and right is
+
+05:45.560 --> 05:46.670
+going to be autumn.
+
+05:46.790 --> 05:52.640
+That's the reason it's going to be in a center and the bottom one is going to be two areas.
+
+05:52.680 --> 05:53.620
+There you go.
+
+05:53.630 --> 06:00.290
+Now we have our section center the generic class that we're going to reuse all throughout the project.
+
+06:00.290 --> 06:08.120
+Now lastly out out I would like to add some Max with for this particular div because I wouldn't want
+
+06:08.120 --> 06:13.880
+it to be bigger than one thousand one hundred and seventy pixels.
+
+06:14.050 --> 06:20.090
+Now it clearly cannot see that right now because of course this is a extra small screen size but if
+
+06:20.090 --> 06:25.550
+we're going to head over back to our main project in if I'm going to zoom out you're going to notice
+
+06:25.550 --> 06:33.570
+that all my sections in fact are not going to be spanning more than eleven hundred seventy pixels.
+
+06:33.570 --> 06:39.140
+And the reason for that because we do have the genera class in which we are going to control the width
+
+06:39.560 --> 06:40.830
+of our sections.
+
+06:40.880 --> 06:49.280
+Now once we're done in fact setting up everything here we're going to head over back to our about and
+
+06:49.280 --> 06:50.720
+we're going to keep on working.
+
+06:50.720 --> 06:56.240
+And again this was just added for your understanding if you don't want to have these comments by all
+
+06:56.240 --> 07:01.910
+means you can delete them now first and foremost notice we have right now the image as well as the info
+
+07:02.400 --> 07:07.200
+and first of all for both of them I would like to set up some kind of margin in the bottom.
+
+07:07.210 --> 07:14.280
+Now remember the class names about I am G comma so I'm selecting both of them and about info.
+
+07:14.740 --> 07:15.420
+OK.
+
+07:15.500 --> 07:20.410
+Those were my class names and I'm gonna write margin bottom.
+
+07:20.660 --> 07:23.090
+Let's say for our alums.
+
+07:23.160 --> 07:24.840
+So now we have the bottom.
+
+07:24.860 --> 07:28.490
+Now if that's too big of course you can write three are Ms.
+
+07:28.490 --> 07:30.460
+I mean it's really up to you.
+
+07:30.530 --> 07:33.930
+I'm going to go with four our alums like so.
+
+07:33.930 --> 07:35.600
+And then what else we have.
+
+07:35.620 --> 07:42.610
+Well I would like to style in fact this particular heading three guys we have explored and different.
+
+07:43.250 --> 07:50.690
+And if you previously noticed when we were working let's say within the hero I added to a heading one
+
+07:50.990 --> 07:51.920
+a class.
+
+07:52.160 --> 07:57.680
+Now that is my preference where as I'm working I like to in fact set up the classes.
+
+07:57.680 --> 08:03.020
+However of course you're not limited that you could let's just say if you know the tearing through is
+
+08:03.020 --> 08:09.470
+sitting within the about info you could write something like this where you have about info and then
+
+08:09.470 --> 08:17.410
+we're targeting the heading three and then we go with text transform and we just set it up as an uppercase.
+
+08:17.600 --> 08:19.530
+We could do it this way.
+
+08:19.610 --> 08:22.650
+However my preference is always setting up the classes.
+
+08:22.670 --> 08:29.120
+But let's say if you don't like the fact that I keep on adding classes within my email which sometimes
+
+08:29.120 --> 08:35.570
+when I'm recording the screen crest I could think that maybe you could find that annoying where maybe
+
+08:35.570 --> 08:41.420
+not annoying maybe just a little bit clearer to see where we don't have this class where you just have
+
+08:41.420 --> 08:45.060
+to having three and then you have your particular setup.
+
+08:45.530 --> 08:51.440
+But I like to in fact add classes so normal let's say for descending 3 I would add some kind of class.
+
+08:51.470 --> 08:56.930
+I would say about in full title or something like that because that allows me later on if I change something
+
+08:56.930 --> 09:02.840
+if I change let's say my age the amount the element that is being displayed I don't have to change the
+
+09:02.840 --> 09:03.440
+class.
+
+09:03.500 --> 09:03.850
+Correct.
+
+09:03.840 --> 09:05.450
+The class can stay the same.
+
+09:05.450 --> 09:07.450
+And those styles are still applied.
+
+09:07.490 --> 09:15.010
+Again that is my preference both work of course if I'm selecting this about boring for the having three
+
+09:15.320 --> 09:16.930
+then of course I can apply the styles.
+
+09:17.570 --> 09:21.530
+So I just wanted to show you that there's multiple ways that we can do that.
+
+09:21.560 --> 09:25.620
+So don't think that you specifically need to repeat everything that I'm doing.
+
+09:25.640 --> 09:29.230
+Course you could just target the hero and then having one.
+
+09:29.240 --> 09:35.750
+Now my preference is to set up these classes because I like working like that better but again that
+
+09:35.750 --> 09:37.370
+is just my preference.
+
+09:37.370 --> 09:42.930
+And you also probably known as that right away as we added these programs we didn't have to do anything.
+
+09:43.070 --> 09:49.310
+And the reason for that is very so this is the benefit of using the global stocks where we already set
+
+09:49.310 --> 09:51.700
+up everything pretty much for all the programs.
+
+09:51.700 --> 09:54.770
+So unless I would like to change something that's it they're done.
+
+09:54.830 --> 09:55.680
+We have the line height.
+
+09:55.690 --> 10:01.690
+We have a font weight as well as we have the margin in the bottom which in my case again I find that
+
+10:01.780 --> 10:08.740
+much more easier to work because that way I just set it up in one place and that way I don't have to
+
+10:08.860 --> 10:14.740
+add the same styling or maybe a little bit different styling for each and every section that will work.
+
+10:15.220 --> 10:21.200
+Now let's head over back to the global because remember we had the primary one we had the primary button.
+
+10:21.370 --> 10:25.200
+And what I would like to do right now is remember we had a button white.
+
+10:25.210 --> 10:27.970
+So we have already most of our styles.
+
+10:28.060 --> 10:29.340
+So I'm gonna add comma.
+
+10:29.480 --> 10:31.910
+Then as the right primary.
+
+10:32.050 --> 10:37.150
+So this particular button of course is going to be hidden right now because we're using the main white.
+
+10:37.150 --> 10:43.630
+So I would like to use all of the styles that I already have for the button white but we're going to
+
+10:43.630 --> 10:51.310
+change the color and let's add a comment button primary or primary button and then let's just write
+
+10:51.430 --> 10:54.860
+for the button primary what I would like.
+
+10:54.860 --> 11:03.770
+Well let's start with a background what's right var primary color like so so now I have my background.
+
+11:03.770 --> 11:12.890
+Then maybe let's add a color and color is going to be white so far and we're gonna go with white colors
+
+11:13.030 --> 11:25.130
+main white and then also white and we add a different border color so let's ride border color and we're
+
+11:25.130 --> 11:30.290
+gonna go with the primary one because as we're hovering there's gonna be a little bit of different styling
+
+11:30.980 --> 11:40.110
+and then also let's set a button primary hover hover on as far as Button is concerned what we're gonna
+
+11:40.130 --> 11:47.570
+do is first of all background is gonna be transparent for my primary button as I'm hovering as well
+
+11:47.570 --> 11:51.770
+as the color is gonna change back to a primary color.
+
+11:51.980 --> 11:56.140
+So let's write var primary color.
+
+11:56.600 --> 12:03.590
+Like so so now as I'm hovering notice my board stays of course the primary color as this is what we
+
+12:03.590 --> 12:05.710
+set up within the board color.
+
+12:05.720 --> 12:11.900
+But then as we're hovering My background is transparent and again this is the case where I already have
+
+12:11.900 --> 12:13.470
+my basic styles.
+
+12:13.550 --> 12:18.200
+So if the only thing that I'm changing is in fact the color.
+
+12:18.200 --> 12:24.200
+Well I could just say All right so get me whatever styles you already had four button white add them
+
+12:24.200 --> 12:27.200
+to button primary and then I'm just gonna override that.
+
+12:27.230 --> 12:33.020
+As far as colors are concerned right now if I would want to override let's say pairings or bore or actual
+
+12:33.020 --> 12:34.940
+widths and styles of the board.
+
+12:35.090 --> 12:37.390
+Of course we can always do that.
+
+12:37.820 --> 12:41.900
+So hopefully this gives you an idea of why setting up something globally.
+
+12:42.020 --> 12:45.670
+In fact at least in my opinion makes a lot of sense.
+
+12:46.190 --> 12:53.600
+Now once we set up our global styling let's head over one more time back to about and let's start dealing
+
+12:53.960 --> 12:56.820
+with in fact how we're going to set up our columns.
+
+12:57.530 --> 13:04.730
+So we have our about and then I would like to set up a media query where let's say once we get to a
+
+13:04.730 --> 13:09.460
+nine hundred and ninety two pixels I would want them side by side.
+
+13:09.990 --> 13:20.850
+So remember we had media screen and what's right men with men with and method with is going to be nine
+
+13:20.930 --> 13:23.820
+and 92 pixels.
+
+13:23.830 --> 13:32.240
+Now let's say that we would want to have about center but again remember that was our div that was in
+
+13:32.240 --> 13:36.410
+fact responsible as our parent container.
+
+13:36.410 --> 13:42.170
+So we're going to have about center that is going to be our parent element and both of the articles
+
+13:42.230 --> 13:43.280
+are children.
+
+13:43.490 --> 13:48.960
+That specifically was my setup because that is just going to be easier as we work with Flex box.
+
+13:49.070 --> 13:55.580
+So let's write about center first and foremost let's start very simply by creating it as a flex.
+
+13:55.580 --> 14:02.330
+Now in this case I am going to in fact zoom out because that way it's going to be easier for me to show
+
+14:02.330 --> 14:05.230
+you that I'm going to make my screen size bigger.
+
+14:05.300 --> 14:10.070
+And notice once we get to 992 I have them side by side.
+
+14:10.090 --> 14:16.240
+Right now it doesn't look pretty but it gets the job done at least initially.
+
+14:16.790 --> 14:23.270
+Now once I have them side by side there's some things that I would like to add specifically for both
+
+14:23.270 --> 14:29.000
+of my children because now I add a display flex for the parent but I would like to set up first of all
+
+14:29.000 --> 14:32.390
+some kind of width for both of the children.
+
+14:32.780 --> 14:34.340
+So how do we do that.
+
+14:35.020 --> 14:40.670
+Well let's start by targeting both of them and all the time and I know my styles are just coming out
+
+14:41.360 --> 14:44.580
+somewhere here in the bottom so I'd like to scroll down a little bit.
+
+14:44.840 --> 14:52.010
+Let's say about I am G that is of course my class name and about info some targeting right now both
+
+14:52.070 --> 14:57.440
+both of the articles and what I would like to do well I would like to use flex because that is the property
+
+14:57.440 --> 14:58.850
+I can use for children.
+
+14:58.850 --> 15:05.580
+I wouldn't want them to grow I wouldn't want them to shrink because Roma by default is going to set
+
+15:05.570 --> 15:11.720
+up as one so it's going to shrink and then I would like to set them up as half the screen because I
+
+15:11.720 --> 15:16.330
+wouldn't want to used to call them layer so it could use something like this.
+
+15:16.460 --> 15:22.520
+I could set up 50 percent however I would also like to have some kind of margins.
+
+15:22.730 --> 15:24.710
+So why don't we do this instead.
+
+15:24.920 --> 15:28.440
+Why don't we write calc function where I'm gonna calculate you know what.
+
+15:28.910 --> 15:36.640
+So each of them should be 50 percent minus and then whatever margin I would like to have around and
+
+15:36.740 --> 15:40.030
+in my case I'm going to go with two arms again.
+
+15:40.160 --> 15:44.730
+You can change the values you can do whatever you want but I'm going to go with two areas.
+
+15:44.870 --> 15:52.340
+So now in this case what we're saying is that each of these columns is going to be 50 percent minus
+
+15:52.340 --> 15:52.960
+two or three.
+
+15:53.030 --> 15:54.320
+So we're calculating.
+
+15:54.350 --> 15:55.580
+So that is going to be the way.
+
+15:55.880 --> 16:01.490
+Not currently we cannot see that because both of those are applied here all the way in.
+
+16:01.640 --> 16:08.350
+And so we have flex and yes the width is less but still they are stacked side by side.
+
+16:08.390 --> 16:13.910
+So in order to fix this I'm going to head over back to the parent and I'm going to use justify content
+
+16:14.360 --> 16:15.620
+and space between.
+
+16:15.620 --> 16:21.020
+Remember that was the property that was pushing the children as far as possible from each other.
+
+16:21.040 --> 16:21.530
+Right.
+
+16:21.680 --> 16:25.700
+And the moment we do that now we are using this margin.
+
+16:26.180 --> 16:33.290
+Now lastly what I would like to set up is margin bottom because remember both of them do have these
+
+16:33.290 --> 16:38.420
+margins in the bottom for AMS but once they're sitting side by side Well there's no reason for that
+
+16:38.420 --> 16:39.960
+margin to be there right.
+
+16:40.400 --> 16:45.400
+So I can say margin bottom and we're going to set a zero.
+
+16:45.410 --> 16:52.550
+And lastly I would like to do one more thing where as you're noticing as our screen size is in fact
+
+16:52.550 --> 16:59.270
+changing once we have side by side there's multiple scenarios where at some point let's say text is
+
+16:59.270 --> 17:01.450
+bigger now and they mean just smaller.
+
+17:01.820 --> 17:07.980
+So would want my image to be sitting in fact in the center and then also my image gets bigger.
+
+17:08.120 --> 17:10.890
+But I would want my text to be sitting in a center.
+
+17:11.030 --> 17:15.860
+And remember we had a property for the child by the name of Aline self.
+
+17:15.920 --> 17:20.740
+So since I'm targeting both of them I could just say align self and I could just say center.
+
+17:20.750 --> 17:24.040
+So in this case what happens as my screen size gets bigger.
+
+17:24.080 --> 17:29.990
+Now since the text is smaller it is sitting side by side with an image or I'm sorry it's in the center
+
+17:29.990 --> 17:30.970
+of the image.
+
+17:31.080 --> 17:36.670
+Then if I have let's say my image smaller it is still sitting in a center.
+
+17:36.770 --> 17:43.840
+As far as the about invoice concerned notice about invoice bigger but the image is sitting in the center.
+
+17:43.880 --> 17:48.320
+Now we get that by using this online self in a center.
+
+17:48.830 --> 17:51.570
+Now we're almost almost done.
+
+17:51.620 --> 17:58.070
+I'm gonna make this again a little bit smaller because I'm going to show you how we can create this
+
+17:58.070 --> 18:05.690
+nice effect using the before pseudo element and currently we don't have that as you can see I do have
+
+18:05.690 --> 18:12.520
+my image but we don't have that now you know what I'm gonna try in fact make it may be or you're not.
+
+18:12.530 --> 18:14.480
+Not probably not going to be possible.
+
+18:14.510 --> 18:17.850
+So what I would like to do right now is set up another media query.
+
+18:18.530 --> 18:26.600
+And I would want that effect only once I get to a eleven hundred and seventy some say media screen main
+
+18:27.700 --> 18:35.360
+with my SO and I'm going to set this up as hundred and one thousand one hundred seventy pixels.
+
+18:35.440 --> 18:40.580
+So once we get there what I would like to do well remember my article had a class of what.
+
+18:40.630 --> 18:42.700
+Well it has a about image.
+
+18:42.700 --> 18:43.900
+Something to say about.
+
+18:43.990 --> 18:44.980
+I am G.
+
+18:45.190 --> 18:48.240
+And then I'm going to use my before.
+
+18:48.610 --> 18:50.710
+So I'm targeting this right now.
+
+18:50.710 --> 18:55.420
+And then let's set up a content that is necessary otherwise if we're not going to have this content
+
+18:55.420 --> 19:00.350
+properly with even an empty value it's not going to work.
+
+19:00.400 --> 19:06.880
+Then let's set up a position absolute position absolute and let's set up some width and height.
+
+19:06.940 --> 19:11.930
+And we're also going to notice that we need to set up this about image relative.
+
+19:12.000 --> 19:13.900
+And I'm going to show you that in a second.
+
+19:13.930 --> 19:20.210
+So let's say for my before I'd like to use a width of hundred percent.
+
+19:20.210 --> 19:24.620
+Like so height of also hundred percent.
+
+19:24.640 --> 19:26.680
+And let's add right away the border.
+
+19:27.130 --> 19:28.130
+So let's write.
+
+19:28.120 --> 19:38.300
+Borders an hour working with our pseudo element zero point five our MS solid var and primary color.
+
+19:38.320 --> 19:43.010
+Now again I'm not gonna do that on a bigger or smaller screen size.
+
+19:43.060 --> 19:49.210
+I'm gonna show you right away on a bigger one and you notice right now how in fact my width and height.
+
+19:49.270 --> 19:54.450
+Well it's not using my image container in fact it is using something else.
+
+19:54.510 --> 19:55.110
+Right.
+
+19:55.300 --> 20:03.610
+And in order to fix that since we are using for this before the positional absolute since our before
+
+20:03.610 --> 20:10.180
+is in fact sitting before the content within the about I am G and please remember when we work with
+
+20:10.510 --> 20:13.200
+a pseudo element before and after.
+
+20:13.330 --> 20:18.370
+In fact what we're talking about is the content of that element.
+
+20:18.370 --> 20:24.880
+So that's the reason why we cannot set it up as far as the image is concerned because image by itself
+
+20:24.940 --> 20:26.550
+is already the content.
+
+20:26.560 --> 20:32.950
+So what we're saying here for this particular article before adding content I would like to set up my
+
+20:33.190 --> 20:41.630
+before pseudo element and since I wouldn't want to be stretching like so I'm going to have to go back
+
+20:41.780 --> 20:43.220
+and I'm going to say like this.
+
+20:43.220 --> 20:52.100
+Where about our energy is in fact going to be a position relative so let's write position relative and
+
+20:52.100 --> 20:56.090
+now in fact it works as a parent container.
+
+20:56.090 --> 21:02.420
+So now our content absolute is in fact relative to our container.
+
+21:03.130 --> 21:09.350
+That's number one and also you notice right away how we don't have any issues with a positioning with
+
+21:09.350 --> 21:10.580
+a border box.
+
+21:10.580 --> 21:16.040
+Because remember when we worked all the way in the beginning when we set up our global stars we also
+
+21:16.040 --> 21:19.430
+right away did the same thing for before and after.
+
+21:19.820 --> 21:22.530
+So that's the reason why we have no issues whatsoever.
+
+21:22.580 --> 21:25.320
+We just added a nice border name.
+
+21:25.700 --> 21:30.920
+Now what I would like to do right now is in fact move that border a little bit and since we are using
+
+21:30.920 --> 21:39.410
+the position absolute again Let's scroll down and let's head over back to about image before pseudo
+
+21:39.410 --> 21:47.690
+element and let's say that I would like to position it on a top negative one point five arms and not
+
+21:47.690 --> 21:52.510
+15 but one point five grams as well as the left one as well.
+
+21:53.090 --> 21:57.290
+So top left is going to be negative one point five.
+
+21:57.800 --> 22:01.520
+Let's say that and notice everything works really well.
+
+22:01.550 --> 22:10.550
+However there is an issue and the issue is that our stack because as you're noticing right now we have
+
+22:10.640 --> 22:16.400
+our stack or and it has changed a little bit around because normally we would things like that.
+
+22:16.400 --> 22:19.980
+So we have our about image before correct.
+
+22:20.390 --> 22:24.860
+So that in fact should be sitting underneath our image correct.
+
+22:24.860 --> 22:30.500
+Because if I'm going to head over back to our indexation Mel you're going to notice we have are about
+
+22:30.620 --> 22:35.690
+I M G and then we are placing before the content and only then we have the image.
+
+22:35.870 --> 22:41.330
+So technically image should be sitting on top of our before element.
+
+22:41.330 --> 22:49.190
+Now the problem is or not the problem maybe the setup is there very simply where if we add this position
+
+22:49.250 --> 22:58.220
+relative right now to or about i g in fact what we're doing is the stack or is that the about I am G
+
+22:58.520 --> 23:01.000
+is in fact sitting on top of it.
+
+23:01.280 --> 23:05.770
+Because we have position absolute we have position relative here.
+
+23:05.810 --> 23:14.120
+So since our before in fact has this position absolute Well it is in a stack over in front of our image.
+
+23:14.150 --> 23:20.660
+Now in order to change that Well very simply we just say about and then remember we had a class of about
+
+23:20.660 --> 23:24.040
+photo and then also let's add on this position of relative.
+
+23:24.530 --> 23:31.990
+Now what is going to happen that our element the before element is going to sit behind the image.
+
+23:32.420 --> 23:40.770
+Because again that is our stack order where within the indexation AML well about image is first correct
+
+23:41.240 --> 23:43.790
+and then we have the about photo.
+
+23:43.790 --> 23:49.580
+So of course this is gonna be sitting in front of the about image.
+
+23:49.680 --> 23:53.540
+In fact that one is coming after the about image.
+
+23:53.540 --> 24:00.710
+So once we set up our photo as position relative now we're back to our normal stack order where we have
+
+24:00.800 --> 24:06.670
+our element the pseudo before element that is sitting behind our photo.
+
+24:07.010 --> 24:09.320
+And that should do it for our about section.

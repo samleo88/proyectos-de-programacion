@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.670 --> 00:05.850
+And the first thing that we need to do is we need to do our set up so here you can see that I'm sitting
+
+00:05.850 --> 00:11.340
+in my desktop and I'm going to just create a folder all here and I'm going to say this is going to be
+
+00:11.340 --> 00:14.680
+Agency and I'm using the brackets texter.
+
+00:14.820 --> 00:17.870
+So the only thing that I'm going to do is I'm just going to drag on here as well.
+
+00:17.880 --> 00:18.580
+Right.
+
+00:18.610 --> 00:23.840
+Right away I'm going to create a new file and I'm going to say this is going to be index page.
+
+00:24.130 --> 00:24.660
+Right.
+
+00:24.850 --> 00:30.870
+Once I have the engine now here I'm just going to create a live preview so we can see it better.
+
+00:31.080 --> 00:33.280
+And I'm just going to put them side by side right.
+
+00:33.350 --> 00:39.900
+So now I have a live preview and I have my index HDMI right there and another new file right away can
+
+00:39.900 --> 00:41.220
+create is going to be made.
+
+00:41.340 --> 00:44.680
+That's probably going to be doing all styling right.
+
+00:44.760 --> 00:48.640
+And obviously you're here we need a ha mascot right.
+
+00:48.660 --> 00:50.640
+So I'm just going to be using brackets extensions.
+
+00:50.640 --> 00:54.270
+But you can actually write it or get it yourself or something like that.
+
+00:54.270 --> 00:54.810
+Right.
+
+00:54.840 --> 00:59.420
+So I'm just going to go with the basic one right with a basic metal tags.
+
+00:59.500 --> 01:02.400
+Or you could just put it in language is going to be English.
+
+01:02.400 --> 01:02.980
+Right.
+
+01:03.090 --> 01:07.440
+But really just going to say this is going to be title web agency.
+
+01:07.560 --> 01:08.030
+Right.
+
+01:08.080 --> 01:13.380
+And you can see that I messed up that I'm actually creating this in mainsheet SS So I apologize for
+
+01:13.380 --> 01:15.930
+that and was purely on me.
+
+01:15.990 --> 01:16.310
+Right.
+
+01:16.310 --> 01:21.570
+So I can just cut this one out and go back to the next page where we shouldn't be creating this.
+
+01:21.570 --> 01:27.510
+Right now we have the index page to himself and with the title of web agency right.
+
+01:27.660 --> 01:30.940
+And then we write a need in our head tag right.
+
+01:30.960 --> 01:32.130
+We need a few things right.
+
+01:32.130 --> 01:36.800
+First it's going to be a Google fonts of.
+
+01:37.000 --> 01:39.610
+Then we're going to have a font awesome right.
+
+01:39.750 --> 01:41.430
+This is what we are also going to need.
+
+01:41.540 --> 01:46.610
+Font are some more here and then it's going to be our mainsheet assess.
+
+01:46.680 --> 01:50.760
+So again our comment I'm going to say main CSSA right.
+
+01:50.770 --> 01:56.070
+I going to just start with this one which is going to create a link to Mencius us right now that we're
+
+01:56.070 --> 01:57.040
+connected.
+
+01:57.120 --> 02:03.230
+We can actually go head into Google tactual web browser and get our Google fonts right.
+
+02:03.240 --> 02:05.550
+So we're going to go back on here.
+
+02:05.580 --> 02:09.640
+It's going to maximize this one and you can see the first thing that Google finds right.
+
+02:09.660 --> 02:15.010
+So we obviously can google it or I mean just type right when Google fonts and we go here.
+
+02:15.180 --> 02:17.010
+And for those of you who don't know.
+
+02:17.070 --> 02:17.340
+Right.
+
+02:17.340 --> 02:22.770
+So this is you can pick all of the phones whatever you like and or here you can see that you can have
+
+02:22.830 --> 02:24.780
+a different preferences right.
+
+02:24.810 --> 02:30.630
+You have more specific right you can have a bigger thickness font or something like that.
+
+02:30.630 --> 02:31.190
+Right.
+
+02:31.200 --> 02:36.400
+So over here I'm just going to be using right away rebottle because that's my favorite one.
+
+02:36.450 --> 02:38.680
+So here are just a plus.
+
+02:38.820 --> 02:40.390
+And then I see what I would need to do.
+
+02:40.380 --> 02:40.900
+Right.
+
+02:41.130 --> 02:46.440
+Or hear what they say is get this link here like this and then obviously this is what we would need
+
+02:46.530 --> 02:48.130
+a font family right.
+
+02:48.170 --> 02:50.130
+So we're going to go back to our document.
+
+02:50.460 --> 02:55.620
+And I'm just going to paste this and if we say this in this age I'll know here.
+
+02:55.740 --> 02:57.820
+I'm just going to say for the body we're going to create it.
+
+02:57.830 --> 02:58.940
+All right.
+
+02:59.090 --> 03:02.140
+And copy capitis font family right.
+
+03:02.190 --> 03:03.770
+Are you doing this.
+
+03:03.940 --> 03:05.300
+To say copy.
+
+03:05.610 --> 03:11.870
+Post it here and once we're done with this and once we're done with Google phones the next one wouldn't
+
+03:11.880 --> 03:12.960
+be fun to us.
+
+03:13.010 --> 03:18.200
+It can cause this guy over here and over here you can see right away that they're offering us to download.
+
+03:18.200 --> 03:18.710
+Right.
+
+03:18.790 --> 03:20.420
+And we're actually going to do that right.
+
+03:20.490 --> 03:24.430
+Just get it out of the way and they are offering you some extra things.
+
+03:24.610 --> 03:26.720
+But Buddhisms say we don't want that.
+
+03:26.820 --> 03:32.540
+You know things just don't want to have some on here and you can see that for getting started right.
+
+03:32.730 --> 03:33.820
+And icons.
+
+03:33.930 --> 03:37.510
+So obviously we're going to be checking out the icons once we're working.
+
+03:37.540 --> 03:37.900
+Right.
+
+03:38.040 --> 03:44.430
+But if you want on your own you can go and see or hear where the My Cancer is going to look and getting
+
+03:44.430 --> 03:44.820
+started.
+
+03:44.830 --> 03:46.260
+What we would need to do right.
+
+03:46.470 --> 03:48.420
+So if we're downloading right.
+
+03:48.490 --> 03:50.720
+We think they're asking for here is the path.
+
+03:51.000 --> 03:58.240
+And over here they're saying if we're using SAS or less right now we're going to be downloading So what
+
+03:58.260 --> 04:01.200
+do we need to show is the actual path to form.
+
+04:01.440 --> 04:02.230
+Mincey.
+
+04:02.390 --> 04:02.960
+Right.
+
+04:03.000 --> 04:08.980
+So if we go back and I'm just going to go to my downloads and this is going to be my phantasm my soul
+
+04:09.040 --> 04:10.740
+is going to open why we're here.
+
+04:10.950 --> 04:15.050
+And that I just need to get this folder all the way over here.
+
+04:15.220 --> 04:17.040
+So I'm going to get it over here.
+
+04:17.250 --> 04:24.010
+And once it's over here then I can go back to my document or here in the page.
+
+04:24.270 --> 04:28.280
+And for the phantasm I'm just saying this is going to be a link.
+
+04:28.440 --> 04:28.920
+Right.
+
+04:28.980 --> 04:33.140
+And once I'll have a link I'm just going to say this is going to be fun and then I'm going to see assess
+
+04:33.510 --> 04:34.520
+and then I want a.
+
+04:34.550 --> 04:35.320
+Awesome.
+
+04:35.350 --> 04:36.370
+SS Right.
+
+04:36.370 --> 04:42.460
+And just to test it out and go ahead and let's create a phantasm Mike and I'm going to say for all.
+
+04:42.750 --> 04:44.790
+Let's make it like five times bigger.
+
+04:44.840 --> 04:45.190
+Right.
+
+04:45.360 --> 04:49.210
+So press tab and you can see that now we have our phone on right.
+
+04:49.260 --> 04:50.540
+So everything is working.
+
+04:50.850 --> 04:56.250
+So we can just delete this guy right now or here and if we go back and see what else we need to do.
+
+04:56.250 --> 04:57.060
+Right.
+
+04:57.060 --> 05:03.130
+So we're here I'm just going to get this right and or here you can see that of course right.
+
+05:03.130 --> 05:11.800
+So if you're struggling with coddlers like I am why this is a very good site this loss that CEO on here
+
+05:11.890 --> 05:16.560
+and what we can do is just press over here and we can start generating the colors right.
+
+05:16.570 --> 05:19.170
+So you can see that it's going to maybe take a little bit right.
+
+05:19.270 --> 05:25.170
+But once we press spacebar print or we can see that we have the options right for the college.
+
+05:25.300 --> 05:30.640
+And I really strongly suggest this for anybody who is really struggling to pick colors right because
+
+05:30.640 --> 05:36.270
+this is a really good option and obviously just write down the colors what you want get them to your
+
+05:36.280 --> 05:38.310
+document and you can start working right.
+
+05:38.470 --> 05:40.920
+And this is a really nice choice here.
+
+05:41.040 --> 05:44.680
+If you want you can like this color and you can see the rest of them are changing.
+
+05:44.680 --> 05:49.010
+So this is a very very good place to find your colors.
+
+05:49.090 --> 05:55.660
+Now after not one we would want is a images right now in the beginning of the next video you're obviously
+
+05:55.660 --> 05:58.120
+going to see what kind of images I have.
+
+05:58.120 --> 06:02.640
+But there's three sides that I couldn't suggest more which is pixels.
+
+06:02.700 --> 06:08.070
+Right then we have a splash and over here we have gladdest right.
+
+06:08.230 --> 06:10.130
+So again all of them are good.
+
+06:10.150 --> 06:13.720
+All of them high high quality Hunger-Free images right.
+
+06:13.720 --> 06:17.200
+So just go ahead download whatever you like for your project.
+
+06:17.350 --> 06:17.740
+Right.
+
+06:17.890 --> 06:22.660
+And let's start cracking and next video I'm going to show you the specific set of the.

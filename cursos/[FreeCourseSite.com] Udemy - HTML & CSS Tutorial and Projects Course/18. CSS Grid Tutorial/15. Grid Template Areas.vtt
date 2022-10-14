@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.620 --> 00:01.310
+Excellent.
+
+00:01.340 --> 00:04.750
+Once we have covered how we can name our grid lines.
+
+00:04.920 --> 00:08.390
+Next why don't we talk about the grid template areas.
+
+00:08.720 --> 00:15.620
+And I guess the easiest way how I could explain grid template areas is the fact that we're still going
+
+00:15.620 --> 00:19.160
+to set up our columns and the rows.
+
+00:19.310 --> 00:26.810
+But what we're gonna do is for each and every item for each and every cell we are going to sign some
+
+00:26.810 --> 00:28.410
+kind of name value.
+
+00:28.670 --> 00:35.480
+And then we're going to set up our areas and then we're just going to place our particular cell within
+
+00:35.480 --> 00:37.270
+that particular area.
+
+00:37.620 --> 00:41.110
+Now it sounds a little bit more complicated than it really is.
+
+00:41.180 --> 00:44.160
+And in order to help us understand it better.
+
+00:44.210 --> 00:50.180
+In fact we're going to create this type of layout where we're going to have cell number one and that's
+
+00:50.180 --> 00:58.410
+going to be spending like this then cell number two and then cell number three four and five and six.
+
+00:58.910 --> 01:04.370
+And of course as we're going to be working then I'm gonna cover everything in more detail.
+
+01:04.370 --> 01:11.030
+Now I also want to let you know right away that remember we had display area names and this is exactly
+
+01:11.030 --> 01:12.390
+what we're going to cover.
+
+01:12.410 --> 01:18.470
+So if I'm going to show my grid you're going to notice that there is going to be some areas and those
+
+01:18.500 --> 01:20.720
+areas are going to have names.
+
+01:20.720 --> 01:23.170
+So in all this this would be let's say area 8.
+
+01:23.180 --> 01:24.300
+And by the way you can name this.
+
+01:24.310 --> 01:31.930
+How are you like this would be Area B and then we have C and D and E and F.
+
+01:32.390 --> 01:39.260
+Now let's start very very simply by just deleting everything that we had before.
+
+01:39.380 --> 01:47.090
+Like so as long as we don't care about the cell number one currently and nine why don't we delete the
+
+01:47.120 --> 01:53.180
+cell number seven and add one more class so cell number six.
+
+01:53.300 --> 01:56.640
+But then we need to start thinking.
+
+01:56.900 --> 02:02.200
+So how many rows and columns we're gonna have that's always gonna be your first question.
+
+02:02.270 --> 02:07.460
+And by the way we are cheating already a little bit because we can clearly see of how many rows and
+
+02:07.460 --> 02:10.770
+items we're gonna have if we make this a little bit harder.
+
+02:10.880 --> 02:15.800
+And now technically we would need to figure it out so I can tell already.
+
+02:15.800 --> 02:16.270
+Okay.
+
+02:16.280 --> 02:24.350
+So if as I'm looking at my columns now it is a little bit harder for me to see right now because everything
+
+02:24.350 --> 02:28.290
+is using the fractions but I could kind of already guessed that.
+
+02:28.280 --> 02:34.340
+Let's say this is going to be my column and the way I can tell that is known as this would be my grade
+
+02:34.940 --> 02:41.540
+column line like so here and then I would have my second column line here correct.
+
+02:42.020 --> 02:44.730
+So as I'm looking at it how many columns would I have.
+
+02:44.750 --> 02:48.760
+1 2 and 3 correct.
+
+02:48.900 --> 02:55.820
+Then we can turn it on and clearly we can see I will be my column number one column number two column
+
+02:55.820 --> 02:57.130
+number three.
+
+02:57.200 --> 03:03.110
+And I can see that we are technically using fractions correct because all of them are equally sized.
+
+03:03.200 --> 03:05.790
+Now doesn't really matter the size right now of the columns.
+
+03:05.810 --> 03:07.880
+This is really not the point of the video.
+
+03:07.910 --> 03:12.950
+The point of the video is not for you to guess how wide the columns would be but I'm just trying to
+
+03:12.980 --> 03:16.520
+kind of give you the general idea.
+
+03:16.520 --> 03:17.900
+So we have three columns.
+
+03:17.900 --> 03:24.920
+Okay then let's head over back to our grid and let's say a grid template columns and I'm gonna go with
+
+03:24.920 --> 03:29.680
+one fraction one fraction and one fraction.
+
+03:29.720 --> 03:31.890
+That's my initial layout.
+
+03:31.910 --> 03:35.390
+Now the moment I set this up I'm going to have something like this.
+
+03:35.510 --> 03:36.920
+That's a good start.
+
+03:36.960 --> 03:40.160
+And you know what I think I can just get her the margins as well.
+
+03:40.160 --> 03:41.020
+Let's do it this way.
+
+03:41.020 --> 03:42.540
+Let's get her on the margins.
+
+03:42.540 --> 03:43.290
+Okay.
+
+03:43.400 --> 03:44.340
+Now next one up.
+
+03:44.390 --> 03:47.250
+We need to decide well how many rows we have.
+
+03:47.360 --> 03:49.010
+And that is also very important.
+
+03:49.070 --> 03:51.060
+So let's think about it.
+
+03:51.200 --> 03:53.110
+You can see that this would be one row.
+
+03:53.480 --> 03:57.740
+So probably here I would have two of them correct or have row number one.
+
+03:57.740 --> 03:58.910
+Rule number two.
+
+03:59.090 --> 04:03.050
+Rule number three four and five.
+
+04:03.050 --> 04:08.180
+So it is three rows and I can come up with whatever values I would like.
+
+04:08.180 --> 04:20.770
+So I'm going to go grid template rows and let's go with hundred pixels on our pixels pixels on red pixels
+
+04:21.220 --> 04:25.540
+pixels and you guessed it hundred pixels.
+
+04:25.780 --> 04:33.320
+And once we set up our columns as well as the rows you know what I would like to remove this mean height.
+
+04:33.720 --> 04:34.770
+Like so.
+
+04:34.810 --> 04:37.910
+And when we do that we can see that.
+
+04:38.050 --> 04:42.310
+Well what we have right now is rule number three.
+
+04:42.340 --> 04:45.600
+Rule number four and rule number five.
+
+04:45.610 --> 04:49.660
+Now the way we work with great template areas is following.
+
+04:49.660 --> 04:54.500
+So we write a property by the name of grid template areas.
+
+04:54.610 --> 05:00.070
+Then we could technically write this in this line but it is going to be easier if you're going to start
+
+05:00.130 --> 05:01.150
+a new line.
+
+05:01.210 --> 05:07.180
+So let me start a new line and then essentially what you're doing is you are setting up your rows.
+
+05:07.510 --> 05:11.140
+So within the columns you're going to have your row.
+
+05:11.470 --> 05:13.730
+So this is going to be your number one.
+
+05:13.810 --> 05:18.910
+And what I'm going to do since we have five rows I'm just going to copy and paste that and then instead
+
+05:18.910 --> 05:23.860
+of using the grid lines in fact we are setting up the area.
+
+05:24.340 --> 05:29.020
+So what I'm going to say right now and again we can name this whole like but I'm just going to go with
+
+05:29.080 --> 05:32.230
+a letters because it's just gonna be the fastest one.
+
+05:32.310 --> 05:37.210
+But of course you can name to something like this area number one or something like that but I'm just
+
+05:37.210 --> 05:41.260
+going to go with a a and then B.
+
+05:41.470 --> 05:48.310
+So essentially what I'm saying you know what there is going to be Aryeh and Aryeh and then there's going
+
+05:48.310 --> 05:50.370
+to be Area B.
+
+05:50.920 --> 05:55.920
+Then I'm gonna continue next line and I'm gonna say that there's still going to be this area.
+
+05:55.930 --> 06:00.040
+Ay ay ay ay and b analogy think about it.
+
+06:00.430 --> 06:01.690
+So what happens here.
+
+06:01.750 --> 06:09.970
+Now I have this area where it starts with a column no one goes to Column number two but then it also
+
+06:09.970 --> 06:13.240
+continues here within the second row.
+
+06:13.420 --> 06:14.120
+Correct.
+
+06:14.140 --> 06:16.720
+That's how this area comes about.
+
+06:16.780 --> 06:24.470
+And then for area number B well or not no b the area with a value of B Well it is going to be here.
+
+06:24.540 --> 06:26.530
+That's the reason why I set this up.
+
+06:26.530 --> 06:29.020
+Notice I have b b b.
+
+06:29.020 --> 06:32.940
+Now I haven't set this up still in Rule number three.
+
+06:32.960 --> 06:35.730
+And the reason why I only have two rows.
+
+06:35.890 --> 06:42.640
+But hopefully you're getting the idea where essentially we're just setting up the areas and then eventually
+
+06:42.640 --> 06:48.640
+we're just going to use these values for ourselves and assign that particular cell to that particular
+
+06:48.820 --> 06:52.070
+area right now in this case what I would like to do.
+
+06:52.150 --> 06:58.390
+Well I would like to place a c c so there's gonna be some area C and then I'm going to continue with
+
+06:58.390 --> 06:59.240
+this B.
+
+06:59.290 --> 07:05.560
+Now if I really wanted to I could go B all the way right as long as I keep on adding within that column
+
+07:05.860 --> 07:12.310
+within that particular row and I would also like to mention that when we are signing had the values
+
+07:12.310 --> 07:16.480
+for the areas it is important like I said we keep the rows.
+
+07:16.540 --> 07:18.220
+So the way how we have rows.
+
+07:18.310 --> 07:24.400
+So if you have five rows This is exactly what we should have we should have five of these quotation
+
+07:24.400 --> 07:25.120
+marks.
+
+07:25.720 --> 07:33.640
+And then wherever we place as that area within that particular row follow the syntax of how many columns
+
+07:34.090 --> 07:37.360
+the reason is if I have three columns.
+
+07:37.360 --> 07:42.700
+That's the reason why I'm setting up a b if I would have only two columns then I would need to say well
+
+07:42.730 --> 07:45.100
+either a B or A or something like that.
+
+07:45.550 --> 07:51.610
+So keep in mind you're keeping track of how many rows you have as well as how many columns you have
+
+07:52.090 --> 07:59.170
+you're not just setting this willy nilly mallards do C C so area for the first column second column
+
+07:59.170 --> 08:03.440
+in the row three is going to be S.C. and then I'm gonna continue with the B.
+
+08:03.700 --> 08:06.820
+So my B is going to be in the first column the third.
+
+08:07.120 --> 08:07.810
+I'm sorry.
+
+08:07.810 --> 08:14.740
+First row third column second row third column and third row third column then what else we have what
+
+08:14.800 --> 08:16.740
+we have D and D.
+
+08:16.870 --> 08:22.990
+So this is gonna be spanning all across and just so you don't think I'm cheating can actually delete
+
+08:22.990 --> 08:33.910
+that or remove the grid and then let's do DDD and then let's write e f f as far as my columns are concerned
+
+08:34.420 --> 08:39.910
+and then once we have set up the areas it's really the easiest thing where I could just set up cell
+
+08:39.910 --> 08:45.820
+number one and I can say you know what cell number one you are going to be grid area and that's the
+
+08:45.820 --> 08:49.200
+property and the value of a lot set.
+
+08:49.290 --> 08:54.060
+What happens this cell number one is right now placed within this area.
+
+08:54.220 --> 08:55.540
+Ay ay.
+
+08:55.670 --> 09:01.780
+And like I said we can set up however we would like these areas.
+
+09:01.970 --> 09:07.870
+And this is just the way I chose to set it up and we also can of course place a different cell within
+
+09:07.870 --> 09:08.290
+there.
+
+09:08.350 --> 09:12.000
+It's not like I'm limited in cell number one and do something like this.
+
+09:12.060 --> 09:18.580
+We can have a cell number six sitting within this area because the only thing I'm doing just assigning
+
+09:18.580 --> 09:21.270
+the area for my particular cell.
+
+09:21.430 --> 09:22.700
+Now you don't believe me.
+
+09:22.730 --> 09:24.870
+Now let's do B all the way down here.
+
+09:24.940 --> 09:25.990
+Something like that.
+
+09:25.990 --> 09:28.190
+Now I'm going to change it to cell number one.
+
+09:28.270 --> 09:36.520
+We had no particular reason just because I like to a man why don't we change the cell number two and
+
+09:36.520 --> 09:40.390
+give it a B like so now what do you see here.
+
+09:40.440 --> 09:48.820
+I see that I have cell then I have area of BBB and I just assign it to a cell number to use it now I
+
+09:48.820 --> 09:55.870
+could go back to see Nick so and I'm gonna have that layer now stuff is going to break right now because
+
+09:55.930 --> 10:02.580
+of course we haven't finished everything as well as you notice how this B is just randomly sitting within
+
+10:02.580 --> 10:10.500
+a fourth row so we also need to be careful where when we are doing something well it needs to make sense.
+
+10:10.500 --> 10:20.200
+All right so we have BBB and we have C so let's assign it so cell number three is going to be great
+
+10:20.200 --> 10:29.800
+area of let's say C so and let's copy and paste it we're just gonna change these values where this is
+
+10:29.800 --> 10:39.640
+going to be for five as well as it probably should have copy and paste one more time six analysts just
+
+10:39.670 --> 10:43.540
+assign these areas now what's a.
+
+10:43.570 --> 10:50.850
+This would be C then we have a D and E. enough.
+
+10:50.930 --> 10:52.110
+And that's it.
+
+10:52.140 --> 10:58.680
+So the only thing we're doing is we're just setting up within our normal whatever cells we would want.
+
+10:58.920 --> 11:03.310
+And then of course what we're doing is we're just assigning this to the area.
+
+11:03.360 --> 11:07.890
+Keep in mind we could have done this how with naming are grid lines.
+
+11:07.890 --> 11:13.800
+Or we could have just done it by in fact using the grid line numbers.
+
+11:13.830 --> 11:17.700
+This wasn't limited to just grid template areas.
+
+11:17.790 --> 11:20.710
+I just wanted to show you how grid template areas work.
+
+11:20.730 --> 11:24.130
+That's the reason why I came up with this particular example.
+
+11:24.510 --> 11:29.470
+But again please keep in mind we do need to know how many columns we're gonna have.
+
+11:29.530 --> 11:30.980
+I mean in rows we're gonna have.
+
+11:31.350 --> 11:37.400
+And then we set up those areas and then we decide well how our layout is going to work.
+
+11:37.560 --> 11:44.130
+And then we're just gonna be placing whatever items we have within the Asian email within those particular
+
+11:44.220 --> 11:44.730
+areas.

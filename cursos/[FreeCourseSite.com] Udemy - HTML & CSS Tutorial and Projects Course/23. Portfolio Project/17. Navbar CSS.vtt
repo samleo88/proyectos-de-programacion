@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00.390 --> 00:05.840
+So let's go to our main CSSA And actually let's go all the way to the top.
+
+00:06.060 --> 00:09.240
+You can see that we started working on a novel here.
+
+00:09.360 --> 00:14.990
+We had a nav with a background of light and now is going to hand some more styles.
+
+00:15.210 --> 00:19.030
+So first things first we have a nav we're here.
+
+00:19.260 --> 00:21.040
+So what we would want for her.
+
+00:21.270 --> 00:26.330
+Well first of all like I said and I would want to have a display and we're going to do with this play
+
+00:26.820 --> 00:29.070
+reflects on this.
+
+00:29.190 --> 00:35.490
+So we're going to have a display of flex and I can see that the actual buttons are here and the logo
+
+00:35.490 --> 00:36.760
+is still here.
+
+00:36.810 --> 00:41.070
+Now once we have the display flex we're going to have a just different content.
+
+00:41.070 --> 00:43.470
+This is going to be space between.
+
+00:43.470 --> 00:47.530
+So we're going to make sure that there is more than enough space in between.
+
+00:47.570 --> 00:53.090
+We're going to do a padding zero point to five RPMs and 100.
+
+00:53.460 --> 01:02.190
+So top bottom is going to be 0.35 and left and right is going to be one aria or he'll do a border bottom
+
+01:03.270 --> 01:14.120
+water bottom and for the bottom we would want or here 0.5 RPMs solid or solid.
+
+01:14.190 --> 01:19.150
+And let's do all here we are all going to have a bar and this is going to be dark.
+
+01:19.410 --> 01:22.150
+So this is going to be our dark border.
+
+01:22.470 --> 01:28.830
+Now once we have the border and actually work with a button on you so we're going to go ahead and we're
+
+01:28.830 --> 01:31.320
+going to say Nav. median.
+
+01:31.350 --> 01:36.060
+So for that button we would want the font size area here.
+
+01:36.090 --> 01:38.430
+This is going to be three rpms.
+
+01:38.520 --> 01:43.380
+So this is going to be the big but no matter how you want to place it in the center.
+
+01:43.520 --> 01:52.230
+And we know that since this is a child on here we can do a line self to center or so once a center as
+
+01:52.230 --> 01:54.300
+you can see that button is going to be sitting.
+
+01:54.300 --> 01:55.050
+All right.
+
+01:55.260 --> 02:01.430
+Now once you have it in the center let's do a color and the caller is going to be work and let's do
+
+02:01.440 --> 02:03.450
+a great one on this.
+
+02:03.450 --> 02:09.730
+So now we are button is actually right now since the button has been styled.
+
+02:09.750 --> 02:15.550
+Now we can do a lynx or here these are going to be all the links are here we're going to say this and
+
+02:15.580 --> 02:16.820
+this is going to be now.
+
+02:17.160 --> 02:18.860
+On here are the links.
+
+02:18.870 --> 02:25.030
+No for the whole links for the list would want list style type.
+
+02:25.080 --> 02:31.330
+None on here to get rid of these bullet points and all retailers do also background.
+
+02:31.590 --> 02:38.380
+So in the background we're going to say all this is going to be our Vohra and also going to do a great
+
+02:38.380 --> 02:39.930
+one on this.
+
+02:40.150 --> 02:42.070
+So these are going to be our links.
+
+02:42.100 --> 02:46.820
+Now once we have good links then we would want to work with each and every link.
+
+02:47.050 --> 02:50.350
+We know that we have a class in the actual link.
+
+02:50.440 --> 02:55.700
+This is going to mean have your single link on your site.
+
+02:55.810 --> 02:57.090
+This is going to be the single.
+
+02:57.310 --> 03:02.930
+Now if we're not singling first we would want this play and we're going to say display block right.
+
+03:03.280 --> 03:08.500
+And once we have the display more than we would want text decoration.
+
+03:08.500 --> 03:09.350
+None.
+
+03:09.370 --> 03:12.580
+Just to get rid of these annoying lines.
+
+03:12.840 --> 03:19.230
+And we also want to change the font size 1.5 RPMs on this.
+
+03:19.360 --> 03:23.180
+So now they're bigger than we would want to do a painting.
+
+03:23.220 --> 03:31.210
+Now for the padding we're going to say 0.5 RPMs and one or E-M or here so top and bottom is going to
+
+03:31.210 --> 03:33.790
+be you know five of them one is going to be all here.
+
+03:34.060 --> 03:36.470
+So basically we can see that we don't have the right side.
+
+03:36.550 --> 03:39.500
+So it was going to be dealing with the left side or.
+
+03:39.670 --> 03:47.500
+And once we have one or am We're going to have a font style eat taluk on this.
+
+03:47.560 --> 03:55.360
+This is going to be taluk style and then we will have a text transform capitalize with a capital letter
+
+03:55.780 --> 03:56.640
+color.
+
+03:56.800 --> 04:00.000
+Do a color again of we are now in this case.
+
+04:00.010 --> 04:01.580
+This is going to be the orange color.
+
+04:01.780 --> 04:08.680
+Just to make some changes here we're going to say that text is going to be orange and then we have a
+
+04:08.680 --> 04:09.790
+transition.
+
+04:09.850 --> 04:14.520
+So basically as you can see or hear as I'm hovering we're going to add a little bit of padding on here
+
+04:14.540 --> 04:16.470
+and the color is also going to change.
+
+04:16.470 --> 04:18.930
+So again and we're going to do it over time.
+
+04:19.000 --> 04:22.060
+So this is going to be a transition.
+
+04:22.470 --> 04:28.330
+We're one animal going to say all one second linear like this.
+
+04:28.400 --> 04:30.380
+And this is going to be our transition.
+
+04:30.470 --> 04:33.030
+Now let's do the actual hovering effect.
+
+04:33.050 --> 04:42.220
+So this is going to be Nav. single over here link and let's do a cover or here so let's do a background
+
+04:42.220 --> 04:46.090
+first Magra on var and let's do the right one.
+
+04:46.360 --> 04:50.250
+So we're all going to say that this is going to be the light color as we're having.
+
+04:50.260 --> 04:55.310
+So you can see or hear now I have my light colored then we would want a padding left.
+
+04:55.670 --> 04:58.440
+So padding annelids do padding left.
+
+04:58.510 --> 05:05.620
+Now as you can see on here since I have over here padding left and right on one RPMs on here what I'm
+
+05:05.620 --> 05:07.750
+going to do is 1.5 rpms.
+
+05:07.810 --> 05:09.910
+So basically this is going to be bigger.
+
+05:09.910 --> 05:15.240
+So once I say it on here you can see that it's actually going to be moving a little bit to the right
+
+05:15.700 --> 05:18.480
+because the padding is pushing from the left or right.
+
+05:18.760 --> 05:23.930
+And the last thing was do a cursor and the cursor pointer.
+
+05:23.960 --> 05:27.040
+So I was hovering this is going to be cause of point.
+
+05:27.040 --> 05:34.720
+Now once we're actually done with this we're ready to go and actually start working with a javascript.

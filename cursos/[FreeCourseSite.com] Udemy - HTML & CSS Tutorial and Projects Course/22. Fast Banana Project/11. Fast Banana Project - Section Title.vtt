@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.150 --> 00:05.910
+And the next section are going to be building is going to be are here in the services section or you
+
+00:05.910 --> 00:07.150
+can see or hear just ahead.
+
+00:07.160 --> 00:08.240
+All right.
+
+00:08.360 --> 00:12.420
+This is going to be a little bit different title that we actually used all the time right.
+
+00:12.630 --> 00:16.790
+So first of all can actually build this read We're going to start building the skills that are actually
+
+00:16.800 --> 00:20.710
+going to build this title because what's going to happen later on we're actually going to be reusing
+
+00:20.720 --> 00:24.200
+the style right here we're going to look at a fluxbox property.
+
+00:24.200 --> 00:24.420
+Right.
+
+00:24.420 --> 00:26.970
+So how we can very easily flip them around.
+
+00:26.970 --> 00:27.490
+Right.
+
+00:27.540 --> 00:29.710
+You can see or hear this is going to be right side.
+
+00:30.030 --> 00:31.920
+And this is going to be another time.
+
+00:32.040 --> 00:34.710
+So let's go ahead and let's start working on that.
+
+00:34.710 --> 00:42.360
+So like I said we're going to be back in session here at home or here and you can see that end of icon
+
+00:42.390 --> 00:43.180
+section.
+
+00:43.490 --> 00:50.400
+So I'm going to place and of icons section then after that we're going to make a comment and this is
+
+00:50.400 --> 00:55.550
+going to be a services section or skill section doesn't really matter.
+
+00:55.700 --> 00:57.940
+Right over here and this is going to be skills.
+
+00:57.940 --> 01:04.620
+So I'm going to say we're here skills you know this select line copy and paste the line we are all going
+
+01:04.620 --> 01:08.460
+to say and the skills and of skills.
+
+01:08.460 --> 01:14.640
+Then after that the first thing that I would want to do is have a section ready and this is going to
+
+01:14.640 --> 01:15.590
+be skills.
+
+01:15.810 --> 01:16.200
+Right.
+
+01:16.370 --> 01:22.110
+So then we're going to present all your skills and then here we're going to place a title I'm going
+
+01:22.150 --> 01:30.060
+to say title and select and line up a line and I'm going to say in the title and of title and here we're
+
+01:30.070 --> 01:31.840
+going to have a place on him.
+
+01:31.890 --> 01:36.840
+All right we're going to start off here with a deal with the class of title or here.
+
+01:36.900 --> 01:45.570
+Then within that day we're going to have a div of title or I can press tabel you like this and then
+
+01:45.570 --> 01:53.750
+we're going to have a phantasm someone to say hi hey hey we're here Gere's first time all right.
+
+01:53.760 --> 01:55.650
+And now we got all gears are here.
+
+01:55.890 --> 01:58.700
+And after that we would want a title text.
+
+01:58.720 --> 01:59.130
+Right.
+
+01:59.280 --> 02:05.760
+But again we need to watch it right because this is going to be live right with one Dave and I can do.
+
+02:05.780 --> 02:07.520
+And now you would want to text.
+
+02:07.570 --> 02:11.640
+So I'm going to create another Dave and this is going to be tied up here.
+
+02:11.660 --> 02:19.640
+TEXT religionis and then with within the title text a few things this is going to be heading to or here
+
+02:19.700 --> 02:23.100
+and we're going to say skills that we provide.
+
+02:23.220 --> 02:31.480
+All right so I'm going to say skills or here we provide provide or here and then we're going to cross-tab.
+
+02:31.620 --> 02:33.780
+And now we have skills we provide.
+
+02:33.990 --> 02:39.270
+And we're going to have a paragraph here I'm going to read and this is going to be a paragraph and so
+
+02:39.290 --> 02:42.480
+we're going to have a five words right.
+
+02:42.500 --> 02:46.040
+I'm going to press tab and another table here.
+
+02:46.060 --> 02:52.260
+Right so now we have our title and now we can actually want to see who says and starts telling this
+
+02:52.320 --> 02:59.250
+that right and then we're going we're going to have the M-L for the skills and the actual skills.
+
+02:59.300 --> 02:59.790
+Right.
+
+02:59.990 --> 03:02.890
+So let's say this here let's go to Maine.
+
+03:02.920 --> 03:08.900
+He says We're here again and that's the comment we're going I'm going to hate tile.
+
+03:08.920 --> 03:13.790
+So I'm going to say tight over here again hashtags like this.
+
+03:13.790 --> 03:18.640
+And then we're all going to do is we're going to create a bunch of room just so we can actually work.
+
+03:18.790 --> 03:19.360
+Right.
+
+03:19.650 --> 03:24.350
+And here we're going to say is like this we're going to say this is going to be tidal and or here we're
+
+03:24.350 --> 03:28.980
+going to say in this play flex because we want them actually side by side.
+
+03:28.980 --> 03:29.490
+All right.
+
+03:29.530 --> 03:30.830
+We can see or hear it.
+
+03:30.860 --> 03:32.570
+This isn't the end result right.
+
+03:32.570 --> 03:34.350
+You can see them side by side.
+
+03:34.550 --> 03:37.850
+And that was the reason why we actually created two containers right.
+
+03:37.910 --> 03:43.490
+So text would be in one container and the icons in the other display.
+
+03:44.560 --> 03:46.480
+Flex healing.
+
+03:46.880 --> 03:50.910
+Then once we have this play for let's let's just add some padding all around.
+
+03:50.910 --> 04:00.370
+So I'm going to say padding 20 pixels read 20 pixels all around the and then we have a title icon fantastic
+
+04:00.440 --> 04:02.010
+like title.
+
+04:02.470 --> 04:11.890
+I can hear from Tarsem or here we're going to say font size say 60 pixels like this right.
+
+04:11.980 --> 04:12.980
+This is going to be for fun.
+
+04:13.050 --> 04:13.990
+Awesome.
+
+04:14.240 --> 04:15.750
+Have a color.
+
+04:15.870 --> 04:20.900
+FFC we're on this 9 1 4 4 here.
+
+04:20.950 --> 04:27.030
+Then we'll have a margin to see margin right and what your eye is going to be 10 pixels.
+
+04:27.140 --> 04:32.470
+Right so we're going to push the whole text a little bit away and after that we're going to have a title
+
+04:32.590 --> 04:36.220
+text so I'm going to say title right text.
+
+04:36.550 --> 04:38.970
+And over here we're going to have few things right.
+
+04:38.980 --> 04:43.530
+First of all we want a padding to the left just to push it away.
+
+04:43.550 --> 04:52.090
+So I'm going to say padding left and pixels like this will have a border on here and we're going to
+
+04:52.090 --> 04:53.830
+say the left right.
+
+04:53.860 --> 04:56.680
+And this is going to be Bordereau here on the left hand side.
+
+04:56.880 --> 05:03.300
+Well as you said three pixels and you can see that my cursor is missing three pixels.
+
+05:03.430 --> 05:06.490
+Solid hash tag like this.
+
+05:06.520 --> 05:08.150
+And then it's going to be the gray color.
+
+05:08.380 --> 05:14.620
+So be 5 C 2 and be 7 like this.
+
+05:14.620 --> 05:21.520
+And then after you have text transform operatives text transform uppercase or healing this right.
+
+05:21.530 --> 05:25.450
+So the whole thing we have a text transform.
+
+05:25.450 --> 05:28.290
+Then after that we would want a heading.
+
+05:28.370 --> 05:36.370
+And so I'm going to say all on here heading here like this and then we're going to say color or here
+
+05:36.500 --> 05:37.870
+we're going to have a hash tag.
+
+05:37.870 --> 05:44.950
+Now we're basically dealing over here with this adding on the top one here to the two.
+
+05:45.190 --> 05:51.820
+And then we have eight to a railing this and then after that we would want a subheading.
+
+05:51.820 --> 05:54.060
+So I'm going to say we're here.
+
+05:54.760 --> 05:59.560
+So I'm reading one here and then I'm going to say padding.
+
+05:59.770 --> 06:06.280
+We're still going to have a five pixel padding all around and then we would want to do is actually have
+
+06:06.370 --> 06:07.690
+a text transfer.
+
+06:07.900 --> 06:09.320
+But let me just double check with it.
+
+06:09.320 --> 06:11.760
+I actually had a declasse right.
+
+06:11.800 --> 06:14.290
+And you can see that actually I didn't.
+
+06:14.320 --> 06:14.720
+Right.
+
+06:14.740 --> 06:20.500
+And that's when nothing is working or here because what happened was that actually for this heading
+
+06:20.570 --> 06:29.740
+to what we want is class and we're going to say all here tired all adding more to this and for the paragraph
+
+06:29.740 --> 06:36.570
+we're going to have title subheading so we can just copy and paste this one here like this one.
+
+06:36.640 --> 06:39.500
+Well we're going to have a copy right.
+
+06:39.520 --> 06:45.130
+So I'm going to be selecting this up with this one over here starting over here.
+
+06:45.130 --> 06:49.210
+Copy and paste and this is going to be subheading on here like this.
+
+06:49.210 --> 06:51.290
+Now I can see that there are two things work.
+
+06:51.460 --> 06:58.200
+So we say this man says We're here we're going to go back and we're going to finish with the rules right.
+
+06:58.210 --> 07:00.250
+Because we don't have much left anyway.
+
+07:00.520 --> 07:09.020
+Now we have a pairing and then we would want a text here transform and we're going to say capitalize
+
+07:09.320 --> 07:13.070
+on your likeness and then we'll have a color hash tag.
+
+07:13.240 --> 07:15.840
+And this is going to be five here.
+
+07:15.970 --> 07:19.750
+See two more here and then we have B seven.
+
+07:19.750 --> 07:20.590
+All right.
+
+07:20.590 --> 07:24.820
+So basically we're adding There's great color and the same one we added or here and this is going to
+
+07:24.820 --> 07:26.570
+be pretty much it for the tile.
+
+07:26.590 --> 07:27.180
+Right.
+
+07:27.220 --> 07:30.740
+What's going to be happening is we're going to be copying pasting this title right.
+
+07:30.880 --> 07:36.550
+And like I said we're going to be just flipping them around adding different texts and adding different
+
+07:36.550 --> 07:36.960
+icons.
+
+07:36.970 --> 07:42.550
+But this is really nice that we have set it up right because now we're ready to go on and actually work
+
+07:42.550 --> 07:44.300
+on our skills section.

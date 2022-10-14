@@ -1,0 +1,11 @@
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\bin\Debug\Prueba.negocio.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\bin\Debug\Prueba.negocio.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\bin\Debug\Prueba.Datos.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\bin\Debug\Prueba.Entidades.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\bin\Debug\Prueba.Datos.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\bin\Debug\Prueba.Entidades.pdb
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\obj\Debug\Prueba.negocio.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\obj\Debug\Prueba.negocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\obj\Debug\Prueba.negocio.csproj.CopyComplete
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\obj\Debug\Prueba.negocio.dll
+C:\Users\usuario\Desktop\samil\PruebaADO.Net\Prueba\Prueba.negocio\obj\Debug\Prueba.negocio.pdb

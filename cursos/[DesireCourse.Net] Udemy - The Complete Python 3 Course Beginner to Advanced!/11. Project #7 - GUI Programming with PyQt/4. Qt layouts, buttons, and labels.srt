@@ -1,0 +1,1179 @@
+1
+
+00:00:00,000  -->  00:00:02,700
+Hey guys, welcome back. We are not going
+
+2
+
+00:00:02,700  -->  00:00:05,670
+to learn more qml within this section
+
+3
+
+00:00:05,670  -->  00:00:08,250
+just because qml is something for
+
+4
+
+00:00:08,250  -->  00:00:11,490
+another tutorial series all on its own,
+
+5
+
+00:00:11,490  -->  00:00:13,769
+or in another course. What we're trying to
+
+6
+
+00:00:13,769  -->  00:00:16,049
+learn here is Python and so when we're using
+
+7
+
+00:00:16,049  -->  00:00:18,119
+pyqt what we're going to be doing
+
+8
+
+00:00:18,119  -->  00:00:20,460
+from here on out is programming the
+
+9
+
+00:00:20,460  -->  00:00:23,519
+interface in Python. So, what you're
+
+10
+
+00:00:23,519  -->  00:00:24,990
+looking at right here is the native
+
+11
+
+00:00:24,990  -->  00:00:29,789
+calculator app of mac OS, and the reason
+
+12
+
+00:00:29,789  -->  00:00:31,529
+you're seeing it is because we are going
+
+13
+
+00:00:31,529  -->  00:00:33,989
+to be building a calculator. Now before
+
+14
+
+00:00:33,989  -->  00:00:35,309
+we get to that we actually need to
+
+15
+
+00:00:35,309  -->  00:00:36,809
+understand some other things about pyqt,
+
+16
+
+00:00:36,809  -->  00:00:38,280
+and so the first thing we're going
+
+17
+
+00:00:38,280  -->  00:00:40,200
+to be doing is just talking about
+
+18
+
+00:00:40,200  -->  00:00:43,530
+different layouts that a pyqt
+
+19
+
+00:00:43,530  -->  00:00:46,649
+application can have. So I'm going to go
+
+20
+
+00:00:46,649  -->  00:00:49,770
+ahead and open up my pycharm here, I've
+
+21
+
+00:00:49,770  -->  00:00:51,059
+already created a project called
+
+22
+
+00:00:51,059  -->  00:00:53,010
+calculator because that is what we are
+
+23
+
+00:00:53,010  -->  00:00:56,699
+going to be building coming up here. So
+
+24
+
+00:00:56,699  -->  00:00:59,100
+what we need to do is we need to before
+
+25
+
+00:00:59,100  -->  00:01:00,600
+we even start I want to talk about
+
+26
+
+00:01:00,600  -->  00:01:03,690
+different layouts, and so when you create
+
+27
+
+00:01:03,690  -->  00:01:07,500
+a pyqt app it's every widget that you
+
+28
+
+00:01:07,500  -->  00:01:10,890
+create is just going to throw it into
+
+29
+
+00:01:10,890  -->  00:01:14,010
+the UI. Now you can absolutely position stuff,
+
+30
+
+00:01:14,010  -->  00:01:16,590
+so you can tell it you know where it
+
+31
+
+00:01:16,590  -->  00:01:18,420
+should be on the screen, and that's kind of
+
+32
+
+00:01:18,420  -->  00:01:21,000
+static, it's always going to be in that
+
+33
+
+00:01:21,000  -->  00:01:23,189
+exact position within your application.
+
+34
+
+00:01:23,189  -->  00:01:27,000
+So a layout is a way to basically create
+
+35
+
+00:01:27,000  -->  00:01:28,710
+a layout. So you can create a vertical
+
+36
+
+00:01:28,710  -->  00:01:32,310
+layout, a horizontal layout, or a grid
+
+37
+
+00:01:32,310  -->  00:01:34,530
+layout. Now for the calculator obviously
+
+38
+
+00:01:34,530  -->  00:01:36,180
+we're going to be using a grid, so we're
+
+39
+
+00:01:36,180  -->  00:01:37,619
+going to cover some of the other ones
+
+40
+
+00:01:37,619  -->  00:01:39,180
+here first so you guys can understand
+
+41
+
+00:01:39,180  -->  00:01:41,369
+them. So the first thing we need to do is
+
+42
+
+00:01:41,369  -->  00:01:42,990
+make some imports so we're going to
+
+43
+
+00:01:42,990  -->  00:01:47,340
+import sys for the system-level
+
+44
+
+00:01:47,340  -->  00:01:49,890
+operations, and then we're going to be
+
+45
+
+00:01:49,890  -->  00:01:54,570
+including some pyqt widgets that
+
+46
+
+00:01:54,570  -->  00:01:56,759
+we're going to be using here. So, go ahead
+
+47
+
+00:01:56,759  -->  00:02:04,200
+and type from PyQt5.QtWidgets
+
+48
+
+00:02:04,200  -->  00:02:08,399
+import. In here what we're going to want
+
+49
+
+00:02:08,399  -->  00:02:09,690
+right now we're just going to import a
+
+50
+
+00:02:09,690  -->  00:02:12,380
+few that we're actually going to be using. So,
+
+51
+
+00:02:12,380  -->  00:02:16,460
+we're going to import QWidget, obviously,
+
+52
+
+00:02:16,460  -->  00:02:19,370
+QApplication, these two are essential
+
+53
+
+00:02:19,370  -->  00:02:22,100
+just to get the application to run, and
+
+54
+
+00:02:22,100  -->  00:02:25,640
+then we're going to import some layouts so
+
+55
+
+00:02:25,640  -->  00:02:31,100
+QHBoxLayout and QVBoxLayout, and then
+
+56
+
+00:02:31,100  -->  00:02:36,380
+also QPushButton. So those are our
+
+57
+
+00:02:36,380  -->  00:02:39,260
+imports. Now, something you'll notice that
+
+58
+
+00:02:39,260  -->  00:02:41,240
+I want to cover right now is that this
+
+59
+
+00:02:41,240  -->  00:02:44,060
+line will end up getting really, really, really long, and
+
+60
+
+00:02:44,060  -->  00:02:45,890
+so what you're going to want to do is
+
+61
+
+00:02:45,890  -->  00:02:47,900
+use multiple lines there. So the way
+
+62
+
+00:02:47,900  -->  00:02:49,610
+you're going to do that for an import is
+
+63
+
+00:02:49,610  -->  00:02:54,770
+wrap all of the imports in brackets, and
+
+64
+
+00:02:54,770  -->  00:02:56,210
+then you can split it up into multiple
+
+65
+
+00:02:56,210  -->  00:02:58,970
+lines until it looks right. This is going
+
+66
+
+00:02:58,970  -->  00:03:01,070
+to keep the import statement all as one.
+
+67
+
+00:03:01,070  -->  00:03:05,540
+So now down here we're going to actually
+
+68
+
+00:03:05,540  -->  00:03:09,320
+create our window that we're going to be
+
+69
+
+00:03:09,320  -->  00:03:11,420
+working with, or this is the main widget.
+
+70
+
+00:03:11,420  -->  00:03:13,940
+So let's go ahead and create a class
+
+71
+
+00:03:13,940  -->  00:03:19,250
+called main window, and the main window
+
+72
+
+00:03:19,250  -->  00:03:21,200
+class that we're creating is going to
+
+73
+
+00:03:21,200  -->  00:03:26,930
+inherit from the QWidget class. Now
+
+74
+
+00:03:26,930  -->  00:03:28,430
+we need to set the initialization
+
+75
+
+00:03:28,430  -->  00:03:30,620
+function and this is going to basically
+
+76
+
+00:03:30,620  -->  00:03:32,480
+run all of our code as soon as this
+
+77
+
+00:03:32,480  -->  00:03:35,390
+initializes. So, go ahead and define the
+
+78
+
+00:03:35,390  -->  00:03:40,430
+init function, and now we're going to
+
+79
+
+00:03:40,430  -->  00:03:44,270
+initialize the parent, which is a QWidget
+
+80
+
+00:03:44,270  -->  00:03:45,920
+class here, so let's go ahead and type
+
+81
+
+00:03:45,920  -->  00:03:51,920
+super which is a method, and then init.
+
+82
+
+00:03:51,920  -->  00:03:58,580
+Now once the qwidget is initialized
+
+83
+
+00:03:58,580  -->  00:04:01,940
+within our main window class, what we're
+
+84
+
+00:04:01,940  -->  00:04:03,860
+going to have to do is call a function,
+
+85
+
+00:04:03,860  -->  00:04:05,720
+we could put all our code right in here but
+
+86
+
+00:04:05,720  -->  00:04:09,890
+in an effort to make this more readable
+
+87
+
+00:04:09,890  -->  00:04:14,959
+we're going to create a self.init_ui,
+
+88
+
+00:04:14,959  -->  00:04:20,030
+and then we're going to create that
+
+89
+
+00:04:20,030  -->  00:04:23,840
+function here. And this init_ui that
+
+90
+
+00:04:23,840  -->  00:04:25,310
+we're building here is going to
+
+91
+
+00:04:25,310  -->  00:04:25,940
+actually
+
+92
+
+00:04:25,940  -->  00:04:28,580
+run all of our code. So, the first thing we
+
+93
+
+00:04:28,580  -->  00:04:30,800
+need to do is create our buttons, and so
+
+94
+
+00:04:30,800  -->  00:04:32,930
+the way that you create a button is you
+
+95
+
+00:04:32,930  -->  00:04:34,940
+create a variable to instantiate the
+
+96
+
+00:04:34,940  -->  00:04:38,240
+object that is a qt push-button. So
+
+97
+
+00:04:38,240  -->  00:04:41,630
+let's go ahead and name it
+
+98
+
+00:04:41,630  -->  00:04:45,500
+okButton, and it's going to be equal to
+
+99
+
+00:04:45,500  -->  00:04:49,430
+QPushButton, and noticed the
+
+100
+
+00:04:49,430  -->  00:04:51,890
+capitalization within here Q and P.
+
+101
+
+00:04:51,890  -->  00:04:55,160
+Basically with the pyqt framework
+
+102
+
+00:04:55,160  -->  00:04:58,130
+it's camelcase, so the beginning of each word
+
+103
+
+00:04:58,130  -->  00:05:00,950
+in the statement itself is
+
+104
+
+00:05:00,950  -->  00:05:04,130
+capitalized. And then we're going to pass
+
+105
+
+00:05:04,130  -->  00:05:06,260
+in a variable and this is going to
+
+106
+
+00:05:06,260  -->  00:05:08,750
+become the text that is on the button. So
+
+107
+
+00:05:08,750  -->  00:05:10,340
+in this case we're just gonna say "OK"
+
+108
+
+00:05:10,340  -->  00:05:15,770
+and then cancel button is going to be
+
+109
+
+00:05:15,770  -->  00:05:19,430
+the same QPushButton except this one
+
+110
+
+00:05:19,430  -->  00:05:25,520
+is going to say "Cancel" Now what we can
+
+111
+
+00:05:25,520  -->  00:05:28,700
+do is we can put both of these into an
+
+112
+
+00:05:28,700  -->  00:05:31,400
+HBoxLayout, and HBox again is
+
+113
+
+00:05:31,400  -->  00:05:33,530
+horizontal so it's going to position
+
+114
+
+00:05:33,530  -->  00:05:36,260
+each thing as necessary to have them
+
+115
+
+00:05:36,260  -->  00:05:39,440
+horizontally interesting line. So let's
+
+116
+
+00:05:39,440  -->  00:05:42,890
+go ahead and make a horizontal variable
+
+117
+
+00:05:42,890  -->  00:05:46,130
+and it's going to be equal to QHBoxLayout,
+
+118
+
+00:05:46,130  -->  00:05:52,070
+and this does not take in any
+
+119
+
+00:05:52,070  -->  00:05:53,480
+arguments or anything so we don't need
+
+120
+
+00:05:53,480  -->  00:05:55,310
+past anything in there, and we're going
+
+121
+
+00:05:55,310  -->  00:05:57,230
+to make it stretch so it's going to be
+
+122
+
+00:05:57,230  -->  00:05:59,060
+dynamic in the way that it looks. So
+
+123
+
+00:05:59,060  -->  00:06:04,130
+we're going to say horizontal.addStretch,
+
+124
+
+00:06:04,130  -->  00:06:09,380
+and then we're going to start adding our
+
+125
+
+00:06:09,380  -->  00:06:12,620
+previously created widgets, which
+
+126
+
+00:06:12,620  -->  00:06:14,270
+QPushButton is here, we're going to start
+
+127
+
+00:06:14,270  -->  00:06:17,480
+adding those into the HBoxLayout. So,
+
+128
+
+00:06:17,480  -->  00:06:19,640
+what we need to do is type horizontal.
+
+129
+
+00:06:19,640  -->  00:06:24,020
+addWidget and when you call add widget
+
+130
+
+00:06:24,020  -->  00:06:26,180
+on the layout it's going to allow you to
+
+131
+
+00:06:26,180  -->  00:06:28,610
+add a widget. So examples of a widget in
+
+132
+
+00:06:28,610  -->  00:06:33,950
+qt are a label, a push button, a notebook
+
+133
+
+00:06:33,950  -->  00:06:37,380
+or tabbed interface that's a widget as well,
+
+134
+
+00:06:37,380  -->  00:06:39,720
+and so you can basically use this add
+
+135
+
+00:06:39,720  -->  00:06:43,560
+widget method of a horizontal box layout,
+
+136
+
+00:06:43,560  -->  00:06:46,110
+or vertical box layout, or a grid layout,
+
+137
+
+00:06:46,110  -->  00:06:48,810
+and you can use this method to actually
+
+138
+
+00:06:48,810  -->  00:06:52,440
+stuff things into that layout. So we're
+
+139
+
+00:06:52,440  -->  00:06:56,610
+going to say okButton, and then
+
+140
+
+00:06:56,610  -->  00:07:08,160
+horizontal.addWidget(cancelButton). So, what
+
+141
+
+00:07:08,160  -->  00:07:10,320
+we're going to do since this is the qwidget
+
+142
+
+00:07:10,320  -->  00:07:12,180
+and this is the main window we can
+
+143
+
+00:07:12,180  -->  00:07:15,030
+target it by using self, so this is going to
+
+144
+
+00:07:15,030  -->  00:07:20,040
+be equal to mainwindow.setlayout.
+
+145
+
+00:07:20,040  -->  00:07:21,870
+So what we're going to do is we just type
+
+146
+
+00:07:21,870  -->  00:07:25,950
+self.setLayout and then we tell
+
+147
+
+00:07:25,950  -->  00:07:28,020
+it what layout we want to use in case we
+
+148
+
+00:07:28,020  -->  00:07:30,270
+create multiple ones. So in this instance
+
+149
+
+00:07:30,270  -->  00:07:32,520
+our layout is called horizontal and the
+
+150
+
+00:07:32,520  -->  00:07:34,770
+layout is of a horizontal box layout
+
+151
+
+00:07:34,770  -->  00:07:40,050
+type. Now once we set the layout we can then
+
+152
+
+00:07:40,050  -->  00:07:41,880
+set the window title, and
+
+153
+
+00:07:41,880  -->  00:07:43,350
+then we're just going to show its, so
+
+154
+
+00:07:43,350  -->  00:07:49,560
+self.setWindowTitle("Horizontal Layout"), and then
+
+155
+
+00:07:49,560  -->  00:07:54,420
+self.show. Now this in and of itself
+
+156
+
+00:07:54,420  -->  00:07:55,770
+isn't actually going to do anything
+
+157
+
+00:07:55,770  -->  00:07:58,770
+because we need to actually run the code
+
+158
+
+00:07:58,770  -->  00:08:02,310
+at the bottom of script, so w're going to type if __name__
+
+159
+
+00:08:02,310  -->  00:08:08,190
+== '__main__': first we need to instantiate
+
+160
+
+00:08:08,190  -->  00:08:11,460
+our app so app = QApplication,
+
+161
+
+00:08:11,460  -->  00:08:15,960
+and we're just going to pass in the
+
+162
+
+00:08:15,960  -->  00:08:19,710
+system's arguments which there aren't
+
+163
+
+00:08:19,710  -->  00:08:23,310
+any. And then we set the
+
+164
+
+00:08:23,310  -->  00:08:29,820
+window object to MainWindow, and then we
+
+165
+
+00:08:29,820  -->  00:08:31,260
+just tell it to run. So how we're going
+
+166
+
+00:08:31,260  -->  00:08:34,050
+to run it is we're going to type
+
+167
+
+00:08:34,050  -->  00:08:36,630
+sys.exit, so this means until it exits it's
+
+168
+
+00:08:36,630  -->  00:08:38,340
+going to run this code so we are going to
+
+169
+
+00:08:38,340  -->  00:08:45,030
+run app.exec_( ).
+
+170
+
+00:08:45,030  -->  00:08:47,460
+So we can save this and we can run this
+
+171
+
+00:08:47,460  -->  00:08:48,690
+now, and you're going to actually see
+
+172
+
+00:08:48,690  -->  00:08:50,710
+what all of our hard work has done.
+
+173
+
+00:08:50,710  -->  00:08:56,230
+Ok, I don't know why it showed me that. So as you
+
+174
+
+00:08:56,230  -->  00:08:59,830
+can see there is a horizontal layout and
+
+175
+
+00:08:59,830  -->  00:09:03,250
+it doesn't stretch, so let's go ahead and
+
+176
+
+00:09:03,250  -->  00:09:13,630
+add that one in there, and it still
+
+177
+
+00:09:13,630  -->  00:09:16,540
+doesn't stretch. Alright,
+
+178
+
+00:09:16,540  -->  00:09:19,840
+oh it's stretching, okay, yeah, because you
+
+179
+
+00:09:19,840  -->  00:09:22,960
+can see these are like that the buttons
+
+180
+
+00:09:22,960  -->  00:09:24,970
+themselves are not stretching but
+
+181
+
+00:09:24,970  -->  00:09:29,650
+the layout is definitely stretching. As
+
+182
+
+00:09:29,650  -->  00:09:34,210
+you can see these are moving. So that is
+
+183
+
+00:09:34,210  -->  00:09:36,490
+the horizontal box layout. Now what
+
+184
+
+00:09:36,490  -->  00:09:38,530
+happens when I just change this one
+
+185
+
+00:09:38,530  -->  00:09:41,440
+letter here to V, so now it's a vertical
+
+186
+
+00:09:41,440  -->  00:09:43,540
+layout. So if I run it you're going to
+
+187
+
+00:09:43,540  -->  00:09:45,820
+see that the buttons are now in a
+
+188
+
+00:09:45,820  -->  00:09:49,960
+vertical dimension. So what we're going
+
+189
+
+00:09:49,960  -->  00:09:52,930
+to do is we're going to create a vertical
+
+190
+
+00:09:52,930  -->  00:09:55,810
+layout, and then put the horizontal
+
+191
+
+00:09:55,810  -->  00:09:57,190
+layout within it.
+
+192
+
+00:09:57,190  -->  00:10:01,720
+So, let's set this back to a HBoxLayout, and
+
+193
+
+00:10:01,720  -->  00:10:04,480
+we're going to create a variable called
+
+194
+
+00:10:04,480  -->  00:10:09,640
+vertical which is equal to QVBoxLayout,
+
+195
+
+00:10:09,640  -->  00:10:14,380
+and then we're going to say
+
+196
+
+00:10:14,380  -->  00:10:22,150
+vertical.addStretch because we want this to
+
+197
+
+00:10:22,150  -->  00:10:25,960
+we resize when we actually resize it, and
+
+198
+
+00:10:25,960  -->  00:10:27,880
+then we're going to add the horizontal
+
+199
+
+00:10:27,880  -->  00:10:30,250
+layout to the vertical layout. So, we're
+
+200
+
+00:10:30,250  -->  00:10:33,880
+going to say vertical.setLayout,
+
+201
+
+00:10:33,880  -->  00:10:39,340
+actually it's addLayout sorry,
+
+202
+
+00:10:39,340  -->  00:10:43,960
+horizontal, and then we're going to set
+
+203
+
+00:10:43,960  -->  00:10:50,530
+the main layout to vertical. So I'm going
+
+204
+
+00:10:50,530  -->  00:10:53,440
+to save this and run it again, and you're
+
+205
+
+00:10:53,440  -->  00:10:57,610
+going to see now that there's different,
+
+206
+
+00:10:57,610  -->  00:10:59,500
+I can't really see so what I'm going
+
+207
+
+00:10:59,500  -->  00:11:01,570
+to do is I'm going to throw in a label
+
+208
+
+00:11:01,570  -->  00:11:03,990
+in there as well. So we will talk about that
+
+209
+
+00:11:03,990  -->  00:11:05,640
+as well. So after QPushButton right
+
+210
+
+00:11:05,640  -->  00:11:07,529
+here it's within the QT widgets
+
+211
+
+00:11:07,529  -->  00:11:11,010
+directories I guess we're going to say
+
+212
+
+00:11:11,010  -->  00:11:15,779
+QLabel. And up at the top here we're
+
+213
+
+00:11:15,779  -->  00:11:17,130
+just going to create a label called
+
+214
+
+00:11:17,130  -->  00:11:20,279
+label, it's going to be equal to QLabel, and
+
+215
+
+00:11:20,279  -->  00:11:24,390
+it's going to say "Hi there, I'm a label.
+
+216
+
+00:11:24,390  -->  00:11:27,839
+Woot."
+
+217
+
+00:11:27,839  -->  00:11:32,339
+Now what we're going to do is we're
+
+218
+
+00:11:32,339  -->  00:11:35,550
+going to add to the vertical here, we're
+
+219
+
+00:11:35,550  -->  00:11:39,000
+going to add a widget. So vertical.
+
+220
+
+00:11:39,000  -->  00:11:44,459
+addWidget, and we're going to add label.
+
+221
+
+00:11:44,459  -->  00:11:46,680
+So now when I save I can go ahead and run it you're
+
+222
+
+00:11:46,680  -->  00:11:48,870
+going to see that it appears on the top,
+
+223
+
+00:11:48,870  -->  00:11:51,300
+so there are different sections here as
+
+224
+
+00:11:51,300  -->  00:11:53,970
+you can see. And those are basically what
+
+225
+
+00:11:53,970  -->  00:11:57,870
+layouts do. So if again if I add a
+
+226
+
+00:11:57,870  -->  00:12:00,750
+vertical layout to a vertical layout and
+
+227
+
+00:12:00,750  -->  00:12:02,339
+then use that it's going to show it all
+
+228
+
+00:12:02,339  -->  00:12:04,860
+on different lines here, and that's what
+
+229
+
+00:12:04,860  -->  00:12:06,990
+you know that's to be expected, I guess,
+
+230
+
+00:12:06,990  -->  00:12:09,839
+If you understand vertical and
+
+231
+
+00:12:09,839  -->  00:12:12,750
+horizontal or X &amp; Y. So that is basically
+
+232
+
+00:12:12,750  -->  00:12:16,230
+the two layout options that you have but
+
+233
+
+00:12:16,230  -->  00:12:18,270
+there's also a grid layout, and we're
+
+234
+
+00:12:18,270  -->  00:12:20,310
+going to go more into that when we build the
+
+235
+
+00:12:20,310  -->  00:12:21,660
+calculator, so we're not really going to
+
+236
+
+00:12:21,660  -->  00:12:24,709
+talk about it right now.

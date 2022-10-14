@@ -1,0 +1,580 @@
+WEBVTT
+
+00:00.150 --> 00:03.390
+So let's go ahead and let's create our last section.
+
+00:03.480 --> 00:10.140
+So here again we need to check where this section and I'm so on this is going to be on our song list
+
+00:10.140 --> 00:11.440
+section right.
+
+00:11.500 --> 00:13.000
+This was the song list.
+
+00:13.170 --> 00:14.410
+So that's right over here.
+
+00:14.410 --> 00:16.180
+And this is going to be a comment.
+
+00:16.260 --> 00:20.130
+This is going to be the end of song list.
+
+00:20.430 --> 00:22.120
+And then we're going to do well here.
+
+00:22.170 --> 00:28.500
+And this is going to be a songs so I'm going to write or hear songs Section 1 so I have the comment
+
+00:28.640 --> 00:35.310
+of songs section then I'm going to write on here and this is going to be a section and on here we're
+
+00:35.320 --> 00:38.670
+going to say this is going to be class of songs.
+
+00:39.010 --> 00:46.820
+I was going to say songs right then I have to I'm not going to have a heading one like this and I'm
+
+00:46.830 --> 00:53.880
+going to write top songs or write then all he'll going to write a div and this is going to be a song's
+
+00:54.020 --> 01:00.840
+center so I'm going to say or hear Dave and or hear this is going to have a class all your songs and
+
+01:00.860 --> 01:05.800
+we're going to say senator then not only is going to have a songs Center.
+
+01:05.880 --> 01:09.470
+We also need our carrousel because we're going to be using our cars.
+
+01:09.700 --> 01:11.700
+So we're going right over here now.
+
+01:11.980 --> 01:16.770
+So those are the two classes that we need actually for our cars to work.
+
+01:17.010 --> 01:23.850
+And we're going to all how or how rigorous rent once we have these two classes are here.
+
+01:23.970 --> 01:28.900
+Now would you would want to do is actually place articles that are going to be our songs.
+
+01:28.900 --> 01:34.200
+So I'm going to say we're here an article like this and I'm going to give it a class of song right.
+
+01:34.320 --> 01:34.920
+Right.
+
+01:34.950 --> 01:40.170
+So once we have the article then we'll get right over here heading three and we're going to say this
+
+01:40.170 --> 01:44.630
+is going to be an artist artist over here.
+
+01:44.670 --> 01:50.220
+Then the next one is going to be a heading for and this is going to be a song.
+
+01:50.580 --> 01:56.030
+And then after that we would want to have a div of song container.
+
+01:56.210 --> 01:57.120
+I pressed tab.
+
+01:57.120 --> 02:00.970
+Now we have some container and here we're going to write image.
+
+02:01.110 --> 02:01.610
+Right.
+
+02:01.890 --> 02:05.880
+And again we're going to have the same image we're going to have images and this is going to be song
+
+02:05.880 --> 02:08.590
+one song one.
+
+02:08.620 --> 02:10.440
+I know where he'll get the right song.
+
+02:11.100 --> 02:18.820
+And once we have this now we'll do what I want is a I can write that we're actually going to be placing
+
+02:18.940 --> 02:20.390
+as we're hovering right.
+
+02:20.390 --> 02:21.580
+So I'm going to say we're here.
+
+02:21.590 --> 02:30.000
+I know this is going to be a mess and we're going to say F A and this is going to be music music or
+
+02:30.130 --> 02:36.470
+press tab and I can see that I have my icon or right all the way in the bottom right now.
+
+02:36.460 --> 02:41.940
+What I would also want to do is actually place this on my in the actual link.
+
+02:41.940 --> 02:42.450
+All right.
+
+02:42.560 --> 02:48.730
+So I'm going to say over here this is going to be a trap here and I'm going to say we're here and this
+
+02:48.730 --> 02:51.970
+is going to be class so long.
+
+02:52.780 --> 02:54.200
+Icon right.
+
+02:54.340 --> 02:59.480
+And let's play this here and start it over here right.
+
+02:59.530 --> 03:01.510
+So song like right.
+
+03:01.810 --> 03:07.240
+Once we have this now we want to create eight of these right here.
+
+03:07.270 --> 03:11.560
+So what I'm going to do over here again I'm just going to write and this is going to be song.
+
+03:12.010 --> 03:20.530
+This is going to be the end of song and of song and I can't copy and paste this a time and still within
+
+03:20.700 --> 03:27.440
+the right I will grab this and let's copy this sometimes so one two three four five six seven.
+
+03:27.670 --> 03:28.140
+All right.
+
+03:28.280 --> 03:29.990
+And was just scroll down right.
+
+03:30.070 --> 03:32.030
+This is going to be number two.
+
+03:32.120 --> 03:34.840
+This is going to be again number three.
+
+03:34.900 --> 03:36.840
+This is going to be number four.
+
+03:37.860 --> 03:49.090
+Number five number here six and seven and this is going to be number eight.
+
+03:49.510 --> 03:57.460
+So now that we have them let's go to names you assess what's actually started styling them.
+
+03:57.720 --> 04:04.550
+So I would say this is going to go up to main success and go all the way and the bottom line know here
+
+04:04.570 --> 04:06.630
+we're going to say that this is going to be songs.
+
+04:07.130 --> 04:11.580
+I mean again place a hashtags like this right.
+
+04:11.610 --> 04:13.800
+And these are going to be songs.
+
+04:13.870 --> 04:19.820
+So we're going to say we're here and this is going to be songs and we're going to first add a padding
+
+04:20.590 --> 04:25.570
+when you say here and this is going to be a padding of 40 pixels and zero.
+
+04:25.850 --> 04:33.460
+So I'm going to say songs and we're going to say padding 40 pixels and zero here like that.
+
+04:33.480 --> 04:33.720
+Right.
+
+04:33.720 --> 04:42.030
+So pretty much top bottom 40 pixels that I'm going to work with a song setting one the top songs and
+
+04:42.140 --> 04:48.590
+one will get it right or here we're going to say this is going to be songs handing one and do you want
+
+04:48.590 --> 04:55.830
+to hear text transform transform when you say how good is this.
+
+04:55.850 --> 05:05.480
+And then we're going to have a margin of 20 I'm 0 0 20 pixels and 20 pixels like this then we're going
+
+05:05.480 --> 05:06.800
+to work with actual song.
+
+05:06.830 --> 05:11.140
+So we're going to write something or you are going to say text on line.
+
+05:11.240 --> 05:18.150
+When I say Center we're here and with we're going to also going to say 90 percent or so right.
+
+05:18.440 --> 05:21.580
+Then Margene we're going to say zero.
+
+05:21.590 --> 05:22.330
+All right.
+
+05:22.340 --> 05:26.740
+So basically the whole song we're actually placing in a center right.
+
+05:26.750 --> 05:33.290
+We're saying that song should be only 90 percent and then margin 0 or so then we're going to work with
+
+05:33.290 --> 05:37.110
+this song or hear three or like this.
+
+05:37.130 --> 05:44.990
+I'm going to say text transform and we're going to set up twice like this and then we're going to have
+
+05:45.100 --> 05:49.600
+a slim margin or you know what let's do it differently right.
+
+05:49.670 --> 05:52.460
+Let's work with the actual song over here.
+
+05:52.460 --> 05:52.740
+Right.
+
+05:52.730 --> 05:58.250
+So I'm going to say song and we're going to say heading for here we're going to say that this is going
+
+05:58.250 --> 05:59.790
+to be a margin.
+
+06:00.170 --> 06:08.180
+And it is going to be 10 pixels and then zero like this and then we're going to say again text transform
+
+06:09.740 --> 06:14.770
+text transform and you're going to say again it's going to be capitalized.
+
+06:14.810 --> 06:16.870
+Now we would want to change the color.
+
+06:17.140 --> 06:24.860
+And so I'm going to say that the color is going to be color and this is going to be hashtag 8 8 8 8
+
+06:24.920 --> 06:26.990
+the year like this.
+
+06:26.990 --> 06:31.370
+And now what you would want to do is work with an actual container.
+
+06:31.880 --> 06:40.080
+So basically what I want to do right now is I want to place this icon in the middle right when I'm hovering.
+
+06:40.210 --> 06:42.850
+And so basically it should shouldn't be here right now.
+
+06:42.850 --> 06:43.040
+Right.
+
+06:43.040 --> 06:49.640
+So only as I'm hovering right I'm going to create this effect and it's looking on here as I'm hovering.
+
+06:49.640 --> 06:51.130
+Now we're going to get an icon.
+
+06:51.470 --> 06:57.590
+So we're going to go back over here and we're going to say this is going to be song container right.
+
+06:57.590 --> 07:02.530
+This is the container that actually has this image right here.
+
+07:02.630 --> 07:06.760
+What you would want to do is since we're going to be using the absolute positioning right.
+
+07:06.950 --> 07:09.000
+We're going to say position relative right.
+
+07:09.020 --> 07:13.110
+And this is important if we're going to be using position absolute for this guy.
+
+07:13.250 --> 07:17.300
+And then also what we would want is overflow.
+
+07:17.300 --> 07:18.060
+Hidden.
+
+07:18.070 --> 07:18.770
+All right.
+
+07:18.800 --> 07:22.910
+Because what's going to happen is we're going to scale the image right.
+
+07:23.000 --> 07:27.720
+However as we add these properties I'm actually going to show you what happens if we don't add.
+
+07:27.770 --> 07:28.850
+So don't worry about it.
+
+07:28.850 --> 07:29.640
+Right.
+
+07:29.660 --> 07:34.950
+BORGER And we're going to say eight years it's going to be 20 pixels.
+
+07:35.010 --> 07:41.560
+All right then margin I'm going to say we're here is going to be 10 pixels.
+
+07:41.580 --> 07:42.430
+That's right.
+
+07:42.470 --> 07:48.350
+And you can see that I messed that up because this is container right now we're actually affecting the
+
+07:48.350 --> 07:48.910
+container.
+
+07:48.910 --> 07:50.750
+And before that we're not doing that.
+
+07:50.750 --> 07:51.480
+All right.
+
+07:51.490 --> 07:55.750
+So now what do we want to do is have a song.
+
+07:56.180 --> 08:03.150
+When I say saw an image like this I'm going to say this play block like this.
+
+08:03.330 --> 08:07.250
+Then we're going to have a with what we we're going to say 100 percent.
+
+08:07.490 --> 08:09.290
+And it is important to do it right.
+
+08:09.290 --> 08:15.770
+Actually important because again we're going to be dealing with a whole carousel that uses absolute
+
+08:15.770 --> 08:16.930
+positioning.
+
+08:16.940 --> 08:19.380
+Right so that's right or really important.
+
+08:19.400 --> 08:19.830
+Right.
+
+08:20.060 --> 08:25.640
+And then what you want to do is have a opacity and transformation.
+
+08:25.640 --> 08:26.320
+All right.
+
+08:26.330 --> 08:32.390
+So first what I'm going to say is the transition I'm going to say all and let's say again this is going
+
+08:32.390 --> 08:38.450
+to be two seconds two seconds is like this right.
+
+08:38.630 --> 08:46.250
+However here what I'm going to say is that as I'm hovering over the song someone else's song image over
+
+08:47.890 --> 08:54.130
+here opacity is going to be actually 0.7 right here.
+
+08:54.130 --> 09:01.540
+And also we'll do a little bit of transformation and so we're going to say transform scale one point
+
+09:01.630 --> 09:05.850
+to me and you see what happens right as I'm hovering over.
+
+09:06.020 --> 09:12.610
+All right I can see that what's happening is that actually my image is actually changing right now.
+
+09:12.610 --> 09:19.170
+What is important right is for me you can see that right now the image is zooming in red.
+
+09:19.360 --> 09:25.350
+However if I would have had it over here let's say that we are going to come in this one out.
+
+09:25.550 --> 09:26.120
+Right.
+
+09:26.230 --> 09:29.910
+And you can see or hear what's happening image is actually getting bigger right.
+
+09:29.980 --> 09:36.190
+And we don't want and that's why it's important for the container to have this awful hit it right.
+
+09:36.250 --> 09:43.430
+Once we have this the next thing that we would want to do is work with an actual song I can do it all
+
+09:43.430 --> 09:44.200
+here.
+
+09:44.560 --> 09:50.950
+So I'm going to say really this is going to be something that we're going to say on and once we have
+
+09:51.010 --> 09:56.450
+a font size it's going to be 30 pixels.
+
+09:56.530 --> 10:01.240
+To have a padding of 10 pixels like this.
+
+10:01.570 --> 10:09.330
+And then we're going to have a display and this play is going to be inline block in one block or here.
+
+10:09.850 --> 10:12.890
+Then the caller is going to be orange.
+
+10:13.030 --> 10:21.410
+So when you say orange EF 1 5 0 2 5 0 like this then border.
+
+10:21.420 --> 10:27.350
+So when I say border and an order is going to be two pixels solid.
+
+10:27.990 --> 10:29.660
+And this is going to be hashed.
+
+10:29.690 --> 10:37.420
+EF 1 5 0 2 5 0 0 like this then we're going to have a broader radius.
+
+10:37.560 --> 10:47.340
+It's going to be 50 percent right this cursor we're going to say pointer pointer on this then transition
+
+10:47.700 --> 10:52.230
+we're going to say it all right so we're going to say transition and we're going to write all.
+
+10:52.370 --> 10:54.720
+And again this is going to be two seconds.
+
+10:55.260 --> 10:56.180
+Two seconds.
+
+10:56.200 --> 10:58.490
+He's like this.
+
+10:58.690 --> 11:00.240
+Now the most interesting part.
+
+11:00.280 --> 11:06.940
+And so first one would want to do is have a position right I'm going to see position.
+
+11:07.090 --> 11:08.970
+Absolute.
+
+11:08.970 --> 11:09.510
+That's right.
+
+11:09.510 --> 11:12.270
+And I can see that it actually has disappeared.
+
+11:12.300 --> 11:17.160
+Right then we're going to say left and this is going to be 50 percent.
+
+11:17.170 --> 11:17.870
+Right.
+
+11:17.930 --> 11:21.650
+And here top also is going to be 50 percent.
+
+11:21.900 --> 11:25.440
+Now you can see it up here or here right now this is important why.
+
+11:25.600 --> 11:28.130
+To have this position relative right.
+
+11:28.260 --> 11:32.810
+Because this container's actually right now a parent container for this position.
+
+11:32.910 --> 11:33.280
+Right.
+
+11:33.450 --> 11:40.320
+So this is important to actually do it right now once we have this top and left.
+
+11:40.320 --> 11:44.580
+Now what I would want is actually place it exactly in the center because you can see that it's not exactly
+
+11:44.580 --> 11:45.320
+in center.
+
+11:45.600 --> 11:53.210
+So I'm going to say transfer one and I'm going to say translate I'm going to say negative 50 percent.
+
+11:53.430 --> 11:53.750
+Right.
+
+11:53.770 --> 11:57.360
+You can see that I'm moving it right and negative 50 percent right.
+
+11:57.540 --> 12:00.500
+So now I can see that it actually moves in the center right away right.
+
+12:00.690 --> 12:06.480
+So this is the exact same center because before that it wasn't really in the center because it actually
+
+12:06.570 --> 12:09.700
+took in account its own dimensions.
+
+12:10.110 --> 12:16.880
+And so now we have this right now what we want is to have opacity and we're going to say zero.
+
+12:17.260 --> 12:18.400
+So it disappears.
+
+12:18.560 --> 12:21.200
+However we're going to be hovering over.
+
+12:21.300 --> 12:27.480
+So I'm going to say song icon and I'm going to say however I like this I'm going to say that this is
+
+12:27.480 --> 12:29.750
+going to be a color right.
+
+12:29.820 --> 12:37.120
+So this is going to be color color is going to be one white f f f here.
+
+12:37.170 --> 12:40.150
+Border color more color.
+
+12:40.260 --> 12:48.210
+When I say color and this is going to be hash tag EF 1 5 0 to 5 and background is also going to change
+
+12:48.210 --> 12:48.460
+right.
+
+12:48.450 --> 12:52.360
+So hash tag 1 5 0 to 5 on here like this.
+
+12:52.360 --> 12:54.340
+Right now we cannot see it right now.
+
+12:54.340 --> 12:54.730
+Right.
+
+12:54.900 --> 12:57.840
+Because we're even though we're hovering the capacity is zero.
+
+12:57.840 --> 13:09.650
+However I'm going to say here some container cover like this and we're going to say song icon icon on
+
+13:09.650 --> 13:10.180
+here.
+
+13:10.360 --> 13:13.750
+And we're going to say what opacity is going to be one.
+
+13:13.790 --> 13:15.140
+So let's see how it happens.
+
+13:15.140 --> 13:15.770
+Right.
+
+13:15.770 --> 13:24.070
+So as you can see as I'm hovering over the container right the actual icon is actually appearing right.
+
+13:24.140 --> 13:28.380
+However if I go to the actual icon right now we have another effect.
+
+13:28.380 --> 13:29.050
+All right.
+
+13:29.210 --> 13:32.810
+So that's about it for the main thesis.
+
+13:33.100 --> 13:36.450
+Now what we would need to do is actually had our outlook so.

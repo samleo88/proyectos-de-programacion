@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00.240 --> 00:01.050
+Next one up.
+
+00:01.050 --> 00:07.560
+We have two pseudo elements which would be first line and first letter and just by looking at him I
+
+00:07.560 --> 00:12.390
+think they're all going to be much more straightforward than the before and after.
+
+00:12.420 --> 00:17.010
+So the first one is going to style the first line and the second one is going to work with the first
+
+00:17.010 --> 00:18.450
+letter as always.
+
+00:18.450 --> 00:21.900
+Let's get rid of everything that we had in the previous one.
+
+00:22.020 --> 00:23.540
+Say it in the annex.
+
+00:23.550 --> 00:25.360
+This is going to be very simple.
+
+00:25.480 --> 00:31.010
+Who's gonna work with not a div where we're going to have the paragraph then the paragraph is gonna
+
+00:31.010 --> 00:31.290
+have.
+
+00:31.320 --> 00:34.880
+I don't know Lorem 30 words something like this.
+
+00:34.920 --> 00:36.120
+This is gonna be my paragraph.
+
+00:36.540 --> 00:42.660
+And then if we head over back to the C assess we can just say paragraph and use the first line.
+
+00:42.660 --> 00:49.920
+So this is gonna style the first line in our case we can just say font way is gonna be let's say bold.
+
+00:50.010 --> 00:55.530
+So now wait there's gonna be mold however if you'd want the first letter to be bigger again the same
+
+00:55.530 --> 01:01.890
+thing we are working with first letter and let's say font size is gonna be I don't know three are m
+
+01:01.920 --> 01:04.320
+so as straightforward as it gets.
+
+01:04.440 --> 01:06.090
+First line and first letter.

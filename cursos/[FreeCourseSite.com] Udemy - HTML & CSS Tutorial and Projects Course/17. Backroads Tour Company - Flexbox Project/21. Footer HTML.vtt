@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00.330 --> 00:08.220
+And once we have added our form in the deals section next one up we're going to work on our footer.
+
+00:08.430 --> 00:13.810
+So if we take a look at the finished project in a footer we're gonna have some links.
+
+00:13.830 --> 00:20.550
+So we're gonna be able to navigate to that particular section from the footer as well as onto some icons
+
+00:21.150 --> 00:23.110
+all the way in the bottom as well.
+
+00:23.220 --> 00:28.800
+And then a little copyright where there's gonna be some information about our company.
+
+00:28.870 --> 00:29.410
+Okay.
+
+00:29.820 --> 00:36.960
+Now let's head over back to our indexation the email then and let's copy paste like we already have
+
+00:36.960 --> 00:43.750
+done before your times and then in this case you know what we can just skip it.
+
+00:44.100 --> 00:48.000
+In a sense that we don't need to have two comments for one specific thing.
+
+00:48.150 --> 00:50.050
+Why don't we write footer.
+
+00:50.360 --> 00:54.250
+And that is going to mean that of course there's going to be a footprint here.
+
+00:54.480 --> 01:01.440
+And then right after the footer we're gonna have our JavaScript So let's write JavaScript which by the
+
+01:01.440 --> 01:03.720
+way is optional at the end of the day anyway.
+
+01:03.930 --> 01:06.280
+But I'm gonna have my comment in here.
+
+01:06.330 --> 01:07.040
+OK.
+
+01:07.170 --> 01:11.760
+Now as far as footer Well let's start by creating a footer element.
+
+01:11.760 --> 01:17.640
+So in this case we're not creating a section we're creating a footer with two classes and a section
+
+01:18.180 --> 01:20.310
+as well as the Fuhrer class.
+
+01:20.400 --> 01:23.360
+Now within a photo let's start by creating our looks.
+
+01:23.400 --> 01:34.770
+So let's create a comment let's say footer links and then let's go with a div with the class of footer
+
+01:34.770 --> 01:38.520
+links footer hyphen links.
+
+01:38.520 --> 01:41.120
+Now within this div there's gonna be bunch of links.
+
+01:41.160 --> 01:43.050
+So let's start with the first one.
+
+01:43.140 --> 01:45.320
+So I'm going to create a link now.
+
+01:45.510 --> 01:48.000
+The links are gonna be within our page.
+
+01:48.000 --> 01:49.530
+So I'm just gonna say hashtag.
+
+01:49.530 --> 01:54.270
+That means that this particular link is going to go to a certain idea.
+
+01:54.270 --> 01:59.590
+Remember that was the reason when every time we create a section we added these ideas.
+
+01:59.610 --> 02:01.680
+So if your ideas are different.
+
+02:01.680 --> 02:05.650
+Make sure that you in fact have the ideas that you are using.
+
+02:05.730 --> 02:09.480
+In my case I'm using gallery I'm using about I'm using deals now.
+
+02:09.900 --> 02:14.300
+So that's the reason when I'm creating a link I'm gonna add over here.
+
+02:14.310 --> 02:20.760
+Let's say home line means that this particular thing is gonna go home and then as well I'm gonna add
+
+02:20.760 --> 02:24.740
+class and I see a class of footer link.
+
+02:24.810 --> 02:31.380
+Now later on we're gonna add some classes as well for my javascript when we're setting up the smooth
+
+02:31.380 --> 02:32.140
+scrolling.
+
+02:32.310 --> 02:39.090
+But as far as the amount he has this concern we just need the nature of with particular ideas and then
+
+02:39.090 --> 02:46.680
+footer link class and also as a side note for our finished project actually when we're gonna have the
+
+02:46.680 --> 02:49.630
+knob bar I'm also gonna use the same links.
+
+02:49.650 --> 02:55.140
+Now I'm gonna change the classes as far as styling is concerned but the HMO I'm just going to copy and
+
+02:55.140 --> 03:00.450
+paste because I don't see the point of let's say creating a length one time and then again hard coding
+
+03:00.450 --> 03:05.880
+the second time I'm just gonna grab this footer links and then we're gonna change some classes around
+
+03:06.180 --> 03:07.680
+just to give you a heads up.
+
+03:07.690 --> 03:07.950
+Right.
+
+03:08.460 --> 03:13.000
+So let's say here home I'm gonna write that that is going to be my home length.
+
+03:13.260 --> 03:16.380
+And now let's copy and paste it four more times.
+
+03:16.380 --> 03:24.870
+One two three four and we're gonna have to change some values around so I'm going to create a multiple
+
+03:24.870 --> 03:31.890
+selector by in fact typing the old and then the click of the mouse.
+
+03:31.890 --> 03:39.660
+So now I'll have two selectors and the second one is going to be about and then let's see and then we're
+
+03:39.660 --> 03:49.200
+gonna have what we're gonna have a not home but we're gonna write services services and I didn't have
+
+03:49.200 --> 03:56.910
+my second cursor services like so then what was our sections.
+
+03:57.030 --> 04:00.750
+I believe it was featured and gallery correct.
+
+04:00.750 --> 04:07.560
+So let's remove this featured and then we're gonna have the gallery.
+
+04:07.560 --> 04:11.880
+Now the reason why I'm not using hard deals is very simple.
+
+04:12.120 --> 04:18.840
+You could technically added that just please understand that since the hard deals are so small the moment
+
+04:18.840 --> 04:24.220
+we're going to navigate to a gallery we're gonna be here anyway and then we have right away footer.
+
+04:24.270 --> 04:26.190
+So that's the way our setup works.
+
+04:26.190 --> 04:34.040
+So you could technically add the deal's idea as well here with a link but it's not particularly necessary.
+
+04:34.080 --> 04:34.790
+Okay.
+
+04:34.950 --> 04:39.500
+Now we do have these links now some everything looks really well.
+
+04:39.630 --> 04:42.420
+And then why don't we place our icons as well.
+
+04:42.420 --> 04:46.440
+So let's write for icons and then you know what.
+
+04:46.440 --> 04:50.780
+Let's start by creating a div footer icons.
+
+04:51.000 --> 04:52.860
+That is our class of course.
+
+04:52.860 --> 04:55.710
+And then within these particular links.
+
+04:55.980 --> 05:00.820
+Well first of all why don't we set up our link to begin with.
+
+05:01.060 --> 05:02.100
+Let's a link.
+
+05:02.140 --> 05:07.740
+And as far as a draft normally again you're gonna add of course your social media.
+
+05:07.740 --> 05:09.690
+But in my case I'm gonna go with the same one.
+
+05:09.930 --> 05:10.480
+OK.
+
+05:10.630 --> 05:19.940
+So I'm going to say ETP yes then call on to forward slashes dub dub dub Twitter dot com.
+
+05:19.940 --> 05:26.810
+Now normally again if you're creating a Facebook you can actually share the Facebook URL and all that.
+
+05:26.830 --> 05:29.810
+Now for your specific page I'm just gonna go with Twitter.
+
+05:29.810 --> 05:37.250
+Dot com travesty is going to open up my Twitter now what I would like to do is add a target of blank
+
+05:37.250 --> 05:43.790
+here so attribute of Target and the value of blank just so when we click on the link it's gonna open
+
+05:43.790 --> 05:46.310
+up in the new browser tab.
+
+05:46.340 --> 05:53.610
+Now let's also add a class for styling for icon like so.
+
+05:53.670 --> 06:00.540
+And then within the icon why don't we have the font awesome Facebook icon now for the social media icons
+
+06:00.540 --> 06:01.290
+we need to know right.
+
+06:01.290 --> 06:06.250
+Not F yes but f a b f a Facebook.
+
+06:06.400 --> 06:12.780
+And again of course like I said for normally Facebook you're going to have your facebook link not in
+
+06:12.780 --> 06:13.280
+my case.
+
+06:13.290 --> 06:14.120
+I have a Facebook.
+
+06:14.130 --> 06:18.990
+But like I said it opens up my Twitter page just because I have Twitter dot com.
+
+06:19.140 --> 06:21.950
+And of course I have already logged in.
+
+06:22.530 --> 06:23.980
+Now let me close that.
+
+06:24.150 --> 06:31.440
+And you know what I'm gonna do is in fact selected one 2 we're going to copy and pasted on let's just
+
+06:31.440 --> 06:37.850
+change the icons let's say the second one is actually going to be Twitter and the third one is gonna
+
+06:37.860 --> 06:39.340
+be square space.
+
+06:39.370 --> 06:46.170
+Now as far as square space the actual name is square space.
+
+06:46.170 --> 06:47.420
+That is our icon.
+
+06:47.610 --> 06:49.770
+And yes I do have my icons.
+
+06:49.890 --> 06:53.850
+And lastly right after the links I'm just gonna write.
+
+06:53.850 --> 06:58.100
+Copyright P right.
+
+06:58.150 --> 07:00.050
+Like so.
+
+07:00.210 --> 07:06.240
+And then it's going to be a paragraph with the same class copy right.
+
+07:06.360 --> 07:10.320
+And then within this paragraph why don't we write copyright.
+
+07:10.770 --> 07:18.610
+Then let's use the amount special character by saying And percent we're gonna have copy then let's say
+
+07:18.610 --> 07:19.430
+my own.
+
+07:19.650 --> 07:26.720
+And then let's just add some text so back roads and travel towards company.
+
+07:26.730 --> 07:31.790
+But of course what I can do is I can just write everything with lowercase because I'm gonna set up these
+
+07:31.790 --> 07:41.980
+styling anyway so travel and I'm going to leave only one space travel towards company and you know what.
+
+07:41.980 --> 07:45.250
+Why don't we add a span for the date.
+
+07:45.340 --> 07:48.550
+Now we're gonna use that span later on when we use javascript.
+
+07:48.550 --> 07:54.170
+But I would like to do my email setup right away where I'm gonna write span.
+
+07:54.370 --> 08:00.970
+Then let's add the I.D. with the value of date and for the time being I'm going to hardcoded now later
+
+08:00.970 --> 08:03.210
+on when we're going to set up our javascript.
+
+08:03.310 --> 08:07.360
+In fact I'm gonna use this idea to set up a dynamic here.
+
+08:07.360 --> 08:08.500
+Now what do I mean by that.
+
+08:08.500 --> 08:12.300
+Well technically right now would you start 2018 19.
+
+08:12.300 --> 08:17.440
+But what I would like to do is set up the functionality well all the time we're updating.
+
+08:17.440 --> 08:20.350
+So if let's say it's gonna be 2020.
+
+08:20.590 --> 08:26.680
+Yep then we're gonna have the current year and then right after this plan let's add a dot and ledges
+
+08:26.680 --> 08:27.070
+right.
+
+08:27.070 --> 08:30.240
+All rights reserved.
+
+08:30.280 --> 08:32.170
+Like so let's say that.
+
+08:32.290 --> 08:33.880
+And that should do it.
+
+08:33.910 --> 08:36.110
+Now we have our footer year.
+
+08:36.470 --> 08:38.450
+And next to not we're going gonna start sailing in.

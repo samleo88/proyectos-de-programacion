@@ -1,0 +1,310 @@
+1
+
+00:00:00,000  -->  00:00:04,710
+Alright guys, so in the last video we
+learned about navigating downwards
+
+2
+
+00:00:04,710  -->  00:00:10,440
+through the domain of an HTML webpage in order to parse it using beautiful soup, and we're
+
+3
+
+00:00:10,440  -->  00:00:12,840
+going to continue with beautiful soup
+for a while because there's a lot of
+
+4
+
+00:00:12,840  -->  00:00:18,660
+little things that you should know in
+order to properly navigate web pages.
+
+5
+
+00:00:18,660  -->  00:00:23,310
+So what we're going to talk about first
+is parent parsing, you can actually
+
+6
+
+00:00:23,310  -->  00:00:28,380
+find the parent of an element, as well as
+children. So let's go ahead and if we
+
+7
+
+00:00:28,380  -->  00:00:34,079
+have a look here each list item we're
+targeting and then we're finding the "a"
+
+8
+
+00:00:34,079  -->  00:00:39,570
+element in it, so it's going to go look
+at the "li" or the the list item and
+
+9
+
+00:00:39,570  -->  00:00:42,719
+then it's going to come down here and
+find the "a" element, but the parent of the "a"
+
+10
+
+00:00:42,719  -->  00:00:48,390
+element is an h2, so what we should be
+able to do here is print out the item's
+
+11
+
+00:00:48,390  -->  00:00:58,949
+h2 element as well. Let's go ahead and
+"print("Parent:". item.find("a").parent)"
+
+12
+
+00:00:58,949  -->  00:01:04,530
+"print("Parent:". item.find("a").parent)"t I'm going to go ahead
+
+13
+
+00:01:04,530  -->  00:01:06,299
+and save that and then run it.
+
+14
+
+00:01:06,299  -->  00:01:16,650
+We're going to search for "pizza" string
+object has no attribute item,
+
+15
+
+00:01:17,250  -->  00:01:29,250
+oops, need a comma there not a period. So, there we go.After each entry it has the parents
+
+16
+
+00:01:29,250  -->  00:01:33,240
+which contains all this, we could parse
+through that if we wanted to.
+
+17
+
+00:01:34,409  -->  00:01:39,810
+Now, additionally, each item should have a description, i'm just going to check on
+
+18
+
+00:01:39,810  -->  00:01:41,189
+this right here, if
+
+19
+
+00:01:41,189  -->  00:01:47,520
+I inspect the element here it looks like
+the "&lt;p&gt;" we should just be able to
+
+20
+
+00:01:47,520  -->  00:01:53,729
+target each, well the "b_caption" and then
+the "&lt;p&gt;" of it. So let's go ahead and do
+
+21
+
+00:01:53,729  -->  00:01:55,649
+that.
+
+22
+
+00:01:55,649  -->  00:02:03,750
+So this is to get, this is just a little
+more parsing on the children, so let's print
+
+23
+
+00:02:03,750  -->  00:02:10,289
+out "summary" We're going to need to go
+back one more ".parent"
+
+24
+
+00:02:11,850  -->  00:02:19,890
+and then we're going to ".find("p").text)" from it so let's go ahead
+
+25
+
+00:02:19,890  -->  00:02:21,450
+and save this and run it.
+
+26
+
+00:02:21,450  -->  00:02:25,200
+We're going to search for "pizza" again,
+we're just using this example as we go.
+
+27
+
+00:02:25,200  -->  00:02:33,480
+So as you can see we actually now are
+printing out the summary for each for,
+
+28
+
+00:02:33,480  -->  00:02:39,180
+each item as well, and that's through
+targeting the "a" element which is right
+
+29
+
+00:02:39,180  -->  00:02:42,870
+here, and we're targeting the parent and the parents so we're actually going back up to
+
+30
+
+00:02:42,870  -->  00:02:46,830
+that list item, and then we're finding
+the "p" element and printing that out.
+
+31
+
+00:02:47,340  -->  00:02:51,660
+So that's how to use parent to navigate
+as well. You can also find children of
+
+32
+
+00:02:51,660  -->  00:03:02,850
+each item. So, let's just "children = item.children" and this is going
+
+33
+
+00:03:02,850  -->  00:03:08,940
+to compile a list of all children
+elements of that list item, and to give
+
+34
+
+00:03:08,940  -->  00:03:13,860
+you an example we should see two. So
+there's going to be an h2 element and
+
+35
+
+00:03:13,860  -->  00:03:18,600
+then a div element. Same for here,
+there's going to be a h2 and then div.
+
+36
+
+00:03:18,600  -->  00:03:24,720
+So it's not gonna add a list with and h2
+then an "a" element, a div, and another
+
+37
+
+00:03:24,720  -->  00:03:29,280
+div, etc., it's just going to add two items
+because those are the two direct
+
+38
+
+00:03:29,280  -->  00:03:35,640
+children of this item. So, "for child in
+children:"
+
+39
+
+00:03:35,640  -->  00:03:48,390
+let's just print out the child, so "print("Child:", child)" and this here so we can see
+
+40
+
+00:03:48,390  -->  00:03:52,920
+exactly what children are going to be
+printed. So let's save that and run it again,
+
+41
+
+00:03:52,920  -->  00:04:01,500
+and we search for "pizza" and as you can
+see this one actually has four children
+
+42
+
+00:04:01,500  -->  00:04:07,950
+it looks like, but most of them have two,
+just the h2 and the div, and then we
+
+43
+
+00:04:07,950  -->  00:04:12,060
+could also parse through each one of
+those as well, however what we can do is we
+
+44
+
+00:04:12,060  -->  00:04:17,609
+can find the next sibling of an item. And
+so what we're going to do here we're
+
+45
+
+00:04:17,609  -->  00:04:21,210
+going to target the first child, so
+
+46
+
+00:04:24,120  -->  00:04:28,740
+the first child in that list "[0]" and then
+what we're going to do is print out,
+
+47
+
+00:04:28,740  -->  00:04:45,990
+should be the div element, print("Next Sibling of the h2:", children.next_sibling)"
+
+48
+
+00:04:45,990  -->  00:04:55,320
+And if I run this now again, we're going to put in our search term, list_iterator
+
+49
+
+00:04:55,320  -->  00:05:00,870
+object is not subscriptable. Ok, so what we actually have to do is let's just find
+
+50
+
+00:05:00,870  -->  00:05:06,419
+the h2 "item.find("h2")"
+
+51
+
+00:05:06,419  -->  00:05:18,180
+Alright, let's run this again, and here we
+can see the next child, or the next
+
+52
+
+00:05:18,180  -->  00:05:22,080
+sibling and you can also use previous
+sibling as well. So if we wanted to
+
+53
+
+00:05:22,080  -->  00:05:26,370
+target that and do previous sibling it would find the sibling just before the div, and
+
+54
+
+00:05:26,370  -->  00:05:30,539
+the sibling just before the div is the
+h2 element. So that's how you compare
+
+55
+
+00:05:30,539  -->  00:05:32,460
+sideways through documents as well.

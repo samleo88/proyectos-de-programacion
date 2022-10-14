@@ -1,0 +1,536 @@
+1
+
+00:00:00,000  -->  00:00:05,640
+Hey guys, welcome back. So between the
+last video and this video I've added a
+
+2
+
+00:00:05,640  -->  00:00:09,719
+bit of style to make it look a bit
+better, hopefully you guys have added at
+
+3
+
+00:00:09,719  -->  00:00:15,389
+least a navbar as well. I'm going to go
+ahead and show you guys what I've done,
+
+4
+
+00:00:15,389  -->  00:00:18,390
+and if you want to pause the video and
+do something similar,
+
+5
+
+00:00:18,900  -->  00:00:22,320
+go for it.
+
+6
+
+00:00:22,320  -->  00:00:25,650
+I just don't want to take up too much
+time like doing things that you might
+
+7
+
+00:00:25,650  -->  00:00:31,080
+not want to do, so most of the styling
+and additional stuff i'm probably going
+
+8
+
+00:00:31,080  -->  00:00:39,840
+to do between videos and then we will review it in the next video. So, in each video at
+
+9
+
+00:00:39,840  -->  00:00:43,079
+the end I'm going to tell you guys what
+you should have ready for the next video,
+
+10
+
+00:00:43,079  -->  00:00:47,399
+and you can do that stuff on your own. So
+I've created a nav bar &lt;div class="navbar
+
+11
+
+00:00:47,399  -->  00:00:53,039
+navbar.info navbar-fixed-top"&gt; "&lt;a class="navbar-brand"&gt;CodeWizard,/a." and then I've
+
+12
+
+00:00:53,039  -->  00:00:59,520
+created navigation here, and I've got
+"Home Feed" "discover "profile" and "settings"
+
+13
+
+00:00:59,520  -->  00:01:03,359
+these are all pages that we are going to
+create here, i've also got a button over
+
+14
+
+00:01:03,359  -->  00:01:08,430
+here this says "register" Now, the bootstrap material if you haven't used it yet it
+
+15
+
+00:01:08,430  -->  00:01:14,460
+comes with his awesome waves affect, and how we use that is just add the
+
+16
+
+00:01:14,460  -->  00:01:23,130
+class="waves-effect" to buttons and links and stuff, and it will do that ripple thing
+
+17
+
+00:01:23,130  -->  00:01:23,939
+that you see.
+
+18
+
+00:01:23,939  -->  00:01:28,500
+However, before we do that we've actually
+got to get jquery going and we need to
+
+19
+
+00:01:28,500  -->  00:01:33,030
+initialize the JavaScript here for
+material, and so what I'm going to do is
+
+20
+
+00:01:33,030  -->  00:01:45,030
+go to "jquery.com" and i'm going to
+download jquery3.1.0, here it is right
+
+21
+
+00:01:45,030  -->  00:01:57,659
+there. I'm going to go back in to static, css going to drag that right over here,
+
+22
+
+00:01:57,659  -->  00:02:02,130
+oh, into the javascript file actually,
+there we go.
+
+23
+
+00:02:02,130  -->  00:02:08,369
+So if i go into the JavaScript we'll see
+which javascript files i'm going to have
+
+24
+
+00:02:08,369  -->  00:02:13,660
+to include. It's going to be a jquery, and
+then bootstrap,
+
+25
+
+00:02:13,660  -->  00:02:21,190
+and then material, and also the ripples.
+So, we're going to do that similar to the
+
+26
+
+00:02:21,190  -->  00:02:43,120
+css files, so "$var static/js/jquery-3.1.0.min.js
+
+27
+
+00:02:43,120  -->  00:02:47,200
+static/js/
+
+28
+
+00:02:48,070  -->  00:03:00,070
+bootstrap.min.js static/js/material.min.js
+
+29
+
+00:03:00,070  -->  00:03:10,750
+static/js/ripples.min.js" Alright, there.
+
+30
+
+00:03:10,750  -->  00:03:14,650
+we go. These are the four javascript
+files that we we are going to need to
+
+31
+
+00:03:14,650  -->  00:03:20,890
+include. It's common practice with jquery
+to include it just before the closing
+
+32
+
+00:03:20,890  -->  00:03:25,480
+body tag here, so let's go ahead and do
+something similar to what we did up here
+
+33
+
+00:03:25,480  -->  00:03:35,560
+with the css. So, "$if.js:" we're
+going to go "$for
+
+34
+
+00:03:36,310  -->  00:03:45,489
+scripts in self.js.split( )" we're
+going to split it here, and then we're going
+
+35
+
+00:03:45,489  -->  00:03:55,450
+to print out "&lt;script src="$script&lt;&gt;/script&gt;" and we're going
+
+36
+
+00:03:55,450  -->  00:04:02,290
+to save it. And then outside of here
+we're going to create our own script to
+
+37
+
+00:04:02,290  -->  00:04:06,850
+initialize I material. So,
+
+38
+
+00:04:12,160  -->  00:04:18,670
+"$.material.init( );" I might have to put that
+into a document, i'm not sure. Let's go
+
+39
+
+00:04:18,670  -->  00:04:25,870
+ahead and restart this, and we've got an
+issue on line 45.
+
+40
+
+00:04:27,970  -->  00:04:32,080
+Alright, I think it's because we're using
+a dollar sign here and it doesn't know
+
+41
+
+00:04:32,080  -->  00:04:36,460
+what that is because we're using jquery,
+so we're going to do is we're actually
+
+42
+
+00:04:36,460  -->  00:04:43,210
+going to just create our own external
+javascript file for use in here, it's going to
+
+43
+
+00:04:43,210  -->  00:04:44,380
+make it a lot easier.
+
+44
+
+00:04:44,380  -->  00:04:50,590
+So, what I'm going to do is go ahead and
+create a new javascript file, and i'm going
+
+45
+
+00:04:50,590  -->  00:05:03,880
+to name it "scripty" and I'll
+paste this in here. So in MainLayout i'm
+
+46
+
+00:05:03,880  -->  00:05:09,010
+going to add that "static/js/
+
+47
+
+00:05:11,290  -->  00:05:21,370
+scripty.js so that will get it loaded
+into the page on its own. So what we're
+
+48
+
+00:05:21,370  -->  00:05:28,419
+going to do now is we've got our
+JavaScript included we're going to
+
+49
+
+00:05:28,419  -->  00:05:32,800
+create a form, so what we need to do is
+in the controller here let's create another
+
+50
+
+00:05:32,800  -->  00:05:33,700
+route, and
+
+51
+
+00:05:33,700  -->  00:05:42,160
+let's call it '/register', and it's going to
+connect to the 'register' class here. So
+
+52
+
+00:05:42,160  -->  00:05:45,160
+let's go ahead and define that "class register:" "def GET(self): "return render.Register( )"
+
+53
+
+00:05:52,020  -->  00:06:09,720
+Now let's go ahead and create the
+"Register" page, and in here i'm just going to
+
+54
+
+00:06:09,720  -->  00:06:17,639
+create a form. So, I believe the container
+is in the page of the pages themselves.
+
+55
+
+00:06:17,639  -->  00:06:20,610
+What I'm going to do is get this out of
+here because I don't want to add that to
+
+56
+
+00:06:20,610  -->  00:06:28,889
+every page, and i'm just going to paste
+it right here, and this basically makes
+
+57
+
+00:06:28,889  -->  00:06:33,870
+it where the navbar is floating, it
+doesn't, the content doesn't go
+
+58
+
+00:06:33,870  -->  00:06:42,810
+underneath it. So, what I'm going to do
+is "&lt;div class"container"&gt;" and i'm going to
+
+59
+
+00:06:42,810  -->  00:06:52,080
+add a "&lt;h2&gt;Register Account&lt;/h2&gt;" and on this page we are going to need a
+
+60
+
+00:06:52,080  -->  00:06:57,870
+few fields of information. So what we're
+going to do is we're going to create
+
+61
+
+00:06:57,870  -->  00:07:10,080
+some material drop inputs, and as you can see I want this one right here, so
+
+62
+
+00:07:10,080  -->  00:07:17,039
+I'm just going to look at this, and it's
+just a regular input with the label
+
+63
+
+00:07:17,039  -->  00:07:26,039
+static, yeah. It also has a hint there, I
+don't know if I like the hint or not, we
+
+64
+
+00:07:26,039  -->  00:07:34,919
+could use that though, so. Let's go ahead
+and create a username input "&lt;div class=
+
+65
+
+00:07:34,919  -->  00:07:43,860
+'form-group label-static"&gt;"
+
+66
+
+00:07:47,529  -->  00:08:00,039
+and it's going to be empty by default so
+"is-empty" as well "&lt;label for="username"
+
+67
+
+00:08:00,039  -->  00:08:15,729
+class="control-label"&gt;Username&lt;/label&gt;"
+&lt;input id="username"
+
+68
+
+00:08:15,729  -->  00:08:29,439
+class="form-control" type="text" placeholder="Choose a username" /&gt;"
+
+69
+
+00:08:29,439  -->  00:08:43,899
+Let's go ahead and save this,
+going to rerun the application here,
+
+70
+
+00:08:43,899  -->  00:08:50,860
+refresh this, and go to the register page. So as you can see I've got the register
+
+71
+
+00:08:50,860  -->  00:08:56,800
+account and it's now starting to ask for
+information. So I'm actually going to
+
+72
+
+00:08:56,800  -->  00:09:06,309
+drop down a little bit between the title
+and that field, going to create another
+
+73
+
+00:09:06,309  -->  00:09:07,990
+input for email address
+
+74
+
+00:09:07,990  -->  00:09:14,199
+we're going to want that, and then down
+here we need a button. So "&lt;button class=
+
+75
+
+00:09:14,199  -->  00:09:27,819
+"btn btn-info waves-effect ripple"&gt;Submit &lt;div class=
+
+76
+
+00:09:35,459  -->  00:09:59,970
+"ripple-container"&lt;/button&gt;" Go ahead and save this and reload, something
+
+77
+
+00:09:59,970  -->  00:10:10,350
+happened there that I don't like, oh "from
+group" right there, that's what it was.
+
+78
+
+00:10:10,350  -->  00:10:16,110
+Alright, reload here and we'll see it looks
+a little better, and a submit button right
+
+79
+
+00:10:16,110  -->  00:10:16,769
+there.
+
+80
+
+00:10:16,769  -->  00:10:22,470
+Still those ripples are not working. I
+will troubleshoot that between now and
+
+81
+
+00:10:22,470  -->  00:10:28,679
+the next video and yeah we'll figure
+that out. So i'm going to make this into an
+
+82
+
+00:10:28,679  -->  00:10:39,179
+actual form just by adding the word "&lt;form&gt;" around it, and I'm going to have to
+
+83
+
+00:10:39,179  -->  00:10:47,790
+indent the entire form itself, i'm going
+to move over to the JavaScript and
+
+84
+
+00:10:47,790  -->  00:10:57,779
+basically the ID for this is going to be
+"register-form" and this button is going
+
+85
+
+00:10:57,779  -->  00:11:03,119
+to be a "submit" button, there we go.
+
+86
+
+00:11:03,119  -->  00:11:08,160
+So that's our HTML. What we're going to
+do is come over to scripty here and we're
+
+87
+
+00:11:08,160  -->  00:11:25,649
+going to type in "$(document).on("submit", "#register-form",
+
+88
+
+00:11:30,130  -->  00:11:35,200
+function( )" and we are going to be sending a ajax request to another route that we
+
+89
+
+00:11:35,200  -->  00:11:45,490
+set up, it can accept posted data. So,
+let's go ahead and just "console.log("form
+
+90
+
+00:11:45,490  -->  00:11:55,030
+submitted")" that's as far as we're going
+to take this video here, and I got to
+
+91
+
+00:11:55,030  -->  00:12:09,430
+prevent default "e.preventDefault( )", that's right. Refresh and as you can see form submitted and it
+
+92
+
+00:12:09,430  -->  00:12:14,920
+prevented the default submit type. So in the next video we're gonna be basically
+
+93
+
+00:12:14,920  -->  00:12:19,120
+taking these fields, we're going to be
+building a separate route for handling
+
+94
+
+00:12:19,120  -->  00:12:23,260
+the data, and we're going to be putting
+this into PyManga. So we're also going
+
+95
+
+00:12:23,260  -->  00:12:26,710
+to have to build out a PyMongo class
+to import.

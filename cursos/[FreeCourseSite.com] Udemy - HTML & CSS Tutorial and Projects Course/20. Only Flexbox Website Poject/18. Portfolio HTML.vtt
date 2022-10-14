@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.360 --> 00:06.450
+The next section are going to be making is going to be portfolio section here so you can see what's
+
+00:06.450 --> 00:09.630
+happening right as I'm hovering over the image.
+
+00:09.810 --> 00:14.870
+You can see in the background gets darker than on here we have this overlay with the job name.
+
+00:14.950 --> 00:20.790
+It's going to be careful location and we're here this is going to be our phantasm like art right which
+
+00:20.790 --> 00:22.630
+could serve as a link right.
+
+00:22.780 --> 00:25.430
+And you can see that it will I have this effect here.
+
+00:25.440 --> 00:28.330
+So again let's go back to you now.
+
+00:28.470 --> 00:34.390
+First thing we're going to say is this is going to be portfolio port when we go on here.
+
+00:34.390 --> 00:40.950
+Let's just grab the line copy and paste this and I'm going to say and of portfolio.
+
+00:41.150 --> 00:46.210
+Then told that within the portfolio we're actually again have a title.
+
+00:46.220 --> 00:51.490
+All right so we can just go again and serve and find where is the actual time no.
+
+00:51.730 --> 00:52.890
+Oh that's right.
+
+00:52.890 --> 00:58.610
+So if we select this this and then are going to copy this.
+
+00:59.120 --> 01:00.480
+And if we go down.
+
+01:00.520 --> 01:00.750
+Right.
+
+01:00.750 --> 01:02.550
+So where is the portfolio.
+
+01:02.550 --> 01:09.020
+The first thing that we're going to say and this is going to be section with an ID port folio.
+
+01:09.350 --> 01:14.760
+They don't have a press tab and then copy and paste this right in or here instead of services this is
+
+01:14.760 --> 01:18.670
+going to be portfolio support for you.
+
+01:18.960 --> 01:22.330
+Then after that we would want the actual article right.
+
+01:22.350 --> 01:24.280
+The actual items.
+
+01:24.310 --> 01:29.310
+So we're going to go here and again we're going to say like this when you say this is going to be a
+
+01:29.330 --> 01:36.030
+div with a glass of port folio or here Center press tab.
+
+01:36.090 --> 01:37.400
+Right now we have to.
+
+01:37.540 --> 01:45.110
+We're here we're going to have an article here and here we're going to have a class of work press time.
+
+01:45.110 --> 01:47.830
+But now we have an article with a class of work.
+
+01:48.050 --> 01:51.890
+And again we can maybe write a way over here at a comment.
+
+01:51.890 --> 01:59.640
+All right and this is going to be a single one here work item single work and I'm just so we don't get
+
+01:59.640 --> 02:00.690
+lost.
+
+02:00.730 --> 02:06.680
+And again if we select this line I don't have a copy this one and copy and paste it.
+
+02:06.700 --> 02:15.640
+Right now we have single work item and on it's place and and and then within an article what we would
+
+02:15.640 --> 02:16.470
+want.
+
+02:16.500 --> 02:22.510
+So first of all I'd want an image right here and say this is going to be image and then our here going
+
+02:22.550 --> 02:28.190
+to say source and or hear from the source we're going to say images product one.
+
+02:28.410 --> 02:33.350
+So let's go here to images here and we're going to save product one.
+
+02:33.350 --> 02:38.250
+So that's going to be my name for my image or here just for the image you're going to get with a class
+
+02:38.250 --> 02:40.730
+of image or hair box.
+
+02:40.980 --> 02:43.860
+Let's close over here and I can see this is what we have.
+
+02:43.870 --> 02:44.220
+Right.
+
+02:44.360 --> 02:51.710
+So now we have the image here underneath the image we're going to have a div here with the class and
+
+02:51.810 --> 02:58.340
+we're going to say image text on here like this and this is going to be the name of the day.
+
+02:58.650 --> 03:02.590
+And over here we would need to have two things right.
+
+03:02.640 --> 03:05.910
+Well first of all we actually messed up over here a little bit.
+
+03:05.910 --> 03:10.150
+We have to have a div with the class of image or lay.
+
+03:10.500 --> 03:13.210
+This is going to be the image.
+
+03:13.390 --> 03:20.360
+Well they might because what's going to happen is that there's Dave with a glass of image next Actually
+
+03:20.490 --> 03:24.110
+it's going to be one side and the link is going to be the other side.
+
+03:24.290 --> 03:24.670
+Right.
+
+03:24.690 --> 03:26.970
+So because we want them side by side.
+
+03:27.270 --> 03:32.480
+So Dave class of image next door here this is going to be handing three and this is going to be over
+
+03:32.480 --> 03:36.800
+here we're going to say this is going to be job name right here press tab.
+
+03:36.810 --> 03:39.730
+Now we have the heading three and over here we're going to write.
+
+03:39.730 --> 03:41.040
+This is going to be paragraph.
+
+03:41.080 --> 03:48.090
+You know we're here we're going to say this is going to be a California here and we're going to say
+
+03:48.090 --> 03:50.890
+USA USA or here.
+
+03:51.180 --> 03:54.230
+Press time and now we have the paragraph.
+
+03:54.260 --> 03:55.340
+Then after that.
+
+03:55.470 --> 04:00.590
+Right next to the image next we're actually going to have a image icon.
+
+04:00.630 --> 04:02.630
+So what are you saying we're here.
+
+04:02.800 --> 04:07.310
+This is going to be a live image here.
+
+04:07.530 --> 04:15.930
+I can press time on here and with this I got actually going to place a link some of them say hey press
+
+04:15.930 --> 04:18.900
+over here and make me tag right.
+
+04:18.910 --> 04:25.890
+And then over here I'm going to say this is going to be high for far here and this is going to be our
+
+04:26.080 --> 04:34.600
+All right write or hear press tab now I can see that now we have a right.
+
+04:34.890 --> 04:39.230
+And now we're actually done with one article with single work.
+
+04:39.520 --> 04:46.170
+So our next line of business is going to be actually copying them and pasting them and making six of
+
+04:46.430 --> 04:47.040
+them.
+
+04:47.100 --> 04:54.070
+So again I can go back over here and select the whole thing and maybe Let's start over here with these
+
+04:54.070 --> 04:55.210
+comments.
+
+04:55.210 --> 04:56.700
+So we're going to we're going to go like this.
+
+04:56.710 --> 05:02.880
+So the whole thing we're going to copy it and we actually need to copy and paste it six times.
+
+05:02.890 --> 05:08.440
+This is going to be one two three four five and we're here one by one.
+
+05:08.500 --> 05:10.370
+The only thing we need to change over here.
+
+05:10.420 --> 05:16.270
+This is going to be a product to then after that we're going to have well you know what.
+
+05:16.280 --> 05:18.200
+No this is the wrong place.
+
+05:18.220 --> 05:23.470
+So if we have the first one on here this is going to be the second one.
+
+05:23.480 --> 05:27.850
+Then after that we're going to have a number three over here.
+
+05:27.970 --> 05:31.150
+Then I have to go we're going to have number four.
+
+05:31.390 --> 05:36.440
+This is going to be number five and this one is going to be number six.
+
+05:36.550 --> 05:39.630
+So we added six items over here.
+
+05:39.730 --> 05:46.540
+And what I would want to do is say it over here right now and go to see assess and start styling this.

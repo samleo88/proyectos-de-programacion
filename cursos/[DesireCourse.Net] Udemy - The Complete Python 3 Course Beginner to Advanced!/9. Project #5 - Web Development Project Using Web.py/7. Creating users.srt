@@ -1,0 +1,303 @@
+1
+
+00:00:00,000  -->  00:00:04,680
+Hey guys, welcome back. In this video
+we're going to start with our models and
+
+2
+
+00:00:04,680  -->  00:00:10,590
+so we need to create a register model in
+order to register, and also grab data from
+
+3
+
+00:00:10,590  -->  00:00:17,460
+the database. So in Models here I've
+created an __init__.py to make any file
+
+4
+
+00:00:17,460  -->  00:00:22,769
+that we create in here callable and able
+to import, and i'm going to go ahead and
+
+5
+
+00:00:22,769  -->  00:00:25,740
+create a Python file and we're going to
+name it
+
+6
+
+00:00:25,740  -->  00:00:36,960
+"RegisterModel" and then in this file i'm
+going to create a "class RegisterModel""
+
+7
+
+00:00:36,960  -->  00:00:43,170
+same as the filename. And then for
+now I'm just going to define a function
+
+8
+
+00:00:43,170  -->  00:00:55,020
+called "def insert_user, data):" and we're going to "print("data is",  data)"
+
+9
+
+00:00:55,020  -->  00:01:04,350
+So we're going to use this,
+actually let's "import pymongo" here
+
+10
+
+00:01:04,350  -->  00:01:17,640
+right now "from pymongo import MongoClient" Alright, now in our controller
+
+11
+
+00:01:17,640  -->  00:01:23,640
+we're now going to import our register
+model, so "from Models import RegisterModel.RegisterModel"
+
+12
+
+00:01:23,640  -->  00:01:29,939
+and the reason we're in actually we can't do
+
+13
+
+00:01:29,939  -->  00:01:35,729
+that there, okay, you'll see why I tried
+to that there. So, we need to, this is
+
+14
+
+00:01:35,729  -->  00:01:39,119
+going to include the file but not
+necessarily the class from this file
+
+15
+
+00:01:39,119  -->  00:01:46,200
+when we instantiate it. so what we need
+to do is create our registration model,
+
+16
+
+00:01:46,200  -->  00:01:52,799
+so "reg_model =RegisterModel( )" and
+
+17
+
+00:01:52,799  -->  00:01:55,380
+we can't just call that directly, it's not
+going to work.
+
+18
+
+00:01:55,380  -->  00:01:58,500
+It's not callable because this is the
+name of the file this isn't the class
+
+19
+
+00:01:58,500  -->  00:02:06,240
+within the file, so we need to add the
+file name "RegisterModel." and then the the name of the
+
+20
+
+00:02:06,240  -->  00:02:10,349
+class we're going to import which is
+right here. So that's how we're going to
+
+21
+
+00:02:10,349  -->  00:02:13,050
+call it, and then what we're going to do
+we're just going to pass
+
+22
+
+00:02:13,050  -->  00:02:17,070
+the data directly into that function and
+this function is going to print out that
+
+23
+
+00:02:17,070  -->  00:02:28,650
+data. So, "reg_model.insert_user(data)"
+So let's save
+
+24
+
+00:02:28,650  -->  00:02:32,460
+this, let's stop this, and then restart it.
+
+25
+
+00:02:33,060  -->  00:02:42,900
+Go ahead and refresh, and now i'm going
+to enter username "nick" "Nick Germaine" and then my
+
+26
+
+00:02:42,900  -->  00:02:50,190
+email and password right there. Going to hit submit and we see that it has accessed
+
+27
+
+00:02:50,190  -->  00:02:55,860
+that because that function has finished,
+and now you'll see that the register
+
+28
+
+00:02:55,860  -->  00:03:00,930
+model is getting that data. So what we're
+going to do in the register model right
+
+29
+
+00:03:00,930  -->  00:03:11,310
+there we're going to, we're going to
+initialize the class so "def __init__(self):"
+
+30
+
+00:03:11,310  -->  00:03:17,700
+and what we're going to do we're going
+to set "self.client = MongoClient( )"
+
+31
+
+00:03:17,700  -->  00:03:29,190
+"selfdb" = self.client." let me check what I
+
+32
+
+00:03:29,190  -->  00:03:33,420
+need the database here. You can up open
+up Robomongo, right click on the
+
+33
+
+00:03:33,420  -->  00:03:36,570
+connection, and click create database
+that's what i've done so i've already
+
+34
+
+00:03:36,570  -->  00:03:50,790
+created codewizard here, and then "self.Users =
+
+35
+
+00:03:50,790  -->  00:04:02,280
+self.db.users" So, as soon as the
+register model is instantiated it's
+
+36
+
+00:04:02,280  -->  00:04:09,660
+going to have these variables
+associated with the top level, and then I
+
+37
+
+00:04:09,660  -->  00:04:11,970
+can use it in insert user here.
+
+38
+
+00:04:11,970  -->  00:04:16,019
+So what we're going to do we're going to
+go ahead and insert the data. Now, I'm
+
+39
+
+00:04:16,019  -->  00:04:22,560
+able to access each one of these by
+basically just accessing the
+
+40
+
+00:04:24,920  -->  00:04:27,740
+the keyword in there for it, so what
+we're going to do is we're going to go
+
+41
+
+00:04:27,740  -->  00:04:38,990
+ahead and say "id = self.Users.insert({ })" and here's where we're going to
+
+42
+
+00:04:38,990  -->  00:04:48,680
+pass in the data. So, "username: data.username, "name":
+
+43
+
+00:04:48,680  -->  00:04:59,870
+data.name, "password": data.password, "email": data.email
+
+44
+
+00:05:08,550  -->  00:05:17,460
+and then what we're going to print down
+here is "print("uid
+
+45
+
+00:05:17,460  -->  00:05:20,460
+is", id)"
+
+46
+
+00:05:21,480  -->  00:05:27,060
+Let's go ahead and save this, we're going
+to restart the server here, going to
+
+47
+
+00:05:27,060  -->  00:05:36,420
+refresh this, choose a username, and a
+password.
+
+48
+
+00:05:37,380  -->  00:05:43,440
+Going to go ahead and hit submit, and we'll see that we do have a username. So it's just
+
+49
+
+00:05:43,440  -->  00:05:48,060
+like using regular PyMongo at the
+at that point we can open the
+
+50
+
+00:05:48,060  -->  00:05:53,430
+collections and we can see our user
+right here. So, that's how we just
+
+51
+
+00:05:53,430  -->  00:06:01,200
+connected the registration model to a
+back end PyMongo client, and what we're
+
+52
+
+00:06:01,200  -->  00:06:04,920
+going to be doing in the next video is
+we're going to be talking about sessions
+
+53
+
+00:06:04,920  -->  00:06:09,390
+and how we can allow a user to log in by
+username and password.

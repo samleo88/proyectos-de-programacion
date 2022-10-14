@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.360 --> 00:06.420
+My absolute favorite units in the C Ss have to be view height and view with and the reason for that
+
+00:06.480 --> 00:09.740
+is because you can make really cool banners like this.
+
+00:09.810 --> 00:11.450
+Now how are they going to work.
+
+00:11.460 --> 00:14.240
+Well first and foremost they are going to be again relative.
+
+00:14.620 --> 00:17.900
+How are they all gonna be relative to a screen.
+
+00:17.970 --> 00:22.140
+So whatever you're seeing right now everything is gonna be relative to that.
+
+00:22.170 --> 00:27.420
+Now what that means is that even though we're gonna be changing the screen size they're also gonna change
+
+00:27.420 --> 00:29.680
+their dimensions depending on that.
+
+00:29.720 --> 00:31.170
+So how this is gonna work.
+
+00:31.290 --> 00:34.290
+Well as always we're going to head over to indexation hymnal.
+
+00:34.470 --> 00:36.460
+We're gonna get rid of some of these suckers.
+
+00:36.460 --> 00:39.600
+We don't need them and we're going to go first with the dev.
+
+00:39.740 --> 00:45.450
+A class is gonna be an unknown let's call this banner and then let's copy and paste it and instead of
+
+00:45.450 --> 00:47.190
+the banner we're going to call this header.
+
+00:47.220 --> 00:51.640
+Again it doesn't really matter what your color class is it's for testing anyway.
+
+00:51.970 --> 00:52.380
+Okay.
+
+00:52.410 --> 00:53.300
+So far so good.
+
+00:53.310 --> 00:57.270
+So we have our two days and then let me also delete these guys.
+
+00:57.270 --> 00:58.680
+We don't need them as well.
+
+00:58.690 --> 01:00.780
+Now let's start first with one.
+
+01:00.840 --> 01:01.630
+Let's see what we have.
+
+01:01.640 --> 01:03.300
+First it was the banner.
+
+01:03.370 --> 01:05.480
+Okay so we're selecting the class of banner.
+
+01:05.700 --> 01:11.520
+And now I'd like to use let's say 50 and in my case I House need to go with 51.
+
+01:11.940 --> 01:17.340
+Well I'm going to say with 50 with is going to be in my case I don't know view with.
+
+01:17.650 --> 01:22.970
+Now the reason for it again for the with we would have to use view width or height.
+
+01:22.980 --> 01:24.520
+We're gonna have to use you height.
+
+01:24.840 --> 01:26.440
+So we have the with.
+
+01:26.580 --> 01:27.220
+What about the height.
+
+01:27.840 --> 01:31.610
+Let's also say new heights and then let's check it out again.
+
+01:31.620 --> 01:33.600
+Background is going to be right.
+
+01:33.600 --> 01:35.360
+Now no something interesting.
+
+01:35.400 --> 01:37.070
+Don't pay attention please again.
+
+01:37.090 --> 01:41.820
+There's gonna be some margins that we're getting from default browser styles but what's happening is
+
+01:41.880 --> 01:46.740
+we're getting 50 percent of the screen horizontally as well as vertically.
+
+01:46.740 --> 01:52.470
+Now if I'm gonna make my screen size bigger it's not gonna change again depending on a screen size.
+
+01:52.500 --> 01:57.540
+This is still gonna be 50 percent horizontally and 50 percent vertically.
+
+01:57.540 --> 01:58.420
+Don't leave me.
+
+01:58.430 --> 02:00.320
+Let's start out with another guy.
+
+02:00.450 --> 02:05.550
+Let's say that there's going to be header and the header is gonna be and I'm not again with.
+
+02:05.550 --> 02:10.770
+And we can again use any kind of values I'm just using the round values because they kind of make a
+
+02:10.770 --> 02:11.910
+little bit more sense.
+
+02:12.060 --> 02:14.300
+Let's make up and paste it in this case.
+
+02:14.310 --> 02:21.610
+I don't want to with I want to hide and in my case the height is gonna be a hundred view height and
+
+02:21.760 --> 02:23.340
+we will gonna use this a lot.
+
+02:23.350 --> 02:26.030
+Every time we're working with the banners.
+
+02:26.230 --> 02:31.750
+So every time we're gonna be making some kind of banners like this we will gonna use these values or
+
+02:31.750 --> 02:32.800
+these units.
+
+02:32.800 --> 02:34.520
+Now let me add one more thing.
+
+02:34.750 --> 02:38.560
+And let's say a background is gonna be blue.
+
+02:38.650 --> 02:43.320
+Now this is gonna be harder to see right away because no this will kind of have to scroll.
+
+02:43.510 --> 02:45.380
+So you might be like well wait a minute.
+
+02:45.390 --> 02:48.160
+This is not exactly a hundred percent.
+
+02:48.160 --> 02:51.350
+And this is not gonna be hundred viewers okay.
+
+02:51.490 --> 02:52.950
+I guess you don't believe me.
+
+02:52.960 --> 02:54.210
+Well let's test it out.
+
+02:54.230 --> 02:56.460
+No you don't have to write this code right now.
+
+02:56.470 --> 03:01.840
+We will gonna cover this a little bit later but I'm basically gonna do it like a little reset and I'm
+
+03:01.840 --> 03:04.180
+gonna do this with properties we haven't covered yet.
+
+03:04.210 --> 03:05.890
+So again please don't freak out.
+
+03:05.890 --> 03:07.470
+We will gonna cover them later.
+
+03:07.630 --> 03:09.940
+So let's say first I'm gonna say margin zero.
+
+03:09.970 --> 03:11.600
+And by the way you don't have to do this.
+
+03:11.710 --> 03:15.400
+I'm just doing it just so you can see that it's really happening.
+
+03:15.400 --> 03:17.290
+Then the padding is gonna be zero.
+
+03:17.290 --> 03:22.610
+And we're also gonna have box sizing to a broader box so something like this.
+
+03:22.660 --> 03:23.940
+Now what happens.
+
+03:23.980 --> 03:26.500
+You can see that this is exactly right now.
+
+03:26.500 --> 03:31.060
+Hundred percent horizontally as well as 100 percent vertically.
+
+03:31.060 --> 03:31.780
+And you know what.
+
+03:31.810 --> 03:35.170
+Let me do one last thing and let's flip them over.
+
+03:35.260 --> 03:38.860
+Let's say that we're going to be looking first for the header and then the banner.
+
+03:38.950 --> 03:42.000
+So as you start scrolling This is gonna be a hundred percent.
+
+03:42.070 --> 03:43.720
+So the moment loads.
+
+03:43.720 --> 03:48.270
+This is exactly my height and with the screen at the moment scrolling.
+
+03:48.370 --> 03:52.780
+This is where I'm getting to my next time and this right now is gonna be 50 percent.
+
+03:52.780 --> 03:55.270
+Now if I'm gonna make again my screen size bigger.
+
+03:55.420 --> 03:59.520
+This guy obviously is gonna work we have 50 percent of the screen.
+
+03:59.620 --> 04:03.590
+So again they are really really cool values or unit.
+
+04:03.730 --> 04:05.400
+They're all gonna use them quite a lot.
+
+04:05.410 --> 04:09.930
+Every time we're going to be working with the banner but also you can use for many other things.
+
+04:10.030 --> 04:14.890
+And what it allows you to do is not to use some kind of tax or anything like that dealing with percentages
+
+04:15.190 --> 04:15.730
+instead.
+
+04:15.730 --> 04:17.580
+Again you're just using the screen.
+
+04:17.710 --> 04:23.800
+You're saying hey listen give me 25 percent of the screen give me seventy five percent give me 10 percent.
+
+04:23.800 --> 04:24.790
+It doesn't matter.
+
+04:24.910 --> 04:29.500
+You're working with the screen so every time you're going to be working depending on different screen
+
+04:29.500 --> 04:30.070
+size.
+
+04:30.310 --> 04:32.680
+He didn't get to perform exactly the same way.

@@ -1,0 +1,549 @@
+1
+
+00:00:00,000  -->  00:00:01,709
+Alright guys, so what we're going to do
+
+2
+
+00:00:01,709  -->  00:00:04,470
+is as with our other videos that we've
+
+3
+
+00:00:04,470  -->  00:00:06,750
+done with qt so far we're going to
+
+4
+
+00:00:06,750  -->  00:00:11,130
+create an internal method, an instance
+
+5
+
+00:00:11,130  -->  00:00:13,620
+variable of the application object that
+
+6
+
+00:00:13,620  -->  00:00:15,450
+were creating, and we're going to
+
+7
+
+00:00:15,450  -->  00:00:18,330
+initialize the entire application from
+
+8
+
+00:00:18,330  -->  00:00:20,039
+within this method rather than the
+
+9
+
+00:00:20,039  -->  00:00:22,230
+initialization method. So let's go ahead and
+
+10
+
+00:00:22,230  -->  00:00:30,390
+def CreateApp. Alright, and then in
+
+11
+
+00:00:30,390  -->  00:00:32,669
+the init function here let's run
+
+12
+
+00:00:32,669  -->  00:00:38,700
+self.CreateApp. Now a few videos ago I
+
+13
+
+00:00:38,700  -->  00:00:40,860
+talked about different layouts, so we
+
+14
+
+00:00:40,860  -->  00:00:43,559
+talked about the vertical layout and the
+
+15
+
+00:00:43,559  -->  00:00:45,930
+horizontal layout, but what we didn't talk
+
+16
+
+00:00:45,930  -->  00:00:47,969
+about specifically because we're going
+
+17
+
+00:00:47,969  -->  00:00:50,579
+to be creating it now is the grid layout.
+
+18
+
+00:00:50,579  -->  00:00:52,770
+So I'm going to go ahead and create a
+
+19
+
+00:00:52,770  -->  00:00:59,340
+variable called grid, and it's going to
+
+20
+
+00:00:59,340  -->  00:01:06,000
+be equal to QGridLayout. Now, I'm going
+
+21
+
+00:01:06,000  -->  00:01:09,330
+to create a few buttons here and I'm
+
+22
+
+00:01:09,330  -->  00:01:10,830
+going to put them in here just to show
+
+23
+
+00:01:10,830  -->  00:01:15,030
+you guys how you can use the
+
+24
+
+00:01:15,030  -->  00:01:17,310
+QGridLayout. So let's go ahead and create
+
+25
+
+00:01:17,310  -->  00:01:19,650
+button1, and it's going to be equal to
+
+26
+
+00:01:19,650  -->  00:01:26,400
+QPushButton and it's going to say "One."
+
+27
+
+00:01:26,400  -->  00:01:29,790
+Button2 is going to say Q, I'm not sure why
+
+28
+
+00:01:29,790  -->  00:01:31,770
+I just unindented there but don't do
+
+29
+
+00:01:31,770  -->  00:01:33,329
+that,
+
+30
+
+00:01:33,329  -->  00:01:41,369
+QPushButton and it's going say "Two." And then button3 is going to say
+
+31
+
+00:01:41,369  -->  00:01:47,579
+QPushButton "Three." And let's go ahead and
+
+32
+
+00:01:47,579  -->  00:01:54,750
+create another QPushButton and it's
+
+33
+
+00:01:54,750  -->  00:01:59,310
+going to say "My last button." So I'm going to
+
+34
+
+00:01:59,310  -->  00:02:01,740
+save this, if we run it now nothing is
+
+35
+
+00:02:01,740  -->  00:02:03,060
+going to happen
+
+36
+
+00:02:03,060  -->  00:02:04,590
+let's just run the application, and we will see
+
+37
+
+00:02:04,590  -->  00:02:06,479
+that we don't see anything yet because
+
+38
+
+00:02:06,479  -->  00:02:09,780
+we haven't told the application to use
+
+39
+
+00:02:09,780  -->  00:02:12,209
+the grid layout, and even if we did we
+
+40
+
+00:02:12,209  -->  00:02:13,590
+didn't tell the buttons
+
+41
+
+00:02:13,590  -->  00:02:15,629
+to go into the grid. So we're going
+
+42
+
+00:02:15,629  -->  00:02:19,769
+to do that now, and how we do that is by
+
+43
+
+00:02:19,769  -->  00:02:25,110
+going grid.addWidget and this is
+
+44
+
+00:02:25,110  -->  00:02:26,910
+going to take a few parameters.
+
+45
+
+00:02:26,910  -->  00:02:31,500
+The first one is going to be the object
+
+46
+
+00:02:31,500  -->  00:02:33,599
+itself that we're adding, so in this case
+
+47
+
+00:02:33,599  -->  00:02:37,530
+it's going to be button1. Now
+
+48
+
+00:02:37,530  -->  00:02:40,049
+there's four more parameters, and I'm
+
+49
+
+00:02:40,049  -->  00:02:41,400
+just going to type them out and say them,
+
+50
+
+00:02:41,400  -->  00:02:45,959
+then I'll explain a bit. So this is row, this
+
+51
+
+00:02:45,959  -->  00:02:48,569
+column, this is rows, and this is columns.
+
+52
+
+00:02:48,569  -->  00:02:52,440
+So, this is going to say that it occupies 0
+
+53
+
+00:02:52,440  -->  00:02:56,670
+rows and it occupies 0 columns, so it's
+
+54
+
+00:02:56,670  -->  00:02:58,530
+not going to show it all. This is the
+
+55
+
+00:02:58,530  -->  00:03:00,599
+row numbe, so as with programming
+
+56
+
+00:03:00,599  -->  00:03:03,540
+the row numbers start with 0, so this is
+
+57
+
+00:03:03,540  -->  00:03:07,290
+0, 1, 2, 3. As you can see in my code editor
+
+58
+
+00:03:07,290  -->  00:03:09,690
+here there are four rows labeled
+
+59
+
+00:03:09,690  -->  00:03:15,209
+0-3. We want to put this in the
+
+60
+
+00:03:15,209  -->  00:03:18,269
+first row and in the first column. So,
+
+61
+
+00:03:18,269  -->  00:03:20,700
+let's say these are columns there's
+
+62
+
+00:03:20,700  -->  00:03:28,799
+1, 2, 3, 4, 5, 6, 7, so there's seven columns on each
+
+63
+
+00:03:28,799  -->  00:03:31,769
+row here so 0, 0 is going to be right
+
+64
+
+00:03:31,769  -->  00:03:32,459
+there.
+
+65
+
+00:03:32,459  -->  00:03:34,530
+Now we need to tell it how many rows it
+
+66
+
+00:03:34,530  -->  00:03:36,480
+is going to take up, it's going to be one row and one column.
+
+67
+
+00:03:36,480  -->  00:03:40,620
+one row and one column. So think about
+
+68
+
+00:03:40,620  -->  00:03:44,549
+this as it's pacing. I'm just going to go
+
+69
+
+00:03:44,549  -->  00:03:47,730
+ahead and self.setLayout we're going to
+
+70
+
+00:03:47,730  -->  00:03:50,280
+set the layout right now to grid, and
+
+71
+
+00:03:50,280  -->  00:03:52,260
+then show it, and then I'm going to show
+
+72
+
+00:03:52,260  -->  00:03:55,889
+you guys the application so far. As you
+
+73
+
+00:03:55,889  -->  00:03:59,910
+can see there is one grid item there. The
+
+74
+
+00:03:59,910  -->  00:04:02,280
+grid magically grows and shrinks to
+
+75
+
+00:04:02,280  -->  00:04:04,290
+accommodate how much space it needs, so I'm
+
+76
+
+00:04:04,290  -->  00:04:05,579
+going to show you guys that. What we're
+
+77
+
+00:04:05,579  -->  00:04:07,950
+going to do is go ahead and add another
+
+78
+
+00:04:07,950  -->  00:04:12,569
+widget here, so we're going to have the
+
+79
+
+00:04:12,569  -->  00:04:15,660
+second button on the first row in the
+
+80
+
+00:04:15,660  -->  00:04:17,400
+second column, and it's going to take up
+
+81
+
+00:04:17,400  -->  00:04:20,400
+one and one. So I'm going to save this and run
+
+82
+
+00:04:20,400  -->  00:04:21,900
+it again, and you're going to see that
+
+83
+
+00:04:21,900  -->  00:04:25,969
+now the row is split into two.
+
+84
+
+00:04:26,100  -->  00:04:29,400
+I'm going to go ahead and add the third
+
+85
+
+00:04:29,400  -->  00:04:36,120
+button here, on the first row, in the
+
+86
+
+00:04:36,120  -->  00:04:38,430
+third column, and it's going to take up one
+
+87
+
+00:04:38,430  -->  00:04:42,450
+and one. And then I'm going to add the
+
+88
+
+00:04:42,450  -->  00:04:48,840
+fourth button, it's going to be on row
+
+89
+
+00:04:48,840  -->  00:04:52,200
+two, in position one, and it's going to
+
+90
+
+00:04:52,200  -->  00:04:57,120
+take up one row and two columns, and
+
+91
+
+00:04:57,120  -->  00:04:58,710
+you're going to see how this is going to
+
+92
+
+00:04:58,710  -->  00:05:01,170
+look just based on that.
+
+93
+
+00:05:01,170  -->  00:05:05,640
+So, if we look at our grid we see two
+
+94
+
+00:05:05,640  -->  00:05:08,340
+rows as we have defined in the first
+
+95
+
+00:05:08,340  -->  00:05:11,100
+parameter after each object that we're
+
+96
+
+00:05:11,100  -->  00:05:13,650
+adding. So the first parameter after that that
+
+97
+
+00:05:13,650  -->  00:05:16,200
+were sending is the row. First row
+
+98
+
+00:05:16,200  -->  00:05:19,050
+and second row right there, or row 0 and
+
+99
+
+00:05:19,050  -->  00:05:23,010
+row 1. This is the column, so the first
+
+100
+
+00:05:23,010  -->  00:05:25,440
+column, second column, and third column
+
+101
+
+00:05:25,440  -->  00:05:28,110
+are these, and then on the second row we
+
+102
+
+00:05:28,110  -->  00:05:30,660
+actually see that this one takes up two
+
+103
+
+00:05:30,660  -->  00:05:33,960
+columns and that's because the final
+
+104
+
+00:05:33,960  -->  00:05:35,730
+parameter here, the number of columns
+
+105
+
+00:05:35,730  -->  00:05:39,090
+that it takes up, is set to 2. If I set that
+
+106
+
+00:05:39,090  -->  00:05:44,790
+to 3 and reran our application here, you'll
+
+107
+
+00:05:44,790  -->  00:05:47,490
+see that it takes up all of the space. So
+
+108
+
+00:05:47,490  -->  00:05:49,050
+that's an important concept as well, it's
+
+109
+
+00:05:49,050  -->  00:05:50,880
+basically just understanding how you
+
+110
+
+00:05:50,880  -->  00:05:55,910
+pack the grid within qt.

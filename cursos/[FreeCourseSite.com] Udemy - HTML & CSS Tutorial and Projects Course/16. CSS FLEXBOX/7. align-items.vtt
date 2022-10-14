@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00.480 --> 00:06.940
+Next up we have a line items that is responsible for vertical alignment.
+
+00:07.020 --> 00:12.510
+Now before we can start testing out a line items properly with all its values.
+
+00:12.510 --> 00:19.110
+One thing we're gonna have to do is set up some kind of height for our container because please understand
+
+00:19.110 --> 00:26.850
+that currently what happens is the height of our container is dependent on the height of our items.
+
+00:26.850 --> 00:30.140
+So I could set up any kind of properties with values.
+
+00:30.150 --> 00:37.080
+As far as vertical alignment and well nothing is going to change because in fact our container has the
+
+00:37.080 --> 00:38.490
+height of our items.
+
+00:38.490 --> 00:40.540
+Now we can do it multiple ways.
+
+00:40.620 --> 00:47.400
+I could set it up as height and 300 pixels and noticed right away our container got bigger.
+
+00:47.430 --> 00:54.120
+I could also use the viewport values where we could go with height and you view height.
+
+00:54.180 --> 00:59.450
+It's really up to us and doesn't really matter as long as you have some kind of fight.
+
+00:59.570 --> 01:03.120
+And would you notice right away that again by default.
+
+01:03.300 --> 01:09.100
+Behind the scenes we already have a line items set to stretch.
+
+01:09.150 --> 01:15.030
+That's the reason why our items are stretching from the top of our container all the way to the bottom
+
+01:15.120 --> 01:16.480
+of our container.
+
+01:16.500 --> 01:23.970
+So if I'm gonna go with a line items and I'm gonna set it equal to stretch I'm gonna notice that our
+
+01:23.970 --> 01:25.640
+layout did not change.
+
+01:25.730 --> 01:28.490
+Because again that is the default behavior.
+
+01:28.500 --> 01:36.930
+However we also have other values like for example flex start let's make up in paste that let's change
+
+01:36.930 --> 01:37.290
+this.
+
+01:37.320 --> 01:45.420
+Let's say flex start and what you're going to notice is that right now my boxes are aligned to the top
+
+01:45.510 --> 01:47.060
+of the container.
+
+01:47.490 --> 01:49.420
+That's the value for my flex start.
+
+01:49.980 --> 01:56.880
+And you can probably already guess that if I'm gonna go with Flex and where do you think the boxes are
+
+01:56.880 --> 01:58.320
+gonna be located.
+
+01:58.320 --> 02:01.830
+Well they're gonna be all the way in the bottom correct.
+
+02:01.830 --> 02:03.900
+Then we also have the center one.
+
+02:04.110 --> 02:11.150
+Probably the most beautiful thing ever because you're noticing the pain that we have to do when we're
+
+02:11.190 --> 02:13.170
+just dealing with the regular assess.
+
+02:13.200 --> 02:16.860
+We have to go with some kind of hack or something like that.
+
+02:16.860 --> 02:24.540
+In this case if we want to align something horizontally as long as we do have the height for our container
+
+02:25.110 --> 02:27.200
+it is as easy as it gets.
+
+02:27.210 --> 02:33.360
+Just go with the center and your content is going to be aligned vertically in the center which is just
+
+02:33.390 --> 02:34.180
+beautiful.
+
+02:34.260 --> 02:35.340
+If you ask me.
+
+02:35.360 --> 02:35.960
+OK.
+
+02:36.000 --> 02:38.630
+And then of course we have the baseline.
+
+02:39.090 --> 02:43.510
+So let's cut and paste it and let me show you how the baseline is going to work.
+
+02:43.530 --> 02:48.420
+Now initially you're going to think well wait a minute this is exactly the same how we had with Flex
+
+02:48.420 --> 02:49.130
+start.
+
+02:49.250 --> 02:51.940
+However there are some caveats.
+
+02:52.230 --> 02:58.980
+So if we're going to head over to a Stiles and let's say for the box number three I'm going to increase
+
+02:58.980 --> 03:07.830
+the font size so how my box number three and I'm going to go with font size of let's say sixty five
+
+03:08.070 --> 03:09.080
+pixels.
+
+03:09.570 --> 03:16.530
+What are you going to notice is that my box is when using the baseline one are aligned depending on
+
+03:16.650 --> 03:18.620
+where the content is right.
+
+03:19.110 --> 03:22.050
+If we go would stretch or I'm sorry.
+
+03:22.050 --> 03:22.740
+Let's start.
+
+03:23.190 --> 03:26.040
+So let me come on these guys out as well.
+
+03:26.040 --> 03:33.000
+If we go would start in fact boxes are still going to be aligned depending on where the edge of the
+
+03:33.000 --> 03:34.340
+boxes correct.
+
+03:34.350 --> 03:36.850
+That's the reason when the box is bigger.
+
+03:36.930 --> 03:42.300
+Now we can see that it is not aligned here in the bottom correctly because we're not aligning depending
+
+03:42.300 --> 03:46.050
+where the content is we're aligning where the boxes start.
+
+03:46.490 --> 03:47.870
+Now where would you use that.
+
+03:47.880 --> 03:49.680
+Where would you use let's say baseline.
+
+03:50.130 --> 03:56.400
+While most common thing is or one of the common things is when we have the now are correct we usually
+
+03:56.400 --> 04:04.010
+have some kind of logo now a logo has a different size than rest of the items usually whereas the links
+
+04:04.350 --> 04:04.830
+and you're not.
+
+04:04.830 --> 04:11.190
+In order to show that better you know what why don't we grab the font size and had it here for the item
+
+04:11.190 --> 04:12.210
+number one.
+
+04:12.210 --> 04:15.020
+So our logo let's imagine this is gonna be our logo.
+
+04:15.150 --> 04:17.450
+And these are all our links.
+
+04:17.460 --> 04:23.660
+So what you would probably want to do is outline them in fact where your content is right.
+
+04:23.700 --> 04:31.410
+So they are in fact in one line instead of having a logo sitting here and then your links sitting let's
+
+04:31.410 --> 04:33.090
+say above the logo.
+
+04:33.450 --> 04:34.980
+That's where you would use the baseline.
+
+04:35.340 --> 04:38.940
+But again it is mostly your preference whatever you'd like.
+
+04:38.940 --> 04:41.220
+You can also align them in the center.
+
+04:41.220 --> 04:43.040
+It is really up to you.
+
+04:43.350 --> 04:48.630
+Like so where we just align them here and center and that is also always your option.
+
+04:48.630 --> 04:55.680
+So like I said we covered both of the properties one for justify content for horizontal alignment and
+
+04:55.680 --> 05:03.040
+the other one for aligning items vertically which the name of a line items which essentially are going
+
+05:03.040 --> 05:06.800
+to be your favorite legs box properties.
+
+05:06.880 --> 05:08.830
+Now of course I can't guarantee that.
+
+05:08.860 --> 05:15.430
+But most likely I'm telling you that you will have those as your favorite properties because they really
+
+05:15.640 --> 05:18.900
+are going to simplify how you're setting up your layouts.

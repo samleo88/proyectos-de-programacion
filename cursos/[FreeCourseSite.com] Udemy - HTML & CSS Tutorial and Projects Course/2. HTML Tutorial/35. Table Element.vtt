@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.200 --> 00:05.670
+If in your project you were going to have to use some kind of table we also have an option of working
+
+00:05.670 --> 00:08.110
+with tables the nation email.
+
+00:08.220 --> 00:09.390
+Now before we do that.
+
+00:09.630 --> 00:15.540
+Now as always we'll need to get rid of this our list first and then let's start working with our table
+
+00:15.630 --> 00:16.610
+element.
+
+00:16.620 --> 00:22.500
+Now if you would have to guess how we would have to create the table element in an email with everything
+
+00:22.500 --> 00:23.630
+that we already know of.
+
+00:24.480 --> 00:28.620
+Well I think you probably guessed that correctly where you said well first we're gonna have to create
+
+00:28.710 --> 00:34.200
+the table element and then obviously for each and every table we would have the rows.
+
+00:34.250 --> 00:36.470
+Um well as we would have the columns.
+
+00:36.490 --> 00:36.730
+Right.
+
+00:37.170 --> 00:42.690
+So in order to create a row we would need to create a row element and then one in a row.
+
+00:42.690 --> 00:44.650
+This is where we would create our data.
+
+00:44.730 --> 00:47.270
+And again whatever columns we would like to create.
+
+00:47.430 --> 00:53.070
+Meaning if you would want to have 10000 columns more you would have four columns.
+
+00:53.070 --> 00:59.320
+The same thing would work where we would have the table data element and then within the table data.
+
+00:59.370 --> 01:01.560
+This is where we write our information.
+
+01:01.650 --> 01:05.830
+Again let's just have some kind of dummy text we the john.
+
+01:05.880 --> 01:07.830
+This is gonna be my table data.
+
+01:07.830 --> 01:15.240
+So if we're gonna copy and paste it again and let's say the second one would be Peter then again Sarah.
+
+01:15.360 --> 01:18.150
+And again for the agency melted Oriel.
+
+01:18.270 --> 01:22.220
+I don't see the point of coming up with some kind of exclusive examples.
+
+01:22.290 --> 01:25.840
+This is just going to give you a general understanding of what's happening.
+
+01:26.050 --> 01:32.280
+So the moment table data is I'm gonna be adding meaning the more columns I'm going to be adding then
+
+01:32.460 --> 01:35.210
+I see the more columns are going to be displayed.
+
+01:35.220 --> 01:41.310
+Now we also have an option of having the table headings so in our case we're gonna have let's say TR
+
+01:41.790 --> 01:50.190
+and within the first table roll we have a element of the H which will stand for table head and within
+
+01:50.190 --> 01:53.350
+the table head we can write again whatever we would like.
+
+01:53.370 --> 01:57.420
+I'm just gonna say here's some info and we're going to copy and paste it.
+
+01:57.610 --> 02:05.260
+And now I'm gonna have three table headings as well as three regular columns in the second row and if
+
+02:05.260 --> 02:11.650
+I would like to create more rows I would just have to create again new row element and just keep on
+
+02:11.650 --> 02:13.390
+adding the table data element.

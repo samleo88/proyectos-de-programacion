@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.240 --> 00:06.420
+And the next section is going to be building it is going to be a team section or so going to we're going
+
+00:06.420 --> 00:08.870
+to go back to our next issue here.
+
+00:09.240 --> 00:14.520
+I don't know where we're going to start with a comment so we're going to say we're here team we're going
+
+00:14.520 --> 00:21.890
+to select the line and copy and paste this here over to say and of team when you don't like this and
+
+00:21.880 --> 00:23.800
+then we're going to play a title.
+
+00:23.850 --> 00:32.700
+So what we'll do here we're going to say a section here then the idea is going to be team like this.
+
+00:32.730 --> 00:36.440
+And then the first thing that we would need is obviously a title.
+
+00:36.550 --> 00:44.000
+So we're going to grab this title here from the previous section and come up with this one.
+
+00:44.000 --> 00:51.400
+Let's copy and paste this note here we're going to write this is going to be team team here and now
+
+00:51.420 --> 00:57.580
+that we have this title we're here we're going to start creating our team section.
+
+00:57.840 --> 01:03.300
+And the first thing that I'm going to say is this is going to be a day of something give and with that
+
+01:03.300 --> 01:12.620
+idea of team center this once we have to give now we wouldn't want to create a team member.
+
+01:12.910 --> 01:15.370
+So I'm going to say team member.
+
+01:15.780 --> 01:23.490
+Then again so on line copy and paste and we're going to say we're here and of team member and now that
+
+01:23.520 --> 01:25.400
+we have the comments over here.
+
+01:25.530 --> 01:28.260
+Then we're going to write that this is going to be an article.
+
+01:28.320 --> 01:38.920
+So I'm going to say article and this is going to be a class of team member a member class Stabb an on
+
+01:38.920 --> 01:40.820
+here and this is going to be an article.
+
+01:41.020 --> 01:44.150
+Then after that we'll will have a image.
+
+01:44.200 --> 01:50.340
+So we're going to say this is give him any message right and we're the source of all images.
+
+01:50.650 --> 01:56.920
+And over here we're going to try to get 80 points here I'm going to say this is going to be Team number
+
+01:56.920 --> 01:57.910
+one.
+
+01:57.910 --> 02:01.090
+Then after that we would have the actual footer.
+
+02:01.090 --> 02:01.400
+All right.
+
+02:01.400 --> 02:08.760
+So we're here to say a team member member here.
+
+02:08.800 --> 02:12.850
+And then after that we'll going to have the actual image for.
+
+02:13.050 --> 02:17.490
+So going to create or here a div and we're going to give it a class.
+
+02:17.680 --> 02:27.990
+We're hearing this and this is going to be image for so Image image for now that we have the image of
+
+02:27.990 --> 02:29.410
+what we were going to put inside.
+
+02:29.410 --> 02:34.660
+This is going to be a foot of rainfall and social icons.
+
+02:34.690 --> 02:43.390
+So what are going to do here and this is going to be a day of class or here with Fuller info for info
+
+02:43.880 --> 02:49.370
+like this and within a foot of rainfall are going to have a heading three more here like this.
+
+02:49.510 --> 02:57.160
+And this is going to say John Doe here that after that we're going to have a heading five and we're
+
+02:57.160 --> 03:05.330
+going to say this is going to be a web developer here and we're going to have some social icons.
+
+03:05.330 --> 03:09.220
+It's We're going to play Stabb and just keep the site where we have.
+
+03:09.240 --> 03:10.940
+Right so this is going to be for her.
+
+03:10.990 --> 03:12.420
+This is going to be new info.
+
+03:12.580 --> 03:15.790
+So now what we would want or hear is place these icons.
+
+03:15.940 --> 03:17.010
+So I'm going to say we're here.
+
+03:17.020 --> 03:26.290
+This is going to be social icons icons or hear press tab and once we have the social icons we're going
+
+03:26.290 --> 03:34.990
+to have a link right here hashtag on this and then on here we're going to have a high half a day on
+
+03:35.000 --> 03:41.210
+here Twitter that's going to be the first social icon and then we're going to have three more.
+
+03:41.350 --> 03:43.310
+So it's like this whole thing.
+
+03:43.330 --> 03:48.850
+Copy and paste this over here and then we're going to go back over here and just have a few lines.
+
+03:48.850 --> 03:49.510
+All right.
+
+03:49.510 --> 03:56.520
+We're going to read this here and I was going to leave it for Facebook here.
+
+03:56.710 --> 04:00.610
+Then the next one over here is going to be Instagram.
+
+04:01.240 --> 04:03.980
+And then after that we're going to have linked in.
+
+04:04.000 --> 04:11.590
+All right so when can we hear this now that we have this now the last thing that we actually would want
+
+04:11.660 --> 04:16.200
+right still within our photo here right.
+
+04:16.210 --> 04:20.390
+We would actually want to place more here link right.
+
+04:20.420 --> 04:22.540
+And the link is going to be this guy right.
+
+04:22.540 --> 04:29.440
+So basically what's happening is as this is actually going to be hovering right you can see that the
+
+04:29.440 --> 04:30.860
+link is going to be appearing.
+
+04:31.120 --> 04:34.470
+So what's going to happen is again you can see that we have the photo right.
+
+04:34.690 --> 04:40.350
+So still within the photo or do you want to do is have the link on your hash tag.
+
+04:40.560 --> 04:44.260
+I know he'll have a class of her for her.
+
+04:44.280 --> 04:54.530
+I can so I'm going to say for her I can go over here and I know are going to place a are phantasm to
+
+04:54.620 --> 04:55.860
+say hi.
+
+04:55.900 --> 05:02.420
+Hey I have a row right here like this right.
+
+05:02.570 --> 05:04.550
+Press time and now we have the arrow.
+
+05:04.810 --> 05:10.690
+So now we're actually ready to copy and paste this and just change the images so we're going to grab
+
+05:10.750 --> 05:16.000
+a team member here and let's copy and paste this one two three.
+
+05:16.280 --> 05:21.240
+To have three of them all here and this is going to be number two.
+
+05:21.310 --> 05:23.270
+This is going to be number three.
+
+05:23.500 --> 05:25.520
+And the last one is going to be number four.
+
+05:25.690 --> 05:33.310
+And now that we're done with our the mouse we can say this and we can go to many cases and start styling
+
+05:33.310 --> 05:33.580
+this.

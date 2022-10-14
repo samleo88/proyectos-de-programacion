@@ -1,0 +1,496 @@
+WEBVTT
+
+00:00.400 --> 00:08.760
+An for light box we're going to be using a magnifique papa irresponsive Jake with a light box which
+
+00:08.760 --> 00:15.580
+is basically the best one in my opinion especially for the ones that are free.
+
+00:16.000 --> 00:17.730
+You can see the ones with clicking.
+
+00:17.740 --> 00:18.590
+All right.
+
+00:18.660 --> 00:26.330
+And we have examples that we have a gallery and here we have documentation on here this would be good.
+
+00:26.630 --> 00:30.360
+So let's start over here with a documentation Morier.
+
+00:30.540 --> 00:34.050
+So first things first they say we need to include these files.
+
+00:34.080 --> 00:34.770
+Right.
+
+00:34.800 --> 00:41.970
+So here we need a magnetic pop ups who and we need to jack Querrey which we already have don't worry
+
+00:42.420 --> 00:50.790
+and use that and or here they're saying a just fine then over here they say how we can start the actual
+
+00:50.790 --> 00:51.670
+pop up right.
+
+00:51.810 --> 00:57.120
+So here you can see we still have the document ready function and or here we say image link.
+
+00:57.150 --> 00:59.380
+And this would be type image.
+
+00:59.460 --> 01:02.250
+This will be if we would want to do this way.
+
+01:02.450 --> 01:02.800
+All right.
+
+01:02.880 --> 01:04.240
+So here like this right.
+
+01:04.260 --> 01:07.970
+So let's say image or here or here this is going to be the path.
+
+01:07.980 --> 01:14.470
+So we basically have just a simple click and once we press it here this is going to open up in a light
+
+01:14.470 --> 01:15.310
+box.
+
+01:15.330 --> 01:21.550
+However we're going to pick a second version where we have a container.
+
+01:21.560 --> 01:23.900
+All right then we have the links.
+
+01:23.910 --> 01:26.300
+Remember how we have it right now.
+
+01:26.310 --> 01:30.490
+We also placed an image or here inside just for our layout.
+
+01:30.630 --> 01:31.230
+Right.
+
+01:31.240 --> 01:34.990
+However osing really needed this 2:02 image right.
+
+01:35.040 --> 01:40.760
+So you don't need if you really just want a links that would open up the gallery right.
+
+01:40.980 --> 01:45.470
+You can just have a simple gallery how are we placed our links inside here.
+
+01:45.480 --> 01:46.990
+I'm sorry our are images right.
+
+01:47.160 --> 01:49.850
+Just so we have actually this section.
+
+01:50.200 --> 01:50.530
+Right.
+
+01:50.580 --> 01:53.670
+Just for the section's sake we have these images over here.
+
+01:53.880 --> 01:56.990
+So we had a little bit of extra spice.
+
+01:57.000 --> 01:57.540
+All right.
+
+01:57.720 --> 02:02.970
+So we're going to do first is let's go ahead and let's actually download right so we can go back over
+
+02:02.970 --> 02:08.030
+here and we're going to see where's the good hub here then.
+
+02:08.110 --> 02:15.000
+We're going to is we're going to do a clone or download it on say download the zip or this and then
+
+02:15.420 --> 02:18.870
+it's going to be in our notes like this.
+
+02:18.960 --> 02:25.510
+We can just open up the actual folder under the distribution.
+
+02:25.680 --> 02:26.420
+Right.
+
+02:26.700 --> 02:32.840
+We're going to have a success and I'm going to have a genius what I'm going to do here.
+
+02:33.330 --> 02:40.110
+I'm going to have a new folder which is going to called magnifique here and let's drag this guy over
+
+02:40.110 --> 02:40.600
+here.
+
+02:41.010 --> 02:48.690
+And again we have a choice of men or actual regular Just so just for the sake of saving a little bit
+
+02:48.690 --> 02:52.390
+of space right let's have a minute fight.
+
+02:52.500 --> 02:58.080
+What I'm going to do here I'm just going to drag this folder to our folder where we work and that pretty
+
+02:58.080 --> 02:59.510
+much is done.
+
+02:59.600 --> 03:07.320
+And then after that what you would want to do is go in right away actually set everything up so it can
+
+03:07.320 --> 03:09.540
+cause the script in the index.
+
+03:09.540 --> 03:09.780
+Right.
+
+03:09.780 --> 03:12.400
+I'm going to go all the way to the bottom right.
+
+03:12.630 --> 03:20.790
+And let's say over here before our script what I'm going to say here is that this was wrong.
+
+03:20.930 --> 03:25.680
+All right what I'm going to say here I'm going to say that this is going to be a magnifique.
+
+03:25.830 --> 03:32.640
+And once I have a comment on here I'm going to say this is going to be script here tab and you can see
+
+03:32.640 --> 03:33.330
+or hear.
+
+03:33.450 --> 03:40.940
+I have my magnifique fold over here I'm going to say source then we're going to have to have a magnifique
+
+03:41.770 --> 03:44.760
+here and then we need a yes.
+
+03:44.840 --> 03:47.640
+Right so this is going to be the javascript file.
+
+03:47.660 --> 03:53.930
+Now we can say this now I need to scroll all the way up and over here let's say after the break where
+
+03:53.930 --> 03:54.560
+you.
+
+03:54.770 --> 03:59.400
+I'm going to I'm going to make a comment and we're here we're going to say this is going to be magnifique
+
+04:00.350 --> 04:05.080
+pop up says yes we're here we're going to have again.
+
+04:05.130 --> 04:10.710
+We're going to have a link right relationship style sheet and we're here we're going to say magnifique
+
+04:11.070 --> 04:11.610
+again.
+
+04:11.970 --> 04:14.560
+And let's say we're here we're going to have success.
+
+04:14.940 --> 04:20.940
+So I'll say this but then we're going to go back to the bottom right because what I don't want to place
+
+04:20.940 --> 04:25.540
+it in my script right because I don't want to keep mixing them up.
+
+04:25.710 --> 04:30.840
+So we're all going to say we're here is that this is going to be a script right.
+
+04:30.840 --> 04:32.140
+Magnifique.
+
+04:32.490 --> 04:34.580
+I'd say magnifique James.
+
+04:35.030 --> 04:36.630
+No chance.
+
+04:36.750 --> 04:38.160
+I'm not going to say we're here.
+
+04:38.250 --> 04:42.420
+We're just going to create a not magnifique pop up Mingy.
+
+04:42.740 --> 04:50.530
+But we're going to go to this folder we're here and let's say that we're going to say a new file.
+
+04:50.550 --> 04:53.740
+We're going to say Mark Afiq or here.
+
+04:54.730 --> 04:59.470
+All right so now we're here in this folder we have a Magnificat James.
+
+04:59.630 --> 05:05.400
+No really if we go back to the next page the amount here and let's say again we're going to have a script
+
+05:06.060 --> 05:08.490
+and here we're going to write a source.
+
+05:08.970 --> 05:10.990
+So here and this is going to be so harsh.
+
+05:11.190 --> 05:13.210
+I know we're going to see him again there Frank.
+
+05:13.280 --> 05:15.590
+And we're going to have a magnifica James.
+
+05:15.590 --> 05:17.430
+All right so this is going to be our custom.
+
+05:17.430 --> 05:18.120
+Yes.
+
+05:18.150 --> 05:19.280
+So now I'm going to say this.
+
+05:19.350 --> 05:20.730
+And now we're going to go back over here.
+
+05:20.750 --> 05:21.240
+Right.
+
+05:21.420 --> 05:24.130
+So this was the get happen this is where we download it.
+
+05:24.540 --> 05:30.360
+Now the next thing that we would want to do is actually go back to documentation.
+
+05:30.360 --> 05:31.220
+All right.
+
+05:31.220 --> 05:32.960
+And let's actually start.
+
+05:33.030 --> 05:33.720
+Right.
+
+05:33.800 --> 05:38.180
+So the first code that I'm going to copy to this one is going to be this document ready.
+
+05:38.180 --> 05:38.450
+All right.
+
+05:38.460 --> 05:42.410
+So we can do it here and we obviously can read it ourselves.
+
+05:42.420 --> 05:48.210
+But I'm just showing you that sometimes it's just you know sometimes you just copy and paste the code
+
+05:48.630 --> 05:50.880
+right and all hear what I'm going to do.
+
+05:50.880 --> 05:52.310
+Just delete this line right.
+
+05:52.380 --> 05:52.810
+Right.
+
+05:52.980 --> 05:57.990
+So basically again it could have easily written ourselves I'm showing you where I'm getting this from.
+
+05:57.990 --> 06:03.420
+So this was a document ready so basically all our code is going to run only when the document is ready.
+
+06:03.420 --> 06:07.700
+Now we're going to go back over here and we're going to get this line right.
+
+06:07.710 --> 06:12.720
+So basically what saying if we have this right this is how we would want.
+
+06:12.750 --> 06:17.040
+So what I'm going to do here is I'm just going to copy and paste this.
+
+06:17.070 --> 06:17.560
+Right.
+
+06:17.850 --> 06:24.620
+And what is it saying is first it's selecting something writing that selecting class with parent container.
+
+06:24.660 --> 06:29.980
+Now in our case what does the parent container it's current center.
+
+06:30.110 --> 06:30.330
+Right.
+
+06:30.350 --> 06:33.010
+Because then it's current item current item right.
+
+06:33.020 --> 06:34.470
+So this is the parent element.
+
+06:34.820 --> 06:39.740
+So I'm going to go back over here and what we're going to say is this is going to be current center.
+
+06:39.740 --> 06:41.980
+And if I'm correct this was a off.
+
+06:42.000 --> 06:42.570
+All right.
+
+06:42.740 --> 06:49.970
+This was an idea around I'm going to say Center is double check because I can tell you right away you're
+
+06:49.970 --> 06:51.890
+not going to be making mistakes here.
+
+06:51.920 --> 06:58.240
+In most cases you're mostly going to be making mistakes just by selecting the actual correct items right.
+
+06:58.250 --> 06:59.170
+Whether it's a class.
+
+06:59.170 --> 06:59.770
+Right.
+
+06:59.780 --> 07:03.710
+So make sure that it is an idea that you're using so it's current center.
+
+07:03.710 --> 07:07.380
+And over here I'm going to write and this is also going to be a magnifique.
+
+07:07.380 --> 07:08.470
+All right currents.
+
+07:08.480 --> 07:16.010
+And now once we have this right magnifica pop up we have delegate a and here we have type image.
+
+07:16.010 --> 07:22.450
+Now let me say this here and now what we need to do because it is javascript.
+
+07:22.470 --> 07:24.480
+All right we need to refresh here.
+
+07:24.770 --> 07:30.560
+And once I click it over you're right you can see that I'm not going back to the image right where it's
+
+07:30.560 --> 07:31.290
+located.
+
+07:31.370 --> 07:34.010
+You can see or hear right that I have a lightbox.
+
+07:34.130 --> 07:36.360
+Now I don't have the gallery.
+
+07:36.470 --> 07:39.830
+I just have the actual image so if I go an image I click it.
+
+07:39.830 --> 07:41.450
+Right now I get an image.
+
+07:41.670 --> 07:44.090
+So I'm going to go back over here and let's check it out.
+
+07:44.090 --> 07:46.120
+What other options we have.
+
+07:46.120 --> 07:46.590
+All right.
+
+07:46.730 --> 07:52.670
+So if we're going to be scrolling down right we're not going to be covering obviously all these right.
+
+07:52.730 --> 07:55.370
+What we're interested in is actually gallery right.
+
+07:55.400 --> 08:01.160
+So here we just keep scrolling scrolling down right and are here for Gallerie what they're saying is
+
+08:01.700 --> 08:03.490
+Gallery enabled.
+
+08:03.710 --> 08:05.320
+And what we need is true right.
+
+08:05.360 --> 08:10.000
+And again we can copy this or we can actually write it ourselves.
+
+08:10.010 --> 08:11.660
+It doesn't really matter.
+
+08:11.660 --> 08:16.250
+All right so here we're going to place a comment because this is an object and on here we're going to
+
+08:16.250 --> 08:19.480
+copy and paste it it's a gallery enabled.
+
+08:19.490 --> 08:19.960
+True.
+
+08:20.150 --> 08:25.210
+And then we need to get rid of this camera and because this is the last item on here right.
+
+08:25.430 --> 08:26.890
+So we can do it here.
+
+08:26.900 --> 08:28.280
+Can you just say this.
+
+08:28.400 --> 08:30.390
+And again we're going to go back over here.
+
+08:30.650 --> 08:34.960
+You can refresh the page and sure enough you can see or hear these arrows.
+
+08:34.970 --> 08:39.710
+Now I have my gallery so I can skip through the gallery like this.
+
+08:39.980 --> 08:45.570
+And this is how we can actually add a Magnificat pop up right to our project.
+
+08:45.680 --> 08:50.510
+And like I said from the free ones that's that's actually the best one to work with.
+
+08:50.510 --> 08:53.120
+It's actually the easiest one like you see it right.
+
+08:53.120 --> 08:59.320
+It has again a lot of options that we didn't touch on because like I said without a lot of these J-20
+
+08:59.330 --> 09:02.230
+plug ins you can make another tutorial out of this one alone.
+
+09:02.240 --> 09:02.960
+Right.
+
+09:03.050 --> 09:10.820
+Because we are mostly mainly focusing on actually working with CSSA and fluxbox and the grid and the
+
+09:10.920 --> 09:11.780
+fluxbox.
+
+09:11.780 --> 09:16.560
+So we're here this is just a matter of next how to make our project to stand out.
+
+09:16.580 --> 09:23.470
+Therefore this section was kind of simple one right just so we don't get mixed up with a magnifique
+
+09:23.480 --> 09:28.740
+pop up here which is not hard because remember that you need to do right.
+
+09:28.970 --> 09:31.260
+You just need to add both of them.
+
+09:31.310 --> 09:32.100
+Right.
+
+09:32.180 --> 09:36.310
+And so here again we technically could have done it in a script.
+
+09:36.420 --> 09:37.070
+Right.
+
+09:37.130 --> 09:39.920
+I just wanted to put it in the separate files.
+
+09:39.980 --> 09:44.960
+So then whenever you are going to be opening your source files you know what is what.
+
+09:45.030 --> 09:48.150
+Or here and now we really want to the next section.

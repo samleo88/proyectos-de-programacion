@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.330 --> 00:04.840
+And the next section are going to be creating we're here and this is going to be the projects section.
+
+00:04.850 --> 00:10.230
+And so here we're going to look at the Zoom in effect right and how to have this text again to appear
+
+00:10.800 --> 00:12.700
+only ones who are hovering right.
+
+00:12.770 --> 00:14.630
+So we're going to go back to the next issue.
+
+00:14.640 --> 00:18.540
+Now we're going to go somewhere all the way in the bottom right.
+
+00:18.540 --> 00:24.180
+And we're going to say this is going to be project S. projects section here.
+
+00:24.300 --> 00:27.480
+And then we're going to have a section with the idea of projects.
+
+00:27.570 --> 00:31.480
+So here we're going to say Heidi and this is going to be project.
+
+00:31.740 --> 00:35.680
+And then once we have this we're actually going to copy and paste the title.
+
+00:35.790 --> 00:38.000
+It's all going to go all the way over here.
+
+00:38.140 --> 00:42.360
+We'll find where his services title right the title that we created.
+
+00:42.360 --> 00:44.330
+So this is the title.
+
+00:44.440 --> 00:46.080
+It's going to grab the title.
+
+00:46.150 --> 00:51.100
+I was going to have to change it around a little bit more here in HDMI and see.
+
+00:51.180 --> 00:51.880
+This.
+
+00:51.890 --> 00:52.730
+All right so here.
+
+00:52.770 --> 00:57.410
+This is going to be project and the rest of it are going to change that and see.
+
+00:57.440 --> 00:58.020
+Yes.
+
+00:58.090 --> 01:02.000
+Right so we have project and then we're going to have a project's container.
+
+01:02.010 --> 01:02.280
+Right.
+
+01:02.280 --> 01:10.920
+So this is section and I'm we're going to say this is going to be Dave the class of projects we're here
+
+01:11.100 --> 01:14.760
+and container for this.
+
+01:14.790 --> 01:16.560
+And then we're going to have an article inside here.
+
+01:16.560 --> 01:17.090
+Right.
+
+01:17.310 --> 01:25.470
+So I'm going to say this is going to be article and with the class of projects I am here like this and
+
+01:25.470 --> 01:27.410
+then we're going to have an image right.
+
+01:27.450 --> 01:33.200
+And we're going to see the image and the image is right away we don't need any classes.
+
+01:33.210 --> 01:39.000
+Some going to say images and this is going to be current project one here like this and I'm going to
+
+01:39.000 --> 01:43.040
+say alternative image here like this.
+
+01:43.040 --> 01:50.250
+And then we're going to have a div with a image text right to was listed within the article we're going
+
+01:50.250 --> 01:55.450
+to say or here this is going to be div with image text right.
+
+01:55.590 --> 02:02.520
+And then we're going to have a heading one here and heading one is going to be project flex so our hero
+
+02:02.540 --> 02:11.080
+can write project or flex and then we're going to have a heading six right underneath.
+
+02:11.400 --> 02:21.210
+So we're going to go here and say heading 6 and this is going to be a design or here design and web
+
+02:21.210 --> 02:26.820
+development of a lot man or here like this.
+
+02:26.880 --> 02:33.770
+And then once actual image text ends or here we're going to have a image for it.
+
+02:33.900 --> 02:35.270
+We're going to have it Dave.
+
+02:35.310 --> 02:37.760
+It's going to be image for her.
+
+02:38.220 --> 02:41.000
+And here the first thing is going to be for her icon.
+
+02:41.250 --> 02:48.210
+All right so we're going to say over here Dave and this is going to be FOOTNER I can't class and we're
+
+02:48.210 --> 02:55.090
+here with this for I kind of we're going to place a comment so I for comment.
+
+02:55.800 --> 02:58.330
+Oh here goes.
+
+02:58.830 --> 03:03.450
+And then really just going to a place right next to zero and it's all going to say this is going to
+
+03:03.450 --> 03:04.450
+be zero.
+
+03:04.940 --> 03:08.280
+Are you doing this and then we're going to have a full day.
+
+03:08.350 --> 03:14.740
+All right so still within a foot or right foot right now would want a four hour day.
+
+03:15.060 --> 03:22.460
+And so we're all going to have a div and this is going to be a further date like this and he'll get
+
+03:22.470 --> 03:22.770
+it right.
+
+03:22.770 --> 03:27.060
+This is going to be December and this is going to be 12.
+
+03:27.840 --> 03:30.270
+And this is going to be 2017.
+
+03:30.460 --> 03:31.080
+All right.
+
+03:31.290 --> 03:37.130
+So now we have everything set up now the only thing left to do is for the project item right.
+
+03:37.200 --> 03:42.500
+We obviously need to actually copy these right and make three of them right.
+
+03:42.510 --> 03:44.420
+So here this is the container.
+
+03:44.670 --> 03:50.660
+So this just going to say this is going to be item and this is going to be the end of it.
+
+03:50.780 --> 03:51.030
+All right.
+
+03:51.030 --> 03:56.760
+So here I'm going to say and of home and then we're just going to copy this.
+
+03:56.760 --> 03:59.780
+All right so we're going to have this one too.
+
+03:59.880 --> 04:00.300
+Right.
+
+04:00.480 --> 04:03.800
+And here it's going to be projects too.
+
+04:04.230 --> 04:06.030
+And this is going to be projects three.
+
+04:06.050 --> 04:08.490
+Now I'm not going to be changing any kind of text around here.
+
+04:08.490 --> 04:08.820
+Right.
+
+04:08.820 --> 04:10.680
+That's really up to you if you want to do it.
+
+04:10.680 --> 04:15.870
+Go ahead and obviously for your project you probably wanted to look a little bit different right.
+
+04:15.890 --> 04:18.550
+But I'm just going to leave with the way it is over here right.
+
+04:18.570 --> 04:22.660
+So we're just going to say this one over here and then we're going to go to see assassin's.

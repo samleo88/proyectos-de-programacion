@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.550 --> 00:01.240
+Next one up.
+
+00:01.240 --> 00:02.420
+We have the scale.
+
+00:02.470 --> 00:05.630
+And you'll notice the a lot of things that we already have.
+
+00:05.860 --> 00:09.700
+We translate is going to be very relatable to the scale.
+
+00:09.700 --> 00:13.750
+Now let's start maybe with the red one and let's use transform.
+
+00:13.810 --> 00:19.480
+And then we're gonna set it equal not to translate but we're gonna use the scale now scale again is
+
+00:19.480 --> 00:26.420
+gonna have few options we can have these Scale X and we have scale y as well as we have scale so that
+
+00:26.420 --> 00:30.800
+we can enter both values for the x 1 and the y 1.
+
+00:30.910 --> 00:36.820
+Now with the X what's gonna happen is that if we're gonna go past the value of 1 in the x direction
+
+00:37.420 --> 00:39.600
+the element is gonna grow the x direction.
+
+00:39.640 --> 00:45.520
+So let's say if I'm gonna say to then the element is gonna get twice as big in the x direction.
+
+00:45.580 --> 00:49.100
+Notice it happens on the right hand side and on the left hand side.
+
+00:49.220 --> 00:51.400
+How or if I'm going to go less than 1.
+
+00:51.400 --> 00:53.190
+So let's say zero point one.
+
+00:53.320 --> 00:59.570
+Now the element is gonna be half the size but the trimming is gonna happen on both sides.
+
+00:59.860 --> 01:04.360
+So not only let's say on one side but the trimming is gonna happen on the left hand side and the right
+
+01:04.360 --> 01:04.690
+hand side.
+
+01:05.110 --> 01:11.180
+So now this is gonna be half the size of the previous element that will be the x direction.
+
+01:11.230 --> 01:13.940
+Obviously we can do the same thing in the y direction.
+
+01:14.110 --> 01:20.870
+So let me just copy this and let's say for the number two number green one instead of X we're going
+
+01:20.870 --> 01:22.340
+to place y.
+
+01:22.360 --> 01:23.650
+Notice what happens.
+
+01:23.660 --> 01:28.600
+So now the element is gonna be half the size in the y direction you want it twice as big.
+
+01:28.600 --> 01:32.310
+And again I'm just using the round values you can do something like this.
+
+01:32.350 --> 01:37.810
+So obviously this is just gonna grow a little bit more than the normal one but I'm just using to just
+
+01:37.810 --> 01:40.720
+so you can see that for sure and the element is growing.
+
+01:40.900 --> 01:46.150
+Okay so that would be the y direction and self-explanatory we can use both values.
+
+01:46.210 --> 01:51.970
+So if I'm going to use the same thing here and if I'm going to copy the transformation let's say we're
+
+01:51.970 --> 01:57.700
+going to add the new one then this is gonna be scale and I would like to I don't know zoom it or I'm
+
+01:57.700 --> 02:01.950
+sorry not zoom it make it smaller x direction and y direction.
+
+02:02.110 --> 02:04.010
+This is the only thing we need to do.
+
+02:04.090 --> 02:10.810
+So now what happens is that this element is half the size X direction as well as y direction.
+
+02:10.830 --> 02:17.320
+Now I wanted to make it bigger can make it one point five as well as here and now actually the element
+
+02:17.380 --> 02:20.500
+is going to be bigger x direction and y direction.
+
+02:20.650 --> 02:27.250
+Very very straightforward if you ever need to increase the size of the Element X or Y direction you
+
+02:27.250 --> 02:28.300
+can just use scale.

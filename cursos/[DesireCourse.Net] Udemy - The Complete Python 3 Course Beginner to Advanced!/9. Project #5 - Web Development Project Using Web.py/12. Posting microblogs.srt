@@ -1,0 +1,549 @@
+1
+
+00:00:00,000  -->  00:00:04,890
+Hey guys, welcome back. Now that we have a working user management system and we
+
+2
+
+00:00:04,890  -->  00:00:08,880
+can login and logout, what we need to do
+is make this a little more functional.
+
+3
+
+00:00:08,880  -->  00:00:11,700
+And how we're gonna do that is we're
+going to focus on the home feed for a
+
+4
+
+00:00:11,700  -->  00:00:15,809
+moment, and as you can see I've added a
+bit of style here, I've added a sidebar
+
+5
+
+00:00:15,809  -->  00:00:20,340
+to the left, and i've added this post box,
+and this is a preview of what each post
+
+6
+
+00:00:20,340  -->  00:00:23,430
+will look like. And it has buttons down here which we're going to maybe make
+
+7
+
+00:00:23,430  -->  00:00:27,720
+functional event later, maybe that's
+going to be somewhat obvious after we
+
+8
+
+00:00:27,720  -->  00:00:30,779
+get done with everything else so we're not
+going to have to do that. You guys can go
+
+9
+
+00:00:30,779  -->  00:00:35,460
+ahead if you want to turn, if you want to
+turn this project into something really
+
+10
+
+00:00:35,460  -->  00:00:37,770
+awesome, then go for it,
+
+11
+
+00:00:37,770  -->  00:00:41,129
+however I don't think that's going to be in
+the scope. Now as you can see i'm going
+
+12
+
+00:00:41,129  -->  00:00:45,750
+to show you guys the code that I wrote
+right here in the home file. Literally
+
+13
+
+00:00:45,750  -->  00:00:53,340
+all this form is right here is a text
+area and a button, and the text area you
+
+14
+
+00:00:53,340  -->  00:00:58,710
+can see I've personalized that by adding
+the session user and then the name of
+
+15
+
+00:00:58,710  -->  00:01:04,680
+the user in there. Now, something else
+have done is I've also added a bit of code
+
+16
+
+00:01:04,680  -->  00:01:11,369
+right here at the beginning of the
+homepage, and we see two black lines, found
+
+17
+
+00:01:11,369  -->  00:01:14,760
+one, alright. Let's go ahead and fix that
+to make it PEP happy.
+
+18
+
+00:01:14,760  -->  00:01:20,040
+Alright, what I've done is I've
+automatically logged in a user manually and
+
+19
+
+00:01:20,040  -->  00:01:24,060
+statically by username and password so
+we don't have to keep logging in every
+
+20
+
+00:01:24,060  -->  00:01:27,000
+time we restart this, and so the way you
+do that is we're going to set a data
+
+21
+
+00:01:27,000  -->  00:01:31,770
+variable here, and it's going to be equal
+to a method called type. Now in this
+
+22
+
+00:01:31,770  -->  00:01:36,840
+method the first argument is going to be
+the string obj, the second argument is
+
+23
+
+00:01:36,840  -->  00:01:41,880
+going to be wrapped in parentheses it's going to be the word object, and then the
+
+24
+
+00:01:41,880  -->  00:01:46,439
+third argument is the dictionary that
+includes username and password. So that's
+
+25
+
+00:01:46,439  -->  00:01:50,729
+how we create that object here and then
+we load up the login model and we
+
+26
+
+00:01:50,729  -->  00:01:55,829
+basically just copy the same data as we
+did down to the check login here, except
+
+27
+
+00:01:55,829  -->  00:02:01,229
+instead of getting input with the
+username and password we're just setting that
+
+28
+
+00:02:01,229  -->  00:02:05,040
+statically, and so this way every time we
+restart it we don't have to relog in and
+
+29
+
+00:02:05,040  -->  00:02:08,759
+that would be a little annoying. So I
+want you guys to go ahead and pause
+
+30
+
+00:02:08,759  -->  00:02:11,390
+this video and do the same if you
+haven't yet,
+
+31
+
+00:02:11,390  -->  00:02:16,640
+and that's going to make it a lot easier.
+Now what we have to do in order to get
+
+32
+
+00:02:16,640  -->  00:02:21,440
+posts happening we first got to get them
+in to a collection, so we're going to go
+
+33
+
+00:02:21,440  -->  00:02:28,130
+ahead and create a new model and we're
+going to name this model "Posts" and i'm
+
+34
+
+00:02:28,130  -->  00:02:31,370
+feeling lazy so i'm going to go over to
+my login model right here and i'm going
+
+35
+
+00:02:31,370  -->  00:02:36,110
+to copy the beginning here, and i'm going
+to paste it right here just so we don't have
+
+36
+
+00:02:36,110  -->  00:02:45,260
+to keep doing it. I'm going to rename the
+class "Posts" same as the file there, and this
+
+37
+
+00:02:45,260  -->  00:02:50,480
+basically just sets up the database
+at the beginning of the class
+
+38
+
+00:02:50,480  -->  00:03:00,050
+instantiation. So i'm also going to set "self.Posts = self.db.posts" Now,
+
+39
+
+00:03:00,050  -->  00:03:04,220
+we're going to need a method to put a
+post into the database and so we're going
+
+40
+
+00:03:04,220  -->  00:03:10,580
+to start with the javascript
+stuff. So let's jump over into the Home
+
+41
+
+00:03:10,580  -->  00:03:15,860
+we need to do one thing and that's when
+we submit that, so i'm going to copy that ID,
+
+42
+
+00:03:15,860  -->  00:03:20,030
+when we submit that we're going to get
+everything from it which right now just
+
+43
+
+00:03:20,030  -->  00:03:23,840
+has a text area, but we're also going to
+be putting it into the database with the
+
+44
+
+00:03:23,840  -->  00:03:29,329
+the user name of the logged in user. So let's jump over into our JavaScript here and
+
+45
+
+00:03:29,329  -->  00:03:36,200
+let's create an ajax method, "$(document).on('submit',
+
+46
+
+00:03:36,200  -->  00:03:46,970
+'#post-activity' and when you
+define an ID here you need to use the
+
+47
+
+00:03:46,970  -->  00:03:53,510
+hashtag and the resulting event is going
+to be a ", function(e){" we're going to pass
+
+48
+
+00:03:53,510  -->  00:04:06,140
+event in so that we can go "e.prevent( );"
+With ECMAScript 6, or 2015,
+
+49
+
+00:04:06,140  -->  00:04:11,090
+you actually don't need to end
+everything with a semicolon, but i'm
+
+50
+
+00:04:11,090  -->  00:04:15,109
+used to it so if you guys see that
+you know you don't have to,
+
+51
+
+00:04:15,109  -->  00:04:18,739
+for the most part, I mean unless you're
+putting multiple statements online like
+
+52
+
+00:04:18,739  -->  00:04:21,889
+this, you know, you will need to separate
+them,
+
+53
+
+00:04:21,889  -->  00:04:28,939
+otherwise you vsn just leave it like that. So we're going to create an ajax method
+
+54
+
+00:04:28,939  -->  00:04:32,330
+here first we're going to build the form
+variable so, "form = $
+
+55
+
+00:04:32,330  -->  00:04:49,009
+(this).serialize( )" and then "$.ajax({" we're going to set the "url: '/post-activity'," we're
+
+56
+
+00:04:49,009  -->  00:04:57,050
+going to create that route in a moment,
+the "type: 'POST', "
+
+57
+
+00:04:57,050  -->  00:05:00,560
+"data: form," for now it's just going to contain the content,
+
+58
+
+00:05:00,560  -->  00:05:07,340
+and then on "success: finction(res){" "console.log(res);" whatever we get as
+
+59
+
+00:05:07,340  -->  00:05:17,000
+a response from the server, and if I come
+up here it's probably going to complain
+
+60
+
+00:05:17,000  -->  00:05:19,520
+unterminated statement, that shouldn't
+matter though.
+
+61
+
+00:05:19,520  -->  00:05:29,210
+Let's go ahead and run this, refresh the
+page, when we post if I open this up it
+
+62
+
+00:05:29,210  -->  00:05:34,370
+should say failed to load because we
+don't have that route creating. So let's
+
+63
+
+00:05:34,370  -->  00:05:39,949
+let's jump into our controller
+here and let's get that route created. Up
+
+64
+
+00:05:39,949  -->  00:05:49,669
+here I've got API post i'm going to
+change that to "post-activity" and that's where
+
+65
+
+00:05:49,669  -->  00:05:53,270
+we're going to post to. Do I have that?
+Okay, yeah, I already got that written and i'm
+
+66
+
+00:05:53,270  -->  00:05:56,629
+going to delete that, i'm going to write
+it again, that was from a test because what
+
+67
+
+00:05:56,629  -->  00:06:02,330
+we need to do, i'll explain it. So let's go
+ahead and create a "class PostActivity:"
+
+68
+
+00:06:02,330  -->  00:06:10,490
+and we're going to "def POST(self):" and we're going to get
+
+69
+
+00:06:10,490  -->  00:06:20,270
+the "data = web.input( )" and now what we need to do is we need to set data username equal to
+
+70
+
+00:06:20,270  -->  00:06:29,089
+the login user, and so let's go ahead and
+do this. So, "data.
+
+71
+
+00:06:29,810  -->  00:06:40,130
+username = session_data['user']['username']" Now we need to
+
+72
+
+00:06:40,130  -->  00:06:43,639
+instantiate the posts model and how we
+do that we're going to have to import it
+
+73
+
+00:06:43,639  -->  00:06:50,120
+here ", Posts" We're going to come back down to the post activity method and we're going
+
+74
+
+00:06:50,120  -->  00:06:58,010
+to instantiate it using, "post_model = Posts.Posts( )" and then
+
+75
+
+00:06:58,010  -->  00:07:03,290
+we're going to need to create a method
+to insert that data. So right now we're
+
+76
+
+00:07:03,290  -->  00:07:11,600
+just going to say "post_model.insert_post(data)" then we're
+
+77
+
+00:07:11,600  -->  00:07:14,270
+going to "return "success" "
+
+78
+
+00:07:14,270  -->  00:07:20,960
+Go ahead and save it. Now what we need to do here is create that method, so let's
+
+79
+
+00:07:20,960  -->  00:07:30,110
+go to Posts, "def_insert_post(self, data):" Now this is going to be really
+
+80
+
+00:07:30,110  -->  00:07:35,990
+really easy, all we need to do is in
+input that into Posts, so let's go
+
+81
+
+00:07:35,990  -->  00:07:47,479
+ahead and set "inserted = self.Posts.insert( )" and then we're going to
+
+82
+
+00:07:47,479  -->  00:07:53,900
+pass data. Actually, we're just going to
+capture the username and the content. So
+
+83
+
+00:07:54,470  -->  00:08:02,419
+"{"username": data.username, "content": data.content}"
+
+84
+
+00:08:02,419  -->  00:08:12,919
+and i'm going to "return True" in case we want to do some fact-checking
+
+85
+
+00:08:12,919  -->  00:08:20,990
+after, and add that new line to make pep
+happy, and remove the indent to make pep
+
+86
+
+00:08:20,990  -->  00:08:25,970
+happy. Alright, let's jump into this. So i'm
+going to refresh this page, I am logged
+
+87
+
+00:08:25,970  -->  00:08:30,530
+in, so i'm going to go ahead and I'm
+going to just write a simple post. I'm
+
+88
+
+00:08:30,530  -->  00:08:32,300
+not actually going to write it,
+well
+
+89
+
+00:08:32,300  -->  00:08:33,219
+yes, i'll it.
+
+90
+
+00:08:33,219  -->  00:08:44,680
+"This is a simple post and it should make
+it into mongo" Go ahead and post that we
+
+91
+
+00:08:44,680  -->  00:08:50,170
+get a success here. So what i'm going to do is in Mongo i'm going to refresh and we do see a
+
+92
+
+00:08:50,170  -->  00:08:54,579
+post database, and we do see that the
+user name was set correctly and the
+
+93
+
+00:08:54,579  -->  00:08:59,139
+content was set correctly. Now this is
+awesome, I can continue inserting posts,
+
+94
+
+00:08:59,139  -->  00:09:12,910
+but we don't have a way to pull them out
+yet. "Hello world. This is Nick." Alright,
+
+95
+
+00:09:12,910  -->  00:09:17,889
+so now we've got three posts in here, and
+we're going to learn about getting them
+
+96
+
+00:09:17,889  -->  00:09:20,560
+out of the database in the next video.

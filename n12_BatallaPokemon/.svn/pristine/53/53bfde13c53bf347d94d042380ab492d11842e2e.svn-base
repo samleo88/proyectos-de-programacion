@@ -1,0 +1,249 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.servidor.mundo;
+
+import java.io.*;
+import java.sql.*;
+import java.util.*;
+
+import uniandes.cupi2.batallaPokemon.cliente.mundo.BatallaPokemonException;
+
+/**
+ * Clase que se encarga de registrar los resultados de los encuentros sobre la base de datos. <br>
+ * <b>inv:</b><br>
+ * config!=null <br>
+ */
+public class AdministradorResultados
+{
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Conexión a la base de datos.
+     */
+    private Connection conexion;
+
+    /**
+     * Conjunto de propiedades que contienen la configuración de la aplicación.
+     */
+    private Properties config;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye el administrador de resultados y lo deja listo para conectarse a la base de datos.
+     * @param pPropiedades Propiedades para la configuración del administrador. Debe tener las propiedades "admin.db.path", "admin.db.driver", "admin.db.url" y
+     *        "admin.db.shutdown"
+     */
+    public AdministradorResultados( Properties pPropiedades )
+    {
+        config = pPropiedades;
+
+        // Establecer la ruta donde va a estar la base de datos.
+        // Derby utiliza la propiedad del sistema derby.system.home para saber donde están los datos.
+        File data = new File( config.getProperty( "admin.db.path" ) );
+        System.setProperty( "derby.system.home", data.getAbsolutePath( ) );
+
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Conecta el administrador a la base de datos.
+     * @throws SQLException Se lanza esta excepción si hay problemas realizando la operación.
+     * @throws Exception Se lanza esta excepción si hay problemas con los controladores.
+     */
+    public void conectarABD( ) throws SQLException, Exception
+    {
+        String driver = config.getProperty( "admin.db.driver" );
+        Class.forName( driver ).newInstance( );
+
+        String url = config.getProperty( "admin.db.url" );
+        conexion = DriverManager.getConnection( url );
+        verificarInvariante( );
+    }
+
+    /**
+     * Desconecta el administrador de la base de datos y la detiene.
+     * @throws SQLException Se lanza esta excepción si hay problemas realizando la operación.
+     */
+    public void desconectarBD( ) throws SQLException
+    {
+        conexion.close( );
+        String down = config.getProperty( "admin.db.shutdown" );
+        try
+        {
+            DriverManager.getConnection( down );
+        }
+        catch( SQLException e )
+        {
+            // Al bajar la base de datos se produce siempre una excepción.
+        }
+        verificarInvariante( );
+    }
+
+    /**
+     * Crea la tabla necesaria para guardar los resultados. Si la tabla ya existe no hace nada.
+     * @throws SQLException Se lanza esta excepción si hay problemas creando la tabla.
+     */
+    public void inicializarTabla( ) throws SQLException
+    {
+        Statement s = conexion.createStatement( );
+
+        boolean crearTabla = false;
+        try
+        {
+            // Verificar si ya existe la tabla resultados
+            s.executeQuery( "SELECT * FROM resultados WHERE 1=2" );
+        }
+        catch( SQLException se )
+        {
+            // La excepción se lanza si la tabla resultados no existe
+            crearTabla = true;
+        }
+
+        // Se crea una nueva tabla vacía
+        if( crearTabla )
+        {
+            s.execute( "CREATE TABLE resultados (nombre varchar(32), alias varchar(32), ganados int, perdidos int, PRIMARY KEY (alias))" );
+        }
+
+        s.close( );
+        verificarInvariante( );
+    }
+
+    /**
+     * Este método se encarga de consultar la información de un jugador (batallas ganadas y batallas perdidas). <br>
+     * Si no se encuentra un registro del jugador en la base de datos, entonces se crea uno nuevo.
+     * @param pNombre Nombre del jugador del cual se está buscando información. pNombre != null && pNombre !="".
+     * @param pAlias Alias del jugador del cual se está buscando información. pAlias != null && pAlias !="".
+     * @return Registro de victorias y derrotas del jugador.
+     * @throws SQLException Se lanza esta excepción si hay problemas en la comunicación con la base de datos
+     * @throws BatallaPokemonException Si el nombre ingresado no corresponde al usuario con el alias dado.
+     */
+    public RegistroJugador consultarRegistroJugador( String pNombre, String pAlias ) throws SQLException, BatallaPokemonException
+    {
+        RegistroJugador registro = null;
+
+        String sql = "SELECT nombre, ganados, perdidos FROM resultados WHERE alias ='" + pAlias + "'";
+
+        Statement st = conexion.createStatement( );
+        ResultSet resultado = st.executeQuery( sql );
+
+        if( resultado.next( ) ) // Se encontró el jugador.
+        {
+            String nombre = resultado.getString( 1 );
+            if( !nombre.equals( pNombre ) )
+                throw new BatallaPokemonException( "El nombre que ingresó no corresponde al usuario con ese alias." );
+            int ganados = resultado.getInt( 2 );
+            int perdidos = resultado.getInt( 3 );
+
+            registro = new RegistroJugador( pNombre, pAlias, ganados, perdidos );
+
+            resultado.close( );
+        }
+        else
+        // Hay que crear un nuevo registro porque es un jugador nuevo.
+        {
+            resultado.close( );
+            String insert = "INSERT INTO resultados (nombre, alias, ganados, perdidos) VALUES ('" + pNombre + "','" + pAlias + "',0,0)";
+            st.execute( insert );
+
+            registro = new RegistroJugador( pNombre, pAlias, 0, 0 );
+        }
+        st.close( );
+        verificarInvariante( );
+        return registro;
+    }
+
+    /**
+     * Este método se encarga de consultar la información de todos los jugadores (encuentros ganados y encuentros perdidos).
+     * @return Retorna una colección de los registros (RegistroJugador) de victorias y derrotas.
+     * @throws SQLException Se lanza esta excepción si hay problemas en la comunicación con la base de datos.
+     */
+    public Collection consultarRegistrosJugadores( ) throws SQLException
+    {
+        Collection registros = new LinkedList( );
+
+        String sql = "SELECT nombre, alias, ganados, perdidos FROM resultados";
+
+        Statement st = conexion.createStatement( );
+        ResultSet resultado = st.executeQuery( sql );
+
+        while( resultado.next( ) )
+        {
+            String nombre = resultado.getString( 1 );
+            String alias = resultado.getString( 2 );
+            int ganados = resultado.getInt( 3 );
+            int perdidos = resultado.getInt( 4 );
+
+            RegistroJugador registro = new RegistroJugador( nombre, alias, ganados, perdidos );
+            registros.add( registro );
+        }
+
+        resultado.close( );
+        st.close( );
+
+        return registros;
+    }
+
+    /**
+     * Este método se encarga de registrar una victoria más a un jugador
+     * @param nombre El nombre del jugador al cual se le va a registrar la victoria - nombre != null && corresponde a un registro en la base de datos
+     * @throws SQLException Se lanza esta excepción si hay problemas en la comunicación con la base de datos
+     */
+    public void registrarVictoria( String nombre ) throws SQLException
+    {
+        String sql = "UPDATE resultados SET ganados = ganados+1 WHERE nombre ='" + nombre + "'";
+
+        Statement st = conexion.createStatement( );
+        st.executeUpdate( sql );
+        st.close( );
+        verificarInvariante( );
+    }
+
+    /**
+     * Este método se encarga de registrar una derrota más a un jugador
+     * @param nombre El nombre del jugador al cual se le va a registrar la derrota - nombre != null && corresponde a un registro en la base de datos
+     * @throws SQLException Se lanza esta excepción si hay problemas en la comunicación con la base de datos
+     */
+    public void registrarDerrota( String nombre ) throws SQLException
+    {
+        String sql = "UPDATE resultados SET perdidos = perdidos+1 WHERE nombre ='" + nombre + "'";
+
+        Statement st = conexion.createStatement( );
+        st.executeUpdate( sql );
+        st.close( );
+        verificarInvariante( );
+    }
+
+    // -----------------------------------------------------------------
+    // Invariante
+    // -----------------------------------------------------------------
+    /**
+     * Verifica el invariante de la clase <br>
+     * <b>inv:</b><br>
+     * config!=null <br>
+     */
+    private void verificarInvariante( )
+    {
+        assert config != null : "Conjunto de propiedades inválidas";
+    }
+
+}

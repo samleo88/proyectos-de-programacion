@@ -1,0 +1,26 @@
+C:\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\SisVentas - copia\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\SisVentas - copia\CapaDatos\bin\Debug\CapaDatos.dll
+C:\SisVentas - copia\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\SisVentas - copia\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\SisVentas - copia\CapaDatos\obj\Debug\CapaDatos.dll
+C:\SisVentas - copia\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb

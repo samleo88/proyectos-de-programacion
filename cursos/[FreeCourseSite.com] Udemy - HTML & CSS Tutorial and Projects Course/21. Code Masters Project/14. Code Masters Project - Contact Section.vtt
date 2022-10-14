@@ -1,0 +1,805 @@
+WEBVTT
+
+00:00.240 --> 00:05.300
+The last section are going to be building is going to be Contact Us section and it's really going to
+
+00:05.290 --> 00:08.070
+have find us here and this is going to be fun.
+
+00:08.100 --> 00:09.300
+Awesome again.
+
+00:09.300 --> 00:13.680
+And this is going to be the phone and this is going to be the forum and it's or here you can see that
+
+00:13.680 --> 00:17.030
+we can have a bunch of inputs right.
+
+00:17.040 --> 00:19.030
+And this is going to be your message.
+
+00:19.050 --> 00:22.230
+So let's go ahead and let's go to the next page.
+
+00:22.240 --> 00:26.000
+I'm all right again all the way in the bottom.
+
+00:26.010 --> 00:29.480
+All right we're going to say this is going to be contact section.
+
+00:29.790 --> 00:35.950
+And once we have it over here we're going to say section and this is going to be class of contact.
+
+00:35.950 --> 00:36.370
+All right.
+
+00:36.490 --> 00:37.210
+Stand up.
+
+00:37.590 --> 00:40.610
+And then we'll have a div of contact center.
+
+00:40.860 --> 00:44.550
+So I'm going to say contact center here.
+
+00:44.850 --> 00:48.780
+Once we press the tab then we have two articles over here.
+
+00:48.780 --> 00:49.440
+Right.
+
+00:49.470 --> 01:00.110
+So within the contact center then we're going to have article of contact info contact info here.
+
+01:00.210 --> 01:06.320
+And let's say that this is going to be hard to go article on here.
+
+01:06.630 --> 01:13.500
+And then another one and we're going to create is going to be article and that's going to be contact
+
+01:13.500 --> 01:14.460
+form.
+
+01:14.460 --> 01:14.760
+All right.
+
+01:14.760 --> 01:18.680
+So we can just copy paste this in or he'll get to right contact form.
+
+01:18.900 --> 01:24.830
+And just remember these because these are going to be again the children of this flex container.
+
+01:24.840 --> 01:28.250
+All right now within the contact info.
+
+01:28.500 --> 01:33.430
+All right so let's maybe put them separately in for here then we're going to know that.
+
+01:33.450 --> 01:34.220
+I'm sorry.
+
+01:34.260 --> 01:35.750
+That's right on your form.
+
+01:36.060 --> 01:42.750
+And this is going to be the information right now what we would want that information we would want
+
+01:43.050 --> 01:45.620
+give with the contact detail.
+
+01:45.890 --> 01:49.350
+So when you say contact I'm going to say detail.
+
+01:49.470 --> 01:52.010
+All right press tab now we have the day.
+
+01:52.470 --> 01:57.720
+And we're here we're going to have live with the class of contact icon.
+
+01:57.720 --> 01:59.610
+So this is going to be contact.
+
+01:59.650 --> 02:03.980
+I can not I can't say I can know.
+
+02:04.010 --> 02:09.390
+Here let's have a I f a and s f a heart.
+
+02:09.390 --> 02:10.260
+All right.
+
+02:10.260 --> 02:11.080
+Press time.
+
+02:11.100 --> 02:14.350
+Here now we have our love for my God.
+
+02:14.790 --> 02:19.480
+Now outside a day of let's play say having three.
+
+02:19.690 --> 02:20.110
+We're going to.
+
+02:20.200 --> 02:22.590
+Find us here.
+
+02:22.920 --> 02:27.450
+Then we're going to have a few paragraphs to say here.
+
+02:27.480 --> 02:36.450
+This is going to be paragraph would say four or five six in some street name.
+
+02:36.460 --> 02:36.950
+All right.
+
+02:36.990 --> 02:38.430
+Again select the line.
+
+02:38.460 --> 02:40.010
+Copy and paste the line.
+
+02:40.380 --> 02:42.210
+Let's say two more times.
+
+02:42.490 --> 02:50.060
+He'll going to read that this is going to be state and country overrides state country and then we'll
+
+02:50.070 --> 02:51.200
+have a zip code.
+
+02:51.340 --> 02:52.310
+And so here we're going.
+
+02:52.320 --> 02:57.130
+I know this is going to be zip code zip code over here.
+
+02:57.150 --> 03:02.730
+Now once we have this more here now what we want to create a second one right.
+
+03:02.760 --> 03:08.300
+So what we can do here we can just get content detail where it ends like this.
+
+03:08.370 --> 03:09.810
+Copy and paste this.
+
+03:09.960 --> 03:11.440
+And here we're going to write different.
+
+03:11.440 --> 03:11.650
+Right.
+
+03:11.650 --> 03:19.960
+So icon is going to be phoned for one more here and then we're going to say call us here.
+
+03:20.040 --> 03:21.610
+So I'm going to do this.
+
+03:21.690 --> 03:27.280
+Call us here then we'll get the name of the person on the right.
+
+03:27.280 --> 03:34.740
+Just one name of the person the name of the person that this is going to be the phone number which is
+
+03:34.740 --> 03:36.340
+going to be bunch of trees.
+
+03:36.450 --> 03:41.510
+So we're going to have plus 3 3 3 3 3 3 3 3 3.
+
+03:41.530 --> 03:42.290
+All right.
+
+03:42.290 --> 03:47.440
+Monday to Friday Monday to Friday.
+
+03:47.740 --> 03:53.550
+On this I don't want to say 8 0 0 to say 22.
+
+03:53.690 --> 03:56.820
+All right so 22 0 0.
+
+03:57.090 --> 04:01.100
+Once we have this now let's start working with an actual form.
+
+04:01.130 --> 04:01.500
+Right.
+
+04:01.530 --> 04:07.380
+So again let's find out if this one was a info.
+
+04:07.630 --> 04:11.930
+All right so this one was article and then this is going to be the forum.
+
+04:12.090 --> 04:16.560
+And what are we going to write in a forum or here we're going to say first that this is going to be
+
+04:16.650 --> 04:18.860
+a contact us.
+
+04:19.170 --> 04:23.670
+So having three contact here and let's write it.
+
+04:23.670 --> 04:26.530
+Contact us right.
+
+04:26.610 --> 04:33.270
+They're going to create a form element will have no action or here we can leave this one blank and in
+
+04:33.270 --> 04:40.250
+the form we're going to write a input we're going to here and put them on tape is going to be text.
+
+04:40.440 --> 04:45.750
+Well here the first thing we're going to say that this is going to be ID and this is going to be equal
+
+04:45.750 --> 04:47.650
+to a name.
+
+04:47.750 --> 04:53.460
+So I'm going to say this is going to be name then the placeholder is going to be first names are going
+
+04:53.490 --> 05:00.870
+to say first and we're going to say name here and then next thing they want to do is do the same thing
+
+05:00.870 --> 05:02.300
+with the last name.
+
+05:02.300 --> 05:06.820
+And so if this was the first name now we're going to write it this is going to be the last time.
+
+05:06.840 --> 05:13.080
+So I asked for her name I.D. type is going to be still text are you going to write it.
+
+05:13.080 --> 05:15.500
+This is my last name.
+
+05:15.510 --> 05:16.480
+My name.
+
+05:16.530 --> 05:17.920
+Copy and paste.
+
+05:18.030 --> 05:19.720
+And we're going to this is going to be e-mail.
+
+05:19.860 --> 05:28.450
+So the I.D. is going to be mail and placeholder is going to be e-mail address here.
+
+05:28.490 --> 05:32.530
+This is going to be e-mail address.
+
+05:32.760 --> 05:36.000
+And then this type also going to me.
+
+05:36.450 --> 05:38.440
+And then we'll will have a textarea.
+
+05:38.760 --> 05:40.680
+So after that we're going to have a new one.
+
+05:40.680 --> 05:47.080
+So this is going to be text area and name is going to be textarea or you know what.
+
+05:47.110 --> 05:49.590
+Let's cover the name of comments.
+
+05:49.800 --> 05:57.470
+And he's also going to be comments comments comments here.
+
+05:57.780 --> 06:01.950
+Then place holder is going to be your message.
+
+06:01.950 --> 06:10.960
+So going right over here placeholder your work message or here then after that we would want a button
+
+06:11.470 --> 06:13.350
+and this is going to be submit.
+
+06:13.540 --> 06:22.810
+So when you say button and type is going to be submit type here submit and then we're going to send
+
+06:22.810 --> 06:25.200
+a message send message.
+
+06:25.210 --> 06:26.090
+All right.
+
+06:26.230 --> 06:32.490
+Once we have our HDMI and ready we can go head to main CSSA and.
+
+06:32.830 --> 06:37.550
+So I'm going to go back over here and go obviously all the way to the bottom.
+
+06:37.570 --> 06:40.280
+You can create more space over here.
+
+06:40.780 --> 06:44.680
+So it's created more space so we can have something to work with.
+
+06:44.980 --> 06:48.260
+And over here I'm going to say that this is going to be common.
+
+06:48.620 --> 06:48.930
+All right.
+
+06:48.940 --> 06:50.630
+So we're here.
+
+06:50.630 --> 06:54.980
+Hash tag contact hash tag more over here.
+
+06:55.210 --> 06:57.940
+And then one by one I was going to style this right.
+
+06:58.120 --> 07:01.390
+So I'm going to start with a contact here like this.
+
+07:01.400 --> 07:02.000
+Right.
+
+07:02.060 --> 07:03.070
+And let's just check with.
+
+07:03.080 --> 07:08.530
+We have the actual class where we have an ID and on here everything is fine.
+
+07:08.530 --> 07:09.810
+This is a class.
+
+07:09.870 --> 07:16.160
+So once we saw like contact parding is going to be hundred pixels or zero.
+
+07:16.320 --> 07:21.630
+So top bottom and left right zero background.
+
+07:21.830 --> 07:24.280
+And over here we're going to do the same thing.
+
+07:24.360 --> 07:26.050
+As for the projects.
+
+07:26.050 --> 07:30.730
+All right so we're going to have a background but we're going to use one of the project images so I'm
+
+07:30.730 --> 07:35.270
+going to say we're here project one or here like this right now.
+
+07:35.290 --> 07:37.560
+Once we have this we're here we're going to write it.
+
+07:37.560 --> 07:49.990
+This is going to be center here Culver then we're going to have fixed and no repeat no repeat here like
+
+07:49.990 --> 07:50.670
+this.
+
+07:50.860 --> 07:58.300
+Once we have the macro now we would want a linear region and all just going to place another black color
+
+07:58.300 --> 08:03.230
+right so we can right away just go ahead and copy this guy here right.
+
+08:03.490 --> 08:05.910
+All the way to the comma.
+
+08:06.070 --> 08:08.510
+I just copy and paste this.
+
+08:08.510 --> 08:13.330
+I was going to go back over here and I can see we have dark background in or here and we're going to
+
+08:13.330 --> 08:17.820
+say it is color Ashlock 5 3 5.
+
+08:18.070 --> 08:19.270
+Well that's right.
+
+08:19.300 --> 08:21.400
+So this is going to be for the color.
+
+08:21.400 --> 08:33.850
+Now what we would want is so like the contact info here come the contact form or both articles contact
+
+08:33.850 --> 08:37.270
+form or what we would want to hear.
+
+08:37.290 --> 08:48.100
+I want to say margin 40 pixels and zero writes only top bottom for both of them then by adding 20 pixels
+
+08:48.490 --> 08:49.920
+and 40 pixels.
+
+08:50.280 --> 08:51.150
+We're like this.
+
+08:51.180 --> 08:51.620
+Right.
+
+08:51.820 --> 09:00.900
+So top bottom 20 40 on the site then we're going to say for the contact detail contact going to see
+
+09:00.940 --> 09:01.840
+detail.
+
+09:02.140 --> 09:08.740
+So this is going to be the div that holds the icon and or here this text.
+
+09:08.740 --> 09:09.400
+All right.
+
+09:09.400 --> 09:14.700
+First all we're going to say this play I'm going to say flex flex here.
+
+09:14.910 --> 09:20.170
+We'll have margin 20 pixels and let's say zero 0 0 like this.
+
+09:20.170 --> 09:20.600
+Right.
+
+09:20.770 --> 09:26.830
+So now I can see that this is how we're going to be lining up right now after that we would want to
+
+09:26.830 --> 09:33.980
+do is what we're going to say that this is going to be a different one right because you see here there's
+
+09:34.000 --> 09:35.140
+a little bit of a mistake.
+
+09:35.170 --> 09:42.930
+All right if we're going to go back over here in exchange the amount here this is the contact info.
+
+09:43.050 --> 09:45.860
+All right then this is the contact details.
+
+09:45.910 --> 09:52.970
+Right now what I would want to do is actually create or hear a div right.
+
+09:53.080 --> 09:55.740
+That actually holds it like.
+
+09:55.920 --> 09:59.390
+So this is there shouldn't be a contact text somewhere right.
+
+09:59.420 --> 10:05.310
+If this is a contact info I want contact and we're going to set text or here right.
+
+10:05.410 --> 10:09.570
+Press and now would you would want is copy this guy or here.
+
+10:09.570 --> 10:10.190
+All right.
+
+10:10.220 --> 10:16.110
+So I'm going to grab this or here we're going to say cut and we're going to copy and paste it over here.
+
+10:16.150 --> 10:20.310
+Right now I can see that actually there side by side and everything is work right.
+
+10:20.500 --> 10:25.070
+Because we don't want that many children here.
+
+10:25.180 --> 10:30.910
+We want only to one contact info for the contact detail and the other one contact text.
+
+10:31.120 --> 10:33.590
+So we need to do the same thing or here right.
+
+10:33.610 --> 10:35.600
+So contact info lines over here.
+
+10:35.740 --> 10:44.160
+So then you say contact I'm going to say text press tab now again grab all these here.
+
+10:44.260 --> 10:44.960
+Copy.
+
+10:45.040 --> 10:51.830
+Or you know what let's actually cut it out right and let's paste it over here.
+
+10:51.860 --> 10:52.150
+All right.
+
+10:52.180 --> 10:54.250
+And now both of them are side by side.
+
+10:54.400 --> 11:01.600
+So we say this and we're going to go back to main success and let's keep on styling.
+
+11:01.630 --> 11:04.980
+So here what you would want for the info.
+
+11:05.260 --> 11:17.110
+So if say contract I'm going to say I can more you than font size is going to be 50 font size 50 pixels
+
+11:17.620 --> 11:18.520
+like this.
+
+11:18.900 --> 11:28.510
+Then you will have a margin right when 20 pixels are here then you have a line cell phone with say Center.
+
+11:28.730 --> 11:34.120
+The reason why we're centering so you can see it's not stretched out right now right now the icons are
+
+11:34.120 --> 11:35.620
+exactly in the center.
+
+11:35.720 --> 11:46.850
+Now once we're done with this one contact text adding three more here and we're going to say text transform.
+
+11:46.980 --> 11:55.660
+We're going to capitalize on it this margin bottom 20 pixels or here like this.
+
+11:55.660 --> 12:01.480
+Once we once we're done with this now I would want to work with contact form or here we're going to
+
+12:01.480 --> 12:02.930
+say contact.
+
+12:02.970 --> 12:08.530
+I want to say for like this and this is going to be a background.
+
+12:08.980 --> 12:17.770
+And we're going to say hashtag 5 3 5 wheeling this putting zero like this.
+
+12:17.830 --> 12:26.600
+We're here to say with is going to be 80 percent on this then margin is zero.
+
+12:26.890 --> 12:33.400
+So we're going to place it again in the center without any pantings and then we're going to have a margin
+
+12:34.120 --> 12:40.290
+I'm sorry border radios more radios is going to be 20 pixels.
+
+12:40.280 --> 12:42.920
+It Right so these are going to be these edges.
+
+12:42.970 --> 12:48.570
+And next one we would want to work with contact form heading through here or here.
+
+12:48.670 --> 12:49.240
+Right.
+
+12:49.300 --> 12:51.690
+So we're going to go back over here.
+
+12:51.790 --> 13:01.490
+We're going to say contact one adding three more here now here we're going to say with 100 percent more
+
+13:02.430 --> 13:06.720
+than background and we're going to say the background is going to be the blue color.
+
+13:06.910 --> 13:13.810
+So this is going to be 8 1/2 sea beef CD DVD.
+
+13:14.020 --> 13:26.560
+All this takes the line center then text transform capitalized text transform capitalize on your ass
+
+13:27.230 --> 13:35.750
+then putting 20 pixels then border top radius 20 pixels and left and right because you can see or hear
+
+13:35.750 --> 13:38.080
+now or edges have disappeared.
+
+13:38.270 --> 13:39.650
+You can see or hear right.
+
+13:39.680 --> 13:48.770
+So going to see or hear border border top left radius and right right is 20 pixels.
+
+13:49.210 --> 13:54.440
+And let's copy this guy and let's just change it to right here.
+
+13:54.470 --> 13:55.780
+Right right.
+
+13:56.730 --> 13:57.410
+Right.
+
+13:57.540 --> 14:00.190
+And now both of them you can see match.
+
+14:00.230 --> 14:04.020
+Now once we done with this let's actually work with the form.
+
+14:04.070 --> 14:11.910
+So for the form we're going to say display flex and then we're going to say flex direction column for
+
+14:12.030 --> 14:18.440
+the election column we're here right now I can see that they're lining up one on top of each other padding
+
+14:18.550 --> 14:22.850
+is going to be 20 pixels or here like this all around.
+
+14:22.850 --> 14:28.220
+Then we're going to work with form input and form text area.
+
+14:28.610 --> 14:40.910
+So I'm going to say form input karma for one text area or here or here we're going to say margin 5 pixels
+
+14:41.090 --> 14:43.280
+0 and we're here.
+
+14:43.430 --> 14:52.060
+And let's add a few more properties and values by adding 5 pixels 0 or here.
+
+14:52.320 --> 14:55.440
+And just to make sure we get it right important.
+
+14:56.120 --> 14:56.440
+Right.
+
+14:56.540 --> 14:58.860
+Just to make sure that it actually works.
+
+14:58.980 --> 15:03.270
+And here we're going to say we're we're going to say none.
+
+15:03.530 --> 15:05.880
+So we're going to basically get it at the borders.
+
+15:06.080 --> 15:16.120
+Then once we have a border run we're going to see font size 20 pixels on this board or bottom.
+
+15:16.110 --> 15:21.500
+So now that we have our border is gone or here we're going to say three pixels solid.
+
+15:21.740 --> 15:24.620
+And let's use the blue color.
+
+15:24.850 --> 15:32.420
+So let's go up and let's actually see what is the mood Color know this copy and paste them back over
+
+15:32.420 --> 15:33.570
+here copy and paste.
+
+15:33.570 --> 15:35.260
+Now the borders are here right.
+
+15:35.460 --> 15:40.440
+So you can see we here now we have the borders then we're going to get rid of the background and so
+
+15:40.590 --> 15:44.440
+transparent like this.
+
+15:44.520 --> 15:47.470
+And now we're going to work with a placeholder right.
+
+15:47.510 --> 15:56.780
+So we're going to say like this or we're all going to say that this is going to be a form input here
+
+15:56.930 --> 15:58.170
+and placeholder.
+
+15:58.190 --> 16:00.970
+So basically the text that is inside our hair.
+
+16:01.100 --> 16:01.540
+Right.
+
+16:01.730 --> 16:03.130
+So what's going to be right.
+
+16:03.350 --> 16:07.670
+So first of all can they say text transfer.
+
+16:08.010 --> 16:12.720
+And we're going to take up twice more here than color.
+
+16:12.950 --> 16:20.660
+We're going to use a hash tag 8 8 8 8 8 8.
+
+16:21.660 --> 16:30.240
+So this is going to be the color then same thing we're going to do here with a text area right.
+
+16:30.290 --> 16:33.660
+So this is going to be the same thing was going to change around.
+
+16:34.280 --> 16:41.580
+Copy and paste and all right textarea text area right.
+
+16:41.620 --> 16:47.910
+And then after that we would want a form button on here.
+
+16:47.970 --> 16:59.160
+Font size is going to be twenty five pixels margin is going to be 10 pixels and 0 and we're here so
+
+16:59.160 --> 17:06.540
+10 top bottom zero on the sides background and on here I'm going to I'm going to copy and paste a light
+
+17:06.570 --> 17:16.560
+blue color border radius border radius and that's going to be 20 pixels on here.
+
+17:16.560 --> 17:25.800
+Now let's add a few more properties and values padding is going to be five pixels and 0.
+
+17:26.120 --> 17:36.680
+Here's the top bottom five on the right and left zero color hash tag f 5 3 5 here and then we'll going
+
+17:36.690 --> 17:47.530
+to do a transition here for transition we're going to say transition color 2 seconds he's right on background
+
+17:47.540 --> 17:49.830
+two seconds is my ground.
+
+17:49.980 --> 17:53.140
+Two seconds is when you're like this.
+
+17:53.140 --> 17:59.380
+Once we have this we're going to save one button no real hover.
+
+17:59.980 --> 18:02.010
+And as we were hovering what should happen.
+
+18:02.380 --> 18:03.780
+First of all going to change background.
+
+18:03.780 --> 18:10.430
+Hash tag 1 9 1 9 1 9 and then color right and the color is going to be light blue again.
+
+18:10.690 --> 18:16.000
+So basically like this right as I'm hovering You can see that the text is changing and the background
+
+18:16.000 --> 18:16.870
+is changing.
+
+18:17.040 --> 18:19.190
+And now let's make it responsive.
+
+18:19.570 --> 18:26.700
+So what I'm going to say I'm going to say that this is going to be media screen here media screen and
+
+18:27.590 --> 18:37.960
+we're men with red with we're here and this is going to be seven seven six pixels or here like this.
+
+18:37.970 --> 18:45.850
+So the moment it gets to 776 pixels we're going to say Contact Center.
+
+18:46.550 --> 18:47.830
+And what should happen.
+
+18:48.120 --> 18:54.260
+And we're going to say first the display flex then we're going to say padding like this.
+
+18:54.260 --> 18:54.790
+Right.
+
+18:54.800 --> 18:56.840
+So first let's look at how it would look like.
+
+18:56.840 --> 18:57.310
+Right.
+
+18:57.470 --> 19:00.990
+So called masters and we're going to go here right.
+
+19:01.010 --> 19:04.260
+So this is the look that we have right now.
+
+19:04.250 --> 19:10.860
+Then we're going to have a batting zero 40 pixels more like this.
+
+19:11.150 --> 19:14.860
+So that's going to be here on the sides.
+
+19:15.020 --> 19:29.460
+Then when I say contact info contact fall here we would want to flex 0 0 calc and so our guide function
+
+19:29.460 --> 19:36.820
+again 60 percent over here minus one I'm here.
+
+19:36.930 --> 19:40.000
+And let's copy and paste this and change the form.
+
+19:40.050 --> 19:41.860
+So copy and paste this.
+
+19:42.030 --> 19:50.510
+This is going to be form and out here this is going to be 40 percent 40 percent say read refresh.
+
+19:50.520 --> 19:52.310
+And now we can see what we have right.
+
+19:52.490 --> 20:00.780
+So the form is going to be to 60 percent Zari 40 percent and contact info is going to be 60 percent.
+
+20:01.110 --> 20:03.160
+And this is going to be it for this project.

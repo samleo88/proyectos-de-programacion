@@ -1,0 +1,532 @@
+WEBVTT
+
+00:00.420 --> 00:01.540
+Excellent guys.
+
+00:01.590 --> 00:08.490
+Once we have created more pages for our project now we have Holmes skills about and product before we
+
+00:08.490 --> 00:10.620
+deploy our Web site online.
+
+00:10.620 --> 00:16.590
+In fact I changed my mind and I decided to add one more section to our project.
+
+00:16.590 --> 00:20.700
+Now you can obviously later on create a one more page if you would like to.
+
+00:20.700 --> 00:25.440
+But in my case I'm just gonna add this particular section on our homepage.
+
+00:25.680 --> 00:32.310
+Now the purpose for this section is going to be show you how we can create in fact cards using HRT amounts
+
+00:32.310 --> 00:39.060
+we assess and how also we can use float to in fact manage them on different screen sizes.
+
+00:39.180 --> 00:46.140
+So if we're going to make our project smaller you're going to notice that we're gonna have one card
+
+00:46.440 --> 00:52.770
+on the extra small screen size and then as I'm making these screen size bigger then I'm gonna have a
+
+00:52.770 --> 00:57.210
+two card layout and then later on of course I'm gonna have a three card layout.
+
+00:57.630 --> 01:02.880
+So in this case we're going to use a little bit of different syntax where previously when we used floats
+
+01:03.300 --> 01:05.140
+we just use the padding.
+
+01:05.160 --> 01:07.830
+In this case we're going to implement margin as well.
+
+01:07.830 --> 01:08.500
+All right.
+
+01:08.580 --> 01:09.910
+Now that's the plan.
+
+01:09.990 --> 01:13.240
+So why don't we start working on it one by one.
+
+01:13.240 --> 01:18.410
+All right now we're going to start very simply by looking for the product or the contact section.
+
+01:18.420 --> 01:20.910
+Now the easiest one probably is going to be contact.
+
+01:21.120 --> 01:27.810
+And in order for you to help you to navigate there you can also use always command and if not common
+
+01:27.810 --> 01:31.910
+enough is going to give you this little search bar and then just type here.
+
+01:31.920 --> 01:33.450
+Let's say contact.
+
+01:33.450 --> 01:36.790
+This is gonna help find this particular section.
+
+01:36.930 --> 01:42.750
+As you can see it gives me pretty much all the instances of contact which leads me to the contact section
+
+01:43.380 --> 01:46.290
+and in between the product and contact section.
+
+01:46.470 --> 01:53.470
+I'm going to create my in fact comment where I'm gonna say services.
+
+01:53.520 --> 01:54.540
+OK.
+
+01:54.630 --> 01:55.940
+Copy and pasted.
+
+01:55.980 --> 01:58.670
+Let's say and of services.
+
+01:58.830 --> 02:05.990
+And then within the services let's start very simply by typing section then class name of course.
+
+02:06.000 --> 02:07.680
+And let's write services.
+
+02:07.740 --> 02:11.310
+So that is the class name for my services section.
+
+02:11.310 --> 02:18.930
+Then I would want a title and remember when we were working on the products we already had some kind
+
+02:18.930 --> 02:19.660
+of title.
+
+02:19.740 --> 02:25.840
+So the only thing we need to do is just scroll up and then let's look for our title.
+
+02:25.840 --> 02:32.820
+And you're probably noticing that right after these products in full while we do the have a section
+
+02:32.820 --> 02:33.650
+title.
+
+02:34.140 --> 02:40.350
+So let's just grab everything starting from the beginning comment to the uncommon and let's again scroll
+
+02:40.350 --> 02:45.430
+down and we're just gonna copy and paste it within these services.
+
+02:45.450 --> 02:50.040
+Now there's few things that we like to do for this particular title.
+
+02:50.070 --> 02:55.610
+So once we save it we do have our title displayed but I would like to add some changes.
+
+02:55.740 --> 02:59.350
+So first and foremost when we have the div the enclosing div.
+
+02:59.430 --> 03:01.680
+Why don't we add a few classes.
+
+03:01.680 --> 03:05.800
+So let's write class then let's write services.
+
+03:06.170 --> 03:09.940
+Title that's gonna be the class that we're going to create in the second.
+
+03:10.290 --> 03:15.420
+But also I'm going to implement the right away the class that we already created before by the name
+
+03:15.420 --> 03:16.680
+of text center.
+
+03:16.680 --> 03:20.620
+So this particular class just aligns text innocent.
+
+03:20.640 --> 03:22.950
+Now if you're wondering where's that class.
+
+03:22.950 --> 03:30.000
+Again you can use the command if you have a search bar and either you look for helpers I believe that
+
+03:30.000 --> 03:36.300
+was the actual comment or my utility classes or you can just look for the class itself not the class
+
+03:36.300 --> 03:44.580
+name or text center like so and you notice that the C assess is text on line property and the value
+
+03:44.670 --> 03:51.480
+is center and that's the reason why right now my title text is in fact sitting in the center.
+
+03:51.480 --> 04:00.200
+Then let's change also the value for having three I'm going to say explore explore and find the actual
+
+04:00.200 --> 04:09.600
+text for the adding to it is going to be our services now like so then lastly let's remove this text
+
+04:09.600 --> 04:17.340
+white because I think it's gonna look a little bit better if we just have this black stack then once
+
+04:17.340 --> 04:23.850
+we have a title that's all done and we're gonna by the way work on the services title class a little
+
+04:23.850 --> 04:26.460
+bit later on when we work now she says.
+
+04:26.460 --> 04:32.250
+So for now we're just gonna leave it blank and land right after D section title that's still within
+
+04:32.250 --> 04:40.920
+the section class I'm gonna create a div with two classes that we already created before 1 4 section
+
+04:40.920 --> 04:50.170
+Center and the other one for clear fix so let's write div section center as well as the clear fix and
+
+04:50.340 --> 04:55.320
+one by one again let's look at these two classes just so we're not unclear confused.
+
+04:55.410 --> 05:02.250
+So first of all we have our clear fix that is because we are going gonna use floats in order to again
+
+05:03.180 --> 05:09.420
+have our layout so we're gonna use floats and in order to make sure that everything sits correctly we
+
+05:09.420 --> 05:11.440
+need to use our clear fix.
+
+05:11.520 --> 05:18.190
+So we're making sure that everything before and after our clear fix is in fact cleared.
+
+05:18.450 --> 05:25.250
+So that's the reason why we're using this code content of empty string then clear both and display a
+
+05:25.260 --> 05:32.960
+table that's number one for the clear fix as far as the section center again let's look for her class
+
+05:33.200 --> 05:35.810
+section center.
+
+05:35.820 --> 05:40.700
+And you're going to notice that we're adding the padding top and bottom for our arms.
+
+05:40.910 --> 05:45.180
+Then zero on right and left as well as the width.
+
+05:45.260 --> 05:52.760
+So we set up already some kind of with for our section and the width is going to be 80 percent of the
+
+05:52.760 --> 05:53.940
+size of the window.
+
+05:54.110 --> 06:00.280
+Regardless whether that's desktop or the mobile phone and of course we're also setting up right away
+
+06:00.290 --> 06:07.700
+the max with OK where we have Max width of eleven hundred seventy pixels and that margin is zero top
+
+06:07.700 --> 06:09.920
+bottom and left and right arm.
+
+06:10.060 --> 06:16.160
+That's the reason once we save the indexation email since we added both classes we should have something
+
+06:16.160 --> 06:23.250
+like this nice so where we have the title then we already have some at this base because of our paddocks.
+
+06:23.540 --> 06:31.010
+Now within this particular div the section center first of all I'm going to add comments of single card
+
+06:31.790 --> 06:36.310
+copy pasted let's add and of single card.
+
+06:36.560 --> 06:40.940
+And then within this card let's create a div name or not.
+
+06:40.940 --> 06:43.850
+Now when do we add an article instead.
+
+06:43.980 --> 06:46.440
+And that's gonna be a little bit more meaningful.
+
+06:46.520 --> 06:55.190
+So let's write Oracle now for the particular article I'm gonna add a class of service card like so.
+
+06:55.310 --> 07:01.010
+And let me make sure that I'm adding only one hyphen because that's the only thing I would want.
+
+07:01.100 --> 07:04.800
+And then let's add one more comment of image container.
+
+07:04.820 --> 07:10.400
+Now one thing we need to understand about the cards when we're sending them the cards is two components
+
+07:10.430 --> 07:12.830
+that in fact make up that card.
+
+07:12.830 --> 07:14.220
+Now one is the image.
+
+07:14.700 --> 07:17.630
+So in most cases you're going to need some kind of image.
+
+07:17.720 --> 07:19.730
+And second one is going to be text.
+
+07:19.730 --> 07:27.720
+Now there's gonna be some cases where you would want to add some additional things where your image
+
+07:27.720 --> 07:28.460
+is sitting.
+
+07:28.490 --> 07:32.670
+So that's the reason why we are going to create a image container.
+
+07:32.810 --> 07:38.580
+Because in fact we would want to place this icon in this exact position.
+
+07:38.750 --> 07:39.040
+All right.
+
+07:39.350 --> 07:45.530
+So if we wouldn't want to have the icon or if we would want to have some I don't know text that we are
+
+07:45.530 --> 07:47.510
+hovering over or anything like that.
+
+07:47.630 --> 07:50.800
+In fact you could just get away by using the image.
+
+07:51.140 --> 07:56.630
+So please remember that the reason why I'm creating this image container is simply because I'm going
+
+07:56.630 --> 08:00.080
+to have some additional things where the image is sitting.
+
+08:00.090 --> 08:00.610
+OK.
+
+08:00.650 --> 08:05.300
+If I wouldn't have that now I could just get away by using the simple image.
+
+08:05.300 --> 08:10.430
+So I'm going to have my image container and then within the image container and by the way first of
+
+08:10.430 --> 08:15.650
+all I guess first let's create it and I'm gonna have the class for this particular container by the
+
+08:15.650 --> 08:19.730
+class of service image container.
+
+08:19.910 --> 08:25.760
+And this is also something that I would like to talk about where as your project gets bigger you're
+
+08:25.760 --> 08:31.250
+going to have to start managing your classes online because again please understand we had just have
+
+08:31.250 --> 08:37.160
+one homepage currently but as you're gonna be adding more content let's say you're gonna have one image
+
+08:37.160 --> 08:37.950
+container.
+
+08:37.970 --> 08:43.670
+Now if you're already using this particular class somewhere well you're already going to have some styles.
+
+08:43.790 --> 08:49.610
+So you need to make sure that as you're creating more content you are being very very specific about
+
+08:49.610 --> 08:54.860
+your class names because probably you wouldn't want to create 10 image containers and then have some
+
+08:54.860 --> 09:00.980
+kind of random styles in there because each and every one of them is going to be overriding the other
+
+09:00.980 --> 09:01.630
+ones.
+
+09:01.760 --> 09:03.880
+So it just doesn't make sense.
+
+09:03.890 --> 09:08.300
+So make sure that you have some kind of unique name to my case is going to be service.
+
+09:08.380 --> 09:13.420
+I have an image container and then within the image contained there's going to be two things.
+
+09:13.490 --> 09:15.380
+First there's going to be an image.
+
+09:15.410 --> 09:20.550
+And second we're going to have these service icon now for the time being I'm not going to place the
+
+09:20.540 --> 09:23.990
+service icon because I would like to do this step by step.
+
+09:24.080 --> 09:28.580
+So I'm just going to have the comment where eventually we're going to place a service icon.
+
+09:29.090 --> 09:35.810
+Now as for the image I'm going to have the image tags then within the source I'm not going to add any
+
+09:35.810 --> 09:38.990
+extra images because I already have for the product.
+
+09:38.990 --> 09:45.800
+Now I can always add them myself but in my case I'm just going to look for product number one and then
+
+09:45.800 --> 09:47.030
+let's do the right away.
+
+09:47.030 --> 09:50.320
+Class of service image.
+
+09:50.780 --> 09:55.490
+Now I can tell you right away the image is gonna be huge now because there's gonna be some CEO says
+
+09:55.490 --> 10:01.390
+that we are gonna have to add in order for the image to be with of hundred percent.
+
+10:01.790 --> 10:06.950
+Otherwise it's gonna have just it's with a height which is going to be massive.
+
+10:06.980 --> 10:15.980
+Now as far as alternative when we write single service single service like so and then like I said service
+
+10:16.040 --> 10:18.920
+icon we're going to leave blank for now.
+
+10:18.920 --> 10:21.050
+So let's just leave the comments on.
+
+10:21.070 --> 10:26.700
+Like I said we have our massive image because we do need to add a little bit of styling there right
+
+10:27.290 --> 10:29.860
+now right after the image container.
+
+10:29.900 --> 10:35.660
+So not within the image container but right after the image container we're going to have another div
+
+10:35.900 --> 10:38.280
+by the class name of service info.
+
+10:38.300 --> 10:49.040
+So let's add a comment of service info like so and then let's create our live with the same class.
+
+10:49.040 --> 10:58.420
+So service inform and then within this of why don't we have a hearing for now.
+
+10:58.420 --> 11:03.660
+The heading for is going to have a class name for the service in full title.
+
+11:03.710 --> 11:04.540
+Are you not.
+
+11:04.630 --> 11:07.730
+Actually we can skip that don't bother.
+
+11:07.810 --> 11:12.720
+We can just have a hearing for we're going to add all our classes here within the service.
+
+11:12.730 --> 11:13.860
+For more I'm sorry.
+
+11:14.140 --> 11:15.580
+All our styles.
+
+11:15.580 --> 11:25.620
+So let's write custom custom recipes and for the time being in fact we're gonna add only one card so
+
+11:25.620 --> 11:27.260
+we're gonna add only one card.
+
+11:27.420 --> 11:32.970
+We're gonna properly style it and then in fact we're gonna have the rest of the cards as well as use
+
+11:32.970 --> 11:33.910
+the floats.
+
+11:34.320 --> 11:39.760
+Now the way I set up my layout is in fact where I do have my heading for.
+
+11:39.960 --> 11:43.980
+But I would like to have the second line with a text of service.
+
+11:44.210 --> 11:50.070
+So I'm going to have my first line and then the second line and the way I decided to do that is in fact
+
+11:50.070 --> 11:51.420
+using the line break.
+
+11:51.450 --> 11:53.100
+Now it's really up to you.
+
+11:53.190 --> 11:53.670
+You can do it.
+
+11:53.670 --> 11:54.320
+How are you like.
+
+11:54.330 --> 11:55.810
+You can also do it this way.
+
+11:56.200 --> 12:05.970
+Well you have a ring for and we just write let's say service you know what was deleted here for custom
+
+12:06.340 --> 12:08.190
+and let's just write service.
+
+12:08.190 --> 12:10.860
+We could do it this way by the way.
+
+12:11.280 --> 12:13.550
+As you can see that's going to be my result here.
+
+12:13.690 --> 12:15.780
+Or we can use a line break.
+
+12:15.890 --> 12:22.470
+So we're within the heading for just going to have a line break and then I'm just writing whatever I
+
+12:22.470 --> 12:23.020
+would like.
+
+12:23.070 --> 12:25.190
+So I could have done it also this way.
+
+12:25.190 --> 12:27.210
+It's really up to you.
+
+12:27.390 --> 12:27.600
+Yeah.
+
+12:27.600 --> 12:34.230
+Again I think I'm gonna use a two hand enforce I guess not just leave it the way it is for now and then
+
+12:34.230 --> 12:40.220
+also right after resetting second heading for I I'd like to have a button.
+
+12:40.410 --> 12:48.090
+Now the button is just gonna be a simple button so let's write type Martin and then let's add a class
+
+12:48.150 --> 12:57.480
+of service button so let's write class service between now and then within the button let's write to
+
+12:57.480 --> 12:58.940
+read more.
+
+12:59.670 --> 13:03.090
+Let's save that and that is going to be our single card.
+
+13:03.430 --> 13:03.700
+All right.
+
+13:04.020 --> 13:09.390
+So like I said we're going to add some styles for this one particular single card.
+
+13:09.390 --> 13:15.810
+Then we're going to use floats to in fact place them side by side and then we're going to work on our
+
+13:15.810 --> 13:20.550
+icons so our icons are going to be the last thing that we're going to work on.

@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00.180 --> 00:01.620
+What is going on guys.
+
+00:01.620 --> 00:09.320
+And welcome to our next series has legs marks and says great project and this website project.
+
+00:09.360 --> 00:11.150
+This is what we're going to be building.
+
+00:11.220 --> 00:17.950
+So we're going to start over here with our bar or here with the links and with the phantasmal here and
+
+00:17.980 --> 00:20.000
+the now bar is going to be responsive.
+
+00:20.190 --> 00:23.700
+So you can see that as actual screen is shrinking.
+
+00:23.880 --> 00:28.990
+You can see or hear how the links are actually going to be wrapping when you get to the next line.
+
+00:29.040 --> 00:36.270
+And once we get to a smaller screen or here we have a toggle button which is actually going to be toggling
+
+00:36.270 --> 00:37.300
+going right.
+
+00:37.440 --> 00:41.550
+And we're also going to look at how we can make these spanne items right.
+
+00:41.550 --> 00:43.670
+These bars are here like this right.
+
+00:43.680 --> 00:50.560
+So by default this is going to look like a typical bootstrap nav bar Barberton right.
+
+00:50.560 --> 00:54.840
+We're going to make sure that once we actually click it you can see a few things are going to be changing
+
+00:55.350 --> 01:00.980
+then once we're done with the now more we're actually going to look at how we can create or here is
+
+01:01.030 --> 01:03.790
+banner right when the background photo.
+
+01:03.930 --> 01:05.660
+This is going to be all we're heading.
+
+01:05.750 --> 01:10.230
+It's going to be our subheading heading this or here is going to be the button you can see or see or
+
+01:10.230 --> 01:10.630
+hear it.
+
+01:10.650 --> 01:17.610
+We're going to have a transition effect that as I'm hovering over here you can see that the button is
+
+01:17.620 --> 01:19.560
+going to have a different ground.
+
+01:19.810 --> 01:25.660
+And as actually not hovering over it actually changes back the car.
+
+01:25.660 --> 01:28.140
+Then after that we're going to have a skills section.
+
+01:28.320 --> 01:34.290
+We're all going to have again a phantasm and you can see or hear that is going to be four of them on
+
+01:34.290 --> 01:37.240
+a bigger screen and then it is going to go down to two.
+
+01:37.410 --> 01:43.950
+And once we had hit a smaller screen this is going to be a single or here skill.
+
+01:44.070 --> 01:50.060
+And then after that if we're hovering You can see that we're going to be using a zooming in fact that's
+
+01:50.070 --> 01:52.570
+going to be transformation.
+
+01:52.660 --> 01:55.200
+We're basically we're going to be scaling it down.
+
+01:55.360 --> 02:01.840
+Then after that we're going to have a section where you actually going to have a video also.
+
+02:02.010 --> 02:04.120
+So first this is going to be our text.
+
+02:04.230 --> 02:09.330
+And then over here we're going to have a video that's going to be actually if we click it we're going
+
+02:09.330 --> 02:11.280
+to be playing the video on our Web site.
+
+02:11.490 --> 02:17.530
+Then after that we're going to have a services section or here and you can see it with all the titles.
+
+02:17.730 --> 02:24.570
+We're going to have a hovering effect where as we were hovering over the title the underline over here
+
+02:24.870 --> 02:28.590
+is not only going to expand but it's also going to change a color.
+
+02:28.680 --> 02:33.910
+And in fact I'm going to go back and see that it's going to go back to its original size.
+
+02:33.950 --> 02:37.070
+Now this is going to be a services section.
+
+02:37.210 --> 02:42.870
+We're going to have a three of them three services in each line and total is going to be six.
+
+02:42.990 --> 02:48.480
+And over here you can see that we're going to be using the flex box to set them side by side and we're
+
+02:48.480 --> 02:55.730
+going to look at how we can create over here these six of them right so how to actually make sure that
+
+02:55.760 --> 02:57.310
+we have six in one line.
+
+02:57.540 --> 03:01.050
+And once we again go to the smaller screen this is responsive.
+
+03:01.050 --> 03:02.480
+So this turns to two.
+
+03:02.790 --> 03:08.500
+Then after that we can have a portfolio section we're all going to place six images again.
+
+03:08.790 --> 03:10.900
+And we're going to have a hovering in fact.
+
+03:11.070 --> 03:19.410
+So as I'm hovering over the image you can see that from the bottom there is going to be a line job name
+
+03:19.660 --> 03:22.420
+and all of this is going to be location known here.
+
+03:22.440 --> 03:24.110
+This is going to be orderly.
+
+03:24.450 --> 03:29.070
+So over here you can see that as I'm hovering the link it's going to change the color and it's also
+
+03:29.070 --> 03:31.170
+going to transport itself.
+
+03:31.540 --> 03:35.530
+And so it's going to translate itself wide direction.
+
+03:35.560 --> 03:41.190
+And this is going to be the link where again we're going to be using a transition effect next is going
+
+03:41.190 --> 03:47.730
+to be numbers are going to be using from some here hidings three which is going to be our title.
+
+03:47.820 --> 03:54.160
+And as you can see again as I'm hovering there are going to be actually translating y direction then
+
+03:54.210 --> 04:00.360
+we're going to have a team section where as I'm hovering over the cards the cards are going to have
+
+04:00.450 --> 04:04.340
+a image and this is going to be a title subtitle.
+
+04:04.340 --> 04:06.520
+These are going to be phantasm icons.
+
+04:06.600 --> 04:12.870
+And over here you can see that as I'm hovering or no link or here this is actually going to translate.
+
+04:12.990 --> 04:17.720
+Again a link here in this case font awesome icon arrow.
+
+04:17.890 --> 04:20.180
+It's going to turn 19 degrees.
+
+04:20.310 --> 04:25.780
+Then after that we're going to have a customer of U.S. We're going to have a image.
+
+04:25.820 --> 04:30.600
+It's going to be around and circle again and then there's going to be name a profession and I don't
+
+04:30.600 --> 04:32.300
+hear small text about it.
+
+04:32.310 --> 04:37.650
+So if I'm going to make it to the smaller screen and you can see that it's going to go up and down and
+
+04:37.650 --> 04:39.040
+then it's going to be three of them.
+
+04:39.240 --> 04:44.150
+But once we go actually to the single screen you can see that this is how it's going to look like right.
+
+04:44.310 --> 04:46.470
+So there's going to be three of them single.
+
+04:46.650 --> 04:50.160
+One by one and then the last one is going to be contact sectional.
+
+04:50.160 --> 04:57.840
+Here we have contact us again this is going to be a title and here we're going to have a street name
+
+04:58.350 --> 05:04.990
+phone email and and this is going to be in hours or here this is going to be a forum and we're going
+
+05:04.990 --> 05:07.290
+to look at how we can actually get rid of the mortars.
+
+05:07.300 --> 05:13.270
+How can we get rid of the backgrounds and only thing we left out here is this one line here this is
+
+05:13.270 --> 05:14.420
+going to send a message.
+
+05:14.560 --> 05:17.400
+And this is going to be our submit button.
+
+05:17.650 --> 05:20.920
+And let's go ahead and let's start working on this project.

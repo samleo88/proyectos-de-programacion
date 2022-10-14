@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00.150 --> 00:05.820
+Your here I wrote a comment that this is going to be responsive about that before our media queries
+
+00:05.850 --> 00:11.700
+so here I'm going to say this is going to be hashed out here at media and we're going to say screen
+
+00:12.050 --> 00:17.510
+here and we're going to say and and this is going to be men with hearing this.
+
+00:17.550 --> 00:22.290
+And then we're going to say this is going to be seven hundred seventy six pixels are going to see or
+
+00:22.290 --> 00:29.520
+hear soon 7 pixels like this and then we're going to address the rules and order here we're going to
+
+00:29.520 --> 00:34.140
+say that the whole about or here is going to be display flex.
+
+00:34.160 --> 00:40.620
+So the whole thing I'm going to say this play safe works here and I so we cannot see anything because
+
+00:40.620 --> 00:42.970
+this is not only six right.
+
+00:43.140 --> 00:50.370
+Then after that we're going to have a ABOUT text and on here we're going to say about and then use text
+
+00:50.820 --> 00:53.380
+and then we're going to say mean right.
+
+00:53.460 --> 00:55.550
+And this is going to be 40.
+
+00:55.590 --> 00:57.360
+You write more like this.
+
+00:57.360 --> 00:57.630
+Right.
+
+00:57.630 --> 01:03.090
+So the actual thing this guy or here is going to be 40 view right and then or here we're going to say
+
+01:03.090 --> 01:09.080
+this is going to be flex man or he'll going to have 0 0 0 Figaro.
+
+01:09.120 --> 01:12.050
+We wouldn't want it to grow that.
+
+01:12.110 --> 01:16.760
+This is going to be zero for the shrink which means that we wouldn't want to shrink.
+
+01:17.040 --> 01:22.310
+And we're going to say 60 percent or right and we're here 60 percent.
+
+01:22.370 --> 01:28.020
+And basically what's happening is that if we would want one for growth this would be growing and or
+
+01:28.020 --> 01:30.450
+here we would want one for sharing.
+
+01:30.450 --> 01:35.760
+This would be actually shrinking but we actually want both opposite don't grow and don't shrink.
+
+01:35.940 --> 01:41.370
+And this is going to be 60 percent or here we're going to have an about and we're going to say video
+
+01:42.360 --> 01:42.680
+right.
+
+01:42.690 --> 01:47.220
+So the other side and the other side we're going to do it pretty much the same.
+
+01:47.400 --> 01:48.610
+This is going to be 40.
+
+01:48.720 --> 01:57.760
+You hide or hear or help me say flex again zero for ground zero for shrink and 40 percent or so saying
+
+01:57.780 --> 02:02.110
+this over here and now let's go ahead and let's actually look what we have.
+
+02:02.210 --> 02:07.590
+So here if I'm going to go to a project and if I am actually going to refresh rate you can see that
+
+02:07.590 --> 02:10.430
+now they're actually going to be fought side by side.
+
+02:10.530 --> 02:10.900
+Right.
+
+02:10.920 --> 02:18.260
+And you can see that video is going to be less awkward here than on here the actual paragraphs and paragraphs
+
+02:18.260 --> 02:22.000
+over here are going to be more and the video is actually going to be worse.
+
+02:21.990 --> 02:28.240
+And now we are ready to move on and work on the next section which is going to be a services section.

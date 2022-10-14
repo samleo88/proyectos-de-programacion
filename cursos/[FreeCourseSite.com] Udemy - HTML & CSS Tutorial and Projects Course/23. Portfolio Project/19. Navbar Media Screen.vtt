@@ -1,0 +1,283 @@
+WEBVTT
+
+00:00.240 --> 00:06.600
+In order to actually change the lay out with a screen says we need to create a media where are you going
+
+00:06.600 --> 00:14.880
+to say media screen here and I'm going to say and I know this is going to be mine with all here.
+
+00:15.000 --> 00:19.360
+And for the men with we would want 768.
+
+00:19.500 --> 00:26.370
+So we're going to say 768 pixels here first what I would want is I would want to start working with
+
+00:26.370 --> 00:27.050
+an app.
+
+00:27.210 --> 00:31.750
+So I'm going to say we are now have and like I said since we're here now.
+
+00:31.740 --> 00:34.080
+Now is this played like this.
+
+00:34.080 --> 00:37.660
+So you can see that we have one element and the second one.
+
+00:37.800 --> 00:44.430
+Now I would want a display flex so I'm going this display and we're going to say flex and now in this
+
+00:44.510 --> 00:49.260
+video we're going to be switching back and forth a lot because I think this is going to be probably
+
+00:49.260 --> 00:52.350
+the most complicated section actually.
+
+00:52.350 --> 00:55.180
+So once I say it you can say this is what I have.
+
+00:55.350 --> 01:00.940
+So I have a few things going on right now they're actually sitting all side by side like this.
+
+01:00.960 --> 01:03.870
+So this is obviously not something that we want.
+
+01:03.870 --> 01:10.650
+So first I don't want to get rid of this mortar here here for the header and also want to get rid of
+
+01:10.650 --> 01:11.650
+this button.
+
+01:11.670 --> 01:17.080
+So I'm going to go back over here and if I'm just going to say we're here like this then I want a nav
+
+01:17.890 --> 01:19.660
+header here.
+
+01:19.690 --> 01:24.130
+I don't know we're going to save water and we're none on here like this.
+
+01:24.180 --> 01:31.670
+And also what I would want is a nav between and display of none like this.
+
+01:31.700 --> 01:37.530
+So if I'm going to go back over here and if I am saved if this is what we have now honestly this is
+
+01:37.530 --> 01:40.190
+not going to be working great either.
+
+01:40.200 --> 01:42.220
+We do actually have a few things.
+
+01:42.370 --> 01:48.870
+So the first one is actually going to be a border bottom and then we're going to do a flex ramp once
+
+01:48.870 --> 01:51.360
+we're actually wrapping the elements.
+
+01:51.360 --> 01:58.800
+So we're going to go back over here and we're going to see if we're to have want a flex and it's a wrap
+
+01:58.950 --> 02:07.710
+and we're going to be wrapping then also what I would want is a border bottom border bottom and for
+
+02:07.710 --> 02:14.110
+the border bottom we're going to have 0.5 RPMs solid and voire.
+
+02:14.340 --> 02:15.610
+And this is going to be dark.
+
+02:15.780 --> 02:18.630
+So pretty much the color we already used before.
+
+02:18.720 --> 02:20.540
+So we're going to go back over here.
+
+02:20.790 --> 02:29.490
+Now I actually should have my car now once we actually have the border and we got rid of the button.
+
+02:29.490 --> 02:31.970
+Now we will want to work with the next.
+
+02:32.070 --> 02:35.480
+So we're going to go back over here and we're going to stay like this.
+
+02:35.480 --> 02:44.120
+So first one out one for now links and have links and for the links we would want first a background.
+
+02:44.230 --> 02:46.500
+And we're going to say we're here background transparent.
+
+02:46.680 --> 02:48.650
+So we want them transparent.
+
+02:48.660 --> 02:57.380
+However remember when we set the height of 0 0 0 here and only the bottom could change it to 88.
+
+02:57.450 --> 03:04.010
+Now with a bigger screen let's do it like this let's say height and let's put it to auto on here.
+
+03:04.260 --> 03:09.130
+So once I say it you can see right now all of them are showing right away.
+
+03:09.510 --> 03:19.020
+So next what I would want is I would want to set this UL so on or list as a flex burn and actually display
+
+03:19.020 --> 03:20.360
+them flex like this.
+
+03:20.360 --> 03:22.410
+Because right now we have the flex box.
+
+03:22.410 --> 03:27.400
+However we will want to display the actual child and created the parent.
+
+03:27.480 --> 03:30.380
+So as you can see or hear these are the properties.
+
+03:30.420 --> 03:36.530
+As a child because again this is going to be the child of Nav. of parent of the flags box.
+
+03:36.540 --> 03:40.520
+However we can also set the properties as a parent.
+
+03:40.620 --> 03:44.340
+So we're going to say we're here then we would want to set it as a parent.
+
+03:44.340 --> 03:50.900
+Now the last one as a child what we would want is a flex here 1 0.
+
+03:51.180 --> 03:57.590
+So grow as much as you have to shrink don't shrink and the base is going to be auto.
+
+03:57.600 --> 04:04.650
+So what I'm saying here is since I know that I'm going to be setting them has a flex neuro how one does
+
+04:05.160 --> 04:09.170
+actual logo to take as little space as possible.
+
+04:09.170 --> 04:14.320
+So that's what I'm seeing or hear stickle here and the actual nav links is going to take the rest of
+
+04:14.320 --> 04:15.280
+the space.
+
+04:15.330 --> 04:23.760
+So I'm going to go back here and I'm going to say that now as a parent as a parent parent now what we
+
+04:23.760 --> 04:25.430
+would want as a parent.
+
+04:25.620 --> 04:29.970
+Now we're going to say first that we would want is this play flex.
+
+04:30.210 --> 04:34.950
+So check it out and we have Sure enough now I can see that I have my looks.
+
+04:35.500 --> 04:40.530
+Now also I would want is a flex up so I would be able to wrapping.
+
+04:40.540 --> 04:47.590
+So Flex wrap and wrap so if there's not going to be enough screen size we're going to be wrapping we're
+
+04:47.610 --> 04:52.360
+going to do just content space around them is going to be another one.
+
+04:52.380 --> 04:58.010
+Now I also want to line them up with an image see or hear the actual logo is better.
+
+04:58.160 --> 04:59.930
+And the links on top.
+
+05:00.120 --> 05:03.050
+So I'm going to say we're here on line self.
+
+05:03.270 --> 05:05.280
+We're going to do a center here.
+
+05:05.520 --> 05:11.270
+So once I serve it sure enough now I can see my links are in actually the center.
+
+05:11.460 --> 05:17.890
+And also what I would want is to work more here with this hovering and in general with these links.
+
+05:17.900 --> 05:18.590
+All right.
+
+05:18.860 --> 05:22.510
+So may go back here and let's say we're here like this.
+
+05:22.560 --> 05:27.060
+Now I have saying no I don't we're going to call this link.
+
+05:27.060 --> 05:33.680
+Now what I would want for the single link first I would want background transparent like this.
+
+05:33.780 --> 05:40.640
+Then I would want flex since these are children right now for on a list and I'm going to say one so
+
+05:40.650 --> 05:42.860
+grow as much as you have to.
+
+05:43.020 --> 05:44.720
+Don't shrink zero.
+
+05:44.890 --> 05:47.890
+We're going to set it a 100 pixels on here.
+
+05:48.000 --> 05:51.550
+So again we're a service here this is what we're.
+
+05:51.810 --> 05:58.320
+Now let's get rid of all this padding because as you can see or hear this doesn't look very good if
+
+05:58.320 --> 06:03.390
+it's actually going left and right now I mean if you want to you can actually keep it here this is what
+
+06:03.390 --> 06:05.580
+you like but I'm just going to get rid of it.
+
+06:05.580 --> 06:06.950
+So here I'm going to say I like this.
+
+06:06.950 --> 06:13.910
+We're going to say more have and link over here a single link and however.
+
+06:14.010 --> 06:17.900
+So what should happen as we're hovering padding or here left.
+
+06:17.940 --> 06:23.820
+And remember when we had the padding we set the padding for one left and right.
+
+06:23.850 --> 06:27.740
+So we're going to do all here would you say padding left is also going to be one.
+
+06:27.900 --> 06:32.870
+So basically it's not changing color and the color let's change the color to voire.
+
+06:33.060 --> 06:36.340
+And I know we're going to say dark really this.
+
+06:36.390 --> 06:38.650
+So let me just say this.
+
+06:38.700 --> 06:43.320
+And as you can see as I'm hovering the color is going to be changing and dark but there's not going
+
+06:43.320 --> 06:44.540
+to be any movement.
+
+06:44.580 --> 06:49.480
+So this is how we can actually change and have more in our flex box project.
+
+06:49.550 --> 06:53.670
+And as you can see or hear it doesn't have enough space.
+
+06:53.730 --> 07:00.430
+So actually since the knife is a flex box pen you can see that it's wrapping on a new line or where
+
+07:00.480 --> 07:04.160
+once it gets to the small screen now you can just click the button.
+
+07:04.260 --> 07:06.380
+And now we have our Lynx ready to go.

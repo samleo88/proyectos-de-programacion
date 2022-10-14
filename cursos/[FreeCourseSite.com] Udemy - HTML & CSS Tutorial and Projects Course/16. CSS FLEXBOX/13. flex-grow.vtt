@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.330 --> 00:08.570
+Next we have a flex grow property that allow us to fill out the space in our container and by default.
+
+00:08.610 --> 00:15.270
+We have all the children with a flex growth property of zero and that's the reason why you see the space
+
+00:15.270 --> 00:15.450
+here.
+
+00:15.870 --> 00:22.370
+So if let's say I'm going to make my screen size even bigger you'll notice that there's plenty of space.
+
+00:22.390 --> 00:22.970
+OK.
+
+00:23.130 --> 00:29.550
+Now the way we use this property while we have multiple ways since we have right now are box class.
+
+00:29.550 --> 00:35.790
+And again we're not targeting the container right now we're targeting the black box class that is applied
+
+00:35.790 --> 00:38.040
+to each and every day that I have.
+
+00:38.040 --> 00:39.740
+While I called selected there.
+
+00:39.840 --> 00:46.110
+I could say you know what box so all the boxes and we're going to go with Flex.
+
+00:46.130 --> 00:55.410
+Then let's look for our Flex grow so let's see where it is flex GIRL AND LET'S SET flex grow equal to
+
+00:55.410 --> 00:55.910
+one.
+
+00:56.130 --> 01:03.260
+And you're going to notice right away that our boxes in fact are filling out our container so there's
+
+01:03.270 --> 01:10.840
+not gonna be any more any kind of space in between the actual items as well as the container.
+
+01:10.860 --> 01:17.790
+So if we have let's say five items if we set flex grow equal to one while our container is gonna be
+
+01:17.790 --> 01:18.540
+filled up.
+
+01:18.660 --> 01:25.080
+Now the same is going to work even if I'm gonna go let's say two boxes just to show a more clearer how
+
+01:25.080 --> 01:25.900
+it's gonna work.
+
+01:26.100 --> 01:33.120
+Let's go for two boxes and again regardless of the screen size each and every box is going to have this
+
+01:33.120 --> 01:39.050
+flex grow my case two of them and then each of them is going to have flex growth one.
+
+01:39.180 --> 01:45.870
+And what happens right now is in fact that they are growing as much as they have to to fill out.
+
+01:45.870 --> 01:47.880
+In fact our parent container.
+
+01:47.880 --> 01:53.760
+Now the smaller the parent container is of course the smaller boxes are going to be the bigger parent
+
+01:53.760 --> 01:57.090
+container is the bigger our boxes are gonna be.
+
+01:57.150 --> 02:01.330
+Now we're not limited to just setting the flags girl for all of them.
+
+02:01.380 --> 02:04.830
+We can also manipulate the values how it's gonna work.
+
+02:04.860 --> 02:08.720
+Well first of all why don't we just comment it out like.
+
+02:08.740 --> 02:14.970
+So for both of the boxes and as you can see right away our boxes again are small because they don't
+
+02:14.970 --> 02:21.540
+have this flex grow so they're not growing to fill out the space but in let's say let's target them
+
+02:21.570 --> 02:22.550
+individually.
+
+02:22.650 --> 02:30.870
+So I could say box number one and you know the box number one is going to have a flex grow on let's
+
+02:30.870 --> 02:32.430
+set it equal to one.
+
+02:32.430 --> 02:39.630
+So now what's going to happen is the box number one is going to be growing as much as it has to to fill
+
+02:39.630 --> 02:46.050
+out the space in box number two is going to say the size of the size of the box number two is not going
+
+02:46.050 --> 02:51.540
+to change or depending on the container the box number one is going to be growing.
+
+02:51.540 --> 02:57.960
+Now the reason for that is very simple because we did set up a flex grow to be one right now.
+
+02:57.990 --> 03:04.620
+We can also manipulate our values even more where I could set up you know what for box number let's
+
+03:04.620 --> 03:11.940
+say 1 I'm going to have 2 and then let's copy and pasted and let's set box number 2 by the value of
+
+03:11.940 --> 03:12.680
+1.
+
+03:12.750 --> 03:15.740
+So it's not as big as number two correct.
+
+03:15.780 --> 03:19.320
+However it is not also zero which would be the default.
+
+03:19.320 --> 03:25.770
+So what that means is that in fact our own I'm sorry I needed to do the box number two.
+
+03:25.830 --> 03:33.210
+So that means is that I can see that my box is going to be bigger box number one than the number two
+
+03:33.480 --> 03:39.000
+but it's not gonna be all the time filling out the whole space because we're still going to keep these
+
+03:39.000 --> 03:45.120
+proportions where this is going to be let's say two times bigger than the box number one but still this
+
+03:45.120 --> 03:47.780
+box is having that flex grow of one.
+
+03:47.970 --> 03:50.800
+So it's still not sitting and just waiting.
+
+03:50.910 --> 03:53.570
+It is also helping out to fill out the space.
+
+03:54.120 --> 03:57.640
+And it's not going to change if we're going to add more boxes.
+
+03:58.080 --> 04:04.590
+I just did with two boxes because I thought it's going to show a little bit better but if I'm going
+
+04:04.590 --> 04:11.940
+to let's say select all of them notice I still have my box number one the number two and then the rest
+
+04:11.940 --> 04:12.560
+of them.
+
+04:12.690 --> 04:19.050
+And regardless how big it goes while I'm still gonna be filling up the space now that's how we can work
+
+04:19.050 --> 04:26.130
+with a flux girl property which helps us to fill out the space in the container and then depending on
+
+04:26.130 --> 04:30.150
+which values we are going to use while that's going to be our layout.

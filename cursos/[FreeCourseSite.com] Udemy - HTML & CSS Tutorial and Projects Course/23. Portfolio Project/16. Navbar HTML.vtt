@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.300 --> 00:03.090
+Once we are done with rest of the sections.
+
+00:03.090 --> 00:05.580
+Now we have only left a number.
+
+00:05.820 --> 00:09.070
+So here you can see that this is how it's going to look on the big screen.
+
+00:09.090 --> 00:14.860
+However once we're going to make it on the small screen we're going to create a button and on her knees
+
+00:14.880 --> 00:16.230
+are going to be our looks.
+
+00:16.320 --> 00:19.860
+So let's go ahead and let's start working on our number.
+
+00:20.050 --> 00:22.900
+So going to go back here to my index.
+
+00:23.370 --> 00:29.550
+I'm actually going to go all the way to the top because remember actually Howard Navarre was our first
+
+00:29.640 --> 00:30.490
+child.
+
+00:30.750 --> 00:36.840
+Now we have so far he's heading one with a halo which we actually don't need if we're going to scroll
+
+00:36.840 --> 00:39.840
+up or here you can see there's nothing here.
+
+00:39.930 --> 00:42.300
+However now we're going to start placing everything.
+
+00:42.670 --> 00:50.220
+And the good news is that we do not need to do anything with a lay out regarding the actual banner because
+
+00:50.220 --> 00:51.780
+we already set up everything.
+
+00:51.930 --> 00:55.920
+We are in make sure that the banner is going to be pushing as much as it can.
+
+00:56.100 --> 01:00.070
+So as much as that bar needs a room we're going to create.
+
+01:00.330 --> 01:01.800
+So first things first.
+
+01:01.800 --> 01:07.740
+Now I would want in your head for someone to say I have had her and then how are you going to have a
+
+01:07.740 --> 01:09.500
+logo and a button.
+
+01:09.690 --> 01:15.310
+So here we're going to say I have two underscores her on here.
+
+01:15.320 --> 01:17.680
+And for the better what I would want inside.
+
+01:17.730 --> 01:21.740
+Like I said would be first a logo.
+
+01:21.750 --> 01:23.400
+So here I'm going to say this is going to be.
+
+01:23.400 --> 01:25.630
+Now I have to underscore.
+
+01:25.860 --> 01:33.100
+Well go on KNOW this and for the source we're going to have image and image is going to be logo here.
+
+01:33.110 --> 01:38.330
+So once I say well you can see on here now I have my logo also right next to the logo.
+
+01:38.520 --> 01:40.190
+I want my button.
+
+01:40.270 --> 01:46.750
+So I'm going to go back over here and if I'm going to write sparen now I have 200 scores between or
+
+01:46.830 --> 01:48.240
+here are going to write on.
+
+01:48.530 --> 01:57.960
+And this is going to be a are and then we're going to have a hand point down so point and are going
+
+01:57.960 --> 01:58.760
+to write down.
+
+01:58.980 --> 02:03.490
+So once we press the tab here and see that I have my little icon.
+
+02:03.900 --> 02:07.240
+So this would be with a nav bar header.
+
+02:07.500 --> 02:13.260
+So if we have a nav bar header now I would want to create a links so here I'm going to say right now
+
+02:13.260 --> 02:22.350
+I have links and all the links we're going to create a list with a class of nav links and all here we're
+
+02:22.350 --> 02:24.550
+going to start placing a list items.
+
+02:24.600 --> 02:27.070
+So here we're going to have a list item.
+
+02:27.210 --> 02:35.370
+Now in the list Adam there is going to be a link and all this is going to have class Nav. single or
+
+02:35.370 --> 02:36.870
+here link.
+
+02:36.880 --> 02:39.170
+So this is going to be my class name.
+
+02:39.450 --> 02:42.420
+And also here on this is going to have text.
+
+02:42.560 --> 02:47.960
+So here Heroes are going to press it and we're going to write them this is going to be a mantra.
+
+02:48.150 --> 02:53.010
+And now we can just copy and paste them and we know that we need six of them so we need to copy and
+
+02:53.010 --> 02:54.630
+paste these five more times.
+
+02:54.660 --> 02:58.000
+So one two three four five on here.
+
+02:58.170 --> 03:03.500
+Now the only thing I would need to do is just write off here what kind of links this is.
+
+03:03.540 --> 03:06.550
+So here I'm going to write and this is going to be home.
+
+03:06.810 --> 03:09.320
+Then we're going to have an about that.
+
+03:09.330 --> 03:17.160
+Also we're here we're just going to have a services services here and once we say what you can see that
+
+03:17.160 --> 03:18.960
+our links are here.
+
+03:19.260 --> 03:23.270
+Then after the services we're going to have an inverse.
+
+03:23.430 --> 03:28.320
+Now after the numbers are actually going to have a project here.
+
+03:28.450 --> 03:33.440
+So let me just it these are going to be projects projects.
+
+03:33.840 --> 03:36.650
+And the last one out here is going to be contact.
+
+03:36.720 --> 03:41.350
+So again look we can go here and this is going to be my contact.
+
+03:41.370 --> 03:49.710
+So on the other side actually we would want a contact so can act or here.
+
+03:49.850 --> 03:50.710
+So that's save.
+
+03:50.750 --> 03:53.560
+And I can see that I am Hillings.
+
+03:53.840 --> 03:56.710
+I have my Herro here and I have my button.
+
+03:56.780 --> 04:00.200
+So now I would need to go to see this and actually Styler.

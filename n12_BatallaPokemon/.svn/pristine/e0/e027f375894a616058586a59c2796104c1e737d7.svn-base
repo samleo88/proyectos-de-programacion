@@ -1,0 +1,111 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaNaval.testCliente;
+
+import java.awt.Color;
+
+import junit.framework.TestCase;
+import uniandes.cupi2.batallaPokemon.cliente.mundo.*;
+
+/**
+ * Clase que verifica la correcta implmentación de la clase Pokemon.
+ */
+public class PokemonTest extends TestCase
+{
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Pokemón sobre el que se harán las pruebas.
+     */
+    private Pokemon pokemon;
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Escenario 1: Crea un nuevo pokemón.
+     */
+    private void setupEscenario1( )
+    {
+        pokemon = new Pokemon( Pokemon.TIPO_FUEGO, "Growlithe", "imagen.png" );
+
+    }
+
+    /**
+     * Prueba 1: Verifica el constructor de la clase Pokemon. <br>
+     * <b> Métodos a probar: </b> <br>
+     * Pokemon <br>
+     * <b> Casos de prueba: </b> <br>
+     * 1. Al crear un pokemón y pedir su información, esta debe ser retornada de forma correcta.
+     */
+    public void testPokemon( )
+    {
+        setupEscenario1( );
+
+        assertEquals( "El nombre del pokemón no corresponde.", "Growlithe", pokemon.darNombre( ) );
+        assertEquals( "El tipo del pokemón no corresponde.", Pokemon.TIPO_FUEGO, pokemon.darTipo( ) );
+        assertEquals( "La salud del pokemón no corresponde.", 30.0, pokemon.darSalud( ) );
+        assertEquals( "La imagen del pokemón no corresponde", "imagen.png", pokemon.darRutaImagen( ) );
+    }
+
+    /**
+     * Prueba 2: Verifica el método modificarSalud. <br>
+     * <b> Métodos a probar: </b> <br>
+     * modificarSalud <br>
+     * darSalud <br>
+     * <b> Casos de prueba: </b> <br>
+     * 1. Un pokemón tiene puntos de salud.
+     * 2. No le quedan puntos de salud al pokemón.
+     */
+    public void testModificarSalud( )
+    {
+        setupEscenario1( );
+
+        //1
+        pokemon.modificarSalud( 15.5 );
+        assertEquals( "La salud del pokemón no corresponde, debería ser 4,5.", 14.5, pokemon.darSalud( ) );
+        pokemon.modificarSalud( 14.5 );
+        assertEquals( "La salud del pokemón no corresponde, debería ser 0.", 0.0, pokemon.darSalud( ) );
+        
+        //2
+        pokemon.modificarSalud( 2 );
+        assertEquals( "La salud del pokemón no corresponde, debería ser 0.", 0.0, pokemon.darSalud( ) );
+
+    }
+    
+    /**
+     * Prueba 3: Verifica el método verificarPokemonDebilitado. <br>
+     * <b> Métodos a probar: </b> <br>
+     * verificarPokemonDebilitado <br>
+     * modificarSalud <br>
+     * <b> Casos de prueba: </b> <br>
+     * 1. Un pokemón tiene puntos de salud.
+     * 2. No le quedan puntos de salud al pokemón.
+     */
+    public void testVerificarPokemonDebilitado( )
+    {
+        setupEscenario1( );
+
+        //1
+        pokemon.modificarSalud( 15.5 );
+        assertFalse( "El pokemón aún tiene salud, no debería ser considerado debilitado.", pokemon.verificarPokemonDebilitado( ) );
+        //2
+        pokemon.modificarSalud( 14.5 );
+        assertTrue( "El pokemón está debilitado.", pokemon.verificarPokemonDebilitado( ) );
+        
+
+    }
+}

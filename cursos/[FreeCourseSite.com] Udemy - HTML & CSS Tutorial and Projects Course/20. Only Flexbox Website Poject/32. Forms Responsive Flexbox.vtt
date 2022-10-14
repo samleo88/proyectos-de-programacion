@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00.100 --> 00:03.650
+And there's always first let's check it out when we have.
+
+00:03.680 --> 00:09.000
+All right so this is how we would look like without being responsive all spanning all across the screen
+
+00:09.860 --> 00:11.070
+or here would you have to say.
+
+00:11.070 --> 00:14.570
+This is going to be me on your screen here.
+
+00:14.850 --> 00:23.560
+And then we're going to and and I know you're going to say men with you then this is going to be a 776.
+
+00:23.580 --> 00:29.670
+So I'm going to say seven hundred seventy six pixels here and then we're going to say that this is going
+
+00:29.670 --> 00:36.440
+to be a contact center again it's data value.
+
+00:36.480 --> 00:44.100
+And then this guy is going to be display flex here and then we're going to have a justified content
+
+00:44.910 --> 00:46.330
+space between.
+
+00:46.710 --> 00:54.110
+And then we're going to have a flex on him wrap and this is going to be a wrap here.
+
+00:54.150 --> 00:57.400
+Now that we have this now I would want any info.
+
+00:57.480 --> 00:58.200
+All right.
+
+00:58.210 --> 01:00.810
+I would actually would want to style them right.
+
+01:00.850 --> 01:09.660
+So over here what I'm going to say that this is going to be a company for first some say the company
+
+01:10.790 --> 01:11.540
+info.
+
+01:11.670 --> 01:14.820
+So this is going to be the first of our articles.
+
+01:15.120 --> 01:22.970
+And over here I'm going to say this is going to be flex 00 and this is going to be calque again and
+
+01:23.080 --> 01:30.730
+here we're going to say 50 percent minus 5 or 10 pixels something like this.
+
+01:30.750 --> 01:31.700
+Right.
+
+01:31.710 --> 01:35.610
+And then after that what you want is actually a customer in full.
+
+01:35.760 --> 01:46.350
+So we're going to have a copy and paste here and say customer and company customer or here now we say
+
+01:46.350 --> 01:48.260
+this you're doing this.
+
+01:48.540 --> 01:50.380
+Let's just check it out what we have.
+
+01:50.880 --> 01:54.490
+So once we are fresh I think this is where we're going to have.
+
+01:55.100 --> 01:59.070
+So this guys over here is going to be your address or phone number or e-mail.
+
+01:59.100 --> 01:59.780
+Right.
+
+01:59.840 --> 02:01.650
+I know this is going to be the forum.
+
+02:01.730 --> 02:02.210
+Right.
+
+02:02.390 --> 02:02.720
+All right.
+
+02:02.760 --> 02:06.980
+If somebody can clicks right you can actually write whatever he would want.
+
+02:07.150 --> 02:12.840
+And this is going to be it for this project and I hope you guys enjoyed this project and I hope to see
+
+02:12.840 --> 02:14.480
+you on my next project.

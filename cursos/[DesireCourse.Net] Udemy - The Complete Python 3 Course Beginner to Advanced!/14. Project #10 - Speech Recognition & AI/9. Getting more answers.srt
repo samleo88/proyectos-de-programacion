@@ -1,0 +1,639 @@
+1
+
+00:00:00,000  -->  00:00:02,310
+Alright guys, so it wasn't actually a
+
+2
+
+00:00:02,310  -->  00:00:04,110
+problem with my internet connection or
+
+3
+
+00:00:04,110  -->  00:00:07,109
+anything, it's a problem with our program
+
+4
+
+00:00:07,109  -->  00:00:08,940
+and it's not really a problem so much as
+
+5
+
+00:00:08,940  -->  00:00:11,849
+ways that we can improve it. There are
+
+6
+
+00:00:11,849  -->  00:00:14,969
+certain websites that, or there are
+
+7
+
+00:00:14,969  -->  00:00:19,920
+certain Google searches that will return
+
+8
+
+00:00:19,920  -->  00:00:22,439
+the exact element we're looking for,
+
+9
+
+00:00:22,439  -->  00:00:27,570
+however this kind of thing this uses the
+
+10
+
+00:00:27,570  -->  00:00:30,929
+class underscore XWk. So what we can do
+
+11
+
+00:00:30,929  -->  00:00:32,189
+is we can copy this and add a
+
+12
+
+00:00:32,189  -->  00:00:36,930
+conditional in there, the get_answer. What
+
+13
+
+00:00:36,930  -->  00:00:47,850
+we're going to do...
+
+14
+
+00:00:47,850  -->  00:00:50,760
+Alright, we need to change that because
+
+15
+
+00:00:50,760  -->  00:00:53,520
+we're first going to look for this. If
+
+16
+
+00:00:53,520  -->  00:00:58,649
+not answer we're going to then look for
+
+17
+
+00:00:58,649  -->  00:01:04,170
+this, answer equals soup.find_all class
+
+18
+
+00:01:04,170  -->  00:01:11,700
+equals that one. So let's go ahead and
+
+19
+
+00:01:11,700  -->  00:01:17,000
+save, and let's ask who plays Kelso.
+
+20
+
+00:01:21,280  -->  00:01:24,390
+"How to make applesauce?"
+
+21
+
+00:01:34,440  -->  00:01:37,470
+"To make basic applesauce, peel, core
+
+22
+
+00:01:37,470  -->  00:01:39,540
+and coarsely chop 2 pounds..." Okay, it's working
+
+23
+
+00:01:39,540  -->  00:01:46,130
+so far. "Who plays Kelso?"
+
+24
+
+00:01:56,040  -->  00:01:58,440
+That one failed. We will have to look at
+
+25
+
+00:01:58,440  -->  00:02:01,080
+that more. And how to determine actually
+
+26
+
+00:02:01,080  -->  00:02:04,170
+what class that is I'm actually just
+
+27
+
+00:02:04,170  -->  00:02:07,020
+going to dump the entire file here, so
+
+28
+
+00:02:07,020  -->  00:02:10,979
+with open test, sorry gotta put that in a
+
+29
+
+00:02:10,979  -->  00:02:20,070
+string, "test.html", "w+" as f:, we're going to
+
+30
+
+00:02:20,070  -->  00:02:24,420
+say f.write, and we're going to write our
+
+31
+
+00:02:24,420  -->  00:02:29,130
+soup, and then f.close, so that we can see,
+
+32
+
+00:02:29,130  -->  00:02:32,160
+actually. Let's run that same question
+
+33
+
+00:02:32,160  -->  00:02:34,260
+again, then look at the page that we get
+
+34
+
+00:02:34,260  -->  00:02:36,420
+back, and determine what class we should
+
+35
+
+00:02:36,420  -->  00:02:43,310
+be using. "Who played Kelso?"
+
+36
+
+00:02:52,760  -->  00:02:54,860
+That looks tremendously wrong but we got
+
+37
+
+00:02:54,860  -->  00:02:57,620
+our file here, and it didn't write
+
+38
+
+00:02:57,620  -->  00:03:01,400
+anything. Alright, so, let's actually
+
+39
+
+00:03:01,400  -->  00:03:03,799
+look at why it didn't write anything, and
+
+40
+
+00:03:03,799  -->  00:03:05,720
+let's find out how we can make it right
+
+41
+
+00:03:05,720  -->  00:03:13,790
+stuff. So, let's convert this to a string,
+
+42
+
+00:03:13,790  -->  00:03:21,079
+sorry about that. Alright, let's try again and
+
+43
+
+00:03:21,079  -->  00:03:25,459
+this time let's say, "who won the Super
+
+44
+
+00:03:25,459  -->  00:03:34,430
+Bowl?" We're looking for that. "Who won the
+
+45
+
+00:03:34,430  -->  00:03:42,730
+Super Bowl?" And now we wait.
+
+46
+
+00:03:47,210  -->  00:03:52,820
+Alright, so we have a page here and this
+
+47
+
+00:03:52,820  -->  00:03:54,980
+is what we want at the beginning of line
+
+48
+
+00:03:54,980  -->  00:03:57,350
+three, so what we're going to do is at end of
+
+49
+
+00:03:57,350  -->  00:03:59,870
+line teo we're going to go right to the
+
+50
+
+00:03:59,870  -->  00:04:04,900
+end, and we're going to look at...
+
+51
+
+00:04:13,620  -->  00:04:25,919
+this line...sorry about
+
+52
+
+00:04:25,919  -->  00:04:27,630
+that. I will edit that out, actually.
+
+53
+
+00:04:27,630  -->  00:04:30,750
+Alright, so, this line wrap is what's
+
+54
+
+00:04:30,750  -->  00:04:33,300
+causing a problem at this point. What we
+
+55
+
+00:04:33,300  -->  00:04:38,220
+need to do is find where the top of the
+
+56
+
+00:04:38,220  -->  00:04:45,180
+page starts and actually has content...
+
+57
+
+00:04:45,180  -->  00:04:48,419
+we need to find the
+
+58
+
+00:04:48,419  -->  00:04:52,289
+beginning of the results here, and then
+
+59
+
+00:04:52,289  -->  00:05:03,020
+is that it? No, past 24 hours.
+
+60
+
+00:05:12,009  -->  00:05:15,189
+So, what I'm going to do is I'm going to
+
+61
+
+00:05:15,189  -->  00:05:20,050
+search this right here, that should be
+
+62
+
+00:05:20,050  -->  00:05:21,939
+able to find the string that we're
+
+63
+
+00:05:21,939  -->  00:05:26,649
+looking for, there we go. So this is m3b,
+
+64
+
+00:05:26,649  -->  00:05:30,219
+that's the class we need to look up. So
+
+65
+
+00:05:30,219  -->  00:05:33,999
+let's copy it, and this should be a lot
+
+66
+
+00:05:33,999  -->  00:05:37,779
+easier actually. So, let's drop in here
+
+67
+
+00:05:37,779  -->  00:05:41,710
+and put that there. Now let's run it and
+
+68
+
+00:05:41,710  -->  00:05:44,229
+ask the question again, and Google's only
+
+69
+
+00:05:44,229  -->  00:05:45,279
+going to give like four or five
+
+70
+
+00:05:45,279  -->  00:05:48,039
+different types of responses so that's
+
+71
+
+00:05:48,039  -->  00:05:50,020
+when this is going to be useful. We can
+
+72
+
+00:05:50,020  -->  00:05:51,759
+determine what kind of questions are
+
+73
+
+00:05:51,759  -->  00:05:54,639
+most commonly asked and then code it to
+
+74
+
+00:05:54,639  -->  00:05:56,620
+find whichever one. And, again, this isn't
+
+75
+
+00:05:56,620  -->  00:05:58,779
+true artificial intelligence, this is
+
+76
+
+00:05:58,779  -->  00:06:02,199
+just kind of a connection of
+
+77
+
+00:06:02,199  -->  00:06:04,930
+artificial intelligence. We're using a
+
+78
+
+00:06:04,930  -->  00:06:09,639
+source of data that we, you know I mean
+
+79
+
+00:06:09,639  -->  00:06:11,889
+we could actually create a database and
+
+80
+
+00:06:11,889  -->  00:06:14,379
+we could tell it to go learn about
+
+81
+
+00:06:14,379  -->  00:06:16,389
+certain things. So we could create an
+
+82
+
+00:06:16,389  -->  00:06:20,379
+empty database and then you know when we
+
+83
+
+00:06:20,379  -->  00:06:22,270
+input the command go learn about
+
+84
+
+00:06:22,270  -->  00:06:27,610
+football, we could we could send our
+
+85
+
+00:06:27,610  -->  00:06:32,169
+program to the most relevant Wikipedia
+
+86
+
+00:06:32,169  -->  00:06:34,539
+page and have it index all of that data,
+
+87
+
+00:06:34,539  -->  00:06:39,099
+and make sense of it by compiling facts,
+
+88
+
+00:06:39,099  -->  00:06:41,499
+and then we would be able to ask it
+
+89
+
+00:06:41,499  -->  00:06:43,629
+questions about it, and what it would do
+
+90
+
+00:06:43,629  -->  00:06:45,309
+we would have to create some sort of search
+
+91
+
+00:06:45,309  -->  00:06:47,259
+interface just like creating a search
+
+92
+
+00:06:47,259  -->  00:06:49,029
+page on the internet like Google is done,
+
+93
+
+00:06:49,029  -->  00:06:50,860
+and we would be able to search our own
+
+94
+
+00:06:50,860  -->  00:06:52,959
+database, but again that is a big, big job.
+
+95
+
+00:06:52,959  -->  00:06:55,990
+So we're not doing the memorization of
+
+96
+
+00:06:55,990  -->  00:06:57,669
+facts we're just doing how to retrieve
+
+97
+
+00:06:57,669  -->  00:07:01,629
+them, I guess. So, let's go ahead and ask
+
+98
+
+00:07:01,629  -->  00:07:08,669
+it this question. "Who won the Super Bowl?"
+
+99
+
+00:07:16,510  -->  00:07:22,540
+And we wait...New England Patriots. "Who is
+
+100
+
+00:07:22,540  -->  00:07:25,260
+Kurt Russell?"
+
+101
+
+00:07:35,500  -->  00:07:38,350
+Kurt Vogel Russell born March 17,
+
+102
+
+00:07:38,350  -->  00:07:41,350
+1951, and there we go. Let me
+
+103
+
+00:07:41,350  -->  00:07:43,840
+just stop this. So as
+
+104
+
+00:07:43,840  -->  00:07:46,810
+you can see we can ask our program very
+
+105
+
+00:07:46,810  -->  00:07:49,750
+simple questions, very direct questions,
+
+106
+
+00:07:49,750  -->  00:07:54,730
+and we'll be able to get a response if
+
+107
+
+00:07:54,730  -->  00:08:02,950
+Google has this. Otherwise, if at this
+
+108
+
+00:08:02,950  -->  00:08:06,430
+point it doesn't have an answer we're
+
+109
+
+00:08:06,430  -->  00:08:12,550
+going to set the answer to "I don't know."
+
+110
+
+00:08:12,550  -->  00:08:21,580
+There we go. So, we are good to go, I
+
+111
+
+00:08:21,580  -->  00:08:23,500
+just want to search right quick to see
+
+112
+
+00:08:23,500  -->  00:08:29,500
+another few examples. So, let's say when
+
+113
+
+00:08:29,500  -->  00:08:32,979
+was pizza invented? And as you can see
+
+114
+
+00:08:32,979  -->  00:08:34,930
+we've got a nice little blurb about that.
+
+115
+
+00:08:34,930  -->  00:08:36,969
+We could ask that question to our
+
+116
+
+00:08:36,969  -->  00:08:44,080
+program. We could say, who invented Python?
+
+117
+
+00:08:44,080  -->  00:08:48,640
+And we would get this guy's name right
+
+118
+
+00:08:48,640  -->  00:08:52,570
+here Guido van Rossum, and this is just
+
+119
+
+00:08:52,570  -->  00:08:55,930
+an example of what you can do you know
+
+120
+
+00:08:55,930  -->  00:08:57,460
+with Python and connecting
+
+121
+
+00:08:57,460  -->  00:08:59,680
+different dots. This again is not true
+
+122
+
+00:08:59,680  -->  00:09:01,450
+artificial intelligence but for the sake
+
+123
+
+00:09:01,450  -->  00:09:05,290
+of this series this can be enhanced, and
+
+124
+
+00:09:05,290  -->  00:09:08,890
+superseded, and can be expanded so far
+
+125
+
+00:09:08,890  -->  00:09:10,960
+that it can be artificial intelligence,
+
+126
+
+00:09:10,960  -->  00:09:13,510
+and you guys are prepared right now to
+
+127
+
+00:09:13,510  -->  00:09:16,390
+do that if you would want to. It's just a
+
+128
+
+00:09:16,390  -->  00:09:20,130
+very, very big task.

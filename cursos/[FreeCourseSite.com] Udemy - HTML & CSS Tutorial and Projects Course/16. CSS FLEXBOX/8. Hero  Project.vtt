@@ -1,0 +1,463 @@
+WEBVTT
+
+00:00.330 --> 00:07.710
+Once we have covered justify content as well as the on line items why don't we do a small project where
+
+00:07.710 --> 00:11.250
+in fact we do set up our hero component.
+
+00:11.310 --> 00:17.610
+Now when I say hero component I mean a massive background image and then within the background manage
+
+00:17.970 --> 00:20.630
+there's going to be some kind of title.
+
+00:20.880 --> 00:24.160
+Now first and foremost we're going to need one image.
+
+00:24.330 --> 00:28.650
+We only need one image so I'm going to head over to the pixels.
+
+00:28.650 --> 00:32.040
+Again you can download whatever image you like.
+
+00:32.310 --> 00:33.420
+I'm gonna go with.
+
+00:33.420 --> 00:35.350
+I don't know beach I guess.
+
+00:35.520 --> 00:37.600
+Let's go with beach.
+
+00:38.160 --> 00:41.490
+I think I'm gonna pick this one let's save images.
+
+00:41.780 --> 00:44.260
+I'm gonna save it in my project.
+
+00:44.300 --> 00:53.420
+So when this stop I have like mock sartorial and in here I'm gonna go with hero BCG OK something like
+
+00:53.420 --> 00:53.810
+that.
+
+00:53.810 --> 00:55.840
+That's step number one.
+
+00:55.900 --> 01:01.610
+And then let's roll back to our project and in fact I don't want to pollute the actual tutorial within
+
+01:01.610 --> 01:03.100
+the next session email.
+
+01:03.200 --> 01:11.480
+So we're gonna create a new file going gonna call this banner h t email again we're going to set up
+
+01:11.540 --> 01:15.060
+in fact our H mouse Carlton.
+
+01:15.620 --> 01:17.600
+That's number one.
+
+01:17.600 --> 01:23.840
+And then you know what may be within the next issue email why don't we set up a link so that way we
+
+01:23.840 --> 01:25.910
+can easily navigate back and forth.
+
+01:26.300 --> 01:35.550
+So right after the container I'm gonna set up a link and Link is gonna head over to a banner HD e-mail.
+
+01:36.230 --> 01:39.490
+Okay so where are you uh where are you.
+
+01:39.490 --> 01:40.160
+Link.
+
+01:40.260 --> 01:42.170
+Let's see let's see let's see let's see.
+
+01:42.330 --> 01:46.640
+And of course I can see the link because I didn't type anything manner aged yet.
+
+01:46.960 --> 01:47.480
+Okay.
+
+01:47.560 --> 01:53.610
+When we say it and of course I navigate to our page which currently is an empty page then let's head
+
+01:53.610 --> 01:56.210
+over back to the email once.
+
+01:56.310 --> 01:57.040
+Right.
+
+01:57.050 --> 02:01.000
+Banner example and so on.
+
+02:01.010 --> 02:02.430
+For some reason I deleted it.
+
+02:02.980 --> 02:03.910
+Let's save it.
+
+02:03.920 --> 02:04.310
+Okay.
+
+02:04.310 --> 02:07.970
+I do have my banner example that works out really well.
+
+02:07.970 --> 02:13.540
+Then I'm gonna set up the body and here within the body there's gonna be two things.
+
+02:13.550 --> 02:19.280
+So first of all we're gonna come up with a header element and we're just gonna add the class of hero
+
+02:19.820 --> 02:29.020
+and also let's place a hearing 1 like so with a our page title page title.
+
+02:29.120 --> 02:30.200
+Save that.
+
+02:30.210 --> 02:30.660
+Okay.
+
+02:30.660 --> 02:32.430
+That's already a good start.
+
+02:32.490 --> 02:33.290
+Let's refresh it.
+
+02:33.300 --> 02:38.060
+Now we can see it and you know it also lets and maybe a link back.
+
+02:38.670 --> 02:39.570
+Let's go with link.
+
+02:39.600 --> 02:41.570
+Let's go with index.
+
+02:41.670 --> 02:46.990
+I am out and back on something like that.
+
+02:47.050 --> 02:48.730
+Now next I like to set up.
+
+02:48.760 --> 02:53.760
+In fact my header which is not gonna use right now any flex box.
+
+02:53.770 --> 02:57.250
+But like I said I would want to create a hero component.
+
+02:57.250 --> 03:03.400
+So we're going to do something that we already have done few times before by setting up a background
+
+03:03.460 --> 03:04.060
+image.
+
+03:04.060 --> 03:09.730
+Now I could create an underclass solution and all that but in order to save time I'm just gonna go with
+
+03:09.730 --> 03:10.530
+style tags.
+
+03:10.900 --> 03:17.200
+And then within style tags why don't we first get rid of some default bindings and margins.
+
+03:17.200 --> 03:21.000
+So I'm going to write margin zero to all of them.
+
+03:21.150 --> 03:22.050
+And you're not.
+
+03:22.150 --> 03:23.920
+I think I can just skip the padding.
+
+03:24.370 --> 03:31.240
+Then as far as we have the header rect so let's target a hero class that's first and foremost.
+
+03:31.470 --> 03:35.300
+Let's add some background just so we can see where we are operating.
+
+03:35.410 --> 03:37.150
+And I'm gonna go with red.
+
+03:37.260 --> 03:43.830
+And then after that since we would like to place this title in fact in the center we're gonna have to
+
+03:43.830 --> 03:44.440
+have some height.
+
+03:44.910 --> 03:51.020
+And I do prefer using the viewport height because that doesn't set the absolute values.
+
+03:51.090 --> 03:54.230
+In fact it sets up the values for screen sizes right.
+
+03:54.540 --> 04:00.870
+So usually what I like to do is set up the mean height and I'm gonna go in this case with hundred percent.
+
+04:00.870 --> 04:06.960
+Now what this means is that even though the content of this particular component or I'm sorry element
+
+04:06.990 --> 04:11.260
+I guess is smaller or would be smaller than hundred percent.
+
+04:11.310 --> 04:12.940
+What I'm saying here is men height.
+
+04:13.200 --> 04:18.840
+So regardless of the content that's sitting within this element the height of this element is going
+
+04:18.840 --> 04:19.950
+to be a hundred percent.
+
+04:20.010 --> 04:23.800
+So as you can see the moment I start scrolling This is where I see the link.
+
+04:24.330 --> 04:30.240
+And the screen size this hundred percent is going to be whether on this stop or a phone or whatever.
+
+04:30.330 --> 04:32.310
+That's the reason why I like to set this up.
+
+04:32.520 --> 04:38.860
+Now instead of going for a background of just color or red in fact we're gonna set up our image.
+
+04:39.270 --> 04:44.390
+Now the syntax for that is you are all let's say is sitting here hero BCG.
+
+04:44.670 --> 04:52.960
+So let's type hero B C G and then the full extension is J.
+
+04:53.310 --> 05:00.370
+Okay the moment we set this up of course we do have our background image and everything works really
+
+05:00.370 --> 05:00.900
+well.
+
+05:01.060 --> 05:03.910
+And next to help there's few things that we will need to clean up.
+
+05:04.030 --> 05:06.210
+As far as the image is concerned.
+
+05:06.220 --> 05:09.420
+First of all probably would want to place it in the center.
+
+05:09.600 --> 05:10.120
+And you know what.
+
+05:10.150 --> 05:11.650
+In this case I'm gonna go.
+
+05:11.650 --> 05:17.730
+In fact with a long way instead of setting up everything within one line because I think it's gonna
+
+05:17.740 --> 05:19.440
+be easier for us to understand.
+
+05:19.540 --> 05:25.210
+So we have a background position and we need to set this in the center.
+
+05:25.540 --> 05:27.880
+So let's start with the center.
+
+05:28.090 --> 05:30.250
+So let's place the image in the center.
+
+05:30.250 --> 05:38.530
+Then we also like to use background and then we have the size background size and we're gonna go with
+
+05:38.530 --> 05:46.390
+cover to make sure that our background always covers the space that we have for our element and then
+
+05:46.390 --> 05:54.680
+also when we go with background repeat no repeat background repeat no repeat and optionally we can come
+
+05:54.680 --> 05:59.080
+up with fixed where the image is gonna stay fixed and enforced crawling.
+
+05:59.090 --> 06:01.880
+In fact we're going to have deeper likes effect.
+
+06:02.150 --> 06:04.160
+Now maybe I'm gonna leave that one for last.
+
+06:04.160 --> 06:09.640
+Because I'm mostly interested in working with this title in a setting this up in the center.
+
+06:09.710 --> 06:16.340
+So we have our image we have our awesome hero component and then our main goal is to place this title
+
+06:16.700 --> 06:21.380
+exactly in a center vertically as well as horizontally.
+
+06:21.740 --> 06:28.760
+Now first of all why don't we add some kind of parameters for our title where I'm going to go with let's
+
+06:28.760 --> 06:35.100
+say a text transform I'm pro case work.
+
+06:35.120 --> 06:37.070
+So that's number one.
+
+06:37.070 --> 06:46.130
+Then let's also go with font size bigger font size would say 60 pixels and maybe just so we can see
+
+06:46.130 --> 06:47.830
+it a little bit better.
+
+06:47.990 --> 06:50.510
+Why don't we go with color.
+
+06:50.540 --> 06:51.890
+I'm gonna go with red.
+
+06:51.890 --> 06:53.350
+Let's see how that works.
+
+06:53.390 --> 06:54.680
+I think it works fine.
+
+06:54.680 --> 07:00.260
+We have our page title and then like I said all the knowledge that we have from the Flex box.
+
+07:00.260 --> 07:03.090
+I'd like to use it to place it exactly in the center.
+
+07:03.580 --> 07:07.040
+And this is as easy as writing three lines of code.
+
+07:07.850 --> 07:09.590
+So first of all hero.
+
+07:09.650 --> 07:13.430
+Remember that is our parent container.
+
+07:14.000 --> 07:18.670
+And like I said the same thing works even if we have only one child.
+
+07:18.690 --> 07:19.070
+All right.
+
+07:19.430 --> 07:26.720
+So the same setup we have our Flex parent and then we have our Flex items that are our children and
+
+07:26.720 --> 07:31.510
+for the Flex parent first and foremost we set up display as flex.
+
+07:31.540 --> 07:32.770
+That's step number one.
+
+07:33.060 --> 07:38.330
+And then remember in order to set it up horizontally what we needed to use now we are justified content
+
+07:38.720 --> 07:42.950
+and instead of flex start why don't we just set it equal to the center.
+
+07:43.020 --> 07:48.170
+And now it's sitting in a center horizontally and then it would like to place it actually in the center
+
+07:48.170 --> 07:49.560
+vertically.
+
+07:49.580 --> 07:54.120
+It's as easy as it gets a line items and center and that's it.
+
+07:54.120 --> 08:00.020
+And literally with three lines of code and of course I'm not counting setting up this mean height and
+
+08:00.020 --> 08:03.430
+whatever whether we would like to have some background or background image.
+
+08:03.440 --> 08:03.920
+OK.
+
+08:04.040 --> 08:04.880
+I'm not counting that.
+
+08:04.910 --> 08:10.560
+So technically I'm a little bit cheating but the whole idea is very simple with three lines of code.
+
+08:10.610 --> 08:12.790
+We are setting up this in a center.
+
+08:12.870 --> 08:18.700
+And believe me prior to flex box it was much much more painful in order to do that.
+
+08:19.250 --> 08:26.090
+So that's the beauty of the Flex box where even though we have the grid and we can of course use the
+
+08:26.090 --> 08:34.310
+grid later on once we cover it I do still find it flex box very useful because it allows me to set some
+
+08:34.460 --> 08:37.370
+type of layouts very very quickly.
+
+08:37.370 --> 08:42.470
+Now lastly like I said I would like to cover how we can background attachment fixed.
+
+08:42.470 --> 08:46.090
+So why don't we do this let's say right after the header.
+
+08:46.700 --> 08:54.250
+I'm gonna go with Dev on that has a class of banner banner linked so I'm gonna leave it empty.
+
+08:54.400 --> 09:01.600
+And as far as banner is concerned again I'm gonna go with banner main height is going to be again hundred
+
+09:01.600 --> 09:09.100
+v height just so I can see that it is a hundred percent of the screen background is going to be color
+
+09:09.140 --> 09:12.280
+of I don't know blue and.
+
+09:12.280 --> 09:13.130
+Like so.
+
+09:13.300 --> 09:21.130
+And then you'll notice that is going to be of course my banner and then let's set up a background attachment
+
+09:21.640 --> 09:23.290
+for my image.
+
+09:23.290 --> 09:25.380
+And again this has nothing to do with the flex box.
+
+09:25.390 --> 09:30.410
+This is just has this attachment effect that creates that parallax effect.
+
+09:30.610 --> 09:38.740
+So background attachment fixed and once we set it up for our hero a number does not put a banner.
+
+09:38.740 --> 09:39.890
+This is for the hero.
+
+09:39.910 --> 09:46.780
+Now this gives you as you can see as we're scrolling we have this parallax effect where before if we
+
+09:46.780 --> 09:53.130
+don't have it as you can see the whole page scrolls the same way but if we have this background attachment
+
+09:53.130 --> 09:56.110
+a fixed well we do have this parallax effect.
+
+09:56.140 --> 10:01.970
+Now we do need to be careful though because some forms do not support us.
+
+10:02.260 --> 10:08.380
+So when you're setting this up as you're looking at your project on a phone while the phones are not
+
+10:08.380 --> 10:09.240
+going to support it.
+
+10:09.270 --> 10:14.800
+So you need to be careful about that but like I said our main goal was to show that with three lines
+
+10:14.800 --> 10:21.070
+of code now that we know in fact flex box well we can set up everything in the center whether that's
+
+10:21.070 --> 10:22.870
+horizontally or vertically.

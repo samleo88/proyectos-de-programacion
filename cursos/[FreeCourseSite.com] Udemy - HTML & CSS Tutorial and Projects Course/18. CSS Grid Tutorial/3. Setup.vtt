@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.300 --> 00:03.020
+Before we can take a look at CSX grid syntax.
+
+00:03.020 --> 00:05.760
+First and foremost we're going to need our setup.
+
+00:05.880 --> 00:08.060
+Now if you don't feel like working on a setup.
+
+00:08.190 --> 00:13.530
+Just head over to the resources of this video and you're gonna be able to find the source code.
+
+00:13.560 --> 00:16.530
+Now the setup is going to be very very short.
+
+00:16.590 --> 00:20.340
+So why don't we start working on it now first and foremost.
+
+00:20.340 --> 00:28.650
+I'm going to create a folder and I'm going to name my folder grid tutorial but of course naming is really
+
+00:28.650 --> 00:32.170
+up to you to torrio.
+
+00:32.230 --> 00:32.860
+All right.
+
+00:32.860 --> 00:34.940
+I have my tutorial now.
+
+00:35.410 --> 00:40.240
+Now I would like to of course open up my text editor drag and drop it there.
+
+00:41.140 --> 00:49.280
+Then within a text that are let's create index CML as well as style CSM styles.
+
+00:49.310 --> 00:50.030
+Yes.
+
+00:50.440 --> 00:57.420
+Then within the indexation email we can scaffold right away our the email setup or basic change the
+
+00:57.560 --> 01:02.010
+email structure by just pressing the exclamation mark.
+
+01:02.120 --> 01:03.260
+And there you go.
+
+01:03.310 --> 01:07.120
+We have our Asian email setup now within the HDMI.
+
+01:07.120 --> 01:19.030
+Why don't we write let's say as a title grid tutorial to draw your and then we also would like to have
+
+01:19.090 --> 01:24.160
+our linked tags because we would like to link these styles to assess That's right.
+
+01:24.160 --> 01:26.350
+Link styles.
+
+01:26.360 --> 01:29.190
+See it says we have linked it correctly.
+
+01:29.380 --> 01:32.730
+And then I also like to spin up my local dev server.
+
+01:32.860 --> 01:39.110
+Now for that I'm going to use my extension my the name of preview on the web server.
+
+01:39.290 --> 01:43.320
+Or you could also of course use the live server if you want it.
+
+01:43.450 --> 01:44.200
+All right.
+
+01:44.200 --> 01:51.370
+Now like I said preview on a web server that is going to be my choice and for my default browser I already
+
+01:51.370 --> 01:54.160
+have the Firefox developer edition.
+
+01:54.370 --> 01:57.510
+You can use Chrome you can use a regular Firefox.
+
+01:57.520 --> 01:59.240
+It's really up to you.
+
+01:59.260 --> 02:07.070
+The reason why I would suggest using Firefox browser is the fact that it has a nicer dev tools.
+
+02:07.210 --> 02:13.660
+As far as says grid is concerned but you can follow along also with a Google Chrome.
+
+02:13.660 --> 02:15.080
+It's really up to you.
+
+02:15.130 --> 02:21.650
+So in order to spin it up I'm going to right click it and then I have an option of launch on the browser.
+
+02:21.660 --> 02:21.950
+All right.
+
+02:22.330 --> 02:26.710
+Now I also of course have the shortcut but I'm going to use it this time.
+
+02:27.070 --> 02:32.980
+Then once I launched my dev server I'm going to set up my smaller browser windows side by side with
+
+02:32.980 --> 02:34.710
+my text to her.
+
+02:34.710 --> 02:36.350
+That's number one.
+
+02:36.550 --> 02:39.580
+And then I'm going to also close this welcome tag.
+
+02:39.640 --> 02:41.000
+I don't think I need it.
+
+02:41.080 --> 02:46.030
+I can make my side much smaller and essentially close it altogether.
+
+02:46.030 --> 02:47.380
+That's that.
+
+02:47.410 --> 02:50.840
+Then within the body why don't we create a container.
+
+02:51.010 --> 02:56.640
+So why we say there's going to be a div by the class of container and then also two more days.
+
+02:56.800 --> 03:02.650
+Now for these particular there is I'm gonna use a little bit of I'm at magic where I'm gonna set up
+
+03:02.650 --> 03:09.370
+post the class but then as a text within this particular div I'm gonna write cell and then let's just
+
+03:09.370 --> 03:10.410
+get a number of.
+
+03:10.410 --> 03:14.210
+So in this case we're going to create only two of them.
+
+03:14.650 --> 03:20.770
+So no biggie later on this particular code can help us to let's say create 15 selves.
+
+03:21.570 --> 03:22.510
+Okay.
+
+03:22.540 --> 03:25.340
+Now I do have my indexation AML.
+
+03:25.480 --> 03:31.810
+And lastly I'm just gonna add a style tax now within the staff tax as we're progressing through the
+
+03:31.810 --> 03:32.740
+tutorial.
+
+03:32.860 --> 03:39.370
+I'm going to write my C here because I find it more useful where our general setup is within ELC assessed
+
+03:39.820 --> 03:45.160
+but then whatever styles as far as greatest concern we're going to add it in the indexation shameful
+
+03:45.520 --> 03:48.780
+is that where you can write away c how many children we have.
+
+03:48.790 --> 03:50.860
+What is our overall setup.
+
+03:50.860 --> 03:52.890
+And along those lines.
+
+03:52.900 --> 03:53.590
+All right.
+
+03:53.590 --> 04:00.460
+Now of course as you would normally within your project well you're gonna use the style C as this or
+
+04:00.460 --> 04:06.490
+any kind of stat sheet but for this particular scenario I'm going to use in fact the style tax within
+
+04:06.490 --> 04:07.330
+the indexation.
+
+04:07.870 --> 04:14.760
+Now once we have that setup then let's head over to style C assess and let's do a reset.
+
+04:15.070 --> 04:15.390
+Okay.
+
+04:16.080 --> 04:25.690
+Where we have a margin of zero then padding of zero as well as box sizing is going to be a boring box.
+
+04:25.720 --> 04:33.630
+Now the reason why I'm going with a broader box is because when we have box sizing with a value of more
+
+04:33.630 --> 04:40.080
+box if we have some kind of width for the element and in formatting let's say for example padding my
+
+04:40.170 --> 04:42.670
+element is not gonna get bigger.
+
+04:42.670 --> 04:43.020
+Okay.
+
+04:43.440 --> 04:50.940
+Now what else I have within the ELC Asus I would want probably to select the body and then add some
+
+04:50.940 --> 05:01.250
+fun family and not fun display on family and I'm going to go with Madonna then let's have maybe a colour
+
+05:01.940 --> 05:05.300
+and colour is going to be hashtag to the tune.
+
+05:05.420 --> 05:07.400
+Well that's my set up for the body.
+
+05:07.400 --> 05:13.370
+And then why don't we target in fact the container first and foremost let's target the container and
+
+05:13.370 --> 05:16.670
+what I would like to do is add a border all around.
+
+05:16.670 --> 05:25.660
+So I'm gonna say five pixels solid now colour is up to you I'm gonna go with black and there you go.
+
+05:25.790 --> 05:33.470
+We have our border as well as last thing that I would like to do within our general staff says is to
+
+05:33.470 --> 05:35.760
+have some kind of styling for the cell.
+
+05:35.960 --> 05:39.900
+So each and every grid item well eventually grid item.
+
+05:39.980 --> 05:43.110
+Currently it's just a div with a glass of cell.
+
+05:43.730 --> 05:52.930
+So let's say sell some targeting each and every cell and I'm gonna add some padding to our Ms.
+
+05:52.940 --> 05:56.590
+Why don't we add some background and for the background.
+
+05:56.630 --> 05:58.190
+I'm gonna go with the EDA.
+
+05:58.190 --> 06:09.680
+The hash tag of course for my hex colour text transform I could go with uppercase for case what else
+
+06:10.520 --> 06:21.070
+font weight is going to be bold and then I have text align center and then lastly I'm also going to
+
+06:21.060 --> 06:28.380
+add a border around each and every cell just so we can clearly see where one cell ends and the other
+
+06:28.380 --> 06:29.420
+one starts.
+
+06:29.660 --> 06:38.420
+So let's go with border one pixel solid again colouring is up to you I'm going to go with the red and
+
+06:38.430 --> 06:42.960
+there you go there are my container with my cells.
+
+06:42.960 --> 06:47.910
+Now lastly I would also want to point it out that throughout tutorial I'm going to zoom in and zoom
+
+06:47.910 --> 06:50.130
+out depending on situation.
+
+06:50.280 --> 06:53.970
+Just so you can see clear of overall setup.
+
+06:53.990 --> 06:54.330
+All right.
+
+06:54.720 --> 06:56.190
+Now this is it.
+
+06:56.190 --> 07:03.300
+We have our setup we have our email we have our sources and we are ready to deep dive into wonderful
+
+07:03.300 --> 07:05.220
+world of seeing says grid.

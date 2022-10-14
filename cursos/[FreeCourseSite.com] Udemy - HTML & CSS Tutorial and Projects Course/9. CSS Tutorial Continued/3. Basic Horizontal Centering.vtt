@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.090 --> 00:00.680
+All right.
+
+00:00.720 --> 00:05.630
+We know what is the display property however probably your next question is.
+
+00:05.730 --> 00:11.490
+Well where we can use that knowledge that we know that some elements are going to be block and some
+
+00:11.490 --> 00:13.530
+of them are going to be in line.
+
+00:13.560 --> 00:19.210
+Now just to look at a very basic example let's look at a horizontal center.
+
+00:19.260 --> 00:24.120
+Now I can tell you right away that the moment you're going to learn everything about flex box and the
+
+00:24.120 --> 00:31.190
+grid those are probably going to be your go to things for centering whether horizontally or verdict.
+
+00:31.860 --> 00:39.270
+However we can look at some basic examples where we can just do it with good old regular CSX so let's
+
+00:39.270 --> 00:41.910
+start first by getting rid of this display in line.
+
+00:42.360 --> 00:47.370
+So let's keep them the way they are the way they have been created right away by default.
+
+00:47.850 --> 00:55.020
+So I'm gonna get out of business play block and now I'm just gonna say so how we can horizontally center
+
+00:55.470 --> 00:59.230
+whatever we're dealing with a block element more in line.
+
+00:59.610 --> 01:01.860
+Well first of all let's work with the parent.
+
+01:01.920 --> 01:02.880
+So what is the parent.
+
+01:02.880 --> 01:05.010
+Well the parent would be body.
+
+01:05.010 --> 01:06.730
+I'm gonna head over back to the body.
+
+01:06.780 --> 01:07.320
+I'm sorry.
+
+01:07.350 --> 01:08.240
+Yes yes.
+
+01:08.250 --> 01:10.200
+And I'm gonna select the whole body.
+
+01:10.200 --> 01:15.620
+Now the moment I'm gonna write text a line because we know that was the property to actually center
+
+01:15.670 --> 01:16.340
+a text.
+
+01:16.500 --> 01:18.220
+Notice what's gonna happen.
+
+01:18.390 --> 01:24.750
+So the moment I SAVE IT FOR THE BLOCK elements only the text is gonna be centered but they're still
+
+01:24.750 --> 01:29.220
+not gonna be centered because they're spanning from one side all the way to another side.
+
+01:29.940 --> 01:32.030
+However once I make the screen bigger.
+
+01:32.160 --> 01:38.460
+Notice the inline elements we can horizontally center by just using this text aligned properly.
+
+01:38.610 --> 01:44.100
+However for the ones that are by default block only the text is gonna be in center.
+
+01:44.250 --> 01:50.850
+So your next question probably will be well but how can we center the block level elements or block
+
+01:50.850 --> 01:51.430
+elements.
+
+01:51.810 --> 01:53.510
+Well let's figure it out.
+
+01:53.740 --> 01:54.810
+So you know what.
+
+01:54.810 --> 01:58.070
+Let me make this decent size not too big not too small.
+
+01:58.230 --> 01:59.400
+And then let's look at them.
+
+01:59.400 --> 02:02.130
+So I have block level elements.
+
+02:02.130 --> 02:04.410
+Why don't I add some with here.
+
+02:04.620 --> 02:12.510
+So I'm going to say for all my block elements I'm going to have a with I don't know 150 pixels.
+
+02:12.540 --> 02:13.610
+Let's see what's gonna happen.
+
+02:14.100 --> 02:18.710
+So I have my block elements all of them with we hundred and fifty pixels.
+
+02:19.170 --> 02:25.020
+And the way we can center them horizontally is by using the margin property that we already covered
+
+02:25.080 --> 02:26.910
+in the CSX model.
+
+02:26.910 --> 02:30.180
+And the way we're going to right this is gonna be margin.
+
+02:30.180 --> 02:38.400
+Then remember we had an option of having a top bottom margin left and right margin now for the top bottom.
+
+02:38.400 --> 02:41.430
+We can write whatever you would like but in my case I'm just gonna write zero.
+
+02:41.720 --> 02:48.110
+But again please remember you can write 50 pixels or 500 pixels it doesn't really matter in this situation.
+
+02:48.150 --> 02:55.770
+What's more interesting is that we can write with left and right auto now what's auto gonna do is it's
+
+02:55.770 --> 02:58.360
+literally right away going to place it in the center.
+
+02:58.410 --> 03:04.140
+So right now if I have margin zero this is the reason why they're stacked one on top of each other but
+
+03:04.170 --> 03:11.280
+what's neat is that they are in fact in the center because now I have some with and I add at the margins.
+
+03:11.280 --> 03:16.290
+Now if you don't believe me let me add and not 20 pixels and now this is gonna be top.
+
+03:16.290 --> 03:16.740
+I'm sorry.
+
+03:16.770 --> 03:16.980
+Yeah.
+
+03:16.980 --> 03:18.200
+Top and bottom.
+
+03:18.360 --> 03:23.010
+Now if you're a little bit confused about his auto we could have rewrote this a little bit differently
+
+03:23.350 --> 03:27.870
+we could have said it like this much just getting rid of the margins and let's just write for all of
+
+03:27.870 --> 03:31.200
+them we're going to have margin then we're looking for left.
+
+03:31.200 --> 03:32.650
+And then again we use the auto.
+
+03:33.120 --> 03:38.510
+So in this case this is gonna push it all the way to the right hand side because the left margin is
+
+03:38.510 --> 03:39.920
+gonna be left for auto.
+
+03:40.020 --> 03:45.230
+And then if I'm gonna copy pasted and if we're gonna say let's say margin right is gonna be auto.
+
+03:45.300 --> 03:46.890
+Now this is gonna be in center.
+
+03:46.980 --> 03:53.040
+So it does this exactly the same thing without top and bottom margin but just works with a horizontal
+
+03:53.040 --> 03:53.990
+margins.
+
+03:54.000 --> 03:58.890
+Now obviously if you don't believe me I can just come on this out and now this is gonna be all the way
+
+03:58.890 --> 04:03.660
+in the left hand side because margin right is gonna be auto right over here but that would be the default
+
+04:03.660 --> 04:04.370
+setup anyway.
+
+04:04.380 --> 04:10.020
+So if I'm going to come on this out it's gonna look exactly the same way but if we would want to place
+
+04:10.020 --> 04:17.940
+in a center the inline element we can use text align center and for the block level element we would
+
+04:17.940 --> 04:25.200
+want to use again let me write this same margin and again in this case maybe 20 pixels and left and
+
+04:25.200 --> 04:30.180
+right is gonna be auto on you'll see this a lot where we are using is in order to center it.
+
+04:30.840 --> 04:37.050
+But again let me repeat that the moment you're gonna learn the CSX flex box as well as CSX grid you
+
+04:37.050 --> 04:43.590
+most likely will gonna use them for centering because once you learn them they offer you more options
+
+04:43.860 --> 04:45.710
+and they are a little bit more straightforward.

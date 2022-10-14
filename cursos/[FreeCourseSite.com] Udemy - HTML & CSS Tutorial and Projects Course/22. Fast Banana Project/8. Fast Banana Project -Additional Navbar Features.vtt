@@ -1,0 +1,814 @@
+WEBVTT
+
+00:00.060 --> 00:06.930
+And now that we have added a toggle bottom or here on the top there's actually few more things that
+
+00:06.930 --> 00:09.850
+I would want to do with a nav bar.
+
+00:09.870 --> 00:15.750
+First of all I would want to hide these links here by default right so they wouldn't be showing because
+
+00:15.750 --> 00:21.600
+right now at the moment we go to the smaller screen or here you can see that once we actually go to
+
+00:21.600 --> 00:25.360
+the small screen you can see right away that we have the links or here right.
+
+00:25.500 --> 00:26.580
+That would be the first thing.
+
+00:26.580 --> 00:29.060
+Right so I would actually want to hide them by default.
+
+00:29.280 --> 00:36.300
+Then I would actually want that as we're scrolling down are now bar actually stays in a document right
+
+00:36.300 --> 00:38.140
+so it can always click two things.
+
+00:38.280 --> 00:41.210
+And then the last thing I would want a smooth scrolling.
+
+00:41.310 --> 00:44.900
+Now you can see right away that this video I'm recording actually later.
+
+00:44.970 --> 00:45.170
+Right.
+
+00:45.180 --> 00:48.120
+Because you can see that I already have a few sections on here.
+
+00:48.290 --> 00:54.300
+However it doesn't mean that we're not going to be following in order with the next sections right because
+
+00:54.300 --> 01:00.400
+these things we can add any time and I was actually debating whether to include this or not.
+
+01:00.400 --> 01:06.870
+Because if it includes javascript and trickery but as you can see that I finally actually decided to
+
+01:06.870 --> 01:12.060
+include this so don't worry that you see things that you're going to be actually creating and next videos
+
+01:12.480 --> 01:18.550
+because again this is not going to mess up or order or in any way or shape or form.
+
+01:18.750 --> 01:22.870
+So the first thing that I would do I would want to hide this by default.
+
+01:23.130 --> 01:24.670
+It's actually very simple.
+
+01:24.750 --> 01:29.340
+I'm going to go back to my sources over here and you can see that I have a now.
+
+01:29.630 --> 01:32.250
+Well over here like this one that has a list.
+
+01:32.310 --> 01:33.750
+I have none right.
+
+01:33.750 --> 01:38.840
+And you can see why I'm interested in this guy here right because I would want to hear this now.
+
+01:38.870 --> 01:39.660
+Logan right.
+
+01:39.810 --> 01:41.340
+But these links I wouldn't want.
+
+01:41.360 --> 01:41.690
+Right.
+
+01:41.730 --> 01:46.920
+These ones I would want to hide so I'm going to say we're here right away by default since we have a
+
+01:46.920 --> 01:48.540
+more biol first design.
+
+01:48.540 --> 01:54.740
+Right so we're designing for I'm going to say we're here to play and I'm going to say none of this.
+
+01:54.810 --> 01:55.320
+Right.
+
+01:55.350 --> 01:56.160
+Simple enough.
+
+01:56.200 --> 01:59.340
+And now you can see that by default it's not showing.
+
+01:59.520 --> 02:05.030
+However the moment I actually have it all here right you can see that it's actually popping up all right.
+
+02:05.040 --> 02:10.830
+So this is how I would want the next thing that I would want is actually have it over here right.
+
+02:11.020 --> 02:16.200
+You see or hear these phantasm and you can see that right now they are separate links right.
+
+02:16.200 --> 02:18.750
+Actually I want them in one separate line.
+
+02:18.870 --> 02:21.360
+So the way I'm going to do this I'm going to over here.
+
+02:21.380 --> 02:27.370
+This is going to be a hash tag and have then you l l y and I'm going to say last of type.
+
+02:27.480 --> 02:27.890
+Right.
+
+02:27.960 --> 02:33.420
+Because if you are going to go back all you can see that this class Elyot class is actually the last
+
+02:33.540 --> 02:34.140
+line.
+
+02:34.370 --> 02:40.920
+So I'm going to say we're here and this is going to be a last of type here last type and all here we're
+
+02:41.100 --> 02:47.290
+going to write first we're going to say this play and I'm going to say flex on me like this.
+
+02:47.360 --> 02:53.500
+Then we're going to have a justified content and we're going to say let's say space between here like
+
+02:53.700 --> 02:56.880
+this and you can see that we have few options right.
+
+02:56.880 --> 03:00.670
+We actually at the end we might actually delete this just can't.
+
+03:00.680 --> 03:07.410
+And if you don't like it or here we're just going to have a background and we're going to say is the
+
+03:07.410 --> 03:09.020
+background is going to be discarded.
+
+03:09.210 --> 03:13.020
+And so that's one way how to actually do this and say background.
+
+03:13.170 --> 03:17.380
+I'm going to say the same as legs over here so it can be too easy.
+
+03:17.560 --> 03:21.640
+And I now have 2 8 2 and that's going to be another.
+
+03:21.840 --> 03:23.130
+Well that's right.
+
+03:23.140 --> 03:26.130
+So this would be one way how we could actually do this.
+
+03:26.130 --> 03:29.370
+Now the issue here is maybe you don't like that as you were hovering right.
+
+03:29.490 --> 03:31.950
+You can see that that technically the links are so small.
+
+03:31.960 --> 03:32.600
+Right.
+
+03:32.670 --> 03:38.760
+So in order to do that I could actually if I would want them to be actually spanning all across I could
+
+03:38.760 --> 03:41.420
+actually read or hear a comment.
+
+03:41.630 --> 03:41.920
+Right.
+
+03:41.970 --> 03:46.310
+And what I'm going to do here I'm going to come in these background colors on like this.
+
+03:46.320 --> 03:46.630
+Right.
+
+03:46.630 --> 03:48.850
+So I'm going to come and this one out.
+
+03:49.100 --> 03:56.100
+And actually what I can do is I can have a last of type and I can work with the legs because links are
+
+03:56.100 --> 03:59.580
+children or here of this last of Type II.
+
+03:59.630 --> 04:00.170
+All right.
+
+04:00.170 --> 04:02.180
+So I'm going to say copy and I'm used.
+
+04:02.230 --> 04:07.680
+I'm going to use the flex properties and it's the last of type A more here and this but I'm going to
+
+04:07.680 --> 04:08.780
+say flex.
+
+04:08.820 --> 04:10.790
+Now I'm going to say one more here right.
+
+04:10.800 --> 04:15.990
+And I can see that they're growing as much as they have to or here I'm going right and they shouldn't
+
+04:15.990 --> 04:17.330
+shrink at all.
+
+04:17.330 --> 04:19.010
+All right so they shouldn't be like this.
+
+04:19.180 --> 04:20.990
+And here hero can just say.
+
+04:21.030 --> 04:21.570
+All right.
+
+04:21.570 --> 04:24.380
+So Flex braces is going to be an or here.
+
+04:24.390 --> 04:26.980
+Another thing that I would want maybe text a line.
+
+04:27.150 --> 04:29.410
+I'm going to say center like this.
+
+04:29.430 --> 04:31.040
+No not inherit.
+
+04:31.050 --> 04:32.460
+I'm going to say central here.
+
+04:32.460 --> 04:33.040
+Right.
+
+04:33.120 --> 04:39.060
+And you can see what happens right now as I'm hovering right I actually have the actual link.
+
+04:39.320 --> 04:39.780
+All right.
+
+04:39.980 --> 04:47.060
+And you can see that actual link is taking up the block right now just a small piece of a lie.
+
+04:47.220 --> 04:52.910
+And again if you don't like this kind of you you can obviously go with the just if I counted spade spacing
+
+04:52.910 --> 04:58.260
+between back right and again the nice thing is that this is going to be happening by default.
+
+04:58.260 --> 04:58.770
+Right.
+
+04:58.770 --> 05:01.440
+So it's actually hiding first.
+
+05:01.480 --> 05:10.180
+Now the next thing that I would want to do is actually work here with the fact that the actual were
+
+05:10.180 --> 05:14.680
+here this not by right I would actually want it to show.
+
+05:14.680 --> 05:14.940
+Right.
+
+05:14.940 --> 05:16.430
+So has them scrolling now.
+
+05:16.620 --> 05:21.370
+I would want this to show actual number and how I would do that.
+
+05:21.450 --> 05:25.550
+I mean first of all what I'm going to do is I'm going to create a new class right.
+
+05:25.610 --> 05:31.700
+I'm going to go here the last class I'm going to say or here new and I'm going to say Now have you.
+
+05:31.700 --> 05:38.230
+Now for you and for this class I'm going to say position and I'm going to say fixed fixed door here
+
+05:38.620 --> 05:42.360
+then I'm going to say with that I would want a hundred you.
+
+05:42.520 --> 05:44.490
+You were all like this.
+
+05:44.680 --> 05:45.940
+And then the z index.
+
+05:45.970 --> 05:48.790
+I'm going to say 10 right and I got it.
+
+05:48.790 --> 05:51.340
+I'm going to show all these things why am I doing them right.
+
+05:51.340 --> 05:52.390
+One by one.
+
+05:52.480 --> 05:53.440
+Important.
+
+05:53.440 --> 05:57.820
+All right here we would need to add important just override it like this.
+
+05:57.970 --> 06:04.000
+And then we save it and now I would want to do is I would want to apply this class to the now more as
+
+06:04.000 --> 06:05.660
+I'm starting to scroll down.
+
+06:05.800 --> 06:12.710
+So not just by default I actually want to scroll a little bit and then add this class to the nav bar.
+
+06:12.730 --> 06:18.480
+So the way I would do that I would actually go to the script and I'm going to have to write some rules
+
+06:18.720 --> 06:19.780
+here.
+
+06:20.050 --> 06:26.700
+And the first thing that I'm going to say is how do I want to select the when no it's I'm going to say
+
+06:26.730 --> 06:31.920
+a dollar sign here I'm going to write and we know that I'm going to say scroll.
+
+06:32.040 --> 06:38.280
+So this is going to be the scroll method here scroll like this and then I'm going to write a function.
+
+06:38.480 --> 06:38.710
+Right.
+
+06:38.770 --> 06:45.020
+So something should happen as I'm scrolling and the function you can see in this is going to be a an
+
+06:45.060 --> 06:46.680
+animal's function.
+
+06:46.880 --> 06:49.030
+And here I'm going to create a variable.
+
+06:49.150 --> 06:54.170
+I'm going to call the scroll and I'm going to set it equal to and on here this is going to be again
+
+06:54.470 --> 06:59.780
+the other side window here and I'm selecting window and scroll up.
+
+06:59.800 --> 07:04.640
+So basically I'm saying what's the position at the point of scrolling right.
+
+07:04.730 --> 07:08.710
+See I'm getting a scroll of position in this back.
+
+07:08.750 --> 07:11.970
+Now I would want to have a conditional statement.
+
+07:12.010 --> 07:19.300
+This is going to say if we're here and I'm going to say scroll and the scroll is bigger or equal to
+
+07:19.300 --> 07:22.230
+70 70 pixels basically right.
+
+07:22.350 --> 07:27.210
+So in the moment as I'm scrolling down something should happen and the way I'm going to write over here.
+
+07:27.230 --> 07:33.490
+All right I'm going to say that again I'm going to select all here this time than have a right to see
+
+07:33.490 --> 07:36.900
+or hear him on the second half and I'm going to add the class of new.
+
+07:36.920 --> 07:37.460
+Now.
+
+07:37.490 --> 07:44.650
+The class that we just created and on here I'm just going to say at class here and I'm going to say
+
+07:44.740 --> 07:48.900
+you know you new here on here.
+
+07:48.940 --> 07:52.390
+Then the moment I scroll back I actually want to take away that class.
+
+07:52.390 --> 07:52.930
+All right.
+
+07:52.930 --> 07:55.420
+So if statement and then I will have.
+
+07:55.410 --> 08:02.200
+Else we're going to pull some are calling here or here I'm going to say else and we're going to say
+
+08:02.200 --> 08:03.840
+that same thing.
+
+08:03.850 --> 08:05.960
+Just wanted to remove this class.
+
+08:06.260 --> 08:12.680
+So I'm going to copy and paste this like this and I'm going to say removed because not that class or
+
+08:12.830 --> 08:19.710
+the class so I'm going to say remove class really this and maybe let's delete this class.
+
+08:19.720 --> 08:25.620
+So again I'm going to say this right now we can go back over here and we can just refresh right.
+
+08:25.810 --> 08:31.600
+And the moment you can see that as I scroll down to more than 70 or here like this and you can see that
+
+08:31.600 --> 08:37.190
+right now my bar right away is actually popping up right.
+
+08:37.330 --> 08:41.390
+And not only it's popping out but I can see that as I'm scrolling it actually stays right.
+
+08:41.440 --> 08:42.490
+So what we do though.
+
+08:42.570 --> 08:43.140
+Right.
+
+08:43.390 --> 08:47.730
+So let's go back to Mencius it's like you can see or hear this was our javascript right.
+
+08:47.760 --> 08:54.580
+So this basically we just said that we would want to had this class only on condition I was calling.
+
+08:54.660 --> 08:58.660
+But let's look at what actually we added in this class right now.
+
+08:58.980 --> 09:00.860
+So we said position fixed.
+
+09:00.890 --> 09:01.420
+Right.
+
+09:01.420 --> 09:07.820
+So this was basically what it said was all here that we would want it in a fixed position.
+
+09:07.820 --> 09:11.900
+All right so I'm going here I'm going to come in these ones out we can say this right.
+
+09:11.920 --> 09:17.740
+Basically what I'm saying is that as I'm starting to scroll on here I would want to in a fixed position
+
+09:17.740 --> 09:19.360
+right so it always does.
+
+09:19.360 --> 09:26.150
+Now what do we need to do is we would need to have the width for this exposition to be 100 view with.
+
+09:26.350 --> 09:29.170
+That's why we have a with 100 units.
+
+09:29.200 --> 09:30.410
+So it's uncommon.
+
+09:30.470 --> 09:31.900
+Right let's say this.
+
+09:32.050 --> 09:35.490
+And the last thing that I would want to do here why I have the xenix.
+
+09:35.560 --> 09:36.070
+All right.
+
+09:36.070 --> 09:38.230
+So let's start starting to scroll right.
+
+09:38.350 --> 09:41.120
+And you can see that I'm actually going behind that right.
+
+09:41.200 --> 09:42.790
+You can see especially this one right.
+
+09:42.790 --> 09:44.260
+It totally disappears.
+
+09:44.440 --> 09:47.620
+So therefore we're using the z index right.
+
+09:47.740 --> 09:53.590
+Basically get then have to actually be on top of the elements right.
+
+09:53.590 --> 09:55.180
+Not going on the right.
+
+09:55.270 --> 10:01.320
+So you can see on the right now as I'm going I need to go over here that I have this little issue where
+
+10:01.320 --> 10:06.170
+let's say if you want one I remember how we got rid of the icons actually in the beginning.
+
+10:06.170 --> 10:06.680
+Right.
+
+10:06.690 --> 10:12.510
+So let's say if we wouldn't want these icons over here now what we would need to do is since we selected
+
+10:12.510 --> 10:19.260
+over here last of type here like this with this tree right now what we would need to do is I'm going
+
+10:19.260 --> 10:25.900
+to copy this and we're going to go back over here and Rivara we have a display nonne or here for nav
+
+10:25.910 --> 10:26.580
+icons.
+
+10:26.640 --> 10:28.400
+We're actually going to override this.
+
+10:28.420 --> 10:32.910
+All right so we're going to say we're here we're going to do this and we're going to copy this one right.
+
+10:33.060 --> 10:37.470
+So we're going to have a map you high on here.
+
+10:37.510 --> 10:38.090
+You know what.
+
+10:38.240 --> 10:39.770
+It was the wrong one.
+
+10:39.780 --> 10:43.070
+My apologies we need oh here last of type.
+
+10:43.090 --> 10:44.440
+These guys what we need.
+
+10:44.550 --> 10:47.790
+So I'm going to say on here last of type and that's going to be a display of.
+
+10:48.030 --> 10:49.500
+If you don't want the icons.
+
+10:49.490 --> 10:50.400
+All right.
+
+10:50.400 --> 10:54.210
+So again we had a display name for the Taliban.
+
+10:54.210 --> 10:55.780
+Now we have for last of.
+
+10:55.970 --> 10:57.370
+So I'm going to say this.
+
+10:57.380 --> 10:58.740
+And now we are fresh.
+
+10:58.840 --> 11:00.840
+Now I can see that the icons are gone.
+
+11:01.050 --> 11:04.500
+So if you don't want the icons right this is the way to go.
+
+11:04.710 --> 11:09.440
+Now another thing that I would want to do is actually you can see that as I'm pressing them right.
+
+11:09.630 --> 11:13.580
+Actually we can obviously get the links to the certain section right.
+
+11:13.590 --> 11:21.510
+And the way we do that would go here for the index and for the ATRA Obviously instead of a having a
+
+11:21.510 --> 11:26.630
+dummy link like this right just with the hash tag what we can do is we can obviously have the idea what's
+
+11:26.650 --> 11:28.330
+going to be the name of the section.
+
+11:28.410 --> 11:32.990
+And honestly again I keep repeating we already created these sections and later videos.
+
+11:33.070 --> 11:36.810
+And I said don't worry about them we're going to be going over them and you will see where I'm getting
+
+11:36.810 --> 11:37.890
+these ideas.
+
+11:37.890 --> 11:44.670
+All right so the basic idea is it doesn't matter what kind of ID you give it for your section when because
+
+11:44.670 --> 11:46.980
+later on you can see icons section.
+
+11:47.010 --> 11:50.070
+Is going to be a section you can see how we're going to be doing.
+
+11:50.120 --> 11:50.530
+All right.
+
+11:50.640 --> 11:57.810
+So as we're going to be adding up the IDs right we can actually add these ideas to the ATRA.
+
+11:57.810 --> 11:58.320
+Right.
+
+11:58.350 --> 12:02.980
+So basically where this link is going to go right so this is going to go to the banner.
+
+12:02.970 --> 12:05.470
+This is going to go to skills and this is going to go for.
+
+12:05.940 --> 12:09.990
+And for now what you see is if I press to link.
+
+12:10.040 --> 12:10.320
+All right.
+
+12:10.350 --> 12:13.520
+It actually jumps or your services portfolio right.
+
+12:13.680 --> 12:14.940
+It keeps jumping.
+
+12:14.940 --> 12:20.850
+Now what I would want to do is actually have a smooth scroll and the way we do that with the jack wiring.
+
+12:20.870 --> 12:22.520
+All right so going to check it out.
+
+12:22.520 --> 12:28.380
+So this is going to be the end of this on your statement and rule and on here we're going to write that
+
+12:28.380 --> 12:36.000
+this is going to be a dollar sign and we are going to say have a and will say click on it so as we're
+
+12:36.000 --> 12:42.390
+clicking the links on nav right now we're going to we're going to write a function and again this is
+
+12:42.390 --> 12:46.060
+going to be a unanimous function or here I'm just going to write.
+
+12:46.080 --> 12:51.270
+Let's say that this is going to be I don't know any kind of any kind of whatever parameter you would
+
+12:51.270 --> 12:51.620
+want.
+
+12:51.640 --> 12:52.220
+Right.
+
+12:52.260 --> 12:55.350
+So I would say oh here I'm going to write a link like this.
+
+12:55.350 --> 12:56.010
+Right.
+
+12:56.010 --> 13:01.110
+And the way I'm going to write it that this is going to be a link and first that I would want is prevent
+
+13:01.110 --> 13:02.240
+default.
+
+13:02.240 --> 13:06.420
+And so basically I wanted to go to you are all on this.
+
+13:06.600 --> 13:12.930
+Once we have a prevent default then or here this is going to be let's say that this is going to be another
+
+13:13.320 --> 13:14.580
+variable that I'm creating.
+
+13:14.650 --> 13:16.170
+So say I'm going to say Target.
+
+13:16.300 --> 13:16.830
+Right.
+
+13:16.840 --> 13:18.410
+So this is where I would want to go.
+
+13:18.660 --> 13:27.010
+I know here since I'm selecting multiple links and Jake where is returning or hear me a list of them
+
+13:27.010 --> 13:34.980
+mine I can select each one by actually using this right here I'm going to say attribute right or here
+
+13:34.980 --> 13:38.460
+I'm just going to say if I'm reading this right.
+
+13:38.460 --> 13:43.640
+So basically what I'm saying is I'm getting back the actual atra.
+
+13:43.910 --> 13:47.300
+So this is going to be this attribute of a tree.
+
+13:47.700 --> 13:52.060
+And once we have this well here and the next thing that I'm going to say is this is going to be Dollar
+
+13:52.060 --> 13:58.910
+Sign this is going to be a HMO and the body both of them for the amount of money.
+
+13:59.070 --> 14:06.550
+And I'm just going to add a animate animate here and we're all going to have a parentheses here we're
+
+14:06.590 --> 14:15.290
+going to have an object and I'm really going to have a property of scroll top scroll here top doing
+
+14:15.290 --> 14:17.690
+this and then we're going to say we're here like this.
+
+14:17.690 --> 14:18.390
+Right.
+
+14:18.410 --> 14:27.380
+So for the target this woman is a target and we're going to place or hear this variable same one target
+
+14:27.830 --> 14:33.550
+and we're going to say offset or here and then we're going to say top top over here.
+
+14:33.590 --> 14:34.120
+Right.
+
+14:34.130 --> 14:44.000
+So basically what we're saying is that once we actually press them to have the h the now and the body
+
+14:44.780 --> 14:53.130
+should be in the position wherever you're here for the target it is offset So basically where our link
+
+14:53.130 --> 14:53.840
+is going to be.
+
+14:53.850 --> 14:54.350
+Right.
+
+14:54.570 --> 14:59.460
+And here that's where the position of the age the middle and the body should be all here.
+
+14:59.700 --> 15:06.210
+And then once we have this actually what we need here is we just need to add the how long this can take.
+
+15:06.210 --> 15:06.510
+Right.
+
+15:06.500 --> 15:08.880
+And I'm just going right on here slow healing.
+
+15:08.940 --> 15:09.360
+That's right.
+
+15:09.360 --> 15:15.450
+And again we can have values of milliseconds right the way we were using or here we can just also write
+
+15:15.690 --> 15:17.250
+fast and slow.
+
+15:17.490 --> 15:22.050
+And since I like my animations to be slowed just so you can actually see what's happening I'm going
+
+15:22.050 --> 15:25.730
+to write it with slow right hand was going to say it over here.
+
+15:25.800 --> 15:31.230
+And what we need to remember that this could be named anything because this is parameter and the same
+
+15:31.230 --> 15:34.740
+or here this variable can also be name whatever you'd want.
+
+15:34.740 --> 15:35.320
+All right.
+
+15:35.460 --> 15:38.810
+So I'm just going to say this and we're going to go back over here.
+
+15:38.860 --> 15:44.400
+We're going to refresh now and see what happens as I click on here now it moved to the manor then as
+
+15:44.400 --> 15:50.970
+I click on here we actually move to services then portfolio then back to services and then to home.
+
+15:51.020 --> 15:56.610
+Right and try actually looking at it first by adding these things again.
+
+15:56.620 --> 15:58.120
+Maybe don't do it right now.
+
+15:58.270 --> 16:01.540
+Let's actually follow me with building the next sections.
+
+16:01.540 --> 16:01.860
+All right.
+
+16:01.870 --> 16:07.370
+But as you do and actually check it out how it works without adding this line of script.
+
+16:07.370 --> 16:07.700
+All right.
+
+16:07.740 --> 16:10.470
+And obviously you can get this in the source files.
+
+16:10.650 --> 16:14.840
+Hundreds of videos right that you can actually download this if you don't want to write in yourself.
+
+16:15.150 --> 16:20.140
+But over here what's happening is right that we can have this target right.
+
+16:20.430 --> 16:25.970
+And this is just a Jake the code for actually small strokes.
+
+16:26.090 --> 16:31.290
+And now that we're done with that bar we can move on to here to our banner.

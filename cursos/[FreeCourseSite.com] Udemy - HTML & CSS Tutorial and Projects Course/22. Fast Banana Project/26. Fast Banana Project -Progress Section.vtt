@@ -1,0 +1,541 @@
+WEBVTT
+
+00:00.090 --> 00:03.450
+So let's start building our next section.
+
+00:03.450 --> 00:08.460
+So we're here I'm going to say this is going to be a comment and we're going to say this is going to
+
+00:08.460 --> 00:18.510
+be progress and progress bar section progress bars section more here.
+
+00:18.550 --> 00:20.580
+So grab the line.
+
+00:21.250 --> 00:23.770
+Embrace this and let's right away right.
+
+00:23.820 --> 00:30.680
+And of progress bar section then after not what we would want is actual section.
+
+00:30.980 --> 00:37.300
+So going going write on your section and then we're going to say or your ID and what would be in 90
+
+00:37.650 --> 00:42.550
+we're going to say this is going to be a progress bar progress or here.
+
+00:43.350 --> 00:50.290
+Now when we have a progress bar section then the next thing that we would want is actual progress center.
+
+00:50.400 --> 00:57.020
+So we're going to say we're here we're going to say this is going to be a day of progress Research Center.
+
+00:57.300 --> 01:03.360
+And once we have this you want the actual item in order here the way we're going to do that.
+
+01:03.450 --> 01:13.000
+I'm going to say we're here and this is going to be a day of with a progress item class like this.
+
+01:13.040 --> 01:21.030
+Then within days of we're going to have another one with a progress text progress and this is going
+
+01:21.030 --> 01:27.270
+to be text within this progress that we're going to have a two heading twos or here the first one is
+
+01:27.270 --> 01:33.690
+going to say HVM now we're here and the second one is actually going to be percentage.
+
+01:33.720 --> 01:39.470
+So here I'm just going to copy this line and on here we're going to say this is going to be 35 percent
+
+01:39.900 --> 01:47.340
+or you know like this and then still in the progress item but not in progress.
+
+01:47.340 --> 01:54.630
+Next we're going to have ID of the bar or Here one.
+
+01:54.630 --> 02:00.140
+So basically progress bar one because we have four of them so that's why we're setting a unique ID or
+
+02:00.140 --> 02:00.560
+here.
+
+02:00.800 --> 02:01.090
+All right.
+
+02:01.110 --> 02:05.200
+And nothing is showing right now because we haven't the javascript.
+
+02:05.340 --> 02:12.570
+Now what I would want to order here within the progress center here I'm going to have a for items like
+
+02:12.570 --> 02:13.160
+this.
+
+02:13.380 --> 02:23.340
+I'm going to grab this one two and three and here again we can just select the whole thing apply a beautify
+
+02:23.910 --> 02:26.970
+or here just so it's easier for us to work.
+
+02:26.970 --> 02:32.710
+All right so now they're all in one line and all here and this is going to be C Ss.
+
+02:32.820 --> 02:40.230
+This is going to be 70 percent you this and then the next one is going to be a javascript and it's going
+
+02:40.230 --> 02:46.450
+to be 60 script and let's say this guy's going to be 60.
+
+02:46.640 --> 02:51.490
+And then after that we're going to have a different Jawa.
+
+02:51.600 --> 02:51.850
+Right.
+
+02:51.860 --> 02:56.640
+So this is going to be Johore and this is let's say Haiti.
+
+02:56.900 --> 03:00.370
+Now what I want to do here is progress bar.
+
+03:00.620 --> 03:02.050
+And we're going to change already.
+
+03:02.180 --> 03:06.910
+This is for us history and this is going to be number two.
+
+03:07.180 --> 03:07.810
+Right.
+
+03:07.850 --> 03:15.380
+So we say this now we're going to go actually and style them and then we're going to look at how we
+
+03:15.380 --> 03:20.610
+can work with them to how we can i javascript's how we can actually see what's happening.
+
+03:20.900 --> 03:26.450
+So here we're going to say main success we're going to hear what we're going to do is this is going
+
+03:26.450 --> 03:28.100
+to be hashtags.
+
+03:28.100 --> 03:35.520
+So we're going to say that this is going to be progress bars progress bars and much of hashtags on here.
+
+03:36.380 --> 03:45.880
+And we're going to open this one I'm going to say hash tag progress and we're going to say bars or here
+
+03:45.900 --> 03:47.610
+what I would want to say is first.
+
+03:47.680 --> 03:53.250
+This is going to be padding hundred pixels and it's all around for D.S. there's going to be hundred
+
+03:53.260 --> 03:55.140
+pixels and zero.
+
+03:55.260 --> 04:02.770
+And so it's only going to be top and bottom then after that I would want a background since the background
+
+04:02.770 --> 04:05.040
+we already have done right.
+
+04:05.080 --> 04:10.650
+I just want to find where is our short cut right.
+
+04:10.660 --> 04:16.300
+Because I don't want to write all of them right and it's right over here because what we need to do
+
+04:16.300 --> 04:21.340
+is actually just change the image and the image is going to be my case.
+
+04:21.340 --> 04:27.540
+This is going to be filler one so I'm going to say on here that this is going to be Baghran filler one.
+
+04:28.000 --> 04:33.170
+And so let's go back over here and let's change the actual image.
+
+04:33.460 --> 04:44.680
+So here we're going to see images slash background here filler and will say one here like this.
+
+04:44.740 --> 04:47.970
+So let's see what we need to change or here.
+
+04:48.160 --> 04:50.890
+In my case you see it's not J bag.
+
+04:50.960 --> 04:53.230
+It's GBG.
+
+04:53.230 --> 04:58.060
+All right so that's one of the things that can always happen with them and just make sure their extensions
+
+04:58.060 --> 05:02.300
+actually match right of what you have or hear in images.
+
+05:02.320 --> 05:07.860
+Then after that what we would want is a progress item progress.
+
+05:08.110 --> 05:15.610
+And here I am more here and I'm going to say on here margin is going to be 20 pixels wide so we're just
+
+05:15.610 --> 05:23.410
+going to set some margins in between in between them so they're not actually stacked on top of each
+
+05:23.410 --> 05:24.070
+other.
+
+05:24.340 --> 05:30.660
+Then over here we're going to work with this progress center progress and we're going to say somewhere
+
+05:31.170 --> 05:40.780
+on this I don't want to say Max with is going to be 70 percent 70 percent and then we're going to have
+
+05:40.810 --> 05:43.480
+a margin zero nada.
+
+05:43.480 --> 05:46.730
+All right so we're going to still place them in the center.
+
+05:47.140 --> 05:50.430
+And then after that we'll have a progress text.
+
+05:50.440 --> 05:52.890
+So here now to start dealing with this section.
+
+05:52.890 --> 05:53.860
+All right.
+
+05:53.860 --> 05:59.110
+And I know it's kind of hard to see right but these programs are going to be all right because I want
+
+05:59.110 --> 06:03.060
+to finish with whatever we are doing and then I want to deal with the progress.
+
+06:03.290 --> 06:12.880
+So here I'm going to say progress we're all going to set text right here display and say flex I read
+
+06:13.230 --> 06:13.910
+so I can see that.
+
+06:13.910 --> 06:21.450
+First of all line them up here that I have justified content space between right so I push them as far
+
+06:21.450 --> 06:29.470
+as I can from each other then we're them to change color and the color is going to be hashtags 0 0.
+
+06:29.910 --> 06:33.310
+And then we're going to have seven in one right.
+
+06:33.350 --> 06:40.680
+This is going to be the blue color and text transform uppercase so text transform and we're going to
+
+06:40.680 --> 06:43.550
+say operators really like this.
+
+06:43.590 --> 06:51.590
+And then we have actually two classes here again and we have actually from the progress bars.
+
+06:51.600 --> 06:54.020
+Jay query why.
+
+06:54.180 --> 06:54.420
+Right.
+
+06:54.420 --> 07:00.650
+So we're going to say this for now I'm going to go back and again if we go to same website right Jake
+
+07:00.660 --> 07:01.800
+where you are.
+
+07:02.080 --> 07:07.520
+We really go to demos and we find where is the actual progress bar.
+
+07:07.580 --> 07:11.550
+Right so we're going to look here and this is the accordion.
+
+07:11.570 --> 07:11.930
+Right.
+
+07:12.000 --> 07:17.510
+So I can see over here but I just want to show you where you can find it all here right.
+
+07:17.520 --> 07:19.130
+And on here this is progress bar.
+
+07:19.140 --> 07:20.780
+If we click here right.
+
+07:20.850 --> 07:27.830
+Again we have simple examples and then get more and more interesting.
+
+07:27.830 --> 07:28.330
+Right.
+
+07:28.620 --> 07:35.160
+But then right away where we can do as a quick source note here you can see from this source again whatever
+
+07:35.160 --> 07:38.280
+we needed to include and on here how simple is this.
+
+07:38.280 --> 07:38.940
+Right.
+
+07:38.970 --> 07:40.290
+So we have progress more.
+
+07:40.410 --> 07:42.490
+This would be the ID right.
+
+07:42.510 --> 07:46.570
+In this case if it's progress bar Id these are going to match.
+
+07:46.860 --> 07:50.020
+And one would need to do is just copy and paste this right.
+
+07:50.110 --> 07:54.140
+Again we can write it ourselves or we could just get right away code.
+
+07:54.200 --> 07:58.170
+So then I'd say in some cases we don't mess it up right.
+
+07:58.260 --> 08:00.850
+But obviously in most cases we would write ourselves.
+
+08:00.870 --> 08:05.690
+So here we have a script J.S. and it sort of this was a Korean Right.
+
+08:05.700 --> 08:08.810
+And we wanted to make sure that this one ends up here.
+
+08:09.000 --> 08:15.130
+What I'm going to do here I'm going right can't comment progress rebars.
+
+08:15.410 --> 08:15.960
+Right.
+
+08:16.000 --> 08:17.840
+And then I'm going to copy and paste this.
+
+08:18.060 --> 08:25.860
+And over here if we have you read our values we're going to be different because first of all we have
+
+08:25.920 --> 08:27.360
+a different idea.
+
+08:27.820 --> 08:28.370
+Right.
+
+08:28.550 --> 08:36.810
+So if we're going to go back over here and if we have ID P bar no here one right and the value we're
+
+08:36.810 --> 08:42.380
+actually going to set it to let's just keep it at 37.
+
+08:42.750 --> 08:44.070
+So I'll say this.
+
+08:44.170 --> 08:48.900
+Now here you can see the moment I have it right now I have my progress bar.
+
+08:49.140 --> 08:52.410
+So the only thing left for me to do is I actually have four of them right.
+
+08:52.440 --> 08:54.880
+So one two three.
+
+08:55.050 --> 08:55.550
+Right.
+
+08:55.590 --> 08:59.580
+And again on here you can try maybe to unify works right.
+
+08:59.580 --> 09:00.860
+Sure it does.
+
+09:00.860 --> 09:02.520
+You are going to change too.
+
+09:02.570 --> 09:03.650
+This is going to be three.
+
+09:03.720 --> 09:06.520
+And this is going to be for now over here.
+
+09:06.570 --> 09:10.810
+The values we need to change this one was 70.
+
+09:11.010 --> 09:14.770
+I'm sorry this one was 37 this one was a..
+
+09:14.820 --> 09:20.710
+Then this game was 60 and this one over here was 80 right.
+
+09:20.820 --> 09:24.150
+So he said this and now I have four programs Barsel here.
+
+09:24.150 --> 09:24.750
+Right.
+
+09:25.070 --> 09:31.580
+And now again let's go back over here and maybe Let's open it in a Google tools.
+
+09:31.580 --> 09:32.190
+All right.
+
+09:32.430 --> 09:34.540
+So let's do next again.
+
+09:34.870 --> 09:40.670
+And I was going to scroll it down and this is going to be our progress merge and if we go back over
+
+09:40.680 --> 09:45.790
+here and say inspect and like this again it's the same thing.
+
+09:45.880 --> 09:46.530
+Right.
+
+09:46.830 --> 09:50.960
+So what we're going to have is a classes right.
+
+09:51.180 --> 09:53.530
+And the class is actually that we need style.
+
+09:54.540 --> 09:58.580
+Right so it's not just going to be some class that we came up with right.
+
+09:58.620 --> 10:00.460
+We have a UI.
+
+10:00.590 --> 10:03.340
+We just had her here.
+
+10:03.390 --> 10:05.090
+And then we have a contest.
+
+10:05.090 --> 10:05.490
+All right.
+
+10:05.490 --> 10:07.650
+So you why widget contest.
+
+10:07.980 --> 10:14.400
+So here let's go back to our main assess and let's start dialing in because we already did the javascript
+
+10:14.400 --> 10:14.880
+part.
+
+10:15.120 --> 10:18.880
+So we can close scrimmaging Yes and main theosis.
+
+10:19.010 --> 10:23.760
+I'm just showing you where I'm getting the classes so it doesn't look like I'm just taking them out
+
+10:23.760 --> 10:24.370
+of thin air.
+
+10:24.370 --> 10:25.000
+Right.
+
+10:25.070 --> 10:28.170
+So I'm going to say that you you're high.
+
+10:28.740 --> 10:34.510
+We did it and we're going to say content more like this.
+
+10:34.550 --> 10:38.520
+All right you can see that right away in brackets gives us a border all around.
+
+10:38.530 --> 10:39.270
+Right.
+
+10:39.410 --> 10:43.230
+And not going to say right now I'm going to say 20 pixels more.
+
+10:43.380 --> 10:44.760
+And again nothing happens.
+
+10:44.820 --> 10:48.290
+And when we already know what we need to do we need explanation mark.
+
+10:48.290 --> 10:48.660
+All right.
+
+10:48.670 --> 10:50.230
+Important.
+
+10:50.230 --> 10:50.940
+All right.
+
+10:51.020 --> 10:51.950
+You can see what happens.
+
+10:51.950 --> 10:54.110
+Right now we're actually controlling it.
+
+10:54.350 --> 10:59.840
+Then we're going to set a different background so background is going to be let's say hash tag five
+
+11:00.080 --> 11:01.370
+three or five.
+
+11:01.660 --> 11:02.600
+All right.
+
+11:02.650 --> 11:04.760
+So this is going to be in the background here.
+
+11:05.110 --> 11:06.910
+And again we need to do the same thing right.
+
+11:06.910 --> 11:11.590
+So important right now I can see how it changed.
+
+11:11.700 --> 11:19.180
+Then we have a border and the border is going to be three pixels solid no hash tag it's going to be
+
+11:19.200 --> 11:24.930
+0 0 and a 7 1 7 1.
+
+11:24.930 --> 11:29.510
+And again we're going to have important here like this.
+
+11:29.520 --> 11:31.850
+All right so now we have the border.
+
+11:32.100 --> 11:34.690
+Then after that what you want is the widget.
+
+11:34.830 --> 11:44.110
+And so the other class I'm going to say UI widget widget here and we're going to say had her hand her
+
+11:44.110 --> 11:44.590
+or her.
+
+11:44.680 --> 11:47.960
+And for that know we're going to have a background on our radio.
+
+11:48.020 --> 11:54.860
+And I have a hashtag FFC nine one 4 and again nothing happens which is important.
+
+11:55.030 --> 11:58.170
+Right now we have over here our progress.
+
+11:58.330 --> 11:58.860
+Right.
+
+11:59.170 --> 12:06.460
+So you can see that how slowly when we're building and we're not using a bootstrap right we're not using
+
+12:06.460 --> 12:13.990
+any kind of preset classes can actually with the help of CSSA fluxbox and see just as great and in some
+
+12:13.990 --> 12:22.300
+cases Jake the plug ins or Shakeri why we can actually achieve everything that actually bootstrap is
+
+12:22.300 --> 12:23.380
+offering.
+
+12:23.430 --> 12:26.350
+Now let's go on and let's build the next section.

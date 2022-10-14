@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.810 --> 00:06.960
+Our next section if we can even call it that is going to be this little linear gradient which is gonna
+
+00:06.990 --> 00:08.670
+work as our divider.
+
+00:08.670 --> 00:11.610
+So that should not take us more than five minutes.
+
+00:11.640 --> 00:15.050
+And we're gonna head over back to indexation email right after the header.
+
+00:15.090 --> 00:21.810
+We will gonna set up a new comments again and we're going to call this not the divider but let's say
+
+00:21.810 --> 00:24.500
+content divider.
+
+00:24.540 --> 00:29.520
+Hopefully this is how you spell divider as well as you know what we're going to write away set it up
+
+00:29.710 --> 00:31.320
+set up a second one.
+
+00:31.320 --> 00:32.700
+So I was gonna say something like this.
+
+00:32.700 --> 00:39.120
+So end of content divider technically maybe in this case this is a little bit of overkill but since
+
+00:39.120 --> 00:42.270
+we are doing this for all these sections why does.
+
+00:42.270 --> 00:44.670
+Might as well we just stay consistent.
+
+00:44.670 --> 00:50.090
+And here we're going to write div with a class of content divider.
+
+00:50.170 --> 00:50.570
+Yeah.
+
+00:50.610 --> 00:54.360
+Now this is gonna be our divider obviously at the moment nothing is happening.
+
+00:54.360 --> 01:02.760
+We need to do all our job within the style us and you're all gonna again add a linear gradient I will
+
+01:02.760 --> 01:07.290
+gonna look for end of animations and then let's write here content.
+
+01:07.680 --> 01:14.840
+The writer can we're gonna copy and paste it and send off content divider and we're gonna say that we
+
+01:14.840 --> 01:19.070
+are selecting the class since I was like this was the class name that we gave.
+
+01:19.230 --> 01:21.210
+And then here we're gonna say first all height.
+
+01:21.200 --> 01:22.530
+So I want some kind of height.
+
+01:22.560 --> 01:25.230
+And in this case this is going to be zero point five.
+
+01:25.230 --> 01:29.760
+And we know that we can use the background property for the background property we have an optional
+
+01:29.760 --> 01:35.040
+of lending gradient and we know that we have multiple options of how this gradient is gonna be set up
+
+01:35.460 --> 01:36.330
+originally.
+
+01:36.360 --> 01:38.790
+It comes from the top to the bottom.
+
+01:38.970 --> 01:44.580
+But if we're using the same colour we know that we can get one colour overlay how or why don't we use
+
+01:44.580 --> 01:45.940
+these to the left one.
+
+01:46.320 --> 01:52.440
+So this is gonna be going to the left and here instead of adding one colour or two colours why don't
+
+01:52.440 --> 01:56.340
+we add three and the colors are gonna be very very simple.
+
+01:56.340 --> 02:00.010
+Well what is gonna work with the primary colour and this can vary colour.
+
+02:00.150 --> 02:01.170
+And this is what I said.
+
+02:01.170 --> 02:07.710
+The secondary colour actually we're just gonna use it one time so you might as well maybe you could
+
+02:07.710 --> 02:13.970
+have skipped this has a variable but again just to stay consistent why don't we add them and the colours.
+
+02:13.980 --> 02:15.320
+How did we select them.
+
+02:15.360 --> 02:16.350
+We had an option.
+
+02:16.350 --> 02:22.170
+And again I can look for the colour in my case I'm gonna be looking first for the primary colour and
+
+02:22.170 --> 02:24.610
+this is where it might throw you in there.
+
+02:24.660 --> 02:30.540
+So you need to change it a little bit and say that now you're going to be looking for this variable
+
+02:31.020 --> 02:36.150
+and in our case what would be the variable the primary colour then we're going to have the come again
+
+02:36.210 --> 02:43.040
+then the second one is gonna be secondary and last comma and again and we're gonna be looking for the
+
+02:43.040 --> 02:46.510
+primary so far primary colour.
+
+02:46.550 --> 02:48.320
+Now we should have a nice divider.
+
+02:48.560 --> 02:55.160
+I'm just gonna use it here within the section between the header and whatever we're having I guess the
+
+02:55.160 --> 02:57.940
+next one was the skills so I'm gonna use it here.
+
+02:57.950 --> 03:00.530
+But you're going to use it all throughout the document.
+
+03:00.590 --> 03:02.110
+It's really up to you.
+
+03:02.180 --> 03:06.140
+Yeah we're done with this section and we can move on and start working on our next section.

@@ -1,0 +1,310 @@
+WEBVTT
+
+00:00.140 --> 00:05.700
+And the first thing that we're going to write here we're going to say team this and then we're going
+
+00:05.700 --> 00:10.290
+to say we're here patting again for the pixels like this.
+
+00:10.470 --> 00:18.360
+Then after that we're going to have a background and this is going to be hash tag 9 5 9 5 9 5 0 0 0.
+
+00:18.740 --> 00:22.240
+And after that we're going to go to the rec team.
+
+00:22.320 --> 00:26.660
+Team member member here like this.
+
+00:26.850 --> 00:31.680
+And over here we're going to say that team member is also going to have a different background so we're
+
+00:31.680 --> 00:34.130
+going to say we're here F5 F5.
+
+00:34.560 --> 00:36.580
+So this is going to be a background.
+
+00:36.780 --> 00:38.390
+F5 F5.
+
+00:38.490 --> 00:39.990
+And we need hash tag.
+
+00:40.230 --> 00:42.090
+F5 F5 F5.
+
+00:42.390 --> 00:44.550
+And so we're going to have this white background.
+
+00:44.730 --> 00:51.780
+Then after that we're going to say margin 20 pixels top bottom zero to the sides like this.
+
+00:51.780 --> 00:55.640
+Then after that we're going to have a team member.
+
+00:55.800 --> 01:03.120
+We're going to say I am g over here and we're going to see this play lark here and then we're going
+
+01:03.120 --> 01:07.740
+to have a with hundred percent 100 percent.
+
+01:08.080 --> 01:12.690
+And so now I can see that it's great searching left or right or here or we're going to say that this
+
+01:12.690 --> 01:19.950
+is going to have a max height here and this and again we're going to have 300 pixels something like
+
+01:19.950 --> 01:20.830
+this.
+
+01:20.860 --> 01:23.960
+Then after that we're going to have a image footer.
+
+01:24.000 --> 01:29.490
+So now we're talking about this guy over here and we're going to say I am g for.
+
+01:29.730 --> 01:34.220
+I don't know what he's going to say first putting 20 pixels in this.
+
+01:34.410 --> 01:39.780
+Then we're going to have a display flex and justified content space between.
+
+01:39.780 --> 01:44.130
+So basically what I'm saying is I want to move this line all the way to the right.
+
+01:44.220 --> 01:50.190
+So I'm going to say we're here just play and I'm going to say flex right now I can see that all of them
+
+01:50.190 --> 01:51.510
+are in one line.
+
+01:51.510 --> 01:58.830
+But what I would want to actually do I'm going to have a justified content space over here and I'm going
+
+01:58.830 --> 02:07.950
+to play say space between some space between here right now actually we would probably need to go back
+
+02:08.400 --> 02:11.250
+and figure out why these icons are over here.
+
+02:11.250 --> 02:11.890
+Right.
+
+02:11.970 --> 02:17.250
+So if we kind of swing back to the next stage now I think we're going to notice one thing right.
+
+02:17.250 --> 02:20.350
+So this release image footer right.
+
+02:20.400 --> 02:26.730
+We should have a footer info on here and the social icons should be in there right.
+
+02:26.820 --> 02:33.270
+So what we're going to do or here is going to cut this one out just as a try right hand or here we're
+
+02:33.270 --> 02:36.540
+going to place this still inside this div right.
+
+02:36.630 --> 02:38.880
+So this will be the look that we want.
+
+02:39.080 --> 02:45.420
+And now wouldn't what we would need to do is I was going to get rid of the social icons on here and
+
+02:45.420 --> 02:47.700
+we're actually going to place them all inside.
+
+02:47.700 --> 02:48.330
+Right.
+
+02:48.370 --> 02:50.330
+So that was my mess up over here.
+
+02:50.340 --> 02:50.870
+Right.
+
+02:51.120 --> 02:53.970
+I should have actually placed them inside.
+
+02:53.970 --> 02:59.310
+So again this is going to be all here with the same social icons on here right.
+
+02:59.310 --> 03:05.130
+So for the second one I'm going to delete them and place them on here.
+
+03:05.390 --> 03:05.710
+All right.
+
+03:05.750 --> 03:08.530
+We're going to have a social icons right.
+
+03:08.580 --> 03:17.130
+We're going to have a text and then the last one on him saying so then delete the social icons and copy
+
+03:17.130 --> 03:18.340
+and paste them on.
+
+03:18.650 --> 03:21.710
+Now that we have them here we can say the next page.
+
+03:21.720 --> 03:28.690
+Now go back to the main assess and keep working on here with the heading three.
+
+03:29.010 --> 03:34.710
+So we're here what I'm going to say here is that this is going to be a further info.
+
+03:34.720 --> 03:40.880
+I'm going to say for info here and I'm going to say heading three.
+
+03:41.110 --> 03:46.190
+So now I'm targeting having three I'm going to say color and the color is going to be the blue one.
+
+03:46.190 --> 03:54.240
+So I'm going to say hash tag to have be nine or here then this is going to be eight and then we're going
+
+03:54.240 --> 03:55.830
+to have zero.
+
+03:55.870 --> 03:56.670
+All right.
+
+03:56.910 --> 03:59.550
+So now I can see that the color actually turned blue.
+
+03:59.910 --> 04:09.200
+Then after that what you would want is actually for reading for heading 5 for in for.
+
+04:09.410 --> 04:19.060
+I have on this and then we're going to have a color of hash tag 9 5 9 5 9 5 0 like this.
+
+04:19.200 --> 04:29.600
+And then will then have a margin here and margin actually is going to be 10 pixels and 0 10 pixels 0.
+
+04:29.700 --> 04:39.840
+And then after that let's do a text transform text transform uppercase like this and I will have a icons
+
+04:39.840 --> 04:40.690
+on here.
+
+04:40.770 --> 04:49.630
+So we're going to say here and this is going to be so so icons and then we're going to have a fire and
+
+04:49.660 --> 04:56.930
+then we're going to say this is going to have a color we're hearing the same 1 9 5 9 5 9 5 0 here and
+
+04:56.930 --> 05:06.650
+margin say zero and 5 pixels like this and now go ahead and let's actually style the full Rikon this
+
+05:06.680 --> 05:07.980
+guy on the right.
+
+05:08.030 --> 05:17.450
+So we're going to say we're here and this is going to be for I can you know in this font here size and
+
+05:17.480 --> 05:22.750
+we're going to say 40 pixels on this and I'm going to have a color.
+
+05:22.830 --> 05:24.920
+Let's again do the little one.
+
+05:24.920 --> 05:34.680
+So this is going to be to be 9 8 and this is going to be 0 like this and we're going to have a opacity
+
+05:35.070 --> 05:37.820
+and I'm going to set actually this one to zero.
+
+05:37.820 --> 05:38.040
+All right.
+
+05:38.060 --> 05:39.550
+But just because we got to work right.
+
+05:39.560 --> 05:40.020
+That's right.
+
+05:40.030 --> 05:41.950
+We're going to see legist coming this one.
+
+05:42.230 --> 05:45.110
+And then we'll know that we always need to uncomment that.
+
+05:45.320 --> 05:51.740
+And on here we're going to say a line self I'm going to say Center right now actually place them side
+
+05:51.740 --> 05:58.290
+by side in the center or here we're going to say transition and for that transition we're going to have
+
+05:58.380 --> 06:05.240
+a transform here two seconds he's going to have opacity.
+
+06:05.380 --> 06:06.050
+Right.
+
+06:06.090 --> 06:12.840
+Also two seconds is here and now that the actual hover mean.
+
+06:13.030 --> 06:21.650
+So let's say over here that we would want a former icon can here we're going to say how we're hearing
+
+06:21.710 --> 06:22.330
+this.
+
+06:22.710 --> 06:30.130
+And then we're going to say transfer one or here transform and we're going to rotate it and rotate it
+
+06:30.140 --> 06:36.220
+is going to be actually 90 negative degrees 90 degrees here.
+
+06:36.600 --> 06:43.830
+And then also as we're actually hovering over the actual team right because right now basically when
+
+06:43.830 --> 06:51.630
+we settle this right as I'm hovering over this icon this should actually be rotating right and should
+
+06:51.680 --> 06:54.860
+be transformed rotate 90 degrees.
+
+06:54.870 --> 06:59.560
+So what I'm going to do here you can see first of all I misspelled it for her.
+
+06:59.610 --> 07:01.150
+So now if we say this.
+
+07:01.410 --> 07:02.680
+See what happens right.
+
+07:02.680 --> 07:08.850
+So now it's rotate but I also would want it to actually appear and reappear once I'm hovering over an
+
+07:08.850 --> 07:10.110
+actual team member.
+
+07:10.380 --> 07:18.800
+So what I'm going to say here is I'm going to say class team member here I'm going to say however that
+
+07:18.810 --> 07:20.170
+I'm a floater.
+
+07:20.310 --> 07:27.030
+I can write to the class that I'm targeting and I'm going to say personally no one knows and nothing
+
+07:27.030 --> 07:33.390
+changes right now because we still have this opacity to zero to go back over here and commandeers right
+
+07:33.920 --> 07:39.360
+now what's going to happen is that this capacity you can see I need to place an order here and I can
+
+07:39.360 --> 07:43.690
+see it disappears or as I'm hovering over it appears again right.
+
+07:43.970 --> 07:48.840
+And as I hover actual icon you can see that it actually shows to the top right.
+
+07:48.930 --> 07:50.580
+It rotates 90 degrees.
+
+07:50.820 --> 07:57.230
+And now that we're done with this I can actually go ahead and start applying media queries for sponsors
+
+07:57.240 --> 07:57.480
+great.

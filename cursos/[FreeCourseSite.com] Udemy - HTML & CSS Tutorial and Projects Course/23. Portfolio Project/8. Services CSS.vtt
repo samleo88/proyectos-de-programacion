@@ -1,0 +1,574 @@
+WEBVTT
+
+00:00.090 --> 00:06.570
+Now once we're done with NHT I'm now let's go to the main thesis and let's actually styling this section.
+
+00:06.620 --> 00:10.120
+So here you can see that this would be the end of about section.
+
+00:10.320 --> 00:13.850
+Then we're going to create two comments of section title.
+
+00:13.860 --> 00:18.750
+So this is going to be the general title that we're working on here that said this is going to be the
+
+00:18.750 --> 00:27.630
+end of section title and then also let's create a services social services services section and are
+
+00:27.660 --> 00:31.970
+here let's do the same thing and say that this is going to be end of services section.
+
+00:32.010 --> 00:37.850
+Now we're here for the About section what we would want well or here for the section title.
+
+00:37.980 --> 00:41.570
+The first one would be like I said a generic one.
+
+00:41.610 --> 00:45.640
+So here we're going to say section that also and this was the class.
+
+00:45.880 --> 00:53.630
+So here we're going to say just text on line center or so now the text is the center and then it's actually.
+
+00:53.640 --> 00:55.440
+The section title name.
+
+00:55.560 --> 00:59.430
+So section on your title.
+
+00:59.890 --> 01:03.150
+And for the title What is title name.
+
+01:03.250 --> 01:07.540
+So to underscore his name now let's do font size.
+
+01:07.540 --> 01:12.850
+First of all font size and let's say that this is going to be for all Reems.
+
+01:12.940 --> 01:15.750
+So this is going to be the actual size of the title.
+
+01:15.950 --> 01:24.820
+Then we'll have a letter spacing 0.5 RPM over here and let's do a background like this.
+
+01:24.880 --> 01:28.710
+And for the background we're going to do the same thing we did with an About section.
+
+01:28.930 --> 01:33.750
+So first of all going to find where the image folder and then we're going to have a title BCG.
+
+01:33.760 --> 01:37.930
+So this is going to be our background then we're going to say on here that the background should be
+
+01:37.930 --> 01:39.450
+in the center or here.
+
+01:39.620 --> 01:41.680
+So we're going to actually save it.
+
+01:41.710 --> 01:43.620
+We're going to say again no repeat.
+
+01:43.680 --> 01:48.900
+So here you can see that now our background is going to be there and it's going to be Norby.
+
+01:49.040 --> 01:57.100
+After that we will have a text transform of capsulize text transform and capitalize.
+
+01:57.280 --> 02:03.490
+And after that we're going to have a font weight here of 700.
+
+02:03.570 --> 02:05.780
+And this is going to say 700.
+
+02:06.040 --> 02:15.630
+And then after that we're going to have font style it out so font style is going to be like this.
+
+02:15.640 --> 02:17.970
+So now we have Italian fonts.
+
+02:18.040 --> 02:21.790
+Now once we're actually DONE WITH A sections I.
+
+02:22.090 --> 02:24.960
+Let's do a services section.
+
+02:25.300 --> 02:28.030
+And for the first services section.
+
+02:28.110 --> 02:30.530
+So we're going to have a services.
+
+02:30.590 --> 02:38.710
+This was our actual class and let's do a background for the background was devoir here was do Section
+
+02:38.710 --> 02:39.430
+3.
+
+02:39.490 --> 02:39.850
+All right.
+
+02:39.850 --> 02:42.250
+So this is going to be our dark section.
+
+02:42.250 --> 02:47.080
+So this is why we're using the variable because later on you can actually change the color to whatever
+
+02:47.080 --> 02:48.190
+you want.
+
+02:48.640 --> 02:53.540
+And after that would is a pattern three hour exams and zero.
+
+02:53.730 --> 02:57.930
+So we're going to be padding top bottom here and left and right.
+
+02:58.210 --> 03:03.880
+And the reason left and right is zero because over here we're going to say services on here and center
+
+03:04.350 --> 03:08.920
+and for the center now we're going to do again the max with we're here in this case.
+
+03:08.920 --> 03:12.610
+This is going to be 90 view with us or here.
+
+03:12.610 --> 03:14.620
+So this is going to be always like this.
+
+03:14.620 --> 03:21.610
+And then we're going to say well you're also margin two RPMs and Arto or so and so I say you can see
+
+03:21.610 --> 03:22.000
+that.
+
+03:22.240 --> 03:28.970
+Now I have two RPMs bottom but on here this is going to be always in the center with 90 you.
+
+03:29.200 --> 03:34.940
+So once we have the actual services center let's do a single service.
+
+03:34.960 --> 03:38.460
+So this is the actual article that's holding all the items.
+
+03:38.470 --> 03:39.040
+All right.
+
+03:39.250 --> 03:45.860
+So here we're going to see services then this is going to be a single service.
+
+03:45.910 --> 03:48.720
+So this is going to be the whole article that's holding.
+
+03:48.950 --> 03:57.070
+You know we're going to do again Marjan to our CMS are no here they're all going to do a text align
+
+03:57.710 --> 04:03.580
+center then we're going to have a transition because like I said before we're we're going to have is
+
+04:03.670 --> 04:08.080
+as I'm hovering You can see that we have this box there's white background.
+
+04:08.250 --> 04:11.250
+However again I want this change to happen over time.
+
+04:11.320 --> 04:16.620
+So we're going to do the same thing we're going to say transition for transition is going to be all
+
+04:16.760 --> 04:22.240
+of the whole transitions whatever transitions we're doing for whatever properties we're changing the
+
+04:22.240 --> 04:23.090
+values.
+
+04:23.290 --> 04:25.160
+Let's do 0.5 seconds.
+
+04:25.330 --> 04:27.310
+And again you know what let's do.
+
+04:27.490 --> 04:31.830
+And as you can see or here we have ease ease in in and out ease out.
+
+04:31.830 --> 04:35.420
+So again this would be the way the actual transition is taking place.
+
+04:35.440 --> 04:39.860
+So I'd say here is it is going to be the case once I have this.
+
+04:39.880 --> 04:41.470
+Let's also do a patent.
+
+04:41.650 --> 04:48.550
+And for the parting words do again maybe it was due to our Reems an hour here we're going to say zero.
+
+04:48.820 --> 04:54.200
+So we don't want any padding on the left and right on top and bottom.
+
+04:54.550 --> 05:01.870
+So once we have the actual single service meds do a services single service and do hover.
+
+05:02.060 --> 05:07.960
+So as we hovering what should happen Well first what we're going to say here is the background is going
+
+05:07.960 --> 05:08.900
+to be light.
+
+05:08.970 --> 05:12.000
+So I'm going to say voire And here we're going to use the light.
+
+05:12.040 --> 05:14.330
+So this is going to be a light back.
+
+05:14.520 --> 05:16.650
+So as I'm hovering You can see what happens.
+
+05:16.810 --> 05:19.150
+You can see that the background is becoming light.
+
+05:19.270 --> 05:25.240
+Now I also I would want a little bit of back shadow So here we're going to see box Shanno and then we're
+
+05:25.240 --> 05:27.630
+going to have up for first value is going to be zero.
+
+05:27.970 --> 05:32.910
+Then for the second we're going to say 15 pixels 20 pixels is going to be for the blur.
+
+05:33.020 --> 05:34.840
+And now we do want a color.
+
+05:35.200 --> 05:37.550
+So for the color let's do the black one.
+
+05:37.740 --> 05:42.230
+Zero zero zero zero point 1.
+
+05:42.250 --> 05:49.000
+So we're like this ones we're going to go back or here you can see that now I have my back shadow like
+
+05:49.000 --> 05:49.450
+this.
+
+05:49.600 --> 05:51.230
+So this is going to be my box.
+
+05:51.370 --> 05:52.340
+I created.
+
+05:52.810 --> 05:58.500
+Once we have our box shadow shadowing the next one is going to be so single service icon we're we're
+
+05:58.500 --> 06:04.980
+going to say and services then we're going to have 200 course single year service and then we're going
+
+06:04.980 --> 06:05.780
+to say I.
+
+06:05.940 --> 06:11.640
+So this is going to be the icon we're actually working on now what we would want all here is a real
+
+06:11.640 --> 06:13.330
+font size.
+
+06:13.370 --> 06:16.810
+And let's do three Reems or here.
+
+06:16.960 --> 06:19.960
+So this is going to be our big icon.
+
+06:20.040 --> 06:25.950
+And once we had the font size for the icon of three R.E.M. you can see that there's some kind of mistake
+
+06:25.950 --> 06:30.300
+or because you can see that I have or hear this with the big letters.
+
+06:30.300 --> 06:35.460
+So let me go back over here and if I'm going to find or hear this creativity you can see that it has
+
+06:35.460 --> 06:41.790
+stayed out here within the div so I need in this case just moved outside and live and then everything
+
+06:41.790 --> 06:43.350
+is going to be working correctly.
+
+06:43.380 --> 06:47.420
+So let's go back to the main see assess and keep on styling.
+
+06:47.490 --> 06:54.180
+Now once we're done with an icon next one is going to be service style and this is going to be services
+
+06:54.390 --> 06:57.710
+more here than we're going to have a single service.
+
+06:57.840 --> 07:01.130
+And then instead of going on here we're going to write right.
+
+07:01.380 --> 07:03.430
+So this is what we're going to be styling right now.
+
+07:03.720 --> 07:07.980
+And for the title we're going to say text or hair transform.
+
+07:08.020 --> 07:10.000
+And this is going to be uppercase.
+
+07:10.110 --> 07:18.990
+Now once we have it uppercase then again let's do font weight and let's do it in 700 here like this.
+
+07:18.990 --> 07:22.430
+Now once we say it next one is going to be margin.
+
+07:22.590 --> 07:28.860
+And when I say we're here in margin top and for the margin double We're going to do one Reems here.
+
+07:29.030 --> 07:33.970
+So this is going to be margined up and then we're also want margin Marham.
+
+07:34.110 --> 07:40.720
+So that's right on your margin bottom and for the margin bottom and we're also going into one area.
+
+07:40.980 --> 07:48.700
+So top bottom is going to be are you going let's do better spacing which is going to be an OK 0.2 rpms
+
+07:48.780 --> 07:49.980
+or hit or miss.
+
+07:49.980 --> 07:55.050
+So this is going to be the spacing we're actually doing now and the last thing is going to be actually
+
+07:55.110 --> 07:56.690
+service next.
+
+07:56.730 --> 08:04.980
+So let's say here services and services single service and again instead of I can say over here text.
+
+08:05.040 --> 08:07.310
+So this is what class will be.
+
+08:07.440 --> 08:12.300
+And here we're going to write with 80 percent on it like this.
+
+08:12.300 --> 08:19.920
+So now you can see that my actual paragraph is going to be 80 percent or you could see that it's aligning
+
+08:19.920 --> 08:20.830
+all the way.
+
+08:21.170 --> 08:26.240
+So what I would want is margin 0 Otto or like this.
+
+08:26.300 --> 08:31.210
+What I also want to do is let's say that on a text online I'm going to say left.
+
+08:31.470 --> 08:33.810
+So I'm going to say text a line and left.
+
+08:33.810 --> 08:36.460
+So lexically what I'm going to do is I'm going to overwrite.
+
+08:36.540 --> 08:41.480
+So if this guy was everything was in the center what I would want just for the sake of it just place
+
+08:41.490 --> 08:43.790
+it all the way over here and left.
+
+08:43.890 --> 08:46.650
+And also as do a line height.
+
+08:46.910 --> 08:48.700
+So it's a real line.
+
+08:48.740 --> 08:49.350
+All right.
+
+08:49.350 --> 08:57.300
+And let's say one point five and then after that letter spacing and 0.2 RPMs are like this.
+
+08:57.540 --> 09:00.570
+So this is our actual text would look like.
+
+09:00.810 --> 09:06.870
+And now what's left to do is actually go ahead and work with a different screen set because obviously
+
+09:06.870 --> 09:10.330
+we're now again the same as how we had with an About section.
+
+09:10.440 --> 09:13.940
+Everything looks like this doesn't matter on the screen it says.
+
+09:14.190 --> 09:19.970
+So what we would want is use the flex box to actually place them side by side.
+
+09:20.040 --> 09:25.650
+So let's say we're here again this is going to be the services section and may create some more room
+
+09:26.070 --> 09:31.610
+here and let's write some more rules or so the first one is going to be a media.
+
+09:31.710 --> 09:37.740
+So we're going to have media screen and you can see that it's interesting the wrong thing on your screen
+
+09:38.240 --> 09:38.820
+here.
+
+09:39.050 --> 09:46.020
+And we're going to say and mean what happened with and what we would want for the mean with is going
+
+09:46.020 --> 09:48.240
+to be 760 pixels.
+
+09:48.330 --> 09:52.040
+So this is going to be the actual screen where you want to start with.
+
+09:52.440 --> 09:58.860
+And here again we're going to use a service center which is a parent right now for all of them and we're
+
+09:58.860 --> 10:02.910
+going to say we're here to display flex like this.
+
+10:02.910 --> 10:07.570
+So once we reach 768 this is going to be on display.
+
+10:07.890 --> 10:11.210
+Now let's go ahead and let's actually see how it's going to look like.
+
+10:11.220 --> 10:12.880
+So this is going to be our portfolio.
+
+10:13.060 --> 10:14.220
+And so we're fresh.
+
+10:14.270 --> 10:17.150
+And I can see that all of them are lined up or here like this.
+
+10:17.170 --> 10:18.880
+Now this is not what one.
+
+10:19.020 --> 10:21.230
+So we're going to first say we're here like this.
+
+10:21.390 --> 10:23.720
+First we're going to say that we would want it to wrap.
+
+10:23.760 --> 10:26.460
+So Flex rap rap.
+
+10:26.610 --> 10:29.270
+So if it needs to rap it has to rap.
+
+10:29.460 --> 10:34.290
+And also we're going to say right away just the fact connoted animals do space between.
+
+10:34.410 --> 10:39.630
+Because again we're going to be creating our own paddings and margins in between.
+
+10:39.720 --> 10:44.130
+So we would want them to actually be placed as far away from each other.
+
+10:44.250 --> 10:48.780
+So here since we have the parent and we applied already rules.
+
+10:49.000 --> 10:51.300
+Now what was our single service.
+
+10:51.300 --> 10:52.570
+So this was our child.
+
+10:52.800 --> 10:56.010
+So we had services single service.
+
+10:56.180 --> 10:57.620
+So this was our job.
+
+10:57.980 --> 11:03.230
+All of them what I'm going to say is the same thing when I say here flex that I'm going to say zero.
+
+11:03.260 --> 11:06.120
+So don't grow don't shrink.
+
+11:06.140 --> 11:07.900
+No here we're going to say calc.
+
+11:07.910 --> 11:14.880
+And for the calculational to say 50 percent minus again you know here we're going to use 0.5 our eems
+
+11:15.300 --> 11:16.360
+on this.
+
+11:16.610 --> 11:21.600
+Once I say read and if I'm going to go back over here and if you're going to refresh you can see that
+
+11:21.600 --> 11:27.760
+this is how it's going to look like starting from or here 760 pixels.
+
+11:27.770 --> 11:30.170
+Now there are going to be a lineup like this.
+
+11:30.170 --> 11:34.960
+And since there is six elements on here like this obviously there's going to be two apiece.
+
+11:35.150 --> 11:40.850
+However if I'm going to go to smaller screen once I reach the smaller screen rerolling this is going
+
+11:40.850 --> 11:42.350
+to be the single item.
+
+11:42.620 --> 11:47.280
+Now obviously I also want for the bigger screen actually change around the globe.
+
+11:47.450 --> 11:52.280
+So once I reach nine and to actually one single service to be a little bit different.
+
+11:52.320 --> 12:00.680
+So here we're going to say media and we're going to say screen and all here and I mean again with some
+
+12:00.680 --> 12:05.580
+men with what we would want for the men with.
+
+12:05.710 --> 12:14.690
+So for men with 9 9 2 or hit pixels out once again services single service because what we need to understand
+
+12:14.690 --> 12:22.190
+is that we already have the display flex flex wrap just if I counted starting from 760.
+
+12:22.190 --> 12:27.560
+So this is not going to change what I would want to change or here's this guy because I would want it
+
+12:27.560 --> 12:34.560
+for 768 to have one labeled and then one once I reach nine and do one this late.
+
+12:34.730 --> 12:41.450
+So all I have to do is actually going to copy and paste this and or rewrite copy then I'm going to paste
+
+12:41.450 --> 12:43.570
+this and I'm going to change the values around.
+
+12:43.820 --> 12:49.720
+So instead of 50 percent I'm going right over here thirty three point three three three or like this.
+
+12:49.870 --> 12:56.060
+Well let's actually make or here also this padding or this margin between them but smaller.
+
+12:56.270 --> 13:00.030
+So I'd say 0.25 more like this.
+
+13:00.050 --> 13:01.500
+So let's go back over here.
+
+13:01.850 --> 13:07.700
+And once I fresh you can see that first I have my single or your service.
+
+13:07.790 --> 13:09.640
+Then once I break the bigger screen.
+
+13:09.890 --> 13:12.310
+Now there's two of them side by side.
+
+13:12.470 --> 13:15.730
+One is I'm going to reach nine and two I was actually going to be three.
+
+13:16.040 --> 13:24.350
+So this is how we can make actual use of using the flex box and aligning the actual flex box children
+
+13:24.560 --> 13:26.650
+according to the actual screen size.

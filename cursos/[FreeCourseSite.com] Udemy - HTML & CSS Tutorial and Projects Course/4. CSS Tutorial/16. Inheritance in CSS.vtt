@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.520 --> 00:05.560
+Once we have covered Dave now let's talk about the inheritance in CSX.
+
+00:05.740 --> 00:07.630
+Now please don't be scared of this word.
+
+00:07.910 --> 00:10.150
+It's not as scary as it seems.
+
+00:10.210 --> 00:16.450
+It basically operates on the principle that whatever styles will gonna be adding for the parent element
+
+00:16.810 --> 00:23.440
+in the age the smell the children all month are gonna be inherited unless we specifically style the
+
+00:23.530 --> 00:24.920
+children element.
+
+00:24.940 --> 00:27.460
+As always I think it's going to be much more easier.
+
+00:27.640 --> 00:28.370
+Go over it.
+
+00:28.470 --> 00:30.110
+We have the actual code.
+
+00:30.190 --> 00:35.680
+First of all make it out of styles that I have here and let's also delete everything that we had so
+
+00:35.680 --> 00:37.680
+far in the previous lesson.
+
+00:37.810 --> 00:42.990
+So I'm gonna start very simply by working with paragraphs so I'm gonna say there's gonna be two paragraphs
+
+00:43.030 --> 00:45.180
+each of them I don't not in words.
+
+00:45.400 --> 00:46.620
+So let's do it this way.
+
+00:46.630 --> 00:50.770
+I'm going to select them both and I'm going to say you know what.
+
+00:50.770 --> 00:54.420
+The first and the second one is just gonna be part of the nugget.
+
+00:54.670 --> 00:55.970
+So far so good.
+
+00:55.990 --> 00:59.590
+Now I'm gonna head over back to style C assess.
+
+00:59.650 --> 01:04.200
+Notice that if I'm gonna style the body and let's add the color red.
+
+01:04.210 --> 01:05.320
+What's gonna happen.
+
+01:05.410 --> 01:07.330
+Both paragraphs are gonna turn red.
+
+01:07.690 --> 01:09.610
+Now why is this happening.
+
+01:09.610 --> 01:15.160
+Well you see if we're looking at the body anyone we should already know that body element at the moment
+
+01:15.160 --> 01:21.820
+has two children and both of them are paragraph in paragraph number one and paragraph number two.
+
+01:21.940 --> 01:29.020
+And what happens is if we're going to add styles to a parent element the children are going to inherit
+
+01:29.020 --> 01:29.810
+them.
+
+01:29.890 --> 01:35.400
+So as we're styling the body we're ultimately also styling right now the parent.
+
+01:35.440 --> 01:40.690
+Now if I'm gonna head over back and let's say that there is gonna be a div and now these two paragraphs
+
+01:40.720 --> 01:47.440
+are gonna be sitting within dev and let's start out so I'm gonna copy and paste them for now all of
+
+01:47.440 --> 01:48.640
+them are styled the same way.
+
+01:48.670 --> 01:54.760
+However if we're gonna say uh that div is gonna have a color of red.
+
+01:54.820 --> 01:55.990
+Check this out.
+
+01:55.990 --> 01:57.620
+So I'm sorry not red.
+
+01:57.650 --> 01:59.100
+Little something different.
+
+01:59.470 --> 02:01.650
+Now both paragraphs are blue.
+
+02:01.660 --> 02:03.130
+Now why is this happening.
+
+02:03.190 --> 02:08.330
+Because even though the div is still the child the body.
+
+02:08.500 --> 02:13.350
+Now we specifically say okay for this div there's gonna be a separate star.
+
+02:13.450 --> 02:18.440
+So instead of just inheriting everything from body we specifically say okay.
+
+02:18.490 --> 02:20.740
+So for day we're gonna have color blue.
+
+02:20.740 --> 02:24.460
+So now both paragraphs are actually inheriting from the day.
+
+02:24.880 --> 02:27.590
+So in general this is how the inheritance would work.
+
+02:28.200 --> 02:34.420
+However if I'm gonna head over and if I'm gonna say that I also like to place a I don't know heading
+
+02:34.420 --> 02:42.280
+to and I'm going to say I am hearing and if within the C assess we're gonna have a specific style here
+
+02:42.280 --> 02:43.340
+for heading to.
+
+02:43.480 --> 02:44.680
+And again this could be a D.
+
+02:44.680 --> 02:49.750
+This could be class this could be a simple element selector please understand that there would be no
+
+02:49.750 --> 02:50.490
+difference.
+
+02:50.650 --> 02:54.160
+And for our case we're just gonna use a simple element like there.
+
+02:54.340 --> 02:59.940
+And if we're going then again add a color of green not this notice something interesting.
+
+02:59.950 --> 03:04.010
+So now the heading is going to be having only the color of green.
+
+03:04.030 --> 03:09.940
+So what I'm trying to explain to you the inheritance is going to work unless you're adding a specific
+
+03:09.940 --> 03:12.250
+style for that particular element.
+
+03:12.650 --> 03:19.780
+However if something is gonna be sitting here as a child element it will gonna be inherited from the
+
+03:19.780 --> 03:24.190
+parent element as you're applying styles to a parent element.

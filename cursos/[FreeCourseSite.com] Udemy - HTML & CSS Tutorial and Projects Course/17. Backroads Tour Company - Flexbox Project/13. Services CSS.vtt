@@ -1,0 +1,643 @@
+WEBVTT
+
+00:00.150 --> 00:04.540
+As far as our CSF is concerned let's head over to Stiles.
+
+00:04.540 --> 00:05.580
+Yes yes.
+
+00:05.640 --> 00:09.990
+Then of course we do have our about I'm going to navigate all the way in the bottom.
+
+00:09.990 --> 00:11.720
+I'm going to copy and paste.
+
+00:11.730 --> 00:19.020
+In fact these lines of comments and then I'm gonna change some values here where it is not going to
+
+00:19.020 --> 00:20.110
+be about.
+
+00:20.460 --> 00:27.650
+Course I'm going to call this services and then of course end of services as well services.
+
+00:27.690 --> 00:28.490
+Okay.
+
+00:28.680 --> 00:33.360
+Now once we have our comments set up why don't we start with a service class.
+
+00:33.450 --> 00:38.740
+Remember that was the class that was on the article so let's right service class.
+
+00:39.090 --> 00:45.570
+And for this particular class I would like to have a text line properly with the value of center so
+
+00:45.570 --> 00:52.290
+all my content in listening and center as well as why don't we add a margin bottom let's say three arms
+
+00:52.520 --> 00:52.850
+right.
+
+00:53.220 --> 00:59.770
+So that way we're gonna have some kind of margin in between the actual each and every service.
+
+00:59.910 --> 01:03.480
+Then we're gonna do some styling for the service icon.
+
+01:04.030 --> 01:10.610
+So service icon class and then let me scroll up a little bit just so you can see a little bit more clearer.
+
+01:10.730 --> 01:13.170
+Why don't we start first with a background.
+
+01:13.290 --> 01:16.000
+And remember we had the primary color.
+
+01:16.020 --> 01:18.870
+So that is exactly what I'm gonna use right now.
+
+01:18.870 --> 01:26.940
+That is of course my service icon but it has to be some kind of issue because right now what I see happening
+
+01:26.970 --> 01:31.630
+is that I have service icon here that is not what I wanted.
+
+01:31.650 --> 01:38.790
+So I believe the class that I wanted in fact to create was a service in for some reason I created this
+
+01:38.790 --> 01:40.860
+as a service icon.
+
+01:40.860 --> 01:42.300
+My apologies.
+
+01:42.350 --> 01:46.820
+Now let me select all what say three of them.
+
+01:47.370 --> 01:48.680
+Let's do it this way.
+
+01:48.720 --> 01:52.440
+Let's delete them and let's in fact rename them.
+
+01:53.250 --> 01:59.480
+Now this case I again selected the wrong one this should be an icon.
+
+01:59.740 --> 02:04.300
+Then I should change the second one to aim for.
+
+02:04.330 --> 02:12.810
+So on the same goes for the second one I should have this as an icon and this should be an info.
+
+02:13.200 --> 02:21.750
+So again just to recap instead of adding the class of service icon to a div which would be the same
+
+02:21.750 --> 02:23.360
+class like I had before.
+
+02:23.370 --> 02:26.110
+Instead we're shooting for service info.
+
+02:26.370 --> 02:29.990
+My apologies I didn't mess with this one up.
+
+02:30.570 --> 02:35.300
+Now as I said for the service icon First I would want some background color.
+
+02:35.400 --> 02:38.600
+Then we would want some other styles as well.
+
+02:38.820 --> 02:44.300
+So we why we don't we had a pattern of zero point five grams.
+
+02:44.520 --> 02:51.090
+So there's gonna be a little bit more padding we can do display inline block display in the line block
+
+02:51.380 --> 02:56.930
+like so so that way all the margins are in fact respected.
+
+02:57.180 --> 03:02.580
+If there's going to be any kind of margins and then why don't we also maybe add a little bit of font
+
+03:02.580 --> 03:08.770
+size so let's increase it to to our arms you are Ms.
+
+03:08.840 --> 03:15.260
+Last but not least I'm gonna add some marching in the bottom so margin bottom one point five.
+
+03:15.480 --> 03:16.990
+Ari Ms.
+
+03:17.060 --> 03:22.780
+MIKE So once we have the margin the service title is going to be next.
+
+03:22.790 --> 03:30.490
+So service title and then here why don't we do tax transform and uppercase.
+
+03:30.560 --> 03:33.400
+So my title is going to be uppercase.
+
+03:33.560 --> 03:38.220
+Last but not least I would like to add some styles to a service text.
+
+03:38.250 --> 03:39.960
+This guy over here.
+
+03:40.400 --> 03:48.320
+Some writes service text and then I'm going to go with the width of 80 percent so the width is going
+
+03:48.320 --> 03:50.050
+to be a little bit smaller.
+
+03:50.240 --> 03:55.700
+And then of course I would like to place it in the center so I'm going to use margin zero to bottom
+
+03:55.700 --> 03:56.590
+left and right order.
+
+03:57.250 --> 04:04.590
+And then why don't we also change the line height here and let's write let's say one point five.
+
+04:04.590 --> 04:05.870
+And why don't we.
+
+04:05.870 --> 04:07.250
+Yeah that should do it.
+
+04:07.580 --> 04:09.970
+I think that looks really really good.
+
+04:09.980 --> 04:16.970
+So once we have this particular set up why don't we set up our columns because if we look at my final
+
+04:16.970 --> 04:24.530
+project we're going to notice that once we get to a five hundred and seventy six pixels or essentially
+
+04:24.530 --> 04:28.520
+bigger than 576 we're gonna have a two column layout right.
+
+04:28.570 --> 04:30.410
+So that is going to be our two column land.
+
+04:30.710 --> 04:35.570
+But before that of course we just have a single column which is exactly what we have right now.
+
+04:35.960 --> 04:37.900
+So let's set up our media query.
+
+04:38.470 --> 04:39.050
+That's right.
+
+04:39.050 --> 04:45.140
+Media screen and and we're going to go with men with here.
+
+04:45.180 --> 04:46.100
+And why don't we start.
+
+04:46.100 --> 04:47.870
+Like I said with 576.
+
+04:47.960 --> 04:53.150
+But as always it's really up to you if you'd like to have a two column layout on a bigger screen on
+
+04:53.150 --> 04:54.190
+a smaller screen.
+
+04:54.290 --> 04:56.090
+Again just change the values.
+
+04:56.090 --> 04:58.060
+So what I would like to do right now.
+
+04:58.070 --> 05:00.640
+Well first of all I have the services center class.
+
+05:00.740 --> 05:01.100
+Correct.
+
+05:01.100 --> 05:05.150
+So why don't we write Services Center.
+
+05:05.300 --> 05:11.500
+Let's use our display flex so we're going to write display flex.
+
+05:11.750 --> 05:17.060
+Now I'm going to show you right away on a bigger screen size because I think it just makes a little
+
+05:17.060 --> 05:18.130
+bit more sense.
+
+05:18.140 --> 05:25.160
+So once we get to a five so six notice of course I do have right now my layout but that is not exactly
+
+05:25.160 --> 05:30.530
+what I would want because I would want a two column and this right away gives me a three column layout.
+
+05:30.530 --> 05:35.640
+And the reason for that is because I'm just using display flex and I have three items.
+
+05:35.750 --> 05:38.700
+Now why don't we add four to each and every service.
+
+05:38.720 --> 05:42.030
+Also the width of that particular service.
+
+05:42.050 --> 05:47.900
+So again I'm going to write service some targeting each and every service and I know that since this
+
+05:47.900 --> 05:55.430
+is a flex box child I can just use flex I'm going to say I don't want to service the girl or shrink
+
+05:55.820 --> 06:01.820
+and instead I would like to use a calc function and then let's say that since I would want a two column
+
+06:01.820 --> 06:10.700
+while I'm just gonna write okay I would want each and every service to be 50 percent minus one RTM for
+
+06:10.700 --> 06:14.730
+some kind of margin in between let's say that.
+
+06:14.900 --> 06:21.830
+And now we should have this layout of course I do have my 50 percent but I do have also my third service
+
+06:22.130 --> 06:23.690
+stretching horizontally.
+
+06:23.700 --> 06:28.950
+And the reason for that because I 50 percent 50 percent and this guy doesn't fit.
+
+06:29.360 --> 06:35.870
+So we're going to have to head over back to the services center and then let's just write our comment
+
+06:36.160 --> 06:40.830
+and I'm just adding this comment of after to kind of explain what is happening.
+
+06:40.850 --> 06:45.470
+I could have rolled right away both of these properties with the values right after the Flex which would
+
+06:45.470 --> 06:47.440
+normally something you would do.
+
+06:47.540 --> 06:52.550
+The reason why I'm using this after is to kind of show you that we first set up our two column layout
+
+06:52.850 --> 06:58.970
+and then we're gonna add the properties with the values to service the center to in fact fix it.
+
+06:59.200 --> 07:04.270
+Because if we're just going to add or leave it the way it is of course it's not going to work.
+
+07:04.640 --> 07:10.730
+So this way as I'm writing this I think it makes a little more sense where you see the shortcoming of
+
+07:10.730 --> 07:13.310
+just using the 50 percent minus one RTM.
+
+07:13.520 --> 07:17.080
+Without these properties and values and then that way you can be like OK.
+
+07:17.110 --> 07:20.260
+So I understand fully what those properties are doing.
+
+07:20.270 --> 07:25.430
+So first of all I would like to use a flex wrap and let's set this equal to a wrap.
+
+07:25.990 --> 07:31.000
+So in this case once we head over back of course we have a nice two column layout one column second
+
+07:31.000 --> 07:34.750
+column and we have a third item sitting in the first column.
+
+07:34.840 --> 07:37.450
+Some of that is really really well.
+
+07:37.450 --> 07:44.860
+But I would also want to use the fact that I do have these margins correct because our item is 50 percent
+
+07:44.890 --> 07:46.370
+minus one RTM.
+
+07:46.540 --> 07:49.590
+So it's less than 50 percent by one area.
+
+07:49.780 --> 07:55.380
+And we can use that by doing justify content and we're just going to have space between.
+
+07:55.840 --> 08:01.560
+So we are going to push these items as far as possible from each other.
+
+08:01.570 --> 08:04.940
+Now on this particular layout it is not a big deal.
+
+08:04.970 --> 08:08.140
+There's not much of a actual difference.
+
+08:08.140 --> 08:08.680
+Right.
+
+08:08.800 --> 08:14.380
+Because the items are small to begin with but in general this is what I really like to do where I'm
+
+08:14.380 --> 08:17.630
+just pushing the items as far as possible from each other.
+
+08:17.650 --> 08:20.660
+Now that would be 576.
+
+08:20.710 --> 08:24.100
+Now why don't we head over to a nine hundred ninety two.
+
+08:24.550 --> 08:29.980
+So once we get to let's say nine out of 92 I would like to have a three column layout.
+
+08:31.060 --> 08:38.530
+Now the way we do that is very simply we can just write a new media query but in my case I'm just going
+
+08:38.530 --> 08:45.170
+to copy and paste it in this way we're gonna go together and figure out what is in fact changing.
+
+08:45.190 --> 08:45.600
+All right.
+
+08:45.640 --> 08:51.010
+Because we only need to in fact apply the styles for the items that are changing.
+
+08:51.550 --> 08:56.960
+So display is going to be flex like it is starting already from five six.
+
+08:57.100 --> 08:58.450
+So we don't care about that.
+
+08:58.480 --> 09:01.970
+And in fact we don't care anything about the services center.
+
+09:01.990 --> 09:06.480
+So all this is already set up within the 576.
+
+09:06.540 --> 09:06.930
+Right.
+
+09:06.970 --> 09:08.840
+We have all the styles already here.
+
+09:08.950 --> 09:11.930
+So we really don't care about services center.
+
+09:11.980 --> 09:15.430
+What we do care about is setting up a three column layer.
+
+09:15.970 --> 09:18.730
+So first of all it's changed 992 pixels.
+
+09:18.880 --> 09:25.420
+So starting from nine hundred ninety two I would like to change it not to 50 percent but thirty three
+
+09:25.750 --> 09:30.960
+point three three three because I would like to have a record layer.
+
+09:31.000 --> 09:31.960
+All right.
+
+09:32.110 --> 09:38.290
+Let's head over back and sure enough we do have our three column layout and once we have this three
+
+09:38.290 --> 09:43.810
+column layout the last thing that I would like to cover is in fact this side by side effect because
+
+09:43.810 --> 09:51.340
+notice that once we get to in fact eleven hundred and seventy pixels in fact not only we have a three
+
+09:51.340 --> 09:57.880
+column layout where the icon is sitting on the top and then we have a text as well as we have this little
+
+09:57.880 --> 10:03.670
+information about the service but we also change it around a little bit where we use the fact that of
+
+10:03.670 --> 10:05.340
+course we can use the Flex box.
+
+10:05.470 --> 10:10.230
+Now this is really optional if you like of course you can just leave your three come out.
+
+10:10.300 --> 10:15.460
+You don't have to do this side by side effect but since we are covering flex box I thought that I would
+
+10:15.460 --> 10:19.000
+like to show you how we can of course do this side by side effect.
+
+10:19.000 --> 10:23.950
+Now the reason why I'm doing this on a bigger screen size because in my opinion you need to have a room.
+
+10:24.430 --> 10:26.050
+So it looks somewhat decent.
+
+10:26.170 --> 10:26.790
+OK.
+
+10:26.800 --> 10:31.490
+If you're doing this on a small screen size I believe it doesn't look very good.
+
+10:31.510 --> 10:37.990
+So that's the reason why I like to keep this layout with icon on top on a small screen size and only
+
+10:37.990 --> 10:40.920
+once I get to eleven hundred and seventy.
+
+10:41.040 --> 10:43.040
+That's when I flip it around.
+
+10:43.510 --> 10:45.400
+Now how do we do that.
+
+10:45.400 --> 10:47.900
+Well first of all we're going to have to set up a mirror query.
+
+10:48.070 --> 10:53.410
+So again just because it's a little bit easier for me to park copy everything I'm just gonna copy everything
+
+10:53.800 --> 10:57.260
+then I'm going to leave this one blank for an hour to service.
+
+10:57.330 --> 11:02.450
+But let's just change the values let's say eleven hundred and seventy pixels.
+
+11:02.490 --> 11:02.720
+Right.
+
+11:03.030 --> 11:10.440
+And remember that was our max with to begin with for our services center for our generic class.
+
+11:10.900 --> 11:12.370
+Now what we would like to do.
+
+11:12.790 --> 11:16.240
+Well we have this service class correct.
+
+11:16.330 --> 11:22.170
+We have the whole service class and that includes the icon as well as the div.
+
+11:22.210 --> 11:26.590
+Now as we're looking at it we notice that we have two children correct.
+
+11:26.590 --> 11:28.000
+So one is icon.
+
+11:28.000 --> 11:29.890
+And the second child is this div.
+
+11:29.890 --> 11:33.010
+Now this particular div has two items in it as well.
+
+11:33.160 --> 11:36.080
+So heading for Bud and the paragraph.
+
+11:36.280 --> 11:43.840
+However please keep in mind since we're working with our service class with our article as far as this
+
+11:43.840 --> 11:48.070
+particular article is concerned it only has two children.
+
+11:48.160 --> 11:50.380
+Now we would like to set them side by side.
+
+11:50.470 --> 11:51.640
+So what do we do.
+
+11:51.780 --> 11:56.160
+Well we do a display flux and that's number one.
+
+11:56.370 --> 11:57.550
+And let's check it out.
+
+11:57.640 --> 11:58.910
+What will be the change.
+
+11:58.960 --> 11:59.950
+And this is what we got.
+
+12:00.370 --> 12:02.810
+So we have icon on the left hand side.
+
+12:02.830 --> 12:07.880
+And now we have our text and as well as our paragraph here on the right hand side.
+
+12:08.350 --> 12:09.250
+OK.
+
+12:09.310 --> 12:11.020
+That's a good start.
+
+12:11.380 --> 12:14.830
+Now why don't we align everything on the left hand side.
+
+12:14.830 --> 12:20.860
+Because remember when we were working with our services in general we just set everything in a center.
+
+12:20.890 --> 12:26.940
+So what I would like to do right now is just set up everything text on line and I'm going to say left.
+
+12:27.630 --> 12:30.280
+So I'm going to move all my text to the left.
+
+12:30.450 --> 12:32.250
+And then there's still some issues here.
+
+12:32.430 --> 12:36.260
+But don't worry we're gonna fix them literally in a second.
+
+12:36.450 --> 12:42.780
+But now what I would like to do is as we see for our icon since our default is stretch.
+
+12:42.780 --> 12:50.580
+Remember when we set something to a flex or the parent our items by default we're stretch but what I
+
+12:50.580 --> 12:56.970
+would like to do is have my icon here sitting all the way on the top like so.
+
+12:57.000 --> 13:02.910
+So it's not stretched and the way we do that is by targeting in fact our icon.
+
+13:02.910 --> 13:13.290
+So let's write service icon and remember since it is a child we can just apply a line self and instead
+
+13:13.290 --> 13:19.660
+of in fact aligning it by having it as a stretch I'm going to go would start.
+
+13:19.680 --> 13:23.710
+So first of all I would like to align it all the way on top.
+
+13:23.760 --> 13:26.340
+So I'm going to go and start the model and we'll fix that.
+
+13:26.340 --> 13:28.400
+Now my icon sitting nicely on the top.
+
+13:28.770 --> 13:36.510
+So it's not any more stretched all the way to a with or I'm sorry the height I guess with another flex
+
+13:36.510 --> 13:43.470
+box child then I would like to have a little bit of padding for the service in full and I'm going to
+
+13:43.470 --> 13:45.750
+go with one arms.
+
+13:45.900 --> 13:48.210
+So we're going to do it this way.
+
+13:48.210 --> 13:57.890
+Service in full and for my info I'm going to set it up a padding left and we're going to set it as one
+
+13:57.900 --> 14:00.140
+arms not said that one.
+
+14:00.140 --> 14:02.360
+So now we have a little bit padding left.
+
+14:02.780 --> 14:08.670
+And now as far as service title I would like to add a little bit of margin in the bottom.
+
+14:08.690 --> 14:12.120
+So I'm going to go with zero point five arms.
+
+14:12.680 --> 14:22.120
+So let's set this up as margin bottom and like so zero point five are yams.
+
+14:22.140 --> 14:23.640
+And last but not least.
+
+14:23.640 --> 14:29.370
+Why don't we work with this text because first of all I'd like to remove any kind of margins from my
+
+14:29.370 --> 14:33.450
+text and have some kind of with for text as well.
+
+14:33.450 --> 14:39.590
+So the text that a class of service text.
+
+14:39.800 --> 14:47.020
+Now first of all let's add some kind of with let's say with is going to be 90 percent in this case.
+
+14:47.090 --> 14:50.120
+And last but not least I don't want any kind of margins.
+
+14:50.270 --> 14:53.480
+So I'm going to go with margins zero all around.
+
+14:53.480 --> 14:59.150
+And when we do that we have this particular layout where there is going to be some margin because we
+
+14:59.150 --> 15:07.490
+have it on the title but then text is just sitting here splash with a side of my service in full.
+
+15:07.820 --> 15:09.420
+And this is 90 percent.
+
+15:09.650 --> 15:10.880
+That's how we can create.
+
+15:10.880 --> 15:17.540
+In fact this side by side layout on a bigger screen size if we would like to do so successfully we have
+
+15:17.540 --> 15:23.330
+created our services section and next to not there's going to be a feature towards section.

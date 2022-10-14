@@ -1,0 +1,520 @@
+WEBVTT
+
+00:00.030 --> 00:03.480
+A let's go ahead and let's actually get our accordion.
+
+00:03.780 --> 00:09.330
+So we're all going to get accordion accordion are actually going to get from Jake worry you want which
+
+00:09.330 --> 00:13.090
+is basically built on top of the actual Jake.
+
+00:13.130 --> 00:13.640
+All right.
+
+00:13.740 --> 00:21.460
+So it's all kinds of nice gooey widgets here for a user interface right.
+
+00:21.490 --> 00:25.790
+That's actually built on top of the typical Drake way.
+
+00:25.980 --> 00:28.930
+And first we can actually go and see or hear.
+
+00:28.980 --> 00:35.910
+We have the mouse right if we would want whether it's Dragon Ball drop or ball resize and we all going
+
+00:35.910 --> 00:37.020
+to be actually using.
+
+00:37.090 --> 00:39.760
+Like I said again accordion or here right.
+
+00:39.760 --> 00:43.240
+So this is what we are interested in getting this accordion.
+
+00:43.470 --> 00:48.270
+And we're also going to be using a little bit later progress bars on it like this.
+
+00:48.270 --> 00:53.390
+So this is going to be another interesting part right but forever what we need right now.
+
+00:53.420 --> 00:54.390
+Right.
+
+00:54.570 --> 01:00.570
+We can just go back over here and we're going to need accordion but we obviously need to download it
+
+01:00.630 --> 01:01.150
+right.
+
+01:01.200 --> 01:03.960
+And we again have two options here.
+
+01:03.970 --> 01:04.300
+Right.
+
+01:04.320 --> 01:08.880
+If we go with an actual download or we can get a CDN.
+
+01:09.000 --> 01:17.160
+So here you go and then this is going to be a where we are here why CDN and let's say go.
+
+01:17.680 --> 01:18.180
+Right.
+
+01:18.390 --> 01:21.010
+So it's going to go here to a host of libraries.
+
+01:21.210 --> 01:23.120
+And in this case we have two things.
+
+01:23.120 --> 01:29.950
+All right we just we have a genius on here and this is for the mobile but we need it for you.
+
+01:30.300 --> 01:34.910
+So first things first we're going to get a javascript here.
+
+01:34.950 --> 01:40.710
+So we're just going to copy this guy over here and we're going to go back to index HD and now scroll
+
+01:40.710 --> 01:44.340
+all the way to the bottom and let's say on here this is going to be our script.
+
+01:44.340 --> 01:46.190
+This is going to be horizonal right.
+
+01:46.230 --> 01:49.580
+But over here let's say these are going to be all our CD-ROMs.
+
+01:49.590 --> 01:56.760
+So this is going to say that this is going to be a quirky UI CDN on here.
+
+01:56.850 --> 02:00.360
+Copy and paste this is going to be first the google ones.
+
+02:00.360 --> 02:01.130
+So let's say when.
+
+02:01.140 --> 02:06.930
+But like I said we need to assess and because it's using the things so we're all going to go back out
+
+02:06.960 --> 02:07.630
+here.
+
+02:07.890 --> 02:11.630
+Copy this and now this one we need to go all the way to the top.
+
+02:11.730 --> 02:18.270
+And again after let's say Google fonts let's make a query a y.
+
+02:18.510 --> 02:25.300
+C Ss Let's see a CD and CD and then or here again we're going to copy and paste this.
+
+02:25.380 --> 02:27.050
+And now we have it.
+
+02:27.120 --> 02:29.260
+So now the accordion works.
+
+02:29.350 --> 02:29.550
+Right.
+
+02:29.550 --> 02:36.190
+And again the best way is to actually go ahead and let's say we're going to go with a Demos find whereas
+
+02:36.210 --> 02:43.110
+accordion and or here you can see that right away we have a new source right where we have documentation
+
+02:43.490 --> 02:46.700
+and let's say these are or here are going to be the examples right.
+
+02:46.890 --> 02:48.850
+But we're going to start with the most basic one.
+
+02:48.950 --> 02:53.850
+So we're going to go back over here you can see it right away gives you the source and the key here
+
+02:53.850 --> 02:54.430
+is this.
+
+02:54.560 --> 02:54.960
+Right.
+
+02:55.110 --> 02:58.990
+So basically we need to have a div right now.
+
+02:59.010 --> 03:02.070
+Again like I said we could have named ours ones whatever we want.
+
+03:02.070 --> 03:06.760
+I just went with the same one just so you understand how everything works right.
+
+03:06.990 --> 03:09.150
+And what we need is a section.
+
+03:09.270 --> 03:15.900
+And over here Dave S. and they are here they placed the paragraph but it doesn't really matter how we
+
+03:15.900 --> 03:16.520
+do it.
+
+03:16.810 --> 03:21.620
+All right then after that like I said you can see here that you have a script right.
+
+03:21.630 --> 03:26.910
+So obviously you also need to join equerry which we've already done before and on here this is going
+
+03:26.910 --> 03:30.640
+to be the UI J.S. and you I see.
+
+03:30.640 --> 03:31.760
+SS Right.
+
+03:31.920 --> 03:34.660
+What we care about over here is this little accordion.
+
+03:34.660 --> 03:35.310
+Right.
+
+03:35.310 --> 03:42.330
+So what we're going to say here this is going to be a accordion here and you can just copy and where
+
+03:42.330 --> 03:44.150
+we can copy this right.
+
+03:44.160 --> 03:46.600
+And we're actually going to copy it in our script.
+
+03:46.680 --> 03:49.450
+I remember the script when we had for the slide.
+
+03:49.450 --> 03:50.080
+All right.
+
+03:50.100 --> 03:55.160
+Going to make a comment and say Right because this is still Geck worry.
+
+03:55.280 --> 03:56.990
+And this is still javascript.
+
+03:57.150 --> 03:58.940
+We saved this one over here.
+
+03:58.950 --> 04:01.820
+Now I can see right away we have a recording on it.
+
+04:01.980 --> 04:08.030
+Now we know that everything is work now a second would work the same thing here if we would have a Firefox
+
+04:08.040 --> 04:08.790
+right.
+
+04:08.850 --> 04:11.000
+So let's refresh here.
+
+04:11.010 --> 04:11.430
+Right.
+
+04:11.580 --> 04:13.140
+And this is going to be our accordion.
+
+04:13.350 --> 04:17.270
+And you can see how many things right happened by default.
+
+04:17.340 --> 04:17.700
+Right.
+
+04:17.850 --> 04:22.370
+So technically if you're happy with this right you can actually live like this right.
+
+04:22.390 --> 04:25.570
+You know right away you got the accordion and everything is work.
+
+04:25.590 --> 04:32.430
+However what we all want is we would want to style it all right and how we would actually style this
+
+04:32.780 --> 04:35.840
+or here we're going to go back to Google.
+
+04:35.940 --> 04:36.560
+Right.
+
+04:36.630 --> 04:38.520
+And this is going to be the recording.
+
+04:38.650 --> 04:43.380
+Right so again we can refresh because we have saved this right and again of course.
+
+04:43.710 --> 04:50.680
+Now if I go to Google of all particles and I'm going to say inspect on here notice something interation
+
+04:50.760 --> 04:51.430
+right.
+
+04:51.750 --> 04:55.200
+You have a heading three here.
+
+04:55.410 --> 05:03.800
+You buy accordion Hetter And then if we go to the Dave read this is going to be UI accordion content.
+
+05:04.030 --> 05:04.540
+Right.
+
+05:04.610 --> 05:10.790
+And you can see that there are already styles applied and why I'm showing you this right.
+
+05:10.790 --> 05:15.060
+Because remember when we had over here we can call the script.
+
+05:15.060 --> 05:22.160
+Remember these guys you buy accordion and you can see that I actually didn't spell it correctly accordion
+
+05:22.740 --> 05:28.690
+or like this or here here we have accordion content right.
+
+05:28.730 --> 05:31.770
+This is the best way how we can actually style it.
+
+05:31.930 --> 05:37.190
+And because we already have a preset classes now there's one thing here.
+
+05:37.430 --> 05:42.080
+So let's say that we're going to start styling them and I'm just going to say first things first putting
+
+05:42.080 --> 05:43.980
+20 pixels on it for the head.
+
+05:44.630 --> 05:46.200
+And exit and nothing happens.
+
+05:46.490 --> 05:54.530
+Well or if I do this important or you're doing this and then if we actually say it and you can see that
+
+05:54.530 --> 06:01.430
+I didn't spell important and now everything works right now the padding actually got bigger because
+
+06:01.430 --> 06:05.930
+we need to use or hear what is important and then we'll there's going to be a couple things and we're
+
+06:05.930 --> 06:11.720
+all going to do we're all going to say text a line and we're going to say Center then or here we're
+
+06:11.720 --> 06:13.530
+going to say a background.
+
+06:13.680 --> 06:21.740
+And again for the background we're going to say this is going to be Aztek F F C and have a 9 1 for we
+
+06:21.870 --> 06:26.270
+hear an exclamation more important like this.
+
+06:26.270 --> 06:28.500
+And again you can see now everything is working.
+
+06:28.740 --> 06:36.380
+Then we're going to have a color that 0 0 and then is going to be a and then we're going to have a 7
+
+06:36.580 --> 06:43.630
+see or hear one and this again exclamation got important like this.
+
+06:43.640 --> 06:45.800
+And I can see that text is working.
+
+06:46.030 --> 06:49.070
+Then we're going to have a text transform.
+
+06:49.250 --> 06:53.260
+This is going to be a capitalize on this.
+
+06:53.270 --> 07:00.100
+Then after that we're going to have a font size font size and Fonzo is going to be 25 pixels.
+
+07:00.140 --> 07:06.460
+Again we need to use important here now everything is working the font size.
+
+07:06.480 --> 07:08.450
+Maybe that's a little bit too drastic.
+
+07:08.450 --> 07:11.250
+Let's just go with 20 more here.
+
+07:11.400 --> 07:16.820
+Then after that we'll have a margin 5 pixels right and zero.
+
+07:17.010 --> 07:21.770
+And again we're going to use important like this.
+
+07:22.110 --> 07:29.360
+We're going to have the actual border and again we're going to have a let's say two pixels solid.
+
+07:29.360 --> 07:31.960
+And again we're going to use the color of blue.
+
+07:32.210 --> 07:38.850
+So hash tag 00 array and seven e one here.
+
+07:38.870 --> 07:40.670
+And again we're going to use a.
+
+07:40.740 --> 07:43.830
+Important here and this.
+
+07:43.880 --> 07:51.210
+And then we have a border radius for eight years and this is going to be 10 pixels here or here and
+
+07:51.350 --> 07:57.260
+we're going to say how important important right now I've got the board of ideas.
+
+07:57.420 --> 08:01.130
+Now the next thing that we would want is accordion content.
+
+08:01.200 --> 08:06.240
+And so this is going to be these guys right whatever we're clicking and it's actually appearing.
+
+08:06.720 --> 08:15.480
+So what we're going to do or here we're going to say a background in this tag be an hour here then we're
+
+08:15.480 --> 08:23.820
+going to say 5 C then we're going to have a to b seven to be an order so that after that we would want
+
+08:23.910 --> 08:25.040
+a padding.
+
+08:25.200 --> 08:31.130
+So I'm separating 20 pixels here and now again we need to use a.
+
+08:31.130 --> 08:33.650
+Important on this.
+
+08:33.660 --> 08:35.260
+Now we get the padding.
+
+08:35.280 --> 08:39.800
+Then we have a line height one point eight here.
+
+08:39.990 --> 08:42.480
+Then we have a color hashtag.
+
+08:42.690 --> 08:46.040
+And this is going to be EF 5 EF 3 or 5.
+
+08:46.290 --> 08:51.630
+And then we need border radios some more radios.
+
+08:51.740 --> 08:57.170
+And over here we're going to say 10 pixels on this right and you can see that in more than a radius
+
+08:57.170 --> 08:58.050
+what anyone.
+
+08:58.100 --> 09:02.480
+Right now when we have our styles here.
+
+09:02.480 --> 09:02.950
+Right.
+
+09:03.040 --> 09:07.230
+And now we can close it right now just remember these two classes right.
+
+09:07.250 --> 09:11.140
+This is the whole faster way how to actually styled them.
+
+09:11.140 --> 09:11.450
+All right.
+
+09:11.450 --> 09:13.070
+We can go back over here.
+
+09:13.370 --> 09:14.440
+We can refresh.
+
+09:14.600 --> 09:21.910
+And then let's look at one more thing we're here and how we can actually make this accordion slide let's
+
+09:21.910 --> 09:22.940
+say slower.
+
+09:23.240 --> 09:28.700
+So we're going to we're going to have a quorum note here we can just go back over here and we have a
+
+09:28.700 --> 09:30.100
+few options right.
+
+09:30.150 --> 09:33.840
+Can First of all just look at API documentation right.
+
+09:34.130 --> 09:39.110
+And you can see or here we have eight classes methods and events.
+
+09:39.280 --> 09:39.840
+Right.
+
+09:39.890 --> 09:42.530
+And what we need on here is that Sanomat.
+
+09:42.830 --> 09:44.970
+Well it says pretty simple right.
+
+09:45.110 --> 09:47.820
+We have a quorum and we have an image.
+
+09:48.050 --> 09:53.670
+So let's go back over here to our script and the script is going to be here.
+
+09:54.080 --> 09:55.130
+We have a calling.
+
+09:55.310 --> 10:00.950
+So what we need to do is have a curly braces right because we're creating an object.
+
+10:00.950 --> 10:07.600
+I'm going to say animate here and now again the number is actually going to be how many seconds.
+
+10:07.610 --> 10:10.650
+So let's say let's start with the really small one right.
+
+10:10.670 --> 10:16.680
+So four 4000 milliseconds which is as you can see this is going to be four seconds that's how long is
+
+10:16.680 --> 10:17.710
+is going I think.
+
+10:17.730 --> 10:20.060
+Obviously that's a little bit drastic.
+
+10:20.270 --> 10:23.060
+So let's go with like one second here like this.
+
+10:23.100 --> 10:23.860
+Right.
+
+10:23.950 --> 10:31.660
+And now I can see as I'm clicking now it's going to take one second and this is how we can make or hear
+
+10:32.150 --> 10:35.700
+this about section with an accordion.
+
+10:35.960 --> 10:45.410
+And like I said the chording is from Jake worry you why that is built on top of a jack worry.
+
+10:45.530 --> 10:55.120
+All right well we need to do is download the javascript CD and or file or see a size CVN or file file
+
+10:55.650 --> 10:57.660
+or here once we're done.
+
+10:57.710 --> 11:00.630
+I actually have two classes to work with.
+
+11:00.970 --> 11:01.380
+Right.
+
+11:01.530 --> 11:02.420
+Or here like this.
+
+11:02.420 --> 11:09.030
+Right so accordion head an accordion content and that's how we can make an accordion well here in this
+
+11:09.410 --> 11:09.800
+section.

@@ -1,0 +1,814 @@
+1
+
+00:00:00,000  -->  00:00:03,629
+Alright guys, welcome back. What we're
+
+2
+
+00:00:03,629  -->  00:00:05,339
+going to get to now is just playing
+
+3
+
+00:00:05,339  -->  00:00:07,379
+around with the tab bar itself and I'm
+
+4
+
+00:00:07,379  -->  00:00:09,150
+going to show you guys how we can do
+
+5
+
+00:00:09,150  -->  00:00:11,490
+different stuff with it, because this is
+
+6
+
+00:00:11,490  -->  00:00:13,950
+going to be essential for going through
+
+7
+
+00:00:13,950  -->  00:00:16,350
+the rest of this video. We're going to be
+
+8
+
+00:00:16,350  -->  00:00:19,500
+using this tab bar and there are certain
+
+9
+
+00:00:19,500  -->  00:00:21,150
+things you can do with it, and this is
+
+10
+
+00:00:21,150  -->  00:00:22,350
+actually going to lead right into the
+
+11
+
+00:00:22,350  -->  00:00:23,820
+next video where we're going to talk about
+
+12
+
+00:00:23,820  -->  00:00:29,519
+custom window events. So at the bar here, if I put my
+
+13
+
+00:00:29,519  -->  00:00:30,840
+application here, you'll notice that
+
+14
+
+00:00:30,840  -->  00:00:34,320
+there's tabs, they're static, I gotta shut
+
+15
+
+00:00:34,320  -->  00:00:37,649
+down my PyCharm on my other machine I guess.
+
+16
+
+00:00:37,649  -->  00:00:43,770
+Alright, so, yeah those tabs are static, you
+
+17
+
+00:00:43,770  -->  00:00:45,629
+can't really do anything to them, so what we
+
+18
+
+00:00:45,629  -->  00:00:47,850
+can do is set some arguments when we
+
+19
+
+00:00:47,850  -->  00:00:50,640
+create the tab bar here. So the two
+
+20
+
+00:00:50,640  -->  00:00:52,170
+that we're going to be talking about are
+
+21
+
+00:00:52,170  -->  00:00:55,590
+movable and closable. So the two
+
+22
+
+00:00:55,590  -->  00:00:57,449
+arguments we need to pass in are movable
+
+23
+
+00:00:57,449  -->  00:01:07,320
+equals true, and tabsClosable equals
+
+24
+
+00:01:07,320  -->  00:01:11,159
+True. I'm going to save this and rerun our
+
+25
+
+00:01:11,159  -->  00:01:13,770
+application, and you're going to see that
+
+26
+
+00:01:13,770  -->  00:01:17,369
+now I've got these clothes icons and we
+
+27
+
+00:01:17,369  -->  00:01:24,840
+also can rotate the tabs I guess. So,
+
+28
+
+00:01:24,840  -->  00:01:29,340
+what you need to do you in order to
+
+29
+
+00:01:29,340  -->  00:01:33,360
+close the tab here is you
+
+30
+
+00:01:33,360  -->  00:01:35,640
+need to hook into an event, so signals
+
+31
+
+00:01:35,640  -->  00:01:37,650
+and slots. So what we're going to do is
+
+32
+
+00:01:37,650  -->  00:01:40,590
+we're going to connect tab close requested to our
+
+33
+
+00:01:40,590  -->  00:01:42,450
+custom method that will actually remove
+
+34
+
+00:01:42,450  -->  00:01:45,659
+the current tab. So what we need to do is
+
+35
+
+00:01:45,659  -->  00:01:53,280
+go self.tabbar.tabCloseRequested, and
+
+36
+
+00:01:53,280  -->  00:01:55,140
+this is a signal so you don't put
+
+37
+
+00:01:55,140  -->  00:01:56,460
+parentheses or anything,
+
+38
+
+00:01:56,460  -->  00:02:00,719
+.connect and we're going to connect
+
+39
+
+00:02:00,719  -->  00:02:06,320
+it to self.CloseTab.
+
+40
+
+00:02:06,590  -->  00:02:09,440
+I'm going to drop down here and I'm
+
+41
+
+00:02:09,440  -->  00:02:12,769
+going to define close tab, and this
+
+42
+
+00:02:12,769  -->  00:02:16,370
+takes in a parameter, I believe, we will
+
+43
+
+00:02:16,370  -->  00:02:18,349
+see in a moment. Maybe this isn't the one that
+
+44
+
+00:02:18,349  -->  00:02:20,360
+takes a parameter. Let me just print
+
+45
+
+00:02:20,360  -->  00:02:23,900
+out i and let's see if it does automatically send
+
+46
+
+00:02:23,900  -->  00:02:27,470
+the index of the current tab, or
+
+47
+
+00:02:27,470  -->  00:02:35,000
+the tab that has requested to close, and
+
+48
+
+00:02:35,000  -->  00:02:39,170
+it doesm cool. So, yeah, this connection
+
+49
+
+00:02:39,170  -->  00:02:41,390
+here automatically sends the tab that
+
+50
+
+00:02:41,390  -->  00:02:43,280
+should be closed, and then all we're
+
+51
+
+00:02:43,280  -->  00:02:48,200
+going to do is we're going to self.tabbar.
+
+52
+
+00:02:48,200  -->  00:03:06,470
+removeTab, alright.
+
+53
+
+00:03:06,470  -->  00:03:09,170
+Then pass in the index number of the tab you want to remove.
+
+54
+
+00:03:09,170  -->  00:03:12,889
+You want to save it, run the application
+
+55
+
+00:03:12,889  -->  00:03:19,370
+again, and there for some reason base size
+
+56
+
+00:03:19,370  -->  00:03:25,489
+come in there which is so strange.
+
+57
+
+00:03:25,489  -->  00:03:32,810
+Oh, let me create the app and then set
+
+58
+
+00:03:32,810  -->  00:03:35,299
+the base size, I think that's the problem,
+
+59
+
+00:03:35,299  -->  00:03:39,049
+there we go. So now when we close the tab
+
+60
+
+00:03:39,049  -->  00:03:43,459
+it actually closes. For some reason the window
+
+61
+
+00:03:43,459  -->  00:03:46,970
+there is jumping, I am not really sure why, we will figure
+
+62
+
+00:03:46,970  -->  00:03:47,569
+that out.
+
+63
+
+00:03:47,569  -->  00:03:53,720
+So, we can move the tabs, and close
+
+64
+
+00:03:53,720  -->  00:03:56,690
+the tabs, and we're also going to need a
+
+65
+
+00:03:56,690  -->  00:03:59,329
+way to add tabs, so what we're going to
+
+66
+
+00:03:59,329  -->  00:04:02,569
+do is we're going to create a window
+
+67
+
+00:04:02,569  -->  00:04:06,169
+border that we're going to add the tabs
+
+68
+
+00:04:06,169  -->  00:04:10,790
+to, and we're also going to add the close
+
+69
+
+00:04:10,790  -->  00:04:13,010
+button for the window. So this is going
+
+70
+
+00:04:13,010  -->  00:04:16,760
+to be a custom window border, it's not
+
+71
+
+00:04:16,760  -->  00:04:18,709
+going to have the native one, because we
+
+72
+
+00:04:18,709  -->  00:04:19,450
+don't want that we want
+
+73
+
+00:04:19,450  -->  00:04:21,790
+our window, our web browser, to have
+
+74
+
+00:04:21,790  -->  00:04:30,430
+tabs at the top. So, to explain that a bit
+
+75
+
+00:04:30,430  -->  00:04:33,760
+better what I'm going to do is we're
+
+76
+
+00:04:33,760  -->  00:04:37,870
+going to add widgets to the main
+
+77
+
+00:04:37,870  -->  00:04:39,670
+interface, so down here where we add
+
+78
+
+00:04:39,670  -->  00:04:43,150
+stuff to the layout, which again is a QVBoxLayout,
+
+79
+
+00:04:43,150  -->  00:04:46,420
+we're actually going to add first an address bar,
+
+80
+
+00:04:46,420  -->  00:04:50,620
+and then we're going to add the stacked
+
+81
+
+00:04:50,620  -->  00:04:53,290
+layout itself. So what we need to do for
+
+82
+
+00:04:53,290  -->  00:04:55,060
+the address for is we're actually going
+
+83
+
+00:04:55,060  -->  00:04:57,340
+to subclass that because we're going to
+
+84
+
+00:04:57,340  -->  00:05:02,650
+when you add a tab or when you press on a tab,
+
+85
+
+00:05:02,650  -->  00:05:04,870
+or when you press on the address bar,
+
+86
+
+00:05:04,870  -->  00:05:06,940
+it's going to automatically select all
+
+87
+
+00:05:06,940  -->  00:05:08,800
+of the content from within the address
+
+88
+
+00:05:08,800  -->  00:05:14,800
+bar. So class AddressBar is going to
+
+89
+
+00:05:14,800  -->  00:05:20,080
+inherit from QLineEdit, then we're going to
+
+90
+
+00:05:20,080  -->  00:05:22,900
+define init which is basically just
+
+91
+
+00:05:22,900  -->  00:05:28,690
+going to say super init, and then we're
+
+92
+
+00:05:28,690  -->  00:05:34,780
+going to define mousePressEvent, and so
+
+93
+
+00:05:34,780  -->  00:05:37,510
+basically if you want to modify events
+
+94
+
+00:05:37,510  -->  00:05:42,370
+for a widget or a class that comes
+
+95
+
+00:05:42,370  -->  00:05:45,460
+packaged with Qt, what you need to do
+
+96
+
+00:05:45,460  -->  00:05:48,190
+is you need a subclass it and then create a
+
+97
+
+00:05:48,190  -->  00:05:50,620
+method called what the event is called,
+
+98
+
+00:05:50,620  -->  00:05:52,690
+and then you can do whatever you want.
+
+99
+
+00:05:52,690  -->  00:05:54,430
+So we're going to say self, which is
+
+100
+
+00:05:54,430  -->  00:05:56,500
+the line edit, and we're going to say select
+
+101
+
+00:05:56,500  -->  00:06:00,430
+all. So that's the only reason we're really
+
+102
+
+00:06:00,430  -->  00:06:03,040
+subclassing that. So what we're going
+
+103
+
+00:06:03,040  -->  00:06:04,390
+to do is we're going to create the
+
+104
+
+00:06:04,390  -->  00:06:08,830
+address bar here, so I'm going to add
+
+105
+
+00:06:08,830  -->  00:06:10,960
+some comments here just to keep things
+
+106
+
+00:06:10,960  -->  00:06:13,770
+organized.
+
+107
+
+00:06:18,050  -->  00:06:24,740
+I'm going to say self.addressbar
+
+108
+
+00:06:24,740  -->  00:06:29,780
+equals AddressBar. And now what we're
+
+109
+
+00:06:29,780  -->  00:06:31,190
+going to do is we're going to add the
+
+110
+
+00:06:31,190  -->  00:06:34,310
+tab bar first, then the address bar, and
+
+111
+
+00:06:34,310  -->  00:06:35,870
+actually what we're going to do is we're
+
+112
+
+00:06:35,870  -->  00:06:39,379
+going to create a QHBoxLayout. So,
+
+113
+
+00:06:39,379  -->  00:06:42,020
+let's go ahead and create, what we need
+
+114
+
+00:06:42,020  -->  00:06:47,990
+to do first okay is add a H, we need to
+
+115
+
+00:06:47,990  -->  00:06:50,300
+add a widget, and then add the HBox
+
+116
+
+00:06:50,300  -->  00:06:52,129
+Layout to the widget, and then add the
+
+117
+
+00:06:52,129  -->  00:06:53,509
+address bar because we're also going to
+
+118
+
+00:06:53,509  -->  00:06:55,159
+be adding buttons like back and forward
+
+119
+
+00:06:55,159  -->  00:06:57,919
+buttons, so you guys will see what I mean
+
+120
+
+00:06:57,919  -->  00:07:04,039
+here. So self.Toolbar equals QWidget,
+
+121
+
+00:07:04,039  -->  00:07:17,240
+and then self.ToolbarLayout is going to equal
+
+122
+
+00:07:17,240  -->  00:07:21,379
+QHBoxLayout, and now what we can do is we
+
+123
+
+00:07:21,379  -->  00:07:25,310
+can add layout,
+
+124
+
+00:07:25,310  -->  00:07:29,029
+well we're going to set toolbars layout
+
+125
+
+00:07:29,029  -->  00:07:34,490
+to this toolbar layout. So self.Toolbar,
+
+126
+
+00:07:34,490  -->  00:07:42,020
+yeah that's right, setLayout, and it's
+
+127
+
+00:07:42,020  -->  00:07:46,400
+going to set to self.ToolbarLayout.
+
+128
+
+00:07:46,400  -->  00:07:50,479
+Now we're going to add our address bar
+
+129
+
+00:07:50,479  -->  00:07:55,520
+to the toolbar layout. So self.ToolbarLayout.
+
+130
+
+00:07:55,520  -->  00:07:59,060
+addWidget, we're going to add a self.address
+
+131
+
+00:07:59,060  -->  00:07:59,659
+bar/
+
+132
+
+00:07:59,659  -->  00:08:04,849
+Okay, so, now we've got our toolbar widget
+
+133
+
+00:08:04,849  -->  00:08:07,370
+that we can then throw into
+
+134
+
+00:08:07,370  -->  00:08:09,770
+the main layout under the tabbar. So self
+
+135
+
+00:08:09,770  -->  00:08:10,490
+.layout.
+
+136
+
+00:08:10,490  -->  00:08:13,190
+addWidget, and we're going to
+
+137
+
+00:08:13,190  -->  00:08:20,449
+add self.Toolbar. I'm going to save this and run
+
+138
+
+00:08:20,449  -->  00:08:23,240
+the application again, and now you're
+
+139
+
+00:08:23,240  -->  00:08:28,889
+going to see that...
+
+140
+
+00:08:28,889  -->  00:08:34,769
+...
+
+141
+
+00:08:34,769  -->  00:08:39,469
+...
+
+142
+
+00:08:41,010  -->  00:08:45,450
+Alright, so, let's go ahead and try that
+
+143
+
+00:08:45,450  -->  00:08:47,660
+again,
+
+144
+
+00:08:50,790  -->  00:08:54,180
+there. So if I click you see that it
+
+145
+
+00:08:54,180  -->  00:08:56,970
+selects all which is what we did when we
+
+146
+
+00:08:56,970  -->  00:09:04,560
+subclassed the QLineEdit there. Now
+
+147
+
+00:09:04,560  -->  00:09:06,839
+things still don't look right because
+
+148
+
+00:09:06,839  -->  00:09:10,769
+there's a lot of space in here,
+
+149
+
+00:09:10,769  -->  00:09:12,720
+so what we need to do is we actually
+
+150
+
+00:09:12,720  -->  00:09:17,790
+need to set the spacing to 0, and the contents
+
+151
+
+00:09:17,790  -->  00:09:20,699
+margin. So we're going to say self.
+
+152
+
+00:09:20,699  -->  00:09:28,769
+layout. setSpacing going to be 0, going to
+
+153
+
+00:09:28,769  -->  00:09:33,630
+refresh, and we're going to see that some spacing has
+
+154
+
+00:09:33,630  -->  00:09:38,010
+been removed, and then self.layout.
+
+155
+
+00:09:38,010  -->  00:09:44,940
+setContentsMargins(0, 0, 0, 0) and this is one for
+
+156
+
+00:09:44,940  -->  00:09:49,079
+each side. Now this has removed more
+
+157
+
+00:09:49,079  -->  00:09:50,880
+margin as you see there.
+
+158
+
+00:09:50,880  -->  00:09:59,160
+So, what we need to do at this point, so
+
+159
+
+00:09:59,160  -->  00:10:01,709
+we've got our address bar, we've got our
+
+160
+
+00:10:01,709  -->  00:10:06,390
+tab bar, but what we're going to do is
+
+161
+
+00:10:06,390  -->  00:10:08,279
+we're going to create a custom window,
+
+162
+
+00:10:08,279  -->  00:10:10,680
+and we're going to be doing that
+
+163
+
+00:10:10,680  -->  00:10:14,029
+actually in the next video.

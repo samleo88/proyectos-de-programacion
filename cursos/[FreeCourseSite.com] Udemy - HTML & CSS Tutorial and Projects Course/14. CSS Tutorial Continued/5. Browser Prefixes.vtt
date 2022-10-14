@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.540 --> 00:01.170
+All right.
+
+00:01.180 --> 00:07.290
+What are these weird browser prefixes in a nutshell when there are prefixes as they're also called.
+
+00:07.500 --> 00:12.670
+Are the ways for different browsers to add support for the latest to assess features.
+
+00:12.670 --> 00:18.820
+Browser prefixes are needed as the browsers experiment and start out their implementation of the new
+
+00:18.820 --> 00:22.600
+CEO says three properties and an excellent external resource.
+
+00:22.610 --> 00:25.030
+THEN WE'RE GONNA USE IS GONNA BE Can I use that com.
+
+00:25.390 --> 00:29.740
+Now the basic syntax would be like this again we would have some kind of browser prefix of which in
+
+00:29.740 --> 00:34.510
+this case is going to be for Chrome then we're going to be looking for let's say Mozilla and at the
+
+00:34.510 --> 00:38.420
+very end we'll just gonna write a normal CSX property.
+
+00:38.470 --> 00:40.090
+Let's head over baby first.
+
+00:40.120 --> 00:41.760
+Can I use dot com.
+
+00:41.800 --> 00:43.840
+This is gonna give us more idea so I can write.
+
+00:43.840 --> 00:45.330
+Can I use dot com.
+
+00:45.640 --> 00:50.770
+And then here I can write whatever property I would like and most of the cases let me just show you
+
+00:50.770 --> 00:55.590
+would see us as grid because this is still going to be lacking a little bit of support.
+
+00:55.840 --> 00:57.840
+Now as you're looking at it you see that.
+
+00:57.850 --> 01:05.380
+Let's say that in a 9 story Internet Explorer this is just not basically supported coal in 10.
+
+01:05.380 --> 01:12.640
+This is a partial support where you would need to use the prefix of m s and then let's say an 11 again
+
+01:12.640 --> 01:14.040
+it says the same thing.
+
+01:14.060 --> 01:19.490
+However if I'm gonna head over to Chrome you'll see that this is all green so everything isn't supported
+
+01:19.990 --> 01:24.940
+and that way you can decide what is happening with the property and what you would need to do.
+
+01:25.240 --> 01:29.540
+Now here is the ten thousand question ten thousand dollar question.
+
+01:29.540 --> 01:33.560
+Do you need to add this every time you are looking for a property.
+
+01:33.610 --> 01:35.970
+And my answer would be no.
+
+01:36.000 --> 01:42.520
+Well let me give you an elaboration why I wouldn't use that right now why I wouldn't add them manually
+
+01:42.550 --> 01:47.170
+by hand like this as well as the actual reasoning behind it.
+
+01:47.350 --> 01:50.990
+You seem as you're gonna be progressing in development.
+
+01:51.010 --> 01:58.600
+You'll learn many many ways how you can write all your success and then set up some kind of argumentation
+
+01:59.170 --> 02:05.440
+where it scans through your C assess file and then have them automatically at the very end instead of
+
+02:05.440 --> 02:06.670
+you typing this out.
+
+02:06.670 --> 02:11.830
+Let's say three times and this really gets annoying as far as I'm concerned very quickly.
+
+02:11.830 --> 02:16.120
+Now I have to tell you honestly I don't remember when is the last time I was typing the browser prefixes
+
+02:16.510 --> 02:19.060
+because again you use something like gulp use.
+
+02:19.060 --> 02:19.740
+I don't know.
+
+02:19.900 --> 02:25.660
+Another NPM module or anything like that and they all gonna do the work for you where you can set up
+
+02:25.660 --> 02:31.720
+everything how you would like to add those browser browser prefixes meaning like let's say for what
+
+02:31.720 --> 02:33.430
+versions of the browsers and all that.
+
+02:34.000 --> 02:40.060
+And it is much more faster so throughout our project I'm not gonna be adding them manually.
+
+02:40.060 --> 02:46.660
+This is just not going to happen because in my opinion it clogs up rails into CSX and it loses the purpose
+
+02:46.660 --> 02:48.670
+for me to actually explain everything.
+
+02:48.670 --> 02:52.780
+If you have to look at a bunch of calls like this now you can do it.
+
+02:52.810 --> 02:54.480
+I mean I'm not saying there's nothing wrong with that.
+
+02:54.480 --> 02:59.150
+You can technically write everything by hand rule by rule but I'm just telling you that there's gonna
+
+02:59.170 --> 03:05.780
+be a much more nicer options now we can just get all these browser prefixes that we need.
+
+03:05.810 --> 03:10.930
+I also would like to show you maybe one quick and dirty way how we can do that.
+
+03:10.930 --> 03:16.690
+So if we write out a prefix or get out by but you can ask the search for it or here like this.
+
+03:16.700 --> 03:23.440
+So out of prefix sir let me write it here and then we're gonna be looking for this guy.
+
+03:23.440 --> 03:26.270
+And if you want you can just copy and paste it basically.
+
+03:26.380 --> 03:30.240
+So I'd say that I know that there's gonna be a an issue with linear gradient.
+
+03:30.260 --> 03:36.250
+Let's imagine that in my CSX I would have the main heading then in the main heading again and we would
+
+03:36.250 --> 03:37.470
+copy and paste it normally.
+
+03:37.530 --> 03:42.090
+Let's say our whole systems file but in our case we're going to say I don't know.
+
+03:42.160 --> 03:47.200
+Background and background linear great.
+
+03:47.210 --> 03:50.570
+And here we need to have proper dash grade.
+
+03:50.590 --> 03:51.820
+The end.
+
+03:51.880 --> 03:52.420
+Right.
+
+03:52.590 --> 03:55.560
+As you can see my spelling was always awesome.
+
+03:55.690 --> 03:57.180
+And then let's write whatever colors.
+
+03:57.190 --> 03:58.500
+Let's say red and blue.
+
+03:58.900 --> 04:00.030
+And what's going to happen.
+
+04:00.070 --> 04:05.410
+The actual auto prefix R is gonna spit back already prefixed code.
+
+04:05.650 --> 04:10.000
+You can copy and paste your code here and get everything that you want but again this would be a quick
+
+04:10.000 --> 04:11.020
+and dirty way.
+
+04:11.110 --> 04:18.280
+There is better ways you can actually make this automatic where again it scans through your file.
+
+04:18.280 --> 04:25.930
+It just basically adds them and I haven't had an issue where let's say I have to do this manually because
+
+04:25.930 --> 04:30.940
+everything is done for you so you can keep it clean success and at the end of the day you can get all
+
+04:30.940 --> 04:32.810
+your browser prefixes anyway.
+
+04:33.040 --> 04:38.620
+And my main point is that we will not going to be adding a browser prefix is in our project.

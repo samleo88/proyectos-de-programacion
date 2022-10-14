@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00.160 --> 00:04.560
+When our CEO says the first thing here we created a comments.
+
+00:04.560 --> 00:09.420
+This is going to be for a number so we're going to see or hear Mersch and or hear we're going to say
+
+00:09.420 --> 00:12.750
+this is going to be padding for the pixels.
+
+00:12.760 --> 00:20.250
+All right this afternoon we're going to target a single number so I'm going to say number here and then
+
+00:20.250 --> 00:26.370
+we're going to have a margin 20 pixels or you know like this and then zero here.
+
+00:26.520 --> 00:27.600
+Now there we have this.
+
+00:27.600 --> 00:34.920
+We're going to say text align center here and we're going to have a transition here and this is going
+
+00:34.920 --> 00:36.580
+to be trends for one.
+
+00:36.750 --> 00:37.420
+All right.
+
+00:37.650 --> 00:39.890
+Two seconds each.
+
+00:40.250 --> 00:43.560
+All right now have a transformation here.
+
+00:43.650 --> 00:54.600
+We're going to select this number here hover over here and they're all going to say transform transform
+
+00:54.820 --> 01:01.080
+and we're going to translate and we're going to say translate why or here and we're going to say minus
+
+01:01.410 --> 01:03.320
+10 pixels right.
+
+01:03.360 --> 01:08.300
+So as we're having we're actually going to translate or do a cursor.
+
+01:08.310 --> 01:09.710
+I'm going to say pointer.
+
+01:09.770 --> 01:15.540
+All right let's move on and let's actually have for a fantasy.
+
+01:15.540 --> 01:16.240
+My God.
+
+01:16.480 --> 01:18.790
+So I'm going to say number here.
+
+01:18.830 --> 01:22.040
+Hey I like this font size.
+
+01:22.040 --> 01:24.130
+I'm going to say font size.
+
+01:24.220 --> 01:27.850
+Sixty sixty pixels right.
+
+01:27.860 --> 01:29.330
+Or something like this.
+
+01:29.350 --> 01:38.360
+Then after that we're going to have a color hash tag on here to be here 9 8 0.
+
+01:38.580 --> 01:46.410
+Then after that we would want to actually work with a heading to someone say number two and then I'm
+
+01:46.560 --> 01:52.760
+going to say font size and let's say we are 40 pixels in this.
+
+01:52.890 --> 02:00.660
+And then after that we're going to have a margin margin 10 pixels 0 and this and that or here is do
+
+02:00.750 --> 02:05.110
+a font weight font weight you know and this.
+
+02:05.110 --> 02:11.000
+So I just do and let's say 900 hundred this guy.
+
+02:11.220 --> 02:14.780
+And then after that we would want a heading five.
+
+02:15.150 --> 02:17.680
+So we're here with we're going to say this is going to be.
+
+02:17.850 --> 02:28.890
+We're adding five more here and we're going to have a font size and it's 23 pixels here and the color
+
+02:28.890 --> 02:29.940
+is going to be again.
+
+02:29.940 --> 02:34.780
+Hash tag see 99 C-9 really like this.
+
+02:34.800 --> 02:40.830
+Now we are ready to go on and actually start working with a media equerries for Responsive screen.

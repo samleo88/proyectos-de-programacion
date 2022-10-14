@@ -1,0 +1,643 @@
+WEBVTT
+
+00:00.100 --> 00:06.270
+That we're done with setting up a title you can actually go ahead and finish your here with the skills
+
+00:06.270 --> 00:07.200
+section.
+
+00:07.200 --> 00:11.420
+So what I'm going to do we're here again we're going to homework and this is going to be in the title
+
+00:11.430 --> 00:12.100
+right.
+
+00:12.110 --> 00:13.940
+So this is going to be the end of title.
+
+00:14.070 --> 00:19.170
+And now we're going to create a comment here I'm going to say this is going to be a div with a class
+
+00:19.230 --> 00:26.880
+of skills Center press table here and when then there's going to have a article here.
+
+00:27.080 --> 00:32.660
+Not meaning for class this is going to be skill or here don't open it up.
+
+00:32.910 --> 00:39.710
+And then we're going to have a font or some sort here I'm just going to say this is going to be a this
+
+00:39.740 --> 00:47.160
+is going to be f a apple press time or you know like this and we're going to have a heading three and
+
+00:47.160 --> 00:51.360
+heading three isn't going to be or you know like this and I was going to say this is going to be Apple
+
+00:52.020 --> 00:52.950
+press time.
+
+00:52.990 --> 00:57.570
+Now this is going to be the next one and they're all going to have a paragraph or here we're going to
+
+00:57.570 --> 01:02.030
+see a paragraph over here let's say we're going to have like let's say 10 words.
+
+01:02.060 --> 01:04.920
+Right so we're on 10 or you're right.
+
+01:04.980 --> 01:07.160
+So we can have a paragraph.
+
+01:07.440 --> 01:09.040
+And this is going to be the text.
+
+01:09.060 --> 01:12.030
+Now what would you want to do is actually just copy and paste this.
+
+01:12.040 --> 01:12.380
+Right.
+
+01:12.540 --> 01:14.740
+So we have an article right.
+
+01:14.850 --> 01:19.080
+So I'm going to be selecting the lines here and all this is going to have three more.
+
+01:19.080 --> 01:20.510
+One two three.
+
+01:20.670 --> 01:26.450
+No one here would just need to make obviously few changes with the first one is going to be ample.
+
+01:26.460 --> 01:28.930
+Second it going to be let's say Google.
+
+01:29.280 --> 01:35.400
+And so what we're saying is that we can work with an apple and with Google and we also can do Android
+
+01:36.670 --> 01:38.970
+Android on Agnes.
+
+01:39.070 --> 01:41.270
+And the last one is going to be here.
+
+01:41.350 --> 01:44.380
+So basically we're good with any tool whatsoever.
+
+01:44.380 --> 01:47.720
+So I'm going to say gear on here and this.
+
+01:47.720 --> 01:50.100
+Now we have a clear knowledge changer here.
+
+01:50.110 --> 01:58.050
+This is going to be tools here than the next one is going to be Android Android here.
+
+01:58.300 --> 02:03.540
+And then this is going to be Google and this is going to be it for the AGM now.
+
+02:03.760 --> 02:09.420
+So what would you want to do is we would want to actually save this and let's go and actually deal with
+
+02:09.420 --> 02:10.790
+the main CSSA.
+
+02:11.150 --> 02:13.390
+So we're here for the skill.
+
+02:13.400 --> 02:14.170
+All right.
+
+02:14.170 --> 02:18.540
+First of all who would want to do is again create a new one right now.
+
+02:18.650 --> 02:19.880
+Coming over here.
+
+02:20.060 --> 02:21.460
+I'm going to say skills.
+
+02:21.610 --> 02:25.240
+And another one again are going to create some hashtags.
+
+02:25.240 --> 02:27.820
+And again we're going to make a lot of room here right.
+
+02:27.860 --> 02:33.460
+But over here we're first thing that I would want to do just for new skills here are we want to push
+
+02:33.460 --> 02:35.690
+it up a bit in the title.
+
+02:35.740 --> 02:39.600
+So I'm going to say we're here hashtags kills here.
+
+02:39.720 --> 02:44.130
+I don't know where I'm going to say margin and margin up.
+
+02:44.190 --> 02:47.670
+This is going to be negative 40 pixels.
+
+02:47.680 --> 02:52.980
+Right so here you can see that I basically lifted a text up or like this and this is what I want to
+
+02:53.110 --> 02:54.880
+do just for this title.
+
+02:55.300 --> 03:00.820
+And then after that what I would want to say is for that div That's a parent element for a lot them
+
+03:00.820 --> 03:02.790
+right for the skill center.
+
+03:02.790 --> 03:04.150
+I don't want to say it like this right.
+
+03:04.150 --> 03:14.500
+I'm going to say skills center like this and then I have a max with all this I'm going to say Max with
+
+03:15.090 --> 03:18.900
+90 you with us or here like this right.
+
+03:18.950 --> 03:21.550
+So I can see what's happening right around 90.
+
+03:21.670 --> 03:23.490
+But everything shifts there's a lot.
+
+03:23.810 --> 03:29.640
+Then we're going to margin 0 0 0 on handling this zero.
+
+03:29.990 --> 03:34.170
+And then we have a padding all around so 20 pixels and zero.
+
+03:34.340 --> 03:38.160
+So what I'm saying top bottom 20 pixels and zero on the sides.
+
+03:38.170 --> 03:38.320
+Right.
+
+03:38.330 --> 03:43.700
+Because we are already using a 90 you with or here or here.
+
+03:43.700 --> 03:48.330
+So let's place a somewhere call and order here.
+
+03:48.460 --> 03:52.110
+The next thing that I would want to do is deal with the actual individual skill.
+
+03:52.240 --> 03:53.770
+So I'm going to say we're here again.
+
+03:53.800 --> 04:00.130
+Let's create a lot of room and we're going to have a dot and that is going to be for the skill.
+
+04:00.280 --> 04:07.390
+So skill not here we're going to say margin 40 pixels right so you can see that now is going on around
+
+04:07.620 --> 04:08.220
+zero.
+
+04:08.410 --> 04:13.350
+So what I want is actually in between them 40 pixels and this is going to work for all the screens right
+
+04:13.360 --> 04:15.100
+starting from the smallest one right.
+
+04:15.280 --> 04:19.810
+But as the screen is going to get bigger it's still going to be staying with 40 pixels.
+
+04:19.930 --> 04:23.740
+Now after that we would deal with the actual front awesome icons.
+
+04:23.800 --> 04:26.340
+So this is going to be skill more here.
+
+04:26.380 --> 04:26.770
+Font.
+
+04:26.800 --> 04:27.680
+Awesome.
+
+04:27.940 --> 04:29.160
+I really like this.
+
+04:29.170 --> 04:34.200
+And then we're going to have a font size 16 pixels here right.
+
+04:34.300 --> 04:41.230
+I know WAY bigger color and the color is going to be hash tag 0 0 0 a.
+
+04:41.500 --> 04:45.720
+And then we'll have 7 E and one on here.
+
+04:45.850 --> 04:46.120
+Right.
+
+04:46.120 --> 04:47.670
+The blue color all the way.
+
+04:47.830 --> 04:52.610
+That was actually all right and the blue color all from here.
+
+04:52.630 --> 04:57.170
+Then after that all we would want is actually have a background.
+
+04:57.550 --> 04:57.740
+Right.
+
+04:57.760 --> 05:03.430
+So I'm going to say a background and the background is going to be hash that f f o.
+
+05:03.610 --> 05:11.620
+See 9 1 4 and 2 and basically we're adding red as yellow color and then what we would want is actually
+
+05:11.770 --> 05:18.290
+a padded room because this is if we had a française we also need the padding.
+
+05:18.400 --> 05:19.620
+60 pixels.
+
+05:19.730 --> 05:20.250
+All right.
+
+05:20.350 --> 05:24.000
+So you can think of this is this is going to be kind of like our canvas.
+
+05:24.030 --> 05:28.150
+Again we're going to be clipping out the shapes on this right.
+
+05:28.360 --> 05:34.530
+So let's go over here and we're going to say let's say this is going to be skills for and then we'll
+
+05:34.540 --> 05:39.520
+have a transition and it's all going to we're going to have a transition and transition again is going
+
+05:39.520 --> 05:42.110
+to be for that color for the background.
+
+05:42.270 --> 05:43.780
+Let's say two seconds.
+
+05:43.810 --> 05:45.730
+Ease and background.
+
+05:46.590 --> 05:53.790
+Background here say two seconds two seconds is more like this.
+
+05:53.820 --> 05:59.610
+And once we have them we're going to go back or here skill we're going to say Fronto awesome.
+
+05:59.890 --> 06:02.400
+I'm going to say however we're like this.
+
+06:02.670 --> 06:05.880
+And then we're going to flip them around so I'm going to say background.
+
+06:05.940 --> 06:10.640
+It's going to be hash tag to me too.
+
+06:10.860 --> 06:14.160
+Hate to here like this.
+
+06:14.370 --> 06:17.470
+And then we're going to have a caller and the caller is going to be here.
+
+06:17.490 --> 06:22.650
+And so hashtag ever see 9 1 for all here.
+
+06:22.820 --> 06:24.110
+So we're here.
+
+06:24.160 --> 06:25.280
+I can see what happens right.
+
+06:25.290 --> 06:27.990
+We get a black background right here.
+
+06:28.060 --> 06:29.660
+The color is also changing.
+
+06:30.060 --> 06:31.560
+Obviously not done yet.
+
+06:31.590 --> 06:32.200
+Right.
+
+06:32.280 --> 06:38.250
+We still need to work here with a Adding three and a paragraph.
+
+06:38.450 --> 06:44.610
+So what we're going to do we're here and we're going to create a lot more space like this and then we're
+
+06:44.610 --> 06:49.980
+going to start or we're all going to say this is going to be skill and I'm going to say we're here this
+
+06:49.980 --> 06:58.440
+is going to be heading 3 so we'll have a hearing three and I will say text transform and we're going
+
+06:58.440 --> 06:59.790
+to say Asperger's.
+
+06:59.890 --> 07:07.280
+So now this setting frees up uppercase and we have a margin 20 pixels right and zero.
+
+07:07.280 --> 07:13.130
+All right so again we're just going to create the margin here and then we're going to have for a paragraph.
+
+07:13.320 --> 07:19.860
+So here we're going to say skill paragraph and let's start with line height 1.5 right over here and
+
+07:19.870 --> 07:24.360
+we're just going to create some letters and then I would want to do is actually have the width and you
+
+07:24.360 --> 07:26.530
+can see I don't like that it's padding like this.
+
+07:26.780 --> 07:30.550
+So I'm going to say we're here I'm going to have a semi colon.
+
+07:30.670 --> 07:36.120
+It's going to be with oh here we're going to say 70 percent on here like this.
+
+07:36.130 --> 07:36.600
+All right.
+
+07:36.720 --> 07:42.720
+So now we're here you can see that we have a normal with right not spanning all across.
+
+07:42.720 --> 07:49.300
+And then after that we would want a cover that color Steg be on 5.
+
+07:49.330 --> 07:50.960
+See this.
+
+07:51.060 --> 07:54.420
+And then we have to be 7 to be seven.
+
+07:54.420 --> 07:57.750
+All right so this is pretty much going to be great text.
+
+07:57.780 --> 08:04.170
+Now I would would want to do is you'd want actually to have a clip path for all of them.
+
+08:04.170 --> 08:04.710
+All right.
+
+08:04.800 --> 08:11.350
+So let's go one by one and let's actually at it so first is going to be Apple and someone to say apple.
+
+08:11.400 --> 08:15.810
+So this is Fonte awesome Apple like this and you can see that it's selecting.
+
+08:15.950 --> 08:18.360
+And let me do a clip.
+
+08:18.360 --> 08:22.600
+I have one here and I'm going to do polygon here like this.
+
+08:22.600 --> 08:23.230
+All right.
+
+08:23.360 --> 08:24.470
+Well I don't know.
+
+08:24.500 --> 08:29.290
+Here we need to have three dots right so we read first one second and third one.
+
+08:29.520 --> 08:31.890
+So the word is this one with the Y.
+
+08:32.070 --> 08:37.570
+All right you can see the Y is zero here and 100 here right where is X.
+
+08:37.590 --> 08:38.910
+X is zero here.
+
+08:39.120 --> 08:40.650
+Hundred here right.
+
+08:40.650 --> 08:42.700
+And basically we start working with these dots.
+
+08:42.930 --> 08:47.790
+So first what I'm saying is you know what I'm going to start from here which is going to be 0 x and
+
+08:47.790 --> 08:48.950
+100 percent y.
+
+08:48.960 --> 08:51.740
+So we're at zero hundred percent.
+
+08:52.170 --> 08:55.330
+This next one is going to be over here in the middle.
+
+08:55.380 --> 08:58.730
+So this is going to be 50 percent and y is going to be zero.
+
+08:58.860 --> 09:06.420
+And because it's going to be all the way on the top some would say 50 percent and zero or place in doubt.
+
+09:06.510 --> 09:10.480
+And I said that over here and the next one is going to be here so it's going to be hundred.
+
+09:10.600 --> 09:14.990
+And we're also hundred and so existe hundred and the that.
+
+09:15.190 --> 09:20.200
+So I'm going to say hundred and hundred like this negative.
+
+09:20.230 --> 09:22.130
+Now I have a nice try.
+
+09:22.130 --> 09:28.280
+All right now we're done with an apple and we actually will going to add two more.
+
+09:28.430 --> 09:32.870
+And then the third one start when you are actually going and getting online because I don't want to
+
+09:32.870 --> 09:35.800
+make like a whole hour of actually making a star.
+
+09:35.810 --> 09:39.940
+Now we can do it but this is just going to be faster.
+
+09:39.940 --> 09:41.540
+All right so we're here we're going to change.
+
+09:41.540 --> 09:43.040
+First of all for these guys right.
+
+09:43.280 --> 09:51.040
+So I would say this is going to be Google or here let's say that this is going to be Android and maybe
+
+09:51.040 --> 09:54.700
+copy this one because the only thing we're missing is that rule.
+
+09:54.790 --> 09:57.910
+So I'm going to say we're here and this is going to be here.
+
+09:58.120 --> 10:00.400
+So I'm going to say here or here.
+
+10:00.400 --> 10:00.710
+All right.
+
+10:00.730 --> 10:02.190
+All of them all right and I'll try.
+
+10:02.340 --> 10:03.920
+But that's not what we want.
+
+10:04.000 --> 10:07.790
+So let's go ahead and are going to this.
+
+10:07.840 --> 10:12.550
+We're here we're going to delete this and we're here we're going to delete the whole thing because we're
+
+10:12.550 --> 10:17.530
+going to copy and paste one on here so we're here for the Google what we would want.
+
+10:17.530 --> 10:20.560
+All right so let's check it out right all here.
+
+10:20.590 --> 10:25.490
+Zero zero hundred zero hundred hundred.
+
+10:25.600 --> 10:25.990
+We're here.
+
+10:25.990 --> 10:28.790
+So it's pretty much kind of the same as this.
+
+10:28.990 --> 10:35.680
+So we're going to go back over here and we're going to say 0 0 then we're going to have a hundred here
+
+10:35.800 --> 10:43.580
+and zero on here like this then we're going to have a hundred and hundred right over here like this.
+
+10:43.840 --> 10:45.160
+You can see what we have right.
+
+10:45.210 --> 10:48.690
+This is the first not second not third or here.
+
+10:48.690 --> 10:53.230
+Right now we just need to figure out or here and we can really do whatever we want right.
+
+10:53.250 --> 10:56.920
+So I'm going to go 0 60 or like this right.
+
+10:56.950 --> 10:59.340
+So now I can see that this is going to be this way.
+
+10:59.370 --> 11:02.020
+All right then the next one is going to be Android.
+
+11:02.320 --> 11:05.910
+Right and what is the shape over here and shape is going to be this one.
+
+11:06.090 --> 11:07.700
+So this is going to be an android.
+
+11:07.900 --> 11:09.310
+So I'm going to go back over here.
+
+11:09.580 --> 11:12.520
+And for Android we're going to start in the middle over here.
+
+11:12.550 --> 11:14.280
+So I'm going to say zero for X.
+
+11:14.440 --> 11:21.720
+But already 50 percent for Y then we're going to have a 50 percent and zero.
+
+11:21.730 --> 11:30.430
+So 50 percent and zero and after that we're going to have a 100 percent here 50 percent right.
+
+11:30.480 --> 11:32.550
+Now again you can see that we have three dots.
+
+11:32.770 --> 11:34.700
+Now we just need this guy here.
+
+11:35.080 --> 11:40.000
+So we're going to say we're 50 percent here and 100 percent.
+
+11:40.110 --> 11:40.970
+That's it.
+
+11:41.150 --> 11:42.570
+No no we're here with the ship.
+
+11:42.990 --> 11:45.780
+So now let's go and get actually the star.
+
+11:45.780 --> 11:47.630
+All right so this is going to be 900.
+
+11:47.690 --> 11:48.880
+We need to start over here.
+
+11:48.900 --> 11:49.630
+Right.
+
+11:49.720 --> 11:55.070
+And we're going to we're going to go to good old friend Google mistake clip path we're going to set
+
+11:55.080 --> 11:56.430
+generator.
+
+11:57.000 --> 11:57.580
+Yes.
+
+11:57.840 --> 12:02.780
+And then there is more here a clip path maker right on this.
+
+12:02.910 --> 12:06.560
+And what we would need to do or here we can just go ahead and choose goshi.
+
+12:06.720 --> 12:09.000
+Again you can pick whatever you would really like.
+
+12:09.000 --> 12:09.530
+Right.
+
+12:09.600 --> 12:13.000
+You can see that this was the triangle that regret over here.
+
+12:13.000 --> 12:13.510
+Right.
+
+12:13.710 --> 12:14.920
+But we're going to go back over here.
+
+12:14.930 --> 12:16.070
+We're going to get a star.
+
+12:16.260 --> 12:19.830
+And you see this is the actual browser prefixes right.
+
+12:19.830 --> 12:22.070
+And then there are prefixes that I was talking about right.
+
+12:22.070 --> 12:24.370
+So here this is going to be Webcke right.
+
+12:24.450 --> 12:30.270
+And I was like I said I didn't want to write them all right because this is not going to make too much
+
+12:30.270 --> 12:32.340
+sense if we are really learning something right.
+
+12:32.340 --> 12:35.990
+So Ruben wanted to hear what is going to come up in this one.
+
+12:36.130 --> 12:42.270
+We're here bring in Mike or here to the gear and just applied on here Mike and see now I have my start.
+
+12:42.390 --> 12:46.110
+This is how easy it is right now that we're not in the skill section.
+
+12:46.110 --> 12:49.240
+We are ready to move on to our next section.

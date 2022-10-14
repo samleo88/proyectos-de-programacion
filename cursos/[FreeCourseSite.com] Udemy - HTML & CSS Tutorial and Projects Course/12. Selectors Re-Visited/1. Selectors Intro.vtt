@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00.090 --> 00:06.120
+Hey guys before we deep dive into sea assessed transitions transformations and animations I would like
+
+00:06.120 --> 00:13.110
+to take a quick pit stop and revisit selectors insists some of you might be wondering well why are we
+
+00:13.110 --> 00:17.100
+just taking a quick pit stop and not for long two hour stop.
+
+00:17.460 --> 00:18.810
+Well here's the thing.
+
+00:18.810 --> 00:23.840
+Yes there are many more selectors names here says I am fully aware of that.
+
+00:24.000 --> 00:25.830
+But here's my argument.
+
+00:25.830 --> 00:28.760
+You want to use the RSS to make cool stuff right.
+
+00:28.800 --> 00:31.710
+Web Search Applications and so on and so forth.
+
+00:31.950 --> 00:37.570
+And to tell you honestly we can easily do all those things just by using simple selectors.
+
+00:37.620 --> 00:43.980
+So I think it is much more productive that we cover only basic selectors start creating awesome stuff
+
+00:44.430 --> 00:50.070
+and then if we need to get something very specific done and we need a very specific CSO selector for
+
+00:50.070 --> 00:53.390
+that we can always go back and learn that selector.
+
+00:53.400 --> 01:00.000
+So in this module we will refresh on selector basics as well as covers some other essentials CSF selectors.

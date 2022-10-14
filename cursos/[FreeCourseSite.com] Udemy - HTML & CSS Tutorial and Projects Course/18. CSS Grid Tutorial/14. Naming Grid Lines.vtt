@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.520 --> 00:06.220
+Once we know how we can work with grid lines now let's take a look at how we can name the grid lines
+
+00:06.220 --> 00:11.410
+ourselves because let's imagine the scenario where you're like you know what I don't like the fact that
+
+00:11.410 --> 00:13.900
+I need to remember that this would be line number one.
+
+00:13.900 --> 00:19.630
+Then of course column line number two three four and all that and even the fact that I could use the
+
+00:19.630 --> 00:22.200
+negative values is not really helping.
+
+00:22.210 --> 00:30.160
+Well you are in luck because what we can do is in fact we can name the lines ourselves now in order
+
+00:30.160 --> 00:32.350
+to show you that you know what I am going.
+
+00:32.350 --> 00:35.650
+Delete everything that we did in the previous video.
+
+00:35.650 --> 00:38.170
+As always you can access it in resources.
+
+00:38.260 --> 00:46.180
+And I'm gonna go back to our main layout meaning we had a three column layout with three rows and what
+
+00:46.190 --> 00:51.630
+we can do here is where we had lines remember one two three four.
+
+00:51.760 --> 00:55.420
+While we can just place a square brackets and we can name them.
+
+00:55.720 --> 00:59.950
+So in this case I'm gonna say that my first line is going to have a name start.
+
+01:00.670 --> 01:03.570
+Then we're going to place a and one.
+
+01:03.610 --> 01:05.520
+So number four is going to be an end.
+
+01:05.980 --> 01:11.460
+And then it's really up to us first of all we can add naming is here in between.
+
+01:11.470 --> 01:14.020
+If we would like to war we can skip it.
+
+01:14.050 --> 01:18.700
+So first I'm gonna show you how we can skip it and then of course we'll show you after that how we can
+
+01:18.700 --> 01:19.540
+add one.
+
+01:19.570 --> 01:25.780
+Now I also like to mention that you don't need to worry about the names repeating for your grid lines
+
+01:26.320 --> 01:31.190
+so you can have the same names for your column as well as the role.
+
+01:31.240 --> 01:36.730
+You're not gonna be actually overwriting them or anything like that and everything is gonna work really
+
+01:36.730 --> 01:40.870
+well because they naming is not going to be colliding.
+
+01:40.910 --> 01:41.630
+All right.
+
+01:41.650 --> 01:48.550
+Now in this case again we do the same thing we call the cell number one and let's start very simply
+
+01:48.550 --> 01:57.550
+by saying grid then we had a column and then for the values let's just go for start and line forward
+
+01:57.540 --> 01:58.480
+slash and.
+
+01:58.650 --> 02:05.740
+And you can probably already guess that our column is gonna be spanning from the start line all the
+
+02:05.740 --> 02:06.820
+way to the end one.
+
+02:07.090 --> 02:11.690
+And essentially that means that our cell number one is going to be spanning all across.
+
+02:11.730 --> 02:15.790
+So our first cell is in fact going to be taking up the whole column.
+
+02:15.880 --> 02:16.710
+Okay.
+
+02:16.750 --> 02:24.600
+Now if you really want to go rogue I could do the same thing with the row so grid row and I'm going
+
+02:24.600 --> 02:28.630
+to set this up a start and end and there you go.
+
+02:28.630 --> 02:35.860
+Now my cell is in fact taking all my rows as well as the columns and then grid just creates the implicit
+
+02:35.860 --> 02:36.240
+rows.
+
+02:36.240 --> 02:39.880
+After that I no I said Of course we're not limited.
+
+02:39.880 --> 02:41.840
+We can add more lines here.
+
+02:41.980 --> 02:48.400
+Now maybe let's just head over there and let's see within our developer tools you can see that of course
+
+02:48.400 --> 02:56.890
+we have right now the grid we had like I said we created two more implicit rows because we added in
+
+02:56.890 --> 03:05.210
+fact the cell number one is spanning all across our nine cells that we had previously before.
+
+03:05.650 --> 03:10.650
+And then like I said I also like to show you how we can add more values in here.
+
+03:10.840 --> 03:18.160
+So let's say we're going to add the grid in land line number two is going to be let's say call on number
+
+03:18.160 --> 03:20.530
+two or column number one.
+
+03:20.530 --> 03:26.890
+Now one thing we need to keep in mind though is that we are not naming the column.
+
+03:26.920 --> 03:30.110
+We are naming the line that's coming in between.
+
+03:30.430 --> 03:36.850
+So in this case if you're going to say column number one technically if that helps you you can keep
+
+03:36.850 --> 03:42.700
+this kind of naming but you probably would want to add that whether that's the end of the column line
+
+03:42.990 --> 03:47.770
+and number one or something like that because otherwise you might think that you are in fact naming
+
+03:47.770 --> 03:54.400
+the column which is you're not you're naming here the line that's coming in between the column number
+
+03:54.400 --> 03:56.070
+one and column number two.
+
+03:56.080 --> 04:06.310
+So in this case why don't we add our column column 1 and 0 like so and line in between the column number
+
+04:06.310 --> 04:08.100
+two column number three.
+
+04:08.110 --> 04:13.850
+Let's add one more grid line and let's name this column too.
+
+04:13.930 --> 04:20.050
+And right now in this case why don't we change this around and let's say the start is going to be the
+
+04:20.050 --> 04:26.740
+same but I'm going to add a column too.
+
+04:27.130 --> 04:33.610
+And now of course myself is not going to span all across because remember I will be column number two
+
+04:33.620 --> 04:37.070
+and that's why we're ending with a second column.
+
+04:37.110 --> 04:40.380
+And of course we can do the same thing with the role.
+
+04:40.420 --> 04:44.050
+The only difference probably let's change these values for rows.
+
+04:44.110 --> 04:45.660
+So again it's really up to you.
+
+04:45.660 --> 04:46.680
+You can add the naming.
+
+04:46.680 --> 04:49.870
+You don't have to add for each and every line that you have.
+
+04:49.870 --> 04:53.320
+You can skip the ones that you are not interested in.
+
+04:53.380 --> 04:56.120
+I'm going to go with the role in this case.
+
+04:56.260 --> 05:02.660
+And right after the second row I'm going to say go to row two.
+
+05:02.690 --> 05:05.270
+And and let's just add a space here.
+
+05:05.390 --> 05:15.440
+Let's say that and again let's start with start and then we're gonna go for row two and let's say that
+
+05:15.690 --> 05:21.550
+and not our cell number one is spanning two columns as well as the two rows.
+
+05:21.560 --> 05:28.730
+So again it is up to your preference you can use the line numbers or you can explicitly name your lines
+
+05:29.090 --> 05:31.370
+and then use the same values.
+
+05:31.370 --> 05:38.590
+Now you can add each and every value for each and every line or you can just let's say go with one all
+
+05:38.590 --> 05:43.610
+the way in the beginning or the one at the end because remember we can still use these values.
+
+05:43.790 --> 05:51.140
+So let's say if I had a line number I can still use it and say something like this where that would
+
+05:51.140 --> 05:54.370
+be the line number two write or line number three.
+
+05:54.590 --> 05:59.820
+Let's say that and my layout does not break as I can still use the line numbers.
+
+05:59.870 --> 06:05.040
+Now just to show you if I'm going to go with 4 again my column is gonna take up the whole space.
+
+06:05.030 --> 06:16.130
+But let me go back to my naming column to my friend and so as well as we don't need to worry about the
+
+06:16.130 --> 06:24.830
+name collisions between the columns when we're naming the column lines and the rail lines because we
+
+06:24.830 --> 06:26.590
+can name them exactly the same.
+
+06:26.720 --> 06:28.880
+And there's going to be no name collisions.

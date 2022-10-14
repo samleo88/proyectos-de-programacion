@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.440 --> 00:06.540
+Husam once we have the general idea about the transform property we're going to shift our attention
+
+00:06.540 --> 00:08.190
+to transition.
+
+00:08.190 --> 00:14.850
+And if in one sentence I would need to answer you what is the transition that would be change happening
+
+00:15.000 --> 00:16.710
+over some period of time.
+
+00:16.860 --> 00:20.160
+And again the example is going to explain it much more better.
+
+00:20.160 --> 00:25.860
+But if I would have to give you a one sentence example that would be a change over time.
+
+00:25.890 --> 00:31.500
+Now you'll notice also that transition property is going to be a lot similar like we had with background
+
+00:31.980 --> 00:37.770
+because this is gonna have quite a few of them and eventually we're going to look at a shorthand and
+
+00:37.770 --> 00:43.440
+the setup is gonna be exactly the same we're going to have three ideas and let's figure out one problem
+
+00:44.060 --> 00:52.350
+let's say that I have three divs we already know how to use the hover pseudo selector and as I'm hovering
+
+00:52.350 --> 00:55.190
+over those divs I would like to change the color.
+
+00:55.470 --> 00:57.210
+So for now I have red green and blue.
+
+00:57.540 --> 00:59.690
+But let's say for all the divs as I'm hovering.
+
+00:59.730 --> 01:04.630
+And again we would need to use the pseudo selector we would like to change the background color and
+
+01:04.740 --> 01:10.280
+let's say background color is gonna be whatever you'd like to be in my case I'm gonna go with core.
+
+01:10.740 --> 01:13.560
+So far so good as I'm hovering over it there.
+
+01:13.590 --> 01:15.510
+The color is changing how are you.
+
+01:15.510 --> 01:19.650
+Probably say noticing that the color is changing instantly.
+
+01:19.650 --> 01:26.550
+And while that might work in some cases you probably would want to happen is change over some period
+
+01:26.550 --> 01:29.220
+of time because I think it's going to look smoother.
+
+01:29.430 --> 01:30.340
+Now how do we do.
+
+01:30.640 --> 01:31.890
+Well first of all let's just work.
+
+01:31.890 --> 01:36.690
+We had number three because I would still want you to see the other two where change is going to happen
+
+01:36.700 --> 01:42.810
+instead and let's say for number three first we would need to start working with transition now for
+
+01:42.810 --> 01:48.300
+transition with first would need to say what kind of property wow is this going to be I don't know the
+
+01:48.300 --> 01:51.710
+font size is this going to be had on with or whatever.
+
+01:51.720 --> 01:56.110
+Well in my case I'm gonna say that transition property is going to be the background so I'm going to
+
+01:56.110 --> 01:57.250
+write background.
+
+01:57.570 --> 01:58.970
+So far so good.
+
+01:59.120 --> 01:59.820
+Okay.
+
+02:00.030 --> 02:01.710
+Once we save it what happens.
+
+02:01.710 --> 02:02.610
+Well nothing happens.
+
+02:02.610 --> 02:08.490
+We're still having this change instantly because the second thing we will need to add is transition
+
+02:08.640 --> 02:11.010
+and then we're going to be looking for duration.
+
+02:11.520 --> 02:15.270
+So how long this transition is gonna take place.
+
+02:15.270 --> 02:18.050
+We can use these seconds we can use milliseconds.
+
+02:18.060 --> 02:21.340
+Normally we're going to settle for something like zero point three.
+
+02:21.570 --> 02:26.220
+But just because I would want you to see how this is happening I'm gonna go with quite a big number
+
+02:26.230 --> 02:27.940
+and this is gonna be for 6.
+
+02:28.260 --> 02:31.290
+So as I'm hovering over what happened.
+
+02:31.350 --> 02:33.170
+Well the color is changing.
+
+02:33.210 --> 02:37.300
+However the color is changing over a period of four seconds.
+
+02:37.410 --> 02:39.080
+Not instantly like with the rest.
+
+02:39.690 --> 02:42.480
+And this is something that we can do we transition property.

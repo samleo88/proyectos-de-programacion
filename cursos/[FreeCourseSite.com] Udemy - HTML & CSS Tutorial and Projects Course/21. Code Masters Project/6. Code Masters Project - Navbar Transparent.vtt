@@ -1,0 +1,745 @@
+WEBVTT
+
+00:00.060 --> 00:05.400
+And the way we set the bar responsive we would need to use a media screen.
+
+00:05.550 --> 00:09.960
+So I'm going to go all the way over here at the bottom and we're going to say this is going to be my
+
+00:09.960 --> 00:15.420
+year and we're going to say screen or here or here we're going to say and I don't know we're here we're
+
+00:15.420 --> 00:17.320
+going to send men with.
+
+00:17.420 --> 00:17.950
+Right.
+
+00:18.030 --> 00:22.040
+And the men with we're going to set it to nine hundred and ninety two pixels.
+
+00:22.040 --> 00:22.460
+Right.
+
+00:22.570 --> 00:26.850
+So in the moment the screen is going to be 992 and something should happen.
+
+00:27.840 --> 00:31.210
+And we're here just to show you what we have.
+
+00:31.270 --> 00:36.030
+We're going to go back over here and consider that this is what we have right so if you are fresh here
+
+00:36.600 --> 00:38.560
+we can toggle it over here right.
+
+00:38.770 --> 00:40.470
+You can see that it's spanning all across.
+
+00:40.470 --> 00:40.780
+Right.
+
+00:40.830 --> 00:43.940
+And all the time it doesn't matter how big a screen right.
+
+00:43.950 --> 00:46.330
+This looks like this over here like this right.
+
+00:46.500 --> 00:52.290
+So what would want to do here first and we're going to say is we would want to get rid of this button
+
+00:52.950 --> 00:53.250
+here.
+
+00:53.260 --> 00:53.870
+Right.
+
+00:53.880 --> 00:55.710
+So we're going to get rid of this button.
+
+00:55.890 --> 00:59.930
+And the way we're going to do that we're going to say we're hearing this is going to be for the.
+
+01:00.420 --> 01:05.060
+We're going to say that this is going to be a display here this play.
+
+01:05.270 --> 01:07.180
+I'm not going to say none here.
+
+01:07.180 --> 01:07.740
+Right.
+
+01:07.910 --> 01:15.040
+And once we refresh you can see that once I get past nine I need to write the button disappears.
+
+01:15.040 --> 01:20.320
+Now there's one thing that I need to add and this is going to be linear gradient for a image right because
+
+01:20.320 --> 01:22.380
+you can see that image is very bright.
+
+01:22.480 --> 01:23.000
+Right.
+
+01:23.050 --> 01:26.160
+So what we're going to do over here is going to do a little detour.
+
+01:26.200 --> 01:33.130
+We're going to go to the header and before the you are out we're going to have a linear gradient.
+
+01:34.590 --> 01:41.010
+And this is all going to use for background so I'm going to say R.G. be here and that's going to be
+
+01:41.400 --> 01:42.470
+dark color.
+
+01:42.720 --> 01:51.700
+So we're going to say we're here and this is going to be 0 0 0 0 0 0 point 4.
+
+01:52.110 --> 01:57.520
+Again R G B R G B L here R G B.
+
+01:57.690 --> 02:04.110
+And here again this is going to be 0 0 0 0 point 4 0 here.
+
+02:04.190 --> 02:05.950
+And then we need to place a comma here.
+
+02:05.970 --> 02:06.600
+Right.
+
+02:06.600 --> 02:13.480
+So what we're saying is even though the image is there right we would want this dark overlay or you're
+
+02:13.500 --> 02:13.820
+right.
+
+02:13.860 --> 02:19.010
+So I just forgot to do this before so that's why we're adding right now.
+
+02:19.290 --> 02:25.920
+So once we got rid of the button we're here now would want to work with the nav right here with the
+
+02:25.930 --> 02:27.210
+nav I'm going to say like this.
+
+02:27.210 --> 02:27.500
+Right.
+
+02:27.520 --> 02:32.240
+I'm going to say display flex like this and we're going to go back.
+
+02:32.290 --> 02:33.360
+All right.
+
+02:33.630 --> 02:36.360
+Once we have nine 992 two you can see what happens right.
+
+02:36.360 --> 02:38.450
+So this is going to be our display flaks.
+
+02:38.530 --> 02:38.790
+Right.
+
+02:38.800 --> 02:40.480
+So this is how it's going to look like.
+
+02:40.710 --> 02:46.350
+And you can see that I can get back my links right because obviously they have disappeared because I
+
+02:46.350 --> 02:47.530
+have no toggle button.
+
+02:47.530 --> 02:55.650
+All right then once we have them on display for the next one we would want is flex right up here and
+
+02:55.770 --> 03:01.590
+we're going to say wrap or here flex Arap right.
+
+03:01.650 --> 03:07.650
+And this is going to be equal to wrap because once there's going to be actually more content we would
+
+03:07.650 --> 03:13.410
+want it to wrap as we're going to the smaller screen on here and we're going to have a justified content
+
+03:13.410 --> 03:16.350
+space around space around.
+
+03:16.410 --> 03:16.890
+Right.
+
+03:17.100 --> 03:19.530
+And again for now the links are disappearing.
+
+03:19.530 --> 03:25.600
+We haven't added back the wings were here and we'll have enough contained container.
+
+03:25.600 --> 03:31.130
+All right so this is going to be this guy over here and I'm bringing a screen container like this.
+
+03:31.460 --> 03:33.290
+And then we'll have a background.
+
+03:33.360 --> 03:34.640
+Transparent.
+
+03:36.520 --> 03:43.890
+Hear more bottom right we want to get rid of this mortar and if we're fresh then we would want to get
+
+03:43.890 --> 03:46.500
+rid of this guy doing this.
+
+03:46.590 --> 03:55.280
+And for that we're going to say we're here and this is going to be a border bottom none border bottom
+
+03:55.610 --> 03:58.070
+and we're going to stay on here and on and on.
+
+03:58.070 --> 04:07.460
+We need to do is place a semi going on here and maybe let's create more space here and not know of none
+
+04:07.850 --> 04:08.180
+here.
+
+04:08.210 --> 04:09.550
+Border border none.
+
+04:09.590 --> 04:10.800
+And then I'm glad.
+
+04:11.060 --> 04:17.760
+As for the child going on a flex property line because this container is going to be the child of the
+
+04:17.780 --> 04:20.290
+now here we're going to ride flex.
+
+04:20.350 --> 04:23.340
+Going to say 0 0 0 0 right now.
+
+04:23.390 --> 04:27.710
+Our issue right now is that we don't see it and we don't see our links.
+
+04:27.710 --> 04:28.100
+All right.
+
+04:28.140 --> 04:30.460
+So here you can see there we added everything right.
+
+04:30.620 --> 04:34.310
+But there's only one thing right there is no links whatsoever.
+
+04:34.310 --> 04:41.000
+And what we would want to do here is we would want to create a nav link so we're going to have links
+
+04:41.290 --> 04:41.590
+here.
+
+04:41.620 --> 04:44.300
+Remember we had them as this plane known right.
+
+04:44.370 --> 04:49.910
+But over here we do want to have this play and we're going to say flex more here.
+
+04:49.970 --> 04:52.910
+And also we need to write important or like this.
+
+04:52.910 --> 04:53.320
+Right.
+
+04:53.470 --> 04:55.970
+So we need to have a important door here right.
+
+04:56.060 --> 04:57.400
+And now we have our legs.
+
+04:57.470 --> 04:59.970
+And the reason for that is one important one right.
+
+05:00.170 --> 05:03.440
+Because if you're going to be safe we're going to get rid of important.
+
+05:03.470 --> 05:04.030
+Right.
+
+05:04.280 --> 05:07.880
+So let's get rid of this important one order here.
+
+05:07.880 --> 05:09.350
+All right let's save this.
+
+05:09.440 --> 05:10.810
+And we are fresh right.
+
+05:10.910 --> 05:13.430
+So on the smaller screen you can get a link back.
+
+05:13.430 --> 05:15.260
+Right now everything is working fine.
+
+05:15.260 --> 05:16.510
+Everything is nice right.
+
+05:16.560 --> 05:18.170
+Go to the bigger screen right.
+
+05:18.200 --> 05:19.550
+They are working on here right.
+
+05:19.700 --> 05:21.670
+You can see or hear the display.
+
+05:21.800 --> 05:27.410
+Right now the thing we're here is right if I'm going to go back over here to the smaller screen and
+
+05:27.410 --> 05:32.370
+actually get rid of these links or like this when I go back over here they're gone.
+
+05:32.630 --> 05:33.170
+All right.
+
+05:33.200 --> 05:38.630
+Therefore we need this display flex and we need to have it is important here.
+
+05:38.670 --> 05:39.190
+Right.
+
+05:39.230 --> 05:41.090
+And then everything is working fine.
+
+05:41.110 --> 05:41.410
+All right.
+
+05:41.450 --> 05:48.830
+Then there actually doesn't matter if we get rid of them here and if we talk the button and we actually
+
+05:48.830 --> 05:53.590
+closed the links once we're going to go back over here they're still going to be over here.
+
+05:53.610 --> 05:54.420
+Right.
+
+05:54.530 --> 06:02.870
+So once we have this right flex important then we would want a padding 0 and 20 pixels like this.
+
+06:02.870 --> 06:06.950
+Then we would want a flex 1 0 0 0.
+
+06:07.100 --> 06:10.650
+So we're going to say flex Here one.
+
+06:10.750 --> 06:16.730
+So one is going to be four grow zero is going to be for a shrink and are is going to be for flex bases.
+
+06:16.950 --> 06:17.410
+Right.
+
+06:17.550 --> 06:22.690
+Let's see what we have right now I can see that you actually have a flex ground.
+
+06:22.860 --> 06:23.520
+All right.
+
+06:23.540 --> 06:27.860
+And now you can see the nav links is actually using the rest of the space.
+
+06:27.920 --> 06:29.380
+You can see that it pushed over here.
+
+06:29.410 --> 06:34.200
+Now of container because now a container had to flex ground zero.
+
+06:34.250 --> 06:35.190
+So it wasn't growing.
+
+06:35.180 --> 06:37.280
+It was just auto value right.
+
+06:37.300 --> 06:43.910
+And now this one is taking up all the space right now once we have this then what we would want is actually
+
+06:43.910 --> 06:46.920
+have it a justified content.
+
+06:47.190 --> 06:51.450
+Right flex start and now we're actually dealing it as flex container.
+
+06:51.500 --> 06:56.700
+Right now we already dealt as a flex child right now.
+
+06:56.900 --> 07:02.480
+Now we're dealing it because this is a container also for the links and or here we're going to have
+
+07:02.590 --> 07:08.840
+again our flex wrap and wrap and so they always going to be wrapping once we go to the smaller screen
+
+07:09.550 --> 07:14.150
+and over here once we have this right once we have the legs.
+
+07:14.240 --> 07:17.900
+Now we're going to work with nav links here a lot.
+
+07:18.260 --> 07:26.480
+What we're going to do right here is going to be flex and this is going to be guro zero Aro again grow
+
+07:26.630 --> 07:30.640
+with one might grow as much as you have to shrink.
+
+07:30.720 --> 07:30.970
+Right.
+
+07:31.040 --> 07:38.290
+Don't shrink and the flex basis Ahto so I'll say this again refresh and I can see what we have right.
+
+07:38.340 --> 07:44.140
+So this is going to be this little paddock that we added Right now our links have actually grown or
+
+07:44.140 --> 07:44.600
+growing.
+
+07:44.610 --> 07:45.330
+That's right.
+
+07:45.620 --> 07:52.070
+So once we have this now we would want to work with these links and we would want because remember for
+
+07:52.070 --> 07:54.370
+these links we had already properties right.
+
+07:54.530 --> 07:58.500
+But since this is going to be different screen now we would want a little bit different properties.
+
+07:58.610 --> 08:06.810
+So we're going to say we're here now have links links here and we're going to see a link.
+
+08:06.980 --> 08:14.360
+And then this is going to be a background transparent like this will have a text line and we're going
+
+08:14.360 --> 08:22.190
+to say Center where we like this border radius where we're going to have a five pixels right.
+
+08:22.340 --> 08:24.520
+And this is going to be only seen once we're hovering.
+
+08:24.780 --> 08:26.780
+And we're going to change the padding and padding.
+
+08:26.780 --> 08:32.570
+We're going to change it 20 pixels top bottom left and right only 10 right now.
+
+08:32.610 --> 08:33.540
+What are we going to do.
+
+08:33.590 --> 08:41.030
+I'm going to send nav links right here like this right a hover and what I don't want is I don't want
+
+08:41.450 --> 08:43.640
+the same effect that I have for a smaller screen.
+
+08:43.760 --> 08:44.140
+Right.
+
+08:44.330 --> 08:50.690
+So I'm going to say or hit a padding left and I'm going to say only 10 pixels Oh this that's right.
+
+08:50.750 --> 08:52.290
+So what's happening here right.
+
+08:52.460 --> 08:56.150
+So once we refresh you can see the padding is not changing.
+
+08:56.240 --> 08:57.730
+My background is changing right.
+
+08:57.740 --> 09:01.760
+And you can see or hear this little board or hit right or radius.
+
+09:01.760 --> 09:03.790
+However they're not moving anymore right.
+
+09:03.890 --> 09:08.100
+Because if you remember over here we had it when we were moving them.
+
+09:08.100 --> 09:08.710
+All right.
+
+09:08.810 --> 09:14.270
+When we had the live links we had a padding left 30 which was 10 pixels more and that's where they were
+
+09:14.270 --> 09:16.440
+moving on a small screen here.
+
+09:16.640 --> 09:23.450
+Since we had a padding set to turn now basically saying you know what padding left should also be the
+
+09:23.450 --> 09:23.840
+same.
+
+09:23.880 --> 09:24.370
+Right.
+
+09:24.490 --> 09:27.820
+So and as a result they're not moving.
+
+09:28.250 --> 09:35.180
+And once we have with this now what we would want to do is actually get the icons back right because
+
+09:35.180 --> 09:40.130
+remember we had initially Heiko but they are not appearing anywhere so far right.
+
+09:40.160 --> 09:49.480
+So what are we going to say or here is going to say a now have icons icons or icons or here we're going
+
+09:49.480 --> 09:51.850
+to say this play and we'll say flex.
+
+09:51.850 --> 09:57.040
+All right let's say it again and let's see over here you see these guys over here.
+
+09:57.040 --> 09:58.820
+So these are going to be Iraq guns.
+
+09:59.020 --> 10:07.490
+So now we've got a Icahn's back and now we set in as a flex box container parent element right display
+
+10:07.570 --> 10:08.240
+flex.
+
+10:08.260 --> 10:12.690
+However remember it does not have icons is actually a child.
+
+10:12.880 --> 10:19.310
+And because it is a child we can have a flex in 1 0 and auto.
+
+10:19.330 --> 10:19.910
+All right.
+
+10:19.930 --> 10:27.810
+Again remember that this is still a child the same as nav links as a child and the same as now containers
+
+10:27.820 --> 10:28.370
+a all right.
+
+10:28.380 --> 10:29.690
+We have three of them.
+
+10:29.920 --> 10:34.420
+So what's going to happen and we're going to be fresh and you can see what's happening right.
+
+10:34.600 --> 10:36.830
+Not only these ones have moved.
+
+10:36.910 --> 10:39.390
+These are growing as much as they need.
+
+10:39.430 --> 10:40.930
+Also novel links are here.
+
+10:40.930 --> 10:41.770
+That's right.
+
+10:41.770 --> 10:44.450
+So what we're going to have is one zero.
+
+10:44.800 --> 10:52.090
+And then over here let's do for a flex container parent right because we have it displayed as a flex.
+
+10:52.420 --> 10:58.840
+We're going to say flex wrap and we're going to say wrap over here then we're going to have a line self
+
+10:59.170 --> 11:04.600
+We're going to say Center you know and this right because we would want them to be lined up.
+
+11:04.750 --> 11:06.190
+So we have an order here right.
+
+11:06.190 --> 11:08.150
+So now we're here like this.
+
+11:08.170 --> 11:09.430
+That's fine.
+
+11:09.430 --> 11:15.420
+And then after that we would want a justified content space from home.
+
+11:15.720 --> 11:19.740
+So we're going to register for a content space around here like this.
+
+11:19.740 --> 11:24.420
+Then let's move to a Nav. icons.
+
+11:24.630 --> 11:27.240
+So now icons are.
+
+11:27.790 --> 11:34.690
+So here what we're going to say is this is going to be a have icons list item.
+
+11:34.730 --> 11:35.980
+And what should happen.
+
+11:35.990 --> 11:41.970
+So I'm going to say Flack's here grow one shrink zero and 40 pixels or here.
+
+11:42.180 --> 11:42.710
+Right.
+
+11:42.770 --> 11:47.220
+And then I'm going to say again text a line and we're going to say Center or here like this.
+
+11:47.290 --> 11:48.110
+Right.
+
+11:48.170 --> 11:54.910
+Once we have this now what I would want to do is I'm going to get rid of these annoying bullet points.
+
+11:54.920 --> 11:55.490
+Right.
+
+11:55.580 --> 11:59.850
+So we can go back over here and I'm going to say a list style type.
+
+11:59.900 --> 12:01.170
+And I'm going to say none.
+
+12:01.460 --> 12:06.500
+And then we're going to add some padding and the padding is going to be 0 and 20 pixels.
+
+12:06.640 --> 12:07.780
+That's right.
+
+12:08.120 --> 12:13.570
+Now once we have this now will start working with actual links that's all refresh right.
+
+12:13.610 --> 12:15.960
+I can see we have justified content space around.
+
+12:15.980 --> 12:16.470
+Right.
+
+12:16.520 --> 12:20.030
+So we need to actually start working with or here with these legs.
+
+12:20.030 --> 12:21.230
+So what are going to say or hear.
+
+12:21.260 --> 12:30.170
+This is going to be the have ikons icons and we're going to say and this is going to be font size 30
+
+12:30.170 --> 12:38.550
+pixels or hair color and the color is going to be hash tag and this is going to be F C and then we're
+
+12:38.570 --> 12:42.830
+going to have B have d b f d or you get this right.
+
+12:42.860 --> 12:50.830
+And then after that we would want a transition as we're hovering right but let's just check it over
+
+12:50.840 --> 12:52.190
+here we need 8 right.
+
+12:52.210 --> 12:53.370
+So now we have it.
+
+12:53.690 --> 12:56.880
+So let's refresh and then let's see what happens right.
+
+12:56.910 --> 12:59.830
+So now I can see that we have these links on here.
+
+12:59.840 --> 13:05.720
+Now what we would want is actually have the hover effect you can see the door here when we should do
+
+13:05.720 --> 13:08.760
+is we get these links or here also a line center.
+
+13:08.990 --> 13:12.430
+So we're going to find where these are links here.
+
+13:12.560 --> 13:19.470
+And with the lengths what you need to do is align self center or here like this.
+
+13:19.550 --> 13:23.410
+Once we have this you can see that all of them are lined up perfectly right.
+
+13:23.520 --> 13:26.240
+And the reason for that obviously the image is the bigger one.
+
+13:26.240 --> 13:28.050
+And then these guys need to follow it.
+
+13:28.140 --> 13:28.400
+All right.
+
+13:28.400 --> 13:30.480
+So that's the reason for that.
+
+13:30.510 --> 13:33.500
+And now once we have this now do the hover effect.
+
+13:33.530 --> 13:34.210
+Right.
+
+13:34.250 --> 13:39.580
+So let's do here and this is going to be Nav. icons.
+
+13:39.820 --> 13:48.550
+And this is going to be a hover and for that cover we're going to have a color hash tag and 5:23 five.
+
+13:48.560 --> 13:49.390
+All right.
+
+13:49.390 --> 13:51.610
+However let's do a transition or here right.
+
+13:51.630 --> 13:58.000
+So I'm going to say a transition and for transition we're going to say color and it's on the same property
+
+13:58.000 --> 13:58.830
+over here.
+
+13:58.820 --> 14:00.820
+Now let's say two seconds ease.
+
+14:01.060 --> 14:02.800
+And just to show you what it does right.
+
+14:02.800 --> 14:04.580
+We can add a little bit of delay.
+
+14:04.600 --> 14:05.330
+Right.
+
+14:05.600 --> 14:07.920
+What 7 this is going to be zero point.
+
+14:08.080 --> 14:10.150
+Let's say one second delay.
+
+14:10.170 --> 14:11.460
+So would say this.
+
+14:11.550 --> 14:16.610
+And once or refresh or here you can see that it's not going to start right away after one second is
+
+14:16.610 --> 14:18.780
+actually going to have a hover effect.
+
+14:18.940 --> 14:24.550
+And the last thing that we would want with the number is add a few things right first which you can
+
+14:24.550 --> 14:25.820
+see or hear right.
+
+14:25.840 --> 14:27.450
+It is a transparent background.
+
+14:27.580 --> 14:33.500
+However as I start hovering right you can see that I'm going to have here this dark background.
+
+14:33.700 --> 14:36.590
+And also I would need to add the smooth scrolling.
+
+14:36.840 --> 14:40.730
+And so as I press the button you can see that we have a smooth scrolling.
+
+14:40.870 --> 14:43.830
+So that's what we're going to add in the next video.

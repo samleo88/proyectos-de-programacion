@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.450 --> 00:04.760
+Awesome we know how we can add image to our ratio our document.
+
+00:04.850 --> 00:11.350
+How or where we can get nice images and more importantly copyright free images.
+
+00:11.360 --> 00:18.450
+First of all let's get rid of this external one because it's going to annoy us really fast though all
+
+00:18.450 --> 00:22.140
+these lines of code let me just delete this guy.
+
+00:22.300 --> 00:28.570
+And sure enough right now I'm just gonna have the Udemy logo and while getting your images simply from
+
+00:28.570 --> 00:35.980
+Google is fine or whatever small projects we're doing for round use whenever you're going to be doing
+
+00:35.980 --> 00:42.040
+something commercial you're going to get it in a lot of trouble if you're just gonna say let's say some
+
+00:42.040 --> 00:45.970
+kind of images and you'll gonna be using them for your commercial purposes.
+
+00:47.030 --> 00:55.190
+So what we need to do is get images that have no copyright issues that are copyright free and obviously
+
+00:55.220 --> 00:57.160
+there's many sites that you can use.
+
+00:57.410 --> 00:59.800
+But I usually prefer using three of them.
+
+00:59.870 --> 01:04.580
+So one of them would be pics eBay then I really like pixels.
+
+01:04.580 --> 01:11.060
+Mostly I'm getting everything from the pixels and by the way pixels also has the video ones as well
+
+01:11.060 --> 01:14.660
+as you have gratis graffiti and with the greatest graphic.
+
+01:14.660 --> 01:18.860
+It's more like funny pictures you see is like with bunch of people.
+
+01:18.860 --> 01:21.650
+And again it would work exactly the same way.
+
+01:21.800 --> 01:27.020
+So if you're going to go to the site and if you're going to find wherever you're looking for and let's
+
+01:27.020 --> 01:32.200
+say in pixels we would like to have technology something like this.
+
+01:32.240 --> 01:38.120
+Then I wish they were getting very high quality and copyright free images.
+
+01:38.120 --> 01:43.960
+So in this case let's get this laptop and again to work the same way save images.
+
+01:43.970 --> 01:45.780
+Again we would say it here.
+
+01:45.950 --> 01:53.930
+Let's say a laptop that's going gonna be the name and was gonna get whatever extension it provides us
+
+01:53.930 --> 01:54.640
+anyway.
+
+01:54.920 --> 02:00.350
+So I'm gonna head over again and we're gonna test it out one more time where we're all gonna say that
+
+02:00.350 --> 02:07.400
+this is not gonna be image of me then me in the right image of pixels.
+
+02:07.460 --> 02:15.680
+Laptop lets you write underneath the heading 3 the image tagging on and we know that we have the source
+
+02:15.680 --> 02:19.230
+attribute and within the source attribute again we're looking for damage.
+
+02:19.850 --> 02:25.520
+Now since I would like to have the laptop almost like an actual laptop and let's say here this would
+
+02:25.520 --> 02:34.030
+be the image of laptop so pixels laptop would be my alternative text.
+
+02:34.220 --> 02:35.320
+So I'm gonna save this.
+
+02:35.320 --> 02:37.330
+And sure enough I'm getting my image.
+
+02:37.600 --> 02:43.340
+Now the issue is that image is really big and this is something we're all going to cover next video.
+
+02:43.340 --> 02:47.830
+But first of all let me just double check it how this is gonna look in my regular browser.
+
+02:47.830 --> 02:50.160
+Meaning not in this small one.
+
+02:50.170 --> 02:53.730
+That's right next to me by the actual text editor.
+
+02:53.790 --> 02:55.100
+So guys do the same thing.
+
+02:55.120 --> 03:01.570
+We're gonna look for 127 port five thousand and sure enough still this image is gonna be much bigger.
+
+03:01.570 --> 03:06.430
+So next real gonna talk about it how we can adjust the size of the images.

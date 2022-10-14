@@ -1,0 +1,658 @@
+WEBVTT
+
+00:00.390 --> 00:01.210
+Beautiful.
+
+00:01.260 --> 00:04.470
+We have h the amount for one single card.
+
+00:04.470 --> 00:07.030
+Now let's head over back to Stiles.
+
+00:07.030 --> 00:13.950
+Well like I said I'm going to place it again in between the content or I'm sorry the contact and the
+
+00:13.950 --> 00:14.970
+product.
+
+00:15.030 --> 00:21.060
+So why I'm going to look for contact in this case as we can see it is in the product.
+
+00:21.090 --> 00:30.530
+So again let's add our comments where we have first of all these services services like so and then
+
+00:30.530 --> 00:31.750
+let's cut and pasted.
+
+00:32.360 --> 00:33.040
+That's right.
+
+00:33.150 --> 00:34.440
+Of services.
+
+00:34.440 --> 00:35.260
+All right.
+
+00:35.270 --> 00:36.860
+That's an awesome start.
+
+00:36.920 --> 00:42.940
+First why don't we add the background color because if we're checking our finished project you're gonna
+
+00:42.980 --> 00:48.500
+notice that we have the background of gray where for the contact we had obviously white.
+
+00:48.830 --> 00:49.340
+Okay.
+
+00:49.520 --> 00:50.570
+Now what is our color.
+
+00:50.990 --> 00:56.540
+Well if we scroll all the way up we can notice that we have a bunch of colors here.
+
+00:56.600 --> 01:04.430
+We have main dark as our systems variable and we have course main white main Gray primary color secondary
+
+01:04.430 --> 01:05.190
+color.
+
+01:05.210 --> 01:08.600
+In this case we're gonna set it as a main Gray.
+
+01:08.600 --> 01:10.240
+So this particular color.
+
+01:10.280 --> 01:13.270
+So in this case and I'll have to look into more for contact.
+
+01:13.270 --> 01:20.470
+I can just go for services and you're gonna notice how easy it is to navigate around our document Morsi
+
+01:20.570 --> 01:21.770
+as this document.
+
+01:21.770 --> 01:26.970
+And then let's start by in fact selecting the services section.
+
+01:26.990 --> 01:33.590
+Well let's add a background property so let's write background then we're gonna access our systems variable
+
+01:34.040 --> 01:36.680
+by the name of main Gray.
+
+01:36.890 --> 01:44.600
+We're not selected and I can clearly see that I do have my background right then I would like to right
+
+01:44.600 --> 01:46.600
+away work with my image.
+
+01:46.670 --> 01:52.760
+Now I'm gonna add a little bit more styles later on but first of all I would like to make it responsive
+
+01:53.180 --> 01:59.240
+because it is annoying the heck out of me the fact that it is so massive and the way we do that first
+
+01:59.270 --> 02:01.820
+all we select the class service.
+
+02:01.850 --> 02:03.050
+I am G.
+
+02:03.470 --> 02:06.660
+And then let's just say with is going to be hundred.
+
+02:06.680 --> 02:09.240
+So our image is going to be responsive.
+
+02:09.410 --> 02:15.260
+And then also we would want to get rid of this margin that is here in the bottom and the way we do that
+
+02:15.320 --> 02:18.030
+is by using this player of block all right.
+
+02:18.170 --> 02:22.640
+And you can clearly see how we got rid of the margin like I said there's going to be a little bit more
+
+02:22.640 --> 02:30.140
+styles I'm just gonna write more styles because right now I'd like to worry about the card itself.
+
+02:30.590 --> 02:31.800
+Then what we have.
+
+02:31.820 --> 02:34.250
+Well we have the title all the way on top.
+
+02:34.340 --> 02:42.710
+And remember for the title we had a class of services title so let's selected services title and then
+
+02:42.740 --> 02:44.210
+let's add some padding on top.
+
+02:44.660 --> 02:52.830
+So padding not bottom but padding top is going to be internal for our homes.
+
+02:53.130 --> 02:55.400
+And yes we have our padding.
+
+02:55.610 --> 02:56.780
+There you go.
+
+02:56.900 --> 02:59.730
+Then we have our services card.
+
+02:59.750 --> 03:02.180
+So one by one why do we start working on the card.
+
+03:02.690 --> 03:09.110
+And first thing that I would like to add is in fact this border not the border with is really up to
+
+03:09.110 --> 03:10.080
+you.
+
+03:10.520 --> 03:13.590
+You can go with five hour Ms you can go with one arm.
+
+03:13.700 --> 03:15.050
+It doesn't really matter.
+
+03:15.140 --> 03:18.660
+Now I'm gonna go with I believe zero point three.
+
+03:18.740 --> 03:26.840
+So let's me first select the card so service honored like so and then I'm gonna add Border of like I
+
+03:26.840 --> 03:29.770
+said zero point three are Ms solid.
+
+03:29.870 --> 03:36.050
+So I'd want my board to be solid and then I would want to use the primary color basically my green one.
+
+03:36.110 --> 03:44.080
+So essentially I'm gonna write a primary color like so and I should have my border awesome and everything
+
+03:44.090 --> 03:45.840
+works really really well.
+
+03:45.950 --> 03:50.310
+By the way I can check it out of course on my bigger browser window as well.
+
+03:50.330 --> 03:56.230
+Now I do have one card so that's the reason it looks like that but we are already getting there.
+
+03:56.240 --> 04:03.470
+Now next one up I would like to add a little bit of padding for on my card all around you see this line.
+
+04:03.480 --> 04:09.230
+That is my padding so I'm going to say for my card so service card first of all I had a border that
+
+04:09.250 --> 04:16.610
+I'm we're gonna add a little bit of padding all around zero point to our rhythms like so now I do have
+
+04:16.610 --> 04:20.060
+my padding but I'm also gonna use some border radius.
+
+04:20.060 --> 04:25.070
+So even though the rest of the project we didn't use any border radius in fact everything was sharp
+
+04:25.520 --> 04:26.600
+edges were sharp.
+
+04:26.690 --> 04:29.570
+In this case I would like to use a border radius.
+
+04:29.570 --> 04:35.900
+So we're going to write border radius for my hole card is going to be one RTM.
+
+04:36.290 --> 04:37.130
+OK.
+
+04:37.310 --> 04:44.930
+Now lastly I would also like to add a little bit of margin now because once the screen size is going
+
+04:44.930 --> 04:46.360
+to be extra small.
+
+04:46.580 --> 04:51.090
+So if I make my screen size extra small hold one some distance in between them.
+
+04:51.170 --> 04:54.230
+Later on when we're going to add more items.
+
+04:54.670 --> 05:00.940
+So that's the reason why I'm gonna say margin top bottom is going to be to Larry Ms.
+
+05:01.130 --> 05:04.370
+MIKE So I'm left and right is going to be zero.
+
+05:04.380 --> 05:11.180
+All right now that's my setup for the card later on if we're looking at a final project we noticed that
+
+05:11.180 --> 05:13.340
+we do have the box shadow.
+
+05:13.790 --> 05:19.580
+But since we also have the box shadow here for this guy for the icon first we're going to add it for
+
+05:19.580 --> 05:23.650
+the icon and then we're gonna come back and work with this card.
+
+05:24.170 --> 05:31.840
+So I'm going to write here comment bar shadow styling something like that because it's gonna make a
+
+05:31.840 --> 05:34.200
+little more sense once we get there.
+
+05:34.300 --> 05:38.400
+Now like I said more stars for the image and that's where we are right.
+
+05:38.980 --> 05:41.380
+And what do I mean by more styles.
+
+05:41.380 --> 05:47.280
+Well you notice one thing where I do have my nice ball radius for my card.
+
+05:47.560 --> 05:49.570
+But at the moment my image.
+
+05:49.570 --> 05:52.090
+Well it still has these sharp edges.
+
+05:52.180 --> 05:52.920
+Correct.
+
+05:53.050 --> 05:55.950
+And I can even zoom in just so I can see it clear.
+
+05:55.990 --> 06:00.210
+So what we would like to do is set up for the image also some border radius.
+
+06:00.240 --> 06:05.200
+However we need to be careful where I don't want to borrow a radius here on the bottom.
+
+06:05.210 --> 06:12.610
+I just want for the top right edge and top left edge and the property is following border and had to
+
+06:12.610 --> 06:18.350
+board that border and then we go for top and then we have left.
+
+06:18.370 --> 06:19.150
+All right.
+
+06:19.180 --> 06:24.660
+And then we have let's say left radius and I'm gonna set it for five harems.
+
+06:25.120 --> 06:28.140
+And then on left inside right away we have our ideas.
+
+06:28.440 --> 06:35.340
+Let's copy and paste that and let's just change this value not to the left but to a right.
+
+06:35.810 --> 06:37.680
+Now both of them have this border radius.
+
+06:37.930 --> 06:40.630
+And then we have our service info.
+
+06:40.750 --> 06:43.450
+So that's this guy over here in the bottom right.
+
+06:43.450 --> 06:46.310
+Right after the image we have our service info.
+
+06:46.600 --> 06:52.450
+So like I said that would be our second component essentially as we are creating this card.
+
+06:52.870 --> 06:54.490
+Now what are the styles for this guy.
+
+06:54.610 --> 06:57.760
+So let's start by service info.
+
+06:57.910 --> 07:00.830
+First of all and then let's add a background.
+
+07:00.970 --> 07:03.970
+My background is again really your choice.
+
+07:03.970 --> 07:08.920
+You could set this up white because notice your background is in fact Gray already.
+
+07:08.920 --> 07:10.250
+So it's going to stand out.
+
+07:10.600 --> 07:14.380
+But I'm gonna set it for my primary color.
+
+07:14.380 --> 07:15.750
+So let's write var.
+
+07:15.830 --> 07:18.600
+And for some reason I'm keep pressing the star.
+
+07:18.610 --> 07:24.060
+But I would like to get primary color like so and I do have it now.
+
+07:24.370 --> 07:26.110
+Everything works really well.
+
+07:26.110 --> 07:29.810
+Then why don't we add also a borer radius for the info.
+
+07:29.980 --> 07:32.560
+Because again we added for the image.
+
+07:32.710 --> 07:37.590
+But on the bottom we would want it for of course our service info.
+
+07:38.110 --> 07:43.520
+So in this case when I'm going to do just so we can save a little bit of time and copy and paste it
+
+07:43.810 --> 07:50.550
+and then instead of top let's select two cursors and delete it and let's red bottom and that's it.
+
+07:50.560 --> 07:57.130
+Now we're gonna have our margins or I'm sorry border radius is in the bottom then I would like to in
+
+07:57.130 --> 07:58.730
+fact center my text.
+
+07:58.730 --> 08:03.160
+So the line is gonna be center like.
+
+08:03.170 --> 08:13.290
+So then why don't we add a little bit of bigger font size so font size one point that we dream something
+
+08:13.290 --> 08:14.650
+like that.
+
+08:14.650 --> 08:19.140
+And then the letter spacing we have the variable remember.
+
+08:19.200 --> 08:21.400
+Again I'm going to scroll up quickly.
+
+08:21.540 --> 08:24.290
+We have the letter spacing variable.
+
+08:24.550 --> 08:27.270
+Yes that's variable for zero point five.
+
+08:27.330 --> 08:34.470
+Let's navigate back and let's keep on working just showing you where I'm getting these values var letter
+
+08:34.470 --> 08:38.360
+spacing let's set that one up.
+
+08:38.470 --> 08:39.910
+Also what I would like to do.
+
+08:39.940 --> 08:47.040
+Well I have the color correct so I could use a color color is going to be white.
+
+08:47.160 --> 08:51.780
+So var and we had the color variable of main word.
+
+08:52.100 --> 08:53.760
+And let's set it this way.
+
+08:53.760 --> 09:01.560
+And the last but not least we're gonna have a text transform and we're gonna set it as capitalized like
+
+09:01.560 --> 09:02.220
+this.
+
+09:02.220 --> 09:09.630
+Now lastly I'm gonna add a little bit of padding for my whole service and for so let's write here padding
+
+09:10.080 --> 09:14.930
+and I'm just gonna set a pattern for top bottom and no.
+
+09:15.460 --> 09:16.750
+Ah I'm sorry.
+
+09:16.860 --> 09:17.190
+Yeah.
+
+09:17.190 --> 09:19.710
+Top bottom but left and right is going to be zero.
+
+09:19.800 --> 09:20.310
+OK.
+
+09:20.460 --> 09:24.100
+Sorry I just got there confused a little bit where I was setting the pattern.
+
+09:24.100 --> 09:30.060
+Now technically if you want you can also set up the patterns here and also you can obviously change
+
+09:30.060 --> 09:32.150
+the letter spacing if you don't like.
+
+09:32.420 --> 09:38.910
+Now the reason why I'm adding heading this way is because in my setup I'm going to add later on of course
+
+09:38.910 --> 09:45.440
+this icon if you're not adding probably doesn't make sense to have that kind of padding such a big padding
+
+09:45.440 --> 09:50.790
+in the bottom or if you would want maybe to have the same padding in a bottom so you could also write
+
+09:50.790 --> 09:52.880
+something like this 2.5.
+
+09:53.100 --> 09:53.530
+Okay.
+
+09:53.550 --> 09:54.800
+That is your layout.
+
+09:54.930 --> 09:57.720
+Now my reasoning for that was very simple.
+
+09:57.750 --> 10:00.260
+Like I said I'm going to add my icon here on top.
+
+10:00.610 --> 10:03.530
+That's the reason why padding was left.
+
+10:03.690 --> 10:06.110
+Of course bigger on top here.
+
+10:06.240 --> 10:10.230
+Now please keep in mind there's multiple ways how we can create this.
+
+10:10.590 --> 10:16.710
+This is just one of the ways that I picked and it is no right or wrong answer in this case you could
+
+10:16.710 --> 10:20.390
+set up of course your icon here and just moved it up as well.
+
+10:20.490 --> 10:21.830
+That is also an option.
+
+10:21.840 --> 10:27.570
+Now I chose this particular way because I wanted to show you how in fact we can work with this service
+
+10:27.660 --> 10:31.770
+image container because there's gonna be cases where you would like to place something whether that's
+
+10:31.770 --> 10:35.740
+on top of image or in a central image and all like that.
+
+10:36.090 --> 10:39.630
+So the reason why I had this setup is that one.
+
+10:39.630 --> 10:44.970
+Now you could have obviously had the same result by doing stuff differently.
+
+10:45.210 --> 10:51.750
+There is no right or wrong answer as long as you get your job done or basically essentially if you get
+
+10:51.750 --> 10:52.860
+the layout that you'd want.
+
+10:53.470 --> 10:58.410
+And last thing that I would like to work in the service info is in fact the button.
+
+10:58.410 --> 11:04.520
+So this read more mutton where we're going to set up some styling for this particular button and go
+
+11:04.540 --> 11:07.860
+right serve his beat and I remember that was our class name.
+
+11:08.370 --> 11:16.650
+I would want to have it display in line block in line block just so I can have nicely of course my paintings
+
+11:16.650 --> 11:17.640
+and margins.
+
+11:17.830 --> 11:20.080
+Let's write background here in this case.
+
+11:20.080 --> 11:22.420
+Why don't we go for the White one.
+
+11:22.810 --> 11:30.260
+So our variable is main white like so then we have Texas Declaration of none.
+
+11:30.260 --> 11:33.650
+Now as far as this tax declaration goes why we're adding it.
+
+11:34.010 --> 11:35.930
+Well it's in fact very simple.
+
+11:35.930 --> 11:39.110
+Now in this case I didn't have it as a link correct.
+
+11:39.110 --> 11:40.640
+I just had it as a button.
+
+11:40.640 --> 11:44.660
+So of course you're looking at it and you're like well what was the point for tax decoration.
+
+11:44.660 --> 11:49.270
+Well let's imagine the scenario where this particular button in fact would be set up as a link.
+
+11:49.640 --> 11:53.820
+So that's the reason why we just get her off this default declaration that comes four legs.
+
+11:53.910 --> 11:59.910
+OK in this case it doesn't really do anything him because buttons don't have that now Tex transform
+
+11:59.930 --> 12:07.430
+why don't we set it up as capitalize capitalized like so then also why don't we add a little bit of
+
+12:07.430 --> 12:10.330
+padding zero point eight.
+
+12:10.470 --> 12:13.810
+Stop bottom to our aims left and right.
+
+12:13.850 --> 12:22.690
+Now that's my setup then color is going to be primary color which is going to be green Wah I'm color.
+
+12:22.880 --> 12:24.120
+And it should be green.
+
+12:24.130 --> 12:24.670
+Yep.
+
+12:25.010 --> 12:26.960
+I raise font weight.
+
+12:27.080 --> 12:33.540
+We're going to go with bold font two way and let's set it as bold.
+
+12:33.650 --> 12:37.590
+So then also let's add a little bit of.
+
+12:38.130 --> 12:44.670
+So in this case I'm going to say border zero point two are yams solid and I'm gonna go with the white
+
+12:44.670 --> 12:51.820
+one so far and then we had our variable of course by the value of main white.
+
+12:51.960 --> 12:54.790
+And in this case you're like wondering well what's the point.
+
+12:54.790 --> 13:00.840
+Well the way we have our setup is as I'm gonna be scrolling over of course the background is gonna change
+
+13:01.500 --> 13:05.770
+and the background is gonna be transparent and then we're gonna see our border now.
+
+13:06.270 --> 13:09.450
+So border and then what do we have after border.
+
+13:09.450 --> 13:12.620
+Well let's decide what we're gonna set it.
+
+13:12.640 --> 13:18.730
+Our border radius maybe more radius and we're gonna set it as zero point five.
+
+13:18.730 --> 13:19.890
+All right Ms.
+
+13:19.890 --> 13:21.570
+Cursor could be a pointer.
+
+13:21.600 --> 13:25.190
+So as I'm hovering over fact notice I have my cursor.
+
+13:25.320 --> 13:30.870
+And why don't we also add a little bit of margin at the top so margin up.
+
+13:30.940 --> 13:37.570
+And I'm going to go with one arms now a little bit bigger margin on the top as well as the transition
+
+13:37.750 --> 13:41.960
+because like I said as we're hovering over I would like to change the background color.
+
+13:42.010 --> 13:44.770
+That's the reason why we're going to set transition.
+
+13:44.770 --> 13:49.210
+And as far as transition we're going to go with main transition again.
+
+13:49.440 --> 13:52.330
+Once you assess variable we already said before.
+
+13:52.360 --> 13:54.980
+And then lastly why don't we add the hover effect.
+
+13:55.120 --> 14:00.660
+So let's write service n hover as we're hovering over this button.
+
+14:00.760 --> 14:07.320
+I would want to have the background of transparent so let's write the background transparent.
+
+14:07.360 --> 14:08.500
+That's number one.
+
+14:08.530 --> 14:14.650
+And second we're going to also change the color and both of these changes are going to happen.
+
+14:14.800 --> 14:20.620
+In fact over time so they're not going to happen instantly because we have this transition already set.
+
+14:21.130 --> 14:26.650
+So let's go with Main White is going to be in fact our color.
+
+14:27.010 --> 14:33.160
+So as I'm hovering over the button of course my background is changing and it's changing over time not
+
+14:33.160 --> 14:34.010
+instantly.
+
+14:34.090 --> 14:37.020
+And we have our initial card setup.
+
+14:37.690 --> 14:43.670
+Now next one up of course we're going to have to create more cards and then work on our floats.
+
+14:43.790 --> 14:49.660
+So where we have cards side by side and depending on the screen size whether we're going to have two
+
+14:49.660 --> 14:54.220
+cards in one row or in fact all three cards in the same row.

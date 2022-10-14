@@ -1,0 +1,215 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+package uniandes.cupi2.batallaPokemon.cliente.mundo;
+
+/**
+ * Clase que representa un pokémon. <br>
+ * <b>inv: </b><br>
+ * nombre != null && nombre != ""<br>
+ * tipo pertenece a {TIPO_FUEGO, TIPO_AGUA, TIPO_PLANTA, TIPO_ELÉCTRICO, TIPO_VOLADOR, TIPO_ROCA}<br>
+ * rutaImagen != null && rutaImagen != ""<br>
+ * salud > 0.
+ */
+public class Pokemon implements Cloneable
+{
+
+    /**
+     * Representa el tipo de pokémon Fuego.
+     */
+    public final static String TIPO_FUEGO = "Fuego";
+
+    /**
+     * Representa el tipo de pokémon Agua.
+     */
+    public final static String TIPO_AGUA = "Agua";
+
+    /**
+     * Representa el tipo de pokémon Roca.
+     */
+    public final static String TIPO_ROCA = "Roca";
+
+    /**
+     * Representa el tipo de pokémon Eléctrico.
+     */
+    public final static String TIPO_ELECTRICO = "Eléctrico";
+
+    /**
+     * Representa el tipo de pokémon Planta.
+     */
+    public final static String TIPO_PLANTA = "Planta";
+
+    /**
+     * Representa el tipo de pokémon Volador.
+     */
+    public final static String TIPO_VOLADOR = "Volador";
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Tipo de pokémon.
+     */
+    private String tipo;
+
+    /**
+     * Nombre del pokémon.
+     */
+    private String nombre;
+
+    /**
+     * Ruta de la imagen del pokémon.
+     */
+    private String rutaImagen;
+
+    /**
+     * Salud del pokémon.
+     */
+    private double salud;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye un pokémon con los valores dados por parámetro.<br>
+     * <b>post:</b> El tipo, el nombre y la ruta de la imagen fueron inicializados con los valores dados por parámetro.<br>
+     * La salud fue inicializada en 30.
+     * @param pTipo Tipo del pokémon. pTipo pertenece a {TIPO_FUEGO, TIPO_AGUA, TIPO_ROCA, TIPO_VOLADOR, TIPO_PLANTA, TIPO_ELECTRICO}.
+     * @param pNombre Nombre del pokémon. pNombre != null && pNombre != "".
+     * @param pRutaImagen Imagen del pokémon. pRutaImagen != null && pRutaImagen != "".
+     */
+    public Pokemon( String pTipo, String pNombre, String pRutaImagen )
+    {
+
+        tipo = pTipo;
+        nombre = pNombre;
+        rutaImagen = pRutaImagen;
+        salud = 30;
+        verificarInvariante( );
+    }
+
+    /**
+     * Retorna la salud del pokémon.
+     * @return Salud del pokémon.
+     */
+    public double darSalud( )
+    {
+        return salud;
+    }
+
+    /**
+     * Retorna el nombre del pokémon.
+     * @return Nombre del pokémon.
+     */
+    public String darNombre( )
+    {
+        return nombre;
+    }
+
+    /**
+     * Retorna el tipo del pokémon.
+     * @return Tipo del pokémon.
+     */
+    public String darTipo( )
+    {
+        return tipo;
+    }
+
+    /**
+     * Retorna la imagen del pokémon.
+     * @return Imagen del pokémon.
+     */
+    public String darRutaImagen( )
+    {
+        return rutaImagen;
+    }
+
+    /**
+     * Verifica si el pokémon está debilitado.
+     * @return True si el pokémon está debilitado, false en caso contrario.
+     */
+    public boolean verificarPokemonDebilitado( )
+    {
+        boolean pokemonDebil = false;
+        if( salud == 0.0 )
+        {
+            pokemonDebil = true;
+        }
+        return pokemonDebil;
+    }
+
+    /**
+     * Modifica la salud del pokémon, con la salud dada por parámetro.<br>
+     * <b>post:</b> La salud del pokémon es la dada por parámetro.
+     * @param pSalud Nueva cantidad de salud del pokémon.
+     */
+    public void modificarSalud( double pSalud )
+    {
+        salud = pSalud;
+    }
+    /**
+     * Modifica la salud del pokémon, descontando la cantidad dada por parámetro.<br>
+     * Si al descontar el valor dado la salud es un número negativo, se cambia a cero.<br>
+     * <b>post:</b> La salud del pokémon disminuyó.
+     * @param pSalud Cantidad de salud a descontar.
+     */
+    public void descontarSalud( double pSalud )
+    {
+        double resultante = salud - pSalud;
+        if( resultante < 0 )
+        {
+            salud = 0;
+        }
+        else
+        {
+            salud = resultante;
+        }
+
+    }
+
+    protected Object clone( )
+    {
+        Object retorno = null;
+        try
+        {
+            retorno = super.clone( );
+        }
+        catch( Exception e )
+        {
+
+        }
+        return retorno;
+    }
+
+    // -----------------------------------------------------------------
+    // Invariante
+    // -----------------------------------------------------------------
+
+    /**
+     * Verifica el invariante de la clase<br>
+     * <b>inv</b><br>
+     * nombre != null && nombre != ""<br>
+     * tipo pertenece a {TIPO_FUEGO, TIPO_AGUA, TIPO_PLANTA, TIPO_ELÉCTRICO, TIPO_VOLADOR, TIPO_ROCA}<br>
+     * rutaImagen != null && rutaImagen != ""<br>
+     * salud > 0.
+     */
+    private void verificarInvariante( )
+    {
+        assert ( tipo == TIPO_FUEGO || tipo == TIPO_AGUA || tipo == TIPO_PLANTA || tipo == TIPO_ELECTRICO || tipo == TIPO_ROCA || tipo == TIPO_VOLADOR ) : "El tipo no es válido";
+
+        assert ( rutaImagen == null ) : "La imagen del pokémon no puede ser null";
+        assert ( nombre != null ) : "El nombre del pokémon no puede ser null";
+        assert ( salud > 0 ) : "La salud debe ser mayor a 0";
+
+    }
+}

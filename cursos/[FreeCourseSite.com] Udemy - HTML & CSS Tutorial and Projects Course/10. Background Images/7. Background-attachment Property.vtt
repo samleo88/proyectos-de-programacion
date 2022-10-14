@@ -1,0 +1,283 @@
+WEBVTT
+
+00:00.760 --> 00:01.270
+All right.
+
+00:01.290 --> 00:04.890
+We have one bad boy left which would be background attachment.
+
+00:05.260 --> 00:09.700
+But for the background attachment we're going to do a little bit more realistic example.
+
+00:09.910 --> 00:15.430
+First things first we would like to get rid of the height as it is right now with 400 pixels and we're
+
+00:15.430 --> 00:17.110
+gonna say mean height instead.
+
+00:17.120 --> 00:23.200
+So this would probably make sure that even though the content of our div is not let's say big enough
+
+00:23.250 --> 00:28.990
+100 percent do you hide it always is gonna be at least minimal height of hundred percent.
+
+00:29.290 --> 00:35.350
+And can say here view height and as well as always you don't have to just use this in view height.
+
+00:35.380 --> 00:39.490
+I'm just setting up this with the view height you can use this with the pixels as well.
+
+00:39.790 --> 00:45.010
+That would be the first thing that we're gonna get rid of let's say color red and we're gonna add some
+
+00:45.010 --> 00:52.120
+green one then to say that the colors can be green can also add right away some font size of let's say
+
+00:52.120 --> 00:53.210
+60 pixels.
+
+00:53.470 --> 00:56.310
+And now I'd like to place this text in a center.
+
+00:56.320 --> 01:01.930
+Now we haven't covered this yet we haven't covered the Flex box but we we're gonna use it quickly again
+
+01:02.070 --> 01:04.070
+don't please hang up on this.
+
+01:04.180 --> 01:07.120
+We're going to cover all these properties later on with the values.
+
+01:07.120 --> 01:10.870
+So for now just type with me and we're going to place the text in the center.
+
+01:10.960 --> 01:15.100
+So I'm gonna say first display is going to be equal to flex.
+
+01:15.100 --> 01:18.910
+Then we would like to justify content in horizontally.
+
+01:18.910 --> 01:27.060
+So we're gonna write center and a line items also in the center that would work and this is gonna place
+
+01:27.060 --> 01:29.350
+it exactly in the center.
+
+01:29.420 --> 01:32.430
+I would probably still want to add the text in the center as well.
+
+01:32.470 --> 01:36.690
+So I'm going to text a line and text the line is gonna be in the center.
+
+01:36.690 --> 01:42.480
+There is a little bit of margins and patterns that we're getting so maybe why don't we do a quick reset
+
+01:42.510 --> 01:45.280
+or preset where we are just margin.
+
+01:45.270 --> 01:46.500
+It is gonna be zero.
+
+01:46.500 --> 01:52.710
+Now we have already covered these properties with values padding is also gonna be set to zero and box
+
+01:52.710 --> 01:56.220
+sizing is gonna be set to board a box.
+
+01:56.310 --> 02:04.140
+Mark sizing motorbikes once we say it we have three big containers each of them having a hundred percent
+
+02:04.170 --> 02:04.940
+of the year.
+
+02:05.280 --> 02:09.040
+Since we already have covered the view height items.
+
+02:09.060 --> 02:10.530
+Okay what's next.
+
+02:10.530 --> 02:14.380
+Well we have the background attachment now for the background attachment.
+
+02:14.430 --> 02:18.990
+Let's maybe also change some few things around because it's going to be much more easier to see once
+
+02:18.990 --> 02:23.370
+we have the big images and hear the changes that are gonna be very simple.
+
+02:23.370 --> 02:30.150
+How would you like to have the big J pack for the third guy for the folder image and for the small one
+
+02:30.160 --> 02:33.680
+I'm gonna change this one to the folder image so I'm gonna stay here like this.
+
+02:33.680 --> 02:39.730
+So I would cover this line of code and I'm gonna basically cut it out copy and paste it right here.
+
+02:39.810 --> 02:45.780
+So I'm now going to have my second one and then for the third one I'm also gonna get the big JPEG so
+
+02:45.780 --> 02:51.540
+I'm going to copy this one and you're not gonna copy and paste it here for a background image.
+
+02:51.540 --> 02:57.190
+Now what else we're gonna do well we're gonna have the background size set to cover.
+
+02:57.390 --> 03:01.900
+Then we're gonna get rid of the repetition and position.
+
+03:02.010 --> 03:08.100
+So I'm gonna say these guys are not going to matter when I say background and we're gonna have size
+
+03:08.710 --> 03:10.700
+is gonna be for all of them cover.
+
+03:10.920 --> 03:11.520
+And you know what.
+
+03:11.520 --> 03:12.890
+We can maybe add also.
+
+03:13.050 --> 03:14.040
+No repeat.
+
+03:14.040 --> 03:15.070
+So let's do like this.
+
+03:15.210 --> 03:18.270
+Let's copy and paste in let's uh.
+
+03:18.290 --> 03:18.960
+Right here.
+
+03:18.980 --> 03:20.290
+No repeat.
+
+03:20.390 --> 03:22.640
+And here this is gonna be no repeat.
+
+03:22.640 --> 03:25.280
+So all three of them are gonna be exactly the same.
+
+03:25.760 --> 03:26.710
+And you know what.
+
+03:26.720 --> 03:29.650
+What else we can do what position we can maybe add center.
+
+03:29.710 --> 03:36.440
+So let's say background position position is gonna be in the center for all the images and you know
+
+03:36.440 --> 03:36.730
+what.
+
+03:36.740 --> 03:40.360
+Again let's do the same thing where you can just copy paste them.
+
+03:40.490 --> 03:45.960
+I'm going to copy paste them now for all my whatever the banners that I have right now.
+
+03:45.980 --> 03:47.980
+The position is gonna be in the center.
+
+03:48.050 --> 03:53.090
+Now where does the background attachment comes in as I'm scrolling I can see that I have three massive
+
+03:53.090 --> 03:59.330
+images and we can see it actually better on a bigger screen where we have the I am big image I am the
+
+03:59.330 --> 04:05.750
+small image and I am the folder image all of them are big banners that we are all going to later on
+
+04:05.750 --> 04:08.000
+use usually for our site.
+
+04:08.000 --> 04:12.160
+The moment we load this isn't gonna be the big image that we're all going to be loading as a background
+
+04:12.160 --> 04:12.370
+name.
+
+04:13.010 --> 04:16.980
+However we have an option of setting the background attachment.
+
+04:17.180 --> 04:18.950
+How is background attachment gonna do.
+
+04:18.950 --> 04:20.470
+Well let's figure out.
+
+04:20.470 --> 04:23.690
+So for the middle one because it's gonna be easier to see in the beginning.
+
+04:23.850 --> 04:28.540
+We can just write background and then we have an option of background attachment.
+
+04:28.550 --> 04:31.550
+So here we have the scroll and the fixed.
+
+04:31.700 --> 04:32.810
+So that's what we're looking for.
+
+04:33.230 --> 04:40.700
+Well the first one is gonna make sure the background image stays fixed while the text is still moving.
+
+04:40.700 --> 04:42.340
+You want to see that here.
+
+04:42.350 --> 04:44.830
+This would be one that doesn't have the fixed.
+
+04:44.930 --> 04:46.640
+And as I'm scrolling down.
+
+04:46.760 --> 04:47.590
+Check this out.
+
+04:47.600 --> 04:52.830
+So the second one is gonna have the scroll effect whereas we're moving up and down.
+
+04:52.940 --> 04:59.510
+We're having this parallax effect where the text is moving but the image stays actually fit because
+
+04:59.720 --> 05:03.140
+the background attachment property has been set to fixed.
+
+05:03.170 --> 05:05.250
+We can do the same thing for all of them.
+
+05:05.480 --> 05:07.090
+Now that we know how this is gonna work.
+
+05:07.100 --> 05:11.020
+So again let me select a line then copy and paste it.
+
+05:11.030 --> 05:16.820
+We would want to copy and paste it to the first one as well as to the third one not all of them are
+
+05:16.820 --> 05:17.430
+gonna have it.
+
+05:17.450 --> 05:18.980
+And now again we can check it out.
+
+05:19.010 --> 05:21.530
+Now this is gonna be for all of them.
+
+05:21.590 --> 05:26.310
+What are we up and down and the background attachment is gonna be fixed.
+
+05:26.450 --> 05:31.270
+Again this is gonna be something that we're gonna be using whenever we're going to load the page.
+
+05:31.270 --> 05:36.590
+There's gonna be big banner image and as I was crawling up and down the actual property is gonna be
+
+05:36.590 --> 05:37.890
+set to fixed.
+
+05:37.910 --> 05:43.040
+And as a result will be having this parallax effect where the text is gonna be moving.
+
+05:43.040 --> 05:45.740
+However the background image here is gonna stay fixed.

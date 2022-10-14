@@ -1,0 +1,126 @@
+1
+
+00:00:00,000  -->  00:00:04,740
+Alright guys so let's talk about keyword
+arguments. In the last video we found out
+
+2
+
+00:00:04,740  -->  00:00:10,170
+how we can pass only one parameter into
+a function if we have the other one set
+
+3
+
+00:00:10,170  -->  00:00:14,969
+up with the default value. So, this will
+allow us to pass the first argument only
+
+4
+
+00:00:14,969  -->  00:00:21,960
+there's going to be no way to omit this
+and pass the age, so let's do this.
+
+5
+
+00:00:22,710  -->  00:00:29,939
+Let's run it and it's going to say my name
+is 27 and my age unknown. Now there is
+
+6
+
+00:00:29,939  -->  00:00:36,149
+another keyword in Python called "none"
+just like this, this would be a boolean
+
+7
+
+00:00:36,149  -->  00:00:40,110
+I guess or just a keyword in general,
+
+8
+
+00:00:40,110  -->  00:00:45,780
+basically this is the equivalent to null
+in other languages. So we're going to
+
+9
+
+00:00:45,780  -->  00:00:51,690
+save this and run this again, and it's going to say my name is none and my age 27.
+
+10
+
+00:00:51,690  -->  00:00:57,390
+There's literally no way to only pass in
+an argument that is not the first
+
+11
+
+00:00:57,390  -->  00:01:05,519
+argument unless you use keyword
+arguments, and that is defining what
+
+12
+
+00:01:05,519  -->  00:01:14,729
+variable this is supposed to be. So if we
+do this and hit run we're going to see
+
+13
+
+00:01:14,729  -->  00:01:20,100
+that my name is someone, because we
+didn't define a name, and my age is 27. Now
+
+14
+
+00:01:20,100  -->  00:01:25,530
+we can also use this capacity and
+parameters in different orders. So I can
+
+15
+
+00:01:25,530  -->  00:01:32,159
+say name "name=Nick" there let's save that and run it and you'll see that the order
+
+16
+
+00:01:32,159  -->  00:01:35,670
+we're passing it in it should if we
+weren't using keyword arguments would
+
+17
+
+00:01:35,670  -->  00:01:43,350
+say my name is 27, and my age is Nick. So, by using keyword arguments we can
+
+18
+
+00:01:43,350  -->  00:01:48,869
+specify which value is supposed to go
+into which variable, when it goes into
+
+19
+
+00:01:48,869  -->  00:01:54,390
+the function. So that was actually pretty
+quick. That's keyword arguments and how
+
+20
+
+00:01:54,390  -->  00:01:55,110
+to use them.
+
+21
+
+00:01:55,110  -->  00:02:02,640
+I kind of like the sister concept of
+default arguments. So in the next video
+
+22
+
+00:02:02,640  -->  00:02:06,240
+we're going to be talking about an
+infinite number of arguments.

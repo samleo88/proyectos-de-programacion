@@ -1,0 +1,415 @@
+WEBVTT
+
+00:00.610 --> 00:01.710
+All righty neighbor.
+
+00:01.720 --> 00:04.570
+Hopefully you have the same setup as me.
+
+00:04.570 --> 00:10.360
+Whether you download it whether you fall along Glass video and now it can start working on the background
+
+00:10.360 --> 00:12.460
+property for our images.
+
+00:12.520 --> 00:17.350
+Now first and foremost in the indexation demo we're going gonna create a div.
+
+00:17.350 --> 00:21.130
+Now this div is going to have a class on the class.
+
+00:21.130 --> 00:22.150
+It's gonna be big.
+
+00:22.150 --> 00:24.490
+I am G and within this day.
+
+00:24.520 --> 00:31.620
+Let's say that there is going to be just some hiring one with IBM IBM.
+
+00:31.690 --> 00:36.020
+Let me make this proper one IBM big image.
+
+00:36.090 --> 00:37.940
+Now let me copy and paste this.
+
+00:38.020 --> 00:40.740
+Let's say one two three.
+
+00:40.750 --> 00:43.650
+Then the second one is gonna be small.
+
+00:43.800 --> 00:45.420
+So if it's a small image.
+
+00:45.550 --> 00:50.350
+The third one is gonna be the folder image again kind of straightforward.
+
+00:50.350 --> 00:54.010
+This is gonna be the small image and you probably really you can guess what we're going to be doing
+
+00:54.010 --> 00:54.860
+anyway.
+
+00:54.940 --> 00:59.080
+So it's a small image and then the last one is gonna be the holder image.
+
+00:59.110 --> 01:01.870
+So I am all their image.
+
+01:01.870 --> 01:03.330
+Nice to meet you.
+
+01:03.700 --> 01:05.230
+Indexation Actually I'm all done.
+
+01:05.230 --> 01:06.220
+Awesome.
+
+01:06.220 --> 01:11.870
+Let's head over to styles assess first let's select all the divs and let's say the divs are not gonna
+
+01:11.890 --> 01:17.840
+have any kind of with so they're gonna be spanning all across but we all gonna add some height so let's
+
+01:17.840 --> 01:24.700
+say height is not gonna be two pixels I'd actually would be I don't know let's start out by four hundred
+
+01:24.700 --> 01:31.090
+pixels I think that's gonna be a little bit too drastic here let's cover 300 pixels maybe that's gonna
+
+01:31.090 --> 01:31.860
+be bigger.
+
+01:32.020 --> 01:34.780
+Well at the moment it's still kind of big but you know what.
+
+01:34.780 --> 01:41.580
+It's obviously the fact that I'm working with the browser window and I have zoomed in a lot so not there
+
+01:41.790 --> 01:46.960
+I'm gonna zoom in there but zoom out over here because I always want you to see a little bit better
+
+01:46.960 --> 01:52.020
+so I can see that I kind of went a little bit drastic where I had one seventy five.
+
+01:52.030 --> 02:01.390
+So in this case it looks better with 125 so now I may be I can not really get 400 knot not 54000 more
+
+02:01.410 --> 02:03.990
+5400 let's try 400.
+
+02:04.150 --> 02:06.130
+Yeah and I think this is gonna do the job.
+
+02:06.130 --> 02:06.990
+Excellent.
+
+02:07.150 --> 02:08.870
+Also liked the color.
+
+02:08.950 --> 02:11.840
+So let's right color is going to be red.
+
+02:11.950 --> 02:13.180
+Let's save it.
+
+02:13.240 --> 02:14.630
+So far so good.
+
+02:14.660 --> 02:16.570
+Now let's start working with the backgrounds.
+
+02:16.570 --> 02:19.860
+Now we have done already too many times the background property.
+
+02:19.900 --> 02:21.760
+So I'm going to show you with a color.
+
+02:21.760 --> 02:26.670
+However the whole point here is to show you can work with images.
+
+02:26.710 --> 02:31.860
+So for the class of big image what I would like first of all it's like like the background.
+
+02:32.060 --> 02:36.850
+That's gonna be the first step then for the background the value in this case is going to be U.R.L.
+
+02:37.290 --> 02:39.090
+and this is where the difference comes in.
+
+02:39.190 --> 02:45.160
+We're not placing the color we are writing the URL now within the URL we need to show the path.
+
+02:45.270 --> 02:50.690
+So where this image is located now where is this image located the big image.
+
+02:50.700 --> 02:54.730
+Well it's in exactly the same folder as our style CSF.
+
+02:54.760 --> 02:59.740
+So it's very simply we can just look for the big image that I'm gonna do in the forward slash.
+
+02:59.740 --> 03:02.150
+And in this case this would be the big image.
+
+03:02.170 --> 03:06.690
+Now it can also let me just save it first of all just so you can see that there's going to be an image.
+
+03:07.090 --> 03:09.460
+But let's look at the other options we had.
+
+03:09.670 --> 03:12.850
+We obviously could have done it like this would have set it like this.
+
+03:12.850 --> 03:14.320
+This would still going to work.
+
+03:14.320 --> 03:19.270
+But again please remember it's going to depend whether you're opening up with the browser.
+
+03:19.270 --> 03:24.130
+So if we're gonna go over here and if you're going to click on let's say indexation the amount then
+
+03:24.520 --> 03:29.650
+the different paths are going to mess up over there as your opening directly in the browser.
+
+03:29.650 --> 03:30.820
+So just keep in that mind.
+
+03:30.850 --> 03:36.040
+So this is gonna be the safe one where even though I'm going to open up where the browser directly this
+
+03:36.040 --> 03:37.100
+is still gonna work.
+
+03:37.150 --> 03:39.950
+So again this is just something you need to keep an eye on.
+
+03:40.060 --> 03:41.800
+Now I'd say this again.
+
+03:41.920 --> 03:43.180
+And what else we have.
+
+03:43.360 --> 03:48.010
+Well maybe let's just get out like this and say Big J Peg.
+
+03:48.160 --> 03:49.510
+Now is this working.
+
+03:49.600 --> 03:50.810
+I think it is.
+
+03:50.890 --> 03:52.690
+Again we can do the same thing you know what.
+
+03:52.750 --> 03:58.100
+Let me open up the new browser window and we're going to cover everything that we again did in the annexation
+
+03:58.100 --> 03:58.860
+email.
+
+03:58.920 --> 04:00.130
+So let me open this up.
+
+04:00.160 --> 04:05.290
+So this one is working right now then let's do this guy.
+
+04:05.840 --> 04:11.240
+When we had the quotation marks and I'm sorry if you already know this or it's annoying to you so it
+
+04:11.240 --> 04:17.540
+would be showing here on my life server but if I'm gonna refresh it's not going to be working here as
+
+04:17.540 --> 04:20.570
+I woke up this directly with the browser window.
+
+04:20.570 --> 04:26.540
+So again this is something we already covered with the indexation email where we had the relative path
+
+04:26.960 --> 04:31.940
+but this is something that we're going to work with the browsers as well as with development servers
+
+04:32.360 --> 04:36.030
+and this is the syntax that you'll use a lot.
+
+04:36.080 --> 04:40.550
+Whether that's going to be I can react or note or something like this again I digress.
+
+04:40.550 --> 04:46.190
+But it can sometimes really throw you off if you're just messing around and if you're not getting the
+
+04:46.250 --> 04:47.300
+correct values.
+
+04:47.360 --> 04:50.310
+So for me I'm just gonna be sticking with this whatever you pick.
+
+04:50.360 --> 04:51.630
+It's really up to you.
+
+04:51.650 --> 04:57.980
+OK we have the background now with all my yammering about the actual path.
+
+04:58.280 --> 05:00.500
+I didn't tell you that basically we're getting the image.
+
+05:00.500 --> 05:06.050
+So that's the neat part where we have the background right now and the background is in fact image.
+
+05:06.140 --> 05:09.920
+If I'm going to make this bigger still notice we're gonna have the nice image.
+
+05:09.920 --> 05:14.450
+Now there's gonna be a couple of things that are happening by default and that is something we'd see
+
+05:14.450 --> 05:19.820
+assess where some of the things you already have noticed like let's say display properties they already
+
+05:19.820 --> 05:20.740
+preset.
+
+05:20.740 --> 05:26.270
+Now one of the things that we're going to again cover in a few videos is the fact that this is repeating
+
+05:26.870 --> 05:28.100
+the background image.
+
+05:28.250 --> 05:33.020
+It fits one if the div is getting bigger it needs to fit another one.
+
+05:33.050 --> 05:34.830
+This is gonna be repeating again.
+
+05:34.910 --> 05:36.530
+We're not going to cover this right now.
+
+05:36.530 --> 05:41.630
+We're just checking how this would look in general then let's do small image.
+
+05:41.630 --> 05:43.270
+Remember that was the other one.
+
+05:43.310 --> 05:44.390
+And again you know what.
+
+05:44.390 --> 05:46.280
+In this case maybe let's just copy and paste it.
+
+05:46.810 --> 05:53.630
+There is no reasoning for me to not copy and paste it because I think it's gonna save us a little bit
+
+05:53.630 --> 05:54.470
+of time.
+
+05:54.560 --> 05:57.050
+So it's a small image.
+
+05:57.050 --> 06:00.680
+So I'm going to be looking for the small guy and check this out.
+
+06:00.910 --> 06:03.990
+So I'm gonna change this again is in the same folder.
+
+06:03.990 --> 06:04.540
+So I don't care.
+
+06:04.570 --> 06:11.840
+I can just use small JPEG and what do we see or hear or we see that literally the image is repeated
+
+06:12.170 --> 06:15.770
+not only the x direction but as well by direction.
+
+06:15.770 --> 06:18.290
+Again that is something that's happening by default.
+
+06:18.290 --> 06:25.130
+So it will gonna matter what kind of image you're making because I'm sorry using because the reason
+
+06:25.190 --> 06:30.950
+why I wanted to show the small image is that even though we were going to cover lay around the properties
+
+06:30.950 --> 06:32.190
+that affect this.
+
+06:32.240 --> 06:37.930
+So technically we could get the same look where the small image is still gonna be covering a whole day
+
+06:37.930 --> 06:41.360
+of it is gonna be distorted and it's not going to be very pretty.
+
+06:41.360 --> 06:43.630
+So it does matter what kind of image you're picking.
+
+06:43.640 --> 06:48.710
+So please don't pick like an image of twenty five and twenty five and then wonder well why my image
+
+06:48.710 --> 06:51.220
+looks so bad or why does it doing this repetition.
+
+06:51.230 --> 06:57.080
+Because that is something that's happening by default and I know that's quite a lot that you kind of
+
+06:57.080 --> 06:58.640
+have to remember that.
+
+06:58.700 --> 06:59.090
+OK.
+
+06:59.090 --> 07:01.120
+The display properties by default.
+
+07:01.160 --> 07:04.250
+This is by default but there's nothing I can do.
+
+07:04.310 --> 07:05.720
+Just this is how it is.
+
+07:05.720 --> 07:07.310
+Here it is happening by default.
+
+07:07.480 --> 07:08.660
+And I just need to cover it.
+
+07:09.080 --> 07:14.950
+Now last one is gonna be folded image successfully or happily that was the big one.
+
+07:15.130 --> 07:20.870
+Let's say small and I don't know why the deleted image could have just said with folder.
+
+07:20.870 --> 07:23.270
+Now I don't want to use the small one.
+
+07:23.270 --> 07:25.080
+Now I have to look in the folder.
+
+07:25.220 --> 07:29.860
+Now the reason here again wants to show you that we need to use the path.
+
+07:30.350 --> 07:33.890
+So we have to use the path where we're looking for the images.
+
+07:34.040 --> 07:36.070
+Then with the images what we have.
+
+07:36.080 --> 07:38.510
+Well we have folder image.
+
+07:38.510 --> 07:40.130
+Now we were successful.
+
+07:40.130 --> 07:41.610
+And now I'm getting the folder image.
+
+07:42.290 --> 07:43.760
+So big takeaways.
+
+07:43.760 --> 07:48.860
+If you want to place an image use the background property that we already have covered many times with
+
+07:48.860 --> 07:54.400
+the colours then use the URL and then within the URL knee you need to get an image.
+
+07:54.890 --> 08:01.940
+But please understand that the image you're picking matters because the small image is gonna be repeated.

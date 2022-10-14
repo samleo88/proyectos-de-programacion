@@ -1,0 +1,646 @@
+WEBVTT
+
+00:00.090 --> 00:04.170
+The next section we're going to be building is going to be about section.
+
+00:04.320 --> 00:12.480
+And so when I have two columns and one is going to be having a background I was going to be fixed background
+
+00:12.610 --> 00:17.230
+I'm going to look at how we can create a slant effect and all this is going to have a text.
+
+00:17.430 --> 00:18.900
+So let's go back over here.
+
+00:18.930 --> 00:25.290
+Right now we can close the script on here and also make it we're going to go to the next page.
+
+00:25.320 --> 00:26.380
+All right.
+
+00:26.430 --> 00:32.850
+And then we're going to have an About section so I'm going to have a comment about copy the line I've
+
+00:33.030 --> 00:37.100
+been based on to say the end of about right.
+
+00:37.110 --> 00:42.560
+And then once we have this then we're going to have a section with a class of about.
+
+00:42.840 --> 00:50.840
+And then with an idea about it or here like this once we have this section now we would want a two articles.
+
+00:51.030 --> 00:54.000
+So here I'm going to say this is going to be an article.
+
+00:54.270 --> 01:01.670
+This is going to be about Image class about Image image or hair stand up.
+
+01:01.950 --> 01:04.040
+And then we'll have about text.
+
+01:04.050 --> 01:07.690
+All right so here we're going to have article on Google.
+
+01:07.800 --> 01:15.870
+And this is going to be about and we're going to say next month we have this within this about text.
+
+01:15.870 --> 01:22.720
+Now we need to actually create a div I don't going to say about text I'm we're going to say Center I
+
+01:22.720 --> 01:25.810
+mean so this is going to be div with a class of about X.
+
+01:25.830 --> 01:31.110
+And then once we have this then we're going to write a Heading 1 and we're going right over here and
+
+01:31.110 --> 01:38.560
+this is going to be called masters on this press tab and we have a heading one.
+
+01:38.770 --> 01:44.260
+Then after that we're going to have a ABOUT text on line here like this.
+
+01:44.320 --> 01:51.850
+We're going to say this is going to be a div with about here next and we're going to say this is going
+
+01:51.850 --> 01:52.960
+to be on the line.
+
+01:54.390 --> 01:57.270
+There's a line on this press tab.
+
+01:57.350 --> 01:59.880
+This is going to be next thing after Codemasters.
+
+02:00.080 --> 02:02.680
+Then we have a paragraph with a.
+
+02:02.740 --> 02:08.370
+What say I don't know like 15 12 words or something like this.
+
+02:08.710 --> 02:13.710
+And that's Pless over here where I'm going to have a link.
+
+02:14.020 --> 02:16.240
+Right so we're going right over here.
+
+02:16.610 --> 02:19.880
+Still within this about Center was going to play.
+
+02:19.880 --> 02:23.750
+So like right pro-stem Hash tag no.
+
+02:23.900 --> 02:27.240
+Explore on it like this.
+
+02:27.240 --> 02:29.460
+And we're actually done with HCM no.
+
+02:29.820 --> 02:32.840
+So we can go to style success or mines.
+
+02:32.860 --> 02:33.770
+Is an arc.
+
+02:33.830 --> 02:34.500
+Right.
+
+02:34.560 --> 02:35.950
+And starts dialing.
+
+02:35.970 --> 02:41.560
+So here what I'm going to say and this is going to be about right now we just need to place a hashtags
+
+02:41.880 --> 02:45.920
+like this and just sort of all over the place basically.
+
+02:45.970 --> 02:49.320
+So I'm separating them right now.
+
+02:49.320 --> 02:52.380
+First one let's deal with any about image.
+
+02:52.710 --> 02:53.300
+Right.
+
+02:53.520 --> 03:01.440
+So I'm going to say about image first article or I'm going to say in height 80 view it's more like this.
+
+03:01.440 --> 03:02.030
+Right.
+
+03:02.040 --> 03:04.030
+And again you can see nothing happens here.
+
+03:04.200 --> 03:09.070
+However we're going to see a background you are all here.
+
+03:09.320 --> 03:12.770
+We're going to say image and I'm going to say about background.
+
+03:12.820 --> 03:18.450
+Right so now I'm going to get these clocks or here or here we're going to right center then we're going
+
+03:18.450 --> 03:30.560
+to have a cover cover then we'll will have a fixed and have no repeat fixed no repeat or like this.
+
+03:30.660 --> 03:31.390
+Right.
+
+03:31.470 --> 03:37.540
+Once we have this now we would want to deal with a about text.
+
+03:37.560 --> 03:43.200
+Right so this shouldn't be our second issue that we would want to deal with right now or here.
+
+03:43.290 --> 03:47.710
+Maybe let's go back to skills you can see that I have these white lines right.
+
+03:47.790 --> 03:50.540
+You have a tarp over here at the bottom.
+
+03:50.540 --> 03:51.130
+All right.
+
+03:51.180 --> 03:57.770
+So obviously we would need to go back to skills or here and you decide what would we want to do.
+
+03:57.790 --> 03:58.430
+Right.
+
+03:58.470 --> 04:04.470
+Well probably what we want to do is we would want to add a pratting or here like this.
+
+04:04.470 --> 04:09.840
+So I'm going to say this is going to be skills and I would say we're going to have a padding of 40 pixels
+
+04:09.840 --> 04:11.230
+and zero here.
+
+04:11.340 --> 04:15.480
+So right now I can see that my white lines are actually gone.
+
+04:15.640 --> 04:21.460
+Then once we're dealing with this background image right now I would want a about text.
+
+04:21.530 --> 04:30.570
+So I want to say about text here and what we would want with an about text we would want the same thing
+
+04:30.570 --> 04:36.430
+we do and say height 80 a few words like this.
+
+04:36.660 --> 04:40.330
+To say that this is going to be a display and this is going to be display.
+
+04:40.340 --> 04:44.740
+Let's just remember that again this is going to have only one child right.
+
+04:44.910 --> 04:50.430
+Because the full text was the parent about text Center was the only child right because we didn't want
+
+04:50.430 --> 04:54.810
+to deal with them separately we just want to deal with them with a whole image.
+
+04:54.810 --> 04:55.240
+Right.
+
+04:55.290 --> 04:56.380
+Well the whole block.
+
+04:56.400 --> 05:05.160
+All right then we're going to say we're here and this is going to be a line item center line items center.
+
+05:05.250 --> 05:09.780
+Then we're going to say that this is going to have a background note here we're going to say hash tag
+
+05:10.140 --> 05:16.800
+0 3 2 3 2 4 and 3 3.
+
+05:16.800 --> 05:22.050
+All right so basically this is going to be this dark blue background and then we'll have a color and
+
+05:22.050 --> 05:29.150
+the color is going to be the white one well white gray 1 3 and 5 on here like this.
+
+05:29.460 --> 05:35.090
+And then we have another paddings So we're going to say batting 40 pixels and zero.
+
+05:35.150 --> 05:36.580
+So something like this.
+
+05:36.690 --> 05:40.690
+And then now we would want to work with this about text center.
+
+05:40.920 --> 05:46.780
+So we're going to say we're here about text and we're going to say Center on this.
+
+05:47.010 --> 05:56.410
+And when this one we're going to say like this then this should have a width 90 per cent like this margin.
+
+05:56.580 --> 06:01.500
+0 auto and again basically we're replacing it in the center.
+
+06:01.530 --> 06:08.330
+So now I can see that I'm kind of running out of space so I'm going to create more room more here I
+
+06:08.340 --> 06:09.080
+guess right.
+
+06:09.330 --> 06:15.010
+So let's go back over here and we're going to say that this is going to be about text.
+
+06:15.100 --> 06:18.180
+Adding one more here like this.
+
+06:18.240 --> 06:18.530
+Right.
+
+06:18.570 --> 06:20.090
+And what should happen.
+
+06:20.110 --> 06:31.860
+We're going to say text transform text transform to capitalize like this and just see whether we're
+
+06:31.860 --> 06:33.810
+actually selecting it right.
+
+06:33.870 --> 06:37.410
+And then you have a margin bottom here.
+
+06:37.640 --> 06:42.960
+We're going to have eight 10 pixels margin than pixels and lets say zero.
+
+06:43.230 --> 06:48.030
+Right so we're here you know what let's write like this let's write differently.
+
+06:48.030 --> 06:53.150
+That's right margin bottom pixels bottom 10 pixels or here like this.
+
+06:53.240 --> 07:01.280
+Right then we're going to have a about text on that line about text on the line like this and then we'll
+
+07:01.290 --> 07:05.470
+say with 200 pixels here.
+
+07:05.760 --> 07:11.010
+Height 5 pixels here and then a background.
+
+07:11.150 --> 07:20.670
+I'm going to say hash tag 8 F C and B F D B of D or A like this.
+
+07:20.710 --> 07:25.960
+Right now it's Shreck y why that line wasn't it.
+
+07:26.080 --> 07:26.620
+Right.
+
+07:26.670 --> 07:30.890
+And over here you can see that if we have a about text underline right.
+
+07:30.900 --> 07:33.010
+So this was a little bit different.
+
+07:33.080 --> 07:35.570
+We actually need to write it differently right.
+
+07:35.620 --> 07:37.290
+So right like this.
+
+07:37.290 --> 07:44.410
+Now I have my line then we don't want to work with a paragraph here.
+
+07:44.580 --> 07:44.960
+Right.
+
+07:45.000 --> 07:51.480
+And we're going to say this is going to be about and text paragraph and all here we're going to say
+
+07:51.510 --> 07:56.020
+this is going to be a margin 20 pixels zero.
+
+07:56.090 --> 08:03.860
+Right so 20 pixels Marnham height or line height is going to be to line height is going to be to over
+
+08:03.870 --> 08:04.450
+here.
+
+08:04.940 --> 08:14.010
+And Folland style style is going to be taluk Dallek or then once we're done with this now we'd want
+
+08:14.010 --> 08:15.080
+to work with the link.
+
+08:15.200 --> 08:21.330
+Right so we're going to say over here bold text and we're going to say a link and we're going to start
+
+08:21.330 --> 08:23.060
+with a display.
+
+08:23.140 --> 08:30.410
+Probably going to say inline block right because we want to add a margins and paddings and we're going
+
+08:30.410 --> 08:32.200
+to say text decoration.
+
+08:32.190 --> 08:41.760
+None here then will have a text trends one and we're going to say upper case I like this color we're
+
+08:41.760 --> 08:48.470
+going to use again the White grayish 1 3 5 here like this.
+
+08:48.780 --> 08:59.280
+And then once we have this then we'll have a padding padding of 15 pixels and 10 pixels like this.
+
+08:59.350 --> 09:02.700
+So top bottom 15 sides is going to be 10.
+
+09:03.070 --> 09:06.170
+And then we have a border here.
+
+09:06.220 --> 09:09.910
+This is going to be a three pixels solid.
+
+09:10.210 --> 09:12.220
+And again we're going to use the white one.
+
+09:12.310 --> 09:15.810
+So I have five three three or five.
+
+09:15.810 --> 09:16.710
+All right.
+
+09:16.720 --> 09:21.520
+And then we would want some transitions and transitions would be for the border for the background and
+
+09:21.520 --> 09:23.640
+for the color right.
+
+09:23.760 --> 09:34.280
+So what we're going to see here transition transition here this is going to be for two seconds is background
+
+09:35.350 --> 09:36.410
+two seconds.
+
+09:36.440 --> 09:38.010
+Ease right.
+
+09:38.030 --> 09:42.820
+And then color two seconds his ears or here.
+
+09:42.980 --> 09:48.370
+So all three of them right now obviously we would want to hover effect so we're going to say about text
+
+09:48.790 --> 09:50.380
+and we're going to see a.
+
+09:50.700 --> 09:52.190
+And this is going to be Hulver.
+
+09:52.280 --> 10:01.550
+And as we were hovering the color is going to be I think 1 9 1 9 1 9 0 here then background is going
+
+10:01.550 --> 10:03.870
+to be a white one.
+
+10:03.890 --> 10:10.440
+So that 5 3 5 or here and border color.
+
+10:10.550 --> 10:18.780
+So we're going to say border and say color here and let's try this one right.
+
+10:18.810 --> 10:27.400
+So say hash tag 0 3 2 and 4 3 4 3 or here.
+
+10:27.450 --> 10:29.850
+So let's say Right and let's see what we have.
+
+10:30.190 --> 10:30.780
+Right.
+
+10:30.840 --> 10:34.890
+So this is one way how we can do it or we can actually set it.
+
+10:35.150 --> 10:40.080
+The border color also let's say if the background is white then this should be white.
+
+10:40.260 --> 10:42.730
+You going to say five of three or five.
+
+10:43.000 --> 10:45.260
+Right so we can also do it like this.
+
+10:45.280 --> 10:45.850
+Right.
+
+10:45.900 --> 10:47.990
+This is also an option how we can do it.
+
+10:48.180 --> 10:56.250
+Now we can also obviously now can see it once I change the white back and just leave it without a change
+
+10:56.250 --> 10:57.010
+right.
+
+10:57.030 --> 11:01.040
+So it's really up to you how you want to do it all right now.
+
+11:01.110 --> 11:08.980
+Once we have this now what I would want is to have all this slanted right but only on a specific height.
+
+11:08.990 --> 11:09.460
+Right.
+
+11:09.510 --> 11:14.270
+So only once it has reached a specific height we would want that to happen.
+
+11:14.370 --> 11:16.340
+But you know what we're here to capitalize.
+
+11:16.350 --> 11:23.520
+Let's do a prickish do prickers like this that's maybe add some font sizes too.
+
+11:23.790 --> 11:28.890
+So I'm going to say font size and say 30 pixels or here like this.
+
+11:28.900 --> 11:29.410
+Right.
+
+11:29.480 --> 11:37.070
+Just so it's a little bit bigger now we're here what you need is media screen green and we're going
+
+11:37.070 --> 11:49.040
+to see and hear remain with more hair and the men with us is actually going to be a 9 9 2 or you know
+
+11:49.040 --> 11:54.850
+a sort of 7:36 776 pixels here.
+
+11:55.220 --> 12:02.870
+Once we have this we're going to say about right now we're going to have a display of flex splay flex
+
+12:02.870 --> 12:03.620
+or here.
+
+12:03.680 --> 12:05.830
+So let's check it out what we have here.
+
+12:05.830 --> 12:09.240
+All right so this is what we are working on right now.
+
+12:09.260 --> 12:11.530
+This should be a display flex.
+
+12:11.550 --> 12:11.960
+Right.
+
+12:11.980 --> 12:13.240
+So as we refresh it.
+
+12:13.240 --> 12:13.800
+Right.
+
+12:13.940 --> 12:15.460
+This is how it's going to look like.
+
+12:15.600 --> 12:15.900
+Right.
+
+12:15.920 --> 12:19.740
+Or here and let's just check with the next issue him now.
+
+12:19.760 --> 12:20.440
+All right.
+
+12:20.480 --> 12:24.430
+This was an about image and this was an article right.
+
+12:24.440 --> 12:26.180
+So what are we going to do over here.
+
+12:26.480 --> 12:29.790
+Right now we have a bolt of display flex.
+
+12:30.050 --> 12:35.890
+Then over here we're going to say about text and the text is going to be on here like this.
+
+12:35.890 --> 12:36.410
+Right.
+
+12:36.450 --> 12:44.830
+I'm going to say 4 x 0 0 30 percent or you're like this then 40 about image.
+
+12:44.850 --> 12:45.620
+All right.
+
+12:45.740 --> 12:46.940
+We're going to say this.
+
+12:47.000 --> 12:49.120
+This shouldn't be honestly 70 percent.
+
+12:49.160 --> 12:51.830
+So about image here.
+
+12:52.090 --> 13:04.910
+And we're going to say flex and 0 0 70 percent or here and now we would want to have this slanted part
+
+13:04.930 --> 13:05.510
+right.
+
+13:05.510 --> 13:10.570
+So once we refresh right now I can see that image but I want to make this line here right.
+
+13:10.610 --> 13:12.080
+That's what I would want right now.
+
+13:12.260 --> 13:19.500
+So what I'm going to do over here I'm going to say this is going to be clip path clip.
+
+13:19.720 --> 13:28.680
+We're here and we're going to say polygon we're here and here we're going to use 0 0.
+
+13:28.690 --> 13:30.600
+All right we're going to start with zero.
+
+13:30.800 --> 13:37.400
+Then we'll have 100 percent here then we'll have another zero and then we'll have 15 100 percent.
+
+13:37.400 --> 13:40.540
+So basically what I'm doing is what I'm saying is this right now right.
+
+13:40.790 --> 13:48.960
+So if this is 0 0 0 for x 0 for y this is going to be harder for X and still zero for why.
+
+13:48.990 --> 13:50.790
+Right because it's all the way there.
+
+13:50.960 --> 13:58.200
+However over here this should be a hundred for X and a hundred for a Y.
+
+13:58.340 --> 14:01.290
+And this should be zero for X and 100 for Y.
+
+14:01.340 --> 14:02.030
+Right.
+
+14:02.180 --> 14:04.540
+When I want do here is like this right.
+
+14:04.610 --> 14:06.210
+I'm just going to create this line.
+
+14:06.290 --> 14:11.450
+So this is going to be 00 this is going to be hundred and 0 and then we're going to change the third
+
+14:11.450 --> 14:12.290
+and fourth.
+
+14:12.350 --> 14:13.100
+Right.
+
+14:13.100 --> 14:18.110
+So 0 4 x 0 for y hundred for x 0 for a Y.
+
+14:18.230 --> 14:25.970
+And over here we're going to say 50 percent for x 100 percent for y no karma zero.
+
+14:26.090 --> 14:29.100
+And this is going to be 100 percent right again.
+
+14:29.330 --> 14:35.960
+We're going to go back to the normal stage where we have a zero for X and 100 for Y or here right.
+
+14:35.960 --> 14:39.280
+So it's taken out when we have fresh.
+
+14:39.380 --> 14:41.890
+Right now I can see what we have over here right.
+
+14:42.140 --> 14:47.570
+So this the last one is going to be the same but this is the only valid changed.
+
+14:47.620 --> 14:52.430
+Now I can see how what kind of shape we got right now obviously for the whole thing.
+
+14:52.430 --> 14:58.520
+Now what we will need is a background so I'm going to say about what we're going to say back ground
+
+14:59.190 --> 15:05.430
+and we're going to say hash tag 0 3 this 2 4.
+
+15:05.630 --> 15:07.220
+And then we have three.
+
+15:07.220 --> 15:11.740
+So basically what I'm saying is for the whole About section have this background.
+
+15:11.840 --> 15:12.080
+Right.
+
+15:12.080 --> 15:13.770
+So once I refresh.
+
+15:14.030 --> 15:15.660
+Now we have this right.
+
+15:15.690 --> 15:17.750
+So this is one of the ways that we can do it.

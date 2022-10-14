@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.060 --> 00:06.200
+If you're following along with my project set up everything should be working fine.
+
+00:06.480 --> 00:13.610
+However there's no issue with a font awesome because the recordings were done with an old font awesome
+
+00:13.930 --> 00:17.560
+and now there is a new font or some more here version.
+
+00:17.560 --> 00:18.080
+All right.
+
+00:18.150 --> 00:19.710
+I'm talking about the icons right now.
+
+00:19.710 --> 00:20.370
+Right.
+
+00:20.430 --> 00:27.010
+So what's happening is that if you go here right to the font awesome website you don't have any more
+
+00:27.120 --> 00:29.200
+the layout that you saw before right.
+
+00:29.220 --> 00:36.980
+You actually have a version 5.0 6 and the old one actually is over here four point zero so right.
+
+00:36.990 --> 00:42.880
+So what's happening is that if you want to fall on the course exactly like the way I was working with
+
+00:42.880 --> 00:49.650
+the font are sometimes what you would need to do all here is once you are in the phone Tarsem go here
+
+00:49.650 --> 00:51.240
+to the old documentation.
+
+00:51.290 --> 00:51.690
+Right.
+
+00:51.900 --> 00:58.690
+And then the set up was exactly the same how I showed in a video right in the set up video.
+
+00:58.710 --> 01:02.870
+However you also have an option of working with a new font.
+
+01:02.870 --> 01:03.930
+Awesome right.
+
+01:04.060 --> 01:10.530
+And now I'm going to show you how to download a new font awesome version 5.0 6 right.
+
+01:10.560 --> 01:13.140
+And what would be the differences.
+
+01:13.290 --> 01:15.060
+So here again we do the same thing.
+
+01:15.090 --> 01:22.050
+We just do the download here and with me right to show you is when we have a getting started.
+
+01:22.050 --> 01:22.560
+Right.
+
+01:22.830 --> 01:26.670
+And the difference is that we are not using anymore a C Ss right.
+
+01:26.880 --> 01:31.160
+And again here again they're offering a phantasm free CDN.
+
+01:31.410 --> 01:38.040
+And as you said we're not using we we're going to be doning And right now and like I said indifferences
+
+01:38.220 --> 01:43.330
+they don't want to use the C Ss actually want you to use or hear the genius right.
+
+01:43.470 --> 01:46.550
+So let's go step by step how we would do this.
+
+01:46.800 --> 01:50.460
+So we're going to go back over here now and my downloads right.
+
+01:50.670 --> 01:51.510
+I have my font.
+
+01:51.510 --> 01:52.180
+Awesome.
+
+01:52.310 --> 01:59.100
+Right so I can just open all the zip code and once it's open all right what I would need to look for
+
+01:59.250 --> 02:07.250
+is a squeegee with us then a folder and not the brand Menges.
+
+02:07.260 --> 02:12.490
+That's not what I want and when I would need is with me because this guy or here now.
+
+02:12.710 --> 02:13.450
+All right.
+
+02:13.740 --> 02:15.470
+What I would need is this font.
+
+02:15.480 --> 02:16.120
+Awesome.
+
+02:16.130 --> 02:17.410
+All Yes.
+
+02:17.430 --> 02:18.480
+So what I'm going to do here.
+
+02:18.510 --> 02:25.500
+You can see that I have my font or some folder so on them and drag this file over here and actually
+
+02:25.500 --> 02:33.430
+place it in the folder if I'm going to be able to do it right over here I can close my downloads and
+
+02:33.480 --> 02:40.410
+or here we have index numbers going to create a simple indexation index page them or here we're going
+
+02:40.410 --> 02:42.550
+to place a skeleton.
+
+02:42.780 --> 02:43.410
+All right.
+
+02:43.440 --> 02:50.640
+A basic skeleton or likeness and because what we would want is just to see how it works.
+
+02:50.690 --> 02:51.130
+Right.
+
+02:51.390 --> 02:57.080
+So now when we have the age old let's check it out how we can actually add this awesome jazz.
+
+02:57.240 --> 03:00.960
+And what I'm getting this phantasm jazz right so you see or hear right.
+
+03:00.960 --> 03:03.240
+Like I was telling you this is what they want right.
+
+03:03.300 --> 03:04.180
+That's the file.
+
+03:04.290 --> 03:05.160
+They don't want any more.
+
+03:05.160 --> 03:08.080
+They found some Mincy SS which was with an older version.
+
+03:08.130 --> 03:08.820
+Right.
+
+03:08.820 --> 03:12.090
+So here you can see that we have GRABBE right.
+
+03:12.090 --> 03:15.690
+We got that then we need to reference it in a head.
+
+03:15.720 --> 03:19.990
+So basically they're saying or here find the fantastic amount yes.
+
+03:19.990 --> 03:21.640
+So what are we going to do here.
+
+03:21.690 --> 03:28.370
+We're going to write a script in the head press tab and for the source we're selling this right for
+
+03:28.520 --> 03:28.910
+us.
+
+03:28.960 --> 03:35.340
+Margie is here and maybe we can do English here right now.
+
+03:35.340 --> 03:38.040
+How do we create a phantasm like ours.
+
+03:38.290 --> 03:45.780
+So let's put them side by side here and let's go here and you see or hear how to use.
+
+03:45.780 --> 03:46.390
+Right.
+
+03:46.830 --> 03:49.640
+And the difference with an old one.
+
+03:49.980 --> 03:53.420
+You can see or hear did they have a little bit of difference in tax right.
+
+03:53.670 --> 03:56.870
+You see the style prefixes instead of f a.
+
+03:56.970 --> 04:06.210
+And all here whatever the font awesome I can write you have f a yes F R F L and F A B.
+
+04:06.290 --> 04:06.730
+Right.
+
+04:06.870 --> 04:13.970
+So again if you want to create more here you are icons exactly like in a project you need to go with
+
+04:13.970 --> 04:17.760
+an old one that you would need to go in and all documentation.
+
+04:17.760 --> 04:20.770
+However the differences are not that big.
+
+04:21.100 --> 04:21.480
+Right.
+
+04:21.600 --> 04:25.440
+So let's say in a project I'm going to be using a font or some like.
+
+04:25.660 --> 04:28.490
+So I'm going to say or here I f a.
+
+04:28.590 --> 04:31.200
+And I would be using F-8 home.
+
+04:31.230 --> 04:33.200
+Now we're here with a new one.
+
+04:33.330 --> 04:37.240
+You can see that syntax is actually going to be f a s.
+
+04:37.260 --> 04:40.750
+So what we're going to do here we're going to add one more class.
+
+04:40.790 --> 04:45.450
+Right so instead of FAA a home right we're going to have F S and FAA.
+
+04:45.450 --> 04:46.250
+All right.
+
+04:46.350 --> 04:48.600
+So that's pretty much going to be the difference.
+
+04:48.600 --> 04:53.030
+Now there's going to be cases we're all going to be using with a new one also.
+
+04:53.050 --> 04:55.000
+And then let's say FHB.
+
+04:55.160 --> 04:55.580
+Right.
+
+04:55.740 --> 04:58.790
+But the point is that the names are going to stay the same.
+
+04:58.920 --> 05:00.970
+So it's really up to you how do you want.
+
+05:00.990 --> 05:01.600
+Right.
+
+05:01.650 --> 05:08.120
+Whether you want to download the new one and just double check the icon name right here because if you
+
+05:08.120 --> 05:14.100
+go to icons write whatever icons are modding you can go ahead or double check them.
+
+05:14.200 --> 05:21.210
+Right now the new syntax will be or you can download the old one right and follow the course.
+
+05:21.240 --> 05:23.310
+Exactly how I'm typing the font.
+
+05:23.310 --> 05:23.850
+Awesome.
+
+05:24.090 --> 05:26.270
+Again this is really not a big deal.
+
+05:26.320 --> 05:31.770
+However it's something that I need to mention to you before you know is that something is not working
+
+05:31.770 --> 05:36.680
+right that you can download the icons that you can use the icons which you need to remember.
+
+05:36.700 --> 05:43.080
+And there's two versions right now of font awesome icons and the recordings were done with an old one
+
+05:43.560 --> 05:49.450
+which again you can find it on here but you can see how easy it is to actually use the new one.

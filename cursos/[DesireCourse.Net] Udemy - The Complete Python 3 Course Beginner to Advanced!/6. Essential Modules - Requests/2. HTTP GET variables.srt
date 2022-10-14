@@ -1,0 +1,198 @@
+1
+
+00:00:00,000  -->  00:00:04,049
+So in the last video we learned how to
+make a request to Google and returning
+
+2
+
+00:00:04,049  -->  00:00:08,490
+the homepage isn't really useful because we don't, I mean it's just a blank page.
+
+3
+
+00:00:08,490  -->  00:00:12,900
+So what we're going to learn about in this
+video is parameters and how to pass get
+
+4
+
+00:00:12,900  -->  00:00:18,720
+variables, which they're known as in PHP,
+into a web page. So if I do a search here,
+
+5
+
+00:00:18,720  -->  00:00:25,680
+let's go to google, the actual google, and
+let's search for "pizza" if I click up in
+
+6
+
+00:00:25,680  -->  00:00:32,579
+here you'll notice that this gets added
+to the are the URL, and if I do that
+
+7
+
+00:00:33,600  -->  00:00:41,160
+it also does. So, what we're going to go
+ahead and do, is this working? There we go.
+
+8
+
+00:00:41,160  -->  00:00:46,649
+What we're going to go ahead and do is copy this, let me just see if I put the
+
+9
+
+00:00:46,649  -->  00:00:48,300
+question mark in before that,
+
+10
+
+00:00:48,300  -->  00:00:51,899
+ok that works too. Alright so we're going
+to go ahead and copy this, this is the
+
+11
+
+00:00:51,899  -->  00:00:54,989
+URL that we want, so what we're going to
+do is we're going to add a parameter
+
+12
+
+00:00:54,989  -->  00:00:59,640
+with the name of that, and it's going to be
+equal to pizza. So, let's go over here, let's
+
+13
+
+00:00:59,640  -->  00:01:12,299
+create a new variable called "params = {"#q":}" this is going to
+
+14
+
+00:01:12,299  -->  00:01:18,689
+be the name of the variable, and then
+actually don't need to add this,
+
+15
+
+00:01:18,689  -->  00:01:27,240
+going to be searching for "pizza" and then
+we're going to put a comma here and
+
+16
+
+00:01:27,240  -->  00:01:31,860
+we're going to type ", params=params" and what this means is this is
+
+17
+
+00:01:31,860  -->  00:01:37,680
+the key word that's going into this method, this is the argument, and this is
+
+18
+
+00:01:37,680  -->  00:01:41,790
+our variable that we just created. So, if
+we go ahead and save this and run it
+
+19
+
+00:01:41,790  -->  00:01:48,630
+again, we should now get a different
+webpage returned to us, and what I'm
+
+20
+
+00:01:48,630  -->  00:01:53,520
+going to do it the page HTML i'm going
+to go ahead and open it in Safari again,
+
+21
+
+00:01:53,520  -->  00:02:00,689
+and that did not work. So let's go ahead
+and troubleshoot this a bit.
+
+22
+
+00:02:01,409  -->  00:02:07,829
+Let's go ahead and print the URL. So, see
+what we're getting as a response here
+
+23
+
+00:02:07,829  -->  00:02:12,030
+from the URL. So it's still adding this.
+
+24
+
+00:02:20,660  -->  00:02:26,570
+Google might be a bad example for that,
+let's go over to Bing. Let's try it with this.
+
+25
+
+00:02:26,570  -->  00:02:34,100
+Let's search for "pizza" on Bing, let's look at the URL how its structured, if I remove
+
+26
+
+00:02:34,100  -->  00:02:40,220
+everything but the pizza keyword it's
+going to return it,
+
+27
+
+00:02:40,220  -->  00:02:45,470
+so that's what we want it to do. So let's go
+ahead and q=pizza so
+
+28
+
+00:02:45,470  -->  00:02:56,750
+bing.com/search is the URL we're going to use, and simply is going to be Q equals
+
+29
+
+00:02:56,750  -->  00:03:05,990
+pizza, so let's go ahead and save, rerun
+this file, and now if I open page.HTML in
+
+30
+
+00:03:05,990  -->  00:03:12,080
+the browser we should see a results page.
+So I guess the way that Google
+
+31
+
+00:03:12,080  -->  00:03:18,590
+uses javascript to generate the results, I guess that was interfering with the actual
+
+32
+
+00:03:18,590  -->  00:03:22,580
+request that we were making to it, it just
+returned blank page instead of the page
+
+33
+
+00:03:22,580  -->  00:03:28,850
+with the content, and we actually can
+account for JavaScript rendered data not
+
+34
+
+00:03:28,850  -->  00:03:32,420
+by using request but using a few other
+libraries that we're going to look at a
+
+35
+
+00:03:32,420  -->  00:03:32,930
+bit later.

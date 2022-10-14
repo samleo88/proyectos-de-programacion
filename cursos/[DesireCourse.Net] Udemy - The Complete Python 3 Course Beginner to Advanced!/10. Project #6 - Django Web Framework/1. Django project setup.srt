@@ -1,0 +1,434 @@
+1
+
+00:00:00,000  -->  00:00:06,690
+Alright guys, welcome back. So we are done with the Webpy subsection of section 5,
+
+2
+
+00:00:06,690  -->  00:00:11,759
+and that was pretty big, was bigger than
+I initially expected. And so with that
+
+3
+
+00:00:11,759  -->  00:00:17,850
+being as big as it was, I think right at
+this point we're at about almost seven hours
+
+4
+
+00:00:17,850  -->  00:00:23,820
+into the course, something like that. So,
+judging by how big that
+
+5
+
+00:00:23,820  -->  00:00:27,420
+module was itself, and I think that was
+about an hour and a half or two hours
+
+6
+
+00:00:27,420  -->  00:00:32,520
+just on webpy, I think the entire course
+is going to be pretty big, so I hope you
+
+7
+
+00:00:32,520  -->  00:00:34,050
+guys are happy with that.
+
+8
+
+00:00:34,050  -->  00:00:41,309
+Also, we are taking suggestions if you
+guys want any other modules, or Python
+
+9
+
+00:00:41,309  -->  00:00:46,320
+packages, or maybe even concepts if I
+don't explain something that you want to
+
+10
+
+00:00:46,320  -->  00:00:47,129
+learn
+
+11
+
+00:00:47,129  -->  00:00:51,899
+let me know and we can see about doing that. I'm completely open to adding as much as you
+
+12
+
+00:00:51,899  -->  00:00:57,059
+guys want into this course. So right now
+we're going to be covering the Django
+
+13
+
+00:00:57,059  -->  00:01:01,199
+module in Python, and what we need to do is actually go ahead and install
+
+14
+
+00:01:01,199  -->  00:01:05,400
+Django. So to do this type "pip3
+
+15
+
+00:01:05,909  -->  00:01:12,330
+install Django" with a capital "D." I've
+already got this installed so you're
+
+16
+
+00:01:12,330  -->  00:01:15,390
+going to see this message here telling
+me that i've already got it installed.
+
+17
+
+00:01:15,390  -->  00:01:19,799
+It should install pretty quickly for you
+guys, just wait until it's done, and
+
+18
+
+00:01:19,799  -->  00:01:23,280
+then what you're going to do is if you
+do have PyCharm installed, and I hope you
+
+19
+
+00:01:23,280  -->  00:01:26,369
+guys do just because it's going to make
+things a lot easier when i'm doing stuff
+
+20
+
+00:01:26,369  -->  00:01:31,140
+that you guys can do exactly what I'm
+doing, going to change into the
+
+21
+
+00:01:31,140  -->  00:01:37,140
+"cd PycharmProjects" directory, and here we are actually going to use Django admin. So,
+
+22
+
+00:01:37,140  -->  00:01:41,430
+you guys should have access to this command now that you've got Django
+
+23
+
+00:01:41,430  -->  00:01:48,270
+installed, so run "django-admin startproject" and then we're going to name the
+
+24
+
+00:01:48,270  -->  00:01:53,250
+project so i'm going to name it "mysite"
+Now if you run the "ls" command you'll see
+
+25
+
+00:01:53,250  -->  00:02:00,030
+that it's created a new directory here
+called mysite, so let's change into my
+
+26
+
+00:02:00,030  -->  00:02:02,670
+site "cd mysite" and let's list.
+
+27
+
+00:02:02,670  -->  00:02:07,439
+I'm going to go ahead and open PyCharm actually, and i'm going to open that directory an
+
+28
+
+00:02:08,129  -->  00:02:11,280
+we're gonna have a look here at what
+we've got.
+
+29
+
+00:02:11,280  -->  00:02:12,819
+So by the default
+
+30
+
+00:02:12,819  -->  00:02:17,620
+Django has created some applications, well some files, for us. We will get into the manage.py
+
+31
+
+00:02:17,620  -->  00:02:21,310
+in a moment, first we're
+going to go over these files here and go
+
+32
+
+00:02:21,310  -->  00:02:22,359
+over what they are.
+
+33
+
+00:02:22,359  -->  00:02:29,590
+This is a blank file. You guys know why
+there's a blank file titled __init__, you
+
+34
+
+00:02:29,590  -->  00:02:33,849
+should if you don't recall basically
+that lets us load any files in this
+
+35
+
+00:02:33,849  -->  00:02:41,169
+directory into other Python packages as
+a package. The settings file is going to
+
+36
+
+00:02:41,169  -->  00:02:47,500
+contain specific configurations for the
+Django project. It includes installed apps
+
+37
+
+00:02:47,500  -->  00:02:52,209
+and what and app is, the difference between a project and app in Django, is let's say we're
+
+38
+
+00:02:52,209  -->  00:02:56,859
+about to build Facebook. The project
+would be Facebook, but then there would be
+
+39
+
+00:02:56,859  -->  00:03:01,480
+multiple apps existing inside the
+project as well. So an app might be the
+
+40
+
+00:03:01,480  -->  00:03:08,409
+messages, or you know status updates,
+comments, maybe groups, etc., so each
+
+41
+
+00:03:08,409  -->  00:03:13,090
+kind of component is its own app and it
+keeps it separate, keeps it clean, so
+
+42
+
+00:03:13,090  -->  00:03:21,790
+that's why we do that. The urls is regex
+based so if you guys don't feel you're
+
+43
+
+00:03:21,790  -->  00:03:26,079
+that strong regex, and I know i'm not,
+i'm doing my best to get better at it
+
+44
+
+00:03:26,079  -->  00:03:33,489
+but it just, I mean it's simple, I
+just never use it. So, yeah, I
+
+45
+
+00:03:33,489  -->  00:03:41,259
+don't generally create web applications
+with Python, so that's why you know in
+
+46
+
+00:03:41,259  -->  00:03:45,250
+Python regex is really useful for
+that kind of stuff and I've used it a
+
+47
+
+00:03:45,250  -->  00:03:46,599
+little bit before in
+
+48
+
+00:03:46,599  -->  00:03:51,220
+javascript when I need it, but the use
+doesn't really come up that often with a
+
+49
+
+00:03:51,220  -->  00:03:58,930
+need for it. So, and the wsgi file its
+going to allow you to run let's say
+
+50
+
+00:03:58,930  -->  00:04:04,299
+Apache, the Apache server, and then run
+this application or this project on that
+
+51
+
+00:04:04,299  -->  00:04:10,150
+server, so that's what those files are for.
+Now the manage.py file, let's open this, you
+
+52
+
+00:04:10,150  -->  00:04:14,500
+guys don't need to do anything in here,
+we're actually going to leave this
+
+53
+
+00:04:14,500  -->  00:04:19,810
+entirely alone, but this is what it looks
+like. This lets us run specific commands
+
+54
+
+00:04:19,810  -->  00:04:22,810
+to manage your project as you can guess
+it's called manage.
+
+55
+
+00:04:24,290  -->  00:04:31,100
+So what we're gonna do I'm gonna go
+ahead open terminal here, and what we're
+
+56
+
+00:04:31,100  -->  00:04:38,030
+going to do, I am in this directory, so
+run "python3 ./manage.py" and then it's
+
+57
+
+00:04:38,030  -->  00:04:41,930
+going to take an argument and the
+argument is going to define what we're
+
+58
+
+00:04:41,930  -->  00:04:45,860
+going to do. So, for instance, you can sync up the database again, you can create the
+
+59
+
+00:04:45,860  -->  00:04:50,120
+database, and what we're going to do
+right now is just type "runserver" and
+
+60
+
+00:04:50,120  -->  00:04:54,830
+that's all one word, and this is going to
+run the web server. You'll see this
+
+61
+
+00:04:54,830  -->  00:04:57,950
+message, we're not going to worry about
+that right now, we're just going to copy
+
+62
+
+00:04:57,950  -->  00:05:05,450
+this right here, we're going to go into
+our browser and paste that in, and you
+
+63
+
+00:05:05,450  -->  00:05:13,250
+should see this page. We haven't done
+anything yet and so you see this message
+
+64
+
+00:05:13,250  -->  00:05:20,060
+and in the next video we're going to
+start doing stuff with Django.
+
+65
+
+00:05:20,060  -->  00:05:25,340
+If you already have something running on
+port 8000, thats cool, because what we
+
+66
+
+00:05:25,340  -->  00:05:32,180
+can do, cancel that, when you run the
+server you can specify the IP address
+
+67
+
+00:05:32,180  -->  00:05:34,160
+and port that you want to run on.
+
+68
+
+00:05:34,160  -->  00:05:43,160
+So for instance i'm going to run "python3 ./manage.py runserver 4500" Now if
+
+69
+
+00:05:43,160  -->  00:05:49,490
+I wanted to run it on port 4500 I would
+do that, and as you can see it's running
+
+70
+
+00:05:49,490  -->  00:05:56,870
+on port 4500 and I would access it on that port in my browser. So, thank you guys for
+
+71
+
+00:05:56,870  -->  00:06:01,520
+watching this video. You should be set up
+with Django and we should be able to
+
+72
+
+00:06:01,520  -->  00:06:07,370
+move on and actually do stuff in Django,
+and remember this is based on top of the
+
+73
+
+00:06:07,370  -->  00:06:11,780
+Python language, it's built on Python,
+however a lot of the stuff here is not
+
+74
+
+00:06:11,780  -->  00:06:16,250
+just standard you know custom a Python
+that you're going to be writing. It's
+
+75
+
+00:06:16,250  -->  00:06:21,530
+going to be Django specific code and so
+that's why we need to do this, so let's
+
+76
+
+00:06:21,530  -->  00:06:22,030
+get started.

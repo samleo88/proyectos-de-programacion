@@ -1,0 +1,172 @@
+WEBVTT
+
+00:00.420 --> 00:07.710
+Last but not least we have position fixed which in a lot of cases we use for navigation buttons or maybe
+
+00:07.710 --> 00:08.850
+for navigation.
+
+00:08.880 --> 00:12.480
+Again it's not exclusive but that's probably where we're going to see the most.
+
+00:12.960 --> 00:18.420
+And for us we're gonna head over back to indexation email then I'm going to add I don't know some more
+
+00:18.420 --> 00:22.320
+paragraph with massive amount of text just because we would need to scroll.
+
+00:22.740 --> 00:29.070
+So let's say paragraph and I don't know 500 words is gonna be here massive paragraph and then at the
+
+00:29.070 --> 00:34.050
+very bottom just to show you that this is actually working we're gonna create a button now the button
+
+00:34.050 --> 00:40.180
+is gonna be very simple again whatever button type is gonna be button or the type.
+
+00:40.230 --> 00:45.930
+And here we can just say Now button again this is not gonna be really nav button but it's just gonna
+
+00:45.930 --> 00:47.830
+do the job and want to save it.
+
+00:47.830 --> 00:50.370
+There's going to be my nav button and this is you know what.
+
+00:50.370 --> 00:52.170
+This is not actually big enough.
+
+00:52.370 --> 00:54.920
+There's I'm not I cannot do any kind of scrolling here.
+
+00:55.050 --> 00:59.830
+So let's do one more thing let's write another paragraph in this case.
+
+00:59.850 --> 01:05.980
+Let's try and maybe for 5000 words long low RAM and for some reason I cannot write.
+
+01:06.270 --> 01:12.200
+So we're going to test it for five thousand words I'm going to save it now what happens.
+
+01:12.200 --> 01:13.690
+Well nothing happens really.
+
+01:13.940 --> 01:15.370
+Because again let on.
+
+01:15.380 --> 01:17.160
+So now I refreshed and now it's working.
+
+01:17.450 --> 01:19.580
+So I have long long long text here.
+
+01:19.760 --> 01:24.500
+Hopefully you can see that I'm doing a lot of scrolling and all the way in the bottom.
+
+01:24.500 --> 01:28.440
+I have this for now button all the way in the bottom.
+
+01:28.930 --> 01:29.460
+OK.
+
+01:29.600 --> 01:33.640
+Now what I would like to is to show you how the position fixed is going to work.
+
+01:33.830 --> 01:38.760
+So I'm going to head over again and I don't really need this text meaning I can head over back to styles
+
+01:38.780 --> 01:45.980
+and only to screw up in the email and I would like to first or change the comment this is gonna be position
+
+01:45.980 --> 01:48.470
+fixed and now let's work with our button.
+
+01:48.470 --> 01:56.120
+So here let's say all the way on top we're gonna have a button and one do we can we'll have background.
+
+01:56.120 --> 01:57.660
+I don't know it's gonna be red.
+
+01:57.710 --> 02:02.760
+So sure enough can we read the font is gonna be bigger just so we can see what's happening.
+
+02:02.900 --> 02:10.810
+So 40 pixels and maybe let's add the colouring of white not counter reset.
+
+02:10.830 --> 02:13.410
+I don't want that color.
+
+02:13.430 --> 02:15.430
+Why people.
+
+02:15.440 --> 02:16.250
+This is what we want.
+
+02:16.270 --> 02:17.290
+So this is what we are now.
+
+02:17.300 --> 02:21.860
+But now we can click this obviously all the long and the thing is gonna happen because we haven't hooked
+
+02:21.860 --> 02:28.790
+up the javascript but for this we just need position fix and what I would like to do is set it up here
+
+02:29.240 --> 02:30.370
+all the way and on top.
+
+02:30.560 --> 02:32.540
+And as I'm scrolling it should be saying.
+
+02:32.930 --> 02:39.080
+And for this we have position and we have position fixed now the way that position fixed is gonna work
+
+02:39.440 --> 02:46.790
+is this is gonna be set relative but in this case this would be set relative to the actual document.
+
+02:46.820 --> 02:49.070
+So in the beginning notice it totally disappeared.
+
+02:49.070 --> 02:52.430
+So we have position fixed but we cannot find our button.
+
+02:52.430 --> 02:56.450
+And as you scrolling down it's not there as you scrolling up.
+
+02:56.510 --> 03:00.080
+It's also not there and nor again to see it.
+
+03:00.080 --> 03:01.910
+We would need to set it relative.
+
+03:02.090 --> 03:07.820
+Now in this case we're saying relative this document and as we're going to be scrolling it's gonna be
+
+03:07.820 --> 03:08.900
+sitting here fixed.
+
+03:09.170 --> 03:11.740
+That's the reason why it has name position in fact.
+
+03:12.100 --> 03:16.970
+So let's say here 0 0 first let's say right.
+
+03:16.970 --> 03:18.100
+Is it also gonna be 0.
+
+03:18.140 --> 03:24.130
+And what we have now I have my nav button so as I'm scrolling up and down then this is going to be sitting.
+
+03:24.170 --> 03:26.330
+And again we can see the map.
+
+03:26.420 --> 03:31.900
+Now I'm not going to show you the other properties with values that we had top right left bottom.
+
+03:31.910 --> 03:37.780
+I mean you can Explorer on your own but in general terms this is how they position fixed work where
+
+03:37.790 --> 03:43.430
+if you set something with position fixed it's going to be relative right now to the document.
+
+03:43.430 --> 03:48.560
+So all the document and we're working on but as you're scrolling it's gonna stay in that position.

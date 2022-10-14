@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.270 --> 00:05.370
+Well since it is hard to dismiss the background the image repeated.
+
+00:05.370 --> 00:10.250
+We might as well start with that property and cover the options we have for the values.
+
+00:10.260 --> 00:16.980
+But in the process we're also going to touch on something in CSX that is very similar to the last school.
+
+00:17.020 --> 00:19.630
+Now remember the last rule would be something like this.
+
+00:19.680 --> 00:24.150
+So if I'm going to copy and paste it and if I'm going to say with a div and the height I'm going to
+
+00:24.150 --> 00:28.530
+set it to the 200 and let's say color isn't gonna be blue.
+
+00:28.620 --> 00:30.570
+What do you think is gonna be displayed.
+
+00:30.570 --> 00:34.100
+Do you think the first one or the second one was going to be the second one.
+
+00:34.110 --> 00:35.560
+Because this is the last rule.
+
+00:36.090 --> 00:40.720
+Well the same works with an order and you'll see what happens here with the property back.
+
+00:40.730 --> 00:41.610
+No repeat.
+
+00:41.610 --> 00:43.730
+And this is not specific to this property.
+
+00:43.740 --> 00:45.670
+This is gonna be happening with all of them.
+
+00:45.760 --> 00:46.260
+And you know what.
+
+00:46.260 --> 00:48.120
+I might as well show you right now.
+
+00:48.120 --> 00:53.670
+So the order is going to work like this that even though let's say I have the height here first or 400
+
+00:54.120 --> 00:57.620
+even within the same rule I'm going right here.
+
+00:57.630 --> 00:59.490
+Height and two hundred.
+
+00:59.490 --> 01:01.250
+What do you think is gonna be displayed.
+
+01:01.320 --> 01:05.520
+I think at this moment you already know that this is gonna be two hundred because again the same how
+
+01:05.520 --> 01:07.020
+we work with the last rule.
+
+01:07.110 --> 01:08.780
+The order also matters.
+
+01:08.780 --> 01:10.800
+So if you wrote this first.
+
+01:10.830 --> 01:16.350
+This is gonna be displayed but the moment you are going to add the same property with a different value
+
+01:16.770 --> 01:20.600
+then obviously this is gonna change because this is gonna be the last in the order.
+
+01:20.700 --> 01:25.710
+Again I digress a little bit but I'm gonna be using this as an example so you might as well get used
+
+01:25.710 --> 01:26.460
+to it right away.
+
+01:27.130 --> 01:28.110
+Okay.
+
+01:28.110 --> 01:31.470
+We have a background repeat now what we read the property.
+
+01:31.500 --> 01:36.830
+Well surprise surprise this is pretty obvious it will gonna be background repeat.
+
+01:37.000 --> 01:41.990
+And that's gonna be the property that will gonna control the repetition of the image.
+
+01:42.000 --> 01:47.160
+Now again remember that there's gonna be some things by default.
+
+01:47.160 --> 01:50.590
+So if I'm going to write here repeat and then I'm looking for the values.
+
+01:50.650 --> 01:55.490
+Notice you're gonna have no repeat repeat repeat x around in space.
+
+01:55.560 --> 01:57.320
+So I'm gonna check some of them.
+
+01:57.390 --> 02:01.550
+I don't see the point of checking actually all of them but we're gonna start with a very simple one
+
+02:01.570 --> 02:02.700
+to repeat.
+
+02:02.700 --> 02:09.030
+Now what happens with a repeat on nothing happens when the repeat because it is said by default anyway.
+
+02:09.150 --> 02:12.660
+So again something to keep an eye on then the next value.
+
+02:12.690 --> 02:18.000
+And this is where the order starts working where I'm not gonna be coming thinking about because I might
+
+02:18.000 --> 02:21.910
+as well right the next one because the next one is gonna be affected.
+
+02:21.920 --> 02:26.280
+Now in my case I'm going to write not repeat I'm going to use nor repeat.
+
+02:26.310 --> 02:27.210
+Check this out.
+
+02:27.210 --> 02:31.130
+So what happens now only this image is displayed once.
+
+02:31.170 --> 02:33.060
+So if this is hundred by hundred.
+
+02:33.060 --> 02:36.690
+Well sorry dude but this is as much as it's going to cover.
+
+02:36.750 --> 02:44.140
+Now we can also maybe add some water just to first of all refresh what we already learned so two pixels
+
+02:44.250 --> 02:45.680
+solid red.
+
+02:45.720 --> 02:50.260
+And the second one just to show you that this is all the space that Dave would have.
+
+02:50.430 --> 02:54.610
+But this is how much the background is actually image using.
+
+02:54.650 --> 02:56.120
+Okay what do we have next.
+
+02:56.130 --> 02:57.510
+We have repeat x.
+
+02:57.520 --> 03:01.210
+Now repeat x is just gonna be repeating the image this direction.
+
+03:01.380 --> 03:07.620
+And again I know that is kind of hard to see but I will gonna make this bigger the browser window just
+
+03:07.620 --> 03:14.280
+to show you that even with the bigger images if the dave is gonna get bigger right now in the x direction
+
+03:14.850 --> 03:19.990
+the CSX is gonna repeat the image because as you see there's one image and there's the second one.
+
+03:20.070 --> 03:25.200
+Now it was easier to see when the smaller ones because there was 10000 of them but it also is happening
+
+03:25.230 --> 03:26.660
+within big images.
+
+03:26.790 --> 03:30.810
+So don't think that it's only happening when the small image is by default.
+
+03:30.810 --> 03:36.630
+All of them are going to be right away the background repeat and set with the value of repeat what else
+
+03:36.660 --> 03:37.200
+we have.
+
+03:37.290 --> 03:39.300
+I digress already.
+
+03:39.390 --> 03:39.820
+You know what.
+
+03:39.870 --> 03:43.630
+I'm just gonna do it simple way to say it then I'm going to repeat this line.
+
+03:43.680 --> 03:51.560
+My meaning copy this line and then we're going to repeat x again ten thousand dollars to whoever guesses
+
+03:51.570 --> 03:55.200
+this and yes this is gonna be x direction.
+
+03:55.260 --> 03:57.600
+So good job whoever you are.
+
+03:57.840 --> 04:01.070
+And then we're gonna say y direction again.
+
+04:01.350 --> 04:03.470
+Kind of obvious what's gonna be happening.
+
+04:03.540 --> 04:08.170
+It's gonna be repeated in the y direction and then we also have the space and round.
+
+04:08.260 --> 04:10.240
+So let me copy and paste this.
+
+04:10.270 --> 04:13.460
+Let's write space and for the space.
+
+04:13.460 --> 04:18.540
+What's gonna happen is that there is gonna be space in between these images can kind of obvious you
+
+04:18.540 --> 04:23.710
+can see that there's gonna be space in between whatever images are being repeated.
+
+04:23.880 --> 04:32.070
+And the last one is gonna be the round now round is gonna make sure that only round images get in there.
+
+04:32.070 --> 04:33.150
+What do I mean by that.
+
+04:33.150 --> 04:39.600
+Well if you notice that if you have the repetition if it's not going to be able to fit an image is basically
+
+04:39.600 --> 04:41.310
+gonna fit like half an image.
+
+04:41.310 --> 04:45.920
+Now in order to show you that let's go to the big one because check this out.
+
+04:45.990 --> 04:52.050
+So we have big image but then notice how this is basically like half because not as the basketball post
+
+04:52.410 --> 04:56.360
+is going to be right here and then it doesn't cover it completely.
+
+04:56.400 --> 04:58.820
+So the hoop doesn't fit in.
+
+04:58.820 --> 05:00.270
+Now what do we do here.
+
+05:00.270 --> 05:06.060
+Well we're gonna say that we would want to use the same thing that ground.
+
+05:06.090 --> 05:08.910
+I okay.
+
+05:09.040 --> 05:10.620
+I forgot already.
+
+05:10.680 --> 05:14.810
+Background and why I'm typing is background not repeat.
+
+05:14.830 --> 05:17.610
+You're looking yeah we are looking for repeat.
+
+05:17.900 --> 05:19.300
+What was the value around.
+
+05:19.900 --> 05:24.470
+Okay let's start out how this is gonna happen now in this case.
+
+05:24.470 --> 05:25.870
+I apologize.
+
+05:25.940 --> 05:30.110
+This is gonna fit only one because what happens or I'm sorry too.
+
+05:30.140 --> 05:34.850
+So basically by the time it is gonna get bigger if it's gonna be able to fit two then it is gonna fit
+
+05:34.880 --> 05:37.400
+nicely to if it's gonna get smaller.
+
+05:37.460 --> 05:39.280
+Notice now it's gonna fit only one.
+
+05:39.290 --> 05:44.000
+So if I'm gonna get a really big then if there is gonna be space it's gonna fit in.
+
+05:44.000 --> 05:44.350
+I don't know.
+
+05:44.360 --> 05:45.020
+Let's say three.
+
+05:45.080 --> 05:49.250
+But obviously in my case I'm not getting it to three but in the bottom here.
+
+05:49.250 --> 05:50.270
+Check this out.
+
+05:50.270 --> 05:55.100
+So we have the second image but it is not using the whole thing.
+
+05:55.170 --> 05:57.490
+It took an image basically is cut off.
+
+05:57.540 --> 06:02.990
+So that's what's happening with the last one which is gonna be again background repeat round.
+
+06:03.050 --> 06:08.630
+Now I'm kind of skipping over these ones because in most cases I think you're gonna be using the no
+
+06:08.630 --> 06:10.000
+repeat again.
+
+06:10.130 --> 06:15.260
+It really matters what you're doing of course again and everything but I think especially in the beginning
+
+06:15.590 --> 06:19.870
+you're mostly gonna be focusing on this back on repeat and setting this to no repeat.
+
+06:20.150 --> 06:22.410
+I might be wrong but that's just my opinion.

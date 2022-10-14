@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.290 --> 00:00.870
+All right.
+
+00:00.870 --> 00:06.390
+We know the basics about the linear grains How about we check it out some external resources that are
+
+00:06.390 --> 00:09.810
+gonna help us tremendously as we're working with linear ingredients.
+
+00:10.230 --> 00:15.420
+So we're gonna head over to our good goals for Google and then I'm gonna write not learn I'm going to
+
+00:15.430 --> 00:19.630
+say CSX he near a gradient generator.
+
+00:19.650 --> 00:21.100
+So that's gonna be my text.
+
+00:21.240 --> 00:26.040
+Now the moment we take that surprise surprise this is what we're gonna be getting in our search and
+
+00:26.040 --> 00:30.360
+we're gonna be looking for is yes as gradient generator from the colors.
+
+00:30.420 --> 00:35.490
+Now what's really cool about this is that we can come up with whatever colors we would like and we can
+
+00:35.490 --> 00:40.710
+really set up our gradient and they all gonna spit out that the code and we just need to copy and paste
+
+00:40.710 --> 00:42.310
+it into our browser.
+
+00:42.420 --> 00:46.480
+Meaning I'm sorry into to our tech center now you'll see a lot of mumbo jumbo here.
+
+00:46.800 --> 00:52.140
+And the reason for that is we're not gonna cover this right now but there is something called browser
+
+00:52.140 --> 00:53.280
+prefixes.
+
+00:53.280 --> 00:58.500
+And don't worry about them right now again only thing you need to do is just grab just code and copy
+
+00:58.500 --> 01:04.140
+and paste it and everything is gonna be working fine in your project later on towards the end of the
+
+01:04.200 --> 01:06.800
+CSO senatorial before we start working on the project.
+
+01:06.960 --> 01:11.850
+We're just gonna take a look at what are the browser prefixes and why would want to use them.
+
+01:12.000 --> 01:15.320
+But for now probably don't pay too much of attention over here.
+
+01:15.570 --> 01:20.170
+And I know there's a lot of code in here but just keep in mind that you only need to copy and paste
+
+01:20.170 --> 01:21.640
+it and you're good to go.
+
+01:21.660 --> 01:27.990
+Now first let's say we can choose whatever directions there's gonna be or orientation horizontal vertical
+
+01:27.990 --> 01:34.760
+diagonal radial doesn't really matter let's go with a horizontal then also we can choose the color format.
+
+01:34.780 --> 01:37.550
+Now we can go hex or we can go with our GBM.
+
+01:37.560 --> 01:40.740
+Now I can tell you right away even though you're going to choose the hex color.
+
+01:40.740 --> 01:45.660
+However if you're not start changing the opacity what's gonna happen is we all going to automatically
+
+01:45.660 --> 01:47.070
+switch to our GPA.
+
+01:47.220 --> 01:53.280
+So just because you picked text if you're going to let's say change the opacity or transparency then
+
+01:53.280 --> 01:56.300
+the format is automatically going to be our GPA.
+
+01:56.310 --> 01:59.370
+Now let's say this would be the hex color so what kind of color you would like.
+
+01:59.370 --> 02:02.220
+Again we click on this box here we just click here.
+
+02:02.220 --> 02:06.060
+Let's say we want to go with the red one you want to change the opacity.
+
+02:06.080 --> 02:06.530
+Here we go.
+
+02:06.530 --> 02:08.070
+We can change the opacity.
+
+02:08.130 --> 02:11.150
+We can say that I don't know what the pastor is going to be something like this.
+
+02:11.160 --> 02:12.740
+And again we can clip it here.
+
+02:12.930 --> 02:15.990
+So then we'll do the same thing where I'm changing the opacity.
+
+02:15.990 --> 02:20.770
+So now this is gonna be a little bit more transparent than the same thing I can do over here.
+
+02:20.880 --> 02:23.380
+Let's go here maybe with the green one.
+
+02:23.430 --> 02:25.020
+This is not what I want.
+
+02:25.210 --> 02:29.300
+I would want to click Oh here and then I'm gonna say I don't know.
+
+02:29.670 --> 02:31.200
+Are we picking something like this.
+
+02:31.240 --> 02:35.600
+So that's pretty much going to be my transparency right here.
+
+02:35.700 --> 02:41.010
+And then also if you want to change something here let's say color you want to remove this color just
+
+02:41.010 --> 02:42.050
+delete it.
+
+02:42.060 --> 02:45.550
+So I would just say here that there's that just delete it.
+
+02:45.540 --> 02:47.070
+So we get this color.
+
+02:47.160 --> 02:49.530
+You want to delete this color or we can delete this color.
+
+02:49.860 --> 02:51.710
+So now we're getting this hard.
+
+02:51.720 --> 02:53.090
+You want to add one more color.
+
+02:53.100 --> 02:56.000
+Let's say you change your mind as you're hovering Norris.
+
+02:56.010 --> 02:57.000
+We can just click it here.
+
+02:57.000 --> 03:01.020
+This is going to on the plus side and let's say that this is gonna be my color.
+
+03:01.050 --> 03:06.990
+Now I'm not going to show you each and every possible option or understand that this gives you a lot
+
+03:06.990 --> 03:08.140
+of flexibility.
+
+03:08.160 --> 03:12.420
+So like I said what we would need to do is just grab this code that we have.
+
+03:12.540 --> 03:13.300
+Again we can.
+
+03:13.410 --> 03:19.550
+There's many ways we can copy this but I mean I'm just gonna select this all we can copy and I'm gonna
+
+03:19.560 --> 03:21.650
+head over back to the next e-mail.
+
+03:21.810 --> 03:25.310
+I'm gonna call this Dave I don't know what color zilla.
+
+03:25.470 --> 03:28.480
+Just so we can see that color zilla.
+
+03:28.540 --> 03:31.850
+This is how they were spelling ultimate colors zilla.
+
+03:31.860 --> 03:33.300
+Yeah I think that's gonna be fine.
+
+03:33.780 --> 03:41.180
+And then we'll save the stars assess as well as well just gonna have the colors Zilla and you know what
+
+03:41.190 --> 03:42.090
+let's do it like this.
+
+03:42.120 --> 03:45.570
+Let's just copy and paste it and see how this is gonna work.
+
+03:45.910 --> 03:47.220
+So if I'm gonna save it.
+
+03:47.220 --> 03:53.740
+Sure enough this is gonna be my Dave and I have everything working with my gradients.
+
+03:53.760 --> 03:55.990
+So we have successfully copy and paste it.
+
+03:56.110 --> 04:01.310
+Now if you want to change the direction you can always change direction and so on and so forth.
+
+04:01.350 --> 04:07.700
+So if you don't want to let change just settle for the basic colors that we're picking only two colors.
+
+04:07.800 --> 04:12.060
+You can always head over to color though and pick whatever gradient you would like.

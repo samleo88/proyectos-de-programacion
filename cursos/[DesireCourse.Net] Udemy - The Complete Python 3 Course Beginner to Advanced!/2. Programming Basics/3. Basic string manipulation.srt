@@ -1,0 +1,605 @@
+1
+
+00:00:00,000  -->  00:00:03,990
+Alright, so what are some of the fun
+things and useful things that we can do
+
+2
+
+00:00:03,990  -->  00:00:08,370
+with strings in Python? Well there's a
+few concepts that I want to talk about
+
+3
+
+00:00:08,370  -->  00:00:09,150
+here,
+
+4
+
+00:00:09,150  -->  00:00:13,110
+so what we're going to do is go ahead
+and open up a Python interpreter, you can
+
+5
+
+00:00:13,110  -->  00:00:18,810
+do this in pycharm by going to view tool
+windows, and then selecting python
+
+6
+
+00:00:18,810  -->  00:00:23,850
+console, or you can open up terminal and
+type Python3 and hit enter.
+
+7
+
+00:00:23,850  -->  00:00:26,850
+However you enter this if you want to
+follow along
+
+8
+
+00:00:27,390  -->  00:00:31,890
+that's probably helpful because I find
+if you're told how to do something you
+
+9
+
+00:00:31,890  -->  00:00:35,040
+know you kind of know how to do it, but
+if you actually do it yourself you have
+
+10
+
+00:00:35,040  -->  00:00:40,110
+a better handle on what happens, and
+you're more likely to remember how it
+
+11
+
+00:00:40,110  -->  00:00:42,989
+works. So from here on out
+
+12
+
+00:00:42,989  -->  00:00:50,039
+basically what I want you guys to do is
+to follow along with your code and do
+
+13
+
+00:00:50,039  -->  00:00:56,789
+everything that I do. So, with that being
+said one of the first things that we're
+
+14
+
+00:00:56,789  -->  00:01:02,160
+going to do is in a previous video when
+we were talking about numbers I showed
+
+15
+
+00:01:02,160  -->  00:01:07,229
+you how to convert strings into numbers
+if the only thing in that string were
+
+16
+
+00:01:07,229  -->  00:01:12,180
+numbers. So, this is going to be kind of
+the opposite. Let's say you have a few
+
+17
+
+00:01:12,180  -->  00:01:15,210
+values,
+
+18
+
+00:01:15,210  -->  00:01:21,420
+let's say you have the number 6, right,
+and you want to print out this costs six
+
+19
+
+00:01:21,420  -->  00:01:25,680
+dollars. You can't, just well actually
+first we're going to talk about
+
+20
+
+00:01:25,680  -->  00:01:29,640
+concatenating, because you can't do that
+in Python. I'm going to show you how,
+
+21
+
+00:01:29,640  -->  00:01:34,320
+but first let's learn how to concatenate
+a string which means had a glue multiple
+
+22
+
+00:01:34,320  -->  00:01:38,460
+strings together. So we saw this actually
+in the numbers video as well when we
+
+23
+
+00:01:38,460  -->  00:01:44,610
+tried to add numbers that had been
+identified as the string or yeah the
+
+24
+
+00:01:44,610  -->  00:01:48,420
+string type and what it did was
+concatenate the numbers and made 5
+
+25
+
+00:01:48,420  -->  00:01:55,229
+and 6, when you add them together, it
+made it equal 56, and so your
+
+26
+
+00:01:55,229  -->  00:02:02,159
+gluing strings together. So I want to say
+"Hello, " then pop out of that string put a
+
+27
+
+00:02:02,159  -->  00:02:07,560
+"+" and then in this string i'm
+going to type "Nick" Now what's going to
+
+28
+
+00:02:07,560  -->  00:02:11,910
+happen is it's going to print out "Hello
+Nick" because i'm concatenating these two
+
+29
+
+00:02:11,910  -->  00:02:13,690
+strings. You can also do this
+
+30
+
+00:02:13,690  -->  00:02:22,420
+with however many instances of strings
+you want, so if I really wanted to get a
+
+31
+
+00:02:22,420  -->  00:02:35,350
+little bit convoluted I could do this
+and this would print out hello using
+
+32
+
+00:02:35,350  -->  00:02:42,160
+five strings all concatenated together.
+Now what happens if I want to say this
+
+33
+
+00:02:42,160  -->  00:02:49,960
+costs six bucks? "This costs" + 6 + "bucks"
+
+34
+
+00:02:50,740  -->  00:02:59,650
+Well, because part of this line is an
+integer it's going to try and use those
+
+35
+
+00:02:59,650  -->  00:03:06,730
+plus symbols to perform a mathematical
+operation rather than printing out a
+
+36
+
+00:03:06,730  -->  00:03:11,950
+string, actually it's the opposite it can't
+convert the integer to a string so it
+
+37
+
+00:03:11,950  -->  00:03:16,660
+knows that we want to concatenate some
+strings together but it's like well hey
+
+38
+
+00:03:16,660  -->  00:03:19,660
+hold up this is not a string I don't
+know what to do with this.
+
+39
+
+00:03:19,660  -->  00:03:25,480
+So what we have to do is use the string
+function which is similar to the int
+
+40
+
+00:03:25,480  -->  00:03:41,110
+function. So how we do that is "this costs + str(6) + "dollars" and what this is gonna do is
+
+41
+
+00:03:41,110  -->  00:03:46,180
+it's going to convert the number 6 to a
+string so it can be used. Now you can
+
+42
+
+00:03:46,180  -->  00:03:50,890
+also perform mathematical operations
+within the string parameter, I believe so.
+
+43
+
+00:03:50,890  -->  00:03:53,890
+Let's test this out. "This costs" +
+
+44
+
+00:03:55,150  -->  00:04:07,600
+let's go str(6 + 5) + "dollars" and hit
+enter. Yeah, so it can perform
+
+45
+
+00:04:07,600  -->  00:04:13,390
+mathematical operations within that
+parameter. It's going to convert the sum
+
+46
+
+00:04:13,390  -->  00:04:17,950
+or the result of whatever mathematical
+operation you are performing on it, it's
+
+47
+
+00:04:17,950  -->  00:04:21,280
+going to convert that to a string and
+then use that string to be concatenated
+
+48
+
+00:04:21,280  -->  00:04:25,090
+with the the other strings that you're
+working with.
+
+49
+
+00:04:26,290  -->  00:04:30,640
+So that's how to use the string function
+and maybe this doesn't seem like it's
+
+50
+
+00:04:30,640  -->  00:04:33,820
+going to be important, or maybe it does
+but you're like well how often do you
+
+51
+
+00:04:33,820  -->  00:04:39,280
+use this, you know. We're going to see
+because when we get into defining some
+
+52
+
+00:04:39,280  -->  00:04:40,720
+functions
+
+53
+
+00:04:40,720  -->  00:04:44,920
+we're going to be using both strings and
+integers to return certain information
+
+54
+
+00:04:44,920  -->  00:04:50,650
+and so this is going to be important at
+that point. So, that's how to convert
+
+55
+
+00:04:50,650  -->  00:04:52,450
+integers to strings,
+
+56
+
+00:04:52,450  -->  00:04:57,610
+it will also work for any other type. So
+if you have true,
+
+57
+
+00:04:58,840  -->  00:05:00,970
+we're going to get into that after
+actually, but we're going to be using
+
+58
+
+00:05:00,970  -->  00:05:06,490
+this string function again at a later
+point. Now what happens when you want to
+
+59
+
+00:05:06,490  -->  00:05:13,180
+do the opposite of concatenating strings?
+So, think of concatenation, i'm not sure
+
+60
+
+00:05:13,180  -->  00:05:18,790
+if that's the appropriate term, think
+about contaminating two strings as
+
+61
+
+00:05:18,790  -->  00:05:21,790
+actually let's look that up.
+
+62
+
+00:05:30,480  -->  00:05:37,920
+Now it's gonna open up xcode just go in
+to google here, because if I'm saying that
+
+63
+
+00:05:37,920  -->  00:05:41,310
+wrong I want to know.
+
+64
+
+00:05:47,700  -->  00:05:54,540
+Yeah, okay, concatenate, good stuff. Not
+sure if you guys heard that but i'm
+
+65
+
+00:05:54,540  -->  00:05:56,970
+using that word correctly, good stuff.
+
+66
+
+00:05:56,970  -->  00:06:01,860
+Alright, so anyway back to the code
+that's how you concatenate two strings
+
+67
+
+00:06:01,860  -->  00:06:05,460
+together. What happens when you want to
+do the opposite, you want to split
+
+68
+
+00:06:05,460  -->  00:06:20,670
+strings apart? So, let's say we have this
+string like this so we're going to say
+
+69
+
+00:06:20,670  -->  00:06:21,420
+"Hello:Nick"
+
+70
+
+00:06:21,420  -->  00:06:26,340
+we're going to separate that word from
+the other word with a colon so that we
+
+71
+
+00:06:26,340  -->  00:06:30,300
+actually have a character that we can
+use to split. So what we're going to do
+
+72
+
+00:06:30,300  -->  00:06:37,110
+is after the string we're going to put a
+".split(":")" going to call a function split on it,
+
+73
+
+00:06:37,110  -->  00:06:46,500
+and the split function or method takes
+one parameter, well for the sake of this
+
+74
+
+00:06:46,500  -->  00:06:52,590
+video takes one parameter, and that's
+where you want the string to be split. So
+
+75
+
+00:06:52,590  -->  00:06:55,530
+we're going to split it at the colon there and hit enter. What it's going to do is it's going
+
+76
+
+00:06:55,530  -->  00:07:04,500
+to create an array with all elements
+that had been split from that point, so
+
+77
+
+00:07:04,500  -->  00:07:11,790
+for instance it split it into two items
+in the array but let's say I did this
+
+78
+
+00:07:12,570  -->  00:07:16,710
+it's going to have an array with three
+values in it, and then we can reference
+
+79
+
+00:07:16,710  -->  00:07:22,770
+those values by its index number, so this
+is going to be a bit more complicated.
+
+80
+
+00:07:22,770  -->  00:07:30,750
+Let's say we're splitting it at this so
+let's concatenate that lets say "My name
+
+81
+
+00:07:30,750  -->  00:07:33,750
+is" +
+
+82
+
+00:07:36,460  -->  00:07:40,990
+so we want this to print out my
+name, and not hello world, and not
+
+83
+
+00:07:40,990  -->  00:07:42,460
+anything else,
+
+84
+
+00:07:42,460  -->  00:07:49,389
+so what we're going to do is put 2
+square brackets and the number one "[1]" and
+
+85
+
+00:07:49,389  -->  00:07:54,250
+it's going to say "My name is Nick" I'm
+not sure if that's a bit too complicated,
+
+86
+
+00:07:54,250  -->  00:08:00,069
+so I'm going to try and explain it again
+from the beginning. So, we have a string,
+
+87
+
+00:08:00,069  -->  00:08:05,620
+we have it say my name is and then a space, and then we can catenate it with the
+
+88
+
+00:08:05,620  -->  00:08:11,470
+result of this right here. So this can be
+broken down into a few parts,
+
+89
+
+00:08:11,470  -->  00:08:15,400
+here's the string that we're performing
+the split function on
+
+90
+
+00:08:15,400  -->  00:08:22,720
+okay, then we're calling split on it and
+this is going to turn this string into
+
+91
+
+00:08:22,720  -->  00:08:28,300
+an array with three values each with an
+index. It's gonna split it into hello, Nick,
+
+92
+
+00:08:28,300  -->  00:08:33,610
+and world and stuff those values into
+its own array, and then we can access the
+
+93
+
+00:08:33,610  -->  00:08:39,940
+result of this by using an index number
+here in square brackets so we're calling the
+
+94
+
+00:08:39,940  -->  00:08:46,180
+index number one, so hello would be 0,
+Nick would be 1, and world would be 2.
+
+95
+
+00:08:46,180  -->  00:08:53,079
+So, what's happening is it's printing out my name is Nick. Now you might be
+
+96
+
+00:08:53,079  -->  00:08:56,860
+thinking shouldn't it be printing out my
+name is hello
+
+97
+
+00:08:56,860  -->  00:09:01,810
+if we're using the number one here? This
+isn't so much Python but it's a concept
+
+98
+
+00:09:01,810  -->  00:09:10,420
+in programming in general, no. So, 0
+equals 1. If you have an array the
+
+99
+
+00:09:10,420  -->  00:09:16,480
+first item in it you think would equal
+1 but it actually it equals 0 and we'll talk
+
+100
+
+00:09:16,480  -->  00:09:21,490
+more about arrays, which are actually
+called lists in Python, we will talk more
+
+101
+
+00:09:21,490  -->  00:09:26,320
+about those coming up in you know I
+think not the next video but the video
+
+102
+
+00:09:26,320  -->  00:09:32,110
+after the next one. So that's how you can
+manipulate strings in a very basic way,
+
+103
+
+00:09:32,110  -->  00:09:36,399
+we might expand on this in the future, we
+actually probably will.
+
+104
+
+00:09:36,399  -->  00:09:41,110
+So, next we're going to be talking about
+booleans.

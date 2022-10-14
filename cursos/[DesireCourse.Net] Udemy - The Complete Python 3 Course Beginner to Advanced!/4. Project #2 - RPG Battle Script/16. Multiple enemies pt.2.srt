@@ -1,0 +1,729 @@
+1
+
+00:00:00,000  -->  00:00:01,589
+Let's try this again just to make
+
+2
+
+00:00:01,589  -->  00:00:04,920
+sure everything works. Hit the attack,
+
+3
+
+00:00:04,920  -->  00:00:11,460
+we're just going to attack right now, and
+
+4
+
+00:00:11,460  -->  00:00:15,750
+enemy.get_hp so that as well and this is in
+
+5
+
+00:00:15,750  -->  00:00:19,050
+line 150. So, now what we're going to need
+
+6
+
+00:00:19,050  -->  00:00:20,760
+to do is we're going to need to change
+
+7
+
+00:00:20,760  -->  00:00:22,980
+this to check
+
+8
+
+00:00:22,980  -->  00:00:25,890
+you know for each enemy if each enemy
+
+9
+
+00:00:25,890  -->  00:00:27,359
+is dead then we win.
+
+10
+
+00:00:27,359  -->  00:00:29,130
+So what we're going to do is we're going
+
+11
+
+00:00:29,130  -->  00:00:40,530
+to create an index of...and then defeated
+
+12
+
+00:00:40,530  -->  00:00:47,129
+enemy means equals 0, and then for enemy
+
+13
+
+00:00:47,129  -->  00:00:58,140
+in enemies, if emey.get_hp == 0: we are
+
+14
+
+00:00:58,140  -->  00:00:59,430
+going to say
+
+15
+
+00:00:59,430  -->  00:01:08,880
+defeated_enemies += 1. And so
+
+16
+
+00:01:08,880  -->  00:01:11,700
+down here, out of this if loop
+
+17
+
+00:01:11,700  -->  00:01:15,090
+statement, we're going to say if defeated
+
+18
+
+00:01:15,090  -->  00:01:17,700
+enemies equals 2 then
+
+19
+
+00:01:17,700  -->  00:01:22,110
+we've obviously won. We're going to do
+
+20
+
+00:01:22,110  -->  00:01:25,080
+roughly the same thing for the players,
+
+21
+
+00:01:25,080  -->  00:01:33,659
+so right here.
+
+22
+
+00:01:33,659  -->  00:01:47,130
+defeated players = 0, for player in
+
+23
+
+00:01:47,130  -->  00:01:58,920
+players: if player.get_hp == 0
+
+24
+
+00:01:58,920  -->  00:02:16,440
+defeated_players += 1. This might not work...we'll find
+
+25
+
+00:02:16,440  -->  00:02:18,000
+out though I mean I don't think it's
+
+26
+
+00:02:18,000  -->  00:02:23,970
+going to. defeated_players
+
+27
+
+00:02:23,970  -->  00:02:28,379
+Oh, no, that's going to work
+
+28
+
+00:02:28,379  -->  00:02:29,760
+because we're going to set it to 0 and then it's
+
+29
+
+00:02:29,760  -->  00:02:31,109
+going to check each time. I thought it
+
+30
+
+00:02:31,109  -->  00:02:32,910
+was for some reason, I was thinking, it's
+
+31
+
+00:02:32,910  -->  00:02:35,250
+going ok, so, defeated players let's say
+
+32
+
+00:02:35,250  -->  00:02:37,049
+one person dies this is going to be 1,
+
+33
+
+00:02:37,049  -->  00:02:43,440
+and so it's going to add to that so that
+
+34
+
+00:02:43,440  -->  00:02:45,420
+each turn that went by it the same
+
+35
+
+00:02:45,420  -->  00:02:47,609
+person is dead it's going to keep adding
+
+36
+
+00:02:47,609  -->  00:02:49,620
+one, but it's not because we're setting
+
+37
+
+00:02:49,620  -->  00:02:51,450
+these variables right at the end of the
+
+38
+
+00:02:51,450  -->  00:02:52,919
+function. So before any of this
+
+39
+
+00:02:52,919  -->  00:02:56,849
+runs it is already set to 0. So, if
+
+40
+
+00:02:56,849  -->  00:03:01,590
+defeated players equals 2, your enemies
+
+41
+
+00:03:01,590  -->  00:03:06,269
+have defeated you.
+
+42
+
+00:03:06,269  -->  00:03:09,269
+So, now I believe this is the last bit, it
+
+43
+
+00:03:09,269  -->  00:03:12,329
+should all work, there are a few other things
+
+44
+
+00:03:12,329  -->  00:03:18,780
+we need to do. As you can see right there
+
+45
+
+00:03:18,780  -->  00:03:19,680
+the Imp
+
+46
+
+00:03:19,680  -->  00:03:21,480
+we're doing a great deal of damage, but
+
+47
+
+00:03:21,480  -->  00:03:28,829
+Valos has taken some damage of magic here...
+
+48
+
+00:03:28,829  -->  00:03:34,500
+alright.
+
+49
+
+00:03:34,500  -->  00:03:37,170
+So, once targets hit points are zero,
+
+50
+
+00:03:37,170  -->  00:03:40,500
+let's do this. Let's come back in here
+
+51
+
+00:03:40,500  -->  00:03:43,920
+where we choose target for enemy and
+
+52
+
+00:03:43,920  -->  00:03:57,180
+enemies, if enemy.get_hp  doesn't equal 0 then
+
+53
+
+00:03:57,180  -->  00:04:00,930
+we're going to do this stuff. Once an
+
+54
+
+00:04:00,930  -->  00:04:03,000
+enemy is dead
+
+55
+
+00:04:03,000  -->  00:04:06,060
+we basically don't get the option to
+
+56
+
+00:04:06,060  -->  00:04:15,690
+target. So as you can see now we've got two
+
+57
+
+00:04:15,690  -->  00:04:20,190
+targets, but now the problem is that
+
+58
+
+00:04:20,190  -->  00:04:24,780
+we need to remove it, we need to remove
+
+59
+
+00:04:24,780  -->  00:04:30,900
+the enemy from the actual
+
+60
+
+00:04:30,900  -->  00:04:33,870
+enemies list because if not we're going
+
+61
+
+00:04:33,870  -->  00:04:36,210
+to choose one and it's going to actually
+
+62
+
+00:04:36,210  -->  00:04:39,900
+attack Imp still, because that's making
+
+63
+
+00:04:39,900  -->  00:04:42,990
+that is 0. So we're going to have to fix
+
+64
+
+00:04:42,990  -->  00:04:44,970
+that as well and the way we're going to
+
+65
+
+00:04:44,970  -->  00:04:49,860
+do that, let me return that hit point there,
+
+66
+
+00:04:49,860  -->  00:04:56,700
+in the main script here let's see if we attack,
+
+67
+
+00:04:56,700  -->  00:05:01,500
+let's also add another bit of code here. So, if
+
+68
+
+00:05:01,500  -->  00:05:13,140
+enemies[enemy].get_hp == 0
+
+69
+
+00:05:13,140  -->  00:05:17,760
+we're going to basically just delete
+
+70
+
+00:05:17,760  -->  00:05:23,310
+enemies[enemy]. Then we're going to say,
+
+71
+
+00:05:23,310  -->  00:05:26,850
+before we do that we're going to print
+
+72
+
+00:05:26,850  -->  00:05:34,060
+out the enemy's name.
+
+73
+
+00:05:34,060  -->  00:05:47,620
+There we go.
+
+74
+
+00:05:47,620  -->  00:05:52,690
+We're going to do the same thing where
+
+75
+
+00:05:52,690  -->  00:05:57,430
+we choose the enemy here in magic.
+
+76
+
+00:05:57,430  -->  00:05:59,410
+So we're going to do it below that there,
+
+77
+
+00:05:59,410  -->  00:06:04,330
+and then we're going to do the same
+
+78
+
+00:06:04,330  -->  00:06:07,930
+thing under attack items right there,
+
+79
+
+00:06:07,930  -->  00:06:13,840
+and we can actually clean up this code
+
+80
+
+00:06:13,840  -->  00:06:16,479
+a bit. We can document it as well and
+
+81
+
+00:06:16,479  -->  00:06:26,380
+probably before we actually do
+
+82
+
+00:06:26,380  -->  00:06:28,900
+the well before I uploaded to the
+
+83
+
+00:06:28,900  -->  00:06:30,760
+repository I will comment it so it's a
+
+84
+
+00:06:30,760  -->  00:06:36,400
+lot more you know documented, so you
+
+85
+
+00:06:36,400  -->  00:06:39,250
+guys can understand it. So, now what
+
+86
+
+00:06:39,250  -->  00:06:41,800
+what should happen is he should have
+
+87
+
+00:06:41,800  -->  00:06:43,870
+been deleted, so first off two things are
+
+88
+
+00:06:43,870  -->  00:06:45,760
+going to happen. The next time it shows
+
+89
+
+00:06:45,760  -->  00:06:47,800
+this readout it's not going to show that
+
+90
+
+00:06:47,800  -->  00:06:52,180
+enemy, and two once we choose attack
+
+91
+
+00:06:52,180  -->  00:06:53,950
+we're going to have an option to choose
+
+92
+
+00:06:53,950  -->  00:06:56,080
+Magus or Imp and this should actually attack
+
+93
+
+00:06:56,080  -->  00:07:00,340
+Magus now, and it does. So that's exactly
+
+94
+
+00:07:00,340  -->  00:07:03,039
+what we want to happen. Now we're not
+
+95
+
+00:07:03,039  -->  00:07:04,990
+going to really focus on if we're going
+
+96
+
+00:07:04,990  -->  00:07:06,940
+to be able to beat this guy,
+
+97
+
+00:07:06,940  -->  00:07:09,370
+what we're going to do is when we attack
+
+98
+
+00:07:09,370  -->  00:07:11,169
+an enemy we're going to strip the white
+
+99
+
+00:07:11,169  -->  00:07:13,720
+space from it. So how we're going to do
+
+100
+
+00:07:13,720  -->  00:07:18,460
+that is where we print out enemy name we're
+
+101
+
+00:07:18,460  -->  00:07:28,689
+going to say replace.
+
+102
+
+00:07:28,689  -->  00:07:30,279
+We're going to do this each time we
+
+103
+
+00:07:30,279  -->  00:07:33,879
+print out a string about an enemy.
+
+104
+
+00:07:33,879  -->  00:07:41,229
+Up here where we do damage,
+
+105
+
+00:07:41,229  -->  00:07:50,229
+oops that's what I meant to do, and
+
+106
+
+00:07:50,229  -->  00:07:53,679
+then up here when we attack as well.
+
+107
+
+00:07:53,679  -->  00:07:56,739
+Where is that?
+
+108
+
+00:07:56,739  -->  00:08:00,549
+So, if they have died we need to do the same
+
+109
+
+00:08:00,549  -->  00:08:14,569
+thing.
+
+110
+
+00:08:14,569  -->  00:08:19,429
+Then we need to print out which enemy is
+
+111
+
+00:08:19,429  -->  00:08:22,729
+attacking. Does one enemy attack only attack?
+
+112
+
+00:08:22,729  -->  00:08:25,999
+Yeah, right, that's what we did we only
+
+113
+
+00:08:25,999  -->  00:08:27,860
+made one enemy attack, so we will leave it
+
+114
+
+00:08:27,860  -->  00:08:30,949
+there for now. So, let's save this, re-run it, and
+
+115
+
+00:08:30,949  -->  00:08:32,630
+let's make sure that everything works
+
+116
+
+00:08:32,630  -->  00:08:35,060
+se we're going to just demolish first
+
+117
+
+00:08:35,060  -->  00:08:38,029
+character there. There we go and as you can see
+
+118
+
+00:08:38,029  -->  00:08:41,389
+we're attacking Imp, and the white space has
+
+119
+
+00:08:41,389  -->  00:08:45,709
+been removed. So, that's as far as we're
+
+120
+
+00:08:45,709  -->  00:08:47,089
+going to go this time. I think I'm
+
+121
+
+00:08:47,089  -->  00:08:48,800
+actually going to re-upload the code
+
+122
+
+00:08:48,800  -->  00:08:56,509
+here to GitHub so you guys can see it, but
+
+123
+
+00:08:56,509  -->  00:08:58,069
+this battle actually won't be too
+
+124
+
+00:08:58,069  -->  00:08:59,750
+difficult. So we can just keep hammering
+
+125
+
+00:08:59,750  -->  00:09:05,269
+with attacks and magic, until we have no hit
+
+126
+
+00:09:05,269  -->  00:09:06,860
+points, but we also do have a mega
+
+127
+
+00:09:06,860  -->  00:09:09,319
+elixir. So I'm gonna go ahead and use
+
+128
+
+00:09:09,319  -->  00:09:11,449
+an item and I'm going to use a mega
+
+129
+
+00:09:11,449  -->  00:09:13,699
+elixir,
+
+130
+
+00:09:13,699  -->  00:09:16,639
+and then we're going to keep hammering
+
+131
+
+00:09:16,639  -->  00:09:21,649
+this guy with magic until we
+
+132
+
+00:09:21,649  -->  00:09:23,930
+defeat him. So I mean it's as you can see we
+
+133
+
+00:09:23,930  -->  00:09:25,399
+haven't really made this too difficult, you
+
+134
+
+00:09:25,399  -->  00:09:26,660
+don't really have to think, but that's
+
+135
+
+00:09:26,660  -->  00:09:28,670
+again because one enemy is attacking you
+
+136
+
+00:09:28,670  -->  00:09:33,139
+and not all of them, and they also don't
+
+137
+
+00:09:33,139  -->  00:09:35,750
+heal. So once we implement those bits of
+
+138
+
+00:09:35,750  -->  00:09:36,649
+code,
+
+139
+
+00:09:36,649  -->  00:09:42,800
+there we go, then you know it's obviously
+
+140
+
+00:09:42,800  -->  00:09:46,699
+going to make it more difficult.
+
+141
+
+00:09:46,699  -->  00:09:53,839
+There we go. So, enemy damage the Imp has died.
+
+142
+
+00:09:53,839  -->  00:09:59,420
+So, that's in line 155 right here, if the
+
+143
+
+00:09:59,420  -->  00:10:00,829
+enemy has died they obviously can't
+
+144
+
+00:10:00,829  -->  00:10:02,990
+attack. So that's obviously a
+
+145
+
+00:10:02,990  -->  00:10:04,519
+problem we shouldn't have but we are
+
+146
+
+00:10:04,519  -->  00:10:10,630
+going to fix it at some point as well.

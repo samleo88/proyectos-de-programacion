@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00.330 --> 00:03.810
+Remember when we were working with AC says flex box.
+
+00:03.840 --> 00:08.550
+In fact when we were setting up the columns we used justified content.
+
+00:08.550 --> 00:13.400
+And then in order to have the proper with we used a call function.
+
+00:13.500 --> 00:18.210
+Well ladies and gentlemen we don't have to do that anymore.
+
+00:18.210 --> 00:26.490
+If we use C is as great because in fact C says grid gives us a very very nice property by the name of
+
+00:26.490 --> 00:27.410
+gap.
+
+00:27.780 --> 00:33.090
+So let's say we do have our column layout as well as we have of course the rows and I would like to
+
+00:33.090 --> 00:36.290
+have some kind of gap in between them.
+
+00:36.300 --> 00:39.500
+Well it is as easy as it gets.
+
+00:39.540 --> 00:43.290
+I could just say here grid and then we have gap.
+
+00:43.470 --> 00:47.650
+And then of course I have either column gap or the road gap.
+
+00:47.700 --> 00:53.100
+Now there is also a shorthand by the name of grid gap which we're going to cover in a second but I guess
+
+00:53.130 --> 00:58.860
+let's start with a grid column gap and then we just need to specifically say well what kind of gap I
+
+00:58.860 --> 00:59.920
+would want.
+
+01:00.090 --> 01:03.780
+So I'm going to go with 20 pixels and you go right away.
+
+01:03.780 --> 01:08.760
+I have the gap in between my columns with the value of 20 pixels.
+
+01:08.760 --> 01:15.000
+So now actually I guess that if I'm going gonna go with grid row gap.
+
+01:15.000 --> 01:18.990
+Well I'm going to have this gap in between the rows as well.
+
+01:19.070 --> 01:24.840
+Now like I said we also have a shorthand so I could just write a grid gap.
+
+01:24.840 --> 01:31.620
+And then if I'm going to add just one value let's say 50 pixels you're going to notice that it is going
+
+01:31.620 --> 01:33.560
+to be applied for both of them.
+
+01:33.570 --> 01:40.860
+So for the rows as well as the columns and of course I'm doing alright now is I'm just overwriting my
+
+01:40.860 --> 01:44.680
+previous values that I had for column as well as the row.
+
+01:44.700 --> 01:51.150
+Now we can obviously specifically right here for each of them separately as well where for the great
+
+01:51.180 --> 01:56.760
+gap if we just have one value it is being applied for columns as well as the rows.
+
+01:56.880 --> 02:03.900
+But if I'm going to write let's say 50 pixels and hundred pixels you're going to notice that higher
+
+02:03.900 --> 02:05.940
+pixels is being applied for the column.
+
+02:06.300 --> 02:12.500
+So second value is going to be for the column and first one is going to be for the rows.
+
+02:12.510 --> 02:19.440
+So this is that we can easily and very fast and in fact the gaps in between the columns and the rows
+
+02:19.860 --> 02:26.700
+using one of the properties whether that's great column gap great row gap or the shorthand would be
+
+02:26.760 --> 02:27.750
+grid gap.

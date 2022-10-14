@@ -1,0 +1,178 @@
+WEBVTT
+
+00:00.140 --> 00:06.060
+That before we can work with our media queerish first thing that we actually would need to do is we
+
+00:06.060 --> 00:12.640
+would need to fix this title over here because you can see or hear that we have a just blunt text.
+
+00:12.690 --> 00:13.220
+Right.
+
+00:13.290 --> 00:18.060
+And since we're going to be reusing this title right it wouldn't be Berrow if we would actually style
+
+00:18.060 --> 00:18.550
+it.
+
+00:18.630 --> 00:24.260
+So we're going to go back over here and we're going to say this is going to be tied up like this.
+
+00:24.390 --> 00:29.040
+And then going to start very simple we're going to say class title and the class title is going to have
+
+00:29.040 --> 00:35.340
+a margin this is going to be 10 pixels then it's going to be zero and it's going to be fully pixels
+
+00:35.760 --> 00:37.810
+and then it's going to be another zero.
+
+00:38.010 --> 00:44.470
+So basically what I'm saying is that 10 pixels here 40 pixels here and left and right here.
+
+00:44.640 --> 00:46.730
+Then after that we can have a cursor.
+
+00:46.750 --> 00:49.590
+I'm going to say pointer you know like this.
+
+00:49.620 --> 00:54.520
+Then after that we're going to have a title text here.
+
+00:54.750 --> 01:00.220
+And what we're going to say is this is going to be font size we're 60 pixels.
+
+01:00.240 --> 01:01.250
+All right.
+
+01:01.260 --> 01:03.490
+So you can see that I'm targeting this text.
+
+01:03.730 --> 01:11.040
+Then I have a text transform and this is going to be capitalized again and then after that we're going
+
+01:11.040 --> 01:18.050
+to have a color hash tag you this 5 7 5 7 5 7 like this.
+
+01:18.060 --> 01:18.450
+Right.
+
+01:18.600 --> 01:21.040
+So this is going to be a great text.
+
+01:21.080 --> 01:23.160
+We're going to we're going to have a title underway.
+
+01:23.550 --> 01:30.650
+So we're going to say title line here and then we have a with first of all.
+
+01:30.740 --> 01:36.420
+So here we're going to play with and with this is going to be 50 pixels or here right.
+
+01:36.420 --> 01:38.470
+So again this is going to be for the on the line.
+
+01:38.730 --> 01:42.450
+And if you remember this is going to be exactly like this one right now.
+
+01:42.450 --> 01:45.510
+The values are not going to be the same but the process is this.
+
+01:46.090 --> 01:49.790
+So we're going to have a border through pixels.
+
+01:50.070 --> 02:00.490
+So I would hear them say hash tag to be more here than this is going to be 9 8 and 0 like this.
+
+02:00.510 --> 02:03.070
+And then after that we're going to have another transition.
+
+02:03.300 --> 02:10.680
+So I'm going to say trends not transform transition and this is going to be with it's going to be transforming
+
+02:10.740 --> 02:13.190
+with four seconds.
+
+02:13.220 --> 02:15.350
+He's again right.
+
+02:15.360 --> 02:19.280
+He is going to have a border.
+
+02:19.550 --> 02:21.340
+This is going to be four seconds.
+
+02:21.370 --> 02:23.560
+He's here.
+
+02:23.640 --> 02:26.380
+And then we're going to have a hovering effect.
+
+02:26.370 --> 02:26.810
+Right.
+
+02:26.970 --> 02:33.330
+So basically now we have a transition between this transition should happen and what I want this transition
+
+02:33.330 --> 02:36.280
+is as I'm hovering over the whole thing right now.
+
+02:36.280 --> 02:39.300
+All this on the line but the whole title.
+
+02:39.390 --> 02:44.780
+So I'm going to say here that this is going to be Tyrel cover.
+
+02:44.890 --> 02:49.300
+So old the whole class and that I'm going to say title underlined.
+
+02:49.650 --> 02:56.490
+So basically what I'm saying is as I'm hovering over the whole title on the line on the line or here
+
+02:56.850 --> 03:02.820
+something should happen and that something is going to be with and the with is going to be 200 pixels
+
+03:03.410 --> 03:10.130
+like this and the border is going to be three pixels solid red or here like this.
+
+03:10.320 --> 03:16.410
+So let's say this here and let's actually check it out and you can see what's happened right as I'm
+
+03:16.410 --> 03:18.200
+hovering over the whole thing.
+
+03:18.240 --> 03:23.880
+It actually expands and changes the color as I move away my mouse.
+
+03:23.900 --> 03:30.210
+Here you can see it goes back arm right and now that we actually styled a title.
+
+03:30.210 --> 03:34.140
+Now we can go ahead and style the actual
+
+03:41.700 --> 03:45.470
+responsiveness of or hear these phantasm.
+
+03:45.510 --> 03:47.240
+So as we go to the bigger screen.
+
+03:47.280 --> 03:47.980
+Right.
+
+03:48.000 --> 03:49.100
+Something should change.
+
+03:49.100 --> 03:51.060
+And what I want to do with this title.
+
+03:51.070 --> 03:56.170
+I actually want to grab this one right and actually place a cut here.
+
+03:56.220 --> 04:01.800
+And let's just go somewhere before the skills actually let's place it over here in front of them right.
+
+04:01.830 --> 04:07.020
+So we're going to say this one we're going to do is we're just going to create more room here and we're
+
+04:07.020 --> 04:09.380
+going to start working with our media queries.

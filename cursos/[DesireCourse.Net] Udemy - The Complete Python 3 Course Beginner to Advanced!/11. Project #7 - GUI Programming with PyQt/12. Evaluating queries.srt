@@ -1,0 +1,864 @@
+1
+
+00:00:00,000  -->  00:00:00,960
+Alright guys, so we're just going to
+
+2
+
+00:00:00,960  -->  00:00:04,140
+recap here, and I'm going to see if
+
+3
+
+00:00:04,140  -->  00:00:05,940
+I did miss explaining anything I'm going
+
+4
+
+00:00:05,940  -->  00:00:08,550
+to explain it better just to kind of
+
+5
+
+00:00:08,550  -->  00:00:10,769
+bring you guys up to date. Just in case you skipped
+
+6
+
+00:00:10,769  -->  00:00:13,650
+any videos, or are watching this out of context.
+
+7
+
+00:00:13,650  -->  00:00:15,360
+So what we're doing here is we're
+
+8
+
+00:00:15,360  -->  00:00:17,789
+creating a grid layout, and then we're
+
+9
+
+00:00:17,789  -->  00:00:20,460
+creating a few objects themselves. The
+
+10
+
+00:00:20,460  -->  00:00:22,800
+first one is results which is just a
+
+11
+
+00:00:22,800  -->  00:00:25,769
+line edit and that's right here, then
+
+12
+
+00:00:25,769  -->  00:00:28,170
+we're creating a list of buttons and
+
+13
+
+00:00:28,170  -->  00:00:31,320
+we've got them segmented into four
+
+14
+
+00:00:31,320  -->  00:00:34,410
+columns on each row, and we're using
+
+15
+
+00:00:34,410  -->  00:00:36,660
+actual integers for the numbers and that's so
+
+16
+
+00:00:36,660  -->  00:00:39,120
+that we can actually run mathematical
+
+17
+
+00:00:39,120  -->  00:00:40,739
+equations on them when the time comes.
+
+18
+
+00:00:40,739  -->  00:00:44,010
+We're starting at row 1 and that's going
+
+19
+
+00:00:44,010  -->  00:00:45,420
+to make more sense once I do this, so I'm
+
+20
+
+00:00:45,420  -->  00:00:47,010
+going to copy that.
+
+21
+
+00:00:47,010  -->  00:00:50,460
+So we're adding the input to our grid
+
+22
+
+00:00:50,460  -->  00:00:56,160
+right away on row 0, it is in column 0 so
+
+23
+
+00:00:56,160  -->  00:00:57,690
+it starts in the first column in the
+
+24
+
+00:00:57,690  -->  00:01:01,920
+first row, it's one row high, and then
+
+25
+
+00:01:01,920  -->  00:01:05,309
+it's four rows wide, and that's because
+
+26
+
+00:01:05,309  -->  00:01:07,140
+we're going to have four rows everywhere
+
+27
+
+00:01:07,140  -->  00:01:09,210
+else so it's going to make it the same
+
+28
+
+00:01:09,210  -->  00:01:10,619
+length.
+
+29
+
+00:01:10,619  -->  00:01:13,170
+Once we use the first row we need to set
+
+30
+
+00:01:13,170  -->  00:01:16,200
+the row variable equal to 1 because
+
+31
+
+00:01:16,200  -->  00:01:17,640
+we're going to be using that within a
+
+32
+
+00:01:17,640  -->  00:01:19,650
+loop to create the buttons, and then the
+
+33
+
+00:01:19,650  -->  00:01:21,390
+column is going to be 0. So then what we
+
+34
+
+00:01:21,390  -->  00:01:23,610
+do is for each item in the buttons
+
+35
+
+00:01:23,610  -->  00:01:26,310
+variable here we're saying if the column
+
+36
+
+00:01:26,310  -->  00:01:28,350
+is greater than 3 so if it's 4,
+
+37
+
+00:01:28,350  -->  00:01:32,880
+so if we've gone 1, 2, 3, 4, then what you want to
+
+38
+
+00:01:32,880  -->  00:01:38,220
+do is you want to reset it to 0 and then
+
+39
+
+00:01:38,220  -->  00:01:41,070
+skip down to the next line. So, column
+
+40
+
+00:01:41,070  -->  00:01:45,450
+equals 0 and then row +=1. We're
+
+41
+
+00:01:45,450  -->  00:01:47,610
+instantiating our custom button class
+
+42
+
+00:01:47,610  -->  00:01:49,229
+right here, and we'll talk more about that in
+
+43
+
+00:01:49,229  -->  00:01:51,600
+a moment, and then we're saying if the
+
+44
+
+00:01:51,600  -->  00:01:52,920
+button is 0
+
+45
+
+00:01:52,920  -->  00:01:53,970
+we're going to make it take up two
+
+46
+
+00:01:53,970  -->  00:01:57,149
+spaces. So we create the button object up
+
+47
+
+00:01:57,149  -->  00:01:59,460
+here, we put the push button itself so
+
+48
+
+00:01:59,460  -->  00:02:02,189
+the b attribute of the button object is
+
+49
+
+00:02:02,189  -->  00:02:04,229
+the push button itself, we're setting the row
+
+50
+
+00:02:04,229  -->  00:02:06,090
+and column numbers, we are going to say take
+
+51
+
+00:02:06,090  -->  00:02:09,119
+up one row and take up two columns,
+
+52
+
+00:02:09,119  -->  00:02:11,310
+and then we skip over the next column
+
+53
+
+00:02:11,310  -->  00:02:14,400
+number by adding one to the column, and
+
+54
+
+00:02:14,400  -->  00:02:17,220
+if it's not the number zero just you
+
+55
+
+00:02:17,220  -->  00:02:20,549
+know add, it's the exact same statement it's
+
+56
+
+00:02:20,549  -->  00:02:23,159
+just adding a button in one column
+
+57
+
+00:02:23,159  -->  00:02:25,950
+rather than taking up two columns. Then
+
+58
+
+00:02:25,950  -->  00:02:28,079
+at the end of the loop each iteration is
+
+59
+
+00:02:28,079  -->  00:02:32,250
+going to add one to column. Now in order to
+
+60
+
+00:02:32,250  -->  00:02:36,540
+successfully actually connect a method
+
+61
+
+00:02:36,540  -->  00:02:39,659
+to each button, each button is going to
+
+62
+
+00:02:39,659  -->  00:02:42,540
+have it's on the handle input method, and
+
+63
+
+00:02:42,540  -->  00:02:45,989
+it's going to print out the value of
+
+64
+
+00:02:45,989  -->  00:02:48,510
+self.text which is being set to the
+
+65
+
+00:02:48,510  -->  00:02:50,760
+number on here. So when I click this you
+
+66
+
+00:02:50,760  -->  00:02:52,379
+can see that it's printing it down here
+
+67
+
+00:02:52,379  -->  00:02:54,299
+which button I'm clicking, which isn't really
+
+68
+
+00:02:54,299  -->  00:02:56,400
+useful as of now. So what we're going to
+
+69
+
+00:02:56,400  -->  00:02:58,290
+be doing is we're actually going to be
+
+70
+
+00:02:58,290  -->  00:03:00,720
+evaluating the equation that we're
+
+71
+
+00:03:00,720  -->  00:03:03,420
+putting in, but first what we want to do
+
+72
+
+00:03:03,420  -->  00:03:07,980
+is we want to get the text of the input
+
+73
+
+00:03:07,980  -->  00:03:11,579
+there. So, let's say
+
+74
+
+00:03:11,579  -->  00:03:15,510
+current value is equal to self.results.
+
+75
+
+00:03:15,510  -->  00:03:20,669
+text, and then we're going to
+
+76
+
+00:03:20,669  -->  00:03:24,840
+set new value, it's going to be equal to
+
+77
+
+00:03:24,840  -->  00:03:32,099
+current value plus, we're going to wrap in the string
+
+78
+
+00:03:32,099  -->  00:03:32,519
+here,
+
+79
+
+00:03:32,519  -->  00:03:36,599
+whatever value we passed into
+
+80
+
+00:03:36,599  -->  00:03:40,049
+it. So let's go ahead and set self.results,
+
+81
+
+00:03:40,049  -->  00:03:47,099
+set text equal to new value. So
+
+82
+
+00:03:47,099  -->  00:03:48,660
+go ahead and save this, and rerun the
+
+83
+
+00:03:48,660  -->  00:03:50,910
+application, and now when we hit numbers
+
+84
+
+00:03:50,910  -->  00:03:52,680
+you'll see that they actually go into
+
+85
+
+00:03:52,680  -->  00:03:54,569
+this but it still doesn't do
+
+86
+
+00:03:54,569  -->  00:03:56,790
+anything yet. So what we're going to do
+
+87
+
+00:03:56,790  -->  00:03:58,109
+is we're going to create an if statement
+
+88
+
+00:03:58,109  -->  00:04:12,090
+in here. So if v is equal to equals, which
+
+89
+
+00:04:12,090  -->  00:04:14,489
+basically is the the button press, so if
+
+90
+
+00:04:14,489  -->  00:04:16,680
+the buttons value is to equal symbol
+
+91
+
+00:04:16,680  -->  00:04:19,500
+we're going to evaluate, so we're going
+
+92
+
+00:04:19,500  -->  00:04:21,299
+to create a res object
+
+93
+
+00:04:21,299  -->  00:04:23,460
+shortened for results, because we are already using
+
+94
+
+00:04:23,460  -->  00:04:24,599
+results.
+
+95
+
+00:04:24,599  -->  00:04:26,909
+It's going to be equal to eval and we're going
+
+96
+
+00:04:26,909  -->  00:04:36,449
+to evaluate self.results.text. So,
+
+97
+
+00:04:36,449  -->  00:04:41,129
+let's say we type 4 + 5, res then is
+
+98
+
+00:04:41,129  -->  00:04:44,610
+going to evaluate to 9, and then we're
+
+99
+
+00:04:44,610  -->  00:04:50,550
+going to set self.results.setText
+
+100
+
+00:04:50,550  -->  00:04:54,780
+equal to string, going to set it to
+
+101
+
+00:04:54,780  -->  00:05:09,479
+result. And we're going to say else do
+
+102
+
+00:05:09,479  -->  00:05:11,729
+this, so it's just going to add to the
+
+103
+
+00:05:11,729  -->  00:05:14,460
+input. So let's go ahead and cancel out of
+
+104
+
+00:05:14,460  -->  00:05:16,889
+the application, run it again, and say
+
+105
+
+00:05:16,889  -->  00:05:22,080
+4+5 equals 9. You guys can see that
+
+106
+
+00:05:22,080  -->  00:05:27,960
+that's actually happening, or 5, I can't
+
+107
+
+00:05:27,960  -->  00:05:30,360
+delete, that's a problem.
+
+108
+
+00:05:30,360  -->  00:05:32,880
+Let's go ahead and add a delete button
+
+109
+
+00:05:32,880  -->  00:05:36,389
+here. So, AC is going to be the reset
+
+110
+
+00:05:36,389  -->  00:05:41,580
+button, so what we'll do is ekuf v equals
+
+111
+
+00:05:41,580  -->  00:05:45,990
+"AC" we're just going to set the results
+
+112
+
+00:05:45,990  -->  00:05:51,479
+self.results.setText, going
+
+113
+
+00:05:51,479  -->  00:05:52,860
+to set it to nothing so that we can
+
+114
+
+00:05:52,860  -->  00:05:56,009
+actually cancel out there. So, let's restart
+
+115
+
+00:05:56,009  -->  00:06:01,199
+the app. 5 * 5 equals 25, and then press
+
+116
+
+00:06:01,199  -->  00:06:03,719
+AC and it clears it out.
+
+117
+
+00:06:03,719  -->  00:06:10,680
+Awesome! So, what we're going to do at
+
+118
+
+00:06:10,680  -->  00:06:12,330
+this point, I mean we've got a working
+
+119
+
+00:06:12,330  -->  00:06:14,310
+calculator for the most part, let me see
+
+120
+
+00:06:14,310  -->  00:06:15,539
+if there's anything else we got to do
+
+121
+
+00:06:15,539  -->  00:06:21,509
+here. 9/5 equals, I want to be able to
+
+122
+
+00:06:21,509  -->  00:06:24,900
+calculate the square root here. So, I'm
+
+123
+
+00:06:24,900  -->  00:06:26,159
+going to be replacing some of these
+
+124
+
+00:06:26,159  -->  00:06:29,669
+buttons here. Let me open up Safari,
+
+125
+
+00:06:29,669  -->  00:06:34,160
+search square root symbol
+
+126
+
+00:06:34,160  -->  00:06:37,670
+so I can copy and paste it here, and it's
+
+127
+
+00:06:37,670  -->  00:06:38,900
+right there. So I'm going to go ahead and
+
+128
+
+00:06:38,900  -->  00:06:45,530
+copy this, and let's replace the C
+
+129
+
+00:06:45,530  -->  00:06:48,140
+button with that. We're going to
+
+130
+
+00:06:48,140  -->  00:06:58,790
+replace this with %. elif v equals
+
+131
+
+00:06:58,790  -->  00:07:00,920
+square root, and
+
+132
+
+00:07:00,920  -->  00:07:04,700
+I'm just copying and pasting that so
+
+133
+
+00:07:04,700  -->  00:07:07,520
+just copy-paste. e're going to calculate
+
+134
+
+00:07:07,520  -->  00:07:09,470
+the square root and in order to do that
+
+135
+
+00:07:09,470  -->  00:07:17,750
+we need to import math, and then down
+
+136
+
+00:07:17,750  -->  00:07:19,430
+here in the square root method right
+
+137
+
+00:07:19,430  -->  00:07:23,420
+here we basically just convert the
+
+138
+
+00:07:23,420  -->  00:07:28,670
+value to a float, and then we set the value
+
+139
+
+00:07:28,670  -->  00:07:32,390
+of the results line input equal to,
+
+140
+
+00:07:32,390  -->  00:07:35,240
+you'll see in a moment. So,, let's go ahead
+
+141
+
+00:07:35,240  -->  00:07:44,000
+and create a value, I guess, value equals
+
+142
+
+00:07:44,000  -->  00:07:56,990
+float self.results.text, and then
+
+143
+
+00:07:56,990  -->  00:08:00,740
+we're going to say self.results.setText
+
+144
+
+00:08:00,740  -->  00:08:04,100
+equal to, we need to wrap this in
+
+145
+
+00:08:04,100  -->  00:08:05,840
+strings so that it becomes a string,
+
+146
+
+00:08:05,840  -->  00:08:08,450
+we're going to take math.sqrt
+
+147
+
+00:08:08,450  -->  00:08:11,990
+and pass in value.
+
+148
+
+00:08:11,990  -->  00:08:15,110
+I'm going to save this and rerun the
+
+149
+
+00:08:15,110  -->  00:08:19,280
+application, and if I say 25 square root
+
+150
+
+00:08:19,280  -->  00:08:23,450
+it becomes 5.0. If I say 30
+
+151
+
+00:08:23,450  -->  00:08:28,340
+square root it becomes 5.4. So if I say 36
+
+152
+
+00:08:28,340  -->  00:08:32,030
+square root it becomes 6. That's now working as
+
+153
+
+00:08:32,030  -->  00:08:33,080
+intended.
+
+154
+
+00:08:33,080  -->  00:08:35,270
+We want to be able to erase just the
+
+155
+
+00:08:35,270  -->  00:08:36,650
+last button there.
+
+156
+
+00:08:36,650  -->  00:08:39,020
+So what I'm going to do is we need to
+
+157
+
+00:08:39,020  -->  00:08:42,469
+create I think another row, which is very
+
+158
+
+00:08:42,469  -->  00:08:45,320
+unfortunate because this is arranged
+
+159
+
+00:08:45,320  -->  00:08:46,430
+alright
+
+160
+
+00:08:46,430  -->  00:08:50,779
+already. So let's just erase this one
+
+161
+
+00:08:50,779  -->  00:08:57,440
+right here and type DEL. So what we're going to
+
+162
+
+00:08:57,440  -->  00:09:03,860
+do is elif v equals "DEL" we're going to
+
+163
+
+00:09:03,860  -->  00:09:10,459
+get the value, so current_value equals
+
+164
+
+00:09:10,459  -->  00:09:19,580
+self.results.text, and then we're
+
+165
+
+00:09:19,580  -->  00:09:24,920
+going to slice the last character
+
+166
+
+00:09:24,920  -->  00:09:28,160
+off of that text. So what we need to do
+
+167
+
+00:09:28,160  -->  00:09:31,190
+is convert it to a string first, actually it
+
+168
+
+00:09:31,190  -->  00:09:33,410
+should already be a string,
+
+169
+
+00:09:33,410  -->  00:09:35,660
+yeah it's strength. Alright, that's already
+
+170
+
+00:09:35,660  -->  00:09:37,670
+a string. So what we are going to have to do is
+
+171
+
+00:09:37,670  -->  00:09:39,680
+remove the last character, and actually
+
+172
+
+00:09:39,680  -->  00:09:41,330
+will do this in the next video to finish
+
+173
+
+00:09:41,330  -->  00:09:43,720
+up this project.

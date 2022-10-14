@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.060 --> 00:06.360
+What is going on guys and welcome to our project and this project we're going to be creating a responsive
+
+00:06.360 --> 00:14.910
+web site using H M L and C Ss and using CIRCE's fluxbox and C S as grid.
+
+00:14.910 --> 00:22.830
+So both of them for our response are also going to work with a Jake Weary plugins and the actual Querrey
+
+00:23.160 --> 00:26.010
+for some custom things.
+
+00:26.010 --> 00:31.670
+So here the first thing that we're going to do is we're going to build more here the nav bar right.
+
+00:31.770 --> 00:33.960
+And you can see that it's going to be responsive.
+
+00:34.140 --> 00:41.370
+So as we go to the smaller screen when we're going to have a toggle button we can have our links over
+
+00:41.370 --> 00:44.310
+here right and you can see these are going to be our font.
+
+00:44.360 --> 00:45.110
+Awesome.
+
+00:45.150 --> 00:52.320
+However if we go to a bigger screen right we're going to actually use a flex to have more here are now
+
+00:52.320 --> 00:53.740
+a bar like this.
+
+00:53.790 --> 00:56.400
+We're also going to have a smooth scrolling.
+
+00:56.400 --> 01:02.030
+So going out a Jake where we code for a small scrolling so you can see or hear if I press it and go
+
+01:02.040 --> 01:08.510
+to services and a portfolio back to services back at home right and or here you can see that it's happening.
+
+01:08.850 --> 01:13.520
+And after that now we're all going to have or here a position fixed it.
+
+01:13.740 --> 01:13.970
+All right.
+
+01:13.970 --> 01:19.890
+So as I started scrolling down and you can see the numbers actually staying in it doesn't matter how
+
+01:19.890 --> 01:20.570
+low I go.
+
+01:20.570 --> 01:21.060
+Right.
+
+01:21.120 --> 01:23.540
+I'm always going to have more here now.
+
+01:23.970 --> 01:29.850
+Now after that we're going to have a bad intersection here with these two buttons here like this.
+
+01:29.970 --> 01:34.800
+Then on here we're going to have this little small section and we're going to look at how we can use
+
+01:34.800 --> 01:38.220
+a C Ss to make these kinds of effects.
+
+01:38.220 --> 01:43.740
+All right so we have all had this banner but you can see here this is going to be slow and then over
+
+01:43.740 --> 01:47.120
+here we're going to war build our skills section right.
+
+01:47.160 --> 01:53.020
+And again we're going to cover how we can make with scissors all kinds of shapes over here like this.
+
+01:53.030 --> 01:53.690
+Right.
+
+01:53.730 --> 02:00.070
+So as I make the screen smaller right you can see that we're going to be having it responsive.
+
+02:00.240 --> 02:02.080
+And again we're going to look at both.
+
+02:02.280 --> 02:07.290
+We're going to look at how we can do this with a flex box and how we can do this with scissors.
+
+02:07.510 --> 02:11.810
+Right side by side there is going to be a code and you can see the difference here.
+
+02:11.820 --> 02:13.680
+Next one is going to be this action right.
+
+02:13.680 --> 02:15.100
+Some Scrabble here.
+
+02:15.270 --> 02:19.900
+We're going to create a input then we're going to look at how we can style it like this.
+
+02:19.910 --> 02:20.140
+Right.
+
+02:20.150 --> 02:22.570
+So we have only one border on the bottom.
+
+02:22.710 --> 02:26.140
+And again you can see that there's going to be a background right.
+
+02:26.190 --> 02:31.020
+The background is going to be parallax effect right so as that ASMS calling you can see the images.
+
+02:31.290 --> 02:35.070
+However the whole section is going to have the slanted effect.
+
+02:35.170 --> 02:38.210
+And then we're going to have a future project.
+
+02:38.220 --> 02:42.450
+We're going to be actually using a Jake replugging called isotopes.
+
+02:42.540 --> 02:43.110
+Right.
+
+02:43.170 --> 02:46.080
+So basically what it does is you can see that I'm going to have a button.
+
+02:46.260 --> 02:46.590
+Right.
+
+02:46.650 --> 02:48.780
+These are going to be let's say on my project.
+
+02:48.900 --> 02:54.960
+But as I click right it the city shows up then only the country then the water.
+
+02:54.960 --> 02:55.290
+All right.
+
+02:55.290 --> 03:01.990
+And in fact like all Oriol going to come back and again by default right away it's made responsa.
+
+03:02.130 --> 03:05.670
+So you can see how this action is going to look like actually make it like this.
+
+03:05.670 --> 03:12.180
+And then after that we'll going to have a About section we're going to be using or hear the accordion
+
+03:12.510 --> 03:14.770
+from a J Querrey right.
+
+03:15.000 --> 03:16.520
+That's going to be our next section.
+
+03:16.770 --> 03:21.900
+You know here we're going to have a current project section we're going to have another jay Querrey
+
+03:22.140 --> 03:22.990
+plug in.
+
+03:22.990 --> 03:25.240
+This is going to be magnifica pop up.
+
+03:25.240 --> 03:25.470
+All right.
+
+03:25.470 --> 03:28.620
+So here we have a simple portfolio.
+
+03:28.770 --> 03:35.610
+However as we click it over here can go around right and we can actually have all these all these kind
+
+03:35.610 --> 03:40.610
+of images right now after that we would want a number count section right.
+
+03:40.710 --> 03:46.460
+So again simple or here section our We're using a counter-sue right.
+
+03:46.500 --> 03:48.790
+So we have a phantasm.
+
+03:48.900 --> 03:50.490
+We have users.
+
+03:50.640 --> 03:52.660
+However the numbers are going to be counting.
+
+03:52.830 --> 03:55.520
+And this is gammoning is going to be a J.
+
+03:55.560 --> 03:56.380
+Replugged.
+
+03:56.430 --> 03:58.760
+Now again all the sections right.
+
+03:58.800 --> 03:59.640
+Response.
+
+03:59.850 --> 04:03.110
+So on the smaller screen you can see there's going to be two of them right.
+
+04:03.240 --> 04:05.140
+Can Close the novel here.
+
+04:05.400 --> 04:08.720
+And if we go them the smaller screen there's going to be actually only one.
+
+04:09.020 --> 04:11.310
+All right so they're all all going to be responsive.
+
+04:11.310 --> 04:15.060
+I'm just not going to be repeating this video because it doesn't make sense right.
+
+04:15.060 --> 04:20.590
+If I said to you that actual page is responsive then that means every section is going to be responsive
+
+04:21.000 --> 04:22.370
+where this is going to be.
+
+04:22.370 --> 04:23.800
+Our developers section.
+
+04:23.840 --> 04:24.180
+Right.
+
+04:24.330 --> 04:29.520
+So this could be our team section or here again we're going to look at how we can make cards how we
+
+04:29.520 --> 04:32.890
+can place images or hear something like this.
+
+04:32.960 --> 04:38.000
+Then over here we're going to use a flex box to place these fonts are somewhat icons like this right
+
+04:38.540 --> 04:40.250
+then or here we're going to be using again.
+
+04:40.260 --> 04:41.840
+Jake where you why.
+
+04:42.090 --> 04:45.150
+I like to make these programs more or this.
+
+04:45.390 --> 04:48.520
+Then I'm thrilled that this is going to be our prices section.
+
+04:48.570 --> 04:54.570
+We're going to have everything black right over here and this is going to be our card and it is going
+
+04:54.570 --> 04:56.150
+to have a white background.
+
+04:56.520 --> 05:03.000
+And after that we're going to have a they say so basically quotes and for this one we're going to be
+
+05:03.000 --> 05:10.560
+using a query plug in all curso here and you can see where we're going to be we will be able to slide
+
+05:11.020 --> 05:14.120
+on this and we're going to look at how we can customize.
+
+05:14.130 --> 05:14.730
+That's right.
+
+05:14.820 --> 05:17.340
+Because by default they're not going to have these colors.
+
+05:17.590 --> 05:20.480
+And after that this is going to be our photo section.
+
+05:20.480 --> 05:23.340
+We're going to have embedded Google Maps on here.
+
+05:23.340 --> 05:26.240
+This is going to be check boxes side by side with a text.
+
+05:26.340 --> 05:29.730
+And again like I said everything is responsive.
+
+05:29.730 --> 05:33.920
+So if we go to the smaller screen we're going to have them side by side here.
+
+05:33.960 --> 05:36.120
+The prices are here like this right.
+
+05:36.120 --> 05:42.270
+However if I got even smaller sized This is going to be here like a single item and the same or here
+
+05:42.270 --> 05:44.170
+goes for these check boxes.
+
+05:44.360 --> 05:46.260
+No here for Google Maps.
+
+05:46.260 --> 05:51.140
+So let's get ready and let's start working on this exciting project.

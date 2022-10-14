@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.420 --> 00:01.380
+And first things first.
+
+00:01.380 --> 00:07.140
+Why don't we start with the very basics where any time you're going to want to work would see us as
+
+00:07.140 --> 00:07.840
+grid.
+
+00:07.890 --> 00:09.680
+You're going to need two things.
+
+00:09.870 --> 00:15.540
+You're going to need a parent container that's going to have display set the grid.
+
+00:15.540 --> 00:17.950
+And second you're going to need some children item.
+
+00:17.980 --> 00:19.610
+So that could be one child.
+
+00:19.710 --> 00:25.710
+That could be thousand children within that parent container and those would be the basics of C says
+
+00:25.710 --> 00:26.330
+grid.
+
+00:26.350 --> 00:26.650
+All right.
+
+00:27.000 --> 00:32.820
+Now if you don't have that if you're not going to have the parent container sets it says grid or you're
+
+00:32.820 --> 00:36.060
+going to have some kind of parent container with no children.
+
+00:36.060 --> 00:40.440
+Well it's not going to be possible for you to experience these things as grid.
+
+00:40.500 --> 00:48.870
+Now once we understand the very very basics why don't we look at the most important two properties that
+
+00:48.870 --> 00:52.590
+we can use a lot when we're working with C assessed grid.
+
+00:52.980 --> 00:55.740
+So first and foremost let's target container.
+
+00:56.150 --> 01:00.720
+And like so man I would like to set up a selector.
+
+01:01.050 --> 01:04.820
+So I'm setting up my selector and what kind of styles out one.
+
+01:04.950 --> 01:09.480
+Well like I said for the parent I'm going to need display grid.
+
+01:09.610 --> 01:10.800
+And that's number one.
+
+01:10.930 --> 01:21.300
+And second I said a very very important property is going to be grid template columns and in most cases
+
+01:21.300 --> 01:27.000
+this is the property that you are going to use when you work and would see us as grid.
+
+01:27.000 --> 01:31.350
+So first and foremost set display as grid or the parent container.
+
+01:31.350 --> 01:39.450
+And then in order to set up your columns you're going to use grid hyphen template hyphen columns and
+
+01:39.450 --> 01:46.770
+then the syntax is following where I'm just coming up with how many columns I would like to have if
+
+01:46.770 --> 01:48.590
+you'd want to have two columns.
+
+01:48.600 --> 01:55.140
+Well it couldn't be easier which is right the width of the column which in my case is going to be 200
+
+01:55.170 --> 02:01.740
+pixels and that corresponds to a first column and then I need to come up with well what will be the
+
+02:01.740 --> 02:03.540
+size of the second column.
+
+02:03.540 --> 02:08.460
+And in this case I'm going to go with three hundred and that's at the moment we do that.
+
+02:08.460 --> 02:10.500
+I do have right away.
+
+02:10.500 --> 02:12.440
+My CEO says grid setup.
+
+02:12.480 --> 02:19.110
+Now in this case I'm going to zoom model but because as you can see if I had really zoom then while
+
+02:19.170 --> 02:26.480
+it was out of my screen right now I also may be going to make this little bit bigger my browser window.
+
+02:26.760 --> 02:28.530
+So that way you can clearly see.
+
+02:28.740 --> 02:30.440
+So it couldn't be easier.
+
+02:30.510 --> 02:35.180
+We have parent container then in this case we have two children.
+
+02:35.460 --> 02:43.530
+And then if I would want to have a two column layout with my sister's grid I just head over to my parent
+
+02:43.530 --> 02:51.990
+container selected then make sure that it is set as display grid and then use the grid template columns
+
+02:51.990 --> 02:57.130
+property where I can specifically say what kind of columns I would like.
+
+02:57.300 --> 03:00.480
+What would be the width of the columns and how many columns.
+
+03:00.510 --> 03:06.920
+So in this case inside I want two columns I just write 200 pixel value first and then 300 picks over
+
+03:07.280 --> 03:08.300
+and there you go.
+
+03:08.380 --> 03:11.750
+I have a grid layout with two columns.

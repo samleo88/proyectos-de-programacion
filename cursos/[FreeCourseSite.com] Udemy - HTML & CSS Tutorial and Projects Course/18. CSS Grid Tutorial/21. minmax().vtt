@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.420 --> 00:08.400
+When we work with see it says grid there is also a min max function available to us which is a very
+
+00:08.400 --> 00:10.240
+very nifty function.
+
+00:10.250 --> 00:14.040
+So in this video I would like to cover it in more detail.
+
+00:14.040 --> 00:17.320
+So first and foremost notes getter of old stuff.
+
+00:17.490 --> 00:20.610
+So it on it so no one either.
+
+00:20.790 --> 00:26.550
+Let me make sure that I don't lead the curly braces that is going to stay.
+
+00:26.620 --> 00:28.830
+And now let's imagine the scenario.
+
+00:28.830 --> 00:35.910
+So let's say I do have three fractions correct but I don't like the fact that as my screen size gets
+
+00:35.910 --> 00:38.520
+smaller all of them get smaller.
+
+00:38.520 --> 00:42.110
+Now I would be OK with cell number one and cell number three.
+
+00:42.120 --> 00:44.900
+Similarly some number four in cell number six.
+
+00:45.060 --> 00:52.260
+But the second column I would want to have some kind of mean with whether or not it was gonna be three
+
+00:52.260 --> 00:59.940
+hundred pixels or two hundred pixels essentially I would want my second column to stay some kind of
+
+01:00.090 --> 01:01.740
+minimal with.
+
+01:01.740 --> 01:07.730
+Otherwise as you can see the moment my screen size gets bigger it's awesome of them get bigger.
+
+01:07.860 --> 01:11.200
+But the moment it get smaller all of them shrink.
+
+01:11.220 --> 01:12.270
+So how do we do that.
+
+01:12.690 --> 01:19.320
+Well first of all let's change this and let's just write one fraction one fraction and one fraction
+
+01:19.680 --> 01:20.400
+right now.
+
+01:20.580 --> 01:22.680
+Technically we didn't do anything correct.
+
+01:22.680 --> 01:23.820
+We had a repeat function.
+
+01:23.820 --> 01:27.230
+Now we just rewrote with 1 fraction 1 fraction 1 fraction.
+
+01:27.670 --> 01:32.380
+However for the middle column because this is where I would like to applied.
+
+01:32.460 --> 01:35.210
+And of course we can use the same thing for the first column.
+
+01:35.340 --> 01:38.880
+Third Column or write on all fifty five thousand column.
+
+01:38.890 --> 01:43.500
+Doesn't matter I'm just showing you the middle one because I think it's just gonna be easier to see
+
+01:43.500 --> 01:44.070
+that.
+
+01:44.130 --> 01:51.240
+So let's write min max and then within the min max function we need to supply two values first of all
+
+01:51.250 --> 01:57.120
+is going to be well what would be the minimal value for our column more for a row.
+
+01:57.120 --> 02:03.390
+So in our case it's after the column so I'm going to say you know what minimal my column should be three
+
+02:03.390 --> 02:07.110
+hundred pixels and then comma and then what would be the max.
+
+02:07.110 --> 02:08.910
+Well the max could be one fraction.
+
+02:08.910 --> 02:11.140
+So has my screen size gets bigger.
+
+02:11.160 --> 02:18.300
+Course I would want them to be evenly spaced but as my screen size gets smaller I wouldn't want my second
+
+02:18.300 --> 02:21.570
+column to be less than 300 pixels.
+
+02:21.570 --> 02:22.590
+Let's save it.
+
+02:22.620 --> 02:28.050
+And you're going to notice right away that there is going to be a massive massive second column.
+
+02:28.140 --> 02:31.110
+Now in my case obviously it's also because I have zoomed in.
+
+02:31.470 --> 02:33.120
+So let me zoom out.
+
+02:33.180 --> 02:36.210
+But then as our screen size gets bigger.
+
+02:36.210 --> 02:39.990
+Notice of course they have each of them a fraction.
+
+02:40.020 --> 02:41.650
+So they're growing together.
+
+02:41.790 --> 02:49.650
+But as my screen size gets smaller you're going to check it out that the first and the third are going
+
+02:49.650 --> 02:53.440
+to get less and less so that you can shrink and shrink harder.
+
+02:53.460 --> 03:00.360
+The second one is going to stay big because we did set up this min max function with a value of let's
+
+03:00.360 --> 03:01.620
+say 300.
+
+03:01.620 --> 03:06.450
+Now let's change it to four and then for sure we're going to see where the first one and the third one
+
+03:06.780 --> 03:08.150
+are much more smaller.
+
+03:08.460 --> 03:10.720
+But the second one is not going to shrink.
+
+03:10.800 --> 03:17.760
+This is going to be very useful when we're going to try to set up a column layout without the media
+
+03:17.760 --> 03:19.080
+queries.
+
+03:19.080 --> 03:21.690
+So essentially we would want to use a media query.
+
+03:21.690 --> 03:24.960
+We would just want to set up some kind of values using them in Max.
+
+03:25.080 --> 03:30.680
+And the worry we're gonna get there in fact we're going to get there as we start working with our CSX
+
+03:30.730 --> 03:31.320
+grid.
+
+03:31.440 --> 03:38.690
+Many projects but essentially this would be a min max function where we can pass a minimal value on
+
+03:38.700 --> 03:40.020
+a maximum value.
+
+03:40.020 --> 03:48.100
+And that way our column or our row is not going to go below this first value the minimal.
+
+03:48.390 --> 03:53.340
+But it's going to stay up all the way to the max value that we specified.
+
+03:53.340 --> 03:57.390
+And in most cases that probably is going to be a fraction of value.

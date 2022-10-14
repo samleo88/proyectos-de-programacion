@@ -1,0 +1,337 @@
+1
+
+00:00:00,000  -->  00:00:03,600
+So, let me see,
+
+2
+
+00:00:03,600  -->  00:00:11,969
+let's go ahead and just go ahead over to
+our main scripts. Let's go create a main
+
+3
+
+00:00:11,969  -->  00:00:24,060
+script I guess, it's going to be called
+"main.py" So "from classes.game import
+
+4
+
+00:00:24,060  -->  00:00:34,500
+Person, bcolors" We're going to need
+both of those eventually. We're going to
+
+5
+
+00:00:34,500  -->  00:00:41,250
+instantiate the person class here, with an enemy, so let's go ahead and, with
+
+6
+
+00:00:41,250  -->  00:00:49,590
+a player, so "player = Person(460, 65, 60, 34, magic)" and we're going to pass the HP, so let's say
+
+7
+
+00:00:49,590  -->  00:01:00,660
+460, MP going to be 65, attack power
+is going to be 60, defense is going to be 34,
+
+8
+
+00:01:00,660  -->  00:01:04,680
+we are a mage, and then magic what we're going to do is we're going to create an
+
+9
+
+00:01:04,680  -->  00:01:09,689
+array, and then inside of that array
+we're going to create multiple objects,
+
+10
+
+00:01:09,689  -->  00:01:14,580
+and actually let's create that up on the
+line above so it looks a bit nicer. So
+
+11
+
+00:01:14,580  -->  00:01:16,530
+let's just do this,
+
+12
+
+00:01:16,530  -->  00:01:25,439
+there. So, let's go ahead and create a
+magic array "magic = [{ }]" and each spell is going to
+
+13
+
+00:01:25,439  -->  00:01:26,939
+have a "name":
+
+14
+
+00:01:26,939  -->  00:01:39,390
+This is going to be "Fire", going to have a
+"cost": 10,
+
+15
+
+00:01:39,390  -->  00:01:44,759
+it's also going to have a "dmg":
+property. The damage for this one is
+
+16
+
+00:01:44,759  -->  00:01:52,170
+going to be, lets say, and I mean I really
+haven't balanced any of this out in my
+
+17
+
+00:01:52,170  -->  00:01:58,469
+head but let's say "60}]" and then
+what we can do is copy this a few times
+
+18
+
+00:01:58,469  -->  00:02:05,670
+and make multiple spells. We're going to
+name this one
+
+19
+
+00:02:06,210  -->  00:02:08,630
+"Thunder"
+
+20
+
+00:02:08,630  -->  00:02:14,000
+and then once more I'm going to
+
+21
+
+00:02:15,350  -->  00:02:19,340
+my name this one "Blizzard" and again if you've played any role playing games you'll
+
+22
+
+00:02:19,340  -->  00:02:26,900
+note these are three of the most common
+spells that you have. So, once we get the
+
+23
+
+00:02:26,900  -->  00:02:32,180
+player instantiated we have a class that
+can actually do something, so we're going
+
+24
+
+00:02:32,180  -->  00:02:34,340
+to generate the damage, and
+
+25
+
+00:02:34,340  -->  00:02:45,440
+we're going to run a few times. So "print(player.generate_damage())" and again, and
+
+26
+
+00:02:45,440  -->  00:02:51,740
+once more just so we can see that it is
+in fact working. So let's go ahead and
+
+27
+
+00:02:51,740  -->  00:02:57,950
+save this and then run it, we see the
+first time it says 57, 67, 60 so it is
+
+28
+
+00:02:57,950  -->  00:03:02,660
+generating a bit of a random number for
+the damage, that's awesome.
+
+29
+
+00:03:03,170  -->  00:03:08,480
+Let's go ahead and now that we've
+got the spells setup let's go ahead and
+
+30
+
+00:03:08,480  -->  00:03:12,140
+look at the generate spell damage how
+we're going to do that. So let's define
+
+31
+
+00:03:12,140  -->  00:03:20,540
+another method called "def generate_spell_damage(self, i): and we need an ink index number
+
+32
+
+00:03:20,540  -->  00:03:26,390
+here because it's an array, so we'll be
+able to pass it the number 1, 2, 3,
+
+33
+
+00:03:26,390  -->  00:03:31,520
+or actually 0, 1,  or 2 and we'll be
+able to access each object and we can
+
+34
+
+00:03:31,520  -->  00:03:36,500
+take the damage. So let's say Thunder did
+80, you know, it's going to look up a
+
+35
+
+00:03:36,500  -->  00:03:40,580
+different so we need to be able to select
+that. Let's go ahead and jump into this
+
+36
+
+00:03:40,580  -->  00:03:45,920
+method. So how we're going to do this is...
+
+37
+
+00:03:57,770  -->  00:04:11,480
+we're gonna say the same thing. So we're
+gonna set "mgl = self.magic [ ]"
+
+38
+
+00:04:11,480  -->  00:04:18,620
+this is where our magic spells are stored, then we get the index
+
+39
+
+00:04:18,620  -->  00:04:26,840
+number and so we're going to put that in
+here "[i]", and then we get the "["dmg"]" property
+
+40
+
+00:04:26,840  -->  00:04:33,200
+and we're going to do "-5" and
+then "mgh =
+
+41
+
+00:04:33,200  -->  00:04:44,540
+self.magic[i] ["dmg"] + 5" and what we're going to do is we're
+
+42
+
+00:04:44,540  -->  00:04:58,880
+going to "return random.randrange(mgl, mgh)" So, let's go ahead and jump over
+
+43
+
+00:04:58,880  -->  00:05:13,040
+here and let's "print(player_generate_spell_damage(0))" and then we will also
+
+44
+
+00:05:13,040  -->  00:05:23,240
+"print(player.generate_ spell_damage(1))" save this and go ahead and hit the Run button, and
+
+45
+
+00:05:23,240  -->  00:05:29,030
+what we'll see is that it is grabbing
+them properly because if we're only I
+
+46
+
+00:05:29,030  -->  00:05:35,090
+think doing negative or -5 of their
+60 would only be able to go from 55 to
+
+47
+
+00:05:35,090  -->  00:05:41,810
+60, and so 76 is four less than 80 so it
+is actually picking those up correctly.
+
+48
+
+00:05:41,810  -->  00:05:47,900
+So that's how we're going to be
+calculating both the regular attack
+
+49
+
+00:05:47,900  -->  00:05:52,760
+damage and the spell damage. Now what we need to do is create a function for the
+
+50
+
+00:05:52,760  -->  00:05:58,730
+player or enemy to take damage. So we're
+going to "def take_damage(self,dmg):" and it's
+
+51
+
+00:05:58,730  -->  00:06:03,560
+going to take self and damage. So we're
+actually going to pass that number into
+
+52
+
+00:06:03,560  -->  00:06:08,479
+this function, so let's go ahead and
+basically all we're going to do is a
+
+53
+
+00:06:09,050  -->  00:06:18,949
+subtract the amount of damage from the
+current HP. So, "self.hp -= dmg"
+
+54
+
+00:06:18,949  -->  00:06:25,490
+So what that's going to do is
+that's going to basically just take away
+
+55
+
+00:06:25,490  -->  00:06:32,690
+the damage mount from the HP, and then
+what we need to do is a bit of truth
+
+56
+
+00:06:32,690  -->  00:06:36,379
+checking, I guess. we need to check
+
+57
+
+00:06:36,379  -->  00:06:42,710
+"if self.hp &lt; 0: which we never
+want it to be because all of our code is
+
+58
+
+00:06:42,710  -->  00:06:46,250
+going to assume that the hit points are
+either 0 or higher.
+
+59
+
+00:06:46,250  -->  00:06:55,069
+We're going to "self.hp = 0" then what we're going to do is we're going to
+
+60
+
+00:06:55,069  -->  00:06:58,460
+"return self.hp"

@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.480 --> 00:01.170
+Good.
+
+00:01.170 --> 00:04.090
+We know how to use up some elements.
+
+00:04.140 --> 00:08.990
+Next let's look at how we can work with strong and emphasise elements.
+
+00:09.170 --> 00:15.210
+And we're gonna do the same old spiel where we're gonna create some kind of paragraph and let's say
+
+00:15.210 --> 00:18.720
+within the paragraph I'm gonna say I don't know 30 words.
+
+00:18.750 --> 00:20.070
+I think that's gonna be more than enough.
+
+00:20.730 --> 00:26.490
+And then if I would like to use the strong and M moments most just gonna have to create them somewhere
+
+00:26.490 --> 00:29.680
+within this paragraph again they can be really anywhere.
+
+00:29.730 --> 00:34.890
+Just make sure if you'd like to have the aim suggestion you need to make like a little bit of space
+
+00:35.340 --> 00:40.620
+as you can see if I press spacebar and this is gonna create a space and now I can write whatever element
+
+00:40.650 --> 00:41.930
+I would like to have.
+
+00:41.970 --> 00:47.010
+So since I'm looking for the strong element this is where I would like to play some text.
+
+00:47.030 --> 00:52.490
+I'm gonna I'm just gonna grab whatever text I would like or hear these three words or the whole sentence.
+
+00:52.490 --> 00:53.690
+It doesn't really matter.
+
+00:53.850 --> 00:55.660
+And the moment we'll get a copy and paste it.
+
+00:56.100 --> 01:01.440
+Notice that the text that is within the strong text is bold.
+
+01:01.440 --> 01:02.860
+Now let me cover emphasis.
+
+01:02.880 --> 01:08.010
+And then we're gonna go a little bit more detail because there's more than meets the eye with these
+
+01:08.010 --> 01:09.170
+two elements.
+
+01:09.270 --> 01:14.260
+So let's say again we're going to pick some words and then whatever amount of words we would like.
+
+01:14.340 --> 01:15.310
+So let's say em.
+
+01:15.360 --> 01:22.290
+So I would stand for emphasis and let's say in this case pick a little bit more words and just copy
+
+01:22.360 --> 01:30.150
+paste it and sure enough as you can see right now the text that is within the emphasised element is
+
+01:30.150 --> 01:32.640
+right now displayed italic.
+
+01:32.640 --> 01:34.290
+So it's a little bit slanted.
+
+01:34.290 --> 01:39.900
+Now the key with these two elements is like I said there's more than meets the eye because we could
+
+01:39.900 --> 01:43.950
+have achieved this simply using the SPSS.
+
+01:44.060 --> 01:49.260
+In general you would always prefer to assess just because you want to have all your styles in one place
+
+01:49.680 --> 01:52.860
+and serve as an email just for a structure.
+
+01:52.860 --> 01:54.820
+You don't want to mix and match them.
+
+01:54.900 --> 02:01.830
+Now in this case however is the fact that within the strong and within E M elements being emphasis elements
+
+02:02.550 --> 02:05.280
+also help us with accessibility.
+
+02:05.280 --> 02:11.550
+So let's say you have a user who is accessing your project with a screen reader then the screen reader
+
+02:11.550 --> 02:13.770
+is going to treat this differently.
+
+02:13.860 --> 02:18.740
+Let's say whatever is within a strong as well as whatever we have within the emphasis.
+
+02:18.750 --> 02:23.490
+So that's always you should keep an eye on wherever you're working with strong and emphasize elements.

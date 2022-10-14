@@ -1,0 +1,651 @@
+1
+
+00:00:00,000  -->  00:00:05,100
+Hey guys, welcome back. So we're done
+with section 2. Section 2 is basically
+
+2
+
+00:00:05,100  -->  00:00:12,900
+basic concepts that we needed for
+programming with Python, and so we
+
+3
+
+00:00:12,900  -->  00:00:16,830
+learned some stuff enough to actually
+build a program, and now we're going to
+
+4
+
+00:00:16,830  -->  00:00:20,699
+get into more advanced things. So the
+first thing I wanted to start out with
+
+5
+
+00:00:20,699  -->  00:00:25,500
+is the pep guidelines, and this is
+because throughout this course you're
+
+6
+
+00:00:25,500  -->  00:00:29,310
+not only going to have to get use to the syntax of Python, but you're going to have to
+
+7
+
+00:00:29,310  -->  00:00:36,030
+get used to writing it properly. So let's
+go ahead and get started. First, let's
+
+8
+
+00:00:36,030  -->  00:00:39,390
+cover imports because that's going to be
+at the top of the file. So when you
+
+9
+
+00:00:39,390  -->  00:00:45,210
+import something let's say we wanted to
+import two modules we want to import OS
+
+10
+
+00:00:45,210  -->  00:00:51,930
+and sys "import os, sys" which are two modules that Python includes, or it actually ships with,
+
+11
+
+00:00:51,930  -->  00:00:57,420
+so you have these two modules right away. What you're seeing there is bad, so it
+
+12
+
+00:00:57,420  -->  00:01:00,780
+will actually underline it and it says
+unused enforce statement, that's not the
+
+13
+
+00:01:00,780  -->  00:01:02,070
+reason it's bad,
+
+14
+
+00:01:02,070  -->  00:01:07,950
+we're actually comma separating
+different modules entirely. So we don't
+
+15
+
+00:01:07,950  -->  00:01:13,229
+want to do that. What we want to do
+instead is actually import on separate
+
+16
+
+00:01:13,229  -->  00:01:16,229
+lines, multiple modules.
+
+17
+
+00:01:16,770  -->  00:01:24,810
+However, if you're importing
+multiple classes from a module, you can
+
+18
+
+00:01:24,810  -->  00:01:36,090
+actually comma separate the values. So
+you type from my module include foobar
+
+19
+
+00:01:36,090  -->  00:01:39,090
+"from MyModule include foo, bar, foobar"
+
+20
+
+00:01:42,370  -->  00:01:46,390
+and this is underlining it red because I
+don't have a module named "MyModule"
+
+21
+
+00:01:46,390  -->  00:01:51,280
+and I also I don't have any of these
+created, but you should be able to
+
+22
+
+00:01:51,280  -->  00:01:55,630
+do it like this using comma separated
+values for an import statement and actually, I
+
+23
+
+00:01:55,630  -->  00:02:01,930
+accidentally typed include "import" So
+from the module that you want to import,
+
+24
+
+00:02:01,930  -->  00:02:09,040
+import, and then a comma separated list,
+or comma separated string of what you
+
+25
+
+00:02:09,040  -->  00:02:15,580
+want to include, so that's okay like that.
+Now from this point we need to drop down
+
+26
+
+00:02:15,580  -->  00:02:20,740
+not one line, but two lines, so I've got
+two black lines there, and then we can
+
+27
+
+00:02:20,740  -->  00:02:26,020
+start with defining classes and
+functions if we want. So what we're going
+
+28
+
+00:02:26,020  -->  00:02:32,650
+to do is let's create a couple of
+functions. "So, I def my_function( )"
+
+29
+
+00:02:32,650  -->  00:02:35,920
+there's a few things that I want to
+point out here. First, let's go ahead and
+
+30
+
+00:02:35,920  -->  00:02:38,920
+give this function some parameters "(one, two, three, four, five, six)"
+
+31
+
+00:02:42,250  -->  00:02:54,790
+Now, once we've got a bunch of parameters we want to keep this readable ,and so
+
+32
+
+00:02:54,790  -->  00:03:01,630
+sometimes it's necessary to break each
+to break it down to a few lines. This is
+
+33
+
+00:03:01,630  -->  00:03:07,150
+how it should look where the parameters
+are start being instantiated should be
+
+34
+
+00:03:07,150  -->  00:03:12,790
+the beginning of each next new line. So
+for instance, that would not be correct,
+
+35
+
+00:03:12,790  -->  00:03:20,230
+right, that would definitely not be
+correct. I think it will actually unline it
+
+36
+
+00:03:20,230  -->  00:03:29,950
+underline, yeah, so visual indentations
+what it's talking about. Alright, let's go
+
+37
+
+00:03:29,950  -->  00:03:34,269
+ahead and create another function called
+"def second_function( ):" It's going to take no
+
+38
+
+00:03:34,269  -->  00:03:45,070
+parameters, but it is just going to "print("Second function")" There's a problem with this is
+
+39
+
+00:03:45,070  -->  00:03:48,580
+well because there's only one line
+between these two declarations of
+
+40
+
+00:03:48,580  -->  00:03:52,390
+functions or definition, so we need to
+add two lines between top level
+
+41
+
+00:03:52,390  -->  00:03:53,350
+functions
+
+42
+
+00:03:53,350  -->  00:04:00,550
+and top level classes as well. So,
+between the end of one function and the
+
+43
+
+00:04:00,550  -->  00:04:09,280
+definition of another function you need
+two blank lines. Now, the indentation that
+
+44
+
+00:04:09,280  -->  00:04:10,960
+I showed you up in my function here,
+
+45
+
+00:04:10,960  -->  00:04:18,010
+that's also true for lists. So if I want to
+create my list which is going to be a
+
+46
+
+00:04:18,010  -->  00:04:27,340
+list of numbers and I wanted to break
+each item in the list down, it should be
+
+47
+
+00:04:27,340  -->  00:04:34,750
+indented the same way which means,
+basically think of like a width kind of
+
+48
+
+00:04:34,750  -->  00:04:40,690
+thing of this list. It starts here and then
+the entire list is like, what, three or
+
+49
+
+00:04:40,690  -->  00:04:48,970
+four columns. It's 1, 2, 3, 4 and then that, and so the end of it should be visually
+
+50
+
+00:04:48,970  -->  00:04:52,900
+indented, I mean you do this, you wouldn't
+do that, and you wouldn't do
+
+51
+
+00:04:52,900  -->  00:04:58,390
+that, and know you this is how the
+proper indentation should look. Now
+
+52
+
+00:04:58,390  -->  00:05:04,630
+let's go ahead and jump into PyCharms
+preferences for the next one, code style,
+
+53
+
+00:05:04,630  -->  00:05:06,100
+here we go.
+
+54
+
+00:05:06,100  -->  00:05:11,890
+So in PyCharm again go into
+preferences.
+
+55
+
+00:05:12,460  -->  00:05:20,440
+Once you're there, you're going to see
+tabs and indents, and so this is another
+
+56
+
+00:05:20,440  -->  00:05:25,960
+pep guideline, basically it's recommended
+that you use four space characters like
+
+57
+
+00:05:25,960  -->  00:05:30,460
+1, 2, 3, 4, and you can tell because, i'm not
+sure if you guys can see this but,
+
+58
+
+00:05:30,460  -->  00:05:35,380
+there's little dots here under each one,
+and also you can go left and right along
+
+59
+
+00:05:35,380  -->  00:05:39,760
+them. So when using the tab key what it's
+going to do is insert 4 spaces instead
+
+60
+
+00:05:39,760  -->  00:05:47,920
+of actually the tab character. However,
+you can change this to use the tab
+
+61
+
+00:05:47,920  -->  00:05:56,830
+character instead, and you'll see that
+when we go left and right it's a width
+
+62
+
+00:05:56,830  -->  00:06:02,620
+four spaces, so it will work with Python.
+But, we don't want to do that unless the
+
+63
+
+00:06:02,620  -->  00:06:06,040
+code that you're working on somebody
+else already did that,
+
+64
+
+00:06:06,040  -->  00:06:10,330
+then you should do it the same way, and
+that's just for consistency within the
+
+65
+
+00:06:10,330  -->  00:06:11,470
+code you don't want to
+
+66
+
+00:06:11,470  -->  00:06:17,080
+mix &amp; mash. So for right now just set your tab size to fou,r indent to four, and
+
+67
+
+00:06:17,080  -->  00:06:26,680
+continuation indent to 8, I guess, yeah. So,
+click OK there, and that's all we're
+
+68
+
+00:06:26,680  -->  00:06:31,750
+going to talk about indentation, really.
+The maximum line length should be 79
+
+69
+
+00:06:31,750  -->  00:06:39,280
+characters, this should be already set in
+in PyCharm. So another one that we
+
+70
+
+00:06:39,280  -->  00:06:45,370
+should talk about here is over usage, i'm
+going to remove that because that red
+
+71
+
+00:06:45,370  -->  00:06:53,020
+line is getting annoying, over usage of whitespace. Some people think it makes it look more
+
+72
+
+00:06:53,020  -->  00:06:56,500
+readable, but it doesn't. So, for instance,
+
+73
+
+00:06:56,500  -->  00:07:11,050
+this is bad. If we remove the the
+white space around the string here
+
+74
+
+00:07:11,050  -->  00:07:12,070
+that's good.
+
+75
+
+00:07:12,070  -->  00:07:17,080
+Don't put any white space between, just I mean use your logic a bit, you
+
+76
+
+00:07:17,080  -->  00:07:23,050
+wouldn't also do this, and leave no
+whitespace because that's not how we use
+
+77
+
+00:07:23,050  -->  00:07:28,330
+a comma i guess in the English language.
+So, it should feel natural when you're
+
+78
+
+00:07:28,330  -->  00:07:33,670
+writing Python code to do things a
+certain way. Now the same is true if I
+
+79
+
+00:07:33,670  -->  00:07:38,770
+have this list right here and I wanted
+to reference the first item in it.
+
+80
+
+00:07:38,770  -->  00:07:43,540
+What I would do is "my_list" here's how I
+would instantiate it,
+
+81
+
+00:07:44,080  -->  00:07:49,750
+that is correct, that is not correct,
+
+82
+
+00:07:51,040  -->  00:07:55,030
+that's too much white space so we just
+don't add white space there. Same is true for
+
+83
+
+00:07:55,030  -->  00:08:02,020
+functions. Don't use too little, but then
+also don't use too much, you know.
+
+84
+
+00:08:02,020  -->  00:08:07,840
+Again, it should feel like you're writing
+in English, so that's pretty neat
+
+85
+
+00:08:07,840  -->  00:08:12,730
+regarding Python there. I mean it
+just by nature feels more natural.
+
+86
+
+00:08:14,710  -->  00:08:18,639
+This is also true
+
+87
+
+00:08:18,639  -->  00:08:30,999
+for math equations. So, if I wanted to set "x = 3 * 52 + 7" you might think,
+
+88
+
+00:08:30,999  -->  00:08:37,630
+oh, well, this looks perfectly fine. So, in
+this instance the reason that this white
+
+89
+
+00:08:37,630  -->  00:08:41,709
+spacing is incorrect basically I mean
+use your own judgment, but here if you
+
+90
+
+00:08:41,709  -->  00:08:47,470
+want to add any white space to this
+equation, you should add it at the
+
+91
+
+00:08:47,470  -->  00:08:52,029
+lowest priority operator. So in this case
+the multiplication is going to have a
+
+92
+
+00:08:52,029  -->  00:08:55,300
+higher priority than the addition which
+means that's going to happen first and
+
+93
+
+00:08:55,300  -->  00:09:01,360
+also if we put it like that. So "7*2"
+and "3*52" hold a higher priority than
+
+94
+
+00:09:01,360  -->  00:09:05,410
+in addition, so both of these are going
+to be evaluated as multiplication first
+
+95
+
+00:09:05,410  -->  00:09:09,790
+and then added together, which means the addition sign here has a lower priority
+
+96
+
+00:09:09,790  -->  00:09:13,959
+than the multiplication, so you can
+separate, you can play space
+
+97
+
+00:09:13,959  -->  00:09:21,339
+around the low priority operator there,
+and this is good, but this is not good,
+
+98
+
+00:09:21,339  -->  00:09:24,820
+and also keep your white space, keep
+everything consistent. If you do one
+
+99
+
+00:09:24,820  -->  00:09:29,589
+thing in one place, and the same
+circumstances are true in another place, do
+
+100
+
+00:09:29,589  -->  00:09:36,670
+the same there. Now regarding if
+statements and how it should look, "if
+
+101
+
+00:09:36,670  -->  00:09:45,670
+check is True:" what we need to do now is
+drop down to the next line and "print(
+
+102
+
+00:09:45,670  -->  00:09:59,260
+"This is true")" and we're just going to
+define "check = True" here. So, you guys
+
+103
+
+00:09:59,260  -->  00:10:03,310
+already know how this is going to run,
+but this is how you should be writing it.
+
+104
+
+00:10:03,310  -->  00:10:08,709
+You might want to put a extra line there.
+You should not be writing if statements
+
+105
+
+00:10:08,709  -->  00:10:13,209
+like this, this is just, I mean it's just not
+good.
+
+106
+
+00:10:13,209  -->  00:10:22,600
+Now when you're calling a function, you
+could let's say if check is true, and we're
+
+107
+
+00:10:22,600  -->  00:10:25,600
+going to continue in this statement here,
+
+108
+
+00:10:29,670  -->  00:10:37,470
+or actually let's just write it outside of the
+statement. So, again, this is incorrect,
+
+109
+
+00:10:39,660  -->  00:10:43,290
+you don't wanna write it like this. Let's
+say we're going to call three functions.
+
+110
+
+00:10:43,290  -->  00:10:58,680
+So, "func_one( ) ; func_two( ); func_three( );"  However, don't do
+
+111
+
+00:10:58,680  -->  00:11:05,190
+this, it's is just bad. So if you're going
+to call multiple functions, do it on
+
+112
+
+00:11:05,190  -->  00:11:10,950
+different lines. So that's all I want to
+talk to you guys this point about pep
+
+113
+
+00:11:10,950  -->  00:11:11,600
+guidelines.

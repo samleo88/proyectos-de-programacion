@@ -1,0 +1,385 @@
+WEBVTT
+
+00:02.120 --> 00:11.840
+Through audio we know that are going to head over to style C assess and copy and paste it like so.
+
+00:11.860 --> 00:18.210
+Then again I'm going to change these values around and we're going to say not featured.
+
+00:18.530 --> 00:25.930
+But of course the name is gallery to cursors gallery and then within the comments why don't we first
+
+00:26.020 --> 00:30.440
+add some kind of background gallery background.
+
+00:30.580 --> 00:37.790
+I'm gonna shoot for dark gray so dark gray is going to be my background car.
+
+00:38.390 --> 00:39.810
+That I would like to place.
+
+00:39.820 --> 00:44.460
+In fact my little icon in the center of the image.
+
+00:44.500 --> 00:48.460
+And again we do have our container the image container.
+
+00:48.460 --> 00:55.960
+So why don't we write gallery image container is going to be position relative just so we can place
+
+00:55.960 --> 01:00.990
+the icon all the way in the center as well as we're gonna add some background color.
+
+01:01.000 --> 01:06.640
+Now the reason why I'm adding the background color because as we're going to hover over this particular
+
+01:06.640 --> 01:13.070
+item in fact what is going to happen we're going to have this primary color known as a maverick.
+
+01:13.150 --> 01:20.110
+We have this light green color and that's the reason why we set this up as a background.
+
+01:20.110 --> 01:22.940
+And we see this as a primary color.
+
+01:22.960 --> 01:30.010
+Now currently we're only going to be able to see this in the bottom no move later on we're gonna do
+
+01:30.010 --> 01:38.400
+some magic with an image and that's the reason why there's going to be this light green color now first
+
+01:38.400 --> 01:41.160
+of all why don't we place it in the center.
+
+01:41.160 --> 01:48.990
+So let's read gallery icon and let's use position position absolute.
+
+01:49.550 --> 01:52.610
+Now of course now an icon is just hidden.
+
+01:52.610 --> 02:03.650
+But what we would like to do is set it as top 50 per cent then so that's it left 50 percent.
+
+02:03.650 --> 02:05.420
+And let's see what would be the result.
+
+02:06.110 --> 02:10.720
+So it is probably hard to see but that is in fact our icon.
+
+02:10.760 --> 02:13.770
+Now first of all why do we increase the font size.
+
+02:13.870 --> 02:15.740
+And I'm going gonna go with two point.
+
+02:15.740 --> 02:18.310
+I don't know if five rhythms.
+
+02:18.470 --> 02:24.800
+So our icon is quite big but we can clearly see that the icon is in fact not sitting in the center.
+
+02:24.800 --> 02:30.630
+Now in order to fix that we would need to in fact use the transform property.
+
+02:30.860 --> 02:34.200
+So let's use transform property with a translate.
+
+02:34.220 --> 02:39.490
+So I'd like to translate my icon 50 percent off its own width and height.
+
+02:39.920 --> 02:46.890
+And when we set the first one minus 50 percent in this case the icon is going to move left.
+
+02:46.920 --> 02:55.010
+Mind if we sit at minus 50 percent to a top while it's going to move 50 percent of the top let's say
+
+02:55.070 --> 02:55.890
+it.
+
+02:56.000 --> 02:56.930
+There you go.
+
+02:56.960 --> 02:58.800
+Icon is sitting in the center.
+
+02:58.850 --> 03:01.470
+Now also let's add some color.
+
+03:01.940 --> 03:05.720
+Main white thing that is going to be appropriate.
+
+03:05.740 --> 03:06.070
+Yes.
+
+03:06.080 --> 03:07.430
+That is our icon.
+
+03:07.430 --> 03:12.140
+Why don't we also add cursor pointer on like so.
+
+03:12.350 --> 03:15.260
+And then what else what else what else.
+
+03:15.260 --> 03:22.130
+Well I would like to show this icon as I'm hovering correct but I would want to show it over some period
+
+03:22.130 --> 03:22.720
+of time.
+
+03:22.790 --> 03:24.970
+So I'm gonna use my transition.
+
+03:25.160 --> 03:30.190
+Let's use transition var and main transition.
+
+03:30.200 --> 03:30.970
+All right.
+
+03:31.010 --> 03:33.800
+Now lastly I would like to hide it by default.
+
+03:34.160 --> 03:36.590
+So as the page loads it's gonna be hidden.
+
+03:36.590 --> 03:45.230
+That's the reason why I have a policy of zero and only when we're going to hover in fact over our container
+
+03:45.620 --> 03:48.230
+then I'm going to show my icon.
+
+03:48.260 --> 03:52.830
+Now first things first as far as gallery image.
+
+03:53.030 --> 03:57.660
+Remember we had not only image container but also gallery image.
+
+03:57.680 --> 04:04.320
+So what I would like to do is change the opacity when I'm hovering over the particular container.
+
+04:04.340 --> 04:04.950
+All right.
+
+04:05.000 --> 04:10.360
+So first of all let's say for the gallery image I'm going to use as well the transition because I don't
+
+04:10.360 --> 04:13.500
+want that change to happen over time.
+
+04:13.730 --> 04:22.430
+So let's have transition as main transition and then let's set up two rules one for the gallery image
+
+04:22.730 --> 04:25.210
+and the second one for the gallery icon.
+
+04:25.250 --> 04:27.110
+So let's start with gallery image.
+
+04:27.110 --> 04:33.950
+So as I'm hovering over the container so gallery hyphen image hyphen container as we're hovering over
+
+04:33.950 --> 04:34.130
+it.
+
+04:34.700 --> 04:40.550
+While I would like to target gallery image and I would like to change the opacity I would like to change
+
+04:40.550 --> 04:42.140
+the capacity to zero point five.
+
+04:42.590 --> 04:49.010
+And that's the reason why previously we set up this transition because I would want to have this opacity
+
+04:49.460 --> 04:51.630
+to in fact change over time.
+
+04:51.830 --> 04:56.600
+And we also notice something interesting where now we can see our color.
+
+04:56.630 --> 05:02.300
+Remember when we set up our background color initially we were not able to see color but now we are
+
+05:02.300 --> 05:05.920
+able to see because the opacity on image changes.
+
+05:05.990 --> 05:10.280
+So if let's say I'm going to change this color to let's say red.
+
+05:10.320 --> 05:11.690
+And of course I'm going to remove it.
+
+05:11.690 --> 05:15.950
+But just to give you an idea then of course you're going to have this kind of background.
+
+05:16.310 --> 05:17.100
+OK.
+
+05:17.420 --> 05:21.250
+Now let's in fact say that we have our first thing.
+
+05:21.410 --> 05:23.200
+The opacity of image changes.
+
+05:23.240 --> 05:25.820
+But now let's show in fact our icon.
+
+05:25.820 --> 05:29.810
+So what I'm gonna do right now is I'm going to copy and paste this rule.
+
+05:29.810 --> 05:31.260
+I'm going to leave the image container.
+
+05:31.270 --> 05:38.420
+However the same but we're going to target the icon instead and for the icon I'm going to change the
+
+05:38.420 --> 05:44.520
+opacity 2 1 so as we're hovering not as my icon right now shows up.
+
+05:44.970 --> 05:45.650
+OK.
+
+05:45.970 --> 05:47.590
+That was that.
+
+05:47.600 --> 05:51.120
+Now probably let's set up our column layout.
+
+05:51.440 --> 06:07.740
+So again media some media screen and men with mean with and we're gonna set this up as 7 68 pixels like
+
+06:07.780 --> 06:08.630
+so.
+
+06:08.650 --> 06:19.210
+And remember we had gallery center gallery center and I would like to set this gallery as a two column
+
+06:19.210 --> 06:19.720
+layout.
+
+06:19.720 --> 06:23.580
+So first of all let's use display looks.
+
+06:23.890 --> 06:29.950
+And when we use flex wrap right away again we already have covered why we're doing that.
+
+06:29.950 --> 06:35.560
+So let me use flex wrap and then let's start out on a bigger screen size.
+
+06:35.560 --> 06:40.440
+So that's something how our current section is going to look like.
+
+06:40.930 --> 06:42.070
+So we have flex.
+
+06:42.070 --> 06:42.710
+Yes.
+
+06:42.880 --> 06:47.500
+That is nice but there's of course a few things we wouldn't want to change.
+
+06:47.560 --> 06:55.870
+And in this case our container our Flex box child is in fact this gallery image container because let's
+
+06:55.870 --> 06:56.470
+think about it.
+
+06:56.470 --> 07:04.510
+So we have gallery center and then we have multiple children that are in fact having this single item
+
+07:04.510 --> 07:05.260
+comment.
+
+07:05.440 --> 07:13.240
+And what I would like to do right now is in fact set them up as a 50 percent of the layout so let's
+
+07:13.240 --> 07:24.660
+target the gallery hyphen image can Taner and let's do again flex 0 0.
+
+07:24.890 --> 07:31.400
+So our item is not going to grow or item is not going to shrink and 50 percent of the width now in this
+
+07:31.400 --> 07:36.560
+case the man going to set up the calc function because while I don't want any margins if you want the
+
+07:36.560 --> 07:38.640
+margins of course you can do it that way.
+
+07:38.720 --> 07:39.790
+I don't need any margin.
+
+07:39.800 --> 07:42.560
+So that's the reason why I have this two column layout.
+
+07:42.980 --> 07:50.570
+And then lastly let's do the same thing where once we get to the bigger screen size to let's say nine
+
+07:50.570 --> 07:57.320
+hundred ninety two we're gonna change these values so I don't care about gallery center everything is
+
+07:57.320 --> 07:58.340
+going to stay the same.
+
+07:58.340 --> 08:05.750
+So I don't need to change it and then I'm gonna say that instead of 50 percent I'm gonna have a four
+
+08:05.750 --> 08:08.880
+column layout and that's the reason why I'm using 25 percent.
+
+08:09.410 --> 08:16.070
+Now one thing that I would like to mention again all my images though are the same size not the reason
+
+08:16.070 --> 08:19.530
+why you don't have any weird layout issues.
+
+08:20.090 --> 08:23.960
+And just to pinpoint that let's head over to our backroads.
+
+08:24.260 --> 08:31.000
+Let's head over to my images and you're going to notice that if we select all the images and I'm going
+
+08:31.010 --> 08:40.460
+to zoom in here open with previous default then I'm going to I'm going to zoom out select all of them.
+
+08:41.050 --> 08:47.620
+In order to select all of them again we're just using commander if we're head over to adjust size all
+
+08:47.620 --> 08:49.570
+of them are going to be the same size.
+
+08:49.600 --> 08:53.030
+So I used a hundred by let's say 450.
+
+08:53.050 --> 08:59.110
+But you can use it wherever you like but as far as you do that then you're not going to have any weird
+
+08:59.110 --> 09:03.350
+layout issues where let's say one image is gonna be bigger or smaller.
+
+09:03.350 --> 09:04.210
+And there you go.
+
+09:04.210 --> 09:09.220
+We have our four column layout now in my opinion.
+
+09:09.220 --> 09:16.180
+Again it is my preference but I don't like to shove things like card has a four column map in my opinion
+
+09:16.180 --> 09:22.000
+the cards look very small and that's not the look that I'm going for of course you can always change
+
+09:22.300 --> 09:24.820
+the previous layout to a four column layout as well.
+
+09:25.220 --> 09:25.800
+All right.
+
+09:25.950 --> 09:30.270
+That wouldn't be an issue I just don't like the fact that cards are extremely small.
+
+09:30.430 --> 09:36.310
+But I just wanted to show that of course we can also have a four column layout the same how we can have
+
+09:36.310 --> 09:43.330
+three column layout and two column loud and just like that we're done with our gallery section and we're
+
+09:43.330 --> 09:44.950
+ready to move on to our next section.

@@ -1,0 +1,220 @@
+WEBVTT
+
+00:00.150 --> 00:03.760
+And once we are in our success we can start styling.
+
+00:04.050 --> 00:11.400
+So we're here to say this is going to be contact here and then we're going to say padding 40 pixels
+
+00:11.720 --> 00:12.720
+all around.
+
+00:12.960 --> 00:23.310
+They're going to have a background here and this is going to be to be here 9 8 EF 0 right here and then
+
+00:23.350 --> 00:28.540
+we're going to have a color of here hash tag 5 5 5 right.
+
+00:28.760 --> 00:37.230
+Then we would want to start with on their lines are going to say stack contact here and know and underline
+
+00:38.220 --> 00:43.350
+how are you going to see a border water color.
+
+00:43.450 --> 00:43.920
+Right.
+
+00:44.170 --> 00:49.100
+And this is going to be hash tag a 5 5 5 on this.
+
+00:49.390 --> 00:55.380
+Then after that what you want to do is actually have an item.
+
+00:55.890 --> 00:59.670
+I had them here in the fall.
+
+00:59.720 --> 01:05.830
+We're here and we're going to say all here like this display we're here and flex and what I'm talking
+
+01:05.830 --> 01:07.700
+about over here is these guys right.
+
+01:07.720 --> 01:11.000
+So you hear see or hear someone see text All right.
+
+01:11.060 --> 01:13.810
+So one font or some one side and text on the other.
+
+01:13.810 --> 01:20.270
+Right so one of them side by side so I'm going to say flux over here then I'm going to say margin and
+
+01:20.260 --> 01:29.560
+I'm going to say 20 pixels here zero using this and font size and this is going to be 30 pixels on here
+
+01:29.560 --> 01:30.130
+like this.
+
+01:30.140 --> 01:32.290
+All right so both of them 30 pixels.
+
+01:32.590 --> 01:42.230
+Then what we're going to have is I had some info here and fantastic on this and we're going to say margin.
+
+01:42.550 --> 01:43.460
+I'm going to say right.
+
+01:43.480 --> 01:45.780
+Twenty pixels are here.
+
+01:45.780 --> 01:51.760
+All right so now we got our little space over here then we're going to have a form foot so I'm going
+
+01:51.760 --> 01:59.750
+to save room and put more here and then I'm going to save display display block on here and this.
+
+01:59.770 --> 02:04.170
+Right now you can see how they're displaying instead of in line now they are on display.
+
+02:04.210 --> 02:09.830
+Block with you going right away say hundred percent here.
+
+02:09.880 --> 02:12.470
+Now they're spanning all across the screen.
+
+02:12.530 --> 02:13.100
+Right.
+
+02:13.420 --> 02:17.870
+And then after that we're going to have a margin on the margin we're going to say like this.
+
+02:17.870 --> 02:21.260
+This is going to be 10 pixels zero.
+
+02:21.670 --> 02:27.830
+We're here then we're going to have a fun size twenty five pixels like this.
+
+02:27.830 --> 02:34.130
+All right so font sizes got bigger then you are going to have a panning 10 pixels over here.
+
+02:34.370 --> 02:44.870
+Then we're going to have a background transparent on this and then we're going to have a border and
+
+02:45.110 --> 02:46.770
+we're going to say none.
+
+02:46.770 --> 02:50.110
+All right so we're going to we want to get rid of these borders all around.
+
+02:50.410 --> 02:51.970
+So none more here.
+
+02:52.030 --> 03:01.660
+However what we would want or we're all going to say border bottom I would say that's safe for pixels
+
+03:02.790 --> 03:11.700
+solid solid or here and this is going to be hash tag 5 5 5 1.
+
+03:12.040 --> 03:15.020
+And then after that you would want a form input.
+
+03:15.090 --> 03:21.200
+So I'm going to go here for and put that on here like this placeholder.
+
+03:21.310 --> 03:23.500
+I here we're going to have a color.
+
+03:23.500 --> 03:25.180
+So we're going to have color hash tag.
+
+03:25.180 --> 03:27.190
+F5 F5 F5.
+
+03:27.210 --> 03:27.790
+All right.
+
+03:27.790 --> 03:34.150
+So now basically what I'm saying is that I would want for the form input to have a white text over here
+
+03:34.150 --> 03:37.870
+instead of that great one right now that we have this.
+
+03:38.040 --> 03:42.040
+Let's go ahead and let's actually style this link over here.
+
+03:42.120 --> 03:42.760
+Right.
+
+03:43.020 --> 03:51.540
+So we're here we're going to say this is going to be a customer here in full.
+
+03:51.830 --> 03:59.170
+And first of all them to say this play and we're going to say this play block and I can see that it's
+
+03:59.200 --> 04:05.710
+spanning all across that we're going to have a padding 20 pixels here like this.
+
+04:05.720 --> 04:09.180
+They're going to have a margin on here top.
+
+04:09.180 --> 04:15.640
+I'm going to say 30 pixels or pixels or here text decoration.
+
+04:16.170 --> 04:18.080
+None here.
+
+04:18.200 --> 04:23.740
+They all going to have a font size 30 pixels on here like this.
+
+04:23.930 --> 04:30.590
+We're going to have over here a margin for the actual war here for these guys right.
+
+04:30.630 --> 04:34.970
+So we need to figure out how we would actually separate them right here.
+
+04:34.990 --> 04:42.640
+One of the ways we can do is actually display flex on here and we can just say justify content and we
+
+04:42.680 --> 04:45.610
+can just say all of this right.
+
+04:45.630 --> 04:48.040
+So they're evenly distributed.
+
+04:48.050 --> 04:54.960
+They're going to say a color five five a five year background.
+
+04:54.960 --> 04:57.820
+Hash tag 1 9 1 9 1 9.
+
+04:58.230 --> 05:02.040
+You know this area and we're going to have a transition.
+
+05:02.190 --> 05:05.990
+This is going to be background on here.
+
+05:06.000 --> 05:13.280
+Two seconds is easily here and then we're going to have a hovering effect.
+
+05:13.290 --> 05:13.980
+Right.
+
+05:14.040 --> 05:15.660
+So this is going to be customer
+
+05:18.250 --> 05:19.140
+here.
+
+05:19.250 --> 05:20.710
+This is going to be info.
+
+05:21.080 --> 05:24.300
+We're going to have a this is going to be however.
+
+05:24.680 --> 05:33.380
+And then we're going to have a background it's going to be a hashtag in 1999 would be like this.
+
+05:33.380 --> 05:38.650
+So basically as I'm hollering this is going to change and I can see that it actually turns gray.
+
+05:38.930 --> 05:43.420
+And now that we're done with this the last thing that we need to do is we need to make this responsive.

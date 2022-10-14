@@ -1,0 +1,481 @@
+WEBVTT
+
+00:00.390 --> 00:07.110
+We also need to cover the fact that browser does respect top bottom margin and padding for block elements
+
+00:07.560 --> 00:10.310
+but does not respect it for inline elements.
+
+00:10.830 --> 00:15.900
+And in order to hit this home we'll make a simple mobile number in the process.
+
+00:15.900 --> 00:21.390
+We're also gonna cover less style type property and the selectors in CSI.
+
+00:21.870 --> 00:23.460
+Let's start with an easy one.
+
+00:23.580 --> 00:26.690
+The block level elements or the block element.
+
+00:26.700 --> 00:31.070
+So for this I'm just going to get rid of everything that we have right now in a C assess.
+
+00:31.140 --> 00:33.270
+I'm gonna head over to the next page the email.
+
+00:33.360 --> 00:34.950
+Later on we're gonna change it.
+
+00:34.950 --> 00:40.020
+We're going to add obviously some different elements here but for now I just want to show that if I
+
+00:40.020 --> 00:44.160
+have let's say div 95 I'm gonna go here and see Asus.
+
+00:44.310 --> 00:45.350
+We already covered this.
+
+00:45.350 --> 00:51.980
+That if I'm going to add the background and say background on blue collar or white and if I'm going
+
+00:51.980 --> 00:59.010
+to add let's do the easy one padding all around is going to be 20 pixels and margin all around is also
+
+00:59.010 --> 01:00.430
+gonna be 20 pixels.
+
+01:00.450 --> 01:01.300
+Now what's going to happen.
+
+01:01.770 --> 01:06.450
+Well margin is going to be respected as well as the padding is gonna be in respect.
+
+01:06.510 --> 01:10.550
+Now it's gonna make a little bit more sense once we're gonna work with the inline ones because you'll
+
+01:10.560 --> 01:14.880
+see what happens with these elements and why they differ.
+
+01:14.940 --> 01:18.340
+Now in this case maybe we can get rid of dave AGAIN.
+
+01:18.500 --> 01:20.590
+ALL GONNA SAVE THE C assess.
+
+01:20.870 --> 01:25.260
+We all gonna delete it in nature CML and let's create our neighbor.
+
+01:25.300 --> 01:31.500
+Now no we're gonna use these on our list then we know that within the on our list we have a list element
+
+01:32.100 --> 01:34.720
+and within the list element let's place a link.
+
+01:34.890 --> 01:38.990
+Now for the link we're gonna place hash tags since this link is not going to go anywhere.
+
+01:39.120 --> 01:40.390
+And then I just gonna write home.
+
+01:40.620 --> 01:42.330
+So this is gonna be our first link.
+
+01:42.360 --> 01:44.830
+Now let me maybe make three more.
+
+01:45.130 --> 01:49.440
+And I was gonna change the values here so first and foremost I'm gonna select few of them I'm gonna
+
+01:49.470 --> 01:51.820
+delete them all of them at the same time.
+
+01:51.990 --> 01:53.270
+Then we're gonna add I don't know.
+
+01:53.280 --> 01:55.310
+This is gonna be about us page.
+
+01:55.590 --> 01:57.620
+And we're also gonna have the link to.
+
+01:57.630 --> 02:05.370
+I don't know products page and last but not least we have the link to contact us page so for pages so
+
+02:05.370 --> 02:06.350
+far so good.
+
+02:06.420 --> 02:11.730
+Once the HMO has been set up we're gonna head over back to Stiles is this and we're gonna do our styling
+
+02:12.200 --> 02:12.650
+now.
+
+02:12.750 --> 02:18.840
+First we need to understand that for now we're having these margins here that are coming by default
+
+02:18.840 --> 02:20.040
+from the browser.
+
+02:20.040 --> 02:21.410
+So we'd like to get rid of them.
+
+02:21.480 --> 02:26.590
+And remember we have an option of changing or selecting sorry all the elements.
+
+02:26.700 --> 02:31.060
+And now we already have covered these two properties where I'm just gonna add the margin.
+
+02:31.380 --> 02:37.320
+So margin right away by default at the moment is gonna be zero for all of them as well as we're gonna
+
+02:37.350 --> 02:42.660
+get rid of the padding and then there's gonna be properties that we're gonna cover in a few videos which
+
+02:42.660 --> 02:47.730
+is gonna be box sizing and we're gonna write back sizing and in this case we're going to write motorbikes
+
+02:47.990 --> 02:48.560
+again.
+
+02:48.780 --> 02:53.280
+I'm not going to cover this right now we're gonna cover it in a separate video because it's gonna make
+
+02:53.280 --> 02:55.680
+a little bit more sense so far so good.
+
+02:55.680 --> 02:57.870
+So we have right now the margin is zero.
+
+02:57.870 --> 03:00.760
+The padding is zero as well as the box sizing.
+
+03:00.870 --> 03:04.250
+So now we're having actually a far different view right now.
+
+03:04.320 --> 03:08.300
+So we got from the we got away from all the default styles.
+
+03:09.030 --> 03:09.570
+Okay.
+
+03:09.660 --> 03:10.590
+What's next.
+
+03:10.590 --> 03:12.720
+Well let's maybe add some fun family.
+
+03:12.720 --> 03:19.850
+We know that we can add it for a whole body it was great fun family is gonna be let's go with Madonna
+
+03:20.180 --> 03:25.740
+and we already know that this is gonna give us the fun snack and the last one is gonna be Eric sans
+
+03:25.740 --> 03:31.710
+serif and obviously we see right away that the fans have been successfully changed now since I want
+
+03:31.710 --> 03:34.830
+to show you the property of list style type.
+
+03:34.830 --> 03:36.510
+Let me just comment this out for now.
+
+03:36.560 --> 03:38.780
+No you don't have to do this on your end.
+
+03:38.850 --> 03:43.400
+I'm just gonna do it all here just so you can see what this property is doing because otherwise it's
+
+03:43.410 --> 03:50.250
+gonna be like well I'm sure that he's doing it correctly because nothing is changing also in the CSF
+
+03:50.280 --> 03:53.590
+we can select the children now in our case what's happening.
+
+03:53.760 --> 04:00.260
+So we have on our list correct then we have a list item which is the child of the on our list and there
+
+04:00.260 --> 04:06.040
+is actually four children and then each and every list item has the child of the link.
+
+04:06.090 --> 04:07.570
+So how we can select them.
+
+04:07.860 --> 04:10.680
+Well we have an option here of going on our list.
+
+04:10.800 --> 04:16.590
+So we're selecting on our list and then we're saying all the list items that are children off on our
+
+04:16.590 --> 04:22.950
+list we would like to select them now for them we would like to select the property of list style list
+
+04:22.950 --> 04:27.220
+style because this is obviously a list and then we have list style type.
+
+04:27.270 --> 04:33.330
+Now we have many options here again we have our mania in circle whatever disk maybe we can check it
+
+04:33.330 --> 04:39.990
+out this code works and yeah it doesn't really change anything let me see another one square me square
+
+04:39.990 --> 04:43.650
+is gonna be different now you can see that there is gonna be square.
+
+04:43.650 --> 04:50.400
+Let me try one more last one that I want to spend the whole day on them we have up a room one we have
+
+04:50.530 --> 04:53.690
+alpha let's try this maybe f or Roman.
+
+04:53.790 --> 04:59.220
+So now I have Roman numerals but mostly what you're always gonna do with the list you're gonna write
+
+04:59.220 --> 05:04.510
+some like this you're gonna say I don't want these dots I just want them clear because you will use
+
+05:04.510 --> 05:06.980
+these lists for your navigation.
+
+05:07.000 --> 05:11.320
+So in this case you're gonna be setting this up and you're gonna say a list out of none.
+
+05:11.320 --> 05:17.680
+So once we have successfully added this property list style type with a value none now we can head over
+
+05:17.770 --> 05:19.520
+or I can head over I don't know.
+
+05:19.520 --> 05:21.410
+Did you uncommon this or not.
+
+05:21.460 --> 05:23.740
+And now I'm going to uncommon this again.
+
+05:23.740 --> 05:29.860
+And now we can place it again without any default margins pairings as well as set the box sizing to
+
+05:29.860 --> 05:31.220
+the bar box.
+
+05:31.290 --> 05:34.400
+And now let's work with our links and again we can do the same thing.
+
+05:34.450 --> 05:36.540
+We have the on our list correct.
+
+05:36.730 --> 05:38.910
+Then within our list we have what.
+
+05:39.200 --> 05:40.740
+Well we have these links.
+
+05:40.810 --> 05:46.360
+Now I can do this directly I can just say all the links that are gonna be within the one on our list
+
+05:46.810 --> 05:52.840
+or we can be more precise I can say here that if there is going to be let's say for example some other
+
+05:53.260 --> 06:00.130
+link elements directly here as the children maybe it would be a little bit more precise to use this
+
+06:00.240 --> 06:01.650
+ally in our case.
+
+06:01.660 --> 06:03.430
+This is not going to make any difference.
+
+06:03.430 --> 06:08.180
+It will only make a difference if you're going to have some link elements without these list items here.
+
+06:08.290 --> 06:13.280
+That would be the case where if you want to select only those ones you'd like to use this ally.
+
+06:13.510 --> 06:16.100
+But in our case either of them would work.
+
+06:16.210 --> 06:23.110
+We can either do you well lie and then the link or you can just say well so on our list and then we're
+
+06:23.110 --> 06:28.080
+looking for the link please understand what we're going to do with the links won't let us decide.
+
+06:28.090 --> 06:31.360
+We know already that we have the tax declaration.
+
+06:31.360 --> 06:36.220
+So let me get rid of the tax declaration and I was gonna say none so far so good.
+
+06:36.220 --> 06:42.220
+Then also we know the property tax transform and for the tax transform value we're gonna use capitalized.
+
+06:42.220 --> 06:47.860
+So now while our tax is going to be capitalized also let's add some letter spacing let's say for the
+
+06:47.860 --> 06:51.590
+spacing we're going to have two pixels so far so good.
+
+06:51.700 --> 06:52.930
+And we have two pixels.
+
+06:52.930 --> 06:55.300
+Also maybe let's add some background.
+
+06:55.450 --> 06:58.810
+Let's say that the background is gonna be hashtag 2 2 2.
+
+06:58.810 --> 07:07.020
+So the background is going to be black and the color is gonna be let's say are orange f 1 5 0 2 4.
+
+07:07.570 --> 07:08.790
+So so far so good.
+
+07:08.830 --> 07:10.410
+Everything is working out.
+
+07:10.490 --> 07:17.310
+However what if I would like to make sure of f 1 5 0 2 0 0 2 5.
+
+07:17.410 --> 07:19.630
+Hopefully this is gonna be the orange one.
+
+07:19.660 --> 07:26.410
+Now the key here is I would like to add some paring here top and bottom for my element as well as maybe
+
+07:26.410 --> 07:31.270
+a little bit of margin in between now eventually once we set up everything we're not gonna have any
+
+07:31.270 --> 07:35.800
+margin but just to prove we point let's say that I would want both.
+
+07:35.800 --> 07:41.010
+I would want some padding tomorrow as well as I would want some margin to ban him.
+
+07:41.170 --> 07:41.470
+Okay.
+
+07:41.500 --> 07:42.370
+Let's try it out.
+
+07:42.730 --> 07:48.280
+Let's say first of all pairing is gonna be all around and we're just gonna say patting is gonna be five
+
+07:48.280 --> 07:49.550
+pixels.
+
+07:49.730 --> 07:52.660
+Okay already something interesting is happening.
+
+07:52.900 --> 07:58.100
+I'm having the padding but they are overlaying one on top of each other.
+
+07:58.210 --> 08:00.720
+That's definitely not the look that I want.
+
+08:00.730 --> 08:06.730
+No okay we're gonna keep on moving and I'm going to say margin is also gonna be top bottom and something
+
+08:06.730 --> 08:07.650
+left and right.
+
+08:07.690 --> 08:12.700
+However maybe since you don't believe me would be like Well okay you're just writing it incorrect.
+
+08:12.790 --> 08:13.800
+Let me try a different way.
+
+08:13.810 --> 08:19.810
+Let's say top bottom is gonna be 10 pixels as well as 10 pixels is gonna be left and right now what
+
+08:19.810 --> 08:20.620
+happens.
+
+08:20.710 --> 08:25.600
+The links are moving left and right and obviously in this case we just see the left side because there
+
+08:25.600 --> 08:30.910
+is nothing here on the right hand side but they're not moving top and bottom so what's happening.
+
+08:30.970 --> 08:37.810
+Well remember links were in line they were inline elements and what happens is that browser is not gonna
+
+08:37.870 --> 08:43.830
+respect that as you start adding these patterns here as well as the margins for the top bottom.
+
+08:44.380 --> 08:50.090
+So in our case in order to fix this we would need to make them as the block level element.
+
+08:50.170 --> 08:51.010
+So how do we do that.
+
+08:51.430 --> 08:52.980
+Well first of all let me get rid of this.
+
+08:53.050 --> 08:55.320
+Let's say that I would like to get a margin padding.
+
+08:55.410 --> 08:57.080
+We're just gonna really write this.
+
+08:57.100 --> 08:59.350
+And in this case I'm going to say this play.
+
+08:59.350 --> 09:04.560
+And now instead of in line which was the original one the default one I'm going to say display block.
+
+09:04.960 --> 09:05.880
+So check this out.
+
+09:06.150 --> 09:11.620
+So now my links are all the way from one side to another side of the screen.
+
+09:11.620 --> 09:17.340
+And now if we're gonna start adding padding and let's say for us the padding is gonna be top bottom
+
+09:17.340 --> 09:21.640
+is going to be let's say 10 pixels and then left and right is gonna be 10 pixels.
+
+09:21.640 --> 09:25.930
+Now obviously again the padding is gonna be only shown on the left hand side because there's plenty
+
+09:25.930 --> 09:27.120
+of space right here.
+
+09:27.190 --> 09:33.970
+So I'm not going to be able to see what happens right now my links are actually respecting this padding
+
+09:33.970 --> 09:34.780
+top bottom.
+
+09:34.780 --> 09:38.040
+The browser is respecting because their block element.
+
+09:38.170 --> 09:43.210
+Now the same thing if we would want to do this but again we are not technically wouldn't want to do
+
+09:43.210 --> 09:45.440
+it in the mobile menu.
+
+09:45.460 --> 09:47.350
+But I mean maybe who knows.
+
+09:47.470 --> 09:52.720
+But you could add the margin so let's say I could do just the marginal around in this case and now these
+
+09:52.720 --> 09:58.600
+10 pixels of margin of left and right are going to be respected not just the left and right just like
+
+09:58.600 --> 10:01.310
+we had previously but again in this case probably.
+
+10:01.310 --> 10:03.260
+This is not something that we're going to use.
+
+10:03.410 --> 10:09.650
+But again just to show you the four block elements the browsers will going to respect the top bottom
+
+10:09.980 --> 10:11.270
+beheading and margin.
+
+10:11.270 --> 10:18.620
+However for the inline elements they are not going to respect the top and bottom margin and padding.

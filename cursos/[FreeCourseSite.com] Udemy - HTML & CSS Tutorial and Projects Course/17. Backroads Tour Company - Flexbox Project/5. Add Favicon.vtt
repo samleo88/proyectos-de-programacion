@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.120 --> 00:07.990
+Once we have successfully added font awesome icons Well I would also like to write away set up the favor
+
+00:08.050 --> 00:13.910
+on matters that little like on that sitting side by side with my URL.
+
+00:14.070 --> 00:17.580
+And as you can see on my finished project I do have my little icon.
+
+00:18.040 --> 00:23.020
+However on the project that we're currently working well it is not displayed.
+
+00:23.640 --> 00:29.340
+Now in order to get it first and foremost we're gonna have to look for the setup files and then later
+
+00:29.340 --> 00:33.290
+on I'm gonna show you how in fact I created my particular one.
+
+00:33.330 --> 00:38.260
+So in your case if you'd like to get a different one I'll just keep on watching the video.
+
+00:38.280 --> 00:45.360
+So let's first of all head over back to the project and then within the images you're gonna notice this
+
+00:45.360 --> 00:45.890
+favor.
+
+00:45.900 --> 00:51.550
+Can I call all right now we would need to head over to a next HMO.
+
+00:51.840 --> 01:00.520
+And then let's say somewhere after these styles me close the sidebar let me write Facebook on a recon
+
+01:00.910 --> 01:05.150
+and then in this case again we're gonna have to use a link.
+
+01:05.620 --> 01:09.970
+So we're gonna write a link and visual studio called right away.
+
+01:09.970 --> 01:12.320
+Gives you this option for the favor.
+
+01:12.630 --> 01:13.230
+All right.
+
+01:13.240 --> 01:20.500
+So we do have the relationship we go with shortcut icon and then a trip is gonna have to point to our
+
+01:20.500 --> 01:21.620
+particular file.
+
+01:21.680 --> 01:29.590
+So Karen left course this file doesn't exist there and then we also have a type by the image and X icon.
+
+01:29.590 --> 01:36.490
+Now what we would need to do right now is in fact fix our path where we're looking for images and then
+
+01:36.490 --> 01:39.520
+we're looking for this favor Can I call.
+
+01:39.580 --> 01:46.150
+And then I can see clearly here all the way on the top that I successfully added My icon.
+
+01:46.210 --> 01:48.970
+So let me do it one more time.
+
+01:49.030 --> 01:55.030
+Let me generate this icon one more time just so we can maybe get your custom one for your particular
+
+01:55.030 --> 01:56.050
+project.
+
+01:56.050 --> 02:05.170
+So let me open up new browser window and let me type a vehicle on a record and it's not going to be
+
+02:05.180 --> 02:10.570
+C.C. and fact I'm going to use not the favorite on generator.
+
+02:10.570 --> 02:18.350
+I think I use this one the favorite can't iPhone let's open this in a new browser tab and then we have
+
+02:18.350 --> 02:23.180
+multiple options we can generate from damage image but I went with text.
+
+02:23.180 --> 02:25.100
+So just click on the text.
+
+02:25.130 --> 02:26.260
+Let's change this.
+
+02:26.330 --> 02:30.440
+Let's say not the F letter but I'm going to go with D.
+
+02:31.160 --> 02:36.290
+Why don't we go for different background color as well as you can see everything is customizable.
+
+02:36.290 --> 02:42.950
+So if I'm gonna go with orange of course my fave kind is going to be orange and then that's it.
+
+02:42.950 --> 02:44.390
+We just need to download it.
+
+02:44.600 --> 02:46.730
+We're gonna download the zip folder.
+
+02:46.730 --> 02:51.740
+Again let me head over back to my downloads and then within the downloads.
+
+02:51.740 --> 02:53.530
+Let's look for our favorite song.
+
+02:53.690 --> 02:56.630
+And then within the favorite one we do have the folder.
+
+02:56.840 --> 03:01.240
+And as you can see you have multiple options available.
+
+03:01.370 --> 03:04.700
+But I just went with this one with Favre can I call.
+
+03:04.730 --> 03:08.930
+So if you're just going to drag and drop this particular icon into.
+
+03:08.930 --> 03:10.210
+In fact your images.
+
+03:10.500 --> 03:14.870
+Well now in fact you're gonna be able to use the icon that you just created.
+
+03:15.230 --> 03:20.420
+So that's how we can create the favorite gone as well as this is that we can add it to our project.

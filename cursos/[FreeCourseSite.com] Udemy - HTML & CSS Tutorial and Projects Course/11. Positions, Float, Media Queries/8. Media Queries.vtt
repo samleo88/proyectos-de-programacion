@@ -1,0 +1,652 @@
+WEBVTT
+
+00:00.510 --> 00:01.340
+Excellent.
+
+00:01.350 --> 00:07.800
+Our CSX journey finally has led us to media queries and the reason why media queries are so so cool
+
+00:07.860 --> 00:14.910
+in the CSX is because they allow us to work with responsive design and in a nutshell they allow us to
+
+00:14.910 --> 00:21.600
+style elements depending on a screen size so we can have different styles on different screen size and
+
+00:21.600 --> 00:22.570
+with the projects.
+
+00:22.580 --> 00:28.440
+There is obviously going to be more complicated examples with column sizes and all kinds of things.
+
+00:28.440 --> 00:33.450
+However for now I would just want to show you the basic example where there is going to be a div and
+
+00:33.450 --> 00:35.430
+what is going to work with some properties.
+
+00:35.430 --> 00:40.620
+Now with media queries we're going to be working with men with and Max with and again rule of thumb
+
+00:40.620 --> 00:43.530
+would be that men with is going to be starting from.
+
+00:43.530 --> 00:49.480
+So just remember this and the max would be up to you and in general we're gonna do mobile first.
+
+00:49.540 --> 00:54.390
+We're all going to start all our styling from the small screen and then we're gonna be adding the media
+
+00:54.390 --> 00:56.610
+queries as our screen size gets bigger.
+
+00:56.880 --> 01:02.880
+Because that would be probably easier than working with the desktop and then going the opposite direction.
+
+01:03.270 --> 01:08.910
+But as always we're going to see all this throughout this example and in the next session email again
+
+01:09.000 --> 01:10.690
+we're gonna do a very simple one.
+
+01:10.800 --> 01:16.740
+Going to say there's gonna be Dave we can maybe add this again some class and is Dave let's call this
+
+01:16.740 --> 01:31.090
+a binary and then within the heading One we're gonna say Hello world I'm learning I'm learning CSX learning
+
+01:31.090 --> 01:38.190
+CSX once this is going to be saved I mean obviously my writing at the moment is hideous but maybe we
+
+01:38.190 --> 01:43.560
+can fix this by adding this I mean this is gonna be a little bit better or we can just add the text
+
+01:43.560 --> 01:50.070
+capitalized that we already have learned and once we head over back to the CSX we can start styling.
+
+01:50.280 --> 01:54.560
+Well let's do some again awful examples with colors.
+
+01:54.570 --> 01:59.910
+We're gonna write out here body is going to be let's say background yellow again just so you can be
+
+01:59.910 --> 02:05.130
+mad at me and then once we have the background yellow how we're gonna go with the banner.
+
+02:05.130 --> 02:11.140
+So the day of that as a class a banner and I would like to add a I don't know background Blue Note that
+
+02:11.250 --> 02:12.480
+this is going to be my choice.
+
+02:12.570 --> 02:16.210
+Now last but not least I would like to head over to having one.
+
+02:16.260 --> 02:22.790
+We know that we can use the element selector and let's color white and text.
+
+02:22.860 --> 02:26.010
+Like I said let's do not text the line or you know what.
+
+02:26.280 --> 02:27.450
+Yeah maybe let's start out.
+
+02:27.450 --> 02:35.220
+Text center then we can do text declaration and add maybe another underline as well as we have an option
+
+02:35.220 --> 02:42.780
+of text and then here I would like to work not with the commemoration not with aligning not with shadows
+
+02:42.780 --> 02:49.180
+in fact or to want to work with text text text text text text transform sorry.
+
+02:49.320 --> 02:55.830
+And that was gonna be capitalization and this is how this text is gonna look like and this screen size.
+
+02:55.860 --> 03:00.180
+Now the thing is we haven't that the media squared so what's happening is and I'm going to show you
+
+03:00.180 --> 03:03.790
+right now on a bigger screen that regardless of the screen size.
+
+03:03.920 --> 03:11.370
+This is our Web page is going to look like and let's say we decide that OK this is perfect for mobile
+
+03:11.370 --> 03:11.860
+view.
+
+03:11.910 --> 03:18.750
+So once the screen size is small and this is awesome however as the screen size gets bigger I would
+
+03:18.750 --> 03:20.600
+like to change some things around.
+
+03:20.670 --> 03:25.100
+I don't think that my users would like the yellow color and maybe some other properties.
+
+03:25.410 --> 03:25.960
+Okay.
+
+03:26.070 --> 03:27.250
+So how do we do that.
+
+03:27.420 --> 03:30.170
+Well working with media queries the syntax would be like this.
+
+03:30.180 --> 03:33.740
+We need to have the ad and then we're looking for media.
+
+03:33.810 --> 03:37.110
+Now we need to write media and then we write screen.
+
+03:37.110 --> 03:39.900
+Now it is important the syntax here.
+
+03:40.050 --> 03:46.200
+Because if you're gonna make some kind of small even syntactical error your media query is not going
+
+03:46.200 --> 03:46.820
+to work.
+
+03:46.860 --> 03:50.130
+And maybe if I were going to remember I'm going to show you this.
+
+03:50.250 --> 03:54.600
+Once we set up the media query but even the smallest space is gonna matter.
+
+03:54.600 --> 03:57.990
+And trust me because I'm getting questions already on the course.
+
+03:57.990 --> 03:59.640
+So yeah this is happening.
+
+03:59.640 --> 04:03.950
+So you need to be kind of very careful about not that mean your side is gonna break.
+
+04:03.960 --> 04:06.260
+It's just your media query is not going to work.
+
+04:06.270 --> 04:09.170
+So here we're looking for men with and will be the syntax.
+
+04:09.600 --> 04:12.140
+And now we can use whatever values you would want.
+
+04:12.140 --> 04:17.730
+Now in my case I'm going to use pixels but again remember you can use our yams if you want or anything
+
+04:17.740 --> 04:21.240
+like like you would like and let's say here 576.
+
+04:21.690 --> 04:29.460
+So what I'm saying is starting from s 576 there is gonna be some kind of rules now that can be different
+
+04:29.460 --> 04:30.050
+roles.
+
+04:30.150 --> 04:33.000
+They can be the same properties with different values.
+
+04:33.000 --> 04:34.420
+This is really up to you.
+
+04:34.440 --> 04:35.620
+So let's start here.
+
+04:35.700 --> 04:36.510
+Let's say body.
+
+04:36.690 --> 04:40.470
+So starting from 576 what is going to happen to the body.
+
+04:40.470 --> 04:45.210
+Well designers suggest me that the body should be background red.
+
+04:45.280 --> 04:45.730
+OK.
+
+04:45.790 --> 04:47.050
+That's a good start.
+
+04:47.050 --> 04:50.380
+And then I'm going to be looking for a different background for the main.
+
+04:50.400 --> 04:52.450
+So I'm going to say not Main Street banner.
+
+04:52.670 --> 04:56.970
+So I'm going to write for the banner we would want background and let's say yellow.
+
+04:57.210 --> 05:02.790
+So I'm going to kind of not flip it technically because this is our label and then for the heading One
+
+05:03.160 --> 05:05.770
+and this is where I would like to add some more styles.
+
+05:05.930 --> 05:07.190
+So I'm going to stay here.
+
+05:07.230 --> 05:13.380
+I don't know what color is gonna be black and that I'm gonna be looking for the font size font size
+
+05:13.380 --> 05:16.020
+is gonna be I don't know 60 pixels.
+
+05:16.170 --> 05:18.170
+So basically this is gonna be massive.
+
+05:18.260 --> 05:19.030
+Okay.
+
+05:19.130 --> 05:22.330
+And we don't see anything there's no changes yet.
+
+05:22.370 --> 05:29.970
+But the thing is we are not past the 576 because again when we need to remember is that this notation
+
+05:29.970 --> 05:35.760
+means that starting from that screen size and since I don't want to mess up this view we all gonna head
+
+05:35.760 --> 05:38.810
+over again to the bigger browser and you can already see the changes.
+
+05:38.880 --> 05:46.230
+Now when the changes are happening now we can see that once the screen size is less than 576 the moment
+
+05:46.230 --> 05:48.580
+we're gonna get past five seventy six.
+
+05:48.780 --> 05:51.060
+Then we're gonna be getting new stuff.
+
+05:51.110 --> 05:52.620
+Now you want to see it a little bit more.
+
+05:52.650 --> 06:00.000
+We can do obviously as always our development tools and what happens here on the right hand corner you
+
+06:00.000 --> 06:06.040
+are probably seeing here the actual width of the screen now what's happening here this is saying five
+
+06:06.100 --> 06:06.910
+minutes.
+
+06:07.200 --> 06:13.050
+Now the reason why this is happening because obviously I have zoomed in here because I already have
+
+06:13.050 --> 06:19.920
+set up my zoom so if I'm gonna set my zoom to let's say a hundred like it normally would be and just
+
+06:19.920 --> 06:25.740
+for tutorial I think it's easier if we're gonna go actually again back to develop our tools you'll see
+
+06:25.740 --> 06:28.040
+that this is actually happening from 5 10.
+
+06:28.440 --> 06:34.060
+Now let me again make the smaller then we can do and this is not what I wanted to do.
+
+06:34.290 --> 06:35.690
+My apologies.
+
+06:35.700 --> 06:38.130
+We would need to go to 127.
+
+06:38.500 --> 06:45.340
+Then I'm going to open up my developer those and then we can start looking here that starting from 576
+
+06:45.740 --> 06:46.940
+the changes are going to happen.
+
+06:47.270 --> 06:51.840
+Well there is actually a little bit better way in the developer tools how we can notice that.
+
+06:51.860 --> 06:55.130
+So let me first make this again probably bigger.
+
+06:55.710 --> 06:58.400
+And you know what I can just make this one maybe small.
+
+06:58.690 --> 06:59.480
+And you know what.
+
+06:59.480 --> 07:05.870
+What I would want while here I would like to zoom in and not over here but in actual document.
+
+07:05.870 --> 07:07.150
+So let's zoom in.
+
+07:07.190 --> 07:10.730
+Two hundred and then in the developer tools notice what we're going to have.
+
+07:11.270 --> 07:15.670
+So we're gonna have the little thing where we can be looking at the screen sizes.
+
+07:15.920 --> 07:22.580
+Now what I have right now I have the width of 400 and then of height of five hundred nine.
+
+07:22.610 --> 07:25.100
+Now if I'm gonna be expanding this check it out.
+
+07:25.520 --> 07:28.490
+So starting from five seventy six what's gonna happen.
+
+07:28.490 --> 07:30.950
+Well I'm gonna see that we're gonna have our changes.
+
+07:30.950 --> 07:36.230
+So those are the kind of two things that if you need to know that within the developer tools if you
+
+07:36.230 --> 07:39.560
+want to check it out on different screen sizes you have this option.
+
+07:39.680 --> 07:42.060
+You don't have to do the normal way.
+
+07:42.110 --> 07:47.060
+However even if you're not doing this with the screen sizes you're still gonna be able to see we're
+
+07:47.090 --> 07:51.740
+just going to be hard to see because it's going to be probably written in a small tent or something
+
+07:51.740 --> 07:52.670
+like this.
+
+07:52.670 --> 07:54.160
+Now back to the media queries.
+
+07:54.180 --> 07:54.620
+Know what.
+
+07:54.650 --> 07:58.630
+Let me just close the variable tools and let's take for this one now.
+
+07:58.970 --> 08:07.670
+And like I said within the media query if I'm not adding this tax declaration underline if I'm not overwriting
+
+08:07.670 --> 08:13.510
+this in 576 what happens is that the underlying still stays.
+
+08:13.520 --> 08:21.380
+So even though I said that starting from 576 I would want some different property values on the heading
+
+08:21.380 --> 08:25.720
+One because I didn't have this tax declaration on their line here.
+
+08:25.730 --> 08:30.710
+This is the reason why it's still states and also have an option of adding the new property.
+
+08:30.710 --> 08:36.090
+However this new property would 60 pixels is only going to work from that 576.
+
+08:36.260 --> 08:39.330
+The moment we're going to be again back in the small screen.
+
+08:39.350 --> 08:40.220
+This is not going to work.
+
+08:40.820 --> 08:46.010
+Now we also have an option of adding as many media queries we would like to how this is going to work.
+
+08:46.050 --> 08:49.280
+Well we just copy and paste it and you know what.
+
+08:49.370 --> 08:54.040
+Before we do let me just do a little bit of undoing.
+
+08:54.100 --> 08:56.020
+Let me show you where would be the mistake.
+
+08:56.090 --> 08:57.620
+So what if I'm gonna do it like this.
+
+08:57.680 --> 09:03.330
+What I'm gonna say media screen and then in between the end and the actual parentheses.
+
+09:03.500 --> 09:08.960
+I'm not going to leave any kind of space do you think the media query is going to work or remember what
+
+09:08.960 --> 09:13.390
+I told you is that even the smallest mistake is gonna make the big difference.
+
+09:13.430 --> 09:14.780
+Now check this out.
+
+09:14.900 --> 09:20.540
+It doesn't matter how big the screen size gets the media query is not Morgan and we can refresh all
+
+09:20.540 --> 09:21.410
+day long.
+
+09:21.410 --> 09:23.120
+And this is not going to change.
+
+09:23.180 --> 09:30.740
+And the reason for that is because the smallest syntax error in this case even as simple as just leaving
+
+09:30.740 --> 09:33.650
+on this place and pretty much everything is going to be messed up.
+
+09:34.010 --> 09:37.810
+Now I can tell you right away my biggest issue is always writing something like this.
+
+09:37.940 --> 09:43.110
+So I do it something like this and then I'm looking for three days whereas might be a query and I'd
+
+09:43.140 --> 09:47.900
+understand whether it's a browsers fault or anything like that because obviously my spelling is not
+
+09:47.900 --> 09:48.340
+the best.
+
+09:48.340 --> 09:51.040
+So I always have issues with the with.
+
+09:51.050 --> 09:56.960
+That's just something from my book to let you know to maybe you so you can avoid it.
+
+09:56.960 --> 10:03.740
+And now let's go back and let's say I had another one and now this is gonna be the kicker where even
+
+10:03.740 --> 10:08.900
+this is gonna be starting from men with have so many sex in this case I obviously would want to have
+
+10:08.900 --> 10:14.840
+some bigger screen set so let's say this is not going to be seven I'm sorry five only six we're going
+
+10:14.840 --> 10:21.000
+to say seven 68 so once we get seven 68 then we're going to flip it around again.
+
+10:21.030 --> 10:24.620
+So here we can do green again for the body.
+
+10:24.870 --> 10:28.460
+The background for the banner is gonna be blue again.
+
+10:28.890 --> 10:36.300
+The color I don't know could be red red and maybe let's add some another property here but I'm just
+
+10:36.300 --> 10:43.130
+thinking what kind of property a crab with a text maybe let's do next a line and not center.
+
+10:43.140 --> 10:50.840
+We can do maybe right and that is gonna work out or you know even more fun when it's at a fun family
+
+10:50.900 --> 10:51.860
+of Verdun.
+
+10:52.040 --> 10:56.120
+So the moment we're gonna get to 768 then we're gonna get over Donner.
+
+10:56.210 --> 11:00.150
+Let me double check whether I corrected my mistakes that I did on purpose.
+
+11:00.300 --> 11:05.020
+Otherwise as I was laying to work and we're gonna head over right now to the bigger browser window.
+
+11:05.150 --> 11:07.540
+So we have less than five only six.
+
+11:07.610 --> 11:12.690
+The moment we get past 576 and obviously again in my case a 5 zoomed in.
+
+11:12.780 --> 11:17.410
+This is obviously going to be on a bigger screen size but as I keep going.
+
+11:17.420 --> 11:21.370
+Notice what happened the moment we get to 776.
+
+11:21.410 --> 11:23.360
+I have all kinds of things happening here.
+
+11:23.810 --> 11:30.800
+I have Verdun I have text right and I have the backgrounds and everything all that and this is again
+
+11:30.800 --> 11:33.510
+to show you that this is how we would work with media queries.
+
+11:33.620 --> 11:40.160
+Again very very basic example throughout the project we're gonna be using a lot more different properties
+
+11:40.490 --> 11:44.350
+and this is gonna look much better but the general idea would be like this.
+
+11:44.510 --> 11:48.000
+Now we also have an option of max width now for the max with.
+
+11:48.160 --> 11:49.510
+Let me just flip this around.
+
+11:49.520 --> 11:51.800
+So first of all I'm just going to comment this out.
+
+11:52.310 --> 11:59.830
+And then what we would want is the same syntax WE'RE ALL GONNA WRITE Max with know how the max with
+
+11:59.840 --> 12:00.700
+is going work.
+
+12:00.860 --> 12:04.020
+Well the max with is saying up to.
+
+12:04.310 --> 12:10.650
+So we technically flip this around since we already had here the rules.
+
+12:10.800 --> 12:17.390
+Wherever you see us as properties and values we are saying here up to this 576 we all gonna have these
+
+12:17.390 --> 12:18.200
+values.
+
+12:18.260 --> 12:20.060
+So these are gonna be the values that are being shown.
+
+12:20.460 --> 12:24.700
+However if we're going to get past 576 notice what happens.
+
+12:25.070 --> 12:27.170
+So these are our original styles that we wrote.
+
+12:27.920 --> 12:34.760
+So what we're saying here is up to the 576 and then we're gonna go back to whatever styles we wrote
+
+12:34.760 --> 12:35.690
+over here.
+
+12:35.690 --> 12:41.050
+Now one thing that we need to be careful with Max with is that we can easily overwrite this.
+
+12:41.050 --> 12:47.600
+So if I'm gonna comment this out again and if I'm gonna say Max with rom 768 and again let me select
+
+12:47.600 --> 12:50.240
+this here let's say Max.
+
+12:50.240 --> 12:51.860
+And this is not what I wanted to do.
+
+12:52.580 --> 12:54.590
+Let's say Max with.
+
+12:54.740 --> 12:59.030
+Now once I write 768 What do you think is gonna happen right now.
+
+13:00.170 --> 13:06.080
+I'm writing here up to five seventy six and then I have another Max with 760.
+
+13:06.650 --> 13:09.800
+So if I'm writing here up to 760.
+
+13:10.100 --> 13:10.670
+Do you think.
+
+13:10.670 --> 13:15.240
+Which style is going to be shown on the screen render in the browser.
+
+13:15.260 --> 13:19.670
+Well we can already see on the right hand side that this is gonna be the 768.
+
+13:19.670 --> 13:26.580
+And again the reasoning for that would be that we're saying the max with four five seventy but seven
+
+13:26.580 --> 13:28.270
+sixty eight includes this.
+
+13:28.370 --> 13:30.300
+So we're overwriting it anyway.
+
+13:30.420 --> 13:31.350
+What we are saying is.
+
+13:31.360 --> 13:31.930
+OK.
+
+13:32.120 --> 13:32.570
+Yeah.
+
+13:32.600 --> 13:34.290
+You said five Sony Six.
+
+13:34.310 --> 13:40.880
+Well what I'm saying is that I would like to have the 768 but again the interesting thing over here
+
+13:40.880 --> 13:47.150
+is even if I'm gonna change it here and if I'm gonna say I don't know 40 pixels I'm still gonna be getting
+
+13:47.150 --> 13:48.010
+this rally.
+
+13:48.040 --> 13:54.130
+So even though I'm writing here 768 I'm overriding this I don't know what the font size right.
+
+13:54.470 --> 13:55.730
+So that's what's happening.
+
+13:55.730 --> 14:00.830
+But let's start out with some kind of property that maybe is not affected in the banner.
+
+14:00.830 --> 14:06.780
+Now we already know the border radius more radius and that could be a. not 20 pixels.
+
+14:06.860 --> 14:09.290
+Now once I say it this is what happens.
+
+14:09.890 --> 14:16.900
+So that banner even though it is Max with up to five Sunni six we're still getting this right now.
+
+14:16.970 --> 14:21.020
+The border radius because we are not overwriting it over here.
+
+14:21.020 --> 14:25.310
+So this is gonna happen with the properties that we overwriting and this is the case where you need
+
+14:25.310 --> 14:26.640
+to be really careful.
+
+14:26.660 --> 14:33.940
+So if you're going to have some kind of properties here that you're not overriding this 768 then they're
+
+14:33.950 --> 14:35.410
+obviously still going to be shown.
+
+14:35.520 --> 14:37.500
+So that's something that you need to pay attention to.

@@ -1,0 +1,172 @@
+WEBVTT
+
+00:00.310 --> 00:06.980
+As we were working with CSX grid in fact there are some properties that we could borrow from CSX flex
+
+00:06.990 --> 00:13.160
+bucks on and following few videos we explore these particular properties.
+
+00:13.170 --> 00:17.070
+The first one we're going to look at is going to be justify count.
+
+00:17.580 --> 00:23.100
+So first and foremost what I would like to do is change around my columns again and I'm going to go
+
+00:23.090 --> 00:24.480
+400 pixels.
+
+00:24.570 --> 00:29.970
+But why don't we use the repeat function that we just learn so let's ride repeat.
+
+00:30.180 --> 00:34.360
+And then we're gonna go for let's say three of them on line.
+
+00:34.360 --> 00:39.280
+The width is going to be let's say hundred pixels something like that.
+
+00:39.510 --> 00:42.970
+Then I'm gonna get her off the template rows for now.
+
+00:43.110 --> 00:47.380
+And I'm also gonna add some kind of height to my particular container.
+
+00:47.640 --> 00:50.630
+So it's a right mean height.
+
+00:50.650 --> 00:54.960
+And let's go with let's say hundred percent of the viewport.
+
+00:55.320 --> 00:59.820
+Now I'm going to zoom in back here and now we're ready to go.
+
+00:59.820 --> 01:07.140
+So like I said justify content now what just define content is doing is in fact it is working with our
+
+01:07.140 --> 01:13.070
+content that we have within our great container just like we had when we were using flex box.
+
+01:13.140 --> 01:19.050
+So let's say I could say just content and by default it's going to be flex start as the reason why when
+
+01:19.050 --> 01:21.980
+I said it flex start well nothing changes.
+
+01:22.500 --> 01:27.990
+Now what I'm gonna do is I'm gonna copy and paste it and I'm gonna come out of this line just for your
+
+01:27.990 --> 01:36.180
+reference like so and then let's change this to a flex end and what is going to happen all our content
+
+01:36.450 --> 01:38.640
+all the rows and columns that we're gonna have.
+
+01:39.030 --> 01:43.080
+Well it's gonna shift on left hand side regardless of the screen size.
+
+01:43.110 --> 01:48.480
+So notice of course right now I have a bigger screen size and still the same thing all my content has
+
+01:48.480 --> 01:51.140
+been shifted all the way to the left hand side.
+
+01:51.180 --> 01:57.340
+Now we're obviously not limited to flex and so again we're just copying pasting that.
+
+01:57.540 --> 02:04.800
+And then what we would like to do here is in fact set up a different value so not flex and I'm sorry
+
+02:04.800 --> 02:07.200
+I wanted to actually common this out.
+
+02:07.200 --> 02:11.910
+So let me comment out and let's write center something like that.
+
+02:12.000 --> 02:14.060
+And now my content is sitting in a center.
+
+02:14.550 --> 02:21.450
+And then we have three more space between space around and spaced evenly so I can just copy it.
+
+02:21.450 --> 02:26.900
+Let's a three more times and then let's just keep on writing.
+
+02:27.150 --> 02:36.750
+So I'm gonna start with let's say space evenly space evenly so I'm along when I have a even space in
+
+02:36.750 --> 02:38.020
+between my atoms.
+
+02:38.250 --> 02:46.680
+Then of course we also have this guy we have a space around so why don't we do this when we move this
+
+02:46.680 --> 02:56.400
+one up then comment out then let's write space between now what's going to happen is that left column
+
+02:56.730 --> 03:02.370
+and the right column are gonna be flush with the edges of my container and then I'm gonna have the even
+
+03:02.370 --> 03:03.650
+space in between.
+
+03:03.660 --> 03:09.780
+Of course in vivo I'm going to add one more item let's say four columns then I'm gonna have the same
+
+03:09.780 --> 03:14.090
+layout in this case though I'm going to have the extra item in between here.
+
+03:14.090 --> 03:20.070
+Right but the left column is gonna still stay all the way on the left hand side and the same is going
+
+03:20.070 --> 03:25.890
+to be with a right com just like we had when we were using flex box yeah.
+
+03:25.980 --> 03:28.360
+Now let me move this up again.
+
+03:28.750 --> 03:32.810
+Like so the last one we have a space around.
+
+03:33.060 --> 03:34.670
+So why don't we delete this one.
+
+03:34.710 --> 03:42.120
+I copy and paste it one too many times and let's just write space around right now in this case we're
+
+03:42.120 --> 03:49.440
+gonna have some distance in between the edges but then again we're gonna have also the margins in between.
+
+03:49.440 --> 03:50.720
+All right Ms within the.
+
+03:50.830 --> 03:51.980
+Yes that's good.
+
+03:52.030 --> 03:58.920
+Now lastly I would like to point it out though that it matters of what is the width of your column when
+
+03:58.920 --> 04:06.210
+you are using justified content because of me show the example let's say we're going to go with hundred
+
+04:06.210 --> 04:13.620
+pixels on it pixels and one of them and even one of them I could just go with one fraction Now notice
+
+04:13.650 --> 04:20.040
+what happens I can have whatever values I would like but since I have here the one fraction Well it
+
+04:20.040 --> 04:26.130
+doesn't really matter anymore does it as one fraction is going to take up the rest of the space so I
+
+04:26.130 --> 04:32.190
+can set up whatever values I would like here I could just let's say flex and and what you'll notice
+
+04:32.190 --> 04:38.180
+that nothing is going to change because even one fraction is pretty much gonna change everything around
+
+04:38.220 --> 04:43.500
+so it matters of what kind of values you have for the columns let's say if you have two hundred pixels
+
+04:43.500 --> 04:51.150
+yes it has an absolute value so we can still use it but if you're gonna use a fraction values well whatever
+
+04:51.150 --> 04:57.030
+you have values here forty justified on the property nothing is gonna change in your layout.

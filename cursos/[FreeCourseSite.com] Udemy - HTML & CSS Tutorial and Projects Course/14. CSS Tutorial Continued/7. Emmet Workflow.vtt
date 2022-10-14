@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.330 --> 00:00.770
+Awesome.
+
+00:00.780 --> 00:07.280
+Before we start working hard on our project why don't we take a look at the amazing snippets the iMac
+
+00:07.330 --> 00:09.780
+provides to speed up our workflow.
+
+00:09.990 --> 00:15.510
+Because at the moment we have been using only one thing which is basically to generate the tax.
+
+00:15.630 --> 00:16.920
+Reached him tax.
+
+00:17.220 --> 00:21.880
+Well if any of you have missed that we have been using them at all along.
+
+00:21.960 --> 00:24.930
+Or maybe you are not using the visual studio code.
+
+00:25.110 --> 00:30.140
+If we're gonna head over again to the browser and if I'm gonna type Emmet if you don't have the.
+
+00:30.300 --> 00:36.240
+Meaning if you're not using the visual studio code because if you are using Visual Studio code this
+
+00:36.240 --> 00:39.090
+is gonna be built in right there in a visual studio code.
+
+00:39.490 --> 00:46.110
+However if you're not you can go always here to their documentation and download and add it to your
+
+00:46.110 --> 00:51.030
+actual text that not there is probably also gonna be an option for you to use some kind of extension
+
+00:51.540 --> 00:54.120
+that might be another out that you would want to use.
+
+00:54.120 --> 00:56.530
+And if you'd want to I don't know.
+
+00:56.610 --> 01:04.110
+Explore more Emmet snippets that we're gonna be working on and you can head over to their documentation.
+
+01:04.110 --> 01:11.370
+And like I said in general we have been using only one Emmett suggestion where we are just getting our
+
+01:11.370 --> 01:15.700
+tags meaning as we're working with a CSX.
+
+01:15.810 --> 01:21.830
+They were also giving real suggestions and as a side note if you'd ever want to get the suggestion so
+
+01:21.840 --> 01:27.030
+let's say I'm gonna type a dot type something so this would be my class but then I press the spacebar
+
+01:27.450 --> 01:32.900
+and I would still want to get the m a suggestion in the CSX is gonna work exactly the same way.
+
+01:32.940 --> 01:37.410
+If you're gonna press control and spacebar you're gonna get a suggestion.
+
+01:37.410 --> 01:43.440
+Like I said already before the only thing we're gonna make have been covering so far has been creating
+
+01:43.440 --> 01:49.680
+tags where we just press whatever name of the tag and we are creating a war as we're working with them
+
+01:49.680 --> 01:52.160
+and we have far more options than that.
+
+01:52.170 --> 01:53.370
+Now what would be the first one.
+
+01:53.370 --> 01:58.440
+Well let's say that there's going to be a heading however this heading one is gonna have right away
+
+01:58.440 --> 01:58.970
+a class.
+
+01:59.190 --> 02:00.150
+So how will you do that.
+
+02:00.660 --> 02:02.880
+Well enamored we just need to type dot.
+
+02:03.020 --> 02:04.920
+And now we can start adding the classes.
+
+02:05.100 --> 02:08.370
+So let's say here I'm gonna say main on this would be the main class.
+
+02:08.370 --> 02:09.210
+And you know what.
+
+02:09.450 --> 02:13.440
+If you think that you'll need more classes you just need to keep typing that.
+
+02:13.650 --> 02:17.630
+And the class name so let's say secondary then whatever big.
+
+02:17.630 --> 02:18.720
+And then something else.
+
+02:18.720 --> 02:24.230
+So what you're gonna have at the end is a heading one with all these three classes.
+
+02:24.480 --> 02:25.680
+So far so good.
+
+02:25.680 --> 02:30.870
+Now we also have an option of working with ideas the same way so I can say here having one.
+
+02:30.870 --> 02:32.760
+And again we will do the same thing.
+
+02:32.970 --> 02:39.360
+And then the hash tag and then I devalue again we can use the same one and we're gonna be getting the
+
+02:39.480 --> 02:41.800
+heading One with ideas of Main.
+
+02:41.970 --> 02:48.120
+As you already saw it before with the classes and with an I.D. we can put together and obviously we
+
+02:48.120 --> 02:49.290
+can combine them.
+
+02:49.350 --> 02:55.980
+So if there's gonna be heading three that's gonna have the idea of third class of third can write something
+
+02:55.980 --> 02:58.310
+like this and we're gonna be getting our heading three.
+
+02:58.620 --> 03:03.750
+We had some kind of text and this is something that you're gonna see me a lot doing throughout the project
+
+03:04.170 --> 03:08.800
+where I'm just gonna come up with let's say some kind of name so this is gonna be our NAV bar.
+
+03:08.910 --> 03:14.760
+I'm sorry that's not going to be a simple tag but let's say we're gonna be typing header now the header
+
+03:14.760 --> 03:21.000
+would have some kind of class so let's say there's gonna be a header and if you'd want to add another
+
+03:21.000 --> 03:26.490
+class I don't know main or something like this then we're just getting in the header and this is tremendously
+
+03:26.490 --> 03:32.820
+again speed up your workflow where you're gonna find it really annoying typing uranium all tags and
+
+03:32.820 --> 03:37.430
+then later on going and adding classes already so far so good.
+
+03:37.450 --> 03:38.850
+So what else we're having.
+
+03:38.850 --> 03:45.510
+Well we can create right away divs we can I.D. And we as a class as well.
+
+03:45.510 --> 03:49.040
+Now we already know that we can just type the element and then whatever.
+
+03:49.080 --> 03:52.680
+However with this we have a little bit faster way.
+
+03:52.800 --> 03:57.040
+So we know that there's gonna be data we can just type whatever we're all going to be adding what is
+
+03:57.050 --> 03:57.310
+this.
+
+03:57.750 --> 04:02.880
+So this case let's say that there's gonna be a div with an idea of box and then with the classes of
+
+04:02.880 --> 04:07.800
+box number one box number two and so on so forth.
+
+04:07.800 --> 04:14.120
+What I'm having right away is the div and I have right away the I.D. as well as the classes.
+
+04:14.200 --> 04:15.940
+Mark what else we have.
+
+04:15.960 --> 04:18.320
+Well we can create children within now.
+
+04:18.750 --> 04:24.900
+So let's say I'm going to be looking for a div that will gonna have the list item within the.
+
+04:24.900 --> 04:26.990
+On our list so I can say like this.
+
+04:27.000 --> 04:32.220
+And then if we use the angle bracket that means that now we're gonna be creating children and we're
+
+04:32.220 --> 04:36.690
+not limited to on our list or lists and I'm just using this as an example.
+
+04:36.690 --> 04:37.500
+So I can say you know what.
+
+04:37.510 --> 04:41.250
+There's gonna be a on her list with a list item.
+
+04:41.370 --> 04:43.220
+How are your question would be.
+
+04:43.230 --> 04:47.960
+Well usually when we create on our lists we create multiple elements.
+
+04:48.120 --> 04:50.340
+Don't worry I got you covered.
+
+04:50.370 --> 04:57.120
+So again we can do the same thing where we say dev on a list and list item and let's come up with our
+
+04:57.120 --> 04:59.400
+list items 1 1 1 5.
+
+04:59.400 --> 05:03.810
+We can just and here this multiplication and just say five.
+
+05:04.280 --> 05:06.170
+So this is gonna create five of them.
+
+05:06.200 --> 05:13.040
+And right away we have the div on her list and whatever list items we wanted or while we can also place
+
+05:13.040 --> 05:15.190
+a text within the element.
+
+05:15.470 --> 05:20.310
+So let's say all gonna have some kind of paragraph and within the paragraph we're gonna write some creative
+
+05:20.330 --> 05:22.400
+texts or some text.
+
+05:22.430 --> 05:26.890
+Now the syntax would be these curly braces and the moment.
+
+05:26.930 --> 05:34.370
+Again we're just gonna get a suggestion and and we having the paragraph with the text inside of some
+
+05:34.370 --> 05:38.300
+text as well as we can combine whatever we having here.
+
+05:38.310 --> 05:43.790
+Let's say if he would want to create multiple items we can say like this one would say on our list then
+
+05:43.790 --> 05:49.650
+within the list there is going to be left list items and we're gonna multiply let's say by six.
+
+05:49.820 --> 05:50.990
+So I can say something like this.
+
+05:50.990 --> 05:55.930
+However within each and every item we can place that number there.
+
+05:55.940 --> 05:59.080
+So for this we're gonna have to use the dollar sign like this.
+
+05:59.120 --> 06:04.310
+Now the moment we were gonna be looking at a notice by the way right away we can look at the info of
+
+06:04.340 --> 06:05.860
+what we're going to be getting anyway.
+
+06:06.020 --> 06:11.960
+So that's something really neat with my suggestions where you can expand it and you can see what is
+
+06:11.960 --> 06:13.640
+gonna be a result to begin with.
+
+06:13.700 --> 06:17.050
+So let's say here again as you see I lost my suggestions.
+
+06:17.060 --> 06:18.470
+However no worries.
+
+06:18.470 --> 06:24.980
+Just pressing control and spacebar I can get the mark and then either typing return or the tab I'm gonna
+
+06:24.980 --> 06:26.970
+be getting the values from 1 to 6.
+
+06:27.440 --> 06:34.760
+So this would be the General Snippet syntax with animate that will tremendously is going to speed up
+
+06:34.820 --> 06:35.540
+our workflow.

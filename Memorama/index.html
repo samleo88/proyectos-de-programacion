@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Juego Memoria - JavaScript</title>
+        
+		<style>
+	
+	body {
+		margin: 0;
+		padding: 20px;
+		background-color: #000;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	}	
+			
+	#botonera{
+		width:630px;
+		color:#000;	
+		background-color:#FFF;
+		text-align:center;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding:5px 5px 5px 5px;
+		margin-top:20px;
+		
+
+	}
+	
+	
+	#botonera:hover{
+		color:#F00;	
+		background-color:#17BCE3;
+		cursor:pointer;
+		
+	}
+	
+	#cabecera{
+		color:#FFF;
+		text-align:center;
+		width:640px;
+		
+	}
+		
+		</style>
+        
+        
+        
+        
+		<script src="pixi.dev.js"></script>
+		<script src="tweenjs.js"></script>
+        
+        
+        <div id="cabecera">
+        	<h1>Juego Memoria - JavaScript</h1>
+       </div>
+       
+	</head>
+	<body>
+		<script>
+			// primer tile pulsado
+			var firstTile=null;
+			// segundo tlie pulsado
+			var secondTile=null;
+			// controlar si el usuario puede pulsar un tile (booleano)
+			var canPick=true;
+			// crear objeto pixi stage y poner color de fondo
+			var stage = new PIXI.Stage(0x29bce1);
+			// crear instancia de renderer y poner tamaÃ±o
+			var renderer = PIXI.autoDetectRenderer(640,480);
+			// aÃ±adir renderer view al DOM
+			document.body.appendChild(renderer.view);
+			// importar una texture atlas con texturepacker (archivo JSON)
+			var tileAtlas = ["images.json"];
+			// crear un nuevo loader
+			var loader = new PIXI.AssetLoader(tileAtlas);			
+
+			// crear container vacÃ­o
+			var gameContainer = new PIXI.DisplayObjectContainer();
+			// aÃ±adir container al stage
+     		stage.addChild(gameContainer);
+
+
+			// usar callback (cuando se haya cargado completamente)
+			loader.onComplete = onTilesLoaded
+			// carga
+			loader.load();	
+			function onTilesLoaded(){
+				// elegir 24 tiles aleatorios (diferentes)
+				var chosenTiles=new Array();
+				while(chosenTiles.length<48){
+					var candidate=Math.floor(Math.random()*44);
+					if(chosenTiles.indexOf(candidate)==-1){
+						chosenTiles.push(candidate,candidate)
+					}			
+				}
+				// reorganizar los tiles elegidos (menor que el doble de tiles)
+				for(i=0;i<96;i++){
+					var from = Math.floor(Math.random()*48);
+					var to = Math.floor(Math.random()*48);
+					var tmp = chosenTiles[from];
+					chosenTiles[from]=chosenTiles[to];
+					chosenTiles[to]=tmp;
+				}
+				// colocar tiles array bidimensional que genera los 48 tiles en pantalla
+				for(i=0;i<8;i++){
+					for(j=0;j<6;j++){
+						// crear nuevos sprites
+						var tile = PIXI.Sprite.fromFrame(chosenTiles[i*6+j]);
+						// asignar comportamiento de botÃ³n interactivo a los tiles
+						tile.buttonMode=true;
+						tile.interactive = true;
+						// estÃ¡ selecccionado el tile?
+						tile.isSelected=false;
+						// establecer un valor para el tile
+						tile.theVal=chosenTiles[i*6+j]
+						// colocar el tile
+						tile.position.x = Math.random()*600;
+						tile.position.y = -Math.random()*100 - 100;
+						tile.rotation = Math.random()*2*3.14;
+						//tintar el tile de negro
+						tile.tint = 0x000000;
+						// aÃ±adir transparencia al tile para que se vea gris
+						tile.alpha=0.8;
+						
+						new TWEEN.Tween(tile).to({x: 7+i*80, y: 7+j*80, rotation:0}, 2400 + Math.random()*1200)
+							.easing(TWEEN.Easing.Elastic.Out)
+							.start();
+						
+						// aÃ±adir el tile
+						gameContainer.addChild(tile);
+						// escuchador toque-ratÃ³n
+						tile.mousedown = tile.touchstart = function(data){
+							// puedo tocar un tile?
+							if(canPick) {
+								 // hay un tile ya seleccionado?
+								if(!this.isSelected){
+									new TWEEN.Tween(this).to({width:0.0, x:"+32"}, 300)
+										.easing(TWEEN.Easing.Linear.None)
+										.onComplete(function() {
+											this.tint = 0xffffff;
+										}).chain(new TWEEN.Tween(this).to({alpha: 1.0, width:64, x:"-32"}, 300)
+											.easing(TWEEN.Easing.Linear.None)
+										)
+										.start();
+									// establecer el tile a seleccionado
+									this.isSelected = true;
+									// mostrar el tile
+									// su tinta es blanca (this.tint = 0xffffff;)
+									// su alpha es 1 (this.alpha = 1;)
+									// es la primera tile que descubrimos?
+									if(firstTile==null){
+										firstTile=this
+									}
+									// esta es la segunda tile
+									else{
+										secondTile=this
+										// ya no se puede clickar mÃ¡s (seleccionar)
+										canPick=false;
+										// hemos clickado las mismas tiles?
+										if(firstTile.theVal==secondTile.theVal){
+											// esperar un segundo para borrar los tiles y dejar que el usuario clique de nuevo (ha acertado)
+											// si acertamos
+											setTimeout(function(){
+												// 600 por defecto
+												new TWEEN.Tween(firstTile).to({width:"+100", height:"+100", x:"-50", y:"-50", alpha:0.0}, 600)
+													.easing(TWEEN.Easing.Linear.None)
+													.onComplete(function() {
+														gameContainer.removeChild(this);
+													})
+													.start();
+												// 600 por defecto	
+												new TWEEN.Tween(secondTile).to({width:"+100", height:"+100", x:"-50", y:"-50", alpha:0.0}, 600)
+													.easing(TWEEN.Easing.Linear.None)
+													.onComplete(function() {
+														gameContainer.removeChild(this);
+														canPick=true;
+													})
+													.start();
+												//gameContainer.removeChild(firstTile);
+												//gameContainer.removeChild(secondTile);
+												firstTile=null;
+												secondTile=null;
+												// SI puedo clicar (canPick=true;) 
+											},600);
+										}
+										// hemos clickado diferentes tiles
+										else{
+											// esperar un segundo y ocultar los tiles. Habilitar clickado al usuario
+								 			setTimeout(function(){
+								 				firstTile.isSelected=false
+								 				secondTile.isSelected=false
+								 				new TWEEN.Tween(firstTile).to({alpha: 0.5, width:0.0, x:"+32"}, 150)
+													.easing(TWEEN.Easing.Linear.None)
+													.onComplete(function() {
+														this.tint = 0x000000;
+													}).chain(new TWEEN.Tween(firstTile).to({width:64, x:"-32"}, 150)
+														.easing(TWEEN.Easing.Linear.None)
+													)
+													.start();
+								 				new TWEEN.Tween(secondTile).to({alpha: 0.5, width:0.0, x:"+32"}, 150)
+													.easing(TWEEN.Easing.Linear.None)
+													.onComplete(function() {
+														this.tint = 0x000000;
+														canPick=true;
+													}).chain(new TWEEN.Tween(secondTile).to({width:64, x:"-32"}, 150)
+														.easing(TWEEN.Easing.Linear.None)
+													)
+													.start();
+								 				firstTile=null;
+												secondTile=null;
+												
+								 			},1000);
+										}
+									}	
+								}
+							}
+						}
+					}
+				} 
+				requestAnimFrame(animate);
+			}
+			function animate() {
+				requestAnimFrame(animate);
+				//Tween.runTweens();
+				// hacer tween
+				TWEEN.update();
+				renderer.render(stage);
+			}
+			
+			function irA(){
+				window.open("index.html","_self");
+
+			}
+			
+		</script>
+        
+        <div id="botonera" onClick="irA()">
+        	<a href="index.html">Nueva Partida</a>
+       </div>
+    
+
+        
+	</body>
+</html>

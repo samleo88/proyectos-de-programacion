@@ -1,0 +1,1195 @@
+WEBVTT
+
+00:00.520 --> 00:04.820
+In order to stay alert we already know that we need to head over to ELC assess.
+
+00:04.870 --> 00:09.160
+And here let's say after the body I will gonna create some more comments.
+
+00:09.160 --> 00:14.020
+And here I'm going to call this the entity classes or you know what we can do.
+
+00:14.020 --> 00:19.810
+Maybe Global's it doesn't really matter but you'll see in a second why we are using these classes and
+
+00:19.810 --> 00:21.280
+what is the purpose for them.
+
+00:21.380 --> 00:28.030
+So let's call them helper utility classes and hopefully this is spelled correctly.
+
+00:28.060 --> 00:30.640
+Classes so that's gonna be one thing.
+
+00:30.640 --> 00:35.590
+Then again we're gonna have now bars and everything so religious right here now bar and this is gonna
+
+00:35.590 --> 00:41.110
+generally understand that we're going to be dealing with our numbers here and then we have our headers.
+
+00:41.440 --> 00:44.290
+So right after that we're gonna have the headers and you know what.
+
+00:44.290 --> 00:47.130
+No there's one more thing that's gonna be global.
+
+00:47.150 --> 00:52.800
+So there's gonna be a little bit of difference whether we're going to have the global styles and helpers.
+
+00:52.870 --> 00:54.840
+You don't have to technically do this.
+
+00:54.910 --> 00:58.990
+I'll show you that we can just write everything in once they assess blood.
+
+00:59.320 --> 01:04.090
+Structuring your sisters also helps you later on if you're looking for something.
+
+01:04.090 --> 01:06.930
+So that's something you should keep an eye on.
+
+01:07.030 --> 01:10.300
+Let's say here this is gonna be our header and I'm going to start working on her.
+
+01:10.410 --> 01:14.810
+And again I'm gonna do the same thing then there's gonna be header and then there's gonna be end of
+
+01:14.810 --> 01:17.210
+her what we want within that.
+
+01:17.350 --> 01:20.500
+Well first of all we are also selecting the class.
+
+01:20.680 --> 01:22.570
+Then we would like to have the main height.
+
+01:22.670 --> 01:25.050
+I'm gonna say menhaden is gonna be 100 right.
+
+01:25.660 --> 01:28.870
+What would be the difference between generally mean height and height.
+
+01:29.530 --> 01:31.900
+If I set this up with a height of hundred.
+
+01:31.900 --> 01:37.170
+So if I'm gonna avoid this mean height what's gonna happen is if this is gonna be bigger if there's
+
+01:37.180 --> 01:42.370
+more content than hundred Muirhead then the stuff is gonna be cut off.
+
+01:42.370 --> 01:48.190
+However if I'm saying men height what I'm saying here is that this header should always be hundred new
+
+01:48.190 --> 01:52.830
+heights 100 percent of the screen even though the content is not enough.
+
+01:52.840 --> 01:58.300
+So that way if I have only three lines of code this is still gonna be a hundred percent and I always
+
+01:58.540 --> 02:02.410
+like to use it for my banners and headers and something like that.
+
+02:02.410 --> 02:03.700
+Do you have to use them in height.
+
+02:03.700 --> 02:04.780
+Can you just use the height.
+
+02:04.780 --> 02:10.120
+Yeah probably but I think it's always much more easier to work with men height especially if you know
+
+02:10.120 --> 02:11.320
+that with banner.
+
+02:11.320 --> 02:13.540
+I don't think you going to place ten paragraphs in there.
+
+02:13.540 --> 02:15.800
+Most likely it's going to be three lines of text.
+
+02:16.000 --> 02:16.810
+What else I would like.
+
+02:16.810 --> 02:21.890
+Well remember we had the background and what's really cool about the background we have the images.
+
+02:21.940 --> 02:23.450
+So let me first look for the images.
+
+02:23.450 --> 02:28.300
+I'm going to say you and I'm going to be saying two dots because obviously I'm not right now and let
+
+02:28.300 --> 02:29.890
+me see where I'm at actually.
+
+02:29.900 --> 02:36.940
+So I am in my style's question would be here very simply I'm actually looking on my set of folder.
+
+02:36.940 --> 02:41.920
+I did it a little bit differently that's the reason why I'm having two dots since the style is obviously
+
+02:41.920 --> 02:47.160
+within the same folder we don't have to do it in general if you're going to obviously place it c assessed
+
+02:47.170 --> 02:50.690
+folder and then within the C assessed folder you can have your styles.
+
+02:50.710 --> 02:54.670
+This is we're all gonna have to leave the folder but in our case this is going to be the same folder
+
+02:54.670 --> 03:00.430
+so my apologies we're just going to images and then I'm looking for this main background image.
+
+03:00.430 --> 03:06.370
+The bad boy here and let's write some kind of right away centering positions because we know that we
+
+03:06.370 --> 03:11.860
+can write it the long way or we have the nice set of options where we can just write that the image
+
+03:11.860 --> 03:17.290
+is gonna be in the centre then we're going to be covering the whole div then we also would like to do
+
+03:17.290 --> 03:21.330
+no repetition as well as this is going to be fixed.
+
+03:21.580 --> 03:23.880
+So that way we're gonna be able to scroll.
+
+03:23.890 --> 03:32.800
+Now I do want to let you write in a way something about fixed with iPhones as far as I remember they
+
+03:32.800 --> 03:39.620
+were not supporting this fixed meaning that you're still the image is not gonna be like let's say scroll.
+
+03:39.670 --> 03:45.130
+There's not gonna be no parallax effect as well as the image might not look the best.
+
+03:45.130 --> 03:50.170
+So that's something you keep you need to keep an eye on where if you will going to be focusing a lot
+
+03:50.230 --> 03:56.800
+on the iPhones and let's say it's probably better idea just to not to use it fixed at all just get rid
+
+03:56.800 --> 04:03.970
+of it because it's not going to work anyway on the Mac or I'm not sorry Mac on the iPhone again I might
+
+04:03.970 --> 04:10.450
+be wrong but as far as I remember that was the case with an iPhone and using the fix what else we have.
+
+04:10.450 --> 04:15.280
+Well we obviously have right now the image there is very bright.
+
+04:15.280 --> 04:17.310
+So what would be solution for that.
+
+04:17.320 --> 04:18.790
+Remember we had a linear gradient.
+
+04:19.210 --> 04:20.360
+So why don't we use this.
+
+04:20.760 --> 04:24.370
+So linear gradient but we do need to have this comma.
+
+04:24.480 --> 04:26.620
+We were going to omit the comma.
+
+04:26.620 --> 04:27.450
+This is not going to work.
+
+04:27.880 --> 04:32.970
+So there's going to be an error and we're gonna say here that we're going to be looking for our GPA.
+
+04:32.980 --> 04:35.020
+Remember our GPA was the black colour.
+
+04:35.170 --> 04:36.670
+I'm sorry not black colour.
+
+04:36.660 --> 04:43.130
+That was the colour that allows us to have the opacity or the transparency since they are GPA.
+
+04:43.210 --> 04:47.860
+Then I'm gonna be looking for the black colour because I have told you black colour because I already
+
+04:47.860 --> 04:48.410
+know that.
+
+04:48.580 --> 04:50.530
+I would like to have the black colour.
+
+04:50.530 --> 04:52.900
+This is gonna be zero point six.
+
+04:52.900 --> 04:54.420
+So it's gonna be kind of dark ish.
+
+04:54.910 --> 05:01.550
+And then again we do need to have the syntax Where are we having the com and here I'm gonna say again
+
+05:01.610 --> 05:08.680
+our GPA then we're gonna look for the same color so we could have technically copied and pasted and
+
+05:08.690 --> 05:10.460
+let's say zero point six.
+
+05:10.460 --> 05:16.700
+We know that our background or our linear gradient is gonna be going from the top to the bottom but
+
+05:16.700 --> 05:18.260
+if you were using the same color.
+
+05:18.260 --> 05:19.520
+Doesn't really matter.
+
+05:19.520 --> 05:21.430
+So the whole background is gonna look like this.
+
+05:21.860 --> 05:23.300
+If you think this is too dark.
+
+05:23.360 --> 05:24.140
+No problem.
+
+05:24.140 --> 05:26.060
+Just about zero point five.
+
+05:26.060 --> 05:27.840
+You think this is still too dark.
+
+05:27.850 --> 05:31.220
+I had something less unless you want to be really creative.
+
+05:31.220 --> 05:32.200
+Pick another color.
+
+05:32.270 --> 05:33.410
+Doesn't really matter.
+
+05:33.410 --> 05:37.010
+I would suggest using our GPA because then you can control the possibly.
+
+05:37.190 --> 05:39.560
+But it's not really written in stone.
+
+05:39.560 --> 05:41.960
+You can really use whatever you'd like.
+
+05:41.990 --> 05:42.620
+Awesome.
+
+05:42.620 --> 05:43.510
+So we have the header.
+
+05:43.520 --> 05:46.000
+What is next on our agenda.
+
+05:46.190 --> 05:47.410
+Well we have the banner right.
+
+05:47.750 --> 05:53.920
+So maybe within a header we can just say banner and for the banner I would like to place it in the center.
+
+05:53.930 --> 05:56.760
+Now when I say banner What do I mean by banner.
+
+05:56.870 --> 06:01.210
+I have the header and I have the David Banner banner has all the text.
+
+06:01.340 --> 06:06.810
+What I would like to do is set this banner with position absolute right here in the center.
+
+06:06.830 --> 06:11.450
+That way I will have my text as well and center how this is gonna work.
+
+06:11.450 --> 06:19.320
+Well very simply say banner then we know that we have an option of let's say position absolute position
+
+06:19.340 --> 06:20.160
+absolute.
+
+06:20.180 --> 06:23.570
+Now this is gonna obviously take it out of the normal flow.
+
+06:23.570 --> 06:27.470
+Then we would need to work with the values because if I'm gonna save it nothing is going to change right
+
+06:27.470 --> 06:28.130
+now.
+
+06:28.130 --> 06:35.210
+And what we are looking for is Trump is going to be 50 percent and left is also going to be 50 percent.
+
+06:35.300 --> 06:41.770
+So now we're setting this up relative to how or I can tell you right away that we have missed something.
+
+06:41.840 --> 06:46.440
+There's something missing where this is not going to perform exactly like we would want.
+
+06:46.460 --> 06:47.560
+So let me say this.
+
+06:47.940 --> 06:53.000
+And first of all we obviously see that we would need to transform this because even though this is technically
+
+06:53.000 --> 06:58.880
+in the center it is not really in the center at the moment because it still has its own width and height.
+
+06:59.120 --> 07:03.320
+There is also an issue because remember with position absolute we were looking for the first parent
+
+07:03.360 --> 07:04.800
+with relative.
+
+07:04.880 --> 07:08.590
+Otherwise we're going to be setting this relative to the body.
+
+07:08.760 --> 07:10.060
+What is the parent.
+
+07:10.080 --> 07:11.910
+I believe it was the header.
+
+07:11.910 --> 07:13.610
+Do we have the relative.
+
+07:13.610 --> 07:15.640
+No I don't think we do so here.
+
+07:15.650 --> 07:17.980
+That's right also position and position.
+
+07:17.980 --> 07:19.220
+Marcus is gonna be a relative.
+
+07:19.440 --> 07:23.850
+So now we're gonna be setting actually this manner relative to this even though right now I'm gonna
+
+07:23.850 --> 07:26.530
+say it you'll say well there was no change.
+
+07:26.660 --> 07:26.920
+Yeah.
+
+07:26.930 --> 07:32.060
+People because we have nothing else in the document but if you're gonna set this up this is not gonna
+
+07:32.070 --> 07:32.930
+be the proper way.
+
+07:32.940 --> 07:38.220
+So I always make sure that the parent the one that you would want to place it relative to does have
+
+07:38.220 --> 07:42.110
+actually this relative position as a value.
+
+07:42.140 --> 07:42.550
+Okay.
+
+07:42.630 --> 07:43.590
+What else.
+
+07:43.680 --> 07:47.700
+Maybe before we work with transformations we can also do this.
+
+07:47.700 --> 07:51.500
+We can say text line is gonna be in the center.
+
+07:51.850 --> 07:54.840
+So now this text is going to be nicely sitting in the center.
+
+07:54.900 --> 07:58.350
+And when I say nicely we still need to do the transformation.
+
+07:58.350 --> 08:00.690
+And how was the transformation.
+
+08:00.700 --> 08:05.850
+Remember he had transformed property and within the transform property we had translate X translate
+
+08:05.850 --> 08:11.680
+y but we also could use both values whenever we're were using the both values.
+
+08:11.700 --> 08:12.810
+First one was x.
+
+08:12.810 --> 08:16.400
+Second one was y y is the correct answer.
+
+08:16.590 --> 08:20.180
+And then we had an option working with percentages.
+
+08:20.310 --> 08:25.530
+So if I know that right now this text is sitting with its own with its own height.
+
+08:25.530 --> 08:33.450
+Why don't we add 50 percent move to the left because we're going to move basically the half of the value
+
+08:33.540 --> 08:40.740
+of the actual banner as well as move it up 50 percent which is gonna be on the y axis.
+
+08:40.740 --> 08:45.060
+So I'm gonna say 50 and 50 and booyah.
+
+08:45.060 --> 08:51.210
+This is our text exactly in the center where I can say boom or I'm I've been actually trying to come
+
+08:51.210 --> 08:56.610
+up with these names because obviously as you're watching 17 hours you are really getting annoyed with
+
+08:56.610 --> 09:04.830
+me repeating something so I have to tell you I have been working on researching what I can say whenever
+
+09:04.830 --> 09:08.330
+something good happens or something like that where I have come up with.
+
+09:08.340 --> 09:15.570
+Well I didn't really come up with but you'll hear me saying Booyah boom more just like that or something
+
+09:15.570 --> 09:16.380
+like that.
+
+09:16.800 --> 09:17.670
+What else I would like.
+
+09:17.670 --> 09:24.660
+Well I think we can go with letter spacing and for the letter spacing people and the variable remember
+
+09:25.120 --> 09:30.440
+the letter spacing so why don't we does this out why don't we say a letter spacing property is gonna
+
+09:30.450 --> 09:37.740
+have our variable or a variable is gonna be looking like this and we have our letter spacing are some
+
+09:38.100 --> 09:43.710
+awesome everything is working really why we have the text align center we have all these things but
+
+09:43.710 --> 09:48.840
+now I'd like to start them all bit more I'm going to say banner subtitle here you're gonna be looking
+
+09:48.840 --> 09:57.120
+for a sub title that was our class and just a quick side note I know you're probably wondering you're
+
+09:57.120 --> 09:59.950
+looking at this and you're saying OK.
+
+09:59.990 --> 10:01.750
+This guy doesn't make sense.
+
+10:01.850 --> 10:04.660
+He's having the banner then within the banner setting three.
+
+10:04.670 --> 10:06.230
+Then why he's adding this class.
+
+10:06.230 --> 10:10.280
+If he could have just work with the sentence selectors right.
+
+10:10.280 --> 10:18.010
+So you can say something like this can see a banner and I don't know why have all caps but banner that
+
+10:18.050 --> 10:21.580
+I'm looking for having one and then I'm gonna be styling it.
+
+10:22.130 --> 10:22.990
+Yeah you can do it.
+
+10:23.360 --> 10:24.750
+Especially for this project.
+
+10:24.800 --> 10:25.900
+No biggie.
+
+10:25.940 --> 10:26.750
+Go ahead.
+
+10:26.750 --> 10:32.420
+It's no big deal it's not going to change anything later on as your projects are going to be getting
+
+10:32.420 --> 10:33.660
+bigger.
+
+10:33.770 --> 10:39.160
+You will gonna start reaching out to some kind of methodology as you're working with CSX.
+
+10:39.320 --> 10:46.120
+Now what do I mean by methodology were as your project has five pages ten pages 15 pages.
+
+10:46.130 --> 10:48.890
+Seventeen hundred elements whatever.
+
+10:49.250 --> 10:52.610
+What happens is that using this kind of structure what it means.
+
+10:52.640 --> 10:56.240
+Well I'm gonna be setting this up for that my having having one right.
+
+10:56.240 --> 10:59.150
+Well technically that would be heading three.
+
+10:59.290 --> 10:59.870
+All right.
+
+10:59.870 --> 11:03.520
+The subtitle is having three and what happens if you later on changed this.
+
+11:03.530 --> 11:07.430
+If you say well it's not gonna be having three it's gonna be heading for this is not going to apply
+
+11:07.430 --> 11:14.660
+anymore because now I'm selecting a three as well as it's going to be harder for you to read later on.
+
+11:14.660 --> 11:20.880
+Now if you're using classes that way if this class is gonna be used only setting three I know that I'm
+
+11:20.880 --> 11:25.220
+working on this class which again in this case might seem a little bit overkill.
+
+11:25.260 --> 11:27.780
+You might be like this doesn't make sense.
+
+11:27.780 --> 11:30.560
+I mean he has hanging three why he's adding the class.
+
+11:30.720 --> 11:36.090
+There's also gonna be a layer on a well I don't know how much we gonna be implementing to tell you honestly
+
+11:36.360 --> 11:39.030
+because I haven't come up with the projects.
+
+11:39.120 --> 11:42.240
+The ones that I'm rerecording right now but what.
+
+11:42.280 --> 11:45.580
+What's gonna happen is you will gonna meet something called Ben.
+
+11:45.720 --> 11:47.300
+This is actually spelled like this.
+
+11:47.310 --> 11:55.320
+You gonna write Bam where you are working with a specific methodology which uses only the classes which
+
+11:55.380 --> 12:00.450
+are not strictly following this because you would be doing like an underline you'd do something like
+
+12:00.450 --> 12:01.500
+this but.
+
+12:01.550 --> 12:07.350
+And I think that at the moment it might be a little bit too confusing especially for our first project.
+
+12:07.350 --> 12:12.750
+So we're kind of cheating all but but I will gonna try to add classes to all my elements.
+
+12:12.750 --> 12:15.850
+That way you can at least start getting used to it.
+
+12:15.900 --> 12:17.410
+You don't have to do it again.
+
+12:17.460 --> 12:20.060
+You can use something like this descendants.
+
+12:20.100 --> 12:21.270
+You can even say like this.
+
+12:21.270 --> 12:27.540
+It's also gonna work but I do want to let you know that as you're gonna be progressing with scissors
+
+12:27.930 --> 12:32.040
+you will gonna start meeting these methods and methodologies.
+
+12:32.130 --> 12:33.510
+Now Bam is not the only one.
+
+12:33.510 --> 12:36.540
+Don't get me wrong there's all kinds of ways how you can do it.
+
+12:36.540 --> 12:39.840
+People use the utility glasses and so forth and so forth.
+
+12:40.260 --> 12:45.870
+But long story short that's the reasoning why I'm using the classes and again I'm sorry I went on for
+
+12:45.870 --> 12:52.440
+five minutes but I do think that it's important to explain that because what's happened is that some
+
+12:52.440 --> 12:57.230
+person asked this in the comments and then I only answer to that person so I might as well cover this
+
+12:57.230 --> 13:02.230
+right now so but who's watching this kind of understands the general idea.
+
+13:02.340 --> 13:06.150
+Okay enough of me chatting let's add some fun size shall we.
+
+13:07.050 --> 13:08.640
+Let's say two or 3 Ms.
+
+13:08.810 --> 13:13.080
+So that's gonna be the text there's gonna be a little bit bigger then I would also want to use that
+
+13:13.080 --> 13:18.940
+font family remember that's 9 10 11 so font family and then again two dashes and check this out.
+
+13:18.960 --> 13:20.950
+Or boom or bull here.
+
+13:21.150 --> 13:25.560
+I don't know how we're gonna try to come up with Mother ones throughout the videos just so you don't
+
+13:25.560 --> 13:26.580
+get bored.
+
+13:26.580 --> 13:30.660
+But what we're having is these slanted text not the one that I'm looking for.
+
+13:31.110 --> 13:36.180
+So let me save this and let's say we're all gonna have to read X text is gonna be slanted.
+
+13:36.270 --> 13:37.380
+Awesome.
+
+13:37.380 --> 13:38.700
+What else I would like.
+
+13:38.700 --> 13:44.070
+Well let me walk with color and then let's use the primary color.
+
+13:44.130 --> 13:45.660
+What was the primary color.
+
+13:45.720 --> 13:47.120
+I believe it was the green one.
+
+13:47.460 --> 13:49.710
+And this is where this is really beautiful.
+
+13:49.710 --> 13:54.480
+Now you could do something like this you can say the hashtag and it will gonna technically give you
+
+13:54.480 --> 13:55.460
+the values.
+
+13:55.680 --> 13:58.300
+So it's not like it's the end of the deal.
+
+13:58.320 --> 14:05.070
+Again I don't have to every time say six nine F three f but I think it's also a little bit better because
+
+14:05.070 --> 14:10.910
+of the simple reason that I can use the primary color and if I change my mind later on and let's say
+
+14:11.040 --> 14:14.820
+this is gonna be not f today then I can say change the color.
+
+14:14.820 --> 14:20.730
+Now let me change this back because I do want to have but you understand the idea using this variable
+
+14:20.850 --> 14:27.180
+allows you not to jump throughout your document and then just like a crazy person keep changing this
+
+14:27.180 --> 14:28.460
+in 50 places.
+
+14:28.470 --> 14:34.170
+Granted you have options of finding this by let's say command if this is gonna be one of the nifty things
+
+14:34.170 --> 14:38.370
+with Visual Studio code where you just type whatever you're looking for and you can change it in all
+
+14:38.370 --> 14:39.450
+the places.
+
+14:39.450 --> 14:43.040
+But why would you want to do it if you can just use a variable in the first place.
+
+14:43.050 --> 14:46.600
+I think this is much more makes a little bit much more sense.
+
+14:46.620 --> 14:51.150
+We have the font size we have the font family and we have the color for now this is gonna be it.
+
+14:51.150 --> 14:54.030
+However let me add the animation which is gonna be later on.
+
+14:54.030 --> 14:59.520
+So there's gonna be calm and just so we remember that we were gonna be adding animation what else we
+
+14:59.520 --> 15:01.200
+have while we have the banner tile right.
+
+15:01.200 --> 15:08.400
+So we're gonna say manner then we're looking for the title and what I would want for the title let's
+
+15:08.490 --> 15:13.970
+add text transformed first of all we would want the uppercase text is gonna be big.
+
+15:14.220 --> 15:20.850
+Then we also gonna add a little bit more font size or three point two or three M's color.
+
+15:20.910 --> 15:22.160
+Remember we had the white one.
+
+15:22.590 --> 15:30.330
+So when we look for the white color Main White is going to be my color name margin Top Notch has a little
+
+15:30.330 --> 15:38.180
+bit of margin same margin top is gonna be an unknown let's say 2.5 are Iams.
+
+15:38.240 --> 15:42.790
+So there's going to be a little bit of margin as well as let's change the line had a little bit let's
+
+15:42.790 --> 15:45.330
+say line is gonna be one point three.
+
+15:45.510 --> 15:46.780
+That should do it.
+
+15:46.890 --> 15:51.000
+And then again last but not least let's add the comments for animation that we're going to be adding
+
+15:51.000 --> 15:52.770
+on so later on.
+
+15:52.770 --> 15:54.940
+So there's gonna be animation.
+
+15:54.950 --> 15:55.790
+Okay people.
+
+15:55.890 --> 16:03.080
+Now we are arrived to the button and for the button what do we have well if I remember correctly it
+
+16:03.080 --> 16:05.830
+was the link linked in which timing.
+
+16:06.180 --> 16:11.420
+And if you're looking at the link you noticing that you're right we're having this underline we could
+
+16:11.420 --> 16:15.950
+technically go to each and every link and add this text underline none.
+
+16:16.060 --> 16:20.730
+However why don't we use the fact that we can use with these help or utility closet.
+
+16:20.780 --> 16:26.570
+Now what help are utility classes are going to allow us to do is just to set up some general styles
+
+16:27.050 --> 16:31.480
+where you don't have to jump back and forth and changing this.
+
+16:31.490 --> 16:32.540
+Now what is that going to work.
+
+16:32.540 --> 16:37.100
+So let's say I'm going to say for all the links so all the links that are going to be in our project
+
+16:37.520 --> 16:38.650
+I'm just gonna give her this.
+
+16:38.720 --> 16:40.070
+And the reason for that is very simple.
+
+16:40.070 --> 16:44.450
+Well later on we're going to have the nav bar later on I guess we're gonna have some other links so
+
+16:44.450 --> 16:47.490
+what is the purpose of jumping all the time and saying this.
+
+16:47.520 --> 16:51.960
+Okay so I don't want this tax declaration why don't we set it up for all the links.
+
+16:52.010 --> 16:53.860
+I don't want that tax declaration.
+
+16:53.870 --> 16:55.620
+What else we're having.
+
+16:56.000 --> 17:01.940
+I would want to have some text white class so every time I would want some text white somewhere I'm
+
+17:01.940 --> 17:02.830
+just going to skip it.
+
+17:02.830 --> 17:07.140
+I'm just gonna say color and now I'm gonna be looking for again var.
+
+17:07.290 --> 17:12.690
+And within here I have my main one that's gonna be my answer you tell a class.
+
+17:12.770 --> 17:16.360
+I can also do text center so text center.
+
+17:16.400 --> 17:21.590
+And again if those of you who are confused just understand that we are creating these classes right
+
+17:21.590 --> 17:27.220
+now and I can add these classes all throughout my document and these styles are going to be applied.
+
+17:27.260 --> 17:29.790
+That's the general understanding behind this.
+
+17:30.020 --> 17:37.530
+And then we have a text center and here let's do text online and we're gonna be using text center.
+
+17:37.880 --> 17:42.110
+Again you're not going to be able to see those classes right now because honestly we haven't set it
+
+17:42.110 --> 17:49.790
+up I'm in a project as well as you know the last one or one before last we're gonna be primary and that's
+
+17:49.790 --> 17:51.960
+gonna be equal to color.
+
+17:52.030 --> 17:53.240
+And here I'm gonna be looking.
+
+17:53.240 --> 17:54.830
+Remember we had the primary color.
+
+17:55.070 --> 17:59.950
+So let me say color for some reason it's not giving me suggestions and now it does.
+
+17:59.960 --> 18:03.160
+And I would like to use this primary color me save it.
+
+18:03.320 --> 18:06.330
+And this is gonna be my value for primary color.
+
+18:06.380 --> 18:09.590
+Here again I'm going to add a comment.
+
+18:09.830 --> 18:11.420
+And this is gonna be for a clear fix.
+
+18:11.420 --> 18:12.200
+No clear fix.
+
+18:12.200 --> 18:15.470
+We're gonna deal later on as we start working with the float.
+
+18:15.470 --> 18:19.890
+So for now I don't want to put too much stuff in your head.
+
+18:19.990 --> 18:24.500
+You can just say that there will gonna be later on clear fix and you'll see once we start working with
+
+18:24.500 --> 18:27.920
+them why we're actually using this for this.
+
+18:27.920 --> 18:31.040
+What we had we had something called banner button.
+
+18:31.040 --> 18:37.370
+Now within styles again scroll over here with me say right after the banner title we're all gonna have
+
+18:37.490 --> 18:39.650
+our main button.
+
+18:39.650 --> 18:42.110
+Now I'm saying that our button.
+
+18:42.110 --> 18:44.630
+But then the moment I'm also saying main button.
+
+18:44.630 --> 18:46.480
+So what will be the difference.
+
+18:46.520 --> 18:47.980
+The general idea is very simple.
+
+18:48.020 --> 18:53.390
+So I'm going to have some kind of button I will gonna set up some kind of styles for the button.
+
+18:53.430 --> 18:58.040
+However because this is gonna be the banner button we're gonna set up another class there is gonna be
+
+18:58.690 --> 19:00.410
+our all throughout my document.
+
+19:00.410 --> 19:05.060
+We're gonna be able to use this simple main button and how this is gonna work.
+
+19:05.060 --> 19:12.860
+Well let's go back and let's say that there's going to be two classes so we can say main button or stall
+
+19:13.280 --> 19:14.200
+as well as com.
+
+19:14.270 --> 19:16.670
+And now I'm going to be working for the banner button.
+
+19:16.790 --> 19:21.200
+Now all the styles that we're gonna be applying for the main button are can be also applied for the
+
+19:21.200 --> 19:24.560
+banner button but banner button we're gonna make it bigger.
+
+19:24.590 --> 19:28.680
+What styles we're gonna have display in line.
+
+19:28.720 --> 19:34.160
+So this is gonna be displayed this in one block just because we would want the browser to respect the
+
+19:34.160 --> 19:37.400
+pairings and margins and all that can also do the background.
+
+19:37.400 --> 19:40.160
+The background is gonna be primary color.
+
+19:40.170 --> 19:45.110
+That's gonna be as you can see now I'm working with my button as well as I would like to start working
+
+19:45.110 --> 19:46.370
+with text.
+
+19:46.400 --> 19:48.710
+The creation is going to be none.
+
+19:48.710 --> 19:53.020
+And this is the case if I already work with all the links I don't have to do it anymore.
+
+19:53.180 --> 19:54.470
+So now I can skip it.
+
+19:54.560 --> 19:57.630
+That was the reason why we added this for the links.
+
+19:57.650 --> 20:03.360
+A lot of cases which you're going to see is as you're working let's say with I don't know headings and
+
+20:03.360 --> 20:03.910
+paragraphs.
+
+20:03.920 --> 20:06.080
+There's gonna be some general styles.
+
+20:06.140 --> 20:11.120
+Again we're not gonna do this in this project but in general that's the reason why we would do that
+
+20:11.970 --> 20:12.890
+text.
+
+20:12.900 --> 20:20.630
+We can also do text transform is gonna be uppercase so the text is gonna be bigger than what's had some
+
+20:20.630 --> 20:26.120
+padding and not page break patting and patting is gonna be the one that's going to be different for
+
+20:26.120 --> 20:29.970
+the different ones meaning for the banner button This is gonna be bigger.
+
+20:29.970 --> 20:31.090
+So Ms.
+
+20:31.160 --> 20:37.250
+One point to Marion that's gonna be the typical padding but since this will all gonna be the banner
+
+20:37.250 --> 20:39.050
+button there's gonna be bigger one.
+
+20:39.050 --> 20:40.730
+Also I would want to have some color.
+
+20:41.360 --> 20:47.210
+So let's say color is gonna be and for some reason again it's not going to give me suggestions which
+
+20:47.210 --> 20:51.460
+is a weird mean dark would be my color.
+
+20:51.560 --> 20:52.530
+Let's start out.
+
+20:52.550 --> 20:59.540
+I would also want to have font weight to be bold on the fond way it is going to be bolder.
+
+20:59.820 --> 21:01.320
+And remember the outline.
+
+21:01.360 --> 21:07.530
+Remember that nice thing that we had with buttons or not just buttons where we had the outline properly
+
+21:08.030 --> 21:09.740
+and let's write outline.
+
+21:09.740 --> 21:13.750
+The property is gonna have value zero point to Mariam so the width.
+
+21:13.830 --> 21:16.010
+Then what type of outline solid.
+
+21:16.110 --> 21:20.640
+And then I'm gonna be looking for my primary color when the moment I'm say it.
+
+21:20.650 --> 21:26.340
+Nothing technically is gonna change because right now you just notice that there is this something kind
+
+21:26.340 --> 21:33.440
+of around there's a very very thin black line but what I would like to do is use the outline offset.
+
+21:33.540 --> 21:35.660
+That's the whole purpose for this.
+
+21:35.700 --> 21:39.260
+So here I am with say the offset is going to be something like four pixels.
+
+21:39.390 --> 21:42.300
+And now this looks obviously much more nicer.
+
+21:42.300 --> 21:48.630
+Also it can do cursor and we're going to be looking for the pointer and it was save it like this here
+
+21:49.170 --> 21:54.930
+as well as we would want to add a little bit transition because I would want to hover this and as I'm
+
+21:54.930 --> 21:59.350
+hovering I would like to have let's say different color.
+
+21:59.400 --> 22:07.860
+But maybe before we do that and let's add margin top and let's say that this wood is gonna be two our
+
+22:07.960 --> 22:16.170
+times something like this and then let's start working with actually our transitions or hovering effect
+
+22:16.620 --> 22:18.670
+let's say for the main button.
+
+22:18.670 --> 22:21.820
+So main beat in as I'm hovering.
+
+22:21.960 --> 22:27.270
+Something should happen and you know what I actually would want to set up for both of them on the same
+
+22:27.270 --> 22:31.400
+main button as well as hover as well as banner button.
+
+22:31.440 --> 22:35.510
+So I'm going to say Vanna Beatty and also hover.
+
+22:35.680 --> 22:39.250
+So as we're hovering over both of them we would want to change them.
+
+22:39.290 --> 22:39.970
+Now what.
+
+22:39.970 --> 22:45.320
+That something is gonna be going to color is going to be changed so the color is going to change to
+
+22:45.340 --> 22:46.730
+main white.
+
+22:46.770 --> 22:46.980
+Yeah.
+
+22:47.020 --> 22:52.000
+Let me get a suggestion and I'll be getting mine white as I'm hovering.
+
+22:52.000 --> 22:53.350
+No I What's what's gonna happen.
+
+22:53.500 --> 22:58.200
+But the change happens instantly as well as I would like to change the opacity.
+
+22:59.720 --> 23:01.580
+Two zero point seven.
+
+23:01.640 --> 23:04.320
+So this is gonna become a little bit more transparent.
+
+23:04.330 --> 23:04.650
+Mm hmm.
+
+23:04.820 --> 23:09.070
+But here's the thing I would want this change to happen over time.
+
+23:09.110 --> 23:15.230
+And remember for that we had transition property and for transition what we had the values.
+
+23:15.230 --> 23:16.390
+Mm hmm.
+
+23:16.490 --> 23:20.100
+Let me remember Then we set this up in the variables.
+
+23:20.300 --> 23:22.100
+So we had what kind of property.
+
+23:22.160 --> 23:26.850
+I'm just gonna go with all the properties along zero point three and then easy now.
+
+23:26.990 --> 23:32.300
+So the way they transition is gonna take place in this case I can head over back and I can say again
+
+23:32.300 --> 23:38.210
+I'm going to be selecting and I would like to work with the main transition and that would be my basic
+
+23:38.210 --> 23:39.140
+setup.
+
+23:39.140 --> 23:40.740
+We are almost done.
+
+23:40.900 --> 23:47.480
+We're almost done with the section but remember that I wanted to work also with the fact that not only
+
+23:47.480 --> 23:51.950
+this is gonna be the banner button but the manor button is gonna be a little bit bigger.
+
+23:52.010 --> 23:58.160
+What I can do is I can say okay I had all the styles for both of them I had main button banner button
+
+23:58.610 --> 24:07.900
+having the same styles but here I'm going to say banner meet n so specifically just for the banner button
+
+24:08.470 --> 24:12.560
+I'm going to work with padding where I'm going to say zero point two arms.
+
+24:12.610 --> 24:19.120
+So the padding is going to be bigger as well as our arms one point five left and right top bottom should
+
+24:19.120 --> 24:21.380
+be bigger and left and right and it's gonna be bigger.
+
+24:21.390 --> 24:24.580
+Now this case this banner button is gonna be bigger.
+
+24:24.580 --> 24:30.730
+Also we're gonna add here in this specific animation in the next video I believe some when say animation
+
+24:30.730 --> 24:35.010
+is gonna be also for this banner button and that's not what I wanted to do.
+
+24:35.080 --> 24:41.380
+So let me get this back as well as all throughout the document we will gonna use this main button.
+
+24:41.680 --> 24:46.960
+So for all the buttons that are gonna be smaller we're gonna use this main button we already set it
+
+24:46.960 --> 24:54.100
+up but just for the banner we add a little bit more padding because we would want it to be looking a
+
+24:54.100 --> 24:55.650
+little bit more presentable.
+
+24:55.660 --> 24:57.470
+Let's see what we're going to have for now.
+
+24:57.530 --> 25:00.030
+And I think our banner looks just awesome.
+
+25:00.040 --> 25:04.960
+We can also test it out maybe on a small screen size so let's say how this is going to look like as
+
+25:04.960 --> 25:05.680
+I'm going down.
+
+25:05.680 --> 25:08.090
+I think this is looks perfect.
+
+25:08.260 --> 25:16.390
+And we have successfully added our banner within the header and now maybe let's cover quickly on the
+
+25:16.390 --> 25:17.690
+animations insists.

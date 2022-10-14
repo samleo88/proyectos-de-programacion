@@ -1,0 +1,166 @@
+WEBVTT
+
+00:00.450 --> 00:01.110
+Excellent.
+
+00:01.140 --> 00:07.500
+We now know general naming conventions so let's start looking at box properties one by one.
+
+00:07.500 --> 00:14.400
+Generally we can divide plex market properties into categories properties that affect all children and
+
+00:14.400 --> 00:21.750
+our set in a flux container or a parent element and the properties that affect individual child and
+
+00:21.750 --> 00:25.990
+are set to flex items separately meaning children separately.
+
+00:26.220 --> 00:29.070
+And we're going to cover parent properties first.
+
+00:29.070 --> 00:36.830
+Essentially properties that affect the layout of all children in our Flex container or a parent and
+
+00:36.840 --> 00:44.460
+the first property we're going to cover is going to be flex direction and it comes in multiple flavors.
+
+00:44.460 --> 00:49.060
+We have an option of rule which by the way is the default one.
+
+00:49.290 --> 00:53.970
+Then we have reverse value column as well as column reverse.
+
+00:53.970 --> 00:56.820
+So let's start one by one.
+
+00:56.910 --> 01:02.270
+First one we're going to cover Israel and I'm going to write the Flex direction.
+
+01:02.490 --> 01:07.830
+That is the property name and again please remember that these particular properties that we're going
+
+01:07.830 --> 01:08.920
+to cover first.
+
+01:09.030 --> 01:15.330
+And of course I'm going to mention once we switch with these particular properties are set on the parent
+
+01:15.600 --> 01:18.350
+always always they are set on the parent.
+
+01:18.390 --> 01:24.010
+And like I said first when we have the role and the moment we save it we notice that nothing changes.
+
+01:24.030 --> 01:25.440
+And the reason why nothing changes.
+
+01:25.440 --> 01:31.380
+Well like I said there are some properties with some values that are set right away by default.
+
+01:31.380 --> 01:35.730
+And this is the case more flex direction is right away cetera.
+
+01:36.450 --> 01:39.240
+So only if I'm going to change it and you know what.
+
+01:39.240 --> 01:42.740
+By the way I'm going to leave it for your reference for the time being.
+
+01:42.930 --> 01:46.030
+And we're going to change it to a real reverse.
+
+01:46.110 --> 01:53.160
+So let's write little reverse and notice right away how are boxes changed in fact the direction.
+
+01:53.160 --> 01:53.820
+Correct.
+
+01:53.880 --> 01:59.160
+Because in this case they were actually starting with one and all the way to the five.
+
+01:59.160 --> 02:03.750
+Well in this case we flipped them where where we had five before.
+
+02:03.750 --> 02:08.600
+Well first of all we have one and one is all the way on the right hand side.
+
+02:08.730 --> 02:15.750
+So reverse the order of our boxes as well as move them from one side which was the left side all the
+
+02:15.750 --> 02:17.520
+way to a right side.
+
+02:17.610 --> 02:18.210
+All right.
+
+02:18.300 --> 02:19.460
+That's number one.
+
+02:19.500 --> 02:21.500
+Then we also have a column.
+
+02:21.600 --> 02:28.470
+So let me copy and paste this first and then let's comment is out and let's write column and what you're
+
+02:28.470 --> 02:31.260
+going to notice is the moment we type column.
+
+02:31.260 --> 02:35.980
+In fact we go to our first layout that we had when we had the setup.
+
+02:36.030 --> 02:41.080
+So essentially we just head over back and instead of having a row which would be default.
+
+02:41.280 --> 02:47.820
+Well now we have a column layout and you can probably already guess that if I'm going to copy and paste
+
+02:47.820 --> 02:53.490
+it and not columns then let's copy and paste it and let's come in the south and let's try it.
+
+02:53.490 --> 02:59.690
+Column reverse you can probably already guessed that what is going to happen while our boxes are going
+
+02:59.690 --> 03:04.190
+to change order again where where we have a box number one.
+
+03:04.260 --> 03:09.880
+Currently we have box number five and we have successfully flipped the boxes pretty much around.
+
+03:10.150 --> 03:10.730
+OK.
+
+03:10.960 --> 03:19.140
+Now again since we are right away using row by default in most cases what's gonna happen if I specifically
+
+03:19.140 --> 03:23.090
+don't say that I'm adding the flux direction of let's say row.
+
+03:23.190 --> 03:27.250
+Well I'm just gonna go with default because there's really no point.
+
+03:27.350 --> 03:29.950
+There's of course other properties that we can set.
+
+03:30.040 --> 03:35.220
+We're not limited to this one flex direction but in most cases what you're going to see is the moment
+
+03:35.220 --> 03:36.580
+we set flex.
+
+03:36.660 --> 03:42.690
+Only if we would like to override this particular default let's say to a row reverse or column or column
+
+03:42.690 --> 03:45.510
+reverse we're just going to leave it the way it is right.
+
+03:45.830 --> 03:51.270
+That's the whole point of having those defaults where I could just go with the flex then I right have
+
+03:51.270 --> 03:56.440
+right away this flex direction of row and unless I specifically would like to change it.
+
+03:56.520 --> 04:01.380
+Well I'm just going to leave it blank correct because there there's no way for me or there's no point
+
+04:01.380 --> 04:08.010
+really for me to write this flux direction of row because nothing is going to change in my layout.

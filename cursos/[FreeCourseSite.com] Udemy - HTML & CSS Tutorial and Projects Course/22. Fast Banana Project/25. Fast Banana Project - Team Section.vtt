@@ -1,0 +1,757 @@
+WEBVTT
+
+00:00.330 --> 00:05.360
+The next section you're going to be building is going to be all here our team section.
+
+00:05.670 --> 00:10.270
+And as you can see we're here we're not going to be using any kind of plug ins.
+
+00:10.410 --> 00:10.710
+Right.
+
+00:10.710 --> 00:15.600
+This is just going to be a H.T. amount and C section pretty much.
+
+00:16.020 --> 00:17.700
+So what are going to do well here.
+
+00:17.720 --> 00:20.490
+Where is this going to go back to next.
+
+00:20.570 --> 00:25.760
+You know we're here going to go to the numbers here.
+
+00:26.250 --> 00:32.560
+And then we're going to say this is going to be a moment Dean select the line.
+
+00:32.610 --> 00:39.460
+Copy and paste the line and are going to say and of the end of the.
+
+00:39.680 --> 00:47.760
+And we're going to have a section again ID the press table here and then we knew the title.
+
+00:47.790 --> 00:49.870
+So now let's scroll up again.
+
+00:50.170 --> 00:52.650
+Find where our closest title.
+
+00:53.190 --> 00:54.670
+It's going to be over here.
+
+00:55.130 --> 00:56.810
+And together with a comment.
+
+00:57.150 --> 01:00.790
+So we see where the actual title was ending.
+
+01:00.780 --> 01:03.990
+Copy this and we're going to go back over here.
+
+01:04.010 --> 01:05.520
+Where's the section.
+
+01:05.520 --> 01:09.550
+So we're going to copy and paste this and this is going to be current project.
+
+01:09.640 --> 01:12.550
+Now here we're going to change the icon.
+
+01:12.690 --> 01:17.760
+So this is going to be users users over here.
+
+01:18.150 --> 01:23.510
+Next one is not going to be current project or going to say this is going to be me it's going to say
+
+01:23.520 --> 01:27.840
+we're here to meet our team when we're like this.
+
+01:28.170 --> 01:32.260
+And then after that we would need to start building our team section.
+
+01:32.280 --> 01:39.240
+So what we're going to say or here is Dave we're going to give you an idea of team let's say center
+
+01:39.890 --> 01:46.500
+center or here then we're going to have a article to go on.
+
+01:46.500 --> 01:51.050
+This is going to be a team member team member here.
+
+01:51.530 --> 01:57.420
+And once we have a team member article now basically we need to create that card right.
+
+01:57.800 --> 02:05.250
+And for the card will can actually start very basic We're going to here image here and we're going to
+
+02:05.250 --> 02:06.190
+say that image.
+
+02:06.210 --> 02:14.630
+And once we press the tab now we want a images and let's say we're here let's go to a team Team One.
+
+02:14.890 --> 02:15.260
+Right.
+
+02:15.330 --> 02:22.500
+Because I have team one on here and on here we're going to say the image right now in order for us to
+
+02:22.920 --> 02:24.760
+have a easier work.
+
+02:24.900 --> 02:27.440
+Let's actually save this right away.
+
+02:27.510 --> 02:31.930
+Let's go to our main assess and just style that image.
+
+02:32.310 --> 02:35.010
+So it's not as annoying.
+
+02:35.000 --> 02:41.040
+All right so what I'm going to say here is that we're still going to start a team section and so this
+
+02:41.040 --> 02:43.470
+is going to be hashtags.
+
+02:44.110 --> 02:49.970
+Here are some more hashtags over here and then we right away going to style the image.
+
+02:49.970 --> 02:58.070
+And so I'm going to say a team and I'm going to say Remember no real image like this.
+
+02:58.080 --> 03:05.580
+All right so now I'm selecting the image in order here with is hundred pixels and when I say hundred
+
+03:05.580 --> 03:07.860
+pixels I mean hundred pixels.
+
+03:08.220 --> 03:16.080
+Then this is going to be a border radio is 50 percent more here and more here.
+
+03:16.410 --> 03:20.270
+Let's have a margin top negative 35.
+
+03:20.430 --> 03:27.540
+What what I'm going to do is I'm going to do that for now margin top and will do a negative 35.
+
+03:27.540 --> 03:30.780
+However let's just comment this up for now.
+
+03:30.990 --> 03:31.260
+All right.
+
+03:31.260 --> 03:32.460
+We don't need it right now.
+
+03:32.460 --> 03:35.060
+I want to show you actually at the end what happened.
+
+03:35.070 --> 03:35.850
+Right.
+
+03:35.850 --> 03:39.640
+So once we have this let's say it and let's go back to the next issue.
+
+03:39.840 --> 03:40.200
+All right.
+
+03:40.200 --> 03:46.930
+Otherwise it's going to look like like a lot of mess if we're having a very huge image and then we're
+
+03:46.930 --> 03:48.460
+placing some kind of text.
+
+03:48.480 --> 03:50.250
+It's not going to make much sense.
+
+03:50.280 --> 03:54.990
+So there's going to be heading to and we're going to say John.
+
+03:55.440 --> 04:01.150
+And here and here we actually need to go outside.
+
+04:01.350 --> 04:10.050
+Now we have had to have Jondo then we have a five here and I'm going to say developer and press time
+
+04:10.050 --> 04:16.350
+now we have had it fire and we're going to have a horizontal line here and then we're going to have
+
+04:16.410 --> 04:24.390
+a paragraph of let's say 20 words right press tab here press double here.
+
+04:24.420 --> 04:28.390
+So this is going to be our paragraph and then we'll get our footer.
+
+04:28.680 --> 04:34.540
+So still with an article we're going to say we're here and this is going to be Dave on here.
+
+04:34.560 --> 04:43.230
+Class and over here we're going to say member I don't know if we're really in this and we're going to
+
+04:43.230 --> 04:53.180
+have links with a font or so my guns so link or here and then I'm going to say we're here I F A and
+
+04:53.690 --> 04:55.640
+F on the way here like this.
+
+04:55.660 --> 04:57.180
+I pressed tab.
+
+04:57.180 --> 04:59.300
+Now this is going to be a dummy link.
+
+04:59.460 --> 05:02.440
+And how are you going to say Facebook and you know what.
+
+05:02.460 --> 05:10.990
+Let's do it like this let's just copy the line copy three times here and knowledge change Facebook then
+
+05:11.560 --> 05:20.090
+Instagram Instagram or here then the next one is going to be Twitter and then on here we're going to
+
+05:20.090 --> 05:29.800
+have a Google Plus Google Plus and that is it for the age e-mail because the only thing we need to do
+
+05:29.800 --> 05:36.690
+is with the middle wrap this article we're going to copy this guy over here already.
+
+05:36.910 --> 05:42.790
+And we need to copy this three times one two three and he'll just change a member.
+
+05:43.110 --> 05:50.460
+And so this is team number two team number three team number number four here.
+
+05:50.530 --> 05:56.360
+All right so now we have four of them will say this and we're going to go back to Menzi assess.
+
+05:56.820 --> 06:01.090
+And again we're going now we're going to start actually starting the actual section once we make the
+
+06:01.090 --> 06:02.920
+comment for our team.
+
+06:02.920 --> 06:08.380
+First things first we're going to have is a team and then we're going to say that this is going to have
+
+06:08.450 --> 06:16.240
+padding 40 pixels and zero so top bottom 40 and sides.
+
+06:16.600 --> 06:25.540
+And know your background we're going to have a hash tag B 5 C and or here and then we have to be seven
+
+06:25.750 --> 06:26.890
+or like this.
+
+06:27.040 --> 06:30.310
+And I can see what happens over here with this title.
+
+06:30.330 --> 06:30.610
+All right.
+
+06:30.610 --> 06:32.900
+So we actually need to work with this title.
+
+06:33.190 --> 06:39.520
+So we're all going to say hash tag team and we're going to say title and we're going to say sub adding
+
+06:40.630 --> 06:43.210
+sub adding or here like this.
+
+06:43.210 --> 06:46.140
+And with the subheading what we would want is a different color.
+
+06:46.300 --> 06:54.010
+So a hash tag 0 0 an A and then is going to be seven one more here.
+
+06:54.010 --> 06:59.800
+So this is going to be the blue one and the same thing we need to actually have for the border because
+
+06:59.800 --> 07:02.650
+we would want a world here right.
+
+07:02.660 --> 07:04.900
+So we're going to say oh here Dean.
+
+07:05.250 --> 07:11.110
+And we're going to take title and title text on this.
+
+07:11.470 --> 07:17.890
+And this is going to be border laughed and this is going to be three pixels solid.
+
+07:18.090 --> 07:25.460
+And let's get the color over here so we can just copy and paste this and or here are going to do it.
+
+07:25.820 --> 07:30.840
+So now we have a border and I would start working with a team member.
+
+07:31.100 --> 07:35.190
+So I'm going to say team member on this.
+
+07:35.240 --> 07:36.860
+So what do we want first.
+
+07:36.910 --> 07:45.870
+I want a text align center likeness than we would want a border and for the more of what we would want
+
+07:45.870 --> 07:57.510
+we would want one pixel solid or here we're going to say to E to A to a hill.
+
+07:57.800 --> 07:59.460
+And so this is going to be our border.
+
+07:59.790 --> 08:09.780
+Then after that would want a border radius border radius and that's going to be 20 pixels or you know
+
+08:09.830 --> 08:19.400
+like this then we're going to have a background hash tag EF 5 EF 3 and 5 know this EF 3 or 5.
+
+08:19.490 --> 08:22.920
+Then after that we would want a transition.
+
+08:23.180 --> 08:26.710
+This is going to be back around here.
+
+08:26.990 --> 08:30.370
+Two seconds is here like this.
+
+08:30.380 --> 08:38.480
+And then we'll have a margin margin maybe 70 pixels 0 or here and that's only top bottom that's what
+
+08:38.480 --> 08:41.090
+we care about the actual margin.
+
+08:41.510 --> 08:45.630
+And then after that you want to do is actually work with a team member.
+
+08:45.760 --> 08:46.050
+Right.
+
+08:46.120 --> 08:56.060
+So we're going to say here is that we would want a team member how we're member to say however and once
+
+08:56.060 --> 08:57.940
+we're hovering what should happen right.
+
+08:57.970 --> 09:01.790
+So the same background hashtags 0 0 no.
+
+09:01.920 --> 09:06.350
+A This is going to be seven easy one or this.
+
+09:06.400 --> 09:08.570
+All right so basically let's see what happens.
+
+09:08.570 --> 09:09.210
+Right.
+
+09:09.230 --> 09:13.840
+So as I'm hovering can all these things are going to be changing right.
+
+09:13.840 --> 09:20.900
+The background here is going to be changing then out of there once we have the hover let's do the image
+
+09:21.200 --> 09:24.150
+which we already did right here.
+
+09:24.340 --> 09:25.370
+Now we're here.
+
+09:25.460 --> 09:29.660
+Let's actually go back and now we can uncommon this.
+
+09:29.820 --> 09:32.280
+So here I can just uncommon this.
+
+09:32.360 --> 09:35.000
+Now I can see that my image is more here like.
+
+09:35.130 --> 09:37.410
+That's exactly how I want them right.
+
+09:37.490 --> 09:39.290
+So I close this one over here.
+
+09:39.630 --> 09:42.690
+And then the next one is going to be Team center.
+
+09:42.750 --> 09:45.430
+So this is going to be the parent for all of them.
+
+09:45.740 --> 09:54.270
+So I'm going to say team Santerre on here and then we're going to say Max with one here this is going
+
+09:54.270 --> 10:03.170
+to be 90 90 view with us here and then we're going to have a margin zero right.
+
+10:03.250 --> 10:11.670
+So now we're replacing it again in the middle and padding 40 pixels and zero more here like this.
+
+10:11.670 --> 10:18.880
+Now once we have this it's actually styled the team member adding two and having five in all.
+
+10:18.930 --> 10:19.590
+All right.
+
+10:19.800 --> 10:27.510
+So I'm going to say we're here team member and over here we're going to start with heading to and on
+
+10:27.520 --> 10:33.360
+here we're going to see a text transform and that's going to be capitalized.
+
+10:33.510 --> 10:40.610
+Then after that we're going to have a team member heading five so I'm going to say team member I know
+
+10:40.780 --> 10:48.460
+this is going to be hitting five and we're heading fibered would want is margin 10 pixels and zero.
+
+10:48.660 --> 10:56.640
+Right here's a bottom again and teks transform uppercase so text transform uppercase really does.
+
+10:56.780 --> 11:08.830
+And then we have a team member horizontal line so team member is on the line or here that's going to
+
+11:08.830 --> 11:18.900
+be with 70 percent are you doing this again and we're going to have a margin zero.
+
+11:18.990 --> 11:20.220
+All right.
+
+11:20.260 --> 11:27.070
+So again we're setting with we're here for this horizontal line but then we're actually placing it in
+
+11:27.070 --> 11:33.400
+the middle where the margin is zero and then we have a border and the border is going to be actually
+
+11:34.060 --> 11:42.080
+one pixels solid and that's going to be hashed f f c 9 1 4 or 0 like this.
+
+11:42.100 --> 11:43.580
+And that's going to be the more.
+
+11:43.990 --> 11:50.440
+And then one we would want to do is actually work with a footer or you know what let's do it paragraph
+
+11:50.440 --> 11:57.630
+first so we're going to second team member paragraph and we're here to say a line.
+
+11:57.680 --> 11:58.530
+Right.
+
+11:58.710 --> 12:04.960
+It's going to be too soon here and we're going to have a margin of 10 pixels like this.
+
+12:04.970 --> 12:05.430
+All right.
+
+12:05.680 --> 12:14.440
+So you can see or hear margin is all around then after that we have a team member for so team member
+
+12:14.960 --> 12:21.450
+and we're going to say for no reason and have a padding of 20 pixels.
+
+12:21.740 --> 12:22.050
+Right.
+
+12:22.090 --> 12:26.800
+So you can see for the whole what are we adding padding and or let's say zero.
+
+12:26.800 --> 12:35.250
+All right so top bottom then we'll have a background background over here and that's going to be a hash
+
+12:35.250 --> 12:42.630
+tag to e to an 8 to 8 2.
+
+12:43.200 --> 12:48.980
+So black color or here then we have one here you can see what happens right.
+
+12:48.990 --> 12:53.040
+So we have a radius for the actual team member.
+
+12:53.100 --> 12:55.740
+Right but over here these edges are square.
+
+12:55.950 --> 13:03.170
+So what we're going to say here is border bottom left so left radius and the right radius.
+
+13:03.300 --> 13:06.000
+And we're going to set it equal to 20 pixels.
+
+13:06.210 --> 13:10.160
+Right so basically we just need to make sure that they match.
+
+13:10.180 --> 13:11.600
+Right so this one left.
+
+13:11.620 --> 13:14.800
+This one is right on this.
+
+13:14.850 --> 13:17.760
+So we saved and now everything matches.
+
+13:17.820 --> 13:21.120
+Then after that we would want a display Flexo rere.
+
+13:21.130 --> 13:21.380
+Why.
+
+13:21.510 --> 13:28.110
+Because we want the icons to be lined up so we can say flex and then we're going to have a justified
+
+13:28.110 --> 13:31.120
+content space around this.
+
+13:31.250 --> 13:31.710
+Right.
+
+13:31.960 --> 13:34.550
+And now we get our space around.
+
+13:34.790 --> 13:38.970
+And now we need to actually start some more guns here.
+
+13:39.210 --> 13:47.090
+So we're going to say is team member or former for f a.
+
+13:47.220 --> 13:52.300
+And now what we would want to so font size 30 pixels.
+
+13:52.500 --> 13:54.550
+Then you are going to have a color.
+
+13:54.650 --> 14:00.160
+So it's going to be hash tag FFC and 9 1 4 0 here.
+
+14:00.420 --> 14:02.620
+And again this is going to be transition.
+
+14:02.760 --> 14:04.890
+Transition is going to be color.
+
+14:05.160 --> 14:07.820
+And two seconds is right.
+
+14:07.860 --> 14:12.450
+So what we want to do this transition is as we're hovering.
+
+14:12.480 --> 14:14.010
+The color is going to change.
+
+14:14.100 --> 14:17.640
+But again it's not going to happen instantly it's going to happen over time.
+
+14:17.700 --> 14:21.770
+So here we can just copy and paste this here.
+
+14:21.870 --> 14:22.950
+Copy paste this.
+
+14:23.100 --> 14:25.940
+And we're going to say Hulver.
+
+14:25.990 --> 14:30.050
+All right so now we have a team member footer going on here.
+
+14:30.050 --> 14:33.380
+We're going to say however hover over here.
+
+14:33.650 --> 14:36.060
+Now once we're hovering what would be the color.
+
+14:36.420 --> 14:38.720
+And here we need to write.
+
+14:39.860 --> 14:44.590
+And we're going to have hash tag 0 0 a 7.
+
+14:44.960 --> 14:46.830
+One more here.
+
+14:47.060 --> 14:52.700
+Right so we save this over here you can see what happens right as I'm hovering over.
+
+14:52.700 --> 14:54.790
+All right the image is actually changing.
+
+14:54.890 --> 15:00.860
+And now what we have left to do is again have a responsive layout.
+
+15:01.000 --> 15:06.850
+So we're going to do is we're just going to say that again this is going to be starting with the flex.
+
+15:06.980 --> 15:13.430
+So medium and here we're going to see a screen and we're going to see and we're all going to say men
+
+15:14.390 --> 15:24.960
+with with or here are going to be 576 megapixels and we're here and we're going to have is Team center.
+
+15:24.960 --> 15:35.080
+So Team center here and we're going to start with this play flex here and then we have just if I can't
+
+15:35.180 --> 15:45.350
+space between flex wrap sort of just I can't it's space space between here flex rap rap so flex rap
+
+15:45.710 --> 15:51.230
+and we're going to set it equal to rap and then we actually have a team member so we're going to say
+
+15:51.260 --> 16:01.940
+team member an order here we're going to have a flex 00 and this is going to be caulk.
+
+16:02.000 --> 16:07.820
+All right so we're going to use a quick function 50 percent minus 1.
+
+16:08.190 --> 16:08.510
+Right.
+
+16:08.520 --> 16:12.880
+So it's going to be the percent minus the gap that we have.
+
+16:13.180 --> 16:16.430
+So here this is the down final product.
+
+16:16.760 --> 16:23.730
+We go to recording and if we are fresh over here all right and if we go down this is going to be our
+
+16:23.730 --> 16:26.790
+numbers this is going to be our team right now.
+
+16:26.870 --> 16:27.060
+Right.
+
+16:27.060 --> 16:31.970
+So we feel fresh you can see that something didn't work out right.
+
+16:32.070 --> 16:34.560
+And I need to actually go and fix it.
+
+16:34.600 --> 16:35.490
+Where's the problem.
+
+16:35.520 --> 16:36.080
+Right.
+
+16:36.400 --> 16:41.190
+So here this was men with them this is going to be Team center.
+
+16:41.470 --> 16:44.110
+And we're hearing this is going to be team member.
+
+16:44.790 --> 16:48.220
+So let's go back over here and you can see that I'm missing parentheses.
+
+16:48.690 --> 16:51.810
+So this one over here and this should be fine.
+
+16:52.050 --> 16:58.560
+And now we have two of them 50 percent of what we would want to do is actually for a bigger screen.
+
+16:58.560 --> 17:01.020
+We're going to have a 25 percent.
+
+17:01.020 --> 17:09.600
+So again we're going to do it the same way nine and to can get this guy over here.
+
+17:09.840 --> 17:17.460
+Then team member let's do 25 more here we'll save this and you can see or hear that I have one more
+
+17:17.540 --> 17:18.550
+Princie.
+
+17:18.660 --> 17:20.480
+All right so say this.
+
+17:20.600 --> 17:24.200
+And now this should be for sure enough.
+
+17:24.210 --> 17:27.320
+Now we have four of them here now.
+
+17:27.730 --> 17:28.910
+Over here.
+
+17:29.000 --> 17:31.390
+We're going to do is we're going to have a grid.
+
+17:31.660 --> 17:34.030
+So we're here for the grid.
+
+17:34.210 --> 17:39.490
+We're going to have a forward slash a star.
+
+17:39.970 --> 17:44.300
+So we're going to be coming out another forward slash.
+
+17:44.470 --> 17:47.680
+Really going to write a media screen.
+
+17:47.740 --> 17:49.170
+And again we're going to have a.
+
+17:49.220 --> 17:53.790
+And I know we're going to have men with.
+
+17:53.980 --> 17:56.950
+And this is going to be 576 pixels.
+
+17:57.120 --> 17:59.580
+Then over here we're going to have a curly braces.
+
+17:59.890 --> 18:07.510
+So here we're going to say and this is going to be team center here and we're going to have a display
+
+18:08.260 --> 18:09.300
+grid.
+
+18:09.700 --> 18:15.660
+And this is going to be grid template columns or here.
+
+18:15.670 --> 18:25.030
+This is going to be one fraction one for action here and grid column gap because we want some gap in
+
+18:25.030 --> 18:25.450
+between.
+
+18:25.450 --> 18:31.830
+So we're going to say grid one and we're going to say gap and the gap is going to be 15 pixels or higher
+
+18:31.840 --> 18:32.680
+like this.
+
+18:32.680 --> 18:34.470
+Right now what do we want to do.
+
+18:34.550 --> 18:36.420
+We just want to copy and paste this.
+
+18:36.520 --> 18:38.460
+So I'm going to copy and paste this.
+
+18:38.460 --> 18:42.230
+I want to set it to equal to nine ninety two.
+
+18:42.280 --> 18:47.320
+So you are going to say 9 9 2 and over here get rid of grade.
+
+18:47.470 --> 18:48.000
+All right.
+
+18:48.030 --> 18:52.010
+And here this is going to be get rid of gap.
+
+18:52.210 --> 19:02.500
+Repeat for repeat here four and we're going to say one fraction one fraction or we save this one on
+
+19:02.500 --> 19:04.970
+here and this should also work.
+
+19:04.990 --> 19:07.630
+So we're going to go back on the air and fresh.
+
+19:07.870 --> 19:09.640
+I can see that our team is working.
+
+19:10.000 --> 19:16.960
+And once we over here shrink the screen right you can still see that we have our members on here and
+
+19:16.960 --> 19:22.660
+the next section then we need to build is actually going to be on here these progress bars.

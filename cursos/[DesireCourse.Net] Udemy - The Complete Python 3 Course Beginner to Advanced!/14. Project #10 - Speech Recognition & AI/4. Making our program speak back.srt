@@ -1,0 +1,479 @@
+1
+
+00:00:00,000  -->  00:00:01,770
+Hi guys, in this video we're going to
+
+2
+
+00:00:01,770  -->  00:00:04,290
+actually make our program talk back to
+
+3
+
+00:00:04,290  -->  00:00:06,540
+us and so the way we're going to be
+
+4
+
+00:00:06,540  -->  00:00:07,950
+doing that, and I have this audio
+
+5
+
+00:00:07,950  -->  00:00:10,769
+recorder up now which is recording
+
+6
+
+00:00:10,769  -->  00:00:12,210
+through sound flower which is an add-on
+
+7
+
+00:00:12,210  -->  00:00:14,730
+that allows me to actually record my
+
+8
+
+00:00:14,730  -->  00:00:17,130
+systems audio, so you guys will hear
+
+9
+
+00:00:17,130  -->  00:00:21,180
+audio in this video as well. So, what
+
+10
+
+00:00:21,180  -->  00:00:23,220
+we're going to do and there's really no
+
+11
+
+00:00:23,220  -->  00:00:25,470
+cross-platform way to do this on
+
+12
+
+00:00:25,470  -->  00:00:28,320
+Python 3 just yet, at least no easy way, I
+
+13
+
+00:00:28,320  -->  00:00:31,410
+actually run a project called pyttsx,
+
+14
+
+00:00:31,410  -->  00:00:33,090
+and it's a project that I've inherited.
+
+15
+
+00:00:33,090  -->  00:00:36,870
+Basically, it's installing right here and
+
+16
+
+00:00:36,870  -->  00:00:38,280
+it's been doing that for the last 10 or
+
+17
+
+00:00:38,280  -->  00:00:40,170
+20 minutes because it's installing from
+
+18
+
+00:00:40,170  -->  00:00:42,660
+source, and it's pretty big, and it has a
+
+19
+
+00:00:42,660  -->  00:00:45,300
+lot of dependencies. So what we're going
+
+20
+
+00:00:45,300  -->  00:00:46,950
+to be doing instead of using this right
+
+21
+
+00:00:46,950  -->  00:00:48,239
+now, and maybe we'll come back to this
+
+22
+
+00:00:48,239  -->  00:00:51,120
+later and I can provide you know a better
+
+23
+
+00:00:51,120  -->  00:00:53,610
+package for it, or actually set it up to
+
+24
+
+00:00:53,610  -->  00:00:56,430
+pypi or something like that, what we're
+
+25
+
+00:00:56,430  -->  00:00:58,109
+going to be doing is just discussing
+
+26
+
+00:00:58,109  -->  00:01:06,479
+some cross-platform methods to make your
+
+27
+
+00:01:06,479  -->  00:01:12,030
+terminal speak. So, on Linux you're going
+
+28
+
+00:01:12,030  -->  00:01:14,460
+to want to go ahead and install gnustep-
+
+29
+
+00:01:14,460  -->  00:01:17,610
+gui-runtime, and this is
+
+30
+
+00:01:17,610  -->  00:01:21,119
+instructions for debian based distros
+
+31
+
+00:01:21,119  -->  00:01:24,240
+using apt-get. If you don't have a
+
+32
+
+00:01:24,240  -->  00:01:26,369
+debian based distro you might want to
+
+33
+
+00:01:26,369  -->  00:01:28,920
+check for this program in whatever
+
+34
+
+00:01:28,920  -->  00:01:31,920
+package manager you're using, you should
+
+35
+
+00:01:31,920  -->  00:01:33,060
+be able to install it, and then you
+
+36
+
+00:01:33,060  -->  00:01:34,680
+simply run the command and say and then
+
+37
+
+00:01:34,680  -->  00:01:37,200
+whatever you're going to say. On Windows
+
+38
+
+00:01:37,200  -->  00:01:41,369
+you're going to download PTTS and you're
+
+39
+
+00:01:41,369  -->  00:01:43,290
+going to install that, and then you
+
+40
+
+00:01:43,290  -->  00:01:46,079
+should be able to print this command
+
+41
+
+00:01:46,079  -->  00:01:51,869
+here and it should speak for
+
+42
+
+00:01:51,869  -->  00:01:56,219
+you. And on Mac OS all you need to do, and
+
+43
+
+00:01:56,219  -->  00:01:57,750
+it actually installed this, awesome. So
+
+44
+
+00:01:57,750  -->  00:01:59,460
+we will come back to that probably in
+
+45
+
+00:01:59,460  -->  00:02:02,310
+the next video, but for right now all you
+
+46
+
+00:02:02,310  -->  00:02:05,640
+need to do is on a Mac run that
+
+47
+
+00:02:05,640  -->  00:02:08,280
+command. So every time you see me using
+
+48
+
+00:02:08,280  -->  00:02:10,229
+the say command in our program you're
+
+49
+
+00:02:10,229  -->  00:02:13,170
+going to be using this, if you're on
+
+50
+
+00:02:13,170  -->  00:02:13,920
+Windows.
+
+51
+
+00:02:13,920  -->  00:02:18,750
+So let's go ahead and jump into this and
+
+52
+
+00:02:18,750  -->  00:02:21,300
+all we want to do at this point is to
+
+53
+
+00:02:21,300  -->  00:02:25,590
+make the program speak back to us, and so
+
+54
+
+00:02:25,590  -->  00:02:27,030
+the way we're going to be doing that is
+
+55
+
+00:02:27,030  -->  00:02:30,630
+we're going to create a method called
+
+56
+
+00:02:30,630  -->  00:02:34,950
+say, and we're going to pass it in the
+
+57
+
+00:02:34,950  -->  00:02:37,050
+text of what we want to say, and then
+
+58
+
+00:02:37,050  -->  00:02:39,150
+we're going to be using the sub of process
+
+59
+
+00:02:39,150  -->  00:02:42,569
+in order to spin that
+
+60
+
+00:02:42,569  -->  00:02:46,140
+process on the computer as well. So what
+
+61
+
+00:02:46,140  -->  00:02:49,620
+you need to do is import subprocess.
+
+62
+
+00:02:49,620  -->  00:02:54,239
+Down here we're creating our third
+
+63
+
+00:02:54,239  -->  00:02:58,110
+command or method actually let's do this
+
+64
+
+00:02:58,110  -->  00:03:02,340
+up at the top here, and it's going to be
+
+65
+
+00:03:02,340  -->  00:03:04,920
+say and we're going to pass it in text,
+
+66
+
+00:03:04,920  -->  00:03:08,370
+and when you use subprocess you can actually
+
+67
+
+00:03:08,370  -->  00:03:13,170
+call binaries, anything that you can do in
+
+68
+
+00:03:13,170  -->  00:03:18,150
+terminal you can do in subprocess, so,
+
+69
+
+00:03:18,150  -->  00:03:21,600
+yeah. What we're going to do is we just
+
+70
+
+00:03:21,600  -->  00:03:26,609
+call subprocess.call, and then we call
+
+71
+
+00:03:26,609  -->  00:03:30,420
+whatever we want you know to do. So, in
+
+72
+
+00:03:30,420  -->  00:03:34,410
+this instance I'm going to say space
+
+73
+
+00:03:34,410  -->  00:03:43,290
+plus text, and i'm going to set shell to
+
+74
+
+00:03:43,290  -->  00:03:49,320
+true. Now, what I can do at this point is
+
+75
+
+00:03:49,320  -->  00:03:52,620
+down here when we're done speaking,
+
+76
+
+00:03:52,620  -->  00:03:54,870
+rather than printing out a command we're
+
+77
+
+00:03:54,870  -->  00:03:56,100
+going to print it, but we're also going
+
+78
+
+00:03:56,100  -->  00:03:59,430
+to say it. So I'm just going to call say,
+
+79
+
+00:03:59,430  -->  00:04:12,299
+you said, command. So if I save this now and
+
+80
+
+00:04:12,299  -->  00:04:15,750
+we're going to run it, I will bring up
+
+81
+
+00:04:15,750  -->  00:04:20,370
+Quicktime to make sure I can see the
+
+82
+
+00:04:20,370  -->  00:04:21,690
+audio recording, just to make sure it's
+
+83
+
+00:04:21,690  -->  00:04:26,060
+working, let's go ahead and run it.
+
+84
+
+00:04:26,060  -->  00:04:35,000
+"Mary had a little lamb" and as you guys
+
+85
+
+00:04:35,000  -->  00:04:38,419
+can see our program can now talk back to
+
+86
+
+00:04:38,419  -->  00:04:42,230
+us. So, we're going to connect it to an
+
+87
+
+00:04:42,230  -->  00:04:44,270
+artificial intelligence so we've just
+
+88
+
+00:04:44,270  -->  00:04:47,480
+created the input, we've created the
+
+89
+
+00:04:47,480  -->  00:04:50,060
+output, and we just need to bridge those
+
+90
+
+00:04:50,060  -->  00:04:52,040
+two gaps this point and this is going to
+
+91
+
+00:04:52,040  -->  00:04:54,169
+be the biggest part of our program. It's
+
+92
+
+00:04:54,169  -->  00:04:55,880
+going to be an artificial, artificial
+
+93
+
+00:04:55,880  -->  00:04:59,270
+intelligence. So if we say "hi" we're going
+
+94
+
+00:04:59,270  -->  00:05:00,979
+to make our program say, okay, well that
+
+95
+
+00:05:00,979  -->  00:05:03,200
+person said "hi" so we should say "hi" back,
+
+96
+
+00:05:03,200  -->  00:05:07,570
+and that's what we're going to be doing.

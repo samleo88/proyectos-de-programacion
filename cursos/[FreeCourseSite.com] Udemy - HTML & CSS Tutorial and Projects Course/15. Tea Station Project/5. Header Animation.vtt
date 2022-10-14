@@ -1,0 +1,385 @@
+WEBVTT
+
+00:00.130 --> 00:02.180
+But we're still on the subject of the header.
+
+00:02.190 --> 00:07.470
+Why don't we cover animation and for the animation we can see that there is going to be a few of them.
+
+00:07.470 --> 00:08.980
+We're not going to obviously cover right now.
+
+00:08.980 --> 00:14.010
+The button that's going to be bouncing infinitely because we don't have the button to begin with.
+
+00:14.400 --> 00:16.220
+However for having three.
+
+00:16.320 --> 00:20.160
+This guy is going to be coming from the right than the main one.
+
+00:20.210 --> 00:21.900
+Think one is going to be coming from the left.
+
+00:21.900 --> 00:23.940
+So both of them are going to be exactly the same.
+
+00:24.300 --> 00:29.800
+However the positions are still going to change one is going to be coming from the right other one's
+
+00:29.850 --> 00:34.680
+going to be coming from left and for the button Rosie is going to use a little bit of scaling as well
+
+00:34.680 --> 00:35.910
+as the opacity.
+
+00:35.910 --> 00:41.340
+And I think this is just going to be making much more sense if we're gonna do this right now.
+
+00:41.360 --> 00:47.010
+However we can do it obviously at the render the document meaning at the end of the video but I think
+
+00:47.020 --> 00:50.520
+that might as well as we're here we can just cover this.
+
+00:50.520 --> 00:56.010
+Here we have the end of what I would like to do is right after the header which is going to say that
+
+00:56.010 --> 00:59.870
+there is going to be the animations and let's just put them all in one place.
+
+00:59.940 --> 01:02.510
+We could technically write them separately.
+
+01:02.520 --> 01:03.930
+Let's say by banner button.
+
+01:03.990 --> 01:10.150
+So right after the matter button or the heading One we will gonna do that with the nav bar one with
+
+01:10.150 --> 01:15.240
+the little now button because I think this is just going to make more sense but for all of these because
+
+01:15.240 --> 01:22.050
+they are all clumped together anyway when to say animations and within the animations what's also right.
+
+01:22.050 --> 01:28.470
+Right away end of animations because later on we're gonna have different sections of course as well
+
+01:28.470 --> 01:33.790
+as let's start by simply the button one because I think that's gonna be the most simplest one.
+
+01:33.960 --> 01:37.050
+We know that for the animations we need to use key frames.
+
+01:37.050 --> 01:39.310
+And here we would like to call this summer.
+
+01:39.600 --> 01:46.530
+So I'm going to call mine one show and I would assume that you can probably choose the same name.
+
+01:46.680 --> 01:50.160
+We're gonna start with 0 percent and that's gonna be our starting point.
+
+01:50.160 --> 01:51.040
+And you know what.
+
+01:51.090 --> 01:57.150
+We're all gonna say I don't know transform is gonna be twice the size of our original button.
+
+01:57.150 --> 02:01.910
+Meaning what I'm saying is I would like to use the scale at 0 percent.
+
+02:01.910 --> 02:05.770
+I would like to scale it twice the size of the button that I have here.
+
+02:06.170 --> 02:08.190
+So this is the reason for this too.
+
+02:08.270 --> 02:12.140
+So I'm gonna add it to as well as I'm going to use the opacity of zero.
+
+02:12.140 --> 02:15.970
+So now the button is going to be hidden meaning it's still gonna Maidment.
+
+02:16.000 --> 02:22.430
+We're not using this plane none but since we're using opacity the button is not going to be shown the
+
+02:22.430 --> 02:29.030
+moment we're going to load the page as well as I would like to set up 100 percent and 400 percent.
+
+02:29.030 --> 02:33.000
+I would like to have transform scale back to 1.
+
+02:33.050 --> 02:36.650
+So I'm going to use this scale one and we're going to say 1.
+
+02:36.680 --> 02:42.150
+And we know that if we're using one then what happens is just the button is gonna be normal size.
+
+02:42.290 --> 02:48.620
+You can add more points here between zero and hundred grams is going to stick with these two and then
+
+02:48.620 --> 02:53.690
+we're also gonna do a little bit of personally and when I say a little bit more is gonna set it equal
+
+02:53.690 --> 02:54.700
+to 1.
+
+02:54.770 --> 02:57.750
+So basically in this case is gonna be 1.
+
+02:57.830 --> 02:58.690
+Let me say it.
+
+02:58.730 --> 03:02.990
+And now we need to head over back to the burner button and add this animation.
+
+03:03.050 --> 03:09.950
+So right after the comment where we already had it we can just write animation and remember for animation
+
+03:09.950 --> 03:10.790
+we had few things.
+
+03:10.820 --> 03:14.150
+Well first of all we would need the name of the animation.
+
+03:14.330 --> 03:16.580
+Then we're gonna need the duration.
+
+03:16.580 --> 03:22.730
+So how long this is gonna take place and I'm going to use my case five seconds as well as I would like
+
+03:22.730 --> 03:27.530
+to figure out how long or how the animation is going to take place.
+
+03:27.530 --> 03:32.120
+So not the duration but how the animation is going to take place which in my case is going to be is
+
+03:32.120 --> 03:34.760
+in and out as well as how many times.
+
+03:34.790 --> 03:37.010
+Well now case the count is gonna be 1.
+
+03:37.430 --> 03:40.640
+So this is just gonna happen one time as you see right now.
+
+03:40.700 --> 03:47.040
+This is my button showing up on a text after we are at the animation.
+
+03:47.220 --> 03:47.850
+Okay.
+
+03:48.080 --> 03:50.670
+We also would like to work with the rest of them.
+
+03:50.780 --> 03:55.820
+So let's say this was our first animation but then we're gonna create one more and you know what in
+
+03:55.820 --> 03:59.810
+our case maybe it's just copy and paste it because I think this is gonna be a little bit faster.
+
+04:00.260 --> 04:04.350
+So here let's change the name and let's write again very originally.
+
+04:04.550 --> 04:09.210
+Slide from their right.
+
+04:09.520 --> 04:09.790
+Right.
+
+04:10.130 --> 04:15.680
+So this is gonna be for our having three where it's gonna be sliding from the right.
+
+04:15.680 --> 04:20.800
+And what kind of rules would like right over here for a zero let's say.
+
+04:20.960 --> 04:26.180
+We wouldn't want to again use the transform and this case we're going to use translate X. And I'm gonna
+
+04:26.180 --> 04:33.130
+translated a hundred pixels to the arms are in that hundred thousand pixels the right once the animation
+
+04:33.130 --> 04:34.650
+is gonna start at zero.
+
+04:34.780 --> 04:41.580
+The text is gonna be translated thousand pixels to the right and then let's add multiple other points.
+
+04:41.590 --> 04:43.940
+Let's say 50 percent and you know what.
+
+04:44.020 --> 04:50.020
+Again this would be the case where it's probably going to be faster if we copy pasted 50 percent 75
+
+04:50.080 --> 04:52.890
+percent and let's change these values.
+
+04:52.900 --> 04:58.870
+So at 50 percent we would learn to translate it to negative t 200 pixels.
+
+04:58.870 --> 05:05.020
+Now the reason for that is if I show you that first it's bouncing from the zero then it goes negative
+
+05:05.410 --> 05:08.170
+and then it comes back to the original position.
+
+05:08.430 --> 05:13.570
+So that's the reason why we're going to use here for the 50 percent negative value so we're gonna say
+
+05:13.600 --> 05:20.710
+negative 200 x as well as four seventy five we're going to have something else when say seventy five
+
+05:21.000 --> 05:28.050
+is gonna be in this case 50 pixels pass the normal value so that's why it's doing that bouncing from
+
+05:28.050 --> 05:35.670
+deal right to the left and then right all of it and at the end it is going to have transform and that
+
+05:35.670 --> 05:37.120
+is gonna be zero.
+
+05:37.160 --> 05:43.380
+What is gonna be really nifty with a second one and let me change this to zero is the fact that I can
+
+05:43.380 --> 05:49.440
+just set this up since this is gonna be slide from the right we can do the same thing with sliding from
+
+05:49.440 --> 05:50.520
+the left.
+
+05:50.520 --> 05:54.010
+Now in that case what we wouldn't want to do is just change these values.
+
+05:54.000 --> 05:55.320
+We are the signs.
+
+05:55.350 --> 05:56.390
+Now this is gonna work.
+
+05:56.390 --> 06:02.370
+We're gonna say slide from left and now I'm talking about this big text and here of course the original
+
+06:02.370 --> 06:05.040
+position would be negative thousand pixels.
+
+06:05.250 --> 06:08.220
+Then we all gonna be going to the positive two hundred.
+
+06:08.270 --> 06:13.640
+Then again negative 50 pixels as well as we're going to end up with the same zero.
+
+06:13.800 --> 06:16.030
+And we are almost done.
+
+06:16.260 --> 06:21.660
+We just need to head over back to the title and subtitle and let's find them where they are.
+
+06:22.170 --> 06:26.760
+So I believe the title was here and subtitle was also here.
+
+06:26.760 --> 06:27.330
+And you know what.
+
+06:27.330 --> 06:33.740
+Let me right away start multiple cursors since we're gonna be writing a lot of the same stuff.
+
+06:33.800 --> 06:39.930
+I'm to start by saying that there is gonna be animation and then just pretty much gonna give me a long
+
+06:39.930 --> 06:41.720
+one for the name.
+
+06:41.710 --> 06:44.770
+There's gonna be a few different ones and you know this really messed it up.
+
+06:45.420 --> 06:46.770
+I did not want to do it.
+
+06:47.400 --> 06:48.360
+I apologize.
+
+06:48.360 --> 06:50.440
+You know what let's do one by one.
+
+06:50.490 --> 06:57.280
+This is gonna give me a bunch of selections that I don't want and let's write slide slide from.
+
+06:57.300 --> 06:59.220
+What was that from the right.
+
+06:59.220 --> 07:02.100
+That was the top one that was the heading three.
+
+07:02.100 --> 07:04.530
+And again this is gonna take five seconds.
+
+07:04.630 --> 07:09.470
+And again we're gonna do these in and out as well as we would like to run one more time.
+
+07:09.510 --> 07:13.740
+Now the infinite one the nav buttons I was going to have the value different.
+
+07:13.740 --> 07:19.250
+If you want your animations to run multiple times you just need to change these values.
+
+07:19.270 --> 07:20.420
+That's all we're doing.
+
+07:20.510 --> 07:21.730
+And we can just copy and pasted.
+
+07:21.870 --> 07:27.570
+I think this case probably would have been faster not multiple directors and in this case weren't gonna
+
+07:27.600 --> 07:32.090
+change or not slide from the right but of course slide from the left.
+
+07:32.100 --> 07:37.680
+Now what happens is that now we have these bouncing text as well as the bottom line we can always check
+
+07:37.680 --> 07:38.630
+it out on a bigger screen.
+
+07:39.710 --> 07:46.040
+That is obviously our finished one so we can look at our excellent animation one more time just to see
+
+07:46.040 --> 07:46.850
+how good it looks.
+
+07:46.880 --> 07:53.030
+And then we can see whether we did good enough job think we did where again we have over 100 flavors
+
+07:53.480 --> 07:56.790
+specialty craft tea and we have the Explorer One.
+
+07:56.810 --> 07:59.900
+Let me check this one more time with the button is working.
+
+07:59.900 --> 08:04.510
+I think everything works really well we also have this transformational.
+
+08:05.030 --> 08:09.170
+So now that we're done with this section let me just double check whether everything is exactly the
+
+08:09.170 --> 08:09.820
+same.
+
+08:10.040 --> 08:11.100
+Maybe let's change this.
+
+08:11.120 --> 08:17.030
+Oh I didn't want to do the Truxton form so we're gonna head over to index.
+
+08:17.150 --> 08:20.290
+I'm not just going to start this one with a capital letter.
+
+08:20.420 --> 08:24.110
+No biggie if you don't do it but in my case I was going to do it.
+
+08:24.110 --> 08:29.180
+And yeah we are done with the header section and we're ready to move on and start working on our next
+
+08:29.180 --> 08:29.570
+section.

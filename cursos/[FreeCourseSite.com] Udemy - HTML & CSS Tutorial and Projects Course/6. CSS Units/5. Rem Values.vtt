@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.360 --> 00:03.310
+After a year values we're going to look at our GM values.
+
+00:03.480 --> 00:09.120
+And even though they look exactly the same they in fact perform quite differently.
+
+00:09.120 --> 00:12.030
+Number four we actually go over theory.
+
+00:12.150 --> 00:14.570
+Let's just do a small test now.
+
+00:14.580 --> 00:20.430
+For now we have the relative which would be an M which would depend on a parent.
+
+00:20.460 --> 00:21.450
+Let's change this around.
+
+00:22.050 --> 00:25.350
+Let's say that this value again is gonna be to our homes.
+
+00:25.410 --> 00:27.250
+So on the when we change it.
+
+00:27.300 --> 00:28.590
+Notice again something interesting.
+
+00:29.280 --> 00:32.900
+So now both of them are again exactly the same.
+
+00:32.910 --> 00:37.010
+So the first key about our home values is that they will not depend on a parent.
+
+00:37.320 --> 00:38.870
+So I can change this all day long.
+
+00:38.870 --> 00:42.840
+I can say that Dave should have 40 and nothing is going to change.
+
+00:42.840 --> 00:47.040
+What does matter is as I'm working with my root of the dog.
+
+00:47.400 --> 00:50.100
+Now our case what is the root of the document.
+
+00:50.100 --> 00:54.230
+Whenever we're looking at our document I believe this is gonna be the e-mail.
+
+00:54.270 --> 00:59.970
+So instead if I'm gonna go and say that or the Asian e-mail is we would like to change it and let's
+
+00:59.970 --> 01:05.610
+say instead of 16 pixels which again comes by default from the browsers the same way how we looked at
+
+01:05.970 --> 01:13.160
+the M values we can say let's say that the font size is going to be I don't know not 16 but we're gonna
+
+01:13.200 --> 01:15.340
+go with I don't know 32.
+
+01:15.360 --> 01:15.750
+So let's.
+
+01:15.750 --> 01:16.080
+Right.
+
+01:16.080 --> 01:18.740
+Font size 32 pixels.
+
+01:18.870 --> 01:20.590
+And let's see what we're gonna have.
+
+01:20.630 --> 01:23.410
+And now obviously this is gonna be 64 pixels.
+
+01:23.430 --> 01:24.450
+Now how do we know that.
+
+01:24.450 --> 01:30.760
+Well if I'm gonna go head over here and we're gonna change it again from 30 to 64 we'll see that.
+
+01:31.050 --> 01:32.910
+Now they are exactly the same.
+
+01:32.910 --> 01:35.630
+So what's happening is it's the same system.
+
+01:36.180 --> 01:43.140
+So whatever we have here as a font size original for the actual root of the document this is gonna be
+
+01:43.140 --> 01:48.960
+either doubled if we're going to our aims or we we're going with one point five more we'll just need
+
+01:48.960 --> 01:53.660
+to do the math when we calculate how much is one point five from the thirty two.
+
+01:54.030 --> 01:59.280
+And I believe this is gonna be like 48 and again we can test this out and we can say that this is going
+
+01:59.280 --> 02:01.810
+to be 48 and now both of them should match.
+
+02:01.860 --> 02:07.890
+So what's happening is that with our E.M. values again we're not depending on a parent we are depending
+
+02:07.890 --> 02:12.170
+on our route which in a document is going to be HD email.
+
+02:12.180 --> 02:17.310
+Now what's also going to happen is not say that I'm going to get rid of this e-mail and I'm going to
+
+02:17.310 --> 02:18.030
+keep this.
+
+02:18.030 --> 02:23.740
+First of all again as I don't know two or three times now I'm also gonna keep it here.
+
+02:23.760 --> 02:27.370
+I'm gonna say that this value is also gonna be 32 pixels.
+
+02:27.450 --> 02:29.230
+So I'd like to set them side by side.
+
+02:29.620 --> 02:30.780
+Both of them should be equal.
+
+02:31.290 --> 02:37.530
+However if you a user again is going gonna head over to the settings and in the settings he or she is
+
+02:37.530 --> 02:40.730
+gonna change it with a very large check this out.
+
+02:40.740 --> 02:46.280
+Now obviously this is much more bigger because again we're doing the same thing we're changing this
+
+02:46.470 --> 02:49.800
+default browser style setup for the pixels.
+
+02:49.800 --> 02:55.440
+I'm sorry for the font so it's not any more 16 pixels but in fact we change it to the bigger font size.
+
+02:55.560 --> 02:59.370
+So right away the values with our VM got bigger.

@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.060 --> 00:04.300
+And in order to create a target model we're going to need a query.
+
+00:04.380 --> 00:09.750
+And actually we're going to need Jake very obviously for much more than toggle button for all the features
+
+00:09.750 --> 00:14.910
+like again like for example or hate this guy or he'll write this isotope right.
+
+00:14.970 --> 00:17.210
+We're also going to need a Jacquard right.
+
+00:17.220 --> 00:20.840
+So once we download it right and we're going to actually use a CDN.
+
+00:20.850 --> 00:22.170
+So it's not really a download.
+
+00:22.170 --> 00:26.340
+We just need to copy and paste the link but we're going to use it throughout the project.
+
+00:26.610 --> 00:33.060
+So I'm just going to go to Google Jake worry Google CDN libraries are doing this and they're going to
+
+00:33.060 --> 00:38.710
+go down here and I can see this is going to be my script that's always going to grab the script over
+
+00:38.710 --> 00:43.800
+here and I'm going to copy this and we're going to jump back to our document we're here and the first
+
+00:43.800 --> 00:47.880
+thing that I'm going to do I'm going to go all the way in the morning on here like this and I'm going
+
+00:47.880 --> 00:54.850
+to say that this is going to be a Jake where you're here and ochreous right CD and all this and then
+
+00:54.870 --> 00:56.650
+we're going to copy and paste this.
+
+00:56.790 --> 00:57.170
+Right.
+
+00:57.200 --> 00:59.700
+And now you can see that I have my Jake Larry.
+
+00:59.770 --> 01:04.700
+And actually what I'm going to do over here I'm going to actually have a script write the script for
+
+01:04.700 --> 01:06.540
+and I'm actually going to link it.
+
+01:06.690 --> 01:14.830
+So I'm going to write your script press time here and are you going to say source and the source is
+
+01:14.830 --> 01:16.050
+going to be script.
+
+01:17.150 --> 01:18.870
+So going to have a script Yes.
+
+01:18.890 --> 01:21.290
+And now let's just that out will it work.
+
+01:21.540 --> 01:25.620
+So I'm going to say we're here in exchange you're not going to go to script.
+
+01:25.640 --> 01:26.400
+Yes.
+
+01:26.480 --> 01:31.880
+And over here we can just simply write that this is going to be alert and over here we're going to say
+
+01:32.000 --> 01:39.100
+hello world you're going this we're going to say this and you can see that something is working right
+
+01:39.310 --> 01:43.870
+that something meaning Jack we're in right because you can see now we have a whole world up here.
+
+01:43.930 --> 01:44.770
+Right.
+
+01:44.770 --> 01:50.220
+However we need to do something a little bit more sophisticated than just writing.
+
+01:50.320 --> 01:53.490
+Right now it's not really hard.
+
+01:53.500 --> 01:57.090
+But anyway we just need to write a few lines of code.
+
+01:57.310 --> 02:01.630
+So first of all here we're going to use a dollar sign which is going to be selected for the inquiry.
+
+02:01.650 --> 02:03.540
+No we are going to have a document.
+
+02:03.610 --> 02:09.040
+Basically what I'm writing right now that I want my code to run only when the document sexually ready
+
+02:09.650 --> 02:16.670
+when the HD amount has been downloaded or here or done here I'm going to say function like this.
+
+02:16.720 --> 02:19.230
+And then we're going to have a curly braces right.
+
+02:19.270 --> 02:21.410
+So this is an anonymous function right.
+
+02:21.430 --> 02:24.740
+That's only going to run once the dam has been downloaded.
+
+02:24.740 --> 02:29.380
+All right I'm going to have a dollar sign right here I'm going to be targeting the target.
+
+02:29.590 --> 02:37.360
+So I'm going to say a dollar sign here I'm sorry hashtag which stands for A D I would say go between
+
+02:37.870 --> 02:42.190
+here and then we say what what should happen when this is going to be an event listener right.
+
+02:42.330 --> 02:43.520
+For a click event.
+
+02:43.600 --> 02:45.740
+So here you can see händler.
+
+02:45.920 --> 02:49.640
+I know I'm going to say on here that this is going to be a function.
+
+02:49.660 --> 02:55.910
+Again I'm going to leave this anonymous function on here and what I'm going to say that for a links
+
+02:56.860 --> 03:04.110
+like this I'm going to say that class of links are here and I'm going to do a slight doggo.
+
+03:04.300 --> 03:06.680
+I'm going to say slide doggo.
+
+03:06.720 --> 03:11.900
+All right so you can see we have slide down slide up Moroder is going to slide toggle off.
+
+03:12.340 --> 03:17.250
+So then we have a slide going on here and in parentheses we're going to write again how long it takes.
+
+03:17.260 --> 03:22.860
+And again I always like to have my transitions or animations happening more period of time just sort
+
+03:22.870 --> 03:23.680
+of you can follow them.
+
+03:23.710 --> 03:29.100
+They're actually working to hear these 3000 maybe seconds means three seconds.
+
+03:29.300 --> 03:35.260
+So we say we're here now let's go maybe to the bigger screen right so we can close this guy over here.
+
+03:35.300 --> 03:35.850
+Right.
+
+03:35.920 --> 03:39.340
+And you can see this is going to be recording more refresh right.
+
+03:39.340 --> 03:42.820
+We let the actual J.A.G. start working now.
+
+03:42.950 --> 03:45.340
+Now we have a toddler right now.
+
+03:45.340 --> 03:49.050
+Again if we would have set up this one would say to 1 right.
+
+03:49.150 --> 03:51.880
+This is going to be much more closer to what you have with the bootstrap.
+
+03:51.880 --> 03:52.290
+Right.
+
+03:52.450 --> 03:54.690
+But set up is exactly the same right.
+
+03:54.700 --> 03:57.730
+I mean they have maybe a little bit different icons right.
+
+03:57.730 --> 03:59.620
+They have three bars in everything right.
+
+03:59.660 --> 04:06.540
+This is how easy you can actually make your not more responsive just using a little bit of worry like
+
+04:06.630 --> 04:07.160
+this.
+
+04:07.240 --> 04:07.660
+Right.
+
+04:07.840 --> 04:09.940
+And this is how we would work like this.
+
+04:10.210 --> 04:15.980
+So we can actually save this or this or script and we were going to need it for now.
+
+04:15.990 --> 04:16.620
+Right.
+
+04:16.690 --> 04:21.880
+And we can actually go ahead and start working on here with the C Ss with this banner.

@@ -1,0 +1,74 @@
+1
+
+00:00:00,000  -->  00:00:03,149
+Alright, so I wanted to talk about the
+two different types of variables that
+
+2
+
+00:00:03,149  -->  00:00:06,569
+you can set within a class because we've
+already set both of them but they both do
+
+3
+
+00:00:06,569  -->  00:00:11,759
+very different things. So, an instance
+variable is a variable that is different
+
+4
+
+00:00:11,759  -->  00:00:16,320
+or can be different for every instance
+of the class, so for instance we're
+
+5
+
+00:00:16,320  -->  00:00:22,170
+setting "self.atkl" which means this
+instance the attack low, but in the
+
+6
+
+00:00:22,170  -->  00:00:29,429
+previous set example and what if we want
+to set HP of the enemy to let's say 200?
+
+7
+
+00:00:29,429  -->  00:00:35,010
+So every enemy is going to have 200 hp.
+So let's go ahead and create a function
+
+8
+
+00:00:35,010  -->  00:00:44,579
+to get HP "def getHp(self): and let's
+
+9
+
+00:00:45,120  -->  00:00:59,070
+"print("Hp is", self.hp)" and here we're going to say "print("atk is", self.atkl)"
+
+10
+
+00:00:59,070  -->  00:01:07,770
+So what we can do down here is we can
+run "enemy1.get Hp( )" and we will also run
+
+11
+
+00:01:07,770  -->  00:01:17,100
+"enemy2.getHp( )" and hit save, and what
+we'll see the first enemy has an
+
+12
+
+00:01:17,100  -->  00:01:23,520
+attack power of 40 and HP of 200, and the second enemy has attack of 75 and HP of
+
+13
+
+00:01:23,520  -->  00:01:29,549
+200 as well because we're setting sort
+of a static variable with class.

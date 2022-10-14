@@ -1,0 +1,342 @@
+1
+
+00:00:00,000  -->  00:00:04,859
+Hey guys, before we move on i actually
+found a problem in my code. I actually
+
+2
+
+00:00:04,859  -->  00:00:08,730
+put this under the metaclass and it
+should be just under the the post class
+
+3
+
+00:00:08,730  -->  00:00:12,389
+itself because it's going to be post.get
+absolute URL that we're going to be
+
+4
+
+00:00:12,389  -->  00:00:17,160
+accessing, so go ahead and save this file.
+Now once we're done writing the model
+
+5
+
+00:00:17,160  -->  00:00:21,270
+for the post what we need to do is we
+need to sync the database. Now there was
+
+6
+
+00:00:21,270  -->  00:00:25,529
+a change so there's going to be, i'm sure
+when the change happened, I know the
+
+7
+
+00:00:25,529  -->  00:00:29,429
+first time I ever used Django there was
+a sink db command and you'll still find
+
+8
+
+00:00:29,429  -->  00:00:33,480
+information out there that refers
+to this command, but that has actually
+
+9
+
+00:00:33,480  -->  00:00:35,370
+become a migrate command now.
+
+10
+
+00:00:35,370  -->  00:00:41,760
+So what I need you guys to do is go ahead
+and run "python3 ./manage.py migrate"
+
+11
+
+00:00:41,760  -->  00:00:51,719
+it's this simple. It's going to, the first
+time you do it should be correct because
+
+12
+
+00:00:51,719  -->  00:00:56,610
+you guys didn't have this in the wrong
+class when you did it.
+
+13
+
+00:00:56,610  -->  00:01:05,250
+What we need to do is run make
+migrations now. So, "python3 ./manage.py
+
+14
+
+00:01:05,250  -->  00:01:13,320
+makemigrations" this is going to
+create the migrations to run, and then
+
+15
+
+00:01:13,320  -->  00:01:18,630
+run "python3 ./manage.py migrate"
+
+16
+
+00:01:27,540  -->  00:01:34,080
+Right, the default Python on my system is
+Python 2, we're using Python 3 so we
+
+17
+
+00:01:34,080  -->  00:01:41,100
+need to begin every every python3
+command with the the actual name of the
+
+18
+
+00:01:41,100  -->  00:01:44,310
+interpreter that we're using. So, there we
+go.
+
+19
+
+00:01:44,310  -->  00:01:49,650
+What we're going to be focusing on in
+this video is getting the administration
+
+20
+
+00:01:49,650  -->  00:01:54,150
+of the running, and it's pretty simple.
+All we have to do is in terminal here
+
+21
+
+00:01:54,150  -->  00:02:01,380
+we're going to run "python3 ./manage.py"
+and then we're just going to pass it the
+
+22
+
+00:02:01,380  -->  00:02:08,940
+argument create superuser, all one word, so "createsuperuser" This is going to
+
+23
+
+00:02:08,940  -->  00:02:14,040
+create a superuser and we're going to be
+able to, it's going to use my username by
+
+24
+
+00:02:14,040  -->  00:02:22,170
+default, so my email is going to go in
+here, and then my password is going to be
+
+25
+
+00:02:22,170  -->  00:02:25,170
+"avocado1"
+
+26
+
+00:02:26,880  -->  00:02:38,400
+alright. So now we're going to run the
+server again, so "runserver" Now if you go to your
+
+27
+
+00:02:38,400  -->  00:02:45,030
+address here /admin it's going to take you
+to this login page, so i'm going to go
+
+28
+
+00:02:45,030  -->  00:02:50,760
+ahead and login, and you should see this
+
+29
+
+00:02:50,760  -->  00:02:56,760
+and that's exactly what we want to see.
+What we need to do in order to get our
+
+30
+
+00:02:56,760  -->  00:03:03,480
+posts working in the administration, we're
+going to jump into PyCharm here, and
+
+31
+
+00:03:03,480  -->  00:03:12,750
+we're going to go into admin right here, and we're going to just register our model
+
+32
+
+00:03:12,750  -->  00:03:17,820
+that we've written, the post model. So
+let's go ahead and write "from .models
+
+33
+
+00:03:17,820  -->  00:03:25,200
+import Post" and then we're going to
+register the model and how you register
+
+34
+
+00:03:25,200  -->  00:03:30,600
+a model that you write, obviously first
+you have to import it, and then you need
+
+35
+
+00:03:30,600  -->  00:03:37,350
+to run this command "admin.site .register(Post)" then what ever model you want
+
+36
+
+00:03:37,350  -->  00:03:38,980
+to register, so in this instance
+
+37
+
+00:03:38,980  -->  00:03:46,269
+it's post. Going to go ahead and save
+this, we're going to rerun the server, I
+
+38
+
+00:03:46,269  -->  00:03:57,760
+can probably run this in here. I can
+configure this I bet, let me see if we
+
+39
+
+00:03:57,760  -->  00:04:09,549
+can configure manage here to run with
+run server, let me see. Up here run, edit
+
+40
+
+00:04:09,549  -->  00:04:19,720
+configurations, i'm going to add run server
+in here, and we're going to run, it should
+
+41
+
+00:04:19,720  -->  00:04:20,350
+run.
+
+42
+
+00:04:20,350  -->  00:04:30,370
+No, let's try again. Oh, right here,
+
+43
+
+00:04:30,370  -->  00:04:37,060
+Script parameters, "runserver" There, alright. So now when we run it, it should run the
+
+44
+
+00:04:37,060  -->  00:04:43,180
+server so we don't have to go into
+terminal each, time. So I can open up
+
+45
+
+00:04:43,180  -->  00:04:44,500
+terminal here
+
+46
+
+00:04:44,500  -->  00:04:48,490
+cancel out here, and I can actually just
+close that now and we should be able to
+
+47
+
+00:04:48,490  -->  00:04:52,960
+run from right within here and we can. So,
+this is gonna make things a lot easier.
+
+48
+
+00:04:52,960  -->  00:04:58,960
+We just re-ran and so let's go ahead and
+open up the Django admin again, let's
+
+49
+
+00:04:58,960  -->  00:05:04,419
+refresh, and now you'll see in our blog
+here we have posts and we can come here and
+
+50
+
+00:05:04,419  -->  00:05:07,960
+we can get a list and edit posts, but we
+don't have any posts so we can go ahead
+
+51
+
+00:05:07,960  -->  00:05:16,000
+and add one. So, i'm going to name this "My first post" the slug is going to be
+
+52
+
+00:05:16,000  -->  00:05:22,210
+"my-first-post" The summary here
+we can actually turn that into a text
+
+53
+
+00:05:22,210  -->  00:05:28,240
+area as well, but for right now i'm going
+to write, "The first post that I've
+
+54
+
+00:05:28,240  -->  00:05:38,830
+created from within the django project."
+and we need some lipsum. I think it's
+
+55
+
+00:05:38,830  -->  00:05:40,210
+.com,
+
+56
+
+00:05:40,210  -->  00:05:43,380
+yeah there we go.
+
+57
+
+00:05:43,380  -->  00:05:51,330
+Let's copy this, and I mean we still don't have any views so we're not going to be able
+
+58
+
+00:05:51,330  -->  00:05:54,780
+to see this right now, we're going to be
+creating views I believe in the next
+
+59
+
+00:05:54,780  -->  00:06:06,180
+video, so let's save this. Now we see post
+object right here, so we can see our our
+
+60
+
+00:06:06,180  -->  00:06:06,690
+posts.

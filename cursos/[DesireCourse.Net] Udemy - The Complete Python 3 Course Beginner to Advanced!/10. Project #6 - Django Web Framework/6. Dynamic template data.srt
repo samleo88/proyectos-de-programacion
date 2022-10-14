@@ -1,0 +1,524 @@
+1
+
+00:00:00,000  -->  00:00:02,149
+Alright, welcome back guys. So before we
+
+2
+
+00:00:02,159  -->  00:00:03,710
+actually go any further what we need to
+
+3
+
+00:00:03,720  -->  00:00:07,940
+do is actually create some more posts in
+
+4
+
+00:00:07,950  -->  00:00:10,430
+our application here. So I really don't
+
+5
+
+00:00:10,440  -->  00:00:12,290
+recall the username and password that I
+
+6
+
+00:00:12,300  -->  00:00:14,120
+set,
+
+7
+
+00:00:14,130  -->  00:00:17,180
+oh awesome I got it right.
+
+8
+
+00:00:17,190  -->  00:00:19,370
+So in post we only have one post but
+
+9
+
+00:00:19,380  -->  00:00:21,710
+we're working on an index page right now
+
+10
+
+00:00:21,720  -->  00:00:24,650
+and so Index Test is going to be the
+
+11
+
+00:00:24,660  -->  00:00:27,349
+name of this, slug is going to be index-test,
+
+12
+
+00:00:27,359  -->  00:00:32,269
+summary is going to be This is to show
+
+13
+
+00:00:32,279  -->  00:00:37,850
+more than one post. I'm going to go get
+
+14
+
+00:00:37,860  -->  00:00:50,420
+some lipsum,
+
+15
+
+00:00:50,430  -->  00:00:53,870
+paste that in there, and then i'm going
+
+16
+
+00:00:53,880  -->  00:00:55,610
+to save it. Is there a way that I can
+
+17
+
+00:00:55,620  -->  00:00:59,900
+duplicate posts, actually. That'd be neat.
+
+18
+
+00:00:59,910  -->  00:01:04,670
+No, I can't. Alright, unless published view
+
+19
+
+00:01:04,680  -->  00:01:05,570
+on site,
+
+20
+
+00:01:05,580  -->  00:01:07,190
+nope. Let's go ahead and create one more.
+
+21
+
+00:01:07,200  -->  00:01:13,730
+Title is going to be Awesome post number
+
+22
+
+00:01:13,740  -->  00:01:24,830
+three or 4, sure. I'm going to post the
+
+23
+
+00:01:24,840  -->  00:01:27,620
+same lipsum actually in there, going to
+
+24
+
+00:01:27,630  -->  00:01:30,139
+save, now we've got three posts so that's
+
+25
+
+00:01:30,149  -->  00:01:32,600
+awesome. What we're going to do now is in
+
+26
+
+00:01:32,610  -->  00:01:38,420
+our...here we go. In our views file
+
+27
+
+00:01:38,430  -->  00:01:40,700
+right here we need to import the post
+
+28
+
+00:01:40,710  -->  00:01:42,560
+for models. So if we go ahead and open up
+
+29
+
+00:01:42,570  -->  00:01:45,260
+models we will see this is the object, this
+
+30
+
+00:01:45,270  -->  00:01:47,719
+for each one of these posts it adheres
+
+31
+
+00:01:47,729  -->  00:01:50,300
+to this structure, and so we will have
+
+32
+
+00:01:50,310  -->  00:01:52,190
+access to the title of the slug, the
+
+33
+
+00:01:52,200  -->  00:01:54,859
+summary, etc. So what we're gonna do is
+
+34
+
+00:01:54,869  -->  00:01:56,630
+we're going to import this file into the
+
+35
+
+00:01:56,640  -->  00:02:00,230
+views file. So let's go ahead "from
+
+36
+
+00:02:00,240  -->  00:02:02,450
+.models" it means from the current
+
+37
+
+00:02:02,460  -->  00:02:08,810
+directory models "import Post" and then
+
+38
+
+00:02:08,820  -->  00:02:10,280
+the index page here we're just going to
+
+39
+
+00:02:10,290  -->  00:02:12,500
+get all of the posts. So let's go ahead
+
+40
+
+00:02:12,510  -->  00:02:15,229
+and create a variable called
+
+41
+
+00:02:15,239  -->  00:02:20,060
+"posts = Post.objects.all( )" it's
+
+42
+
+00:02:20,070  -->  00:02:21,289
+really that simple.
+
+43
+
+00:02:21,299  -->  00:02:24,380
+Now, we won't have access in the HTML
+
+44
+
+00:02:24,390  -->  00:02:26,750
+right now just by creating the variable,
+
+45
+
+00:02:26,760  -->  00:02:28,820
+what we need to do is that passed as a
+
+46
+
+00:02:28,830  -->  00:02:31,850
+parameter and it's going to pass the
+
+47
+
+00:02:31,860  -->  00:02:35,000
+variable into the HTML file here. So
+
+48
+
+00:02:35,010  -->  00:02:36,410
+we're going to create this just like any
+
+49
+
+00:02:36,420  -->  00:02:38,840
+regular dictionary object so i'm gonna
+
+50
+
+00:02:38,850  -->  00:02:42,470
+create a value for key {'posts': and it's going to
+
+51
+
+00:02:42,480  -->  00:02:45,229
+be equal to the "posts" variable. So i'm
+
+52
+
+00:02:45,239  -->  00:02:47,180
+going to go ahead and save this. It's not
+
+53
+
+00:02:47,190  -->  00:02:50,630
+going to do anything right now. I'm going
+
+54
+
+00:02:50,640  -->  00:02:52,910
+to view the site here and it still says
+
+55
+
+00:02:52,920  -->  00:02:54,650
+I'm an index page and that's because we
+
+56
+
+00:02:54,660  -->  00:02:57,080
+haven't done anything in the HTML page.
+
+57
+
+00:02:57,090  -->  00:03:00,470
+So, here's the fun bit. What we're going
+
+58
+
+00:03:00,480  -->  00:03:02,599
+to do there's two different types of syntax's that
+
+59
+
+00:03:03,240  -->  00:03:05,450
+we need to use here, and i'm going to explain
+
+60
+
+00:03:05,460  -->  00:03:12,050
+each one. So, you're going to see this and
+
+61
+
+00:03:12,060  -->  00:03:15,620
+that's going to be used for beginning or
+
+62
+
+00:03:15,630  -->  00:03:18,170
+ending blocks of code. So let's go ahead
+
+63
+
+00:03:18,180  -->  00:03:25,040
+and type {% for post in posts %} and then
+
+64
+
+00:03:25,050  -->  00:03:29,840
+we're going to end that right there {% endfor %}
+
+65
+
+00:03:29,850  -->  00:03:33,080
+And now this is just a typical for
+
+66
+
+00:03:33,090  -->  00:03:34,940
+statement. So what we're going to do in
+
+67
+
+00:03:34,950  -->  00:03:36,920
+here is we're going to create a &lt;div&gt; &lt;div&gt; for
+
+68
+
+00:03:36,930  -->  00:03:41,000
+each post, and then an &lt;h3&gt; &lt;h3&gt; element and
+
+69
+
+00:03:41,010  -->  00:03:42,920
+this is going to have the title. So you
+
+70
+
+00:03:42,930  -->  00:03:44,750
+don't open it like this
+
+71
+
+00:03:44,760  -->  00:03:46,490
+that's not going to work right here, what
+
+72
+
+00:03:46,500  -->  00:03:49,040
+we need to do to print out variables is
+
+73
+
+00:03:49,050  -->  00:03:51,350
+open it with two curly braces on each
+
+74
+
+00:03:51,360  -->  00:03:53,090
+side, and then we're going to print out
+
+75
+
+00:03:53,100  -->  00:03:59,360
+{{ post.title }} and underneath it here we're
+
+76
+
+00:03:59,370  -->  00:04:06,770
+going to let's go ahead and just print
+
+77
+
+00:04:06,780  -->  00:04:11,030
+out the summary for now &lt;p&gt;{{ post.summary }}&lt;/p&gt;
+
+78
+
+00:04:11,040  -->  00:04:15,800
+and let's save it. Now when this refreshes,
+
+79
+
+00:04:15,810  -->  00:04:21,680
+did it just refresh, I guess it did, ok. So it's
+
+80
+
+00:04:21,690  -->  00:04:25,460
+showing the title from each post, it's not showing
+
+81
+
+00:04:25,470  -->  00:04:32,510
+the summary. Did i do that wrong? I did
+
+82
+
+00:04:32,520  -->  00:04:35,660
+something wrong, I think, hold on. Let's inspect this.
+
+83
+
+00:04:35,670  -->  00:04:41,870
+The first one doesn't have a title,
+
+84
+
+00:04:41,880  -->  00:04:44,000
+none of them have titles, I accessed that
+
+85
+
+00:04:44,010  -->  00:04:47,780
+wrong? Posts, oh, posts title. There's the
+
+86
+
+00:04:47,790  -->  00:04:49,730
+problem.
+
+87
+
+00:04:49,740  -->  00:04:52,880
+Alright, let's refresh, there we go.
+
+88
+
+00:04:52,890  -->  00:04:54,200
+So as you can see we got the title of
+
+89
+
+00:04:54,210  -->  00:04:57,470
+each and the the text of each post
+
+90
+
+00:04:57,480  -->  00:04:59,180
+as you can see right here. So what we're going
+
+91
+
+00:04:59,190  -->  00:05:00,830
+to do is we're going to turn this into a
+
+92
+
+00:05:00,840  -->  00:05:06,140
+link, a hyperlink, and we're going to send
+
+93
+
+00:05:06,150  -->  00:05:08,240
+that through to another page. So let's go
+
+94
+
+00:05:08,250  -->  00:05:10,790
+ahead and open up an a element here, let me put
+
+95
+
+00:05:10,800  -->  00:05:13,340
+a space here, &lt;a href=
+
+96
+
+00:05:15,710  -->  00:05:31,460
+"/post/{{ post . slug }}"
+
+97
+
+00:05:31,470  -->  00:05:33,890
+and we're going to end that link right
+
+98
+
+00:05:33,900  -->  00:05:38,450
+there. So let's go ahead and refresh, and
+
+99
+
+00:05:38,460  -->  00:05:39,980
+refresh this and now you'll see that each
+
+100
+
+00:05:39,990  -->  00:05:43,550
+one of these turned into a link and if I
+
+101
+
+00:05:43,560  -->  00:05:47,060
+click on it, it goes to post/awesome-post-number-4
+
+102
+
+00:05:47,070  -->  00:05:51,590
+for that one, post/index-test
+
+103
+
+00:05:51,600  -->  00:05:55,670
+etc. And so this is going to we're
+
+104
+
+00:05:55,680  -->  00:05:57,350
+going to build out this route in the next
+
+105
+
+00:05:57,360  -->  00:06:02,690
+video.

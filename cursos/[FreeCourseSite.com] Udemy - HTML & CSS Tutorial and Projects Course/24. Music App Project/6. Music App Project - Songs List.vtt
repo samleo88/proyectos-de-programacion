@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.180 --> 00:02.500
+So we're going to go back to our index page.
+
+00:02.520 --> 00:08.780
+You know I too are going to look at where our top nav ends really miss.
+
+00:08.820 --> 00:12.560
+And then we're going to create a section of song list.
+
+00:12.840 --> 00:18.870
+So we're going to see or hear song list and or here we're going to say this is going to be a section
+
+00:19.950 --> 00:20.730
+on here.
+
+00:20.780 --> 00:25.690
+Then the class is going to be song list here.
+
+00:25.760 --> 00:30.070
+Then once we have the song what's going on here we're going to say having one and then we're all going
+
+00:30.070 --> 00:32.260
+to say song West or here like this.
+
+00:32.270 --> 00:33.040
+Right.
+
+00:33.190 --> 00:40.750
+Once we have this now I would want to create a div which is going to have a class of song list.
+
+00:40.850 --> 00:42.150
+Center.
+
+00:42.400 --> 00:43.480
+Center over here.
+
+00:44.940 --> 00:52.650
+Then out there we have a song lists and they're now going to create a new article or article and that's
+
+00:52.650 --> 00:54.310
+going to be a list item.
+
+00:54.420 --> 01:00.070
+So we're going to say a list item here first time and then once in an article.
+
+01:00.240 --> 01:09.590
+Now would want a div with a list item and I'm going to say the image this is going to be our class.
+
+01:09.660 --> 01:15.380
+Then in this day of actually going to place our image right so them say we're here.
+
+01:15.400 --> 01:23.340
+This is going to be Image sources going to be Image song one out here like this right here we're going
+
+01:23.340 --> 01:25.550
+to just say this is going to be song.
+
+01:25.920 --> 01:28.250
+And then after that we would want to text.
+
+01:28.280 --> 01:28.590
+All right.
+
+01:28.590 --> 01:37.140
+So if this is the last item on here we're going to create a list I had him text first time once we have
+
+01:37.140 --> 01:37.850
+the div..
+
+01:37.910 --> 01:39.650
+So this is going to be heading three.
+
+01:39.780 --> 01:45.520
+This is going to be artist then we're going to have a song.
+
+01:45.770 --> 01:47.890
+So we're going to say he's heading for.
+
+01:48.100 --> 01:49.330
+It's going to be so long.
+
+01:49.720 --> 01:51.610
+Then we're going to have a deal.
+
+01:52.060 --> 01:55.300
+And that there is going to have all these Fonte awesome icons.
+
+01:55.300 --> 01:55.930
+Right.
+
+01:55.960 --> 01:57.520
+So we're going to create O'Hare.
+
+01:57.760 --> 02:00.910
+So you need four five font awesome icons.
+
+02:01.090 --> 02:10.850
+So we're going to say here and this is going to be a big with list item here icon icon over here.
+
+02:11.260 --> 02:17.450
+And once we have the list on then over here we're going to say that this is going to be spanne when
+
+02:17.610 --> 02:18.930
+you're doing this.
+
+02:19.210 --> 02:25.720
+Instead we're going to say this is going to be a and it's an FAA star on here.
+
+02:25.790 --> 02:26.520
+That's right.
+
+02:26.520 --> 02:28.280
+So this is going to be number one.
+
+02:28.290 --> 02:34.360
+Now what are we going to do is we're going to copy and paste this one two three and the one.
+
+02:34.460 --> 02:36.770
+But here we're going to change it to our right.
+
+02:36.780 --> 02:38.030
+So this is going to be like this.
+
+02:38.040 --> 02:38.220
+Right.
+
+02:38.220 --> 02:39.940
+So this is going to be the empty one.
+
+02:40.110 --> 02:43.760
+Now we need to check where this article ends.
+
+02:43.970 --> 02:44.380
+Right.
+
+02:44.410 --> 02:50.370
+This was one article the second one what we would want is copy and paste this nine times right.
+
+02:50.530 --> 02:52.580
+Well eight times and nine total.
+
+02:52.620 --> 02:58.220
+One two three four five six seven eight.
+
+02:58.400 --> 02:58.650
+Right.
+
+02:58.660 --> 03:04.920
+And now all we need to do is actually change what would be the image right over here.
+
+03:04.920 --> 03:10.740
+We need to look where is the list item on this list item number one.
+
+03:11.100 --> 03:17.920
+Then this is going to be some number two then we'll have a song number three.
+
+03:17.940 --> 03:34.980
+This is going to be a song five four sorry than five here six and seven eight and nine eight and out
+
+03:34.980 --> 03:36.380
+here this is going to be nice.
+
+03:36.550 --> 03:37.400
+All right.
+
+03:37.740 --> 03:46.220
+So once we have this let's go actually to Main she and let's style this or here song list and everything.
+
+03:46.220 --> 03:47.010
+All right.
+
+03:47.010 --> 03:47.830
+So let's go.
+
+03:47.880 --> 03:50.470
+We're here to make sense.
+
+03:50.800 --> 03:54.000
+We can maybe save the next actually.
+
+03:54.030 --> 03:57.550
+I'll go all the way to the bottom here.
+
+03:57.610 --> 03:58.630
+That's right.
+
+03:58.660 --> 04:02.010
+And that's a song list.
+
+04:02.160 --> 04:10.980
+So this is going to be a long list or then press hashtags over here and then over here first we're going
+
+04:10.980 --> 04:14.750
+to say is for the song list.
+
+04:14.980 --> 04:23.620
+We're going to have a padding of 20 pixels or 20 pixels all around then we'll fill the list item to
+
+04:23.880 --> 04:29.320
+say list item here what we would want to write first.
+
+04:29.330 --> 04:37.840
+We're going to say margin and I'm going to say 20 pixels or here in between an 0 left and right then
+
+04:37.840 --> 04:40.160
+we're going to save this play more here.
+
+04:40.180 --> 04:43.410
+Steinem will say flex like this.
+
+04:43.430 --> 04:43.990
+Right.
+
+04:44.050 --> 04:47.810
+So each one of them is actually going to be displayed flex right.
+
+04:47.890 --> 04:56.440
+So we have the imagine all this is going to be the text then out here for a list item image I want to
+
+04:56.440 --> 05:04.270
+say with is going to be 150 pixels on healing this then margin right.
+
+05:04.300 --> 05:09.160
+It's going to be 20 pixels in this border radius.
+
+05:09.200 --> 05:11.360
+We're going to say 20 pixels.
+
+05:11.420 --> 05:16.680
+Right so we're going to make these around edges or here and then we would want to work with the spam
+
+05:16.790 --> 05:17.230
+icon.
+
+05:17.270 --> 05:18.000
+Right.
+
+05:18.010 --> 05:27.010
+So we're going to say a list item I can span for this part and what I would want is a color and we're
+
+05:27.010 --> 05:28.830
+going to use the yellow color.
+
+05:28.980 --> 05:35.730
+Right so this is going to be F 3 C and 0 F A.
+
+05:36.010 --> 05:37.540
+I don't realize this right.
+
+05:37.560 --> 05:42.710
+So now you can see that I don't have the song number nine.
+
+05:42.790 --> 05:43.940
+So let me check this.
+
+05:43.980 --> 05:44.460
+All right.
+
+05:44.500 --> 05:45.310
+I have only eight.
+
+05:45.310 --> 05:49.190
+So let's play sexually let's say Song number one the last.
+
+05:49.190 --> 05:49.710
+All right.
+
+05:49.990 --> 05:54.690
+So I guess I was lazy to get nine of them right or I was just playing that one or here.
+
+05:55.030 --> 05:58.250
+So I will say this and say this one over here.
+
+05:58.720 --> 06:04.290
+And now what you would want to do is add your immediate Querrey right.
+
+06:04.510 --> 06:12.750
+So I'm going to say are reading this we're going to say this is going to be a media media screen here
+
+06:12.940 --> 06:21.710
+and we're going to say that this is going to be and this man with one here.
+
+06:21.750 --> 06:24.820
+And this is going to be 576 pixels.
+
+06:24.940 --> 06:25.190
+Right.
+
+06:25.230 --> 06:32.850
+And what should happen when I hear the song lists and their song list and we're all going to say Center
+
+06:33.600 --> 06:34.290
+here.
+
+06:34.320 --> 06:41.790
+We're going to say that there's going to be a display of flex display flex here like this then flex
+
+06:42.630 --> 06:52.240
+rap which is fine whereas flex rap you're going to say rap like this and say Just if I can't space between
+
+06:52.900 --> 06:54.290
+spaces between right.
+
+06:54.370 --> 06:54.730
+Right.
+
+06:54.880 --> 07:00.970
+So say this one over here and now we're going to go maybe we can close this one over here and let's
+
+07:00.970 --> 07:03.030
+go ahead and let's have a look what we have.
+
+07:03.030 --> 07:03.590
+Right.
+
+07:03.610 --> 07:10.250
+So we refresh right now I can see that as I'm actually getting bigger right now I have all nine of them.
+
+07:10.310 --> 07:11.190
+All right.
+
+07:11.440 --> 07:16.540
+As I continue right as I got on the smaller screen right now this is the look that we have right.
+
+07:16.650 --> 07:18.190
+We've got them the small screen.
+
+07:18.350 --> 07:18.890
+Right.
+
+07:19.120 --> 07:21.600
+And then we have all here in general.
+
+07:21.610 --> 07:24.220
+One last item on here like this right.
+
+07:24.340 --> 07:26.080
+If we're going to go to the bigger one.
+
+07:26.100 --> 07:26.370
+All right.
+
+07:26.380 --> 07:28.000
+This is how it's going to look like.
+
+07:28.030 --> 07:32.130
+Now the one thing I maybe with this heading three and heading for.
+
+07:32.200 --> 07:33.290
+So let's go check.
+
+07:33.310 --> 07:35.890
+And what is the indexation now.
+
+07:36.010 --> 07:36.540
+Right.
+
+07:36.550 --> 07:43.850
+And let's see this is list item text heading 3 heading for so list item text here knowing this.
+
+07:43.880 --> 07:49.460
+So this is going to be a list item text here.
+
+07:49.550 --> 07:55.900
+And let's say hitting three and say text here transform.
+
+07:56.060 --> 07:59.160
+When to say capitalize on hearing this right.
+
+07:59.200 --> 08:02.990
+And for the last item heading forward we're going to say how prickers.
+
+08:03.120 --> 08:07.850
+So let's copy and paste this at a heading for.
+
+08:07.920 --> 08:14.070
+Or you're right uppercase so uppercase over line that's right so we have an artist and this is going
+
+08:14.070 --> 08:22.590
+to be a song and maybe just to be a little bit more collected say margin bottom 10 pixels or like this.
+
+08:22.600 --> 08:26.080
+Right now we have a song and then we have an artist.
+
+08:26.080 --> 08:32.860
+So now we are ready to move on and work on our last section right which is going to be our Here are
+
+08:32.920 --> 08:33.770
+our cars.
+
+08:33.770 --> 08:36.360
+All right so if we're going to go back over here.
+
+08:36.550 --> 08:36.820
+Right.
+
+08:36.820 --> 08:38.770
+We actually have a Alcaraz.
+
+08:38.760 --> 08:39.590
+All right.
+
+08:39.760 --> 08:42.040
+So let's go and start working on that.

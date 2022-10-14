@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00.540 --> 00:01.470
+Incredible.
+
+00:01.470 --> 00:08.220
+We finished another major milestone in CSX because now we know what is he says Box model.
+
+00:08.280 --> 00:15.120
+Well next property is very very interesting because it might confuse you a lot in the beginning and
+
+00:15.120 --> 00:21.090
+that is going to be the property of display was always let's start when I was an example and here I'm
+
+00:21.090 --> 00:28.290
+gonna get rid of eating one as was the paragraph so in the styles that we have in the CSX and also in
+
+00:28.290 --> 00:32.680
+the indexation IMO we're going to clean it up a little bit and different elements.
+
+00:32.880 --> 00:37.590
+So we're going to get rid of the heading ones and paragraphs and we're going to start very simply by
+
+00:37.620 --> 00:38.680
+having a div.
+
+00:38.820 --> 00:44.910
+So I'm going to say there's going to be a div now here in a day I'm gonna write that I am block element
+
+00:45.370 --> 00:50.900
+or just some kind of random text well random at the moment but you'll see why we're doing it.
+
+00:51.480 --> 00:56.330
+Then within a day let's add a class and let's say class is gonna be a block again.
+
+00:56.340 --> 00:57.930
+Doesn't really matter.
+
+00:57.930 --> 01:00.300
+You can call and call this class orange.
+
+01:00.300 --> 01:02.080
+It's not gonna change anything.
+
+01:02.100 --> 01:04.870
+Most important thing is what we're going to do in the CSA.
+
+01:05.370 --> 01:10.000
+So let's say there's going to be another heading and the heading is also gonna have the class another
+
+01:10.020 --> 01:12.160
+class again is going to be the same thing block.
+
+01:12.450 --> 01:15.030
+And also we're going to do the same thing with the text.
+
+01:15.030 --> 01:20.940
+So text is gonna be block element and sure enough now I have two of them.
+
+01:20.940 --> 01:23.230
+Now last but not least we're going to have paragraph.
+
+01:23.230 --> 01:26.610
+And don't worry we're not going to add any more block elements.
+
+01:26.820 --> 01:29.100
+But for now let's add a paragraph.
+
+01:29.100 --> 01:36.550
+Again we're going to do the same thing and block Elam and something like this and then let's add the
+
+01:36.550 --> 01:37.760
+same class.
+
+01:37.840 --> 01:40.520
+So let me copy and paste the class.
+
+01:40.530 --> 01:45.530
+Class is going to be right here with a paragraph and I have three elements so far so good.
+
+01:45.640 --> 01:50.320
+Then I would like to head over online somewhere some would say I would like to open up the new window
+
+01:50.770 --> 01:56.560
+and I'm gonna be going to pixels and those of you who are following the age normal part know that within
+
+01:56.560 --> 01:59.530
+the pixels Web site we can get nice images.
+
+01:59.530 --> 02:05.200
+So I'm just gonna search for some nice image and let's say here we're gonna call the smoothie and again
+
+02:05.200 --> 02:08.790
+you can look for kitten doesn't really matter as long as you get the image.
+
+02:08.800 --> 02:13.510
+I'm gonna go with this image and I'm going to say Save image now I'm going to look for my sister's folder
+
+02:13.900 --> 02:18.950
+and then within the a says folder not just call this photo again doesn't really matter.
+
+02:18.970 --> 02:20.760
+I just needed for example.
+
+02:20.950 --> 02:23.500
+Now I have my photo so far so good.
+
+02:23.530 --> 02:27.590
+So I was like Here photo J pic and now let's create three more elements.
+
+02:27.790 --> 02:33.880
+So there's gonna be the first one span and for this guy we're gonna say class in line and the only thing
+
+02:33.880 --> 02:39.670
+I would suggest is if you're adding different class names try to match them because then you're all
+
+02:39.670 --> 02:42.670
+going to see the actually better what's happening.
+
+02:42.760 --> 02:48.130
+Please don't name this orange than this one apple and then it's gonna be harder for you to see what
+
+02:48.130 --> 02:48.980
+we're doing.
+
+02:49.060 --> 02:56.210
+So I'm going to say I am in line element and that's going to be my span here and maybe we can just copy
+
+02:56.210 --> 02:59.140
+and paste this and change this around a little bit.
+
+02:59.320 --> 03:01.030
+You know what I actually didn't want too many.
+
+03:01.600 --> 03:04.020
+So I would like to have your image.
+
+03:04.180 --> 03:11.110
+Is gonna be my element and for the sauce I know that I look in this folder and in this folder I have
+
+03:11.110 --> 03:13.760
+photo and we're looking for J.
+
+03:14.080 --> 03:20.870
+Now what else I have I would also I'd like to add some with and let's say with there's gonna be 50 pixels
+
+03:21.450 --> 03:22.280
+so far so good.
+
+03:22.280 --> 03:27.480
+I have two spans and then I'm also looking here for the last one which is gonna be linked and you know
+
+03:27.480 --> 03:34.600
+what I actually didn't need to copy and pasted and that was a useless part of my actions.
+
+03:34.780 --> 03:37.150
+And let's do a trip attribute.
+
+03:37.150 --> 03:41.730
+Let's just say that link is not going to go anywhere it's gonna stay on this page and the class is also
+
+03:41.730 --> 03:44.150
+gonna be in line so far so good.
+
+03:44.190 --> 03:53.330
+Let's call this also I am in line element I know this was kind of a little bit annoying and long example
+
+03:53.390 --> 03:59.590
+HMO but hopefully you're gonna forgive me and we'll be able to work in a C assess and see why we're
+
+03:59.600 --> 04:05.440
+doing on this now let's head over to see assess and let's add some basic styles them.
+
+04:05.730 --> 04:13.430
+So for the black ones all of them who are black not just right and my background is gonna be let's say
+
+04:13.430 --> 04:14.330
+blue.
+
+04:14.330 --> 04:20.340
+Very very original and then color let's say is going to be white.
+
+04:20.660 --> 04:26.750
+Now for inline ones I would like to add something else I'm going to say in line element and here I'm
+
+04:26.750 --> 04:34.260
+gonna have the background of red and the color is gonna be white so I think this is gonna look sharp
+
+04:34.260 --> 04:38.050
+enough now as I'm looking on the right hand side.
+
+04:38.110 --> 04:40.240
+What are you noticing.
+
+04:40.240 --> 04:45.760
+So I have three elements here on top and I could have added way more that I just needed to prove my
+
+04:45.760 --> 04:46.770
+point.
+
+04:46.900 --> 04:54.730
+And what you're seeing is that they are looking at least differently than the ones in the bottom because
+
+04:54.730 --> 05:00.880
+what's happening is the for each in one of them even though we have more space we are starting a new
+
+05:00.880 --> 05:08.200
+line as well as each and every element is spanning from one side of the screen all the way to another
+
+05:08.260 --> 05:15.150
+side of the screen even though again we can change the screen size it's still going to do the same thing.
+
+05:15.220 --> 05:17.560
+Now the bottom ones are behaving a little differently.
+
+05:18.370 --> 05:24.990
+So they are not starting a new line as well as they only take up as much space as necessary.
+
+05:25.800 --> 05:33.730
+And what's happening is that in the CSX or in the interstate Mel what's happening is that there is elements
+
+05:34.600 --> 05:40.300
+that by default we're going to have display property in fact all elements have by default some kind
+
+05:40.300 --> 05:41.860
+of display property.
+
+05:41.860 --> 05:49.240
+Now property is going to be the same but the value might be different where for some elements the property
+
+05:49.240 --> 05:52.480
+is going to be block by default right away.
+
+05:52.480 --> 05:57.190
+And for some of them it is going to be in line and what's happening with the block is that with block
+
+05:57.190 --> 06:02.800
+level elements or block elements they will always going to start a new line and they're all going to
+
+06:02.800 --> 06:04.690
+take up the full with.
+
+06:04.690 --> 06:11.200
+Now for the inline ones they will not gonna start a new line and only going to take up as much space
+
+06:11.290 --> 06:13.510
+as content is necessary.
+
+06:13.630 --> 06:19.840
+Now that is important because you will going to use this a lot whenever you're styling it wherever you're
+
+06:19.840 --> 06:22.790
+dealing with some kind of layout whatever you're dealing with.
+
+06:22.810 --> 06:30.160
+I don't know how it looks it will gonna play a big role later on especially the more and more work you're
+
+06:30.160 --> 06:32.120
+gonna do with CSX.
+
+06:32.250 --> 06:38.910
+Now what's really nifty is that we can control this property so we're not just looking at it and saying
+
+06:38.910 --> 06:43.890
+okay there's nothing I can do I just have this plan and this is an inline element because what we can
+
+06:43.890 --> 06:46.000
+do is we can go here I said display.
+
+06:46.320 --> 06:49.270
+So that would be the name of the property and let's change that.
+
+06:49.320 --> 06:51.990
+Let's say that this is not gonna be in line anymore.
+
+06:51.990 --> 06:57.720
+And by the way notice if I'm going to write in line nothing is gonna change because by default all the
+
+06:57.720 --> 07:03.730
+inline elements already have this set and display in line but we can do this block.
+
+07:04.060 --> 07:09.410
+Now check this one out so I'm gonna say this play block and the one when I say read all of them start
+
+07:09.420 --> 07:12.630
+new line and all of them span from one side to another.
+
+07:12.990 --> 07:18.150
+Now we can do the same thing with the block once again I would first need to show you that if I'm gonna
+
+07:18.150 --> 07:23.100
+go here and if I'm going to save this play and we're going to call this block nothing is going to change
+
+07:23.520 --> 07:27.420
+because again by default they are block level elements or block elements.
+
+07:27.510 --> 07:31.310
+However we can do in line and now notice what's happening here.
+
+07:31.380 --> 07:36.840
+E in line and now we have them here as in line element.
+
+07:36.840 --> 07:43.140
+So now they're again taking only as much space as their content and they're not starting a new line
+
+07:43.710 --> 07:48.390
+and that's something that I mentioned in the very very beginning when I talked about Devens pan and
+
+07:48.390 --> 07:55.170
+I said I'm going to talk about this later but this is when we're covering the fact that all the elements
+
+07:55.260 --> 08:03.480
+are gonna have either inline or block set for display property and this will gonna matter as we actually
+
+08:03.480 --> 08:06.720
+start working with them and start styling them and see assess.

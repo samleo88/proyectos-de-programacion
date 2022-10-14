@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.420 --> 00:06.750
+While we're still on the subject of border radius and border margin padding and everything that has
+
+00:06.750 --> 00:14.640
+to do with a CSX box model why don't we take a look at some very very nifty property called outline
+
+00:14.790 --> 00:18.180
+and you know what orders are going to we're going to use some visual aid.
+
+00:18.180 --> 00:24.720
+So again we're going to ride over here CSX out line property something like this and then we're going
+
+00:24.720 --> 00:26.260
+to be looking for damages.
+
+00:26.430 --> 00:30.660
+Now with the damages we're just going to show you again there's plenty of them you can choose whatever
+
+00:30.660 --> 00:33.900
+you'd like but what's happening is that we have the content.
+
+00:33.990 --> 00:36.390
+So we already have it where we have the padding.
+
+00:36.510 --> 00:41.700
+Then we have the border and then past the border we in fact have the outline and then we're dealing
+
+00:41.700 --> 00:42.630
+with the margin.
+
+00:42.630 --> 00:48.040
+Now let me see maybe there is a better or a little bit actual image with me checking in for the images.
+
+00:48.090 --> 00:52.270
+And let me scroll here is the border content.
+
+00:52.410 --> 00:55.720
+Let me see where there is one with a margin maybe.
+
+00:55.740 --> 00:57.440
+Yeah I don't think this is gonna be here.
+
+00:57.450 --> 01:01.860
+But anyway I just understand that there's still going to be margin right here because remember margin
+
+01:01.860 --> 01:04.470
+was kind of behind the border.
+
+01:04.470 --> 01:07.140
+So what in fact we're having here is the content.
+
+01:07.140 --> 01:13.180
+Then we have the border then we have the outline and eventually we'll have obviously our margin.
+
+01:13.320 --> 01:16.880
+Your question probably would be why why does it make sense.
+
+01:16.890 --> 01:22.470
+So we are having right now the border and why we care about so much about the outline.
+
+01:23.070 --> 01:29.970
+Well we don't carry it like excessively but we can do some pretty nifty things with an outline that
+
+01:29.970 --> 01:31.460
+we cannot deal with the border.
+
+01:31.500 --> 01:36.470
+And as always you guessed it in order to show you that we're gonna head over back to indexation amount
+
+01:37.660 --> 01:42.310
+and here we're gonna say something like along the lines like this there is gonna be a Dave.
+
+01:42.450 --> 01:44.020
+Dave is gonna have class.
+
+01:44.080 --> 01:46.710
+So the class is gonna be buttons let's say.
+
+01:46.870 --> 01:47.950
+And you know what.
+
+01:47.950 --> 01:51.030
+Let me spell it correctly as well as within this Dave.
+
+01:51.030 --> 01:56.410
+We're gonna have two links now each of the links is gonna have a hashtag so the link is not gonna go
+
+01:56.410 --> 01:56.940
+anywhere.
+
+01:57.150 --> 02:02.490
+However the first one is gonna have the class of let's say one or you know just to switch it around
+
+02:02.500 --> 02:07.290
+let's use the Dave and say this is gonna be Dave I'm sorry what Dave I.D..
+
+02:07.840 --> 02:09.000
+Let's use the idea.
+
+02:09.250 --> 02:13.660
+And I don't know why I'm using the hashtag because this is something I'm going to have to use in a CSI.
+
+02:13.670 --> 02:15.120
+So I'm sorry.
+
+02:15.130 --> 02:18.500
+I guess that's what happens if I'm using classes 20 times.
+
+02:18.550 --> 02:26.590
+Anyway I want I.D. Now the first one an idea is gonna be one and I'm gonna say is no outline that will
+
+02:26.590 --> 02:29.550
+be written in the link and I'm going to copy and paste.
+
+02:29.620 --> 02:33.020
+Now for the second one I'm gonna say that this buddy is gonna be number two.
+
+02:33.130 --> 02:35.320
+And here this guy is gonna have the outline.
+
+02:35.920 --> 02:36.530
+Awesome.
+
+02:36.730 --> 02:39.470
+We have everything set up in the limo.
+
+02:39.490 --> 02:40.270
+Now what's next.
+
+02:40.270 --> 02:45.700
+Well let's start in the buttons in the seats us and let's say for the buttons first of all I would want
+
+02:45.700 --> 02:50.460
+some margin and margins is gonna be three are yams or not okay.
+
+02:50.570 --> 02:55.840
+It's a very very nice start and then I would like to select both the length and we're gonna add a bunch
+
+02:55.840 --> 03:02.230
+of styles just or both of the length and then we specifically work with one of them with the border
+
+03:02.740 --> 03:04.180
+and then the other one you guessed it.
+
+03:04.200 --> 03:08.500
+Than you use the outline so we're gonna say something like this will you say first of all background
+
+03:08.500 --> 03:11.020
+is gonna be some x value.
+
+03:11.110 --> 03:13.730
+Six eight nine.
+
+03:13.930 --> 03:17.550
+Let's say again hashtag six eight nine.
+
+03:17.650 --> 03:20.030
+And then I'm looking for F 3.
+
+03:20.500 --> 03:26.260
+Oh gonna be a green color as well as we're gonna be looking for some tax decoration I'm gonna say tax
+
+03:26.260 --> 03:29.070
+decoration is gonna be none are patting.
+
+03:29.110 --> 03:37.200
+Let's add some padding a little bit let's say one point two resumes and one point five arms as well.
+
+03:37.240 --> 03:42.010
+So this is gonna be my panic house up and then we're having the color and the color.
+
+03:42.010 --> 03:42.660
+We can do.
+
+03:42.660 --> 03:49.420
+I not gonna hex value to do it you know blackish color and you know what we can also do text transform
+
+03:49.420 --> 03:55.260
+uppercase XT transform uppercase.
+
+03:55.330 --> 03:59.080
+This is gonna be transform navigates and you know what we haven't covered yet.
+
+03:59.080 --> 04:00.440
+Display properties.
+
+04:00.490 --> 04:03.730
+So let me make this smaller later on we're going to see why this is happening.
+
+04:03.730 --> 04:10.330
+But don't worry about it too much right now what we're looking for is the outline properly what else
+
+04:10.330 --> 04:10.870
+is happening.
+
+04:10.870 --> 04:12.850
+Well now we would want.
+
+04:12.880 --> 04:15.240
+I don't know a cursor pointer.
+
+04:15.240 --> 04:19.550
+No this is gonna make sure that as we hovering that there's gonna be a little pointer.
+
+04:19.710 --> 04:25.480
+Now once we say it check it out what happens as I'm hovering over the links that I'm gonna having this
+
+04:25.480 --> 04:27.010
+cursor point mouse.
+
+04:27.130 --> 04:28.780
+OK what else.
+
+04:28.780 --> 04:32.350
+Now this is the time we're all gonna meet the border again.
+
+04:32.440 --> 04:33.930
+Mark we have already met the border.
+
+04:33.940 --> 04:37.510
+But I guess we're going to get to know more one more time.
+
+04:37.540 --> 04:43.330
+What are we going to write the shortcut and organize a border and for the border at an all zero point
+
+04:43.330 --> 04:44.270
+to our aims.
+
+04:44.290 --> 04:46.920
+That would be the actual width of the border.
+
+04:47.070 --> 04:50.280
+And we're looking for solid and until 2.
+
+04:50.640 --> 04:51.670
+OK.
+
+04:51.730 --> 04:59.980
+Finally we can start working on our outline an outline is gonna have to be a lot similar the way the
+
+04:59.980 --> 05:01.120
+border is.
+
+05:01.120 --> 05:04.590
+Meaning if I'm gonna go to the second one I can write like this.
+
+05:04.650 --> 05:09.770
+You can say no to here is gonna first and I have some kind of outline with what to do.
+
+05:09.770 --> 05:13.950
+Again the same thing zero point two yams.
+
+05:14.020 --> 05:17.430
+Then we're gonna have the outline and we're gonna be looking for style.
+
+05:17.470 --> 05:21.400
+So in this case again we're going to go on solid just because we want to match exactly the same like
+
+05:21.400 --> 05:25.270
+we had here just so you can see that there's a lot of similarities.
+
+05:25.390 --> 05:28.690
+And last but not least we're gonna have outline color.
+
+05:28.700 --> 05:35.590
+Now once we have these three things and stack two two two you'll see that everything looks exactly the
+
+05:35.590 --> 05:36.700
+same.
+
+05:36.700 --> 05:42.360
+Now your question probably would be well what is the difference then why you're showing this.
+
+05:42.430 --> 05:46.180
+Well what's nifty about the outline is the fact that you know what.
+
+05:46.180 --> 05:49.040
+Before we do that and quickly adds a margin.
+
+05:49.300 --> 05:54.850
+So margin is going to be for both lengths zero to bottom and then we're going to be looking for like
+
+05:54.850 --> 05:59.910
+20 pixels something like this just because they're not actually sitting side by side.
+
+05:59.980 --> 06:03.760
+And again I'm struggling because we haven't covered display properties yet.
+
+06:04.420 --> 06:07.190
+But the moment we add the outline you might be tempted.
+
+06:07.200 --> 06:07.940
+Taking longer.
+
+06:07.990 --> 06:13.370
+So that looks exactly the same y y you're going over this while you're covering the outline.
+
+06:13.390 --> 06:18.340
+Well first of all I would like to tell yes there's gonna be a lot of similarities because I can do the
+
+06:18.340 --> 06:22.070
+shortcut remember how we have the porous border.
+
+06:22.120 --> 06:27.930
+So here I can write the same thing I can say outline then whatever styles I had zero point two or three
+
+06:28.240 --> 06:38.200
+M's solid yams solid and then I have hashtag to do what's really really nifty though about this property
+
+06:38.710 --> 06:43.490
+is the fact that we can use the property of offset how is that going to work.
+
+06:43.490 --> 06:44.720
+Well let's see.
+
+06:44.720 --> 06:53.150
+So if I'm gonna write here outline offset I'm gonna be able to move this outline whether more out from
+
+06:53.150 --> 06:57.320
+the actual button in our case or we can more with more.
+
+06:57.620 --> 07:02.810
+So let's say if I'm gonna say that the outline is gonna be 10 pixels notice what's gonna happen.
+
+07:02.840 --> 07:09.790
+So now we have nice effect where our border has been actually moved away from currently the elemental
+
+07:09.830 --> 07:10.570
+working.
+
+07:10.790 --> 07:14.150
+And what's also really cool we can move in the opposite direction.
+
+07:14.150 --> 07:18.860
+So if I'm got a company posted an hour slate right now because of the order I'm gonna override this.
+
+07:18.860 --> 07:24.260
+And if I'm gonna say negative 10 pixels what happens is right now my outline is gonna be within the
+
+07:24.260 --> 07:24.650
+element.
+
+07:25.010 --> 07:28.070
+So those are the cool things that we can do without line.
+
+07:28.280 --> 07:33.650
+And that is the reason why we would want to know about the border as well as about the outline.

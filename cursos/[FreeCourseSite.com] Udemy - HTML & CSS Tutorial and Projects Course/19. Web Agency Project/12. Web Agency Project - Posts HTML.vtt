@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00.560 --> 00:05.400
+And the next section you're going to be building is going to be recent posts section and so here this
+
+00:05.400 --> 00:06.670
+is going to be very simple.
+
+00:06.680 --> 00:07.160
+All right.
+
+00:07.290 --> 00:13.230
+We're just going to have a in effect right that a font or some search icon shows up right.
+
+00:13.440 --> 00:18.450
+And those are going to set up these like cards right or here you can see this is going to be text and
+
+00:18.450 --> 00:18.950
+the button.
+
+00:18.950 --> 00:19.500
+All right.
+
+00:19.560 --> 00:24.800
+So we're going to go back over here again and we're going to go to the next page the amount and again
+
+00:24.810 --> 00:27.150
+we're going to go all the way somewhere at the bottom.
+
+00:27.150 --> 00:29.070
+So this was the end of the filler section.
+
+00:29.070 --> 00:29.710
+Right.
+
+00:29.760 --> 00:31.970
+And this is going to be a posts.
+
+00:32.340 --> 00:37.250
+So we're all going to say the comment posts section more here.
+
+00:37.290 --> 00:43.700
+And I was going to copy and paste this and I'm going to say this is going to be the end of post section.
+
+00:43.710 --> 00:44.100
+Right.
+
+00:44.250 --> 00:50.300
+So we scroll all the way over here and we're going to say this is going to be section more here title
+
+00:52.170 --> 00:57.610
+and we're going to say well sorry this is going to be ideal posts or you don't like this.
+
+00:57.780 --> 00:59.810
+And what we're going to say is this is going to be title.
+
+00:59.820 --> 01:00.410
+Right.
+
+01:00.420 --> 01:03.980
+So let's go ahead and again grab the title where it is.
+
+01:04.300 --> 01:05.310
+Let's find this right.
+
+01:05.340 --> 01:09.340
+So title and this is going to be a recent post.
+
+01:09.650 --> 01:13.840
+So I was going to copy this guy drag it all the way down here.
+
+01:13.890 --> 01:14.970
+Copy this one.
+
+01:15.170 --> 01:23.320
+We're going to say this is going to be recent posts or you know in this recent posts.
+
+01:23.340 --> 01:24.420
+Right.
+
+01:24.480 --> 01:28.370
+So now that we have this we will have a post container.
+
+01:28.450 --> 01:29.030
+Right.
+
+01:29.340 --> 01:34.830
+So here I'm just going to say this is going to be live post container right.
+
+01:35.150 --> 01:37.710
+And we're here we're going to have a post-Iowa right.
+
+01:37.770 --> 01:44.430
+So here we're going to create a comment on the post and this is going to be the end of the post right
+
+01:44.820 --> 01:47.030
+here and of post.
+
+01:47.050 --> 01:52.590
+All right so now that we have this we actually would want a post.
+
+01:52.610 --> 01:58.930
+I had them right when I hear someone say this is going to be our goal with a class of post.
+
+01:59.240 --> 02:05.340
+I had them right now once we have the actual article we're actually going to have one more comment we're
+
+02:05.340 --> 02:07.660
+going to say this is going to be actual card.
+
+02:07.870 --> 02:12.090
+Right so we're here we're going to write card here we're going to say this and we did with the class
+
+02:12.090 --> 02:15.840
+of image container.
+
+02:15.840 --> 02:19.040
+So this is going to hold everything right here within this day.
+
+02:19.040 --> 02:21.070
+We're going to place the image.
+
+02:21.420 --> 02:24.430
+And this is going to be image from again from current projects right.
+
+02:24.440 --> 02:29.970
+So just tab and we're going to see images current project and again in the beginning they are all going
+
+02:29.970 --> 02:30.610
+to be massive.
+
+02:30.620 --> 02:33.600
+But we already know by now how to actually fix them right.
+
+02:33.600 --> 02:36.850
+So image and this is going to be project one.
+
+02:37.050 --> 02:41.130
+And then within this image container we're going to add something more we're going to say this is going
+
+02:41.130 --> 02:47.420
+to be a link right here with the dummy link HFM here like this.
+
+02:47.460 --> 02:49.190
+This is going to be.
+
+02:49.700 --> 02:55.820
+Hey hey and search it so search back on the wall here press tab.
+
+02:55.890 --> 03:01.230
+Now we're done with the container All right now over here what we're going to have a actual text.
+
+03:01.400 --> 03:01.940
+Right.
+
+03:01.980 --> 03:03.450
+So this is going to be the second thing.
+
+03:03.450 --> 03:05.930
+So this is going what's going to be underneath the picture.
+
+03:06.180 --> 03:11.570
+All right so this is going to be text container like this.
+
+03:11.670 --> 03:14.110
+We're going to say this is going to be hitting one.
+
+03:14.130 --> 03:21.670
+And this is going to be angular post or here and we're going to press tab once we have a heading one
+
+03:21.670 --> 03:24.010
+then we're going to have a paragraph.
+
+03:24.060 --> 03:28.980
+So obviously we're going right over here and this is going to be paragraph and let's say this is Lorem
+
+03:28.980 --> 03:33.210
+15 and let's say all the way back.
+
+03:33.360 --> 03:34.830
+This is going to be padding right.
+
+03:35.010 --> 03:36.790
+And then we're going to have a leg.
+
+03:36.830 --> 03:40.840
+All right so I'm going to say over here we're going to say read more.
+
+03:40.850 --> 03:41.390
+Right.
+
+03:41.460 --> 03:44.850
+So we're going to have a rough read more.
+
+03:44.950 --> 03:47.590
+Right now that we have this.
+
+03:47.790 --> 03:52.220
+We're actually ready to move one and add some more of them right.
+
+03:52.230 --> 03:54.980
+So what is the post item or here.
+
+03:55.020 --> 04:00.010
+I mean we need we need what we need actually to do more.
+
+04:00.010 --> 04:00.270
+Right.
+
+04:00.270 --> 04:02.220
+So we need to be thorough.
+
+04:02.550 --> 04:08.670
+So what I'm going to say is over here we grabbed this and said I want to write and here this is going
+
+04:08.670 --> 04:12.800
+to change obviously image and then I will say text should be different too.
+
+04:12.810 --> 04:13.310
+Right.
+
+04:13.530 --> 04:16.800
+So this one the first one was angler post.
+
+04:16.820 --> 04:18.580
+So these guys number two.
+
+04:18.570 --> 04:20.930
+This is going to be reac post.
+
+04:21.780 --> 04:24.430
+I'm not going to be changing orientalis obviously this text.
+
+04:24.460 --> 04:26.600
+I mean this is going to stay the same.
+
+04:26.690 --> 04:31.970
+I don't hear it's going to be Javascript Post Script post.
+
+04:32.150 --> 04:32.660
+Right.
+
+04:32.910 --> 04:40.050
+So now that we are done with HD now we're here and let's change this to three we're actually ready to
+
+04:40.050 --> 04:43.250
+go to see this start styling this post.

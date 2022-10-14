@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.120 --> 00:06.720
+So let's go to mine she says Oh Agnes and let's go all the way in MRM.
+
+00:06.740 --> 00:13.520
+All right let's make more room here for us and are here again and we're going to have a comment here.
+
+00:13.640 --> 00:19.480
+We're going to say that this is going to be skills skills section on this.
+
+00:19.640 --> 00:22.490
+And now we're going to start applying the styles.
+
+00:22.570 --> 00:28.590
+And like I said before whenever we are working on here this right the first what we're doing is we're
+
+00:28.590 --> 00:33.110
+designing for the small screens and it's all going to set all our rules right.
+
+00:33.390 --> 00:41.310
+And only at the end at a responsiveness that as the screen changes so does the value.
+
+00:41.310 --> 00:41.580
+Right.
+
+00:41.610 --> 00:46.170
+And you'll see what I'm talking about when we're going to be actually working with media screens right
+
+00:46.250 --> 00:48.600
+the same how we did over here with this number.
+
+00:48.600 --> 00:49.280
+Right.
+
+00:49.320 --> 00:53.350
+And that's when we're all going to be applying a flex properties.
+
+00:53.370 --> 00:58.880
+So what we're going to do here is we're going to say the first thing I would want to target kills more
+
+00:58.890 --> 00:59.950
+here like this.
+
+01:00.090 --> 01:05.020
+And then we're going to say this would be padding and padding is going to be 40 pixels.
+
+01:05.070 --> 01:11.480
+What I'm saying is that padding 40 pixels right you can see all around top bottom here on the site.
+
+01:11.490 --> 01:11.960
+Right.
+
+01:12.180 --> 01:15.960
+So now that we have padding 40 pixels for the skills.
+
+01:15.960 --> 01:19.040
+Next we're going to target over here this individual skill.
+
+01:19.140 --> 01:26.270
+So I'm going to say skill more here and then I'm going to say text align center then after text and
+
+01:26.300 --> 01:31.730
+center I'm going to margin 20 pixels and then on here I'm going to say zero.
+
+01:32.200 --> 01:32.570
+All right.
+
+01:32.610 --> 01:36.920
+So now we have a margin on the left and right is going to be zero.
+
+01:37.360 --> 01:40.310
+But on the top and bottom this is going to be 20.
+
+01:40.350 --> 01:41.910
+Now we're done with skill.
+
+01:41.910 --> 01:46.420
+We're going to say skill here and we're going to target a phantasm.
+
+01:46.560 --> 01:53.760
+Some say skill some more here and then I'm going to say first off color some are the color of hash tag
+
+01:54.270 --> 02:01.290
+to be more here than this is going to be 9 8 and then f 0.
+
+02:01.310 --> 02:01.730
+Right.
+
+02:01.920 --> 02:04.510
+So basically again we're adding this blue color.
+
+02:04.900 --> 02:10.600
+Then after that we're going to have a padding where 20 pixels like this.
+
+02:10.620 --> 02:17.730
+Then we're going to have a border radius radius where you know like this and all going to say this is
+
+02:17.730 --> 02:19.720
+going to be 50 percent.
+
+02:19.740 --> 02:26.050
+So basically what I'm doing here is I'm creating the padding and then I'm going to add a ball radius.
+
+02:26.190 --> 02:28.310
+So this is actually going to be a circle.
+
+02:28.350 --> 02:33.840
+So as I'm actually hovering this is going to be circle and we're going to have a few more effect than
+
+02:33.840 --> 02:38.480
+I'm going to say or here are fun size 60 pixels here right.
+
+02:38.540 --> 02:44.700
+So now they got bigger and then after that we're going to do a transition and I'm going to say transition
+
+02:44.880 --> 02:51.010
+and I'm going to say transform right here 0.5 seconds right.
+
+02:51.080 --> 02:55.440
+Ease again and again we can for the sake of it we can have easy.
+
+02:55.470 --> 02:55.970
+Right.
+
+02:56.050 --> 02:57.680
+So it's all been different.
+
+02:57.720 --> 02:59.610
+Then we're going to have a background.
+
+03:00.000 --> 03:02.780
+And this is also going to be property that will want to change.
+
+03:02.820 --> 03:06.060
+Again let's say zero point five seconds.
+
+03:06.090 --> 03:10.530
+He's going to have a caller here.
+
+03:10.560 --> 03:12.750
+This is going to be 0.5 seconds.
+
+03:12.800 --> 03:18.420
+Is he over here and now would want actual hovering effect.
+
+03:18.490 --> 03:26.260
+So I'm going to say skill and I'm going to say far more however and here we're going to write transform.
+
+03:26.370 --> 03:26.760
+Right.
+
+03:26.910 --> 03:30.190
+So this is going to be the first property would want to change.
+
+03:30.330 --> 03:35.550
+And here I'm going to say scale and scale is going to be zero point seven.
+
+03:35.710 --> 03:41.680
+And this then we're going to have a background and a background again is going to be the blue one right.
+
+03:41.790 --> 03:43.430
+And the color can change right.
+
+03:43.590 --> 03:45.770
+So again basically we're going to flip it around.
+
+03:45.960 --> 03:50.490
+So we're here we're going to have a background blue font size white.
+
+03:50.840 --> 03:58.820
+So we're going to copy this one here and say color hash tag F5 F5 F5 like this.
+
+03:58.950 --> 04:01.850
+We saved this more here and let's see what happens.
+
+04:01.860 --> 04:02.500
+Right.
+
+04:02.520 --> 04:04.280
+So you can see as I'm hovering.
+
+04:04.320 --> 04:10.160
+First of all scale means that this is either going to be getting bigger or smaller.
+
+04:10.380 --> 04:17.010
+So if I put 1.7 right this would actually be zooming right you can see this is what happens right.
+
+04:17.010 --> 04:22.400
+However if I put zero point seven and this is going to get smaller.
+
+04:22.560 --> 04:26.630
+So basically one obviously would be the same as it is right.
+
+04:26.700 --> 04:28.450
+And if we change this value.
+
+04:28.470 --> 04:30.080
+Bigger than 100 smaller.
+
+04:30.160 --> 04:33.870
+That depends is resuming in zooming out or here right.
+
+04:34.200 --> 04:41.160
+Like I said the border really or this was this created the circle right or hit like this and padding
+
+04:41.160 --> 04:42.690
+was actually the one that adds.
+
+04:42.690 --> 04:44.200
+How big is the circle or here.
+
+04:44.250 --> 04:45.020
+Right.
+
+04:45.180 --> 04:50.460
+Then after we are done with this we have two more things that you want to do and we will want to work
+
+04:50.460 --> 04:51.890
+with this next door.
+
+04:52.230 --> 04:57.120
+So I'm going to go back over here and we're going to say is we're going to say that this is going to
+
+04:57.120 --> 04:59.360
+be a skill.
+
+05:00.580 --> 05:07.540
+This and we're going to have a margin margin and this is going to be 10 pixels then this is going to
+
+05:07.540 --> 05:08.540
+be zero.
+
+05:08.790 --> 05:14.800
+And this is going to be 15 pixels and this is going to be another year again Left-Right zero and then
+
+05:14.800 --> 05:15.640
+we're just changing.
+
+05:15.650 --> 05:16.240
+All right.
+
+05:16.240 --> 05:18.110
+We don't want it too much.
+
+05:18.220 --> 05:21.650
+But on the bottom we would want a bigger one in order here.
+
+05:21.700 --> 05:26.660
+We're going to say this is going to be text or here transform again.
+
+05:26.890 --> 05:28.920
+And this is going to be capitalized.
+
+05:29.020 --> 05:34.060
+Then after that we're going to have a font size 30 pixels on this.
+
+05:34.060 --> 05:34.300
+Right.
+
+05:34.300 --> 05:37.850
+So having three became bigger then we're going to have a color.
+
+05:38.110 --> 05:39.810
+And this is going to be hash tag.
+
+05:39.850 --> 05:47.080
+And again we're going to use the blue color so we can go ahead grabble here and use color color here
+
+05:47.250 --> 05:48.740
+and copy this one right.
+
+05:48.790 --> 05:50.070
+This is going to be black.
+
+05:50.320 --> 05:55.340
+And then over here we're going to say skill and this is going to be skill paragraph.
+
+05:55.550 --> 06:03.260
+We're hearing this and then we're going to say line right and we're going to say one point five years.
+
+06:03.290 --> 06:03.830
+All right.
+
+06:03.840 --> 06:08.480
+So there's going to be a little bit more Einheit over here and then we're going to say last thing and
+
+06:08.500 --> 06:13.500
+I mean we don't need to write Yemini if we don't we're just going to be the same thing right.
+
+06:13.510 --> 06:16.000
+Just point one point follow here right.
+
+06:16.270 --> 06:23.200
+And then we're going to say we're here and this is going to be with us 75 percent because you can see
+
+06:23.200 --> 06:28.120
+or hear it now that text right spanning all across.
+
+06:28.300 --> 06:31.290
+And it looks a little bit nicer if it actually has the value.
+
+06:31.290 --> 06:31.710
+All right.
+
+06:31.900 --> 06:34.560
+So we hear what you see we gave it the.
+
+06:34.780 --> 06:38.290
+But now the whole text moved that left right because it has a value.
+
+06:38.560 --> 06:43.080
+And now we need to do margin zero right top bottom zero.
+
+06:43.240 --> 06:47.260
+And here all right so now again and move back into metal again.
+
+06:47.350 --> 06:49.570
+If you don't care about it that's fine.
+
+06:49.580 --> 06:50.080
+Right.
+
+06:50.220 --> 06:57.160
+It's just sometimes on some screens it does better if the text actually has a percentage right.
+
+06:57.160 --> 06:58.710
+Sort of has a certain way.
+
+06:59.000 --> 07:01.910
+And now here we can actually create more room.
+
+07:02.200 --> 07:07.480
+And let's actually add a responsiveness right by writing the media queries.

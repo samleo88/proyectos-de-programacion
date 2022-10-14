@@ -1,0 +1,715 @@
+WEBVTT
+
+00:00.490 --> 00:03.360
+And basically the way it works in a nutshell.
+
+00:03.430 --> 00:07.510
+Right what's going to happen is that I'm going to set with javascript.
+
+00:07.580 --> 00:10.240
+I write a rule for functioning.
+
+00:10.350 --> 00:15.600
+So what's going to happen is I'm going to say that once I scroll past some point.
+
+00:15.600 --> 00:18.210
+All right I'm going to add over here this class.
+
+00:18.240 --> 00:19.860
+I mean this background class right.
+
+00:19.860 --> 00:21.360
+So what's going to happen first.
+
+00:21.390 --> 00:27.000
+What I would need to do is actually I would need to have a background when someone is going to say we're
+
+00:27.000 --> 00:29.430
+here and I'm going to go back to the rules.
+
+00:29.430 --> 00:29.680
+Right.
+
+00:29.680 --> 00:30.760
+So this was all here.
+
+00:30.780 --> 00:33.090
+So this was for the men with.
+
+00:33.150 --> 00:36.500
+But now we're going to deal with a actual document.
+
+00:36.500 --> 00:36.780
+Right.
+
+00:36.780 --> 00:40.170
+So this is not going to be affected by the screen size right.
+
+00:40.170 --> 00:42.350
+This is going to be affected in general.
+
+00:42.420 --> 00:43.020
+Right.
+
+00:43.020 --> 00:51.110
+So for now if I'm going on a background class so I'm going to create this class I have background here
+
+00:51.440 --> 00:56.090
+and for that background all I'm going to say is I'm going to be background and the background is going
+
+00:56.090 --> 00:58.090
+to be here.
+
+00:58.160 --> 01:00.480
+Zero zero zero point five.
+
+01:00.540 --> 01:00.940
+Right.
+
+01:00.980 --> 01:05.900
+And again the same as would that change class that we added for the button we're not going to be able
+
+01:05.900 --> 01:06.700
+to see it right now.
+
+01:06.700 --> 01:07.180
+Right.
+
+01:07.190 --> 01:09.570
+We're going to be using it in javascript.
+
+01:09.590 --> 01:16.460
+Now what I also want to do is you see here in I have this number unsexual it fixed it.
+
+01:16.470 --> 01:18.200
+It's all the time stays fixed.
+
+01:18.200 --> 01:19.160
+So how do we do it.
+
+01:19.250 --> 01:19.780
+Right.
+
+01:20.030 --> 01:22.580
+And the reason why we're writing this separately right.
+
+01:22.580 --> 01:27.470
+Not all the way to the top of the document because I just want you to see how it actually works right
+
+01:27.710 --> 01:31.250
+because it makes a little bit more sense that we are actually adding this rule over here.
+
+01:31.250 --> 01:31.800
+Right.
+
+01:31.850 --> 01:35.320
+Not in the beginning of document where we couldn't see anything at all.
+
+01:35.330 --> 01:36.000
+Right.
+
+01:36.080 --> 01:41.240
+And the way it works here we're going to say this is going to be out of position here we're going to
+
+01:41.240 --> 01:44.370
+say this is going to be fixed or fixed.
+
+01:44.510 --> 01:51.080
+Then once we have the fix we would want a width here and we're going to send with it is going to be
+
+01:51.080 --> 01:53.900
+actually 100 percent or less.
+
+01:54.050 --> 01:58.330
+Once we have with 100 percent we'll have a z index.
+
+01:58.370 --> 01:59.790
+This is going to be 10.
+
+01:59.790 --> 02:05.430
+All right so this makes sure that our nav bar is always on top of the other elements.
+
+02:05.630 --> 02:10.010
+And over here we're going to say in transition and we're going to say transition is going to be for
+
+02:10.010 --> 02:10.550
+the background.
+
+02:10.580 --> 02:11.170
+Right.
+
+02:11.180 --> 02:16.550
+So basically what I'm saying is that once they have this Navara glass right this should happen over
+
+02:16.550 --> 02:16.910
+time.
+
+02:16.910 --> 02:22.270
+Some of them say background again two seconds and he's going this right.
+
+02:22.460 --> 02:25.560
+And this background is obviously going to be added with the Javascript.
+
+02:26.000 --> 02:34.350
+And last thing maybe on here while we're still see SS or want to change this with the screen size changes
+
+02:34.380 --> 02:34.920
+right.
+
+02:35.090 --> 02:38.470
+So we can do it separately or we can add it over here one more roll.
+
+02:38.510 --> 02:39.180
+Right.
+
+02:39.230 --> 02:41.180
+And that's really up to you.
+
+02:41.240 --> 02:46.860
+I'm just going to go back over here right within this media right within this 992.
+
+02:47.030 --> 02:53.720
+I'm going to say for the man or a card here I'm going to say class of banner card or here I'm going
+
+02:53.720 --> 02:59.320
+to say that this is going to be flex and 0 0 and this is going to be 70 percent.
+
+02:59.530 --> 03:04.450
+So basically what I'm saying is once the screen gets bigger I don't want it to be 90 percent.
+
+03:04.460 --> 03:06.650
+I want it to be 70 percent right.
+
+03:06.710 --> 03:08.230
+So I'll say this right.
+
+03:08.430 --> 03:14.990
+And now what we would need to do is actually go ahead and work or here in the jobs and because we're
+
+03:14.990 --> 03:18.520
+done with main CSSA four hour nap.
+
+03:18.570 --> 03:19.130
+All right.
+
+03:19.210 --> 03:23.630
+And the way we work is all here we're going to say script and let's say on here and this is going to
+
+03:23.630 --> 03:28.340
+be a comment that I'm going to say toggle button here.
+
+03:28.400 --> 03:35.900
+Now once we have the toggle button we're now going to have a transparent background so transparent background
+
+03:36.360 --> 03:36.850
+here.
+
+03:37.070 --> 03:38.200
+And how do we do that.
+
+03:38.360 --> 03:42.950
+So here we're going to use a query and we're going to select a window right.
+
+03:43.040 --> 03:46.400
+So I'm going to say window and then we're going to have a scroll.
+
+03:46.610 --> 03:50.210
+And so this is going to be another function the same how we have a ready function that we have clicked
+
+03:50.210 --> 03:51.080
+function.
+
+03:51.080 --> 03:53.640
+So this function works only when we are scrolling.
+
+03:53.720 --> 03:54.140
+Right.
+
+03:54.200 --> 04:00.800
+So I'm going to say function and open and close parentheses and all here and this is going to be a curly
+
+04:00.800 --> 04:02.020
+braces right.
+
+04:02.150 --> 04:08.120
+And then over here I'm going to create a variable and I'm going to say Position Position more here and
+
+04:08.120 --> 04:09.660
+this position is going to be equal.
+
+04:09.680 --> 04:10.060
+Right.
+
+04:10.070 --> 04:18.800
+So this variable is going to be equal to or here a dollar sign window window and this is going to be
+
+04:18.800 --> 04:20.250
+scrolled up.
+
+04:20.650 --> 04:24.650
+And basically what scroll of means is that this is going to give the value.
+
+04:24.700 --> 04:24.980
+Right.
+
+04:25.070 --> 04:31.770
+So this variable is going to be equal to the position of the window right here like this.
+
+04:31.970 --> 04:37.070
+And then what we're going to say is as we're scrolling right the position is obviously going to change
+
+04:37.070 --> 04:38.920
+right as we're scrolling down right.
+
+04:38.930 --> 04:42.040
+The actual number is going to keep on increasing.
+
+04:42.050 --> 04:48.020
+Now what we're saying here is that if we're here position which is the variable which is the actual
+
+04:48.020 --> 04:53.800
+scrolling position of the window is bigger or equal more here to the hundred.
+
+04:54.110 --> 04:55.300
+We're like this right.
+
+04:55.430 --> 04:56.730
+Something should happen.
+
+04:56.780 --> 04:57.490
+All right.
+
+04:57.530 --> 05:02.570
+And that something is going to be first that we're going to have a number of containers is going to
+
+05:02.570 --> 05:03.800
+have this background glass.
+
+05:03.800 --> 05:04.300
+All right.
+
+05:04.410 --> 05:11.020
+So here I'm going to say that this is going to be something that if it's if something were we're am
+
+05:11.020 --> 05:16.190
+going to say dollar sign and or here I'm going to select two things I'm going to say now I'm going to
+
+05:16.190 --> 05:18.640
+say now container or here like this.
+
+05:18.650 --> 05:19.010
+Right.
+
+05:19.160 --> 05:20.330
+So both of them.
+
+05:20.570 --> 05:24.250
+This guy over here on a smaller screen and now on a bigger.
+
+05:24.260 --> 05:24.570
+All right.
+
+05:24.590 --> 05:26.300
+But I want to affect them both.
+
+05:26.440 --> 05:33.230
+And I'm all here going to say add class and class and what will be the class and the class is going
+
+05:33.230 --> 05:34.280
+to be now background.
+
+05:34.280 --> 05:38.540
+So we're going to have background so that's going to be that transparent class.
+
+05:38.540 --> 05:39.430
+All right.
+
+05:39.500 --> 05:43.130
+And over here basically I'm saying if the position is more than a.
+
+05:43.130 --> 05:43.590
+Right.
+
+05:43.640 --> 05:48.560
+So if I scroll more than 100 However if I'm going to be less than 100 I'm just going to remove that
+
+05:48.560 --> 05:49.230
+class.
+
+05:49.230 --> 05:49.650
+All right.
+
+05:49.790 --> 05:56.090
+So what I can do over here is I'm going to say else here I'm just going to copy this right and I'm going
+
+05:56.090 --> 06:00.820
+to say remove the glass so I can just cut this or you know what I don't want to cut it.
+
+06:00.830 --> 06:06.950
+I want to leave it on a copy this and copy and paste it here instead of adding class we're going to
+
+06:06.950 --> 06:10.980
+say remove remove glass like this.
+
+06:11.010 --> 06:13.250
+Right now we may need to do.
+
+06:13.280 --> 06:15.920
+So we do have two classes like this.
+
+06:16.130 --> 06:20.590
+We say right now we have positions more than 100 right now.
+
+06:20.600 --> 06:22.610
+Now container and class else.
+
+06:22.610 --> 06:26.250
+Now there are of course right here very simple.
+
+06:26.260 --> 06:26.760
+All right.
+
+06:26.840 --> 06:31.210
+And this is still going to be you know scroll position right now.
+
+06:31.220 --> 06:33.440
+We're not going to be able to see it right now.
+
+06:33.600 --> 06:34.040
+All right.
+
+06:34.100 --> 06:38.490
+Because again for our document we're not really we have hundred viewers right now.
+
+06:38.500 --> 06:38.720
+Right.
+
+06:38.720 --> 06:40.120
+So it's not going to be squalling.
+
+06:40.170 --> 06:42.590
+However you can see obviously how it works here right.
+
+06:42.590 --> 06:43.490
+I have hundreds.
+
+06:43.550 --> 06:46.180
+And you can see that now I have this background here right.
+
+06:46.340 --> 06:46.940
+I go up.
+
+06:46.970 --> 06:47.900
+I don't have it.
+
+06:48.170 --> 06:50.500
+I go to the smaller screen the same thing right.
+
+06:50.510 --> 06:55.020
+I go over here the background changes right and stays like this.
+
+06:55.040 --> 07:01.540
+Now what I would want to do is also want to have this small scrolling rents or here you can see that
+
+07:01.610 --> 07:02.840
+as I press them.
+
+07:02.970 --> 07:03.200
+Right.
+
+07:03.200 --> 07:06.100
+I'm going to have a smooth scrolling or I like this right.
+
+07:06.280 --> 07:08.920
+So it's cruel scrolls all the way to the position.
+
+07:08.920 --> 07:09.590
+All right.
+
+07:09.640 --> 07:14.810
+And if I want to go back or here right and it doesn't happen right away it actually takes a little bit
+
+07:14.810 --> 07:15.680
+of time.
+
+07:15.680 --> 07:16.980
+So how do I do this.
+
+07:16.990 --> 07:21.280
+I mean so this was transparent background and I had another comment.
+
+07:21.440 --> 07:29.200
+And here we're going to the right smooth scroll scroll over here and how this moves scrolling should
+
+07:29.210 --> 07:29.810
+happen.
+
+07:30.070 --> 07:35.380
+So here we're going to say that we wouldn't want to select one here like this and we're going to say
+
+07:35.430 --> 07:42.160
+parentheses and numbers are not parentheses grab quotation marks nav links.
+
+07:42.320 --> 07:43.190
+All right.
+
+07:43.390 --> 07:48.730
+And the reason for this I don't want to select here the font awesome icons right because there were
+
+07:48.730 --> 07:49.380
+also links.
+
+07:49.390 --> 07:55.050
+I just want to select the mantling say an or hearing a click function again.
+
+07:55.150 --> 07:59.700
+Similar to what we had are here and we're going to write on your function.
+
+07:59.800 --> 08:01.360
+Open and close parentheses.
+
+08:01.420 --> 08:03.340
+Curly braces are here.
+
+08:03.340 --> 08:10.750
+And first what we would want to do is we're here in this function we just need to write a parameter
+
+08:10.840 --> 08:14.740
+and then we can write that this is going to be the link and you can write any name you want.
+
+08:14.780 --> 08:15.310
+Right.
+
+08:15.340 --> 08:18.970
+This is basically what saying is I'm going to select all the links right.
+
+08:19.030 --> 08:21.930
+And as I'm going each link something should happen right.
+
+08:22.150 --> 08:28.180
+So here I'm going to say link and I'm going to say prevent default and default So basically they're
+
+08:28.180 --> 08:31.760
+not going to let's say hash tag or something like that.
+
+08:31.760 --> 08:32.260
+Right.
+
+08:32.320 --> 08:37.360
+So I'm going to have a proven default and then we get to we're going to create a variable and I'm going
+
+08:37.360 --> 08:43.030
+to say target and we're going to said select this variable and we're going to say that this is going
+
+08:43.030 --> 08:46.230
+to equal two dollar sign here.
+
+08:46.380 --> 08:49.990
+This is an attribute.
+
+08:49.990 --> 08:53.340
+And we're going to say that this is going to be Tref attribute.
+
+08:53.380 --> 08:57.970
+So basically what I'm saying is because we're getting back a list of other things.
+
+08:58.150 --> 09:04.570
+So each of them as I'm passing through right now would want to get to HGF attribute and we know that
+
+09:04.630 --> 09:07.450
+Atra attribute basically is the value.
+
+09:07.610 --> 09:11.270
+I mean remember this guy out here we have the values right.
+
+09:11.320 --> 09:14.770
+Remember if the banner value or the skills value.
+
+09:14.780 --> 09:15.390
+Right.
+
+09:15.470 --> 09:20.200
+So we're going to go back to script and what we're going to say over here and again and we will want
+
+09:20.200 --> 09:29.700
+to select a HMO and body had both of them and we would want to had a annulment.
+
+09:29.950 --> 09:31.990
+Now before we have an inmate.
+
+09:32.010 --> 09:32.330
+Right.
+
+09:32.350 --> 09:39.940
+I just want to have a stop because you're not adding stop what's going to happen is after a while and
+
+09:39.970 --> 09:46.930
+you keep pressing it you'll notice that you're actually your browser gets stuck right.
+
+09:46.930 --> 09:53.110
+And it's not doing anymore right because it will have a lot of animations that are actually in the queue
+
+09:53.110 --> 09:53.950
+before.
+
+09:53.960 --> 09:54.390
+All right.
+
+09:54.490 --> 09:57.040
+So what you need to write here disfunctions stop.
+
+09:57.090 --> 09:57.500
+Right.
+
+09:57.580 --> 10:01.120
+And then we're going to write it now in order to test this.
+
+10:01.120 --> 10:01.390
+Right.
+
+10:01.390 --> 10:05.700
+You can write on here without the stop and you can test it out how it works.
+
+10:05.710 --> 10:11.770
+And you'll notice that after you click a few times actually your animation is going to stop because
+
+10:11.890 --> 10:15.670
+the browser is going to be scheduling way too many of these animations.
+
+10:15.670 --> 10:16.130
+Right.
+
+10:16.360 --> 10:20.820
+So we're going to have all had to stop and then will have animate and inanimate.
+
+10:20.820 --> 10:26.140
+Since this is an object we're going to find that this is going to be a property and the property we're
+
+10:26.140 --> 10:28.860
+interested in Scroll up scroll.
+
+10:28.920 --> 10:34.720
+We're going to set up right and here the value of this property is going to be here.
+
+10:34.780 --> 10:37.650
+We're going to get this variable right.
+
+10:37.740 --> 10:41.110
+And we're going to set it equal to right an Oreo going right.
+
+10:41.110 --> 10:47.600
+Target right equal to our variable offset set here.
+
+10:48.550 --> 10:53.720
+Like this offset function and then it will set up like this.
+
+10:53.730 --> 10:54.230
+Right.
+
+10:54.260 --> 11:01.430
+So basically what I'm saying is get me the link get me the attribute of the link and then use this attribute
+
+11:01.430 --> 11:04.880
+to set my whole body to that position.
+
+11:04.900 --> 11:05.500
+All right.
+
+11:05.960 --> 11:12.200
+So what I'm going to say on here top now what I also can do is all here place a comma and then I'm going
+
+11:12.200 --> 11:13.040
+to say 50000.
+
+11:13.050 --> 11:13.550
+Right.
+
+11:13.640 --> 11:20.480
+So basically again 3000 milliseconds which is three seconds and you can put a or hear a semicolon right
+
+11:21.050 --> 11:27.940
+and you'll see these things once we have a second here a section which is going to be our skills.
+
+11:27.940 --> 11:30.860
+However the final is going to look like this right.
+
+11:30.860 --> 11:33.830
+So again we're going to have a home which is going to be the banner.
+
+11:33.950 --> 11:34.970
+No here now.
+
+11:35.120 --> 11:41.120
+You can see that we're smooth scrolling skills then we smooth scrolling to about section and it's going
+
+11:41.120 --> 11:46.420
+to be the project section and then we'll have a team section and all here.
+
+11:46.550 --> 11:50.540
+We didn't have the last one or last to write but we added these two.
+
+11:50.540 --> 11:52.130
+So this is how it's going to work.
+
+11:52.340 --> 11:55.990
+And also you can see that only as I scroll past 100.
+
+11:56.000 --> 11:58.420
+All right I'm going to have this Bangham I scroll back.
+
+11:58.460 --> 11:59.870
+I don't have the background.
+
+11:59.870 --> 12:03.740
+The same thing works or here I scroll past hundred of the background.
+
+12:03.770 --> 12:04.860
+Scroll down.
+
+12:04.880 --> 12:07.350
+I don't have the background.
+
+12:07.380 --> 12:11.690
+Now I'm recording this just to show you that everything works right.
+
+12:11.800 --> 12:17.100
+And because I already had a door here the skills section and now the issue is that actually it doesn't
+
+12:17.100 --> 12:17.560
+work right.
+
+12:17.580 --> 12:19.520
+Because I actually made a mistake right.
+
+12:19.530 --> 12:22.970
+So you can see or hear we don't have the background over here right.
+
+12:23.160 --> 12:25.120
+And as I'm clicking nothing is happening.
+
+12:25.320 --> 12:31.200
+And the reason for that over here you can see that with the small scroll I missed over here this dot.
+
+12:31.430 --> 12:34.840
+So once we ended up now this is the function actually right.
+
+12:34.860 --> 12:39.190
+So if we save this and if we refresh Now you can see we're here now.
+
+12:39.200 --> 12:41.100
+I have this dark background.
+
+12:41.430 --> 12:46.110
+And once I click it or here now it's going to be only the skills section obviously.
+
+12:46.290 --> 12:50.560
+We haven't added the other sections or we can go back on more here right.
+
+12:50.610 --> 12:52.900
+But this is going to be the background is working right now.
+
+12:52.920 --> 12:53.490
+Right.
+
+12:53.520 --> 12:55.260
+And also the small scroll.

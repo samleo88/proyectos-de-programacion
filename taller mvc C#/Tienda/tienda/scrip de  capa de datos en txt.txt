@@ -1,0 +1,919 @@
+/***************Clase Conexion DBcommon*************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace Tienda.Datos
+{
+   public  class DBcommon
+    {
+        public static string Conex = @"Data Source =.; Initial Catalog = Tienda; Integrated Security = True";
+        public static IDbConnection Conexion() {
+            return new SqlConnection(Conex);
+        }
+
+        public static IDbCommand ObtenerComando(string pComando, IDbConnection pCnn) {
+            return new SqlCommand(pComando, pCnn as SqlConnection);
+        }
+    }
+}
+/***********************DAO Categoria***********************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.OleDb;
+using Tienda.Entidades;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Data;
+
+
+
+
+namespace Tienda.Datos
+{
+   public  class DAOCategoria
+    {
+
+        /*string _cadenaConexion  ;
+
+        public string CadenaConexion
+        {
+            get
+            {
+                if (_cadenaConexion == null)
+                {
+                    _cadenaConexion = ConfigurationManager.ConnectionStrings["Conex"].ConnectionString;
+                }
+                return _cadenaConexion;
+            }
+            set { _cadenaConexion = value; }
+        }*/
+
+
+
+        public List<Categoria> Listar()
+        {
+            List<Categoria> lista = new List<Categoria>();
+          
+
+           using (IDbConnection con = DBcommon.Conexion())
+            //    using(SqlConnection con = new SqlConnection())
+
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ListarCategorias", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Categoria c = new Categoria((int)dr["ID"],
+                            (string)dr["Codigo"], (string)dr["Nombre"],
+                            (string)dr["Observacion"]);
+                        lista.Add(c);
+                    }
+                }
+            }
+            return  lista;
+        }
+
+        public Categoria TraerPorId(int Id)
+        {
+            Categoria Categoria = new Categoria();
+            //using (SqlConnection con = new SqlConnection())
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("TraerCategoriaPorId", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    dr.Read();
+                    Categoria = new Categoria((int)dr["ID"],
+                        (string)dr["Codigo"], (string)dr["Nombre"],
+                        (string)dr["Observacion"]);
+                }
+            }
+            return Categoria;
+        }
+
+        public int Insertar(Categoria Categoria)
+        {
+            int n = -1;
+            
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("InsertarCategoria",con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Codigo", Categoria.Codigo);
+                cmd.Parameters.AddWithValue("@Nombre", Categoria.Nombre);
+                cmd.Parameters.AddWithValue("@Observacion", Categoria.Descripcion);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Actualizar(Categoria Categoria)
+        {
+            int n = -1;
+            //using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ActualizarCategoria", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id", Categoria.Id);
+                cmd.Parameters.AddWithValue("@Codigo", Categoria.Codigo);
+                cmd.Parameters.AddWithValue("@Nombre", Categoria.Nombre);
+                cmd.Parameters.AddWithValue("@Observacion", Categoria.Descripcion);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Eliminar(int Id)
+        {
+            int n = -1;
+            // using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EliminarCategoria", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id", Id);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+
+    }
+}
+/*********************************** DAO Articulo *******************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Data;
+using Tienda.Entidades;
+
+namespace Tienda.Datos
+{
+    public class DAOArticulo
+    {
+        public List<Articulo> Listar()
+        {
+            List<Articulo> lista = new List<Articulo>();
+
+
+            using (IDbConnection con = DBcommon.Conexion())
+            //    using(SqlConnection con = new SqlConnection())
+
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ListarArticulo", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Articulo c = new Articulo(
+                            (int)dr["ID"],
+                            (string)dr["Codigo"],
+                            (string)dr["Nombre"],
+                            (string)dr["Descripcion"],
+                            (int)dr["IdCategoria"],
+                            (Int64)dr["Precio_compra"],
+                            (Int64)dr["Precio_venta"],
+                            (Int64)dr["Stock_inicial"],
+                            (Int64)dr["Stock_actual"],
+                            (string)dr["Fecha_produccion"],
+                            (string)dr["Fecha_vencimiento"]
+                            
+                            );
+                        lista.Add(c);
+                    }
+                }
+            }
+            return lista;
+        }
+
+        public Articulo TraerPorId(int Id)
+        {
+            Articulo articulo = new Articulo();
+            //using (SqlConnection con = new SqlConnection())
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("TraerArticuloPorId", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    dr.Read();
+                    articulo = new Articulo(
+                        (int)dr["ID"],
+                        (string)dr["Codigo"],
+                        (string)dr["Nombre"],
+                        (string)dr["Descripcion"],
+                        (int)dr["IdCategoria"],
+                        (Int64)dr["Precio_compra"],
+                        (Int64)dr["Precio_venta"],
+                        (Int64)dr["Stock_inicial"],
+                        (Int64)dr["Stock_actual"],
+                        (string)dr["Fecha_produccion"],
+                        (string)dr["Fecha_vencimiento"]                         
+                        );
+                }
+            }
+            return articulo;
+        }
+
+        public int Insertar(Articulo articulo)
+        {
+            int n = -1;
+
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("InsertarArticulo", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@Codigo", articulo.Codigo);
+                cmd.Parameters.AddWithValue("@Nombre", articulo.Nombre);
+                cmd.Parameters.AddWithValue("@Descripcion", articulo.Descripcion);
+                cmd.Parameters.AddWithValue("@IdCategoria", articulo.Idcategoria);
+                cmd.Parameters.AddWithValue("@Precio_compra", articulo.Precio_compra);
+                cmd.Parameters.AddWithValue("@Precio_venta", articulo.Precio_venta);
+                cmd.Parameters.AddWithValue("@Stock_inicial", articulo.Stock_inicial);
+                cmd.Parameters.AddWithValue("@Stock_actual", articulo.Stock_actual);
+                cmd.Parameters.AddWithValue("@Fecha_produccion", articulo.Fecha_produccion);
+                cmd.Parameters.AddWithValue("@Fecha_vencimiento", articulo.Fecha_vencimiento);
+                
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Actualizar(Articulo articulo)
+        {
+            int n = -1;
+            //using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ActualizarArticulo", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdArticulo", articulo.Idarticulo);
+                cmd.Parameters.AddWithValue("@Codigo", articulo.Codigo);
+                cmd.Parameters.AddWithValue("@Nombre", articulo.Nombre);
+                cmd.Parameters.AddWithValue("@Descripcion", articulo.Descripcion);
+                cmd.Parameters.AddWithValue("@IdCategoria", articulo.Idcategoria);
+                cmd.Parameters.AddWithValue("@Precio_compra", articulo.Precio_compra);
+                cmd.Parameters.AddWithValue("@Precio_venta", articulo.Precio_venta);
+                cmd.Parameters.AddWithValue("@Stock_inicial", articulo.Stock_inicial);
+                cmd.Parameters.AddWithValue("@Stock_actual", articulo.Stock_actual);
+                cmd.Parameters.AddWithValue("@Fecha_produccion", articulo.Fecha_produccion);
+                cmd.Parameters.AddWithValue("@Fecha_vencimiento", articulo.Fecha_vencimiento);
+
+
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Eliminar(int Id)
+        {
+            int n = -1;
+            // using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EliminarArticulo", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+    }
+}
+/****************************** DAO Vendedor********************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Data;
+using Tienda.Entidades;
+
+namespace Tienda.Datos
+{
+    public class DAOVendedor
+    {
+
+        public List<Vendedor> Listar()
+        {
+            List<Vendedor> lista = new List<Vendedor>();
+
+
+            using (IDbConnection con = DBcommon.Conexion())
+            //    using(SqlConnection con = new SqlConnection())
+
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("Listarvendedor", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Vendedor c = new Vendedor(
+                            (int)dr["ID"],
+                            (string)dr["Nombre"],
+                            (string)dr["Apellido"],
+                            (string)dr["Sexo"],
+                            (string)dr["Tipo_documento"],
+                            (string)dr["Num_documento"],
+                            (string)dr["Direccion"],
+                            (string)dr["Telefono"],
+                            (string)dr["Email"],
+                            (string)dr["Acceso"],
+                            (string)dr["Usuario"],
+                            (string)dr["Password"]
+                            );
+                        lista.Add(c);
+                    }
+                }
+            }
+            return lista;
+        }
+
+        public Vendedor TraerPorId(int Id)
+        {
+            Vendedor vendedor = new Vendedor();
+            //using (SqlConnection con = new SqlConnection())
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("TraerVendedorPorId", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    dr.Read();
+                    vendedor = new Vendedor(
+                        (int)dr["ID"],
+                            (string)dr["Nombre"],
+                            (string)dr["Apellido"],
+                            (string)dr["Sexo"],
+                            (string)dr["Tipo_documento"],
+                            (string)dr["Num_documento"],
+                            (string)dr["Direccion"],
+                            (string)dr["Telefono"],
+                            (string)dr["Email"],
+                            (string)dr["Acceso"],
+                            (string)dr["Usuario"],
+                            (string)dr["Password"]
+                        );
+                }
+            }
+            return vendedor;
+        }
+
+        public int Insertar(Vendedor vendedor)
+        {
+            int n = -1;
+
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("InsertarVendedor", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@Nombre", vendedor.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", vendedor.Apellidos);
+                cmd.Parameters.AddWithValue("@Sexo", vendedor.Sexo);
+                cmd.Parameters.AddWithValue("@Tipo_documento", vendedor.Tipo_Documento);
+                cmd.Parameters.AddWithValue("@Num_documento", vendedor.Num_Documento);
+                cmd.Parameters.AddWithValue("@Direccion", vendedor.Direccion);
+                cmd.Parameters.AddWithValue("@Telefono", vendedor.Telefono);
+                cmd.Parameters.AddWithValue("@Email", vendedor.Email);
+                cmd.Parameters.AddWithValue("@Acceso", vendedor.Acceso);
+                cmd.Parameters.AddWithValue("@Usuario", vendedor.Usuario);
+                cmd.Parameters.AddWithValue("@Password", vendedor.Password);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Actualizar(Vendedor vendedor)
+        {
+            int n = -1;
+            //using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ActualizarVendedor", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Idvendedor", vendedor.Idvendedor);
+                cmd.Parameters.AddWithValue("@Nombre", vendedor.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", vendedor.Apellidos);
+                cmd.Parameters.AddWithValue("@Sexo", vendedor.Sexo);
+                cmd.Parameters.AddWithValue("@Tipo_documento", vendedor.Tipo_Documento);
+                cmd.Parameters.AddWithValue("@Num_documento", vendedor.Num_Documento);
+                cmd.Parameters.AddWithValue("@Direccion", vendedor.Direccion);
+                cmd.Parameters.AddWithValue("@Telefono", vendedor.Telefono);
+                cmd.Parameters.AddWithValue("@Email", vendedor.Email);
+                cmd.Parameters.AddWithValue("@Acceso", vendedor.Acceso);
+                cmd.Parameters.AddWithValue("@Usuario", vendedor.Usuario);
+                cmd.Parameters.AddWithValue("@Password", vendedor.Password);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Eliminar(int Id)
+        {
+            int n = -1;
+            // using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EliminarVendedor", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        
+
+    }
+}
+/********************************DatosLogin***********************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+using Tienda.Entidades;
+
+namespace Tienda.Datos
+{
+   public class DatosLogin
+    {
+        readonly SqlConnection cn = new SqlConnection(DBcommon.Conex);
+        public DataTable Login(EntidadLogin e)
+        {
+            using (SqlCommand cmd = new SqlCommand("splogin", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@usuario", e.Usuario);
+                cmd.Parameters.AddWithValue("@password", e.Password);
+                using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                {
+                    DataTable tbl = new DataTable();
+                    da.Fill(tbl);
+                    return tbl;
+                }
+            }
+        }
+    }
+}
+/**********************DAOCliente************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Data;
+using Tienda.Entidades;
+
+namespace Tienda.Datos
+{
+   public class DAOCliente
+    {
+
+        public List<Cliente> Listar()
+        {
+            List<Cliente> lista = new List<Cliente>();
+
+
+            using (IDbConnection con = DBcommon.Conexion())
+            //    using(SqlConnection con = new SqlConnection())
+
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ListarClientes", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Cliente c = new Cliente(
+                            (int)dr["ID"],
+                            (string)dr["Nombre"],
+                            (string)dr["Apellido"],
+                            (string)dr["Sexo"],
+                            (string)dr["Tipo_documento"],
+                            (string)dr["Num_documento"],
+                            (string)dr["Direccion"],
+                            (string)dr["Telefono"],
+                            (string)dr["Email"]
+                            );
+                        lista.Add(c);
+                    }
+                }
+            }
+            return lista;
+        }
+
+        public Cliente TraerPorId(int Id)
+        {
+            Cliente cliente = new Cliente();
+            //using (SqlConnection con = new SqlConnection())
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("TraerClientePorId", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    dr.Read();
+                    cliente = new Cliente(
+                        (int)dr["ID"],
+                            (string)dr["Nombre"],
+                            (string)dr["Apellido"],
+                            (string)dr["Sexo"],
+                            (string)dr["Tipo_documento"],
+                            (string)dr["Num_documento"],
+                            (string)dr["Direccion"],
+                            (string)dr["Telefono"],
+                            (string)dr["Email"]
+                        );
+                }
+            }
+            return cliente;
+        }
+
+        public int Insertar(Cliente cliente)
+        {
+            int n = -1;
+
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("InsertarCliente", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                
+                cmd.Parameters.AddWithValue("@Nombre", cliente.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", cliente.Apellidos);
+                cmd.Parameters.AddWithValue("@Sexo", cliente.Sexo);
+                cmd.Parameters.AddWithValue("@Tipo_documento", cliente.Tipo_Documento);
+                cmd.Parameters.AddWithValue("@Num_documento", cliente.Num_Documento);
+                cmd.Parameters.AddWithValue("@Direccion", cliente.Direccion);
+                cmd.Parameters.AddWithValue("@Telefono", cliente.Telefono);
+                cmd.Parameters.AddWithValue("@Email", cliente.Email);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Actualizar(Cliente cliente)
+        {
+            int n = -1;
+            //using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ActualizarCliente", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Idcliente", cliente.Idcliente);
+                cmd.Parameters.AddWithValue("@Nombre", cliente.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", cliente.Apellidos);
+                cmd.Parameters.AddWithValue("@Sexo", cliente.Sexo);
+                cmd.Parameters.AddWithValue("@Tipo_documento", cliente.Tipo_Documento);
+                cmd.Parameters.AddWithValue("@Num_documento", cliente.Num_Documento);
+                cmd.Parameters.AddWithValue("@Direccion", cliente.Direccion);
+                cmd.Parameters.AddWithValue("@Telefono", cliente.Telefono);
+                cmd.Parameters.AddWithValue("@Email", cliente.Email);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Eliminar(int Id)
+        {
+            int n = -1;
+            // using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EliminarCliente", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+    }
+}
+/*************************DAOPedido****************************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Data;
+using Tienda.Entidades;
+
+namespace Tienda.Datos
+{
+    public class DAOPedido
+    {
+        public List<Pedido> Listar()
+        {
+            List<Pedido> lista = new List<Pedido>();
+
+
+            using (IDbConnection con = DBcommon.Conexion())
+            //    using(SqlConnection con = new SqlConnection())
+
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ListarPedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        Pedido c = new Pedido(
+                            (int)dr["ID"],
+                            (int)dr["IdCliente"],
+                            (int)dr["IdVendedor"],
+                            (int)dr["IdArticulo"],
+                            (string)dr["Fecha_pedido"],
+                            (string)dr["Aceptacion_pedido"]
+
+                            );
+                        lista.Add(c);
+                    }
+                }
+            }
+            return lista;
+        }
+
+        public Pedido TraerPorId(int Id)
+        {
+            Pedido pedido = new Pedido();
+            //using (SqlConnection con = new SqlConnection())
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("TraerPedidoPorId", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    dr.Read();
+                    pedido  = new Pedido(
+                        (int)dr["ID"],
+                            (int)dr["IdCliente"],
+                            (int)dr["IdVendedor"],
+                            (int)dr["IdArticulo"],
+                            (string)dr["Fecha_pedido"],
+                            (string)dr["Aceptacion_pedido"]
+
+                        );
+                }
+            }
+            return pedido;
+        }
+
+        public int Insertar(Pedido pedido)
+        {
+            int n = -1;
+
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("InsertarPedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;        
+               // cmd.Parameters.AddWithValue("@IdPedido", pedido.Idpedido);
+                cmd.Parameters.AddWithValue("@IdCliente", pedido.Idcliente);
+                cmd.Parameters.AddWithValue("@IdVendedor", pedido.Idvendedor);
+                cmd.Parameters.AddWithValue("@IdArticulo", pedido.Idarticulo);
+                cmd.Parameters.AddWithValue("@Fecha_pedido", pedido.Fecha_pedido);
+                cmd.Parameters.AddWithValue("@Aceptacion_pedido", pedido.Aceptacion_pedido);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Actualizar(Pedido pedido)
+        {
+            int n = -1;
+            //using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ActualizarPedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@IdPedido", pedido.Idpedido);
+                cmd.Parameters.AddWithValue("@IdCliente", pedido.Idcliente);
+                cmd.Parameters.AddWithValue("@IdVendedor", pedido.Idvendedor);
+                cmd.Parameters.AddWithValue("@IdArticulo", pedido.Idarticulo);
+                cmd.Parameters.AddWithValue("@Fecha_pedido", pedido.Fecha_pedido);
+                cmd.Parameters.AddWithValue("@Aceptacion_pedido", pedido.Aceptacion_pedido);
+
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Eliminar(int Id)
+        {
+            int n = -1;
+            // using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EliminarPedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+    }
+}
+/**************************DAODetalle_pedido*********************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Data;
+using Tienda.Entidades;
+
+namespace Tienda.Datos
+{
+   public class DAODetalle_pedido
+    {
+        public List<Detalle_pedido> Listar()
+        {
+            List<Detalle_pedido> lista = new List<Detalle_pedido>();
+
+
+            using (IDbConnection con = DBcommon.Conexion())
+            //    using(SqlConnection con = new SqlConnection())
+
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ListarDetalle_pedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                       Detalle_pedido c = new Detalle_pedido(
+                            (int)dr["ID"],
+                            (int)dr["IdPedido"],
+                            (int)dr["IdArticulo"],
+                            (string)dr["Nombre"],
+                            (decimal)dr["Precio_unitario"],
+                            (decimal)dr["Valor_total"],
+                            (int)dr["Cantidad"]
+                           
+                            );
+                        lista.Add(c);
+                    }
+                }
+            }
+            return lista;
+        }
+
+        public Detalle_pedido TraerPorId(int Id)
+        {
+            Detalle_pedido detalle_pedido = new Detalle_pedido();
+            //using (SqlConnection con = new SqlConnection())
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("TraerDetalle_pedidoPorId", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr != null && dr.HasRows)
+                {
+                    dr.Read();
+                    detalle_pedido = new Detalle_pedido(
+                       (int)dr["ID"],
+                            (int)dr["IdPedido"],
+                            (int)dr["IdArticulo"],
+                            (string)dr["Nombre"],
+                            (decimal)dr["Precio_unitario"],
+                            (decimal)dr["Valor_total"],
+                            (int)dr["Cantidad"]
+                        );
+                }
+            }
+            return detalle_pedido;
+        }
+
+        public int Insertar(Detalle_pedido detalle_Pedido)
+        {
+            int n = -1;
+
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("InsertarDetalle_pedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+               
+                cmd.Parameters.AddWithValue("@IdPedido", detalle_Pedido.IdPedido);
+                cmd.Parameters.AddWithValue("@IdArticulo", detalle_Pedido.IdArticulo);
+                cmd.Parameters.AddWithValue("@Precio_unitario", detalle_Pedido.Precio_unitario);
+                cmd.Parameters.AddWithValue("@Valor_total", detalle_Pedido.Valor_total);
+                cmd.Parameters.AddWithValue("@Cantidad", detalle_Pedido.Cantidad);
+                
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Actualizar(Detalle_pedido detalle_Pedido)
+        {
+            int n = -1;
+            //using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("ActualizarDetalle_pedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                //cmd.Parameters.AddWithValue("@IdDetalle", detalle_Pedido.IdDetalle);
+                cmd.Parameters.AddWithValue("@IdPedido", detalle_Pedido.IdPedido);
+                cmd.Parameters.AddWithValue("@IdArticulo", detalle_Pedido.IdArticulo);
+                cmd.Parameters.AddWithValue("@Precio_unitario", detalle_Pedido.Precio_unitario);
+                cmd.Parameters.AddWithValue("@Valor_total", detalle_Pedido.Valor_total);
+                cmd.Parameters.AddWithValue("@Cantidad", detalle_Pedido.Cantidad);
+               
+
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+        public int Eliminar(int Id)
+        {
+            int n = -1;
+            // using (SqlConnection con = new SqlConnection(CadenaConexion))
+            using (IDbConnection con = DBcommon.Conexion())
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EliminarDetalle_pedido", con as SqlConnection);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", Id);
+                n = cmd.ExecuteNonQuery();
+            }
+            return n;
+        }
+
+    }
+}

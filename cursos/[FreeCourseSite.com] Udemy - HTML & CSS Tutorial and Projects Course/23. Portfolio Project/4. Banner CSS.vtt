@@ -1,0 +1,709 @@
+WEBVTT
+
+00:00.070 --> 00:07.620
+The words go to the main are here and after the import the first thing that we would need to write is
+
+00:07.670 --> 00:13.800
+are going to select all the elements that are going to say that the margin is going to be zero.
+
+00:13.890 --> 00:16.390
+The padding is also going to be zero.
+
+00:16.410 --> 00:21.660
+So basically we're going to get rid of all the the fault margins and paddings and then we're going to
+
+00:21.660 --> 00:26.910
+say we're here box sizing or here and for the box sizing we're going to say Borba.
+
+00:27.210 --> 00:33.120
+And basically what this does is if you're going to be applying any kind of margin and padding This is
+
+00:33.120 --> 00:36.350
+actually not going to expand the actual element.
+
+00:36.510 --> 00:41.490
+It's just going to make sure that elements stays the way we actually set up and the padding is going
+
+00:41.490 --> 00:44.290
+to be applied on the inside of the aisle.
+
+00:44.550 --> 00:49.560
+Now once we have selected all the elements then we're going to start working with our route.
+
+00:49.650 --> 00:54.600
+Now the reason why we're going to be working with the route because we're going to be using a C Ss variables
+
+00:55.040 --> 01:01.030
+because what this is going to help us is you can see or hear that I selected pretty neutral colors.
+
+01:01.050 --> 01:06.240
+However since we're going to be working CIRCE's very most what you're going to be able to do is you're
+
+01:06.240 --> 01:11.940
+going to be able to change the colors for the variables and the colors are going to be changed right
+
+01:11.940 --> 01:12.450
+away.
+
+01:12.550 --> 01:15.140
+For all the elements where you use the variables.
+
+01:15.330 --> 01:18.470
+So this gives you a lot of flexibility.
+
+01:18.510 --> 01:24.870
+Now if you want to work with a C assess variables what we need here is a colon and then we're going
+
+01:24.870 --> 01:26.140
+to say we're here.
+
+01:26.400 --> 01:33.450
+And if we want to create a variable what we have is all here two hyphens here and then we're going to
+
+01:33.450 --> 01:34.820
+call this light.
+
+01:34.930 --> 01:36.940
+This is going to be a name or a variable.
+
+01:37.020 --> 01:39.340
+And here we're going to say that this is going to be the caller.
+
+01:39.540 --> 01:41.660
+So I'm going to say hash tag FFR.
+
+01:41.910 --> 01:47.750
+And basically what this also helps is as we're working now it's going to be able to use this color.
+
+01:47.970 --> 01:54.000
+So once we have created here this variable if I'm going to go and if we know that we have let's say
+
+01:54.000 --> 01:55.470
+we're here now.
+
+01:55.680 --> 01:57.530
+So this was our element.
+
+01:57.660 --> 02:03.230
+And if I'm just going to go back on here I can just say it for this now I we're here what I would want.
+
+02:03.270 --> 02:07.890
+Well since I know that this is going to be the class I'm going to select it as a class let's say we're
+
+02:07.890 --> 02:13.950
+here to add background and let's say that background is not going to be this f f I actually want to
+
+02:13.950 --> 02:14.860
+save our.
+
+02:14.940 --> 02:16.660
+So we need to use this word.
+
+02:16.800 --> 02:22.450
+And then all here once we have two hyphens we can see or hear that we have this lifeone.
+
+02:22.560 --> 02:27.810
+So we're going to select it here but unfortunately we can't see anything for it because we haven't placed
+
+02:27.900 --> 02:29.300
+any kind of elements.
+
+02:29.330 --> 02:34.530
+So we're all going to go back over here and let's say that in the now if not just create some I don't
+
+02:34.530 --> 02:37.320
+know we're heading once and we're going to write or.
+
+02:37.600 --> 02:38.140
+Hello.
+
+02:38.250 --> 02:43.530
+And you don't need to do this I'm just doing it just to show you that the color is actually work.
+
+02:43.570 --> 02:47.690
+Now I can see that I have a text but we're not sure whether we have the color code.
+
+02:47.850 --> 02:50.260
+So let's go back over here to the makes sense.
+
+02:50.400 --> 02:56.400
+And like I said with a variable you have named the variable you have used a variable with a VAR key
+
+02:56.410 --> 03:01.860
+word and the only thing is let's say that we will want to change the color so we're going to say F 1
+
+03:01.920 --> 03:09.770
+5 0 2 5 or so once I served you can see the right way my background actually is orange right now.
+
+03:09.900 --> 03:12.260
+And this is the nice thing about variables.
+
+03:12.420 --> 03:17.880
+So you can use it throughout a document and later on if you don't think that this is the right color.
+
+03:18.240 --> 03:23.400
+You can just change the color and it's going to change the color all over the document so you don't
+
+03:23.400 --> 03:29.850
+need to find each and every element that you use this color without a variable and you can change it
+
+03:29.850 --> 03:31.560
+much more easier.
+
+03:31.560 --> 03:34.790
+So we're going to go back over here and we're going to say F F again.
+
+03:34.980 --> 03:36.550
+So this is going to be our background.
+
+03:36.780 --> 03:40.540
+Then the next one is going to be here again this index.
+
+03:40.600 --> 03:49.920
+Then we're going to call this a dark and dark room and I say hash tag 1 8 1 b over here and 2 4.
+
+03:50.130 --> 03:55.800
+So this helps me also while I'm recording that I don't actually need to repeat them so we can just create
+
+03:55.860 --> 04:00.870
+this variable and later on we're going to use the variable then the next one is going to be the gray
+
+04:00.870 --> 04:01.770
+one.
+
+04:01.770 --> 04:09.150
+We're here and we're going to say hash tag 8 9 9 4 and 9 5.
+
+04:09.300 --> 04:15.150
+So this is going to be our great car once we save it then we're going to have an orange color.
+
+04:15.150 --> 04:16.880
+So there's going to be only two more.
+
+04:17.020 --> 04:20.160
+So one of them is going to be orange and orange.
+
+04:20.160 --> 04:31.800
+We're going to have a hash tag then we're going to have a F and C 5 and 1 3 0 0 like this.
+
+04:31.800 --> 04:36.240
+So this is going to be my Orridge the last one is going to be S. Gray.
+
+04:36.240 --> 04:39.510
+So I'm going to call this over here a section break.
+
+04:39.520 --> 04:44.070
+So this is going to be used in one of the sections and we're going to say here that this is going to
+
+04:44.070 --> 04:44.930
+be hashed.
+
+04:45.020 --> 04:48.800
+F 2 2 2 4 here.
+
+04:48.830 --> 04:52.180
+So once we say read I can see that I have my variables.
+
+04:52.290 --> 04:58.380
+Now we're going to leave this now with this background color like over here for now and we're actually
+
+04:58.380 --> 05:02.620
+going to move on and we're working with an actual batter.
+
+05:02.860 --> 05:06.710
+So what we're going to say over here is that this is going to be a comment.
+
+05:06.870 --> 05:12.540
+So this is going to be the you know going to say and of math because we're all going to return to this
+
+05:12.810 --> 05:18.840
+because I think it's more useful if I show you how we working with a flex box with the whole thing because
+
+05:18.840 --> 05:22.210
+there's quite a few rules for the knife itself.
+
+05:22.210 --> 05:26.690
+And here once we have the end of knife we're all going to call this a banner.
+
+05:27.030 --> 05:29.070
+And this is going to be the end of that.
+
+05:29.370 --> 05:30.880
+So end of.
+
+05:31.230 --> 05:37.880
+And maybe what I would want is just grab this body and actually move it all the way on the top.
+
+05:37.890 --> 05:43.680
+So after the road actually we would have this body with a rubato and a monospace.
+
+05:43.680 --> 05:49.060
+So we have a whole selector then on here body route and this would be hidden.
+
+05:49.200 --> 05:51.100
+And what we're going to have in the bar.
+
+05:51.420 --> 05:54.480
+Well first let's say on here this is going to be the head.
+
+05:54.840 --> 05:59.390
+Because before we actually can work with a banner let's do a header.
+
+05:59.490 --> 06:02.470
+I'm sorry I actually forgot about the elementary.
+
+06:02.520 --> 06:04.560
+So for that matter we're going to say we're here like this.
+
+06:04.560 --> 06:08.690
+We're going to say we would want to select the header and then first things first.
+
+06:08.730 --> 06:11.260
+What I would want is this parent element.
+
+06:11.430 --> 06:17.150
+You can see this parent element of Hetter I would want to make it a 100 percent view.
+
+06:17.460 --> 06:20.760
+So I would want to make it always 100 percent.
+
+06:20.760 --> 06:26.360
+So what I'm going to say here mean height here and this is going to be hundred yards.
+
+06:26.400 --> 06:32.760
+So in any screen size and any situation minimum this is going to be hundred to you then we're going
+
+06:32.760 --> 06:40.530
+to say also here that we would want a background here and we would want a you know now for what we would
+
+06:40.530 --> 06:44.130
+want for you RL wouldn't be a better background.
+
+06:44.310 --> 06:46.290
+So I'm going to say we're here not.
+
+06:46.350 --> 06:50.730
+And then we're going to look for the image for that we had and then you can see here and this is going
+
+06:50.730 --> 06:52.530
+to be a background image.
+
+06:52.530 --> 06:57.050
+So once I selected you can see that I have my background image.
+
+06:57.180 --> 07:00.440
+Now I also want to fix or hear a few things with an image.
+
+07:00.480 --> 07:06.730
+So first I'm going to say that I would want a background image in the center then I'm going to say that
+
+07:06.730 --> 07:10.020
+I would want a background image to cover everything.
+
+07:10.020 --> 07:12.600
+So basically this is going to cover the whole thing.
+
+07:12.600 --> 07:19.110
+So once I saved you can see that image is actually in the center and the actual image is covering the
+
+07:19.110 --> 07:20.010
+whole screen.
+
+07:20.220 --> 07:23.110
+And after that we're going to say that we will want it fixed.
+
+07:23.190 --> 07:25.050
+So as we're going to be scrolling.
+
+07:25.110 --> 07:27.790
+This is actually going to be a parallax effect.
+
+07:27.960 --> 07:34.150
+So you can see or hear as I'm scrolling down you can see that image is staying fixed.
+
+07:34.150 --> 07:41.630
+So what we're doing here we're adding this actual value of fixed and they're all here once we have a
+
+07:41.630 --> 07:43.710
+fixed we're also going to write no repeat.
+
+07:43.940 --> 07:50.050
+So this is going to make sure that for if the image is not big enough this is not going to be actually
+
+07:50.070 --> 07:52.360
+repeating all across the screen.
+
+07:52.390 --> 07:59.650
+So once we have these properties what we also want to do is place an overlay because this image is actually
+
+07:59.650 --> 08:04.810
+going to be too bright because you can see or hear that this text we're actually going to be making
+
+08:04.810 --> 08:05.540
+it right.
+
+08:05.770 --> 08:08.350
+So this image is going to be actually right.
+
+08:08.530 --> 08:12.910
+So what we would want is actually make it a little bit lighter.
+
+08:13.090 --> 08:16.770
+So we're going to say we're here that we would want a linear gradient.
+
+08:17.030 --> 08:19.760
+We never really know.
+
+08:20.080 --> 08:23.740
+We're going to call this linear gradient so gradient.
+
+08:24.290 --> 08:31.330
+Well know this once we'd actually type the gradient now we would want to place a comma and one here
+
+08:31.330 --> 08:34.110
+after the and we're going to have a parentheses.
+
+08:34.240 --> 08:39.770
+So going right on linear really just make sure that you place or hear news coming otherwise the C S
+
+08:40.000 --> 08:43.660
+is going to think that this is one actual value here.
+
+08:43.710 --> 08:45.950
+Well what I would want is actual color.
+
+08:46.060 --> 08:48.100
+So I'm going to say R G-B.
+
+08:48.370 --> 08:54.480
+And for this we're going to say 255 and 255 255.
+
+08:54.640 --> 08:59.620
+So basically I'm placing a white collar and I'm going to say over here 0.3.
+
+08:59.620 --> 09:02.620
+And I think that I said that I would want to make the image darker.
+
+09:02.620 --> 09:04.630
+But actually we're going to be making lighter.
+
+09:04.630 --> 09:07.050
+So I'm sorry but before that I misspoke.
+
+09:07.330 --> 09:09.690
+So here if this is going to be our GBN.
+
+09:09.910 --> 09:15.670
+So this is going to be my first color and this is going to be my second call and if I would just want
+
+09:16.150 --> 09:19.840
+this we need a gradient cover with the same color.
+
+09:19.960 --> 09:29.030
+You can see over here and we can have a 2:55 again to 55 and 255 over here and point zero or here.
+
+09:29.040 --> 09:36.460
+So once I say it you can see that image right away got lighter now by default the actual linear a gradient
+
+09:36.820 --> 09:39.310
+has a actual destination.
+
+09:39.310 --> 09:45.760
+So here you can see if I'm going to change this to let's say one or two like this you can see that we
+
+09:45.760 --> 09:51.940
+need a green and by the fold is starting from the top because this was actually 0.3.
+
+09:52.060 --> 09:56.860
+And on the bottom this is actually one because I made it completely white.
+
+09:56.860 --> 10:03.850
+Now or here if we type in front of our GPA to the right or to the left just make sure that you have
+
+10:03.850 --> 10:10.040
+a column we can actually change the right direction or here from one set to the right or here.
+
+10:10.180 --> 10:12.240
+Just make sure that you place the comma.
+
+10:12.310 --> 10:14.840
+You can see that now I'm starting here.
+
+10:15.070 --> 10:16.960
+And this is going to the right.
+
+10:16.960 --> 10:18.990
+Now we are just going to keep a default form.
+
+10:19.030 --> 10:23.580
+So we're going to go back over here I'm going to leave this right and we're going to say we don't here
+
+10:23.580 --> 10:24.410
+like this.
+
+10:24.430 --> 10:31.180
+Now since I want the whole overlay to be the same value I'm just going to say here and both of them
+
+10:31.180 --> 10:32.720
+are going to be 0.
+
+10:32.860 --> 10:37.630
+So this is how we're going to create or here is image with an overlay.
+
+10:37.960 --> 10:44.890
+Now after that also what I would want is I wouldn't want to use the fact that this Hetter can be a fluxbox
+
+10:44.910 --> 10:45.540
+parent.
+
+10:45.790 --> 10:51.880
+So we're going to say this is going to be in this play Flexo we're here and we're going to say flex
+
+10:52.110 --> 10:53.630
+direction on here.
+
+10:53.800 --> 11:00.280
+And for the Flex action we're actually going to have a call now now we cannot really see anything right
+
+11:00.280 --> 11:03.300
+now because like I said we needed to pay attention.
+
+11:03.340 --> 11:05.230
+We have two children here.
+
+11:05.470 --> 11:12.100
+We have a flex box behind which is going to be in our case we already made it the parent and over here
+
+11:12.100 --> 11:16.960
+this is going to be our first child and this is going to be our second show and now we said it have
+
+11:16.960 --> 11:19.050
+it as a flex box column.
+
+11:19.100 --> 11:24.160
+All right so if I'm going to go back over here and actually start working with the banner we're going
+
+11:24.160 --> 11:28.150
+to be able to see how we can use the fact that both of them are children.
+
+11:28.540 --> 11:35.860
+Now for that matter what I'm going to say here banner some selecting a section with a glass of batter.
+
+11:36.070 --> 11:40.310
+And for this I'm just going to say we're here like this as a flex champ.
+
+11:40.330 --> 11:43.260
+So this was this was going to be working as a child.
+
+11:43.570 --> 11:46.910
+So we're going to make sure that this rule is going to be as chopped.
+
+11:47.050 --> 11:52.960
+So over here what I'm going to say is going to be flex and we're going to grow as much as necessary
+
+11:53.210 --> 11:59.960
+here then we're going to say that we are not going to shrink and the actual basis is going to be all
+
+11:59.970 --> 12:00.720
+over.
+
+12:00.850 --> 12:03.610
+Now we can see again nothing technically changed.
+
+12:03.640 --> 12:10.900
+However if I'm going to go back to the half an hour here in the Senate I'm going to keep on adding these
+
+12:11.240 --> 12:11.930
+ones.
+
+12:11.980 --> 12:19.600
+So let's say we're here three any Once you see what happens this actual rest of the banter is always
+
+12:19.600 --> 12:27.850
+going to be making sure that it takes this much of space or because we had a flex grow of one flex shrink
+
+12:27.940 --> 12:36.700
+of zero here and the basis was and since this is a lay out column I can make this banner and this now
+
+12:37.320 --> 12:44.390
+much as I want have in height and the banner is always going to make sure that it uses the rest of the
+
+12:44.390 --> 12:45.170
+space.
+
+12:45.170 --> 12:47.910
+You can see that the flex direction is going to be calm.
+
+12:48.200 --> 12:54.470
+And then over here this guy is going to be using the fact that with a flex we can always grow as much
+
+12:54.470 --> 12:55.530
+as we want.
+
+12:55.880 --> 12:59.760
+Now we also can make this banner as a fluxbox better.
+
+12:59.990 --> 13:03.090
+So I'd say we're here and this is going to be a flexible experiment.
+
+13:03.290 --> 13:10.230
+So I would say as a parent and now let's create this this boy flex for the actual banner.
+
+13:10.250 --> 13:14.930
+So when I say display flex then I'm going to say justify content.
+
+13:15.170 --> 13:17.380
+And we would want to content in the center.
+
+13:17.480 --> 13:19.950
+So we're going to say we're just content center.
+
+13:20.120 --> 13:28.790
+Now also what I would want is once I have a justified content in the center I also would want a line
+
+13:28.910 --> 13:30.750
+items over here in the center.
+
+13:31.010 --> 13:38.150
+So here we're going to say on line items and you are going to say flex and or here now as you can see
+
+13:38.150 --> 13:43.790
+or hear now my text is actually all the way in the bottom.
+
+13:43.790 --> 13:46.080
+So this is what I want or hear.
+
+13:46.280 --> 13:49.830
+Now after that what I would want is give it a dark color.
+
+13:50.020 --> 13:55.730
+So I'm going to say here the caller is actually going to be dark so let's say over here that this is
+
+13:55.730 --> 14:02.090
+going to be a color war and I can see that we can use our very Mo and we can just say all this is going
+
+14:02.090 --> 14:03.560
+to be the dark text.
+
+14:03.560 --> 14:11.060
+Now once we have the dark text then we would want a text align center over here so I can see that the
+
+14:11.390 --> 14:20.030
+text is actually going to be in the center and out of that we would want a padding bottom padding and
+
+14:20.030 --> 14:25.800
+you can see up in line and we would want padding bottom padding bottom.
+
+14:26.000 --> 14:32.390
+And here we're going to say for all Reems here so now we got a little bit of space and then we're going
+
+14:32.390 --> 14:38.810
+to use a font weight that we actually got from the goal posts and here we're going to say this is going
+
+14:38.810 --> 14:45.960
+to be 700 or so this is going to be our Found way now once we have a farm.
+
+14:46.000 --> 14:50.550
+Wait no it's actually say that we would want to work with a title.
+
+14:50.750 --> 14:53.320
+So this was actually a banner.
+
+14:53.510 --> 14:56.480
+No one here would want to work with a band or title.
+
+14:56.480 --> 15:03.670
+So we're all going to say that banner title here some of these are going to be two underscores here
+
+15:03.680 --> 15:06.120
+what we would want for the banner title.
+
+15:06.180 --> 15:11.490
+We're going to say font size and this is going to be for all Reems here.
+
+15:11.690 --> 15:18.890
+So this is going to be the bigger text then we're going to say that we would want a letter spacing.
+
+15:18.890 --> 15:28.360
+So it's a rare letter and spacing for the letter spacing we're going to have a 0.1 RPMs here.
+
+15:28.520 --> 15:36.700
+When I say now we're going to have a bigger spacing margin but I'm going to do a zero point five rpms.
+
+15:36.730 --> 15:42.350
+So in this case we're going to create a more space in the bottom and then we're going to have a font
+
+15:42.680 --> 15:46.380
+style here and we're going to say that this is going to be Taluk.
+
+15:46.450 --> 15:46.770
+All right.
+
+15:46.790 --> 15:48.610
+So this is going to be topic next.
+
+15:48.710 --> 15:56.140
+And then let's do last one text text or here transform and let's do capitalize on it.
+
+15:56.150 --> 16:02.870
+So let's make every first letter actually the capital letter and after that we would want the actual
+
+16:03.650 --> 16:05.180
+banner jobs.
+
+16:05.180 --> 16:06.760
+So this is going to be over here.
+
+16:06.920 --> 16:12.030
+The actual data that we created or the heading 1 the banner jobs.
+
+16:12.030 --> 16:18.220
+So let's go back over here and let's say that this is going to be banner and two underscores jobs.
+
+16:18.230 --> 16:25.780
+Now for the better jobs we're going to we will want the same letter spacings zero point fifty RPMs here
+
+16:26.390 --> 16:35.450
+and then we're going to have the same text transform text here transform and let's do again capitalize
+
+16:35.910 --> 16:36.250
+here.
+
+16:36.270 --> 16:47.210
+Let's do a font size of one point for all Reems one point five RPMs and then do a color light color
+
+16:47.490 --> 16:52.840
+war here and let's do again this is going to be a light color.
+
+16:53.270 --> 17:00.870
+And I can see that I am clever techie and out here and this is going to be the actual ballot jobs.
+
+17:00.980 --> 17:07.080
+Now the actual nav bar will going to be doing at the very end because like I said there's going to be
+
+17:07.370 --> 17:11.320
+quite a few success and the actual HD now.
+
+17:11.510 --> 17:17.560
+So I don't want to scare you yet away but successfully we have our first section.
+
+17:17.630 --> 17:23.030
+So if I'm going to go back over here where I have it in the browser and if you're going to refresh you
+
+17:23.030 --> 17:26.100
+can see or hear then this is going to be our first section.
+
+17:26.200 --> 17:30.800
+And as you can see that this is taking exactly a hundred years hence.
+
+17:30.850 --> 17:37.210
+So exactly 100 percent of the actual screen and you can see that we have the background this is going
+
+17:37.210 --> 17:38.160
+to be the title.
+
+17:38.310 --> 17:40.540
+I know and this is going to be our subject.
+
+17:40.660 --> 17:44.760
+And now we are ready to move on and start working on the next section.

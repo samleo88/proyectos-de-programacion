@@ -1,0 +1,589 @@
+1
+
+00:00:00,000  -->  00:00:01,199
+Alright, so, what we're going to be doing
+
+2
+
+00:00:01,199  -->  00:00:04,049
+now is entering these buttons in a more
+
+3
+
+00:00:04,049  -->  00:00:06,509
+dynamic way. Now when we think about how
+
+4
+
+00:00:06,509  -->  00:00:09,000
+we're going to be adding the buttons we
+
+5
+
+00:00:09,000  -->  00:00:10,740
+don't want to be typing all of them out
+
+6
+
+00:00:10,740  -->  00:00:12,300
+right there. So what we're going to do is
+
+7
+
+00:00:12,300  -->  00:00:15,240
+remove all this, so remove the button
+
+8
+
+00:00:15,240  -->  00:00:17,730
+declarations and the adding the widgets.
+
+9
+
+00:00:17,730  -->  00:00:20,130
+What we're going to do is we're going to
+
+10
+
+00:00:20,130  -->  00:00:23,910
+create a list called buttons, and it's
+
+11
+
+00:00:23,910  -->  00:00:25,800
+going to be in the order of the buttons
+
+12
+
+00:00:25,800  -->  00:00:29,130
+we want. So on the top row we want to see
+
+13
+
+00:00:29,130  -->  00:00:33,390
+an AC button, this is going to reset it,
+
+14
+
+00:00:33,390  -->  00:00:36,630
+it's going to be a placeholder for now,
+
+15
+
+00:00:36,630  -->  00:00:45,030
+placeholder, and division. On the next row
+
+16
+
+00:00:45,030  -->  00:00:48,840
+we want the numbers 7, 8, 9, and
+
+17
+
+00:00:48,840  -->  00:00:57,090
+multiply. On the next row we want 4, 5, 6,
+
+18
+
+00:00:57,090  -->  00:01:05,189
+and minus, put the plus down under it. On
+
+19
+
+00:01:05,189  -->  00:01:09,750
+the next row we want 1, 2, 3, and
+
+20
+
+00:01:09,750  -->  00:01:16,170
+then plus, and on the very bottom line we
+
+21
+
+00:01:16,170  -->  00:01:22,140
+want 0, a decimal, and then the equal
+
+22
+
+00:01:22,140  -->  00:01:27,450
+sign. So what we're going to do with this
+
+23
+
+00:01:27,450  -->  00:01:30,329
+is we're going to say for button in buttons,
+
+24
+
+00:01:30,329  -->  00:01:33,930
+add a button to the grid. So how
+
+25
+
+00:01:33,930  -->  00:01:35,430
+we're going to do that we need to know
+
+26
+
+00:01:35,430  -->  00:01:39,270
+how many rows and columns have been used
+
+27
+
+00:01:39,270  -->  00:01:46,799
+up. So, let's go ahead and for button in
+
+28
+
+00:01:46,799  -->  00:01:49,649
+buttons: we are going to need a few
+
+29
+
+00:01:49,649  -->  00:01:53,040
+variables. So, row, the current row that
+
+30
+
+00:01:53,040  -->  00:01:54,960
+we're on, and then column is going to be the
+
+31
+
+00:01:54,960  -->  00:01:56,640
+current column we're on, so they're both going
+
+32
+
+00:01:56,640  -->  00:01:58,799
+to start at zero. So what we're going to
+
+33
+
+00:01:58,799  -->  00:02:04,290
+do here is grid.addWidget and we're
+
+34
+
+00:02:04,290  -->  00:02:07,969
+going to add the button itself,
+
+35
+
+00:02:09,509  -->  00:02:13,080
+but we're going to add a QPushButton.
+
+36
+
+00:02:13,080  -->  00:02:21,959
+So, the widget that we're going to
+
+37
+
+00:02:21,959  -->  00:02:23,430
+be adding to the grid is a QPush
+
+38
+
+00:02:23,430  -->  00:02:26,250
+Button with the button's value in it because
+
+39
+
+00:02:26,250  -->  00:02:29,340
+we're accessing that through here. Now some of
+
+40
+
+00:02:29,340  -->  00:02:30,870
+these are going to be strings and some
+
+41
+
+00:02:30,870  -->  00:02:33,450
+of them are integers, so what we need to
+
+42
+
+00:02:33,450  -->  00:02:37,019
+do is manually create strings just in
+
+43
+
+00:02:37,019  -->  00:02:41,280
+case it is an integer. And now we need to
+
+44
+
+00:02:41,280  -->  00:02:47,220
+set the rows and column number. So, for
+
+45
+
+00:02:47,220  -->  00:02:53,760
+instance it's going to be row, column,
+
+46
+
+00:02:53,760  -->  00:03:00,480
+and then 1 and 1. And then what we
+
+47
+
+00:03:00,480  -->  00:03:04,859
+need to do is increase row, so row +=,
+
+48
+
+00:03:04,859  -->  00:03:13,379
+actually no col += row, and we
+
+49
+
+00:03:13,379  -->  00:03:19,799
+need to be able to set the row
+
+50
+
+00:03:19,799  -->  00:03:23,280
+based on how many columns have been
+
+51
+
+00:03:23,280  -->  00:03:25,290
+used. So, this is going to be a little
+
+52
+
+00:03:25,290  -->  00:03:28,290
+confusing. In the beginning of this
+
+53
+
+00:03:28,290  -->  00:03:31,680
+loop here we're going to say if column
+
+54
+
+00:03:31,680  -->  00:03:33,750
+is more than 3,
+
+55
+
+00:03:33,750  -->  00:03:39,299
+we're going to set column = to 0, so
+
+56
+
+00:03:39,299  -->  00:03:40,799
+we're going to start over again, then we're
+
+57
+
+00:03:40,799  -->  00:03:43,199
+going to set row += 1 so this is going
+
+58
+
+00:03:43,199  -->  00:03:47,549
+to make it skip rows.
+
+59
+
+00:03:47,549  -->  00:03:52,079
+Let's go ahead and save this, and run the
+
+60
+
+00:03:52,079  -->  00:03:55,530
+application, and as you can see we've
+
+61
+
+00:03:55,530  -->  00:03:58,079
+magically built our calculator already
+
+62
+
+00:03:58,079  -->  00:04:01,470
+within a grid simply by iterating
+
+63
+
+00:04:01,470  -->  00:04:03,120
+through these numbers. One thing you'll
+
+64
+
+00:04:03,120  -->  00:04:06,150
+notice though is at the bottom here it
+
+65
+
+00:04:06,150  -->  00:04:09,060
+doesn't really look right. So, what we're
+
+66
+
+00:04:09,060  -->  00:04:10,590
+going to do is we're going to make this
+
+67
+
+00:04:10,590  -->  00:04:13,319
+take up two columns, and the way we're
+
+68
+
+00:04:13,319  -->  00:04:18,930
+going to do that is basically if button
+
+69
+
+00:04:18,930  -->  00:04:21,680
+== 0:
+
+70
+
+00:04:21,680  -->  00:04:23,330
+we're going to do something different. So,
+
+71
+
+00:04:23,330  -->  00:04:28,430
+grid.addWidget(QPushButton) and it's
+
+72
+
+00:04:28,430  -->  00:04:33,080
+going to take in string button, and then the other
+
+73
+
+00:04:33,080  -->  00:04:36,800
+parameters we're going to say row, column, it's
+
+74
+
+00:04:36,800  -->  00:04:39,860
+going to take up 1 row and 2 columns.
+
+75
+
+00:04:39,860  -->  00:04:44,000
+So that's what's going to happen if our
+
+76
+
+00:04:44,000  -->  00:04:47,389
+button is the 0, otherwise it's just going to
+
+77
+
+00:04:47,389  -->  00:04:49,940
+do what we just told it to do before we
+
+78
+
+00:04:49,940  -->  00:04:51,080
+added that bit of code.
+
+79
+
+00:04:51,080  -->  00:04:55,340
+So now we should see that our 0 is two spaces wide,
+
+80
+
+00:04:55,340  -->  00:04:58,160
+and what we're going to have to do is we
+
+81
+
+00:04:58,160  -->  00:05:00,080
+need to tell it that we've just used two
+
+82
+
+00:05:00,080  -->  00:05:01,699
+spaces so that the next one should go
+
+83
+
+00:05:01,699  -->  00:05:04,639
+into the next column, and so we're going
+
+84
+
+00:05:04,639  -->  00:05:11,960
+to set column here += 1 again. This
+
+85
+
+00:05:11,960  -->  00:05:14,000
+is going to increment it by the correct
+
+86
+
+00:05:14,000  -->  00:05:16,460
+amount, and basically what's happening,
+
+87
+
+00:05:16,460  -->  00:05:20,360
+what happened before is 0 was set to
+
+88
+
+00:05:20,360  -->  00:05:22,910
+column 0, and the period was still set to
+
+89
+
+00:05:22,910  -->  00:05:25,699
+column 1 even though this one is
+
+90
+
+00:05:25,699  -->  00:05:27,949
+taking up two spaces, so we just add an
+
+91
+
+00:05:27,949  -->  00:05:30,949
+additional 1 into the column variable,
+
+92
+
+00:05:30,949  -->  00:05:33,889
+in addition to the other one that we're
+
+93
+
+00:05:33,889  -->  00:05:35,870
+already adding. I hope that makes sense.
+
+94
+
+00:05:35,870  -->  00:05:41,270
+Now what we've got here is the basic
+
+95
+
+00:05:41,270  -->  00:05:45,320
+calculator itself but it's not going to
+
+96
+
+00:05:45,320  -->  00:05:48,979
+work just yet, and that's because there's
+
+97
+
+00:05:48,979  -->  00:05:52,550
+no button event. So, what we're going to
+
+98
+
+00:05:52,550  -->  00:05:54,680
+do is to wrap up this video we're just going
+
+99
+
+00:05:54,680  -->  00:05:59,240
+to create a line edit up here on the
+
+100
+
+00:05:59,240  -->  00:06:04,940
+top. So, our results is going to be equal
+
+101
+
+00:06:04,940  -->  00:06:11,000
+to QLineEdit, and then before we start
+
+102
+
+00:06:11,000  -->  00:06:12,740
+adding the buttons and everything we're
+
+103
+
+00:06:12,740  -->  00:06:18,110
+going to say I grid.addWidget, and we're
+
+104
+
+00:06:18,110  -->  00:06:24,979
+going to add the results in row 0, 0,
+
+105
+
+00:06:24,979  -->  00:06:29,750
+actually, yeah we can do this. It's going to
+
+106
+
+00:06:29,750  -->  00:06:31,910
+take up 4 rows, and
+
+107
+
+00:06:31,910  -->  00:06:33,320
+4 lines, and then we're going to
+
+108
+
+00:06:33,320  -->  00:06:35,720
+manually adjust the row here so that
+
+109
+
+00:06:35,720  -->  00:06:39,020
+the buttons start on row 1. We're going
+
+110
+
+00:06:39,020  -->  00:06:40,580
+to rerun the application, and we're going
+
+111
+
+00:06:40,580  -->  00:06:42,290
+to see something that's a little bit
+
+112
+
+00:06:42,290  -->  00:06:48,230
+messed up. So what we're going to do is
+
+113
+
+00:06:48,230  -->  00:06:55,310
+we're going to set this to use one row,
+
+114
+
+00:06:55,310  -->  00:06:58,010
+yeah that's my mistake, that was set to
+
+115
+
+00:06:58,010  -->  00:06:59,660
+use four rows instead of one. So now
+
+116
+
+00:06:59,660  -->  00:07:02,060
+our calculator is looking a bit better and
+
+117
+
+00:07:02,060  -->  00:07:04,310
+we can actually type stuff in, but it
+
+118
+
+00:07:04,310  -->  00:07:07,930
+doesn't do anything just yet.

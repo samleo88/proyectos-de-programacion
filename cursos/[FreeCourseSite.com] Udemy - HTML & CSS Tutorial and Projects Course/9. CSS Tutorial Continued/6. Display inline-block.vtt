@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.510 --> 00:03.930
+At this point we know two values for the display.
+
+00:03.930 --> 00:08.110
+We know that there is going to be a display block as well as display in line.
+
+00:08.130 --> 00:13.050
+What about we cover the inline block just to see how this is gonna work.
+
+00:13.050 --> 00:13.860
+Now I'm gonna show you.
+
+00:13.860 --> 00:18.960
+This would link elements who are by default obviously in line but just please understand you can do
+
+00:18.960 --> 00:20.340
+this with any element.
+
+00:20.340 --> 00:22.450
+Basically you can set this to inline block.
+
+00:22.680 --> 00:26.580
+Now just like to show the characteristics of inline block.
+
+00:26.660 --> 00:28.880
+So let's start by simple Hello World.
+
+00:29.130 --> 00:32.850
+And again like I said we're all gonna be choosing some kind of in line element.
+
+00:32.850 --> 00:35.550
+In my case I just find the link to be fastest.
+
+00:35.610 --> 00:36.200
+That's right.
+
+00:36.220 --> 00:39.890
+And then there's gonna be value of link within the actual link.
+
+00:40.030 --> 00:42.510
+And let's copy and paste that I don't know four times.
+
+00:42.530 --> 00:45.540
+These are gonna be my heading one with these links.
+
+00:45.630 --> 00:50.310
+Now I was so like I said we would like to cover in line but we already know that there is gonna be an
+
+00:50.310 --> 00:51.060
+issue.
+
+00:51.060 --> 00:57.630
+If I'm gonna be styling the links and let's say font size is gonna be 60 pixels then let's maybe some
+
+00:57.630 --> 01:00.540
+background of red.
+
+01:00.580 --> 01:02.240
+This is gonna be a good option.
+
+01:02.280 --> 01:04.910
+Then also we have an option of adding the margin.
+
+01:04.980 --> 01:08.810
+Now the moment of we're gonna be adding the margin there is gonna be a kicker.
+
+01:09.270 --> 01:12.390
+If we're gonna add 10 pixels notice what's gonna happen.
+
+01:12.450 --> 01:18.210
+The margin is gonna be only applied again left and the right because for now the browser is ignoring
+
+01:18.540 --> 01:23.190
+because it's looking at it and saying Hey listen buddy you're in line home and I don't care whether
+
+01:23.190 --> 01:28.260
+you're adding the margin which in your case you're adding 10 pixels all around I'm just adding this
+
+01:28.260 --> 01:30.920
+left and right because you are displayed in line.
+
+01:31.050 --> 01:36.990
+So your question would be does that mean that each and every element if I won that margin does it have
+
+01:36.990 --> 01:37.390
+to be.
+
+01:37.390 --> 01:42.740
+BLOCK So let's say do I have to do like this display and block.
+
+01:42.840 --> 01:45.550
+Well the answer would be very simple no you don't have to.
+
+01:45.780 --> 01:50.210
+Because in your case you would be like I don't want this to be spreading all across.
+
+01:50.250 --> 01:54.420
+I just want them all in one line but then I would like to add still some margin.
+
+01:54.420 --> 01:55.740
+So how do we do that.
+
+01:55.740 --> 02:00.930
+Well I think I already answered by saying that we are going to be looking at inline block and we just
+
+02:00.930 --> 02:02.010
+write inline block.
+
+02:02.190 --> 02:05.360
+So what's happening within line block and let me come this out.
+
+02:05.670 --> 02:08.520
+And then you will see that right now we don't have the margin.
+
+02:08.550 --> 02:09.780
+Notice how they moved.
+
+02:09.810 --> 02:14.580
+And if I'm going to have inline block now more and if I'm going to have more margin just to show you
+
+02:14.910 --> 02:19.380
+then I obviously this is gonna be 30 pixels right now because the more margin we're going to add and
+
+02:19.380 --> 02:23.270
+let's say 600 or you know let's do 60.
+
+02:23.370 --> 02:31.680
+Now we're gonna have 60 pixels margin and if you would want your margin top to bottom margin to be respected
+
+02:32.070 --> 02:32.380
+you.
+
+02:32.400 --> 02:34.710
+And if you don't want it to be display block.
+
+02:34.710 --> 02:38.920
+So taking the full line you have an option of using the inline block.
+
+02:39.060 --> 02:41.410
+And again you can use this only element.
+
+02:41.490 --> 02:42.870
+I just showed you with the link.

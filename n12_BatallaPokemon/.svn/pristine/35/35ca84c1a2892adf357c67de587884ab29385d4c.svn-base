@@ -1,0 +1,51 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaNaval.testCliente;
+
+import java.io.IOException;
+import java.util.LinkedList;
+
+import junit.framework.TestCase;
+import uniandes.cupi2.batallaPokemon.cliente.mundo.*;
+import uniandes.cupi2.batallaPokemon.cliente.mundo.Batalla;
+import uniandes.cupi2.batallaPokemon.servidor.mundo.*;
+
+/**
+ * Esta es la clase usada para verificar que los métodos de la clase BatallaNaval estén correctamente implementados
+ */
+public class BatallaTest extends TestCase
+{
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Es el cliente sobre el que se harán las pruebas
+     */
+    private Batalla batalla;
+
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye un nuevo cliente de Batalla Naval sin conexión
+     */
+    private void setupEscenario1( )
+    {
+        //batallaNaval = new Jugador( );
+    }
+
+ 
+}

@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.150 --> 00:07.350
+And the next section we're going to be building is going to be and about section so we have here a nav
+
+00:07.350 --> 00:07.790
+bar.
+
+00:07.830 --> 00:14.430
+Then we have our banner then the next is over here our code section that we built and here that is going
+
+00:14.430 --> 00:15.650
+to be about section.
+
+00:15.950 --> 00:22.020
+So here this is going to be a title and we're going to have two paragraphs and here this is going to
+
+00:22.020 --> 00:27.780
+be the button and know where this is going to be a video that is actually embedded to YouTube.
+
+00:27.810 --> 00:32.100
+So every time we press write so we can play a YouTube video.
+
+00:32.100 --> 00:36.500
+So we're going to go back over here and we're going to start building the section.
+
+00:36.510 --> 00:41.040
+So the first thing that I'm going to say this is going to be the comment and I'm going to say about
+
+00:41.520 --> 00:50.610
+Section 4 here I'm going to select a line copy and paste a line and Oriol going right and of about section.
+
+00:50.700 --> 00:57.450
+Then after that we're going to place over here a section with an I.D. and I'm going to say this is going
+
+00:57.450 --> 01:00.380
+to be about like this.
+
+01:00.420 --> 01:04.490
+Then within the section we're going to say this is going to be article here.
+
+01:04.710 --> 01:14.130
+And this is going to be article with an I.D. of about text so hash tag How about text or hear press
+
+01:14.130 --> 01:17.540
+tab and within an article going to have a heading to.
+
+01:17.870 --> 01:31.450
+And over here having to say create Web sites Web sites the easy way easy here way when you doing this.
+
+01:31.500 --> 01:34.350
+Now once we have this we're going to press time again.
+
+01:34.430 --> 01:42.210
+I have had until now we would need two paragraphs somewhere or a paragraph or here to say and here let's
+
+01:42.210 --> 01:49.530
+say 30 more here like this then we're going to have press another tab on here like this and we're going
+
+01:49.530 --> 01:54.330
+to select this paragraph or here and you can see that I actually deleted it.
+
+01:54.420 --> 02:00.870
+But if we go back over here and just start selecting or hear the whole paragraph and then it was going
+
+02:00.870 --> 02:01.820
+to copy and paste.
+
+02:01.820 --> 02:07.320
+So I'm going to copy this guy on here on New Line and we're going to copy and paste this.
+
+02:07.380 --> 02:10.390
+So now we have two paragraphs on here like this.
+
+02:10.390 --> 02:11.700
+And now on the other side.
+
+02:11.700 --> 02:12.320
+Right.
+
+02:12.710 --> 02:16.350
+We're here still within this section or here right.
+
+02:16.350 --> 02:20.720
+But on the other side we would have another article some creative space here.
+
+02:20.720 --> 02:25.200
+This is going to be article and then we're going to say that this is going to be article with an idea
+
+02:25.290 --> 02:26.620
+about video.
+
+02:26.790 --> 02:30.390
+So we're going to have about this video.
+
+02:30.390 --> 02:34.150
+First time will heal this and then we're going to place an I-frame.
+
+02:34.280 --> 02:38.570
+So I'm going to say we're here and this is going to be high frame or here.
+
+02:38.630 --> 02:46.320
+We're going to have a source and for the source we're going to have a TTP one here then one two forward
+
+02:46.320 --> 02:51.880
+slashes and this is going to be w w YouTube here.
+
+02:52.000 --> 02:58.250
+Calm calm then forward slash then we're going to say and bad and then we're going to have another four
+
+02:58.250 --> 03:06.390
+forward last November and this is going to be a this is going to be why s GP we're here and then we're
+
+03:06.390 --> 03:15.080
+going to have our and this are going to be following by five then we're going to have a v G.
+
+03:15.270 --> 03:18.450
+And this is going to be P. And we're here.
+
+03:18.450 --> 03:25.580
+So this was the address where we're betting then the withdrawal going right away say read this and hide.
+
+03:25.590 --> 03:33.490
+We're going to say three 15 and we're here we're going to say this is going to be a for him border war
+
+03:33.630 --> 03:42.920
+here and that's going to be actually zero and we're going to say allow full screen Hello fool here and
+
+03:42.930 --> 03:44.330
+this is going to be secret.
+
+03:44.430 --> 03:46.840
+So then out here we can close this.
+
+03:46.890 --> 03:50.750
+Now we can see the right frame and right away we have a video.
+
+03:50.880 --> 03:57.840
+So now we would need to do is go to see assess and start styling this about Section.

@@ -1,0 +1,670 @@
+WEBVTT
+
+00:00.230 --> 00:04.380
+And the next section you're going to be building or here is going to be customer section.
+
+00:04.380 --> 00:04.970
+Right.
+
+00:04.980 --> 00:10.410
+And again like I said we're going to be using the second now or here only will have a background image
+
+00:10.950 --> 00:17.270
+then or here we're going to have three cards right here and we're going to have only three items right.
+
+00:17.380 --> 00:20.520
+And we're going to place this image or here in the bottom.
+
+00:20.520 --> 00:21.850
+So we were going to do more here.
+
+00:21.870 --> 00:22.820
+We're going to go back.
+
+00:22.830 --> 00:23.550
+All right.
+
+00:23.550 --> 00:25.660
+And for now we're going to leave the script.
+
+00:25.890 --> 00:28.010
+I'm going to go back to you next to him now.
+
+00:28.170 --> 00:32.220
+We're going to go all the way to the end of the theme and we're going to say we're here and this is
+
+00:32.220 --> 00:38.730
+going to be customers this is going to be the Mersch and select the line copy and paste the line went
+
+00:38.960 --> 00:41.540
+to City on and off customers.
+
+00:41.640 --> 00:46.760
+Then once we have the customers ready now I'm going to say a section here.
+
+00:46.860 --> 00:49.750
+Glass customers are here.
+
+00:49.750 --> 00:51.340
+All right press tab.
+
+00:51.540 --> 00:56.460
+And then over here we're going to say a deal of it with customers.
+
+00:57.210 --> 01:04.380
+And we're going to say Center on this then we should be adding all whole and all theme.
+
+01:04.380 --> 01:10.910
+We're not going to do it for now and at once we're going to set up a whole hour javascript right then
+
+01:10.900 --> 01:12.400
+we're going to actually add them right.
+
+01:12.420 --> 01:15.050
+Because this is going to be pretty much basically the same way.
+
+01:15.420 --> 01:17.370
+And over here we're going to have a first one.
+
+01:17.370 --> 01:19.210
+This is going to be customer.
+
+01:19.240 --> 01:21.140
+Right so we're going to say we're here.
+
+01:21.270 --> 01:30.240
+This is going to be a article with a class of customer article customer press time.
+
+01:30.240 --> 01:32.580
+Once we have the article then we'll press first.
+
+01:32.670 --> 01:34.730
+We're going to have a link.
+
+01:35.040 --> 01:36.920
+So we're going to say we're here to link.
+
+01:36.930 --> 01:40.200
+Then within the link We're going to have a hash tag going here.
+
+01:40.200 --> 01:43.280
+And I have I have a ass.
+
+01:43.560 --> 01:52.200
+And this is going to be quote right so that he quote here and we're going to say right here like this.
+
+01:52.200 --> 01:52.780
+All right.
+
+01:52.820 --> 01:53.810
+All right.
+
+01:53.870 --> 01:55.400
+Me press over here.
+
+01:55.480 --> 01:58.240
+Now I can see that something didn't go through right.
+
+01:58.280 --> 02:02.850
+And now we need to check whether my spelling is correct and obviously it's not.
+
+02:03.070 --> 02:08.820
+All right so now we have a quote Right now we would want a paragraph still right.
+
+02:08.970 --> 02:11.090
+With a link just on its own.
+
+02:11.340 --> 02:14.620
+So here we're going to say I would say 10.
+
+02:14.900 --> 02:25.410
+Lauren room and that's what's too much so let's read Lorem 10 press time and one more time.
+
+02:25.570 --> 02:27.630
+Now we have our text.
+
+02:27.710 --> 02:36.440
+We're going to have a heading three or here and we're here going to say customer name here and then
+
+02:36.440 --> 02:38.020
+over here we're going to have here.
+
+02:38.050 --> 02:38.620
+Right.
+
+02:38.830 --> 02:41.410
+So we have at right.
+
+02:41.410 --> 02:44.300
+Customer Name No we're here at the customer.
+
+02:44.500 --> 02:46.000
+So we will do that.
+
+02:46.000 --> 02:50.910
+We're going to have a heading 6 or here we're going to have eight percent.
+
+02:51.040 --> 02:51.430
+Right.
+
+02:51.460 --> 02:59.610
+And then over here we're going to say this is going to be a hash tag 64 or here like this right here.
+
+02:59.760 --> 03:02.240
+I'm going to say customer or here like this.
+
+03:02.560 --> 03:08.950
+And once we have this now we'd want Image and no one here was going to say image press or here's horse
+
+03:09.310 --> 03:15.700
+image and all use the team images right now I've got to download separately a customer image however
+
+03:15.700 --> 03:20.950
+right away what we would want is ultimately we're going to say customer or he'll going to say with.
+
+03:21.070 --> 03:24.880
+And this is going to be a hundred and fifty or pixels.
+
+03:25.090 --> 03:32.070
+So once we have it again we can do this and see says I'm just doing it so we can see better as we're
+
+03:32.080 --> 03:33.190
+working on it right.
+
+03:33.370 --> 03:35.230
+So this is going to be on in 50.
+
+03:35.260 --> 03:41.560
+Right now we have the article and now we would need to copy and paste this four times.
+
+03:41.680 --> 03:42.210
+Right.
+
+03:42.250 --> 03:48.400
+So what I'm going to say here I'm going to get the whole article and copy and paste this one to three
+
+03:48.910 --> 03:51.360
+right and check it out.
+
+03:51.370 --> 03:54.940
+We have for some reason two of them because I messed that up.
+
+03:54.940 --> 03:55.610
+All right.
+
+03:55.870 --> 04:00.250
+So let's go back over here and I want to.
+
+04:00.270 --> 04:08.520
+Right now we should four of them right now let's just change the actual values to Team 2 3 4.
+
+04:08.590 --> 04:12.570
+Right so this one it was 1 4.
+
+04:12.670 --> 04:14.720
+This is going to be three.
+
+04:14.740 --> 04:16.500
+And this is going to be number two.
+
+04:16.690 --> 04:17.340
+Right.
+
+04:17.770 --> 04:25.210
+So once we have them let's go to the style he assessed and actually Styler.
+
+04:25.450 --> 04:25.920
+Right.
+
+04:26.170 --> 04:31.010
+And so here we're going to start with actual customers and we would need a background on it.
+
+04:31.110 --> 04:37.750
+So we're going to go back over here and we're going to say this is going to be a background right for
+
+04:37.750 --> 04:38.420
+the customer.
+
+04:38.430 --> 04:48.820
+So these are going to be cash hashtags because the marsh Well here again bunch of hashtags on this and
+
+04:48.820 --> 04:55.780
+then we're going to write dot right here customers and then we're going to write and this is going to
+
+04:55.780 --> 04:59.290
+be patting hundred pixels than zero.
+
+04:59.460 --> 05:05.940
+All right so top bottom here zero to the sides then we'll have a background.
+
+05:06.220 --> 05:13.060
+And this is going to be customized background so you are all right and image and customers customers
+
+05:13.060 --> 05:13.890
+background.
+
+05:14.000 --> 05:16.120
+And again we're going to do the same thing right.
+
+05:16.120 --> 05:21.700
+This is going to be center position is going to be center the size is going to be cover.
+
+05:21.820 --> 05:27.900
+The attachment is going to be fixed and the repeat is going to be no repeat beat or here.
+
+05:27.900 --> 05:28.200
+All right.
+
+05:28.210 --> 05:33.510
+So now we have over here this image now let's again do a linear background.
+
+05:33.810 --> 05:40.430
+We need a gradient gradient as it were lay our G.P.A. right.
+
+05:40.480 --> 05:45.150
+And I'm really going to say this is going to be right away a black one.
+
+05:45.150 --> 05:56.320
+All right so here we're going to say 0 0 0 0 0 let's say or here 0.6 let's grab this one copy and paste
+
+05:56.320 --> 06:04.360
+this on here and let's place a game right now and see that we have a black background.
+
+06:04.360 --> 06:07.550
+Now once we have this let's work with an individual customer.
+
+06:07.870 --> 06:09.850
+So here this is going to be customer.
+
+06:10.010 --> 06:10.510
+All right.
+
+06:10.510 --> 06:17.570
+Each one of them first we're going to say with what say well this is going to be 90 percent 90 percent
+
+06:17.800 --> 06:24.790
+here then we're going to have margin and the margin is going to be 70 pixels top bottom and auto is
+
+06:24.790 --> 06:26.770
+going to be for the horizontal line.
+
+06:26.950 --> 06:33.520
+So we're going to place it in the center then we're going to have the line center then we're going to
+
+06:33.520 --> 06:41.070
+have a padding of ten pixels top bottom and 20 pixels here left and right.
+
+06:41.470 --> 06:51.040
+Then we're going to have a background here and this is going to be five thirty five and so white Macron
+
+06:51.370 --> 06:58.970
+like this and border radius radius is going to be 20 pixels or here like this.
+
+06:59.170 --> 07:04.170
+Once we have this here now I would want to work with customer a.
+
+07:04.380 --> 07:10.300
+And so we're going to say or here customer where any and all here we're going to say this is going to
+
+07:10.300 --> 07:15.730
+be font size 50 pixels here right.
+
+07:15.730 --> 07:18.050
+So now we're working with a link or here right.
+
+07:18.070 --> 07:19.950
+So this should be 50 pixels.
+
+07:20.200 --> 07:24.780
+Then we're going to have a color and the color is going to be hash tag.
+
+07:25.200 --> 07:32.510
+And if see then we're going to have a B F D B F D on here like this right.
+
+07:32.590 --> 07:39.050
+And you can see that I messed it up again because I didn't place say 8 or right.
+
+07:39.220 --> 07:46.510
+So now we have all hands like one like this and then the next one after that is we're going to have
+
+07:46.570 --> 07:48.300
+a paragraph right.
+
+07:48.370 --> 07:55.240
+So here we're going to say that this is going to be customer paragraph or he'll get to and this is going
+
+07:55.240 --> 08:02.740
+to be margin 20 pixels or here and then we're going to have a line height right hand is going to be
+
+08:02.740 --> 08:03.570
+2.
+
+08:03.790 --> 08:05.580
+Then we're going to have a color.
+
+08:05.680 --> 08:08.600
+Color is going to be exactly the same as here.
+
+08:08.770 --> 08:08.980
+Right.
+
+08:08.980 --> 08:14.200
+So we can just copy and paste this copy and paste this here.
+
+08:14.390 --> 08:14.670
+Right.
+
+08:14.670 --> 08:16.840
+So this is going to be a color but you know what.
+
+08:16.840 --> 08:19.040
+No this is going to be a D.
+
+08:19.090 --> 08:21.190
+Now you know what let's do with different color.
+
+08:21.380 --> 08:22.820
+It's not going to look very good.
+
+08:22.820 --> 08:30.800
+So I'm going to say hey d 8 the A D and so I'm going to we're going to use this gray background.
+
+08:30.910 --> 08:35.250
+Now let's deal with customer three adding three.
+
+08:35.320 --> 08:39.880
+So customer getting three more here what we would want.
+
+08:39.880 --> 08:40.320
+Right.
+
+08:40.510 --> 08:47.240
+So first we're going to say text transform we're going to say capitalize Oreo like this.
+
+08:47.280 --> 08:51.140
+Then once we have this then we're going to say color hash tag.
+
+08:51.310 --> 08:53.800
+And this is going to be this is going to be the blue one.
+
+08:53.840 --> 08:54.090
+Right.
+
+08:54.100 --> 08:58.290
+So we're going to copy paste this and now this is going to be the blue color.
+
+08:58.510 --> 09:01.260
+And then let's work with adding sex.
+
+09:01.260 --> 09:06.350
+So customer and having sex here.
+
+09:06.450 --> 09:17.840
+And what I would want is text or transform when to say how precarious this margin 10 pixels bottom zero
+
+09:18.200 --> 09:23.520
+right 20 bottom left is going to be zero.
+
+09:23.680 --> 09:23.920
+All right.
+
+09:23.920 --> 09:25.120
+I like this.
+
+09:25.140 --> 09:25.650
+Right.
+
+09:25.690 --> 09:27.390
+So this is going to be on margin.
+
+09:27.670 --> 09:31.610
+And once we have this one on him let's work with an image right.
+
+09:31.660 --> 09:38.310
+So we're going to say on here customer customer and image here.
+
+09:38.500 --> 09:39.340
+Right.
+
+09:39.400 --> 09:42.360
+And then we need to do something interesting right.
+
+09:42.360 --> 09:48.580
+So here I'm going to write with and we're going to write 150 pixels here we need to write and this is
+
+09:48.580 --> 09:52.340
+going to be important important here right.
+
+09:52.340 --> 09:53.040
+That's right.
+
+09:53.230 --> 09:54.610
+And why were writing important.
+
+09:54.610 --> 10:00.100
+Because once we're going to get the car rolling right this size is actually going to change.
+
+10:00.100 --> 10:02.210
+I want to show you what I mean by this right.
+
+10:02.230 --> 10:04.200
+So what are we going to say we're here.
+
+10:04.320 --> 10:06.750
+Remember we would need to target.
+
+10:07.030 --> 10:07.630
+Right.
+
+10:07.660 --> 10:09.810
+So here we have customers Center.
+
+10:09.830 --> 10:10.270
+All right.
+
+10:10.420 --> 10:12.130
+So let's ride here.
+
+10:12.390 --> 10:15.220
+All curso right.
+
+10:15.310 --> 10:18.410
+One class and here all three.
+
+10:18.690 --> 10:21.730
+All right let's just check whether that's correct.
+
+10:22.140 --> 10:22.470
+All right.
+
+10:22.480 --> 10:25.290
+So we're going to go back over here at the op.
+
+10:25.360 --> 10:26.370
+All right.
+
+10:26.530 --> 10:28.720
+Our curso unhealthy.
+
+10:28.920 --> 10:30.380
+All right so this is correct.
+
+10:30.490 --> 10:33.550
+However you can see that the carousel starts running.
+
+10:33.580 --> 10:35.650
+I haven't set it up right.
+
+10:35.690 --> 10:37.990
+So you can see that it actually disappears.
+
+10:38.250 --> 10:38.760
+Right.
+
+10:38.810 --> 10:47.480
+So what we would need to do right now is actually go to a javascript run and actually set up the customer
+
+10:47.480 --> 10:48.530
+center.
+
+10:48.530 --> 10:50.970
+So what I'm going to do here is very simple.
+
+10:51.200 --> 10:56.540
+We're going to have a theme and I'm just going to copy and paste this one more time.
+
+10:56.540 --> 10:56.900
+All right.
+
+10:56.960 --> 11:03.340
+And over here I'm going to say oh this is going to be customers right or here I'm going to say not the
+
+11:03.360 --> 11:07.680
+center but this is going to be customers center right.
+
+11:07.800 --> 11:09.740
+You say this fresh.
+
+11:09.990 --> 11:13.940
+And I can see that I have my whole curso working right now.
+
+11:14.000 --> 11:19.660
+The difference is going to be let's say we're going to say this and let's go to the Codemasters That's
+
+11:19.670 --> 11:21.740
+the father working on right now.
+
+11:21.800 --> 11:22.170
+Right.
+
+11:22.280 --> 11:24.230
+And let's see or hear right.
+
+11:24.410 --> 11:26.050
+So this is what we have right.
+
+11:26.060 --> 11:28.670
+So we have right away five of them.
+
+11:28.670 --> 11:35.990
+Now if I'm going to go back over here and first of all let's get rid of this important area like this.
+
+11:35.990 --> 11:36.580
+Right.
+
+11:36.950 --> 11:40.080
+So it's say this let's see how this one is going to look like.
+
+11:41.620 --> 11:44.170
+And you can see that there was no change.
+
+11:44.200 --> 11:50.020
+Everything was fine but that's because we're here in the script.
+
+11:50.080 --> 11:51.610
+We have 1 3 5.
+
+11:51.820 --> 11:55.530
+However if I would change it over here to 1 1 1.
+
+11:55.780 --> 11:59.140
+So let's say I would want only one of them or here like this.
+
+11:59.150 --> 11:59.450
+Right.
+
+11:59.530 --> 12:01.170
+So it's a one on one and one.
+
+12:01.440 --> 12:04.320
+And if we refresh this is what we're going to have.
+
+12:04.540 --> 12:06.810
+And it's definitely not something that you would want to do.
+
+12:06.810 --> 12:07.410
+Right.
+
+12:07.440 --> 12:15.580
+So here that's why in the main see it says right here important here and now I can see that it's over
+
+12:15.580 --> 12:16.010
+here right.
+
+12:16.010 --> 12:21.020
+And if we say this if we're fresh even if it's one or here element right.
+
+12:21.200 --> 12:24.830
+You can see that image is not going to be distracted or here like this right now.
+
+12:24.830 --> 12:28.970
+In our case what we're going to do is we'll going to have one one three.
+
+12:28.970 --> 12:33.590
+All right so it's not going to be as drastic here but still we're going to keep this important door
+
+12:33.590 --> 12:33.770
+here.
+
+12:33.770 --> 12:40.430
+Right now I just want to do a few things we're going to say on margin zero and we're going to say no
+
+12:40.790 --> 12:48.040
+more here like this then we're going to have a wider radius more radius.
+
+12:48.220 --> 12:48.540
+Right.
+
+12:48.590 --> 12:56.990
+And we're going to save 50 percent on this and we're going to see margin bottom was negative 60 pixels
+
+12:57.080 --> 12:57.890
+or here right.
+
+12:57.940 --> 12:58.450
+Right.
+
+12:58.480 --> 13:02.530
+So now we're going to place them basically in the center or here for refresh.
+
+13:02.570 --> 13:05.330
+Now I have three of them and you can see how that will work.
+
+13:05.360 --> 13:06.000
+Right.
+
+13:06.020 --> 13:11.620
+And obviously the size over here was controlled like this.
+
+13:11.630 --> 13:12.240
+Right.
+
+13:12.330 --> 13:15.020
+With items 1 1 3 or here.
+
+13:15.020 --> 13:15.650
+Right.
+
+13:15.650 --> 13:21.770
+And again remember to select unique one here because if you're going to two of them with an hour carousel
+
+13:21.770 --> 13:24.560
+that's not going to make sense here like this.
+
+13:24.560 --> 13:26.920
+Now consider this much speed has been copied.
+
+13:27.140 --> 13:27.630
+Right.
+
+13:27.650 --> 13:34.110
+And make sure that you always always have the owl curso and all theme.
+
+13:34.110 --> 13:41.150
+I mean especially if you want or hear Delk whole theme for our carso for sure our theme if you want
+
+13:41.150 --> 13:42.420
+or hear these icons.
+
+13:42.430 --> 13:45.880
+All right and now we can move on to a next section.

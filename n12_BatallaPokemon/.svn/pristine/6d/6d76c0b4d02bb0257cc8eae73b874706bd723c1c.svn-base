@@ -1,0 +1,1047 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+package uniandes.cupi2.batallaPokemon.cliente.mundo;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.LinkedList;
+
+import uniandes.cupi2.batallaPokemon.servidor.mundo.RegistroJugador;
+
+/**
+ * Clase que representa una batalla del jugador. <br>
+ * <b>inv: </b> <br>
+ * estadoJuego pertenece a {SIN_CONECTAR, ESPERANDO_LOCAL, ESPERANDO_OPONENTE, ESPERANDO_RESPUESTA}.<br>
+ * estadoJuego = SIN_CONECTAR => juegoTerminado = true.<br>
+ * estadoJuego != SIN_CONECTAR => canal != null.<br>
+ * estadoJuego != SIN_CONECTAR => out != null.<br>
+ * estadoJuego != SIN_CONECTAR => in != null.<br>
+ * estadoJuego != SIN_CONECTAR => seleccionado = null.<br>
+ * estadoJuego != SIN_CONECTAR => seleccionadoOponente = null.<br>
+ * estadoJuego != SIN_CONECTAR => servidor != null.<br>
+ * estadoJuego != SIN_CONECTAR => mensajesSinLeer != null.<br>
+ * estadoJuego != SIN_CONECTAR => nombreGanador != null. <br>
+ * estadoJuego != SIN_CONECTAR => puerto > 0.
+ */
+public class Batalla
+{
+
+    // -----------------------------------------------------------------
+    // Constantes
+    // -----------------------------------------------------------------
+    /**
+     * Constante que representa el separador de un comando.
+     */
+    public static final String SEPARADOR_COMANDO = ";;;";
+
+    /**
+     * Constante que representa el separador de los parámetros.
+     */
+    public static final String SEPARADOR_PARAMETROS = ":::";
+
+    /**
+     * Mensaje para el envío de información de un jugador.
+     */
+    public static final String JUGADOR = "JUGADOR";
+
+    /**
+     * Mensaje para el registro del jugador.
+     */
+    public static final String INFO_JUGADOR = "INFO";
+
+    /**
+     * Mensaje para indicar que un jugador tiene el primer turno.
+     */
+    public static final String PRIMER_TURNO = "1";
+
+    /**
+     * Mensaje para indicar que un jugador tiene el segundo turno.
+     */
+    public static final String SEGUNDO_TURNO = "2";
+
+    /**
+     * Indica que no se ha establecido la conexión con el servidor para jugar.
+     */
+    public static final int SIN_CONECTAR = 0;
+
+    /**
+     * Mensaje para enviar la información de un ataque.
+     */
+    public static final String ATAQUE = "ATAQUE";
+
+    /**
+     * Mensaje para indicar el resultado de un ataque.
+     */
+    public static final String DANIO = "DANIO";
+
+    /**
+     * Mensaje para indicar que el jugador cambió de pokémon.
+     */
+    public static final String CAMBIO_POKEMON = "CAMBIO_POKEMON";
+
+    /**
+     * Mensaje para indicar que se cambió automáticamente el pokémon del jugador.
+     */
+    public static final String CAMBIO_POKEMON_AUTO = "CAMBIO_POKEMON_AUTO";
+
+    /**
+     * Mensaje para indicar la selección de un pokémon.
+     */
+    public static final String SELECCION = "SELECCION";
+
+    /**
+     * Mensaje de login de un jugador.
+     */
+    public static final String LOGIN = "LOGIN";
+
+    /**
+     * Mensaje para recibir la información de un jugador.
+     */
+    public static final String INFO = "INFO";
+
+    /**
+     * Mensaje de registro de un jugador.
+     */
+    public static final String REGISTRO = "REGISTRO";
+
+    /**
+     * Mensaje para enviar un mensaje de error.
+     */
+    private final static String ERROR = "ERROR";
+
+    /**
+     * Mensaje para indicar quien fue el ganador del juego.
+     */
+    public static final String GANADOR = "GANADOR";
+
+    /**
+     * Mensaje para indicar que un jugador se quedó sin pokémon.
+     */
+    public static final String FIN_JUEGO = "FIN_JUEGO";
+
+    /**
+     * Indica que se está esperando que el jugador realice una jugada.
+     */
+    public static final int ESPERANDO_LOCAL = 1;
+
+    /**
+     * Indica que se está esperando a que el oponente realice una jugada.
+     */
+    public static final int ESPERANDO_OPONENTE = 2;
+
+    /**
+     * Indica que se acaba de enviar la jugada del jugador y se está esperando la respuesta del oponente.
+     */
+    public static final int ESPERANDO_RESPUESTA = 3;
+
+    /**
+     * Ruta del archivo donde se encuentra la información de los pokémon
+     */
+    public static final String ARCHIVO_POKEMON = "./data/pokemon.txt";
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Jugador de la batalla.
+     */
+    private Jugador jugador;
+
+    /**
+     * Oponente del jugador en la batalla.
+     */
+    private Jugador oponente;
+
+    /**
+     * Pokémon que el jugador ha seleccionado.
+     */
+    private Pokemon pokemonSeleccionado;
+
+    /**
+     * Pokémon que el oponente ha seleccionado.
+     */
+    private Pokemon pokemonSeleccionadoOponente;
+
+    /**
+     * Pokémon disponibles para seleccionar en el juego.
+     */
+    private Pokemon[] pokemonDisponibles;
+
+    /**
+     * Cantidad de pokémon con salud en cero del oponente.
+     */
+    private int cantidadPokemonDebilesOponente;
+
+    /**
+     * Indica el estado actual del juego.
+     */
+    private int estadoJuego;
+
+    /**
+     * Indica si el juego terminó o no.
+     */
+    private boolean juegoTerminado;
+
+    /**
+     * Nombre del ganador del último encuentro.
+     */
+    private String nombreGanador;
+
+    /**
+     * Dirección de servidor al que se conectó.
+     */
+    private String servidor;
+
+    /**
+     * Puerto usado para conectarse.
+     */
+    private int puerto;
+
+    /**
+     * Canal usado para comunicarse con el servidor.
+     */
+    private Socket canal;
+
+    /**
+     * Flujo que envía los datos al servidor a través del socketServidor.
+     */
+    private PrintWriter outWriter;
+
+    /**
+     * Flujo de donde se leen los datos que llegan del servidor a través del socketServidor.
+     */
+    private BufferedReader inReader;
+
+    /**
+     * Colección de mensajes que se muestran al jugador.
+     */
+    private Collection mensajesSinLeer;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Constructor de la batalla. <br>
+     * <b> post: </b> Se inicializan el jugador y el oponente.<br>
+     * Se inicializa el pokémon seleccionado y pokémon seleccionado del oponente en null. <br>
+     * Se inicializa la cantidad de pokémon débiles del oponente en 0.<br>
+     * Se inicializa la salud del pokémon oponente en 30. Se inicializa el arreglo que contiene los pokémon disponibles con la información que se encuentra en el archivo:<br>
+     * @throws BatallaPokemonException Si hay algún problema cargando el archivo de pokémon.
+     */
+    public Batalla( ) throws BatallaPokemonException
+    {
+
+        pokemonSeleccionado = null;
+        jugador = new Jugador( );
+        oponente = new Jugador( );
+        pokemonSeleccionadoOponente = null;
+        cantidadPokemonDebilesOponente = 0;
+        cargarArchivo( );
+
+        verificarInvariante( );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Retorna la lista de pokémon disponibles
+     * @return Lista de pokémon disponibles
+     */
+    public Pokemon[] darPokemonesDisponibles( )
+    {
+        return pokemonDisponibles;
+    }
+    /**
+     * Retorna el pokémon seleccionado por el jugador.
+     * @return Pokémon que el jugador seleccionó para jugar.
+     */
+    public Pokemon darPokemonSeleccionado( )
+    {
+        return pokemonSeleccionado;
+    }
+
+    /**
+     * Retorna el pokémon seleccionado por el oponente.
+     * @return Pokémon que el oponente seleccionó para jugar.
+     */
+    public Pokemon darPokemonSeleccionadoOponente( )
+    {
+        return pokemonSeleccionadoOponente;
+    }
+
+    /**
+     * Retorna la salud del pokémon seleccionado actualmente.
+     * @return Salud del jugador.
+     */
+    public double darSaludPokemonActual( )
+    {
+        return pokemonSeleccionado.darSalud( );
+    }
+
+    /**
+     * Retorna la cantidad de pokémon debilitados del oponente.
+     * @return Cantidad de pokémon con salud en cero.
+     */
+    public int darCantidadPokemonDebilesOponente( )
+    {
+        return cantidadPokemonDebilesOponente;
+    }
+
+    /**
+     * Retorna la dirección del servidor.
+     * @return Dirección del servidor.
+     */
+    public String darDireccionServidor( )
+    {
+        return servidor;
+    }
+
+    /**
+     * Retorna el puerto usado para conectarse al servidor.
+     * @return Puerto al cual se conecta el programa.
+     */
+    public int darPuertoServidor( )
+    {
+        return puerto;
+    }
+
+    /**
+     * Retorna el nombre del jugador que ganó el juego.
+     * @return Nombre del ganador.
+     */
+    public String darNombreGanador( )
+    {
+        return nombreGanador;
+    }
+
+    /**
+     * Retorna el jugador de la batalla.
+     * @return Jugador de la batalla.
+     */
+    public Jugador darJugador( )
+    {
+        return jugador;
+    }
+
+    /**
+     * Retorna el oponente.
+     * @return Jugador oponente.
+     */
+    public Jugador darOponente( )
+    {
+        return oponente;
+    }
+
+    /**
+     * Retorna una colección de mensajes que no han sido vistos por el jugador y limpia la lista de mensajes pendientes.
+     * @return Mensajes sin leer.
+     */
+    public Collection darMensajesSinLeer( )
+    {
+        Collection temp = mensajesSinLeer;
+        mensajesSinLeer = new LinkedList( );
+        return temp;
+    }
+
+    /**
+     * Retorna el estado actual del juego.
+     * @return Estado del juego.
+     */
+    public int darEstadoJuego( )
+    {
+        return estadoJuego;
+    }
+
+    /**
+     * Indica si la última batalla jugada ya terminó.
+     * @return False si el juego no ha terminado, true en caso contrario.
+     */
+    public boolean juegoTerminado( )
+    {
+        return juegoTerminado;
+    }
+
+    /**
+     * Modifica la salud del pokémon del oponente.
+     * @param pSalud Salud del pokémon del oponente. pSalud >= 0.
+     */
+    public void modificarSaludPokemonOponente( double pSalud )
+    {
+        pokemonSeleccionadoOponente.modificarSalud( pSalud );
+    }
+
+    /**
+     * Modifica la cantidad de pokémon con vida en cero del oponente.
+     * @param pCantidadPokemones Cantidad de pokémon debilitados. pCantidadPokemones >= 0.
+     */
+    public void modificarCantidadPokemonesDebilesOponente( int pCantidadPokemones )
+    {
+        cantidadPokemonDebilesOponente = pCantidadPokemones;
+    }
+
+    /**
+     * Modifica el nombre del pokémon seleccionado por el oponente.
+     * @param pNombrePokemon Nombre del nuevo pokémon seleccionado. pPokemon != null.
+     */
+    public void modificarNombrePokemonSeleccionadoOponente( String pNombrePokemon )
+    {
+        Pokemon pokemonBuscado = null;
+
+        for( int i = 0; i < pokemonDisponibles.length; i++ )
+        {
+            Pokemon pokemonActual = pokemonDisponibles[ i ];
+            if( pokemonActual.darNombre( ).equals( pNombrePokemon ) )
+            {
+                pokemonBuscado = pokemonActual;
+            }
+        }
+        Pokemon pokemon = ( Pokemon )pokemonBuscado.clone( );
+
+        pokemonSeleccionadoOponente = pokemon;
+    }
+
+    /**
+     * Modifica el pokémon seleccionado por el jugador.
+     * @param pNombrePokemon Nombre del nuevo pokémon seleccionado. pNombrePokemon != null.
+     */
+    public void modificarPokemonSeleccionado( String pNombrePokemon )
+    {
+        Pokemon pokemonBuscado = null;
+        ArrayList pokemonesJugador = jugador.darPokemonesJugador( );
+        for( int i = 0; i < pokemonesJugador.size( ); i++ )
+        {
+            Pokemon pokemonActual = ( Pokemon )pokemonesJugador.get( i );
+            if( pokemonActual.darNombre( ).equals( pNombrePokemon ) )
+            {
+                pokemonBuscado = pokemonActual;
+            }
+        }
+        pokemonSeleccionado = pokemonBuscado;
+    }
+
+    /**
+     * Ingresa los pokémon seleccionados por el jugador.
+     * @param pPokemonSeleccionados Lista de pokémon.
+     */
+    public void ingresarPokemon( ArrayList pPokemonSeleccionados )
+    {
+        String pokemonInicial = jugador.ingresarPokemones( pPokemonSeleccionados );
+        modificarPokemonSeleccionado( pokemonInicial );
+    }
+
+    /**
+     * Establece una conexión con el servidor del juego y envía los datos del jugador para poder empezar un juego.<br>
+     * Este método termina cuando se consigue un oponente y se establece la conexión entre los dos jugadores.
+     * @param pDireccionServidor Dirección usada para encontrar el servidor. pDireccionServidor != null && pDireccionServidor != "".
+     * @param pPuertoServidor Puerto usado para realizar la conexión. pPuertoServidor > 0.
+     * @param pAlias Alias del jugador. pAlias != null && pAlias != "".
+     * @param pPassword Contraseña del jugador. pPassword != null && pPassword != ""..
+     * @param pAvatar Avatar seleccionado por el jugador. pAvatar != null && pAvatar != "".
+     * @throws BatallaPokemonException Si hay problemas estableciendo la comunicación.
+     */
+    public void iniciarSesion( String pDireccionServidor, int pPuertoServidor, String pAlias, String pPassword, String pAvatar ) throws BatallaPokemonException
+    {
+        servidor = pDireccionServidor;
+        puerto = pPuertoServidor;
+        jugador.modificarAlias( pAlias );
+        jugador.modificarContrasenia( pPassword );
+        jugador.modificarImagenAvatar( pAvatar );
+
+        try
+        {
+            // Conectar al servidor
+            canal = new Socket( pDireccionServidor, pPuertoServidor );
+            outWriter = new PrintWriter( canal.getOutputStream( ), true );
+            inReader = new BufferedReader( new InputStreamReader( canal.getInputStream( ) ) );
+
+            // iniciar el encuentro
+            iniciarEncuentro( LOGIN );
+        }
+        catch( UnknownHostException e )
+        {
+            e.printStackTrace( );
+            throw new BatallaPokemonException( "No fue posible establecer una conexión con el servidor. " + e.getMessage( ) );
+        }
+        catch( IOException e )
+        {
+            e.printStackTrace( );
+            throw new BatallaPokemonException( "No fue posible establecer una conexión con el servidor. " + e.getMessage( ) );
+        }
+        verificarInvariante( );
+    }
+
+    /**
+     * Establece una conexión con el servidor del juego y envía los datos del jugador para poder empezar un juego.<br>
+     * Este método termina cuando se consigue un oponente y se establece la conexión entre los dos jugadores.
+     * @param pNombre Nombre del jugador local. pNombre != null.
+     * @param pDireccionServidor Dirección usada para encontrar el servidor. pDireccionServidor != null.
+     * @param pPuertoServidor Puerto usado para realizar la conexión. pPuertoServidor > 0.
+     * @param pAlias Alias del jugador. pAlias != null && pAlias != "".
+     * @param pApellidos Apellidos del jugador. pApellidos != null && pApellidos != "".
+     * @param pPassword Contraseña del jugador. pPassword != null && pPassword != "".
+     * @param pAvatar Avatar del jugador. pAvatar != null && pAvatar != "".
+     * @throws BatallaPokemonException Si hay problemas estableciendo la comunicación.
+     */
+    public void registrar( String pDireccionServidor, int pPuertoServidor, String pAlias, String pNombre, String pApellidos, String pPassword, String pAvatar ) throws BatallaPokemonException
+    {
+        jugador.modificarNombreJugador( pNombre );
+        servidor = pDireccionServidor;
+        puerto = pPuertoServidor;
+        jugador.modificarAlias( pAlias );
+        jugador.modificarImagenAvatar( pAvatar );
+        jugador.modificarApellidos( pApellidos );
+        jugador.modificarContrasenia( pPassword );
+
+        try
+        {
+            // Conectar al servidor
+            canal = new Socket( pDireccionServidor, pPuertoServidor );
+            outWriter = new PrintWriter( canal.getOutputStream( ), true );
+            inReader = new BufferedReader( new InputStreamReader( canal.getInputStream( ) ) );
+
+            // iniciar el encuentro
+            iniciarEncuentro( REGISTRO );
+        }
+        catch( UnknownHostException e )
+        {
+            throw new BatallaPokemonException( "No fue posible establecer una conexión con el servidor. " + e.getMessage( ) );
+        }
+        catch( IOException e )
+        {
+            throw new BatallaPokemonException( "No fue posible establecer una conexión con el servidor. " + e.getMessage( ) );
+        }
+        verificarInvariante( );
+    }
+
+    /**
+     * Envía al servidor los mensajes necesarios para iniciar una batalla y recibe la información del oponente y del turno.
+     * @throws IOException Se lanza esta excepción si hay un problema leyendo del canal.
+     * @throws BatallaPokemonException Si hay un problema leyendo el canal.
+     */
+    private void iniciarEncuentro( String pTipoConexion ) throws IOException, BatallaPokemonException
+    {
+        juegoTerminado = false;
+        nombreGanador = "";
+
+        // Preparar la batalla para el nuevo encuentro.
+        // batalla = new Batalla( );
+
+        // Inicializa la lista de mensajes
+        mensajesSinLeer = new LinkedList( );
+        RegistroJugador regJugador;
+
+        if( pTipoConexion.equals( LOGIN ) )
+        {
+            outWriter.println( LOGIN + ";;;" + jugador.darAlias( ) + ":::" + jugador.darContrasenia( ) );
+        }
+        else 
+        {
+            outWriter.println( REGISTRO + ";;;" + jugador.darAlias( ) + ":::" + jugador.darNombreJugador( ) + ":::" + jugador.darApellidosJugador( ) + ":::" + jugador.darContrasenia( ) );
+        }
+
+        // Leer la información del jugador
+        String[] partes = inReader.readLine( ).split( SEPARADOR_COMANDO );
+        String[] datosJugador = partes[ 1 ].split( SEPARADOR_PARAMETROS );
+        if( partes[ 0 ].equals( ERROR ) )
+        {
+            throw new BatallaPokemonException( datosJugador[ 0 ] );
+        }
+        else if( partes[ 0 ].equals( INFO ) )
+        {
+            regJugador = new RegistroJugador(  datosJugador[ 0 ], Integer.parseInt( datosJugador[ 1 ] ), Integer.parseInt( datosJugador[ 2 ] ) );
+
+            // Leer la información del oponente
+            String[] partesOponente = inReader.readLine( ).split( SEPARADOR_COMANDO );
+            if( partesOponente[ 0 ].equals( ERROR ) )
+            {
+                throw new BatallaPokemonException( datosJugador[ 0 ] );
+            }
+            else if( partesOponente[ 0 ].equals( INFO ) )
+            {
+                String[] datosOponente = partesOponente[ 1 ].split( SEPARADOR_PARAMETROS );
+                oponente.modificarAlias( datosOponente[ 0 ] );
+                oponente.modificarCantidadDerrotas( Integer.parseInt( datosOponente[ 1 ] ) );
+                oponente.modificarCantidadVictorias( Integer.parseInt( datosOponente[ 2 ] ) );
+                RegistroJugador regOponente = new RegistroJugador(  datosOponente[ 0 ], Integer.parseInt( datosOponente[ 1 ] ), Integer.parseInt( datosOponente[ 2 ] ) );
+
+                mensajesSinLeer.add( "Iniciando encuentro: " + regJugador.darAlias( ) + " vs. " + regOponente.darAlias( ) );
+                mensajesSinLeer.add( regJugador.toString( ) );
+                mensajesSinLeer.add( regOponente.toString( ) );
+
+                // Leer la información del turno
+                // 1 | 2
+                String turno = inReader.readLine( );
+
+                if( Batalla.PRIMER_TURNO.equals( turno ) )
+                {
+                    estadoJuego = ESPERANDO_LOCAL;
+                }
+                else
+                {
+                    estadoJuego = ESPERANDO_OPONENTE;
+                }
+            }
+
+        }
+        else
+        {
+            throw new BatallaPokemonException( "Error al iniciar sesión. No se recibió el mensaje esperado." );
+        }
+    }
+
+    /**
+     * Este método se encarga de esperar una jugada que envíe el otro jugador, actualizar los datos y enviar la respuesta al servidor. <br>
+     * Si el juego termina, este método debe cambiar el valor de juegoTerminado.<br>
+     * <b>pre:</b>estadoJuego = ESPERANDO_JUGADA_OPONENTE.
+     * @throws BatallaPokemonException Si hay problemas en la comunicación.
+     */
+    public void esperarJugada( ) throws BatallaPokemonException
+    {
+        try
+        {
+            // JUGADA;;;<tipoPokemon>
+
+            String linea = inReader.readLine( );
+            if( linea != null )
+            {
+                String[] partes = linea.split( SEPARADOR_COMANDO );
+                
+                if( partes[ 0 ].equals( ERROR ) )
+                {
+                    String datosJugada[] = partes[ 1 ].split( SEPARADOR_PARAMETROS );
+                    throw new BatallaPokemonException( datosJugada[ 0 ] );
+                }
+                else if( partes[ 0 ].equals( ATAQUE ) )
+                {
+
+                    // Efectuar el ataque
+                    double resultadoAtaque = realizarJugada( pokemonSeleccionadoOponente.darTipo( ) );
+                    darPokemonSeleccionado( ).descontarSalud( resultadoAtaque );
+                    mensajesSinLeer.add( darPokemonSeleccionado( ).darNombre( ) + " ha perdido " + resultadoAtaque + " de salud." );
+                    if( darPokemonSeleccionado( ).darSalud( ) == 0 )
+                    {
+                        if( jugador.darCantidadPokemonesDebilitados( ) == 4 )
+                        {
+                            // El encuentro terminó porque se han derrotado todos los pokémon del jugador.
+                            juegoTerminado = true;
+                            mensajesSinLeer.add( "¡Has perdido la batalla.!" );
+                            outWriter.println( FIN_JUEGO );
+                        }
+                        else
+                        {
+                            boolean encontrado = false;
+                            for( int i = 0; i < 4 && !encontrado; i++ )
+                            {
+                                Pokemon pokemonActual = ( Pokemon )jugador.darPokemonesJugador( ).get( i );
+                                // Se verifica si el pokémon perdió toda la salud.
+                                if( pokemonActual.darSalud( ) != 0 )
+                                {
+                                    // Se seleccionó al siguiente pokémon disponible para sustituir el pokémon actual.
+                                    modificarPokemonSeleccionado( pokemonActual.darNombre( ) );
+                                    mensajesSinLeer.add( "Tu pokémon perdió todos sus puntos de vida. Se seleccionó a " + darPokemonSeleccionado( ).darNombre( ) + " automáticamente." );
+                                    encontrado = true;
+                                    outWriter.println( CAMBIO_POKEMON_AUTO + SEPARADOR_COMANDO + pokemonActual.darNombre( ) + SEPARADOR_PARAMETROS + pokemonActual.darSalud( ) + SEPARADOR_PARAMETROS + jugador.darCantidadPokemonesDebilitados( ) );
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        outWriter.println( DANIO + SEPARADOR_COMANDO + resultadoAtaque + SEPARADOR_PARAMETROS + darSaludPokemonActual( ) + SEPARADOR_PARAMETROS + jugador.darCantidadPokemonesDebilitados( ) );
+                    }
+                }
+                else if( partes[ 0 ].equals( CAMBIO_POKEMON ) )
+                {
+                    String datosJugada[] = partes[ 1 ].split( SEPARADOR_PARAMETROS );
+                    modificarNombrePokemonSeleccionadoOponente( datosJugada[ 0 ] );
+                    modificarSaludPokemonOponente( Double.parseDouble( datosJugada[ 1 ] ) );
+                }
+                else
+                {
+                    throw new BatallaPokemonException( "Se presentaron problemas al esperar la jugada. " + "No se recibió el mensaje esperado." );
+                }
+
+                estadoJuego = ESPERANDO_LOCAL;
+            }
+        }
+        catch( IOException e )
+        {
+            throw new BatallaPokemonException( "Se presentaron problemas con la conexión al servidor. " + e.getMessage( ) );
+        }
+        catch( ArrayIndexOutOfBoundsException e)
+        {
+            throw new BatallaPokemonException( "Se presentaron problemas al esperar la jugada. " + "No se recibió el mensaje esperado." );
+            
+        }
+        verificarInvariante( );
+    }
+
+    /**
+     * Retorna el daño según el tipo de pokémon que atacó y el pokémon que recibe el ataque.
+     * @param pTipo Tipo de pokémon que atacó. pTipo pertenece a {Pokemon.TIPO_FUEGO, Pokemon.TIPO_AGUA, Pokemon.TIPO_ROCA, Pokemon.TIPO_VOLADOR, Pokemon.TIPO_PLANTA,
+     *        Pokemon.TIPO_ELECTRICO}.
+     * @return Daño que realiza el ataque del oponente.
+     */
+    public double realizarJugada( String pTipo )
+    {
+        String tipoPokemon = pokemonSeleccionado.darTipo( );
+        double danioResultante = 0.0;
+        int danio = ( int ) ( Math.random( ) * 4 + 1 );
+
+        if( pTipo.equals( Pokemon.TIPO_FUEGO ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || tipoPokemon.equals( Pokemon.TIPO_AGUA ) || tipoPokemon.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) || tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 2;
+            }
+        }
+        else if( pTipo.equals( Pokemon.TIPO_AGUA ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || tipoPokemon.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_AGUA ) || tipoPokemon.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) || tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio;
+            }
+
+        }
+        else if( pTipo.equals( Pokemon.TIPO_ELECTRICO ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) || tipoPokemon.equals( Pokemon.TIPO_AGUA ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) || tipoPokemon.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || tipoPokemon.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio;
+            }
+
+        }
+        else if( pTipo.equals( Pokemon.TIPO_PLANTA ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || tipoPokemon.equals( Pokemon.TIPO_PLANTA ) || tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_AGUA ) || tipoPokemon.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) )
+            {
+                danioResultante = danio;
+            }
+
+        }
+        else if( pTipo.equals( Pokemon.TIPO_VOLADOR ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || tipoPokemon.equals( Pokemon.TIPO_AGUA ) || tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_ROCA ) || tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) )
+            {
+                danioResultante = danio * 0.5;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_PLANTA ) )
+            {
+                danioResultante = danio * 2;
+            }
+        }
+        else if( pTipo.equals( Pokemon.TIPO_ROCA ) )
+        {
+            if( tipoPokemon.equals( Pokemon.TIPO_FUEGO ) || tipoPokemon.equals( Pokemon.TIPO_VOLADOR ) )
+            {
+                danioResultante = danio * 2;
+            }
+            else if( tipoPokemon.equals( Pokemon.TIPO_AGUA ) || tipoPokemon.equals( Pokemon.TIPO_ELECTRICO ) || tipoPokemon.equals( Pokemon.TIPO_PLANTA ) || tipoPokemon.equals( Pokemon.TIPO_ROCA ) )
+            {
+                danioResultante = danio;
+            }
+        }
+        return danioResultante;
+    }
+
+    /**
+     * Envía la información del pokémon seleccionado al oponente.<br>
+     */
+    public void enviarDatosAOponente( )
+    {
+        outWriter.println( SELECCION + SEPARADOR_COMANDO + darPokemonSeleccionado( ).darNombre( ) + SEPARADOR_PARAMETROS + jugador.darImagenAvatar( ) );
+    }
+
+    /**
+     * Recibe la información del pokémon seleccionado por el oponente.<br>
+     * @throws BatallaPokemonException Si hay problemas en la comunicación.
+     */
+    public void leerPokemonSeleccionado( ) throws BatallaPokemonException
+    {
+        try
+        {
+            // Leer el mensaje con el nombre del pokémon seleccionado por el oponente.
+            // SELECCION;;;<nombre>:::<avatar>
+            String[] partes = inReader.readLine( ).split( SEPARADOR_COMANDO );
+            if( partes[ 0 ].equals( SELECCION ) )
+            {
+                String datosOponente[] = partes[ 1 ].split( SEPARADOR_PARAMETROS );
+                modificarNombrePokemonSeleccionadoOponente( datosOponente[ 0 ] );
+                oponente.modificarImagenAvatar( datosOponente[ 1 ] );
+            }
+            else
+            {
+                throw new BatallaPokemonException( "Error al recibir la información del pokémon seleccionado por el oponente. No se recibió el mensaje esperado." );
+            }
+            verificarInvariante( );
+
+        }
+        catch( IOException e )
+        {
+            throw new BatallaPokemonException( "Error al recibir la información del pokémon seleccionado por el oponente. " + e.getMessage( ) );
+        }
+        catch( ArrayIndexOutOfBoundsException e)
+        {
+            throw new BatallaPokemonException( "Se presentaron problemas al recibir la información del pokémon seleccionado  por el oponente. No se recibió el mensaje esperado." );
+            
+        }
+        verificarInvariante( );
+    }
+
+    /**
+     * El jugador cambia el pokémon seleccionado para jugar actualmente. <br>
+     * <b> pre: </b> Se encuentra establecida una conexión con el servidor. <br>
+     * El estado del juego se encuentra REALIZANDO_JUGADA. <br>
+     * <b> post: </b> estadoJuego = ESPERANDO_JUGADA. <br>
+     * @param pNombrePokemon Nombre del pokémon seleccionado. pNombrePokemon != null && pNombrePokemon != "".
+     */
+    public void cambiarPokemon( String pNombrePokemon )
+    {
+        modificarPokemonSeleccionado( pNombrePokemon );
+        outWriter.println( CAMBIO_POKEMON + SEPARADOR_COMANDO + darPokemonSeleccionado( ).darNombre( ) + SEPARADOR_PARAMETROS + darSaludPokemonActual( ) );
+        estadoJuego = ESPERANDO_OPONENTE;
+
+    }
+
+    /**
+     * Este método se encarga de realizar un ataque y procesar la respuesta del oponente. <br>
+     * <b>pre:</b>estadoJuego = ESPERANDO_JUGADA_LOCAL.
+     * @param pTipo Tipo del pokémon con el que se realiza el ataque.
+     * @throws BatallaPokemonException Si hay problemas en la comunicación.
+     */
+    public void enviarJugada( String pTipo ) throws BatallaPokemonException
+    {
+        try
+        {
+            // Enviar el mensaje
+            outWriter.println( ATAQUE );
+            estadoJuego = ESPERANDO_RESPUESTA;
+
+            // Leer la respuesta enviada por el oponente
+            String respuesta = inReader.readLine( );
+            String[] partes = respuesta.split( SEPARADOR_COMANDO );
+
+            // ATAQUE;;;<resultadoAtaque>:::<saludRestantePokemon>:::<cantidadPokemonesDebiles>
+            if( partes[ 0 ].equals( DANIO ) )
+            {
+                String datosOponente[] = partes[ 1 ].split( SEPARADOR_PARAMETROS );
+                // Ingresar los valores del oponente para la interfaz: resultadoAtaque, cantidadPokemonesDebiles.
+                mensajesSinLeer.add( "Has herido al pokemon del oponente. Perdió " + datosOponente[ 0 ] + " puntos de salud." );
+                modificarSaludPokemonOponente( Double.parseDouble( datosOponente[ 1 ] ) );
+                modificarCantidadPokemonesDebilesOponente( Integer.parseInt( datosOponente[ 2 ] ) );
+            }
+            else if( partes[ 0 ].equals( CAMBIO_POKEMON_AUTO ) )
+            {
+                // CAMBIO_POKEMON_AUTO;;;<nombrePokemon>:::<saludRestantePokemon>:::<cantidadPokemonesDebiles>
+                String datosCambio[] = partes[ 1 ].split( SEPARADOR_PARAMETROS );
+                // Ingresar los valores del oponente para la interfaz: nombrePokemonSeleccionadoOponente.
+                modificarNombrePokemonSeleccionadoOponente( datosCambio[ 0 ] );
+                modificarSaludPokemonOponente( Double.parseDouble( datosCambio[ 1 ] ) );
+                modificarCantidadPokemonesDebilesOponente( Integer.parseInt( datosCambio[ 2 ] ) );
+                mensajesSinLeer.add( oponente.darAlias( ) + " cambió su pokémon por " + datosCambio[ 0 ] + "." );
+            }
+            else if( respuesta.startsWith( FIN_JUEGO ) )
+            {
+                // FIN_JUEGO
+                mensajesSinLeer.add( "¡Felicitaciones! ¡Has ganado la batalla!" );
+                juegoTerminado = true;
+            }
+            estadoJuego = ESPERANDO_OPONENTE;
+        }
+        catch( IOException e )
+        {
+            throw new BatallaPokemonException( "Se presentaron problemas con la conexión al servidor. " + e.getMessage( ) );
+        }
+        catch( ArrayIndexOutOfBoundsException e)
+        {
+            throw new BatallaPokemonException( "Se presentaron problemas al recibir el resultado de la jugada. No se recibió el mensaje esperado." );
+            
+        }
+        verificarInvariante( );
+    }
+
+    /**
+     * Realiza las tareas necesarias para terminar el encuentro.<br>
+     * Se averigua el nombre del ganador, la conexión con el servidor se cierra y el estado del juego pasa a SIN_CONECTAR.<br>
+     * <b>pre:</b>juegoTerminado = true.
+     * @throws BatallaPokemonException Si hay problemas en la comunicación.
+     */
+    public void terminarEncuentro( ) throws BatallaPokemonException
+    {
+        try
+        {
+            // Leer el mensaje con el nombre del ganador
+            // GANADOR;;;<nombre>
+            String mensajeFin = inReader.readLine( );
+            String[] partes = mensajeFin.split( SEPARADOR_COMANDO );
+            nombreGanador = partes[ 1 ];
+            estadoJuego = SIN_CONECTAR;
+
+            // Cerrar la conexión al servidor
+            outWriter.close( );
+            inReader.close( );
+            canal.close( );
+
+            outWriter = null;
+            inReader = null;
+            canal = null;
+        }
+        catch( IOException e )
+        {
+            throw new BatallaPokemonException( "Se presentaron problemas con la conexión al servidor. " + e.getMessage( ) );
+        }
+        catch( ArrayIndexOutOfBoundsException e)
+        {
+            throw new BatallaPokemonException( "Se presentaron problemas terminando el encuentro. No se recibió el mensaje esperado." );
+            
+        }
+        verificarInvariante( );
+    }
+
+    /**
+     * Carga el archivo con la información de los pokémon disponibles.<br>
+     * <b>post: </b> Se inicializó el arreglo de pokémon con la información encontrada en el archivo
+     * @throws BatallaPokemonException
+     */
+    private void cargarArchivo( ) throws BatallaPokemonException
+    {
+        try
+        {
+            File archivo = new File( ARCHIVO_POKEMON );
+            BufferedReader lector = new BufferedReader( new FileReader( archivo ) );
+
+            int cantidadPokemones = Integer.parseInt( lector.readLine( ) );
+            pokemonDisponibles = new Pokemon[cantidadPokemones];
+            for( int i = 0; i < cantidadPokemones; i++ )
+            {
+                String[] informacion = lector.readLine( ).split( ";" );
+                pokemonDisponibles[ i ] = new Pokemon( informacion[ 1 ], informacion[ 0 ], "./data/imagenes/" + informacion[ 2 ] );
+            }
+        }
+        catch( NumberFormatException nfe )
+        {
+            throw new BatallaPokemonException( "No se pudo cargar los pokémon. El archivo tiene el formato incorrecto." );
+        }
+        catch( IOException e )
+        {
+            throw new BatallaPokemonException( "No se pudo cargar los pokémon. No se encontró el archivo." );
+
+        }
+
+    }
+
+    // -----------------------------------------------------------------
+    // Invariante
+    // -----------------------------------------------------------------
+
+    /**
+     * Verifica el invariante de la clase.<br>
+     * <b>inv</b><br>
+     * estadoJuego pertenece a {SIN_CONECTAR, ESPERANDO_LOCAL, ESPERANDO_OPONENTE, ESPERANDO_RESPUESTA}.<br>
+     * estadoJuego = SIN_CONECTAR => juegoTerminado = true.<br>
+     * estadoJuego != SIN_CONECTAR => canal != null.<br>
+     * estadoJuego != SIN_CONECTAR => out != null.<br>
+     * estadoJuego != SIN_CONECTAR => in != null.<br>
+     * estadoJuego != SIN_CONECTAR => tableroFlota != null.<br>
+     * estadoJuego != SIN_CONECTAR => tableroAtaque != null.<br>
+     * estadoJuego != SIN_CONECTAR => servidor != null.<br>
+     * estadoJuego != SIN_CONECTAR => mensajesSinLeer != null.<br>
+     * estadoJuego != SIN_CONECTAR => nombreJugador != null. <br>
+     * estadoJuego != SIN_CONECTAR => puerto > 0.
+     */
+    private void verificarInvariante( )
+    {
+        assert ( estadoJuego == SIN_CONECTAR || estadoJuego == ESPERANDO_LOCAL || estadoJuego == ESPERANDO_OPONENTE || estadoJuego == ESPERANDO_RESPUESTA ) : "El estado no es válido";
+        if( estadoJuego == SIN_CONECTAR )
+            assert juegoTerminado : "Valor inválido de atributo juegoTerminado";
+        else
+        {
+            assert ( canal == null ) : "Si el estado es SIN_CONECTAR, entonces no hay conexión";
+            assert ( outWriter == null ) : "Si el estado es SIN_CONECTAR, entonces no hay conexión";
+            assert ( inReader == null ) : "Si el estado es SIN_CONECTAR, entonces no hay conexión";
+            assert ( servidor != null ) : "La dirección del servidor no puede ser null";
+            assert ( mensajesSinLeer != null ) : "La lista de mensajes no puede ser null";
+            assert ( puerto > 0 ) : "El puerto debe ser mayor a 0";
+        }
+    }
+
+    // -----------------------------------------------------------------
+    // Puntos de Extensión
+    // -----------------------------------------------------------------
+
+    /**
+     * Método para la extensión 1.
+     * @return Respuesta 1.
+     */
+    public String metodo1( )
+    {
+        return "Respuesta 1";
+    }
+
+    /**
+     * Método para la extensión 2.
+     * @return Respuesta 2.
+     */
+    public String metodo2( )
+    {
+        return "Respuesta 2";
+    }
+
+}

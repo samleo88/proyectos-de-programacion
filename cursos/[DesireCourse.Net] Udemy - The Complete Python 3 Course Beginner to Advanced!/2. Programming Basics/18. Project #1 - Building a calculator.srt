@@ -1,0 +1,807 @@
+1
+00:00:00,290 --> 00:00:01,530
+Todos los chicos bienvenidos.
+
+2
+00:00:01,530 --> 00:00:08,190
+Estamos al final de la segunda sección de este curso, lo que significa que ustedes tienen una comprensión básica de
+
+3
+00:00:08,190 --> 00:00:12,360
+Python que en realidad tienen suficiente ahora para desarrollar algunos programas básicos.
+
+4
+00:00:12,390 --> 00:00:15,760
+Ahora bien, podrías estar pensando Bueno, espera, ni siquiera hicimos tanto.
+
+5
+00:00:15,770 --> 00:00:22,620
+Es posible que parezca cierto, pero hemos aprendido algunos conceptos de principios básicos aquí, así como
+
+6
+00:00:22,680 --> 00:00:25,340
+la sintaxis del lenguaje hasta ahora.
+
+7
+00:00:25,380 --> 00:00:35,070
+Así que actualmente sabemos cómo crear bucles como while y si o while en bucles for, sabemos que si en else
+
+8
+00:00:35,070 --> 00:00:40,990
+declaramos, sabemos cómo crear cadenas y todos los tipos diferentes, como números booleanos.
+
+9
+00:00:41,070 --> 00:00:44,940
+Y también sabemos cómo establecer variables entre otras cosas.
+
+10
+00:00:44,940 --> 00:00:52,110
+Entonces, lo que vamos a hacer ahora es que para el proyecto de esta sección vamos a poner la
+
+11
+00:00:52,110 --> 00:00:58,920
+mayor parte de lo que hemos aprendido en la sección y vamos a construir un programa de calculadora.
+
+12
+00:00:59,520 --> 00:01:09,270
+Así que voy a abrir Chrome aquí y vamos a buscar una calculadora Python y
+
+13
+00:01:10,890 --> 00:01:18,040
+solo más tarde para ver básicamente cómo podemos escribir una calculadora.
+
+14
+00:01:18,040 --> 00:01:20,120
+Así que esto se ve bien.
+
+15
+00:01:21,440 --> 00:01:26,220
+Entonces, como pueden ver en la parte superior de las tiras están definiendo las funciones.
+
+16
+00:01:26,380 --> 00:01:28,510
+Qué para suma y resta, etc. matemática elegida entre los dos Dunkers.
+
+17
+00:01:28,670 --> 00:01:34,580
+Y cada uno de ellos tomará un límite de dos números y devolverá el resultado de la ecuación
+
+18
+00:01:34,640 --> 00:01:39,970
+Así que va a ser lo mismo para aplicar a todo.
+
+19
+00:01:40,020 --> 00:01:43,990
+Y aquí es donde el programa real comenzará a generar el putsch.
+
+20
+00:01:44,400 --> 00:01:47,750
+Básicamente, va a decir que seleccionar una operación le dirá a qué corresponde cada número.
+
+21
+00:01:47,760 --> 00:01:53,020
+Y eso creará una variable llamada elección y usará una función de entrada
+
+22
+00:01:53,250 --> 00:01:57,990
+que básicamente le permite al usuario escribir algo y luego ingresar.
+
+23
+00:01:57,990 --> 00:02:01,850
+Y cualquiera que sea el tipo se puede almacenar la elección.
+
+24
+00:02:01,970 --> 00:02:04,420
+Entonces va a ser el proyecto.
+
+25
+00:02:04,500 --> 00:02:06,390
+Así que esto se va
+
+26
+00:02:06,390 --> 00:02:13,500
+a imprimir antes de la entrada, así que básicamente va a decir su elección uno dos tres o cuatro
+
+27
+00:02:13,500 --> 00:02:20,400
+y luego lo que el usuario escriba después de eso se va a almacenar en la opción variable.
+
+28
+00:02:20,490 --> 00:02:21,720
+Y luego están creando otras dos variables.
+
+29
+00:02:21,890 --> 00:02:25,920
+El primer número, el segundo número y para cada uno, le
+
+30
+00:02:26,010 --> 00:02:32,370
+pedirá que ingrese los números, de modo que primero ingrese el tipo que va a estar haciendo.
+
+31
+00:02:32,370 --> 00:02:34,990
+Y luego ingresa el primer número y luego ingresa el segundo número.
+
+32
+00:02:35,100 --> 00:02:39,440
+Y una vez que ingrese aquí, lo que va a hacer tiene todo lo que necesita.
+
+33
+00:02:39,750 --> 00:02:42,860
+Por lo tanto, es bueno usar la declaración
+
+34
+00:02:42,990 --> 00:02:51,120
+if else para determinar cuál fue tu elección para que sepa qué función tiene la llamada con los $ 2 que
+
+35
+00:02:51,150 --> 00:03:00,360
+has puesto, lo que es asombroso y que ustedes pueden estar muy emocionados de construir esto, pero estamos en realidad irá unos pasos más allá.
+
+36
+00:03:00,360 --> 00:03:03,690
+Y la razón es que si abrimos una
+
+37
+00:03:03,840 --> 00:03:10,900
+calculadora probablemente sabrá que no se me preguntó de inmediato por qué operación matemática quiero pagar.
+
+38
+00:03:10,900 --> 00:03:14,800
+Simplemente carga con el procedimiento y luego puedo escribir los números, digamos 50.
+
+39
+00:03:15,010 --> 00:03:22,230
+Y el operador matemático que vamos a usar Baalke se aplica para ingresar y
+
+40
+00:03:22,660 --> 00:03:29,050
+vamos a obtener cien ahora con el final de la ecuación matemática aquí.
+
+41
+00:03:29,050 --> 00:03:34,020
+Notarás dos diferencias entre este programa y el script de Python.
+
+42
+00:03:34,150 --> 00:03:38,860
+El trasfondo allí y es que no se detuvo.
+
+43
+00:03:38,860 --> 00:03:42,430
+Y en realidad podemos continuar operando sobre el resultado de eso primero.
+
+44
+00:03:42,610 --> 00:03:46,890
+Quiero agregar 75 más 7 5 e ingresarlo para agregarlo a los resultados.
+
+45
+00:03:47,160 --> 00:03:52,610
+Ahora si quiero jugar eso por dos, solo doy dos y se multiplicará.
+
+46
+00:03:52,720 --> 00:03:58,140
+Así que esta es una operación matemática continua donde el script de
+
+47
+00:03:58,240 --> 00:04:05,560
+python te permite realizar una operación y está limitado a dos números y es muy eficiente.
+
+48
+00:04:05,590 --> 00:04:12,450
+Y supongo que muy simple.
+
+49
+00:04:12,460 --> 00:04:14,260
+Así que eso es bueno.
+
+50
+00:04:14,270 --> 00:04:16,000
+Pero vamos a ir un poco más avanzados, así que adelante y abra su identificación.
+
+51
+00:04:16,010 --> 00:04:23,720
+Lo que vamos a hacer aquí es utilizar las bibliotecas Redjacket o los
+
+52
+00:04:24,780 --> 00:04:32,100
+rechazos de importación de que vamos a imprimir el nombre de nuestro programa.
+
+53
+00:04:33,300 --> 00:04:36,260
+Se puede llamar nuestra calculadora mágica.
+
+54
+00:04:36,330 --> 00:04:44,120
+Ahora mismo, vamos a crear dos variables.
+
+55
+00:04:44,560 --> 00:04:46,970
+Entonces, si lo anterior va a ser igual
+
+56
+00:04:46,990 --> 00:04:53,080
+a cero y lo que va a hacer es que la variable anterior mantenga el resultado de la ecuación calculada previamente.
+
+57
+00:04:53,080 --> 00:04:58,930
+Así que vamos a establecerlo en cero porque todavía no hemos hecho las matemáticas.
+
+58
+00:04:58,930 --> 00:05:03,040
+Y luego vamos a crear una variable llamada está mal.
+
+59
+00:05:03,100 --> 00:05:05,550
+Y ustedes probablemente podrían adivinar qué va a hacer esto.
+
+60
+00:05:05,690 --> 00:05:09,390
+Ahora necesitamos crear un ciclo para nuestro programa, así que vamos a escribir mientras estamos en ejecución.
+
+61
+00:05:10,010 --> 00:05:14,910
+Y vamos a llamar a una función llamada perform vas.
+
+62
+00:05:15,760 --> 00:05:22,660
+Vayamos aquí y creemos una función llamada perform form.
+
+63
+00:05:23,180 --> 00:05:30,600
+Entonces, lo primero que debemos hacer es poder aceptarlo por parte del usuario para escribir.
+
+64
+00:05:32,010 --> 00:05:37,610
+adelante y escriba la pregunta.
+
+65
+00:05:37,850 --> 00:05:39,960
+Así que
+
+66
+00:05:42,650 --> 00:05:44,640
+Igual a la entrada, ingrese la ecuación.
+
+67
+00:05:45,260 --> 00:05:51,570
+Y por ahora solo vamos a imprimir lo que escribieron.
+
+68
+00:05:55,060 --> 00:06:00,020
+Por lo tanto, es todo si escribe esta ecuación decir.
+
+69
+00:06:00,850 --> 00:06:08,250
+Ahora corramos esto.
+
+70
+00:06:08,560 --> 00:06:14,280
+Así que solo voy a imprimir Hola mundo.
+
+71
+00:06:14,340 --> 00:06:17,110
+Y dice que has escrito Hola mundo.
+
+72
+00:06:18,250 --> 00:06:20,090
+terminal o deteniéndose aquí.
+
+73
+00:06:20,320 --> 00:06:31,360
+Y luego regresa a las indicaciones para volver a escribir y escribir algo, y esto va a seguir para siempre porque no hemos
+
+74
+00:06:31,360 --> 00:06:38,230
+creado una forma de detenerlo más de lo que usted sabe cerrando la ventana del
+
+75
+00:06:38,230 --> 00:06:40,940
+Entonces, lo que vamos a hacer ahora es crear una forma de terminar o salir de
+
+76
+00:06:40,940 --> 00:06:41,360
+esta aplicación.
+
+77
+00:06:44,270 --> 00:06:51,420
+Así que adelante imprimir sale para salir seguido de una nueva línea así que ahorremos eso.
+
+78
+00:06:51,470 --> 00:07:04,150
+Ahora lo que tenemos que hacer es que si escriben "dejar de fumar"
+
+79
+00:07:04,310 --> 00:07:11,390
+queremos que sepa que realmente abandonaron el programa.
+
+80
+00:07:11,540 --> 00:07:12,160
+Así que tenemos que hacer es que necesitamos acceso para ejecutar la variable aquí.
+
+81
+00:07:12,320 --> 00:07:16,290
+Entonces, por ejemplo, déjenme hacer esto primero.
+
+82
+00:07:16,310 --> 00:07:19,140
+Si la ecuación es igual a la salida, avance y establezca la ejecución en falso.
+
+83
+00:07:19,290 --> 00:07:30,610
+Más.
+
+84
+00:07:30,730 --> 00:07:32,660
+Imprime lo que escribamos.
+
+85
+00:07:32,670 --> 00:07:34,600
+Entonces, adelante, ahorre.
+
+86
+00:07:35,110 --> 00:07:36,250
+Vamos a ejecutar esto para que podamos escribir Hola.
+
+87
+00:07:36,270 --> 00:07:40,120
+Y lo que está haciendo es esto, escribimos y renunciamos.
+
+88
+00:07:40,420 --> 00:07:44,070
+Entonces, no está haciendo esto sino que está haciendo esto.
+
+89
+00:07:44,080 --> 00:07:48,230
+Así que vamos a escribir rápido, sin
+
+90
+00:07:48,490 --> 00:07:49,790
+hacer nada.
+
+91
+00:07:52,860 --> 00:07:56,860
+Entonces, básicamente, lo que está sucediendo aquí es que este es un alcance variable básicamente para explicar esto.
+
+92
+00:07:57,130 --> 00:08:04,710
+Esta es una variable en la que creamos el nivel superior de nuestro programa, por lo que no está definido en ninguna función ni
+
+93
+00:08:04,740 --> 00:08:11,270
+nada de lo que estamos en una función aquí y estamos probando declaraciones Wearne if o más en el código.
+
+94
+00:08:11,380 --> 00:08:18,400
+Y hemos afirmado que runty era falso, que esto no va a tener ningún efecto en esto muy bien.
+
+95
+00:08:18,440 --> 00:08:24,240
+No tiene acceso a lo que tenemos que hacer primero, es obtener esa variable global en
+
+96
+00:08:24,240 --> 00:08:31,500
+esta función de la manera en que lo hacemos, que está justo en la parte superior del tipo de función global.
+
+97
+00:08:32,640 --> 00:08:36,260
+Y luego el nombre de la variable global a la que intenta acceder.
+
+98
+00:08:36,450 --> 00:08:41,340
+Avancemos y guardemos y reiniciemos.
+
+99
+00:08:41,370 --> 00:08:45,000
+Así que verán que todavía podemos escribir esas cosas tan pronto como escriba donde realmente sale.
+
+100
+00:08:45,860 --> 00:08:51,230
+Entonces eso es lo que queríamos hacer.
+
+101
+00:08:51,360 --> 00:08:53,720
+Ahora continuemos y reiniciemos esto.
+
+102
+00:08:55,560 --> 00:08:58,090
+Esperamos que tus ecuaciones se vean así.
+
+103
+00:08:58,110 --> 00:09:03,100
+Entonces, ¿cómo podemos hacer eso?
+
+104
+00:09:03,150 --> 00:09:06,650
+y cada uno recolecta su propia variable.
+
+105
+00:09:06,840 --> 00:09:15,660
+Bueno, preguntémonos en realidad cómo podemos hacerlo sin crear un conjunto limitado de funciones que realicen
+
+106
+00:09:15,660 --> 00:09:24,870
+operaciones. Si quisiéramos hacer esto, lo sabríamos o lo que si queríamos hacer esto en el guión
+
+107
+00:09:28,070 --> 00:09:34,340
+que acabamos de ver sería posible. porque solo podíamos usar dos números
+
+108
+00:09:34,340 --> 00:09:37,870
+Entonces, lo que vamos a hacer es usar una función incorporada.
+
+109
+00:09:38,210 --> 00:09:48,670
+Así que, en realidad, lo que voy a hacer es tener acceso a la
+
+110
+00:09:48,780 --> 00:09:58,740
+variable global anterior también y establecer el año anterior igual a la ecuación.
+
+111
+00:09:58,740 --> 00:10:02,330
+Entonces, si seguimos adelante y clasificamos esto bien, vemos que todavía dice que ha escrito
+
+112
+00:10:09,860 --> 00:10:12,180
+82 o ha escrito que sabe cuál fue la ecuación.
+
+113
+00:10:15,350 --> 00:10:21,700
+Entonces, queremos que esto haga matemática y lo que vamos a
+
+114
+00:10:21,800 --> 00:10:26,600
+hacer es utilizar una función incorporada llamada Eva.
+
+115
+00:10:27,170 --> 00:10:28,060
+Así que
+
+116
+00:10:28,260 --> 00:10:38,240
+sigue adelante aquí y ahorremos tres estrellas y puedes ver que antes de que se imprima el resultado o lo que hayamos puesto lo va a evaluar.
+
+117
+00:10:41,140 --> 00:10:49,080
+Así que esto va a poder realizar operaciones matemáticas complejas a partir de cadenas para que
+
+118
+00:10:49,080 --> 00:10:56,080
+podamos escribir literalmente 80 veces 100 más 40 para quitar 10 más 78 veces
+
+119
+00:10:56,080 --> 00:11:12,600
+lo que el editor 42 lo calcula y lo hace en el orden correcto para que podamos todos sabemos que la multiplicación ocurre antes de la suma y evaluamos la declaración o la función,
+
+120
+00:11:12,610 --> 00:11:17,710
+de hecho, es consciente de eso y lo hace por nosotros.
+
+121
+00:11:17,730 --> 00:11:21,760
+Quizás pienses bien, eso es increíble.
+
+122
+00:11:22,810 --> 00:11:24,690
+¿Por qué no vas en esos ejemplos básicos de calculadora?
+
+123
+00:11:24,700 --> 00:11:28,600
+¿Por qué no usan el alfabeto?
+
+124
+00:11:28,600 --> 00:11:30,910
+La razón es porque se supone que la función yvel debe evitarse porque puede ser peligrosa.
+
+125
+00:11:30,940 --> 00:11:37,880
+Déjame mostrarte por qué voy a imprimir aquí Hola mundo y luego entrar.
+
+126
+00:11:38,050 --> 00:11:47,520
+Verás qué sucedió es cuando se evalúa y, de hecho, si escribimos aquí
+
+127
+00:11:47,920 --> 00:11:54,160
+el código de Python, va a ejecutar la celda.
+
+128
+00:11:54,160 --> 00:11:57,360
+ejecutar C para que podamos colgar también.
+
+129
+00:11:57,730 --> 00:12:00,340
+Déjame seguir y establecer cloake o
+
+130
+00:12:04,590 --> 00:12:09,440
+Ahora esto funcionará siempre que supongamos que nuestros usuarios van a realizar ecuaciones matemáticas.
+
+131
+00:12:11,560 --> 00:12:17,910
+Pero, ¿qué pasa si no están bien debido a esto vamos a hacer esto?
+
+132
+00:12:17,910 --> 00:12:26,430
+Déjame seguir adelante con la
+
+133
+00:12:26,450 --> 00:12:27,230
+ecuación.
+
+134
+00:12:30,690 --> 00:12:31,720
+Va a ser igual
+
+135
+00:12:32,040 --> 00:12:36,840
+a la evaluación de la ecuación en realidad Hurlock anterior a donde tenemos que hacer primero es el rendimiento de
+
+136
+00:12:40,070 --> 00:12:40,570
+Redjacket en él.
+
+137
+00:12:43,680 --> 00:12:47,070
+Por lo tanto, queremos que solo se rompan,
+
+138
+00:12:47,100 --> 00:12:53,400
+usted sabe símbolos matemáticos o números, no queremos que puedan escribir nada o emitir comandos.
+
+139
+00:12:53,400 --> 00:12:55,880
+Entonces, la forma en que hacemos eso es básicamente, vamos a crear una nueva variable.
+
+140
+00:12:55,980 --> 00:13:00,700
+Bueno, en realidad esto asigna una ecuación igual a tres puntos.
+
+141
+00:13:00,720 --> 00:13:05,350
+Y aquí vamos a ingresar a nuestros proyectos.
+
+142
+00:13:06,180 --> 00:13:08,150
+Así que, por el bien de esto o
+
+143
+00:13:08,160 --> 00:13:13,710
+vamos a estar haciendo es de la A a la Z capital de A a Z, digamos períodos de calma cohetes y espacios.
+
+144
+00:13:16,720 --> 00:13:26,160
+Entonces ahí vamos
+
+145
+00:13:26,170 --> 00:13:30,160
+Así que vamos a eliminar todo, excepto que sabes todo lo importante.
+
+146
+00:13:30,430 --> 00:13:34,690
+Vamos a seguir adelante y también con el código naranja.
+
+147
+00:13:34,690 --> 00:13:38,540
+Vamos a reemplazarlo con nada.
+
+148
+00:13:38,590 --> 00:13:40,990
+Vamos a hacer esto también ecuación.
+
+149
+00:13:40,990 --> 00:13:44,080
+Así que seguimos adelante y te muestro a qué me refiero.
+
+150
+00:13:45,220 --> 00:13:48,690
+Vamos a volver a ejecutar esto y comenzar a decir hola.
+
+151
+00:13:49,370 --> 00:13:52,340
+Seis mundo.
+
+152
+00:13:52,680 --> 00:13:55,130
+Lo que sucede va a quitar todo de eso antes de que lo evalúe.
+
+153
+00:13:55,350 --> 00:13:59,230
+Entonces, solo va a aceptar números
+
+154
+00:13:59,250 --> 00:14:01,710
+o como pudiste ver.
+
+155
+00:14:06,380 --> 00:14:08,040
+Usted conoce la historia plausible directamente allí.
+
+156
+00:14:08,520 --> 00:14:12,730
+Todo bien.
+
+157
+00:14:13,190 --> 00:14:15,940
+Ahí tienes.
+
+158
+00:14:19,360 --> 00:14:20,020
+Entonces cinco más 11 a 11 veces es 22 más cinco es igual a siete.
+
+159
+00:14:20,110 --> 00:14:29,370
+Así que ya tenemos una calculadora impresionante, pero no se ve del todo bien.
+
+160
+00:14:29,380 --> 00:14:34,300
+de estado, pero solo va a pedirte que agregues a la ecuación.
+
+161
+00:14:34,450 --> 00:14:39,190
+Así que vamos a hacer es que básicamente vamos a ponerlo
+
+162
+00:14:39,190 --> 00:14:40,380
+Si no hay
+
+163
+00:14:40,540 --> 00:14:50,030
+un tipo anterior que vamos a hacer es si realmente creo una ecuación aquí vamos a seguir adelante y decir si el
+
+164
+00:14:53,890 --> 00:15:07,730
+anterior es decir igual a cero va a poner que de otra manera la ecuación va a ser igual a lo que acaba de ser Así que ve a la cuerda, vete.
+
+165
+00:15:11,750 --> 00:15:24,010
+Así que déjame seguir y la primera vez va a pedir ecuaciones así que cuatro más tres.
+
+166
+00:15:24,060 --> 00:15:28,490
+Y va a caer hacia abajo.
+
+167
+00:15:28,970 --> 00:15:30,690
+No puedo seguir este.
+
+168
+00:15:30,790 --> 00:15:33,030
+Y verás que no funciona del todo.
+
+169
+00:15:35,350 --> 00:15:37,300
+Entonces, lo
+
+170
+00:15:37,320 --> 00:15:50,120
+que tenemos que hacer es decir si este año siempre está separado, queremos evaluarlo por separado.
+
+171
+00:15:50,120 --> 00:15:51,520
+Si es un anterior Si hay un resultado anterior o no.
+
+172
+00:15:52,100 --> 00:15:57,290
+Entonces, lo que tenemos que hacer es seguir adelante y si el anterior es igual a cero.
+
+173
+00:15:57,320 --> 00:16:06,330
+De hecho, vamos a hacer esto, que solo evaluará lo que escribamos en else.
+
+174
+00:16:07,250 --> 00:16:15,600
+Davis será fácil de evaluar.
+
+175
+00:16:16,050 --> 00:16:20,100
+Convertir la ecuación más anterior, así que guarde el reinicio,
+
+176
+00:16:20,690 --> 00:16:26,250
+vamos a ir cuatro más cuatro, es decir, ocho a seis veces diez.
+
+177
+00:16:29,160 --> 00:16:40,140
+Eso va a ser 60 y puede ver que estamos usando diferentes tipos de matemáticas en un 5:06 para llevar
+
+178
+00:16:40,260 --> 00:16:43,870
+dos más tres sesenta y seis.
+
+179
+00:16:49,320 --> 00:16:54,640
+Así que esto es lo que queremos, pero solo eliminemos donde dice que escribe.
+
+180
+00:16:54,660 --> 00:16:58,980
+Ya no creemos que tomemos dos,
+
+181
+00:16:59,250 --> 00:17:00,810
+es uno
+
+182
+00:17:06,490 --> 00:17:20,830
+más cincuenta y seis y se puede ver que ahora podemos llegar a las matemáticas aquí, que escribiría al comenzar de nuevo.
+
+183
+00:17:20,900 --> 00:17:25,200
+Entonces puedes realizar básicamente cualquier operación matemática aquí.
+
+184
+00:17:30,780 --> 00:17:37,880
+queremos que muestre un mensaje específico cuando se cierra y se imprimió.
+
+185
+00:17:38,100 --> 00:17:39,570
+Cuando acierte ahora,
+
+186
+00:17:42,930 --> 00:17:52,520
+Adiós.
+
+187
+00:17:53,000 --> 00:17:57,800
+Adelante ejecútalo y lo que escribimos lo que verás ahora dice adiós humano.
+
+188
+00:18:01,190 --> 00:18:04,900
+Y luego se cierra.
+
+189
+00:18:04,940 --> 00:18:06,210
+Entonces este es realmente un programa completamente válido.
+
+190
+00:18:06,350 --> 00:18:10,790
+Y se ve muy diferente del otro ejemplo que vimos.
+
+191
+00:18:10,940 --> 00:18:15,710
+Ahora la fluctuación de Yvel la función de Avowe puede ser peligrosa.
+
+192
+00:18:15,710 --> 00:18:21,450
+Muy bien puede ser
+
+193
+00:18:21,680 --> 00:18:23,220
+Y es por eso
+
+194
+00:18:23,300 --> 00:18:28,430
+que lo que estamos haciendo antes de evaluar cualquier cosa es que
+
+195
+00:18:28,730 --> 00:18:37,140
+nos estamos asegurando de que no haya letras y que no haya ninguno de estos personajes, porque si supieras que
+
+196
+00:18:46,280 --> 00:18:56,880
+alguien podría ser así, alguien podría saber si abortan el sistema. Los módulos de sistema operativo que están incluidos en Python podrían terminar dañando su sistema.
+
+197
+00:18:56,880 --> 00:18:58,710
+Entonces, al usar Redjacket para eliminar todo eso antes de su evaluación, estamos manteniendo las cosas seguras.
+
+198
+00:18:58,740 --> 00:19:06,350
+Así que gracias chicos por acompañarme y felicitaciones por terminar la segunda sección del
+
+199
+00:19:06,390 --> 00:19:13,680
+discurso en la siguiente sección y el siguiente grupo de videos que vamos
+
+200
+00:19:13,680 --> 00:19:19,950
+a aprender o conceptos avanzados y vamos a desarrollar programas más complicados.
+
+201
+00:19:19,950 --> 00:19:23,910
+Douglas.
+
+202
+00:19:23,920 --> 00:19:24,570
+&nbsp;

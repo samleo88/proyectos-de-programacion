@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00.520 --> 00:07.500
+To start things off let's work on our setup essentially let's create our Flex box sandbox where we can
+
+00:07.500 --> 00:12.780
+practice flex box properties while the video is not going to be long.
+
+00:12.870 --> 00:15.170
+If you don't feel like working on a setup.
+
+00:15.360 --> 00:20.760
+Feel free to skip it altogether and just download the files from the video resources.
+
+00:20.760 --> 00:24.660
+So let's start by creating a folder.
+
+00:24.840 --> 00:30.580
+I'm going to do that in desktop so always you can do it wherever you'd like.
+
+00:30.690 --> 00:37.860
+I'm going to rename it to be legs box to trial something like that.
+
+00:38.520 --> 00:44.610
+Now once I have my folder I'm going to head over to my favorite text editor which is ladies and gentlemen.
+
+00:44.620 --> 00:50.850
+Visual Studio code and then of course I'm gonna drag and drop that folder in the Visual Studio code
+
+00:51.030 --> 00:58.490
+all right now within the Visual Studio code let's create index each demo index and them all file.
+
+00:58.540 --> 01:02.130
+Let's also right away create our HDMI skeleton.
+
+01:02.150 --> 01:06.270
+And again I'm using in fact Emmett that comes with Visual Studio code.
+
+01:06.270 --> 01:13.110
+So again I just get an exclamation mark and I'm done as well as I would like to have a new file by the
+
+01:13.110 --> 01:16.030
+name of Stiles CSX.
+
+01:16.500 --> 01:17.900
+Now that's number one.
+
+01:17.910 --> 01:24.180
+Then let's open up a new browser window like so when I said it side by side.
+
+01:24.180 --> 01:25.120
+Now you don't have to.
+
+01:25.170 --> 01:26.540
+You can keep yours once.
+
+01:26.550 --> 01:32.010
+Pretty much separate and just use the bigger one but I'm gonna use two of them when I have a smaller
+
+01:32.010 --> 01:37.560
+one side by side all the time with lectures and the bigger one when let's say we would like to take
+
+01:37.560 --> 01:43.930
+a closer look at how some kind of see assess or flex box properly looks on a bigger browser window all
+
+01:44.030 --> 01:48.180
+right now as far as index age the amount is concerned.
+
+01:48.300 --> 01:49.980
+What do we would like to do.
+
+01:50.010 --> 01:59.940
+Well I have my documents so why don't we rename it and let's say legs box tutorial like so then after
+
+01:59.940 --> 02:05.980
+the title we're gonna set up right away link because I would like to link to stars.
+
+02:05.990 --> 02:10.610
+SS So lets go with link and let's look for styles.
+
+02:10.620 --> 02:16.280
+SS Right now I also like to serve the style tax and you'll see in a second why not.
+
+02:16.410 --> 02:17.900
+For now I'm just gonna leave them blank.
+
+02:17.910 --> 02:22.740
+But in the second you'll see why we're doing the work now within the body.
+
+02:22.740 --> 02:24.770
+This is what we're going to do.
+
+02:24.930 --> 02:28.250
+I'm gonna set up a container with few boxes.
+
+02:28.320 --> 02:34.150
+No there's multiple ways how we can do that but I'm gonna go right away with Emmett where I'm gonna
+
+02:34.170 --> 02:41.910
+say that there's gonna be let's say div with class of box then since I'm gonna create multiple of them
+
+02:42.210 --> 02:48.060
+I'm going to say that each and every day is going to have box then hyphen and then I'm going to look
+
+02:48.060 --> 02:49.030
+for the dollars.
+
+02:49.530 --> 02:54.580
+And then within that particular div most are gonna place a dollar sign as well.
+
+02:54.660 --> 02:59.130
+And I would like to multiply that all by five and you'll see in a second how it's going to look like
+
+02:59.470 --> 03:04.170
+by the way as you can see the suggestion right away it gives us and then this is what I have.
+
+03:04.380 --> 03:10.680
+And like I said we could have created this of course by writing manually box and then box number 1 but
+
+03:10.930 --> 03:13.720
+it's also need to use the Flex boxer.
+
+03:13.770 --> 03:19.620
+Now I'm gonna place all these boxes within the container so there's going to be a container and let's
+
+03:19.620 --> 03:23.680
+just move this particular div all the way to the bottom.
+
+03:23.700 --> 03:29.100
+So now I have my container and then I have my boxes and you'll see in second why we're doing that.
+
+03:29.100 --> 03:36.810
+But at the moment right now I would like to in fact open up my life server and I have multiple extensions
+
+03:36.810 --> 03:37.800
+that can do that.
+
+03:37.800 --> 03:43.330
+Remember we have the live server where we had the V.S. code preview server.
+
+03:43.830 --> 03:47.960
+So I'm going to go with the second one and there you go.
+
+03:47.970 --> 03:53.820
+These are my boxes and again just to head over back to my extensions just to show you that if I had
+
+03:53.820 --> 03:58.290
+0 2 extensions I have two of them that use in fact life server.
+
+03:58.290 --> 04:04.410
+So I have preview on a web server and life server at the moment I'm using the second one the preview
+
+04:04.410 --> 04:05.280
+on a web server.
+
+04:05.330 --> 04:08.960
+But of course it's really up to you which one you choose to use.
+
+04:08.970 --> 04:09.240
+All right.
+
+04:09.690 --> 04:12.980
+Now let's close the sidebar for a second.
+
+04:12.990 --> 04:18.960
+Then I have my boxes I have my style see ISIS not looks all good.
+
+04:19.020 --> 04:25.770
+So now I can close the indexation email as well as the welcome and let's just work in styles.
+
+04:25.800 --> 04:26.320
+Yes.
+
+04:26.730 --> 04:30.570
+So as far as style C assess let's just add some basic styles.
+
+04:30.570 --> 04:32.300
+So let's start with the body.
+
+04:32.610 --> 04:38.080
+And I'm going to go with one family and I'm going to set it up as a verb Donna.
+
+04:38.940 --> 04:41.160
+Then let's add a little bit of background.
+
+04:41.340 --> 04:45.860
+Let's go with background hashtag EF 3 EF 3 of 3.
+
+04:45.870 --> 04:50.850
+So essentially it's a red color name then for a container.
+
+04:50.850 --> 04:57.450
+I'm gonna add some water just so we can see how few legs box properties or maybe how all flex blocks
+
+04:57.480 --> 05:06.280
+properties essentially act is just gonna give us a good idea how our boxes are behaving within our container.
+
+05:06.280 --> 05:06.800
+OK.
+
+05:07.030 --> 05:15.480
+Now I'm going to set it up as more five pixels solid red and like so as you can see that is my container.
+
+05:15.670 --> 05:17.730
+And these are my boxes.
+
+05:17.840 --> 05:20.900
+Then let's create some styles for all the boxes.
+
+05:20.920 --> 05:26.930
+And remember we can nervously do that because we do have our indexation email and within the indexation
+
+05:26.970 --> 05:30.570
+email each and every day of has this box class.
+
+05:30.820 --> 05:37.790
+So when I'm applying styles for this box less well all of them all the boxes are gonna have those styles.
+
+05:38.010 --> 05:43.990
+However there's gonna be some specific styles more specifically colours that are gonna be applied only
+
+05:43.990 --> 05:45.370
+to a specific box.
+
+05:45.480 --> 05:47.560
+Right now within the style C assessed.
+
+05:47.550 --> 05:52.160
+Like I said Let's select all the boxes and that's number one.
+
+05:52.160 --> 06:02.260
+Well let's go with padding 30 pixels then we're gonna set up some text line next on line let's say center.
+
+06:02.410 --> 06:10.240
+Then also why don't we increase the font size font size and we're gonna go with 35 pixels.
+
+06:10.300 --> 06:15.170
+And lastly the color is going to be the same one as for the body.
+
+06:15.190 --> 06:20.440
+Now that was again hashtag EF 3 EF 3 EF 3 OK.
+
+06:20.570 --> 06:23.680
+Like so now currently we can of course see anything.
+
+06:24.040 --> 06:28.970
+We have a giant numbers there but since they are the same color as the background while we cannot see
+
+06:28.970 --> 06:29.080
+it.
+
+06:29.350 --> 06:33.100
+So that's the time when we're going to add some background colors as well.
+
+06:33.250 --> 06:39.800
+So let's start with box number one box number one and the color is going to be followed.
+
+06:39.940 --> 06:45.730
+So we're gonna set up a background property and here let's go with hashtag.
+
+06:45.740 --> 06:51.720
+5 8 then 1 and we have f 1 8.
+
+06:51.820 --> 06:52.200
+OK.
+
+06:52.270 --> 06:53.050
+Something like that.
+
+06:53.440 --> 06:58.300
+That's my box number one and what I'm going to do right now is in fact copy and paste it.
+
+06:58.300 --> 07:01.540
+So 1 2 3 4.
+
+07:01.690 --> 07:04.320
+Like so this should be five boxes.
+
+07:04.390 --> 07:06.320
+Let's just change these values here.
+
+07:06.400 --> 07:09.320
+So it's going to be box number two.
+
+07:09.500 --> 07:16.410
+This one is three and one is already four and then we have the five.
+
+07:17.050 --> 07:23.940
+And the only thing really that we need to do is in fact change these values for the X colors.
+
+07:24.550 --> 07:29.820
+Let's go with f 0 a two or two.
+
+07:30.190 --> 07:41.580
+So our yellow color let's say it then third one is the orange one so these nine five D five D and three
+
+07:41.590 --> 07:42.460
+nine.
+
+07:42.520 --> 07:44.200
+Okay that's our orange color.
+
+07:44.200 --> 07:50.960
+Then we have blue and green as far as blue is concerned 2 0 2 see.
+
+07:51.070 --> 07:51.920
+Five.
+
+07:51.930 --> 07:53.000
+Nine.
+
+07:53.100 --> 07:53.900
+So.
+
+07:53.950 --> 07:56.260
+And then lastly like I said Green.
+
+07:56.530 --> 08:03.380
+And we're gonna go with five one C B 20 and that's it.
+
+08:03.370 --> 08:07.300
+We're essentially done with our setup and rest of the work.
+
+08:07.300 --> 08:12.590
+In fact as we're working with the flux box and we're gonna do within style tax.
+
+08:12.610 --> 08:16.870
+And even though normally you're not going to do that of course all your ships.
+
+08:16.890 --> 08:23.200
+This is going to be let's say in one file or you're going to set up separate them in separate C Ss forms.
+
+08:23.200 --> 08:28.750
+The only reason why we're going to do it this way is very simple where I would like to separate the
+
+08:28.750 --> 08:34.630
+concerns where I would like to write all the C S as properties or I'm sorry hold the Flex blocks properties
+
+08:35.140 --> 08:39.850
+in a separate place so that way you're not confused Hey listen you know we have these styles and then
+
+08:39.850 --> 08:41.750
+we have some other flexible styles.
+
+08:41.860 --> 08:48.380
+Plus I don't have to switch screens so essentially we're gonna have a C Ss on the top and then all our
+
+08:48.390 --> 08:49.790
+HDMI on the bottom.
+
+08:49.810 --> 08:55.390
+Now there might be some cases where I'm going to switch back to style C Asus but most of the work and
+
+08:55.390 --> 09:01.310
+most of the styles as far as flex box is concerned we're going to write within these style attacks.
+
+09:01.380 --> 09:04.210
+That said guys congrats we're done with our setup.

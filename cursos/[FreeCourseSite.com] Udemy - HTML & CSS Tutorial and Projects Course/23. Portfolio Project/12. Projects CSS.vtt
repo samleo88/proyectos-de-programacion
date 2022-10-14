@@ -1,0 +1,664 @@
+WEBVTT
+
+00:00.270 --> 00:06.900
+Words go ahead to a main see a sense here and let's go all the way from the bottom where we have the
+
+00:06.960 --> 00:12.660
+end of number section and then once we have the end of numbers our hero going to say that this is going
+
+00:12.660 --> 00:17.150
+to be project here and right away let's copy and paste this.
+
+00:17.300 --> 00:24.510
+I'm going to say and of project once we have created these comments all your comments actually create
+
+00:24.510 --> 00:25.550
+this action.
+
+00:25.590 --> 00:30.960
+So I'm just going to create a little bit more space and on here I'm going to say first project.
+
+00:30.960 --> 00:37.440
+So we're going to be targeting the whole section here and we're going to say first as always we're going
+
+00:37.440 --> 00:42.650
+to have padding top bottom three RPMs in order here zero.
+
+00:42.660 --> 00:45.800
+So top bottom is going to be three left and right.
+
+00:45.840 --> 00:50.580
+It's going to be zero and we're also going to do a background and we're going to use Vire for this.
+
+00:50.760 --> 00:53.020
+And this is going to be the light color.
+
+00:53.340 --> 00:59.370
+So we're going to use a light background and once we have set the background for the whole section then
+
+00:59.370 --> 01:02.730
+we would want to center everything and for that we have the device.
+
+01:02.760 --> 01:04.900
+So we're going to say projects here.
+
+01:05.060 --> 01:07.080
+And to underscore center.
+
+01:07.080 --> 01:10.650
+So this is going to be used for horizontal Center.
+
+01:10.870 --> 01:15.790
+We don't want to say max width so he cannot exceed certain.
+
+01:15.900 --> 01:17.880
+And this is going to be 90.
+
+01:17.880 --> 01:25.080
+You know we're here we're going to have a margin to R.E.M. So that's going to be touch bottom and all
+
+01:25.110 --> 01:27.760
+you're going to say are really this.
+
+01:27.810 --> 01:34.270
+So we say this here and you can see right now that I have my margin in between us.
+
+01:34.370 --> 01:40.650
+Now once we have our project center done now let's actually work with a single project.
+
+01:40.890 --> 01:46.650
+So we're we're going to have a class of project going on here we're going to have a project to underscores
+
+01:46.960 --> 01:49.560
+and know this is going to be single project.
+
+01:49.560 --> 01:55.640
+So this is going to be the single article that's holding the actual photo and the Fantasma might go
+
+01:55.650 --> 01:58.120
+up and on here we're going to start like this.
+
+01:58.220 --> 02:04.780
+Going to say first that there is going to be margin on the top or here one on Reems and all your insides.
+
+02:05.010 --> 02:07.620
+You know what Actually let's do our dreams.
+
+02:07.890 --> 02:09.470
+Let's make it a little bit bigger.
+
+02:09.480 --> 02:14.580
+So what I'm doing right now I'm just making creating some space in between them.
+
+02:14.790 --> 02:17.250
+The actual screen size is more.
+
+02:17.430 --> 02:23.510
+And also what I want is I would want a position and this would be a position relative because again
+
+02:23.510 --> 02:30.030
+what we're going to do here with this overlay we're going to use this before we're here and we're going
+
+02:30.030 --> 02:32.360
+to set it as an absolute.
+
+02:32.370 --> 02:39.540
+So if we want to do this we need to set this guy or here the actual container as a relative.
+
+02:39.570 --> 02:44.210
+So this is why we're doing it now once we're done with an actual container.
+
+02:44.220 --> 02:46.350
+Now let's do a project here.
+
+02:46.470 --> 02:49.320
+Single project and going to target.
+
+02:49.540 --> 02:56.660
+Or we would want for the image of first we would want a display and we're going to say block then we
+
+02:56.660 --> 02:59.590
+would want a with more here of hundred.
+
+02:59.610 --> 03:04.710
+So this is going to make sure that our image always fit all here nicely.
+
+03:04.860 --> 03:11.490
+And also would want a border radius it's really going to say border and radius and we're going to create
+
+03:11.490 --> 03:15.010
+these Borrego just so we have some rounded just over here.
+
+03:15.020 --> 03:21.540
+So once I say it you see now the House rounded edges and once we're done with an image let's actually
+
+03:21.540 --> 03:23.030
+create a overlay.
+
+03:23.220 --> 03:26.270
+So like I said for this we're going to be using before.
+
+03:26.330 --> 03:28.760
+So we're all going to write projects here.
+
+03:28.980 --> 03:35.910
+Single project and what we're going to have is a common one and we'll get right on here before.
+
+03:35.910 --> 03:42.690
+So basically what we're doing is we are creating something that's not in the HD now and what we're going
+
+03:42.690 --> 03:49.590
+to do is we're going to position an absolute and we'll use the fact that the container container has
+
+03:49.590 --> 03:51.710
+the position relative here.
+
+03:51.850 --> 03:57.210
+So we're going to go back on here and we're going to say that this is going to be a content or here
+
+03:57.420 --> 04:00.420
+of content of nothing premature here.
+
+04:00.420 --> 04:05.370
+So this is going to be the empty content then we're going to do a background for the background going
+
+04:05.370 --> 04:09.870
+to do a VAR and we're going to do a dark one on this.
+
+04:09.870 --> 04:15.810
+Then once we have the background now we would need to set the width and height the width and height
+
+04:15.820 --> 04:18.190
+I'm going to say 100 percent here.
+
+04:18.330 --> 04:22.300
+And also for the height I'm going to set a person on here like this.
+
+04:22.380 --> 04:27.410
+Most likely this is going to be taking up the whole background of the container.
+
+04:27.430 --> 04:34.680
+Now once we have the width and height now I would want is a position here and for the position what
+
+04:34.680 --> 04:36.400
+I would want is actually absol.
+
+04:36.540 --> 04:42.390
+Like I said because actually I would want to play play like this so you can see right now that basically
+
+04:42.420 --> 04:47.990
+this before is covering the whole thing because now we have the position.
+
+04:48.390 --> 04:51.360
+However we would want to do a few things already.
+
+04:51.600 --> 04:57.170
+Well first of all we're going to say here is this is going to be transform and this is going to be scale.
+
+04:57.450 --> 05:07.060
+So you can imagine this scale for the transform is actually going to be multiplying the actual height
+
+05:07.150 --> 05:09.100
+and the width of an element.
+
+05:09.130 --> 05:12.580
+So we're here we're going to have a scale of 1.2.
+
+05:12.610 --> 05:16.170
+This is going to be actually multiplying and making a bigger.
+
+05:16.390 --> 05:18.940
+How are we going to go with the scale of zero.
+
+05:18.940 --> 05:25.710
+Here you can see that he basically disappears and the way we're going to get this effect is we're going
+
+05:25.710 --> 05:27.800
+to change the scale as we're having.
+
+05:28.090 --> 05:35.590
+So basically what we're saying is when we're not having scale back to zero and when we're hovering scale
+
+05:35.710 --> 05:37.340
+whatever you're actually worth.
+
+05:37.610 --> 05:44.920
+So here let's do a sort of transition because we would want this change happen over time not right away.
+
+05:45.100 --> 05:48.460
+So I'm going to say all one second is more here.
+
+05:48.700 --> 05:50.900
+So this is going to be my transition.
+
+05:51.010 --> 05:58.300
+So once I have written these properties now I always do a hover for us and for the hover effect like
+
+05:58.300 --> 06:05.280
+I said we're going to have a project single project before however or here I'm going to have a hover
+
+06:05.650 --> 06:07.140
+and that I'm going to have before.
+
+06:07.330 --> 06:10.900
+So this will be the syntax that we have project single project.
+
+06:10.900 --> 06:15.540
+Then we're all hovering and then we'll have before and then what we would want to do.
+
+06:15.540 --> 06:23.590
+Like I said now we would want a transform and I'll just say here scale and instead of scaling it bigger
+
+06:23.900 --> 06:26.590
+we're just going to say scale back to one or here.
+
+06:26.830 --> 06:30.790
+So as I'm hovering this is actually going to scale like this.
+
+06:30.850 --> 06:35.830
+So this is how it's going to look like and also what we would want is actually would want to change
+
+06:35.830 --> 06:41.080
+the opacity because you can see that it's totally dark and this is not something that we would want.
+
+06:41.130 --> 06:46.960
+So we're going to go back over here and we're going to say that originally I'd say opacity is going
+
+06:46.960 --> 06:49.010
+to be something like 0 0.
+
+06:49.210 --> 06:55.330
+However as we are hovering over we're going to set an opacity to something I don't know.
+
+06:55.330 --> 06:57.310
+Something like 0.5 here.
+
+06:57.400 --> 07:00.990
+So we still can see the image and likeness.
+
+07:01.000 --> 07:07.200
+So as you can see now as I'm hovering my overlay is showing and we're using the scale over here.
+
+07:07.480 --> 07:15.100
+You can see that here we made the actual element smaller by actually scaling up to zero hour as we are
+
+07:15.100 --> 07:15.900
+hovering.
+
+07:15.930 --> 07:20.310
+We're scaling back to one more which would be hundred with 200 high.
+
+07:20.560 --> 07:22.930
+And then over here this would be in the past.
+
+07:22.930 --> 07:26.900
+Now the last thing that I would want to work with is actually going to be the idea.
+
+07:27.010 --> 07:33.310
+So let me go down here and I'm going to say project where some of this is going to be in class going
+
+07:33.400 --> 07:39.080
+on here and this is going to be I'm sorry but I'm just going to change from the line read to Mike on
+
+07:39.500 --> 07:40.060
+this.
+
+07:40.060 --> 07:45.250
+So what I would want with an icon and this is actually going to be very similar to what we were doing
+
+07:45.250 --> 07:45.890
+before.
+
+07:46.120 --> 07:48.790
+So first let's do a color here.
+
+07:49.030 --> 07:52.620
+And what's the color var on here of light.
+
+07:52.630 --> 07:55.600
+So first let's set a light color.
+
+07:55.630 --> 08:00.940
+However we have a bug because you can see or hear that has I'm selecting the car.
+
+08:01.060 --> 08:02.950
+Nothing is actually changing.
+
+08:03.190 --> 08:10.090
+So I'm going to go back over here to the next page now and you can see that I have not a project but
+
+08:10.090 --> 08:12.040
+I have all here next.
+
+08:12.310 --> 08:16.590
+So what I'm going to do here I'm going to delete all the Easy's or here.
+
+08:16.600 --> 08:23.530
+So let me go back over here and just select everywhere where you have the and just delete it and then
+
+08:23.530 --> 08:24.900
+we're going to be working fine.
+
+08:25.170 --> 08:29.020
+So here I'm going to go all the way down to the last one.
+
+08:29.240 --> 08:35.680
+So this is going to be a project and this guy over here is also going to be a project.
+
+08:35.710 --> 08:41.740
+So once I say it now I can see that I can see the icons because the actual color is white.
+
+08:41.800 --> 08:44.040
+So now we know that everything is working.
+
+08:44.200 --> 08:51.720
+And once we have set the color of white and also we would want to have a position animal first going
+
+08:51.730 --> 08:53.200
+to say position absolute.
+
+08:53.500 --> 08:58.700
+Now we're going to do basically the same thing since we know that the container is going to be relative.
+
+08:58.900 --> 09:04.190
+So this is going to work as a holder for a position absolute.
+
+09:04.330 --> 09:07.330
+Now we can basically place the icon anywhere we want.
+
+09:07.330 --> 09:09.030
+So where we would want the icon.
+
+09:09.280 --> 09:14.910
+Well we're going to say we're here and this is going to be top and this is going to be 50 percent then
+
+09:14.920 --> 09:19.590
+we're going to have eight left or so 50 percent on this.
+
+09:19.740 --> 09:23.830
+And once we say it you can see that this is going to be a little like on here.
+
+09:23.930 --> 09:26.130
+And I also want to make a bigger size.
+
+09:26.130 --> 09:32.970
+I'm going to say font size and the font size and say six RPMs like this.
+
+09:32.970 --> 09:36.100
+So once we save it you can see that like on his own here.
+
+09:36.210 --> 09:43.120
+However as you can see here once we actually increase the font size you can see that our icon has shifted
+
+09:43.120 --> 09:45.760
+from the center all the way over here.
+
+09:45.790 --> 09:53.320
+So what we would need to do is actually use the CCS transform and actually use the Translink or we actually
+
+09:53.320 --> 09:58.360
+would use the actual height and the width of an actual icon and just get rid of it.
+
+09:58.420 --> 10:05.040
+So we're going to say this is going to be 50 percent or translation to the X and 50 percent of the way.
+
+10:05.270 --> 10:10.450
+So basically half of your height and width are really going to work right like this.
+
+10:10.450 --> 10:17.420
+We're going to say transform how this is going to be trancelike negative 50 percent here and also negative
+
+10:17.420 --> 10:18.550
+50 percent.
+
+10:18.560 --> 10:23.610
+So the first one is going to be X action and the second one is going to be y direction.
+
+10:23.750 --> 10:26.770
+So now the icon is actually exactly in the center.
+
+10:27.050 --> 10:30.990
+So once we have done this now we would want to do two things.
+
+10:31.100 --> 10:36.020
+First of all here let's make the opacity of this icon of zero.
+
+10:36.140 --> 10:38.550
+So now I can see that it's actually going to disappear.
+
+10:38.750 --> 10:41.310
+They're also going to do another transform.
+
+10:41.420 --> 10:47.240
+So going right on here and this is going to be scale so see that we can just write the second one let's
+
+10:47.240 --> 10:52.020
+say or here in front of it and we're going to do the same thing like we did before.
+
+10:52.040 --> 10:54.790
+So this is going to be transform scale of zero.
+
+10:54.800 --> 10:57.160
+So basically this is not going to be showing.
+
+10:57.170 --> 10:59.230
+And also the size is going to be zero.
+
+10:59.700 --> 11:05.690
+Once we have scaled it the last thing is going to be or year a transition and from tradition we're going
+
+11:05.690 --> 11:06.880
+to say all.
+
+11:07.040 --> 11:13.260
+And one point three seconds is this is going to be our transition.
+
+11:13.580 --> 11:16.340
+Now what actually should happen as well.
+
+11:16.670 --> 11:23.600
+Well first of all we're all going to say is as we're hovering over the high can we project I can as
+
+11:23.600 --> 11:27.500
+we're hovering over the actual icon we would want to change the color.
+
+11:27.860 --> 11:33.380
+So we're going to say color are really gray and gray.
+
+11:33.440 --> 11:38.810
+So this is going to be our color we're all going to be able to see it once we actually do something
+
+11:38.810 --> 11:39.520
+else.
+
+11:39.740 --> 11:43.180
+So don't worry about it for now we'll just have our color fixed.
+
+11:43.200 --> 11:49.940
+So once we have our color Great now we would want to have the actual icon appear as we were hovering
+
+11:49.940 --> 11:51.440
+over this container.
+
+11:51.440 --> 11:58.670
+So for this we're going to say a project or single project however so has we're hovering over the single
+
+11:58.670 --> 12:03.190
+project not what we would want is a project and here icon.
+
+12:03.590 --> 12:10.100
+So basically I'm saying as I'm hovering over the container I would want something done to this icon.
+
+12:10.360 --> 12:15.510
+And what I would want for the item first I would want a city of one.
+
+12:15.800 --> 12:18.650
+So this one was a positive zero.
+
+12:18.660 --> 12:20.550
+So basically it was invisible.
+
+12:20.600 --> 12:28.400
+Now it's 100 percent visible here let's change the transform so we're all going to say scale and we're
+
+12:28.400 --> 12:33.990
+going to say scale of one to pretty much the same thing that we did over here before.
+
+12:34.010 --> 12:39.000
+So as we're hovering over here you can see that now I have my eye on it.
+
+12:39.070 --> 12:45.440
+Now I also need to do this trancelike because if we did translate originally you could see that as I'm
+
+12:45.440 --> 12:46.220
+hovering.
+
+12:46.400 --> 12:48.960
+This is actually going back down here.
+
+12:49.030 --> 12:51.510
+So let's do the same thing with a translator.
+
+12:51.800 --> 12:58.760
+And we're going to say again negative 50 percent down here negative 50 percent or so if I'm going to
+
+12:58.760 --> 13:02.390
+go back on here now I can see that my actions is going up.
+
+13:02.510 --> 13:08.300
+Now we also can save a little bit of code and we can just skip the original one because it's not like
+
+13:08.300 --> 13:11.040
+we can see it anyway and not once we save it.
+
+13:11.120 --> 13:14.780
+You can see that right now my eye kind is going to be exactly in the center.
+
+13:15.120 --> 13:21.830
+So once we're actually done with working with an image now we would want to work with the flex marks
+
+13:22.250 --> 13:28.530
+and fix or lay out because you can see or hear that we have a four column lay out over here and if we're
+
+13:28.700 --> 13:32.390
+going to go to the small screen then we're going to have a two column way.
+
+13:32.750 --> 13:36.550
+And by now we already should know how we would need to do this.
+
+13:36.770 --> 13:44.150
+So we're all going to say media screen and I'm going to say and men and I were here and this is going
+
+13:44.150 --> 13:46.780
+to be women where now for the men with.
+
+13:46.820 --> 13:47.970
+I'm going to pick this time.
+
+13:47.970 --> 13:52.300
+So hundred sixty eight pixels on here and I'm going to say.
+
+13:52.300 --> 13:58.580
+Project Center because this is going to be the wrapper that actually is holding all of them.
+
+13:58.580 --> 14:00.370
+So all going to go back to the next stage.
+
+14:00.390 --> 14:07.970
+Now you can see that I'm making this guy or hear my flex box parent because this is holding all the
+
+14:08.060 --> 14:13.920
+images or all the actual containers seriousness is going to be my project center.
+
+14:14.010 --> 14:20.710
+So if I'm going to go back over here and I'm going to say project center now what I would want with
+
+14:20.710 --> 14:26.030
+it a first would be display flex and likeness.
+
+14:26.180 --> 14:29.940
+Then I would want a justify content on here.
+
+14:30.050 --> 14:35.990
+And again I'm going to say space between here because we're going to be setting margin in between them.
+
+14:36.050 --> 14:38.920
+You also would want a flex ramp.
+
+14:39.010 --> 14:45.560
+We're going to just wrap it just so when we ever get to the smaller screen and actually wraps the next
+
+14:45.560 --> 14:46.000
+line.
+
+14:46.310 --> 14:48.620
+So this would be the parent content.
+
+14:48.800 --> 14:55.330
+Now for the single project what you want is a project single project no here going to say like this
+
+14:55.340 --> 15:00.100
+we're going to say what's 0 0 your coke.
+
+15:00.120 --> 15:05.850
+So I'm going to be calculating again and again for the small screen we're going to have 50 percent because
+
+15:05.850 --> 15:08.800
+we would want to divide the screen in half.
+
+15:09.050 --> 15:11.900
+This is going to be our aims.
+
+15:12.160 --> 15:14.700
+So we saved it and now we can check it out.
+
+15:14.710 --> 15:21.750
+Well we have where we have a portfolio record a fresh air here and you can see that there has to be
+
+15:21.750 --> 15:25.360
+some kind of bug because right now our layout is not working.
+
+15:25.590 --> 15:30.830
+So I'm going to go back or hearing and see that I have a Coke is actually my spot.
+
+15:30.850 --> 15:37.800
+So once I save it and I'm going to go back over here and afresh I can see that my images are worth now
+
+15:37.800 --> 15:40.870
+once I have set up for 768.
+
+15:41.010 --> 15:45.390
+Now want a four column out at a 9 9 2.
+
+15:45.600 --> 15:52.620
+So in this case we can just grab this media on here so like the whole thing and just copy and paste
+
+15:52.640 --> 15:57.810
+this let me go back over here and just select the whole thing.
+
+15:58.200 --> 16:03.970
+So now once we actually copy and paste this now we're going to write it over here nine and two.
+
+16:04.200 --> 16:09.240
+So this is going to be the pixels then we can just get rid of this whole thing because this is going
+
+16:09.240 --> 16:10.920
+to stay exactly the same.
+
+16:10.920 --> 16:16.210
+Now we're going to change it to twenty five percent or so once I save it.
+
+16:16.350 --> 16:21.840
+And once they refresh it at eight nine nine till you can see them this is going to be my way.
+
+16:21.840 --> 16:26.640
+So now I have four more here campaigners side by side.
+
+16:26.670 --> 16:30.440
+However if I'm going to go to the smaller image or here you can see that.
+
+16:30.480 --> 16:33.420
+Now there are going to be two of them like this.
+
+16:33.470 --> 16:35.980
+And now we are ready to move on to our next section.

@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00.360 --> 00:08.130
+Forever webpage there in most cases is always a form that allows us to collect some kind of data whether
+
+00:08.130 --> 00:13.010
+you want to use it to sign up for something or whether you just want is personal permission.
+
+00:13.010 --> 00:16.480
+His or her you would need to set up the form.
+
+00:16.560 --> 00:18.750
+Now how do we set up the form in nature.
+
+00:19.530 --> 00:23.750
+As always we're gonna have first of all the form element and now within the form element.
+
+00:23.760 --> 00:26.100
+Notice we're going to have the action.
+
+00:26.280 --> 00:32.820
+Now I need to tell you right away that whenever we're working with forms and emails yes we will just
+
+00:32.820 --> 00:36.910
+gonna be displaying because we're all gonna be working only with a front end.
+
+00:36.930 --> 00:43.280
+Now in order to collect the data you would need to work with the backend language like for example BHP.
+
+00:43.350 --> 00:47.910
+So in our case this action as well as there's going to be another one that you're going to see a lot
+
+00:48.240 --> 00:53.700
+which would be the method is not going to mean anything because again we're not gonna collect the form.
+
+00:53.700 --> 00:59.340
+And there's also gonna be few attributes then in our case are not gonna make any kind of changes but
+
+00:59.730 --> 01:04.180
+later on as you're working with BHP or JavaScript this will gonna make sense.
+
+01:04.320 --> 01:10.050
+Now what we were gonna do later on has been working with CSX project so not nation email project but
+
+01:10.050 --> 01:15.590
+since this project we all gonna use the service called Formspring which is for free.
+
+01:15.630 --> 01:20.910
+By the way so again don't freak out you're not going to have to pay anything but this service that Formspring
+
+01:21.240 --> 01:26.950
+is going to allow us to have our form but the data is gonna be submitted to our email.
+
+01:27.090 --> 01:31.680
+So as you see are still using the action and they're still using the method.
+
+01:31.860 --> 01:37.950
+And just to quickly go over action basically would mean where this information would be sent and the
+
+01:37.950 --> 01:43.830
+method would mean how this information is gonna be processed and with the post request you basically
+
+01:43.830 --> 01:45.930
+would be adding information to the server.
+
+01:45.990 --> 01:50.490
+Again I digress a little bit but just to give you a general idea now.
+
+01:50.550 --> 01:52.900
+Like I said we're going to keep on working with the form.
+
+01:53.010 --> 01:58.680
+So the first thing that I would like to look at is the input because that's going to be our most basic
+
+01:59.040 --> 02:03.150
+type of form input that more than half is just the general input.
+
+02:03.300 --> 02:08.130
+Now with an input you're having multiple types you can have let's say input as an email.
+
+02:08.430 --> 02:10.800
+But the most basic one is gonna be text.
+
+02:10.800 --> 02:16.470
+So in this case we can just write text and the moment we're gonna press tab or enter we're gonna be
+
+02:16.470 --> 02:22.440
+getting this form with let's say Type 1 gets a text which will read the most basic one and we have a
+
+02:22.440 --> 02:23.880
+few more actually.
+
+02:23.940 --> 02:29.220
+Now again name attribute is gonna be used whenever we are collecting the data because this is something
+
+02:29.220 --> 02:34.500
+that's going to be shown again in our case we can write whatever we would like or here and nothing is
+
+02:34.500 --> 02:35.660
+going to change.
+
+02:35.670 --> 02:40.650
+Now the idea is gonna be used for label which is I'm going to show you in a second but for now let's
+
+02:40.650 --> 02:42.470
+say that I would want to save it.
+
+02:42.600 --> 02:45.890
+And as you can see right now we're having our first input.
+
+02:46.410 --> 02:50.910
+So I can obviously go ahead over here and type whatever it is I would like but nothing has happened
+
+02:51.660 --> 02:56.840
+now for every element that we're gonna have in the form meaning the input element.
+
+02:56.940 --> 02:59.290
+We also would like to have the submission.
+
+02:59.450 --> 03:05.030
+And when I said for every meaning or every form out there you would also want to submit it right.
+
+03:05.040 --> 03:09.240
+Otherwise what good does it make if you have the form which you cannot submit it.
+
+03:09.300 --> 03:13.980
+Now again I'm going to repeat in our case we're not going to be collecting the data but I would still
+
+03:13.980 --> 03:19.150
+like to create a form submit elements because you're going to need them later on anyway.
+
+03:19.200 --> 03:22.380
+Now we have two options we can use just a simple button.
+
+03:22.380 --> 03:28.080
+So let's say we have the button and within the button we can write type and for the type we would have
+
+03:28.080 --> 03:29.100
+to write submit.
+
+03:29.280 --> 03:34.860
+Now if you were using the button then obviously we're going to write our values in between the button
+
+03:34.920 --> 03:42.350
+element and if I didn't cover before initially met on the button again button would be extremely straightforward.
+
+03:42.450 --> 03:47.910
+We just write the name of the element which in our case would be button and then we have multiple types
+
+03:47.970 --> 03:48.470
+of button.
+
+03:48.900 --> 03:50.630
+So in our case this would be submitted.
+
+03:51.180 --> 03:53.900
+So as you can see right now the submit button a show.
+
+03:53.940 --> 03:59.880
+Now if you'd like to have some kind of space in between them for now we're going to use the actual line
+
+03:59.880 --> 04:06.330
+break later on as we start working with divs we're all gonna see how we can use this using the device.
+
+04:06.350 --> 04:07.650
+So at the moment I'm gonna save it.
+
+04:07.650 --> 04:08.950
+I'm going to have my input.
+
+04:09.090 --> 04:15.830
+I can write whatever I would like to have in my input and I can start clicking submit now for now.
+
+04:15.830 --> 04:20.190
+What's happening is the form is being submitted back to the same page again.
+
+04:20.190 --> 04:26.220
+This is what happens if we just leave this blank so you can just write some kind of value like on submit
+
+04:26.610 --> 04:30.810
+notice we're going to have our name here but again we're not going to work with this right now.
+
+04:31.080 --> 04:38.580
+But in general the form is gonna be empty again because we have resubmitted this to the same old page.
+
+04:38.640 --> 04:41.630
+Now we also have an option of input of submit.
+
+04:41.640 --> 04:44.090
+So not only the button but also input.
+
+04:44.100 --> 04:50.410
+So let me first comment this out and that's right that this is going to be input and for the input I
+
+04:50.410 --> 04:51.310
+would like to have.
+
+04:51.340 --> 04:52.930
+Again the options.
+
+04:52.930 --> 04:59.950
+So maybe we can just type the input first and notice if I'm not selecting with Emmett what kind of input
+
+04:59.950 --> 05:05.230
+I'm gonna have I'm gonna have the general text but here I'm going to change this and I'm gonna say that
+
+05:05.230 --> 05:09.960
+this is not gonna be equal to text give me equal to the submit.
+
+05:10.090 --> 05:14.770
+Now the moment we're gonna save it say this we have right now our submit.
+
+05:15.040 --> 05:18.190
+Now this is all working great and fine.
+
+05:18.190 --> 05:24.360
+However I also would like to see what's happening with the idea now idea is gonna be used for label
+
+05:24.420 --> 05:24.960
+now.
+
+05:25.540 --> 05:27.030
+So above the input.
+
+05:27.050 --> 05:32.150
+That's right that there's gonna be a label element and within the label element we have the attribute
+
+05:32.150 --> 05:34.500
+of for now within the four.
+
+05:34.540 --> 05:36.960
+This is where we are targeting the 80.
+
+05:37.210 --> 05:42.310
+So in our case if we know that the idea eventually is gonna be the name which is gonna be the value
+
+05:42.540 --> 05:48.580
+and then the moment I'm gonna have the four attribute I'm gonna have to add the same idea that I have
+
+05:49.020 --> 05:53.410
+all the input that I'm targeting and let's say here I'm gonna write first name.
+
+05:53.410 --> 05:55.180
+So this would be in my label.
+
+05:55.240 --> 06:02.230
+Now what's happening with the label then as I'm clicking on the label noticed right now my input is
+
+06:02.230 --> 06:07.810
+gonna be highlighted and if I'm gonna change this if let's say I'm gonna make a mistake and this is
+
+06:07.810 --> 06:12.780
+not going to be a name we can click all day long and the label is not going to be highlighted.
+
+06:13.060 --> 06:17.670
+So that would be the purpose for the label as well as we have other options.
+
+06:17.740 --> 06:19.270
+Let's say we can have the program.
+
+06:19.540 --> 06:25.270
+So we don't have to work with label although it most cases it does make sense if we're actually implementing
+
+06:25.270 --> 06:27.520
+the label whenever we're working with input.
+
+06:27.940 --> 06:30.850
+So now let's look at other options that we have for the input.
+
+06:30.860 --> 06:36.910
+And again we're not going to cover all of them but let's look at more popular ones which would be password
+
+06:36.910 --> 06:37.810
+and email.
+
+06:37.870 --> 06:43.210
+So again the same old deal we can write input first of all and then for input we can either use the
+
+06:43.210 --> 06:48.940
+element where we have just the colon and then we're picking more or we can just have the general input
+
+06:48.940 --> 06:50.690
+type and then change it.
+
+06:50.740 --> 06:55.090
+So in our case let's write that we would be looking for the password and again and we can write the
+
+06:55.090 --> 06:57.430
+name or we can have two options.
+
+06:58.030 --> 07:02.590
+So in this case since we're not gonna be using the name attribute anyway we're not going to be collecting
+
+07:02.590 --> 07:09.110
+the data maybe let's write above the input that there's going to be paragraph and let's write password.
+
+07:09.310 --> 07:14.710
+So again we're not limited to just using the label we can just use the simple paragraph and we're still
+
+07:14.710 --> 07:18.880
+going to have the input now maybe to have it displayed a little bit better.
+
+07:19.180 --> 07:21.780
+Let's add the line break first.
+
+07:21.830 --> 07:26.570
+So this is gonna be our submit and then what we're gonna have within the power password.
+
+07:26.710 --> 07:27.990
+Now we have two options.
+
+07:28.120 --> 07:34.540
+We can either write a placeholder so let's write a password and the place holder is basically going
+
+07:34.540 --> 07:39.170
+to be displayed just to give you a general idea of what the user should be typing.
+
+07:39.340 --> 07:44.620
+However at the moment I'm going to start typing notice first of all the password or the place holder
+
+07:44.620 --> 07:51.400
+is gonna disappear as well as with a type of password in for our inputs are gonna be hidden.
+
+07:51.940 --> 07:55.530
+So there is gonna be just these little bulletin points.
+
+07:55.600 --> 07:57.640
+Now I also have an option of the value.
+
+07:57.900 --> 08:04.270
+So the value attribute all the input and to show you how the value attribute works again let's create
+
+08:04.300 --> 08:06.220
+a new input for this.
+
+08:06.220 --> 08:11.560
+We're gonna write first all line Lindberg and in between these two line breaks let's create the input
+
+08:11.590 --> 08:17.590
+with an email and maybe in this case let's use the semicolon or I'm sorry colon and let's say that we're
+
+08:17.590 --> 08:24.790
+going to be looking for the input that email again name doesn't really matter for us ideas well if we're
+
+08:24.800 --> 08:29.880
+really not using the label and also need to let you know that not only for the label we can use the
+
+08:29.890 --> 08:34.120
+ADA that's how it can be used whenever we're working with JavaScript.
+
+08:34.200 --> 08:35.650
+That's also another option.
+
+08:35.730 --> 08:37.780
+But again I digress a little bit.
+
+08:37.920 --> 08:43.080
+And within the input type of e-mail we all gonna have to submit the correct e-mail.
+
+08:43.200 --> 08:45.340
+Meaning there has to be an ad site.
+
+08:45.390 --> 08:48.110
+So if I'm gonna try to submit something that doesn't make sense.
+
+08:48.630 --> 08:50.780
+So let's read maybe e-mail.
+
+08:51.140 --> 08:52.370
+Uh I don't know.
+
+08:52.380 --> 08:56.340
+Email e-mail e-mail then as I'm gonna be clicking submit.
+
+08:56.550 --> 09:03.250
+Notice there's just gonna be a little bit of uh H2 email validation or it is gonna say well you cannot
+
+09:03.260 --> 09:09.950
+submit because there is at missing the ad symbol is missing in your input type of e-mail.
+
+09:09.960 --> 09:16.530
+So if we're gonna write something like some gibberish like email uh at email there could be an option
+
+09:16.540 --> 09:18.230
+so let's say the email or email.
+
+09:18.280 --> 09:23.580
+Again this is not going to validate the actual correct email but we will gonna be able to spend right
+
+09:23.580 --> 09:28.290
+now because we did add this at symbol and last.
+
+09:28.290 --> 09:32.540
+Within just simple input types I would like to point you to the value.
+
+09:33.150 --> 09:38.820
+So the value attribute is gonna allow us to hard code something and that in most cases you would use
+
+09:38.820 --> 09:43.520
+something like this whenever you would like to have some kind of data already.
+
+09:43.520 --> 09:45.590
+So let's say you're editing something.
+
+09:45.590 --> 09:49.460
+So there has to be some kind of data that's already being passed on.
+
+09:49.550 --> 09:55.490
+So let's say in here I could write email at email dot com or something like us whatever we would like
+
+09:55.490 --> 09:59.030
+here wherever we would like to write here within this valley.
+
+09:59.180 --> 10:02.510
+And sure enough right now I have already hard coded data.
+
+10:02.510 --> 10:08.060
+Now the difference between the place holder and hardcoded data that the moment you start working with
+
+10:08.060 --> 10:12.890
+the place holder the place holder is going to disappear with the hard coded data.
+
+10:12.920 --> 10:14.440
+This is already going to stay.
+
+10:14.730 --> 10:19.990
+So with the value the value is going to be actually displayed now where we could use the value.
+
+10:20.010 --> 10:24.660
+Well as you can see here we have the input type and type was submit.
+
+10:25.040 --> 10:29.510
+But what if I would like to change the tax because by default we're having this summit.
+
+10:29.990 --> 10:37.040
+So here I can just say value and let's say submit please again whatever we would like to write over
+
+10:37.040 --> 10:37.760
+here.
+
+10:37.790 --> 10:40.880
+It doesn't really matter at the moment we're gonna save it.
+
+10:40.970 --> 10:43.340
+Obviously I'm gonna be having the submit please.
+
+10:43.970 --> 10:48.290
+So these would be the basics of how we can work with input types.
+
+10:48.350 --> 10:52.000
+And again we would first need to have some kind of type.
+
+10:52.160 --> 10:54.640
+And the most simple one was gonna be text.
+
+10:54.860 --> 11:01.630
+Then we're gonna have usually name attribute which we will use only when we are submitting the data.
+
+11:01.670 --> 11:08.120
+So whenever we're collecting the data and then we have an option for the I.D. attribute the attribute
+
+11:08.120 --> 11:14.660
+we can use with the label or if we're gonna be working with the javascript then for the label it will
+
+11:14.660 --> 11:21.630
+allow us to click on the label and if the ideas match with the four attributes then they form is gonna
+
+11:21.650 --> 11:23.610
+be highlighted with a password.
+
+11:23.630 --> 11:29.610
+We're going to have our both points so the passport is going to be hidden for the place holder.
+
+11:29.620 --> 11:35.090
+No information is going to be before the user types anything but the moment you start typing.
+
+11:35.170 --> 11:37.970
+Obviously the place holder is going to disappear.
+
+11:37.990 --> 11:43.300
+Now the value is going to give us the hard coded values whenever any form is shown right away.
+
+11:43.720 --> 11:48.970
+So I can obviously submit this also with hard coded data but it's still going to show up right away
+
+11:49.000 --> 11:54.880
+because I still have my value and we have two types of options of how we can submit the data whether
+
+11:54.880 --> 12:02.050
+that would be the input with the type of input as well as just a button with a type of submit button.

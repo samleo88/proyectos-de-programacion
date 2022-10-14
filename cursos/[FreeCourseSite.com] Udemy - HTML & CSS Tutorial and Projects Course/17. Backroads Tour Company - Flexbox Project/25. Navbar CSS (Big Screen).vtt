@@ -1,0 +1,526 @@
+WEBVTT
+
+00:00.510 --> 00:01.050
+Excellent.
+
+00:01.050 --> 00:04.410
+We have our extra small screen and small screen layout.
+
+00:04.770 --> 00:12.030
+However we also need to work on our C assess just so once we get to a bigger screen size well we're
+
+00:12.030 --> 00:14.260
+gonna have this particular layout.
+
+00:14.300 --> 00:16.310
+Well like I said there's going to be a logo.
+
+00:16.310 --> 00:17.310
+No button.
+
+00:17.310 --> 00:22.760
+And then links in the center as well as my nav icons.
+
+00:23.130 --> 00:26.250
+Now in order not to switch back and forth.
+
+00:26.370 --> 00:31.230
+In fact what I'm going to do right now is zoom out here.
+
+00:31.410 --> 00:36.190
+So I'm going to go back to the hundred and I'm going to try to do it side by side here.
+
+00:36.240 --> 00:42.000
+So that way I think it's gonna be less annoying the fact that I don't have to switch back and forth
+
+00:42.000 --> 00:43.020
+all the time.
+
+00:43.500 --> 00:48.560
+Now let's test that out first and foremost by setting up the media query because that way I'm gonna
+
+00:48.570 --> 00:51.960
+see exactly when I get to nine hundred and ninety two.
+
+00:51.960 --> 00:53.250
+Now of course it's really up to you.
+
+00:53.250 --> 00:57.340
+You can use a different size but I went with nine hundred ninety two.
+
+00:57.390 --> 01:01.500
+So once we get to nine hundred ninety two then I'm going to change my layout.
+
+01:01.920 --> 01:10.580
+So let's write screen and I'm going to go with men with of nine hundred ninety two pixels.
+
+01:10.960 --> 01:16.340
+And first of all it's to start out by looking at the nav bar and I'm going to add some background color
+
+01:16.340 --> 01:17.000
+of red.
+
+01:17.000 --> 01:22.220
+Now I'm gonna delete this particular one but I just want to test once I get to nine hundred ninety two.
+
+01:22.260 --> 01:22.680
+OK.
+
+01:22.730 --> 01:23.230
+There you go.
+
+01:23.230 --> 01:25.120
+I think it looks really well.
+
+01:25.190 --> 01:29.750
+Hopefully you're gonna be able to see everything that we're doing and what I'm going to do right now
+
+01:29.750 --> 01:31.920
+is I'm just going to get rid of this nav bar.
+
+01:31.980 --> 01:37.130
+Now first of all what I would like to do is in fact hide my button.
+
+01:37.220 --> 01:42.650
+Now remember that was something that I mentioned that once we'd get to the bigger screen size I wouldn't
+
+01:42.650 --> 01:44.360
+want that button to show.
+
+01:44.360 --> 01:51.340
+So remember Button had enough toggle class and we're gonna go with display of none.
+
+01:51.350 --> 01:52.340
+That's number one.
+
+01:52.850 --> 02:01.490
+Now second once we get to the bigger screen size nav links remember that was our class we had a nav
+
+02:01.490 --> 02:07.110
+links class and my links are displayed currently this way they are displayed as the blocks or they're
+
+02:07.130 --> 02:09.650
+stacked one on top of each other.
+
+02:09.680 --> 02:15.470
+What I would like to do once I get to nine hundred ninety two I'm going to go with a nav links and I'm
+
+02:15.470 --> 02:20.810
+gonna set them up as display of flex like so that second.
+
+02:20.840 --> 02:27.310
+Now currently I'm also gonna add something very interesting with a value of height order.
+
+02:27.650 --> 02:33.400
+Now it does not make sense right now but later when we're going to set up the functionality I'm going
+
+02:33.400 --> 02:38.420
+to come back to this property in value but I just wanted to add it anyway right now right away within
+
+02:38.420 --> 02:42.800
+my meter query but currently it doesn't make sense because it doesn't change anything.
+
+02:42.830 --> 02:49.130
+But I am adding height of order because later in order to set up our functionality in fact we are going
+
+02:49.130 --> 02:53.930
+to control the height of my LAV links but we're gonna get there.
+
+02:53.930 --> 03:01.670
+Now also I'd like to show my icons remember icons had a parent container with a class of NAV icons and
+
+03:01.670 --> 03:05.280
+for them I'm going to set up display of flex.
+
+03:05.550 --> 03:06.740
+And there you go.
+
+03:06.740 --> 03:09.210
+Now we have our icons OK.
+
+03:09.230 --> 03:11.240
+All that is working really well.
+
+03:11.240 --> 03:17.450
+And now it's start working with our NAV center because remember we had the nav bar but then within the
+
+03:17.450 --> 03:19.910
+NAB bar we had this nav central class.
+
+03:20.090 --> 03:23.840
+So this now center is in fact a parent for nav header.
+
+03:23.840 --> 03:30.770
+It is a parent for the NAV links and then we have the NAV icons and you can think of it as three children.
+
+03:30.860 --> 03:32.140
+One is the header.
+
+03:32.150 --> 03:33.390
+Second one is the links.
+
+03:33.530 --> 03:35.890
+And then we have our NAV icons.
+
+03:36.170 --> 03:41.830
+So let's start working on it because it is probably going to be one of the most important ones.
+
+03:42.080 --> 03:49.610
+As far as styling goes so let's go with Nan center and let's start very simply by setting up some kind
+
+03:49.610 --> 03:56.750
+of Max width so I'm going to say that this particular div is going to have Max with of eleven hundred
+
+03:56.750 --> 04:01.430
+seventy and then margin of 0 and auto.
+
+04:01.520 --> 04:09.710
+And in this case I am going to in fact switch over to the other screen just so you can see that if we
+
+04:09.710 --> 04:13.750
+start scrolling and I think it's going to be easier if we just zoom out.
+
+04:13.800 --> 04:20.960
+But in general you should be able to see that my nav center here is in fact eleven hundred seventy just
+
+04:20.960 --> 04:23.940
+like the remaining of my sections.
+
+04:24.260 --> 04:30.830
+So that was the reason why I added here this max width of 11 70 just because I would want to have the
+
+04:30.830 --> 04:37.340
+same styling as rest of my sections and I'm just adding here margin of 0 and auto just so it's always
+
+04:37.340 --> 04:39.910
+sitting here in the center.
+
+04:40.280 --> 04:47.960
+Then we're gonna have some display of flex because I would want my header my links my icons to be displayed
+
+04:47.960 --> 04:50.020
+in one line like so.
+
+04:50.030 --> 04:50.780
+And there you go.
+
+04:50.780 --> 04:52.820
+Now they're sitting in one line.
+
+04:52.910 --> 04:56.210
+Now I also like to push them as far as possible from each other.
+
+04:57.080 --> 05:04.730
+So let's use space between and yes we do have it now then also let's align all of them in the center
+
+05:05.120 --> 05:10.970
+because notice our logo is bigger our links are bigger so we have also our small icons.
+
+05:10.970 --> 05:13.320
+So why don't we place them all in a center.
+
+05:13.430 --> 05:17.390
+And now we have all of them lined nicely in the center.
+
+05:17.420 --> 05:23.810
+And lastly even though my setup doesn't require because I'm just switching to nine hundred ninety two
+
+05:24.170 --> 05:27.470
+I'm only changing the screen size once I get to nine or 92.
+
+05:27.500 --> 05:32.650
+You might as well also add right away flex wrap an equal to wrap just in case you ever.
+
+05:33.080 --> 05:34.260
+I don't need it.
+
+05:34.640 --> 05:37.200
+But in this case it is optional.
+
+05:37.220 --> 05:43.370
+Now remember don't have header had already some pairings some patterns that we used on a smaller screen
+
+05:43.370 --> 05:44.010
+size.
+
+05:44.060 --> 05:49.790
+So what I would like to do right now is head over to NAV header and just say Hey listen buddy your batting
+
+05:49.790 --> 05:51.790
+should be 0 0.
+
+05:51.800 --> 05:52.280
+That's it.
+
+05:52.280 --> 05:56.240
+I don't want any pairings that are coming previously.
+
+05:56.600 --> 05:57.560
+That's number one.
+
+05:57.560 --> 06:03.480
+Now I also want to do the same thing for my links because links also had some pairings.
+
+06:03.500 --> 06:09.860
+So I'm going to say here you know what for the batting or the links let's right now have a link and
+
+06:09.860 --> 06:14.940
+I'm sorry not links but link and we're going to set it up as 0 like so.
+
+06:15.320 --> 06:23.180
+So now I have no padding from the small screen size and we can start finally working on our layout as
+
+06:23.180 --> 06:26.720
+far as well as we're working with our items.
+
+06:26.810 --> 06:33.140
+Now when I say that in fact I am misleading I'm a little bit because we still need to fix this notice
+
+06:33.140 --> 06:37.390
+from our previous screen size from small screen size we still have this effect.
+
+06:37.430 --> 06:38.650
+So why don't we do this.
+
+06:38.660 --> 06:44.290
+Why don't we say now the link cover and let's change it around let's say when we're hovering batting
+
+06:44.360 --> 06:45.560
+shouldn't change.
+
+06:45.590 --> 06:50.020
+So padding is going to stay zero and background is going to be transparent.
+
+06:50.040 --> 06:50.200
+Right.
+
+06:50.210 --> 06:52.460
+Because remember we were changing the background.
+
+06:52.580 --> 06:57.640
+So now the only thing that is happening is in fact we are.
+
+06:57.940 --> 06:58.610
+Oh yeah.
+
+06:58.650 --> 07:01.490
+Natalie cover story now handling cover.
+
+07:01.520 --> 07:06.280
+Now it is working only thing that is happening we are changing the color.
+
+07:06.290 --> 07:06.530
+All right.
+
+07:06.530 --> 07:11.380
+Nothing else is changing as far as our links are concerned.
+
+07:11.390 --> 07:15.480
+So let me zoom in and you're going to notice that we're only changing the color.
+
+07:15.560 --> 07:22.250
+So now we're done in fact removing all the things that we had already previously on our small screen
+
+07:22.250 --> 07:22.800
+size.
+
+07:22.820 --> 07:25.520
+So now we can finally start working just with this layout.
+
+07:26.000 --> 07:28.020
+So let's start with a napper.
+
+07:28.550 --> 07:36.170
+And for Navarre I'm going to go with padding of one arms and two areas mark so I'm going to add some
+
+07:36.170 --> 07:37.160
+padding here.
+
+07:37.250 --> 07:40.150
+Then let's in fact work with now center.
+
+07:40.170 --> 07:45.890
+Now technically I could again add these properties here with the values but the reason why I'm setting
+
+07:45.950 --> 07:50.990
+this up separately because I think it's a little bit clearer of what we're doing step by step.
+
+07:51.170 --> 07:58.100
+Because in my opinion if I'm going to add these properties here somewhere on the top while they might
+
+07:58.100 --> 07:59.100
+not make sense.
+
+07:59.110 --> 07:59.660
+OK.
+
+07:59.810 --> 08:05.480
+And this particular property is just going to be nav bar and I'm going to I'm sorry.
+
+08:05.480 --> 08:07.590
+Not now no center.
+
+08:07.870 --> 08:15.140
+Navarre center and I would like this particular day to span all across some somewhere say 100 percent
+
+08:15.360 --> 08:15.810
+mark so.
+
+08:16.160 --> 08:20.570
+So I'm going to set this up as hundred percent not technically we could have placed it this property
+
+08:20.570 --> 08:21.900
+now that I'm looking at it.
+
+08:22.010 --> 08:26.400
+I mean probably would have made sense but anyway that just was my opinion.
+
+08:26.420 --> 08:30.250
+So I set this up does not bar center with with 100 percent.
+
+08:30.370 --> 08:35.380
+But then remember that Max with is always going to be eleven hundred and seventy.
+
+08:35.390 --> 08:36.210
+All right.
+
+08:36.300 --> 08:44.120
+Now I also like to add a little bit of margin for my links so let's write nav bar link or no sorry nav
+
+08:44.140 --> 08:44.850
+link.
+
+08:45.080 --> 08:51.500
+That was the class and that was the class for each and every link and number each and every link had
+
+08:51.500 --> 08:52.040
+this class.
+
+08:52.040 --> 08:59.530
+So that's the reason why I'm targeting and then I'm going to say margin right margin right is going
+
+08:59.530 --> 09:02.050
+to be zero point seven harems.
+
+09:02.080 --> 09:07.420
+Again one of those properties that I could have added here but I just wanted to show you how we get
+
+09:07.420 --> 09:12.820
+rid of all the things from the extra small screen size and then we start working with our bigger screen
+
+09:12.820 --> 09:18.410
+size and land as far as nav bar and a bigger screen size.
+
+09:18.430 --> 09:22.310
+The only thing we really have left is working with these icons.
+
+09:22.570 --> 09:24.400
+So why don't we target.
+
+09:24.400 --> 09:31.390
+So let's say nav icon was our class and here I'm going to add the same marginal right that I had for
+
+09:31.390 --> 09:36.420
+the link zero point seven harems.
+
+09:36.430 --> 09:38.980
+That's number one color.
+
+09:39.190 --> 09:44.930
+Why don't we go with primary color primary color then font size.
+
+09:44.940 --> 09:52.620
+I don't know one point two Harry M's and then transition because as I'm transitioning as I'm hovering
+
+09:52.620 --> 09:59.120
+over these icons I would want to change their color and as well as lift them up a little bit.
+
+09:59.130 --> 10:09.210
+So why don't we say transition transition and that is going to be our main transition main transition.
+
+10:09.250 --> 10:13.490
+And then lastly remember nav icon hover.
+
+10:13.690 --> 10:15.910
+And then why don't we do color.
+
+10:16.330 --> 10:24.910
+Dark gray dark gray and we can also transform into orbit let's say translate why and I'm going to go
+
+10:24.910 --> 10:27.310
+with 10 percent.
+
+10:27.310 --> 10:28.180
+Like so.
+
+10:28.240 --> 10:33.710
+So now as we're hovering over the icons fact they're gonna move up a little bit.
+
+10:33.790 --> 10:34.510
+Yep.
+
+10:34.600 --> 10:35.480
+There you go.
+
+10:35.490 --> 10:41.950
+Now we have our layout for the extra small screen size our small screen size as well as once we get
+
+10:41.950 --> 10:46.530
+to the bigger screen size we get rid of the bunch of the things that we already set up.
+
+10:46.570 --> 10:52.990
+So essentially we kind of go back to the scratch and then we use again flex to display all of them in
+
+10:52.990 --> 10:57.170
+line and then let's just make sure that we have space in between.
+
+10:57.250 --> 11:03.430
+And then lastly we just work a little bit on the icons as well as of course hiding our NAV toggle and
+
+11:03.430 --> 11:04.040
+that's it.
+
+11:04.060 --> 11:08.070
+We're done with our Navarre as well as our whole project.
+
+11:08.080 --> 11:13.300
+Now lastly what's left is in fact just setting up javascript for the functionality.
+
+11:13.300 --> 11:20.680
+I did notice the error in the video though where when I was adding a waste of hundred in fact added
+
+11:20.680 --> 11:26.190
+to a class of nav bar which in fact does not exist in our index HCM CML.
+
+11:26.230 --> 11:32.920
+In fact the class name is NAP center and we in fact targeted that class up here on the top.
+
+11:33.340 --> 11:37.920
+So what we would need to do is either change this to a nav center.
+
+11:37.960 --> 11:45.550
+So let me change this to now center or you can just simply get rid of it altogether and just add a with.
+
+11:45.550 --> 11:47.900
+Also here for the NAF center.
+
+11:47.900 --> 11:53.020
+So again there was an error I added with width one hundred two and NAV bar center that in fact does
+
+11:53.020 --> 11:53.950
+not exist.
+
+11:53.950 --> 11:54.770
+That class.
+
+11:54.940 --> 12:01.690
+And then we should add the property with a value of hundred to our NAV center class whether that is
+
+12:01.690 --> 12:08.950
+by scrolling up and just adding to our first selection or just changing the net bar center to a nav
+
+12:08.950 --> 12:09.450
+center.
+
+12:09.450 --> 12:10.570
+Class selector.

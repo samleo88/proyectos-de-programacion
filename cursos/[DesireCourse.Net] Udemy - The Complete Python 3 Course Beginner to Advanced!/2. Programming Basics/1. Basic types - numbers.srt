@@ -1,0 +1,331 @@
+1
+
+00:00:00,000  -->  00:00:05,250
+Alright, so before we actually get into
+functional programming, or object
+
+2
+
+00:00:05,250  -->  00:00:08,940
+oriented programming for that matter,
+with Python we need to discuss some
+
+3
+
+00:00:08,940  -->  00:00:13,139
+basic types, and then variables, and some
+other stuff. So in this video we're going
+
+4
+
+00:00:13,139  -->  00:00:17,130
+to be covering numbers. So, what is a
+number? Well, i'm sure you guys know what
+
+5
+
+00:00:17,130  -->  00:00:22,140
+a number is and I'm sure we've all been
+through grade primary and one so we're
+
+6
+
+00:00:22,140  -->  00:00:27,900
+all familiar with that. Now there's two
+different types of numbers, one is called
+
+7
+
+00:00:27,900  -->  00:00:32,730
+an integer, and then a floating point. The
+floating point is basically any number
+
+8
+
+00:00:32,730  -->  00:00:37,110
+that has a decimal included in it. So
+let's go ahead and write out some
+
+9
+
+00:00:37,110  -->  00:00:41,969
+numbers on the screen. Now i'm going to
+be using the Python console down here
+
+10
+
+00:00:41,969  -->  00:00:46,079
+for this video so watch down there,
+that's where stuff is going to happen. So,
+
+11
+
+00:00:46,079  -->  00:00:51,989
+for an instance of a number we can just
+write a number, it's going to appear in
+
+12
+
+00:00:51,989  -->  00:00:56,550
+the console, or the ID, or whatever you
+know has syntax highlighting that you're
+
+13
+
+00:00:56,550  -->  00:01:00,300
+using it's going to show as blue or it should you know, actually that really depends
+
+14
+
+00:01:00,300  -->  00:01:03,629
+on your color scheme that you've got
+going on, it's going to show a specific
+
+15
+
+00:01:03,629  -->  00:01:10,470
+color. Now, we can just use numbers in
+Python just by writing the numbers and
+
+16
+
+00:01:10,470  -->  00:01:14,549
+if we hit enter it's going to print out
+5. Now with numbers we can perform
+
+17
+
+00:01:14,549  -->  00:01:18,990
+mathematical operations on these numbers as you saw in some of the previous
+
+18
+
+00:01:18,990  -->  00:01:27,960
+videos that we've done so far. So I could
+write 5 + 6 and we're going to get a
+
+19
+
+00:01:27,960  -->  00:01:39,360
+response of the sum of 5 + 6. Now
+what would happen if I wrapped these
+
+20
+
+00:01:39,360  -->  00:01:49,350
+numbers in quotations? So let's go ahead
+and write "5 + 6" if you think
+
+21
+
+00:01:49,350  -->  00:01:57,659
+that this will produce 11, you're wrong,
+It's going to produce 56, and you might
+
+22
+
+00:01:57,659  -->  00:02:02,130
+be thinking, hold up, 5 + 6 does
+not equal 56.
+
+23
+
+00:02:02,650  -->  00:02:06,610
+You're absolutely right. Not in math,
+
+24
+
+00:02:06,610  -->  00:02:12,550
+however when you're concatenated strings it does. So basically when you wrap
+
+25
+
+00:02:12,550  -->  00:02:16,570
+something in quotations in Python,
+Python is going to treat it as a string,
+
+26
+
+00:02:16,570  -->  00:02:22,570
+not a number. So if you're trying to
+perform mathematical operations just
+
+27
+
+00:02:22,570  -->  00:02:28,870
+remember don't wrap your numbers in
+quotations. Now additionally we can use
+
+28
+
+00:02:28,870  -->  00:02:36,250
+floating points to perform math
+operations, and you can see it returns a
+
+29
+
+00:02:36,250  -->  00:02:47,560
+floating-point. Now if we ran 5.5 + 5.5
+it's going to still return a floating
+
+30
+
+00:02:47,560  -->  00:02:54,880
+point, however you know
+it's 11.0 because we've passed it,
+
+31
+
+00:02:55,750  -->  00:03:01,270
+you know, decimal floating-point
+numbers and so it's going to return with
+
+32
+
+00:03:01,270  -->  00:03:06,580
+one because that's just how it works. Now, we're going to talk about how to convert
+
+33
+
+00:03:06,580  -->  00:03:14,200
+different types of types, I guess. These are called types. A
+
+34
+
+00:03:14,200  -->  00:03:19,330
+number is a type, a string is a type, and
+right here we've got, we've shown, both
+
+35
+
+00:03:19,330  -->  00:03:24,700
+numbers and strings and we're going to
+cover strings in the next video, but for
+
+36
+
+00:03:24,700  -->  00:03:29,080
+right now let's say well I have some
+numbers but they're wrapped in
+
+37
+
+00:03:29,080  -->  00:03:34,330
+quotations and I still want to perform
+mathematical operations on them, how can I do
+
+38
+
+00:03:34,330  -->  00:03:42,400
+that? So, basically in Python there's a
+built-in function called int which will
+
+39
+
+00:03:42,400  -->  00:03:49,180
+convert a string to a number if that
+string contains only numbers. So let's
+
+40
+
+00:03:49,180  -->  00:03:54,070
+look at a correct usage of int and then
+an incorrect usage and see the output
+
+41
+
+00:03:54,070  -->  00:04:02,230
+for both. So let's say I have the number
+"5" wrapped in quotations, what I'm going to
+
+42
+
+00:04:02,230  -->  00:04:09,280
+do is wrap that in the int function and
+this is also how you write a call to a
+
+43
+
+00:04:09,280  -->  00:04:10,440
+function
+
+44
+
+00:04:10,440  -->  00:04:18,480
+in Python, and then i'm going to perform
+a mathematical operation on it with
+
+45
+
+00:04:18,480  -->  00:04:26,670
+another number wrapped in quotations. Now this is not going to produce 57, in fact
+
+46
+
+00:04:26,670  -->  00:04:31,620
+it's going to convert both of those into
+integers and then perform the math
+
+47
+
+00:04:31,620  -->  00:04:38,790
+operations on them. So that's how to add
+up different numbers that are contained
+
+48
+
+00:04:38,790  -->  00:04:47,160
+within quotations, let's have a look at
+trying to convert text to an integer. So
+
+49
+
+00:04:47,160  -->  00:04:49,800
+let's write "int" and let's write
+
+50
+
+00:04:49,800  -->  00:04:57,240
+"(hello)" and hit enter. As you can guess it's printing out an error because
+
+51
+
+00:04:57,240  -->  00:05:03,060
+there's an invalid literal for int with
+base 10. Basically, what that means is
+
+52
+
+00:05:03,060  -->  00:05:07,770
+we've passed it something that is not an
+integer. So think of this function
+
+53
+
+00:05:07,770  -->  00:05:11,070
+basically as it takes whatever you put
+into the function, it removes the
+
+54
+
+00:05:11,070  -->  00:05:16,890
+quotations, and then returns that. Same if
+I just type this, Python is going to
+
+55
+
+00:05:16,890  -->  00:05:20,790
+freak out because it doesn't know what
+hello is because this is going to be
+
+56
+
+00:05:20,790  -->  00:05:25,470
+interpreted not as a string, but it's
+going to be interpreted as computer code,
+
+57
+
+00:05:25,470  -->  00:05:28,620
+and we're going to get more into strings
+in the next video.

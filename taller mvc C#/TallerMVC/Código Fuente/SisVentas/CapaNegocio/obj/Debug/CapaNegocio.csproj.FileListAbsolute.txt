@@ -1,0 +1,34 @@
+C:\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\SisVentas\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\SisVentas\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\SisVentas - copia\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\SisVentas - copia\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\SisVentas - copia\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\SisVentas - copia\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\SisVentas - copia\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\SisVentas - copia\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\SisVentas - copia\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaDatos.dll.config
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\bin\Debug\CapaDatos.dll.config
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\TallerMVC\Código Fuente\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.pdb

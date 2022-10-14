@@ -1,0 +1,518 @@
+1
+
+00:00:00,000  -->  00:00:05,370
+Hi guys, welcome back. I need to jump into PyCharm here for this video.
+
+2
+
+00:00:05,370  -->  00:00:09,960
+What we're doing in this subsection is
+Webpy. We're going to learn how to use
+
+3
+
+00:00:09,960  -->  00:00:14,370
+web.py and use it effectively, and what
+it is, and basically what it does. It's a
+
+4
+
+00:00:14,370  -->  00:00:20,850
+framework in Python which can serve up
+web content using the HTTP protocols and
+
+5
+
+00:00:20,850  -->  00:00:27,720
+it runs its own server. You write code in
+Python to define routes based on urls
+
+6
+
+00:00:27,720  -->  00:00:32,969
+and then you run the application, and you
+can you know you do all your logic in
+
+7
+
+00:00:32,969  -->  00:00:38,070
+Python, it's really, really awesome. So, what we're going to do is jump into it and
+
+8
+
+00:00:38,070  -->  00:00:43,140
+install it, before we do that check out
+this Adam Atlas quote, i'm not going to
+
+9
+
+00:00:43,140  -->  00:00:47,460
+read it to you it's longer than I care
+to read, but check it out.
+
+10
+
+00:00:48,000  -->  00:00:54,840
+You're probably gonna come to webpy.org
+any way and that quote is so
+
+11
+
+00:00:54,840  -->  00:00:56,250
+true.
+
+12
+
+00:00:56,250  -->  00:01:02,129
+Now to install you're going to have some
+problems most likely. If you run
+
+13
+
+00:01:02,129  -->  00:01:07,860
+"pip3 install web.py" I've already got
+it installed but it wasn't that easy to
+
+14
+
+00:01:07,860  -->  00:01:08,790
+install.
+
+15
+
+00:01:08,790  -->  00:01:13,740
+So, what you guys are going to have to do
+you're going to get an error and this is
+
+16
+
+00:01:13,740  -->  00:01:17,460
+going to be something that happens once
+in awhile in Python, so i'm going to show
+
+17
+
+00:01:17,460  -->  00:01:29,159
+you how to circumvent that. What you're
+going to do is go to github com/webpy/webpy.git
+
+18
+
+00:01:29,159  -->  00:01:37,320
+and you're going to see that this
+basically includes a setup.py file, and
+
+19
+
+00:01:37,320  -->  00:01:40,680
+this will allow you to install it.
+
+20
+
+00:01:41,189  -->  00:01:50,220
+One of the recent commits here was they
+removed Python 2 and then added Python 3,
+
+21
+
+00:01:50,220  -->  00:01:51,990
+or something.
+
+22
+
+00:01:51,990  -->  00:01:59,579
+So basically what we're going to want to
+do is go to python3.
+
+23
+
+00:02:03,640  -->  00:02:09,220
+Ok, this is the one that I installed. So
+you can copy the URL to clone it, ok.
+
+24
+
+00:02:09,819  -->  00:02:17,260
+So, let's grab this, copy, you're going
+to change directory into "cd Projects"
+
+25
+
+00:02:17,260  -->  00:02:27,340
+and then run "git clone" and
+then that. Now it's going to create a
+
+26
+
+00:02:27,340  -->  00:02:33,610
+folder which is going to be equal to the
+project's name, so webpy, now of course
+
+27
+
+00:02:33,610  -->  00:02:37,870
+I've already got that done because this
+is how i installed it too. Once it's
+
+28
+
+00:02:37,870  -->  00:02:44,110
+cloned, if you don't have get installed
+install it, go to github.com and you
+
+29
+
+00:02:44,110  -->  00:02:49,330
+should be able to find an installer
+there. Now once it's created the
+
+30
+
+00:02:49,330  -->  00:02:52,180
+directory if you're go into and list it here
+you're going to see exactly what you see
+
+31
+
+00:02:52,180  -->  00:02:56,890
+here and there is a setup.py file. So
+what you need to do is you need to run
+
+32
+
+00:02:56,890  -->  00:03:03,880
+"python3 ./setup.py" Manually installing Python
+
+33
+
+00:03:03,880  -->  00:03:06,700
+packages is literally that simple.
+
+34
+
+00:03:06,700  -->  00:03:10,390
+Now I've already got it installed, it's
+going to install it anyway though, and it
+
+35
+
+00:03:10,390  -->  00:03:14,440
+looks like it finished installing it
+correctly and we've got it there.
+
+36
+
+00:03:14,440  -->  00:03:20,110
+Actually, it says it's already the active
+version. So we've got that installed and
+
+37
+
+00:03:20,110  -->  00:03:23,739
+ready to go. Now we're going to set up a
+project here for it, we're going to
+
+38
+
+00:03:23,739  -->  00:03:28,000
+basically write out this code right here.
+So we're going to create a new project,
+
+39
+
+00:03:28,000  -->  00:03:35,739
+Python, and we're going to go out there
+there we are going to call it
+
+40
+
+00:03:35,739  -->  00:03:38,739
+"webproject"
+
+41
+
+00:03:43,580  -->  00:03:46,790
+Ok, I do click that.
+
+42
+
+00:03:46,790  -->  00:03:55,490
+Alright, so if you're wondering how to
+tell if you've got Webpy installed
+
+43
+
+00:03:55,490  -->  00:03:56,750
+correctly, let's
+
+44
+
+00:03:56,750  -->  00:04:06,920
+go ahead and create a Python file and call
+it "main" "import web" going to save this,
+
+45
+
+00:04:06,920  -->  00:04:16,790
+this should not return an error. So if we
+run main it didn't return an error,
+
+46
+
+00:04:16,790  -->  00:04:24,920
+this is good. Now, what we need to do is
+set up a certain set of routes so what
+
+47
+
+00:04:24,920  -->  00:04:30,080
+we're going to do is we're going to
+create a variable called "urls = ( )" and you
+
+48
+
+00:04:30,080  -->  00:04:37,490
+can really named this whatever you want
+to. It's going to be a list that contains
+
+49
+
+00:04:37,490  -->  00:04:44,600
+two items per row, and it's going to be
+the route, and then the name of the class
+
+50
+
+00:04:44,600  -->  00:04:53,150
+which that route needs to connect to. You
+can use regex here, so if you want to
+
+51
+
+00:04:53,150  -->  00:04:59,690
+have like item, or let's say '/post/' if
+you're making a blog, and then you can
+
+52
+
+00:04:59,690  -->  00:05:11,060
+just put in, you know, regular old
+regex. Mine is gonna be forward
+
+53
+
+00:05:11,060  -->  00:05:16,790
+slash, it's going to be the root of the app,
+I'm going to have it connect to an 'index'
+
+54
+
+00:05:16,790  -->  00:05:25,280
+class, and that's all you need to do. So what we're going to do is define that class
+
+55
+
+00:05:25,280  -->  00:05:26,090
+now.
+
+56
+
+00:05:26,090  -->  00:05:35,180
+So, "class index:" it's literally this
+simple. All you do is define a class
+
+57
+
+00:05:35,180  -->  00:05:41,810
+called "def GET(self, ):" going to pass itself automatically, and then you can also pass
+
+58
+
+00:05:41,810  -->  00:05:45,350
+in other parameters with it if you want.
+
+59
+
+00:05:45,350  -->  00:05:51,740
+Now this URL isn't built for
+accepting any other parameters so what
+
+60
+
+00:05:51,740  -->  00:05:56,720
+we're going to do is we're going to make
+that happen. So, basically just following
+
+61
+
+00:05:56,720  -->  00:05:57,260
+the example
+
+62
+
+00:05:57,260  -->  00:06:01,520
+on the right hand side here, we're
+going to add some regex to basically
+
+63
+
+00:06:01,520  -->  00:06:11,090
+recognize anything in there and it's
+going to pass it in here as "name" Now,
+
+64
+
+00:06:11,090  -->  00:06:18,260
+what we're going to do is we're just
+going to make it print out something, so
+
+65
+
+00:06:18,260  -->  00:06:35,570
+"print("Hello", name, '. How are you today')" and that's all our class actually needs
+
+66
+
+00:06:35,570  -->  00:06:40,520
+to have. So let's go ahead and "if__name__ == "__main__":
+
+67
+
+00:06:40,520  -->  00:06:50,270
+"if__name__ == "__main__":
+
+68
+
+00:06:50,270  -->  00:06:57,320
+and we're going to run the app so "app.run( )" but we haven't defined app. So, as you see
+
+69
+
+00:06:57,320  -->  00:07:02,030
+over here in the example this is where we
+actually instantiate the web application
+
+70
+
+00:07:02,030  -->  00:07:12,710
+simply by running "app=web.application(urls, globals( ))" and
+
+71
+
+00:07:12,710  -->  00:07:15,560
+this is going to be the routes that we
+define here, so again you can name this
+
+72
+
+00:07:15,560  -->  00:07:18,680
+anything you want to, you got to pass it into there though.
+
+73
+
+00:07:19,310  -->  00:07:24,440
+Let's go ahead and save and run this, and
+it's running right now so what we're
+
+74
+
+00:07:24,440  -->  00:07:34,340
+going to do is go ahead and open
+"localhost:8080" it says none.
+
+75
+
+00:07:34,340  -->  00:07:43,370
+So let's access "/nick" and I got confused
+here for a second because I wasn't
+
+76
+
+00:07:43,370  -->  00:07:46,760
+expecting it to pop up here but we
+didn't get to that yet, we're just
+
+77
+
+00:07:46,760  -->  00:07:52,040
+printing something, we're not returning. So that's why it did
+
+78
+
+00:07:52,040  -->  00:07:55,070
+that. So, Hello nick? How are you today?
+
+79
+
+00:07:55,070  -->  00:08:03,560
+Now, if you want to return something it's
+really simple, just type return, and then
+
+80
+
+00:08:03,560  -->  00:08:06,650
+whatever you want to return. So let's run
+this again,
+
+81
+
+00:08:08,650  -->  00:08:15,400
+and refresh again, and you see it returned
+an object. Now more specifically what we
+
+82
+
+00:08:15,400  -->  00:08:20,020
+can do if we want to which we probably
+do is just turn this into a string for
+
+83
+
+00:08:20,020  -->  00:08:26,289
+now. So remove the commas and
+concatenated it all as a string, save it, run
+
+84
+
+00:08:26,289  -->  00:08:33,610
+it, refresh, and you'll see that we've got
+text. So what you can do here is you can
+
+85
+
+00:08:33,610  -->  00:08:41,800
+actually add HTML in here, and that's
+basically where that comes from, this is
+
+86
+
+00:08:41,800  -->  00:08:43,870
+where it all ties together right here,
+
+87
+
+00:08:43,870  -->  00:08:48,520
+the fact that you returned HTML. And we're going to be learning about at templates
+
+88
+
+00:08:48,520  -->  00:08:54,760
+as well, and that's where the majority of
+the reusable code comes into play as
+
+89
+
+00:08:54,760  -->  00:08:58,750
+well, and basically this is going to be
+all your logic, we're going to be storing
+
+90
+
+00:08:58,750  -->  00:09:03,190
+templates in a separate directory, and
+loading them in and putting the
+
+91
+
+00:09:03,190  -->  00:09:04,360
+content into those templates.

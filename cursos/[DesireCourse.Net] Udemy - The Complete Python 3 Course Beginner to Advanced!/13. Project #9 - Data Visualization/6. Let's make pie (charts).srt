@@ -1,0 +1,544 @@
+1
+
+00:00:00,000  -->  00:00:01,140
+Alright, guys. What we're going to be
+
+2
+
+00:00:01,140  -->  00:00:02,879
+doing in this video is actually making a
+
+3
+
+00:00:02,879  -->  00:00:05,040
+pie chart. So let's go ahead and erase
+
+4
+
+00:00:05,040  -->  00:00:06,629
+everything we've got here because it's
+
+5
+
+00:00:06,629  -->  00:00:07,919
+going to be an entirely different chart
+
+6
+
+00:00:07,919  -->  00:00:10,139
+that we're making. The labels that we
+
+7
+
+00:00:10,139  -->  00:00:16,350
+want to use, we're going to use sicknesses or
+
+8
+
+00:00:16,350  -->  00:00:18,840
+something, let's make a graph of how many
+
+9
+
+00:00:18,840  -->  00:00:22,769
+people work in different professions, I
+
+10
+
+00:00:22,769  -->  00:00:27,779
+guess. So the labels are going to be, it's
+
+11
+
+00:00:27,779  -->  00:00:36,630
+going to be strings, so how many
+
+12
+
+00:00:36,630  -->  00:00:40,110
+people in the technology industry...
+
+13
+
+00:00:40,110  -->  00:00:42,570
+programming languages let's use that. How
+
+14
+
+00:00:42,570  -->  00:00:44,730
+many people in the technology or
+
+15
+
+00:00:44,730  -->  00:00:47,489
+programming industry use what type of
+
+16
+
+00:00:47,489  -->  00:00:49,890
+programming language. So, let's start with
+
+17
+
+00:00:49,890  -->  00:01:07,170
+Python, C++, Ruby, Java, PHP, and Pearl. I
+
+18
+
+00:01:07,170  -->  00:01:11,640
+can't remember if they spell pearl like
+
+19
+
+00:01:11,640  -->  00:01:14,430
+this or with the a. I think it's like
+
+20
+
+00:01:14,430  -->  00:01:15,930
+this but I really don't remember seeing
+
+21
+
+00:01:15,930  -->  00:01:19,200
+that any time recently. Alright, and
+
+22
+
+00:01:19,200  -->  00:01:21,960
+then we're going to make the sizes of
+
+23
+
+00:01:21,960  -->  00:01:25,560
+each one, so this is going to be a list,
+
+24
+
+00:01:25,560  -->  00:01:28,500
+and again you can name the variables
+
+25
+
+00:01:28,500  -->  00:01:30,030
+whatever you want to just make sure that
+
+26
+
+00:01:30,030  -->  00:01:31,409
+what it's time to use them to actually
+
+27
+
+00:01:31,409  -->  00:01:33,540
+build the graph that you reference the
+
+28
+
+00:01:33,540  -->  00:01:36,479
+correct variables. So Python let's say
+
+29
+
+00:01:36,479  -->  00:01:39,900
+there's let's say 10,000 people were, well
+
+30
+
+00:01:39,900  -->  00:01:41,549
+let's just say a bunch of people were
+
+31
+
+00:01:41,549  -->  00:01:44,850
+surveyed and they gave us these numbers.
+
+32
+
+00:01:44,850  -->  00:02:00,630
+So, 33, 52, 12, 17, and I need six different digits, or six different
+
+33
+
+00:02:00,630  -->  00:02:08,069
+integers. I need two more so let's say 62 and 48.
+
+34
+
+00:02:08,069  -->  00:02:10,530
+So there's my numbers that correspond to
+
+35
+
+00:02:10,530  -->  00:02:12,840
+each one of these values,
+
+36
+
+00:02:12,840  -->  00:02:14,760
+and how we're going to actually put that
+
+37
+
+00:02:14,760  -->  00:02:18,720
+into a pie chart is we're just going to
+
+38
+
+00:02:18,720  -->  00:02:29,040
+say plt.pie, and then we're going to pass
+
+39
+
+00:02:29,040  -->  00:02:38,910
+in sizes, labels=labels. Now we
+
+40
+
+00:02:38,910  -->  00:02:41,310
+should be able to run the plt.show,
+
+41
+
+00:02:41,310  -->  00:02:45,239
+and then run the chart and we do see a
+
+42
+
+00:02:45,239  -->  00:02:47,640
+basic pie chart, but one interesting
+
+43
+
+00:02:47,640  -->  00:02:49,410
+thing is that you'll notice it stretches
+
+44
+
+00:02:49,410  -->  00:02:54,150
+from a pie to more of a an egg shape. So,
+
+45
+
+00:02:54,150  -->  00:02:58,260
+the way that we fix that
+
+46
+
+00:02:58,260  -->  00:03:01,410
+is basically by setting the axis to
+
+47
+
+00:03:01,410  -->  00:03:14,819
+equal, so plt.axis, there we go, set it to
+
+48
+
+00:03:14,819  -->  00:03:17,579
+equal, and when we run the chart now
+
+49
+
+00:03:17,579  -->  00:03:19,920
+you'll see that it always stays in the
+
+50
+
+00:03:19,920  -->  00:03:22,410
+same aspect ratio, so it always looks
+
+51
+
+00:03:22,410  -->  00:03:27,000
+like a pie. Now, we can do multiple things
+
+52
+
+00:03:27,000  -->  00:03:30,150
+with this pie chart to make it easier to
+
+53
+
+00:03:30,150  -->  00:03:32,130
+see the data that's contained within
+
+54
+
+00:03:32,130  -->  00:03:34,769
+each one. So what we're going to do, and
+
+55
+
+00:03:34,769  -->  00:03:39,840
+also as you'll notice it arranges
+
+56
+
+00:03:39,840  -->  00:03:42,599
+our pie chart counterclockwise, so if
+
+57
+
+00:03:42,599  -->  00:03:44,549
+we start up Python and we go backwards,
+
+58
+
+00:03:44,549  -->  00:03:47,519
+then we see what we've got forwards here.
+
+59
+
+00:03:47,519  -->  00:03:51,419
+So the first thing I want to do is the
+
+60
+
+00:03:51,419  -->  00:03:54,810
+actual percentages from these numbers, so
+
+61
+
+00:03:54,810  -->  00:03:59,220
+I want to know what percent exactly that
+
+62
+
+00:03:59,220  -->  00:04:02,250
+you know each item is. So we're going to
+
+63
+
+00:04:02,250  -->  00:04:06,389
+use the keyword argument autopct, and
+
+64
+
+00:04:06,389  -->  00:04:10,590
+we're just going to set it to a weird
+
+65
+
+00:04:10,590  -->  00:04:15,189
+little number, and
+
+66
+
+00:04:15,900  -->  00:04:18,690
+I'm not sure why we use this I will have
+
+67
+
+00:04:18,690  -->  00:04:21,750
+to find out why this works. Anyway, so if
+
+68
+
+00:04:21,750  -->  00:04:25,199
+you restart the application it will show
+
+69
+
+00:04:25,199  -->  00:04:27,060
+you that 14% of programmers
+
+70
+
+00:04:27,060  -->  00:04:29,400
+use Python, or 23% percent of
+
+71
+
+00:04:29,400  -->  00:04:33,780
+programmers use C++. Now another thing
+
+72
+
+00:04:33,780  -->  00:04:35,340
+that you can do is you can explode
+
+73
+
+00:04:35,340  -->  00:04:38,789
+different pieces of the pie outward. So
+
+74
+
+00:04:38,789  -->  00:04:40,889
+if we were going to focus on Python here
+
+75
+
+00:04:40,889  -->  00:04:47,639
+we should create a variable here called
+
+76
+
+00:04:47,639  -->  00:04:51,780
+separated equals, and then this is going
+
+77
+
+00:04:51,780  -->  00:04:55,350
+to be a tuple, I'm not sure how to pronounce that.
+
+78
+
+00:04:55,350  -->  00:04:57,510
+In python it's essentially the
+
+79
+
+00:04:57,510  -->  00:05:00,510
+same as a list but you've got brackets,
+
+80
+
+00:05:00,510  -->  00:05:01,590
+and it's used differently in other
+
+81
+
+00:05:01,590  -->  00:05:03,330
+contexts, but for right now we're going
+
+82
+
+00:05:03,330  -->  00:05:05,430
+to use it as a list. So what we're going
+
+83
+
+00:05:05,430  -->  00:05:08,220
+to do is we're going to, this is going to
+
+84
+
+00:05:08,220  -->  00:05:11,280
+take the same amount of items as our
+
+85
+
+00:05:11,280  -->  00:05:13,919
+list, and the same amount of items as our
+
+86
+
+00:05:13,919  -->  00:05:17,130
+labels, we're just going to set zero for
+
+87
+
+00:05:17,130  -->  00:05:18,570
+the pieces that we want to be intact,
+
+88
+
+00:05:18,570  -->  00:05:21,599
+and then a different number for the
+
+89
+
+00:05:21,599  -->  00:05:25,320
+items that we want to be separated. So in
+
+90
+
+00:05:25,320  -->  00:05:27,449
+this case we want Python to be separated
+
+91
+
+00:05:27,449  -->  00:05:30,060
+so we're going to set that to 1, and
+
+92
+
+00:05:30,060  -->  00:05:33,300
+then every other number is going to be
+
+93
+
+00:05:33,300  -->  00:05:37,590
+equal to 0. And then the keyword argument
+
+94
+
+00:05:37,590  -->  00:05:42,449
+here is explode. So you can see this and
+
+95
+
+00:05:42,449  -->  00:05:44,610
+run this again, and you're going to
+
+96
+
+00:05:44,610  -->  00:05:46,740
+see that Python is way out here, but we
+
+97
+
+00:05:46,740  -->  00:05:48,570
+can make it actually closer by using a
+
+98
+
+00:05:48,570  -->  00:05:52,380
+float under one, so let's say .1
+
+99
+
+00:05:52,380  -->  00:05:54,930
+rather than 1, and it's going to make
+
+100
+
+00:05:54,930  -->  00:05:57,690
+it closer into the pie itself. So you can
+
+101
+
+00:05:57,690  -->  00:05:59,639
+actually explode this in different ways
+
+102
+
+00:05:59,639  -->  00:06:04,560
+if we wanted this to have .3, 0, and
+
+103
+
+00:06:04,560  -->  00:06:06,599
+this one would be 0 as well, and then
+
+104
+
+00:06:06,599  -->  00:06:10,830
+.6. So, if we run this our pie
+
+105
+
+00:06:10,830  -->  00:06:12,120
+is going to look all messed up like
+
+106
+
+00:06:12,120  -->  00:06:17,190
+everyone's had a little piece of it. So
+
+107
+
+00:06:17,190  -->  00:06:19,740
+that's a very basic pie chart, and I
+
+108
+
+00:06:19,740  -->  00:06:21,030
+think we're going to be exploring this a
+
+109
+
+00:06:21,030  -->  00:06:24,320
+bit further in the next video as well.

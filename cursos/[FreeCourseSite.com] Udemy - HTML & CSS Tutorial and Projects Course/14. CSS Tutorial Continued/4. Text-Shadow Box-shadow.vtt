@@ -1,0 +1,343 @@
+WEBVTT
+
+00:00.300 --> 00:06.900
+Right off 34000 Mark grounds on our agenda is going to be text shadow property as well as block shadow
+
+00:06.900 --> 00:07.470
+property.
+
+00:07.560 --> 00:10.470
+For this we're going to go first to excess Schimmel.
+
+00:10.620 --> 00:17.560
+We're going to set up don't know one headings so let's say main airing and then we're also gonna have
+
+00:17.560 --> 00:18.440
+some live.
+
+00:18.700 --> 00:21.980
+Now the dave is gonna have a class A BOX OF SIMPLE div.
+
+00:21.970 --> 00:26.710
+Class is gonna be box and that's gonna be enough for our email.
+
+00:26.770 --> 00:31.160
+And within a C assess let's start styling the first the text.
+
+00:31.160 --> 00:33.160
+So this is gonna be hitting one.
+
+00:33.370 --> 00:36.210
+Yeah you already see that text shadow property.
+
+00:36.280 --> 00:40.640
+I think that's kind of self-explanatory but what values are we looking for.
+
+00:41.140 --> 00:48.040
+Well the first value is gonna be X meaning this axis and the second one is gonna be y axis.
+
+00:48.040 --> 00:53.040
+Then we're looking for also the blur as well as last one is gonna be color.
+
+00:53.270 --> 00:55.780
+There's gonna be much more easier if I show you.
+
+00:55.860 --> 00:58.650
+So let's say one pixel one pixel.
+
+00:58.660 --> 01:00.010
+So first let's start.
+
+01:00.160 --> 01:00.730
+Very easy.
+
+01:00.730 --> 01:03.050
+Just by one pixel one pixel.
+
+01:03.370 --> 01:05.430
+And we can also do the color.
+
+01:05.890 --> 01:09.550
+Now what's happening is you know there's that we are getting the tech shadow.
+
+01:09.610 --> 01:13.530
+If I start changing the values you'll notice where the values are changing.
+
+01:13.660 --> 01:19.950
+If I'm gonna say five pixels notice right now the direction is gonna be x direction so far so good.
+
+01:20.110 --> 01:22.510
+And we can change and also the y direction.
+
+01:22.570 --> 01:26.800
+So if I want to change y direction I can set up here to y direction.
+
+01:26.890 --> 01:29.630
+You don't want to actually the x direction.
+
+01:29.980 --> 01:31.130
+You can write like this.
+
+01:31.210 --> 01:33.400
+So again you can delete the pixels.
+
+01:33.400 --> 01:34.480
+You can just leave zero.
+
+01:34.760 --> 01:36.900
+It's gonna do exactly the same thing.
+
+01:36.940 --> 01:42.520
+Now let me leave one on one and the blur isn't going to be the blur of the shadow.
+
+01:42.940 --> 01:43.800
+So I can stay.
+
+01:43.840 --> 01:51.640
+Let's say one and one but I can make it blurry less blurry more blurry and you get an idea.
+
+01:51.880 --> 01:53.920
+Last but not least we have the color again.
+
+01:53.930 --> 01:55.730
+Any option under the sun.
+
+01:55.840 --> 01:58.230
+You want to go with our Gibby you go with our G.B..
+
+01:58.240 --> 02:03.200
+You want to go with our GPA go with our GPA hex whatever you name it.
+
+02:03.280 --> 02:04.670
+That would be the tech shadow.
+
+02:04.720 --> 02:07.470
+And we also have Boxer for the boxer.
+
+02:07.480 --> 02:13.960
+First let's work with our box let's say with is can be two hundred pixels.
+
+02:13.970 --> 02:14.980
+That would be a waste.
+
+02:15.000 --> 02:24.250
+Then we can also add some light on the pixels background blue margin is going to be let's say 20 pixels
+
+02:24.250 --> 02:25.530
+all around.
+
+02:25.720 --> 02:28.210
+That's gonna have to be our margin.
+
+02:28.400 --> 02:30.440
+And now let's work with our box shadow.
+
+02:30.550 --> 02:36.190
+And here with the box shadow we have one extra that would be an optional I'm gonna show you that in
+
+02:36.190 --> 02:39.790
+a second but the general idea is gonna be exactly the same.
+
+02:39.880 --> 02:41.860
+We have the box at our property.
+
+02:41.860 --> 02:44.510
+Again the first one is gonna be for x value.
+
+02:44.600 --> 02:47.310
+Then the second one is gonna be for y value.
+
+02:47.380 --> 02:51.670
+Then we have the blur and then we're here looking for the green now.
+
+02:51.760 --> 02:56.740
+So this is just gonna be the color and what happens is you notice that I'm getting my back shadow as
+
+02:56.740 --> 03:02.230
+well as again I can change these values and you'll see exactly the same things like we were doing before
+
+03:02.620 --> 03:07.270
+and that is all good but we have also nice external resources.
+
+03:07.270 --> 03:13.900
+So first start let's text shadow and generator and we're gonna head over to this site.
+
+03:14.050 --> 03:14.890
+Doesn't really matter.
+
+03:14.890 --> 03:17.790
+There's a bunch of them you can pick any one you want.
+
+03:17.860 --> 03:19.780
+I have no real preference.
+
+03:20.110 --> 03:25.460
+Usually the one the first one jumps out and I'm good to go when I say no.
+
+03:25.510 --> 03:31.370
+And then you see the example obviously and this would be example text 1 the distance.
+
+03:31.380 --> 03:33.410
+Notice this is going to be my distance.
+
+03:33.520 --> 03:37.400
+Once the blur is going to be my blur can change the angle.
+
+03:37.480 --> 03:42.130
+I mean whatever options you would like and what they would do at the end I was just gonna print you
+
+03:42.130 --> 03:43.270
+out the code.
+
+03:43.270 --> 03:45.850
+So this would be the code that you are going to be looking for.
+
+03:45.850 --> 03:50.760
+You also can choose obviously the opacity that would be with the color name.
+
+03:50.950 --> 03:53.540
+And this is gonna give you whatever values you like.
+
+03:53.590 --> 03:57.790
+Now in this case if we're gonna be choosing let's say for our G.B. I would want this one.
+
+03:58.180 --> 04:00.080
+So that's going to be my red color.
+
+04:00.130 --> 04:06.040
+Only thing I would need to do is just copy and paste this code and head over back to my text I will
+
+04:06.040 --> 04:11.680
+gonna comment this out the easy one that we had just copy and paste it and now we're gonna have this
+
+04:11.680 --> 04:12.360
+texture.
+
+04:12.640 --> 04:14.910
+Okay so that will be for text shadow.
+
+04:15.010 --> 04:19.400
+We also have an option for box shadow believe it or not generator.
+
+04:19.520 --> 04:24.430
+And that meaning sarcastic of course there's gonna be something for the box shut off you're already
+
+04:24.430 --> 04:29.530
+using for tech shadow you could imagine that they both of them are gonna have some kind of external
+
+04:29.530 --> 04:31.820
+resources and not only some.
+
+04:31.820 --> 04:33.310
+There's gonna be a bunch of them.
+
+04:33.400 --> 04:38.590
+The reason why I'm showing you right away the box shut up because the result is going to include a browser
+
+04:38.590 --> 04:41.920
+prefixes and that is actually a topic of next video.
+
+04:42.130 --> 04:47.740
+So I purposely picked right now the text shut on Mark shadow just so we can talk about them because
+
+04:47.750 --> 04:52.850
+I remember when we were talking about linear gradients we first time we met them in the colours they
+
+04:52.930 --> 04:55.390
+when we were generating the linear gradient.
+
+04:55.390 --> 05:01.520
+Well again we're looking at the browser prefixes so I think now it would be good time to talk about.
+
+05:01.570 --> 05:03.880
+So here again we're doing the same thing.
+
+05:04.240 --> 05:06.290
+We see that there's gonna be some kind of value.
+
+05:06.310 --> 05:12.910
+So this is going to be my xbox one horizontal and horizontal and vertical and vertical and lower radius
+
+05:12.970 --> 05:13.760
+blur ideas.
+
+05:13.930 --> 05:16.760
+And this is that spread where you can kind of spread it over here.
+
+05:16.760 --> 05:18.650
+That would be something optional.
+
+05:18.650 --> 05:20.030
+Again as you're using.
+
+05:20.390 --> 05:23.580
+Remember we have three values so this would be the fourth one again.
+
+05:23.600 --> 05:29.430
+If you want to include it included then shadow color the background color I mean you name it.
+
+05:29.660 --> 05:31.940
+Really we can pick whatever we would like.
+
+05:31.940 --> 05:33.810
+Or here again opacity we can change it.
+
+05:34.230 --> 05:36.200
+And the only thing that's missing is over here.
+
+05:36.200 --> 05:37.070
+This text.
+
+05:37.280 --> 05:42.410
+Now what I would like to do is first of all it refreshed and hopefully this is going to go back to actual
+
+05:42.410 --> 05:48.330
+zero and I would like to show you with a hover effect because that would be probably a little bit there.
+
+05:48.380 --> 05:49.460
+Example.
+
+05:49.460 --> 05:54.440
+So let's say here we're going to be first starting with horizontal length and I'm gonna go with like
+
+05:54.680 --> 05:58.250
+five something like this or you're not.
+
+05:58.340 --> 05:59.110
+No you know what.
+
+05:59.170 --> 06:05.060
+Now let's stay with 10 and then I'm gonna show you the actual how this is gonna work with five.
+
+06:05.060 --> 06:11.000
+So let's say I'm going to save this first of all or I'm sorry copy and paste it so grab whatever values
+
+06:11.000 --> 06:13.200
+you have over here without changing anything.
+
+06:13.340 --> 06:17.570
+I'm gonna head over to the box and we're gonna save for the box.
+
+06:17.690 --> 06:22.730
+We need to have actually as I'm hovering something to say as I'm hovering I would like to copy and paste
+
+06:22.730 --> 06:28.190
+these tiles and then first of all I'm gonna get out of this one and let's add maybe transition because
+
+06:28.190 --> 06:30.080
+this is gonna be a little nicer.
+
+06:30.180 --> 06:33.120
+We know how to do that all.
+
+06:33.250 --> 06:37.510
+Let's say zero point five seconds and let's settle in here.
+
+06:37.640 --> 06:42.640
+Now what's gonna happen is as I'm hovering notice now we're getting our box shadow property.
+
+06:42.650 --> 06:46.920
+And now that we have covered box shadow tech shadow we understand the basic idea.
+
+06:47.060 --> 06:49.370
+I would like to talk about the browser prefix.

@@ -1,0 +1,302 @@
+1
+
+00:00:00,000  -->  00:00:03,360
+Alright, so what is a string?
+
+2
+
+00:00:03,360  -->  00:00:10,500
+Well, a string is any text that you want to
+be treated as text within a program. So
+
+3
+
+00:00:10,500  -->  00:00:13,410
+again we need to talk about a few other
+things that we're going to be talking
+
+4
+
+00:00:13,410  -->  00:00:19,260
+about actually a few videos from now, but
+for right now just trying to follow
+
+5
+
+00:00:19,260  -->  00:00:27,869
+along. So, this is a string because
+it's wrapped in quotations, and if we hit
+
+6
+
+00:00:27,869  -->  00:00:28,740
+enter
+
+7
+
+00:00:28,740  -->  00:00:36,480
+Python is going to say hello string. Now,
+you can also use single quotations here
+
+8
+
+00:00:36,480  -->  00:00:43,320
+to do the same thing. So basically you
+have two options either using double
+
+9
+
+00:00:43,320  -->  00:00:49,649
+quotations or single quotations, and
+let's say you want to have a word in
+
+10
+
+00:00:49,649  -->  00:00:54,719
+your string that you well let's say you
+need to have a word in that string of
+
+11
+
+00:00:54,719  -->  00:01:01,079
+text which contains an apostrophe. So
+let's say we wrapped in single quotes and we
+
+12
+
+00:01:01,079  -->  00:01:10,229
+say 'don't do that' Python is going to freak out about that because what it thinks
+
+13
+
+00:01:10,229  -->  00:01:15,299
+is happening is that we're starting a
+string here, we're typing three letters,
+
+14
+
+00:01:15,299  -->  00:01:19,200
+and then we're ending the string, and
+then it doesn't know what to do about
+
+15
+
+00:01:19,200  -->  00:01:19,890
+all this.
+
+16
+
+00:01:19,890  -->  00:01:24,840
+It's saying well to do that I don't know
+what that means, it's no variable, and
+
+17
+
+00:01:24,840  -->  00:01:29,130
+there's no function that I can perform
+on this, so I'm just going to freak out
+
+18
+
+00:01:29,130  -->  00:01:35,009
+and give you a syntax error. So what you
+would need to do in order to print out
+
+19
+
+00:01:35,009  -->  00:01:39,509
+don't do that is you can just wrap it in
+double quotations and then just type
+
+20
+
+00:01:39,509  -->  00:01:45,810
+don't do that, and as you can see what I
+print it's going to keep that intact. Now
+
+21
+
+00:01:45,810  -->  00:01:50,850
+alternatively let's say you want to
+quote somebody. So, let's wrap in double
+
+22
+
+00:01:50,850  -->  00:02:05,070
+quotes and say, "she said "I want this" and
+then close it, close it. Again. it's gonna
+
+23
+
+00:02:05,070  -->  00:02:11,039
+freak out because what it thinks that
+we're trying to do is start a string, say
+
+24
+
+00:02:11,039  -->  00:02:12,190
+she said,
+
+25
+
+00:02:12,190  -->  00:02:16,360
+then end the string and then it's going
+to freak out over all this because it
+
+26
+
+00:02:16,360  -->  00:02:20,440
+doesn't realize that this is part of
+that string because we have explicitly
+
+27
+
+00:02:20,440  -->  00:02:22,570
+told it to end the string here.
+
+28
+
+00:02:22,570  -->  00:02:27,670
+So what you would do in this instance is
+just wrap the entire string in single
+
+29
+
+00:02:27,670  -->  00:02:35,800
+quotations. So, 'she said "I want this"' and
+as you can see it's going to print it
+
+30
+
+00:02:35,800  -->  00:02:40,810
+out correctly. Now alternatively what if
+she said something that had an
+
+31
+
+00:02:40,810  -->  00:02:53,350
+apostrophe in it. So, let's try and cope
+with that so 'she said "don't put that
+
+32
+
+00:02:53,350  -->  00:03:06,100
+there"' again it's going to freak out
+because we're starting the string
+
+33
+
+00:03:06,100  -->  00:03:10,060
+here, we're adding a single quotation
+which is not interpreting as the other
+
+34
+
+00:03:10,060  -->  00:03:15,370
+string, in fact right here where this apostrophe is it thinks that's the end of the string,
+
+35
+
+00:03:15,370  -->  00:03:20,350
+so it's treating this like a string and
+then this as constants, or variables, or
+
+36
+
+00:03:20,350  -->  00:03:22,989
+whatever and it doesn't know what to do
+with them because we're not telling it to
+
+37
+
+00:03:22,989  -->  00:03:26,020
+do anything and then these just random
+quotations here.
+
+38
+
+00:03:26,020  -->  00:03:29,500
+So what we need to do in this instance
+is we need to learn about escaping
+
+39
+
+00:03:29,500  -->  00:03:34,570
+certain characters. So, let's write it out
+first then i'll explain it.
+
+40
+
+00:03:34,570  -->  00:03:38,350
+So what we're going to do is wrap it in
+single quotes and we're going to say 'she
+
+41
+
+00:03:38,350  -->  00:03:53,500
+said "don/ 't do that"' and what's happening here, let's hit enter. That's not what...let me
+
+42
+
+00:03:53,500  -->  00:03:57,700
+that out. It's just returning what we wrote there.
+
+43
+
+00:04:02,240  -->  00:04:08,780
+There. So we print that out and what
+this does is the backslash here
+
+44
+
+00:04:08,780  -->  00:04:13,760
+tells the next character to be
+interpreted as text regardless of what it
+
+45
+
+00:04:13,760  -->  00:04:18,410
+would normally be interpreted as, so
+rather than this trying to end the
+
+46
+
+00:04:18,410  -->  00:04:23,870
+string Python knows at this point that
+we want this to be printed out with the
+
+47
+
+00:04:23,870  -->  00:04:29,180
+string and not end the string but just
+printed out as a single character, and so
+
+48
+
+00:04:29,180  -->  00:04:32,570
+that's what it's going to do. So there's
+times when you're going to need to do
+
+49
+
+00:04:32,570  -->  00:04:38,930
+each of these in your Python code and so
+that's how to handle strings and what
+
+50
+
+00:04:38,930  -->  00:04:43,730
+they are. Again, a string is just a series
+of characters which is interpreted as
+
+51
+
+00:04:43,730  -->  00:04:46,910
+text and you can print it, you can
+manipulate it,
+
+52
+
+00:04:46,910  -->  00:04:50,210
+we're actually going to get into string
+manipulation in the next video.

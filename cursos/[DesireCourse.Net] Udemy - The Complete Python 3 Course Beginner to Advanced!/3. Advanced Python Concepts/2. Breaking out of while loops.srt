@@ -1,0 +1,500 @@
+1
+
+00:00:00,000  -->  00:00:06,180
+Alright, so what we're going to talk
+about now is some while loop additional
+
+2
+
+00:00:06,180  -->  00:00:12,900
+functions, or additional handlers let's
+say. So I've created a project here
+
+3
+
+00:00:12,900  -->  00:00:17,580
+called attack and i'm just going to
+create a new Python file again called
+
+4
+
+00:00:17,580  -->  00:00:23,130
+attack, and what this is gonna do think
+of think this as a part of a
+
+5
+
+00:00:23,130  -->  00:00:27,090
+battle system. So this is just going to
+be very straightforward and very simple
+
+6
+
+00:00:27,090  -->  00:00:30,929
+right now, but actually when we get to
+the end of this section or module of videos
+
+7
+
+00:00:30,929  -->  00:00:36,239
+we are going to be creating an entire
+battle system using what we're going to
+
+8
+
+00:00:36,239  -->  00:00:40,440
+be learning in the next few videos as well
+about classes, and whatnot. So, for right
+
+9
+
+00:00:40,440  -->  00:00:47,460
+now let's just go ahead and talk about
+how to handle certain attacks and stuff. So, the
+
+10
+
+00:00:47,460  -->  00:00:55,980
+first thing we're going to do is create
+a variable called a "playerhp = 260"
+
+11
+
+00:00:55,980  -->  00:01:02,879
+to be equal to let's say 260. Now we're
+going to create an enemy attack power, so
+
+12
+
+00:01:02,879  -->  00:01:14,010
+what we're going to do is just set the
+"enemyatk = 60" and
+
+13
+
+00:01:14,010  -->  00:01:21,509
+this is going to be, actually let's
+create a range for enemy attack. So
+
+14
+
+00:01:21,509  -->  00:01:27,330
+"enemyatkl = 60" and then
+
+15
+
+00:01:27,330  -->  00:01:32,250
+"enemyatkh = 80" So this is
+going to be used to create a random
+
+16
+
+00:01:32,250  -->  00:01:37,200
+number between these two values. So what we're going to do we're going to
+
+17
+
+00:01:37,200  -->  00:01:45,810
+actually have to import random, so "import random" I nearly spilled my coffee there.
+
+18
+
+00:01:47,130  -->  00:01:53,610
+Alright, so what we're going to do is we're
+going to generate a random attack power
+
+19
+
+00:01:53,610  -->  00:02:00,360
+between 60 and 80 on each attack, I guess, so we need to create a while
+
+20
+
+00:02:00,360  -->  00:02:10,140
+loop. So let's go ahead and say "while
+playerhp &gt; 0:" so as
+
+21
+
+00:02:10,140  -->  00:02:12,310
+long as the player has health
+
+22
+
+00:02:12,310  -->  00:02:20,110
+they're going to be attacked. So, let's go
+ahead and say, let's first generate the
+
+23
+
+00:02:20,110  -->  00:02:28,420
+attack power. So how we do that is by
+using the random range.
+
+24
+
+00:02:28,420  -->  00:02:35,650
+Hold on let me open a terminal right quick.
+
+25
+
+00:02:35,650  -->  00:02:42,670
+Okay, that's random range, cool. So, "random.randrange( )" and we're going to enter two
+
+26
+
+00:02:42,670  -->  00:02:47,500
+numbers here, and the first number is
+going to be the starting point, and the
+
+27
+
+00:02:47,500  -->  00:02:52,930
+second number is going to be the high
+point. So let's go ahead and enter
+
+28
+
+00:02:52,930  -->  00:02:56,650
+"enemyatkl, enemyatkh)"
+
+29
+
+00:02:57,280  -->  00:03:07,120
+So, we're going to assign this to a
+variable of "dmg =" for damage, so this is going
+
+30
+
+00:03:07,120  -->  00:03:10,870
+to be the damage that the player takes.
+So what we're going to do is we're going
+
+31
+
+00:03:10,870  -->  00:03:17,380
+to take the player HP and we're going to
+subtract damage from it. So, let's go
+
+32
+
+00:03:17,380  -->  00:03:28,090
+ahead and new HP, actually let's just set
+it to player HP, so "playerhp = playerhp
+
+33
+
+00:03:28,090  -->  00:03:39,310
+- dmg" So let's go ahead and
+now make a print statement, so
+
+34
+
+00:03:39,310  -->  00:03:52,870
+"print("Enemy strikes for", dmg, "points of
+damage.
+
+35
+
+00:03:53,560  -->  00:04:12,190
+Current HP is", playerhp)" So this is going to work right down to
+
+36
+
+00:04:12,190  -->  00:04:22,270
+the point where the players HP is a zero.
+So if it becomes 0, or less than 0, it's
+
+37
+
+00:04:22,270  -->  00:04:25,210
+going to stop the loop.
+
+38
+
+00:04:25,210  -->  00:04:30,850
+So what we can do is we can save this right now. Let's go ahead and configure a run
+
+39
+
+00:04:30,850  -->  00:04:43,180
+here, there. So what we see here is the
+first attack enemy strikes for 77 points
+
+40
+
+00:04:43,180  -->  00:04:49,360
+of damage, current HP is 183. Then enemy strikes for 73, current HP is 110, etc. and
+
+41
+
+00:04:49,360  -->  00:04:55,150
+this goes right down to the point where
+his health becomes negative -30. Now, what
+
+42
+
+00:04:55,150  -->  00:04:59,590
+we want to do here we want to actually
+handle this a bit, so what we can do is
+
+43
+
+00:04:59,590  -->  00:05:23,050
+"if playerhp &lt;=0:" "playerhp = 0" Let's go ahead and
+
+44
+
+00:05:23,050  -->  00:05:27,280
+save this again, and this is going to make
+it so that if it does go down to
+
+45
+
+00:05:27,280  -->  00:05:32,500
+-30 it's just going to say it's 0. So let's go ahead and
+
+46
+
+00:05:32,500  -->  00:05:39,580
+rerun this and we're going to see that
+does actually take effect. So if it's
+
+47
+
+00:05:39,580  -->  00:05:47,349
+zero, "if playerhp == 0:"
+
+48
+
+00:05:47,349  -->  00:05:54,070
+we're going to print out another message
+"print("You have died.
+
+49
+
+00:05:54,580  -->  00:06:10,120
+You cannot respawn, as you are dead.")" My fingers do not want to type today.
+
+50
+
+00:06:10,659  -->  00:06:15,849
+We rerun it and you can see what
+happens you you would be able to guess
+
+51
+
+00:06:15,849  -->  00:06:21,430
+what happens, however this will work as a
+basic while loop and this would work for
+
+52
+
+00:06:21,430  -->  00:06:22,599
+an attack process, but
+
+53
+
+00:06:22,599  -->  00:06:26,620
+let's say in the game we're making we
+don't want the players help to be able
+
+54
+
+00:06:26,620  -->  00:06:31,570
+to reach zero because that's immersion breaking. So what we want to
+
+55
+
+00:06:31,570  -->  00:06:35,440
+happen is if the players HP gets low,
+
+56
+
+00:06:36,219  -->  00:06:38,220
+they will be
+
+57
+
+00:06:38,220  -->  00:06:43,590
+magically teleported to the nearest
+medical center, or inn if it's in a
+
+58
+
+00:06:43,590  -->  00:06:47,040
+fantasy type of role playing game. So
+let's go ahead and do that.
+
+59
+
+00:06:47,040  -->  00:06:54,960
+So, what we need to do is, let me see here, if player HP less than or equal,
+
+60
+
+00:06:55,560  -->  00:07:07,080
+"if playerhp &lt;= 30" ok. So we're going to set a minimum hit points here of 30. So if it's
+
+61
+
+00:07:07,080  -->  00:07:11,310
+30 we're going to do something, if it's
+not 30 we're going to do something else.
+
+62
+
+00:07:16,440  -->  00:07:21,660
+So what we're going to do here is we're going to print, actually we're going to print
+
+63
+
+00:07:21,660  -->  00:07:39,090
+the same thing, so let's go ahead and
+copy this, move this. Actually, so we're
+
+64
+
+00:07:39,090  -->  00:07:42,630
+still going to print out this statement
+because we still want to see the HP
+
+65
+
+00:07:42,630  -->  00:07:45,720
+update and whatnot, but then we're
+going to do down here is we're going to
+
+66
+
+00:07:45,720  -->  00:07:47,669
+say "if player hp == 30:"
+
+67
+
+00:07:47,669  -->  00:08:01,440
+let's "print("You have low health. You've been teleported to the
+
+68
+
+00:08:01,440  -->  00:08:05,490
+nearest inn.") So if we save this,
+
+69
+
+00:08:06,120  -->  00:08:13,410
+there we go. It's going to continuously
+run and that's a problem because
+
+70
+
+00:08:13,410  -->  00:08:21,000
+what happens is we say as long as player
+HP is more than zero do all this, but
+
+71
+
+00:08:21,000  -->  00:08:25,020
+then we reach a point where we don't
+allow the players HP to reach zero and
+
+72
+
+00:08:25,020  -->  00:08:30,720
+this is why we need a break. So let's go
+ahead and add this in here. All you need
+
+73
+
+00:08:30,720  -->  00:08:35,880
+to do is literally call the word "break"
+let's rerun this and it should not
+
+74
+
+00:08:35,880  -->  00:08:39,960
+endlessly run, and you can see that's
+that's what happened, so.
+
+75
+
+00:08:40,649  -->  00:08:45,240
+So what it does basically again let's go
+through this from the top. We're importing
+
+76
+
+00:08:45,240  -->  00:08:50,670
+random here so that we can generate a
+random number between two values, so the
+
+77
+
+00:08:50,670  -->  00:08:54,959
+two values that were generating is the
+low attack power which is 60 and high
+
+78
+
+00:08:54,959  -->  00:09:00,089
+attack power which is 80. We're setting
+the players hit points by default to 260.
+
+79
+
+00:09:00,089  -->  00:09:03,720
+Then we're actually creating the loop
+here, so what we're doing is we're saying
+
+80
+
+00:09:03,720  -->  00:09:10,829
+while player HP is more than 0, do
+this, and in here we generate the damage,
+
+81
+
+00:09:10,829  -->  00:09:16,949
+we calculate the players new HP, and then
+we say if it's less than or equal
+
+82
+
+00:09:16,949  -->  00:09:23,550
+to 30 it's going to be equal to 30, and
+then we do this so we print the
+
+83
+
+00:09:23,550  -->  00:09:30,509
+basically the attack details, and then we
+say if player HP is 30, because that's
+
+84
+
+00:09:30,509  -->  00:09:35,369
+the lowest it can go right here, then we
+say you have low health, etc., and then we
+
+85
+
+00:09:35,369  -->  00:09:41,699
+break out of the while loop. So that's
+how to use the break statement in a
+
+86
+
+00:09:41,699  -->  00:09:46,439
+while loop, in the next video we're going
+to be going a bit further into this
+
+87
+
+00:09:46,439  -->  00:09:47,040
+while loop.
+
+88
+
+00:09:47,040  -->  00:09:50,370
+We're going to be using the keyword,
+continue.

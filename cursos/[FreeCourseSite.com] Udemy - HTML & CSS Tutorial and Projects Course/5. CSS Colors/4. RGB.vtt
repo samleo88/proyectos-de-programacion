@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.300 --> 00:04.010
+Using color names for your project is very neat and handy.
+
+00:04.620 --> 00:08.220
+However eventually you'll then run out of your options.
+
+00:08.220 --> 00:12.890
+Basically the more project you're going to build the bigger project you'd like to build.
+
+00:13.010 --> 00:19.460
+You will then be reaching for some more color options and one of the color options we have is our G.B..
+
+00:19.470 --> 00:21.640
+Now what in the world is our GP.
+
+00:21.690 --> 00:25.050
+What is the RG B stands or red green and blue.
+
+00:25.200 --> 00:32.430
+And then we can pick color values from zero to two hundred fifty five meaning zero would be the smallest
+
+00:32.820 --> 00:35.180
+and 255 would be largest.
+
+00:35.220 --> 00:36.360
+So how we would use this.
+
+00:36.390 --> 00:40.680
+Well first of all let's delete this color name and let's write it we're going to be looking for our
+
+00:40.720 --> 00:42.020
+G.B. color.
+
+00:42.030 --> 00:46.040
+Now we're gonna write our G.B. and let's write out here what values you would like.
+
+00:46.490 --> 00:52.720
+Well since I would like my color to become little red I'm going to have my value to 255 and then first
+
+00:52.800 --> 00:54.890
+of them for green and blue.
+
+00:54.960 --> 00:56.530
+I'm just gonna set them zero.
+
+00:56.580 --> 01:01.310
+Now I already can see that Visual Studio gold is giving me this suggestion.
+
+01:01.320 --> 01:05.880
+So basically this is gonna be the color that we're going to have and we can clearly say that this is
+
+01:05.880 --> 01:06.960
+going to be right.
+
+01:07.020 --> 01:08.210
+Now let me save it.
+
+01:08.370 --> 01:10.600
+And sure enough I have my red color.
+
+01:10.860 --> 01:17.440
+Now as we were working with our G.B. values we also have an option of having the black or white color.
+
+01:17.760 --> 01:20.360
+So how we would get the black color green looks right.
+
+01:20.370 --> 01:26.560
+RG G.B. that would be our syntax and then we're looking for 0 0 0.
+
+01:26.680 --> 01:31.180
+So all three zeros would mean that we're getting the black color.
+
+01:31.210 --> 01:38.250
+Now the white one would be completely opposite that one would be 255 255 and 255.
+
+01:38.260 --> 01:44.860
+So it's a up personal change for the I.D. no second to green color.
+
+01:44.860 --> 01:47.920
+So let's say the color of the text is gonna be green.
+
+01:47.950 --> 01:49.150
+So how do we do this again.
+
+01:49.160 --> 01:53.230
+0 255 255.
+
+01:53.230 --> 01:55.210
+Since the green is the second value.
+
+01:55.210 --> 01:55.890
+Correct.
+
+01:56.020 --> 01:57.790
+And then we're looking for the background of white.
+
+01:58.390 --> 02:03.610
+Now obviously the moment I'm gonna do that you'll see that it's gonna be hard to notice because our
+
+02:03.610 --> 02:06.330
+whole text is white our whole dark.
+
+02:06.940 --> 02:14.080
+But let's try it out so let's write 255 255 and let's say 255.
+
+02:14.350 --> 02:18.340
+Like I said it's hard to notice because our whole background is white.
+
+02:18.340 --> 02:23.200
+Now why don't we go to the body now and let's look at different values.
+
+02:23.200 --> 02:29.060
+Because for now you're probably thinking well wait a minute he's just using the red and green color.
+
+02:29.200 --> 02:34.780
+Now let's mix it up a little bit let's say for the body there's going to be background and let's write
+
+02:34.840 --> 02:39.430
+our GP values and then you can write here whatever your heart desires.
+
+02:39.430 --> 02:46.710
+So I'm gonna write a hundred let's say thirty four and maybe here this is gonna be two hundred and ten
+
+02:47.280 --> 02:52.260
+and let's see what kind of color and obviously first of all I can see that I have my background the
+
+02:52.260 --> 02:52.970
+white.
+
+02:52.970 --> 02:56.670
+So all this is Wharton and here I'm getting this purple curve.
+
+02:56.800 --> 03:02.310
+Now how is it we're not gonna be covering each and every number right now but just to give you an idea
+
+03:03.030 --> 03:08.370
+if you would like let's say your color to be reddish you also would be focusing on this valley if you
+
+03:08.370 --> 03:12.430
+would be having your color as green you would be focusing on green vote.
+
+03:12.610 --> 03:15.790
+And let's maybe add one more I.D. here.
+
+03:15.910 --> 03:21.870
+Let's basically say heading with a I.D. of three and let's also write.
+
+03:21.900 --> 03:26.690
+I'm not gonna be too I'm going to be three and let's the struggles for the blue one.
+
+03:26.880 --> 03:31.600
+So let's say or here in the styles we can we can just create a new rule.
+
+03:31.860 --> 03:37.560
+I'm going to say we're gonna be looking for number three and for the color maybe let's have the color
+
+03:37.650 --> 03:38.730
+again of blue.
+
+03:39.360 --> 03:46.750
+So let's look for our G.B. and then we're saying 0 0 0 and the last one is gonna be two hundred fifty
+
+03:46.810 --> 03:52.100
+five because I was that that is from the blue one and then for the background again maybe let's test
+
+03:52.100 --> 03:56.880
+it out a little bit different values so let's say our G.B. and then we're looking for.
+
+03:56.880 --> 03:57.640
+I don't know.
+
+03:57.780 --> 04:02.500
+Hundred hundred and hundred and let's see how this is going to work out.
+
+04:02.550 --> 04:04.980
+This is like a dark grayish color.
+
+04:04.990 --> 04:09.510
+Now hopefully you understand that this is how we work with our G.B. values.
+
+04:09.510 --> 04:12.600
+And feel free to experience with these values.
+
+04:12.600 --> 04:15.900
+And then next video we're going to look at the RGA value.

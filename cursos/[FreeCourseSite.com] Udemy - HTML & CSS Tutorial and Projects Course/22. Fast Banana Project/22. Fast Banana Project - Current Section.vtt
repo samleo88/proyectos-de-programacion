@@ -1,0 +1,571 @@
+WEBVTT
+
+00:00.060 --> 00:05.490
+And the next section we're all going to be building and it's going to be current project section.
+
+00:05.640 --> 00:12.260
+Now on the first glance it actually looks very simple when we already have done this multiple times.
+
+00:12.280 --> 00:18.330
+Now the difference over here is why I made this technically so simple because I wanted to show you how
+
+00:18.330 --> 00:22.690
+we can get a magnifica pop up which is going to be a gallery.
+
+00:22.740 --> 00:27.990
+Right so I can see that as I click on the image there's a gallery over here right and over here this
+
+00:28.050 --> 00:30.150
+is the Zoom in effect right.
+
+00:30.210 --> 00:38.250
+So I made the section easy right because I didn't want to overly confuse you right by actually building
+
+00:38.250 --> 00:44.010
+some kind of section with some kind of layouts with some kind of I don't know like transition effect.
+
+00:44.010 --> 00:49.920
+Right and then lose the actual the main point of actually how to insert Gowri Once you're going to know
+
+00:49.920 --> 00:51.830
+how to work with the gallery.
+
+00:51.870 --> 00:55.280
+You can make a section as complicated as you would want.
+
+00:55.530 --> 00:58.770
+So here again this is going to be on google.
+
+00:58.770 --> 01:01.490
+We're going to be using actually later right.
+
+01:01.600 --> 01:11.100
+We would want to go is actually to next HD now on here and maybe let's just make it a little bit more
+
+01:11.120 --> 01:15.920
+condensed so actually see what we're doing here right.
+
+01:16.170 --> 01:20.280
+This is going to be the end or year of section right.
+
+01:20.550 --> 01:26.610
+You can see that we can go back over here and of about you know here we're going to say the current
+
+01:26.610 --> 01:33.230
+section and then call it current project or current projects section here.
+
+01:33.630 --> 01:37.320
+Let's select a line up in page to line.
+
+01:37.320 --> 01:37.850
+We're going to see.
+
+01:37.860 --> 01:42.420
+And of course in Project section then I'll do that.
+
+01:42.450 --> 01:44.940
+As always we would want a section.
+
+01:45.210 --> 01:53.630
+So I'm going to say section right here press on here hash tag and say current price tab all.
+
+01:53.730 --> 01:55.870
+Here again we would want a title.
+
+01:56.310 --> 01:59.830
+So we're going to go back over here and the closest title is going to be on here.
+
+02:00.300 --> 02:06.780
+So we're going to select this on here when we're going to say is that this is going to be a copy paste
+
+02:07.370 --> 02:11.410
+and over here would you want the image here.
+
+02:11.520 --> 02:14.340
+So the phantasm is going to be image.
+
+02:14.530 --> 02:23.280
+Then after that we're going write current projects so we're going to say our current projects here and
+
+02:23.280 --> 02:27.900
+then after that we would want to start working with a actual count.
+
+02:28.230 --> 02:34.940
+So at the end of title we're going to have a div with a hash tag and we're going to say corrent and
+
+02:35.460 --> 02:38.650
+we're going to say Center this.
+
+02:38.700 --> 02:41.760
+Then after that we're going to have a bunch of articles.
+
+02:41.820 --> 02:46.890
+So here I'm going to say this is going to be article and I'm going to give it a class and I'm going
+
+02:46.890 --> 02:49.820
+to say this is going to be current item.
+
+02:49.890 --> 02:54.840
+So this is going to be current and I'm class press time.
+
+02:54.890 --> 03:01.080
+Now we have article and within the article we're actually going to place a link and we're going to place
+
+03:01.080 --> 03:02.530
+the image within the link.
+
+03:02.910 --> 03:05.820
+And again we're going to see why we're doing that.
+
+03:05.830 --> 03:09.790
+That one's really going to start working with a magnetic pop up.
+
+03:09.900 --> 03:10.180
+Right.
+
+03:10.230 --> 03:18.090
+But what we would want is a link here then for DHEA if we're going to actually use the image that we're
+
+03:18.090 --> 03:19.820
+going to be placing or hear or read.
+
+03:19.890 --> 03:21.330
+So I'm going to say here measures.
+
+03:21.570 --> 03:29.100
+And since I'm going to be having a current project current project one more here this is going to be
+
+03:29.100 --> 03:29.940
+my image.
+
+03:30.150 --> 03:34.040
+And now within this link We're going to have image and order.
+
+03:34.080 --> 03:35.260
+This is going to match.
+
+03:35.370 --> 03:38.530
+So I'm going to say images and current projects.
+
+03:38.530 --> 03:38.820
+All right.
+
+03:38.820 --> 03:47.280
+So again these two are here and then I'm going to say current project here now that I have this right
+
+03:47.640 --> 03:50.640
+what I would want is some more articles like this.
+
+03:50.640 --> 03:57.680
+All right so one two three four five six right here.
+
+03:57.810 --> 04:00.830
+Just remember to actually change these values.
+
+04:00.840 --> 04:01.160
+All right.
+
+04:01.170 --> 04:06.130
+So for the link project one that this obviously needs to match.
+
+04:06.180 --> 04:10.220
+So here I'm going to say this is going to be let's say or here these two.
+
+04:10.240 --> 04:10.530
+Right.
+
+04:10.560 --> 04:15.600
+This is going to be actually number two then we're here for this is going to say this is going to be
+
+04:15.600 --> 04:22.010
+number three then over here this is going to be actually number four here.
+
+04:22.060 --> 04:28.530
+This is going to be number four then we're going to go back because I didn't want to upload 80 images
+
+04:29.000 --> 04:30.870
+wisdom to say three over here.
+
+04:31.170 --> 04:35.230
+And again we're going to place a two on them all here.
+
+04:35.280 --> 04:42.950
+So this is going to be for and this is going to be two and the last one we're going to leave it as one.
+
+04:42.940 --> 04:48.930
+All right so we went all the way one to four and then we went back just changed around a little bit
+
+04:48.930 --> 04:54.630
+over here and that's pretty much a set up for the HMO.
+
+04:54.870 --> 04:55.270
+All right.
+
+04:55.290 --> 05:03.300
+So what we can do here can go actually we can save this here and we can actually start working with
+
+05:03.300 --> 05:03.800
+them.
+
+05:03.800 --> 05:04.320
+All right.
+
+05:04.530 --> 05:08.870
+So what I'm going to say here is that this is going to be the main success.
+
+05:09.260 --> 05:16.140
+We're going to go all the way and the bottom line to create a comment when I say Place a bunch of hashtags
+
+05:16.140 --> 05:22.770
+again and I say corrent again a bunch of hashtags I know we're here we're going to say is we're going
+
+05:22.770 --> 05:25.020
+to start with a current title.
+
+05:25.030 --> 05:29.370
+So corrent and we're going to say class title.
+
+05:29.380 --> 05:35.370
+All right so first we would want to start dealing with this title and what we're going to say with the
+
+05:35.370 --> 05:42.940
+title is we want a little bit more margin some séverine margin for the pixels.
+
+05:43.190 --> 05:46.120
+And I would say zero on this.
+
+05:46.380 --> 05:50.960
+Then after that we would want to start working with the actual item.
+
+05:50.980 --> 05:51.500
+Right.
+
+05:51.540 --> 05:54.440
+But let's before we do that let's actually work with an image.
+
+05:54.630 --> 06:00.790
+So I'm going to say corrent him and I'm going to say image I don't want here I'm going to say like there's
+
+06:00.790 --> 06:10.250
+this play block like this and I'm going to say with and with is going to be 100 percent like this then
+
+06:10.430 --> 06:15.770
+opacity was going to set it as one as one over here.
+
+06:15.800 --> 06:27.070
+However we're going at a transition transition here we're going to say is Bachardy two seconds is on
+
+06:27.070 --> 06:28.110
+here.
+
+06:28.450 --> 06:32.420
+Now that we have this it's actually had a hover effect.
+
+06:32.410 --> 06:39.170
+So corrent I had him image over here.
+
+06:39.210 --> 06:41.250
+So as we hovering what should happen.
+
+06:41.520 --> 06:45.000
+So we're going to say that Abbasid is going to be 0.5.
+
+06:45.180 --> 06:49.030
+So sorry 0.5 I guess.
+
+06:49.030 --> 06:49.680
+All right.
+
+06:49.680 --> 06:55.120
+So again as we're going to be hovering is going to be very simple the Apache is going to be changing.
+
+06:55.240 --> 06:59.880
+Right so you can see that as I'm hovering what's happening now what I would want to do is actually for
+
+06:59.880 --> 07:03.150
+the current item remember the parent thread.
+
+07:03.270 --> 07:08.030
+So we had a current item then we had the link then we had an image.
+
+07:08.060 --> 07:13.530
+And so for now the past is changing for the image we're going to go back over here and said This is
+
+07:13.530 --> 07:15.320
+a background of linear grading.
+
+07:15.540 --> 07:25.830
+So going around over here current current and say item item here and what we're going to right over
+
+07:25.830 --> 07:33.440
+here this is going to be a background and I'm going to say will be near gradient along this and this
+
+07:33.440 --> 07:36.350
+is going to be OUR be going here.
+
+07:36.410 --> 07:43.070
+So we're going to use a two fifty five 2 0 1 and 20.
+
+07:43.360 --> 07:46.460
+And like I said we can use whatever colors we would want.
+
+07:46.480 --> 07:47.090
+All right.
+
+07:47.140 --> 07:54.390
+So again we're here we're just using an R G B again the same thing 2:55.
+
+07:54.640 --> 07:55.910
+Then we have two and one.
+
+07:56.020 --> 07:58.590
+And then on here this going to be 20.
+
+07:58.600 --> 08:02.860
+So now once we have this we can just say it and you can see what happens.
+
+08:02.860 --> 08:03.590
+Right.
+
+08:03.610 --> 08:09.000
+Once we had all heard his background you can see that as the opacity changes actually we have a yellow
+
+08:09.000 --> 08:10.500
+background.
+
+08:10.870 --> 08:12.640
+Once we were done with this.
+
+08:12.730 --> 08:15.950
+Now let's add responsiveness.
+
+08:15.950 --> 08:21.000
+And in the next video can actually add magnifica pop up box.
+
+08:21.010 --> 08:26.050
+So first things first I'm going to say here that let's let's just say it.
+
+08:26.440 --> 08:30.540
+And again we have few options what to look at we can look at.
+
+08:30.680 --> 08:31.900
+All right.
+
+08:31.930 --> 08:35.150
+So you can see that everything is working just the images are really big.
+
+08:35.230 --> 08:38.280
+Right so we obviously need to do some kind of styling here.
+
+08:38.290 --> 08:39.140
+Right.
+
+08:39.140 --> 08:46.430
+So we're going to do when we're here is going to have a year media and now we're going to say screen
+
+08:46.860 --> 08:55.330
+rear end or you are going to see men with and with so many men with one that is going to happen so I'm
+
+08:55.330 --> 09:05.390
+going to say 576 pixels here and then we're going to have a corrent current and we're going to say Center.
+
+09:05.730 --> 09:10.810
+Let's just check whether the actual class matches or that was an ID.
+
+09:11.020 --> 09:11.320
+Right.
+
+09:11.320 --> 09:11.950
+That's correct.
+
+09:11.950 --> 09:13.690
+It's going to be an entity.
+
+09:13.720 --> 09:18.670
+So if we're going to go back on here to say current Center and over here then we're going to say like
+
+09:18.700 --> 09:19.060
+this.
+
+09:19.080 --> 09:19.480
+Right.
+
+09:19.690 --> 09:26.110
+So first of all in this play and we're going to say flex really miss so let's save it and let's see
+
+09:26.110 --> 09:27.690
+whether something changes.
+
+09:27.770 --> 09:31.070
+Right now I can see that we have one big line over here.
+
+09:31.060 --> 09:32.440
+These images.
+
+09:32.440 --> 09:38.680
+Now the next thing that I would want to do once actually display flex on here I'm going to say a justified
+
+09:38.680 --> 09:47.120
+content space between then after that we're going to see a flex wrap and we're going to say wrap around
+
+09:47.360 --> 09:51.610
+here and then we're going to have the actual worth of an item.
+
+09:51.610 --> 10:00.180
+So again let's make it a longer room more here and we're going to say corrent I got him here.
+
+10:00.390 --> 10:01.990
+And what would that mean for the current data.
+
+10:02.000 --> 10:06.820
+We're going to say flex 0 0 50 percent.
+
+10:06.900 --> 10:13.860
+All right so starting from the small screen this is going to be 50 percent say this year and we can
+
+10:13.860 --> 10:18.180
+refresh no here now we have a 50 percent.
+
+10:18.180 --> 10:21.960
+Now obviously for the bigger screen we would want a fourth the size right.
+
+10:21.960 --> 10:24.350
+So this is very straightforward.
+
+10:24.560 --> 10:28.670
+Can you just copy and paste needs to realize this.
+
+10:28.950 --> 10:36.600
+And here we're going to say that this is going to be a size of nine to nine and two then after that
+
+10:37.380 --> 10:39.790
+all these things stay the same.
+
+10:39.940 --> 10:40.200
+Right.
+
+10:40.200 --> 10:44.790
+Because we already send them on here with these rules so let's get this guy.
+
+10:45.190 --> 10:49.080
+Know he read 25 25 or here.
+
+10:49.380 --> 10:53.670
+So we're saying this now we should get a fourth to screen.
+
+10:54.000 --> 10:54.300
+Right.
+
+10:54.360 --> 10:57.770
+And sure enough this is going to be our fourth of the screen.
+
+10:58.120 --> 11:06.450
+And now let's go ahead let's actually comment this out and let's do the same thing just with the grid.
+
+11:06.450 --> 11:10.140
+So we're here all of them saying this is going to be a grid instead.
+
+11:10.130 --> 11:20.790
+So again media screen here and I'm saying and I know here you say men with with here.
+
+11:20.830 --> 11:24.450
+Same thing 576 pixels.
+
+11:24.610 --> 11:29.160
+And I would say we maybe could have commented out over here and leave the media screen.
+
+11:29.170 --> 11:33.720
+I don't know whether that would really save a bunch of time but we definitely could have done that.
+
+11:33.730 --> 11:34.490
+Right.
+
+11:34.630 --> 11:39.900
+Here we're going to we're going to stay current and we're going to say Center on first things first
+
+11:39.900 --> 11:46.510
+of all going to say this play and we're going to say great here once we have the actual grid when you
+
+11:46.620 --> 11:55.270
+say grid template and template columns are going to say repeat like this.
+
+11:55.360 --> 11:59.140
+All right so we're going to have a repeat and repeat.
+
+11:59.140 --> 12:00.650
+Is going to be for two.
+
+12:00.910 --> 12:07.130
+So two of them I know here one fraction we can write it like this or we could have just written on here
+
+12:07.200 --> 12:08.570
+like this one.
+
+12:08.580 --> 12:10.880
+Fraction one fraction right.
+
+12:10.890 --> 12:13.750
+So basically we're saying you want two columns.
+
+12:13.750 --> 12:16.020
+And both of them should be one fraction.
+
+12:16.090 --> 12:16.420
+No.
+
+12:16.430 --> 12:20.740
+Here we can do is just copy and paste this one here.
+
+12:20.740 --> 12:24.380
+Let's say that this is going to be 9 9 2 No here.
+
+12:24.430 --> 12:26.900
+Now let's use the actual repeat.
+
+12:26.900 --> 12:27.160
+Right.
+
+12:27.160 --> 12:29.850
+So again we can get rid of the grid.
+
+12:30.020 --> 12:32.300
+That's not what we care about here.
+
+12:32.290 --> 12:36.380
+All we want is repeat function here.
+
+12:36.460 --> 12:40.230
+Let's say four times and one fraction.
+
+12:40.470 --> 12:41.400
+That's right.
+
+12:41.470 --> 12:44.850
+So let's save this and let's go back over here.
+
+12:45.340 --> 12:47.450
+And now you can see what we have right.
+
+12:47.470 --> 12:49.680
+We have everything still working the same way.
+
+12:49.700 --> 12:53.270
+Right now I can see that as I'm hovering it is showing as a link.
+
+12:53.270 --> 12:53.850
+All right.
+
+12:53.860 --> 12:58.420
+And if I press it I actually go to where the actual image is located.
+
+12:58.660 --> 12:59.890
+But that's not what we want.
+
+12:59.890 --> 13:00.620
+Right.
+
+13:00.720 --> 13:05.880
+In the next video we're actually going to place more here our magnifique pop up.
+
+13:06.040 --> 13:08.650
+So we have the actual responsive gallery.

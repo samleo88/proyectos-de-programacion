@@ -1,0 +1,204 @@
+1
+
+00:00:00,000  -->  00:00:05,580
+Alright guys, so let's talk about the
+continue statement which is the opposite
+
+2
+
+00:00:05,580  -->  00:00:11,250
+of break, and to best explain what this
+does what i'm
+
+3
+
+00:00:11,250  -->  00:00:15,780
+going to do is use the existing code
+that we have here for this attack system,
+
+4
+
+00:00:15,780  -->  00:00:19,289
+and what I'm going to do is I'm just
+going to change it a little bit. So right
+
+5
+
+00:00:19,289  -->  00:00:20,369
+now what happens,
+
+6
+
+00:00:20,369  -->  00:00:25,230
+let's run this, and what it does is it
+starts the loop, it generates a number of
+
+7
+
+00:00:25,230  -->  00:00:31,260
+damage, and then it subtracts that from your current HP, and then it just runs loop
+
+8
+
+00:00:31,260  -->  00:00:37,590
+over again, until if your HP becomes
+less than or equal to 30 it sets it to
+
+9
+
+00:00:37,590  -->  00:00:42,719
+30, that's the lowest the HP
+can go, and then it prints out you know
+
+10
+
+00:00:42,719  -->  00:00:48,719
+etc. So the minimum that your
+HP will print out at is 30,
+
+11
+
+00:00:48,719  -->  00:00:52,320
+and then what it does after is it does this
+print statement that says if the player hit
+
+12
+
+00:00:52,320  -->  00:00:56,219
+points equals 30, then you have low
+health, you can teleport to the nearest
+
+13
+
+00:00:56,219  -->  00:01:02,550
+inn, and then it breaks out of the loop.
+But what can do is actually do this
+
+14
+
+00:01:02,550  -->  00:01:07,920
+exact same thing just a bit differently.
+So what we're going to do is move these
+
+15
+
+00:01:07,920  -->  00:01:14,850
+two statements out of that if, and drop that down here. Now if we run this code right now
+
+16
+
+00:01:14,850  -->  00:01:19,500
+it's going to give an error, because we
+have an empty if statement. If you have
+
+17
+
+00:01:19,500  -->  00:01:25,140
+an empty block of code, Python will freak
+out because it doesn't know what to do
+
+18
+
+00:01:25,140  -->  00:01:30,119
+with empty block code. So also here's a
+bonus statement it's called pass. So if you
+
+19
+
+00:01:30,119  -->  00:01:34,890
+want to create an empty block of code,
+instead of leaving it empty, just type
+
+20
+
+00:01:34,890  -->  00:01:39,030
+"pass" Now this will run once actually,
+
+21
+
+00:01:39,689  -->  00:01:48,000
+regardless because we don't
+actually have this in an if
+
+22
+
+00:01:48,000  -->  00:01:51,960
+statement. So at the end of the first
+loop it it automatically says you have
+
+23
+
+00:01:51,960  -->  00:01:56,250
+low health even when you don't. So what we're going to do, is we're going to
+
+24
+
+00:01:56,250  -->  00:02:02,490
+change this from "if playerhp = 30:" to "if playerhp &gt; 30:"
+
+25
+
+00:02:02,490  -->  00:02:08,610
+and what we're going to do here is type "continue" and I'm going to run this
+
+26
+
+00:02:08,610  -->  00:02:11,910
+and it's going to do the exact same
+thing that it did last time but it's a bit
+
+27
+
+00:02:11,910  -->  00:02:12,750
+different. So
+
+28
+
+00:02:12,750  -->  00:02:17,730
+to explain a bit better what's happening
+is it's running this block of code and
+
+29
+
+00:02:17,730  -->  00:02:24,390
+then it says is the player hit points
+more than 30, if it is then continue. So
+
+30
+
+00:02:24,390  -->  00:02:26,730
+what this continue statement does is it
+
+31
+
+00:02:26,730  -->  00:02:31,680
+it ignores everything after that in the
+in the loop, and it just continues from
+
+32
+
+00:02:31,680  -->  00:02:38,760
+the beginning right away. So we won't
+reach this if we call continue before
+
+33
+
+00:02:38,760  -->  00:02:44,459
+this. So that's just a different way of
+doing the exact same thing. Now in the
+
+34
+
+00:02:44,459  -->  00:02:49,320
+next video we're going to get started on
+classes, and what classes are, and why we
+
+35
+
+00:02:49,320  -->  00:02:52,770
+should use them, and then you know by the end of this module again we're going to
+
+36
+
+00:02:52,770  -->  00:02:56,850
+be using classes to do a full on role playing game battle system.

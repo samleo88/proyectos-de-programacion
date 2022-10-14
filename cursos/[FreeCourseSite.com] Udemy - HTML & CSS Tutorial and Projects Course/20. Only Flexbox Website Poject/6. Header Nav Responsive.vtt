@@ -1,0 +1,550 @@
+WEBVTT
+
+00:00.120 --> 00:05.290
+So how are we're going to have a responsibility here to this number.
+
+00:05.520 --> 00:12.680
+So first let's go back to our project and open it up and you can see this is going to be my index page.
+
+00:13.140 --> 00:17.830
+So we're going to open up our here and now you can see what's happening right now.
+
+00:17.860 --> 00:20.100
+Are these all the time going to be like this.
+
+00:20.100 --> 00:20.660
+Right.
+
+00:20.700 --> 00:22.790
+And this is something that we don't want.
+
+00:22.920 --> 00:28.290
+We actually want as the screen gets bigger the links are displayed here in line.
+
+00:28.350 --> 00:34.540
+So when we're going to do or here we're going to go back and we're going at a mini equerry So we're
+
+00:34.540 --> 00:43.050
+going to go back over here and we're going to say media here and we're going to see a screen screen
+
+00:43.050 --> 00:43.570
+like this.
+
+00:43.570 --> 00:47.150
+And I'm going to say and I know here we're going to say men and where.
+
+00:47.210 --> 00:53.190
+So basically we need to pick the size so I'm going to say men with no hair are going to say that once
+
+00:53.190 --> 00:57.150
+it gets to six hundred ninety pixels something should happen.
+
+00:57.250 --> 01:02.710
+All right so once the screen size gets two hundred sixty nine sixty nine pixels.
+
+01:02.840 --> 01:09.690
+So we're here first thing we're going to say for the nav display and I'm going to say flex here then
+
+01:09.700 --> 01:14.490
+we're going to have a line items baseline and flex rap rap.
+
+01:14.650 --> 01:18.270
+But let's just go back over here first let's see how this one looks like.
+
+01:18.300 --> 01:19.490
+So if I refresh.
+
+01:19.710 --> 01:22.780
+You can see that right now were actually displayed.
+
+01:22.870 --> 01:23.450
+All right.
+
+01:23.520 --> 01:25.160
+And this play flex.
+
+01:25.460 --> 01:31.750
+Then over here we're going to say a line items like this and I'm going to say baseline.
+
+01:32.250 --> 01:40.320
+I'm going to say baseline on here then I'm going to say flex wrap here flex wrap and I'm going to say
+
+01:40.790 --> 01:46.990
+wrap this and then we're going to have a padding of 0 and 20 pixels.
+
+01:47.010 --> 01:52.230
+So here what I'm saying is that I'll line them right because these are going to be different values
+
+01:52.710 --> 01:56.260
+the coding and the links are actually going to be displayed differently.
+
+01:56.290 --> 02:02.900
+Right now we can see this right now because we haven't said this one was to display flex right.
+
+02:02.930 --> 02:07.920
+But when there are going to be a line you can see that these guys are actually smaller than this.
+
+02:07.980 --> 02:12.460
+So when we say Auline center right a line item is baseline.
+
+02:12.480 --> 02:19.200
+What I'm saying is line these guys over here right according to where the text is and not where the
+
+02:19.200 --> 02:21.370
+actual value of the boxes.
+
+02:21.390 --> 02:26.510
+So now that we have for the now let's keep going here next one we're going to say for the menu.
+
+02:26.530 --> 02:30.350
+But what we're going to say we're here a menu between.
+
+02:30.410 --> 02:32.820
+We're going to say display none.
+
+02:32.840 --> 02:34.140
+So I'm going to say display none.
+
+02:34.140 --> 02:39.620
+So what's happening is for the bigger screen I actually don't want this button and because I want just
+
+02:39.630 --> 02:46.970
+decoding and the links so we keep on going here and then we're going to have an ordered list.
+
+02:47.280 --> 02:54.780
+So I'm going to say Now first we have on our list and here we're going to say this is going to be a
+
+02:55.160 --> 02:57.160
+full X more here.
+
+02:57.360 --> 02:59.540
+We're going to say this is going to be one.
+
+03:00.120 --> 03:01.330
+And it's going to be one.
+
+03:01.530 --> 03:03.110
+And this is going to be harder.
+
+03:03.300 --> 03:10.590
+So basically what I'm saying here is not I would want this one and this one I can see they're expanding
+
+03:10.590 --> 03:16.800
+all across right because I wanted to take the whole space right not individual length but actually the
+
+03:16.800 --> 03:18.550
+whole $100.
+
+03:18.570 --> 03:21.080
+So here we have flex 1 1.
+
+03:21.180 --> 03:29.130
+Then after that we're going to have a play here and we're going to say flex here like this.
+
+03:29.280 --> 03:34.380
+And then what's going to happen is I'm going right and this is going to be important because I'm going
+
+03:34.380 --> 03:37.720
+to show you why we actually need to add important or here right.
+
+03:37.830 --> 03:43.000
+Because I don't want it right right now and then for you to think that you don't understand why I did
+
+03:43.010 --> 03:43.240
+that.
+
+03:43.250 --> 03:47.210
+So this is going to be flex wrap and we're going to say.
+
+03:47.440 --> 03:49.800
+And let's again let's go and check it out.
+
+03:49.980 --> 03:53.260
+And once we refresh now we can see that first of all.
+
+03:53.270 --> 03:53.830
+All right.
+
+03:54.000 --> 03:55.470
+They are displayed in one line.
+
+03:55.500 --> 03:56.010
+Right.
+
+03:56.130 --> 04:02.390
+And for the Flex wrap what's happening is as I'm going on here right you can see that over here.
+
+04:02.550 --> 04:08.110
+Once it's going to start getting the new line right it's actually going to go right again.
+
+04:08.220 --> 04:12.300
+We're going to get rid of this annoying transition right because you can see on the big screen doesn't
+
+04:12.300 --> 04:13.450
+look that great right.
+
+04:13.680 --> 04:20.990
+So as you can see or hear as it was smaller right now the button is actually showing and disappears.
+
+04:21.330 --> 04:27.480
+Now over here what you would want is for the list item and for a list item I'm going to say now have
+
+04:28.290 --> 04:30.260
+on our list a list item.
+
+04:30.480 --> 04:35.850
+And since this is actually display flexed right the whole on the list.
+
+04:35.850 --> 04:37.800
+All right well we need to do over here.
+
+04:37.800 --> 04:44.820
+We're going to say this is going to be flex and this is going to be flex grow one flex shrink zero and
+
+04:45.200 --> 04:48.700
+25 pixels on this.
+
+04:48.780 --> 04:51.960
+So we save this and over here you will see the difference.
+
+04:51.960 --> 04:52.570
+Right.
+
+04:52.590 --> 04:54.550
+So as we go to the bigger screen.
+
+04:54.960 --> 04:56.690
+This is the flex ramp.
+
+04:56.700 --> 04:59.420
+So what's happening is now they're all 25.
+
+04:59.430 --> 05:06.360
+You can see that side by side because we had a flex grow more here and as we're actually going on here
+
+05:06.360 --> 05:09.050
+like this right you can see what's happening right.
+
+05:09.180 --> 05:12.460
+The text is not going somewhere in sexually rapping the next line.
+
+05:12.480 --> 05:19.680
+That's where the flex rap comes in here and once we hit this screen right now I can see the button appears
+
+05:20.160 --> 05:23.310
+and button actually disappears.
+
+05:23.640 --> 05:29.660
+Now the issue is with this screen or hearing let's say or here that we click disappearing.
+
+05:29.670 --> 05:30.360
+Right.
+
+05:30.450 --> 05:34.970
+And if we go back over here you can see that our links actually disappeared also.
+
+05:35.070 --> 05:42.300
+Therefore if you're working with the links right with us on our list you need to right over here important
+
+05:43.380 --> 05:45.990
+important here.
+
+05:46.020 --> 05:50.610
+And then once we say this once we refresh now I can see that there are going to be back again right
+
+05:50.970 --> 05:56.400
+because as you're toggling with the button if you're going to click it on here and disappears right.
+
+05:56.520 --> 05:59.690
+If you're not going to have that important those links are actually going to disappear.
+
+05:59.880 --> 06:01.540
+Right now they're showing.
+
+06:01.560 --> 06:01.760
+Right.
+
+06:01.770 --> 06:08.040
+Because we wrote over here this important display flex and this is going to be important now that we're
+
+06:08.280 --> 06:09.380
+done with this.
+
+06:09.380 --> 06:11.320
+Let's work with this little icon.
+
+06:11.920 --> 06:13.140
+This one over here.
+
+06:13.470 --> 06:18.950
+And actually you know what let's get rid of this home because we don't really need that.
+
+06:18.990 --> 06:24.020
+So we're going to say we're here is all this is going to get rid of this guy.
+
+06:24.160 --> 06:27.280
+You know this animal is going to leave this icon.
+
+06:27.540 --> 06:29.020
+So we're going to say this.
+
+06:29.120 --> 06:35.230
+And for the main assessment we're going to say that for the icon we would want what we would want now
+
+06:35.240 --> 06:45.510
+very well here and Dot icon here and then I can we're going to say flex this is going to be 0 0 and
+
+06:45.510 --> 06:46.440
+20 pixels.
+
+06:46.440 --> 06:51.180
+And then once we read or hear for this icon and then we can go back over here you can see that nothing
+
+06:51.180 --> 06:51.690
+changed.
+
+06:51.690 --> 06:52.300
+Right.
+
+06:52.320 --> 06:58.120
+And the reason for that in this class class needs to be placed in the list item.
+
+06:58.200 --> 06:58.540
+Right.
+
+06:58.710 --> 07:00.870
+Because you can see the actual link.
+
+07:00.940 --> 07:01.850
+All right.
+
+07:01.890 --> 07:05.210
+This is not a direct child or a flex parent.
+
+07:05.220 --> 07:10.770
+So the right or here we're going to say that this is going to be class know know going to say I can
+
+07:11.390 --> 07:18.100
+here once we say this like this now I can see that this one actually is just going to take 20 or more
+
+07:18.140 --> 07:18.870
+pixels.
+
+07:18.930 --> 07:23.880
+Now again we still have this little bit of annoying transition all right which was led from the smaller
+
+07:23.880 --> 07:24.620
+screen right.
+
+07:24.690 --> 07:27.740
+But you can see that right away the size actually got smaller.
+
+07:27.810 --> 07:32.800
+So if you're going to go back to a main see this and we're going to keep on styling.
+
+07:33.120 --> 07:36.950
+Now after that we would want to style the actual nav link icon.
+
+07:37.200 --> 07:44.550
+So we're going to say we're here now have you all on here ally and we're going to say link icon here
+
+07:44.760 --> 07:45.580
+in this.
+
+07:45.780 --> 07:50.340
+And they're all going to say this is going to be a color and we're going to say the color is going to
+
+07:50.340 --> 07:50.940
+be hashed.
+
+07:51.000 --> 07:53.300
+F5 F5 F5.
+
+07:53.490 --> 07:54.320
+Really miss.
+
+07:54.540 --> 08:01.810
+And then we're going to have a background and the Madrona is going to be hashtag 3 9 5 3 9 5 and then
+
+08:01.820 --> 08:05.420
+we're going to have e 7 e e 7.
+
+08:05.550 --> 08:06.630
+Or here.
+
+08:06.660 --> 08:11.980
+Then after that we would want once we're hovering right so we're going to call Mac or hear what to say
+
+08:11.980 --> 08:12.500
+now.
+
+08:12.720 --> 08:21.510
+Well I don't want to say a link where I can I'm going to say however now once we're hovering you'd want
+
+08:21.570 --> 08:24.870
+a background and the background should be like this.
+
+08:24.870 --> 08:25.440
+Right.
+
+08:25.440 --> 08:30.000
+So I'm saying this is hashtag 0 0 8.
+
+08:30.190 --> 08:34.050
+They're going to have here a D.
+
+08:34.410 --> 08:34.970
+Right.
+
+08:34.980 --> 08:36.960
+So let's go back over here again.
+
+08:37.630 --> 08:39.270
+Fresh right you can see that right away.
+
+08:39.270 --> 08:40.210
+Background changed.
+
+08:40.230 --> 08:40.800
+Right.
+
+08:40.800 --> 08:44.370
+And as I'm hovering you can see the values are changing.
+
+08:44.370 --> 08:50.670
+Now we're here we're here right so not because this is going to be white guys over here are going to
+
+08:50.670 --> 08:52.470
+be a background.
+
+08:52.520 --> 08:52.750
+Right.
+
+08:52.770 --> 08:55.990
+And as I changed here this would be like this.
+
+08:56.190 --> 09:01.560
+Now then after that what we would want is we would want to actually work with a link.
+
+09:01.550 --> 09:09.960
+So I'm going to say now here and then I'm say this is going to be on our list link and then I'm going
+
+09:09.960 --> 09:17.310
+to say this is going to be text align center on this so we're actually placing them in the center.
+
+09:17.340 --> 09:19.560
+But again this is not happening on a small screen.
+
+09:19.560 --> 09:21.890
+This is actually happening on a bigger one.
+
+09:22.110 --> 09:24.130
+And then we're going to have for the hovering.
+
+09:24.420 --> 09:27.420
+So what we're going to say for the hovering of we're going to see it like this.
+
+09:27.560 --> 09:30.460
+We're going to say this is going to be Nav. on here.
+
+09:30.570 --> 09:32.910
+Well or here.
+
+09:33.480 --> 09:35.880
+We're on this.
+
+09:35.910 --> 09:44.380
+And then we're going to say padding ten pixels or here and we're going to say important important over
+
+09:44.430 --> 09:44.950
+here.
+
+09:45.240 --> 09:51.210
+And basically what I'm doing here if you go back all the way to the top when we were actually working
+
+09:51.210 --> 09:52.180
+with this one right.
+
+09:52.340 --> 09:57.620
+I remember when we had a hover effect over here for our links right.
+
+09:57.630 --> 10:02.960
+Remember we had little change in padding left to 60 but you can see that the original was basically
+
+10:02.960 --> 10:03.790
+10.
+
+10:03.800 --> 10:08.690
+So what I'm saying here with the smaller screen this is all I'm saying I'm saying listen just leave
+
+10:08.690 --> 10:10.860
+the padding the way it is originally.
+
+10:10.910 --> 10:15.790
+So for a refresher here you can see that the only thing is changing is background and color.
+
+10:15.860 --> 10:17.980
+However the padding is not changing.
+
+10:18.440 --> 10:20.010
+So this is how it's going to look like.
+
+10:20.240 --> 10:23.670
+And then as we're going in the smaller screen right you can see what's happening.
+
+10:23.810 --> 10:30.030
+First of all we have all here and this flex Grall one flex shrink here zero.
+
+10:30.040 --> 10:32.210
+So they don't shrink but they grow.
+
+10:32.240 --> 10:36.310
+However as I'm rapping you can see they're wrapping in the next line right.
+
+10:36.530 --> 10:41.880
+The moment there is not enough space in the screen perhaps the next line wraps to the next line.
+
+10:41.890 --> 10:42.290
+Right.
+
+10:42.410 --> 10:45.370
+And therefore we were using these flex wrap or here right.
+
+10:45.620 --> 10:49.450
+Oh here we have the button or here right which we can actually.
+
+10:49.490 --> 10:49.970
+Right.
+
+10:50.150 --> 10:54.740
+And you can see that we don't have an issue anymore once we had the links go back over here and they
+
+10:54.740 --> 10:55.730
+still are here.
+
+10:55.790 --> 10:56.420
+Right.
+
+10:56.510 --> 11:01.780
+And then after that the last thing they really want to do is actually padding over here for this Naphtali.
+
+11:02.090 --> 11:08.430
+So what I'm going to say or here last through here is going to be hashtag Nav. top.
+
+11:08.630 --> 11:14.840
+I'm going to say padding and this is going to be 10 pixels or here and then I would say this.
+
+11:14.900 --> 11:16.950
+And you can see or hear what happens right.
+
+11:16.960 --> 11:19.100
+So now we have a little bit less padding.
+
+11:19.160 --> 11:21.550
+So this is going to be a little bit higher.
+
+11:21.650 --> 11:27.680
+And if we go back over here now we're actually done with our nav bar and we're ready to go ahead and
+
+11:27.680 --> 11:34.940
+start styling or here this Vanner with coding and coding attic meets successful X-Box.

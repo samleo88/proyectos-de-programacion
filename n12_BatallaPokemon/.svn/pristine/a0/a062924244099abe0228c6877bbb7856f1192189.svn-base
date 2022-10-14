@@ -1,0 +1,179 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.interfaz;
+
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.border.TitledBorder;
+
+/**
+ * Panel que maneja las extensiones.
+ */
+public class PanelExtensionCliente extends JPanel implements ActionListener
+{
+
+    // -----------------------------------------------------------------
+    // Constantes
+    // -----------------------------------------------------------------
+
+    /**
+     * Constante para la serialización.
+     */
+    private static final long serialVersionUID = -2368091935222716496L;
+
+    /**
+     * Representa el comando opción 1.
+     */
+    private static final String OPCION_1 = "OPCION_1";
+
+    /**
+     * Representa el comando opción 2.
+     */
+    private static final String OPCION_2 = "OPCION_2";
+
+    /**
+     * Representa el comando Realizar ataque.
+     */
+    private static final String ATAQUE = "Realizar ataque";
+
+    /**
+     * Representa el comando Cambiar pokémon.
+     */
+    private static final String CAMBIAR_POKEMON = "Cambiar pokemon";
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Ventana principal de la aplicación.
+     */
+    private InterfazBatallaPokemon principal;
+
+    // -----------------------------------------------------------------
+    // Atributos de interfaz
+    // -----------------------------------------------------------------
+
+    /**
+     * Botón opción 1.
+     */
+    private JButton btnOpcion1;
+
+    /**
+     * Botón opción 2.
+     */
+    private JButton btnOpcion2;
+
+    /**
+     * Botón opción atacar.
+     */
+    private JButton btnOpcionAtacar;
+
+    /**
+     * Botón opción cambiar pokémon.
+     */
+    private JButton btnOpcionCambiarPokemon;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Constructor del panel.
+     * @param pPrincipal Ventana principal. pPrincipal != null.
+     */
+    public PanelExtensionCliente( InterfazBatallaPokemon pPrincipal )
+    {
+        principal = pPrincipal;
+
+        setBorder( new TitledBorder( "Opciones" ) );
+        setLayout( new GridLayout( 1, 4 ) );
+
+        // Botón opción 1
+        btnOpcion1 = new JButton( "Opción 1" );
+        btnOpcion1.setActionCommand( OPCION_1 );
+        btnOpcion1.addActionListener( this );
+        add( btnOpcion1 );
+
+        // Botón opción 2
+        btnOpcion2 = new JButton( "Opción 2" );
+        btnOpcion2.setActionCommand( OPCION_2 );
+        btnOpcion2.addActionListener( this );
+        add( btnOpcion2 );
+
+        // Botón opción Ataque
+        btnOpcionAtacar = new JButton( ATAQUE );
+        btnOpcionAtacar.setActionCommand( ATAQUE );
+        btnOpcionAtacar.addActionListener( this );
+        add( btnOpcionAtacar );
+
+        // Botón opción Cambiar pokémon
+        btnOpcionCambiarPokemon = new JButton( CAMBIAR_POKEMON );
+        btnOpcionCambiarPokemon.setActionCommand( CAMBIAR_POKEMON );
+        btnOpcionCambiarPokemon.addActionListener( this );
+        add( btnOpcionCambiarPokemon );
+
+        desactivarJugar( );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Manejo de los eventos de los botones.
+     * @param pEvento Acción que generó el evento. pEvento != null.
+     */
+    public void actionPerformed( ActionEvent pEvento )
+    {
+        if( OPCION_1.equals( pEvento.getActionCommand( ) ) )
+        {
+            principal.reqFuncOpcion1( );
+        }
+        else if( OPCION_2.equals( pEvento.getActionCommand( ) ) )
+        {
+            principal.reqFuncOpcion2( );
+        }
+        else if( ATAQUE.equals( pEvento.getActionCommand( ) ) )
+        {
+            principal.jugar( );
+        }
+        else if( CAMBIAR_POKEMON.equals( pEvento.getActionCommand( ) ) )
+        {
+            principal.cambiarPokemon( );
+        }
+    }
+
+    /**
+     * Activa el botón de atacar y de cambiar pokémon.
+     */
+    public void activarJugar( )
+    {
+        btnOpcionAtacar.setEnabled( true );
+        btnOpcionCambiarPokemon.setEnabled( true );
+    }
+
+    /**
+     * Desactiva el botón de atacar y de cambiar pokémon.
+     */
+    public void desactivarJugar( )
+    {
+        btnOpcionAtacar.setEnabled( false );
+        btnOpcionCambiarPokemon.setEnabled( false );
+    }
+
+}

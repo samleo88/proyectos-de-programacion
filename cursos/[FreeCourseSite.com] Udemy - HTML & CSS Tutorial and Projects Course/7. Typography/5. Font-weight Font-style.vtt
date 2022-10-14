@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.360 --> 00:03.610
+Next movie let's cover properties that we're going to use our texts.
+
+00:03.690 --> 00:09.870
+But since I don't want to cram them in one video I'm going to spread them out either to properties that
+
+00:09.870 --> 00:11.940
+one video or maybe three.
+
+00:11.940 --> 00:12.630
+Let's see.
+
+00:12.830 --> 00:15.770
+And we're gonna start with font weight and file style.
+
+00:15.930 --> 00:22.340
+Now as a side note though I would just want to show you that wherever generic family kicks in.
+
+00:22.440 --> 00:26.810
+Now if we're gonna head over to our import manifolds is gonna come this out.
+
+00:27.120 --> 00:30.670
+Notice that we're still gonna get the generic on families.
+
+00:30.840 --> 00:33.990
+So some kind of fans from the generic fund family.
+
+00:34.050 --> 00:37.620
+If we have cursive This is the reason why this is gonna look like this.
+
+00:37.620 --> 00:40.310
+And then for a bottle we're getting sensor.
+
+00:40.410 --> 00:47.850
+So here you can see actually the generic families in the work where we have commented this out.
+
+00:47.850 --> 00:54.540
+So obviously the browser cannot find this rubato but then it finds something that is at least close
+
+00:54.540 --> 00:56.370
+to that from the sensor.
+
+00:56.460 --> 00:57.540
+Generic font family.
+
+00:58.290 --> 01:01.600
+So in a nutshell that is how the generic font family would work.
+
+01:02.250 --> 01:06.140
+Now again maybe let's comment this out more.
+
+01:06.180 --> 01:08.550
+Let me just make this reasonable.
+
+01:08.550 --> 01:09.420
+Let me say it.
+
+01:09.440 --> 01:14.590
+And now I have both of different families and I'm gonna head over back to head one.
+
+01:15.170 --> 01:20.790
+And I'm just gonna say first of all that I would want to have some class some say Maine and you know
+
+01:20.790 --> 01:25.840
+what I would like to add some more things here and maybe change around the paragraph.
+
+01:26.340 --> 01:32.040
+So first I'm gonna say for the paragraph I'm gonna say some law I'm 25 so I'm going to have a little
+
+01:32.040 --> 01:33.170
+bit less text.
+
+01:33.350 --> 01:35.900
+However I would want to have an understanding one.
+
+01:35.910 --> 01:40.940
+So this is gonna be a let's say subheading AND I'M NOT GONNA ADD right now maybe.
+
+01:40.960 --> 01:42.780
+Or you know what I should probably.
+
+01:42.780 --> 01:43.800
+So let's right.
+
+01:43.800 --> 01:50.060
+Class of subheading as well just so we can test different things and we're gonna do another one under
+
+01:50.060 --> 01:53.640
+a paragraph we as law I'm off guess twenty five.
+
+01:54.110 --> 01:55.370
+Now I'm gonna say it.
+
+01:55.380 --> 02:00.330
+So I have two subheadings obviously because they're hiding ones and then both of them have this kind
+
+02:00.330 --> 02:01.380
+of fun.
+
+02:01.410 --> 02:06.930
+Now if we're gonna go over to styles to assess I would like to change this and I'm going to say that
+
+02:06.970 --> 02:10.050
+this family is only going to be for the main one.
+
+02:10.290 --> 02:17.340
+The moment I say it obviously list one family's applied with the first one because the other one has
+
+02:17.340 --> 02:21.990
+the class of subheading now where the font weight comes in and what does it do.
+
+02:22.020 --> 02:25.500
+Well it just makes our font bolder.
+
+02:25.520 --> 02:27.300
+How do how would that work.
+
+02:27.330 --> 02:33.500
+Let's say for the body we're gonna go with font family and then we're looking for these guys.
+
+02:33.600 --> 02:38.910
+So we have I'm sorry not found time we were looking for find weight and then we have bunch of numbers
+
+02:38.910 --> 02:43.800
+here also options of bold bolder and lighter.
+
+02:43.800 --> 02:48.110
+Now I can probably already tell you what they're gonna do.
+
+02:48.300 --> 02:55.000
+Bold is gonna make it bold bold there is gonna make it bolder and lighter is gonna make it lighter.
+
+02:55.560 --> 03:01.830
+These numbers here keep in mind that if you have an imported just because you're going to set something
+
+03:01.830 --> 03:08.310
+to 900 it's gonna default back to that 700 anyway so be careful about that don't think that just in
+
+03:08.310 --> 03:11.980
+case you're going to add 900 then this is gonna be definitely bolder.
+
+03:12.170 --> 03:18.680
+Now in order to show you that why don't we go to the paragraphs and add also some classes is that way
+
+03:18.680 --> 03:20.630
+we can be a little bit more specific.
+
+03:20.690 --> 03:28.340
+So this is gonna be paragraph number one as well as we're gonna do class of paragraph number two not
+
+03:28.340 --> 03:36.870
+very general names meaning not very original names but we're just gonna add a little bit of fun weight.
+
+03:37.190 --> 03:40.490
+So let's say for the paragraph number one we would want.
+
+03:40.520 --> 03:47.050
+I don't know font font weight is gonna be like I said let's try with 700 here.
+
+03:47.350 --> 03:50.080
+But that's gonna be the first one and notice it is right now.
+
+03:50.090 --> 03:56.300
+Boulder and let's try with number two we go for 900 just to kind of prove my point.
+
+03:56.380 --> 04:02.330
+Now again let me look for a proper family or sorry for a proper property some reason fund family stuck
+
+04:02.330 --> 04:04.670
+in my head and I cannot get it out.
+
+04:04.670 --> 04:08.870
+So what we have found way to 900 What do you think is going to happen.
+
+04:08.870 --> 04:11.220
+Do you think this is a really bolder than that.
+
+04:11.270 --> 04:12.200
+I don't think so.
+
+04:12.200 --> 04:17.600
+I think they're both exactly the same and now is that the reason for that is the max we have seen so
+
+04:17.600 --> 04:18.330
+far so good.
+
+04:18.350 --> 04:23.660
+Again we can do the same thing here we can say bold and let's say for this guy we're going to have Boulder
+
+04:24.170 --> 04:28.460
+again let's try it out and pretty much they both look the same.
+
+04:29.270 --> 04:34.700
+We have defined weight covered now so maybe look for lighter going to go lighter.
+
+04:34.700 --> 04:41.510
+Now obviously this is gonna fall back to 400 then we would also want to look at font style.
+
+04:41.840 --> 04:45.510
+Now for the font style let's go with font style.
+
+04:45.590 --> 04:53.150
+And here we have few options we have again the initial inherit and then we're looking for italic normal
+
+04:53.270 --> 04:54.840
+and oblique.
+
+04:54.860 --> 04:56.660
+Now we have the italic one.
+
+04:56.990 --> 04:58.980
+So this is going to look like this.
+
+04:58.980 --> 05:01.390
+Let's copy and paste the style.
+
+05:01.400 --> 05:04.490
+Let's say this guy wore number two.
+
+05:04.640 --> 05:12.580
+We're gonna add oblique make up and paste and list changes around and say Oh Blake over here.
+
+05:12.690 --> 05:15.730
+And again as you can see very very similar things.
+
+05:15.950 --> 05:18.960
+And maybe the last thing would we would want is check it out.
+
+05:18.960 --> 05:20.780
+What what else we have here.
+
+05:20.840 --> 05:23.670
+So for this I'm gonna do the subheading.
+
+05:23.690 --> 05:27.470
+We'll have a class office ring.
+
+05:27.710 --> 05:33.080
+And here I'm gonna be looking again for the font style and for the font style.
+
+05:33.230 --> 05:34.460
+What do we have.
+
+05:34.460 --> 05:36.310
+Well I believe we have the italic.
+
+05:36.330 --> 05:40.020
+Then we had the oblique and you know what let me get my suggestions.
+
+05:40.100 --> 05:43.460
+And again the suggestions was the control and space.
+
+05:43.490 --> 05:48.050
+And here I have the normal one Now your question probably will.
+
+05:48.120 --> 05:50.590
+Where are we going to try the normal ones.
+
+05:50.760 --> 05:56.430
+Now there's gonna be cases where you said something for let's say three paragraphs but one of them you
+
+05:56.430 --> 05:59.250
+would want the default setting.
+
+05:59.250 --> 06:04.610
+So in general you're not going to use this normal setting because this already comes by default and
+
+06:04.610 --> 06:06.530
+that's the reason why nothing changed there.
+
+06:06.660 --> 06:11.230
+But let's say for all the headings you have said some kind of style.
+
+06:11.280 --> 06:12.690
+Now what is going to happen.
+
+06:12.690 --> 06:18.570
+Well let's change this around let's say that I'm gonna get rid of the font style here as well as here
+
+06:19.410 --> 06:21.700
+and let me get rid of this guy.
+
+06:21.700 --> 06:25.610
+Number two I'm going to do it like this.
+
+06:25.610 --> 06:26.600
+Let me say it.
+
+06:26.760 --> 06:28.900
+That's gonna work now also.
+
+06:29.150 --> 06:34.550
+You know what I mean get rid of the italic ones but somewhere in the body what's right like this let's
+
+06:34.550 --> 06:40.070
+say found aren't here font and we're gonna write style.
+
+06:40.260 --> 06:45.750
+So for home my body I would want to let's say have italic on the moment I'm gonna say I would notice
+
+06:45.750 --> 06:46.620
+something interesting.
+
+06:47.070 --> 06:53.460
+So everything here turns italic because obviously this is the inheritance in the works we have the parent
+
+06:53.460 --> 06:54.950
+and we're just passing down this property.
+
+06:55.600 --> 06:58.790
+However let's say for this guy we would want only normal ones.
+
+06:58.800 --> 07:03.000
+And that's the reason why we would add normal and that is something that you are going to see a lot
+
+07:03.660 --> 07:08.350
+where meaning you're not going to use in maybe a lot but you'll see it a lot where if you were going
+
+07:08.350 --> 07:14.150
+to have those default properties like let's say there's gonna be text left.
+
+07:14.250 --> 07:15.750
+So text should be left.
+
+07:15.840 --> 07:19.560
+This is gonna be applied only if you're applying to multiple items.
+
+07:19.560 --> 07:26.760
+Let's say some kind of font style that would be italic but then you're gonna use the default one on
+
+07:26.760 --> 07:29.550
+some of the elements that you don't want to follow the same pattern.

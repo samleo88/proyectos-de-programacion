@@ -1,0 +1,299 @@
+/**********************Capa Negocio BLCategoria************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using Tienda.Entidades;
+using Tienda.Datos;
+
+
+namespace Tienda.Negocio
+{
+   public  class BLCategoria
+    {
+        public List<Categoria> Listar()
+        {
+            DAOCategoria daCategoria = new DAOCategoria();
+            return daCategoria.Listar();
+        }
+
+        public Categoria TraerPorId(int Id)
+        {
+            DAOCategoria daCategoria = new DAOCategoria();
+            return daCategoria.TraerPorId(Id);
+        }
+
+        public int Insertar(Categoria Categoria)
+        {
+            DAOCategoria daCategoria = new DAOCategoria();
+            return daCategoria.Insertar(Categoria);
+        }
+
+        public int Actualizar(Categoria Categoria)
+        {
+            DAOCategoria daCategoria = new DAOCategoria();
+            return daCategoria.Actualizar(Categoria);
+        }
+
+        public int Eliminar(int Id)
+        {
+            DAOCategoria daCategoria = new DAOCategoria();
+            return daCategoria.Eliminar(Id);
+        }
+
+       
+    }
+}
+/********************BLArticulo**************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Tienda.Entidades;
+using Tienda.Datos;
+using System.Data;
+
+namespace Tienda.Negocio
+{
+   public class BLArticulo
+    {
+        public List<Articulo> Listar()
+        {
+            DAOArticulo daArticulo = new DAOArticulo();
+            return daArticulo.Listar();
+        }
+
+        public Articulo TraerPorId(int Id)
+        {
+            DAOArticulo daArticulo = new DAOArticulo();
+            return daArticulo.TraerPorId(Id);
+        }
+
+        public int Insertar(Articulo articulo)
+        {
+            DAOArticulo daArticulo = new DAOArticulo();
+            return daArticulo.Insertar(articulo);
+        }
+
+        public int Actualizar(Articulo articulo)
+        {
+            DAOArticulo daArticulo = new DAOArticulo();
+            return daArticulo.Actualizar(articulo);
+        }
+
+        public int Eliminar(int Id)
+        {
+            DAOArticulo daArticulo = new DAOArticulo();
+            return daArticulo.Eliminar(Id);
+        }
+    }
+}
+/***********************BLVendedor****************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Tienda.Entidades;
+using Tienda.Datos;
+using System.Data;
+
+namespace Tienda.Negocio
+{
+    public class BLVendedor
+    {
+        public List<Vendedor> Listar()
+        {
+            DAOVendedor daVendedor = new DAOVendedor();
+            return daVendedor.Listar();
+        }
+
+        public Vendedor TraerPorId(int Id)
+        {
+            DAOVendedor daVendedor = new DAOVendedor();
+            return daVendedor.TraerPorId(Id);
+        }
+
+        public int Insertar(Vendedor vendedor)
+        {
+            DAOVendedor daVendedor = new DAOVendedor();
+            return daVendedor.Insertar(vendedor);
+        }
+
+        public int Actualizar(Vendedor vendedor)
+        {
+            DAOVendedor daVendedor = new DAOVendedor();
+            return daVendedor.Actualizar(vendedor);
+        }
+
+        public int Eliminar(int Id)
+        {
+            DAOVendedor daVendedor = new DAOVendedor();
+            return daVendedor.Eliminar(Id);
+        }
+     
+
+    }
+}
+/************************NegocioLogin*************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+using Tienda.Entidades;
+using Tienda.Datos;
+
+
+namespace Tienda.Negocio
+{
+   public class NegocioLogin
+    {
+        DatosLogin objDatos = new DatosLogin();
+        public DataTable LogonN(EntidadLogin e)
+        {
+            return objDatos.Login(e);
+        }
+    }
+}
+/**********************BLCliente******************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Tienda.Entidades;
+using Tienda.Datos;
+
+
+namespace Tienda.Negocio
+{
+   public class BLCliente
+    {
+        public List<Cliente> Listar()
+        {
+            DAOCliente daCliente = new DAOCliente();
+            return daCliente.Listar();
+        }
+
+        public Cliente TraerPorId(int Id)
+        {
+            DAOCliente daCliente = new DAOCliente();
+            return daCliente.TraerPorId(Id);
+        }
+
+        public int Insertar(Cliente cliente)
+        {
+            DAOCliente daCliente = new DAOCliente();
+            return daCliente.Insertar(cliente);
+        }
+
+        public int Actualizar(Cliente cliente)
+        {
+            DAOCliente daCliente = new DAOCliente();
+            return daCliente.Actualizar(cliente);
+        }
+
+        public int Eliminar(int Id)
+        {
+            DAOCliente daCliente = new DAOCliente();
+            return daCliente.Eliminar(Id);
+        }
+    }
+}
+/******************************BLPedido******************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Tienda.Entidades;
+using Tienda.Datos;
+using System.Data;
+
+namespace Tienda.Negocio
+{
+   public class BLPedido
+    {
+        public List<Pedido> Listar()
+        {
+            DAOPedido daPedido = new DAOPedido();
+            return daPedido.Listar();
+        }
+
+        public Pedido TraerPorId(int Id)
+        {
+            DAOPedido daPedido = new DAOPedido();
+            return daPedido.TraerPorId(Id);
+        }
+
+        public int Insertar(Pedido pedido)
+        {
+            DAOPedido daPedido = new DAOPedido();
+            return daPedido.Insertar(pedido);
+        }
+
+        public int Actualizar(Pedido pedido)
+        {
+            DAOPedido daPedido = new DAOPedido();
+            return daPedido.Actualizar(pedido);
+        }
+
+        public int Eliminar(int Id)
+        {
+            DAOPedido daPedido = new DAOPedido();
+            return daPedido.Eliminar(Id);
+        }
+    }
+}
+/***********************************BLDetalle_pedido**************************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Tienda.Entidades;
+using Tienda.Datos;
+using System.Data;
+
+
+namespace Tienda.Negocio
+{
+   public class BLDetalle_pedido
+    {
+        public List<Detalle_pedido> Listar()
+        {
+            DAODetalle_pedido daDetalle_pedido = new DAODetalle_pedido();
+            return daDetalle_pedido.Listar();
+        }
+
+        public Detalle_pedido TraerPorId(int Id)
+        {
+            DAODetalle_pedido daDetalle_pedido = new DAODetalle_pedido();
+            return daDetalle_pedido.TraerPorId(Id);
+        }
+
+        public int Insertar(Detalle_pedido detalle_Pedido)
+        {
+            DAODetalle_pedido daDetalle_pedido = new DAODetalle_pedido();
+            return daDetalle_pedido.Insertar(detalle_Pedido);
+        }
+
+        public int Actualizar(Detalle_pedido detalle_Pedido)
+        {
+            DAODetalle_pedido daDetalle_pedido = new DAODetalle_pedido();
+            return daDetalle_pedido.Actualizar(detalle_Pedido);
+        }
+
+        public int Eliminar(int Id)
+        {
+            DAODetalle_pedido daDetalle_pedido = new DAODetalle_pedido();
+            return daDetalle_pedido.Eliminar(Id);
+        }
+    }
+}

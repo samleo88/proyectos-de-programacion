@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.540 --> 00:03.830
+Hopefully you understand the general idea behind inheritance.
+
+00:03.930 --> 00:08.220
+Now let's look at some caveats to the inherit no in order to do that.
+
+00:08.220 --> 00:14.220
+We're gonna head over back to the style assess and we're gonna have a selection for the body and for
+
+00:14.220 --> 00:17.220
+the body would like to have some kind of fun family.
+
+00:17.220 --> 00:22.440
+Now I know I keep repeating this but please don't focus on the properties and the values because we
+
+00:22.440 --> 00:29.620
+will gonna cover them in general I would have to cover some very major topics first and then we're going
+
+00:29.620 --> 00:31.770
+to look at the specific properties and the value.
+
+00:32.310 --> 00:36.750
+Now like I said we're going to be looking for the family and in our case we're gonna go forward the
+
+00:36.770 --> 00:43.110
+model space and we're also gonna add some line height let's say line height is gonna be one point five
+
+00:43.460 --> 00:45.450
+OEM's or something like that.
+
+00:45.570 --> 00:47.390
+So notice something interesting.
+
+00:47.430 --> 00:52.560
+Now all my children element are inheriting this from the body.
+
+00:52.590 --> 00:59.940
+Now the reason for that is not only we are just using some kind of assets we are not overwriting this
+
+00:59.940 --> 01:01.320
+specific property.
+
+01:01.320 --> 01:02.640
+So this is important.
+
+01:02.760 --> 01:08.550
+Now let's say again we're going to add the color of red within the body then because we are selecting
+
+01:08.550 --> 01:12.330
+this color within the div as well as within the heading to.
+
+01:12.520 --> 01:18.450
+This is where we are more specifically working with this element or if there is gonna be properties
+
+01:18.450 --> 01:21.120
+that we're passing down from the parent.
+
+01:21.120 --> 01:22.470
+We will get the inherited.
+
+01:23.010 --> 01:29.490
+So this is kind of important point because understand that this will be inherited unless you specifically
+
+01:29.730 --> 01:31.980
+overwrite that specific property.
+
+01:32.370 --> 01:37.680
+So please don't get confused and don't think that just because you added color blue in a div doesn't
+
+01:37.680 --> 01:41.400
+mean that you are going to also overwrite the font family in line break.
+
+01:41.550 --> 01:42.710
+It doesn't work that way.
+
+01:42.750 --> 01:45.170
+It needs to be a specific property.
+
+01:45.240 --> 01:50.790
+Now in that case I was all going to be using different value like with heading to where you have the
+
+01:50.790 --> 01:56.700
+same property with different value but if you are not working with that property then you will gonna
+
+01:56.700 --> 01:58.680
+be inheriting that property.
+
+01:58.680 --> 02:03.090
+Now what's also important is that not every properties are going to be inherited.
+
+02:03.630 --> 02:08.610
+So let's say we're going to work with a border and in this case we're going to add like three pixels
+
+02:09.030 --> 02:11.210
+solid and I don't know black.
+
+02:11.220 --> 02:12.480
+Something like this.
+
+02:12.480 --> 02:15.920
+Check this out only Dave right now has this property.
+
+02:16.110 --> 02:19.830
+So not all the properties can be inherited by children.
+
+02:19.830 --> 02:21.570
+So that's also something to remember.

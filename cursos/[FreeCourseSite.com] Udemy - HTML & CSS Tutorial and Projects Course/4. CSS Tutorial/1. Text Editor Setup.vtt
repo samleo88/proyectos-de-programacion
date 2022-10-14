@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.390 --> 00:06.450
+Hey guys before we deep dive into CSX I would like to show you my extensions and workspace settings
+
+00:06.510 --> 00:07.740
+in the Visual Studio.
+
+00:08.730 --> 00:14.760
+If you're just joining us you don't have to use Visual Studio code in order to follow this course or
+
+00:14.760 --> 00:20.520
+even if you are using Visual Studio code you can skip this video and use the setup that makes sense
+
+00:20.520 --> 00:21.470
+to you.
+
+00:21.470 --> 00:26.290
+However just to show you what is my setup let me spend a few minutes on that.
+
+00:26.490 --> 00:32.070
+Now first and foremost I would like to show you a few extensions that I'm using and for this example
+
+00:32.070 --> 00:33.730
+I'm going to use the main CSF.
+
+00:33.750 --> 00:38.700
+Now obviously we haven't covered yet anything to do with SPSS but what I'm about to show you is just
+
+00:38.910 --> 00:43.860
+a little visual thing so I don't think we need to cover what is the assess in order to understand.
+
+00:44.550 --> 00:48.200
+Now as you notice these are extensions that I'm using right now.
+
+00:48.270 --> 00:55.410
+And if you're just joining us then please head over to previous videos where we talk model live server
+
+00:55.500 --> 01:00.210
+installation as well as the prior year if you don't have them already.
+
+01:00.240 --> 01:04.090
+Now the first extension that I would like to show you is a bracket per calories.
+
+01:04.440 --> 01:10.530
+Now as you can see right now these brackets are pretty much white so there's no distinction in between
+
+01:10.530 --> 01:11.180
+them.
+
+01:11.180 --> 01:16.250
+I or if we install this extension the same bracket here.
+
+01:16.260 --> 01:21.310
+So here we are searching for extensions and we should have the brackets per colonizer.
+
+01:21.350 --> 01:27.170
+Now again the only thing we need to do is right now a click install and the extension is available to
+
+01:27.170 --> 01:27.820
+us.
+
+01:27.860 --> 01:29.490
+Now what bracket better color is.
+
+01:29.510 --> 01:32.790
+Does it colorized is the matching bracket.
+
+01:32.890 --> 01:39.770
+Now in our case obviously our example is very simple where we just had two sets of brackets and maybe
+
+01:39.860 --> 01:42.720
+in the projects or whatever sections we going to be worth.
+
+01:42.730 --> 01:49.460
+Now it will not gonna make as much sense as later on as you're progressing with web development however
+
+01:49.490 --> 01:50.550
+this is very neat.
+
+01:50.570 --> 01:56.510
+Whenever you start working again with large chunks of code where you can at least see what is happening
+
+01:56.630 --> 01:58.460
+and understand a little bit more visually.
+
+01:59.020 --> 02:03.540
+So that would be the first one and then let's look at the indent rainbow.
+
+02:03.710 --> 02:09.610
+Let me just delete this in brackets per colorized or let's say indent rainbow.
+
+02:10.070 --> 02:14.480
+And again this will going to make indentation easier to read.
+
+02:14.510 --> 02:16.580
+Now how we can see that in real life.
+
+02:16.580 --> 02:21.200
+So first of all it's installed as you can see right now it's installed and if I'm gonna head over back
+
+02:21.200 --> 02:25.340
+to indexation you will notice that I'm going to have these indentations.
+
+02:25.340 --> 02:29.080
+So this pretty much shows us of what code block we're working.
+
+02:29.690 --> 02:34.580
+So everything within the body is going to have this indentation on the left hand side.
+
+02:34.580 --> 02:43.840
+Now last one is going to be highlight matching tag so again in the lead this let's say highlight matching
+
+02:43.840 --> 02:47.420
+and there's gonna be a lot of them so we kind of need to be very specific.
+
+02:47.820 --> 02:49.990
+And in this case this would be the name.
+
+02:49.990 --> 02:55.690
+Now what's really neat about this extension is again this is going to highlight the matching closing
+
+02:55.750 --> 02:58.580
+and opening tax and getting all the names installed it.
+
+02:58.870 --> 03:02.040
+For this one we're going to do a little bit of extra setup.
+
+03:02.130 --> 03:07.300
+So again let me first say I would make sure that it's here and what's gonna happen is as I click again
+
+03:07.300 --> 03:11.090
+on some kind of element it's going to highlight the beginning and the closing tab.
+
+03:11.740 --> 03:14.950
+However we're gonna add a little bit of more settings.
+
+03:15.100 --> 03:20.230
+So let me scroll down and as you notice here there's gonna be more options now in our case.
+
+03:20.230 --> 03:25.060
+First of all I would like to sit like this and then in here you would need to use again the edit.
+
+03:25.420 --> 03:30.190
+So we're gonna use the copy so we're gonna copy everything that's right here and we're gonna head over
+
+03:30.190 --> 03:31.750
+to our setting.
+
+03:31.840 --> 03:37.000
+So we're gonna do settings the cog the settings where we're all gonna be looking for the adjacent object.
+
+03:37.090 --> 03:42.190
+And right after a let's say false let's just copy and paste so in our case.
+
+03:42.190 --> 03:43.910
+Now this would be the setting.
+
+03:44.140 --> 03:46.440
+And here I would like to change this a little bit around.
+
+03:46.840 --> 03:52.570
+So I'm going to say that the border with is going to be three pixels the border style is instead of
+
+03:52.780 --> 03:58.780
+dot it is gonna be solid red solid and I'm also gonna change the color.
+
+03:59.320 --> 04:03.270
+I'm going to say that color is going to be yellow and you can pick a red.
+
+04:03.280 --> 04:06.450
+You can pick blue whatever you would like and then border raises.
+
+04:06.450 --> 04:10.910
+It's still gonna be five now the same thing is going to go here.
+
+04:10.940 --> 04:13.330
+I'm going to say three pixels first of all.
+
+04:13.400 --> 04:20.250
+Then again we're looking for solid style as well as last but not least a color should be here.
+
+04:20.900 --> 04:25.100
+So this is just gonna be a little bit more distinctive of what I had before.
+
+04:25.100 --> 04:28.760
+So again let me head over back to indexation memo and now check it out.
+
+04:29.120 --> 04:32.750
+So now I like how these tags are styled this way.
+
+04:32.990 --> 04:33.820
+Is that way.
+
+04:34.370 --> 04:38.030
+Really clearly shows me of where I'm working now.
+
+04:38.090 --> 04:41.960
+Again this is not going to make sense in our very very basic project.
+
+04:42.200 --> 04:47.840
+But as we're working with more extensive projects this is gonna save us many many times while we're
+
+04:47.840 --> 04:48.650
+still on the subject.
+
+04:48.680 --> 04:52.350
+Let me just show you the general settings that I have in my text here.
+
+04:52.640 --> 04:57.680
+First I have the windows zoom level but I was and this is gonna change whether I'm gonna be zooming
+
+04:57.680 --> 04:58.880
+in or zooming out.
+
+04:59.420 --> 05:04.200
+Then the editor font size I have on 26 the tab size would be 1.
+
+05:04.250 --> 05:05.720
+And again tab size is right here.
+
+05:05.720 --> 05:07.340
+This would be the tab size.
+
+05:07.340 --> 05:11.090
+And again if you would want it more you can obviously have two or four.
+
+05:11.090 --> 05:12.240
+It's really up to you.
+
+05:12.500 --> 05:18.290
+Then I do have the auto save off so that would be all here remember as we're working with life server
+
+05:18.560 --> 05:20.880
+we're going to have the auto site everything.
+
+05:20.990 --> 05:24.280
+What we going to be writing is gonna be saved and shown.
+
+05:24.310 --> 05:28.370
+Write it right there and then I do have the war wrap on.
+
+05:28.370 --> 05:32.140
+So that way my lines are not gonna be extending so I don't have to scroll.
+
+05:32.140 --> 05:37.970
+And then two settings that I have with the printer where I have a format on paste and format on site.
+
+05:38.570 --> 05:44.330
+So every time we're all gonna be saving then the whole code is gonna be formatted.
+
+05:44.330 --> 05:47.920
+Now I also have the mini map enabled to false.
+
+05:48.020 --> 05:50.250
+So basically I don't have this little mini map.
+
+05:50.330 --> 05:52.460
+And again this is really up to you.
+
+05:52.640 --> 05:54.790
+You want to keep the mini map you can keep it.
+
+05:54.930 --> 05:55.820
+You want to get rid of it.
+
+05:55.820 --> 05:57.510
+Just set it equal to the force.
+
+05:57.950 --> 06:03.110
+And if you'd like to look at the other settings let's say remember that you have this option or here
+
+06:03.110 --> 06:04.250
+where you can search for them.
+
+06:04.640 --> 06:10.190
+And once you find them you can actually change it let's say font size do something bigger or smaller.
+
+06:10.370 --> 06:13.980
+And then I say this is gonna be displayed here in your Jason settings.
+
+06:14.060 --> 06:20.120
+Now you can also work right away here in Jason settings but this obviously gives you a nice graphical
+
+06:20.120 --> 06:20.660
+interface.

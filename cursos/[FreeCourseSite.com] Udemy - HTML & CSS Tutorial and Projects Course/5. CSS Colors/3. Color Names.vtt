@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00.870 --> 00:03.910
+Awesome we are experts on color properties.
+
+00:03.920 --> 00:05.590
+What about the values.
+
+00:05.590 --> 00:08.840
+Well our most basic option would be using color names.
+
+00:08.960 --> 00:12.070
+And this is as as straightforward as it gets.
+
+00:12.130 --> 00:17.440
+Every time we're gonna be using the property let's say color or background color more to shorthand for
+
+00:17.440 --> 00:21.160
+the background we would want to use some kind of color name.
+
+00:21.160 --> 00:25.610
+Now what's neat about Visual Studio code that it gives the suggestions.
+
+00:25.630 --> 00:31.300
+So if I add one color name starting with Y it's gonna give me the color name starting with Y.
+
+00:31.540 --> 00:37.330
+IF I'M GONNA START WITH A it's gonna give me color names with a and you get the point there is hundred
+
+00:37.330 --> 00:40.970
+and forty of the color names if you would like to know all of them.
+
+00:41.050 --> 00:46.360
+You can again head over to W three schools and just start scrolling down and you'll see all the color
+
+00:46.360 --> 00:47.050
+names.
+
+00:47.200 --> 00:50.500
+Now like I said this is just gonna be as basic as it gets.
+
+00:50.620 --> 00:57.040
+Every time you would want to have a color or background color property you can always pick a value from
+
+00:57.040 --> 00:57.780
+the color names.

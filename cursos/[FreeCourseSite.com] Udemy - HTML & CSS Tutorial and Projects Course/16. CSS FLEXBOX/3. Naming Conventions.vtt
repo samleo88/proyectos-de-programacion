@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.210 --> 00:00.990
+Beautiful.
+
+00:00.990 --> 00:05.340
+Once we have our setup let's start with general naming conventions.
+
+00:06.000 --> 00:12.690
+So each and every time we're gonna work with flux box we're gonna have two things a parent container
+
+00:12.930 --> 00:18.930
+referred to as a flex container and children referred as flex items.
+
+00:18.930 --> 00:23.100
+Now keep in mind in our case we have five children correct.
+
+00:23.100 --> 00:28.780
+We have five boxes but the same would work even if we would have only one child.
+
+00:28.980 --> 00:31.660
+Also a parent and children can be any age.
+
+00:31.660 --> 00:34.380
+The amount elements as long as it makes sense.
+
+00:34.410 --> 00:38.400
+So please don't try to put divs within the button.
+
+00:38.610 --> 00:42.690
+Now once we got that out of the way how we can start working with the flex box.
+
+00:42.870 --> 00:45.290
+Well it's essentially quite easy.
+
+00:45.300 --> 00:51.960
+So again I'm gonna head over to a style but of course we could have done it within the CNS within the
+
+00:51.960 --> 00:59.050
+style C assess and I'm gonna have to select a parent container or a flex container.
+
+00:59.070 --> 01:02.160
+Now what is the class for my flex container.
+
+01:02.160 --> 01:06.410
+Oh I believe it is a container container like so.
+
+01:06.590 --> 01:08.310
+And then we have a display property.
+
+01:08.850 --> 01:15.580
+So display property and now the value is going to be either flex or in conflicts.
+
+01:15.710 --> 01:21.080
+And then the second I'm going to show you the differences but let's go with the flex and you'll notice
+
+01:21.090 --> 01:25.130
+that right away my boxes are stacked side by side.
+
+01:25.140 --> 01:27.490
+Now I wanted to let you know right away.
+
+01:27.580 --> 01:32.400
+There's multiple properties with multiple values that come by default.
+
+01:32.440 --> 01:35.320
+That's the reason why we right away see this kind of layout.
+
+01:35.640 --> 01:40.170
+And of course we're gonna cover those properties and we're gonna take a look at those defaults.
+
+01:40.530 --> 01:45.080
+But please understand that it is not just this property that makes it happen.
+
+01:45.090 --> 01:51.030
+However the moment we type it like I said behind the scenes there are some properties with some defaults
+
+01:51.030 --> 01:55.340
+already and that's the reason why we have this current layout right away.
+
+01:55.460 --> 02:01.470
+Now like I said we also had an option of inline flex so just for your reference I'm going to keep this
+
+02:01.730 --> 02:07.320
+and I'm just gonna come in to sell it and then let's write again and display and in this case we're
+
+02:07.320 --> 02:11.880
+gonna go for display property and let's write in line flex.
+
+02:11.890 --> 02:18.660
+Now the difference between these two is as you see in the browser while the flex is in fact a block
+
+02:18.750 --> 02:23.970
+level element where it's spanning all across the page and I think it's going to be a little bit easier
+
+02:23.970 --> 02:29.070
+to take a look at that in the browser where we're taking a look at the bigger browser window.
+
+02:29.520 --> 02:32.520
+So let me open up a new browser window.
+
+02:32.660 --> 02:37.150
+Let's head over actually to believe it was 80 80.
+
+02:37.170 --> 02:38.310
+Something like that.
+
+02:38.310 --> 02:46.650
+And notice this is in line flex when in fact it is a inline element so it takes up only the space that
+
+02:46.680 --> 02:48.480
+in fact the boxes have.
+
+02:48.480 --> 02:52.620
+So if the boxes would be bigger then of course we would take up a bigger space.
+
+02:52.630 --> 03:00.360
+However as far as the block level element the one that is flex while it takes up the whole screen size.
+
+03:00.450 --> 03:05.490
+So depending on the screen size it is going to be spanning all across just like a normal block level
+
+03:05.490 --> 03:06.100
+element.
+
+03:06.240 --> 03:09.380
+So those would be the differences now with our examples.
+
+03:09.390 --> 03:13.450
+We're just going to focus on the flex so the block level one.
+
+03:13.470 --> 03:19.350
+But please keep in mind that you also have an option of working with the inline element and then the
+
+03:19.350 --> 03:22.950
+property is going to have a value of inline flex.

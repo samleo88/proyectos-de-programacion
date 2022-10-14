@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.300 --> 00:00.920
+Interesting.
+
+00:00.960 --> 00:04.050
+But what if I don't want this repetition.
+
+00:04.080 --> 00:08.350
+What if everything that I'm seeing with background repeat I don't like it.
+
+00:08.530 --> 00:14.610
+So I would want some kind of property that would fix the fact that repetition is happening now again
+
+00:14.610 --> 00:16.260
+in order to make this ah you know what.
+
+00:16.260 --> 00:18.370
+I think this is gonna be fine for now.
+
+00:18.540 --> 00:21.790
+I can just leave them doesn't cover too much of my space.
+
+00:21.900 --> 00:24.730
+I'm going to have to add only two properties anyway.
+
+00:24.960 --> 00:30.590
+But what's happening is we can use the background size property for us now for the background size we're
+
+00:30.590 --> 00:36.360
+going to look at the few options few values on the floor first one the most important one is going to
+
+00:36.360 --> 00:41.480
+be background size and then we're looking for the value of cover.
+
+00:41.550 --> 00:50.190
+Now what cover is gonna do is regardless of the size of the day of the background image is always gonna
+
+00:50.210 --> 00:51.990
+feel up to Dave.
+
+00:52.110 --> 00:56.350
+Now it's also gonna do the same thing even though the image is really small.
+
+00:56.430 --> 00:58.290
+Now you know what actually we're going to delete it.
+
+00:58.290 --> 00:59.880
+My apologies.
+
+00:59.880 --> 01:01.450
+Let's do it like this.
+
+01:01.500 --> 01:06.250
+Let's say background and just to prove my point size is gonna be cover.
+
+01:06.300 --> 01:12.780
+Now what's gonna happen is like I said I believe in the first video that the actual quality of the image
+
+01:12.900 --> 01:15.230
+is gonna suffer dramatically.
+
+01:15.270 --> 01:15.870
+See this.
+
+01:15.930 --> 01:22.050
+We have the first image nicely covers everything as well as the second image nicely covers everything.
+
+01:22.050 --> 01:26.220
+Now I'm not going to make this one smaller bigger we might as well go to the bigger browser window and
+
+01:26.220 --> 01:27.830
+you'll see the same thing.
+
+01:27.870 --> 01:33.210
+Now we have the first one that the image is cleanly covers everything and then the second one which
+
+01:33.210 --> 01:36.620
+is really distorted because we have picked this small image.
+
+01:36.690 --> 01:38.560
+Now the property did its job.
+
+01:38.730 --> 01:40.290
+It did cover everything.
+
+01:40.290 --> 01:45.390
+However this is where you need to be careful we're not speaking to the image of the small.
+
+01:45.390 --> 01:47.820
+Now we also have an option of contained.
+
+01:48.300 --> 01:49.440
+So here let's write.
+
+01:49.440 --> 01:51.390
+Background.
+
+01:51.390 --> 01:52.310
+Background.
+
+01:52.320 --> 01:56.750
+Again we had size Magnum size.
+
+01:56.850 --> 02:03.390
+Let's say that this is going to be cover now with the arms or not cover contain with the contain.
+
+02:03.420 --> 02:04.790
+There is gonna be an image.
+
+02:04.810 --> 02:06.930
+However if there is not enough space.
+
+02:06.930 --> 02:09.090
+So this is gonna keep the ratio of the image.
+
+02:09.270 --> 02:12.420
+But if there is not enough space again there's gonna be repetition.
+
+02:12.440 --> 02:13.350
+Don't believe me.
+
+02:13.420 --> 02:14.040
+That's right.
+
+02:14.040 --> 02:19.730
+Background back on ground background repeat.
+
+02:19.760 --> 02:25.860
+And let's go with no repeat and you'll see that only one image is able to fit there.
+
+02:26.060 --> 02:31.430
+While we are still keeping our here this ratio so that's gonna be the difference between two of them.
+
+02:31.430 --> 02:37.940
+And again in my most cases especially in the beginning I believe you're gonna be using this cover in
+
+02:37.940 --> 02:43.940
+order to nice make nice headers or banners or some kind of parallax effect you're just gonna pick a
+
+02:43.940 --> 02:47.970
+nice image you're going to set the background size to the cover.
+
+02:48.020 --> 02:51.290
+So this is always gonna cover and then you're gonna be good to go.

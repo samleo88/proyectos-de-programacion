@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.560 --> 00:07.100
+What's really cool about CSX is the fact that just like with a shim now we don't have to download anything
+
+00:07.270 --> 00:12.110
+to start using CSF and we can just start using CSX right away.
+
+00:12.110 --> 00:19.960
+In general there are three ways how to start using CSX the inline internal and external CSX.
+
+00:20.180 --> 00:26.870
+As a side note in the beginning I'll use a lot of color property because it gives us the best representation
+
+00:27.500 --> 00:32.890
+but don't get hung up on the property names or values right now we'll cover them very shortly.
+
+00:32.900 --> 00:35.560
+First I would just like to get you a general idea.
+
+00:35.600 --> 00:37.570
+So first let's look at inline CSA.
+
+00:38.240 --> 00:43.320
+So let's say at the moment we have one heading one bravely sitting on our plate.
+
+00:43.400 --> 00:45.380
+Now how I would like to style this.
+
+00:45.390 --> 00:50.070
+So let's say I would like that color right now in the Irish demo.
+
+00:50.150 --> 00:54.690
+We had a attribute the attribute name was very simply style.
+
+00:54.890 --> 00:57.830
+Now again for now please don't get hung up on a syntax.
+
+00:57.950 --> 01:04.100
+I would just like to show you how we can add CSX to our page and later on we're going to cover the properties
+
+01:04.100 --> 01:05.480
+and values and everything.
+
+01:05.880 --> 01:11.900
+So within the style natural beauty I would need to have the quotation marks and then within the quotation
+
+01:11.900 --> 01:14.210
+marks and this is where I write my style.
+
+01:14.510 --> 01:16.910
+So like I said I would like to have the color.
+
+01:17.060 --> 01:22.220
+So I'm going to say color is gonna be as you can see many options I have right away by Visual Studio
+
+01:22.220 --> 01:22.960
+code.
+
+01:23.060 --> 01:27.160
+So let's go with I don't know can go with all of what I say.
+
+01:27.500 --> 01:32.720
+Now I know I said red but for now I just changed my mind and we're going with olive so we're gonna save
+
+01:32.720 --> 01:33.110
+it.
+
+01:33.110 --> 01:37.710
+And what happens is right away my text is Olive.
+
+01:37.940 --> 01:39.600
+So I change my color.
+
+01:39.680 --> 01:45.770
+Now all this is great however obviously there are going to be some downsides.
+
+01:46.650 --> 01:52.800
+Now what would be the downsides well even though we have the color and everything is looking really
+
+01:52.800 --> 01:53.390
+nice.
+
+01:53.520 --> 01:56.980
+What happens if I would like more properties so let's say font size.
+
+01:57.270 --> 02:03.900
+Now remember we needed to add some my colon and I'm going to say font size and let's go with again three
+
+02:03.900 --> 02:04.450
+areas.
+
+02:04.500 --> 02:09.760
+And again I know I said this before but please please don't get hung up on the syntax right now.
+
+02:10.070 --> 02:11.910
+Well we're going to cover this shortly.
+
+02:11.910 --> 02:14.800
+Pretty much you don't have to do anything just watch what's happening.
+
+02:15.000 --> 02:20.250
+So let's say here we're adding the font size now as you can see already I just added two properties
+
+02:20.280 --> 02:23.600
+but my h the email is getting really clogged up.
+
+02:24.270 --> 02:30.870
+And also another issue would be the fact that what if I have another heading to let's say here two and
+
+02:30.900 --> 02:32.920
+here I'm going to say hello people.
+
+02:32.970 --> 02:35.790
+Now what if I would like to have some success here too.
+
+02:35.790 --> 02:40.860
+Does that mean again I'm going to have to create a style attribute and add all these styles as you can
+
+02:40.860 --> 02:47.190
+see it gets really annoying because if you're going to have web page normally with let's say 500 elements
+
+02:47.430 --> 02:51.930
+what are you going to do for each and every element you're going to be adding this kind of style.
+
+02:51.930 --> 02:53.890
+And then what if you will is going to change your mind.
+
+02:53.910 --> 02:58.240
+What if you're going to say I don't know I don't feel like all if I feel like red.
+
+02:58.350 --> 03:00.650
+So let's head over back and let's say red.
+
+03:00.660 --> 03:04.530
+Now for every element that has the olive you're going to be changing back to red.
+
+03:04.650 --> 03:06.740
+That is not very practical.
+
+03:06.750 --> 03:13.860
+So while in lines yes this is the most basic way how we can add us to our Web page since it has multiple
+
+03:13.860 --> 03:14.870
+downsides.
+
+03:14.910 --> 03:17.820
+This is probably not something that you going to use very often.

@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.270 --> 00:07.650
+We check on the full screen and you can see we're here and it's actually taking full size on here.
+
+00:07.710 --> 00:10.830
+So what you'd want to do is go Michael here.
+
+00:10.920 --> 00:12.730
+I already added a comment.
+
+00:12.780 --> 00:14.380
+Customer responsive.
+
+00:14.740 --> 00:18.810
+That note here we're going to say like this I'm going to say meet here and again we're going to see
+
+00:18.810 --> 00:20.910
+the screen and this is going to be.
+
+00:20.970 --> 00:21.550
+Right.
+
+00:21.570 --> 00:29.600
+So men with more here like this and this is going to be five and six pixels.
+
+00:30.240 --> 00:33.640
+And then we're going to have a customer center.
+
+00:33.930 --> 00:39.360
+So this is going to be custom Mersch and they're like this.
+
+00:39.540 --> 00:46.630
+And then we're going to see this play from Next here and we're going to have a flex ramp.
+
+00:46.620 --> 00:46.930
+Right.
+
+00:46.930 --> 00:49.660
+So again I can say this for now.
+
+00:49.820 --> 00:51.470
+Well let's just check what we have.
+
+00:51.930 --> 00:55.530
+So the refresh right now I can see all of them are like this right.
+
+00:55.680 --> 00:59.490
+Because this is actually going to be displaying in the flex.
+
+00:59.490 --> 01:05.240
+So the next thing that we would want is actually have a flex ramp and just if I can't content space
+
+01:05.250 --> 01:05.890
+between.
+
+01:06.240 --> 01:16.110
+So I'm going to say a flex flex here wrap them say wrap this and then we're going to say that this is
+
+01:16.110 --> 01:22.500
+going to be a just different content and this is going to be a space between.
+
+01:22.830 --> 01:25.330
+So I'm going to see this space in between.
+
+01:25.650 --> 01:30.690
+And then after that what I would want to do when we're here we're just going to say this is going to
+
+01:30.690 --> 01:41.520
+be customer customer here and we're going to say this is going to be a flex we're here then it's going
+
+01:41.520 --> 01:52.160
+to be 0 0 calc and on here 33 dot 3 percent.
+
+01:53.290 --> 01:58.480
+3 percent or here minus I would say or here again that's use.
+
+01:58.780 --> 02:01.980
+I don't know wanting him something like this right.
+
+02:02.020 --> 02:04.940
+So this is refresh right.
+
+02:04.960 --> 02:06.770
+And this is how it's going to work right.
+
+02:06.770 --> 02:10.360
+So now he's going to have a little bit more padding in between.
+
+02:10.540 --> 02:14.680
+And this is how we can make it team section responsive.
+
+02:14.800 --> 02:21.870
+And the last thing that we would want or here first of all would be changing the team here this time
+
+02:21.910 --> 02:22.360
+all right.
+
+02:22.360 --> 02:24.370
+So we need customers here.
+
+02:24.560 --> 02:30.130
+And after that we would want to do is actually build this last section right which is going to be a
+
+02:30.130 --> 02:32.280
+contact us section or here.
+
+02:32.320 --> 02:39.850
+So the first things first let's go to each team now and let's actually change over here and this customer
+
+02:39.850 --> 02:40.420
+reviews.

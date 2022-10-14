@@ -1,0 +1,178 @@
+WEBVTT
+
+00:00.200 --> 00:01.350
+All righty then.
+
+00:01.350 --> 00:03.700
+By now we know that images are important.
+
+00:04.480 --> 00:08.940
+However what's also important for every webpage is to have some kind of link.
+
+00:09.720 --> 00:14.820
+Now that would be a navigation link when we were all going to be navigating throughout a project that
+
+00:14.820 --> 00:20.600
+could be the link within the actual single page or it can be also the external link.
+
+00:20.700 --> 00:24.990
+So let's say our user can visit I don't know Facebook or Google or whatever.
+
+00:25.230 --> 00:27.610
+Some kind of external information.
+
+00:27.810 --> 00:33.930
+Now as you can see right away I did some spring cleaning here because I usually like my tutorial screens
+
+00:33.960 --> 00:39.870
+kind of just bare minimum because I think it's just gonna help us all if we're not going to clutter
+
+00:39.870 --> 00:40.870
+here now.
+
+00:40.910 --> 00:45.060
+So it's a different status scenario when we're all going to be working on the project because there's
+
+00:45.060 --> 00:51.780
+gonna be tons of information but for tutorial I always like to have it as clean as possible.
+
+00:51.780 --> 00:55.200
+Now what about the links we can create links in an HMO.
+
+00:55.890 --> 00:57.320
+Well we already know the deal.
+
+00:57.320 --> 00:58.020
+Right.
+
+00:58.050 --> 01:02.640
+We need to have some kind of tags and then we're going to place the link within the tag.
+
+01:02.640 --> 01:07.020
+Now what that would be for the link what would be the element name now for the link.
+
+01:07.020 --> 01:08.090
+I'm going to use a.
+
+01:08.250 --> 01:15.130
+And sure enough right away we're going to have our link available now within the link tags and this
+
+01:15.130 --> 01:16.810
+is where we will write the text.
+
+01:16.810 --> 01:22.450
+So let's say visit you Demi for more information.
+
+01:22.450 --> 01:25.510
+Now as you can see this one came out really a long link.
+
+01:25.520 --> 01:27.620
+And sure enough now I have my link.
+
+01:27.790 --> 01:30.290
+Now what's gonna happen once I click this link.
+
+01:30.310 --> 01:31.500
+Well let's think about it.
+
+01:31.810 --> 01:34.640
+If I'm gonna click on it where I'm gonna go.
+
+01:34.870 --> 01:37.410
+So I click on it and nothing happens.
+
+01:37.620 --> 01:37.950
+Okay.
+
+01:37.960 --> 01:43.330
+The reason why nothing happens is because we also need to fill out the H refer attribute which comes
+
+01:43.330 --> 01:47.410
+right away with Emmet because they are doing all the work for us.
+
+01:47.470 --> 01:52.930
+So if we would manually be creating this obviously we would have to write the H if attribute ourselves.
+
+01:52.990 --> 02:00.730
+Now the HCF attribute tells us where the user or whoever clicks on this link is gonna be navigating
+
+02:00.730 --> 02:01.700
+to.
+
+02:01.750 --> 02:04.140
+So here we will need to write the URL.
+
+02:04.150 --> 02:10.060
+Now here we can just say h the G.P.S. s and then the whole deal more if you don't want to make mistakes
+
+02:10.120 --> 02:15.820
+or maybe you don't know the full you are all maybe it's really long you can just head over to whatever
+
+02:15.820 --> 02:17.630
+you are all you're searching for.
+
+02:17.740 --> 02:19.470
+Which in my case would be you Demi.
+
+02:19.540 --> 02:26.470
+So I can just copy and paste this and we can head over back to the issue of and paste it within the
+
+02:26.800 --> 02:28.140
+quotation marks.
+
+02:28.180 --> 02:34.780
+And now once I say it then the user should be available or users should be able to go to them.
+
+02:34.800 --> 02:35.710
+So as I click on it.
+
+02:35.710 --> 02:39.830
+Notice now we're navigating to Udemy page.
+
+02:39.830 --> 02:45.370
+Now there is one thing though you probably don't want user to leave your site because at this moment
+
+02:45.380 --> 02:50.350
+notice we went to Demi but we left the site that we were currently on.
+
+02:50.350 --> 02:57.100
+So maybe it's better if we would add the attribute and then attribute name is target and we would need
+
+02:57.100 --> 03:00.910
+to set this to blank so underscore blank.
+
+03:00.940 --> 03:02.280
+So this would be the value.
+
+03:02.380 --> 03:04.040
+Now in this case what's going to happen.
+
+03:04.040 --> 03:09.460
+And first of all I would need to navigate back and what I would like to do right now with Target blank
+
+03:09.910 --> 03:14.140
+is whenever a user is going to click on a link instead of navigating.
+
+03:14.140 --> 03:18.040
+And this didn't happen because I needed to refresh probably or something like that.
+
+03:18.430 --> 03:19.570
+So I have target blank.
+
+03:19.570 --> 03:21.270
+Visit you Demi for more.
+
+03:21.350 --> 03:22.300
+Everything is saved.
+
+03:22.360 --> 03:29.440
+And sure enough now once I click on a link instead of navigating away from the site that the users currently
+
+03:29.440 --> 03:33.900
+on we're opening up the link in the new browser tab.
+
+03:34.030 --> 03:40.120
+So this probably should be a better option especially with an external ones where we are adding this
+
+03:40.120 --> 03:44.680
+target attribute as well as we're setting in equal to black.

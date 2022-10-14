@@ -1,0 +1,919 @@
+1
+
+00:00:00,000  -->  00:00:01,650
+Alright guys, what we're going to be
+
+2
+
+00:00:01,650  -->  00:00:04,799
+doing is extending this and creating kind
+
+3
+
+00:00:04,799  -->  00:00:07,080
+of an artificial, artificial intelligence,
+
+4
+
+00:00:07,080  -->  00:00:09,420
+and we're going to be doing this which
+
+5
+
+00:00:09,420  -->  00:00:10,830
+is going to be very limited and
+
+6
+
+00:00:10,830  -->  00:00:12,630
+restricted, but we're going to be doing
+
+7
+
+00:00:12,630  -->  00:00:15,990
+this without an external python library.
+
+8
+
+00:00:15,990  -->  00:00:20,609
+And so basically this is going to be all
+
+9
+
+00:00:20,609  -->  00:00:22,680
+just straight-up Python 3 and we're
+
+10
+
+00:00:22,680  -->  00:00:25,140
+going to attempt to parse what's
+
+11
+
+00:00:25,140  -->  00:00:28,920
+recognized as what we're putting in to
+
+12
+
+00:00:28,920  -->  00:00:31,050
+this program. So, let's go ahead and
+
+13
+
+00:00:31,050  -->  00:00:38,129
+create a new file here and it's going to
+
+14
+
+00:00:38,129  -->  00:00:48,690
+be called commands, and now in here what
+
+15
+
+00:00:48,690  -->  00:00:51,270
+I'm going to do is I'm going to include
+
+16
+
+00:00:51,270  -->  00:01:01,980
+subprocess, OS, and I guess that's it. So,
+
+17
+
+00:01:01,980  -->  00:01:04,979
+import, it's doing this thing again
+
+18
+
+00:01:04,979  -->  00:01:09,600
+where I have no cursor, so awesome. I'm
+
+19
+
+00:01:09,600  -->  00:01:12,330
+going to close that, close that again,
+
+20
+
+00:01:12,330  -->  00:01:17,850
+jump in here and relaunch pycharm. Sorry
+
+21
+
+00:01:17,850  -->  00:01:19,770
+about that guys. Sometimes it does that,
+
+22
+
+00:01:19,770  -->  00:01:21,900
+I'm really not sure it only has ever
+
+23
+
+00:01:21,900  -->  00:01:27,750
+happened to me on Mac OS. Alright, so
+
+24
+
+00:01:27,750  -->  00:01:29,549
+let's go ahead and open up assist again,
+
+25
+
+00:01:29,549  -->  00:01:33,630
+and we're going to think about commands
+
+26
+
+00:01:33,630  -->  00:01:35,970
+that we want to be able to issue to the
+
+27
+
+00:01:35,970  -->  00:01:38,909
+program, and we want to kind of make it
+
+28
+
+00:01:38,909  -->  00:01:41,640
+like if we wanted to ask what's your
+
+29
+
+00:01:41,640  -->  00:01:43,110
+name. That's going to be the first
+
+30
+
+00:01:43,110  -->  00:01:45,990
+command we program here, so in commands.py
+
+31
+
+00:01:45,990  -->  00:01:48,180
+we're going to import
+
+32
+
+00:01:48,180  -->  00:01:55,320
+subprocess and os, and I think that's
+
+33
+
+00:01:55,320  -->  00:01:57,960
+fine for now. So what we're going to do
+
+34
+
+00:01:57,960  -->  00:02:01,140
+is we're going to create a class here
+
+35
+
+00:02:01,140  -->  00:02:05,310
+and the class is just going to be called
+
+36
+
+00:02:05,310  -->  00:02:10,119
+commander. So, skip
+
+37
+
+00:02:10,119  -->  00:02:15,970
+down a line, there we go, we're going to
+
+38
+
+00:02:15,970  -->  00:02:21,519
+define init and in here we're going to
+
+39
+
+00:02:21,519  -->  00:02:27,610
+create two lists, and they're going
+
+40
+
+00:02:27,610  -->  00:02:30,670
+to contain a few words that would
+
+41
+
+00:02:30,670  -->  00:02:33,040
+basically either confirm something, or
+
+42
+
+00:02:33,040  -->  00:02:36,549
+cancel something. So, let's go ahead and
+
+43
+
+00:02:36,549  -->  00:02:40,900
+create self.confirm
+
+44
+
+00:02:40,900  -->  00:02:45,940
+equals a list, and it's going to be "yes,"
+
+45
+
+00:02:45,940  -->  00:02:58,060
+"affirmative," "si," "sure," "do it," and these are
+
+46
+
+00:02:58,060  -->  00:02:59,829
+all like if our program says are you
+
+47
+
+00:02:59,829  -->  00:03:01,959
+sure you want to do this we should be
+
+48
+
+00:03:01,959  -->  00:03:03,909
+able to pass in any of it, we should be
+
+49
+
+00:03:03,909  -->  00:03:06,220
+able to say any of these things to
+
+50
+
+00:03:06,220  -->  00:03:10,359
+basically tell the program that yes, we
+
+51
+
+00:03:10,359  -->  00:03:11,590
+do want to do it, and i'll show you how this
+
+52
+
+00:03:11,590  -->  00:03:13,359
+is going to work in a moment. And
+
+53
+
+00:03:13,359  -->  00:03:15,190
+then self.cancel is going to be similar
+
+54
+
+00:03:15,190  -->  00:03:22,389
+say "no," "negative," "negative soldier,"
+
+55
+
+00:03:22,389  -->  00:03:37,690
+"don't," "wait," and "cancel." So those are our
+
+56
+
+00:03:37,690  -->  00:03:40,239
+two lists and then what we need to do is
+
+57
+
+00:03:40,239  -->  00:03:43,359
+let's create a function in here called
+
+58
+
+00:03:43,359  -->  00:03:46,389
+discover, and this function is going to
+
+59
+
+00:03:46,389  -->  00:03:48,879
+all it's going to do is determine what
+
+60
+
+00:03:48,879  -->  00:03:51,609
+we're saying, and what action this
+
+61
+
+00:03:51,609  -->  00:03:56,169
+commander object should give. So go ahead
+
+62
+
+00:03:56,169  -->  00:03:59,109
+and write def discover and here we're
+
+63
+
+00:03:59,109  -->  00:04:02,889
+going to pass in the text of of what we
+
+64
+
+00:04:02,889  -->  00:04:17,160
+say. So, if let's say "what" in text,
+
+65
+
+00:04:17,650  -->  00:04:28,180
+and "your name" in text. So here we can
+
+66
+
+00:04:28,180  -->  00:04:31,240
+kind of glue together different pieces
+
+67
+
+00:04:31,240  -->  00:04:32,979
+of the sentence that we're looking for.
+
+68
+
+00:04:32,979  -->  00:04:34,330
+In this instance what we're going to be
+
+69
+
+00:04:34,330  -->  00:04:36,669
+looking for are the words "what" and "your
+
+70
+
+00:04:36,669  -->  00:04:40,270
+name." Now that means I can say what is
+
+71
+
+00:04:40,270  -->  00:04:42,880
+your name, or I could say what your name,
+
+72
+
+00:04:42,880  -->  00:04:48,220
+or I could say what your name. I could
+
+73
+
+00:04:48,220  -->  00:04:50,530
+also say what does your name mean and it
+
+74
+
+00:04:50,530  -->  00:04:51,910
+will do this, and so this is why we're
+
+75
+
+00:04:51,910  -->  00:04:53,620
+going to be getting to a better parser
+
+76
+
+00:04:53,620  -->  00:04:55,960
+later, but for right now to introduce
+
+77
+
+00:04:55,960  -->  00:04:58,090
+you to the basic concepts of what's
+
+78
+
+00:04:58,090  -->  00:05:00,669
+happening at a base level we're just
+
+79
+
+00:05:00,669  -->  00:05:01,750
+going to do this, and there are libraries
+
+80
+
+00:05:01,750  -->  00:05:02,919
+out there that we're going to be using
+
+81
+
+00:05:02,919  -->  00:05:04,600
+that will basically be able to identify
+
+82
+
+00:05:04,600  -->  00:05:07,330
+if it's a verb, if it's a subject, and
+
+83
+
+00:05:07,330  -->  00:05:09,940
+we'll be able to get the subject of the
+
+84
+
+00:05:09,940  -->  00:05:12,729
+sentence so that would either be your,
+
+85
+
+00:05:12,729  -->  00:05:15,669
+my, he, something like that, right, and we'd
+
+86
+
+00:05:15,669  -->  00:05:19,240
+be able to better identify what you're
+
+87
+
+00:05:19,240  -->  00:05:21,250
+speaking about and then be able to react
+
+88
+
+00:05:21,250  -->  00:05:23,440
+to that. So, for right now we're just
+
+89
+
+00:05:23,440  -->  00:05:27,639
+going to say respond, I'm going to say
+
+90
+
+00:05:27,639  -->  00:05:42,010
+self.respond, and "My name is PYCOMMANDER"
+
+91
+
+00:05:42,010  -->  00:05:44,289
+and it's not actually going to say this,
+
+92
+
+00:05:44,289  -->  00:05:46,449
+so I want to make sure it's going to say
+
+93
+
+00:05:46,449  -->  00:05:53,169
+it so I'm going to spell out pie...let's
+
+94
+
+00:05:53,169  -->  00:06:00,639
+just say python commander. "How are you?" So,
+
+95
+
+00:06:00,639  -->  00:06:03,010
+what we need to do is now define the
+
+96
+
+00:06:03,010  -->  00:06:05,830
+self.respond method, and basically
+
+97
+
+00:06:05,830  -->  00:06:07,180
+what this is going to do is it's just
+
+98
+
+00:06:07,180  -->  00:06:10,570
+going to call that say command, or if
+
+99
+
+00:06:10,570  -->  00:06:11,860
+you're on Windows it's going to call
+
+100
+
+00:06:11,860  -->  00:06:17,560
+that PTTS, it's the library
+
+101
+
+00:06:17,560  -->  00:06:19,599
+that you can use to make your computer
+
+102
+
+00:06:19,599  -->  00:06:21,310
+speak, basically it connects to the text
+
+103
+
+00:06:21,310  -->  00:06:22,930
+to speech. At this point what we're doing
+
+104
+
+00:06:22,930  -->  00:06:25,990
+is we are, so the first step in this
+
+105
+
+00:06:25,990  -->  00:06:29,289
+program is turning speech to text, then
+
+106
+
+00:06:29,289  -->  00:06:30,150
+we can parse it,
+
+107
+
+00:06:30,150  -->  00:06:32,250
+and then we put in the text that we want
+
+108
+
+00:06:32,250  -->  00:06:33,840
+to respond with, and then we turn that to
+
+109
+
+00:06:33,840  -->  00:06:35,700
+speech. So it's kind of coming full
+
+110
+
+00:06:35,700  -->  00:06:39,060
+circle at that point. So let's drop down
+
+111
+
+00:06:39,060  -->  00:06:45,180
+here and define respond, and we're
+
+112
+
+00:06:45,180  -->  00:06:50,730
+going to pass in response there, and
+
+113
+
+00:06:50,730  -->  00:06:53,220
+we're just basically going to call
+
+114
+
+00:06:53,220  -->  00:06:59,400
+subprocess.call. I am on Mac so I'm going
+
+115
+
+00:06:59,400  -->  00:07:03,060
+to be using the say command, and then
+
+116
+
+00:07:03,060  -->  00:07:06,570
+response, and I'm going to set shell equal to
+
+117
+
+00:07:06,570  -->  00:07:17,160
+true. What we're going to do we're
+
+118
+
+00:07:17,160  -->  00:07:18,210
+actually going to create one more
+
+119
+
+00:07:18,210  -->  00:07:27,630
+variable in here. If "my" in text: we're
+
+120
+
+00:07:27,630  -->  00:07:33,720
+going to say self.respond "You haven't
+
+121
+
+00:07:33,720  -->  00:07:40,530
+told me your name yet" else: so we're
+
+122
+
+00:07:40,530  -->  00:07:41,700
+going to assume you're either asking
+
+123
+
+00:07:41,700  -->  00:07:43,680
+what your name is or what the computer's
+
+124
+
+00:07:43,680  -->  00:07:46,440
+name is, and so in that case that's
+
+125
+
+00:07:46,440  -->  00:07:48,030
+what's going to happen here. So what we
+
+126
+
+00:07:48,030  -->  00:07:49,800
+need to do now is go ahead we need to
+
+127
+
+00:07:49,800  -->  00:07:51,690
+import commands, we need to instantiate
+
+128
+
+00:07:51,690  -->  00:07:53,850
+commander, and then pass our text into
+
+129
+
+00:07:53,850  -->  00:07:56,820
+this, and so in our audio file here let's
+
+130
+
+00:07:56,820  -->  00:08:04,830
+import, rather from .commands import
+
+131
+
+00:08:04,830  -->  00:08:10,740
+Commander. Then init speech right here
+
+132
+
+00:08:10,740  -->  00:08:13,980
+this is where, let's turn this into
+
+133
+
+00:08:13,980  -->  00:08:22,920
+a while loop, actually. So, if while
+
+134
+
+00:08:22,920  -->  00:08:31,980
+running equals True: So up
+
+135
+
+00:08:31,980  -->  00:08:36,300
+here we're going to set running equal to
+
+136
+
+00:08:36,300  -->  00:08:40,849
+true, and then if
+
+137
+
+00:08:40,849  -->  00:08:49,490
+you say "quit" it will set
+
+138
+
+00:08:49,490  -->  00:08:50,990
+running to false so that we can quit out of
+
+139
+
+00:08:50,990  -->  00:09:00,529
+it. So if command equals "quit" running
+
+140
+
+00:09:00,529  -->  00:09:12,410
+equals false. There we go. So, what we need
+
+141
+
+00:09:12,410  -->  00:09:16,940
+to do is we need to either pass that in,
+
+142
+
+00:09:16,940  -->  00:09:31,940
+or we could basically tell it that it's global as well, and...yes, that's fine.
+
+143
+
+00:09:31,940  -->  00:09:33,740
+We're not we're not even going to worry
+
+144
+
+00:09:33,740  -->  00:09:36,529
+about that right now. So, while running
+
+145
+
+00:09:36,529  -->  00:09:40,519
+equals true just do this. So in here what
+
+146
+
+00:09:40,519  -->  00:09:42,440
+we need to do is when it has determined
+
+147
+
+00:09:42,440  -->  00:09:44,720
+what we've said we need to first
+
+148
+
+00:09:44,720  -->  00:09:49,579
+instantiate commander, so cmd equals
+
+149
+
+00:09:49,579  -->  00:09:55,819
+commander, and then down here we're going
+
+150
+
+00:09:55,819  -->  00:09:59,360
+to say cmd.discover and we're going
+
+151
+
+00:09:59,360  -->  00:10:07,339
+to pass in the command, and we're going
+
+152
+
+00:10:07,339  -->  00:10:11,209
+to comment that out. This should now
+
+153
+
+00:10:11,209  -->  00:10:13,790
+respond to us, so I'm going to go ahead
+
+154
+
+00:10:13,790  -->  00:10:17,000
+and I'm also going to in the respond
+
+155
+
+00:10:17,000  -->  00:10:19,069
+process here I'm also going to print out
+
+156
+
+00:10:19,069  -->  00:10:27,139
+the response. Let's save this and I'm
+
+157
+
+00:10:27,139  -->  00:10:30,529
+going to open up a new audio recording
+
+158
+
+00:10:30,529  -->  00:10:31,519
+because I didn't think about this before,
+
+159
+
+00:10:31,519  -->  00:10:34,639
+sound flower two channels, let me just
+
+160
+
+00:10:34,639  -->  00:10:36,380
+make sure this is on the correct output.
+
+161
+
+00:10:36,380  -->  00:10:41,509
+There we go, alright. Alright, so, let's get
+
+162
+
+00:10:41,509  -->  00:10:43,610
+recording so that you guys can actually hear
+
+163
+
+00:10:43,610  -->  00:10:46,730
+this now. So, back over here to audio and
+
+164
+
+00:10:46,730  -->  00:10:51,110
+run the program...parent module not loaded,
+
+165
+
+00:10:51,110  -->  00:10:53,089
+alright. Let's go ahead and add that
+
+166
+
+00:10:53,089  -->  00:10:54,329
+blank
+
+167
+
+00:10:54,329  -->  00:11:02,549
+init file here, there we go. Cannot perform relative
+
+168
+
+00:11:02,549  -->  00:11:23,040
+input, or import...okay. "What
+
+169
+
+00:11:23,040  -->  00:11:28,799
+is your name?" My name is Python commander,
+
+170
+
+00:11:28,799  -->  00:11:36,119
+how are you?" "I'm good." What is your name?"
+
+171
+
+00:11:36,119  -->  00:11:42,059
+"My name is Python commander, how are you?"
+
+172
+
+00:11:42,059  -->  00:11:50,519
+"What is my name?" "What is my name?"
+
+173
+
+00:11:50,519  -->  00:11:58,259
+Something's broken there. We will figure
+
+174
+
+00:11:58,259  -->  00:12:00,419
+that out. Alright, so I'm going to stop
+
+175
+
+00:12:00,419  -->  00:12:03,839
+this, alright that's fun. We're going
+
+176
+
+00:12:03,839  -->  00:12:05,339
+to be fixing that, I think there's
+
+177
+
+00:12:05,339  -->  00:12:09,480
+something wrong when if my in text...
+
+178
+
+00:12:09,480  -->  00:12:12,899
+yeah.
+
+179
+
+00:12:12,899  -->  00:12:17,699
+we're gonna have to fix that, but
+
+180
+
+00:12:17,699  -->  00:12:21,329
+basically that works as far as what we
+
+181
+
+00:12:21,329  -->  00:12:25,769
+wanted it to do so far. So, yeah, in the
+
+182
+
+00:12:25,769  -->  00:12:27,419
+next video we're going to be extending
+
+183
+
+00:12:27,419  -->  00:12:28,949
+this and I'm going to be showing you
+
+184
+
+00:12:28,949  -->  00:12:33,439
+guys the confirm and quit options.

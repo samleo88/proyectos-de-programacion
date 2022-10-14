@@ -1,0 +1,379 @@
+WEBVTT
+
+00:00.430 --> 00:04.680
+The same way how we have flex girl as well as flex shrink.
+
+00:04.680 --> 00:11.840
+We also have flex bases that is responsible for our base value as well as flex property.
+
+00:11.840 --> 00:15.780
+That is in fact a shortcut for the first value flex grow.
+
+00:15.870 --> 00:19.730
+Then we have flex shrink as well as flex bases.
+
+00:20.130 --> 00:23.240
+Now let's start with Flex bases first and foremost.
+
+00:23.250 --> 00:29.290
+I'm gonna set up for all the boxes and currently I guess I have four boxes and for all of them I'm going
+
+00:29.290 --> 00:37.510
+to set up right now my flex bases so flex bases properly and I'm gonna go 450 pixels.
+
+00:37.590 --> 00:45.810
+Now what that means is that flex box can do whatever it wants or I don't want my boxes to be smaller
+
+00:45.810 --> 00:47.630
+than hundred and fifty pixels.
+
+00:47.700 --> 00:52.440
+However there is a problem right now and the problem is very simple.
+
+00:52.510 --> 00:59.400
+We remember when we were setting up these styles CNS we added also a padding and if you notice here
+
+00:59.880 --> 01:05.220
+anywhere in my CFS I do have the box sizing to be the border box.
+
+01:05.310 --> 01:12.900
+So what happens right now even though I set my boxes to be let's say minimum 150 pixels my padding is
+
+01:12.960 --> 01:18.390
+also adding some kind of with to my actual with.
+
+01:18.780 --> 01:23.110
+Remember when we did not use the box sizing more box.
+
+01:23.160 --> 01:29.850
+In fact if we had some kind of with when we added the padding while the padding was automatically added
+
+01:29.850 --> 01:31.070
+to our with.
+
+01:31.410 --> 01:36.510
+So that in case actually makes it very difficult to predict your layout.
+
+01:36.510 --> 01:43.260
+So once we start working with these base values for sure we need to make sure that box sizing is in
+
+01:43.260 --> 01:45.690
+fact set to a broader box.
+
+01:45.770 --> 01:48.030
+OK that's case number one.
+
+01:48.150 --> 01:54.450
+Now I also want to mention that in general when you are working with a flex box it is not advised to
+
+01:54.450 --> 02:00.570
+have padding to left and right at the moment we added padding all around and all that worked out really
+
+02:00.570 --> 02:01.160
+well.
+
+02:01.350 --> 02:07.020
+But as we're going to be covering right now our Flex bases and how to set up the column layout in fact
+
+02:07.050 --> 02:12.660
+I'm going to show you where we're going to run into issues when we have in fact the padding of left
+
+02:12.660 --> 02:13.260
+and right.
+
+02:13.260 --> 02:18.810
+So we're also going to change this but for the time being what we wanted to do is make sure that once
+
+02:18.810 --> 02:22.040
+we have some kind of with let's say 150.
+
+02:22.200 --> 02:27.600
+If I had the padding while the padding is not applied to the actual width of the Element.
+
+02:27.610 --> 02:29.730
+Okay so that's step number one.
+
+02:29.730 --> 02:30.840
+Now again let's go back.
+
+02:30.840 --> 02:32.870
+We have our hundred and fifty pixels.
+
+02:32.910 --> 02:33.580
+Correct.
+
+02:33.600 --> 02:34.750
+That's my basis.
+
+02:34.800 --> 02:40.830
+And if I check right now when my layout is changing and by the way at the moment I think I already know
+
+02:40.830 --> 02:46.990
+what I'm going to leave the developer tools open but moment as you see I getting smaller smaller I get
+
+02:47.070 --> 02:48.020
+the new line.
+
+02:48.240 --> 02:54.120
+And if we're going to check out our elements within the container you're going to notice that the size
+
+02:54.210 --> 02:55.460
+is hundred fifty.
+
+02:55.560 --> 02:58.660
+So the moment are with gets less than half of 50.
+
+02:58.770 --> 03:02.270
+That's when we're going to in fact wrap to a new one.
+
+03:02.280 --> 03:03.920
+Now what is the reason for wrapping.
+
+03:04.020 --> 03:06.410
+Because we're using the Flex ramp right.
+
+03:06.480 --> 03:07.740
+That's number one.
+
+03:07.750 --> 03:14.580
+Then like I said we also have an option of using the Flex Schalke where instead of typing out flex bases
+
+03:14.580 --> 03:21.720
+flex growth lecturing I could type flex the first one is going to be a flex grow property.
+
+03:21.720 --> 03:24.130
+And in this case what while you would want.
+
+03:24.270 --> 03:29.320
+Well I could go with one correct because by default at zero so the atoms are not growing.
+
+03:29.460 --> 03:31.050
+But I would want them to grow.
+
+03:31.050 --> 03:39.300
+I'm also gonna set up a flex shrink to be let's say 0 9 because I would want my items not to shrink.
+
+03:39.300 --> 03:44.400
+And then of course I could set up my base value and let's imagine that I would like to have my base
+
+03:44.400 --> 03:46.280
+value to be 200.
+
+03:46.380 --> 03:48.050
+So what is going to happen.
+
+03:48.060 --> 03:52.520
+Well if there is going to be enough space course I'm going to have one line.
+
+03:52.680 --> 04:00.870
+But then once my boxes get less than two hundred or one of them or all of them it doesn't matter because
+
+04:01.170 --> 04:03.970
+as you can see right now I selected them all of them anyway.
+
+04:04.050 --> 04:10.840
+Then we're going to wrap into New Line right because we never ever want to go less than 200.
+
+04:10.930 --> 04:11.570
+Okay.
+
+04:11.640 --> 04:16.800
+That will be the case where we could use the shortcut where I would like my items to grow as much as
+
+04:16.800 --> 04:17.500
+possible.
+
+04:17.670 --> 04:19.640
+Then I wouldn't want to shrink.
+
+04:19.710 --> 04:25.480
+And then of course last if let's say one of my boxes gets less than two hundred.
+
+04:25.590 --> 04:27.340
+Well we're going to wrap into new one.
+
+04:27.840 --> 04:34.440
+And lastly I'm going to cover how we are gonna be setting up the column layout in our project.
+
+04:34.590 --> 04:35.960
+So how it's going to work.
+
+04:36.060 --> 04:38.760
+First and foremost I think I can make this smaller.
+
+04:38.760 --> 04:40.010
+That's number one.
+
+04:40.170 --> 04:43.360
+And then for the column layouts I'm gonna change it around.
+
+04:43.440 --> 04:49.280
+But because I wouldn't want in fact my items to grow so growth is gonna be set to zero.
+
+04:49.440 --> 04:51.030
+Shrink is gonna be set to zero.
+
+04:51.150 --> 04:56.080
+And for the columns we are gonna use in fact a percentage values.
+
+04:56.090 --> 05:00.930
+OK not absolute values but percentage values how it's gonna work.
+
+05:01.320 --> 05:03.490
+Well let's imagine this scenario.
+
+05:03.630 --> 05:09.370
+I have four items right now and I would want to have a four column layout.
+
+05:09.900 --> 05:13.670
+So I would need to divide the hundred percent into four correct.
+
+05:13.680 --> 05:19.510
+I have four columns so hundred divided by four would be 25 percent.
+
+05:19.650 --> 05:22.300
+So I'm gonna add here 25 percent.
+
+05:22.440 --> 05:29.010
+However it is not going to be completely correct because once I get a small screen size in fact I'm
+
+05:29.010 --> 05:31.400
+gonna be wrapping and I went to a new line.
+
+05:31.410 --> 05:36.450
+Now why this is not correct because like I said in fact we're adding padding all around.
+
+05:36.530 --> 05:43.200
+So especially when we're setting up the columns it is not very advised to use the padding on left and
+
+05:43.200 --> 05:46.020
+right because it is going to mess up your layout.
+
+05:46.350 --> 05:52.980
+So instead what I'm gonna do I'm gonna say that 30 pixels is going to be top bottom and then left and
+
+05:52.980 --> 05:55.920
+right is going to have a zero padding.
+
+05:55.920 --> 06:01.490
+So this way all the time my columns are going to stay this 25 percent.
+
+06:01.830 --> 06:06.930
+As you can see the bigger the screen size the bigger the columns smaller the screen size smaller.
+
+06:06.940 --> 06:12.480
+This comes when we're not breaking this particular layout because we're not adding some unnecessary
+
+06:12.750 --> 06:15.380
+pairings to mess up our land.
+
+06:15.610 --> 06:15.920
+All right.
+
+06:16.320 --> 06:23.160
+Now lastly I'm gonna cover how in fact we could set up a layout where we have right now our margins
+
+06:23.160 --> 06:23.990
+as well in between.
+
+06:24.450 --> 06:29.820
+Because we have our columns all that is good but you're probably wondering well how we can have some
+
+06:29.820 --> 06:33.960
+margins or essentially some distance in between them.
+
+06:34.320 --> 06:37.920
+Now the way it's going to work has the Flex basis value.
+
+06:37.950 --> 06:40.500
+We can also use the cost function.
+
+06:40.810 --> 06:47.280
+Mean we're in the core function we can pass some kind of values where CSX is going to calculate it.
+
+06:47.310 --> 06:51.700
+So we our function and then within the function we are just passing in these values.
+
+06:51.720 --> 06:58.110
+So in my case what I would like to pass in is 25 percent and then whatever I would like to have as my
+
+06:58.110 --> 06:58.950
+margin.
+
+06:58.950 --> 07:02.430
+So I'm going to go with one area but it is really up to you.
+
+07:02.460 --> 07:09.370
+Just please please remember when you calculate these values make sure that you have the space in between.
+
+07:09.720 --> 07:11.130
+Otherwise not going to work.
+
+07:11.160 --> 07:12.270
+Notice it's not going to work.
+
+07:12.270 --> 07:15.010
+So make sure that you calculate them correctly.
+
+07:15.030 --> 07:22.740
+Now what that gives this is in fact this margin here which technically is not exactly what we want but
+
+07:23.430 --> 07:30.630
+remember when we work with the container we also had this option where we can use justify content correct.
+
+07:31.140 --> 07:36.240
+So could take justify content and then I can come up with whatever values I wouldn't want.
+
+07:36.420 --> 07:38.950
+Do I want them to be space evenly.
+
+07:39.000 --> 07:39.650
+Let's try it out.
+
+07:40.140 --> 07:47.080
+Now they're spaced evenly we want space between we can do space between and you probably already guessed
+
+07:47.080 --> 07:50.000
+that that space around is also going to do the same thing.
+
+07:50.010 --> 07:54.940
+So what we're saying here is we're setting up whatever margin we would like.
+
+07:55.500 --> 08:02.750
+And then once we have that particular margin well then we can control our items using justified content.
+
+08:02.750 --> 08:02.990
+All right.
+
+08:03.390 --> 08:11.100
+So those would be the general ideas behind flex bases where that is going to be a base value and it's
+
+08:11.100 --> 08:15.920
+most advisable to use some kind of percentages not a pixels for that.
+
+08:15.930 --> 08:22.050
+I know I did show you as a pixel example but in most cases you probably want to settle with percentages
+
+08:22.350 --> 08:24.480
+because this is going to be a little bit more correct.
+
+08:24.690 --> 08:29.210
+And also as a flex while you have multiple options right.
+
+08:29.400 --> 08:33.770
+So you can add Lux growth to be one can have a shrink to be one.
+
+08:33.780 --> 08:40.350
+It doesn't really matter now in most cases during the project when we're gonna be setting up our columns
+
+08:40.650 --> 08:42.710
+this is exactly how we're going to do that.
+
+08:43.130 --> 08:46.270
+We're going to set up our Flex be zero.
+
+08:46.380 --> 08:51.960
+So they're not going to grow then they're not going to shrink because we would want to control the sizes
+
+08:52.320 --> 08:54.090
+using the Flex bases.

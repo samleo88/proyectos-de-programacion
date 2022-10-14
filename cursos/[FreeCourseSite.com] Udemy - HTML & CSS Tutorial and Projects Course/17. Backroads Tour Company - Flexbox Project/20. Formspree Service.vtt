@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.300 --> 00:07.020
+As a side note even though we are building a static site and fact we are not using any of the back and
+
+00:07.020 --> 00:10.820
+languages like no genius or BHP.
+
+00:10.830 --> 00:14.860
+In fact we can make this form submit a bill.
+
+00:14.910 --> 00:16.260
+Now what do I mean by that.
+
+00:16.290 --> 00:23.430
+Well if you remember our previous project the T station all the way in the bottom we also had a form
+
+00:23.820 --> 00:27.280
+and in fact we use the service by the name of Formspring.
+
+00:27.480 --> 00:29.560
+So the same thing we can do here.
+
+00:29.640 --> 00:36.900
+So let me open up just a form spray online of course it is a paid service but they also offer you a
+
+00:36.900 --> 00:43.740
+free option where if you would like to just start using it the only thing we need is to grab the action
+
+00:44.250 --> 00:47.190
+as well as the Post attribute.
+
+00:47.250 --> 00:50.260
+So method with the value of both.
+
+00:50.280 --> 00:50.870
+All right.
+
+00:51.000 --> 00:58.640
+So first of all let's copy that then let's head over back to our form and then like I said for the form
+
+00:58.970 --> 01:00.150
+notes and that.
+
+01:00.160 --> 01:03.670
+And then in this case you need to write your email.
+
+01:03.680 --> 01:06.920
+So essentially where we would like that form to be submitted.
+
+01:07.370 --> 01:15.770
+So in my case the email that I'm going to use is going to be and let me double check because I have
+
+01:15.770 --> 01:19.310
+one that I'm using for my courses all the time.
+
+01:19.310 --> 01:21.030
+Keep forgetting the name of it.
+
+01:21.050 --> 01:24.180
+So learn code tutorial AGM and outcome.
+
+01:24.200 --> 01:30.680
+Now of course again in your case you would use your email but I'm gonna go with learn called tutorial
+
+01:31.400 --> 01:34.110
+at AGM and dot com.
+
+01:34.130 --> 01:34.610
+All right.
+
+01:34.610 --> 01:41.210
+Again we have the attribute of method with the value of post and then one thing that is missing right
+
+01:41.210 --> 01:43.340
+now is the name attribute.
+
+01:43.340 --> 01:48.340
+So we're going to go with name attribute and let's just write the email.
+
+01:48.350 --> 01:54.340
+All right let's say email or we can say reply to it doesn't really matter.
+
+01:54.350 --> 01:55.450
+Well let's save that.
+
+01:55.550 --> 02:00.710
+And even as we're working on our local dev environment we can still do that.
+
+02:01.070 --> 02:06.860
+Now one thing that's going to happen is the first time we submitted we're gonna have to act effectively
+
+02:06.860 --> 02:10.010
+approve the fact that the forms are going to be submitted.
+
+02:10.430 --> 02:11.750
+So let's just test that out.
+
+02:11.750 --> 02:20.450
+Let's say I would like to sign up for deals and I'm gonna go with a random at a g mail dot com.
+
+02:20.450 --> 02:26.650
+Now if I'm going to try to submit it without in fact adding at my notice since we are using HDMI all
+
+02:26.660 --> 02:30.350
+five well nation is gonna complain.
+
+02:30.380 --> 02:35.520
+All right so let's write random G.M. dot com let's submit it.
+
+02:35.900 --> 02:36.950
+There you go.
+
+02:36.980 --> 02:40.000
+And like I said the first time we're going to submit that.
+
+02:40.040 --> 02:40.870
+Well you know what.
+
+02:41.030 --> 02:45.260
+Not just the first time in fact it's gonna ask whether you're a robot or not.
+
+02:45.260 --> 02:48.730
+In general so let's say yes let's check on that.
+
+02:48.850 --> 02:56.000
+And now it says while the form has been successfully submitted now in our end though we're going to
+
+02:56.000 --> 02:58.520
+have to in fact check it out.
+
+02:58.520 --> 02:59.230
+And you know what.
+
+02:59.240 --> 03:03.480
+Without any kind of verification I was able to actually do it.
+
+03:03.500 --> 03:09.060
+So in some cases the first time they were going to ask you they're going to say hey listen you need
+
+03:09.060 --> 03:11.760
+to make sure that you can submit the form.
+
+03:11.760 --> 03:19.620
+But in this case it right away just went and said yes the form has been submitted and this is what in
+
+03:19.620 --> 03:23.220
+fact they're writing now since we only have one input.
+
+03:23.220 --> 03:25.170
+That's the reason why it happens.
+
+03:25.280 --> 03:25.650
+OK.
+
+03:25.710 --> 03:28.640
+So let's just refresh the page.
+
+03:28.710 --> 03:30.090
+There you go.
+
+03:30.150 --> 03:32.130
+That's not what I wanted in fact.
+
+03:32.280 --> 03:32.990
+Let's move back.
+
+03:33.000 --> 03:35.700
+Now we're back in fact to our submission.
+
+03:35.700 --> 03:38.390
+Now again we're not using JavaScript nothing like that.
+
+03:38.390 --> 03:41.850
+So the values of course are not being deleted.
+
+03:41.850 --> 03:47.010
+So we're going to have to do it manually but this is again just to show you as a side note that if you
+
+03:47.010 --> 03:54.630
+really wanted to you could have your forms submitted just like we had previously already with our T
+
+03:54.630 --> 03:56.100
+station recording.
+
+03:56.100 --> 04:02.120
+Now maybe let's test that out also on a bigger screen size so let's do the same thing.
+
+04:02.310 --> 04:06.280
+I'm going to close the forms pretty as well as the station.
+
+04:06.350 --> 04:08.190
+No I don't need my identify as well.
+
+04:08.760 --> 04:09.280
+Yes.
+
+04:09.300 --> 04:15.300
+I'm not a robot that would be number one and then we can of course return to original site.
+
+04:15.680 --> 04:17.240
+And that should be it.
+
+04:17.280 --> 04:18.870
+This is going to be our form.
+
+04:18.870 --> 04:24.240
+And again I have a new form submission notice once we again submitted the form.
+
+04:24.240 --> 04:25.170
+There you go.
+
+04:25.170 --> 04:35.170
+It says the random gmail dot com and just double sure let's say random to random two at gmail dot com
+
+04:36.240 --> 04:38.440
+and let's try to submit it one more time.
+
+04:38.490 --> 04:39.820
+Then let's click on it.
+
+04:39.840 --> 04:41.380
+We're gonna have to say yes.
+
+04:41.400 --> 04:42.910
+We're not a robot.
+
+04:43.110 --> 04:46.320
+Then we can go back to original site and there you go.
+
+04:46.320 --> 04:47.850
+That is our original site.
+
+04:47.850 --> 04:49.860
+Everything has been cleared successfully.
+
+04:50.220 --> 04:55.030
+And again we have one more form submission and just like that.
+
+04:55.560 --> 04:59.160
+Online in this case the values at random to a GMO.
+
+04:59.160 --> 05:04.800
+Now of course if you would want some kind of messages instead meaning let's say that not only you would
+
+05:04.800 --> 05:07.530
+want to have the email there.
+
+05:07.590 --> 05:09.970
+Let's say the name and message and all that.
+
+05:10.080 --> 05:11.400
+You of course can do that.
+
+05:11.420 --> 05:17.910
+And if you're interested you can head over back to our T station project where in fact we set up that
+
+05:17.910 --> 05:18.480
+type of form.

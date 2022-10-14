@@ -1,0 +1,362 @@
+1
+
+00:00:00,000  -->  00:00:05,940
+Alright, just needed to close that file.
+What we're going to do, we're going to
+
+2
+
+00:00:05,940  -->  00:00:09,780
+get rid of some of these, we don't need
+them anymore, I want to keep our first
+
+3
+
+00:00:09,780  -->  00:00:13,500
+program though. Let's go ahead and create a new project, we're going to call it
+
+4
+
+00:00:13,500  -->  00:00:18,720
+battle. We're just going to use the
+default interpreter which should be 3.5.1
+
+5
+
+00:00:18,720  -->  00:00:25,199
+if it, if it's not you know if
+it's not the 3 than you know
+
+6
+
+00:00:25,199  -->  00:00:31,980
+go for it. Looks like this is actually
+the name of another another project that
+
+7
+
+00:00:31,980  -->  00:00:36,989
+I had, so what I'm going to do is I'm
+going to delete all this so we can get
+
+8
+
+00:00:36,989  -->  00:00:41,760
+started again, there. So let's go ahead
+and create, first we're going to build
+
+9
+
+00:00:41,760  -->  00:00:46,980
+out some class definitions, we need a few
+of those. So let's go ahead and create a
+
+10
+
+00:00:46,980  -->  00:00:53,190
+directory called classes. Then in here
+we're going to create that blank Python
+
+11
+
+00:00:53,190  -->  00:01:00,239
+file called "__init__" close that right away,
+don't need that. Going to create another
+
+12
+
+00:01:00,239  -->  00:01:13,530
+Python file called "game" So in this game.py file what we're going to define
+
+13
+
+00:01:13,530  -->  00:01:19,170
+are two classes, one of them is going to
+be colors class which is going to
+
+14
+
+00:01:19,170  -->  00:01:27,780
+provide the ability to use colors inside terminal, and then the
+
+15
+
+00:01:27,780  -->  00:01:33,420
+second class is going to be person which
+we're going to be using both for enemies
+
+16
+
+00:01:33,420  -->  00:01:39,060
+and ourself, our own player character.
+So let's go ahead and start the defining of
+
+17
+
+00:01:39,060  -->  00:01:47,820
+classes. I actually have the class b
+colors here and i've copied this because
+
+18
+
+00:01:47,820  -->  00:01:54,960
+I don't know any of these off
+by hand, but this basically assigns
+
+19
+
+00:01:54,960  -->  00:02:01,259
+variables to two colors that we can use
+in terminal. So what we're going to do is,
+
+20
+
+00:02:01,259  -->  00:02:09,140
+I'm just going to erase this, I will also
+provide this in my,
+
+21
+
+00:02:09,140  -->  00:02:22,940
+I'll provide that in the code that
+I host on git, there, that was just some weird
+
+22
+
+00:02:22,940  -->  00:02:29,930
+indentation from another program, I guess. So, let's go ahead and get started with a person
+
+23
+
+00:02:29,930  -->  00:02:36,380
+class. So let's drop down here to define
+another class called person "class Person:" and right
+
+24
+
+00:02:36,380  -->  00:02:40,550
+off the bat we know we're going to need
+to initialize this class or the
+
+25
+
+00:02:40,550  -->  00:02:47,150
+object from this class with a few
+parameters. So think of these typically i
+
+26
+
+00:02:47,150  -->  00:02:51,080
+guess we'll think of these as stats. So, if
+you've ever played a role playing game
+
+27
+
+00:02:51,080  -->  00:02:56,720
+we're going to need hitpoints, we're
+going to need attack power, defense ,magic
+
+28
+
+00:02:56,720  -->  00:03:04,580
+magic points, etc. So let's go ahead and
+let's "def __init__(self):" and what
+
+29
+
+00:03:04,580  -->  00:03:15,140
+we're going to pass it is "(self, hp, mp atk,
+df magic):" and what we're going to do
+
+30
+
+00:03:15,140  -->  00:03:26,540
+is we're going to set "self.maxhp = hp" and the reason why we're
+
+31
+
+00:03:26,540  -->  00:03:32,510
+setting max HP and HP separately "self.hp = hp"  is because, this one is think of that is
+
+32
+
+00:03:32,510  -->  00:03:36,230
+current hitpoints so, as we go through the battle this is going to change, but we also
+
+33
+
+00:03:36,230  -->  00:03:40,820
+always want to be aware of what our
+maximum hit points are, we don't want to
+
+34
+
+00:03:40,820  -->  00:03:46,220
+over heal. So if we set the hit points
+to 300 and then we heal and ends up
+
+35
+
+00:03:46,220  -->  00:03:50,630
+going to up to like 450 or something, we
+don't want to allow that so we set a
+
+36
+
+00:03:50,630  -->  00:03:54,980
+maximum right there, and you guys
+will see how we're going to use this. So
+
+37
+
+00:03:54,980  -->  00:04:05,060
+let's go ahead and set "self.maxmp = mp" "selfmp = mp" and we're just
+
+38
+
+00:04:05,060  -->  00:04:10,790
+setting a bunch of instance variables
+here. Now we're going to set attack high
+
+39
+
+00:04:10,790  -->  00:04:17,660
+and attack well based on what's passed
+in as attack, minus and plus 10. So,
+
+40
+
+00:04:19,280  -->  00:04:30,230
+there we go. "self.atkl = atk - 10" "self.atkh = atk +10"
+
+41
+
+00:04:30,230  -->  00:04:43,250
+And now we need to set the defense, magic, and some actions. So, self-defense "self.df = df"
+
+42
+
+00:04:43,250  -->  00:04:52,250
+"self.magic = magic" and the magic object that's being passed it's just going to be a
+
+43
+
+00:04:52,250  -->  00:04:57,230
+dictionary of different magic spells
+that we have and their MP cost.
+
+44
+
+00:04:57,230  -->  00:05:03,860
+We're going to need actions "self.action" so this is what's going to be displayed
+
+45
+
+00:05:03,860  -->  00:05:07,790
+every time it prompts us to take a turn.
+So for right now it's just going to be
+
+46
+
+00:05:07,790  -->  00:05:12,050
+"= ["Attack", "Magic"]"
+
+47
+
+00:05:12,050  -->  00:05:20,540
+there we go. Now we're going to have to
+create some utility methods here to, to
+
+48
+
+00:05:20,540  -->  00:05:24,950
+handle different actions that we can
+anticipate are going to be in the battle.
+
+49
+
+00:05:24,950  -->  00:05:31,040
+So we want our player and the enemy to
+be able to take damage. So in order to
+
+50
+
+00:05:31,040  -->  00:05:35,990
+generate the damage, much like we did I
+believe in one of the previous videos, we
+
+51
+
+00:05:35,990  -->  00:05:46,340
+are going to use random. So what we're
+going to do here is "import random" spelled that
+
+52
+
+00:05:46,340  -->  00:05:57,410
+wrong. So let's go ahead and
+define a function called "def generate_damage(self):"
+
+53
+
+00:06:01,050  -->  00:06:10,770
+and basically all we're going to do is
+"return random.randrange" and this is
+
+54
+
+00:06:10,770  -->  00:06:17,370
+going to be attack low attack, actually
+self attack low, right we're inside of a
+
+55
+
+00:06:17,370  -->  00:06:21,930
+class, and self attack high. "(self.atkl, self.atkh)"
+
+56
+
+00:06:23,039  -->  00:06:29,039
+That's just going to generate a number so
+that we can see ok, it's attacking us we
+
+57
+
+00:06:29,039  -->  00:06:32,520
+we need to generate the amount of damage, and we want this to be a little bit
+
+58
+
+00:06:32,520  -->  00:06:36,240
+dynamic so we're going to use our the
+random range with the attack low and
+
+59
+
+00:06:36,240  -->  00:06:40,379
+attack high. So we're done with that and
+that's what a lot of our methods are
+
+60
+
+00:06:40,379  -->  00:06:43,409
+going to look like. Alot of them
+are going to be like one or two lines,
+
+61
+
+00:06:43,409  -->  00:06:45,210
+they're they're all going to be pretty
+small though.
+
+62
+
+00:06:45,210  -->  00:06:51,389
+So, now we need to do the same thing but
+for spell damage. What we're going to do
+
+63
+
+00:06:51,389  -->  00:06:54,810
+let's go ahead and create the spells
+first.

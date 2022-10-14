@@ -1,0 +1,211 @@
+WEBVTT
+
+00:00.150 --> 00:00.770
+All right.
+
+00:00.970 --> 00:06.750
+While still on the subject of the units in the C assess why don't we take a look at the calc function
+
+00:06.840 --> 00:10.450
+which is really gonna help us out in a lot of cases.
+
+00:10.620 --> 00:14.790
+Now what's happening in the next session you know we're gonna set up two elements.
+
+00:14.790 --> 00:16.650
+One of them is going to be Navarre.
+
+00:16.650 --> 00:22.220
+So I'm going to say Dave and then for the class and let's give it a class number and ledges right.
+
+00:22.230 --> 00:23.790
+This is no.
+
+00:24.080 --> 00:26.210
+This obviously is not going to be real nav bar.
+
+00:26.460 --> 00:28.530
+We're just gonna set it up as a element.
+
+00:28.530 --> 00:29.990
+We are the class of number.
+
+00:30.120 --> 00:31.320
+So far so good.
+
+00:31.350 --> 00:32.040
+What else we have.
+
+00:32.040 --> 00:36.810
+Well let's say there's gonna be another Dave with a glass of Banner and then you know what.
+
+00:36.810 --> 00:41.610
+We're not going to type any kind of text in here because we're gonna be adding the background color
+
+00:41.610 --> 00:42.870
+anyway.
+
+00:42.870 --> 00:43.360
+Okay.
+
+00:43.410 --> 00:45.140
+What do we have in the CSF.
+
+00:45.840 --> 00:50.290
+Well first of all I'm going to head over back and I'm going to reset the browser styles.
+
+00:50.290 --> 00:55.470
+Any default ones because I would like to show you something with view height and I think this is just
+
+00:55.470 --> 00:58.590
+gonna make a little bit of sense if I'm going to say margin is gonna be zero.
+
+00:59.040 --> 01:01.720
+So now we're resetting the default style.
+
+01:02.480 --> 01:02.820
+Okay.
+
+01:02.820 --> 01:03.450
+What's next.
+
+01:03.450 --> 01:09.120
+Well let's say for the number since this is gonna be the class we know how to selected and we can maybe
+
+01:09.120 --> 01:16.800
+add some background first maybe background is gonna be blue and and height would be something like a
+
+01:16.800 --> 01:18.020
+hundred pixels.
+
+01:18.130 --> 01:23.190
+Well let's say I'm pixels and then we also would like to have a little bit of color.
+
+01:23.520 --> 01:28.800
+Color could be white and maybe add on a font size on our three arms.
+
+01:28.800 --> 01:30.790
+So this is gonna be our maneuver.
+
+01:30.930 --> 01:32.170
+So far so good.
+
+01:32.310 --> 01:33.330
+What is happening next.
+
+01:33.330 --> 01:38.280
+Well let's say that for Navarre I would like to hear I'm sorry for the banner.
+
+01:38.280 --> 01:43.110
+No we already styled it but for the banner I would like to add first of all the background.
+
+01:43.860 --> 01:48.780
+So let's write background is gonna be red and then we would need to have some kind of height.
+
+01:49.110 --> 01:55.890
+Well we already know we can use min height or is if the content doesn't support whatever we're having
+
+01:55.890 --> 02:00.580
+right now then at least a minimal height is gonna be whatever we're typing here.
+
+02:00.600 --> 02:04.980
+So the difference would be between the height you're just setting the height with the mean height if
+
+02:04.980 --> 02:10.550
+the content is gonna be enough in the actual element then it's obviously going to be bigger.
+
+02:10.770 --> 02:16.370
+Meaning if we're gonna be placing a bunch of text here within the banner if it gets bigger then hundred
+
+02:16.620 --> 02:19.350
+new height then obviously this is gonna be bigger.
+
+02:19.680 --> 02:24.810
+However if the content doesn't provide that much height which is this case of course because we haven't
+
+02:24.810 --> 02:28.800
+provided any kind of content then we're just sitting here what would be the value.
+
+02:29.430 --> 02:33.350
+So I'm going to say here hundred view right now what's happening.
+
+02:33.360 --> 02:38.520
+Well I can see that there's going to be an amber but then I need to scroll down for my hundred views.
+
+02:39.210 --> 02:45.870
+And that is an issue because let's imagine the situation where I would want my nav bar as well as my
+
+02:45.870 --> 02:52.290
+banner shared a hundred percent here on the screen because right now I'm having a hundred percent plus
+
+02:52.290 --> 02:53.820
+these hundred pixels correct.
+
+02:54.330 --> 02:57.250
+Well this is where the call function comes to rescue.
+
+02:57.360 --> 03:01.620
+And what's really neat about call function we can perform math operations.
+
+03:01.620 --> 03:08.250
+So addition subtraction multiplication and division as well as we make and mix and match values.
+
+03:08.280 --> 03:14.420
+So how this is gonna look like so instead of using the main height four hundred view height what I can
+
+03:14.420 --> 03:19.190
+write oh here I can say OK so this is going to be the function and then all is going to perform the
+
+03:19.190 --> 03:20.380
+math operation.
+
+03:20.590 --> 03:21.370
+And in this case.
+
+03:21.380 --> 03:27.320
+Well first of all I misspelled it but we can write whatever values we would like to be calculated so
+
+03:27.320 --> 03:32.090
+we can mix and match them I can say yeah my manhood should be hundred view height.
+
+03:32.150 --> 03:35.330
+However I would like to subtract the hundred pixels.
+
+03:35.390 --> 03:36.560
+So what I'm saying here is.
+
+03:36.590 --> 03:42.780
+Yeah make this hundred percent but get rid of whatever number what value was all here.
+
+03:43.160 --> 03:48.590
+So the moment we're going to save it now we have exactly hundred percent and this is for most cases
+
+03:48.590 --> 03:52.390
+we're all going and doing a project we're all gonna be setting up the banner and then we're going to
+
+03:52.390 --> 03:59.220
+make sure that the actual welcome page is exactly hundred percent or on review height.
+
+03:59.390 --> 04:05.720
+And for that we're gonna use the division to get rid of these whatever value would be for no color.
+
+04:05.720 --> 04:10.700
+Be careful though if you're just gonna make something if you're gonna say something like this then the
+
+04:10.700 --> 04:11.660
+cork is not gonna work.
+
+04:12.140 --> 04:16.640
+So what's happening right away it spits you back there or we can do something like this and again this
+
+04:16.640 --> 04:17.640
+is not going to work.
+
+04:17.780 --> 04:23.970
+So we need to make sure that whenever you're doing the actual calculation that there's space in between.
+
+04:23.990 --> 04:26.920
+So these assets can say what is the operator.
+
+04:26.960 --> 04:31.250
+So that would be a shorthand to a assess called function.

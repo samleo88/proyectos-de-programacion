@@ -1,0 +1,356 @@
+1
+
+00:00:00,000  -->  00:00:04,170
+Alright guys, we are going to talk about
+some built-in functions before we move
+
+2
+
+00:00:04,170  -->  00:00:09,750
+on, and then we're going to get onto
+defining our own functions, and the
+
+3
+
+00:00:09,750  -->  00:00:15,420
+different parts of a function. So, let's
+go ahead and open up a terminal here. I
+
+4
+
+00:00:15,420  -->  00:00:20,250
+want you guys to loosely follow what I'm
+doing here so that you guys can get used to
+
+5
+
+00:00:20,250  -->  00:00:23,880
+using these functions which I think
+we're going to be using some of them
+
+6
+
+00:00:23,880  -->  00:00:27,960
+quite a bit and you're going to be using
+some of them quite a bit once you, once
+
+7
+
+00:00:27,960  -->  00:00:32,489
+you're done this course. So these are
+some basic, very basic, functions that we
+
+8
+
+00:00:32,489  -->  00:00:36,420
+need to learn about, we're not going to
+go through any modules like the
+
+9
+
+00:00:36,420  -->  00:00:39,870
+math module or anything like that,
+
+10
+
+00:00:39,870  -->  00:00:47,129
+we're just going to go through a few
+basic functions. So let's jump into a
+
+11
+
+00:00:47,129  -->  00:00:52,530
+Python console here and we've already
+learned about a few so they're just
+
+12
+
+00:00:52,530  -->  00:00:58,500
+going to get a quick mention here. You
+can print out on the screen in
+
+13
+
+00:00:58,500  -->  00:01:03,660
+the terminal, whatever you you want to
+basically use the print command, you can
+
+14
+
+00:01:03,660  -->  00:01:12,210
+convert things to a string using the str
+function, and you can do this for both
+
+15
+
+00:01:12,210  -->  00:01:19,140
+integers and floating points, and
+actually booleans,
+
+16
+
+00:01:19,140  -->  00:01:23,040
+and then for each of these types you can
+also convert them to their own types if
+
+17
+
+00:01:23,040  -->  00:01:29,520
+they are a string. So I can use int here,
+and it's going to convert that to an
+
+18
+
+00:01:29,520  -->  00:01:44,310
+integer. I could use int that...oh sorry
+"flo("5.6")" I can use float to convert 5.6 to an
+
+19
+
+00:01:44,310  -->  00:01:48,420
+actual number, and then you can perform
+mathematical operations on if you want.
+
+20
+
+00:01:48,930  -->  00:01:57,479
+Now, let's say we have a string like true,
+and we want to convert that to a boolean
+
+21
+
+00:01:57,479  -->  00:02:04,920
+to actually be able to test things with
+it. What we would do is type "bool("True")" and there we
+
+22
+
+00:02:04,920  -->  00:02:08,250
+go that's going to convert that to a
+boolean operator.
+
+23
+
+00:02:10,210  -->  00:02:15,280
+Now let's also talk about a command
+called "len" Basically, what this is is
+
+24
+
+00:02:15,280  -->  00:02:18,880
+it's going to determine the length of
+something so it can work with arrays
+
+25
+
+00:02:18,880  -->  00:02:25,510
+and strings. So let's go ahead and try
+and figure out how long "len("Hello")"
+
+26
+
+00:02:26,380  -->  00:02:31,900
+Hello is which means how many characters are in this, and there are 5. Now this
+
+27
+
+00:02:31,900  -->  00:02:40,060
+command can also be used on an array. So "len([1, 2, 6, 3, 4])" just a few random numbers in
+
+28
+
+00:02:40,060  -->  00:02:48,370
+there and it's 5 digits long. Now also
+if you were put strings in here
+
+29
+
+00:02:48,370  -->  00:02:55,990
+each with different a number of characters, you would see that this is still going
+
+30
+
+00:02:55,990  -->  00:03:01,420
+to be equal to the number of items and
+not the number of characters within each
+
+31
+
+00:03:01,420  -->  00:03:06,940
+item. So that's how to calculate the
+length of an array. Now another thing
+
+32
+
+00:03:06,940  -->  00:03:11,560
+you can do with an array that's pretty neat is sort the array. So let's go ahead
+
+33
+
+00:03:11,560  -->  00:03:19,000
+and create an array which is let's say
+we're going to put some random numbers
+
+34
+
+00:03:19,000  -->  00:03:22,120
+in here in you know
+
+35
+
+00:03:22,120  -->  00:03:25,120
+no specific order
+
+36
+
+00:03:30,400  -->  00:03:33,400
+there "[16, 3, 8, 6, 9, 133, 435, 21, 823, 45]"
+
+37
+
+00:03:33,910  -->  00:03:38,650
+Now as you can see this is incredibly
+random but let's say that we wanted to
+
+38
+
+00:03:38,650  -->  00:03:46,990
+sort the array into lowest to highest, or
+you know first to last. What we would do
+
+39
+
+00:03:46,990  -->  00:03:58,780
+is actually wrap it in a function called
+"sorted" and this will shift around the
+
+40
+
+00:03:58,780  -->  00:04:05,650
+array until all numbers are in
+ascending order. Now let's do the same
+
+41
+
+00:04:05,650  -->  00:04:13,750
+with an array with strings instead. So
+let's create some letters here,
+
+42
+
+00:04:22,500  -->  00:04:25,500
+"sorted(["B", "R", "a", "N"])"
+
+43
+
+00:04:28,060  -->  00:04:36,669
+couple issues with that line of code there. So it sorts it but as you'll
+
+44
+
+00:04:36,669  -->  00:04:42,040
+notice the "a" is at the end. Well, why did
+that happen? If we were to capitalize
+
+45
+
+00:04:42,040  -->  00:04:46,210
+it the "A" would that be at the beginning.
+So, again if we turn some of these
+
+46
+
+00:04:46,210  -->  00:04:54,400
+letters into lower case which obviously
+come before other letters here, and one
+
+47
+
+00:04:54,400  -->  00:05:05,440
+more, you can kind of see how it's
+working. The capital letters are parsed
+
+48
+
+00:05:05,440  -->  00:05:11,380
+first because that's just the way
+it works, and then lower case letters,
+
+49
+
+00:05:11,380  -->  00:05:19,960
+what if we threw a number in
+there? You'll see that it can't do
+
+50
+
+00:05:19,960  -->  00:05:20,470
+that,
+
+51
+
+00:05:20,470  -->  00:05:28,180
+so what you would have to do is wrapping
+quotes and let's throw another number
+
+52
+
+00:05:28,180  -->  00:05:37,960
+right here, and a floating-point
+wrapped in quotations, and you're going
+
+53
+
+00:05:37,960  -->  00:05:43,690
+to see that the way this sorted is it put
+numbers first regardless of if it's a
+
+54
+
+00:05:43,690  -->  00:05:48,729
+floating-point or integer type. They have
+to be wrapped in quotations in order to
+
+55
+
+00:05:48,729  -->  00:05:57,550
+be sorted with other strings in an array, and then it parses the capital alphabet
+
+56
+
+00:05:57,550  -->  00:06:04,510
+and the the lowercase alphabet, so that's
+kind of a priority order there. Just so
+
+57
+
+00:06:04,510  -->  00:06:06,820
+you guys are aware of that.
+
+58
+
+00:06:06,820  -->  00:06:11,320
+So what we're going to do next is
+actually explore functions, this was just
+
+59
+
+00:06:11,320  -->  00:06:16,389
+a few basic building commands in Python
+that we are going to use through the
+
+60
+
+00:06:16,389  -->  00:06:21,250
+rest of the course, and we're probably going to, well we definitely are going to, find
+
+61
+
+00:06:21,250  -->  00:06:26,740
+other built-in functions as we move
+along, as we need them. So let's get into
+
+62
+
+00:06:26,740  -->  00:06:27,700
+functions.

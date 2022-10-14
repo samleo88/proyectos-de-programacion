@@ -1,0 +1,327 @@
+1
+
+00:00:00,000  -->  00:00:04,259
+Hey guys, in the last video we learned
+about user management and session
+
+2
+
+00:00:04,259  -->  00:00:09,210
+management, and we created our login
+script which is fully functional to log
+
+3
+
+00:00:09,210  -->  00:00:15,330
+a user in, however now we're going to
+talk about logging a user out. It
+
+4
+
+00:00:15,330  -->  00:00:20,550
+includes making some changes to our
+program, including the logout function
+
+5
+
+00:00:20,550  -->  00:00:28,890
+right here the class. So basically what
+we need to do is we need to change, in
+
+6
+
+00:00:28,890  -->  00:00:33,870
+our code we've been using this right
+here to determine if a user is logged in
+
+7
+
+00:00:33,870  -->  00:00:40,469
+or not, if user is logged in user becomes
+the user object as defined down here.
+
+8
+
+00:00:41,040  -->  00:00:45,210
+However, what we need to do, and we again we've been using this in all of our
+
+9
+
+00:00:45,210  -->  00:00:49,440
+checks in our templates, what we need to
+do is we need a way to reset this to
+
+10
+
+00:00:49,440  -->  00:00:53,969
+a null value, and in python that null value
+is just "None"
+
+11
+
+00:00:53,969  -->  00:01:00,930
+it's a boolean operator. So, we're going
+to set the initializer object to user is
+
+12
+
+00:01:00,930  -->  00:01:06,150
+None, and then basically what we need to
+do is down here, well first let's go
+
+13
+
+00:01:06,150  -->  00:01:12,720
+through here, we need to manually check
+now all of these instances "None" and change
+
+14
+
+00:01:12,720  -->  00:01:17,430
+them "none", accordingly.
+
+15
+
+00:01:17,430  -->  00:01:22,799
+Now, what I've added here in the main
+layout is basically it's a very simple
+
+16
+
+00:01:22,799  -->  00:01:26,729
+if statement that says, if session user
+equals none
+
+17
+
+00:01:26,729  -->  00:01:30,630
+meaning if the user is not logged in, we
+want to provide them a login and
+
+18
+
+00:01:30,630  -->  00:01:31,920
+register link,
+
+19
+
+00:01:31,920  -->  00:01:37,560
+otherwise we need to provide them with a
+logout link, and I've given this the ID
+
+20
+
+00:01:37,560  -->  00:01:40,409
+of a logout link and you'll see why in
+just a moment.
+
+21
+
+00:01:40,409  -->  00:01:46,590
+Now this is not going to kill the
+session automatically, what we need to do
+
+22
+
+00:01:46,590  -->  00:01:52,110
+is we need to first clear out the user
+object manually, and so we're going to go
+
+23
+
+00:01:52,110  -->  00:02:07,530
+"session['user'] = None" and "session_data['user' = None]" and we're going to
+
+24
+
+00:02:07,530  -->  00:02:08,580
+going to save this.
+
+25
+
+00:02:08,580  -->  00:02:13,560
+We are also going to save our home
+template and our main layout template,
+
+26
+
+00:02:13,560  -->  00:02:20,340
+and now we're going to create the ajax
+logout, and how we're going to do that is
+
+27
+
+00:02:20,340  -->  00:02:24,750
+just add an "a" element here with an id of logout link, and we're going to be using this,
+
+28
+
+00:02:24,750  -->  00:02:29,040
+this is going to be the event target. So
+copy the ID and come over to scripty here,
+
+29
+
+00:02:29,040  -->  00:02:32,760
+and what we're going to do is we're
+going to just open up another event
+
+30
+
+00:02:32,760  -->  00:02:43,200
+trigger. So "$(document)on('click', '#logout-link')" and that's going
+
+31
+
+00:02:43,200  -->  00:02:47,850
+to result in the "function(e){ }" which we're
+going to find next. We are going to pass
+
+32
+
+00:02:47,850  -->  00:02:58,200
+the event to the function so that we can
+do this "e.preventDefault( );" We don't want the default action
+
+33
+
+00:02:58,200  -->  00:03:04,830
+of clicking on a link to have any impact
+right now on this event. So what we need
+
+34
+
+00:03:04,830  -->  00:03:12,510
+to do is we need to create an ajax
+request to this url right here, so the
+
+35
+
+00:03:12,510  -->  00:03:25,530
+log out page. Let's go ahead and "$.ajax({" "url: '/logout', type: 'GET',
+
+36
+
+00:03:25,530  -->  00:03:32,910
+and when we use GET as a type for
+an ajax request we actually don't even
+
+37
+
+00:03:32,910  -->  00:03:36,840
+have to send any data, so what we're
+going to do is move right on to the
+
+38
+
+00:03:36,840  -->  00:03:45,840
+"success: function(res){ }" i'm going to be
+capturing the response, and basically in
+
+39
+
+00:03:45,840  -->  00:03:51,780
+the controller we've said to return
+the word success, so that's what we're
+
+40
+
+00:03:51,780  -->  00:04:01,739
+going to check now. So "if(res == 'success'){ }" we're just going to redirect
+
+41
+
+00:04:01,739  -->  00:04:06,330
+them to the login page "window.location.href = '/login';"
+
+42
+
+00:04:09,460  -->  00:04:22,960
+"else{" "alert("Something went wrong.");" there we go. Now we should all,
+
+43
+
+00:04:22,960  -->  00:04:28,390
+we should have all the makings here for
+a working login and logout system, so
+
+44
+
+00:04:28,390  -->  00:04:31,630
+what we're going to do is I'm going to
+save this, we're going to run the
+
+45
+
+00:04:31,630  -->  00:04:37,540
+controller file, no socket could be created
+and that's because I've already got it
+
+46
+
+00:04:37,540  -->  00:04:44,470
+running, I guess. So let's close this tab, let's connect, re-run this, we're going to
+
+47
+
+00:04:44,470  -->  00:04:47,650
+refresh here, as you can see we're not
+logged in because we are presented with
+
+48
+
+00:04:47,650  -->  00:04:49,930
+the generic Hello CodeWizard, so
+
+49
+
+00:04:49,930  -->  00:04:59,260
+let's go ahead and login. I believe the
+user was nick1 and avocado1.
+
+50
+
+00:04:59,260  -->  00:05:04,810
+Now once we get logged in you'll notice
+that it is personalized and this does
+
+51
+
+00:05:04,810  -->  00:05:07,000
+demonstrate the fact that we are logged
+in,
+
+52
+
+00:05:07,000  -->  00:05:11,710
+in addition that if statement in the
+main layout has presented now a logout
+
+53
+
+00:05:11,710  -->  00:05:15,220
+link. So we can do whatever we're going
+to do here, refresh pages, the session
+
+54
+
+00:05:15,220  -->  00:05:18,250
+is going to remain persistent. However,
+when we want to log out
+
+55
+
+00:05:18,910  -->  00:05:23,710
+we just click that log out link and you
+can see now the system is registering
+
+56
+
+00:05:23,710  -->  00:05:27,910
+that we are logged out, we get the same
+generic CodeWizard here, and we get the
+
+57
+
+00:05:27,910  -->  00:05:28,750
+login links.

@@ -1,0 +1,323 @@
+1
+00:00:00,350 --> 00:00:06,690
+Chicos, lo que vamos a hacer en este video es aprender a importar diferentes módulos a
+
+2
+00:00:07,170 --> 00:00:11,170
+un script de Python y vamos a aprender sobre proyectos.
+
+3
+00:00:11,250 --> 00:00:12,750
+Entonces, ¿qué es un módulo?
+
+4
+00:00:12,750 --> 00:00:18,720
+Básicamente, se trata de una biblioteca externa que puede incluir y usar en su proyecto,
+
+5
+00:00:18,720 --> 00:00:22,650
+proporcionando funcionalidad adicional sin tener que escribir esta funcionalidad adicional.
+
+6
+00:00:22,920 --> 00:00:30,960
+Entonces, por ejemplo, vamos a seguir adelante e importar RRE que es la biblioteca de rechazos y eso es puertos del
+
+7
+00:00:31,060 --> 00:00:33,180
+tipo de importación a su nombre.
+
+8
+00:00:33,180 --> 00:00:41,980
+Ahora Rhee se incluye con Python, por lo que no es necesario instalar nada para usarlo.
+
+9
+00:00:44,350 --> 00:00:47,090
+Entonces ahora el uso básico.
+
+10
+00:00:47,200 --> 00:00:48,690
+Bueno, vayamos a directx.
+
+11
+00:00:48,700 --> 00:00:51,900
+Así que voy a seguir adelante y crear una cadena.
+
+12
+00:00:51,910 --> 00:00:58,580
+Y va a decir que no estoy gritando.
+
+13
+00:00:59,440 --> 00:01:07,410
+Ella dijo que aunque lo hiciéramos no era cierto.
+
+14
+00:01:10,900 --> 00:01:15,500
+Ahora básicamente rechaza no es parte de Python.
+
+15
+00:01:15,550 --> 00:01:22,210
+Es como un lenguaje de programación midi que puedes usar básicamente en cualquier lenguaje de programación.
+
+16
+00:01:22,210 --> 00:01:30,360
+Me refiero a que puedes usar Regex en Python en THP en javascript.
+
+17
+00:01:30,400 --> 00:01:32,550
+Usted conoce un Java C ++.
+
+18
+00:01:32,710 --> 00:01:40,540
+Entonces Rajapakse es básicamente una manera de unir ciertos personajes y hacer algo basado en el
+
+19
+00:01:43,470 --> 00:01:47,230
+ahora como lo verías en Wikipedia aquí.
+
+20
+00:01:47,530 --> 00:01:57,450
+Hay algunas bibliotecas estándar para Dot Net Java Python C ++ y algunas incorporadas para Perl javascript,
+
+21
+00:01:57,450 --> 00:01:58,180
+etc. Entonces esto no es específico de Python y vamos a cubrirlo en un grado limitado cuando lo necesitemos.
+
+22
+00:01:58,470 --> 00:02:06,420
+Entonces, en este caso vamos a aprender algunas cosas en el siguiente video, así
+
+23
+00:02:06,420 --> 00:02:12,330
+que sigamos adelante y empecemos a entender cómo usar la retórica.
+
+24
+00:02:12,900 --> 00:02:15,540
+no te estoy diciendo que ella dijo.
+
+25
+00:02:15,540 --> 00:02:22,450
+Entonces, lo primero que vamos a hacer es que si yo imprimo una cadena verás quién dice que
+
+26
+00:02:22,470 --> 00:02:23,570
+Entonces supimos que no era verdad.
+
+27
+00:02:23,590 --> 00:02:25,390
+Así que tenemos mayúsculas minúsculas, tenemos una coma de punto y citas.
+
+28
+00:02:25,920 --> 00:02:31,140
+Así que sigamos adelante y juguemos con esto.
+
+29
+00:02:31,140 --> 00:02:33,410
+Entonces quiero crear una nueva variable llamada myu y será igual a leer.
+
+30
+00:02:33,480 --> 00:02:37,340
+Y lo que estamos haciendo es crear una instancia del objeto que importamos que está en la parte superior
+
+31
+00:02:37,430 --> 00:02:42,420
+del script y estamos llamando a la función sub o substituta en el objeto en el que el sub se construye en el objeto real.
+
+32
+00:02:42,420 --> 00:02:50,330
+a una función en un objeto, necesita poner los parámetros en la lista de parámetros.
+
+33
+00:02:50,700 --> 00:02:56,280
+Así que, como llamar a cualquier otra función cuando llama
+
+34
+00:02:56,550 --> 00:02:57,760
+Ahora no hemos discutido las clases en objetos todavía.
+
+35
+00:02:57,760 --> 00:03:00,890
+Vamos a llegar a eso.
+
+36
+00:03:00,900 --> 00:03:01,700
+Pero este es tu sabes que necesitamos saber esto por el bien de este video con el siguiente.
+
+37
+00:03:01,710 --> 00:03:05,640
+Ahora los tres parámetros que toma esta función sustituta son las coincidencias que queremos hacer.
+
+38
+00:03:05,730 --> 00:03:15,590
+Con qué queremos reemplazarlos.
+
+39
+00:03:15,930 --> 00:03:18,210
+Y luego la cadena que vamos a manipular al hacer esto.
+
+40
+00:03:19,350 --> 00:03:24,170
+Así que ya tenemos cadenas almacenadas en la variable llamada String.
+
+41
+00:03:24,210 --> 00:03:27,890
+Avancemos y cubramos algunas coincidencias, digamos que queremos eliminar todas las letras mayúsculas.
+
+42
+00:03:29,670 --> 00:03:35,150
+Entonces, lo que vamos a hacer es básicamente
+
+43
+00:03:35,190 --> 00:03:43,530
+abrir un corchete cerrado, ahora las reglas y los rechazos están entre corchetes.
+
+44
+00:03:43,530 --> 00:03:44,940
+Entonces, si quisiéramos quitar
+
+45
+00:03:44,940 --> 00:03:53,010
+todas las letras mayúsculas quiero decir que podríamos ir a B C D F G H. Sabes que podríamos hacerlo de esa manera.
+
+46
+00:03:53,010 --> 00:03:53,810
+Salgamos todo el alfabeto.
+
+47
+00:03:53,820 --> 00:03:55,160
+Pero Redjacket en realidad proporciona
+
+48
+00:03:55,170 --> 00:04:01,440
+una forma de no tener que hacer eso al permitirnos elegir un rango de letras, por lo que esta será una mayúscula de aa z.
+
+49
+00:04:01,440 --> 00:04:04,540
+Queremos reemplazar con nada.
+
+50
+00:04:04,680 --> 00:04:07,500
+Y queremos que haga esto en la cadena de cuerdas.
+
+51
+00:04:07,650 --> 00:04:11,200
+Así que vamos a presionar enter.
+
+52
+00:04:11,340 --> 00:04:12,620
+Ahora, si llegué
+
+53
+00:04:12,630 --> 00:04:20,730
+a Pradel, veré que eliminó todas las letras mayúsculas y dejó intacto todo lo demás tal como está.
+
+54
+00:04:20,760 --> 00:04:24,580
+Entonces también podemos hacer lo mismo con letras minúsculas.
+
+55
+00:04:24,870 --> 00:04:30,620
+Entonces, en lugar de eliminar todas las letras mayúsculas, está dejando todo excepto las letras minúsculas.
+
+56
+00:04:34,070 --> 00:04:40,710
+Bueno, digamos que queremos eliminar todos los caracteres especiales.
+
+57
+00:04:41,130 --> 00:04:44,270
+Entonces, lo que hacemos es poner varias reglas dentro de los corchetes, así que sigamos adelante.
+
+58
+00:04:44,270 --> 00:04:52,720
+Punto de coma y luego vamos a barra invertida para escapar de esta cita.
+
+59
+00:04:52,770 --> 00:04:57,510
+A menos que se imprima el editor de EDR, verá que eliminó toda la puntuación de una cadena.
+
+60
+00:04:57,770 --> 00:05:04,540
+Ahora continuemos y combinemos esto con las letras minúsculas.
+
+61
+00:05:04,740 --> 00:05:12,640
+Y luego, además, las letras mayúsculas quedaron sin nada,
+
+62
+00:05:14,630 --> 00:05:24,580
+excepto los espacios que no puedo ver aquí, pero aquí hay espacios.
+
+63
+00:05:25,020 --> 00:05:28,740
+Avancemos y dejemos las minúsculas simplemente.
+
+64
+00:05:29,460 --> 00:05:32,030
+Ustedes ven que hay espacios.
+
+65
+00:05:32,060 --> 00:05:36,450
+Entonces, hay alrededor de cuatro ahí, sabes.
+
+66
+00:05:36,540 --> 00:05:40,810
+Y entonces tenemos espacios.
+
+67
+00:05:40,810 --> 00:05:41,970
+Así que vamos a eliminar los espacios y cómo vamos a hacer eso está aquí.
+
+68
+00:05:42,090 --> 00:05:48,700
+Qué lado más positivo.
+
+69
+00:05:50,100 --> 00:05:51,900
+Y luego vamos a abrir citas y ponerlo en el espacio vacío y luego cerrar las citas.
+
+70
+00:05:52,840 --> 00:06:02,450
+Ahora vamos adelante y agreguemos realmente así que
+
+71
+00:06:02,580 --> 00:06:04,090
+vamos.
+
+72
+00:06:06,810 --> 00:06:08,480
+Cadena igual cuerda.
+
+73
+00:06:08,490 --> 00:06:13,170
+Y luego imprimamos una cadena y podemos hacerlo también.
+
+74
+00:06:20,010 --> 00:06:25,510
+De hecho, puedes crear nuevos iguales. Léenos lo que vamos a hacer aquí. Vamos
+
+75
+00:06:25,550 --> 00:06:31,850
+a decirle que elimine todo, excepto los números que realmente sabes que ponen en la cita x.
+
+76
+00:06:32,330 --> 00:06:42,260
+Vamos a reemplazar todo lo que no sean números sin nada.
+
+77
+00:06:42,790 --> 00:06:47,750
+Vamos a realizar toda la cadena.
+
+78
+00:06:47,930 --> 00:06:51,810
+Entonces, si imprimo algo nuevo, verán que todo lo que queda es la fusión.
+
+79
+00:06:51,980 --> 00:06:57,270
+Entonces, esa es la medida en que necesitamos aprender Redjacket para hacer lo que estamos haciendo.
+
+80
+00:06:57,290 --> 00:07:02,630
+El siguiente video que está construyendo una increíble calculadora.
+
+81
+00:07:02,640 --> 00:07:05,920
+&nbsp;

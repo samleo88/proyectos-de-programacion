@@ -1,0 +1,514 @@
+WEBVTT
+
+00:00.150 --> 00:03.040
+And the next section we're going to be building.
+
+00:03.420 --> 00:08.980
+It's going to be quote section where we're actually going to be using a our carousel.
+
+00:09.010 --> 00:15.050
+So again first things are still going to build a section and then we're actually going to add a jack
+
+00:15.050 --> 00:17.580
+work plug in our carousel.
+
+00:17.920 --> 00:23.170
+So we're going to do this again we're going to go to where is the pricing section.
+
+00:23.170 --> 00:28.200
+You know we're going to create hear a comment and we're going to say this is going to be quote.
+
+00:28.410 --> 00:31.750
+And so the line copy paste.
+
+00:31.970 --> 00:32.330
+Right.
+
+00:32.400 --> 00:38.950
+And of quote You know this and then we're going to say that section right.
+
+00:38.970 --> 00:43.300
+And we're going to have an ID of quotes like this.
+
+00:43.440 --> 00:48.510
+And then once we have the section first things first we would want a title right.
+
+00:48.590 --> 00:51.740
+So we're going to skip over here and we're going to find it.
+
+00:51.740 --> 00:55.740
+Where is actually our title here.
+
+00:55.760 --> 01:04.550
+So if this was the pricing and so against just get this this title here come and see.
+
+01:04.580 --> 01:06.360
+So I'm going to copy this one.
+
+01:06.600 --> 01:12.890
+I'm going to go back over here and you can see that actually here in the quote I'm going to copy and
+
+01:12.890 --> 01:16.780
+paste this right and all he'll then have a icon.
+
+01:17.060 --> 01:17.350
+Right.
+
+01:17.390 --> 01:20.190
+And this is going to be a comment.
+
+01:20.360 --> 01:27.500
+This is going to be our font or some I can comment on here it's going to say our amazing and we're going
+
+01:27.500 --> 01:29.360
+to say what they say.
+
+01:29.420 --> 01:35.930
+So instead of our amazing prices we're going to say what they say and say what they were going to say
+
+01:35.930 --> 01:37.080
+say.
+
+01:37.670 --> 01:46.120
+And then once we're done with this we actually would want to start working with our main section in
+
+01:46.220 --> 01:49.740
+all year with them end of title.
+
+01:49.780 --> 01:58.760
+First we're going to create a div and there is going to have a class quote here and center and then
+
+01:58.760 --> 02:02.250
+we're going to add two things that we actually going to be using for Alcoa or so.
+
+02:02.390 --> 02:05.390
+So maybe right now they're not going to make much sense.
+
+02:05.450 --> 02:05.810
+Right.
+
+02:05.930 --> 02:09.290
+But I'm going to go over why we actually added these classes right.
+
+02:09.290 --> 02:10.890
+So don't worry about right now.
+
+02:10.880 --> 02:17.060
+It does make sense when you're writing all curso because those are actually classes that we need to
+
+02:17.060 --> 02:25.790
+add if we want our culture to be working and then we'll have all the this press tab and now we have
+
+02:25.790 --> 02:32.660
+heard and on the first things first we're going to have a image with this source on here we're going
+
+02:32.660 --> 02:37.990
+to see images and not say we're going to use images of team number four.
+
+02:38.480 --> 02:45.860
+So I'm going to say team number four here and we're going to have a team number where you can see them
+
+02:45.920 --> 02:46.890
+stop.
+
+02:46.940 --> 02:48.650
+Now we have it here.
+
+02:48.650 --> 02:49.940
+We're going to say alternative.
+
+02:49.960 --> 02:57.740
+We're just going to say an image like this cause it right now again this image is very big for an hour
+
+02:57.740 --> 02:57.980
+right.
+
+02:57.980 --> 03:03.860
+So don't worry about it we're obviously going to be actually making it smaller and after We're going
+
+03:03.860 --> 03:14.380
+to have a block quote mark cowrote element and they are and this is going to have a paragraph and the
+
+03:14.380 --> 03:16.390
+paragraph is going to have I.
+
+03:16.720 --> 03:21.030
+And then we're going to say you know the golden rule right.
+
+03:21.070 --> 03:27.880
+So we're going to say is this going to be I see or hear within the paragraph.
+
+03:28.450 --> 03:38.290
+And then in the paragraph know this and this is going to be if they fake quote quote We're going to
+
+03:38.290 --> 03:44.240
+say we left left or here and then we're going to press the tab.
+
+03:44.440 --> 03:47.100
+I'm going to we're going to have a subtext.
+
+03:47.270 --> 03:47.570
+Right.
+
+03:47.650 --> 03:54.050
+So this is going to be blockquote here within the paragraph we're going to still add some text.
+
+03:54.060 --> 03:56.070
+Right so this is going to be warum.
+
+03:56.270 --> 03:59.310
+What's going on some time words right.
+
+03:59.330 --> 04:05.480
+What he would say and then we're going to have the actual footage for a black block or so this is going
+
+04:05.480 --> 04:14.370
+to be her and we're all going to say a customer customers know this and we're actually done with this
+
+04:14.370 --> 04:20.650
+one right now the only thing here I may say actually is going to be a article.
+
+04:20.750 --> 04:22.890
+So we need to actually wrap all this.
+
+04:22.900 --> 04:27.110
+So I'm going to say article class quote press tab.
+
+04:27.120 --> 04:31.150
+Now what I would want to do is get this going on here.
+
+04:31.600 --> 04:33.630
+Price cut number here.
+
+04:33.670 --> 04:40.000
+If this was actual live right over here I would want to add an article.
+
+04:40.010 --> 04:40.260
+Right.
+
+04:40.260 --> 04:44.650
+So still this center right then it will have some children.
+
+04:44.700 --> 04:45.410
+Right.
+
+04:45.550 --> 04:45.940
+Right.
+
+04:46.040 --> 04:51.760
+And our to have one to an hour here and we're going to do all is going to change this to six.
+
+04:51.790 --> 04:52.070
+Right.
+
+04:52.070 --> 04:54.540
+And this is going to be image number six.
+
+04:54.630 --> 04:56.740
+This is going to be image number five.
+
+04:57.010 --> 04:59.680
+So right so this is going to change the image images.
+
+04:59.950 --> 05:05.740
+Now we're going to say this and again we're going to go to Maine see this and we just need to stop it.
+
+05:05.790 --> 05:09.350
+And then at the very end we're going out on our cause.
+
+05:09.620 --> 05:12.440
+So we're going to we're going to have a comment.
+
+05:12.450 --> 05:13.040
+Right.
+
+05:13.080 --> 05:18.800
+So we're all going to say that this is going to be quote quote here and another hash tag.
+
+05:19.170 --> 05:19.490
+Right.
+
+05:19.530 --> 05:24.190
+And then when we're going to do will hear what is going to create some more room.
+
+05:24.300 --> 05:31.530
+Mean once we have this one here we're going to say hash tag quote and over here we're going to say first
+
+05:31.530 --> 05:35.050
+that this is going to be padding 40 pixels.
+
+05:35.180 --> 05:35.550
+Right.
+
+05:35.580 --> 05:36.690
+And then zero.
+
+05:36.930 --> 05:43.200
+So 40 pixels top Marnham and we're going to have a background here right away we're going to have a
+
+05:43.420 --> 05:45.390
+huge roll over here.
+
+05:45.400 --> 05:47.170
+We're going to say quote background.
+
+05:47.330 --> 05:49.790
+So I saved this image with the photographs.
+
+05:49.920 --> 05:51.180
+Some would say images.
+
+05:51.180 --> 05:53.610
+And then we're going to say where is the quote.
+
+05:53.820 --> 05:55.570
+And we want codes back.
+
+05:55.760 --> 05:59.700
+Right so this is going to be the image that I'm going to be using for here.
+
+05:59.760 --> 06:01.450
+We're going to add some more stuff.
+
+06:01.450 --> 06:02.080
+All right.
+
+06:02.210 --> 06:05.370
+And first we're going to say that we would want it in a center right.
+
+06:05.370 --> 06:09.430
+And again we're going to be writing it a shorthand version right.
+
+06:09.510 --> 06:10.890
+We're going to take cover.
+
+06:11.170 --> 06:11.530
+All right.
+
+06:11.540 --> 06:16.150
+So Eamon should cover it and we're going to say it's going to be fixed.
+
+06:16.300 --> 06:19.510
+I'm going to say no repeat or here on this.
+
+06:19.530 --> 06:19.930
+Right.
+
+06:20.100 --> 06:26.640
+So all those things that we actually wrote as a property rule we just made over here a simple one right.
+
+06:26.790 --> 06:28.810
+I mean the way shorthand version.
+
+06:28.860 --> 06:33.950
+Real oddly near grade end here.
+
+06:34.070 --> 06:37.940
+And again we're going to have someone here great and this is going to be the black one.
+
+06:38.010 --> 06:46.330
+So our GPA 0 0 0 point let's say seven right and we're here we need the next one.
+
+06:46.330 --> 06:48.420
+So I'm going to say our GPA.
+
+06:48.650 --> 06:52.840
+Zero zero zero point seven.
+
+06:52.870 --> 06:54.360
+Right so pretty dark.
+
+06:54.400 --> 06:56.880
+And don't forget to place a comma here.
+
+06:56.880 --> 07:03.580
+And so now we have a black background and over here what we want is title heading to be different color
+
+07:03.580 --> 07:04.130
+again.
+
+07:04.420 --> 07:07.550
+So again we're going to say we're here that counts.
+
+07:07.560 --> 07:12.280
+I'm going to say title adding more here like this.
+
+07:12.530 --> 07:13.790
+And that's going to be color.
+
+07:13.870 --> 07:15.920
+I going to say hashtag FFC.
+
+07:16.000 --> 07:18.770
+Nine one for this.
+
+07:18.850 --> 07:27.520
+So now I'd start working with this quote article right and let's do first the image so then we can see
+
+07:27.520 --> 07:29.140
+everything else that we're doing.
+
+07:29.140 --> 07:36.220
+So we're here to say class quote and I'm going to say image here and we're going to say that this is
+
+07:36.220 --> 07:41.580
+going to be with let's say here hundred fifty pixels or right.
+
+07:41.680 --> 07:45.520
+So now we have a with then we're going to do more here.
+
+07:45.580 --> 07:48.210
+Imagine this.
+
+07:48.430 --> 07:57.850
+So I'm going to say a margin and that's going to be zero 0 0 overhearing this then we want a border
+
+07:57.860 --> 08:00.540
+radius and we're going to say 150 pixels.
+
+08:00.670 --> 08:07.840
+Right so we're going to say a border reuse and we're going to say it's say 50 percent.
+
+08:08.080 --> 08:16.060
+I realize now obviously what we would want to do right now is actually what we would want it if we want
+
+08:16.060 --> 08:21.570
+to place in center where I also would want a fuller quote to text the line.
+
+08:22.110 --> 08:29.530
+So let's go back over here and we're going to say quote here and for the code talkers say text align
+
+08:30.370 --> 08:34.680
+center and so non-sexually sitting in the center.
+
+08:35.050 --> 08:45.690
+And then after that we would want is a color that five three or five here and padding twenty pixels
+
+08:45.870 --> 08:48.120
+and or year zero.
+
+08:48.170 --> 08:55.590
+So this is going to be for the image and then will have a margin 20 pixels and zero here right.
+
+08:55.620 --> 09:02.080
+So the same thing for the paddings and we're also getting a much now what you would want so margin is
+
+09:02.100 --> 09:05.280
+obviously going to be in between and padding is inside here.
+
+09:05.330 --> 09:11.710
+Right then now we would want to actually style the font awesome right.
+
+09:11.890 --> 09:16.780
+So here what we're going to say is for the quote awesome right.
+
+09:16.900 --> 09:22.450
+And for a paragraph and then phantasmal here is this we're this color.
+
+09:22.500 --> 09:23.170
+Right.
+
+09:23.230 --> 09:30.540
+So we're going to say we're here quote We're going to say something like this and we're going to say
+
+09:30.540 --> 09:40.480
+font size 35 would say 35 pixels on this 10 and we're going to have a margin.
+
+09:40.620 --> 09:42.500
+We're going to say margin right.
+
+09:43.630 --> 09:53.860
+And this right this is going to be a five pixels here and then we're going to have a color right and
+
+09:53.860 --> 09:59.540
+the color is going to be actually FFC nine for color.
+
+09:59.780 --> 10:03.870
+And we're going to say hash tag see nine on four.
+
+10:04.020 --> 10:08.160
+Now we need to go and check because I'm actually not selecting.
+
+10:08.180 --> 10:08.700
+All right.
+
+10:09.050 --> 10:11.120
+So let's go back over here.
+
+10:11.470 --> 10:17.540
+Let's go to the next and see where it is actually my match up right now.
+
+10:17.660 --> 10:19.870
+I have a f a.
+
+10:20.020 --> 10:22.200
+You can see I didn't delete this right.
+
+10:22.220 --> 10:27.120
+So now I have all here this my quote and the same thing over here.
+
+10:27.200 --> 10:29.480
+Right so very quote.
+
+10:29.480 --> 10:33.200
+Now you can see that what we were actually doing right so we had to find that some.
+
+10:33.470 --> 10:36.340
+And we were actually adding a color to it.
+
+10:36.380 --> 10:36.950
+Right.
+
+10:37.060 --> 10:41.810
+So here this was called left and then we have somewhere in one more.
+
+10:41.840 --> 10:42.510
+Right.
+
+10:42.530 --> 10:44.650
+So here is this is going to be the same thing.
+
+10:44.660 --> 10:45.310
+Right.
+
+10:45.380 --> 10:53.140
+So now we have a class of font Awesomes and then we're going to have a font size margin right and car.
+
+10:53.300 --> 10:55.120
+Now we're done with this.
+
+10:55.210 --> 11:02.590
+The last rule we're going to have is going to be for paragraph and for the quote paragraph quote here
+
+11:02.600 --> 11:07.270
+paragraph what we would want is over here pretty simple right.
+
+11:07.310 --> 11:15.350
+So here we're going to say a line height 1.5 and this will have a with I would say we're going to say
+
+11:15.440 --> 11:26.160
+80 80 percent here and that margin let's say 10 pixels and we're going to say Arto like this.
+
+11:26.210 --> 11:33.320
+Now if you're wondering why we're not doing anything responsibly because actually the all cursor is
+
+11:33.320 --> 11:34.840
+going to take care of this.
+
+11:34.940 --> 11:35.230
+All right.
+
+11:35.240 --> 11:37.370
+So for now this is going to look like this.
+
+11:37.610 --> 11:40.140
+And once we add a how.
+
+11:40.280 --> 11:44.590
+So he's going to make everything responsive here.
+
+11:44.630 --> 11:45.030
+Right.
+
+11:45.170 --> 11:47.850
+So let's go ahead and let's add all colors.

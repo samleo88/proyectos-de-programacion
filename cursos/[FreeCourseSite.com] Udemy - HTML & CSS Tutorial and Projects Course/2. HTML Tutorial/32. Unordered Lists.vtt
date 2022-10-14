@@ -1,0 +1,103 @@
+WEBVTT
+
+00:00.450 --> 00:06.820
+A very useful element in the email is onward lists and order list.
+
+00:06.870 --> 00:11.650
+Now how do we create on our lists and order lists in the HMO.
+
+00:11.650 --> 00:16.500
+Well first of all we would need again the element and the natural element named 40 on our list would
+
+00:16.500 --> 00:17.870
+be you well.
+
+00:18.090 --> 00:19.000
+And sure enough right.
+
+00:19.020 --> 00:20.780
+Now I have my own short list.
+
+00:20.830 --> 00:26.090
+Or if I would want to have some kind of items within the honour list I would need to use the airline
+
+00:26.160 --> 00:27.150
+element.
+
+00:27.150 --> 00:29.940
+So the syntax will be for on our list.
+
+00:29.940 --> 00:36.020
+We would have the honor list element and then each and every element within this on our list will gonna
+
+00:36.030 --> 00:37.480
+have the airline element.
+
+00:38.040 --> 00:39.800
+And here we can write whatever you like.
+
+00:39.800 --> 00:45.240
+So let's say we'll just gonna have some kind of name and I have right now on the list item with this
+
+00:45.240 --> 00:48.930
+Bolton point shown as the list item.
+
+00:48.930 --> 00:53.440
+Now if I would like to copy and paste them so let's say I'm going to create more.
+
+00:53.490 --> 00:55.560
+Second one is gonna be Peter.
+
+00:56.190 --> 00:58.210
+Third one is gonna be Sarah.
+
+00:58.470 --> 01:03.320
+I'm gonna have these three list items displayed as on order list.
+
+01:03.360 --> 01:06.780
+Now the question would be well where are we gonna use the list.
+
+01:07.380 --> 01:12.900
+Well the biggest one where we always use the unknown list would be for navigation.
+
+01:12.900 --> 01:18.060
+So for now so we only have the about page but imagine that we're gonna have multiple pages.
+
+01:18.120 --> 01:20.040
+We can just place our links here.
+
+01:20.040 --> 01:27.050
+So either we can create a new one or I can just delete these guys and say Let's delete Peter.
+
+01:27.210 --> 01:34.080
+Let's also delete Sarah and within the list item within the list instead of placing some kind of text
+
+01:34.440 --> 01:35.660
+we can place a link.
+
+01:35.730 --> 01:42.450
+No again I'm gonna use just an empty link more damning Alec and let's write him home then let's grab
+
+01:42.450 --> 01:48.990
+this link and let's just copy and paste it within the next two list items and let's just write over
+
+01:48.990 --> 01:56.640
+here about as well as I had no contact would be our third one since we do have the about maybe we can
+
+01:56.640 --> 02:01.800
+also write about but I'm not going to navigate there again we already covered this with the links now
+
+02:01.800 --> 02:05.120
+the more we save this notice we have our navigation.
+
+02:05.220 --> 02:10.360
+Now obviously keep in mind we haven't had any kind of sea assessed yet.
+
+02:10.410 --> 02:15.810
+This is where the magic happens when we go to the sea assess and start styling but in general this would
+
+02:15.810 --> 02:22.200
+be our navigation where if I'm gonna click on it now obviously I'm going to go to the about page as
+
+02:22.200 --> 02:27.150
+well as I have the other links displayed as list items within my on order list.

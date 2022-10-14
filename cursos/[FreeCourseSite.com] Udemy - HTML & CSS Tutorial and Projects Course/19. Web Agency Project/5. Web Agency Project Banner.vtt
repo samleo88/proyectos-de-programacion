@@ -1,0 +1,508 @@
+WEBVTT
+
+00:00.120 --> 00:04.260
+The next section we're going to be creating our here and this is going to be demanders sections.
+
+00:04.270 --> 00:10.380
+All right so we're going to look at how we can actually center it would see it says Flex box and you
+
+00:10.380 --> 00:14.910
+can see that this is going to be centered here vertically and horizontally right.
+
+00:14.970 --> 00:17.120
+And then you going to see how easy it is right.
+
+00:17.160 --> 00:20.960
+So what we're going to do or here we're going to go back to in next stage you know.
+
+00:21.130 --> 00:21.500
+Right.
+
+00:21.540 --> 00:27.040
+And we're going to do a very short and very simple set up right as you're going to see with these videos.
+
+00:27.050 --> 00:31.700
+The HD is usually going to be really around maybe ten lines maybe less.
+
+00:31.710 --> 00:32.160
+Right.
+
+00:32.310 --> 00:38.380
+And then see says is going to be well longer or much longer depends on the section.
+
+00:38.390 --> 00:43.680
+So I'm going to say banner with a comment right so and then I know that this is going to.
+
+00:43.680 --> 00:45.490
+This was the end of NAV.
+
+00:45.660 --> 00:51.450
+So we're going to say now and this is going to be the banner right over here we can just say end of
+
+00:51.530 --> 00:54.730
+banner right away.
+
+00:55.170 --> 00:58.570
+And then we're going to write our HDMI out here right.
+
+00:58.590 --> 01:02.080
+So here I'm going to say this is going to be better with an idea of banner.
+
+01:02.300 --> 01:02.890
+Right.
+
+01:02.910 --> 01:08.610
+And once we have that we're actually going to have a div of a banner title.
+
+01:08.740 --> 01:09.250
+Right.
+
+01:09.330 --> 01:14.760
+And once we have that we're going to have a banner text which is going to be actually heading one and
+
+01:14.760 --> 01:20.400
+we're going to say banner text and this and that all here we're going to write and this is going to
+
+01:20.400 --> 01:29.240
+be web agency like this then we're going to have a div with a underline and around the line.
+
+01:29.370 --> 01:36.210
+So I'm going to say that this is going to be death of hour on the line.
+
+01:36.210 --> 01:38.160
+And over here we're just going to leave this guy empty.
+
+01:38.160 --> 01:38.430
+Right.
+
+01:38.430 --> 01:41.490
+This is going to be for our line that we're going to be creating.
+
+01:41.730 --> 01:48.600
+They're going to have a beer with a class of banner button and told them to say banner between or here
+
+01:49.190 --> 01:52.020
+or here we're going to have a few buttons right here.
+
+01:52.020 --> 01:55.920
+I'm going to say is going to be a new and pressed.
+
+01:56.150 --> 02:00.600
+No really this is going to be type button and here we're going to say bye.
+
+02:00.850 --> 02:02.570
+I'm going to say bye now.
+
+02:02.850 --> 02:06.270
+And the next one is going to be about us.
+
+02:06.430 --> 02:15.410
+So just copy this one again and this and here we're going to say this is going to be about us.
+
+02:15.540 --> 02:24.900
+So I'm going to say about us here and we're actually done with HD now and we can jump to reassess and
+
+02:24.900 --> 02:25.980
+start dialing.
+
+02:25.980 --> 02:26.560
+All right.
+
+02:26.640 --> 02:32.640
+So here's the first thing we need to do is obviously create a comment like this is going to be the banner
+
+02:32.640 --> 02:33.400
+section.
+
+02:33.600 --> 02:39.670
+So I'm going to make a hash tag and I'm going to say banner on here I'm going to also make a hash tags
+
+02:39.720 --> 02:40.330
+right.
+
+02:40.590 --> 02:47.230
+And then we're going to go here and create more way more room so we can see better what's happening.
+
+02:47.300 --> 02:51.450
+And the first thing we're going to say is going to be banner and are really going to say that this is
+
+02:51.450 --> 02:54.470
+going to be have a minimal height of 90.
+
+02:54.480 --> 02:58.670
+You whites like this 90 you.
+
+02:58.720 --> 02:59.390
+Right.
+
+02:59.580 --> 03:03.130
+So now that we have this going we would want a back rub right.
+
+03:03.130 --> 03:05.530
+And first I'm going to write that this is going to be you know.
+
+03:05.770 --> 03:10.590
+And then I'm going to say images and this is going to be background banner and background banners going
+
+03:10.590 --> 03:11.680
+to be our first one.
+
+03:11.730 --> 03:12.070
+Right.
+
+03:12.180 --> 03:16.400
+And next thing that I would want to do is actually fix this right because this wasn't about you.
+
+03:16.410 --> 03:17.800
+This was actually just regular.
+
+03:17.820 --> 03:18.290
+Right.
+
+03:18.330 --> 03:20.320
+And now we have the 90 view right.
+
+03:20.320 --> 03:21.120
+Right.
+
+03:21.150 --> 03:24.650
+Then we would want to attach a few more properties.
+
+03:24.660 --> 03:25.130
+Right.
+
+03:25.290 --> 03:31.240
+First it's going to be background judgment not blind blind mode but by growing attachment and we're
+
+03:31.240 --> 03:34.030
+going to say this is going to be fixed.
+
+03:34.090 --> 03:39.220
+I mean they're all going to have a background position so I know my ground position.
+
+03:39.370 --> 03:42.110
+I'm going to say sooner than this.
+
+03:42.280 --> 03:47.720
+We're going to have a background size same background size and we're going to take cover.
+
+03:48.240 --> 03:54.390
+And once we have a cover all in the same bag on repeat background repeat and we're going to see no repeat
+
+03:54.920 --> 04:00.680
+and then we're going to have a display flex and that's going to be actually for setting these wounds
+
+04:00.680 --> 04:01.850
+in the center.
+
+04:02.010 --> 04:03.230
+So just for now.
+
+04:03.240 --> 04:03.710
+Right.
+
+04:03.870 --> 04:07.360
+You can see that with our banner right.
+
+04:07.480 --> 04:12.020
+You can see that the background image is actually kind of a little bit light right so if I say this
+
+04:12.350 --> 04:17.820
+here if we go back over here and we refresh right you can see that eventually this is going to be a
+
+04:17.820 --> 04:23.190
+little bit too light to what we want right now or we can always do is actually create an overlay to
+
+04:23.190 --> 04:24.060
+the image right.
+
+04:24.240 --> 04:31.000
+So we go back over here which is the background and on the new line here and the near Grady That's all
+
+04:31.140 --> 04:33.970
+we're going to add something on top of actual dysrhythmia.
+
+04:34.020 --> 04:34.560
+Right.
+
+04:34.560 --> 04:36.550
+So I'm going to say this again we are G-B.
+
+04:36.920 --> 04:38.750
+And I'm just going to have a black one.
+
+04:38.770 --> 04:40.110
+So this is going to be zero.
+
+04:40.350 --> 04:43.290
+And the last one is going to be actually the opacity.
+
+04:43.380 --> 04:44.730
+How transparent this is.
+
+04:44.730 --> 04:45.240
+Right.
+
+04:45.450 --> 04:53.010
+So I'm going to grab this guy on this and just I'm going to copy this guy and place a common core here
+
+04:53.400 --> 05:00.830
+and another column or here all the way on the back or like this not see that we have this overlay.
+
+05:00.850 --> 05:01.310
+Right.
+
+05:01.450 --> 05:06.660
+So we have a nice nonaccrual overlay because we're going to be making these fonts over here.
+
+05:06.660 --> 05:07.170
+Right.
+
+05:07.690 --> 05:12.910
+So now that we're done with our actual background image we to actually get this in a center right this
+
+05:12.910 --> 05:13.550
+text.
+
+05:13.690 --> 05:17.710
+And what we're going to do is will again use a display fourplex property.
+
+05:17.800 --> 05:24.760
+So we're going to see this play the direction this play and we're going to see flex and then we're going
+
+05:24.760 --> 05:34.120
+to have a line item center line not the content items to say not baseline center center over here.
+
+05:34.120 --> 05:39.400
+Right so you can see how it moves actually vertically in the center and then we would want a justified
+
+05:39.400 --> 05:40.810
+contact center right.
+
+05:40.840 --> 05:44.840
+Just to place them actually in the actual horizontal sun.
+
+05:45.050 --> 05:46.680
+And you can see how easy it is right.
+
+05:46.690 --> 05:50.990
+Pretty much three properties right with the values and that's it.
+
+05:51.060 --> 05:56.950
+No more hacks no more floating more transform translate or anything like that.
+
+05:57.130 --> 05:59.930
+And or here we're going to send for the banner text.
+
+06:00.030 --> 06:03.080
+This is going to be the title of the page right.
+
+06:03.100 --> 06:05.760
+We're going to say font size over here.
+
+06:05.860 --> 06:08.660
+We're going to say 50 pixels high.
+
+06:08.920 --> 06:17.440
+Once we have a fixed 50 pixels we're going to say text transform text transform here and you can see
+
+06:17.440 --> 06:24.160
+that did a mistake or here actually I need to see my goal and nothing that we need to do to actually
+
+06:24.160 --> 06:25.540
+create more room.
+
+06:25.570 --> 06:28.280
+So you can see actually better what we're doing.
+
+06:28.300 --> 06:33.850
+So decks transform when we're going to say uppercase and so say purse.
+
+06:34.120 --> 06:37.330
+Then once we have the upper case we're going to we're going to need a call.
+
+06:37.570 --> 06:41.190
+So I'm going to say color and this is going to be easy.
+
+06:41.410 --> 06:43.590
+And again zero.
+
+06:43.860 --> 06:50.560
+And then we're going to have to be to d be right over here and you can see that I messed something up
+
+06:50.560 --> 06:51.980
+because it's kind of pink.
+
+06:52.060 --> 06:54.560
+What we need to do is get rid of this guy right.
+
+06:54.690 --> 06:55.330
+This a.
+
+06:55.360 --> 06:57.100
+And now we have a white font.
+
+06:57.100 --> 06:58.880
+And so now everything is working.
+
+06:59.050 --> 07:04.500
+And once we have the color we would want a font style or we're going to say Tauke.
+
+07:04.630 --> 07:10.700
+And so we're going to go here with the taluk and this is going to be it for the banner text and now
+
+07:10.700 --> 07:12.560
+we would need a banner under.
+
+07:12.570 --> 07:13.270
+All right.
+
+07:13.480 --> 07:20.890
+So we're going to say go here I'm going to say banner when I say underline on their line here and what
+
+07:20.940 --> 07:30.880
+you want to do is you want a width of a 200 pixels right here and then you'd want a border here and
+
+07:30.880 --> 07:40.130
+we're going to say this is going to be three pixels solid solid and we're going to have a 1 9 0 and
+
+07:40.210 --> 07:45.120
+this hash tag 1 9 1 7 1 6 right.
+
+07:45.190 --> 07:47.120
+So now that we have this right.
+
+07:47.250 --> 07:49.150
+So this is going to be our underline right.
+
+07:49.370 --> 07:57.280
+But we also want to add is actually a margin I'd say 10 pixels from the top then we're going to have
+
+07:57.280 --> 08:01.990
+an auto then we'll have 20 pixels to the bottom and they're also going to have auto.
+
+08:02.040 --> 08:02.530
+Right.
+
+08:02.620 --> 08:04.640
+So we're going to place it actually in the center.
+
+08:04.740 --> 08:09.310
+We're going to create a little bit more space and then we will want to start styling the actual buttons
+
+08:09.400 --> 08:09.830
+right.
+
+08:10.030 --> 08:15.220
+So here I'm going to say about an hour and between line and what I'm going to say this is going to be
+
+08:15.230 --> 08:17.970
+display flex again.
+
+08:18.010 --> 08:21.040
+Right because I want to push them away from each other.
+
+08:21.190 --> 08:26.540
+And here I'm going to say that this is going to be justified content and this is going to be space between.
+
+08:26.650 --> 08:27.010
+Right.
+
+08:27.180 --> 08:30.870
+So now I can see right away how they moved one away from the other one.
+
+08:31.090 --> 08:33.920
+And then we would want the actual style the actual button.
+
+08:34.300 --> 08:39.180
+So here I'm going to say of beat between and then it's going to be a button.
+
+08:39.640 --> 08:46.500
+And over here you're going to write font size to say 30 pixels.
+
+08:46.640 --> 08:51.540
+Then we're going to have a spring of 15 like this.
+
+08:51.550 --> 08:58.270
+We're going to have text transform and we're going to have a uppercase then we're going to say this
+
+08:58.270 --> 09:03.190
+is going to be margin 0 turn pixels like this.
+
+09:03.400 --> 09:07.070
+And we are going to have a background right here sorry.
+
+09:07.210 --> 09:09.150
+Background ground.
+
+09:09.290 --> 09:14.910
+We're going to say transparent talk and say transparent.
+
+09:15.440 --> 09:21.590
+Read like this and then we're going to have a color and the collagen is going to be on the six.
+
+09:21.610 --> 09:28.680
+He says hey they're all going to F to we have to do this.
+
+09:28.960 --> 09:35.920
+And then what we would want to do is actually have a border to have border two pixels solid and I'm
+
+09:35.940 --> 09:40.990
+going to use the same color so I can just grab this guy or here like this.
+
+09:41.260 --> 09:43.210
+I'll play this one and paste it.
+
+09:43.210 --> 09:44.100
+All right.
+
+09:44.260 --> 09:47.320
+Now there we have this one a hovering effect.
+
+09:47.320 --> 09:48.140
+Right.
+
+09:48.190 --> 09:50.800
+So we're going to grab all here this button.
+
+09:51.040 --> 09:57.510
+Copy this one and pasted and I was going to say however what happens is we're hovering.
+
+09:57.640 --> 10:03.950
+The color should be friend Cerebro I'm going to say this is going to be the zero g.
+
+10:04.300 --> 10:05.800
+And then it's going to be to D.
+
+10:05.820 --> 10:06.640
+B.
+
+10:06.850 --> 10:12.190
+And so this time I didn't mess up anything and I have a background and the background is going to be
+
+10:12.190 --> 10:14.550
+the white one right.
+
+10:14.710 --> 10:21.500
+So we're going to do is just going to copy paste and we're done.
+
+10:21.510 --> 10:22.160
+All right.
+
+10:22.180 --> 10:24.170
+So we can go here and check it out.
+
+10:24.170 --> 10:29.010
+Well we have and we can also obviously go to the big screen right fresh.
+
+10:29.080 --> 10:33.400
+And you can see that everything is working right exactly in the middle where we want to.
+
+10:33.450 --> 10:34.130
+All right.
+
+10:34.130 --> 10:36.100
+The buttons are working as we're hovering.
+
+10:36.250 --> 10:41.650
+And now we're ready to build the next section which is going to be a skills section.

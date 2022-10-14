@@ -1,0 +1,999 @@
+1
+
+00:00:00,000  -->  00:00:01,979
+Alright guys, an infinite battle when
+
+2
+
+00:00:01,979  -->  00:00:04,170
+your hit points are zero is not very fun
+
+3
+
+00:00:04,170  -->  00:00:06,629
+because you can just keep going and
+
+4
+
+00:00:06,629  -->  00:00:08,400
+there's no sense of achievement when you
+
+5
+
+00:00:08,400  -->  00:00:10,800
+finally defeat the enemy just because
+
+6
+
+00:00:10,800  -->  00:00:12,509
+your hit points have been 0 a long time
+
+7
+
+00:00:12,509  -->  00:00:15,120
+ago, and even still you're both dead and it
+
+8
+
+00:00:15,120  -->  00:00:17,160
+still goes. So, what we need to do is
+
+9
+
+00:00:17,160  -->  00:00:19,680
+determine if the battle is over. So at
+
+10
+
+00:00:19,680  -->  00:00:22,650
+the end of the while loop here, in each
+
+11
+
+00:00:22,650  -->  00:00:25,380
+iteration of the loop, we need to check
+
+12
+
+00:00:25,380  -->  00:00:29,160
+if the enemy's hit points are 0, or our hit points are
+
+13
+
+00:00:29,160  -->  00:00:31,890
+zero, and if they are we need to print
+
+14
+
+00:00:31,890  -->  00:00:33,360
+out that the battle is over, essentially.
+
+15
+
+00:00:33,360  -->  00:00:42,750
+So, if enemy get HP equals 0, going to
+
+16
+
+00:00:42,750  -->  00:00:46,800
+print out bcolors
+
+17
+
+00:00:46,800  -->  00:01:00,600
+green, it's going to be green, you win, and we need to end
+
+18
+
+00:01:00,600  -->  00:01:06,510
+the color there. We need to set running
+
+19
+
+00:01:06,510  -->  00:01:08,850
+to false.
+
+20
+
+00:01:08,850  -->  00:01:17,970
+If player HP equals 0,
+
+21
+
+00:01:17,970  -->  00:01:19,380
+we're going to print out basically that
+
+22
+
+00:01:19,380  -->  00:01:23,040
+you lost. So we're going to print that
+
+23
+
+00:01:23,040  -->  00:01:37,290
+out in fail, enemy has defeated you. There we
+
+24
+
+00:01:37,290  -->  00:01:41,579
+go and in that color as well, and we're
+
+25
+
+00:01:41,579  -->  00:01:45,899
+also going to set running equal = false.
+
+26
+
+00:01:45,899  -->  00:01:48,210
+Now what we get as you can imagine if we
+
+27
+
+00:01:48,210  -->  00:01:50,100
+run the script we are allowed to attack,
+
+28
+
+00:01:50,100  -->  00:01:52,140
+and they attack us, so we're just going
+
+29
+
+00:01:52,140  -->  00:01:55,680
+to keep going, and at some point enemy
+
+30
+
+00:01:55,680  -->  00:01:59,100
+has defeated us, that's very unfortunate.
+
+31
+
+00:01:59,100  -->  00:02:02,040
+Now, what we can do to actually defeat
+
+32
+
+00:02:02,040  -->  00:02:04,530
+the enemy is adding some more options like the
+
+33
+
+00:02:04,530  -->  00:02:06,899
+ability to heal and use magic, and the
+
+34
+
+00:02:06,899  -->  00:02:09,399
+magic is going to do a bit more damage
+
+35
+
+00:02:09,399  -->  00:02:11,769
+then our attack. Let's make it do more
+
+36
+
+00:02:11,769  -->  00:02:20,980
+damage actually. So, what I'm going to do is up here going to
+
+37
+
+00:02:20,980  -->  00:02:23,980
+add a 1. Let's make that
+
+38
+
+00:02:23,980  -->  00:02:33,189
+100, 100 and 124. So, now we need a
+
+39
+
+00:02:33,189  -->  00:02:39,849
+way to choose the magic, and this is
+
+40
+
+00:02:39,849  -->  00:02:41,440
+going to come down to in this if
+
+41
+
+00:02:41,440  -->  00:02:44,530
+statement if index is 0 obviously we want
+
+42
+
+00:02:44,530  -->  00:02:46,900
+to attack,
+
+43
+
+00:02:46,900  -->  00:02:50,560
+if lf index equals one we're going to be
+
+44
+
+00:02:50,560  -->  00:02:52,030
+using magic.
+
+45
+
+00:02:52,030  -->  00:02:54,790
+So what we need to do is basically just
+
+46
+
+00:02:54,790  -->  00:02:56,709
+allow the player to choose magic and
+
+47
+
+00:02:56,709  -->  00:02:58,689
+then generate the spell damage and then
+
+48
+
+00:02:58,689  -->  00:03:02,319
+attack the enemy, and that's basically
+
+49
+
+00:03:02,319  -->  00:03:04,720
+going to take the same flow as here. So,
+
+50
+
+00:03:04,720  -->  00:03:10,569
+magic damage is going to be equal to player generate
+
+51
+
+00:03:10,569  -->  00:03:15,459
+spell damage for, we haven't even
+
+52
+
+00:03:15,459  -->  00:03:19,750
+chosen the magic yet. So, let's go ahead
+
+53
+
+00:03:19,750  -->  00:03:26,109
+and player choose magic, and then we need
+
+54
+
+00:03:26,109  -->  00:03:32,109
+to capture their input so magic choice
+
+55
+
+00:03:32,109  -->  00:03:35,440
+will be equal to input.
+
+56
+
+00:03:35,440  -->  00:03:38,470
+Actually, let's do it this way.
+
+57
+
+00:03:38,470  -->  00:03:48,519
+Ok, so, choose magic.
+
+58
+
+00:03:48,519  -->  00:03:52,629
+However, what we're going to do is we're
+
+59
+
+00:03:52,629  -->  00:03:54,549
+not going to do the same thing we did up
+
+60
+
+00:03:54,549  -->  00:03:56,379
+here where we separated it into two
+
+61
+
+00:03:56,379  -->  00:03:58,479
+variables to be able to reduce the
+
+62
+
+00:03:58,479  -->  00:04:01,269
+number of the input by one, what we're
+
+63
+
+00:04:01,269  -->  00:04:02,470
+going to do is we're going to do that
+
+64
+
+00:04:02,470  -->  00:04:04,750
+all in one line. So how we're going to do
+
+65
+
+00:04:04,750  -->  00:04:07,659
+that is we're going to wrap the input in
+
+66
+
+00:04:07,659  -->  00:04:10,329
+int right off the bat and then reduce it
+
+67
+
+00:04:10,329  -->  00:04:15,530
+by one, so we can pass that right through.
+
+68
+
+00:04:15,530  -->  00:04:21,200
+So this is going to generate the spell
+
+69
+
+00:04:21,200  -->  00:04:23,240
+damage and as you can see what it's
+
+70
+
+00:04:23,240  -->  00:04:24,980
+going to do we're passing in the number,
+
+71
+
+00:04:24,980  -->  00:04:28,220
+it's going to get that index of the list
+
+72
+
+00:04:28,220  -->  00:04:30,919
+of magic, and it's gonna get the damage
+
+73
+
+00:04:30,919  -->  00:04:33,200
+then you know choose a random between
+
+74
+
+00:04:33,200  -->  00:04:34,880
+magic lower magic and high which is going to
+
+75
+
+00:04:34,880  -->  00:04:37,700
+be -+ 5.
+
+76
+
+00:04:37,700  -->  00:04:41,330
+So, after we've generated the spell
+
+77
+
+00:04:41,330  -->  00:04:45,860
+damage we need to also reduce the magic
+
+78
+
+00:04:45,860  -->  00:04:51,620
+points by the cost of that spell. So, I'm
+
+79
+
+00:04:51,620  -->  00:04:59,240
+gonna set spell equal to player get
+
+80
+
+00:04:59,240  -->  00:05:06,290
+spell name, my magic choice, and then also
+
+81
+
+00:05:06,290  -->  00:05:11,210
+the cost is going to be player get spell
+
+82
+
+00:05:11,210  -->  00:05:15,500
+and np cost. I'm also going to pass in magic
+
+83
+
+00:05:15,500  -->  00:05:19,040
+choice so that we can get basically each
+
+84
+
+00:05:19,040  -->  00:05:21,440
+thing we need from the spell right here,
+
+85
+
+00:05:21,440  -->  00:05:26,270
+and then we're going to get the current
+
+86
+
+00:05:26,270  -->  00:05:41,539
+magic points of the player. So, get MP. So,
+
+87
+
+00:05:41,539  -->  00:05:44,030
+if we have enough magic points we want
+
+88
+
+00:05:44,030  -->  00:05:46,910
+to successfully cast the spell, otherwise we
+
+89
+
+00:05:46,910  -->  00:05:50,030
+want to say you can't do this.
+
+90
+
+00:05:50,030  -->  00:05:56,630
+So, what we're going to do is if cost is
+
+91
+
+00:05:56,630  -->  00:06:05,930
+more than the current MP, we need to
+
+92
+
+00:06:05,930  -->  00:06:08,240
+basically say you don't have enough MP.
+
+93
+
+00:06:08,240  -->  00:06:18,140
+So, print out bcolors, fail, we're
+
+94
+
+00:06:18,140  -->  00:06:22,220
+going to skip a line say
+
+95
+
+00:06:22,220  -->  00:06:31,100
+not enough MP, then bcolors, end color.
+
+96
+
+00:06:31,100  -->  00:06:34,310
+Now what we need to do at this point is
+
+97
+
+00:06:34,310  -->  00:06:37,760
+we need to skip back to the beginning,
+
+98
+
+00:06:37,760  -->  00:06:39,290
+well actually for right now
+
+99
+
+00:06:39,290  -->  00:06:43,340
+they're just going to miss their turn, so
+
+100
+
+00:06:43,340  -->  00:06:54,620
+otherwise they're actually going to we
+
+101
+
+00:06:54,620  -->  00:06:56,780
+need a way to restart that. We will come
+
+102
+
+00:06:56,780  -->  00:06:59,360
+back to this in the next video. What
+
+103
+
+00:06:59,360  -->  00:07:00,380
+we're going to do right now is we're
+
+104
+
+00:07:00,380  -->  00:07:02,330
+just going to continue along and we're
+
+105
+
+00:07:02,330  -->  00:07:04,520
+going to reduce the MP cost if they're
+
+106
+
+00:07:04,520  -->  00:07:09,830
+able to, so player reduce MP and it's
+
+107
+
+00:07:09,830  -->  00:07:14,750
+going to reduce it by cost. Then we're
+
+108
+
+00:07:14,750  -->  00:07:19,370
+going to generate the magic damage. It's
+
+109
+
+00:07:19,370  -->  00:07:21,110
+going to be equal to...
+
+110
+
+00:07:21,110  -->  00:07:28,400
+we've already generated the spell damage
+
+111
+
+00:07:28,400  -->  00:07:32,270
+damage right there. Okay, cool. So we
+
+112
+
+00:07:32,270  -->  00:07:34,370
+don't need to generate that here,
+
+113
+
+00:07:34,370  -->  00:07:37,490
+got a little mixed up there. What
+
+114
+
+00:07:37,490  -->  00:07:39,890
+we're going to do is we're going to tell
+
+115
+
+00:07:39,890  -->  00:07:44,840
+the enemy to take the damage, and the
+
+116
+
+00:07:44,840  -->  00:07:47,120
+damage that they're going to take is the
+
+117
+
+00:07:47,120  -->  00:07:52,700
+magic damage. Then we're going to print
+
+118
+
+00:07:52,700  -->  00:07:55,970
+out that the magic spell deals x amount of
+
+119
+
+00:07:55,970  -->  00:07:59,419
+damage. So, print and for this we're going
+
+120
+
+00:07:59,419  -->  00:08:07,130
+to be using the okay blue color. So, let's
+
+121
+
+00:08:07,130  -->  00:08:21,280
+print out a line break, spell name, deals
+
+122
+
+00:08:21,280  -->  00:08:25,600
+going to use a comma here, convert this
+
+123
+
+00:08:25,600  -->  00:08:32,830
+to a string, magic damage, another comma,
+
+124
+
+00:08:32,830  -->  00:08:41,349
+points of damage. Then we're going to end
+
+125
+
+00:08:41,349  -->  00:08:52,330
+that and we need to then print out the
+
+126
+
+00:08:52,330  -->  00:09:01,450
+enemies current hit points. Actually, let's
+
+127
+
+00:09:01,450  -->  00:09:06,640
+at the end of the statement we're going
+
+128
+
+00:09:06,640  -->  00:09:09,310
+to print out everybody's hit points just to
+
+129
+
+00:09:09,310  -->  00:09:11,050
+make it a bit cleaner here,
+
+130
+
+00:09:11,050  -->  00:09:13,839
+so where is player hit points as well.
+
+131
+
+00:09:13,839  -->  00:09:19,120
+Alright, so down here we're actually going to
+
+132
+
+00:09:19,120  -->  00:09:22,510
+go ahead and print out the hit points,
+
+133
+
+00:09:22,510  -->  00:09:24,970
+your magic points, and the enemy hit points. So,
+
+134
+
+00:09:24,970  -->  00:09:30,190
+in order to separate that from the rest
+
+135
+
+00:09:30,190  -->  00:09:31,480
+of the turn
+
+136
+
+00:09:31,480  -->  00:09:33,160
+we're going to put a single line here.
+
+137
+
+00:09:33,160  -->  00:09:45,700
+Enemy's hit points are three colors
+
+138
+
+00:09:45,700  -->  00:09:55,200
+let's make that fail so it's red,
+
+139
+
+00:09:55,200  -->  00:10:02,040
+HP I'm going to put a slash here so the current HP
+
+140
+
+00:10:02,040  -->  00:10:13,710
+out of enemy get max HP, and then we
+
+141
+
+00:10:13,710  -->  00:10:27,780
+need to end the color. So and we're also
+
+142
+
+00:10:27,780  -->  00:10:29,790
+going to do a line break there because
+
+143
+
+00:10:29,790  -->  00:10:30,930
+we're going to print out your
+
+144
+
+00:10:30,930  -->  00:10:39,030
+information next. So, print your hit points
+
+145
+
+00:10:39,030  -->  00:10:43,290
+equal to bcolors,
+
+146
+
+00:10:43,290  -->  00:10:53,340
+ok green so just convert to a string, player
+
+147
+
+00:10:53,340  -->  00:11:06,120
+get HP out of player get max HP, and then
+
+148
+
+00:11:06,120  -->  00:11:12,750
+we're going to end that color. And then
+
+149
+
+00:11:12,750  -->  00:11:13,890
+you need to print out your magic points
+
+150
+
+00:11:13,890  -->  00:11:16,260
+because we have begun to use magic now
+
+151
+
+00:11:16,260  -->  00:11:18,210
+and so your magic points are going to
+
+152
+
+00:11:18,210  -->  00:11:19,710
+reduce, and it's helpful to know what
+
+153
+
+00:11:19,710  -->  00:11:27,090
+your magic points are. So, your MP is
+
+154
+
+00:11:27,090  -->  00:11:29,580
+going to be equal to bcolors,
+
+155
+
+00:11:29,580  -->  00:11:34,770
+okay blue, convert this to a string player
+
+156
+
+00:11:34,770  -->  00:11:47,790
+get MP out of
+
+157
+
+00:11:47,790  -->  00:11:55,200
+get max MP, and then we're going
+
+158
+
+00:11:55,200  -->  00:12:00,330
+to end that as well and then skip a line
+
+159
+
+00:12:00,330  -->  00:12:04,470
+because we're all done here. So, we did a
+
+160
+
+00:12:04,470  -->  00:12:07,230
+lot here so let's go ahead and run this
+
+161
+
+00:12:07,230  -->  00:12:08,820
+and see what happens.
+
+162
+
+00:12:08,820  -->  00:12:14,340
+So we can choose to attack and we get a
+
+163
+
+00:12:14,340  -->  00:12:19,740
+problem there because we did not add the
+
+164
+
+00:12:19,740  -->  00:12:22,770
+parentheses after the get HP I think
+
+165
+
+00:12:22,770  -->  00:12:24,120
+that's the only problem there, let's start
+
+166
+
+00:12:24,120  -->  00:12:27,000
+again. So we have attacked and as you can
+
+167
+
+00:12:27,000  -->  00:12:30,150
+see now we actually have the actions
+
+168
+
+00:12:30,150  -->  00:12:33,870
+being printed out, and then the stats
+
+169
+
+00:12:33,870  -->  00:12:35,760
+being printed out, and then the next term
+
+170
+
+00:12:35,760  -->  00:12:36,240
+again.
+
+171
+
+00:12:36,240  -->  00:12:39,090
+So if we continue doing that let's
+
+172
+
+00:12:39,090  -->  00:12:43,230
+choose magic. So now if we choose magic
+
+173
+
+00:12:43,230  -->  00:12:46,470
+let's go ahead and choose thunder. As you
+
+174
+
+00:12:46,470  -->  00:12:48,000
+can see thunder deals a 120
+
+175
+
+00:12:48,000  -->  00:12:49,380
+points of damage
+
+176
+
+00:12:49,380  -->  00:12:51,930
+so now things are looking a bit better.
+
+177
+
+00:12:51,930  -->  00:12:54,540
+We can then go ahead and choose thunder again,
+
+178
+
+00:12:54,540  -->  00:13:01,260
+we've got 41 magic points, some fire, there we go.
+
+179
+
+00:13:01,260  -->  00:13:03,210
+We're definitely going to lose
+
+180
+
+00:13:03,210  -->  00:13:11,820
+still, although we're striking for a lot
+
+181
+
+00:13:11,820  -->  00:13:13,590
+more damage right now than the enemy is.
+
+182
+
+00:13:13,590  -->  00:13:16,410
+If I had not started at...I don't have
+
+183
+
+00:13:16,410  -->  00:13:25,200
+enough MP. Oh, yeah, that works. Okay, hold on
+
+184
+
+00:13:25,200  -->  00:13:27,540
+look up here. So basically what
+
+185
+
+00:13:27,540  -->  00:13:31,650
+happens is if you don't have enough
+
+186
+
+00:13:31,650  -->  00:13:33,600
+magic points by putting continue here, I
+
+187
+
+00:13:33,600  -->  00:13:36,330
+totally missed this, by putting continue
+
+188
+
+00:13:36,330  -->  00:13:38,520
+here it we don't miss the turn the enemy
+
+189
+
+00:13:38,520  -->  00:13:40,380
+doesn't attack us and stuff because it
+
+190
+
+00:13:40,380  -->  00:13:41,730
+just skips back to the next iteration
+
+191
+
+00:13:41,730  -->  00:13:44,010
+which allows us to choose our action
+
+192
+
+00:13:44,010  -->  00:13:45,240
+against so we can then choose attack
+
+193
+
+00:13:45,240  -->  00:13:49,020
+instead of magic.
+
+194
+
+00:13:49,020  -->  00:13:50,520
+Let's go ahead and lose this battle,
+
+195
+
+00:13:50,520  -->  00:13:53,970
+enemy has defeated us, and the problem
+
+196
+
+00:13:53,970  -->  00:13:56,160
+here is that we don't have a way to heal.
+
+197
+
+00:13:56,160  -->  00:13:58,620
+And so what we need to do, we're going to
+
+198
+
+00:13:58,620  -->  00:13:59,080
+be doing
+
+199
+
+00:13:59,080  -->  00:14:00,790
+the next video, but we're going to add a
+
+200
+
+00:14:00,790  -->  00:14:06,720
+way to heal.

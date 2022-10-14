@@ -1,0 +1,344 @@
+1
+
+00:00:00,000  -->  00:00:02,300
+Hey guys, welcome back. I'm going to style
+
+2
+
+00:00:02,310  -->  00:00:04,309
+the app up a little bit to make it look
+
+3
+
+00:00:04,319  -->  00:00:06,470
+less basic and simple for the rest of
+
+4
+
+00:00:06,480  -->  00:00:09,200
+this section of videos, but before I do that
+
+5
+
+00:00:09,210  -->  00:00:11,390
+I want to allow you guys to do the same,
+
+6
+
+00:00:11,400  -->  00:00:13,490
+so I'm own going to explain the concept of
+
+7
+
+00:00:13,500  -->  00:00:17,630
+static files in Django. So with Django as you
+
+8
+
+00:00:17,640  -->  00:00:19,279
+can see most of the files we've created
+
+9
+
+00:00:19,289  -->  00:00:21,980
+so far have been loaded through Python
+
+10
+
+00:00:21,990  -->  00:00:24,740
+and served through Python and we
+
+11
+
+00:00:24,750  -->  00:00:26,000
+actually can't link to any of these
+
+12
+
+00:00:26,010  -->  00:00:29,029
+files just by putting a link into the
+
+13
+
+00:00:29,039  -->  00:00:32,299
+template files. What we need to do if we
+
+14
+
+00:00:32,309  -->  00:00:35,900
+want to load say a custom style sheet is
+
+15
+
+00:00:35,910  -->  00:00:38,600
+we need to use the static files directive,
+
+16
+
+00:00:38,610  -->  00:00:41,720
+and so how we do that is basically just
+
+17
+
+00:00:41,730  -->  00:00:43,790
+in the settings file here make sure that
+
+18
+
+00:00:43,800  -->  00:00:45,020
+at the bottom of your file you have a
+
+19
+
+00:00:45,030  -->  00:00:49,819
+static URL constant set to this '/static/'
+
+20
+
+00:00:49,829  -->  00:00:51,770
+and then what we're going to do is that
+
+21
+
+00:00:51,780  -->  00:00:57,139
+relates to our...to each app. So what we're
+
+22
+
+00:00:57,149  -->  00:00:59,000
+going to do is in the blog here we're
+
+23
+
+00:00:59,010  -->  00:01:00,860
+going to create a new directory called
+
+24
+
+00:01:00,870  -->  00:01:06,109
+static, and then in that static directory
+
+25
+
+00:01:06,119  -->  00:01:07,190
+i'm going to create a new directory
+
+26
+
+00:01:07,200  -->  00:01:12,350
+called css, and then in the css directory
+
+27
+
+00:01:12,360  -->  00:01:14,090
+i'm going to create a new style sheet
+
+28
+
+00:01:14,100  -->  00:01:18,080
+and i'm going to call it style.css. Now
+
+29
+
+00:01:18,090  -->  00:01:19,700
+in here just to make sure it works i'm
+
+30
+
+00:01:19,710  -->  00:01:21,469
+going to change the background of the
+
+31
+
+00:01:21,479  -->  00:01:26,570
+body to an ungodly color of bright red "body {background:#f00;}"
+
+32
+
+00:01:26,580  -->  00:01:30,289
+and to make sure that bootstrap doesn't
+
+33
+
+00:01:30,299  -->  00:01:32,300
+override this going to add the "!important"
+
+34
+
+00:01:32,310  -->  00:01:35,480
+flag here and this is going to make this
+
+35
+
+00:01:35,490  -->  00:01:39,080
+always no matter how much specificity is
+
+36
+
+00:01:39,090  -->  00:01:42,289
+involved in another CSS style
+
+37
+
+00:01:42,299  -->  00:01:44,960
+this is not going to be overridden by
+
+38
+
+00:01:44,970  -->  00:01:48,260
+any of those. Now what we're going to
+
+39
+
+00:01:48,270  -->  00:01:52,910
+have to do is in the index file here, and
+
+40
+
+00:01:52,920  -->  00:01:54,679
+drop down a few lines here, and i'm going
+
+41
+
+00:01:54,689  -->  00:01:59,450
+to open up some ah so curly brackets and
+
+42
+
+00:01:59,460  -->  00:02:01,639
+percent symbols here i'm going to
+
+43
+
+00:02:01,649  -->  00:02:04,609
+call this tag from now on, that's what this is.
+
+44
+
+00:02:04,619  -->  00:02:07,819
+So this allows us to enter Python code in
+
+45
+
+00:02:07,829  -->  00:02:10,160
+Django code, so what I'm going to do is
+
+46
+
+00:02:10,170  -->  00:02:11,770
+"{% load static %}"
+
+47
+
+00:02:11,780  -->  00:02:15,280
+and then underneath that i'm going
+
+48
+
+00:02:15,290  -->  00:02:20,380
+to add &lt;link rel="stylesheet"
+
+49
+
+00:02:20,390  -->  00:02:25,660
+type="text/css and the
+
+50
+
+00:02:25,670  -->  00:02:33,130
+href="{% static %}"
+
+51
+
+00:02:33,140  -->  00:02:36,790
+and then in
+
+52
+
+00:02:36,800  -->  00:02:41,110
+single quotes in here write 'css/style.css'
+
+53
+
+00:02:41,120  -->  00:02:47,949
+and then save it, rerun the
+
+54
+
+00:02:47,959  -->  00:02:51,220
+application, and if we refresh the page
+
+55
+
+00:02:51,230  -->  00:02:54,040
+you'll see that this actually did work.
+
+56
+
+00:02:54,050  -->  00:03:02,350
+Now, it looks like this has caused the
+
+57
+
+00:03:02,360  -->  00:03:05,410
+bootstrap link to not work, so let me have a
+
+58
+
+00:03:05,420  -->  00:03:08,140
+look there. We forgot to close it,
+
+59
+
+00:03:08,150  -->  00:03:12,070
+there we go. So let's close that, refresh
+
+60
+
+00:03:12,080  -->  00:03:15,400
+our application, and you'll see that now
+
+61
+
+00:03:15,410  -->  00:03:18,250
+bootstrap and our custom CSS is working
+
+62
+
+00:03:18,260  -->  00:03:20,199
+and it looks really terrible, so I'm
+
+63
+
+00:03:20,209  -->  00:03:22,750
+going to end that here. In the next video
+
+64
+
+00:03:22,760  -->  00:03:24,400
+you'll see this a little more styled and
+
+65
+
+00:03:24,410  -->  00:03:26,259
+structured, and it will look more like a
+
+66
+
+00:03:26,269  -->  00:03:28,360
+website. If you guys want to do that feel
+
+67
+
+00:03:28,370  -->  00:03:30,759
+free, it's going to make things easier to
+
+68
+
+00:03:30,769  -->  00:03:33,280
+navigate in the future doing this
+
+69
+
+00:03:33,290  -->  00:03:40,090
+specific section of the course.

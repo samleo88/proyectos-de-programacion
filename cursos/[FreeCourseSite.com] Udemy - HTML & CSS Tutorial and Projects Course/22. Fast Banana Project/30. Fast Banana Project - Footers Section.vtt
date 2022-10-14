@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.160 --> 00:04.290
+And the last section is going to be working on is going to be out here just for our section.
+
+00:04.320 --> 00:06.870
+So let's go back to next issue here.
+
+00:06.870 --> 00:08.380
+Now we can close the script.
+
+00:08.390 --> 00:10.250
+We're not going to be using this one anymore.
+
+00:10.680 --> 00:18.000
+And if we're going end of quote here now we would want a footer section and so we're going to have a
+
+00:18.000 --> 00:19.050
+footer.
+
+00:19.050 --> 00:24.130
+Select the line copy paste the line and you can see I didn't do it.
+
+00:24.240 --> 00:27.030
+So I'm going to say end of four.
+
+00:27.390 --> 00:35.300
+Then after that what you want is a form for a whole element for no real going to see any footer.
+
+00:35.320 --> 00:42.860
+All right press tab now we have idea for and over here what we would want is actual section.
+
+00:42.860 --> 00:43.310
+Right.
+
+00:43.560 --> 00:48.840
+And are you going to say that this is going to be for the info section and then we're going to have
+
+00:48.870 --> 00:50.750
+a footer maps section right.
+
+00:50.820 --> 00:53.780
+So we're going to have a main one as a.
+
+00:54.190 --> 01:04.800
+And over here we're going to have a section section or here and this can be hash tag for info info here.
+
+01:05.010 --> 01:08.260
+And then we're going to press tab and then the next one.
+
+01:08.280 --> 01:09.470
+Copy and paste.
+
+01:09.480 --> 01:12.310
+Second line is going to be for a map right here.
+
+01:12.330 --> 01:18.180
+We're going to place our I-frame with a Google Maps and all we're here with we're going to do is we're
+
+01:18.180 --> 01:20.540
+going to have a fall.
+
+01:20.580 --> 01:21.370
+I don't.
+
+01:21.620 --> 01:21.820
+Right.
+
+01:21.830 --> 01:24.840
+So first we're going to have in-focus center.
+
+01:24.990 --> 01:30.670
+So Dave with the class of info center center or here.
+
+01:30.840 --> 01:34.750
+And then this is going to be a parent element for all of them.
+
+01:35.060 --> 01:39.260
+No we're here we're going to have a div of info.
+
+01:39.270 --> 01:48.940
+I have them in full and I'm right and within the info item we're going to have a font or some just is
+
+01:48.940 --> 01:57.630
+going to be a I f a f hey check here press tab and then we're going to have a paragraph.
+
+01:57.680 --> 02:01.510
+So we're all going to have a paragraph and not say we're going to have like 10 words.
+
+02:01.510 --> 02:02.090
+All right.
+
+02:02.140 --> 02:08.950
+So Lorem turn right and you can see that it didn't work out nicely because what we would want actually
+
+02:09.050 --> 02:09.970
+written like this.
+
+02:09.980 --> 02:13.720
+Right so we're going to place this in the curly brackets.
+
+02:13.720 --> 02:17.870
+Press time now we would want a more a more here.
+
+02:17.890 --> 02:18.740
+Right.
+
+02:18.860 --> 02:21.800
+And basically you would need three of them.
+
+02:22.030 --> 02:22.560
+Right.
+
+02:22.570 --> 02:23.590
+So three more.
+
+02:23.830 --> 02:27.060
+So we're going to see where this one ends select.
+
+02:27.080 --> 02:30.090
+Or here again this Dave.
+
+02:30.230 --> 02:30.490
+Right.
+
+02:30.490 --> 02:36.250
+So now we can see that I went one too far on here and one two three.
+
+02:36.250 --> 02:39.320
+All right so now we have four total.
+
+02:39.330 --> 02:41.700
+No you would want a map.
+
+02:41.700 --> 02:46.780
+All right so the I-frame map over here and the way we're going to do this.
+
+02:47.000 --> 02:53.600
+Want to go back over here and we're going to say this is going to be Google Maps.
+
+02:54.220 --> 02:59.640
+Then we're going to go to Google Maps or we're going to say New York.
+
+02:59.660 --> 02:59.920
+All right.
+
+02:59.920 --> 03:08.200
+So we're going to say New York then other ones we have in New York are going to share the same bed map
+
+03:09.080 --> 03:09.550
+here.
+
+03:09.580 --> 03:14.050
+Copy and paste this can cause this one out and on here.
+
+03:14.050 --> 03:16.160
+Copy and paste this here.
+
+03:16.220 --> 03:17.350
+The with right away.
+
+03:17.350 --> 03:26.220
+Let's set it two hundred pixels so it is 100 percent the height and say do what 350.
+
+03:26.460 --> 03:26.740
+All right.
+
+03:26.740 --> 03:34.780
+We don't need to over exaggerate so then we can say this and then we're going to go to see SS and we
+
+03:34.780 --> 03:40.370
+just need to Styler it so Mame's U.S.S.R. here and all the way in the bottom.
+
+03:40.390 --> 03:42.200
+This is going to be our footer.
+
+03:42.400 --> 03:55.010
+So we're here doing this hashtags footer snag here and let's do our work and we're here to first things
+
+03:55.010 --> 03:55.400
+first.
+
+03:55.400 --> 03:57.470
+We're going to have a footer.
+
+03:57.660 --> 04:08.910
+So the whole footer say hash tag footer and railgun say padding 40 pixels or the pixels 0 here then
+
+04:08.940 --> 04:12.500
+we're going to have a min height of let's say 60 view right.
+
+04:14.040 --> 04:21.540
+This right then we have a background Macron that's going to be hash tags 0 0 8.
+
+04:21.810 --> 04:24.710
+And then we'll have a seven each one.
+
+04:24.710 --> 04:25.040
+All right.
+
+04:25.050 --> 04:25.810
+Think this right.
+
+04:25.840 --> 04:30.980
+So this is going to be the background then for both of the classes right.
+
+04:31.230 --> 04:39.270
+So I'm going to say in full center and that's the one that's parent element all three of them here.
+
+04:39.470 --> 04:42.340
+And also to a I-frame.
+
+04:42.560 --> 04:52.340
+So I'm going to say I am realizing this we would want with to be 90 percent 90 percent over here and
+
+04:52.660 --> 04:58.710
+margin 40 pixels top bottom and auto.
+
+04:58.880 --> 05:06.670
+Once we have that the next thing that I would want to work is with an eye frame frame here and I'm going
+
+05:06.670 --> 05:14.620
+to say the display block I realized this right now I can see the display as Mark and border a radius
+
+05:14.620 --> 05:15.690
+20 pixels right.
+
+05:15.730 --> 05:21.950
+So around the edges or here then we would want a class of info item.
+
+05:21.960 --> 05:28.160
+All right so now we're talking about the parent that holds the font or someone on here and this text.
+
+05:28.270 --> 05:36.910
+So I'm going to say or here we would want a full and I'm this.
+
+05:37.180 --> 05:40.160
+And here you would want to say display.
+
+05:40.190 --> 05:47.740
+I don't want to say flex this margin 10 pixels and zero at all here.
+
+05:47.740 --> 05:51.390
+So basically what we're getting is these 10 pixels in between.
+
+05:51.910 --> 05:53.950
+And then we would want to work with actual font.
+
+05:54.060 --> 06:05.710
+So we're going to say in full I I'm a 4 here and I'm going to say font size 30 pixels like this color.
+
+06:06.120 --> 06:18.000
+When I told them to say hash tag FFC 9 1 for this then we'll have a pairing of 10 pixels here and background
+
+06:18.090 --> 06:22.330
+is going to be hashtag 1 9 1 9 1 9.
+
+06:22.770 --> 06:23.030
+All right.
+
+06:23.040 --> 06:26.790
+So this is I was going to look like we're going to do a little margin right.
+
+06:26.800 --> 06:29.420
+So we're going to send margin right.
+
+06:29.520 --> 06:33.720
+And we're going to save 15 pixels on this.
+
+06:34.080 --> 06:40.250
+Then when we're done with this now we would want a responsive screen.
+
+06:40.380 --> 06:47.970
+And so once the screen changes we will want to make for a response of how do we do that media screen
+
+06:49.150 --> 06:50.180
+here.
+
+06:50.380 --> 07:00.480
+And and right now we're men with here and they're all going to say that this is going to be a 7 7 6
+
+07:00.480 --> 07:03.090
+pixels like this.
+
+07:03.150 --> 07:12.300
+Then after that we would want a hash tag for or here who would want first to display flex.
+
+07:12.340 --> 07:15.920
+So once it's going to be a bigger screen this is going to be a display of flux.
+
+07:15.940 --> 07:16.960
+So let's check it out.
+
+07:16.970 --> 07:26.190
+It looks like fresh right now I can see that our map is on here and this is going to be on display for.
+
+07:26.890 --> 07:32.430
+Then the next thing that we would want over here is fuller and phone for that price.
+
+07:32.440 --> 07:37.810
+So we're going to say we're here for info karma.
+
+07:38.050 --> 07:41.700
+Time for our map here.
+
+07:41.770 --> 07:47.030
+I want to say flex 0 0 50 percent.
+
+07:47.170 --> 07:51.500
+So both of them spanning 50 percent or less.
+
+07:51.570 --> 07:54.530
+Now you can see this is how they're going to look like.
+
+07:54.530 --> 07:59.750
+Now what I would want over is for info we would want this to place obviously in the center.
+
+08:00.190 --> 08:10.160
+So we're going to go back over here and we're going to say for info on here I'm going to say play flex
+
+08:10.670 --> 08:11.950
+first right.
+
+08:11.970 --> 08:21.420
+And then we'll have a line item center because you can see or hear right for the info center right.
+
+08:21.890 --> 08:27.950
+You can see or hear foot or info is apparent for info center our interest in that is just holds all
+
+08:27.950 --> 08:31.220
+three of them right but by its own it's actually a single item.
+
+08:31.430 --> 08:34.200
+All right so once we're styling This is a flex.
+
+08:34.200 --> 08:37.110
+We're only working with all of them as one.
+
+08:37.130 --> 08:39.070
+Right because we have this info center.
+
+08:39.550 --> 08:45.950
+So here you can see we have the supply flex and the next thing that I would want to do is actually have
+
+08:46.020 --> 08:50.620
+aligned items center like this.
+
+08:50.630 --> 08:56.810
+All right so we have a line on center go back and I can see that actually side by side.
+
+08:57.090 --> 08:59.800
+And now let's go back to the top.
+
+08:59.990 --> 09:03.540
+Let's actually look what we have right.
+
+09:03.770 --> 09:06.630
+So first we had a nav bar.
+
+09:06.740 --> 09:12.770
+Then we had a banner over here with the buttons were as we scrolling you can see that this is actually
+
+09:12.770 --> 09:16.140
+going to be a fixed position.
+
+09:16.160 --> 09:18.300
+All right so you can see it doesn't matter where I go.
+
+09:18.300 --> 09:18.940
+All right.
+
+09:18.950 --> 09:21.230
+This is going to be still following me around.
+
+09:21.260 --> 09:28.370
+We can still click it over here and this is still a smooth scrolling right so ASM scrolling you can
+
+09:28.370 --> 09:30.520
+see that I'm on up and down.
+
+09:30.520 --> 09:31.040
+All right.
+
+09:31.190 --> 09:35.740
+Then after that we have this little section on here with the phone Possum's.
+
+09:35.920 --> 09:38.010
+Then we have the skills section.
+
+09:38.150 --> 09:44.420
+Then after that we had a subscribe section and honestly everything is responsive right because we're
+
+09:44.420 --> 09:46.850
+using flex and grid for this.
+
+09:46.930 --> 09:55.340
+And after that we had a war here this filtering section right where we have the actual Jake wari plug
+
+09:55.340 --> 09:57.230
+in that we were using.
+
+09:57.280 --> 09:57.900
+Right.
+
+09:58.070 --> 10:04.660
+Basically we can filter the images I suppose and then over here this was a accordion.
+
+10:04.760 --> 10:13.460
+Then over here we had a current project where we are actually using a magnifica pop up like this.
+
+10:13.460 --> 10:18.540
+Then after that we had a numbers count section.
+
+10:18.550 --> 10:26.050
+Some basically where we have a number that are counting and we have a meet our team section like this
+
+10:26.530 --> 10:29.130
+and this is going to be the progress bar section.
+
+10:29.490 --> 10:37.190
+Then over here this is going to be amazing prices section here and then we have the our carousel here
+
+10:37.220 --> 10:39.780
+which is a responsive carousel.
+
+10:39.830 --> 10:41.240
+Marion this is going to be our last.
+
+10:41.240 --> 10:43.390
+This is going to be an intersection.
+
+10:43.460 --> 10:45.380
+This is going to be it for this project.
+
+10:45.470 --> 10:47.320
+And I hope to see you on my next project.

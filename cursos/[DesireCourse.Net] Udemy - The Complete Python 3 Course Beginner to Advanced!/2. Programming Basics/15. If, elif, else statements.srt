@@ -1,0 +1,191 @@
+1
+00:00:01,290 --> 00:00:05,280
+Muy bien chicos ahora vamos a aprender sobre algunas declaraciones condicionales en Python.
+
+2
+00:00:05,490 --> 00:00:08,020
+Así que vamos a aprender sobre la declaración if else.
+
+3
+00:00:08,190 --> 00:00:14,730
+Y esto básicamente proporciona una forma de evaluar si algo es verdadero o falso o si algo es algo o
+
+4
+00:00:14,730 --> 00:00:19,170
+no es algo y hacer algo diferente según la condición que sea verdadera.
+
+5
+00:00:19,170 --> 00:00:27,570
+Entonces continuemos y establezcamos un cheque en falso.
+
+6
+00:00:27,730 --> 00:00:38,560
+Y lo que vamos a hacer con eso es que vamos a decir si el control es igual
+
+7
+00:00:42,370 --> 00:00:45,760
+a falso afirma que es falso.
+
+8
+00:00:46,400 --> 00:00:47,340
+Voy a guardar esto.
+
+9
+00:00:47,350 --> 00:00:48,850
+Esto es lo mínimo que necesitas para eso.
+
+10
+00:00:48,870 --> 00:00:55,780
+EPSTEIN Pero vamos a seguir adelante, escribimos esto y va a decir que es falso porque es falso.
+
+11
+00:00:55,780 --> 00:01:02,790
+Ahora, si tuviéramos que cambiar esto a verdadero y escribiéramos el mismo código, no haría nada.
+
+12
+00:01:03,080 --> 00:01:06,210
+Y eso es porque no lo hemos provisto de otra manera.
+
+13
+00:01:06,240 --> 00:01:09,170
+Entonces, si es falso, hará esto.
+
+14
+00:01:09,180 --> 00:01:11,190
+De lo contrario, no va a hacer nada.
+
+15
+00:01:11,190 --> 00:01:19,980
+Avancemos y retrocedamos por las bases de la fuerza también hacia donde comenzó la declaración if, supongo,
+
+16
+00:01:20,070 --> 00:01:24,530
+y ese otro tipo que vamos a imprimir.
+
+17
+00:01:25,030 --> 00:01:32,970
+En realidad es igual a verdadero.
+
+18
+00:01:33,270 --> 00:01:40,360
+Así que sigamos adelante y ejecutemos el script, y verán que ahora que este no es el caso, la verificación
+
+19
+00:01:40,360 --> 00:01:42,010
+no es igual a falso.
+
+20
+00:01:42,010 --> 00:01:44,720
+Entonces, va a hacer esto en su lugar.
+
+21
+00:01:44,740 --> 00:01:51,670
+Ahora lo que vamos a hacer es que esto es bueno si quieres condiciones, pero si quieres
+
+22
+00:01:51,910 --> 00:01:57,030
+más de dos condiciones entre las demás, puedes usar algo llamado aliff.
+
+23
+00:01:57,430 --> 00:02:02,540
+Y aquí necesitamos que realmente necesitemos suministrar nuestra condición a la izquierda.
+
+24
+00:02:02,570 --> 00:02:09,370
+la declaración if y piense en el otro como una trampa, como si ninguno de los anteriores fuera cierto, simplemente hacen esto.
+
+25
+00:02:09,370 --> 00:02:11,660
+Así que piense en otro nivel de
+
+26
+00:02:11,680 --> 00:02:27,030
+Entonces, si es falso, va a ser que el cheque de Elif iguale al tambor va a imprimir
+
+27
+00:02:27,820 --> 00:02:33,530
+algunas hamburguesas y Austro a otro elefante.
+
+28
+00:02:40,580 --> 00:02:44,480
+Diga imprimir Hola.
+
+29
+00:02:45,200 --> 00:02:48,040
+Así que sigamos y guarde esto.
+
+30
+00:02:48,170 --> 00:02:49,860
+Vamos a ejecutarlo de nuevo.
+
+31
+00:02:50,150 --> 00:02:51,910
+Y como pueden ver, Chuck es igual a verdadero.
+
+32
+00:02:51,910 --> 00:02:53,430
+Entonces dice que es cierto.
+
+33
+00:02:53,450 --> 00:02:53,840
+No.
+
+34
+00:02:53,840 --> 00:02:54,470
+Siga adelante.
+
+35
+00:02:54,470 --> 00:02:55,310
+Es esto cierto.
+
+36
+00:02:55,310 --> 00:02:55,730
+No.
+
+37
+00:02:55,830 --> 00:02:57,010
+Nos fuimos.
+
+38
+00:02:57,020 --> 00:02:57,850
+Es esto cierto.
+
+39
+00:02:57,920 --> 00:02:58,650
+Sin movimiento.
+
+40
+00:02:58,680 --> 00:03:03,440
+OK, bien, el resto dirá bien si ninguna de las anteriores es verdad, solo haremos esto.
+
+41
+00:03:03,440 --> 00:03:09,710
+Entonces, lo que vamos a hacer ahora es configurar esto para una hamburguesa y vamos a ejecutar
+
+42
+00:03:09,710 --> 00:03:14,210
+el guión y verán que lo que está sucediendo es verificar esto primero.
+
+43
+00:03:14,210 --> 00:03:14,850
+Eso no es cierto.
+
+44
+00:03:14,850 --> 00:03:15,680
+Entonces continúa.
+
+45
+00:03:15,680 --> 00:03:16,840
+Es como OK esta.
+
+46
+00:03:16,880 --> 00:03:22,330
+Hagamos esto y luego salgamos de la declaración if para que no marque más.
+
+47
+00:03:22,340 --> 00:03:26,030
+Entonces eso es lo que es una declaración if en Python.
+
+48
+00:03:26,180 --> 00:03:29,760
+Y eso es necesario para lo que estamos a punto de hacer.

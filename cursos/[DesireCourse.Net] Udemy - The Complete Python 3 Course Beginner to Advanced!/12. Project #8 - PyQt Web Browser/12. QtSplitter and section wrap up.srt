@@ -1,0 +1,864 @@
+1
+
+00:00:00,000  -->  00:00:02,460
+Hey guys, welcome back. So before we get
+
+2
+
+00:00:02,460  -->  00:00:04,470
+into data visualization there's a
+
+3
+
+00:00:04,470  -->  00:00:06,330
+few more things I want to cover with
+
+4
+
+00:00:06,330  -->  00:00:08,309
+Qt, and these are just to give you a
+
+5
+
+00:00:08,309  -->  00:00:10,500
+basic understanding of just a few more
+
+6
+
+00:00:10,500  -->  00:00:12,450
+concepts. And then I would like if you guys
+
+7
+
+00:00:12,450  -->  00:00:15,210
+wanted to go explore this further to do
+
+8
+
+00:00:15,210  -->  00:00:18,449
+so, you are completely encouraged to do
+
+9
+
+00:00:18,449  -->  00:00:21,510
+that. So the first thing I want to
+
+10
+
+00:00:21,510  -->  00:00:25,980
+talk about is the developer tools. So,
+
+11
+
+00:00:25,980  -->  00:00:30,480
+no, link or web engine based browser is
+
+12
+
+00:00:30,480  -->  00:00:32,489
+complete without developer tools. In fact,
+
+13
+
+00:00:32,489  -->  00:00:34,860
+no browser is complete without developer
+
+14
+
+00:00:34,860  -->  00:00:37,350
+tools. So, if you're not sure what I
+
+15
+
+00:00:37,350  -->  00:00:42,870
+mean, if I open up Safari here and let's
+
+16
+
+00:00:42,870  -->  00:00:45,239
+just go to Google, and I'm going to hit
+
+17
+
+00:00:45,239  -->  00:00:49,559
+command shift i, and it should...
+
+18
+
+00:00:49,559  -->  00:00:58,620
+ok, it opened up mail. Anyway, I will go into
+
+19
+
+00:00:58,620  -->  00:01:06,180
+developer, can I find it in here?
+
+20
+
+00:01:06,180  -->  00:01:09,119
+Show Web Inspector? Is that what I want? That's what they call
+
+21
+
+00:01:09,119  -->  00:01:10,710
+it. Alright, this is the developer tools.
+
+22
+
+00:01:10,710  -->  00:01:12,750
+It looks different in here than it does
+
+23
+
+00:01:12,750  -->  00:01:19,049
+in chrome. Safari uses a rendering
+
+24
+
+00:01:19,049  -->  00:01:22,049
+engine called WebKit, whereas chrome has
+
+25
+
+00:01:22,049  -->  00:01:25,259
+forked that. Chrome used to use WebKit, they forked
+
+26
+
+00:01:25,259  -->  00:01:27,930
+it, and they call it Blink now, and so
+
+27
+
+00:01:27,930  -->  00:01:29,939
+that's why these are kind of different.
+
+28
+
+00:01:29,939  -->  00:01:34,049
+Safari and chrome used to act a lot in
+
+29
+
+00:01:34,049  -->  00:01:35,790
+the same way, but now it's getting
+
+30
+
+00:01:35,790  -->  00:01:37,079
+different. So what we're going to do is
+
+31
+
+00:01:37,079  -->  00:01:38,700
+enable developer tools, and how we're
+
+32
+
+00:01:38,700  -->  00:01:42,000
+going to do that is right here before we
+
+33
+
+00:01:42,000  -->  00:01:47,430
+show the application we're going to set
+
+34
+
+00:01:47,430  -->  00:01:51,270
+environment variable called os, well
+
+35
+
+00:01:51,270  -->  00:01:52,740
+actually this is how we're going to
+
+36
+
+00:01:52,740  -->  00:01:57,540
+create the environment variable to tell
+
+37
+
+00:01:57,540  -->  00:02:02,280
+Qt that we
+
+38
+
+00:02:02,280  -->  00:02:05,219
+want to enable remote debugging, or the
+
+39
+
+00:02:05,219  -->  00:02:08,369
+dev tools within our browser. So, all you have
+
+40
+
+00:02:08,369  -->  00:02:12,090
+to do is type os.environ, and then the
+
+41
+
+00:02:12,090  -->  00:02:12,880
+the environment
+
+42
+
+00:02:12,880  -->  00:02:15,040
+variables name. So in this case it's all caps,
+
+43
+
+00:02:15,040  -->  00:02:23,680
+QTWEBENGINE_REMOTE_
+
+44
+
+00:02:23,680  -->  00:02:29,410
+DEBUGGING, and we need to set
+
+45
+
+00:02:29,410  -->  00:02:33,940
+that to a port number, or a full IP
+
+46
+
+00:02:33,940  -->  00:02:36,370
+address with a port number. In this
+
+47
+
+00:02:36,370  -->  00:02:38,380
+case I'm just going to be using a port
+
+48
+
+00:02:38,380  -->  00:02:40,390
+number because that's really all you
+
+49
+
+00:02:40,390  -->  00:02:44,350
+need to do. So I'm going to set this to 667,
+
+50
+
+00:02:44,350  -->  00:02:48,430
+and then when I start the application at
+
+51
+
+00:02:48,430  -->  00:02:52,180
+this point you're not going to notice
+
+52
+
+00:02:52,180  -->  00:02:57,820
+any big differences. Let me add a tab
+
+53
+
+00:02:57,820  -->  00:03:04,450
+here. We go to facebook.com, and I'm going
+
+54
+
+00:03:04,450  -->  00:03:06,370
+to jump over here and I'm going to open
+
+55
+
+00:03:06,370  -->  00:03:08,500
+another tab, and then we can
+
+56
+
+00:03:08,500  -->  00:03:10,540
+actually go to developer tools by visiting
+
+57
+
+00:03:10,540  -->  00:03:14,410
+local host at the port number,
+
+58
+
+00:03:14,410  -->  00:03:25,150
+ok. http://localhost:677 from whatever port
+
+59
+
+00:03:25,150  -->  00:03:29,740
+we've told to use developer tools on, and
+
+60
+
+00:03:29,740  -->  00:03:32,800
+it has rejected it. In order to access the
+
+61
+
+00:03:32,800  -->  00:03:35,290
+network, see I have had the same
+
+62
+
+00:03:35,290  -->  00:03:38,550
+problem here on...
+
+63
+
+00:03:48,800  -->  00:03:51,080
+Alright, I got this same kind
+
+64
+
+00:03:51,080  -->  00:03:54,200
+problem on linux when using developer
+
+65
+
+00:03:54,200  -->  00:03:58,190
+tools, so I'm really not too sure why.
+
+66
+
+00:03:58,190  -->  00:04:03,170
+Let me open up Chrome
+
+67
+
+00:04:03,170  -->  00:04:07,970
+and see if I can access the developer
+
+68
+
+00:04:07,970  -->  00:04:23,960
+tools for my browser from
+
+69
+
+00:04:23,960  -->  00:04:25,190
+Chrome.
+
+70
+
+00:04:25,190  -->  00:04:29,360
+Alright, so it can't. On Windows that's all
+
+71
+
+00:04:29,360  -->  00:04:31,040
+you have to do, let me search this here...
+
+72
+
+00:04:31,040  -->  00:04:38,690
+qt5 developer tools not working.
+
+73
+
+00:04:38,690  -->  00:04:44,780
+I'm not sure if there's extra steps that we
+
+74
+
+00:04:44,780  -->  00:04:47,450
+need to take. I mean additionally we could also
+
+75
+
+00:04:47,450  -->  00:04:50,000
+set the command line argument when we
+
+76
+
+00:04:50,000  -->  00:04:55,010
+run our application, or just set the
+
+77
+
+00:04:55,010  -->  00:04:56,450
+environment variable. So we're going to
+
+78
+
+00:04:56,450  -->  00:05:02,720
+try setting this right here, and then
+
+79
+
+00:05:02,720  -->  00:05:08,990
+we're going to echo that variable so that
+
+80
+
+00:05:08,990  -->  00:05:11,030
+should work. So I'm gonna go ahead and
+
+81
+
+00:05:11,030  -->  00:05:13,760
+close this, and then jump back over to
+
+82
+
+00:05:13,760  -->  00:05:17,390
+pycharm and run the app again, maybe it's
+
+83
+
+00:05:17,390  -->  00:05:22,430
+gonna work this time. No, alright, so
+
+84
+
+00:05:22,430  -->  00:05:31,790
+maybe it's being blocked in mac OS
+
+85
+
+00:05:31,790  -->  00:05:46,100
+and Linux which is really strange. I will have to search that and
+
+86
+
+00:05:46,100  -->  00:05:48,800
+if I can provide an answer for you.
+
+87
+
+00:05:48,800  -->  00:05:50,540
+The second thing I wanted to show you is
+
+88
+
+00:05:50,540  -->  00:05:54,200
+how to use a splitter. So what we're
+
+89
+
+00:05:54,200  -->  00:05:58,280
+going to do is where we add a tab here,
+
+90
+
+00:05:58,280  -->  00:06:06,230
+the top level, so we are going to use
+
+91
+
+00:06:06,230  -->  00:06:08,720
+QWidget and QVBoxLayout, but the top level that
+
+92
+
+00:06:08,720  -->  00:06:11,150
+we're going to do is actually going to
+
+93
+
+00:06:11,150  -->  00:06:16,280
+be a split layout.
+
+94
+
+00:06:16,280  -->  00:06:20,810
+So QVbox, that's fine actually,
+
+95
+
+00:06:20,810  -->  00:06:23,270
+what we're going to do is down here
+
+96
+
+00:06:23,270  -->  00:06:24,980
+where we add the content instead of
+
+97
+
+00:06:24,980  -->  00:06:34,280
+doing that we're going to say self.tabs[i]. splitter, or splitview, equals
+
+98
+
+00:06:34,280  -->  00:06:43,760
+QSplitter. And I need to import that from
+
+99
+
+00:06:43,760  -->  00:06:44,720
+somewhere I guess, so
+
+100
+
+00:06:44,720  -->  00:06:47,540
+let's go up here and try and find out
+
+101
+
+00:06:47,540  -->  00:06:49,250
+where that would be. I would imagine
+
+102
+
+00:06:49,250  -->  00:06:53,600
+that's in widgets, there we go.
+
+103
+
+00:06:53,600  -->  00:07:01,280
+So, where is that...alright. So what
+
+104
+
+00:07:01,280  -->  00:07:02,690
+we're going to do at this point instead
+
+105
+
+00:07:02,690  -->  00:07:06,950
+of adding our content to
+
+106
+
+00:07:06,950  -->  00:07:09,050
+the top level, we're going to add our
+
+107
+
+00:07:09,050  -->  00:07:13,340
+split view. So, instead of content
+
+108
+
+00:07:13,340  -->  00:07:15,440
+splitview, and then when I restart the
+
+109
+
+00:07:15,440  -->  00:07:16,760
+application you're going to notice that
+
+110
+
+00:07:16,760  -->  00:07:18,740
+you don't see any web pages and that's
+
+111
+
+00:07:18,740  -->  00:07:20,479
+because we haven't actually put it in there
+
+112
+
+00:07:20,479  -->  00:07:21,050
+yet.
+
+113
+
+00:07:21,050  -->  00:07:23,180
+All we've got is a splitview with nothing
+
+114
+
+00:07:23,180  -->  00:07:25,250
+inside of it. So what we're going to do
+
+115
+
+00:07:25,250  -->  00:07:28,760
+is we're going to add our content to the
+
+116
+
+00:07:28,760  -->  00:07:33,320
+splitview, so self.tabs[i].
+
+117
+
+00:07:33,320  -->  00:07:40,010
+splitview.addWidget, and we're
+
+118
+
+00:07:40,010  -->  00:07:47,020
+going to add self.tabs[i].content.
+
+119
+
+00:07:50,390  -->  00:07:52,130
+And now you'll notice that it looks
+
+120
+
+00:07:52,130  -->  00:07:55,670
+normal again, but what actually happened
+
+121
+
+00:07:55,670  -->  00:07:57,920
+is we've created one more level. So
+
+122
+
+00:07:57,920  -->  00:08:00,620
+initially we were just adding a
+
+123
+
+00:08:00,620  -->  00:08:02,900
+QWidget, and setting the layout to a QVBox
+
+124
+
+00:08:02,900  -->  00:08:04,490
+layout, and then adding one item so it
+
+125
+
+00:08:04,490  -->  00:08:06,380
+showed like this. Now what we're doing is
+
+126
+
+00:08:06,380  -->  00:08:07,640
+we're adding a QWidget, we're
+
+127
+
+00:08:07,640  -->  00:08:09,890
+setting the layout to VBoxLayout, and in
+
+128
+
+00:08:09,890  -->  00:08:12,380
+that VBoxLayout we're setting a new
+
+129
+
+00:08:12,380  -->  00:08:14,660
+object called QSplitter, and we're
+
+130
+
+00:08:14,660  -->  00:08:16,370
+inserting the page into there. So what
+
+131
+
+00:08:16,370  -->  00:08:18,830
+we can then do is we can then run this
+
+132
+
+00:08:18,830  -->  00:08:20,990
+multiple times, and actually add an
+
+133
+
+00:08:20,990  -->  00:08:23,600
+instance, it will add it's own self
+
+134
+
+00:08:23,600  -->  00:08:29,690
+again twice here. So, normally you would
+
+135
+
+00:08:29,690  -->  00:08:32,870
+add two different objects in there, and I think
+
+136
+
+00:08:32,870  -->  00:08:34,400
+we'll have to add two different objects.
+
+137
+
+00:08:34,400  -->  00:08:38,000
+Actually, so, I'll say content one and
+
+138
+
+00:08:38,000  -->  00:08:42,050
+then we'll go and reconnect content one
+
+139
+
+00:08:42,050  -->  00:08:48,350
+here from these two different things. So, there we
+
+140
+
+00:08:48,350  -->  00:08:50,470
+go.
+
+141
+
+00:08:53,050  -->  00:08:57,790
+Now you can see that I've got two views
+
+142
+
+00:08:57,790  -->  00:08:59,620
+here and I can split them, so
+
+143
+
+00:08:59,620  -->  00:09:01,750
+this should be interesting, you know, you
+
+144
+
+00:09:01,750  -->  00:09:04,810
+could set up devtools here, and you can
+
+145
+
+00:09:04,810  -->  00:09:07,540
+change it from horizontal, or vertical
+
+146
+
+00:09:07,540  -->  00:09:09,730
+to horizontal as well, and all you're
+
+147
+
+00:09:09,730  -->  00:09:11,019
+going to do for that is you're going to
+
+148
+
+00:09:11,019  -->  00:09:13,660
+set the splitter. So, self.tabs[i].
+
+149
+
+00:09:13,660  -->  00:09:20,470
+splitview.setOrientation, and
+
+150
+
+00:09:20,470  -->  00:09:24,730
+it's going to be Qt.Vertical. It's
+
+151
+
+00:09:24,730  -->  00:09:26,019
+going to be an orientation, so either
+
+152
+
+00:09:26,019  -->  00:09:29,380
+horizontal or vertical, and when I
+
+153
+
+00:09:29,380  -->  00:09:32,410
+run the application again you're going
+
+154
+
+00:09:32,410  -->  00:09:36,190
+to see that I've now got a vertical view
+
+155
+
+00:09:36,190  -->  00:09:41,709
+here rather than a horizontal
+
+156
+
+00:09:41,709  -->  00:09:44,110
+view. And so that's how you can use
+
+157
+
+00:09:44,110  -->  00:09:45,490
+QSplitter, and you can use this in a lot
+
+158
+
+00:09:45,490  -->  00:09:46,779
+of interesting ways. You can actually
+
+159
+
+00:09:46,779  -->  00:09:49,839
+modify it once it's created. You could add to the
+
+160
+
+00:09:49,839  -->  00:09:52,630
+splitter a row of buttons, and the
+
+161
+
+00:09:52,630  -->  00:09:55,060
+buttons could be connected to control
+
+162
+
+00:09:55,060  -->  00:09:57,940
+the orientation, or if it shows, and stuff
+
+163
+
+00:09:57,940  -->  00:10:00,490
+like that. So, I'm pretty sure that's all
+
+164
+
+00:10:00,490  -->  00:10:06,310
+we're going to do with Qt here. I
+
+165
+
+00:10:06,310  -->  00:10:08,649
+know we're doing data visualization, and
+
+166
+
+00:10:08,649  -->  00:10:11,079
+we're initially going to be exploring a
+
+167
+
+00:10:11,079  -->  00:10:13,810
+library called matplotlib to do that,
+
+168
+
+00:10:13,810  -->  00:10:16,420
+but I also understand that the Qt
+
+169
+
+00:10:16,420  -->  00:10:19,899
+framework has a charting library as well.
+
+170
+
+00:10:19,899  -->  00:10:22,120
+So we might actually circle around and
+
+171
+
+00:10:22,120  -->  00:10:24,430
+come back to Qt here in the next little
+
+172
+
+00:10:24,430  -->  00:10:26,620
+bit in order to do some data
+
+173
+
+00:10:26,620  -->  00:10:29,640
+visualization.

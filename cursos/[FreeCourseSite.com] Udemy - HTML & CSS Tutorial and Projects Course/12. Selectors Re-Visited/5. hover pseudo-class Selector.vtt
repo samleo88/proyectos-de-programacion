@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.600 --> 00:05.330
+Fresh after that we have pseudo classes on the first one is gonna be the hover.
+
+00:05.340 --> 00:08.870
+Now with the pseudo classes in general the main idea is like this.
+
+00:08.870 --> 00:13.730
+So as the element is gonna be changing some kind of state now in a hover.
+
+00:13.740 --> 00:15.240
+This is very simple.
+
+00:15.240 --> 00:21.970
+So as we're gonna be hovering over the actual element then something is gonna change about that element.
+
+00:21.970 --> 00:27.900
+Now again this can be anything with the senses and we can apply this to all the element.
+
+00:28.240 --> 00:31.140
+Now later on we're gonna be looking at specifically the length.
+
+00:31.140 --> 00:37.170
+So those pseudo glasses are can be specific the links but how are we can use on everything.
+
+00:37.200 --> 00:38.000
+And you know what.
+
+00:38.000 --> 00:39.810
+Why don't we make an example.
+
+00:39.840 --> 00:42.300
+So first let's get to this can save it.
+
+00:42.720 --> 00:47.400
+And in the indexation the amount of work and maybe leave the paragraph again just to show that everything
+
+00:47.400 --> 00:48.910
+works on all of them.
+
+00:48.960 --> 00:55.110
+Let's write maybe a div then div let's add a class just to show that this is going to work when the
+
+00:55.110 --> 00:57.540
+classes are just gonna be header.
+
+00:57.630 --> 01:03.360
+I don't know we didn't had a rule just gonna have some kind of text as well maybe 10 letters something
+
+01:03.360 --> 01:08.870
+like this and then let's add the link now for the link again we're just gonna have a dummy trough meaning
+
+01:08.930 --> 01:16.140
+this is not going to link anywhere and here organist gonna say that I don't know this is a link something
+
+01:16.140 --> 01:16.570
+like this.
+
+01:16.980 --> 01:19.010
+And now let's decide what we're gonna do.
+
+01:19.140 --> 01:24.760
+So let's say that for a paragraph I would want as I'm hovering to be a bigger font size.
+
+01:25.150 --> 01:28.490
+So I'm going to say paragraph but then here we need to use the hover.
+
+01:28.500 --> 01:33.750
+So now we're hovering with this class and this would be the difference between the two dots that we
+
+01:33.750 --> 01:37.320
+used previously on pseudo elements and with the classes.
+
+01:37.320 --> 01:42.540
+So the class says this is just going to be one set of colon that's all and I'm here I'm gonna say as
+
+01:42.540 --> 01:48.410
+I'm hovering I would want the font size to be I don't know 60 pixels on the Barbara what's gonna happen
+
+01:48.470 --> 01:52.460
+is we're hovering over doing the mouse then honestly this is gonna be very big.
+
+01:52.470 --> 01:58.800
+Now I need to head over back and make this wasn't the best example because this can be triggering over
+
+01:58.800 --> 01:59.180
+the place.
+
+01:59.190 --> 02:01.340
+So I just change it.
+
+02:01.470 --> 02:02.770
+I don't know font.
+
+02:03.060 --> 02:05.930
+Let's do the color is always a good.
+
+02:05.970 --> 02:12.840
+Gabe can say color and let's say right now as I'm going to be hovering the color of the paragraph is
+
+02:12.840 --> 02:13.770
+obviously going to be red.
+
+02:14.190 --> 02:17.470
+I also have the class so I can do the same thing with the class.
+
+02:17.580 --> 02:24.110
+So let's say for the header we're going to be hovering and we can change the background too.
+
+02:24.300 --> 02:27.900
+I don't know Blue as I'm hovering over and notice what happens.
+
+02:27.980 --> 02:31.890
+Also we're not limited to again one property with one value.
+
+02:32.960 --> 02:37.520
+We can write that color is gonna be white here and yeah whatever CSO styles we would want to.
+
+02:38.130 --> 02:44.160
+And let's say as I'm hovering enough I have the background that is going to be blue and the color is
+
+02:44.160 --> 02:45.100
+gonna be white.
+
+02:45.100 --> 02:47.580
+Now last but not least I do have the link.
+
+02:47.580 --> 02:50.560
+So let's say for the link there's gonna be again however.
+
+02:50.570 --> 02:52.960
+So as I'm hovering over Darling what should happen.
+
+02:53.010 --> 02:56.070
+I don't know I'm going to say text decoration is gonna be none.
+
+02:56.230 --> 02:57.570
+So only as I'm hovering.
+
+02:57.570 --> 02:59.740
+Then the underline is gonna disappear.
+
+02:59.760 --> 03:02.340
+Now what happens as I'm hovering over the link.
+
+03:02.490 --> 03:03.710
+I have no underline.
+
+03:03.750 --> 03:07.220
+So that's how we can work would have our pseudo class in the CSF.

@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.300 --> 00:00.860
+Hey guys.
+
+00:00.870 --> 00:06.050
+While using CSI as an HCM island tutorial mode was definitely nice.
+
+00:06.060 --> 00:09.720
+Why don't we kick it up a notch and put our knowledge to use.
+
+00:09.720 --> 00:15.100
+Our first project will be a response a Web site for a company called T station and what we're going
+
+00:15.100 --> 00:15.670
+to be building.
+
+00:16.190 --> 00:20.890
+Well we're going to start off with a massive hero image or hero section.
+
+00:21.030 --> 00:28.200
+We're all gonna have the big background image as well as the subtitle title and about the moment I'm
+
+00:28.200 --> 00:32.640
+gonna reverse the page notice what's gonna happen so we're going to have one text sliding from the right
+
+00:33.030 --> 00:38.100
+the other one sliding from the left as well as for the button and we're gonna use the animation.
+
+00:38.100 --> 00:43.920
+There is also going to be the nav bar button that's always gonna have the animation as you can see this
+
+00:43.920 --> 00:47.510
+is gonna be scaling up and down all the time and the moment I'm gonna click it.
+
+00:47.520 --> 00:49.220
+This is gonna be our nav bar.
+
+00:49.410 --> 00:54.080
+We will gonna use a little bit of George called for this and I'm not gonna go into great detail.
+
+00:54.130 --> 00:59.420
+How are you all gonna be able to access the code and always reuse this nav bar anyway.
+
+00:59.640 --> 01:04.070
+So this is gonna be our hero section and then we're moving on with a little gradient.
+
+01:04.230 --> 01:09.150
+So this line is gonna be a little gradient and then we have a bunch of services and as I'm hovering
+
+01:09.150 --> 01:10.070
+over the services.
+
+01:10.080 --> 01:11.190
+Notice what happened.
+
+01:11.370 --> 01:16.470
+So our font awesome icon is gonna move up and then the background color is gonna be changing and we're
+
+01:16.470 --> 01:18.620
+gonna be using nice transitions for that.
+
+01:18.750 --> 01:24.480
+And like I said project will gonna be responsive but I'm not going to show it to each and every section
+
+01:24.870 --> 01:26.590
+because I can feel that it's necessary.
+
+01:26.820 --> 01:32.790
+But as you can see wouldn't services for example or skills call it whatever you want then this is gonna
+
+01:32.790 --> 01:39.540
+be our one section layout or one column layout and then the moment this screen is gonna get there then
+
+01:39.540 --> 01:41.270
+we're gonna have two column layout.
+
+01:41.580 --> 01:46.740
+And finally the moment we're going to get past certain screen size we're all gonna have a four column
+
+01:46.780 --> 01:52.650
+layout and then we're gonna have the bald section and by the way these links are actually gonna be working
+
+01:52.950 --> 01:53.660
+now.
+
+01:53.970 --> 01:57.240
+These pages they're all gonna be building the other ones let's say.
+
+01:57.240 --> 01:58.100
+What was it.
+
+01:58.170 --> 02:04.050
+I was home about and skills and products were just gonna be copying pasting stuff that we have from
+
+02:04.050 --> 02:08.490
+the main page or we were gonna look at how we can create rest of the pages.
+
+02:08.760 --> 02:14.730
+So in essence you're gonna have the Web site with one two three four pages and obviously most of the
+
+02:14.730 --> 02:16.460
+work we're going to do in the homepage.
+
+02:16.470 --> 02:18.330
+How are these links are gonna be working.
+
+02:18.330 --> 02:22.410
+So the moment you're going to click on the link then we're going to be navigating to the page.
+
+02:22.410 --> 02:26.460
+And this is gonna be our about section with an image and as we're all going to be hovering over the
+
+02:26.460 --> 02:31.330
+image we are gonna be zooming in as well as we're going to be changing a little bit of passively.
+
+02:31.450 --> 02:36.810
+And this is the reason why a color is going to be changing as well as some kind of text as.
+
+02:36.960 --> 02:38.770
+Here we're gonna have the program.
+
+02:39.000 --> 02:44.640
+Then we'll have the products and then this is gonna be we're all gonna be nesting the layout because
+
+02:44.700 --> 02:50.460
+even though we're gonna be using floats for these two sections within the second section within the
+
+02:50.460 --> 02:53.370
+second column there's gonna be another three column layout.
+
+02:53.490 --> 02:58.540
+So this is gonna be really interesting or the way this is gonna work on responsive screen notice.
+
+02:58.650 --> 03:04.020
+So we're gonna start again by two column layout where this is going to be one column and then we have
+
+03:04.020 --> 03:10.680
+the second one hour within the second one we're gonna be adding different sizes of the images depending
+
+03:10.680 --> 03:11.400
+on a screen size.
+
+03:11.760 --> 03:14.590
+So the moment does get bigger for the second column.
+
+03:14.640 --> 03:16.590
+This is gonna be two column layout.
+
+03:16.590 --> 03:21.260
+Then once we make it even bigger then we're going to have three column layout here.
+
+03:21.390 --> 03:26.130
+And this is gonna be still one column layer as well as the moment we're going to get to the bigger screen
+
+03:26.130 --> 03:32.580
+size then we're going to have two column layout with the second column being a three column layout by
+
+03:32.580 --> 03:33.550
+itself.
+
+03:33.560 --> 03:38.820
+Then we're going to be having a contact me section where there's just gonna be some information about
+
+03:38.820 --> 03:41.710
+the station as well as the content form.
+
+03:41.730 --> 03:47.940
+Now what's really about cool about the content form that even though not going to use BHP we're all
+
+03:47.940 --> 03:51.550
+going to use the nice free service which is gonna be Formspring.
+
+03:51.600 --> 03:54.530
+And that way what I can do is we can submit the form.
+
+03:54.900 --> 03:56.500
+So let me show you how this is gonna work.
+
+03:56.580 --> 03:59.380
+And again this is for free we're not going to have to pay anything.
+
+03:59.380 --> 04:05.130
+And the only thing that we're gonna need to do is add like one line of code of order so I'm just gonna
+
+04:05.130 --> 04:10.950
+say John then the email is going to be let's say Email at email dot com and then we'll go to writes
+
+04:10.950 --> 04:11.500
+a message.
+
+04:11.540 --> 04:15.990
+Oh hello there people something like this.
+
+04:16.080 --> 04:19.900
+And the moment I'm gonna click save notice what's gonna happen with my inbox.
+
+04:20.010 --> 04:26.220
+First of all the user is gonna have to say yes yes I'm not a robot yes this is true but then check it
+
+04:26.220 --> 04:26.610
+out.
+
+04:26.610 --> 04:29.790
+So within the mailbox I should be getting the mail.
+
+04:29.910 --> 04:32.480
+And then once I'm gonna open up notice what happens.
+
+04:32.490 --> 04:34.950
+So I have the name and that would be John.
+
+04:34.950 --> 04:40.590
+And then email and then message again what's really cool about this that we're not going to have to
+
+04:40.590 --> 04:44.380
+use any kind of back in language like BHP for example.
+
+04:44.430 --> 04:48.660
+Is gonna be able to add it to our form or we're going to be good to go then here a bottom.
+
+04:48.660 --> 04:53.610
+We're going to have our nice footer and then let's head over maybe look at the other pages like I said
+
+04:54.090 --> 04:55.740
+we're gonna have the home.
+
+04:55.780 --> 05:00.940
+That would be our main one that I'm going to have the skills where within the skills I'm going to we're
+
+05:00.960 --> 05:05.390
+going to use the same heroes section and we're all just gonna get the skills as well as we're going
+
+05:05.390 --> 05:11.850
+to have about then in the about there's gonna be this paragraph about the bolt and then we're going
+
+05:11.850 --> 05:14.460
+to have the product we're all going to have the product.
+
+05:14.460 --> 05:19.500
+So overall I think this is gonna be really really interesting first project and you'll going to learn
+
+05:19.500 --> 05:22.440
+a lot how to put to use everything that you have learned.
+
+05:22.890 --> 05:28.020
+Now finally what's really cool about this project is the fact that we're going to be hosting it and
+
+05:28.020 --> 05:30.220
+for hosting we're going to use Natalie why.
+
+05:30.360 --> 05:34.640
+Because I find it really hassle free hosting and very easy.
+
+05:34.640 --> 05:40.920
+We are not going to use the continuous deployment with GitHub but we will going to look at their easiest
+
+05:40.920 --> 05:47.100
+option where we can just drag and drop it and for continuous deployment we're going to do it later as
+
+05:47.100 --> 05:51.360
+we cover some other topics as well as other projects.

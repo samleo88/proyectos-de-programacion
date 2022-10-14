@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.780 --> 00:04.390
+Up until now all our examples with links were with text.
+
+00:04.710 --> 00:10.440
+So we had some kind of link and then we placed the text within the link and then I slid the link was
+
+00:10.440 --> 00:12.940
+displayed and we were navigating somewhere.
+
+00:13.230 --> 00:17.930
+However we also have option for placing different things within the link.
+
+00:18.060 --> 00:20.390
+So we're just not limited to the text.
+
+00:20.640 --> 00:21.980
+So let's test it out.
+
+00:22.170 --> 00:26.970
+So let's say here on top of the page and again this is just so we can see a little bit clearer.
+
+00:26.970 --> 00:28.270
+Let's place a link.
+
+00:28.500 --> 00:32.690
+And for now let's say the link is going to be and I'm not going to the same thing.
+
+00:32.690 --> 00:36.890
+Maybe you get me the outcome again just to save me a little bit of time.
+
+00:36.960 --> 00:38.210
+Just grab this text.
+
+00:38.220 --> 00:43.830
+You can obviously write it if you want but I'm to copy and paste it and instead of placing the text
+
+00:44.110 --> 00:49.170
+of you Demi or John Doe whatever we would like to place there we can place an image.
+
+00:49.290 --> 00:54.210
+So let's say here we're gonna have the image we know that we need to have the image element within the
+
+00:54.330 --> 00:56.370
+image element within our source.
+
+00:56.370 --> 01:02.140
+Now in this case let's look for the images now within the images folder we also have an option for laptop.
+
+01:02.610 --> 01:05.040
+So I'm just gonna grab this image and you know what.
+
+01:05.040 --> 01:07.260
+Just so it looks a little bit better.
+
+01:07.290 --> 01:07.970
+Again let's uh.
+
+01:08.010 --> 01:10.250
+Maybe a width of 200.
+
+01:10.440 --> 01:12.080
+So it's gonna be a little bit smaller.
+
+01:12.120 --> 01:16.020
+I'm gonna skip on alternative attribute and let's see what's gonna happen.
+
+01:17.170 --> 01:19.630
+So as you can see right now I have the image.
+
+01:19.630 --> 01:24.100
+The difference though is as I'm scrolling or I'm sorry as I'm hovering over the image.
+
+01:24.100 --> 01:24.760
+Check this out.
+
+01:25.390 --> 01:29.890
+So I have this little like on that tells me that pretty much this is the link.
+
+01:30.100 --> 01:34.330
+Now as I'm hovering over the you dummy image things like that don't happen.
+
+01:34.960 --> 01:38.850
+So what this means is that this is actually a link right now.
+
+01:38.950 --> 01:43.630
+So if I click on it sure enough navigating through a dummy page.
+
+01:43.640 --> 01:48.600
+Now last but not least now that we know that we can also place in images within the link.
+
+01:48.610 --> 01:50.350
+We're not limited to the text.
+
+01:50.350 --> 01:51.540
+I also want to show you that.
+
+01:51.550 --> 01:57.370
+Let's say if you don't know right now this point where your link should be navigating.
+
+01:57.370 --> 01:59.590
+Let's say you know that there's gonna be a link on the page.
+
+02:00.100 --> 02:03.250
+However you don't know right now the URL.
+
+02:03.340 --> 02:06.140
+Well we can always do we can just place a hashtag.
+
+02:06.170 --> 02:08.550
+And that way we can be having a link.
+
+02:08.560 --> 02:09.490
+So it's gonna be a link.
+
+02:09.500 --> 02:14.650
+It's gonna be displayed as a link and it's gonna be clickable and everything but it's not going to navigate
+
+02:14.650 --> 02:15.060
+anywhere.
+
+02:15.460 --> 02:17.040
+So that's also an option.
+
+02:17.050 --> 02:20.490
+I mean again you can call this or you'd like it could be an empty link.
+
+02:20.500 --> 02:21.640
+This could be a dummy link.
+
+02:21.640 --> 02:22.890
+It doesn't really matter.
+
+02:22.900 --> 02:28.690
+The main point is instead of placing you URL within the entries we're just placing a hashtag.

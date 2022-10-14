@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.330 --> 00:05.370
+Even though everything is displayed correctly in the life server if Logan tried to run this with the
+
+00:05.370 --> 00:06.090
+browser.
+
+00:06.120 --> 00:11.150
+So first of all let me open up the browser window and of course it has to be massive right away.
+
+00:11.580 --> 00:16.350
+And let's say that we're going to look for our file which in our case is going to be next session email
+
+00:16.830 --> 00:18.800
+notice that we're not gonna see the image.
+
+00:18.960 --> 00:21.120
+So we're getting this alter text.
+
+00:21.210 --> 00:26.740
+Now the reason for that because filesystem is giving you a lot of hustle because of this warrants.
+
+00:27.000 --> 00:33.060
+Now I know we haven't covered yet the comments in Asian email and we're gonna do that in few videos
+
+00:33.420 --> 00:36.910
+but let me just first of all copy and paste this two more times.
+
+00:37.050 --> 00:41.990
+And let me just show you what other options you have for getting the image.
+
+00:42.090 --> 00:47.370
+Now first and foremost as you can see I actually made a mess a little bit because I didn't want more
+
+00:47.370 --> 00:48.390
+of them here.
+
+00:48.390 --> 00:50.100
+Let's start with a simple one.
+
+00:50.100 --> 00:54.060
+Now alternatively we could just write like this without a forward slash.
+
+00:54.180 --> 00:55.350
+And once we save it.
+
+00:55.540 --> 01:01.460
+Notice in the life server everything is going to be displayed correctly as well as in the file system.
+
+01:01.500 --> 01:03.480
+So if I'm going to refresh it check this out.
+
+01:04.020 --> 01:08.350
+So now we have a nice image and also we have another option.
+
+01:08.370 --> 01:12.780
+So let me copy and paste this line and let's comment now the previous one.
+
+01:12.780 --> 01:16.220
+We have an option of having the dot and then the forwards.
+
+01:16.560 --> 01:21.510
+And again this is going to do the same thing where I can say with everything is gonna be displayed correctly
+
+01:21.540 --> 01:27.130
+on a life server as well it's going to work in a browser because as you can see once I refresh there
+
+01:27.140 --> 01:31.280
+is no errors or in our case just there is no alternative text.
+
+01:31.280 --> 01:37.160
+Now your question probably would be well if we can use this guy why are we using these forward slashes
+
+01:37.170 --> 01:38.170
+and these dots.
+
+01:38.400 --> 01:44.520
+And the reason for that is even though I don't like to throw a lot of things in the beginning eventually
+
+01:44.640 --> 01:51.960
+the more web development you do and as you're going to start progressing with node or BHP or let's say
+
+01:51.960 --> 01:58.180
+I don't know react you gonna see a lot of these relative path where you have dot and then you have forward
+
+01:58.180 --> 02:03.960
+slash so that would mean that this is in the same directory or you're gonna see two dots which would
+
+02:03.960 --> 02:09.060
+mean that this would be in the actual folder maybe outside the directory.
+
+02:09.300 --> 02:12.510
+And the point of this is for you to get used to the syntax.
+
+02:12.510 --> 02:15.930
+So later on once you see it you're not like deer in the headlights you know.
+
+02:15.940 --> 02:20.490
+Okay so this means that this would be in the same directory and then two that are going to mean that
+
+02:20.730 --> 02:26.490
+if it's outside the directory now we're gonna cover two dots later on as we're working with CSX because
+
+02:26.490 --> 02:30.590
+a lot of times CSX is not going to be in the same folder as the indexation email.
+
+02:30.630 --> 02:32.700
+So I'm not going to cover that right now.
+
+02:32.700 --> 02:38.250
+Just please remember that if you would like to open up in the file system you can use one of these two
+
+02:38.250 --> 02:44.100
+options and it's gonna be displayed correctly however throughout my project I will gonna use this dot
+
+02:44.100 --> 02:48.180
+syntax because I think it's gonna make a lot of sense in the long run.
+
+02:48.210 --> 02:51.510
+So you are very used to the syntax once you progressed to that stage.

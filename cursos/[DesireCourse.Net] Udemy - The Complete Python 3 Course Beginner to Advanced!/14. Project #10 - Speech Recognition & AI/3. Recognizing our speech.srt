@@ -1,0 +1,629 @@
+1
+
+00:00:00,000  -->  00:00:02,040
+Alright guys, what we're going to be
+
+2
+
+00:00:02,040  -->  00:00:03,179
+doing in this video is actually
+
+3
+
+00:00:03,179  -->  00:00:06,240
+beginning to record from our audio
+
+4
+
+00:00:06,240  -->  00:00:09,030
+source, and so if you're going to be
+
+5
+
+00:00:09,030  -->  00:00:10,980
+following along you need to have a
+
+6
+
+00:00:10,980  -->  00:00:13,740
+microphone set up to your computer. What
+
+7
+
+00:00:13,740  -->  00:00:15,420
+I would recommend is just a simple USB
+
+8
+
+00:00:15,420  -->  00:00:18,270
+one. If you have a USB headset with a
+
+9
+
+00:00:18,270  -->  00:00:20,850
+microphone on it that would be ideal, if
+
+10
+
+00:00:20,850  -->  00:00:25,109
+you don't you might have another kind of
+
+11
+
+00:00:25,109  -->  00:00:28,080
+mic, hopefully. Even one of the ones that
+
+12
+
+00:00:28,080  -->  00:00:29,670
+comes with an iPhone just that little
+
+13
+
+00:00:29,670  -->  00:00:33,360
+you know earpods or ipod ear pods,
+
+14
+
+00:00:33,360  -->  00:00:36,480
+whatever they call them, just get some of
+
+15
+
+00:00:36,480  -->  00:00:40,379
+those. So, what we need to do in order to
+
+16
+
+00:00:40,379  -->  00:00:45,690
+actually record audio and have it
+
+17
+
+00:00:45,690  -->  00:00:48,420
+recognized is import
+
+18
+
+00:00:48,420  -->  00:00:56,760
+speech_recognition as sr, and we're just
+
+19
+
+00:00:56,760  -->  00:00:58,500
+going to be calling sr just to make our
+
+20
+
+00:00:58,500  -->  00:01:02,489
+commands a bit quicker. Also, what we
+
+21
+
+00:01:02,489  -->  00:01:04,019
+need to do is we want to be able to
+
+22
+
+00:01:04,019  -->  00:01:08,460
+speak multiple times, and that's
+
+23
+
+00:01:08,460  -->  00:01:09,930
+something we'll cover after, actually.
+
+24
+
+00:01:09,930  -->  00:01:11,610
+It's just a matter of putting it into a
+
+25
+
+00:01:11,610  -->  00:01:14,850
+loop. So let's go ahead and create a
+
+26
+
+00:01:14,850  -->  00:01:23,970
+method called initSpeech, and this is
+
+27
+
+00:01:23,970  -->  00:01:25,080
+not going to take any parameters.
+
+28
+
+00:01:25,080  -->  00:01:28,680
+Actually, before we even get to that what
+
+29
+
+00:01:28,680  -->  00:01:30,180
+we need to do is set our speech
+
+30
+
+00:01:30,180  -->  00:01:32,640
+recognizer, and so we're going to say r
+
+31
+
+00:01:32,640  -->  00:01:41,220
+equals sr.Recognizer. There we go.
+
+32
+
+00:01:41,220  -->  00:01:44,970
+And basically what we need to do with
+
+33
+
+00:01:44,970  -->  00:01:49,170
+that r is we need to pass it
+
+34
+
+00:01:49,170  -->  00:01:50,759
+what we say into the microphone, and then
+
+35
+
+00:01:50,759  -->  00:01:53,700
+it's going to listen to it, and then we
+
+36
+
+00:01:53,700  -->  00:01:55,740
+can tell it to recognize what we're
+
+37
+
+00:01:55,740  -->  00:02:00,600
+saying. So, let's print out just let us
+
+38
+
+00:02:00,600  -->  00:02:05,100
+know that it's working listening, and
+
+39
+
+00:02:05,100  -->  00:02:09,380
+then here we're actually going to start
+
+40
+
+00:02:09,590  -->  00:02:15,170
+our recording. So gonna copy this because
+
+41
+
+00:02:15,170  -->  00:02:22,220
+we're going to be using that to tell us
+
+42
+
+00:02:22,220  -->  00:02:25,010
+that it's actually initiated so initiate,
+
+43
+
+00:02:25,010  -->  00:02:27,349
+and again if you guys watch the last
+
+44
+
+00:02:27,349  -->  00:02:29,480
+video you know you need to go ahead and
+
+45
+
+00:02:29,480  -->  00:02:31,400
+get some wave files. Even if you get mp3
+
+46
+
+00:02:31,400  -->  00:02:34,610
+files there are ways to convert mp3s to
+
+47
+
+00:02:34,610  -->  00:02:38,269
+wav, and I'm pretty sure miro audio
+
+48
+
+00:02:38,269  -->  00:02:41,870
+converter is a really good one. We could
+
+49
+
+00:02:41,870  -->  00:02:45,290
+also actually discuss converting audio
+
+50
+
+00:02:45,290  -->  00:02:48,200
+using Python, but that's not something we're
+
+51
+
+00:02:48,200  -->  00:02:50,000
+going to do right now. So you guys can
+
+52
+
+00:02:50,000  -->  00:02:51,950
+go ahead and download Miro if you need
+
+53
+
+00:02:51,950  -->  00:02:56,900
+to, otherwise just follow along. So as
+
+54
+
+00:02:56,900  -->  00:02:58,099
+soon as we call this it's going to say
+
+55
+
+00:02:58,099  -->  00:02:59,450
+listening and then it's going to play
+
+56
+
+00:02:59,450  -->  00:03:01,430
+the audio that tells us it's listening,
+
+57
+
+00:03:01,430  -->  00:03:07,190
+and then we're going to say with
+
+58
+
+00:03:07,190  -->  00:03:20,720
+sr.Microphone as source, we're going to say
+
+59
+
+00:03:20,720  -->  00:03:27,290
+print "Say Something," and then under here
+
+60
+
+00:03:27,290  -->  00:03:30,380
+we're just going to capture audio equals
+
+61
+
+00:03:30,380  -->  00:03:35,870
+r.listen, and it's going to listen to
+
+62
+
+00:03:35,870  -->  00:03:38,810
+the source. So again this is basically
+
+63
+
+00:03:38,810  -->  00:03:41,030
+just saying our recognizer is now
+
+64
+
+00:03:41,030  -->  00:03:43,819
+listening to whatever we're saying. So
+
+65
+
+00:03:43,819  -->  00:03:45,260
+it's coming through the microphone here
+
+66
+
+00:03:45,260  -->  00:03:47,329
+and we're calling it source so this
+
+67
+
+00:03:47,329  -->  00:03:49,040
+essentially is whatever we're saying, and
+
+68
+
+00:03:49,040  -->  00:03:50,870
+then the audio is going to listen to it.
+
+69
+
+00:03:50,870  -->  00:03:54,859
+And that's all we need to do to actually
+
+70
+
+00:03:54,859  -->  00:03:57,349
+record our audio. So what we're going to
+
+71
+
+00:03:57,349  -->  00:03:58,790
+do at this point is we're going to play
+
+72
+
+00:03:58,790  -->  00:04:01,099
+audio, and we're going to play the ending
+
+73
+
+00:04:01,099  -->  00:04:09,319
+sound. So audio/audio_end.wav and this is
+
+74
+
+00:04:09,319  -->  00:04:12,889
+going to tell us that we've finished
+
+75
+
+00:04:12,889  -->  00:04:14,930
+speaking, and now we're going to create a
+
+76
+
+00:04:14,930  -->  00:04:16,940
+variable called command which is going
+
+77
+
+00:04:16,940  -->  00:04:19,729
+to be an empty string right now, and then
+
+78
+
+00:04:19,729  -->  00:04:23,090
+we're going to
+
+79
+
+00:04:23,090  -->  00:04:27,410
+use a try except method here and this
+
+80
+
+00:04:27,410  -->  00:04:29,960
+is going to basically just be a fail
+
+81
+
+00:04:29,960  -->  00:04:33,860
+safe for if the recognizer could
+
+82
+
+00:04:33,860  -->  00:04:36,530
+not understand what we were saying. Let's
+
+83
+
+00:04:36,530  -->  00:04:39,650
+go ahead and try and we're going to set
+
+84
+
+00:04:39,650  -->  00:04:45,410
+command equal to r.recognize_google,
+
+85
+
+00:04:45,410  -->  00:04:48,680
+and this is going to use google to
+
+86
+
+00:04:48,680  -->  00:04:50,750
+determine what we're saying. There
+
+87
+
+00:04:50,750  -->  00:04:52,100
+are different things that you could use
+
+88
+
+00:04:52,100  -->  00:04:54,919
+here as you just saw. You can use bing,
+
+89
+
+00:04:54,919  -->  00:04:57,979
+houndify, ibm, sphinx, etc., and we will
+
+90
+
+00:04:57,979  -->  00:05:00,800
+actually get into sphinx as well and maybe
+
+91
+
+00:05:00,800  -->  00:05:03,470
+wit, but for right now we're just using
+
+92
+
+00:05:03,470  -->  00:05:05,930
+google, and we're going to pass in our
+
+93
+
+00:05:05,930  -->  00:05:08,450
+audio. So again the audio is captured
+
+94
+
+00:05:08,450  -->  00:05:11,090
+here as to what ever is listened to, and
+
+95
+
+00:05:11,090  -->  00:05:14,330
+then we send the audio over to google, it
+
+96
+
+00:05:14,330  -->  00:05:17,000
+puts it into this command variable,
+
+97
+
+00:05:17,000  -->  00:05:19,310
+and so then at that point we could print
+
+98
+
+00:05:19,310  -->  00:05:21,289
+out what we've said. So let's go ahead
+
+99
+
+00:05:21,289  -->  00:05:26,180
+and use the except methods here or not
+
+100
+
+00:05:26,180  -->  00:05:31,729
+methods but conditions, so print
+
+101
+
+00:05:31,729  -->  00:05:42,500
+"Couldn't understand you, bro." And then
+
+102
+
+00:05:42,500  -->  00:05:45,200
+under here what we're going to do is
+
+103
+
+00:05:45,200  -->  00:05:48,650
+we're going to just say, we're just going
+
+104
+
+00:05:48,650  -->  00:05:51,830
+to print back what we've said. So, print
+
+105
+
+00:05:51,830  -->  00:06:02,870
+"Your command:" and then command, and that
+
+106
+
+00:06:02,870  -->  00:06:04,910
+is it. So, let's go ahead and save this,
+
+107
+
+00:06:04,910  -->  00:06:08,389
+and now let's run it, and I'm going to speak
+
+108
+
+00:06:08,389  -->  00:06:10,130
+and what we should see is that whatever
+
+109
+
+00:06:10,130  -->  00:06:15,950
+I speak gets printed down here.
+
+110
+
+00:06:15,950  -->  00:06:17,479
+Right, we didn't call that method,
+
+111
+
+00:06:17,479  -->  00:06:24,349
+actually. So, initSpeech. There we go. My
+
+112
+
+00:06:24,349  -->  00:06:27,160
+name is Nick,
+
+113
+
+00:06:29,300  -->  00:06:32,419
+and it spelled Nik wrong, but it did catch
+
+114
+
+00:06:32,419  -->  00:06:33,830
+it. So let's go through something a
+
+115
+
+00:06:33,830  -->  00:06:35,870
+little more difficult and you didn't
+
+116
+
+00:06:35,870  -->  00:06:38,539
+hear it but it did use the beginning and
+
+117
+
+00:06:38,539  -->  00:06:41,300
+ending audio file exactly when it
+
+118
+
+00:06:41,300  -->  00:06:42,830
+showed up, so that's pretty neat. You guys
+
+119
+
+00:06:42,830  -->  00:06:45,110
+should have the exact same result so you
+
+120
+
+00:06:45,110  -->  00:06:48,560
+guys will hear when you're doing it. So
+
+121
+
+00:06:48,560  -->  00:06:50,090
+thank you guys for watching this video,
+
+122
+
+00:06:50,090  -->  00:06:51,740
+in the next video we're actually going
+
+123
+
+00:06:51,740  -->  00:06:54,229
+to be getting into actually
+
+124
+
+00:06:54,229  -->  00:06:55,940
+understanding what we're saying and be
+
+125
+
+00:06:55,940  -->  00:06:58,460
+able to launch certain actions from
+
+126
+
+00:06:58,460  -->  00:07:01,150
+what we're saying.

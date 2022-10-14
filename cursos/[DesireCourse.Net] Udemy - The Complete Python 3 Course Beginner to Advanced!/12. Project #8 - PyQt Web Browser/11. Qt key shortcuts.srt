@@ -1,0 +1,804 @@
+1
+
+00:00:00,000  -->  00:00:03,179
+Alright guys, welcome back. So, what I'm
+
+2
+
+00:00:03,179  -->  00:00:05,609
+going to do right quick is just copy my
+
+3
+
+00:00:05,609  -->  00:00:08,460
+style sheet from the main repository
+
+4
+
+00:00:08,460  -->  00:00:12,330
+here, where is it, right there. I'm going to
+
+5
+
+00:00:12,330  -->  00:00:16,049
+copy this into the browser, let me just open
+
+6
+
+00:00:16,049  -->  00:00:17,190
+it up in raw,
+
+7
+
+00:00:17,190  -->  00:00:20,640
+select all, and something really neat
+
+8
+
+00:00:20,640  -->  00:00:24,810
+that I just did, and that I do a lot, is use
+
+9
+
+00:00:24,810  -->  00:00:28,470
+keyboard shortcuts. I also don't have all
+
+10
+
+00:00:28,470  -->  00:00:31,769
+these icons in here, so I need to remove
+
+11
+
+00:00:31,769  -->  00:00:34,559
+these. I think that's the only instance
+
+12
+
+00:00:34,559  -->  00:00:39,450
+of the error.
+
+13
+
+00:00:39,450  -->  00:00:41,730
+Alright, so, if I restart the application
+
+14
+
+00:00:41,730  -->  00:00:45,050
+then it should look fine.
+
+15
+
+00:00:46,829  -->  00:00:49,140
+No, it doesn't but that's okay because
+
+16
+
+00:00:49,140  -->  00:00:50,969
+this style sheet was built for different
+
+17
+
+00:00:50,969  -->  00:00:54,809
+variables. So, but you'll notice the font
+
+18
+
+00:00:54,809  -->  00:00:57,899
+is actually roboto. I did something
+
+19
+
+00:00:57,899  -->  00:01:01,949
+with the size of the tabs too. So, let me
+
+20
+
+00:01:01,949  -->  00:01:04,699
+undo all that.
+
+21
+
+00:01:08,930  -->  00:01:16,850
+Alright, so, using shortcuts on your
+
+22
+
+00:01:16,850  -->  00:01:19,370
+keyboard actually is a really
+
+23
+
+00:01:19,370  -->  00:01:22,280
+essential part of any application
+
+24
+
+00:01:22,280  -->  00:01:23,930
+nowadays, and so we're going to be doing
+
+25
+
+00:01:23,930  -->  00:01:25,820
+that and we're going to be starting with
+
+26
+
+00:01:25,820  -->  00:01:28,010
+QShortcuts, and I'm going to show you guys
+
+27
+
+00:01:28,010  -->  00:01:30,619
+how to make one and then you guys can
+
+28
+
+00:01:30,619  -->  00:01:33,260
+make other ones for anything else. You
+
+29
+
+00:01:33,260  -->  00:01:35,750
+can also look it up if you'd like to. So
+
+30
+
+00:01:35,750  -->  00:01:41,780
+what we need to import up here is in the
+
+31
+
+00:01:41,780  -->  00:01:44,509
+Qt5 Widgets it's called
+
+32
+
+00:01:44,509  -->  00:01:50,450
+KeySequenceEdit, and QShortcut. So, I'm
+
+33
+
+00:01:50,450  -->  00:01:55,040
+going to type in here QShortcut and
+
+34
+
+00:01:55,040  -->  00:01:59,690
+QKeySequenceEdit, and we need these
+
+35
+
+00:01:59,690  -->  00:02:02,149
+two classes in order to actually create
+
+36
+
+00:02:02,149  -->  00:02:06,649
+shortcuts. So, what we're going to do is
+
+37
+
+00:02:06,649  -->  00:02:08,330
+just create a shortcut that will open a
+
+38
+
+00:02:08,330  -->  00:02:10,369
+new tab, so it's going to be a command
+
+39
+
+00:02:10,369  -->  00:02:14,780
+tab. I'm not sure, I've never tried
+
+40
+
+00:02:14,780  -->  00:02:18,230
+actually on Mac OS where command
+
+41
+
+00:02:18,230  -->  00:02:20,570
+takes the place of control on Windows, so
+
+42
+
+00:02:20,570  -->  00:02:23,600
+I'm going to try it. If it doesn't work
+
+43
+
+00:02:23,600  -->  00:02:26,150
+then I'm going to try another combination
+
+44
+
+00:02:26,150  -->  00:02:28,459
+just so we can get something working,
+
+45
+
+00:02:28,459  -->  00:02:31,610
+but basically it's really easy to do. So,
+
+46
+
+00:02:31,610  -->  00:02:36,140
+let's go ahead and write self.shortcut
+
+47
+
+00:02:36,140  -->  00:02:42,860
+NewTab equals QShortcut, and when we
+
+48
+
+00:02:42,860  -->  00:02:45,410
+instantiate this it takes a key sequence
+
+49
+
+00:02:45,410  -->  00:02:48,140
+which is basically what sequence of keys
+
+50
+
+00:02:48,140  -->  00:02:50,239
+we want pressed in order to target the
+
+51
+
+00:02:50,239  -->  00:02:57,140
+shortcut. So QKeySequence, and we
+
+52
+
+00:02:57,140  -->  00:02:58,850
+actually don't need key sequence edit
+
+53
+
+00:02:58,850  -->  00:03:02,320
+we need QKeySequence, where is that?
+
+54
+
+00:03:07,380  -->  00:03:17,070
+Did I already import it maybe with the
+
+55
+
+00:03:17,070  -->  00:03:21,870
+core? Where did I just write
+
+56
+
+00:03:21,870  -->  00:03:26,010
+that? I can't find it. Oh, it's down here in add
+
+57
+
+00:03:26,010  -->  00:03:30,480
+tabs. What I need to do is actually move
+
+58
+
+00:03:30,480  -->  00:03:36,330
+that way up here in the create app. So
+
+59
+
+00:03:36,330  -->  00:03:39,390
+the QKeySequence doesn't look like
+
+60
+
+00:03:39,390  -->  00:03:42,900
+it got imported, so I'm not sure if I
+
+61
+
+00:03:42,900  -->  00:03:51,000
+imported it with, oh ok, so it's within
+
+62
+
+00:03:51,000  -->  00:03:54,810
+QtGui.
+
+63
+
+00:03:54,810  -->  00:03:59,520
+There we go. Alright, so, where is, alright.
+
+64
+
+00:03:59,520  -->  00:04:01,980
+So we created a new tab shortcut. Now
+
+65
+
+00:04:01,980  -->  00:04:04,770
+we're opening up a
+
+66
+
+00:04:04,770  -->  00:04:06,480
+QShortcut, we're creating an object from
+
+67
+
+00:04:06,480  -->  00:04:09,090
+that, and that takes in one parameter, or two
+
+68
+
+00:04:09,090  -->  00:04:11,520
+parameters rather. The first one is a
+
+69
+
+00:04:11,520  -->  00:04:16,020
+QKeySequence, and the second one is just
+
+70
+
+00:04:16,020  -->  00:04:19,410
+the class name that target's it, so self.
+
+71
+
+00:04:19,410  -->  00:04:22,470
+Now the QKeySequence that we're
+
+72
+
+00:04:22,470  -->  00:04:26,400
+going to tie it is Cmd+T, and it's
+
+73
+
+00:04:26,400  -->  00:04:27,780
+really that easy. If you're on Windows
+
+74
+
+00:04:27,780  -->  00:04:31,980
+you're going to type Ctrl+T.
+
+75
+
+00:04:31,980  -->  00:04:33,630
+I'm on Mac so I'm going to try to make
+
+76
+
+00:04:33,630  -->  00:04:35,730
+this work here. What we need to do is we
+
+77
+
+00:04:35,730  -->  00:04:38,760
+need to connect the activated signal of
+
+78
+
+00:04:38,760  -->  00:04:41,040
+the shortcut to whatever method
+
+79
+
+00:04:41,040  -->  00:04:45,150
+we want to run. So, self.shortcutNewTab.
+
+80
+
+00:04:45,150  -->  00:04:50,370
+activated.connect, and we're
+
+81
+
+00:04:50,370  -->  00:04:54,450
+going to say self.AddTab. I'm going
+
+82
+
+00:04:54,450  -->  00:04:56,520
+to save and run it, and let's see if this works.
+
+83
+
+00:04:56,520  -->  00:05:06,300
+I'm going to go ahead and press command T, and
+
+84
+
+00:05:06,300  -->  00:05:08,470
+nothing happened.
+
+85
+
+00:05:08,470  -->  00:05:15,550
+So let me try, right now let's just Shift+T, and
+
+86
+
+00:05:15,550  -->  00:05:18,880
+this is not a good idea because Shift+T
+
+87
+
+00:05:18,880  -->  00:05:20,680
+is supposed to capitalize it here if
+
+88
+
+00:05:20,680  -->  00:05:24,850
+you're typing something, so there we go.
+
+89
+
+00:05:24,850  -->  00:05:27,700
+Shift+T works, Cmd+T doesn't. Let me
+
+90
+
+00:05:27,700  -->  00:05:31,870
+try setting this to Ctrl, maybe Qt
+
+91
+
+00:05:31,870  -->  00:05:33,700
+is smart enough to recognize well hey
+
+92
+
+00:05:33,700  -->  00:05:36,070
+this is not a Mac. So, we should use command,
+
+93
+
+00:05:36,070  -->  00:05:41,200
+and it does. Okay, so,
+
+94
+
+00:05:41,200  -->  00:05:43,810
+that's how you create a key shortcut
+
+95
+
+00:05:43,810  -->  00:05:45,610
+and it can be for any sequence of keys. You
+
+96
+
+00:05:45,610  -->  00:05:49,360
+can do for developer tools I use ctrl
+
+97
+
+00:05:49,360  -->  00:05:49,900
+shift
+
+98
+
+00:05:49,900  -->  00:05:53,170
+i in my Python browser that I already
+
+99
+
+00:05:53,170  -->  00:05:56,650
+built. Let's do a reload as well.
+
+100
+
+00:05:56,650  -->  00:06:04,120
+self.shortcutReload equals QShortcut,
+
+101
+
+00:06:04,120  -->  00:06:15,190
+QKeySequence, we'll say Ctrl+R, and
+
+102
+
+00:06:15,190  -->  00:06:17,140
+it's gonna be a shortcut on this
+
+103
+
+00:06:17,140  -->  00:06:19,540
+itself. And we're going to say self.
+
+104
+
+00:06:19,540  -->  00:06:21,580
+shortcut
+
+105
+
+00:06:21,580  -->  00:06:26,890
+Reload.activated.connect to self.
+
+106
+
+00:06:26,890  -->  00:06:34,180
+ReloadPage. So if I save this and
+
+107
+
+00:06:34,180  -->  00:06:36,600
+run it again
+
+108
+
+00:06:39,390  -->  00:06:42,630
+I'm going to press
+
+109
+
+00:06:42,630  -->  00:06:46,290
+Command+T, it opens up a new tab, and I'm going
+
+110
+
+00:06:46,290  -->  00:06:48,660
+to hit Command+R and you are going to see that it
+
+111
+
+00:06:48,660  -->  00:06:51,810
+refreshes it. So what we're going to be
+
+112
+
+00:06:51,810  -->  00:06:56,370
+talking about in the next video, I think
+
+113
+
+00:06:56,370  -->  00:06:58,170
+actually we've learned everything that
+
+114
+
+00:06:58,170  -->  00:06:59,880
+we really need to learn to make a web
+
+115
+
+00:06:59,880  -->  00:07:02,010
+browser and to get you guys familiar with
+
+116
+
+00:07:02,010  -->  00:07:05,370
+how Qt works. Essentially, you're taking
+
+117
+
+00:07:05,370  -->  00:07:09,390
+widgets, you're setting a layout, and then
+
+118
+
+00:07:09,390  -->  00:07:11,730
+you're stuffing other widgets into those
+
+119
+
+00:07:11,730  -->  00:07:15,030
+layouts. That's essentially all Qt5
+
+120
+
+00:07:15,030  -->  00:07:17,130
+is, and you can do really
+
+121
+
+00:07:17,130  -->  00:07:19,830
+awesome stuff with it. Now if you had a
+
+122
+
+00:07:19,830  -->  00:07:22,050
+icon here, let me just go try and
+
+123
+
+00:07:22,050  -->  00:07:29,640
+download a blank image, so logo png.
+
+124
+
+00:07:29,640  -->  00:07:40,170
+Sure, let's grab this PlayStation logo. I'm to
+
+125
+
+00:07:40,170  -->  00:07:49,500
+save it into my projects,
+
+126
+
+00:07:49,500  -->  00:07:59,640
+PycharmProjects. It is in,
+
+127
+
+00:07:59,640  -->  00:08:03,240
+what did I call this?
+
+128
+
+00:08:03,240  -->  00:08:08,090
+Web-browser.
+
+129
+
+00:08:10,969  -->  00:08:12,469
+So I'm going to come in here and I'm going to
+
+130
+
+00:08:12,469  -->  00:08:23,299
+save it right here as logo.png. Now when I
+
+131
+
+00:08:23,299  -->  00:08:24,739
+jump over here
+
+132
+
+00:08:24,739  -->  00:08:26,689
+it automatically picks it up. So what you can
+
+133
+
+00:08:26,689  -->  00:08:28,519
+do in the application is you can set the
+
+134
+
+00:08:28,519  -->  00:08:30,139
+app icon, so I'm going to run self.
+
+135
+
+00:08:30,139  -->  00:08:36,289
+setWindowIcon, and then we're going
+
+136
+
+00:08:36,289  -->  00:08:40,250
+to say it's QIcon, and it's going to be
+
+137
+
+00:08:40,250  -->  00:08:43,189
+logo.png. This can be a relative
+
+138
+
+00:08:43,189  -->  00:08:50,120
+path to the logo file itself. Now you'll
+
+139
+
+00:08:50,120  -->  00:08:51,829
+see that the logo got set right here it, it
+
+140
+
+00:08:51,829  -->  00:08:53,870
+should also get set on the dock, but I think
+
+141
+
+00:08:53,870  -->  00:08:56,449
+with Qt5 on Mac OS you have to do some
+
+142
+
+00:08:56,449  -->  00:08:58,790
+different stuff in order to get it to
+
+143
+
+00:08:58,790  -->  00:09:02,600
+set on the dock itself. I know
+
+144
+
+00:09:02,600  -->  00:09:09,050
+with the web browser
+
+145
+
+00:09:09,050  -->  00:09:13,040
+on windows you have to import
+
+146
+
+00:09:13,040  -->  00:09:15,379
+ctypes, then you have to run a command
+
+147
+
+00:09:15,379  -->  00:09:17,689
+up at the top, and I don't
+
+148
+
+00:09:17,689  -->  00:09:19,279
+remember specifically what it is. You
+
+149
+
+00:09:19,279  -->  00:09:21,439
+need to setup an app ID, essentially, and
+
+150
+
+00:09:21,439  -->  00:09:24,199
+then that will let it set the taskbar
+
+151
+
+00:09:24,199  -->  00:09:27,079
+icon from whatever you set right here. So,
+
+152
+
+00:09:27,079  -->  00:09:30,680
+I think that's it with Qt5. I hope you
+
+153
+
+00:09:30,680  -->  00:09:32,600
+guys enjoyed this and we're going to be
+
+154
+
+00:09:32,600  -->  00:09:36,139
+getting to data visualization I think
+
+155
+
+00:09:36,139  -->  00:09:38,480
+next, and then we'll come back, we'll
+
+156
+
+00:09:38,480  -->  00:09:42,649
+circle back around, to some other GUI
+
+157
+
+00:09:42,649  -->  00:09:46,279
+libraries, or I mean this is
+
+158
+
+00:09:46,279  -->  00:09:47,029
+probably fine.
+
+159
+
+00:09:47,029  -->  00:09:48,860
+So, what we'll do is we'll do some data
+
+160
+
+00:09:48,860  -->  00:09:51,559
+visualization and then i would like to
+
+161
+
+00:09:51,559  -->  00:09:56,740
+start on making video games in Python.

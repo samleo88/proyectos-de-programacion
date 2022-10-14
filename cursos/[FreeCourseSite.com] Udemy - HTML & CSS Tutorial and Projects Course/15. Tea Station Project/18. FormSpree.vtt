@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.300 --> 00:06.220
+Normally this is where we would stop so we would set up the HDMI form then style the form.
+
+00:06.390 --> 00:11.820
+But there's no way for us to collect the values because we haven't hooked up any BHP or any kind of
+
+00:11.820 --> 00:12.900
+back in language.
+
+00:12.900 --> 00:18.910
+However thanks to an awesome service called Formspring we can actually fix that.
+
+00:18.930 --> 00:21.390
+So how we can do that as always.
+
+00:21.390 --> 00:25.930
+Let's head over to our good old friend Google and you're going to write Formspring.
+
+00:26.070 --> 00:30.820
+You don't have to sign up for anything you don't have to pay anything you don't have to leave the card.
+
+00:30.830 --> 00:33.720
+No you don't need to leave your grandmas name.
+
+00:33.720 --> 00:34.800
+You don't need to do anything.
+
+00:35.190 --> 00:41.850
+The only thing you need is to get an action attribute with the value of Formspring and then the email
+
+00:41.850 --> 00:42.830
+you would like to use.
+
+00:43.080 --> 00:47.310
+And also you would need to use the method of post obviously later on.
+
+00:47.310 --> 00:52.970
+They have the plans if you like the service and all that but just for testing or just for right or no
+
+00:52.980 --> 00:57.170
+small use you can freely use it and nobody is gonna do anything.
+
+00:57.570 --> 01:02.670
+So what happens is what I would like to do is just grab this action for you right now as well as the
+
+01:02.670 --> 01:10.110
+method with the post and we all gonna head over to our text editor then I'm gonna find within the indexation
+
+01:10.110 --> 01:16.020
+email remember we have the form and for now we just have the form group which is used for styling.
+
+01:16.320 --> 01:21.500
+Right now what I'm gonna do is I'm gonna copy and paste it values as well as I would like to enter the
+
+01:21.500 --> 01:22.290
+email.
+
+01:22.380 --> 01:26.140
+I'm gonna be entering my email if you want me to get your forms.
+
+01:26.220 --> 01:32.130
+I mean you can type my email but in general what you need is to type the email where you would like
+
+01:32.130 --> 01:33.150
+to receive those forms.
+
+01:33.900 --> 01:35.740
+So for now I created.
+
+01:35.850 --> 01:43.800
+Right away the email that I'm gonna be using for this I'm gonna say learn code and let's call this tutorial
+
+01:43.800 --> 01:47.810
+that is gonna be my email and this is not gonna be at email not common.
+
+01:47.820 --> 01:52.050
+This is gonna be in fact had g mail that come moment we say it.
+
+01:52.260 --> 01:58.920
+I'm gonna head over back to our testing site and let's say that there is going to be John Smale.
+
+01:59.250 --> 02:06.970
+And then we're going to be looking for e-mail e-mail at e mail dot com.
+
+02:07.500 --> 02:14.260
+So some kind of e-mail and the message would be Hey buddy let's just put maybe a few exclamation marks
+
+02:14.650 --> 02:16.660
+now the moment we're going to click save.
+
+02:16.770 --> 02:18.120
+Notice what's going to happen.
+
+02:18.160 --> 02:21.590
+So first of all it says okay your form needs active rotation.
+
+02:21.640 --> 02:27.280
+Now I'm going to be looking at my inbox and I can see that I got already the mail from Formspring so
+
+02:27.280 --> 02:30.730
+I can just open this up and the way this is going to work.
+
+02:30.850 --> 02:33.100
+We need to look for activate the form.
+
+02:33.490 --> 02:36.940
+So now we're going to activate the form and now it says awesome.
+
+02:37.120 --> 02:40.640
+The form is active so we can head over back to the local host.
+
+02:40.660 --> 02:44.920
+And by the way right away tell you now what happens here is that they'll let us know.
+
+02:44.980 --> 02:45.600
+OK.
+
+02:45.730 --> 02:49.940
+You have the new form submission the name whatever name we put.
+
+02:49.990 --> 02:51.380
+Then we had an e-mail.
+
+02:51.430 --> 02:55.920
+Actually some e-mail and then we're here having the message of hey buddy.
+
+02:56.320 --> 02:59.010
+And the neat thing is that we can use it on both.
+
+02:59.230 --> 03:03.330
+We can use it here even on our local environment as well as the moment.
+
+03:03.340 --> 03:06.440
+We're going to set it up everything on a notify.
+
+03:06.550 --> 03:08.500
+We can still get the forms.
+
+03:08.560 --> 03:14.500
+There is also a nice feature on a metal file you can actually do it on the actual notify service but
+
+03:14.500 --> 03:19.280
+we're not going to cover this right now we're probably going to look at it at later projects when we're
+
+03:19.300 --> 03:22.720
+working with like flex box or grid or something like that.
+
+03:22.720 --> 03:27.520
+For now we're just gonna deal with the Formspring and with the fact that we're literally one line of
+
+03:27.520 --> 03:28.150
+code.
+
+03:28.300 --> 03:29.970
+Now we can get the form.
+
+03:29.970 --> 03:34.500
+So again we don't need to do any kind of BHP setup or anything like that.
+
+03:34.630 --> 03:37.630
+We just set up this one line and we're gonna be getting our forms.
+
+03:37.630 --> 03:43.470
+Well obviously you need to activate it and all that but I mean it kind of is understandable right.
+
+03:43.570 --> 03:44.920
+What else what else.
+
+03:45.310 --> 03:49.110
+What's gonna happen is the moment we're gonna place it on a little fly.
+
+03:49.510 --> 03:51.040
+They're all gonna send another one.
+
+03:51.140 --> 03:57.250
+And the first time you're gonna submit the form you're gonna have to do another confirmation because
+
+03:57.250 --> 03:58.540
+the basic idea is like this.
+
+03:58.540 --> 04:03.860
+So for this site now at the moment this is gonna be connected to the local host.
+
+04:03.880 --> 04:11.260
+However the moment we're gonna upload it to notify then we're gonna be able to connect it from Myrtleford.
+
+04:11.560 --> 04:18.140
+So that way you can also get the form submissions as the site is gonna be live on and live right.
+
+04:18.400 --> 04:24.970
+If you want to discover it a little bit more so let's say first of all they say setup is easy no registration
+
+04:24.970 --> 04:30.940
+and all that just an action attribute and all that and this is where I said that the name attribute
+
+04:31.000 --> 04:36.850
+is important because that's the whole way how we actually collected the values and by the way this is
+
+04:36.850 --> 04:44.170
+how you would do exactly the same with BHP where you would be collecting whatever is in these name attributes.
+
+04:44.230 --> 04:49.390
+So for the name attribute with a value of name you're gonna be collecting that value and so on and so
+
+04:49.390 --> 04:50.060
+forth.
+
+04:50.080 --> 04:53.770
+So let's say what is serving here this form needs active attention.
+
+04:54.350 --> 04:56.950
+Yeah we can just do it like this.
+
+04:57.150 --> 04:58.860
+You can say I'm not a robot.
+
+04:59.020 --> 05:00.980
+That's one thing that they're gonna tell you.
+
+05:01.060 --> 05:03.430
+And then we can return to original site.
+
+05:03.790 --> 05:10.320
+So now I can do as many form submissions as you like and you're gonna be getting it in e-mail and noticed
+
+05:10.330 --> 05:11.780
+right now I'm getting my email.
+
+05:11.950 --> 05:12.800
+Awesome.
+
+05:12.800 --> 05:14.180
+And just delete it.
+
+05:14.200 --> 05:15.010
+What else what else.
+
+05:15.010 --> 05:22.270
+Well regarding their documentation if you need more information again you can go to form setup.
+
+05:22.510 --> 05:26.300
+You can go to promoting articles at this point in time.
+
+05:26.380 --> 05:31.710
+Again I don't see the point of covering this because this is strictly age the amount he assessed course
+
+05:31.730 --> 05:34.560
+so this is out of the scope of the course.
+
+05:34.570 --> 05:42.670
+However I did want to show you a nice little feature by the name of Formspring which allows you to actually
+
+05:42.670 --> 05:48.160
+submit the values the form and more importantly you can collect these values with any kind of hassle
+
+05:48.160 --> 05:50.200
+or back and languages like BHP.

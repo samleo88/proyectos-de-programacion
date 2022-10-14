@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.060 --> 00:03.870
+Our next project is going to be called Codemasters.
+
+00:03.870 --> 00:05.840
+So what we're going to be building over here.
+
+00:06.060 --> 00:09.980
+Well first things first you can see that again we're going to have a now.
+
+00:10.150 --> 00:13.100
+And so here we're going to have all of them.
+
+00:13.140 --> 00:14.660
+These are going to be the links.
+
+00:14.670 --> 00:20.970
+And as I'm covering all the links right the color changes here and the background and I know he'll going
+
+00:20.970 --> 00:21.870
+to have a font.
+
+00:21.870 --> 00:22.680
+Awesome.
+
+00:22.680 --> 00:27.140
+All right so the font answer my cousins over here are going to be our social media icons.
+
+00:27.150 --> 00:29.780
+However if I go here to the smaller screen.
+
+00:29.790 --> 00:30.540
+Right.
+
+00:30.540 --> 00:34.270
+First you are going to see that how they see Fluxbox is working right.
+
+00:34.460 --> 00:37.080
+Or here you can see that how they're actually rapping.
+
+00:37.190 --> 00:43.380
+And if I go to the smaller screen right now we're actually left with only a button right the links are
+
+00:43.380 --> 00:43.910
+gone.
+
+00:43.930 --> 00:44.400
+Right.
+
+00:44.400 --> 00:47.300
+So here now we don't have any phantasms.
+
+00:47.370 --> 00:48.920
+We only have the links here.
+
+00:48.970 --> 00:49.360
+Right.
+
+00:49.560 --> 00:53.570
+So the phantasms are only going to be appearing on the bigger screen.
+
+00:53.600 --> 00:54.400
+All right.
+
+00:54.570 --> 00:59.810
+We're going to look at how we can create this effect where actually once we click the button or here
+
+00:59.830 --> 01:03.660
+right you can see that actually the links are here right.
+
+01:03.660 --> 01:05.990
+You can see that the bars are changing.
+
+01:06.190 --> 01:08.270
+All right so it's not just clicking the button.
+
+01:08.280 --> 01:09.490
+Nothing is happening.
+
+01:09.550 --> 01:13.850
+But over here you can see that these bars are transforming.
+
+01:14.160 --> 01:18.510
+And once we're done with the number few more things that we can actually add.
+
+01:18.510 --> 01:18.970
+All right.
+
+01:19.190 --> 01:21.510
+So we're scrolling down.
+
+01:21.510 --> 01:21.990
+You can see it.
+
+01:22.020 --> 01:24.480
+We're going to look at how we can have this effect.
+
+01:24.480 --> 01:24.910
+All right.
+
+01:24.940 --> 01:29.360
+Well there's going to be a darker background all right for the home bar.
+
+01:29.610 --> 01:32.280
+And also we're going to have a smooth scrolling.
+
+01:32.370 --> 01:38.940
+So if I press over here you can see that it's going to scroll to skills that is going to scroll to about
+
+01:39.470 --> 01:44.210
+and are we're going to have a project and all of this is going to be pretty.
+
+01:44.280 --> 01:44.560
+All right.
+
+01:44.600 --> 01:52.710
+So basically when I look at how we can use a smooth scrolling and also how we can how to here this background
+
+01:52.710 --> 01:59.010
+for the number only when it's at a certain point in our document then after that we're going to have
+
+01:59.100 --> 02:05.100
+a banner around here where we're actually going to look at how we can create a card like this.
+
+02:05.100 --> 02:05.770
+Right.
+
+02:05.790 --> 02:07.600
+This is going to be the name over here.
+
+02:07.700 --> 02:11.100
+And then this is going to be on here our skills section.
+
+02:11.100 --> 02:15.820
+We're going to look at how we can create these kind of borders here and this right.
+
+02:16.050 --> 02:20.000
+And you can see that we're going to be using a C Ss fluxbox.
+
+02:20.040 --> 02:24.360
+And since it's great to actually get them side by side.
+
+02:24.360 --> 02:27.290
+Now the borders are only going to be appearing on the bigger screen.
+
+02:27.300 --> 02:27.860
+Right.
+
+02:27.930 --> 02:30.210
+But you can see that it's still going to be responsive.
+
+02:30.210 --> 02:35.550
+So if I got the smaller screen right you can see that there are going to be one and after that once
+
+02:35.730 --> 02:37.410
+we got to the bigger screen right.
+
+02:37.410 --> 02:39.590
+Actually two of them side by side.
+
+02:39.630 --> 02:45.830
+Then after that we're going to look at a clip path of how we can create or hear this type of image right.
+
+02:45.840 --> 02:49.560
+So the image is in the background then we have side by side next door here.
+
+02:49.560 --> 02:56.570
+However right now the image actually has a border shape right so I'm starting to slant it right.
+
+02:56.640 --> 02:59.420
+So it's not straight up it's actually slanted.
+
+02:59.550 --> 03:03.780
+And after that we're going to use a grid to create this kind of effect.
+
+03:03.780 --> 03:04.260
+Right.
+
+03:04.290 --> 03:08.130
+So you can see they're We're going to have a masonry effect but you can see that it's not going to be
+
+03:08.130 --> 03:09.910
+straight up even just side by side.
+
+03:09.930 --> 03:10.570
+Right.
+
+03:10.590 --> 03:16.560
+We're going to look at actually how we can create this type of masonry where the images are changing
+
+03:16.560 --> 03:20.150
+the size right and changing that with this right.
+
+03:20.190 --> 03:25.150
+Also some of the images right you can see that we're going to have these background effect right.
+
+03:25.250 --> 03:30.270
+Or basically as was crawling up and down right you can see the image states now but it's not the case
+
+03:30.270 --> 03:31.090
+for all.
+
+03:31.380 --> 03:36.000
+And obviously a very basic one as we're hovering right the capacity is going to change.
+
+03:36.190 --> 03:41.970
+Then after that this is going to be our team members section and over here we're going to be implementing
+
+03:42.090 --> 03:43.730
+a J.A.G. carousel.
+
+03:43.770 --> 03:44.350
+Right.
+
+03:44.360 --> 03:49.950
+And on here we're going to look at how it looks when let's say all five items on a bigger screen.
+
+03:49.960 --> 03:50.410
+Right.
+
+03:50.550 --> 03:56.150
+Because by default that AJ query how plug in actually is responsive.
+
+03:56.190 --> 03:59.340
+All right so what's happening that if we go let's say them the small screen.
+
+03:59.490 --> 04:05.640
+We only have three of them right and we're not going to be using a C Ss fluxbox for right or great.
+
+04:05.670 --> 04:07.740
+It's actually going to be built in Jake.
+
+04:07.750 --> 04:08.750
+All right.
+
+04:08.790 --> 04:13.610
+And also we're going to look at how we can style these buttons right to the colors that we want.
+
+04:13.620 --> 04:14.050
+Right.
+
+04:14.250 --> 04:16.700
+And you can see or hear a lot of Crusoe's work.
+
+04:16.920 --> 04:22.200
+And if we're actually going to go to the small screen right then we're going to have a single element
+
+04:22.500 --> 04:22.970
+like this.
+
+04:23.010 --> 04:23.540
+Right.
+
+04:23.580 --> 04:27.430
+So this is how we can actually do this with our Carrousel.
+
+04:27.480 --> 04:32.100
+Then after that what we would want to do is repeat with an hour kaso right.
+
+04:32.250 --> 04:35.690
+Here actually going to have a less items here.
+
+04:35.700 --> 04:36.220
+Right.
+
+04:36.240 --> 04:39.570
+So there's is only going to be three of them like this.
+
+04:39.570 --> 04:41.960
+And you can see we're going to make a card.
+
+04:42.000 --> 04:43.490
+This is going to be fun.
+
+04:43.680 --> 04:47.190
+We're going to look at how we can place image all the way in the bottom here.
+
+04:47.190 --> 04:47.770
+Right.
+
+04:47.790 --> 04:49.150
+So it's all the card.
+
+04:49.290 --> 04:51.660
+And as you can see over here this is going to be the background.
+
+04:51.690 --> 04:52.040
+Right.
+
+04:52.200 --> 04:58.080
+But the difference again this is going to have less or here our carso items right.
+
+04:58.080 --> 05:02.340
+So this is not going to have five real it over here we looked at five.
+
+05:02.340 --> 05:04.830
+Here we're going to look at three of them.
+
+05:05.360 --> 05:08.180
+None of them that we don't have a form.
+
+05:08.380 --> 05:10.160
+We're going to have a contact over here.
+
+05:10.160 --> 05:10.550
+Right.
+
+05:10.550 --> 05:13.110
+And this is going to be the input elements over here.
+
+05:13.170 --> 05:13.900
+Right.
+
+05:13.940 --> 05:17.380
+This is going to be our text area and or here on the left hand side.
+
+05:17.380 --> 05:19.330
+This is going to be our contact information.

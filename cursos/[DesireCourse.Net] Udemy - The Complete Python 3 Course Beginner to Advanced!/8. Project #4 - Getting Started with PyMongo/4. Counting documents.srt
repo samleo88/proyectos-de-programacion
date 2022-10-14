@@ -1,0 +1,227 @@
+1
+
+00:00:00,000  -->  00:00:04,529
+Hi guys, welcome back. So I already did
+this video but there was a problem with
+
+2
+
+00:00:04,529  -->  00:00:07,529
+mic so I have to do it again, so if you
+guys see documents in here that you
+
+3
+
+00:00:07,529  -->  00:00:11,160
+don't recall that I created, that's why,
+we're going to go ahead and recreate
+
+4
+
+00:00:11,160  -->  00:00:15,929
+them. Anyway, so let's jump into it. Now I
+realize that in the last video I mean we
+
+5
+
+00:00:15,929  -->  00:00:20,760
+learned a basic amount to effectively use
+PyMongo in an application but there's
+
+6
+
+00:00:20,760  -->  00:00:23,519
+a few more things that I want to talk
+about, so this video is going to contain a
+
+7
+
+00:00:23,519  -->  00:00:28,590
+few of those, and actually i'll go
+through one by one so I'm going to break
+
+8
+
+00:00:28,590  -->  00:00:32,399
+this up into a few videos, now. So the
+first thing we're going to talk about is
+
+9
+
+00:00:32,399  -->  00:00:38,700
+counting documents. So let's go ahead and start a python3 shell, let's "import
+
+10
+
+00:00:38,700  -->  00:00:47,910
+pymongo" and "from pymongo import MongoClient" Now let's set up our client "client
+
+11
+
+00:00:47,910  -->  00:00:53,670
+= MongoClient( )" and again this is
+going to connect on the default host and
+
+12
+
+00:00:53,670  -->  00:00:59,940
+port. I've already got mongodb started, if
+you don't just go ahead and run "brew
+
+13
+
+00:00:59,940  -->  00:01:04,260
+services start mongodb" On Windows it's a little bit different, but you should be
+
+14
+
+00:01:04,260  -->  00:01:07,350
+able to find information on how to start
+
+15
+
+00:01:07,350  -->  00:01:12,869
+mongodb on Windows. So, once we've got the client created let's go ahead and create
+
+16
+
+00:01:12,869  -->  00:01:19,259
+the database variable. So i'm just going
+to write "db = client.mydb" and
+
+17
+
+00:01:19,259  -->  00:01:24,540
+again this is the name of my database.
+Also, if you guys don't have RoboMongo
+
+18
+
+00:01:24,540  -->  00:01:29,430
+I don't think I showed you guys where to
+get it, I mean maybe you figured it out" so
+
+19
+
+00:01:29,430  -->  00:01:37,380
+"robomongo.org" and you just come here
+and download it. They've got versions for
+
+20
+
+00:01:37,380  -->  00:01:47,909
+every system I believe, you're probably
+only going to see versions for your
+
+21
+
+00:01:47,909  -->  00:01:50,399
+system here.
+
+22
+
+00:01:50,399  -->  00:01:59,100
+Yeah, okay. So they've got Windows, Mac, and Linux, if you guys run react OS or
+
+23
+
+00:01:59,100  -->  00:02:04,200
+anything not listed there then you're
+not gonna have much luck with that, but
+
+24
+
+00:02:04,200  -->  00:02:06,479
+that's besides the point.
+
+25
+
+00:02:06,479  -->  00:02:09,899
+So let's go ahead and access our
+collection here, so i'm going to create a
+
+26
+
+00:02:09,899  -->  00:02:13,360
+variable called "Users = to db.users"
+
+27
+
+00:02:13,360  -->  00:02:20,350
+my icloud approval. So, let's go
+ahead and talk about counting documents.
+
+28
+
+00:02:20,350  -->  00:02:24,430
+I'm just going to do something really
+simple here and just count all the
+
+29
+
+00:02:24,430  -->  00:02:34,240
+documents in here. So "Users.find( ).count( )" we
+can see that I've got 8 documents.
+
+30
+
+00:02:34,240  -->  00:02:40,180
+Now, I have few documents with the
+favorite number equal to 445, so if I
+
+31
+
+00:02:40,180  -->  00:02:54,310
+type "Users.find({favorite_number": 445}).count( )" that number is going to
+
+32
+
+00:02:54,310  -->  00:02:58,989
+be different. So you guys can see
+probably already the practical
+
+33
+
+00:02:58,989  -->  00:03:04,989
+applications of this, let's say you're
+trying to sign up accounts with a
+
+34
+
+00:03:04,989  -->  00:03:06,940
+Python script,
+
+35
+
+00:03:06,940  -->  00:03:12,010
+let's say a user opens it up, it asks what
+username they want to use the answer, they enter it,
+
+36
+
+00:03:12,010  -->  00:03:16,300
+and here you can do a count of you know
+you can search for that username in the
+
+37
+
+00:03:16,300  -->  00:03:20,980
+users collection, and if the count is
+greater than zero you know that it already
+
+38
+
+00:03:20,980  -->  00:03:24,970
+exists and they shouldn't be able to use
+that, so then you could route them back.
+
+39
+
+00:03:24,970  -->  00:03:30,670
+So that's what counting is and basically
+you just find a document,
+
+40
+
+00:03:30,670  -->  00:03:35,380
+however you would normally, and then just access this method from that object.

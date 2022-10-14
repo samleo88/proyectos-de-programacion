@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.610 --> 00:05.620
+And our next task is going to be setting up the functionality for toggling.
+
+00:06.100 --> 00:11.770
+So if we head over to a finished project you'll notice that on a smaller screen size I can see only
+
+00:11.800 --> 00:16.710
+the header and only once we click on a button then we can see the links.
+
+00:16.760 --> 00:20.180
+And then again if we click on a button we can hide the links.
+
+00:20.190 --> 00:25.990
+And this would be the case where first and foremost we're going to have to set up some C assessed weeks.
+
+00:25.990 --> 00:32.770
+So first of all let's head over to a style C assess and we're not going to work within the media query
+
+00:33.250 --> 00:35.800
+where we have nine hundred ninety two pixels.
+
+00:35.800 --> 00:41.680
+Instead we're going to work on the smaller screen size map and first of all what I would like to do
+
+00:42.040 --> 00:48.580
+is point out something where if I'm going to head over to my elements and then within the elements we're
+
+00:48.580 --> 00:51.520
+going to find our NAV links.
+
+00:51.520 --> 00:55.440
+We would like to get first of all the height of my nav links.
+
+00:55.600 --> 00:58.590
+So let's navigate navigate.
+
+00:58.660 --> 01:00.250
+Let's see now links.
+
+01:00.280 --> 01:08.290
+So let me scroll up here on my page and you're going to notice that if in fact we hover over it we can
+
+01:08.290 --> 01:11.320
+see that the width is four hundred nineteen.
+
+01:11.470 --> 01:14.200
+And with of course is changing.
+
+01:14.200 --> 01:20.380
+So if we're gonna make our screen size bigger or smaller with is going to change however what is not
+
+01:20.380 --> 01:27.670
+going to change is in fact the height and you can see that the height in fact is two hundred and seventy
+
+01:27.670 --> 01:28.260
+one.
+
+01:28.270 --> 01:34.780
+So again if we have over the links notice here on the top and I cannot in fact zoom in over there but
+
+01:35.320 --> 01:39.740
+you've probably noticed that the height is 271.
+
+01:39.830 --> 01:45.640
+And if you can see on my screen you for sure can see on yours where it again gives you the width and
+
+01:45.640 --> 01:46.140
+height.
+
+01:46.330 --> 01:49.250
+And we're interested in that height value.
+
+01:49.300 --> 01:58.870
+So what I would like to do right now is in fact just add a comment of height being to 71 I believe 43
+
+01:59.650 --> 02:03.000
+or something like that again let me double check now links.
+
+02:03.010 --> 02:03.270
+Yeah.
+
+02:03.280 --> 02:05.670
+271 43.
+
+02:05.680 --> 02:07.540
+That is the height that I'm interested.
+
+02:07.540 --> 02:13.360
+So first of all what I would like to do in my C assess is hide these links by default.
+
+02:13.360 --> 02:15.130
+So the moment when page loads.
+
+02:15.130 --> 02:21.280
+I would like to hide links just like I have in the finished project and the way we do that is first
+
+02:21.280 --> 02:23.570
+of all by targeting the links.
+
+02:23.570 --> 02:30.850
+Remember that was the class in fact or NAV links and let's just say now links and first of all we're
+
+02:30.850 --> 02:34.010
+going to say height is supposed to be zero.
+
+02:34.030 --> 02:35.580
+That's step number one.
+
+02:35.590 --> 02:40.440
+But even though we do that notice we still can technically see the links.
+
+02:40.660 --> 02:45.930
+And in order to fix that we're gonna have to add a overflow of here like so.
+
+02:46.270 --> 02:47.860
+So now the links are here.
+
+02:48.100 --> 02:53.920
+Then once we have set up this height of 0 on our flow here and we're gonna have to come up with the
+
+02:53.920 --> 03:01.570
+class that we're gonna be able to add dynamically just when we click on a button then this class is
+
+03:01.570 --> 03:03.520
+going to be applied for my legs.
+
+03:03.640 --> 03:06.760
+So I'm going to call this class show links.
+
+03:06.790 --> 03:13.240
+And again if you are using the javascript code that I'm providing I would suggest in fact using the
+
+03:13.240 --> 03:14.550
+same naming.
+
+03:14.620 --> 03:15.340
+Okay.
+
+03:15.370 --> 03:20.880
+And then this is the case where I'm going to setup height of whatever value we had over here.
+
+03:20.920 --> 03:28.090
+So my one was 271 point forty three pixels.
+
+03:28.560 --> 03:34.380
+And let me just show you right away manually how it's going to look like.
+
+03:34.470 --> 03:41.880
+So if we're going to head over back to the NAV links I'm just showing you how it's gonna work without
+
+03:41.880 --> 03:48.330
+javascript and let's say manually where we have the NAV links if we would head over there and add the
+
+03:48.330 --> 03:51.930
+class that we just created our links are gonna be shown.
+
+03:51.930 --> 03:58.490
+So if I'm going to type in show links you're going to notice that my links are in fact.
+
+03:58.680 --> 04:03.830
+Now if I'm going remove this class well the links are going to be hidden.
+
+04:03.930 --> 04:05.900
+So that is going to be our success.
+
+04:05.910 --> 04:11.190
+Now one last thing that I would like to add is in fact transition because I would like this change to
+
+04:11.190 --> 04:17.880
+happen over time not instantly because as you see in the final project we have this nice smooth effect
+
+04:18.360 --> 04:20.700
+not just toggling in between now.
+
+04:21.150 --> 04:29.430
+So the way we do that is again where we have the now links let's just add our transition let's say transition
+
+04:30.030 --> 04:36.720
+and we have the variable for that main transition like so let's save that.
+
+04:36.750 --> 04:43.970
+And now again let's start out by just doing it manually where we had a class of show links and that
+
+04:43.970 --> 04:44.880
+said we have the links.
+
+04:44.880 --> 04:46.700
+Now it's not going to show right now.
+
+04:46.710 --> 04:50.500
+The nice smooth transition the worry it's going to show once we have the javascript.
+
+04:50.670 --> 04:55.920
+But again just to show you this is in fact what we're going to do with JavaScript we're in fact going
+
+04:55.920 --> 04:58.800
+to target this particular class.
+
+04:58.800 --> 05:03.510
+But in fact we're going to use the idea but it is the same element and does matter and we're just going
+
+05:03.510 --> 05:11.210
+to add this class dynamically using JavaScript not once we have our CSA setup.
+
+05:11.310 --> 05:15.320
+Why don't we head over to app J.S. now instead of elements.
+
+05:15.390 --> 05:20.360
+I'm going to focus on a console right now because I'm going to show you kind of a one of the neat ways
+
+05:20.360 --> 05:26.670
+how we can always check whether our logic is going to work meaning her logic can still fail but I'm
+
+05:26.670 --> 05:31.620
+going to show you the first step that usually lets people down.
+
+05:31.840 --> 05:32.430
+OK.
+
+05:32.610 --> 05:36.660
+Now within the app James why don't we first right now toggle.
+
+05:36.900 --> 05:38.420
+So let's set up the comment.
+
+05:38.430 --> 05:41.830
+Let's right now toggle and let's target two things.
+
+05:42.000 --> 05:47.970
+We're going to target our toggle button and remember the I.D. was nav toggle.
+
+05:48.300 --> 05:53.910
+And by the way I need to add here I found some reason I skipped on a hyphen and do need to have the
+
+05:53.910 --> 05:54.300
+hyphen.
+
+05:54.300 --> 05:57.630
+So the idea is nav hyphen toggle.
+
+05:57.720 --> 05:58.720
+That's number one.
+
+05:58.830 --> 06:03.830
+And then we're going to target the I.D. by the value of NAV links.
+
+06:03.840 --> 06:04.490
+OK.
+
+06:04.560 --> 06:05.850
+Both of these things.
+
+06:05.850 --> 06:13.430
+So again let's set up some variables nav between is going to be document document.
+
+06:13.560 --> 06:15.970
+Get element by I.D..
+
+06:16.290 --> 06:21.380
+And like I said we're going to target our NAV toggle toggle.
+
+06:21.420 --> 06:22.810
+That's number one.
+
+06:22.940 --> 06:29.910
+And I'm going to copy and paste that and in fact we're going to write here links lengths and in this
+
+06:29.910 --> 06:37.150
+case I am going to use the NAV links so let's right now link Sandy.
+
+06:37.250 --> 06:42.980
+Like I said I would like to right away show you that we can use our console log function just to check
+
+06:42.980 --> 06:50.720
+whether we are selecting correct elements because we can write all the logic in the world if our selectors
+
+06:50.720 --> 06:54.620
+here in this case are wrong or are pointing to a different element.
+
+06:54.770 --> 07:01.110
+While our logic is not gonna make any sense or at least is not going to work the way we intend to.
+
+07:01.490 --> 07:07.280
+So first of all let's look for her variable not button and then let's look for a link whether we are
+
+07:07.280 --> 07:14.790
+targeting the correct variables let's say that and you're going to notice that here I have the No.
+
+07:15.050 --> 07:21.350
+Now that is the perfect example of something not working so I am looking for the NAV toggle but it is
+
+07:21.350 --> 07:22.300
+not working.
+
+07:22.400 --> 07:28.180
+Now the reason why it's not working because I changed my idea to NAV toggle but I didn't say that.
+
+07:28.220 --> 07:33.470
+Now the moment I say that I do have the button so again that is the perfect example where you could
+
+07:33.470 --> 07:37.790
+have some kind of error or your logic is not going to make sense.
+
+07:37.970 --> 07:45.320
+If in fact you are not targeting the correct element now in my case I had pretty much an error because
+
+07:45.320 --> 07:51.080
+I was looking for the idea that doesn't exist because I didn't save my indexation email and that way
+
+07:51.080 --> 07:56.090
+again I could set up some kind of logic but nothing would have worked because in fact I wasn't targeting
+
+07:56.090 --> 08:02.210
+the element now correctly we're targeting two things we're targeting our button and Norris chose here
+
+08:02.510 --> 08:08.060
+our awesome button the toggle button and then we have the links so I know that OK.
+
+08:08.150 --> 08:13.730
+At least initially everything is working fine since we are selecting both of the elements.
+
+08:13.730 --> 08:14.540
+All right.
+
+08:14.540 --> 08:21.800
+Now last we would like to have a event listener so bad event listener.
+
+08:21.800 --> 08:24.400
+So we'd like to add event listener for the button.
+
+08:24.620 --> 08:27.630
+So each and every time we're gonna click the button.
+
+08:27.650 --> 08:31.610
+In fact we're gonna set up the functionality and the way it's going to work.
+
+08:31.730 --> 08:39.410
+Since we have right now our element in our variable so let's right now button then we have our method
+
+08:39.410 --> 08:46.340
+by the value of the event listener and then within the allowed event listener we have to pass two things.
+
+08:46.430 --> 08:48.840
+What kind of event we're going to listen to.
+
+08:48.840 --> 08:54.610
+And the second one the callback function one in fact that event takes place.
+
+08:54.890 --> 08:57.830
+So I'm going to use the arrow function here and I'm going to say all right.
+
+08:57.860 --> 09:04.330
+So once we click on this now button again we can always just start by console logging.
+
+09:04.340 --> 09:11.950
+Hey you click the button I'm not save that.
+
+09:12.010 --> 09:16.650
+And now every time we're gonna click the button notice and console.
+
+09:16.660 --> 09:18.670
+Gonna have Hey you click the button.
+
+09:18.670 --> 09:19.510
+Awesome.
+
+09:19.510 --> 09:24.960
+So we know that again one step further and everything is working.
+
+09:25.090 --> 09:28.520
+So the last thing is we just need to set up this class.
+
+09:28.600 --> 09:33.670
+Remember this class of show links that we wanted to add dynamically.
+
+09:33.670 --> 09:36.560
+So what I'm gonna do right now is I'm going to say you know what.
+
+09:36.580 --> 09:42.590
+I also selected the links and I have an option of using class list property.
+
+09:42.760 --> 09:46.120
+And on the clerks list I have the method of toggle.
+
+09:46.120 --> 09:51.850
+And here I just specifically need to say well which class I would like to toggle and the class name
+
+09:51.850 --> 09:54.310
+is show links.
+
+09:54.370 --> 09:59.970
+Remember that is the class that we added in our show says so let me save this.
+
+09:59.980 --> 10:05.410
+Now let me head over to a bigger browser window because I would just like to point out how we're gonna
+
+10:05.440 --> 10:07.920
+be toggling in fact that particular class.
+
+10:08.410 --> 10:11.010
+And you know what I'm gonna do it on a small screen size anyway.
+
+10:11.020 --> 10:12.600
+So I guess it doesn't matter.
+
+10:12.640 --> 10:18.780
+So now let me go back to a elements and now noticed something interesting about NAV links.
+
+10:19.150 --> 10:22.840
+You can see that I have this div with the NAV links.
+
+10:22.840 --> 10:29.530
+Now notice what happens once in fact we click on the button we have right now not only the now links
+
+10:29.530 --> 10:32.420
+class but we also have a show links.
+
+10:32.580 --> 10:35.590
+And that's the reason why my links are displayed.
+
+10:35.590 --> 10:42.490
+Now once we click on it again dynamically we removed this class so same thing like we did before when
+
+10:42.490 --> 10:46.340
+we manually added that show links to NAV links.
+
+10:46.370 --> 10:48.610
+Now we're just doing it using javascript.
+
+10:48.610 --> 10:53.120
+So once we click on it we add showings once we click one more time.
+
+10:53.260 --> 11:00.430
+We just hide Alex so successfully guys we have added our toggle functionality to our project.

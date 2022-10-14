@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.450 --> 00:06.950
+And once we have covered justify content that was responsible for aligning our items horizontally next
+
+00:07.010 --> 00:14.310
+one up we're going to take a look at the online content that is responsible for aligning our items vertically.
+
+00:14.310 --> 00:22.630
+And also since CSX says grid is in fact using implicit grid meaning as we keep on adding items.
+
+00:22.710 --> 00:26.230
+Grid is smart and it just keeps on adding rows.
+
+00:26.400 --> 00:33.720
+Technically if we wouldn't want to we can align our items without specifically setting up any kind of
+
+00:33.720 --> 00:34.280
+rows.
+
+00:34.440 --> 00:40.710
+So I can show you right away that let's say if I'm gonna go with online content and I'm going to go
+
+00:40.710 --> 00:42.080
+with the value of center.
+
+00:42.090 --> 00:45.900
+Notice how my items are nicely sitting in the center.
+
+00:45.900 --> 00:52.050
+Now one thing we need to keep in mind though that when we are working with aligning items vertically
+
+00:52.380 --> 00:54.820
+we for sure need to have a height.
+
+00:54.890 --> 00:56.760
+So since we have hundred percent right now.
+
+00:56.940 --> 00:59.120
+That's the reason why everything is work.
+
+00:59.220 --> 01:02.910
+If it wouldn't be height so if there wouldn't be any kind of height.
+
+01:03.000 --> 01:04.570
+Well it wouldn't work.
+
+01:04.590 --> 01:11.130
+Now I also would like let you know that by default we have the stretch and I guess the best way to show
+
+01:11.130 --> 01:17.460
+that is let's say if I'm going to comment on these last three items and if we're just going to comment
+
+01:17.460 --> 01:25.110
+out also our center you're going to notice that our columns are stretching all the way from the top
+
+01:25.200 --> 01:26.460
+to a bottom.
+
+01:26.460 --> 01:32.310
+Now of course what happens since we're adding more rows than they are just dividing that space that
+
+01:32.310 --> 01:33.450
+we already had.
+
+01:33.450 --> 01:34.140
+Correct.
+
+01:34.140 --> 01:37.530
+But by default you're going to have this stretch behavior.
+
+01:37.530 --> 01:43.080
+So even though I haven't added a stretch while I still have that behavior.
+
+01:43.110 --> 01:49.860
+So if we're going to test it out let's say a line content and I'm gonna go ahead stretch notice nothing
+
+01:49.860 --> 01:56.880
+is going to change now so let me comment it out so we can keep on working and right after the stretch
+
+01:57.300 --> 02:00.170
+I'm going to take a look at the Flex start.
+
+02:00.300 --> 02:07.050
+So let's say a line content and then let's write flex start something like that.
+
+02:07.050 --> 02:10.520
+So now my columns are all the way on the top.
+
+02:10.590 --> 02:14.580
+Now I also like to let you know that of course we could set up our rows.
+
+02:14.790 --> 02:20.110
+So let's say a grid template rows numbers in a couple with some kind of values.
+
+02:20.190 --> 02:23.720
+So let's say 200 pixels and 200 pixels.
+
+02:23.850 --> 02:28.170
+But if I wouldn't want to I could just keep my auto ones as well.
+
+02:28.170 --> 02:35.520
+It is not against the law so let's write flex and now my items are going to sit all the way in the bottom.
+
+02:35.520 --> 02:41.670
+Cause we can copy paste that and check it out the values then we have space around space between as
+
+02:41.670 --> 02:46.800
+well as the space evenly also probably should be there but oversea.
+
+02:47.250 --> 02:49.870
+So let's write space around.
+
+02:49.920 --> 02:53.960
+So now we have some space around space between.
+
+02:54.230 --> 02:59.520
+Now we have space between and let's try it out space evenly.
+
+02:59.520 --> 03:01.560
+And now we have space evenly.
+
+03:01.650 --> 03:09.270
+So essentially these are the values that we can use when we use online content that is responsible for
+
+03:09.270 --> 03:11.340
+setting up our items vertically.

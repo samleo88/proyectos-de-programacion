@@ -1,0 +1,456 @@
+1
+
+00:00:00,000  -->  00:00:05,069
+Welcome back folks. We were going to do
+some GUI programming and explore those
+
+2
+
+00:00:05,069  -->  00:00:10,290
+libraries in this section, however we're
+actually going to do a different section
+
+3
+
+00:00:10,290  -->  00:00:16,199
+first and this is going to be about
+essential modules and packages to extend
+
+4
+
+00:00:16,199  -->  00:00:19,140
+the programming language of Python
+further from what I can do
+
+5
+
+00:00:19,140  -->  00:00:27,029
+out-of-the-box, and to accomplish some
+common tasks by using Python. So, the
+
+6
+
+00:00:27,029  -->  00:00:32,070
+first one we're going to be covering is
+called requests and this is an HTTP
+
+7
+
+00:00:32,070  -->  00:00:35,430
+library. It's not the only one and it's
+not the best one, but it will be the
+
+8
+
+00:00:35,430  -->  00:00:40,680
+first one that you'll be introduced to
+when learning Python as demonstrated
+
+9
+
+00:00:40,680  -->  00:00:45,539
+here in this course. So, what we're going
+to do when you actually jump into
+
+10
+
+00:00:45,539  -->  00:00:50,399
+terminal here and as you can see I've
+already installed it, but if you haven't
+
+11
+
+00:00:50,399  -->  00:00:58,949
+already manually installed it just type
+"pip3 install requests" it's that simple, and
+
+12
+
+00:00:58,949  -->  00:01:02,940
+i'm going to get an already satisfied
+message because I've already got it
+
+13
+
+00:01:02,940  -->  00:01:07,590
+installed. Now once you get it installed
+you can import it so let's go ahead and
+
+14
+
+00:01:07,590  -->  00:01:15,540
+create a new Python file here. and I'm
+just going to call it "requeststests" You
+
+15
+
+00:01:15,540  -->  00:01:19,140
+can name this file whatever you want,
+just please follow along, and we're going
+
+16
+
+00:01:19,140  -->  00:01:21,869
+to make a very simple HTTP request,
+
+17
+
+00:01:21,869  -->  00:01:26,280
+and get some data back, and do stuff with it. So, let's go ahead and import requests,
+
+18
+
+00:01:26,280  -->  00:01:32,100
+and now we can use that class. So, let's
+go ahead and create a variable called
+
+19
+
+00:01:32,100  -->  00:01:38,579
+"r = requests.get( )" Now there's a few things you can pass
+
+20
+
+00:01:38,579  -->  00:01:44,040
+into this, you can pass in the URL, the
+parameters we will be going over that in
+
+21
+
+00:01:44,040  -->  00:01:48,720
+the next video, and then also some
+headers which can tell the server what
+
+22
+
+00:01:48,720  -->  00:01:53,399
+kind of response you want or exactly what
+you want. So let's go ahead and we're just
+
+23
+
+00:01:53,399  -->  00:02:00,960
+going to ping google here, so "(http://google.com")"
+
+24
+
+00:02:00,960  -->  00:02:08,670
+there we go. So, essentially we're going
+to request the web page associated with
+
+25
+
+00:02:08,670  -->  00:02:12,400
+google.com. So if I were to open up a
+browser here and go to google.com,
+
+26
+
+00:02:12,400  -->  00:02:19,870
+this is the page I will see. Now, of course this also
+
+27
+
+00:02:19,870  -->  00:02:25,209
+has external resources like the logo,
+style sheets, and stuff, but we're not going
+
+28
+
+00:02:25,209  -->  00:02:28,780
+to be grabbing those we're just gonna be
+grabbing straight HTML, and if those
+
+29
+
+00:02:28,780  -->  00:02:34,150
+assets are not included in a relative
+path for example google.ca/images/
+
+30
+
+00:02:34,150  -->  00:02:40,420
+image.PNG and instead they're included
+using a local path, we're not going to be
+
+31
+
+00:02:40,420  -->  00:02:43,810
+able to get these back, and you'll see
+what I mean in just a moment.
+
+32
+
+00:02:43,810  -->  00:02:47,680
+Now once we've got the request made we
+still haven't done anything with it, so
+
+33
+
+00:02:47,680  -->  00:02:52,569
+first we want to see the HTTP status
+code of this request. So, let's go ahead
+
+34
+
+00:02:52,569  -->  00:03:05,200
+and "print("Status:", )" and how you access this the type of response is we're
+
+35
+
+00:03:05,200  -->  00:03:09,489
+going to use the "r" variable that we created we're going to go and then
+
+36
+
+00:03:09,489  -->  00:03:15,280
+we're just going to type in "r.status_code" So let's save it and
+
+37
+
+00:03:15,280  -->  00:03:18,280
+let's run this script...
+
+38
+
+00:03:19,120  -->  00:03:25,150
+oops...let's do it through here quest
+tests,
+
+39
+
+00:03:25,150  -->  00:03:31,780
+there we go. If you know anything about
+HTTP statuses, and even if you don't
+
+40
+
+00:03:31,780  -->  00:03:33,730
+we're gonna go over right now,
+
+41
+
+00:03:33,730  -->  00:03:39,340
+200 is what you want to see. 200
+basically means it was found, it was
+
+42
+
+00:03:39,340  -->  00:03:47,139
+returned, no problem occurred. So as you see there's, not 200,
+
+43
+
+00:03:47,139  -->  00:03:55,840
+authoritative information, etc. Now 300
+refers to redirects, 400
+
+44
+
+00:03:55,840  -->  00:04:02,949
+represents client errors, so this is
+errors on your, so these are errors on
+
+45
+
+00:04:02,949  -->  00:04:08,349
+the client side. For instance,
+forbidden if your client, if your machine
+
+46
+
+00:04:08,349  -->  00:04:12,790
+does not have access to certain
+resources. 500 is server errors and so on
+
+47
+
+00:04:12,790  -->  00:04:16,180
+and so forth. We're not going to go too
+in depth here it's just this gives you kind
+
+48
+
+00:04:16,180  -->  00:04:21,609
+of an idea of what you're looking at in
+terms of a status code. Well, that's neat, but what
+
+49
+
+00:04:21,609  -->  00:04:25,570
+else can we do with this request? What
+what do we actually have? So if you type
+
+50
+
+00:04:26,200  -->  00:04:34,330
+"r." you can see all the I guess methods or variables of this
+
+51
+
+00:04:34,330  -->  00:04:41,080
+object, and we can actually do quite a
+bit of this. So, we can actually get the
+
+52
+
+00:04:42,070  -->  00:04:48,370
+URL, and this is going to give us the exact URL that we got the response from. So let's
+
+53
+
+00:04:48,370  -->  00:04:55,030
+go ahead and save and run it, and you'll
+see that it populates all this, and if I
+
+54
+
+00:04:55,030  -->  00:05:01,420
+go back to the browser and go to Google,
+click in here, we actually don't see all
+
+55
+
+00:05:01,420  -->  00:05:08,110
+that, but that's what we get returned
+when using a Python. So, the next thing
+
+56
+
+00:05:08,110  -->  00:05:11,560
+we're going to do is actually get the
+content of the page that we've requested and
+
+57
+
+00:05:11,560  -->  00:05:15,820
+this is the most, I guess the most,
+important use case here.
+
+58
+
+00:05:15,820  -->  00:05:19,450
+So what you do is you're just going to
+access the text variable it's built into
+
+59
+
+00:05:19,450  -->  00:05:23,770
+this object. Let's go ahead and run this
+and you'll see it prints out the HTML
+
+60
+
+00:05:23,770  -->  00:05:27,850
+which we're not going to parse through,
+that's going to be another module that
+
+61
+
+00:05:27,850  -->  00:05:31,360
+we're going through called beautiful
+soup, and what that can do is we can then
+
+62
+
+00:05:31,360  -->  00:05:35,590
+pass r.txt in to beautiful soup and
+we can parse it and it makes it really,
+
+63
+
+00:05:35,590  -->  00:05:39,550
+really simple to do stuff with it, so
+that's cool. What we're going to do is
+
+64
+
+00:05:39,550  -->  00:05:43,510
+we're going to write this response into
+an HTML file and then we're going to
+
+65
+
+00:05:43,510  -->  00:05:46,510
+load it up in a browser and see what it
+looks like.
+
+66
+
+00:05:47,380  -->  00:05:55,810
+So we're going to go "f = open("./page.html", "w+")"
+
+67
+
+00:05:55,810  -->  00:06:01,990
+and then "f.write(r.text)" Let's go ahead and
+
+68
+
+00:06:01,990  -->  00:06:07,750
+save this and run it again. Now you'll see
+we've got a new file here, so let's go
+
+69
+
+00:06:07,750  -->  00:06:11,170
+ahead, and I don't think I can open it in a
+browser from here,
+
+70
+
+00:06:12,940  -->  00:06:16,000
+open a browser,
+
+71
+
+00:06:16,510  -->  00:06:21,490
+alright let's go ahead and open it in
+the Safari here, and this is the webpage
+
+72
+
+00:06:21,490  -->  00:06:27,190
+that i have just essentially pulled off
+the servers and saved to a file here. If
+
+73
+
+00:06:27,190  -->  00:06:34,540
+I inspect the element here you're going
+to see that the image is a background
+
+74
+
+00:06:34,540  -->  00:06:38,350
+image and it's a local path, so what this
+is doing now is it looking at the
+
+75
+
+00:06:38,350  -->  00:06:43,420
+root of our computer in this path for
+the file and we don't have it, so it
+
+76
+
+00:06:43,420  -->  00:06:48,250
+shows up like that. I think it would also
+show a lot of not found errors in the
+
+77
+
+00:06:48,250  -->  00:06:53,020
+console. So, that is an introduction to
+requests. We're going to be going quite a
+
+78
+
+00:06:53,020  -->  00:06:56,230
+bit further with this and learning a lot
+of awesome stuff that we can do with the
+
+79
+
+00:06:56,230  -->  00:06:57,160
+requests package.

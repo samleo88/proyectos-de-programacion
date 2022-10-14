@@ -1,0 +1,70 @@
+WEBVTT
+
+00:00.180 --> 00:07.090
+Since it is not our first rodeo we already can guess of what the skew is going to do and the fact this
+
+00:07.090 --> 00:13.380
+cure is going to have again x direction and y direction as well as we can combine them both.
+
+00:13.470 --> 00:17.790
+So I guess we're all going to do the simple one with no one.
+
+00:17.820 --> 00:23.080
+And here I would like to get to work with transform on the right type skill.
+
+00:23.090 --> 00:25.680
+We will get a first look at the x direction.
+
+00:25.710 --> 00:28.420
+And here again we're gonna have to write degrees.
+
+00:28.710 --> 00:32.370
+So if we're going to say 20 degrees this is gonna skew it this way.
+
+00:32.400 --> 00:38.390
+You can also have the negative value and this is gonna skew the other direction with copy and paste
+
+00:38.400 --> 00:44.920
+this and let's say that I would like to have the SKU Y or the second one.
+
+00:44.940 --> 00:51.030
+Now obviously this is gonna be the y plane that's being skewed now last but not least you already guessed
+
+00:51.030 --> 00:56.640
+that that we can do the both of them and let's say here we're gonna be looking for number three and
+
+00:56.640 --> 01:00.360
+that's not what I wanted to do I didn't wanna show you the bigger screen doesn't really matter.
+
+01:00.960 --> 01:06.780
+We can see everything here on a smaller one and let's say I'm gonna go negative 20 degrees or you know
+
+01:06.780 --> 01:06.960
+what.
+
+01:06.960 --> 01:12.630
+Let's do 40 degrees and let's just show you that if I'm not gonna add and no I didn't wanna delete it.
+
+01:12.840 --> 01:19.140
+If I'm not going to add any kind of value in Y direction what happens is that this is not the only skill
+
+01:19.350 --> 01:20.630
+the x direction.
+
+01:20.670 --> 01:21.790
+Don't believe me.
+
+01:21.790 --> 01:25.850
+All I can do the same thing here and now as you can see both of them are exactly the same.
+
+01:26.340 --> 01:31.970
+However if we all gonna add the second value here with degrees this is also gonna spin in the y direction
+
+01:32.460 --> 01:35.460
+so let's start out with 20 degrees.
+
+01:35.550 --> 01:42.660
+And here if we take have a look then we see that this is gonna skewed both directions the y direction
+
+01:42.810 --> 01:44.270
+as well as x direction.

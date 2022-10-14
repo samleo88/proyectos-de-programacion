@@ -1,0 +1,109 @@
+WEBVTT
+
+00:00.180 --> 00:05.450
+And our next topic is going to be what kind of units we can use words here says Green.
+
+00:05.520 --> 00:10.890
+Now please keep in mind when we talk about units we are talking about the pros as well.
+
+00:10.890 --> 00:16.440
+Now I know we haven't covered drones yet essentially how to set up the rules but just please keep in
+
+00:16.440 --> 00:23.220
+mind whatever units we are going to cover with a columns the same ones we can use in fact as well with
+
+00:23.220 --> 00:24.010
+the ropes.
+
+00:24.060 --> 00:26.630
+Now first and foremost we obviously can use pixels.
+
+00:26.760 --> 00:32.490
+We can already clear we see that where let's say we have three column layout and all of them have been
+
+00:32.490 --> 00:34.370
+set up using pixels.
+
+00:34.380 --> 00:38.070
+Now we also have an optional ram an E M.
+
+00:38.130 --> 00:48.210
+So if I'm going to change this to let's say seven RAM and 10 even you're going to notice that I'm still
+
+00:48.210 --> 00:50.180
+going to have my grid.
+
+00:50.550 --> 00:56.880
+Now my columns are obviously smaller because these values are smaller but nothing broke and everything
+
+00:56.880 --> 00:58.620
+works still correctly.
+
+00:58.620 --> 01:04.920
+Now we also have an option of percentages and since we have the implicit grid can just keep on creating
+
+01:04.920 --> 01:07.220
+columns as would like.
+
+01:07.290 --> 01:09.200
+So let's add a 5 percent.
+
+01:09.210 --> 01:11.790
+And sure enough that is going to be my fourth column.
+
+01:11.970 --> 01:17.230
+Now since I only have seven items now of course I have this space blank.
+
+01:17.790 --> 01:20.930
+And then we have auto and fraction.
+
+01:21.090 --> 01:24.000
+Now these ones are very important because they are responsive.
+
+01:24.420 --> 01:31.770
+Now I'm going to leave off the fraction for a simple reason that most likely this is going to be your
+
+01:31.770 --> 01:33.590
+most used unit.
+
+01:33.750 --> 01:39.120
+And I would like to cover it in a bigger detail as well as that is something probably that you see for
+
+01:39.120 --> 01:42.560
+the first time so I would like to spend the whole video on that.
+
+01:42.560 --> 01:42.830
+All right.
+
+01:43.200 --> 01:49.020
+But let's look at the auto and how the fact that auto is responsive really helps us.
+
+01:49.530 --> 01:55.270
+So let's imagine this case where again you can just leave these seven ram or something like that but
+
+01:55.290 --> 01:57.320
+I'm going to go back to a three column layout.
+
+01:57.720 --> 02:01.870
+So if I'm going to add let's say auto right here.
+
+02:01.980 --> 02:05.570
+Notice how my third column is in fact responsive.
+
+02:05.940 --> 02:12.420
+So the moment the screen size gets smaller while this particular column gets smaller the moment the
+
+02:12.420 --> 02:14.400
+actual screen size is bigger.
+
+02:14.400 --> 02:22.400
+Well our column also gets bigger so you get an idea if you'd like to have some kind of column let's
+
+02:22.410 --> 02:28.110
+say one of them or maybe all of them and we would want them to be responsive where their width is in
+
+02:28.110 --> 02:30.240
+fact changing together with the screen size.
+
+02:30.420 --> 02:37.890
+We can definitely use the auto when we're setting up whether that is the role or in fact a column.

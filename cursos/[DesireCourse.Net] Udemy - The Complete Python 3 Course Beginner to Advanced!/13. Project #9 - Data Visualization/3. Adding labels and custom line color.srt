@@ -1,0 +1,544 @@
+1
+
+00:00:00,000  -->  00:00:01,469
+Alright guys, so, what we're going to be
+
+2
+
+00:00:01,469  -->  00:00:03,600
+doing in this video is we're going to be
+
+3
+
+00:00:03,600  -->  00:00:06,750
+just extending our current graph a
+
+4
+
+00:00:06,750  -->  00:00:09,750
+little bit. So the first thing I'm going
+
+5
+
+00:00:09,750  -->  00:00:12,780
+to do is I'm going to remove some of
+
+6
+
+00:00:12,780  -->  00:00:14,910
+these just so we can focus in from about
+
+7
+
+00:00:14,910  -->  00:00:19,020
+1950, right up to 2015, and that's just so
+
+8
+
+00:00:19,020  -->  00:00:22,890
+that each increment is the same length.
+
+9
+
+00:00:22,890  -->  00:00:24,600
+So let me count how many I'm
+
+10
+
+00:00:24,600  -->  00:00:25,949
+removing from this list, and then I'll
+
+11
+
+00:00:25,949  -->  00:00:28,050
+remove that many from this list as well.
+
+12
+
+00:00:28,050  -->  00:00:32,579
+One, two, three, four...so nine are being
+
+13
+
+00:00:32,579  -->  00:00:39,390
+removed here, so one, two, three, four, five,
+
+14
+
+00:00:39,390  -->  00:00:44,969
+six, seven, eight, nine. The second thing
+
+15
+
+00:00:44,969  -->  00:00:47,219
+I'm going to do is I'm going to turn
+
+16
+
+00:00:47,219  -->  00:00:54,660
+these into floats, because we're
+
+17
+
+00:00:54,660  -->  00:00:57,480
+going to be talking in billions from
+
+18
+
+00:00:57,480  -->  00:01:04,949
+this point on, and then there we go. You
+
+19
+
+00:01:04,949  -->  00:01:11,610
+raise the last two digits of each, on
+
+20
+
+00:01:11,610  -->  00:01:18,119
+each float here, just to clean it up a bit
+
+21
+
+00:01:18,119  -->  00:01:22,439
+and make it look a bit nicer. Alright,
+
+22
+
+00:01:22,439  -->  00:01:24,000
+so, I'm going to go ahead and run the
+
+23
+
+00:01:24,000  -->  00:01:27,210
+example again here, and we should see a
+
+24
+
+00:01:27,210  -->  00:01:31,409
+nicer looking chart, and we do. So you can
+
+25
+
+00:01:31,409  -->  00:01:36,509
+see that we went from about about two
+
+26
+
+00:01:36,509  -->  00:01:38,430
+billion, or two and a half billion, in
+
+27
+
+00:01:38,430  -->  00:01:42,390
+1950 right up to over seven billion in
+
+28
+
+00:01:42,390  -->  00:01:47,490
+2015. So that's exactly what we want
+
+29
+
+00:01:47,490  -->  00:01:51,030
+to see. There's also built in things here
+
+30
+
+00:01:51,030  -->  00:01:53,399
+that you can play around with
+
+31
+
+00:01:53,399  -->  00:01:56,070
+if you want. I'm not going to go over
+
+32
+
+00:01:56,070  -->  00:01:58,170
+these just because it's you know not
+
+33
+
+00:01:58,170  -->  00:02:00,630
+programming, and we are getting into
+
+34
+
+00:02:00,630  -->  00:02:04,110
+programming. So, the second thing that I
+
+35
+
+00:02:04,110  -->  00:02:06,780
+want to do with this list is I want to
+
+36
+
+00:02:06,780  -->  00:02:08,879
+add a color. So the color, the main color
+
+37
+
+00:02:08,879  -->  00:02:11,790
+that it drew the line I want it to be a
+
+38
+
+00:02:11,790  -->  00:02:12,780
+soft kind of
+
+39
+
+00:02:12,780  -->  00:02:14,400
+red, and so how we're going to do that
+
+40
+
+00:02:14,400  -->  00:02:17,640
+is we're going to in the plot method
+
+41
+
+00:02:17,640  -->  00:02:20,310
+call right here this can take keyword
+
+42
+
+00:02:20,310  -->  00:02:22,290
+arguments, and the keyword arguments are
+
+43
+
+00:02:22,290  -->  00:02:25,920
+all defined here that we can modify. So
+
+44
+
+00:02:25,920  -->  00:02:29,280
+we are going to be looking at this
+
+45
+
+00:02:29,280  -->  00:02:31,830
+page a bit as well, but for right now I'm
+
+46
+
+00:02:31,830  -->  00:02:33,270
+just going to show you guys how to add a
+
+47
+
+00:02:33,270  -->  00:02:36,420
+color. So the color of this line on the
+
+48
+
+00:02:36,420  -->  00:02:38,760
+chart is going to be equal to an RGB
+
+49
+
+00:02:38,760  -->  00:02:42,870
+color. So, RGB is a color format that
+
+50
+
+00:02:42,870  -->  00:02:48,090
+usually looks like this, and 255 is
+
+51
+
+00:02:48,090  -->  00:02:51,239
+completely you know right at the top, it
+
+52
+
+00:02:51,239  -->  00:02:53,400
+can't go over to 255, and it can't go under
+
+53
+
+00:02:53,400  -->  00:02:55,800
+0. So if all three of these values
+
+54
+
+00:02:55,800  -->  00:02:58,050
+were zero it would be black, if all three
+
+55
+
+00:02:58,050  -->  00:03:01,950
+of them are 255 it will be white, and so
+
+56
+
+00:03:01,950  -->  00:03:04,260
+we adjust this is red, this is a green,
+
+57
+
+00:03:04,260  -->  00:03:05,940
+and this is blue, and we adjust these to
+
+58
+
+00:03:05,940  -->  00:03:08,010
+make different colors. So what I'm going
+
+59
+
+00:03:08,010  -->  00:03:09,390
+to do is I'm going to set each one of
+
+60
+
+00:03:09,390  -->  00:03:12,989
+these to a hundred except for the red
+
+61
+
+00:03:12,989  -->  00:03:15,780
+one, and that's going to add lightness to
+
+62
+
+00:03:15,780  -->  00:03:18,540
+the red, and I should get a nice soft red
+
+63
+
+00:03:18,540  -->  00:03:21,600
+as the line color here, and I don't, and
+
+64
+
+00:03:21,600  -->  00:03:26,160
+the reason is because matplotlibs
+
+65
+
+00:03:26,160  -->  00:03:28,320
+plot method doesn't take this kind of
+
+66
+
+00:03:28,320  -->  00:03:40,560
+RGB, we need to divide it by 255, and
+
+67
+
+00:03:40,560  -->  00:03:43,079
+the reason is, and I'm not even sure
+
+68
+
+00:03:43,079  -->  00:03:46,290
+putting the math inside that
+
+69
+
+00:03:46,290  -->  00:03:47,910
+color function will work, but it did. Okay,
+
+70
+
+00:03:47,910  -->  00:03:49,709
+and as you can see now I've got
+
+71
+
+00:03:49,709  -->  00:03:53,190
+a red line, so that's how you can
+
+72
+
+00:03:53,190  -->  00:03:54,810
+customize that. Now another thing I want
+
+73
+
+00:03:54,810  -->  00:03:57,359
+to talk about is labels, and so what I'm
+
+74
+
+00:03:57,359  -->  00:03:58,560
+going to do is I'm going to add a label
+
+75
+
+00:03:58,560  -->  00:04:00,989
+on the bottom and along the left-hand
+
+76
+
+00:04:00,989  -->  00:04:03,540
+side here. So how I'm going to do that is
+
+77
+
+00:04:03,540  -->  00:04:05,459
+I'm just going to target our object
+
+78
+
+00:04:05,459  -->  00:04:08,700
+which is plot, and then y label, and I'm
+
+79
+
+00:04:08,700  -->  00:04:13,019
+going to set it to Population in
+
+80
+
+00:04:13,019  -->  00:04:16,250
+billions,
+
+81
+
+00:04:17,440  -->  00:04:21,070
+and then I'm going to skip to the next
+
+82
+
+00:04:21,070  -->  00:04:31,060
+line, and plt.xlabel "Population
+
+83
+
+00:04:31,060  -->  00:04:36,910
+growth by here" So I'm going to save this
+
+84
+
+00:04:36,910  -->  00:04:38,380
+and run it again, and you're going to
+
+85
+
+00:04:38,380  -->  00:04:41,440
+notice that we now have nice little
+
+86
+
+00:04:41,440  -->  00:04:44,020
+labels so that we can actually convey
+
+87
+
+00:04:44,020  -->  00:04:48,340
+the message of what each axis
+
+88
+
+00:04:48,340  -->  00:04:54,820
+means in context of our graph, and
+
+89
+
+00:04:54,820  -->  00:04:57,970
+pyplot automatically flips the y-axis up
+
+90
+
+00:04:57,970  -->  00:05:01,570
+vertically to save space so we don't
+
+91
+
+00:05:01,570  -->  00:05:03,340
+have to do anything there. Now another
+
+92
+
+00:05:03,340  -->  00:05:05,110
+thing we're going to do is add a title
+
+93
+
+00:05:05,110  -->  00:05:08,590
+to the chart. So all you have to do in
+
+94
+
+00:05:08,590  -->  00:05:12,310
+that one is plt.title, and we're going to
+
+95
+
+00:05:12,310  -->  00:05:19,240
+say Population Growth. Save it and run it
+
+96
+
+00:05:19,240  -->  00:05:21,520
+again, now at the top it will say
+
+97
+
+00:05:21,520  -->  00:05:28,240
+Population Growth. So, we've
+
+98
+
+00:05:28,240  -->  00:05:29,980
+extended this a bit, and we're going to
+
+99
+
+00:05:29,980  -->  00:05:35,560
+be extending a lot more, actually. So in
+
+100
+
+00:05:35,560  -->  00:05:37,419
+this video we learned how to basically
+
+101
+
+00:05:37,419  -->  00:05:41,260
+add RBG colors, and basically what this
+
+102
+
+00:05:41,260  -->  00:05:44,530
+means is it takes integers between zero
+
+103
+
+00:05:44,530  -->  00:05:48,220
+and one, so this would be 1
+
+104
+
+00:05:48,220  -->  00:05:52,630
+(255/255) 255, this would be about
+
+105
+
+00:05:52,630  -->  00:05:56,290
+.6 I think, something like that, and this
+
+106
+
+00:05:56,290  -->  00:05:57,640
+would be about .6 as well. So
+
+107
+
+00:05:57,640  -->  00:05:59,440
+these are floats and integers that go
+
+108
+
+00:05:59,440  -->  00:06:02,320
+into the color, and that's how matplotlib
+
+109
+
+00:06:02,320  -->  00:06:06,450
+defines colors.

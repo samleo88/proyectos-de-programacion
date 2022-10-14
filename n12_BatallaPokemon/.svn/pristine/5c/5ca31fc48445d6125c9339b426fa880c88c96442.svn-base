@@ -1,0 +1,165 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.interfaz;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.imageio.ImageIO;
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.border.LineBorder;
+
+import uniandes.cupi2.batallaPokemon.cliente.mundo.Pokemon;
+
+/**
+ * Panel con la información de batalla del oponente.
+ */
+public class PanelOponente extends JPanel
+{
+
+    // -----------------------------------------------------------------
+    // Constantes
+    // -----------------------------------------------------------------
+
+    /**
+     * Constante con la ruta a las imágenes.
+     */
+    private final static String RUTA = "./data/imagenes/";
+
+    // -----------------------------------------------------------------
+    // Atributos de interfaz
+    // -----------------------------------------------------------------
+
+    /**
+     * Etiqueta con la imagen del avatar del oponente.
+     */
+    private JLabel etiquetaImagenAvatar;
+
+    /**
+     * Etiqueta con la salud del pokemón.
+     */
+    private JLabel etiquetaSaludPokemon;
+
+    /**
+     * Etiqueta con la imagen del pokemón seleccionado.
+     */
+    private JLabel etiquetaImagenPokemonSeleccionado;
+
+    /**
+     * Vector de etiquetas para las pokebolas del oponente.
+     */
+    private JLabel pokeballs[];
+
+    /**
+     * Panel con los pokemónes seleccionados por el oponente.
+     */
+    private JPanel panelPokemones;
+
+    /**
+     * Panel con la imagen y salud del pokémon seleccionado.
+     */
+    private JPanel panelPokemon;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Constructor del panel.
+     */
+    public PanelOponente( )
+    {
+
+        setLayout( new BorderLayout( ) );
+
+        etiquetaImagenPokemonSeleccionado = new JLabel( );
+        etiquetaImagenPokemonSeleccionado.setVerticalAlignment( JLabel.BOTTOM );
+
+        etiquetaImagenAvatar = new JLabel( );
+        // etiquetaImagenAvatar.setPreferredSize( new Dimension( 200, 0 ) );
+        etiquetaImagenAvatar.setHorizontalAlignment( JLabel.CENTER );
+
+        etiquetaSaludPokemon = new JLabel( );
+        etiquetaSaludPokemon.setHorizontalAlignment( JLabel.CENTER );
+        etiquetaSaludPokemon.setForeground( Color.white );
+        etiquetaSaludPokemon.setFont( new Font( "Tahoma", Font.BOLD, 30 ) );
+
+        panelPokemon = new JPanel( );
+        panelPokemon.setLayout( new BorderLayout( ) );
+        panelPokemon.setOpaque( false );
+        panelPokemon.add( etiquetaImagenPokemonSeleccionado, BorderLayout.CENTER );
+        panelPokemon.add( etiquetaSaludPokemon, BorderLayout.SOUTH );
+
+        add( panelPokemon, BorderLayout.WEST );
+        add( etiquetaImagenAvatar, BorderLayout.EAST );
+
+        panelPokemones = new JPanel( );
+
+        panelPokemones.setLayout( new FlowLayout( FlowLayout.RIGHT ) );
+        panelPokemones.setOpaque( false );
+        pokeballs = new JLabel[4];
+        for( int i = 0; i < 4; i++ )
+        {
+            pokeballs[ i ] = new JLabel( );
+            pokeballs[ i ].setIcon( new ImageIcon( "./data/imagenes/Pokeball.PNG" ) );
+            pokeballs[ i ].setOpaque( false );
+            panelPokemones.add( pokeballs[ i ] );
+
+        }
+        add( panelPokemones, BorderLayout.SOUTH );
+
+        setOpaque( false );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Actualiza la información del oponente.
+     * @param pPokemonesDebilitados Cantidad de pokémon que tiene salud en cero. pPokemonesDebilitados >=0.
+     * @param pNombrePokemonSeleccionado Nombre del pokémon seleccionado por el oponente. pNombrePokemonSeleccionado != null.
+     * @param pSaludPokemonOponente Salud del pokémon del oponente. pSaludPokemonOponente != null.
+     * @param pImagen Imagen del avatar del oponente. pImagen !=null.
+     */
+    public void actualizar( int pPokemonesDebilitados, String pNombrePokemonSeleccionado, double pSaludPokemonOponente, String pImagen )
+    {
+
+        for( int i = 0; i < pPokemonesDebilitados; i++ )
+        {
+            ( ( JLabel )panelPokemones.getComponent( i ) ).setIcon( new ImageIcon( "data/imagenes/PokeballDeshabilitada.PNG" ) );
+
+        }
+        etiquetaImagenPokemonSeleccionado.setIcon( new ImageIcon( RUTA + pNombrePokemonSeleccionado + "Oponente.PNG" ) );
+        etiquetaImagenAvatar.setIcon( new ImageIcon( RUTA + pImagen + "Oponente.PNG" ) );
+        etiquetaSaludPokemon.setText( pSaludPokemonOponente + "" );
+
+        validate( );
+        repaint( );
+
+    }
+
+}

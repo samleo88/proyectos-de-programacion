@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.240 --> 00:00.770
+All right.
+
+00:00.780 --> 00:03.890
+We have added colors to our sisters tool belt.
+
+00:03.960 --> 00:05.370
+What's next.
+
+00:05.370 --> 00:11.220
+Our next topic is very interesting because it will control the layout of our project.
+
+00:11.220 --> 00:17.640
+So my friends let's get to know units in CSX and we'll start with something called pixels.
+
+00:18.390 --> 00:23.530
+Here's the kicker though in order to cover units we're going to have to use them on some properties.
+
+00:23.790 --> 00:27.360
+Otherwise we might as well look at the slides for the next three hours.
+
+00:27.450 --> 00:34.950
+So let's quickly learn three properties in the CSX font size width and height if you would have to guess.
+
+00:34.950 --> 00:36.650
+What do you think these properties control.
+
+00:37.420 --> 00:44.220
+Well if I would have to go out on a limb I would say font size is responsible for the size of our fonts
+
+00:44.490 --> 00:49.620
+more text and width and height would control the width and height of the elements.
+
+00:50.100 --> 00:51.480
+So far so good.
+
+00:51.480 --> 00:52.470
+What about pixels.
+
+00:53.310 --> 01:00.120
+Well again we can spend two hours and 20 slides or we can resolve it in one sentence answer where pixel
+
+01:00.210 --> 01:03.100
+is an absolute unit of measurement.
+
+01:03.300 --> 01:08.600
+And speaking very broadly one pixel represents one dot on a screen.
+
+01:08.730 --> 01:13.810
+So as you're looking at the screen right now one pixel is basically going to be wonder.
+
+01:14.050 --> 01:18.860
+And again this is speaking very broadly because I don't want to spend two hours in line.
+
+01:19.260 --> 01:24.660
+Now let's test it out because this is just going to be the easiest way to understand it.
+
+01:24.720 --> 01:30.240
+Now as you can see by the way I cleaned everything out in this assassination email because for this
+
+01:30.240 --> 01:32.290
+new section I would like to start fresh.
+
+01:32.580 --> 01:38.160
+Now again I'm going gonna do very simply where there's gonna be heading one and I'm just gonna say units
+
+01:38.670 --> 01:41.740
+in the C assess in the.
+
+01:41.890 --> 01:45.330
+So that's gonna be my text and the moment I finish typing.
+
+01:45.330 --> 01:45.930
+Awesome.
+
+01:45.930 --> 01:47.660
+We have our heading one.
+
+01:47.670 --> 01:49.840
+Now I'm gonna head over back to the styles.
+
+01:49.920 --> 01:54.600
+We're going to test our first property which would be font size so we know that we can select it in
+
+01:54.600 --> 01:59.800
+multiple ways and in my case I'm just gonna pick the elements selected then I'm gonna write.
+
+01:59.820 --> 02:01.350
+What kind of font size I would like.
+
+02:01.350 --> 02:02.990
+So I'm gonna say font size.
+
+02:03.000 --> 02:08.610
+This is gonna be my property and now I'm using the values and as you can see there's many options that
+
+02:08.610 --> 02:10.530
+right now Visual Studio code gives us.
+
+02:10.740 --> 02:13.470
+But what we are interested is the pixel.
+
+02:13.470 --> 02:18.780
+So you're gonna say that let's say this is gonna be 30 pixel NOT CHECK THIS OUT THE MONITOR we're gonna
+
+02:18.780 --> 02:19.490
+save it.
+
+02:19.560 --> 02:22.420
+This is in fact gonna get smaller knock.
+
+02:22.530 --> 02:24.430
+What if we're going to write 60 pixel.
+
+02:24.720 --> 02:29.970
+Now my font size is gonna get WAY bigger because I added this absolute value.
+
+02:29.970 --> 02:34.380
+Now why did I say that pixels are absolute values of measurement.
+
+02:34.380 --> 02:40.800
+Well you see 60 pixels right now what we have here is gonna be 60 pixels here as well as going to be
+
+02:40.800 --> 02:43.150
+60 pixels on a different screen.
+
+02:43.550 --> 02:50.400
+So the 60 pixels or pixels in general are not going to depend on anything else you're just gonna come
+
+02:50.400 --> 02:56.350
+up with your absolute size whatever that might be and then you're just gonna go with.
+
+02:56.350 --> 03:01.830
+Now later on as we're looking for Responsive values you'll see how with responsive values we will gonna
+
+03:01.830 --> 03:03.660
+be depending on other things.
+
+03:04.170 --> 03:10.290
+But with pixels This is just gonna be straight up give me the value for the pixels and these are gonna
+
+03:10.290 --> 03:14.030
+be dots on a screen and let's say for the font size it's one thing.
+
+03:14.040 --> 03:14.340
+No.
+
+03:14.340 --> 03:15.450
+What about the width.
+
+03:15.540 --> 03:19.550
+Let's say what if we're gonna say some and with and for the setting one.
+
+03:19.560 --> 03:21.810
+Again let me write it properly.
+
+03:21.810 --> 03:25.780
+Let's say with is gonna be had I know 200 pixel.
+
+03:25.830 --> 03:31.230
+Now let me save it and check this out first of all we can already see that something changed.
+
+03:31.230 --> 03:37.020
+So our text basically wrapped to a new light however maybe visually it would be easier if we would use
+
+03:37.020 --> 03:37.950
+the color.
+
+03:37.950 --> 03:39.230
+So how we can use the color.
+
+03:39.300 --> 03:40.790
+Well we already covered this right.
+
+03:41.100 --> 03:44.860
+So we had the background and let's say let's go with some kind of color.
+
+03:44.970 --> 03:48.760
+Again I'm gonna go with the color name because I find it much more easier.
+
+03:48.780 --> 03:56.340
+So I'm gonna say blue and as you can see right now I'm having my in one that is two hundred pixels wide.
+
+03:56.400 --> 04:02.760
+And again it would look 200 pixels on a small screen as well as this is gonna be two hundred pixels
+
+04:02.760 --> 04:03.810
+on a bigger screen.
+
+04:03.840 --> 04:08.940
+So again it's not gonna depend on any parent elements any root elements anything like that.
+
+04:08.940 --> 04:13.880
+This is just gonna be straight up value that we're giving you want more with Oh here you go.
+
+04:14.400 --> 04:16.300
+I have four 400 pixels.
+
+04:16.380 --> 04:19.140
+This is not what I wanted but let me say it properly.
+
+04:19.140 --> 04:24.150
+Now this is gonna be 400 pixels again depending on the screen size if I'm going gonna say that this
+
+04:24.150 --> 04:26.160
+is gonna be let's say thousand now.
+
+04:26.280 --> 04:31.140
+So this is gonna be wrapping up so now we actually need to scroll because this is literally going to
+
+04:31.140 --> 04:33.780
+be a thousand pixels so on a smaller screen now.
+
+04:33.870 --> 04:36.250
+This is not going to be able to fit in the screen.
+
+04:36.300 --> 04:40.470
+However if we move to the bigger screen size everything is working fine.
+
+04:40.470 --> 04:42.500
+This is gonna be our thousand pixel.
+
+04:42.570 --> 04:43.630
+Now let's test it out.
+
+04:43.650 --> 04:45.720
+Also maybe the height and you know what.
+
+04:45.720 --> 04:48.930
+Let's change this one too decent 400.
+
+04:48.990 --> 04:50.730
+That's gonna stay the same.
+
+04:50.730 --> 04:54.450
+So let's say it or you know 400 is still to make.
+
+04:54.450 --> 04:55.790
+Let's do 200.
+
+04:55.890 --> 05:01.810
+That's gonna be our value and let's maybe add some kind of height and for height we're going to be looking
+
+05:01.810 --> 05:03.990
+for height property again.
+
+05:04.030 --> 05:07.350
+And in this case we're going to go with 300 pixels.
+
+05:07.560 --> 05:10.150
+And again all of these are very straightforward.
+
+05:10.150 --> 05:11.550
+You want bigger size.
+
+05:11.620 --> 05:13.190
+Just go with bigger size.
+
+05:13.210 --> 05:15.120
+Now you don't have to always use pixels.
+
+05:15.130 --> 05:17.620
+We will going to cover all the relative values.
+
+05:17.650 --> 05:23.170
+However the main importance is to understand that the font size is going to control the height of the
+
+05:23.170 --> 05:23.920
+text.
+
+05:24.010 --> 05:29.860
+So the bigger obviously the value here the bigger is going to be the text smaller the value you get
+
+05:29.860 --> 05:30.250
+an idea.
+
+05:30.790 --> 05:32.490
+Now the same would work with with.
+
+05:32.560 --> 05:35.700
+Again we're going to be working later on with responsive values.
+
+05:35.920 --> 05:38.750
+But you just need to pass some kind of unit here.
+
+05:38.830 --> 05:41.310
+In our case we're using the absolute values.
+
+05:41.500 --> 05:46.940
+So everything that's showing on a small screen is going to look exactly the same on a bigger screen.
+
+05:47.020 --> 05:49.230
+You want different height different height.
+
+05:49.240 --> 05:50.920
+You want that different with.
+
+05:50.920 --> 05:55.030
+Go ahead had different width and just as a straightforward has it gets.

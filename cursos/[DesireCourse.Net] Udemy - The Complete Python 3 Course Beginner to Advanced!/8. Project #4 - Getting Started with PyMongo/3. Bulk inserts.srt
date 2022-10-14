@@ -1,0 +1,189 @@
+1
+
+00:00:00,000  -->  00:00:03,750
+Alright guys, welcome back. In the last
+video we learned about inserting
+
+2
+
+00:00:03,750  -->  00:00:07,890
+documents but we actually only learned
+about inserting one at a time, so this is
+
+3
+
+00:00:07,890  -->  00:00:12,179
+probably going to be a quick video, but
+this is how to insert multiple documents
+
+4
+
+00:00:12,179  -->  00:00:17,400
+at the same time. Let's go ahead and open this, going to define "users =" and i'm just
+
+5
+
+00:00:17,400  -->  00:00:18,779
+going to make the table a
+
+6
+
+00:00:18,779  -->  00:00:24,840
+username, not the table the document, a username and the password, but before we
+
+7
+
+00:00:24,840  -->  00:00:25,859
+even get started
+
+8
+
+00:00:25,859  -->  00:00:30,929
+how do you insert multiple documents into a collection? Again, think
+
+9
+
+00:00:30,929  -->  00:00:35,100
+about this is Python, you would use a
+list, and inside the list you would
+
+10
+
+00:00:35,100  -->  00:00:36,870
+create objects.
+
+11
+
+00:00:36,870  -->  00:00:46,770
+So let's go ahead and create an object with "[{"username": "third",
+
+12
+
+00:00:46,770  -->  00:00:55,350
+"password": "12345"}" and then the second document that i'm
+
+13
+
+00:00:55,350  -->  00:01:01,289
+going to insert going to be here, and you
+probably guess you're able to stuff
+
+14
+
+00:01:01,289  -->  00:01:08,610
+however many in that you want to at a
+time. So this "{"username":
+
+15
+
+00:01:08,610  -->  00:01:16,770
+"red", "password": "blue"}]" that's all we need to do. So we've
+
+16
+
+00:01:16,770  -->  00:01:23,159
+got users, so now what we can do is let's
+go ahead and capture, let's just insert
+
+17
+
+00:01:23,159  -->  00:01:34,140
+the posts. So, I "inserted = users.insert" and then
+
+18
+
+00:01:34,140  -->  00:01:40,740
+we pass our variable into here "(users)" Alright,
+
+19
+
+00:01:40,740  -->  00:01:47,670
+that did not work, insert takes exactly only two arguments, alright. So, what we're going to
+
+20
+
+00:01:47,670  -->  00:01:58,290
+do is actually "insert_many" list object has no attribute, users is a collection...
+
+21
+
+00:02:01,500  -->  00:02:08,670
+let's...oh.
+
+22
+
+00:02:10,289  -->  00:02:18,480
+So as you can see I set the users
+variable, which was our collection in
+
+23
+
+00:02:18,480  -->  00:02:22,380
+Mongo, I set that to the list here that
+we want to insert, so what I'm going to
+
+24
+
+00:02:22,380  -->  00:02:28,020
+do now is I'm going to create a
+"Users
+
+25
+
+00:02:28,020  -->  00:02:39,360
+= db.users" Now what we're
+
+26
+
+00:02:39,360  -->  00:02:49,140
+going to do is "inserted = Users.insert_many(users)"
+
+27
+
+00:02:49,140  -->  00:02:58,260
+which includes our users, and now you can run "inserted_ids"
+
+28
+
+00:02:58,980  -->  00:03:03,959
+oh...
+
+29
+
+00:03:08,460  -->  00:03:14,790
+so "inserted.inserted_ids" and the reason it's that is because I
+
+30
+
+00:03:14,790  -->  00:03:19,560
+named the variable to actually stuffs
+those documents into the collection, I
+
+31
+
+00:03:19,560  -->  00:03:25,710
+name that inserted, so we access that
+variable.inserted IDs and it's going
+
+32
+
+00:03:25,710  -->  00:03:31,050
+to print back the object ids of each
+item that was added in here, and
+
+33
+
+00:03:31,050  -->  00:03:35,100
+basically if I run command + r here it's
+going to reload and I'll see that the
+
+34
+
+00:03:35,100  -->  00:03:38,010
+documents that I have in here,
+
+35
+
+00:03:38,010  -->  00:03:41,220
+there's two new one. So that's how you
+would bulk insert data.

@@ -1,0 +1,1114 @@
+1
+
+00:00:00,000  -->  00:00:02,730
+Alright guys, so in this video we're
+
+2
+
+00:00:02,730  -->  00:00:04,319
+going to make these progress bars
+
+3
+
+00:00:04,319  -->  00:00:07,770
+actually update. So, how we're going to do
+
+4
+
+00:00:07,770  -->  00:00:10,290
+that this calculation is going to be
+
+5
+
+00:00:10,290  -->  00:00:12,030
+slightly different from this one and
+
+6
+
+00:00:12,030  -->  00:00:14,190
+that's because this is 10 spaces wide
+
+7
+
+00:00:14,190  -->  00:00:19,710
+and this is 25, and both go in
+
+8
+
+00:00:19,710  -->  00:00:22,470
+to 100, they're divisible by 100 or go
+
+9
+
+00:00:22,470  -->  00:00:25,619
+into 100, divisible by both, so for the
+
+10
+
+00:00:25,619  -->  00:00:30,300
+first one for instance let's say, and
+
+11
+
+00:00:30,300  -->  00:00:31,890
+we're going to use a really basic
+
+12
+
+00:00:31,890  -->  00:00:36,120
+example calculation first so you guys
+
+13
+
+00:00:36,120  -->  00:00:39,780
+can see. So, in order to calculate
+
+14
+
+00:00:39,780  -->  00:00:43,079
+the difference you're going to divide
+
+15
+
+00:00:43,079  -->  00:00:49,379
+the max HP by, or no a divide the
+
+16
+
+00:00:49,379  -->  00:00:52,860
+current hit points by the max hitpoints,
+
+17
+
+00:00:52,860  -->  00:00:56,969
+and then divide it by or times a
+
+18
+
+00:00:56,969  -->  00:01:01,590
+100 divided by 4. Divided by 4 just because we
+
+19
+
+00:01:01,590  -->  00:01:04,680
+want the maximum number to be 25, and
+
+20
+
+00:01:04,680  -->  00:01:05,519
+then
+
+21
+
+00:01:05,519  -->  00:01:08,790
+the other one divided by 4 as well so you know
+
+22
+
+00:01:08,790  -->  00:01:11,670
+that would look accurate here. So, let me show you
+
+23
+
+00:01:11,670  -->  00:01:14,700
+guys so let's say we're trying to get
+
+24
+
+00:01:14,700  -->  00:01:18,030
+let's say our maximum hitpoints are 100,
+
+25
+
+00:01:18,030  -->  00:01:22,080
+or 200 let's say, so let's say we
+
+26
+
+00:01:22,080  -->  00:01:25,890
+have 200 hit points and we want to be
+
+27
+
+00:01:25,890  -->  00:01:29,640
+able to put that into this grid of 25.
+
+28
+
+00:01:29,640  -->  00:01:31,770
+What we're going to do is we're going to
+
+29
+
+00:01:31,770  -->  00:01:34,799
+say our current hitpoints are 150, or let's
+
+30
+
+00:01:34,799  -->  00:01:41,670
+say 50, so 50/200 is the maximum points,
+
+31
+
+00:01:41,670  -->  00:01:44,939
+that's 0.25. Now to get that
+
+32
+
+00:01:44,939  -->  00:01:46,530
+percentage we're going to multiply that
+
+33
+
+00:01:46,530  -->  00:01:48,810
+by a 100, we're going to 25%,
+
+34
+
+00:01:48,810  -->  00:01:50,939
+and then we need to divide that by
+
+35
+
+00:01:50,939  -->  00:01:54,390
+four in order for it to fit our progress
+
+36
+
+00:01:54,390  -->  00:01:56,399
+bar there, so divided by four and that's
+
+37
+
+00:01:56,399  -->  00:02:00,210
+6.25 and that's going to round down to 6. So, it's
+
+38
+
+00:02:00,210  -->  00:02:03,210
+going to be six spaces here. Let's go
+
+39
+
+00:02:03,210  -->  00:02:06,030
+ahead and implement that.
+
+40
+
+00:02:06,030  -->  00:02:09,750
+So, let's just do the entire
+
+41
+
+00:02:09,750  -->  00:02:12,870
+calculation on the first row, so
+
+42
+
+00:02:12,870  -->  00:02:21,720
+bar_ticks is going to be equal to self.hp/
+
+43
+
+00:02:21,720  -->  00:02:33,660
+self.maxhp, we're going to do this first, then
+
+44
+
+00:02:33,660  -->  00:02:36,390
+we're going to multiply that result by
+
+45
+
+00:02:36,390  -->  00:02:46,980
+100, and then divide that by 4. Now
+
+46
+
+00:02:46,980  -->  00:02:50,400
+what we need to do is we need to start at
+
+47
+
+00:02:50,400  -->  00:02:53,610
+that number and work down to zero and
+
+48
+
+00:02:53,610  -->  00:02:56,880
+for each tick, so for each integer in
+
+49
+
+00:02:56,880  -->  00:03:01,350
+that, we need to add one of these to the
+
+50
+
+00:03:01,350  -->  00:03:08,010
+bar. So, create a bar here equal to an
+
+51
+
+00:03:08,010  -->  00:03:13,019
+empty string. So, what we're going to do
+
+52
+
+00:03:13,019  -->  00:03:28,079
+is while bar_ticks is greater than 0,
+
+53
+
+00:03:28,079  -->  00:03:34,320
+we're going to say bar += and then that.
+
+54
+
+00:03:34,320  -->  00:03:40,470
+Then, we're going to say bar_ticks -=, so
+
+55
+
+00:03:40,470  -->  00:03:42,510
+we're going to take away one and we're going to
+
+56
+
+00:03:42,510  -->  00:03:47,010
+continue along until that reaches zero,
+
+57
+
+00:03:47,010  -->  00:03:49,440
+Now I think I need to make that greater
+
+58
+
+00:03:49,440  -->  00:03:50,790
+than or equal to,
+
+59
+
+00:03:50,790  -->  00:03:53,370
+but we will find out. What we're going to
+
+60
+
+00:03:53,370  -->  00:03:56,549
+do is we also need to figure out how
+
+61
+
+00:03:56,549  -->  00:04:00,720
+many empty spaces we need, so let me just
+
+62
+
+00:04:00,720  -->  00:04:02,220
+think about that for a moment we'll
+
+63
+
+00:04:02,220  -->  00:04:06,540
+figure out how to do that. Let's create
+
+64
+
+00:04:06,540  -->  00:04:12,420
+a second variable here, and I know hold
+
+65
+
+00:04:12,420  -->  00:04:18,769
+on, and then we need to create a while
+
+66
+
+00:04:18,769  -->  00:04:29,720
+len(bar) &lt; 25: we need to
+
+67
+
+00:04:29,720  -->  00:04:33,949
+go bar += and then just a space, this
+
+68
+
+00:04:33,949  -->  00:04:35,629
+should work. Then what we're going to do
+
+69
+
+00:04:35,629  -->  00:04:41,990
+is we are going to print out our bar,
+
+70
+
+00:04:41,990  -->  00:04:47,000
+hitpoint bar actually, right there.
+
+71
+
+00:04:47,000  -->  00:04:51,740
+So, let name this hp_bar because we're
+
+72
+
+00:04:51,740  -->  00:05:00,319
+going to be doing the same thing for
+
+73
+
+00:05:00,319  -->  00:05:06,530
+magic points after as well. So, this
+
+74
+
+00:05:06,530  -->  00:05:12,050
+should work, now it should, we need to give
+
+75
+
+00:05:12,050  -->  00:05:14,509
+the enemy and the enemy is actually
+
+76
+
+00:05:14,509  -->  00:05:17,659
+attacking the first character for some
+
+77
+
+00:05:17,659  -->  00:05:20,900
+reason, so that's cool. I don't remember
+
+78
+
+00:05:20,900  -->  00:05:24,469
+if I did that, yeah we did, player 1 always
+
+79
+
+00:05:24,469  -->  00:05:26,630
+takes damage. Alright, so we need to give
+
+80
+
+00:05:26,630  -->  00:05:29,509
+the enemy since we increase the hit
+
+81
+
+00:05:29,509  -->  00:05:32,210
+points we need to actually give the
+
+82
+
+00:05:32,210  -->  00:05:35,779
+enemy quite a bit more attack power
+
+83
+
+00:05:35,779  -->  00:05:38,060
+there, and we'll give ourselves more
+
+84
+
+00:05:38,060  -->  00:05:41,630
+attack power as well. So, we'll say 132,
+
+85
+
+00:05:41,630  -->  00:05:46,009
+this guys is going to have 188, and he's
+
+86
+
+00:05:46,009  -->  00:05:52,069
+gonna have 174. Save this.
+
+87
+
+00:05:52,069  -->  00:05:59,029
+Alright, so let's go ahead and start it, and
+
+88
+
+00:05:59,029  -->  00:06:01,219
+something terrible has happened right
+
+89
+
+00:06:01,219  -->  00:06:04,699
+there. Let me see is that...
+
+90
+
+00:06:04,699  -->  00:06:08,810
+yeah so that's definitely it right there. So, we
+
+91
+
+00:06:08,810  -->  00:06:14,520
+forgot to end some colors somewhere.
+
+92
+
+00:06:14,520  -->  00:06:24,060
+Start this again,
+
+93
+
+00:06:24,060  -->  00:06:28,650
+there we go. But, now these got pushed back
+
+94
+
+00:06:28,650  -->  00:06:31,050
+for some reason. Anyway, let's just make
+
+95
+
+00:06:31,050  -->  00:06:33,180
+sure that it works.
+
+96
+
+00:06:33,180  -->  00:06:35,370
+Everyone's going to attack him and he's
+
+97
+
+00:06:35,370  -->  00:06:39,599
+going to attack us. We need to give him a
+
+98
+
+00:06:39,599  -->  00:06:42,330
+big attack power for this to work I
+
+99
+
+00:06:42,330  -->  00:06:53,280
+think. Let's go ahead and give him 701
+
+100
+
+00:06:53,280  -->  00:07:04,800
+attack power, there we go.
+
+101
+
+00:07:04,800  -->  00:07:08,909
+Alright,
+
+102
+
+00:07:08,909  -->  00:07:15,300
+no, that's magic points.
+
+103
+
+00:07:15,300  -->  00:07:18,060
+Alright, well, everyone has more magic
+
+104
+
+00:07:18,060  -->  00:07:20,340
+point so I guess that works. Let's try this again through
+
+105
+
+00:07:20,340  -->  00:07:22,860
+the order that I passed those
+
+106
+
+00:07:22,860  -->  00:07:24,810
+things in through. As you can see a notch
+
+107
+
+00:07:24,810  -->  00:07:29,190
+has been taken off our hitpoint bar, and another one,
+
+108
+
+00:07:29,190  -->  00:07:35,250
+we're going to keep going until...oh,
+
+109
+
+00:07:35,250  -->  00:07:37,560
+I already won, cool.
+
+110
+
+00:07:37,560  -->  00:07:42,180
+Alright, and that's because we have
+
+111
+
+00:07:42,180  -->  00:07:49,349
+higher hitpoints so let's make him have 11,200. That's
+
+112
+
+00:07:49,349  -->  00:07:50,639
+going to be a little more difficult plus
+
+113
+
+00:07:50,639  -->  00:07:52,919
+he has a lot of magic points. So our
+
+114
+
+00:07:52,919  -->  00:07:55,979
+progress bar does in fact work, he needs a
+
+115
+
+00:07:55,979  -->  00:08:08,480
+bit higher attack power though. Let's try 315,
+
+116
+
+00:08:08,480  -->  00:08:13,610
+and if I use magic and I cure myself,
+
+117
+
+00:08:13,610  -->  00:08:17,510
+now the cures are still pretty weak
+
+118
+
+00:08:17,510  -->  00:08:20,030
+because we've scaled a lot of other
+
+119
+
+00:08:20,030  -->  00:08:27,980
+things up, we haven't scaled the magic.
+
+120
+
+00:08:27,980  -->  00:08:38,889
+Let's go ahead up here...
+
+121
+
+00:08:38,889  -->  00:08:42,159
+the standard spells do 600 points
+
+122
+
+00:08:42,159  -->  00:08:49,989
+of damage, this does 1200, and then cure is
+
+123
+
+00:08:49,989  -->  00:08:56,139
+going to heal 620 points, and cure
+
+124
+
+00:08:56,139  -->  00:09:01,629
+is going to heal 1500. So, let's try
+
+125
+
+00:09:01,629  -->  00:09:02,529
+this again.
+
+126
+
+00:09:02,529  -->  00:09:08,410
+Let's attack and let's get damage going for
+
+127
+
+00:09:08,410  -->  00:09:10,569
+our first character. Now I'm going to choose
+
+128
+
+00:09:10,569  -->  00:09:17,049
+magic, I'm going to choose cura, and we
+
+129
+
+00:09:17,049  -->  00:09:19,419
+can see that my hitpoints have gone back up for
+
+130
+
+00:09:19,419  -->  00:09:20,799
+the most of the part but then he
+
+131
+
+00:09:20,799  -->  00:09:22,239
+attacked me again.
+
+132
+
+00:09:22,239  -->  00:09:24,730
+Alright, so, we are also going to
+
+133
+
+00:09:24,730  -->  00:09:28,689
+need to create another potion let's just
+
+134
+
+00:09:28,689  -->  00:09:34,329
+make that heal for a 1000, grenade  500,
+
+135
+
+00:09:34,329  -->  00:09:39,879
+yeah. Alright, so, we also need to modify
+
+136
+
+00:09:39,879  -->  00:09:41,829
+the hielixir to go ahead and heal you
+
+137
+
+00:09:41,829  -->  00:09:45,160
+know all party members, etc., etc., but first
+
+138
+
+00:09:45,160  -->  00:09:46,779
+we need to make the magic points bar
+
+139
+
+00:09:46,779  -->  00:09:51,759
+work as well, and that is exactly the
+
+140
+
+00:09:51,759  -->  00:09:55,059
+same but instead of divided by four its going to
+
+141
+
+00:09:55,059  -->  00:10:00,309
+be divided by ten. So, mp_bar equals an empty
+
+142
+
+00:10:00,309  -->  00:10:06,910
+string, and then mp_ticks is going to be equal to self.mp
+
+143
+
+00:10:06,910  -->  00:10:11,799
+divided by self.maxmp *
+
+144
+
+00:10:11,799  -->  00:10:19,959
+100 / 10. And then down here we're going
+
+145
+
+00:10:19,959  -->  00:10:23,259
+to say while
+
+146
+
+00:10:23,259  -->  00:10:35,980
+mp_ticks is greater than 0: mp_bar +=
+
+147
+
+00:10:35,980  -->  00:10:40,769
+we're going to say this,
+
+148
+
+00:10:40,769  -->  00:10:51,239
+and mp_ticks -=, and then fill up the rest of
+
+149
+
+00:10:51,239  -->  00:10:57,149
+the mp_bar with a blank space. So, while
+
+150
+
+00:10:57,149  -->  00:11:04,350
+mp_bar length is less than 10,
+
+151
+
+00:11:04,350  -->  00:11:09,929
+mp_bar += an empty space.
+
+152
+
+00:11:09,929  -->  00:11:13,139
+What we're going to do is replace this
+
+153
+
+00:11:13,139  -->  00:11:18,809
+bit right here with mp_bar. Let's save
+
+154
+
+00:11:18,809  -->  00:11:21,569
+that. Now when I use magic you'll see
+
+155
+
+00:11:21,569  -->  00:11:30,119
+that my magic will reduce as well. Not
+
+156
+
+00:11:30,119  -->  00:11:32,670
+much though because we chose to, but the numbers
+
+157
+
+00:11:32,670  -->  00:11:35,249
+are working correctly, because we need to
+
+158
+
+00:11:35,249  -->  00:11:39,329
+now scale up the cost of each of these.
+
+159
+
+00:11:39,329  -->  00:11:47,850
+So, 25, 25, 25, meteor is going to be 40
+
+160
+
+00:11:47,850  -->  00:11:50,759
+magic points, and then quake is a really weak
+
+161
+
+00:11:50,759  -->  00:11:55,860
+spell. Cure is going to cost 25, and then
+
+162
+
+00:11:55,860  -->  00:11:57,569
+cura is going to be the next step up and it's going to
+
+163
+
+00:11:57,569  -->  00:12:08,279
+cost 32. So, there we go. So, we're
+
+164
+
+00:12:08,279  -->  00:12:10,470
+going to adjust strength and everything
+
+165
+
+00:12:10,470  -->  00:12:12,629
+as well because as you'll notice the
+
+166
+
+00:12:12,629  -->  00:12:15,480
+attack does 63 points of damage where
+
+167
+
+00:12:15,480  -->  00:12:18,119
+magic is now doing about you know the
+
+168
+
+00:12:18,119  -->  00:12:20,490
+standard spells are doing 600, so we're
+
+169
+
+00:12:20,490  -->  00:12:21,480
+going to set the strength of each
+
+170
+
+00:12:21,480  -->  00:12:29,200
+character to about 300.
+
+171
+
+00:12:29,200  -->  00:12:32,650
+This one's going to have the weakest
+
+172
+
+00:12:32,650  -->  00:12:37,300
+attack i guess at 288, and we're going to
+
+173
+
+00:12:37,300  -->  00:12:40,390
+make the enemy's strength a lot stronger
+
+174
+
+00:12:40,390  -->  00:12:41,740
+so that it feels like more of a
+
+175
+
+00:12:41,740  -->  00:12:50,800
+challenge. We're gonna set that 525 and
+
+176
+
+00:12:50,800  -->  00:12:52,060
+the defense we're actually going to make
+
+177
+
+00:12:52,060  -->  00:12:53,800
+that take effect as well, but for right
+
+178
+
+00:12:53,800  -->  00:12:55,870
+now we've got a basic
+
+179
+
+00:12:55,870  -->  00:12:58,240
+multi-party system working. i need to
+
+180
+
+00:12:58,240  -->  00:13:00,670
+straighten up that line by adding one
+
+181
+
+00:13:00,670  -->  00:13:03,790
+space in front of the words mp and the
+
+182
+
+00:13:03,790  -->  00:13:08,950
+align, So, mp, doesn't show it there, so
+
+183
+
+00:13:08,950  -->  00:13:11,740
+one space in front of the line there, and then
+
+184
+
+00:13:11,740  -->  00:13:15,700
+in the main.py where the mp
+
+185
+
+00:13:15,700  -->  00:13:19,060
+printed there. Let's add a space and it should look a
+
+186
+
+00:13:19,060  -->  00:13:20,680
+lot better.
+
+187
+
+00:13:20,680  -->  00:13:25,030
+Nope, one more.
+
+188
+
+00:13:25,030  -->  00:13:28,960
+There we go. So, back over here, that other on there, and
+
+189
+
+00:13:28,960  -->  00:13:31,240
+then right on.
+
+190
+
+00:13:31,240  -->  00:13:34,300
+So, what we need to do the same thing
+
+191
+
+00:13:34,300  -->  00:13:36,070
+here the hitpoints we're going to assume
+
+192
+
+00:13:36,070  -->  00:13:40,780
+are always four digits, so what we're
+
+193
+
+00:13:40,780  -->  00:13:43,060
+going to do is we're going to add well,
+
+194
+
+00:13:43,060  -->  00:13:45,370
+yeah let's do that right quick as well.
+
+195
+
+00:13:45,370  -->  00:14:02,230
+So, if ok, so let's set chp = self.mp
+
+196
+
+00:14:02,230  -->  00:14:04,210
+because we only want to modify in this
+
+197
+
+00:14:04,210  -->  00:14:13,510
+instance. So, if len(chp) &lt; 4: I'm
+
+198
+
+00:14:13,510  -->  00:14:21,810
+going to say...
+
+199
+
+00:14:21,810  -->  00:14:38,520
+yeah, okay. So, we're gonna have to get the lenght of it, I'm just trying to
+
+200
+
+00:14:38,520  -->  00:14:40,110
+think of the best way to do this here.
+
+201
+
+00:14:40,110  -->  00:14:41,910
+We're going to create another string
+
+202
+
+00:14:41,910  -->  00:14:46,110
+called shp, it's going to be a blank string for now,
+
+203
+
+00:14:46,110  -->  00:14:52,320
+we're going to get the length of chp.
+
+204
+
+00:14:52,320  -->  00:15:03,270
+So, if it's less than 4, a while it's less
+
+205
+
+00:15:03,270  -->  00:15:10,649
+than 4 I guess?
+
+206
+
+00:15:10,649  -->  00:15:27,680
+While...
+
+207
+
+00:15:27,680  -->  00:15:30,080
+this might have catastrophic
+
+208
+
+00:15:30,080  -->  00:15:34,700
+consequences. So, let's assume that the
+
+209
+
+00:15:34,700  -->  00:15:37,100
+current hit points were like 200
+
+210
+
+00:15:37,100  -->  00:15:40,100
+something. Actually, let's see if we can...
+
+211
+
+00:15:40,100  -->  00:15:43,190
+I'll just do this in the next video, I'm
+
+212
+
+00:15:43,190  -->  00:15:45,290
+going to try to work something out for a
+
+213
+
+00:15:45,290  -->  00:15:48,709
+really easy way to do that. So, yeah,
+
+214
+
+00:15:48,709  -->  00:15:50,630
+for now we've got the these working
+
+215
+
+00:15:50,630  -->  00:15:52,790
+completely and that's all we're going to
+
+216
+
+00:15:52,790  -->  00:15:54,170
+be focusing on right now. In the next
+
+217
+
+00:15:54,170  -->  00:15:56,870
+video I guess we are going to account
+
+218
+
+00:15:56,870  -->  00:15:58,459
+for white extra white space if this
+
+219
+
+00:15:58,459  -->  00:16:00,320
+falls below three digits and if this
+
+220
+
+00:16:00,320  -->  00:16:02,270
+falls below four digits we're going to
+
+221
+
+00:16:02,270  -->  00:16:06,529
+preceed the string of hit points with an
+
+222
+
+00:16:06,529  -->  00:16:08,870
+extra space, or however many spaces are
+
+223
+
+00:16:08,870  -->  00:16:14,140
+needed.

@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.120 --> 00:04.710
+So let's go to our success and actually start styling here.
+
+00:04.740 --> 00:07.070
+So I'm going to click on Main see assess.
+
+00:07.080 --> 00:09.670
+You can see that this was our last section.
+
+00:09.670 --> 00:12.670
+So this would be the End of Project or here.
+
+00:12.870 --> 00:20.040
+And once we have the End of Project or here we want to create a comment of contact here.
+
+00:20.070 --> 00:23.290
+Copy and paste the line here and end of contact.
+
+00:23.430 --> 00:28.920
+Now for the end of contact what we would want is we would first start with a contact section.
+
+00:29.220 --> 00:33.320
+So we're going to say only contact and over here we're going to do a background.
+
+00:33.600 --> 00:35.630
+Now for a background we're going to do more.
+
+00:35.670 --> 00:37.910
+I don't know where this is going to be s..
+
+00:38.130 --> 00:40.780
+So we're all going to say this will be a section.
+
+00:40.950 --> 00:46.170
+So again we're not going to be mixing actual gray color because just in case you would want to change
+
+00:46.170 --> 00:50.660
+the color note here again let's do the same thing let's do a thing.
+
+00:50.900 --> 00:54.780
+Now this is going to be three or Reems and zero.
+
+00:55.050 --> 00:59.450
+So really top bottom is going to be three and left or right is going to be zero.
+
+00:59.740 --> 01:07.350
+And after we have planning now I would want a contact or hire center and again for the centering we're
+
+01:07.350 --> 01:11.520
+going to do the same thing with the same max with is going to be 80.
+
+01:11.510 --> 01:14.110
+Are you with us or you doing this.
+
+01:14.250 --> 01:17.700
+And then we're going to have again a lot of margin for the margin.
+
+01:17.690 --> 01:24.740
+We're going to have two RPMs here or we're like this hour we're actually working with the center.
+
+01:24.810 --> 01:30.870
+You can see or hear now we have more margins once we're done with a contact center.
+
+01:30.870 --> 01:33.420
+Now what I would want is to work with this letter.
+
+01:33.720 --> 01:37.980
+Remember that this header is holding the name and holding that e-mail.
+
+01:38.190 --> 01:45.290
+And what we can do is we can create this a header as a flex box container so we're going to say contract
+
+01:45.650 --> 01:48.720
+to of course had her on here.
+
+01:48.990 --> 01:56.700
+How far ahead are you going to say first display flex like this so I can see that right away side by
+
+01:56.700 --> 01:57.630
+side.
+
+01:57.630 --> 02:04.280
+Then once we have the flex and we would want a justified content space between here.
+
+02:04.470 --> 02:11.820
+So basically push them as far as possible from each other and then we're going to have a flex ramp.
+
+02:11.820 --> 02:17.420
+So basically if the screen is going to get too small We're going to say that we would want a rapid.
+
+02:17.580 --> 02:23.810
+And also we would want a margin margin wouldn't be to RPMs and no one here zero.
+
+02:23.820 --> 02:31.190
+So basically still for the whole Hetter we were one margin but still would want these texts and input
+
+02:31.280 --> 02:33.510
+and email to look like this.
+
+02:33.510 --> 02:37.810
+So once we have our hand her and actually style all the inputs.
+
+02:38.010 --> 02:45.590
+So here we're going to say first contact name and we're going to have a contact via e-mail.
+
+02:45.600 --> 02:47.240
+So basically select them all.
+
+02:47.260 --> 02:53.530
+The last one is going to be contact and text text area or here like this.
+
+02:53.650 --> 02:55.530
+And what we would one for all.
+
+02:55.780 --> 03:01.650
+Well on here first we would want a background and we're going to say background is going to be transparent.
+
+03:01.970 --> 03:08.820
+Guess and I can see that we don't have that back and after that we would want a border and we were one
+
+03:08.810 --> 03:09.910
+border none.
+
+03:09.960 --> 03:16.300
+So basically border would disappear then we would want a border bottom here.
+
+03:16.520 --> 03:19.520
+And for the border bottom we're actually going to have a caller.
+
+03:19.800 --> 03:25.260
+So for the caller we're going to have three pixels solid and we're going to save our own here in this
+
+03:25.260 --> 03:25.500
+case.
+
+03:25.500 --> 03:28.750
+This is going to be dark like this so we sang it.
+
+03:28.950 --> 03:29.480
+You can see that.
+
+03:29.480 --> 03:33.040
+Now I have my waters in the bottom.
+
+03:33.390 --> 03:37.880
+So once we have the waters then we would want also a panning.
+
+03:38.130 --> 03:43.460
+So for the padding is going to be zero point two five RPMs and zero.
+
+03:43.680 --> 03:53.430
+So 0.05 bottom left and right zero margin is going to be to Reems zero here.
+
+03:53.460 --> 04:00.120
+So there's also going to be margin bottom but zero on the sides and or font size we're going to say
+
+04:00.120 --> 04:02.810
+1.2 rpms.
+
+04:02.910 --> 04:05.290
+So they're basically bigger font size.
+
+04:05.580 --> 04:11.880
+So this is how it's going to look like some of the ones we have styled and this actually work with a
+
+04:11.880 --> 04:14.620
+contact name and contact e-mail.
+
+04:14.880 --> 04:23.880
+So here I'm going to say contact on your two underscores name and that I also want a contact and e-mail.
+
+04:24.160 --> 04:26.940
+So I would want with them I would want to flex.
+
+04:27.090 --> 04:33.640
+So all here I'm going to say flex 00 Coke here Coke.
+
+04:33.730 --> 04:40.260
+And for the color we're going to say very easy we're going to say 50 percent minus one aria.
+
+04:40.510 --> 04:43.120
+So again we're making sure that there's going to be room.
+
+04:43.330 --> 04:49.450
+So basically as it gets to the bigger screen where it doesn't need to wrap you can see that it's going
+
+04:49.450 --> 04:51.280
+to be taking 50 percent.
+
+04:51.280 --> 04:55.930
+However there is going to be this one argument between two and this is all going to be working with
+
+04:55.930 --> 04:56.730
+him.
+
+04:56.800 --> 05:03.610
+Now once we have set the contact name and contact e-mail now we're going to do contact and we're going
+
+05:03.610 --> 05:04.710
+to say textarea.
+
+05:04.990 --> 05:10.120
+And for textarea I was going to say very simple and to say with and the with is actually going to be
+
+05:10.120 --> 05:11.550
+hundred percent money.
+
+05:11.560 --> 05:16.840
+So once we say you can see that all the time it's going to be taking all the space.
+
+05:16.930 --> 05:23.230
+Now the last one is actually going to be contact button or here we're going to say that for the contact
+
+05:23.230 --> 05:33.010
+button we would want a contact and we would want a beganto 200 course BGN and we're going to start with
+
+05:33.010 --> 05:40.240
+background var this is going to be a color wheel like this and this is would be the color for the button
+
+05:40.770 --> 05:45.120
+that we would want the actual color and the color is going to be light.
+
+05:45.340 --> 05:52.180
+So again we're going to do a wire and light here so this is going to be our light color over here.
+
+05:52.210 --> 05:58.120
+So once we have set the background there we would want a display of block.
+
+05:58.120 --> 06:02.990
+So basically I would want this button all the time to be in the next row.
+
+06:03.220 --> 06:05.500
+So that's why I'm using the display one.
+
+06:05.800 --> 06:12.700
+Then we're going to have a margin margin of 0 0 0 0 here because I actually want to place it in the
+
+06:12.700 --> 06:13.530
+center.
+
+06:13.840 --> 06:19.320
+Then we're going to do a planning 0.5 RPMs and 1 am.
+
+06:19.510 --> 06:22.070
+So I'm going to save it and it's going to look like this.
+
+06:22.190 --> 06:25.550
+Then we're going to have a margin on top.
+
+06:25.690 --> 06:28.020
+And this is going to be to our Reems.
+
+06:28.080 --> 06:33.670
+This is going to be the top margin then we can do a font size.
+
+06:33.940 --> 06:38.510
+And for the font size we're going to have 1.5 RPMs over here.
+
+06:38.510 --> 06:46.220
+So basically this is going to be bigger than LEDs do text transform and this is going to be uppercase
+
+06:46.680 --> 06:51.500
+it's going to make sure that the font is uppercase letter spacing.
+
+06:51.560 --> 07:00.340
+When I say 0.5 RPMs I miss so now our letters have more space in between.
+
+07:00.530 --> 07:02.820
+And then we're going to do a transition.
+
+07:02.820 --> 07:10.080
+So here we're going to say a transition this is going to be all zero point five seconds when you're
+
+07:10.490 --> 07:12.840
+this is going to be a linear transition.
+
+07:12.980 --> 07:19.250
+And like I said before basically what we're doing with transition and making sure that change is happening
+
+07:19.520 --> 07:26.760
+over time not right away because on here we're going to say a contact that will have a contact between
+
+07:26.760 --> 07:28.040
+and hover.
+
+07:28.130 --> 07:30.930
+So going to between and on here.
+
+07:31.280 --> 07:37.370
+So here we're going to say that we all want a background now the background is going to be lights are
+
+07:38.090 --> 07:42.020
+on here light right here and this is going to be our background.
+
+07:42.030 --> 07:44.250
+Then we also want a color.
+
+07:44.510 --> 07:49.150
+Now the color is actually going to be dark so boring and this is going to be dark color.
+
+07:49.310 --> 07:50.540
+So I will say this.
+
+07:50.540 --> 07:51.100
+Check it out.
+
+07:51.100 --> 07:56.260
+We have so right now as you can see the changes happening as I'm hovering over here.
+
+07:56.480 --> 07:59.720
+And the last one is actually going to be water.
+
+07:59.960 --> 08:06.320
+So here I'm going to say there's going to be a border and we would want basically bought a car.
+
+08:06.410 --> 08:11.320
+So if we want or here this morning we would just want a water cooler.
+
+08:11.560 --> 08:15.590
+So here say hair color I guess.
+
+08:15.600 --> 08:19.840
+And for the water we would want a dark color.
+
+08:19.980 --> 08:23.860
+So I more dark hair on this.
+
+08:23.960 --> 08:27.590
+So we're going to we need to go back here and have a dark.
+
+08:28.160 --> 08:34.480
+So I would say this you know here as I'm hovering You can see that right now I have my dark more.
+
+08:34.640 --> 08:38.240
+And once we have our border the last thing let's do the I.
+
+08:38.270 --> 08:43.720
+So here are going to just create a little bit more room here and you can see that I made the mistake.
+
+08:43.730 --> 08:47.170
+I need to create a curly braces.
+
+08:47.200 --> 08:48.730
+No let's do the icon.
+
+08:48.910 --> 08:52.410
+So we are going to say contact and let's do icon.
+
+08:52.420 --> 08:57.060
+So contact icon for the icon is going to be very straight forward.
+
+08:57.200 --> 09:01.310
+Well we're going to say well your margin will get a slim margin right.
+
+09:01.500 --> 09:07.680
+Is going to be zero point five rpms or so is going to create a little bit more room.
+
+09:07.720 --> 09:10.100
+So let's go ahead and let's actually check it out.
+
+09:10.100 --> 09:11.790
+We have with the S..
+
+09:11.810 --> 09:14.340
+So I'm going to go with the portfolio record.
+
+09:14.410 --> 09:15.270
+We're going to refresh.
+
+09:15.330 --> 09:21.890
+And this is how our contact action is going to work and once we're done with this section now we can
+
+09:21.980 --> 09:23.600
+go ahead and start working on it for.

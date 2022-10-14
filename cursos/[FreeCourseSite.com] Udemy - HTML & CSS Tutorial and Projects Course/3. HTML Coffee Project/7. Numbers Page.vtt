@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.460 --> 00:05.490
+Before we start working on no page let me just make a quick correction.
+
+00:05.500 --> 00:07.990
+We're here at the very top.
+
+00:07.990 --> 00:13.300
+Instead of having this heading three years and about I'd still like to leave this as a coffee junkie
+
+00:13.810 --> 00:18.650
+because obviously this is gonna be the name of our project or Page or the company.
+
+00:18.790 --> 00:26.230
+So I'll just keep this coffee junkie as well as let's write the title with capital E and as we say right
+
+00:26.230 --> 00:27.830
+now everything is working fine.
+
+00:28.090 --> 00:31.570
+Now let's decide what's happening within the numbers.
+
+00:31.690 --> 00:33.910
+Now this is going to be my final project.
+
+00:33.910 --> 00:40.360
+I'm going to navigate the numbers and within the numbers again most of the things stay exactly the same.
+
+00:40.360 --> 00:46.630
+The difference would be here is our stories we're all going to use our table now in our case.
+
+00:46.630 --> 00:48.260
+I think it's going to be faster.
+
+00:48.290 --> 00:54.040
+We're is going to copy and paste everything that's in the about email and then then just get rid of
+
+00:54.040 --> 00:54.580
+this text.
+
+00:55.870 --> 00:57.380
+Again let's create a new file.
+
+00:57.910 --> 01:00.290
+Let's call these numbers.
+
+01:00.340 --> 01:01.780
+Email again.
+
+01:01.780 --> 01:05.050
+Everything was selected in the validation email.
+
+01:05.050 --> 01:09.050
+Now I can just copy and paste in the number station e-mail.
+
+01:09.100 --> 01:14.790
+Now like I said I would like to delete all this long paragraph because this is not what we're gonna
+
+01:14.800 --> 01:15.930
+be doing.
+
+01:15.930 --> 01:16.680
+And that's right.
+
+01:16.680 --> 01:21.330
+First of all numbers or our numbers or we you like or you know.
+
+01:21.670 --> 01:26.480
+Let's call this our stores thing that just gonna make a little bit more sense.
+
+01:26.680 --> 01:29.120
+And let me select the whole paragraph.
+
+01:29.300 --> 01:30.090
+Delete it.
+
+01:30.850 --> 01:33.630
+Let's maybe change the title of the page.
+
+01:33.720 --> 01:34.900
+Is that always going to be right.
+
+01:34.900 --> 01:36.190
+No numbers.
+
+01:36.190 --> 01:37.370
+Let's save this.
+
+01:37.480 --> 01:43.600
+And from our about page we can navigate right now to the numbers and sure enough all just gonna have
+
+01:43.600 --> 01:47.110
+our heading with our stores title.
+
+01:47.170 --> 01:50.300
+Now within the title what we're gonna have now.
+
+01:50.350 --> 01:52.880
+Like you said we're gonna be working on our table.
+
+01:53.460 --> 01:59.530
+So first we know that we need to have the table element and then within the table element we start working
+
+01:59.530 --> 02:00.680
+with rows.
+
+02:00.700 --> 02:04.630
+Now maybe let's add a little bit of clarification.
+
+02:04.780 --> 02:07.640
+So in our case again we're going to use the comments.
+
+02:07.660 --> 02:10.140
+So I'm gonna write and this is gonna be for the city.
+
+02:10.180 --> 02:16.340
+So this is gonna be our table roll for the city now for the table roll we need to create a table or
+
+02:16.340 --> 02:24.310
+rogue element and then we're looking for either table data elements that would reflect columns or since
+
+02:24.310 --> 02:29.520
+we would like to have some kind of headings I'm gonna go with table heading element so here I'm gonna
+
+02:29.530 --> 02:31.400
+write that the first one is gonna be city.
+
+02:31.810 --> 02:37.530
+So that would be pretty much telling what my columns are gonna be like as well as you know what.
+
+02:37.530 --> 02:40.370
+This is gonna be the first one is gonna be Chicago.
+
+02:40.360 --> 02:42.480
+And let me copy and paste this.
+
+02:42.550 --> 02:46.630
+So while the first one is Chicago we also have an option of New York.
+
+02:47.080 --> 02:50.830
+So the stores would be located in Chicago as well as New York.
+
+02:50.980 --> 02:57.630
+And we also have an option of Los Angeles let's save this and this would be my city.
+
+02:58.090 --> 03:01.180
+And then these would be my cities.
+
+03:01.200 --> 03:01.540
+Okay.
+
+03:01.630 --> 03:02.890
+So far so good.
+
+03:02.890 --> 03:08.890
+Now we also can right away maybe add the comment of and off city so we know that this would be the end
+
+03:08.890 --> 03:14.480
+of the roll and maybe let's create another one where we're gonna have some kind of numbers.
+
+03:14.770 --> 03:22.870
+So let's say maybe before that and then other comment orders and of orders.
+
+03:22.870 --> 03:29.240
+So the beginning of the comment and then the comment made me feel it and also end of orders.
+
+03:29.240 --> 03:32.600
+And now let's start creating our roles now within the role.
+
+03:32.880 --> 03:38.580
+There's gonna be instead of table heading table data let's write table data and the first one is gonna
+
+03:38.600 --> 03:42.250
+be the name of our role which will be numbers or orders.
+
+03:42.250 --> 03:43.500
+My apologies.
+
+03:43.580 --> 03:50.200
+Let's copy and paste this and let's write that in the first one is gonna be and twenty five.
+
+03:50.320 --> 03:54.040
+The second one is gonna be 250.
+
+03:54.040 --> 03:57.530
+And last but not least we're gonna be looking for 500.
+
+03:57.540 --> 04:02.140
+So this is gonna be our second row again as we copy pasted notice.
+
+04:02.260 --> 04:04.040
+These are gonna be our orders.
+
+04:04.040 --> 04:07.750
+Now last but not least we're gonna be looking for basically profit.
+
+04:07.750 --> 04:11.950
+So whatever profit our city stores will be generating.
+
+04:11.950 --> 04:14.110
+So let's rewrite this.
+
+04:14.170 --> 04:17.450
+This will be profit profit.
+
+04:17.530 --> 04:22.590
+Let's make sure that we write this correctly as well as land of profit.
+
+04:22.630 --> 04:25.130
+And let's just add some kind of dollar value.
+
+04:25.660 --> 04:29.150
+Now I would also like to change the name of my role.
+
+04:29.230 --> 04:30.800
+This would be profit now.
+
+04:31.330 --> 04:36.290
+And here we're gonna be looking for dollar sign meaning this would be significant.
+
+04:36.330 --> 04:42.610
+That this is a dollars and let's say 10000 10000.
+
+04:42.720 --> 04:44.910
+And let's just copy and paste this.
+
+04:44.970 --> 04:48.760
+So let's say first one second one.
+
+04:49.810 --> 04:50.650
+Third one.
+
+04:50.760 --> 04:55.700
+How are we gonna change it to 20000 30000.
+
+04:55.780 --> 04:57.950
+And that should be good enough now.
+
+04:57.950 --> 04:58.880
+Last but not least.
+
+04:58.880 --> 05:05.210
+Again I'm going to implement a little bit of CSX because it bothers me that it looks so bad.
+
+05:05.210 --> 05:08.720
+So what we would need to do and again you don't need to worry about the syntax right now.
+
+05:09.320 --> 05:11.140
+It's very very easy.
+
+05:11.200 --> 05:16.720
+Yes a syntax that we'll get to cover later on but I would like to write again style attribute.
+
+05:16.820 --> 05:24.800
+So this is gonna start my inline C assess and then let's just add border and board needs to be two pixels
+
+05:25.610 --> 05:26.760
+solid.
+
+05:27.110 --> 05:35.410
+Let's say black as was the other property would be border spacing border spacing.
+
+05:35.670 --> 05:39.950
+And that's gonna be equal to let's say 25 pixels.
+
+05:40.030 --> 05:47.490
+So spacing the call on and let's just write twenty five pixels now on the moment we're gonna save it
+
+05:47.550 --> 05:51.230
+as you can see right now the table looks a little bit more presentable.
+
+05:51.330 --> 05:55.710
+Now last but not least let's just check it out in the bigger browser window.
+
+05:55.770 --> 06:01.370
+Again we would want to navigate away from about we're going to go to numbers and yeah we have our stores
+
+06:01.380 --> 06:05.540
+so our number page is finished and now it can work on contact page.

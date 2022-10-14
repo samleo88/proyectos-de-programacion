@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.590 --> 00:04.680
+We were going to start our transform journey by looking at the translate.
+
+00:04.940 --> 00:11.540
+But before we do anything and see assess I would like to head over back to next Schimmel and here like
+
+00:11.540 --> 00:16.730
+already usually will then create some days but we're not going to place any content we're just gonna
+
+00:16.760 --> 00:21.620
+say that first one is gonna have class of 1 and then you probably guessed it you're all going to have
+
+00:21.620 --> 00:23.220
+class and number two.
+
+00:23.360 --> 00:28.700
+Then we have the third one with class of number three and that's gonna do with HMO.
+
+00:28.850 --> 00:30.460
+And then we have the CSF.
+
+00:31.130 --> 00:35.950
+Well in the C as this let's just start and by some general styling and let's say I don't know with there's
+
+00:35.960 --> 00:41.870
+gonna be a hundred and fifty pixels hopefully is gonna look good not I'm going to change it then the
+
+00:41.870 --> 00:47.830
+height also goes in B hundred fifty let's add height hundred fifty and this is not what I wanted.
+
+00:47.840 --> 00:49.920
+So this is gonna be the correct one.
+
+00:50.120 --> 00:50.870
+And what else.
+
+00:50.900 --> 00:56.890
+Well we can also maybe display not in line but in line BLOCK So a little bit different.
+
+00:56.960 --> 01:02.140
+Is not gonna make this play block which obviously would be by default for the divs but this is gonna
+
+01:02.150 --> 01:03.240
+be in line block.
+
+01:04.100 --> 01:04.690
+OK.
+
+01:04.730 --> 01:05.420
+What is next.
+
+01:05.450 --> 01:12.020
+Well we can first add maybe some colors so let's say background is gonna be red for number one and that's
+
+01:12.020 --> 01:14.120
+going to be my live and you know what.
+
+01:14.120 --> 01:19.630
+Let me copy and paste it again 1 two 3 as well as I would like to change these.
+
+01:19.700 --> 01:24.980
+So this guy's going to be number two for number three.
+
+01:25.100 --> 01:25.700
+I don't know.
+
+01:25.700 --> 01:27.710
+Again whatever colors you like.
+
+01:28.100 --> 01:35.280
+I think I'm gonna go with my typical ones of let's say a green and then the last one is gonna be blue.
+
+01:35.680 --> 01:39.380
+So again let me select this say a whole year.
+
+01:39.590 --> 01:40.990
+I'm gonna be working in the pool.
+
+01:41.180 --> 01:47.630
+So nice three blocks maybe I'm gonna make this a little bit bigger because I want them side by side
+
+01:47.660 --> 01:48.920
+and you'll see in the second one.
+
+01:49.490 --> 01:51.800
+Now what is the situation would translate.
+
+01:52.100 --> 01:58.860
+Well first of all let's get the property which will gonna be transform so transform property.
+
+01:59.000 --> 02:04.730
+But then within the transform you notice that we're getting the rotations the scaling as well as as
+
+02:04.730 --> 02:10.130
+we start scrolling down we have the SKU and translate now for and translate.
+
+02:10.130 --> 02:13.410
+It's gonna be very interesting because translate is gonna be the function.
+
+02:13.400 --> 02:14.720
+Now what does that mean.
+
+02:14.720 --> 02:20.690
+Well that means that if we can get translate X which is gonna work with the exact action then we have
+
+02:20.690 --> 02:26.000
+the Y which is gonna work in the y direction and then we just have the plain old translate.
+
+02:26.330 --> 02:32.000
+So let's start with X. Now like I said the X is gonna work with x axis.
+
+02:32.000 --> 02:34.560
+So here I can write whatever values I would like.
+
+02:34.760 --> 02:40.630
+I can write pixels if I want more I can write percentage not just to show you how this is gonna work.
+
+02:40.820 --> 02:46.610
+I can just say I don't know 20 pixels now what's gonna happen is that the box is gonna move right now
+
+02:46.610 --> 02:49.910
+20 pixels to the right because the value is positive.
+
+02:49.980 --> 02:55.100
+However if we're gonna change it and if I'm gonna say negative 20 pixels obviously this is going to
+
+02:55.090 --> 02:57.230
+move negative 20 pixels.
+
+02:57.230 --> 03:00.080
+In this case though the movement is gonna be to the left.
+
+03:00.590 --> 03:02.000
+So if we're adding the negative.
+
+03:02.150 --> 03:07.120
+This is gonna move the left direction however positive is gonna move the right direction.
+
+03:07.280 --> 03:08.540
+So far so good.
+
+03:08.540 --> 03:14.710
+Now we also have an option of 50 percent or I'm sorry percent but we're all going to use 50 percent.
+
+03:14.840 --> 03:16.490
+Now how is that going to look like.
+
+03:16.490 --> 03:22.450
+Well let's say we're gonna move it 50 percent and obviously since the value was positive again we moved
+
+03:22.460 --> 03:23.380
+the right direction.
+
+03:24.050 --> 03:30.900
+Here's the kicker though 50 percent means 50 percent of this hundred and fifty pixels.
+
+03:31.070 --> 03:32.060
+Don't believe me.
+
+03:32.060 --> 03:38.420
+Well let's look at the third one which was blue and you saw that initially there exactly in the same
+
+03:38.420 --> 03:39.380
+position.
+
+03:39.380 --> 03:45.290
+Now if you didn't notice that then I can just come in this out and you can see that there city exactly
+
+03:45.290 --> 03:46.700
+where the other one was.
+
+03:46.740 --> 03:47.340
+Okay.
+
+03:47.540 --> 03:53.380
+What if I go here and I do the same thing where I use the transform just only with the pixels.
+
+03:53.810 --> 04:02.360
+So what happens is I can just say not 50 percent but let's say 75 pixels and you can see that 75 pixels
+
+04:02.360 --> 04:05.810
+would be exactly the half from half and 50.
+
+04:05.810 --> 04:13.130
+So that tells me that this 50 percent is going to reflect on the actual width of deal.
+
+04:13.670 --> 04:19.830
+So if I'm gonna change it here let's say to 300 pixels then obviously this is gonna move way more.
+
+04:19.830 --> 04:24.950
+Well maybe this was a little bit too drastic example it's maybe go with hundred and then we can see
+
+04:24.950 --> 04:31.190
+that this is not gonna work exactly the same because they're not gonna be in one line but I hope you
+
+04:31.190 --> 04:37.550
+understood the idea where if I am moving this to the right by 50 percent that is gonna mean exactly
+
+04:37.550 --> 04:42.960
+half of its width and I can double check that by moving the third guy.
+
+04:42.960 --> 04:46.450
+Exactly seventy five pixels and they're all gonna match.
+
+04:46.500 --> 04:50.500
+Well if we're looking at it we see that there's gonna be translate X.
+
+04:50.730 --> 04:52.260
+Can we do translate one.
+
+04:52.340 --> 04:52.680
+No.
+
+04:52.710 --> 04:53.910
+I think we can figure it out.
+
+04:54.300 --> 05:00.120
+So we have transform the four transformations we can do instead of X we're gonna do Y.
+
+05:00.520 --> 05:03.450
+And here again let's just get out first by pixels.
+
+05:03.510 --> 05:08.100
+So if we're gonna say 30 pixels man right away let's do the negative.
+
+05:08.100 --> 05:13.620
+Now my box moved up because I went into negative direction.
+
+05:13.620 --> 05:18.930
+So if I'm gonna get rid of the negative one now I see it went down because we are moving the positive
+
+05:18.930 --> 05:21.630
+direction again very straightforward.
+
+05:21.690 --> 05:22.770
+You want to move it up.
+
+05:22.770 --> 05:24.590
+This is gonna have to be negative.
+
+05:24.600 --> 05:28.580
+You want to move it down then this is gonna have to be positive.
+
+05:28.590 --> 05:31.860
+We also have an option of actually combining them both.
+
+05:31.920 --> 05:33.230
+So let me come on this out.
+
+05:33.660 --> 05:37.620
+Let me start a new one again transform translate.
+
+05:37.620 --> 05:40.240
+And then if I'm not adding x or y.
+
+05:40.350 --> 05:45.870
+Now the first value is gonna be x axis and the second one is gonna be y axis.
+
+05:45.870 --> 05:48.210
+Again endless amount of possibilities.
+
+05:48.250 --> 05:52.780
+And I don't think that there is a point to covering them just to show you how this is going to work.
+
+05:52.780 --> 05:59.830
+So let's say I would like to move this 20 pixels on the exertion and then add another 30 pixels in the
+
+05:59.830 --> 06:00.960
+y direction.
+
+06:01.000 --> 06:06.040
+So what happens is that the box moves 20 pixels to the right and then 30 pixels.
+
+06:06.040 --> 06:10.840
+Now because we move that obviously in the right direction if we want to move with let's say a little
+
+06:10.840 --> 06:15.610
+bit more can do two hundred pixels by 300 pixels.
+
+06:15.820 --> 06:20.470
+And then now the box is going to move two hundred pixels to the right and then three hundred pixels
+
+06:20.470 --> 06:21.510
+down again.
+
+06:21.520 --> 06:27.550
+We can use the percentages here we can use the negative values and I'll let you explore in more detail
+
+06:27.550 --> 06:28.660
+if you'd like to.
+
+06:28.660 --> 06:34.960
+But generally this is how we can work we transform and translate function within the CSF.

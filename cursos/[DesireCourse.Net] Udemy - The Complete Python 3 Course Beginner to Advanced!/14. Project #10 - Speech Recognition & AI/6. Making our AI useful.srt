@@ -1,0 +1,499 @@
+1
+
+00:00:00,000  -->  00:00:02,639
+Alright guys, so what we are going to do
+
+2
+
+00:00:02,639  -->  00:00:04,230
+in this video is I'm going to make this
+
+3
+
+00:00:04,230  -->  00:00:06,629
+little quick command work, and now I'm
+
+4
+
+00:00:06,629  -->  00:00:08,670
+going to do that is I'm going to
+
+5
+
+00:00:08,670  -->  00:00:16,049
+basically say if command in a list, and
+
+6
+
+00:00:16,049  -->  00:00:19,410
+here I'm going to put all terms that we
+
+7
+
+00:00:19,410  -->  00:00:24,420
+want to be able to to quit the app from.
+
+8
+
+00:00:24,420  -->  00:00:31,470
+Alright, so, what we need to do is as you
+
+9
+
+00:00:31,470  -->  00:00:32,820
+can see when I hover over this it says
+
+10
+
+00:00:32,820  -->  00:00:35,489
+shadows name running from outer scope,
+
+11
+
+00:00:35,489  -->  00:00:38,370
+and it says local variable local
+
+12
+
+00:00:38,370  -->  00:00:40,710
+variable is not used, and so you can tell
+
+13
+
+00:00:40,710  -->  00:00:41,940
+that what this is trying to do is create
+
+14
+
+00:00:41,940  -->  00:00:44,700
+a new variable within this method, but
+
+15
+
+00:00:44,700  -->  00:00:46,500
+what we want to do is actually capture
+
+16
+
+00:00:46,500  -->  00:00:52,289
+the global running variable. So in order
+
+17
+
+00:00:52,289  -->  00:00:55,500
+to access a global variable within a
+
+18
+
+00:00:55,500  -->  00:00:58,140
+function you just type global and then
+
+19
+
+00:00:58,140  -->  00:01:00,300
+the name of the variable, and then that
+
+20
+
+00:01:00,300  -->  00:01:02,760
+turns that variable here into the global
+
+21
+
+00:01:02,760  -->  00:01:04,379
+one and we're going to set it to false. So if
+
+22
+
+00:01:04,379  -->  00:01:14,400
+I save this and run it, "exit," "goodbye,"
+
+23
+
+00:01:14,400  -->  00:01:26,280
+"quit," there we go. So as you can see it
+
+24
+
+00:01:26,280  -->  00:01:28,740
+took a few times, for some reason it thought I said
+
+25
+
+00:01:28,740  -->  00:01:32,130
+said exact, and maybe that's my Canadian
+
+26
+
+00:01:32,130  -->  00:01:34,979
+accent, not too sure,. I'm not too sure how
+
+27
+
+00:01:34,979  -->  00:01:37,049
+Google works with accents actually
+
+28
+
+00:01:37,049  -->  00:01:39,689
+that's going to be very interesting if
+
+29
+
+00:01:39,689  -->  00:01:41,610
+it doesn't, but it's Google so I would
+
+30
+
+00:01:41,610  -->  00:01:44,700
+think it would. So in this video we're
+
+31
+
+00:01:44,700  -->  00:01:46,350
+basically just going to add some
+
+32
+
+00:01:46,350  -->  00:01:48,810
+functionality to the commands right here,
+
+33
+
+00:01:48,810  -->  00:01:54,270
+and basically we want it to be able to
+
+34
+
+00:01:54,270  -->  00:02:02,369
+launch an application. So if "open" in text
+
+35
+
+00:02:02,369  -->  00:02:07,110
+we want to be able to open up a
+
+36
+
+00:02:07,110  -->  00:02:11,119
+program, basically. We also want
+
+37
+
+00:02:11,990  -->  00:02:14,360
+to be able to launch a program, so if
+
+38
+
+00:02:14,360  -->  00:02:18,560
+launch or open in text, what we're going
+
+39
+
+00:02:18,560  -->  00:02:20,720
+to do is we're going to need to get the
+
+40
+
+00:02:20,720  -->  00:02:23,930
+apps name, and so we're going to split
+
+41
+
+00:02:23,930  -->  00:02:31,910
+text at the space, we're going to get one
+
+42
+
+00:02:31,910  -->  00:02:34,940
+response from it. And so the first word
+
+43
+
+00:02:34,940  -->  00:02:36,740
+it's going to strip off because now we're
+
+44
+
+00:02:36,740  -->  00:02:39,770
+going to target the last item. So, if I
+
+45
+
+00:02:39,770  -->  00:02:43,220
+say launch Mozilla Firefox what this is
+
+46
+
+00:02:43,220  -->  00:02:45,170
+going to do right here is it's going to say,
+
+47
+
+00:02:45,170  -->  00:02:47,390
+okay, let's take off the first word, or
+
+48
+
+00:02:47,390  -->  00:02:49,970
+let's split it at the first space, which
+
+49
+
+00:02:49,970  -->  00:02:52,520
+is right after the word launch, and then
+
+50
+
+00:02:52,520  -->  00:02:55,160
+you know it puts it into two parts. So
+
+51
+
+00:02:55,160  -->  00:02:57,890
+this list would have two list items and
+
+52
+
+00:02:57,890  -->  00:02:59,120
+the first one would be launch, and the
+
+53
+
+00:02:59,120  -->  00:03:00,830
+second one would be anything that I said
+
+54
+
+00:03:00,830  -->  00:03:05,210
+after that. So this becomes Mozilla
+
+55
+
+00:03:05,210  -->  00:03:08,450
+Firefox, two words. So what we can do with
+
+56
+
+00:03:08,450  -->  00:03:13,100
+Mac OS, and actually with Linux
+
+57
+
+00:03:13,100  -->  00:03:14,420
+there should be a way to do this as well,
+
+58
+
+00:03:14,420  -->  00:03:16,670
+with Windows I'm not sure if they have
+
+59
+
+00:03:16,670  -->  00:03:20,660
+a way from the command line to launch
+
+60
+
+00:03:20,660  -->  00:03:24,530
+programs, but with Mac OS you just issue
+
+61
+
+00:03:24,530  -->  00:03:26,660
+the command open. And so what I'm going
+
+62
+
+00:03:26,660  -->  00:03:29,210
+to do is type os.system and this
+
+63
+
+00:03:29,210  -->  00:03:32,390
+allows us to make system calls to the
+
+64
+
+00:03:32,390  -->  00:03:35,180
+operating system, and then we just pass
+
+65
+
+00:03:35,180  -->  00:03:36,980
+in the command. So I'm going to say open
+
+66
+
+00:03:36,980  -->  00:03:40,190
+-a for application, and then I'm
+
+67
+
+00:03:40,190  -->  00:03:43,310
+going to add whatever app I'm trying to
+
+68
+
+00:03:43,310  -->  00:03:50,090
+open, plus .app. So, with this I should
+
+69
+
+00:03:50,090  -->  00:03:52,400
+be able to launch Safari. So let me quit
+
+70
+
+00:03:52,400  -->  00:03:56,360
+out of it, there we go. Let's go ahead and
+
+71
+
+00:03:56,360  -->  00:03:59,450
+save and rerun the application, and
+
+72
+
+00:03:59,450  -->  00:04:04,340
+let's go ahead and make it respond first.
+
+73
+
+00:04:04,340  -->  00:04:14,630
+So, self.respond "Opening" app. So let's go
+
+74
+
+00:04:14,630  -->  00:04:22,780
+ahead and open Safari. "Open Safari"
+
+75
+
+00:04:23,380  -->  00:04:30,520
+"opening Safari" and as you can see this
+
+76
+
+00:04:30,520  -->  00:04:32,740
+opened safari for me. So let's try again,
+
+77
+
+00:04:32,740  -->  00:04:57,850
+"opening." "Open Chrome." "Opening Chrome." "Open
+
+78
+
+00:04:57,850  -->  00:05:06,160
+Google Chrome." "Opening Google Chrome." "Open
+
+79
+
+00:05:06,160  -->  00:05:14,050
+finder." "Opening finder." "Open itunes."
+
+80
+
+00:05:14,050  -->  00:05:28,840
+"Opening itune." "Open goofy." "Opening
+
+81
+
+00:05:28,840  -->  00:05:30,520
+Cuckoo." I'm not really sure what it's
+
+82
+
+00:05:30,520  -->  00:05:32,320
+trying to find there, but as you can see
+
+83
+
+00:05:32,320  -->  00:05:35,890
+it partially works. Maybe it's my mic, I'm
+
+84
+
+00:05:35,890  -->  00:05:37,150
+not really sure. I don't know maybe it's
+
+85
+
+00:05:37,150  -->  00:05:39,760
+where I'm recording multiple audio
+
+86
+
+00:05:39,760  -->  00:05:43,420
+sources at at once, but, yeah, basically
+
+87
+
+00:05:43,420  -->  00:05:46,060
+you can see that what we do is we're
+
+88
+
+00:05:46,060  -->  00:05:48,220
+able to issue commands and kind of parse
+
+89
+
+00:05:48,220  -->  00:05:49,990
+them out and with this we're going to be,
+
+90
+
+00:05:49,990  -->  00:05:52,120
+probably in the next video or soon after,
+
+91
+
+00:05:52,120  -->  00:05:54,610
+we're going to start using an actual
+
+92
+
+00:05:54,610  -->  00:05:57,760
+speech parser and these are the same
+
+93
+
+00:05:57,760  -->  00:06:00,220
+kind of speech parsers that are used by
+
+94
+
+00:06:00,220  -->  00:06:02,350
+big-name corporations and organizations
+
+95
+
+00:06:02,350  -->  00:06:05,890
+that have machine learning as a
+
+96
+
+00:06:05,890  -->  00:06:08,380
+priority. So, thank you guys for watching
+
+97
+
+00:06:08,380  -->  00:06:10,870
+this video. I hope you found this one fun
+
+98
+
+00:06:10,870  -->  00:06:13,330
+and informative, and I hope you'll join
+
+99
+
+00:06:13,330  -->  00:06:16,120
+me for the next one where we get way
+
+100
+
+00:06:16,120  -->  00:06:19,200
+more advanced with this.

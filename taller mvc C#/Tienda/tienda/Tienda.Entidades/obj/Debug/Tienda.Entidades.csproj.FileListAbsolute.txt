@@ -1,0 +1,12 @@
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\Tienda.Entidades\bin\Debug\Tienda.Entidades.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\Tienda.Entidades\bin\Debug\Tienda.Entidades.pdb
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.dll
+C:\Users\usuario\Desktop\samil\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Entidades\bin\Debug\Tienda.Entidades.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Entidades\bin\Debug\Tienda.Entidades.pdb
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.csprojAssemblyReference.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.dll
+C:\Users\PC_LEONEL\Desktop\samil\proyectos de programacion\taller mvc C#\Tienda\tienda\Tienda.Entidades\obj\Debug\Tienda.Entidades.pdb

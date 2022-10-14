@@ -1,0 +1,1085 @@
+1
+
+00:00:00,000  -->  00:00:04,080
+Alright, welcome back guys. This is the
+last video in the Webpy section, we're
+
+2
+
+00:00:04,080  -->  00:00:08,340
+going to be learning how to upload files,
+store them onto a database, store the
+
+3
+
+00:00:08,340  -->  00:00:13,860
+file path in the database, and then use
+those images as the avatar and background
+
+4
+
+00:00:13,860  -->  00:00:21,779
+images for a user. So, if I go ahead and open the page here we've actually made a huge
+
+5
+
+00:00:21,779  -->  00:00:25,920
+issue, and so I've actually dropped the
+entire database. If you guys don't know
+
+6
+
+00:00:25,920  -->  00:00:32,399
+how to do that right click, click drop
+database, and it will get recreated in
+
+7
+
+00:00:32,399  -->  00:00:33,360
+our code here.
+
+8
+
+00:00:33,360  -->  00:00:41,790
+So what we're going to do is, it's
+on the settings page but we need to do
+
+9
+
+00:00:41,790  -->  00:00:51,120
+is modify how the user accounts get
+created, and so i'm going to, well
+
+10
+
+00:00:51,120  -->  00:01:00,780
+I'm going to open up the register model
+here, and i'm going to say "avatar":
+
+11
+
+00:01:00,780  -->  00:01:08,700
+black, just a blank string "", and then also
+"background": "" so
+
+12
+
+00:01:08,700  -->  00:01:13,650
+that even though these don't exist when
+we're registering the account, we still
+
+13
+
+00:01:13,650  -->  00:01:18,869
+have the keys in Mongo so it's not gonna
+bring any issues with it, and actually
+
+14
+
+00:01:18,869  -->  00:01:32,729
+i'll do the same for name, actually
+already set name, , "about": "" , "hobbies": and
+
+15
+
+00:01:32,729  -->  00:01:35,729
+"", "birthday": "" was the other one.
+
+16
+
+00:01:37,180  -->  00:01:44,320
+And so now every time we create a user
+is going to set all these empty fields
+
+17
+
+00:01:44,320  -->  00:01:49,600
+which we are going to need later on. So
+i'm going to go ahead and save that, going to
+
+18
+
+00:01:49,600  -->  00:02:04,479
+refresh the application, and i'm going to
+refresh this page, go to register, "nick" "Nick Germaine"
+
+19
+
+00:02:04,479  -->  00:02:11,770
+then my password, as always, is going to be "avocado1" Now again we still don't
+
+20
+
+00:02:11,770  -->  00:02:21,100
+redirect here so i'm going to go ahead
+and login, and then i'm going to go to
+
+21
+
+00:02:21,100  -->  00:02:28,600
+settings here, and this little bit of
+code is what we want to focus on right
+
+22
+
+00:02:28,600  -->  00:02:37,390
+now. What we're going to do is we need to
+import OS into our controller, for the
+
+23
+
+00:02:37,390  -->  00:02:42,220
+sake of this video we're actually going
+to be doing all the code in the
+
+24
+
+00:02:42,220  -->  00:02:49,269
+controller. So what we need to do is on
+the settings page, the avatar form where
+
+25
+
+00:02:49,269  -->  00:02:57,820
+is that, Avatar right here, so this is the
+avatar upload. I've added these
+
+26
+
+00:02:57,820  -->  00:03:02,980
+attributes or properties to the forum,
+we're not going to send this request
+
+27
+
+00:03:02,980  -->  00:03:07,299
+through ajax we're actually going to be
+doing it the old school way just because
+
+28
+
+00:03:07,299  -->  00:03:14,680
+waiting for file upload progress data is
+kind of unreliable and I don't want to
+
+29
+
+00:03:14,680  -->  00:03:18,730
+focus on how to make that work right now,
+so we're going to just do it the old
+
+30
+
+00:03:18,730  -->  00:03:24,430
+school way. The input is named avatar and
+then we have a submit button. Now, you
+
+31
+
+00:03:24,430  -->  00:03:29,290
+need to set input type to multipart/form-data when you're sending images, the
+
+32
+
+00:03:29,290  -->  00:03:32,890
+method is going to be post obviously, and
+then the action is the route that we
+
+33
+
+00:03:32,890  -->  00:03:38,290
+want to send the file to, so in this case
+it's /upload-image/avatar and
+
+34
+
+00:03:38,290  -->  00:03:41,560
+you guys will see why avatar is listed
+there. We're going to do the same thing
+
+35
+
+00:03:41,560  -->  00:03:48,669
+for the background upload except it's
+going to reference a different URL, and I'm
+
+36
+
+00:03:48,669  -->  00:03:49,100
+going to
+
+37
+
+00:03:49,100  -->  00:03:53,660
+actually do that now. So i'm going to
+copy this, put that down there, and just
+
+38
+
+00:03:53,660  -->  00:03:58,010
+replace the the word avatar with
+"background" and we can use that to check
+
+39
+
+00:03:58,010  -->  00:04:04,100
+what type it is and then do something based on what type is. So we are done with this
+
+40
+
+00:04:04,100  -->  00:04:06,860
+file, we've got everything we need,
+
+41
+
+00:04:06,860  -->  00:04:10,460
+let's go back over to the Controller and
+actually build out that route.
+
+42
+
+00:04:10,460  -->  00:04:25,640
+So, what we need is '/upload-image/(.*)'. "" and then we're
+
+43
+
+00:04:25,640  -->  00:04:31,760
+going to create a class called "UploadImage" Let's scroll down here and do that
+
+44
+
+00:04:31,760  -->  00:04:35,420
+right under the last class that's
+defined here, let's create a "class
+
+45
+
+00:04:35,420  -->  00:04:39,950
+UploadImage:" there we go.
+
+46
+
+00:04:39,950  -->  00:04:44,810
+We're going to "def POST(self, type):" so this is
+
+47
+
+00:04:44,810  -->  00:04:51,080
+either going to be avatar or background.
+So, what we're going to do at this point
+
+48
+
+00:04:51,080  -->  00:05:00,680
+is we need to first get the input, so
+we're going to store that in let's just
+
+49
+
+00:05:00,680  -->  00:05:11,000
+say "file = web.input( )" and here we're going to set "avatar={ },
+
+50
+
+00:05:11,000  -->  00:05:14,810
+background={ }" by default.
+
+51
+
+00:05:21,780  -->  00:05:28,590
+And now what we're going to do is we
+need to get the directory what we want
+
+52
+
+00:05:28,590  -->  00:05:32,430
+to work with, and so for instance each
+user is going to have their own
+
+53
+
+00:05:32,430  -->  00:05:37,380
+directory here with information in it, so i'm
+actually going to move that to trash right now. It's
+
+54
+
+00:05:37,380  -->  00:05:42,360
+going to be /static/uploads and then
+the users directory. So what we need to
+
+55
+
+00:05:42,360  -->  00:05:47,460
+do we're going to store that in a
+variable called "file_dir
+
+56
+
+00:05:47,460  -->  00:05:51,630
+= os.getcwd( )"
+
+57
+
+00:05:52,139  -->  00:05:56,070
+it's going to get the current working
+directory, so the CodeWizard directory
+
+58
+
+00:05:56,070  -->  00:05:57,150
+right here.
+
+59
+
+00:05:57,150  -->  00:06:11,880
+"+ "/static/uploads/" + session_data["user"]["username"]"
+
+60
+
+00:06:12,630  -->  00:06:20,250
+Now what we need to do is check if that
+exists and if it doesn't exist then we
+
+61
+
+00:06:20,250  -->  00:06:29,760
+actually need to create it. So "if not os.path.exists(file_dir):" we're going to
+
+62
+
+00:06:29,760  -->  00:06:40,680
+create it so "os.mkdir(fil_dir)" Now we can move on to the to the fun stuff.
+
+63
+
+00:06:41,340  -->  00:06:46,800
+So this is going to check if we actually
+have a, this is gonna be based on the
+
+64
+
+00:06:46,800  -->  00:06:56,700
+type, I guess. So, what we're going to do is
+we're going to, yeah let's do things like this.
+
+65
+
+00:06:56,700  -->  00:07:03,300
+file path going to be equal to, actually let me put this in an if statement just to make
+
+66
+
+00:07:03,300  -->  00:07:06,900
+sure. "if "avatar" or
+
+67
+
+00:07:09,930  -->  00:07:19,380
+"background" in file:" So if
+one of these is in file then we're
+
+68
+
+00:07:19,380  -->  00:07:26,070
+actually going to do stuff with it, so
+"filepath = file[ ]"
+
+69
+
+00:07:26,070  -->  00:07:30,150
+then we're going to open up square
+brackets here and we're actually gonna
+
+70
+
+00:07:30,150  -->  00:07:42,599
+put "type" the variable that's coming in here, and then ".filename.replace( )"
+
+71
+
+00:07:42,599  -->  00:07:47,310
+and so basically what we're doing is if
+you're running this on Windows we're
+
+72
+
+00:07:47,310  -->  00:07:52,710
+going to get rid of the backslashes
+here and replace them with '\\',
+
+73
+
+00:07:52,710  -->  00:08:02,340
+'/' So that's going to be the filepath.
+The "filename = filepath.split
+
+74
+
+00:08:02,340  -->  00:08:10,199
+("/")[-1] and
+
+75
+
+00:08:10,199  -->  00:08:15,479
+this is going to get the last item in
+that array, and then we're actually going
+
+76
+
+00:08:15,479  -->  00:08:19,919
+to create our file. So file is going to
+be equal to "f =" and we're going to just
+
+77
+
+00:08:19,919  -->  00:08:25,380
+basically use the same, the same open
+method that we've used before, so let's
+
+78
+
+00:08:25,380  -->  00:08:28,380
+"open(file_dir) + "/" +
+
+79
+
+00:08:33,140  -->  00:08:46,040
+filename" and then let's go ahead and we
+need to we need to open it in binary
+
+80
+
+00:08:46,040  -->  00:08:50,540
+mode and so it needs to be' and
+binary mode so we're going to use 'wb'
+
+81
+
+00:08:50,540  -->  00:08:55,730
+there, alright. Now we're actually
+going to write the file, so go ahead and type
+
+82
+
+00:08:55,730  -->  00:09:02,360
+"f.write( )" and here what we're going to
+write is basically the same type thing
+
+83
+
+00:09:02,360  -->  00:09:07,010
+we used up here, so filename and then
+we're actually going to
+
+84
+
+00:09:07,010  -->  00:09:16,700
+read the file so it's not gonna be file
+name. We're gonna read (file[type].file.read( ))]"
+
+85
+
+00:09:16,700  -->  00:09:20,510
+So we're going to write whatever we can
+read out of that file, this going to be binary
+
+86
+
+00:09:20,510  -->  00:09:26,030
+data that's why we need to use the b
+argument there, then we can safely close
+
+87
+
+00:09:26,030  -->  00:09:33,320
+that. So "f.close( )" We're done with that
+now what we're going to do is we're
+
+88
+
+00:09:33,320  -->  00:09:40,070
+going to, we're going to actually update
+this in Mongo, so let's go ahead and
+
+89
+
+00:09:40,070  -->  00:09:49,010
+create the URL based on what
+kinda you know if I want to show it in here
+
+90
+
+00:09:49,010  -->  00:09:53,780
+we need to use the path beginning in
+/static/uploads, we wouldn't get
+
+91
+
+00:09:53,780  -->  00:09:57,380
+the current working directory. So what we
+have to do this is just to be able to
+
+92
+
+00:09:57,380  -->  00:10:01,610
+make filesystem path if it doesn't exist.
+So we're going to create an object here, a
+
+93
+
+00:10:01,610  -->  00:10:09,860
+dictionary rather "update = { }", and we're going to set update avatar,
+
+94
+
+00:10:10,610  -->  00:10:14,510
+actually it's going to be type, actually
+it's going to be,
+
+95
+
+00:10:16,960  -->  00:10:28,540
+yeah, "update["type"]" = type" "update[type] =" and then whatever the type
+
+96
+
+00:10:28,540  -->  00:10:36,880
+is, so this could be either a key avatar or
+background in there. So update type
+
+97
+
+00:10:36,880  -->  00:10:40,570
+that's going to be equal to the URL, so
+we're going to go ahead and '/static/
+
+98
+
+00:10:40,570  -->  00:10:59,470
+uploads' + session_data["user"]["username"] + "/" + filename so there we go.
+
+99
+
+00:10:59,470  -->  00:11:08,800
+So that's going to be the URL and then we need the username as well so "update["username"]" and
+
+100
+
+00:11:08,800  -->  00:11:17,530
+let's just go ahead and set this to
+"= session_data["user"]["username"]" Now we're
+
+101
+
+00:11:17,530  -->  00:11:20,920
+going to instantiate the login model
+which should be the account model, but
+
+102
+
+00:11:20,920  -->  00:11:21,850
+it's not,
+
+103
+
+00:11:21,850  -->  00:11:26,530
+let's go ahead and do that. I'm going to
+name it "account_model =
+
+104
+
+00:11:26,530  -->  00:11:31,180
+LoginModel.LoginModel( ) there we go.
+
+105
+
+00:11:32,020  -->  00:11:37,360
+And then we're going to do create a
+variable called "update_avatar =
+
+106
+
+00:11:37,360  -->  00:11:46,420
+account_model.update_image(update)" and we're going to pass it
+
+107
+
+00:11:46,420  -->  00:11:52,900
+the update variable in here. That should
+happen successfully now outside of that
+
+108
+
+00:11:52,900  -->  00:11:58,270
+second if condition i'm going to
+"raise web.seeother( )" this is basically
+
+109
+
+00:11:58,270  -->  00:12:04,210
+we're going to redirect to "/settings" page
+once the file is uploaded. So that is all
+
+110
+
+00:12:04,210  -->  00:12:08,470
+we have to do, I hope this makes sense to
+you guys at least in this file. We're not
+
+111
+
+00:12:08,470  -->  00:12:12,970
+done yet but we're done with this file.
+This should not look very difficult it's,
+
+112
+
+00:12:12,970  -->  00:12:17,320
+it's very standard stuff, and we've done all
+this actually before. So, the the only
+
+113
+
+00:12:17,320  -->  00:12:22,840
+difference is we are now doing in Webpy
+and it's to upload and image. So, what we need
+
+114
+
+00:12:22,840  -->  00:12:27,850
+to do is actually go create that update
+image method, so let's copy this, go into
+
+115
+
+00:12:27,850  -->  00:12:29,640
+login model here,
+
+116
+
+00:12:29,640  -->  00:12:47,430
+and let's "def update_image(self, update):" Set "updated = self.
+
+117
+
+00:12:47,430  -->  00:12:55,200
+users.update_one({"username":
+
+118
+
+00:12:55,200  -->  00:13:10,740
+update("username"]})" and then we're going to set, here's the fun part, we're going to "{"$set":}" and I
+
+119
+
+00:13:10,740  -->  00:13:23,460
+think I'm gonna be able to do this. We've
+set type in there, so let me type
+
+120
+
+00:13:23,460  -->  00:13:33,420
+"{update[type]: update["img"]}" what did I name that...
+
+121
+
+00:13:37,329  -->  00:13:47,559
+should just name this "img" that would
+make more sense, so "img" so this should be
+
+122
+
+00:13:47,559  -->  00:13:53,079
+equal to either avatar equals the image
+path, or background equals image path.
+
+123
+
+00:13:53,079  -->  00:13:57,519
+Let's go ahead and see if this works. "return updated"
+
+124
+
+00:14:03,680  -->  00:14:14,839
+I'm going to login...I am not sure if I missed
+anything...we'll see.
+
+125
+
+00:14:16,640  -->  00:14:23,060
+I'm going to go ahead and upload an image here, going to savem we get an internal server error. So
+
+126
+
+00:14:23,060  -->  00:14:25,730
+let's see what's up with that.
+
+127
+
+00:14:25,730  -->  00:14:28,730
+Ok, so, basically we can't do that.
+
+128
+
+00:14:29,270  -->  00:14:42,620
+So, what we're going to do is we're going
+to say if update["type"] ==, oh wait,
+
+129
+
+00:14:42,620  -->  00:14:59,180
+that could be the issue, it actually
+might work. Go back to the home page, let's login "nick"
+
+130
+
+00:14:59,180  -->  00:15:09,470
+password. I'm going to go to settings
+here, going to go to upload an image, and it worked.
+
+131
+
+00:15:09,470  -->  00:15:15,170
+It doesn't look like it worked, but it
+worked. If I now actually refresh the
+
+132
+
+00:15:15,170  -->  00:15:21,260
+entire Mongo collection here and go into
+to CodeWizard, collections/users, we will
+
+133
+
+00:15:21,260  -->  00:15:26,330
+see that my avatar is actually set to an
+image. Now this is awesome. This means
+
+134
+
+00:15:26,330  -->  00:15:32,660
+what we can do is we can actually,
+we actually already have that in
+
+135
+
+00:15:32,660  -->  00:15:37,070
+the users you know avatar.
+
+136
+
+00:15:37,070  -->  00:15:41,870
+Well, actually, user info will be got if
+you go to profile. So what we're going to
+
+137
+
+00:15:41,870  -->  00:15:47,300
+do while the settings themselves the
+avatar should be the avatar, so what
+
+138
+
+00:15:47,300  -->  00:15:57,680
+we're going to do is we're going to set
+that here by going "$session['user']['avatar']"
+
+139
+
+00:15:58,940  -->  00:16:07,490
+So let's rerun this, go home,
+
+140
+
+00:16:07,490  -->  00:16:20,870
+login, and as you can see that is very much
+the case. If I change the image, there we
+
+141
+
+00:16:20,870  -->  00:16:22,550
+go,
+
+142
+
+00:16:22,550  -->  00:16:28,100
+it's an old one, and that one didn't work.
+
+143
+
+00:16:31,520  -->  00:16:40,910
+Oh, yes i did, but why isn't it
+refreshing here? Go home, settings,
+
+144
+
+00:16:41,540  -->  00:16:44,540
+that's interesting....
+
+145
+
+00:16:57,110  -->  00:17:02,240
+did my session information get updated? If I logout, that would be another issue altogether.
+
+146
+
+00:17:07,220  -->  00:17:10,970
+You know what, that's what it was, yeah.
+Okay and then the background image
+
+147
+
+00:17:10,970  -->  00:17:16,970
+should update as well, but what we're
+going to do is we are going to add that
+
+148
+
+00:17:16,970  -->  00:17:20,209
+in first. So, the background right here
+
+149
+
+00:17:20,929  -->  00:17:34,910
+the URL is going to be equal to '$session["user"] I have to escape that I guess,
+
+150
+
+00:17:34,910  -->  00:17:37,910
+this might be tricky.
+
+151
+
+00:17:42,090  -->  00:17:51,570
+Yeah, it's gonna be tricky. Okay, I think
+in CSS you don't have to add anything
+
+152
+
+00:17:51,570  -->  00:17:55,289
+around these, so we're going to try like
+this it might get a little messy here, let's
+
+153
+
+00:17:55,289  -->  00:18:05,880
+go ahead and try. So "$session['user']
+['background']" Save this, this should work.
+
+154
+
+00:18:06,510  -->  00:18:10,320
+Let's go home because
+
+155
+
+00:18:10,320  -->  00:18:21,840
+we need to login again, click settings, and
+as you can see the fact that I don't
+
+156
+
+00:18:21,840  -->  00:18:27,510
+have a background image doesn't impact
+whether this page crashes or not. So another
+
+157
+
+00:18:27,510  -->  00:18:32,159
+interesting thing is if I go to profile/Nick it's still going to show this because
+
+158
+
+00:18:32,159  -->  00:18:36,149
+the profile that we've created doesn't
+do the same thing. So if I go into
+
+159
+
+00:18:36,149  -->  00:18:41,250
+profile here and set this where, there's
+name,
+
+160
+
+00:18:41,250  -->  00:18:44,250
+here's avatar right here. "$session['user']['avaar']"
+
+161
+
+00:18:51,000  -->  00:18:54,000
+copy this,
+
+162
+
+00:18:58,029  -->  00:18:59,370
+'background'
+
+163
+
+00:18:59,370  -->  00:19:02,370
+There, save that there,
+
+164
+
+00:19:10,530  -->  00:19:15,150
+refresh this, this should be the same for
+everything else too. So i'm going to copy
+
+165
+
+00:19:15,150  -->  00:19:20,220
+the background image here, go to info,
+and i'm going to paste the background
+
+166
+
+00:19:20,220  -->  00:19:21,900
+image over that.
+
+167
+
+00:19:21,900  -->  00:19:34,950
+Actually, it's not session, was it
+profile, I was accessing this is in some way.
+
+168
+
+00:19:34,950  -->  00:19:39,480
+Where is no profile page, right here.
+
+169
+
+00:19:39,480  -->  00:19:54,000
+user_info that's what is. So let me do this
+right quick, change those, jump back over
+
+170
+
+00:19:54,000  -->  00:19:57,270
+to info, change those here as well.
+
+171
+
+00:20:02,360  -->  00:20:06,200
+Alright, let's refresh, go over here,
+
+172
+
+00:20:06,200  -->  00:20:09,200
+login...
+
+173
+
+00:20:10,340  -->  00:20:14,150
+go to settings, i'm going to upload a
+background image,
+
+174
+
+00:20:21,070  -->  00:20:26,259
+save, and when we refresh it doesn't do
+anything but if I go to profile it
+
+175
+
+00:20:26,259  -->  00:20:31,600
+should, and it definitely does. if I go to info
+as well, it does as well. Then we go back
+
+176
+
+00:20:31,600  -->  00:20:39,880
+and nick1 doesn't exist so actually I
+had hard-coded those in here on this
+
+177
+
+00:20:39,880  -->  00:20:42,880
+page only, so i'm going to replace that.
+
+178
+
+00:20:50,400  -->  00:20:56,280
+There, now all that should work correctly.
+We're basically done, now you also
+
+179
+
+00:20:56,280  -->  00:21:01,410
+could go into the, into the posts and in
+the user object there should be the
+
+180
+
+00:21:01,410  -->  00:21:03,090
+avatar and everything in there.
+
+181
+
+00:21:03,090  -->  00:21:10,110
+So, on the homepage which is right here
+what we could do is every time it says
+
+182
+
+00:21:10,110  -->  00:21:27,810
+avatar here, what we would do is "style="background:url($post['user']['avatar']"
+
+183
+
+00:21:29,910  -->  00:21:43,230
+Let's save that...and so if we refresh i'm not sure if that even has
+
+184
+
+00:21:43,230  -->  00:21:44,550
+the proper style,
+
+185
+
+00:21:44,550  -->  00:21:50,520
+we're actually going to go login, and on
+the homepage
+
+186
+
+00:21:51,180  -->  00:21:57,180
+"Here's a new post" hit post, and we see
+it with my avatar which doesn't have the
+
+187
+
+00:21:57,180  -->  00:22:05,490
+correct style. So, basically you'd set
+"background-size: cover !impotant"
+
+188
+
+00:22:05,490  -->  00:22:10,530
+background position, and you do
+that basically you can see that we do
+
+189
+
+00:22:10,530  -->  00:22:16,380
+have a correct working avatar
+and background system. So thank you guys
+
+190
+
+00:22:16,380  -->  00:22:20,340
+for watching this video in this section,
+I'm not too sure which module
+
+191
+
+00:22:20,340  -->  00:22:23,430
+we're going to be exploring next, but
+it's also going to be very fun. So, I
+
+192
+
+00:22:23,430  -->  00:22:24,660
+can't wait to get started on that.

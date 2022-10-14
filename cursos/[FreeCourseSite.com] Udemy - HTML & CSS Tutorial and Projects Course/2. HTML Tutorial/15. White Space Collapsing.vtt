@@ -1,0 +1,73 @@
+WEBVTT
+
+00:00.390 --> 00:06.960
+I also need to mention the page the memo is whitespace collapsing and you're probably first question
+
+00:06.960 --> 00:08.460
+is whitespace.
+
+00:08.460 --> 00:10.380
+What and what does that mean.
+
+00:10.990 --> 00:16.440
+Well whitespace collapsing means that the memo is just going to ignore extra spaces.
+
+00:16.620 --> 00:20.990
+Now it's gonna be easier for me to show you than talk about for three hours.
+
+00:21.120 --> 00:26.970
+So first of all let's say that there's gonna be a hearing 3 that will be on top of the program and in
+
+00:26.970 --> 00:32.790
+the heading three I would like to write Hello World War I would decide that things are gonna be better
+
+00:32.790 --> 00:34.100
+for my website.
+
+00:34.320 --> 00:38.310
+I'm gonna add like and I know whatever amount of spaces in between.
+
+00:38.310 --> 00:42.300
+Now what do you think is gonna be rendered on the right side in the life server.
+
+00:42.560 --> 00:43.980
+I'm only gonna say this.
+
+00:43.980 --> 00:45.210
+Check this out.
+
+00:45.210 --> 00:48.480
+All the extra white spaces were ignored by the email.
+
+00:48.600 --> 00:54.360
+Now the same would work if I would try to create some space in between the adding 3 and paragraph.
+
+00:54.360 --> 00:56.730
+Again we can test it out the same way.
+
+00:56.730 --> 00:59.600
+The moment I'm gonna save it nothing is going to change on the right side.
+
+00:59.730 --> 01:05.490
+And not because there's some error or the life service not working but because of the simple fact that
+
+01:05.660 --> 01:08.370
+the email is ignoring all this whitespace.
+
+01:08.370 --> 01:15.870
+Now the point of this is that in HDMI if we would like to create spaces in between the elements or within
+
+01:15.870 --> 01:20.030
+the elements we need to use special HDMI elements.
+
+01:20.070 --> 01:22.030
+Now look at them a little bit later.
+
+01:22.200 --> 01:28.170
+But again if you have been testing it out and if you're confused why if you're adding a space in between
+
+01:28.170 --> 01:29.280
+it's not working.
+
+01:29.340 --> 01:32.730
+The reason for that is HDMI all is whitespace collapsing.

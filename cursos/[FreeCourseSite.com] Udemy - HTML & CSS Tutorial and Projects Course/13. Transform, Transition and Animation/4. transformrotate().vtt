@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.600 --> 00:04.890
+After that we have the rotate and I have to be right away straight up honest with you.
+
+00:04.890 --> 00:11.850
+That with rotations the x and y directions are gonna be hard to see especially as I'm showing this.
+
+00:11.880 --> 00:13.350
+And the example.
+
+00:13.470 --> 00:19.290
+Now it's gonna be easier to see is gonna be rotate Z and we're also gonna look at the shortcut and that's
+
+00:19.290 --> 00:24.420
+the reason why I'm going to start right away with our rotation z because I think we're gonna be using
+
+00:24.420 --> 00:27.120
+that more often than just X and Y.
+
+00:27.130 --> 00:33.410
+Now disease is gonna work like let's say first we're gonna be looking for transformation and we're working
+
+00:33.410 --> 00:34.850
+here with the second one I believe right.
+
+00:34.860 --> 00:40.920
+That was the green one and then we have rotate and then we're looking for to see now the way this is
+
+00:40.920 --> 00:41.600
+gonna work.
+
+00:41.670 --> 00:47.640
+If we were gonna write some kind of degrees let's say 45 degrees this is gonna be the easiest one to
+
+00:47.640 --> 00:51.730
+see because this is gonna be rotated right now on the z axis.
+
+00:51.810 --> 00:53.870
+Very straightforward very simple.
+
+00:53.910 --> 00:59.720
+So if I'm gonna say a hundred and eighty nine this is I was going to move on lady and this is obviously
+
+00:59.840 --> 01:05.730
+going to be exactly the same like we had before but let's say if we would want to I don't know go with
+
+01:06.090 --> 01:08.520
+hundred and thirty five.
+
+01:08.760 --> 01:11.760
+Then again this is gonna look exactly like the forty four.
+
+01:11.940 --> 01:18.550
+You get an idea we have 360 degrees and then we can rotate the element however light.
+
+01:18.850 --> 01:22.350
+Now this is gonna go with x axis and y axis.
+
+01:22.380 --> 01:29.660
+So here you have a transform are you know what before we actually cover the x and y axis we also want
+
+01:29.660 --> 01:31.980
+to say that this is gonna be exactly the same.
+
+01:32.000 --> 01:35.060
+So if so then let's say copy and paste it.
+
+01:35.200 --> 01:37.680
+The red one and change it around too.
+
+01:37.910 --> 01:40.790
+I don't know three hundred and forty.
+
+01:40.800 --> 01:45.890
+We're gonna get some kind of rotation because this would be the shorthand so we don't have to type.
+
+01:45.900 --> 01:51.360
+We can just say okay rotate and both of them would mean exactly the same thing huh.
+
+01:51.380 --> 01:51.570
+Yeah.
+
+01:51.570 --> 01:53.390
+And that is just going to be side note.
+
+01:53.450 --> 01:54.880
+Hopefully you get that.
+
+01:54.890 --> 02:01.400
+And then last but not least we're gonna be looking at both of them the x and y and here out one transform
+
+02:01.960 --> 02:03.570
+that I'm looking for.
+
+02:03.620 --> 02:09.860
+Like I said already rotation and full rotation I'm looking for the x value and this keeps you from getting
+
+02:09.860 --> 02:11.860
+a little let's say 20 degrees.
+
+02:12.050 --> 02:19.520
+Like I said this is gonna be hard to see because what I'm doing as I'm rotating this x direction or
+
+02:19.640 --> 02:24.740
+if I'm telling you then this is gonna be nine degrees we're not gonna be able to see that because if
+
+02:24.740 --> 02:32.140
+we're looking at the X plain light right now we have rotated this exactly nine degrees and this is gonna
+
+02:32.150 --> 02:32.930
+be hard to see.
+
+02:33.410 --> 02:40.160
+Now we can also do the same thing let's say here comment is out and we're gonna do the y direction so
+
+02:40.190 --> 02:49.090
+let's do trends and then rotate y direction and again this is gonna work exactly the same where let's
+
+02:49.100 --> 02:51.850
+say 20 degrees it is gonna rotated.
+
+02:51.950 --> 02:57.260
+So this is gonna be a little bit small at this moment already y direction because previously remember
+
+02:57.350 --> 03:02.150
+it got smaller in the x axis because we were flipping it around the x axis.
+
+03:02.270 --> 03:04.980
+Now we're flipping it around the y axis.
+
+03:05.030 --> 03:08.430
+So this is the reason why 20 degrees is gonna make this smaller here.
+
+03:08.490 --> 03:15.110
+Now I'm going to go 40 degrees and this is gonna get even smaller 68 degrees is going to something like
+
+03:15.110 --> 03:22.130
+this even smaller and then finally again if I want to flip it around I can do 90 degrees and then my
+
+03:22.130 --> 03:27.650
+actual element is gonna totally disappear right now because we have rotated this 90 degrees.

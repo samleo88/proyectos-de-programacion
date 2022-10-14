@@ -1,0 +1,724 @@
+1
+
+00:00:00,000  -->  00:00:02,340
+Alright guys, so, we've already learned
+
+2
+
+00:00:02,340  -->  00:00:04,920
+about installing and using Python within
+
+3
+
+00:00:04,920  -->  00:00:09,780
+Mac OS and Linux. Those two operating
+
+4
+
+00:00:09,780  -->  00:00:11,550
+systems actually have a very similar
+
+5
+
+00:00:11,550  -->  00:00:13,290
+process that's because they're both
+
+6
+
+00:00:13,290  -->  00:00:15,900
+derived from the UNIX operating system,
+
+7
+
+00:00:15,900  -->  00:00:18,660
+where Windows is not. So, Windows is a
+
+8
+
+00:00:18,660  -->  00:00:19,770
+little bit different, so I'm going to
+
+9
+
+00:00:19,770  -->  00:00:22,560
+walk you guys through this right now. You
+
+10
+
+00:00:22,560  -->  00:00:25,380
+need to go to python.org, once you get to
+
+11
+
+00:00:25,380  -->  00:00:27,240
+python.org you need to hover over
+
+12
+
+00:00:27,240  -->  00:00:29,699
+downloads here, and then
+
+13
+
+00:00:29,699  -->  00:00:31,349
+find Windows here. It should also be
+
+14
+
+00:00:31,349  -->  00:00:33,390
+defaulted to Windows if you're on
+
+15
+
+00:00:33,390  -->  00:00:37,890
+Windows. So, we're going to be choosing
+
+16
+
+00:00:37,890  -->  00:00:39,329
+which version we're going to be using
+
+17
+
+00:00:39,329  -->  00:00:41,550
+and we are always going to be using
+
+18
+
+00:00:41,550  -->  00:00:45,690
+Python 3 not 2, so ignore Python 2.
+
+19
+
+00:00:45,690  -->  00:00:48,420
+Click Python 3.6.1 and
+
+20
+
+00:00:48,420  -->  00:00:50,219
+it's going to download the installer for
+
+21
+
+00:00:50,219  -->  00:00:53,129
+you. Now, when this is done downloading we
+
+22
+
+00:00:53,129  -->  00:00:55,260
+can install it. So just launch the
+
+23
+
+00:00:55,260  -->  00:01:01,590
+program, and let me just uninstall
+
+24
+
+00:01:01,590  -->  00:01:03,780
+this first so that I can
+
+25
+
+00:01:03,780  -->  00:01:18,930
+reinstall it. While this is
+
+26
+
+00:01:18,930  -->  00:01:20,369
+uninstalling we're going to be talking
+
+27
+
+00:01:20,369  -->  00:01:24,450
+about the environment variables and why
+
+28
+
+00:01:24,450  -->  00:01:26,970
+you need them, and wehn I installed
+
+29
+
+00:01:26,970  -->  00:01:29,909
+Python on Windows a while back there was
+
+30
+
+00:01:29,909  -->  00:01:33,960
+a problem with the path, or maybe not the
+
+31
+
+00:01:33,960  -->  00:01:36,840
+path but specifically the Python
+
+32
+
+00:01:36,840  -->  00:01:40,560
+installer package which we're going to
+
+33
+
+00:01:40,560  -->  00:01:42,420
+be discussing. And if you guys do have
+
+34
+
+00:01:42,420  -->  00:01:45,060
+the problem that I had it's going to be
+
+35
+
+00:01:45,060  -->  00:01:47,729
+terrible, but there's an easy
+
+36
+
+00:01:47,729  -->  00:01:51,060
+workaround for it. Alright, so, let's close
+
+37
+
+00:01:51,060  -->  00:01:53,970
+that and then run the Python 3.6
+
+38
+
+00:01:53,970  -->  00:01:56,610
+installer. Now there's one very important
+
+39
+
+00:01:56,610  -->  00:01:58,710
+thing that we need to do and that is you
+
+40
+
+00:01:58,710  -->  00:02:02,130
+need to check add Python 3.6 to path, and
+
+41
+
+00:02:02,130  -->  00:02:07,439
+then click install now. Now while that's doing that, I'm going to search for
+
+42
+
+00:02:07,439  -->  00:02:10,860
+control panel here, and in the control
+
+43
+
+00:02:10,860  -->  00:02:13,230
+panel let's go into system. If you don't
+
+44
+
+00:02:13,230  -->  00:02:13,890
+see this view
+
+45
+
+00:02:13,890  -->  00:02:16,830
+right-click up here and select small
+
+46
+
+00:02:16,830  -->  00:02:19,560
+icons. This should work on Windows 7
+
+47
+
+00:02:19,560  -->  00:02:21,840
+8, or 10, and everybody should be on
+
+48
+
+00:02:21,840  -->  00:02:23,459
+one of those operating systems anyway
+
+49
+
+00:02:23,459  -->  00:02:28,740
+because, Vista might not be end of
+
+50
+
+00:02:28,740  -->  00:02:31,050
+life yet. Vista it was either
+
+51
+
+00:02:31,050  -->  00:02:33,750
+April or May that that was happening and
+
+52
+
+00:02:33,750  -->  00:02:38,130
+it's April now. So, anyway, if you're on
+
+53
+
+00:02:38,130  -->  00:02:41,520
+Windows 7, 8, or 10 go to system
+
+54
+
+00:02:41,520  -->  00:02:43,560
+and on the left-hand side click advanced
+
+55
+
+00:02:43,560  -->  00:02:45,569
+system settings. It's going to pop this
+
+56
+
+00:02:45,569  -->  00:02:48,510
+up right here. Specifically, if you are
+
+57
+
+00:02:48,510  -->  00:02:51,030
+not on the Advanced tab to begin with, if
+
+58
+
+00:02:51,030  -->  00:02:52,800
+you're someone over here, go to the
+
+59
+
+00:02:52,800  -->  00:02:56,100
+Advanced tab, and now here at the bottom you're
+
+60
+
+00:02:56,100  -->  00:02:57,600
+going to see an environment variables
+
+61
+
+00:02:57,600  -->  00:02:59,700
+button. Click that and it's going to bring up
+
+62
+
+00:02:59,700  -->  00:03:02,040
+the environment variables configuration
+
+63
+
+00:03:02,040  -->  00:03:04,950
+screen. Now the specific one that we're
+
+64
+
+00:03:04,950  -->  00:03:10,920
+interested in is the path variable. These
+
+65
+
+00:03:10,920  -->  00:03:12,870
+are system variables and these are user
+
+66
+
+00:03:12,870  -->  00:03:16,230
+variables, I'm going to double click on
+
+67
+
+00:03:16,230  -->  00:03:17,730
+this path variable and as you can see
+
+68
+
+00:03:17,730  -->  00:03:23,340
+we've got python 3.6 3.2 added to the path
+
+69
+
+00:03:23,340  -->  00:03:26,910
+which means every time I run a program
+
+70
+
+00:03:26,910  -->  00:03:29,280
+that resides in one of these paths,
+
+71
+
+00:03:29,280  -->  00:03:33,329
+Windows is going to know where to look
+
+72
+
+00:03:33,329  -->  00:03:34,739
+for it because it's going to check all
+
+73
+
+00:03:34,739  -->  00:03:37,680
+these paths first, and then all these
+
+74
+
+00:03:37,680  -->  00:03:40,440
+paths in that one. And then if it
+
+75
+
+00:03:40,440  -->  00:03:41,670
+doesn't find it then it's going to say,
+
+76
+
+00:03:41,670  -->  00:03:43,709
+okay, well, I don't really know what
+
+77
+
+00:03:43,709  -->  00:03:45,900
+you're looking for, and that's why we add
+
+78
+
+00:03:45,900  -->  00:03:49,350
+paths to the path variable. So, that has
+
+79
+
+00:03:49,350  -->  00:03:53,340
+been added, if I open up a command prompt
+
+80
+
+00:03:53,340  -->  00:03:58,500
+here you will see that if I run Python
+
+81
+
+00:03:58,500  -->  00:04:03,360
+it's going to successfully find it and run
+
+82
+
+00:04:03,360  -->  00:04:06,090
+the program. Now that is because I have
+
+83
+
+00:04:06,090  -->  00:04:09,150
+it installed to that path. Up here you
+
+84
+
+00:04:09,150  -->  00:04:11,880
+can see users, my user, app data, local, etc.,
+
+85
+
+00:04:11,880  -->  00:04:18,150
+and as you can see
+
+86
+
+00:04:18,150  -->  00:04:20,280
+right here that is the path that was
+
+87
+
+00:04:20,280  -->  00:04:23,850
+added. So, every time I run Python this is
+
+88
+
+00:04:23,850  -->  00:04:25,259
+one of the first paths it checks, and it
+
+89
+
+00:04:25,259  -->  00:04:27,120
+goes well, do I have a Python.exe file,
+
+90
+
+00:04:27,120  -->  00:04:30,419
+and it does. Now you can also run all of
+
+91
+
+00:04:30,419  -->  00:04:32,580
+the programs from the scripts directory
+
+92
+
+00:04:32,580  -->  00:04:35,759
+including pip, and so that's what we're
+
+93
+
+00:04:35,759  -->  00:04:37,050
+going to talk about right now. Let me
+
+94
+
+00:04:37,050  -->  00:04:43,470
+exit out of here. So, pip basically for
+
+95
+
+00:04:43,470  -->  00:04:45,360
+example if you wanted to build a web
+
+96
+
+00:04:45,360  -->  00:04:50,430
+scraper or a web crawler and
+
+97
+
+00:04:50,430  -->  00:04:51,780
+if you just wanted to have a program
+
+98
+
+00:04:51,780  -->  00:04:54,419
+that would download certain pages, what
+
+99
+
+00:04:54,419  -->  00:04:55,830
+you would have to do is build scraper.
+
+100
+
+00:04:55,830  -->  00:05:00,090
+And in PHP, for example, you have access
+
+101
+
+00:05:00,090  -->  00:05:03,479
+to curl, it's shipped with
+
+102
+
+00:05:03,479  -->  00:05:06,810
+curl. There is no default requests
+
+103
+
+00:05:06,810  -->  00:05:08,729
+library for Python, so you'll have to
+
+104
+
+00:05:08,729  -->  00:05:12,810
+install one. And usually you are
+
+105
+
+00:05:12,810  -->  00:05:14,430
+going to be using some type of framework
+
+106
+
+00:05:14,430  -->  00:05:17,130
+or library within Python just because
+
+107
+
+00:05:17,130  -->  00:05:18,120
+it doesn't make sense to continue
+
+108
+
+00:05:18,120  -->  00:05:20,130
+rewriting things that other people
+
+109
+
+00:05:20,130  -->  00:05:22,800
+already have. So, you're going to be doing
+
+110
+
+00:05:22,800  -->  00:05:24,210
+a lot of this, so I recommend getting
+
+111
+
+00:05:24,210  -->  00:05:26,280
+used to it. We're going to go ahead and
+
+112
+
+00:05:26,280  -->  00:05:27,960
+install a package that we're going to be
+
+113
+
+00:05:27,960  -->  00:05:29,430
+using for web scraping and that is
+
+114
+
+00:05:29,430  -->  00:05:33,060
+called requests. So what you need to do
+
+115
+
+00:05:33,060  -->  00:05:38,310
+is type pip install, and then the name of
+
+116
+
+00:05:38,310  -->  00:05:39,870
+the package you want to install. Now this
+
+117
+
+00:05:39,870  -->  00:05:41,669
+is the problem I was getting before so I
+
+118
+
+00:05:41,669  -->  00:05:44,159
+guess a reinstallation did not fix the
+
+119
+
+00:05:44,159  -->  00:05:45,870
+problem, and I have no idea what the
+
+120
+
+00:05:45,870  -->  00:05:48,510
+problem is I've been reading this stack
+
+121
+
+00:05:48,510  -->  00:05:53,099
+overflow thread and so far I haven't
+
+122
+
+00:05:53,099  -->  00:05:55,710
+discovered what the problem is, but there
+
+123
+
+00:05:55,710  -->  00:06:01,050
+are a few workarounds. So number one
+
+124
+
+00:06:01,050  -->  00:06:03,750
+probably the one we're going to go with
+
+125
+
+00:06:03,750  -->  00:06:06,090
+is since you can run Python from the
+
+126
+
+00:06:06,090  -->  00:06:07,380
+command line because that's been added
+
+127
+
+00:06:07,380  -->  00:06:10,020
+to the path you can actually work around
+
+128
+
+00:06:10,020  -->  00:06:14,760
+this by typing python -m pip
+
+129
+
+00:06:14,760  -->  00:06:19,560
+install requests, and I've already got it
+
+130
+
+00:06:19,560  -->  00:06:20,639
+installed so it's just going to say
+
+131
+
+00:06:20,639  -->  00:06:23,010
+requirement already satisfied, but it
+
+132
+
+00:06:23,010  -->  00:06:26,000
+should install for you guys.
+
+133
+
+00:06:28,750  -->  00:06:31,210
+Anytime you see me in this course type pip
+
+134
+
+00:06:31,210  -->  00:06:34,240
+install anything, all you Windows guys
+
+135
+
+00:06:34,240  -->  00:06:38,740
+remember use python -m pip install
+
+136
+
+00:06:38,740  -->  00:06:40,210
+and then whatever you're going to
+
+137
+
+00:06:40,210  -->  00:06:42,340
+install. So that is how you install
+
+138
+
+00:06:42,340  -->  00:06:44,560
+things with pip, and now once we've got this
+
+139
+
+00:06:44,560  -->  00:06:46,510
+installed if I were to jump back into
+
+140
+
+00:06:46,510  -->  00:06:49,420
+Python you can just import the library
+
+141
+
+00:06:49,420  -->  00:06:51,340
+that you just created, and now you have
+
+142
+
+00:06:51,340  -->  00:06:55,960
+access to that class. And that is how to
+
+143
+
+00:06:55,960  -->  00:06:58,900
+get set up with this stuff on Windows. I
+
+144
+
+00:06:58,900  -->  00:07:00,790
+hope you guys enjoy this course, I'm
+
+145
+
+00:07:00,790  -->  00:07:03,810
+definitely going to.

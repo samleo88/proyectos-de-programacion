@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.630 --> 00:06.480
+We're almost done with transition property but in the last video I mentioned the optional transition
+
+00:06.480 --> 00:07.980
+timing property.
+
+00:07.980 --> 00:10.200
+So why don't we take a closer look.
+
+00:10.410 --> 00:15.100
+First and foremost I want to tell you that there is a lot that this particular property.
+
+00:15.240 --> 00:20.880
+And the reason why we all going to cover a bare minimum is the simple fact that at this point in time
+
+00:21.240 --> 00:25.470
+in my opinion that would be an overkill to spend more time on it.
+
+00:25.500 --> 00:32.100
+The general idea behind the property is to specifically decide how the transition is gonna take place.
+
+00:32.430 --> 00:39.210
+And just to let you know that there is a default value already of ease and that is the reason why the
+
+00:39.240 --> 00:41.220
+property is optional.
+
+00:41.220 --> 00:43.560
+Now what other values are we gonna have.
+
+00:43.560 --> 00:49.230
+Well first and foremost if you are looking at the shorthand you see that the transition timing function
+
+00:49.680 --> 00:51.150
+is going to be placed here.
+
+00:51.180 --> 00:55.920
+So first of all going to have the property that's gonna be affected there and we're going to look how
+
+00:55.920 --> 01:01.200
+long the transition is going to take place and then we have the transition timing function.
+
+01:01.200 --> 01:06.800
+Now we can write it separately and during the example we're going to look at both ways but right away
+
+01:06.800 --> 01:11.160
+I just let you know that in the shorthand this is going to be placed here.
+
+01:11.380 --> 01:14.310
+And like I said these value is gonna be default.
+
+01:14.530 --> 01:16.560
+And that's the reason why it's option.
+
+01:16.560 --> 01:22.260
+And as we're looking at these values these one would be slow start then this is going to go fast and
+
+01:22.320 --> 01:25.270
+slow and then we also have the linear.
+
+01:25.320 --> 01:30.450
+So that would be the same speed as well as we are looking at easing and ease out.
+
+01:30.450 --> 01:32.270
+So a slow start and slow.
+
+01:32.480 --> 01:38.010
+And then last but not least we would have the ease in and out now like I said this is just gonna make
+
+01:38.010 --> 01:41.010
+a little bit more sense as we're looking with an example.
+
+01:41.010 --> 01:45.130
+And you know what I will going to do a redo the actual indexation AML.
+
+01:45.240 --> 01:50.460
+So first of all let me get rid of these divs as well as we're going to clean up a little bit of success
+
+01:50.940 --> 01:56.640
+because I would like to restructure it a little bit and let's say within the indexation AML I would
+
+01:56.640 --> 02:03.060
+like to start by creating a div then there is obviously going to have a class now the default class
+
+02:03.120 --> 02:04.290
+is going to be the first one.
+
+02:04.310 --> 02:09.920
+So I'm going to say default and let's write maybe also the text here that I would like to create another
+
+02:09.920 --> 02:10.850
+one.
+
+02:11.010 --> 02:13.250
+And in general we're going to create six of them.
+
+02:13.320 --> 02:18.270
+Now I know and this might be a little bit annoying but since I would like to show you how they would
+
+02:18.270 --> 02:23.850
+work we're just gonna have to go along with it and we're going to copy and paste it then we're looking
+
+02:23.850 --> 02:27.490
+at linear linear timing function.
+
+02:27.660 --> 02:31.880
+Also we have easy in and out ease in and out or you know what.
+
+02:31.890 --> 02:35.380
+Let's start just with these then we have these out.
+
+02:35.520 --> 02:39.670
+And last but not least we have ease in and out.
+
+02:39.780 --> 02:41.520
+So that would be the last.
+
+02:41.520 --> 02:49.200
+Now all this is nice and fine and dandy but as you can see I did a little bit of extra work.
+
+02:49.410 --> 02:56.460
+So let me get rid of this guy mean get rid of this guy and let me get rid of this guy as well as you
+
+02:56.460 --> 02:58.860
+know and this is also an overkill.
+
+02:59.040 --> 03:04.860
+So for some reason I decided that I'm gonna be adding way too many examples that I would want nugget.
+
+03:05.160 --> 03:06.980
+Now that we have the H email setup.
+
+03:06.990 --> 03:08.880
+Why don't we start with CSA.
+
+03:09.240 --> 03:12.820
+And like I said the easy is gonna be default 1 but maybe.
+
+03:12.930 --> 03:18.290
+Before we start looking at the actual timing properties why don't we set up the divorce.
+
+03:18.390 --> 03:22.390
+So I'm going to say for all the divs going to be exactly the same.
+
+03:22.480 --> 03:28.500
+We're going to have the width of I don't know 100 pixels the height is also going to be hundred pixels
+
+03:29.890 --> 03:36.240
+so let's write height is gonna be hundred pixels then we also have an option of background.
+
+03:36.550 --> 03:41.570
+So let's write the background blue all of them are going to look something like this we can also add
+
+03:41.570 --> 03:44.050
+the color just so we can see the text a little bit better.
+
+03:44.050 --> 03:45.520
+So the text right now is White.
+
+03:46.330 --> 03:46.750
+You know what.
+
+03:46.750 --> 03:49.280
+We also can use a little bit of margin all around.
+
+03:49.900 --> 03:53.250
+So it's a margin it's gonna be 15 pixels.
+
+03:53.350 --> 03:58.200
+Now we're having the margin as well as let's set up some default transition.
+
+03:58.420 --> 04:01.690
+So I'm gonna say transition and all the properties are going to be affected.
+
+04:01.910 --> 04:04.850
+And this is gonna take one second of time.
+
+04:04.870 --> 04:06.750
+Now what kind of transition Mm hmm.
+
+04:06.880 --> 04:07.750
+I don't know.
+
+04:07.750 --> 04:09.180
+Let's do Dave hover.
+
+04:09.180 --> 04:15.250
+So as we're hovering the div let's combine whatever we already learned about the transform.
+
+04:15.250 --> 04:16.580
+So why don't we write transform.
+
+04:16.690 --> 04:20.860
+So we're going to be transforming and the way we're going to transform and we're going to translate
+
+04:20.860 --> 04:23.390
+it by let's say a hundred pixels.
+
+04:23.530 --> 04:27.930
+And like I said by default right away you will gonna be having disease.
+
+04:27.940 --> 04:32.610
+So if I would have right here over here is that would be the default value anyway.
+
+04:32.740 --> 04:39.220
+So technically you wouldn't have to write now if I would one for all of them linear can just type linear
+
+04:39.550 --> 04:46.720
+and then what's gonna happen is the transition is gonna have the same speed all throughout this transition.
+
+04:46.720 --> 04:49.120
+So it's gonna start in the same way and the same way.
+
+04:49.270 --> 04:52.860
+And during transition is also gonna perform the same way.
+
+04:52.900 --> 04:58.270
+Just to let you know again we have an option of testing them out like this or we can go individually
+
+04:59.110 --> 05:04.830
+and the way I would like to set up individually I'm going to delete the linear one just to show you.
+
+05:05.500 --> 05:12.340
+And here you're gonna say he's gonna be targeting the actual day of that had a class of these and here
+
+05:12.370 --> 05:21.850
+let's write the transition timing function so we can say a transition transition and timing and obviously
+
+05:21.880 --> 05:27.700
+this is going to be impossible to find and then we're gonna be looking for let's say.
+
+05:28.060 --> 05:32.750
+And again this is gonna be exactly the same how we would be writing this like this.
+
+05:32.830 --> 05:34.060
+So I could have wrote it.
+
+05:34.120 --> 05:38.950
+Transition then all then whatever two seconds any.
+
+05:39.400 --> 05:43.750
+And again this is just to show you that these are possible options.
+
+05:43.750 --> 05:47.340
+Since we have already set up the div here we transition of all.
+
+05:47.380 --> 05:51.260
+And one second I'm just adding here this timing function.
+
+05:51.370 --> 05:56.320
+But in general normally we would write something like this where we would specifically go with each
+
+05:56.320 --> 05:57.510
+and every transition.
+
+05:57.520 --> 06:02.130
+Now I don't want to do each and every transition for all of them because we have six of them.
+
+06:02.200 --> 06:07.600
+So that is the reason why I'm using the shortcut where I already set up everything in a div.
+
+06:07.600 --> 06:09.370
+So the properties all of them.
+
+06:09.580 --> 06:16.780
+The timing is gonna be one second and then for each and every div we'll is gonna look at different property
+
+06:17.080 --> 06:19.810
+value for its timing function.
+
+06:19.810 --> 06:20.560
+That's all we're doing.
+
+06:21.070 --> 06:24.530
+And as you notice there shouldn't be no difference.
+
+06:24.550 --> 06:29.200
+So the first one is gonna be exactly the same as the second because like I said the default while value
+
+06:29.200 --> 06:30.220
+is gonna be easy.
+
+06:30.220 --> 06:33.760
+So if I set up these this is going to look exactly the same.
+
+06:33.940 --> 06:40.230
+Now what our values are we're gonna have let's say we can look at linear and for the linear and we can
+
+06:40.240 --> 06:46.440
+just copy and paste this and let's just change this to linear I'd say linear.
+
+06:46.460 --> 06:47.920
+And the moment what's gonna happen.
+
+06:47.920 --> 06:51.280
+Notice that there's not gonna be this slow start or slow.
+
+06:51.660 --> 06:58.010
+This is going to take exactly the same speed as throughout the whole transition.
+
+06:58.150 --> 07:02.920
+What else we have we have used in and out and ease in and out.
+
+07:02.920 --> 07:03.260
+Okay.
+
+07:03.280 --> 07:07.370
+So first class second class and third class.
+
+07:07.540 --> 07:11.170
+So we might as well copy and paste it three times.
+
+07:11.270 --> 07:16.960
+And this is not what I wanted to do as well was not not this is what I wanted to do.
+
+07:16.990 --> 07:25.080
+So let me select the line so that I would one select action line and let's copy and paste it.
+
+07:25.270 --> 07:25.620
+You know what.
+
+07:25.620 --> 07:27.440
+Let's let's do one more time.
+
+07:27.550 --> 07:31.530
+And here we can right away delete the real winners.
+
+07:31.710 --> 07:35.870
+We're not gonna be selecting winners and yeah let's just name it.
+
+07:35.900 --> 07:41.860
+He's in and I know this might be a little bit annoying but again since I would like to show you at least
+
+07:41.970 --> 07:46.840
+a general idea behind it there's gonna be a little bit of typing and then we're going to be looking
+
+07:46.840 --> 07:58.450
+for easing in then also we have he's out he's out as well as the value here is gonna be out he's out.
+
+07:58.600 --> 08:03.130
+And last but not least we have reason not so easy in a not.
+
+08:03.190 --> 08:08.890
+And there will gonna be more options for you again if you'd like to go on research should just type
+
+08:08.890 --> 08:09.810
+in a Google.
+
+08:09.840 --> 08:15.360
+The CEO says transition timing function and you're gonna see way more options.
+
+08:15.740 --> 08:19.520
+But again in this case I don't feel like this is necessary for us.
+
+08:19.650 --> 08:26.710
+Whatever we're doing right now because we can just get away with learning the simple linear he's in
+
+08:26.710 --> 08:27.290
+her now.
+
+08:27.390 --> 08:28.650
+And ease outlets.
+
+08:29.050 --> 08:30.580
+So in the moment we save it.
+
+08:30.720 --> 08:34.800
+What's gonna happen is that with linear I'm going to repeat probably for a third time.
+
+08:34.800 --> 08:38.070
+But this is gonna be same speed ease in.
+
+08:38.130 --> 08:42.500
+It is going to have the slow start slow and it is gonna be 40 years old.
+
+08:42.550 --> 08:48.960
+And last but not least we have the ease in announced slow start and fast and slow it now as we're hovering
+
+08:48.960 --> 08:49.540
+again.
+
+08:49.590 --> 08:52.290
+The default on is gonna be exactly the same as these.
+
+08:52.350 --> 08:56.990
+Then we have the linear one going to have the same speed easing.
+
+08:57.010 --> 09:03.750
+It's just gonna have the slow start and the energy is going to perform normally ease out is gonna have
+
+09:03.750 --> 09:10.820
+the slow end and then we'll have again the slow start slow wind and the fast during their transition.
+
+09:10.860 --> 09:15.450
+Those would be the basics behind the transition timing function in the CSF.

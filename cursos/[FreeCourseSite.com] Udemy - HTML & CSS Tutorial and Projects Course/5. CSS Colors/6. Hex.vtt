@@ -1,0 +1,277 @@
+WEBVTT
+
+00:00.360 --> 00:03.970
+One would think that having color names as well as RG B.
+
+00:04.030 --> 00:07.640
+RG be a values would give us more than enough options.
+
+00:07.770 --> 00:16.320
+But lucky for us we have more ways to work with colors in spaces and those would be H S L as well as
+
+00:16.320 --> 00:18.070
+hexadecimal values.
+
+00:18.090 --> 00:24.000
+Now we will not cover HSN since at this point I find it a massive overkill.
+
+00:24.000 --> 00:29.530
+If you would like to research on your own of course there are plenty of great resources just type CSR
+
+00:29.530 --> 00:32.940
+s h SL and you'll gonna be blown away.
+
+00:32.940 --> 00:41.280
+We will however cover hexadecimal color values or just hex values for sure Hex Values Work a lot like
+
+00:41.450 --> 00:49.140
+our G.B. where it covers the spectrum of red green and you guessed it blue color.
+
+00:49.170 --> 00:54.750
+The difference though would be the fact that hex gives you much more color choices because instead of
+
+00:54.750 --> 01:02.190
+just using numbers hex values can also be Letters From A to have where a would represent a number of
+
+01:02.190 --> 01:05.720
+10 and F would represent the number of 50.
+
+01:05.910 --> 01:11.460
+While the syntax would be found first we would need to have the hash tag then the first two values would
+
+01:11.460 --> 01:17.600
+represent color of red and it can be any number from 1 to 10 and the letter from my tree.
+
+01:17.610 --> 01:22.420
+For example if we would want to have a red color we would write like this.
+
+01:22.650 --> 01:24.440
+Notice we have the hash tag.
+
+01:24.870 --> 01:32.410
+So we're looking for X Y and then we have two Fs since we know that F is gonna be the highest now does
+
+01:32.410 --> 01:39.370
+that mean it's the same thing as we were walking before with our G.B. where the highest one 255 was
+
+01:39.460 --> 01:43.880
+obviously red an archaic since with the hex values exactly the same.
+
+01:44.190 --> 01:48.550
+However what you notice here is that you have way more numbers in between.
+
+01:49.090 --> 01:55.750
+If you were just looking here from zero to five here you're looking at two values that each of them
+
+01:55.750 --> 01:58.090
+can be from zero to 50.
+
+01:58.120 --> 02:04.600
+So again in general in one short sentence the hex values are just gonna give you way more color options
+
+02:04.930 --> 02:06.060
+and that's all there is.
+
+02:06.640 --> 02:10.390
+And as always I think it's the best way to actually practice with this.
+
+02:10.390 --> 02:12.530
+Now I will gonna get rid of the body.
+
+02:12.640 --> 02:18.250
+I don't think that color is helping us right now as well as I don't think I need to create anything
+
+02:18.250 --> 02:18.950
+in nature.
+
+02:18.950 --> 02:22.570
+The amount I think that's a little bit overkill already each and every time.
+
+02:22.720 --> 02:29.050
+Heading over to HMO and let's start maybe with an idea first and let's decide what we would like to
+
+02:29.050 --> 02:29.230
+see.
+
+02:29.710 --> 02:32.240
+So I guess again as always let's start with the red one.
+
+02:32.380 --> 02:36.220
+But please remember these are not the only colors you can have.
+
+02:36.320 --> 02:38.170
+Will just using them for examples.
+
+02:38.380 --> 02:43.570
+So let's say that we were gonna get rid of the RG B we don't need this and you know what.
+
+02:43.660 --> 02:44.470
+Let me right away.
+
+02:44.470 --> 02:50.710
+Delete both of the lines since we're gonna rewrite both and let's say that here I'm gonna be looking
+
+02:50.710 --> 02:57.160
+for the hex color and that way we know that this is gonna be hash tag then f f because I would like
+
+02:57.160 --> 03:02.190
+to have the red one and then let's say 0 0 4 blue and 0 0 for it.
+
+03:02.830 --> 03:10.060
+I'm sorry the 0 0 4 green and 0 0 4 blue and as you can see right away the visual studio code gives
+
+03:10.060 --> 03:13.930
+us the color box where it tells us that this is gonna be a red color.
+
+03:14.440 --> 03:16.920
+So I was in the pulling a fast one on you.
+
+03:17.320 --> 03:18.520
+Okay what about the background.
+
+03:19.000 --> 03:20.840
+Well let's check it out how we can get a black.
+
+03:21.490 --> 03:26.840
+Well if we would have to guess if you already were working with our G.B. what would you think how you
+
+03:26.840 --> 03:27.700
+would get the black.
+
+03:28.450 --> 03:31.470
+Well without GV we got 0 0 0.
+
+03:31.480 --> 03:38.130
+Well what about if we tried with hex so we can say here 0 0 0 and what you can see is that there is
+
+03:38.130 --> 03:42.880
+gonna be an options for you in hex colors where you don't have to type all six zeros.
+
+03:42.880 --> 03:46.570
+You can just type three and this pretty much is gonna mean exactly the same thing.
+
+03:47.140 --> 03:49.380
+Now let me say it and let's see what's gonna happen.
+
+03:49.900 --> 03:56.660
+And surprise surprise I'm having a black color as my background and my hex color would be Fortran.
+
+03:57.320 --> 03:59.780
+Okay let's test it out the green house.
+
+03:59.860 --> 04:01.760
+Let's switch it up a little bit.
+
+04:01.960 --> 04:07.150
+Let's say that this guy's gonna be green and we know that this would be hex value and we're looking
+
+04:07.150 --> 04:13.510
+for 0 0 F F that would be for the green one and then we're looking for 0 0.
+
+04:13.510 --> 04:19.330
+So this should turn green and instead of the color being green we're going to have the background green
+
+04:19.330 --> 04:21.360
+but the color is gonna be white.
+
+04:21.400 --> 04:26.920
+So I'm gonna show you how we can get the white color with a hex values so let's say hash tag then we're
+
+04:26.920 --> 04:33.360
+looking for f f f now y again we're using f f f remember Rajavi what was the value.
+
+04:33.370 --> 04:35.040
+Well it was two fifty five.
+
+04:35.080 --> 04:36.030
+That was the max.
+
+04:36.030 --> 04:37.690
+And 0 was the black one.
+
+04:37.720 --> 04:40.620
+So Max was the white one and then zero was The Black.
+
+04:41.170 --> 04:47.410
+Well it works the same way with hex values just the difference with the hex value Max is over here Max
+
+04:47.410 --> 04:48.750
+is the 50 again.
+
+04:48.820 --> 04:50.020
+Let's save it.
+
+04:50.380 --> 04:54.450
+And what do we see the color the background color is green.
+
+04:54.680 --> 04:56.450
+And the actual color is white.
+
+04:56.770 --> 04:57.610
+Awesome.
+
+04:57.610 --> 05:03.640
+Now let's try with Dave or I'm sorry heading number three meaning the I.D. number three.
+
+05:03.670 --> 05:05.400
+And in this case let's try it out.
+
+05:05.440 --> 05:12.910
+Maybe the blue one let's say hash tag and this would be again 0 0 0 0 and then we're looking for F F
+
+05:13.330 --> 05:15.490
+which should give us the black value.
+
+05:15.520 --> 05:16.630
+I'm sorry the Blue Valley.
+
+05:17.050 --> 05:19.730
+And as you can see right now I'm having the syntax error.
+
+05:19.820 --> 05:25.660
+Now I'm having the syntax error because I'm trying to write the hex color with seven values instead
+
+05:25.660 --> 05:26.560
+of six.
+
+05:26.590 --> 05:31.120
+So let me delete one of the zeros and we have ourselves a blue color.
+
+05:31.120 --> 05:35.850
+Now maybe let's just throw out some different value because again probably you are a little bit confused
+
+05:35.860 --> 05:42.040
+why we always use these colors the red green and blue why we can try some other colors and sure enough
+
+05:42.040 --> 05:42.790
+we can.
+
+05:42.800 --> 05:50.070
+And let me show you my favorite at least orange color which would be EF 1 5 0 2 5.
+
+05:50.100 --> 05:51.760
+So at the moment we're going to save it.
+
+05:51.800 --> 05:57.340
+This is gonna be our orange color and then obviously my color for the text is still going to be green.
+
+05:57.430 --> 05:59.290
+I'm sorry the blue not green.
+
+05:59.380 --> 06:04.110
+And then last but nonetheless let's work with the four where we're just going to give some random colors
+
+06:04.140 --> 06:12.400
+for hex so it's a hex value and then we're looking for I don't know two three four a d something like
+
+06:12.400 --> 06:13.020
+this.
+
+06:13.060 --> 06:14.470
+So this should be a pink one.
+
+06:14.680 --> 06:20.200
+And then what's happening here is going to be another value of hex and let's just go with two to two
+
+06:20.590 --> 06:25.870
+which is gonna be the black one but in general this is how you would work with hex colors in the says.

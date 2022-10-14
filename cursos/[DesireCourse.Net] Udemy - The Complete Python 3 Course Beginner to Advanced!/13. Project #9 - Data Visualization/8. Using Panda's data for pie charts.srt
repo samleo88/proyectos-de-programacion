@@ -1,0 +1,309 @@
+1
+
+00:00:00,000  -->  00:00:02,939
+Last time on Python Beginner to Advanced...
+
+2
+
+00:00:02,939  -->  00:00:06,330
+just kidding, but seriously last time
+
+3
+
+00:00:06,330  -->  00:00:08,730
+what we did in here is we used the pandas
+
+4
+
+00:00:08,730  -->  00:00:11,460
+library to quickly construct a data
+
+5
+
+00:00:11,460  -->  00:00:14,700
+frame that we can then take and use as
+
+6
+
+00:00:14,700  -->  00:00:16,830
+though it were a different type of object, and
+
+7
+
+00:00:16,830  -->  00:00:19,890
+this basically makes things a lot faster
+
+8
+
+00:00:19,890  -->  00:00:24,210
+in compiling and creating data. So what
+
+9
+
+00:00:24,210  -->  00:00:25,650
+we're going to do with this at this point
+
+10
+
+00:00:25,650  -->  00:00:30,869
+is we are going to create, we're going to
+
+11
+
+00:00:30,869  -->  00:00:33,450
+create a pie chart from it. So, first off
+
+12
+
+00:00:33,450  -->  00:00:36,420
+what I want to do is talk about colors
+
+13
+
+00:00:36,420  -->  00:00:38,760
+and how we can tell each piece of the
+
+14
+
+00:00:38,760  -->  00:00:41,100
+pie to have its own color, and that is
+
+15
+
+00:00:41,100  -->  00:00:44,489
+simply to create the colors list here
+
+16
+
+00:00:44,489  -->  00:00:51,420
+using RGB values, yeah. So, 1, .4, .4
+
+17
+
+00:00:51,420  -->  00:00:53,280
+is going to be the first one, that's
+
+18
+
+00:00:53,280  -->  00:00:55,530
+going to be a soft red, we're going to
+
+19
+
+00:00:55,530  -->  00:01:03,449
+say...
+
+20
+
+00:01:03,449  -->  00:01:15,689
+1, .6, 1. Let's say .5, .3, 1, put that in there
+
+21
+
+00:01:15,689  -->  00:01:17,700
+as well, I'm just trying to create
+
+22
+
+00:01:17,700  -->  00:01:21,150
+regular old items in a list here and
+
+23
+
+00:01:21,150  -->  00:01:24,600
+that is not going to work. Let's make a
+
+24
+
+00:01:24,600  -->  00:01:31,590
+green one so .3, 1, .5, and then one
+
+25
+
+00:01:31,590  -->  00:01:34,530
+more because we have five people that
+
+26
+
+00:01:34,530  -->  00:01:36,119
+we're going to be creating the data
+
+27
+
+00:01:36,119  -->  00:01:39,990
+for, and so we're going to say
+
+28
+
+00:01:39,990  -->  00:01:42,630
+.7, .7, .2, and I'm not
+
+29
+
+00:01:42,630  -->  00:01:44,009
+sure what these colors are going to come
+
+30
+
+00:01:44,009  -->  00:01:46,409
+out as. I can tell you this one is going
+
+31
+
+00:01:46,409  -->  00:01:48,450
+to be red, this one is going to be a
+
+32
+
+00:01:48,450  -->  00:01:53,520
+purple. This one is going to be almost
+
+33
+
+00:01:53,520  -->  00:01:57,390
+purple like between blue and purple, but
+
+34
+
+00:01:57,390  -->  00:01:59,340
+anyway aside from the colors themselves
+
+35
+
+00:01:59,340  -->  00:02:01,049
+what we're going to do is we're going to
+
+36
+
+00:02:01,049  -->  00:02:06,930
+say plt.pie, and the data that we're
+
+37
+
+00:02:06,930  -->  00:02:08,640
+going to be using is this final row that
+
+38
+
+00:02:08,640  -->  00:02:11,430
+we've created called total_ir. So, df
+
+39
+
+00:02:11,430  -->  00:02:13,590
+['total_ir']
+
+40
+
+00:02:13,590  -->  00:02:19,410
+And labels, so we're going to use the
+
+41
+
+00:02:19,410  -->  00:02:24,180
+names, so labels is going to be df,
+
+42
+
+00:02:24,180  -->  00:02:30,060
+what did we call that, names, colors is
+
+43
+
+00:02:30,060  -->  00:02:35,700
+going to be equal to color, and let's do
+
+44
+
+00:02:35,700  -->  00:02:40,019
+auto percent as well. So, autopct equals
+
+45
+
+00:02:40,019  -->  00:02:43,170
+again this funny string %1.1%%
+
+46
+
+00:02:43,170  -->  00:02:46,769
+I'll really have to figure out
+
+47
+
+00:02:46,769  -->  00:02:50,040
+why we use that. Then we're going to show
+
+48
+
+00:02:50,040  -->  00:02:53,849
+the pie chart. Let's go ahead and start
+
+49
+
+00:02:53,849  -->  00:02:58,769
+the app, and there you go. Some of these
+
+50
+
+00:02:58,769  -->  00:03:00,209
+colors were completely different from
+
+51
+
+00:03:00,209  -->  00:03:08,190
+how I thought they would be. Anyway, I was
+
+52
+
+00:03:08,190  -->  00:03:10,470
+way off. Alright, so that's how you can
+
+53
+
+00:03:10,470  -->  00:03:14,190
+use pandas with pie charts to make pie
+
+54
+
+00:03:14,190  -->  00:03:16,769
+charts, but again we can also do
+
+55
+
+00:03:16,769  -->  00:03:18,959
+different things with the pie chart as
+
+56
+
+00:03:18,959  -->  00:03:21,389
+well. What we're going to do really the
+
+57
+
+00:03:21,389  -->  00:03:22,709
+the only thing we're going to do here is
+
+58
+
+00:03:22,709  -->  00:03:25,920
+we're going to set, we're going to set
+
+59
+
+00:03:25,920  -->  00:03:28,859
+the access to equal so that it keeps
+
+60
+
+00:03:28,859  -->  00:03:36,329
+everything you know looking in the
+
+61
+
+00:03:36,329  -->  00:03:39,930
+correct aspect ratio here. So you're going
+
+62
+
+00:03:39,930  -->  00:03:43,609
+to create that and there, we've got our data.

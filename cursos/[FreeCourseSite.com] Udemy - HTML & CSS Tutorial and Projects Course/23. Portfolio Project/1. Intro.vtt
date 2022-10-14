@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00.300 --> 00:07.550
+Once we have covered fluxbox and Tauriel now would be a good time to put flex books to use and what
+
+00:07.620 --> 00:12.960
+we're going to do here we're going to build our portfolio project as you can see here we're going to
+
+00:12.960 --> 00:16.930
+start with a bar or here this is going to be the logo.
+
+00:17.010 --> 00:19.180
+And these are actually going to be links.
+
+00:19.200 --> 00:24.340
+However if we're all going to make more here our screens are smaller.
+
+00:24.510 --> 00:29.460
+You can see they're all going to have a button and with the help of a button we're going to be able
+
+00:29.460 --> 00:37.800
+to actually display the links in column layout and once we have done with a number then or here this
+
+00:37.800 --> 00:42.050
+is going to be our header section we're all going to have a title now.
+
+00:42.060 --> 00:44.610
+Next section is going to be in about section.
+
+00:44.790 --> 00:47.320
+So here we're going to have a picture over here.
+
+00:47.320 --> 00:48.880
+These are going to be two links.
+
+00:49.140 --> 00:51.810
+Then these are going to be services section.
+
+00:51.830 --> 00:58.500
+So we're going to use a fantastic more here and we're going to just create six and once we're done with
+
+00:58.590 --> 01:05.690
+a services section then the next one is going to be a number section and after numbers section.
+
+01:05.730 --> 01:07.870
+We're actually going to have a project section.
+
+01:08.100 --> 01:13.140
+So we're in the project section and we're going to have pictures and as we're hovering over here you
+
+01:13.140 --> 01:16.630
+can see that our link icon is going to be displayed.
+
+01:16.890 --> 01:20.990
+And once we're done with a project section this is going to be the contact section.
+
+01:21.090 --> 01:27.300
+We're going to place three forms or here on the bottom in the bottom and the last one is going to be
+
+01:27.300 --> 01:27.840
+for real.
+
+01:27.840 --> 01:30.210
+This is going to place a social icons.
+
+01:30.270 --> 01:34.380
+So let's start working and let's start building with a flex box.

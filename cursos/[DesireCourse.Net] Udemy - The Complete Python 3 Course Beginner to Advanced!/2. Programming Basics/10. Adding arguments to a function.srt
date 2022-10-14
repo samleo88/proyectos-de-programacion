@@ -1,0 +1,225 @@
+1
+
+00:00:00,000  -->  00:00:04,680
+Alright guys, welcome back. In this video
+we're going to expand on this function
+
+2
+
+00:00:04,680  -->  00:00:09,420
+here and we're actually going to implement arguments into the function. So what
+
+3
+
+00:00:09,420  -->  00:00:13,019
+this means that this is very static right now, nothing would change this even if we
+
+4
+
+00:00:13,019  -->  00:00:18,210
+wanted to change it. I could call this
+function let's say 10 times and each
+
+5
+
+00:00:18,210  -->  00:00:23,310
+time it's going to print out very static
+strings. So how we can change this to
+
+6
+
+00:00:23,310  -->  00:00:28,500
+make it more dynamic is by using
+arguments and the arguments again go in
+
+7
+
+00:00:28,500  -->  00:00:33,329
+the brackets here at the end of the
+function name, and what you're doing is
+
+8
+
+00:00:33,329  -->  00:00:36,840
+creating a variable so we don't even
+need to know the value that's being
+
+9
+
+00:00:36,840  -->  00:00:44,700
+passed in we just let's decide to use
+two arguments here in this function, and
+
+10
+
+00:00:44,700  -->  00:00:48,390
+each one is going to be used in its own
+print statement. So we're going to name
+
+11
+
+00:00:48,390  -->  00:01:00,210
+it "str1, and str2" there and this
+basically we've abbreviated string 1 and
+
+12
+
+00:01:00,210  -->  00:01:03,390
+string 2. It also tells us right now
+it's not being used.
+
+13
+
+00:01:04,439  -->  00:01:07,710
+You're going to find PyCharm pretty
+smart. So what we're going to do is
+
+14
+
+00:01:07,710  -->  00:01:14,310
+change this line of code to print out
+string 1, we're going to use this print
+
+15
+
+00:01:14,310  -->  00:01:16,080
+statement to print out
+
+16
+
+00:01:16,080  -->  00:01:20,759
+string 2. Let's go ahead and save it and
+run it.
+
+17
+
+00:01:20,759  -->  00:01:23,759
+We're going to get an error and the
+reason is because we're calling this
+
+18
+
+00:01:23,759  -->  00:01:27,930
+function without passing anything into
+it, and it actually tells us right here
+
+19
+
+00:01:27,930  -->  00:01:34,860
+parameter string 1 unfilled. So it knows
+that this function is looking for two
+
+20
+
+00:01:34,860  -->  00:01:39,240
+values here separated by a comma, one of them is string one and one of them is
+
+21
+
+00:01:39,240  -->  00:01:42,570
+string two, we haven't passed anything
+into it so it's calling this function
+
+22
+
+00:01:42,570  -->  00:01:46,110
+and immediately the function is freaking
+out saying I can't find this information.
+
+23
+
+00:01:46,110  -->  00:01:51,540
+So what we need to do is pass in two
+strings here and how we do that is
+
+24
+
+00:01:51,540  -->  00:01:55,350
+similar to how it looks in here except
+each one is going to be the value and
+
+25
+
+00:01:55,350  -->  00:02:00,600
+not the variable name. So, the first
+one is going to be called "This is
+
+26
+
+00:02:00,600  -->  00:02:04,290
+argument 1",
+
+27
+
+00:02:05,430  -->  00:02:11,580
+"This is the second argument which is
+also a string.")
+
+28
+
+00:02:12,100  -->  00:02:16,420
+Now if we save, go-ahead run,
+
+29
+
+00:02:17,230  -->  00:02:22,510
+you're going to see that this is now
+printing out string 1 as defined right
+
+30
+
+00:02:22,510  -->  00:02:31,780
+here, and string 2 as defined right here.
+So, why would we need to do this? Well,
+
+31
+
+00:02:31,780  -->  00:02:34,330
+let's say we're always going to want to
+print out two things.
+
+32
+
+00:02:34,330  -->  00:02:38,590
+Let's go ahead and call the function
+again, but this time we're going to pass
+
+33
+
+00:02:38,590  -->  00:02:49,330
+in different strings. Let's fall back to the
+good ole hello world. Now we're going to
+
+34
+
+00:02:49,330  -->  00:02:53,320
+save this and what's gonna happen is it's
+going to print out four lines. It's
+
+35
+
+00:02:53,320  -->  00:02:57,490
+going to print out "This is argument 1",
+"This is the second argument which is
+
+36
+
+00:02:57,490  -->  00:03:02,440
+also a string." being called from the first call of that function, and then "Stringy" , "Hello World"
+
+37
+
+00:03:02,440  -->  00:03:07,240
+from the second call that function and
+so that's how to use arguments. Now in
+
+38
+
+00:03:07,240  -->  00:03:10,480
+the next video we're going to be
+discussing keyword arguments and what
+
+39
+
+00:03:10,480  -->  00:03:10,980
+those are.

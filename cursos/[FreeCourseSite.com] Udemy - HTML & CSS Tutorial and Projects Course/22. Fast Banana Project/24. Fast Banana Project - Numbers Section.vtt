@@ -1,0 +1,586 @@
+WEBVTT
+
+00:00.470 --> 00:03.250
+And the next section we're going to be building.
+
+00:03.290 --> 00:05.100
+It's going to be in numbers section.
+
+00:05.370 --> 00:10.560
+And like I said in one of the previous projects first we included just numbers and I can see that we
+
+00:10.560 --> 00:12.760
+have the scroll right now.
+
+00:12.770 --> 00:17.310
+We haven't really customized it you can see that all of them are moving the same pace but obviously
+
+00:17.730 --> 00:20.370
+you'll be able to see how we can actually change that.
+
+00:20.370 --> 00:25.770
+So once I refresh here right you can see that it starts counting from 1.
+
+00:25.860 --> 00:29.110
+And in this section we're going to go a little bit differently right.
+
+00:29.110 --> 00:31.130
+We can actually start with a plug.
+
+00:31.170 --> 00:34.480
+So here you can see that this is going to be numb scroller Plug-In.
+
+00:34.620 --> 00:39.230
+So we click over here and it says all in numskulls right here.
+
+00:39.300 --> 00:41.160
+This is all it says All right.
+
+00:41.160 --> 00:43.110
+So here it says we need Jeg worry.
+
+00:43.590 --> 00:47.610
+And here we need the actual number scroller more like this.
+
+00:47.610 --> 00:51.440
+And then over here actually has the span of all to actually work.
+
+00:51.680 --> 00:52.560
+All right.
+
+00:52.560 --> 00:59.330
+So now what we would need to do is actually first downloaded right here and see that we have a mode
+
+01:00.130 --> 01:00.600
+here.
+
+01:00.630 --> 01:05.230
+This is going to read to get hammered and then clone get down on zip.
+
+01:05.270 --> 01:06.550
+Are you doing this.
+
+01:07.110 --> 01:10.390
+And just remember numbskull one point.
+
+01:10.690 --> 01:14.780
+And as we're on this now we're opening it up.
+
+01:14.950 --> 01:15.210
+Right.
+
+01:15.210 --> 01:18.430
+So this is going to be a scroller.
+
+01:18.670 --> 01:21.840
+We open it up and we're here now scroll one point.
+
+01:21.840 --> 01:22.790
+Yes.
+
+01:22.800 --> 01:28.800
+So what I'm going to do over here is going to copy this guy over here and we're going to minimize this
+
+01:28.800 --> 01:29.570
+for now.
+
+01:29.970 --> 01:37.260
+And we can minimize this one and if we go back to our fast banana and we're going to paste an item right
+
+01:37.680 --> 01:44.630
+now what I'm going to do over here in my hand he is now underneath a magnifique pop up.
+
+01:44.860 --> 01:51.320
+What I'm going to say or when this is going to be scroller I'm scroller now for that scroll really don't
+
+01:51.320 --> 01:57.790
+need any kind of code and we're not going to be writing anything so the only thing we need to script
+
+01:57.800 --> 02:03.860
+or the source or hear from the source told him say score on this.
+
+02:03.890 --> 02:07.250
+Now that number scroller is actually included.
+
+02:07.280 --> 02:11.780
+Let's go back over here and let's check it out what they're asking right.
+
+02:11.960 --> 02:18.050
+So what they're saying is we would need a spanner here or here and this and this could be any element
+
+02:18.050 --> 02:23.390
+right there showing the span of what we're actually going to be placing one in paragraph right.
+
+02:23.390 --> 02:27.300
+And once we're all going to get to numbers this is how we can place them.
+
+02:27.320 --> 02:28.660
+So let's go back over here.
+
+02:28.670 --> 02:30.970
+This is going to be end of current section.
+
+02:31.250 --> 02:33.490
+We're going to start with the numbers section.
+
+02:33.500 --> 02:38.380
+So we're going to say numbers section here.
+
+02:38.460 --> 02:42.130
+Then we're going to copy and paste the line comping on here.
+
+02:42.260 --> 02:53.530
+I'm going to say and of numbers and of numbers section we're here we're going to start with a no title.
+
+02:53.660 --> 02:53.870
+Right.
+
+02:53.870 --> 03:00.310
+So really is going to say section and this is going to be an ID on him saying Mersch.
+
+03:00.840 --> 03:08.340
+And over here we have a actual article that's going to have a class of number on it to go on a class
+
+03:08.340 --> 03:12.680
+of number and within the number we're going to have three things.
+
+03:12.750 --> 03:20.350
+First of all we're going to have a phantasm and it's all going to say a far let's say 5 user here first
+
+03:20.370 --> 03:24.440
+time then we're going to have an actual number scroller.
+
+03:24.540 --> 03:33.960
+So we're going to go back over here and we're just going to say not copy all but copy this line here
+
+03:34.740 --> 03:38.970
+then I'm going to copy and paste it like I said when you don't need to use it over here.
+
+03:38.970 --> 03:40.810
+You can use that as a paragraph.
+
+03:41.300 --> 03:42.970
+So here and this is going to be a paragraph.
+
+03:43.060 --> 03:43.510
+Right.
+
+03:43.710 --> 03:49.320
+So this is going to be our scroller and we can actually test that out if we want.
+
+03:49.390 --> 03:49.620
+Right.
+
+03:49.650 --> 03:51.990
+So we can say this one over here.
+
+03:52.170 --> 03:56.700
+And what I would want to do is go back to my recording refresher here.
+
+03:56.730 --> 03:57.200
+Right.
+
+03:57.390 --> 04:02.700
+And you can see that right now it's hard to see what's the refresh one time and you can see that it's
+
+04:02.700 --> 04:11.740
+fast count right now counts really fast here because we have the increment of 10 and the late five right.
+
+04:12.060 --> 04:19.620
+We can do all here with data increment one right and let's say we're here we're going to add something
+
+04:19.620 --> 04:20.570
+like thousand.
+
+04:20.580 --> 04:20.890
+Right.
+
+04:21.000 --> 04:23.310
+So every second it's basically counting.
+
+04:23.610 --> 04:25.720
+So I'm going to we're going to refresh.
+
+04:26.060 --> 04:28.480
+Now I can see that it's one two three.
+
+04:28.530 --> 04:28.850
+Right.
+
+04:28.890 --> 04:30.890
+And so on and so forth.
+
+04:31.140 --> 04:39.630
+So basically the way it works with a number scroller more here if we have it when we have we it says
+
+04:40.020 --> 04:40.790
+data mean.
+
+04:40.830 --> 04:41.090
+Right.
+
+04:41.160 --> 04:48.390
+So this is going to be starting number data Max and number day in an increment increment by the value
+
+04:48.470 --> 04:52.370
+range so each time how many numbers it's going and they did delay.
+
+04:52.370 --> 04:56.050
+All right total seconds to complete one count.
+
+04:56.070 --> 05:02.820
+So basically when I said two thousand nine thousand milliseconds thousand milliseconds is one second.
+
+05:02.820 --> 05:06.020
+So pretty much every second right now I have this over here.
+
+05:06.020 --> 05:08.050
+All right so you can see how it's counting.
+
+05:08.150 --> 05:10.200
+And like I said I'm not going to be.
+
+05:10.320 --> 05:13.180
+I showed you how we can actually increment in yourself.
+
+05:13.190 --> 05:13.440
+All right.
+
+05:13.440 --> 05:15.040
+How you can change the values.
+
+05:15.090 --> 05:16.530
+We're not going to be focusing on that.
+
+05:16.560 --> 05:18.410
+Was going to leave them all in the same.
+
+05:18.420 --> 05:18.940
+Right.
+
+05:19.080 --> 05:26.280
+Because what we are interested in actually is fluxbox and read and write and on here all this is going
+
+05:26.280 --> 05:33.150
+to say a heading three and Hank 3 is going to say use are right press tab and now we have our first
+
+05:33.150 --> 05:38.480
+number and what we want to hear who is going to do like this we're going to copy and paste this.
+
+05:38.760 --> 05:40.290
+Let's say three times.
+
+05:40.440 --> 05:40.850
+Right.
+
+05:41.070 --> 05:43.290
+And we just want to change some values.
+
+05:43.290 --> 05:49.470
+So what I'm going to say are here numbers I'm going to use a beautify just so you can see better what's
+
+05:49.470 --> 05:50.550
+happening right.
+
+05:50.550 --> 05:52.240
+So this is going to be user.
+
+05:52.500 --> 05:58.320
+Then the next one is going to be carked plus or here the phantasm.
+
+05:58.380 --> 06:04.420
+So I'm going to start over here cart cart here plus here.
+
+06:04.460 --> 06:11.500
+And then this is going to say this is going to be downloads downloads here.
+
+06:11.750 --> 06:17.610
+Then after that we're going to have a fire extinguisher so fire.
+
+06:18.020 --> 06:24.170
+And over here we're going to say X team for sure here.
+
+06:24.590 --> 06:26.310
+And then we have an envelope.
+
+06:26.360 --> 06:33.350
+So this is going to be let's say emergencies agencies and when we say emergencies that means pretty
+
+06:33.350 --> 06:40.970
+much and then we made sure that there were no emergency emergencies that we have covered right now.
+
+06:40.970 --> 06:48.830
+We created them or we are all going to say that this is going to be messages messages here and this
+
+06:48.830 --> 06:52.720
+one is not going to be used or this is going to be all right.
+
+06:52.760 --> 06:54.520
+Once we have them for.
+
+06:54.920 --> 07:01.010
+Let's go actually to assess and style the actual numbers.
+
+07:01.060 --> 07:01.560
+All right.
+
+07:01.820 --> 07:07.760
+So this one is done the actual plug in is also downloaded.
+
+07:07.790 --> 07:14.030
+So the last thing left here for that section is going to be actually adding this again we're going to
+
+07:14.030 --> 07:15.490
+start with the comment.
+
+07:15.690 --> 07:17.950
+I want to say this is going to be a hash tag.
+
+07:17.960 --> 07:24.890
+I'm going to say number one get more hash tags here then once we're done with this I'm going to say.
+
+07:24.890 --> 07:28.850
+Class of number.
+
+07:28.910 --> 07:30.450
+Number over here.
+
+07:30.590 --> 07:36.030
+First of all going to have a text align center then it will have a background.
+
+07:36.230 --> 07:40.570
+And we're going to have hash tag 1 9 1 9 1 9.
+
+07:41.030 --> 07:48.800
+Then we're going to have a padding of 40 pixels on this and 0 pixels from the sides or it's on the top
+
+07:48.800 --> 07:55.200
+bottom and I have a color and the color isn't going to be hash tag.
+
+07:55.220 --> 08:06.170
+E D D E A for red so light or here yellow color and over here we're going to have two things with transition.
+
+08:06.200 --> 08:12.730
+When to say a background is going to be another two seconds ease and color.
+
+08:12.860 --> 08:17.540
+Two seconds is right so most of them are going to change.
+
+08:18.040 --> 08:21.820
+And let's again create more space here like this.
+
+08:21.920 --> 08:23.710
+So then we can actually work.
+
+08:24.210 --> 08:33.920
+And we are going to say number and we're going to say how we're real to say a grown R G B I'm going
+
+08:33.930 --> 08:39.870
+to say one online one or six and seventy nine.
+
+08:40.070 --> 08:46.020
+All right so this is going to be background as it were hovering and color is going to be hashtag FFC.
+
+08:46.350 --> 08:48.920
+And nine one for more here.
+
+08:49.400 --> 08:50.810
+And let's just check it out.
+
+08:50.810 --> 08:51.080
+All right.
+
+08:51.080 --> 08:55.840
+So if I say this maybe we're going to have to create something in the room again.
+
+08:56.300 --> 09:02.910
+But as you can see that's what's happening right as I'm hovering the color and the background is changing.
+
+09:03.140 --> 09:13.860
+Then we need to do with a number from and here and we're going to say font size let's say 60 60 pixels
+
+09:13.860 --> 09:16.580
+over here and this is going to be big.
+
+09:16.860 --> 09:22.520
+Then we're going to have the actual class of I'm scrolling around the actual paragraph.
+
+09:22.620 --> 09:26.820
+So I'm going to say now I'm scroller we're here.
+
+09:27.080 --> 09:38.730
+We're going to say font size 25 and margin 20 pixels and 0 and then the last thing is going to be heading
+
+09:38.730 --> 09:39.130
+3.
+
+09:39.180 --> 09:50.160
+So I'm going to say a number number and having three here and we're going to be text transform and we're
+
+09:50.160 --> 09:51.540
+going to say Asperger's.
+
+09:51.900 --> 09:55.380
+And so now we're going to actually transform to uppercase.
+
+09:55.380 --> 09:56.570
+Let's say this.
+
+09:56.880 --> 10:00.110
+And it's actually a meteor equerries.
+
+10:00.210 --> 10:00.580
+Right.
+
+10:00.750 --> 10:06.720
+So how this is going to change once the screen gets bigger basically let's make it responsive.
+
+10:06.750 --> 10:09.820
+First thing we're going to start with a 4 x marks.
+
+10:09.900 --> 10:20.460
+So I'm going to say media screen and I'm not going to say men with and this is going to be five 576
+
+10:20.820 --> 10:22.680
+576 pixels.
+
+10:22.980 --> 10:27.590
+And then all here we're going to say is that this is going to be a numbers.
+
+10:27.970 --> 10:34.800
+And so hash tag numbers and all here we're all going to say is this play flex here.
+
+10:34.840 --> 10:38.520
+I don't we can just say this and maybe go have a look.
+
+10:38.610 --> 10:40.610
+What we have right here.
+
+10:40.680 --> 10:45.660
+Now we have the flux and now obviously we need to spread them out right.
+
+10:45.990 --> 10:53.990
+So here we're going to say is this is going to be a justified contact space between then and we're going
+
+10:53.990 --> 10:57.120
+to have a flex wrap.
+
+10:57.440 --> 11:00.650
+I'm going to say wrap this.
+
+11:00.650 --> 11:08.310
+And again I can just make the size bigger here that we can see better and orient for that number.
+
+11:08.450 --> 11:16.750
+As always we're all going to have a simple flux 0 0 0 50 percent nothingness.
+
+11:16.790 --> 11:22.910
+So now that we save it if we're going to go back to shouldn't be covering 50 percent.
+
+11:23.150 --> 11:27.650
+Now obviously this is going to be for the small screen.
+
+11:28.030 --> 11:35.280
+Basically Biggert and 576 whoever we're going to do also do it for a 992.
+
+11:35.710 --> 11:43.830
+So again we're going to do very simple here copy and paste this or here and we're going to say Nine-Nine
+
+11:43.890 --> 11:45.350
+too right.
+
+11:45.400 --> 11:48.580
+And now all this stays the same.
+
+11:49.210 --> 11:56.340
+And for the number we just need to change 25 25 percent again to save it.
+
+11:56.690 --> 11:58.210
+And we're here to refresh.
+
+11:58.420 --> 11:58.730
+All right.
+
+11:58.750 --> 12:01.090
+And now it's going to be four of them.
+
+12:01.160 --> 12:04.660
+Right exactly like this and you can see how the numbers are counted.
+
+12:05.140 --> 12:13.240
+Then after that we need to do it with the grid so Id say forward slash or we're all going to come on
+
+12:13.250 --> 12:17.890
+this out forward slash we're going to do it with the grid.
+
+12:18.180 --> 12:23.710
+So when to say media screen and note here we're going to do the same thing.
+
+12:23.730 --> 12:23.970
+Right.
+
+12:23.980 --> 12:28.160
+So men with year five.
+
+12:28.310 --> 12:30.350
+So only six pixels.
+
+12:30.360 --> 12:38.120
+Then after that what we would want is for the numbers to be on display grid numbers display.
+
+12:38.270 --> 12:44.990
+When you say grid here and and grid template columns is going to be one fraction each.
+
+12:45.020 --> 12:51.870
+So we're going to say grid template columns and we're going to say one fraction one fraction on it like
+
+12:51.930 --> 12:52.200
+this.
+
+12:52.200 --> 12:52.850
+Right.
+
+12:53.000 --> 12:57.520
+And now again we need to just add another one for the bigger screen.
+
+12:57.780 --> 13:06.880
+So we're going to go back or hear men with two and we're here we're going to change a little bit differently.
+
+13:06.910 --> 13:07.970
+Can delete this.
+
+13:08.010 --> 13:12.830
+And this is going to be a repeat for one fraction I repeat here.
+
+13:13.590 --> 13:19.230
+Four and this is going to be one fraction really like this.
+
+13:19.230 --> 13:24.860
+And again if we say it if were fresh This should work exactly the same.
+
+13:25.070 --> 13:27.370
+And you can see that it doesn't.
+
+13:27.590 --> 13:27.820
+Right.
+
+13:27.830 --> 13:30.020
+So I made a mistake somewhere.
+
+13:30.200 --> 13:35.230
+So let's go back over here and see where I actually made a mistake.
+
+13:35.440 --> 13:37.530
+And we're live with the numbers.
+
+13:37.740 --> 13:42.040
+It's not a number it's numbers or number and numbers.
+
+13:42.350 --> 13:48.070
+So when we say it refresh and sure enough now we have it right.
+
+13:48.140 --> 13:55.530
+And honestly if I would actually make this smaller right this is going to be actually two of them.
+
+13:55.970 --> 13:58.280
+Now we are ready to move on to next section.

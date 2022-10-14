@@ -1,0 +1,759 @@
+1
+
+00:00:01,220  -->  00:00:03,800
+Ok, so, what we're going to do now is make
+
+2
+
+00:00:03,800  -->  00:00:08,900
+our elixirs and attack items work. So,
+
+3
+
+00:00:08,900  -->  00:00:11,240
+it's really simple just down here what
+
+4
+
+00:00:11,240  -->  00:00:16,250
+we're going to do is elif item.type
+
+5
+
+00:00:16,250  -->  00:00:21,019
+== "elixir" and remember we have a,
+
+6
+
+00:00:21,019  -->  00:00:23,599
+we're gonna need to also target the elixir
+
+7
+
+00:00:23,599  -->  00:00:28,489
+by name because mega elixir makes, well it
+
+8
+
+00:00:28,489  -->  00:00:30,679
+heals the entire party, and we've only got
+
+9
+
+00:00:30,679  -->  00:00:33,079
+one party member right now anyway so it
+
+10
+
+00:00:33,079  -->  00:00:35,150
+doesn't really matter. We will come back
+
+11
+
+00:00:35,150  -->  00:00:36,830
+to this in the next video, I think we're
+
+12
+
+00:00:36,830  -->  00:00:40,040
+going to add multiple party members. So, for
+
+13
+
+00:00:40,040  -->  00:00:44,510
+right now just player.hp =
+
+14
+
+00:00:44,510  -->  00:00:50,540
+player.maxhp, and player.mp =
+
+15
+
+00:00:50,540  -->  00:01:00,329
+player.maxmp.
+
+16
+
+00:01:00,329  -->  00:01:05,489
+Then what we need to do is print out what
+
+17
+
+00:01:05,489  -->  00:01:06,000
+happened.
+
+18
+
+00:01:06,000  -->  00:01:22,799
+So, bcolors.OKGREEN..."fully restores HP/MP"
+
+19
+
+00:01:22,799  -->  00:01:36,990
+And then bcolors.ENDC. elif
+
+20
+
+00:01:36,990  -->  00:01:43,440
+item.type == "attack": we say enemy.take_damage
+
+21
+
+00:01:43,440  -->  00:01:45,509
+the damage they're going to
+
+22
+
+00:01:45,509  -->  00:01:46,020
+take is
+
+23
+
+00:01:46,020  -->  00:01:51,450
+(item.prop), so whatever value it has.
+
+24
+
+00:01:51,450  -->  00:01:55,649
+So, for instance, if we use this it's going to say
+
+25
+
+00:01:55,649  -->  00:02:01,319
+okay we will do 500 damage to the enemy. I'm
+
+26
+
+00:02:01,319  -->  00:02:18,430
+going to print out, I think attack is red,
+
+27
+
+00:02:18,430  -->  00:02:26,910
+ah keyboard...
+
+28
+
+00:02:26,910  -->  00:02:31,830
+So, I'm going to say item.name deals item.prop,
+
+29
+
+00:02:31,830  -->  00:02:48,069
+"points of damage"
+
+30
+
+00:02:48,069  -->  00:02:50,140
+Alright, so to see this in action what we need
+
+31
+
+00:02:50,140  -->  00:02:52,090
+to do is
+
+32
+
+00:02:52,090  -->  00:02:55,269
+let's start off using magic,
+
+33
+
+00:02:55,269  -->  00:02:58,239
+so we're lowering our hip points and
+
+34
+
+00:02:58,239  -->  00:03:00,099
+magic points are lowering, so let's do that
+
+35
+
+00:03:00,099  -->  00:03:00,849
+one again.
+
+36
+
+00:03:00,849  -->  00:03:07,239
+Meteor and then one more, we've got 5 magic
+
+37
+
+00:03:07,239  -->  00:03:08,950
+points and we can't do much with that. Let's go
+
+38
+
+00:03:08,950  -->  00:03:10,780
+ahead and use item and the item we're going
+
+39
+
+00:03:10,780  -->  00:03:14,650
+to use is elixir. So, yourself 4, hit enter, as
+
+40
+
+00:03:14,650  -->  00:03:16,299
+you can see our hit points and magic
+
+41
+
+00:03:16,299  -->  00:03:19,150
+points restored entirely, so we know
+
+42
+
+00:03:19,150  -->  00:03:20,260
+that's working. The one thing that
+
+43
+
+00:03:20,260  -->  00:03:22,120
+doesn't work right now is the quantity.
+
+44
+
+00:03:22,120  -->  00:03:25,150
+I'm still trying to decide a way to do that, I
+
+45
+
+00:03:25,150  -->  00:03:28,719
+think what we're going to do is in here
+
+46
+
+00:03:28,719  -->  00:03:30,790
+where we create the list
+
+47
+
+00:03:30,790  -->  00:03:33,489
+we're going to set spell and then quantity in
+
+48
+
+00:03:33,489  -->  00:03:35,709
+here so that different players can have
+
+49
+
+00:03:35,709  -->  00:03:41,049
+different well item quantities. So, let's go
+
+50
+
+00:03:41,049  -->  00:03:42,609
+ahead and end this, we're going to end this
+
+51
+
+00:03:42,609  -->  00:03:43,750
+video here, and we're going to be doing
+
+52
+
+00:03:43,750  -->  00:03:46,299
+that in the, actually let's do that right
+
+53
+
+00:03:46,299  -->  00:03:55,689
+now as well. Item is going to be potion, and
+
+54
+
+00:03:55,689  -->  00:04:02,620
+quantity is going to be 5 so we will have 5 of those.
+
+55
+
+00:04:02,620  -->  00:04:16,209
+Now I'm going to copy this...
+
+56
+
+00:04:16,209  -->  00:04:21,519
+alright, cool.
+
+57
+
+00:04:21,519  -->  00:04:24,940
+So, "item":
+
+58
+
+00:04:24,940  -->  00:04:35,650
+hipotion, "quantity": let's say we have 5 of those. Let's
+
+59
+
+00:04:35,650  -->  00:04:45,460
+say we have 15 regular potions. Let's skip down another line
+
+60
+
+00:04:45,460  -->  00:04:58,630
+here, actually superpotion.
+
+61
+
+00:04:58,630  -->  00:05:03,460
+Superpotion we've
+
+62
+
+00:05:03,460  -->  00:05:11,560
+got 5, "item": here is going to be
+
+63
+
+00:05:11,560  -->  00:05:15,430
+elixir. We are going to need to change some
+
+64
+
+00:05:15,430  -->  00:05:21,040
+things within our script for this in order to work.
+
+65
+
+00:05:21,040  -->  00:05:34,090
+"item": hielixer, "quantity": 5 and then "item":
+
+66
+
+00:05:34,090  -->  00:05:40,360
+grenade. So, hielixer we'll have 2
+
+67
+
+00:05:40,360  -->  00:05:42,790
+of those, there we go.
+
+68
+
+00:05:42,790  -->  00:05:44,650
+So, what's gonna happen now when we try
+
+69
+
+00:05:44,650  -->  00:05:47,770
+and run our script and choose an item, if we
+
+70
+
+00:05:47,770  -->  00:05:51,070
+try to list the item it's going to fail. What
+
+71
+
+00:05:51,070  -->  00:05:55,240
+we need to do is get is in here when we're
+
+72
+
+00:05:55,240  -->  00:06:02,170
+listing the items...item so this is going to be
+
+73
+
+00:06:02,170  -->  00:06:04,750
+item.item.name,
+
+74
+
+00:06:04,750  -->  00:06:15,889
+item.item.description, and then here
+
+75
+
+00:06:15,889  -->  00:06:22,069
+I'm going to say str(item.quantity).
+
+76
+
+00:06:22,069  -->  00:06:27,560
+Let's go ahead and save, 'dict; object has no attribute 'item'
+
+77
+
+00:06:27,560  -->  00:06:34,490
+Let's go ahead and find out what,
+
+78
+
+00:06:34,490  -->  00:06:53,289
+so player_items is set to list,
+
+79
+
+00:06:53,289  -->  00:06:56,830
+I am not sure if that's what's wrong but let me
+
+80
+
+00:06:56,830  -->  00:07:09,289
+try.
+
+81
+
+00:07:09,289  -->  00:07:16,990
+Yep, alright, so that's what it is.
+
+82
+
+00:07:16,990  -->  00:07:22,330
+Again it's just be accessing variables and
+
+83
+
+00:07:22,330  -->  00:07:26,650
+values in the wrong way. So, as you can see
+
+84
+
+00:07:26,650  -->  00:07:28,630
+we've now got actually individual
+
+85
+
+00:07:28,630  -->  00:07:30,100
+quantities,
+
+86
+
+00:07:30,100  -->  00:07:33,970
+the only problem here is that it's causing an error.
+
+87
+
+00:07:33,970  -->  00:07:39,550
+So, let's restart that, and
+
+88
+
+00:07:39,550  -->  00:07:41,950
+that looks a little better. So, what we're going
+
+89
+
+00:07:41,950  -->  00:07:43,450
+to need to do also is reduced the
+
+90
+
+00:07:43,450  -->  00:07:47,350
+quantity of the item when we use one, so
+
+91
+
+00:07:47,350  -->  00:07:59,870
+what we need to do
+
+92
+
+00:07:59,870  -->  00:08:02,570
+in here is actually use the item as well so
+
+93
+
+00:08:02,570  -->  00:08:04,640
+i'm going to attack a little bit,
+
+94
+
+00:08:04,640  -->  00:08:14,000
+try and use a potion, no. So, player.items and
+
+95
+
+00:08:14,000  -->  00:08:22,760
+then [item_choice]...let's try that.
+
+96
+
+00:08:22,760  -->  00:08:27,230
+Alright, and then you put that after the end
+
+97
+
+00:08:27,230  -->  00:08:29,090
+I was just getting mixed up a little with the
+
+98
+
+00:08:29,090  -->  00:08:33,110
+order of how we built that object. There we go.
+
+99
+
+00:08:33,110  -->  00:08:35,570
+So, now we're able to actually see this
+
+100
+
+00:08:35,570  -->  00:08:38,720
+action, so let's go ahead and choose items.
+
+101
+
+00:08:38,720  -->  00:08:41,090
+Let's go ahead and use and we've got 5, so next
+
+102
+
+00:08:41,090  -->  00:08:43,670
+time around we need to reduce the number
+
+103
+
+00:08:43,670  -->  00:08:55,040
+that it will allow us to use. So, let's
+
+104
+
+00:08:55,040  -->  00:08:55,850
+set
+
+105
+
+00:08:55,850  -->  00:09:00,320
+item_quantity =
+
+106
+
+00:09:00,320  -->  00:09:02,780
+player.items
+
+107
+
+00:09:02,780  -->  00:09:07,910
+[item_choice] and I'm going to target
+
+108
+
+00:09:07,910  -->  00:09:12,650
+["quantity"], we're going to say item_quantity
+
+109
+
+00:09:12,650  -->  00:09:20,040
+-= 1.
+
+110
+
+00:09:20,040  -->  00:09:23,190
+There we go. So, this is going to handle now
+
+111
+
+00:09:23,190  -->  00:09:25,290
+reducing the number of the items as well.
+
+112
+
+00:09:25,290  -->  00:09:27,990
+So, 3 let's use that,
+
+113
+
+00:09:27,990  -->  00:09:30,180
+let's go back here and we can see that it didn't actually work.
+
+114
+
+00:09:30,180  -->  00:09:54,970
+So, let's print(item_quantity),
+
+115
+
+00:09:54,970  -->  00:09:57,430
+Alright, so what we need to do is we actually
+
+116
+
+00:09:57,430  -->  00:10:08,370
+need to set that directly.
+
+117
+
+00:10:08,370  -->  00:10:14,230
+Let's try this again...
+
+118
+
+00:10:14,230  -->  00:10:19,150
+potion and now you can see that this number is being reduced.
+
+119
+
+00:10:19,150  -->  00:10:20,440
+So,
+
+120
+
+00:10:20,440  -->  00:10:23,050
+what was happening before when I stored
+
+121
+
+00:10:23,050  -->  00:10:25,630
+this value in another variable we
+
+122
+
+00:10:25,630  -->  00:10:27,610
+modified the variable that we created,
+
+123
+
+00:10:27,610  -->  00:10:29,980
+but we didn't actually modified this
+
+124
+
+00:10:29,980  -->  00:10:36,760
+itself. So, what we need to do now if we
+
+125
+
+00:10:36,760  -->  00:10:42,460
+use an item that we have two of, so that's 5, so let's
+
+126
+
+00:10:42,460  -->  00:10:48,220
+use MegaElixer and we'll see that's 0, and then we go
+
+127
+
+00:10:48,220  -->  00:10:51,400
+down into the negatives. So, what we do is
+
+128
+
+00:10:51,400  -->  00:10:54,880
+we need to say if we have enough items, or
+
+129
+
+00:10:54,880  -->  00:11:02,080
+rather if player.items
+
+130
+
+00:11:02,080  -->  00:11:12,850
+[item_choice] ["quantity"] == 0:, we need to say
+
+131
+
+00:11:12,850  -->  00:11:13,840
+bcolors.
+
+132
+
+00:11:13,840  -->  00:11:22,210
+OKFAIL, skip a line, alright let's
+
+133
+
+00:11:22,210  -->  00:11:27,730
+just say "None left..." and then lets say
+
+134
+
+00:11:27,730  -->  00:11:33,550
+bcolors.EDNC, and let's continue from the top
+
+135
+
+00:11:33,550  -->  00:11:40,390
+to allow us to choose again.
+
+136
+
+00:11:40,390  -->  00:11:44,800
+Let's choose an item, let's say 5, so as you can see the MegaElixir
+
+137
+
+00:11:44,800  -->  00:11:55,710
+dropped by 1...whoops...
+
+138
+
+00:11:55,710  -->  00:11:58,860
+I need to put this before the
+
+139
+
+00:11:58,860  -->  00:12:03,690
+reduction. Otherwise, when we have one left it
+
+140
+
+00:12:03,690  -->  00:12:05,970
+would think we got 0 because it was after we
+
+141
+
+00:12:05,970  -->  00:12:08,910
+reduced it, so it would be 0 after we
+
+142
+
+00:12:08,910  -->  00:12:13,200
+actually use it,, but it would use it. So,
+
+143
+
+00:12:13,200  -->  00:12:15,690
+we've got one left, and we've got 0,
+
+144
+
+00:12:15,690  -->  00:12:18,300
+so let's try and use it again and it says none left.
+
+145
+
+00:12:18,300  -->  00:12:21,450
+So, we choose again and that's exactly what we
+
+146
+
+00:12:21,450  -->  00:12:23,250
+want, we want a way to be able to limit
+
+147
+
+00:12:23,250  -->  00:12:25,080
+its kinda like checking the mp
+
+148
+
+00:12:25,080  -->  00:12:26,700
+costs if you have enough magic points
+
+149
+
+00:12:26,700  -->  00:12:28,050
+to actually cast a spell.
+
+150
+
+00:12:28,050  -->  00:12:30,930
+So, the next video we're going to clean
+
+151
+
+00:12:30,930  -->  00:12:32,700
+up the UI a bit and probably add multiple
+
+152
+
+00:12:32,700  -->  00:12:38,210
+party members.

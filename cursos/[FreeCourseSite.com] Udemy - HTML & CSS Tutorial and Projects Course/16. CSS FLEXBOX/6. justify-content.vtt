@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.210 --> 00:05.530
+Next we're going to cover two of your favorite properties as far as flex box is concerned.
+
+00:05.850 --> 00:09.300
+When i say favorite moment you're going to start working on the Flex box.
+
+00:09.300 --> 00:15.030
+Trust me you'll going to find them very very useful because they're gonna make your lives much much
+
+00:15.030 --> 00:16.040
+more easier.
+
+00:16.060 --> 00:21.840
+No one is going to be responsible for horizontal alignment and the other one for vertical alignment
+
+00:22.120 --> 00:23.280
+not vertical alignment.
+
+00:23.280 --> 00:29.130
+We're going to cover next video and we're going to start with justify content that is responsible for
+
+00:29.370 --> 00:30.750
+horizontal alignment.
+
+00:30.750 --> 00:36.230
+Now first and foremost I'm going to comment all these generic ones.
+
+00:36.270 --> 00:40.450
+You know what maybe I'm gonna change my mind later on and we're gonna demo again.
+
+00:40.530 --> 00:42.570
+That's the reason why I'm not deleting them.
+
+00:42.570 --> 00:44.290
+I'm just coming thing the mouth.
+
+00:44.340 --> 00:48.020
+Just please understand that we still have our boxes and nothing didn't change.
+
+00:48.030 --> 00:53.120
+But I like I said maybe I'm going to need these generator boxes so I'm gonna leave them comment and
+
+00:53.120 --> 00:55.400
+out instead of deleting them.
+
+00:55.680 --> 01:01.130
+No like I said justified content is responsible for horizontal line.
+
+01:01.140 --> 01:04.780
+Now again we do have the Flex start.
+
+01:04.890 --> 01:11.970
+That is the default one and that's the reason when we set up display Fox while the boxes here are sitting
+
+01:12.030 --> 01:13.050
+on the left hand side.
+
+01:13.350 --> 01:13.610
+All right.
+
+01:13.920 --> 01:20.750
+So if I'm going to do again justify content we're going to start with Flex start.
+
+01:20.850 --> 01:26.610
+Notice nothing changes in our layout because again that is the default behavior.
+
+01:26.610 --> 01:34.710
+However if we're going to in fact copy and paste that and change it to the Flex and our boxes in fact
+
+01:34.770 --> 01:36.980
+are shifted to the right hand side.
+
+01:37.020 --> 01:43.650
+Now notice when we used a roll reverse not only we shifted them to the other side to the right hand
+
+01:43.650 --> 01:50.430
+side we also flip the ordering correct because one was here and then five was all the way here.
+
+01:50.490 --> 01:55.560
+In this case when we're using the Flex and we're only dealing with horizontal line.
+
+01:56.070 --> 02:02.100
+So in this case when we have flex start the default one while they were sitting on the left hand side.
+
+02:02.520 --> 02:05.240
+Now we shifted them all the way to the right hand side.
+
+02:05.700 --> 02:07.750
+So that's the purpose of flex.
+
+02:08.140 --> 02:13.480
+And then we have three of them that are dealing with distributing them evenly.
+
+02:13.500 --> 02:17.410
+Now when we say evenly there are some caveats to that.
+
+02:17.550 --> 02:19.940
+So we're going to cover them one by one.
+
+02:19.950 --> 02:22.760
+Let's start first with space between.
+
+02:22.950 --> 02:24.660
+So let's write justified content.
+
+02:24.790 --> 02:32.400
+And I could have copy and paste it but I guess we can also type it out and let's say space between like
+
+02:32.400 --> 02:39.030
+so now what happens with space between the first item and the last item regardless of how many items
+
+02:39.030 --> 02:39.710
+you have.
+
+02:39.750 --> 02:44.180
+Now I guess we have five but again same would work if we had two of them.
+
+02:44.240 --> 02:45.860
+Moreover we have 60 of them.
+
+02:45.900 --> 02:53.380
+So the first item is going to sit all the way to the edge of the container as well as the last one is
+
+02:53.400 --> 02:59.760
+gonna be on the other side of the container all the way up to the edge of the container.
+
+03:00.060 --> 03:04.290
+Then there's going to be space in between the items like so.
+
+03:04.420 --> 03:10.590
+Okay just keep this one in mind because next one we have a space around where we're gonna have some
+
+03:10.590 --> 03:12.370
+margins.
+
+03:12.540 --> 03:19.440
+Again let's copy and paste it instead of space between let's look at space around and as far as space
+
+03:19.530 --> 03:26.130
+around is concerned we are adding the margins that are in between the items.
+
+03:26.130 --> 03:32.760
+So notice we have the double margin between the item 1 and 2 and 2 and 3 and 4 and 5 because we are
+
+03:32.820 --> 03:35.790
+adding here to a margin on the edge.
+
+03:35.790 --> 03:42.360
+So the first item is going to have the left margin as well as of course marching in between them like
+
+03:42.360 --> 03:43.660
+we had already before.
+
+03:43.680 --> 03:48.870
+That's the reason why we have a double because each of the items has this particular margin as well
+
+03:48.870 --> 03:52.400
+as the last item as the margin here on the right hand side.
+
+03:52.800 --> 03:57.600
+So they're not flush with the container anymore when we use the space around.
+
+03:57.600 --> 04:06.120
+And lastly let's copy and paste that where we have space evenly spaced evenly and in this case the margins
+
+04:06.180 --> 04:07.660
+are in fact the same.
+
+04:07.710 --> 04:14.550
+So the same margin we're going to have here on the edges and the start edge on the and edge as we would
+
+04:14.550 --> 04:16.450
+have in between the items.
+
+04:16.770 --> 04:17.890
+So that would be the difference.
+
+04:17.910 --> 04:19.390
+And this is really up to you.
+
+04:19.560 --> 04:21.780
+This is your preference and you know.
+
+04:21.810 --> 04:23.900
+I also didn't mention one thing.
+
+04:23.920 --> 04:25.080
+My apologies.
+
+04:25.080 --> 04:29.040
+There is also justified content and we can go with the center.
+
+04:29.040 --> 04:30.390
+Yeah I will apologize.
+
+04:30.390 --> 04:34.100
+There's also this one option which by the way is quite common.
+
+04:34.200 --> 04:35.940
+So I don't know why I missed that out.
+
+04:35.940 --> 04:42.170
+We also have the center where if we go with a center Well I would just place items in the center.
+
+04:42.220 --> 04:48.140
+And please understand that regardless of the screen size the layout is not going to change.
+
+04:48.150 --> 04:54.930
+So if I went with the center even if my screen size gets massive still I'm going to sit in the center.
+
+04:55.050 --> 05:00.290
+If the screen size is small while they're gonna sit here now again please keep in mind we don't have
+
+05:00.290 --> 05:01.520
+the Flex wrap.
+
+05:01.520 --> 05:10.420
+So in order to wrap them to a next line remember we had a flex we had to flex wrap and we set it equal
+
+05:10.420 --> 05:11.390
+to Europe.
+
+05:11.450 --> 05:13.610
+Now in this case we're going to wrap the new line.
+
+05:13.630 --> 05:17.230
+And since we have the center and that's the reason why we start a new line.
+
+05:17.530 --> 05:19.980
+But still we are using this center.
+
+05:20.200 --> 05:23.540
+And as far as space around space between space evenly.
+
+05:23.740 --> 05:26.390
+Well again it is your preference.
+
+05:26.420 --> 05:30.160
+There's gonna be cases where you'd want to have in fact space between.
+
+05:30.190 --> 05:31.140
+So let me comment.
+
+05:31.140 --> 05:36.490
+All these space evenly and maybe let me make the screen size bigger just so we can for sure see that.
+
+05:36.520 --> 05:41.290
+Of course we have this particular layout where there's gonna be cases where you would want this particular
+
+05:41.290 --> 05:48.820
+layer where you're going to want to have your first item and last item sitting flush would edge of the
+
+05:48.820 --> 05:51.620
+container and then whatever space in between.
+
+05:51.640 --> 05:56.860
+However there's also gonna be times when that's not good enough where you're going to say you're not
+
+05:56.860 --> 06:00.270
+what I would want all my items to be distributed evenly.
+
+06:00.640 --> 06:03.240
+So that's the time when you're going to go with space evenly.
+
+06:03.310 --> 06:05.170
+So there's really no right or wrong.
+
+06:05.260 --> 06:08.010
+It's mostly your preference just again.
+
+06:08.050 --> 06:13.600
+I'm telling you right away that this will be probably one of your favorite ones.
+
+06:13.660 --> 06:17.190
+Maybe online content or a line item sorry.
+
+06:17.200 --> 06:20.610
+The one we're going to cover next video maybe that is going to top it off.
+
+06:20.640 --> 06:27.130
+But two of these the one that we cover right now and the next video is probably going to be your favorite
+
+06:27.130 --> 06:31.330
+ones because they really simplify your layouts.
+
+06:31.450 --> 06:37.330
+You just need to remember this one property and some values that you like the most and you're good to
+
+06:37.330 --> 06:37.540
+go.

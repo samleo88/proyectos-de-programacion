@@ -1,0 +1,784 @@
+1
+
+00:00:00,000  -->  00:00:01,890
+Alright, so, now what we're going to do is
+
+2
+
+00:00:01,890  -->  00:00:05,160
+add some more functionality when it
+
+3
+
+00:00:05,160  -->  00:00:09,090
+comes to actually modifying the web view
+
+4
+
+00:00:09,090  -->  00:00:11,099
+of the current tab, and how we're going
+
+5
+
+00:00:11,099  -->  00:00:12,389
+to do that is we need to find our
+
+6
+
+00:00:12,389  -->  00:00:15,360
+toolbar here where the address bar is
+
+7
+
+00:00:15,360  -->  00:00:21,539
+and we need to set some buttons. So, set
+
+8
+
+00:00:21,539  -->  00:00:25,590
+toolbar buttons. So for instance we're
+
+9
+
+00:00:25,590  -->  00:00:28,920
+going to have a self.BackButton, and
+
+10
+
+00:00:28,920  -->  00:00:32,790
+that's going to be equal to QWidgets.
+
+11
+
+00:00:32,790  -->  00:00:37,440
+QPushButton actually, and for right now it's
+
+12
+
+00:00:37,440  -->  00:00:39,989
+just going to show a left arrow.
+
+13
+
+00:00:39,989  -->  00:00:50,940
+And then self.ForwardButton = QPushButton
+
+14
+
+00:00:50,940  -->  00:00:53,640
+button, and it's going to show a right
+
+15
+
+00:00:53,640  -->  00:00:56,760
+arrow. And what we need to do is now
+
+16
+
+00:00:56,760  -->  00:00:59,100
+connect these two methods that will make
+
+17
+
+00:00:59,100  -->  00:01:01,020
+the current web view go back and forward,
+
+18
+
+00:01:01,020  -->  00:01:09,090
+and so self.BackButton.clicked.connect and
+
+19
+
+00:01:09,090  -->  00:01:11,040
+we're going to connect it to self.
+
+20
+
+00:01:11,040  -->  00:01:14,820
+GoBack.
+
+21
+
+00:01:14,820  -->  00:01:18,990
+Same thing for forward. self.Forward
+
+22
+
+00:01:18,990  -->  00:01:22,590
+Button.clicked, going to connect that
+
+23
+
+00:01:22,590  -->  00:01:28,259
+signal to self.GoForward. And we
+
+24
+
+00:01:28,259  -->  00:01:30,750
+don't need to worry about what tab
+
+25
+
+00:01:30,750  -->  00:01:33,720
+we were on when we clicked these buttons
+
+26
+
+00:01:33,720  -->  00:01:36,750
+because these are global buttons, but we do
+
+27
+
+00:01:36,750  -->  00:01:39,990
+need to get the active tab once these
+
+28
+
+00:01:39,990  -->  00:01:42,299
+are clicked. But, before we even do that we
+
+29
+
+00:01:42,299  -->  00:01:44,790
+need to add the buttons to the toolbar.
+
+30
+
+00:01:44,790  -->  00:01:49,710
+So, self.ToolbarLayout.addWidget, and we're
+
+31
+
+00:01:49,710  -->  00:01:54,420
+going to add self.BackButton. And then
+
+32
+
+00:01:54,420  -->  00:01:58,770
+under that, self.ToolbarLayout, add
+
+33
+
+00:01:58,770  -->  00:02:00,869
+Widget, and we're going to add self.
+
+34
+
+00:02:00,869  -->  00:02:06,930
+ForwardButton. So I'm going to save
+
+35
+
+00:02:06,930  -->  00:02:09,060
+this, and basically at this point we
+
+36
+
+00:02:09,060  -->  00:02:10,890
+should have a toolbar that has a back
+
+37
+
+00:02:10,890  -->  00:02:12,730
+button, a forward button,
+
+38
+
+00:02:12,730  -->  00:02:15,519
+an address bar, and the add tab button. Let's go
+
+39
+
+00:02:15,519  -->  00:02:18,970
+ahead and run the application, and we
+
+40
+
+00:02:18,970  -->  00:02:20,500
+actually need to create these methods
+
+41
+
+00:02:20,500  -->  00:02:21,549
+before it will work.
+
+42
+
+00:02:21,549  -->  00:02:24,040
+So let's drop down here, and let's just
+
+43
+
+00:02:24,040  -->  00:02:29,580
+create them, I guess. So,
+
+44
+
+00:02:29,680  -->  00:02:45,849
+GoBack, pass, and def GoForward, pass. It
+
+45
+
+00:02:45,849  -->  00:02:48,129
+would be awesome if I could type today. I
+
+46
+
+00:02:48,129  -->  00:02:50,019
+must be sitting angled just
+
+47
+
+00:02:50,019  -->  00:02:52,299
+incorrectly. So as you can see now we've
+
+48
+
+00:02:52,299  -->  00:02:54,250
+got a back button and a forward button
+
+49
+
+00:02:54,250  -->  00:02:57,489
+there actually rigged to the
+
+50
+
+00:02:57,489  -->  00:02:59,590
+functions that we just created, but they
+
+51
+
+00:02:59,590  -->  00:03:00,940
+don't actually do anything yet. So what
+
+52
+
+00:03:00,940  -->  00:03:03,700
+we need to do is get the current tab, or
+
+53
+
+00:03:03,700  -->  00:03:06,069
+active tab when we click these, and we
+
+54
+
+00:03:06,069  -->  00:03:09,069
+need to get the object with the object
+
+55
+
+00:03:09,069  -->  00:03:13,000
+name equal to this tab data object, and
+
+56
+
+00:03:13,000  -->  00:03:14,680
+then we can tell this web view to go back.
+
+57
+
+00:03:14,680  -->  00:03:18,010
+So, it sounds more complicated than it is,
+
+58
+
+00:03:18,010  -->  00:03:23,829
+but all it is, is active index, so this is
+
+59
+
+00:03:23,829  -->  00:03:25,750
+going to be the active tabs index number
+
+60
+
+00:03:25,750  -->  00:03:37,870
+is self.tabbar.getCurrentIndex, or
+
+61
+
+00:03:37,870  -->  00:03:39,519
+just currentIndex.
+
+62
+
+00:03:39,519  -->  00:03:42,730
+So this is going to tell us what tab is
+
+63
+
+00:03:42,730  -->  00:03:44,410
+currently active. Now at that point we
+
+64
+
+00:03:44,410  -->  00:03:48,549
+need to get the tab name, so it's going to be
+
+65
+
+00:03:48,549  -->  00:03:52,480
+equal to activeIndex, actually
+
+66
+
+00:03:52,480  -->  00:03:56,230
+equal to self.tabbar.
+
+67
+
+00:03:56,230  -->  00:04:03,900
+tapData(activeIndex),
+
+68
+
+00:04:05,750  -->  00:04:09,920
+and then object. So this is the object
+
+69
+
+00:04:09,920  -->  00:04:16,160
+key within the tab data property. And
+
+70
+
+00:04:16,160  -->  00:04:18,950
+then what we need to do is we need to
+
+71
+
+00:04:18,950  -->  00:04:24,350
+get the object of the tabs, so tab_content
+
+72
+
+00:04:24,350  -->  00:04:29,810
+equals self.findChild, we're looking for
+
+73
+
+00:04:29,810  -->  00:04:34,970
+a QWidget with the name tab_name, and then
+
+74
+
+00:04:34,970  -->  00:04:36,860
+we're going to access content here. So,
+
+75
+
+00:04:36,860  -->  00:04:40,040
+this is the actual web view, and then all
+
+76
+
+00:04:40,040  -->  00:04:43,220
+we need to do is type tab_content.
+
+77
+
+00:04:43,220  -->  00:04:50,510
+goBack. Let's go ahead and restart this, and
+
+78
+
+00:04:50,510  -->  00:04:57,200
+let's start by going to a few websites.
+
+79
+
+00:04:57,200  -->  00:05:00,290
+So the first one we're on is Google, let's go to
+
+80
+
+00:05:00,290  -->  00:05:08,810
+Facebook, let's go to YouTube, and let's
+
+81
+
+00:05:08,810  -->  00:05:15,290
+go back...webengine, okay. We actually need to
+
+82
+
+00:05:15,290  -->  00:05:19,610
+access page in here. So the web engine
+
+83
+
+00:05:19,610  -->  00:05:20,570
+view
+
+84
+
+00:05:20,570  -->  00:05:24,050
+has a property called page which is
+
+85
+
+00:05:24,050  -->  00:05:27,590
+equal to a web engine page, and with a
+
+86
+
+00:05:27,590  -->  00:05:30,740
+web engine page you can do stuff like this. So, let's go
+
+87
+
+00:05:30,740  -->  00:05:37,910
+ahead and load this, no. Is it just called
+
+88
+
+00:05:37,910  -->  00:05:39,290
+back?
+
+89
+
+00:05:39,290  -->  00:05:41,390
+I got something wrong. I might have to search this
+
+90
+
+00:05:41,390  -->  00:05:43,960
+here in a moment.
+
+91
+
+00:05:46,490  -->  00:05:53,090
+Ok, if this doesn't work, if it isn't in
+
+92
+
+00:05:53,090  -->  00:05:54,650
+the actual content, then I'm just going to
+
+93
+
+00:05:54,650  -->  00:05:56,000
+go ahead and search it.
+
+94
+
+00:05:56,000  -->  00:06:02,150
+Okay, that looks like it works. So,
+
+95
+
+00:06:02,150  -->  00:06:08,210
+facebook.com, and then hit back, and it goes
+
+96
+
+00:06:08,210  -->  00:06:10,699
+to Google. Alright, now the address bar
+
+97
+
+00:06:10,699  -->  00:06:11,960
+doesn't update yet and we're going to get to
+
+98
+
+00:06:11,960  -->  00:06:15,830
+that in a moment as well. I just want to make
+
+99
+
+00:06:15,830  -->  00:06:17,900
+sure this works. So, we're already on
+
+100
+
+00:06:17,900  -->  00:06:22,669
+Google so let's go to youtube.com, and
+
+101
+
+00:06:22,669  -->  00:06:24,620
+then once we're on youtube.com let's go
+
+102
+
+00:06:24,620  -->  00:06:32,870
+to digg.com. Now if I go back it goes
+
+103
+
+00:06:32,870  -->  00:06:36,590
+back to youtube, and then to Google. So
+
+104
+
+00:06:36,590  -->  00:06:39,259
+that's working. Essentially, the forward
+
+105
+
+00:06:39,259  -->  00:06:41,539
+method is the exact same. So we get the
+
+106
+
+00:06:41,539  -->  00:06:50,000
+active tab's index number, then we get the
+
+107
+
+00:06:50,000  -->  00:06:52,159
+name of that tab that we need to
+
+108
+
+00:06:52,159  -->  00:06:55,340
+actually get the content from, so self.
+
+109
+
+00:06:55,340  -->  00:06:59,240
+tabbar.tabData, and then the
+
+110
+
+00:06:59,240  -->  00:07:01,880
+tab data we're trying to access is of
+
+111
+
+00:07:01,880  -->  00:07:06,380
+the active tab, and then we get the object
+
+112
+
+00:07:06,380  -->  00:07:14,750
+key value of the tabs data. Now let's get
+
+113
+
+00:07:14,750  -->  00:07:20,810
+tab_content equals selfs.findChild,
+
+114
+
+00:07:20,810  -->  00:07:25,099
+QWidget, tap_name.
+
+115
+
+00:07:25,099  -->  00:07:33,460
+content, and then tab_content.forward.
+
+116
+
+00:07:35,930  -->  00:07:43,940
+So, if I go to facebook.com, and then
+
+117
+
+00:07:43,940  -->  00:07:47,180
+youtube.com, now I should be able to
+
+118
+
+00:07:47,180  -->  00:07:48,860
+navigate between these however many
+
+119
+
+00:07:48,860  -->  00:07:51,229
+times I want simply by using the back
+
+120
+
+00:07:51,229  -->  00:07:57,229
+and forward buttons. And it looks like
+
+121
+
+00:07:57,229  -->  00:08:01,550
+that is the case. However, the address
+
+122
+
+00:08:01,550  -->  00:08:04,039
+bar still isn't getting set. Before
+
+123
+
+00:08:04,039  -->  00:08:05,660
+we do that I want to talk about the
+
+124
+
+00:08:05,660  -->  00:08:11,419
+reload function, and so let me come up
+
+125
+
+00:08:11,419  -->  00:08:13,729
+here to the buttons. We need to create a
+
+126
+
+00:08:13,729  -->  00:08:18,919
+reload button, so self.ReloadButton, and
+
+127
+
+00:08:18,919  -->  00:08:20,990
+it's going to be equal to QPushButton,
+
+128
+
+00:08:20,990  -->  00:08:23,449
+and for now it's going to be a capital
+
+129
+
+00:08:23,449  -->  00:08:25,250
+"R" because we're not going through and
+
+130
+
+00:08:25,250  -->  00:08:27,830
+adding icons to these buttons. We will go
+
+131
+
+00:08:27,830  -->  00:08:29,479
+over that at some point I'm sure.
+
+132
+
+00:08:29,479  -->  00:08:33,020
+So, when you click the reload button
+
+133
+
+00:08:33,020  -->  00:08:34,700
+we're going to connect that to self.
+
+134
+
+00:08:34,700  -->  00:08:46,400
+Reload, ReloadPage. And then drop
+
+135
+
+00:08:46,400  -->  00:08:48,110
+down here to under the back and forward
+
+136
+
+00:08:48,110  -->  00:08:54,110
+methods, and let's define ReloadPage,
+
+137
+
+00:08:54,110  -->  00:08:58,430
+and the same thing the active tabs
+
+138
+
+00:08:58,430  -->  00:09:04,730
+index equals self.tabbar.
+
+139
+
+00:09:04,730  -->  00:09:09,380
+currentIndex. The tab_name is going to equal
+
+140
+
+00:09:09,380  -->  00:09:13,670
+self.tabbar.tabData of the active
+
+141
+
+00:09:13,670  -->  00:09:15,920
+index, and the tab data we're
+
+142
+
+00:09:15,920  -->  00:09:18,440
+specifically interested in is it's object
+
+143
+
+00:09:18,440  -->  00:09:26,420
+key value, and then tab_content equals
+
+144
+
+00:09:26,420  -->  00:09:30,320
+self.findChild,
+
+145
+
+00:09:30,320  -->  00:09:34,279
+QWidget we are looking for with tab_name,
+
+146
+
+00:09:34,279  -->  00:09:36,709
+and we're looking for the content
+
+147
+
+00:09:36,709  -->  00:09:41,300
+attribute, and then tab_content.reload.
+
+148
+
+00:09:41,300  -->  00:09:45,470
+So, I think we need to add that button
+
+149
+
+00:09:45,470  -->  00:09:48,850
+to the toolbar as well, I don't think we did that.
+
+150
+
+00:09:48,850  -->  00:09:53,500
+So self.ToolbarLayout.
+
+151
+
+00:09:53,500  -->  00:09:59,440
+addWidget(self.ReloadButton).
+
+152
+
+00:09:59,440  -->  00:10:03,339
+Save this, re-run our application, and we
+
+153
+
+00:10:03,339  -->  00:10:05,319
+now have a reload button. If I click it,
+
+154
+
+00:10:05,319  -->  00:10:10,420
+it reloads, and that's all for this video.
+
+155
+
+00:10:10,420  -->  00:10:13,720
+So, I look forward to seeing you guys
+
+156
+
+00:10:13,720  -->  00:10:18,100
+again, and let's get into more stuff with
+
+157
+
+00:10:18,100  -->  00:10:20,639
+web view.

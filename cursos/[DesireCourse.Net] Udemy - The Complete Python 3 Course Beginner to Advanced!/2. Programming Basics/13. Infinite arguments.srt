@@ -1,0 +1,248 @@
+1
+
+00:00:00,000  -->  00:00:04,290
+Alright guys let's go ahead and talk
+about an infinite number of arguments
+
+2
+
+00:00:04,290  -->  00:00:09,360
+being passed into a function. So what
+we're going to do is define a function
+
+3
+
+00:00:09,360  -->  00:00:18,359
+called "print_people" and here's where
+we're going to pass in the the arguments
+
+4
+
+00:00:18,359  -->  00:00:21,570
+for a function but we don't know how
+many were going to get, we may get 3,
+
+5
+
+00:00:21,570  -->  00:00:25,080
+we may get a 100. So what we're going
+to do is start off we're going to only
+
+6
+
+00:00:25,080  -->  00:00:30,750
+pass one argument into this function and
+that's going to begin with an "asterisk" and
+
+7
+
+00:00:30,750  -->  00:00:36,630
+this "*" tells this argument that it's
+going to be an array of all of the
+
+8
+
+00:00:36,630  -->  00:00:41,969
+arguments that are passed into the function, so you're going to see more how this
+
+9
+
+00:00:41,969  -->  00:00:47,940
+works in a moment. Now with an array we
+need some way to loop over it and so
+
+10
+
+00:00:47,940  -->  00:00:51,510
+we're going to be using a for statement
+and we're going to go more into this in
+
+11
+
+00:00:51,510  -->  00:00:56,309
+the future, but for right now all you need to know is you're going to write "for person
+
+12
+
+00:00:56,309  -->  00:01:02,370
+in people:" and you're going to notice
+that when i drop down to the new line
+
+13
+
+00:01:02,370  -->  00:01:07,229
+after putting the colon here it further
+indented my code which means what I'm
+
+14
+
+00:01:07,229  -->  00:01:10,380
+writing here is going to be a different
+block, it's going to be one level deeper
+
+15
+
+00:01:10,380  -->  00:01:16,890
+than right here so, and that's not sure
+why that's underlying red maybe because
+
+16
+
+00:01:16,890  -->  00:01:18,810
+it's expecting me to type something here.
+
+17
+
+00:01:18,810  -->  00:01:24,930
+So what I'm going to do is "for person in
+people:" I'm going to "print("This
+
+18
+
+00:01:24,930  -->  00:01:34,560
+person is" ,  person)" there we go. So that's our function, we're done with that.
+
+19
+
+00:01:34,560  -->  00:01:41,729
+Basically how a for loop works is this
+is a list or an array as we're defining
+
+20
+
+00:01:41,729  -->  00:01:48,119
+right here. This is going to take in all
+of the values we're passing to this
+
+21
+
+00:01:48,119  -->  00:01:55,229
+function and create a list called people.
+Now you can iterate over the people list
+
+22
+
+00:01:55,229  -->  00:02:01,259
+by using a for statement, so for person
+in people and this person can be any you
+
+23
+
+00:02:01,259  -->  00:02:07,200
+could write this for item in people, but
+where we are using the variable name
+
+24
+
+00:02:07,200  -->  00:02:10,979
+person that is going to be available in
+this block of code
+
+25
+
+00:02:11,800  -->  00:02:16,450
+as the next person in the list and so
+you guys are going to see how this works.
+
+26
+
+00:02:16,450  -->  00:02:20,080
+Again if you're familiar with other
+programming languages this is not a new
+
+27
+
+00:02:20,080  -->  00:02:23,470
+concept, it's just a slightly different way
+of doing it
+
+28
+
+00:02:23,470  -->  00:02:29,260
+Let's go ahead and call the function
+"print people" and let's pass it some
+
+29
+
+00:02:29,260  -->  00:02:48,400
+names so "("Nick" , "Dan" , "Jack" , "King" , "Smiley")" I'm not even sure if this
+
+30
+
+00:02:48,400  -->  00:02:52,270
+is a real persons name but we're going
+to pass it into this function anyway. So
+
+31
+
+00:02:52,270  -->  00:02:57,880
+what we're doing is we're passing in 1, 2, 3, 4, 5 arguments. Now if we
+
+32
+
+00:02:57,880  -->  00:03:02,980
+knew we were always going to expect five
+arguments we could accept each
+
+33
+
+00:03:02,980  -->  00:03:05,530
+individual argument as its own variable,
+
+34
+
+00:03:05,530  -->  00:03:10,510
+however we don't so we're capturing all
+these, we're going to create an array out of
+
+35
+
+00:03:10,510  -->  00:03:16,209
+them, and the array is going to be stored
+in the variable called people. So we're
+
+36
+
+00:03:16,209  -->  00:03:19,480
+going to run this and you're going to see
+that for each person it prints out this
+
+37
+
+00:03:19,480  -->  00:03:27,160
+person is and then the name of the
+person. So that's how to include an
+
+38
+
+00:03:27,160  -->  00:03:32,200
+infinite number, or a flexible, it's not really infinite eventually if
+
+39
+
+00:03:32,200  -->  00:03:36,580
+you were going to pass in an infinite
+amount of parameters you would never be
+
+40
+
+00:03:36,580  -->  00:03:41,140
+done with your program, you could pass it on to your descendants they would never be
+
+41
+
+00:03:41,140  -->  00:03:48,400
+done, and so on. This is truly a flexible
+number of arguments. So, with that being
+
+42
+
+00:03:48,400  -->  00:03:54,160
+said we're all done with that. In the
+next video we're going to be discussing
+
+43
+
+00:03:54,160  -->  00:03:57,970
+return values and then we're going to
+build a calculator.

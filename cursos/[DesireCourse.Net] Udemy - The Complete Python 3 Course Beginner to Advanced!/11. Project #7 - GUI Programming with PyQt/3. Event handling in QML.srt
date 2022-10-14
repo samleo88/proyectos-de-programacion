@@ -1,0 +1,644 @@
+1
+
+00:00:00,000  -->  00:00:02,370
+Hey guys, welcome back. So we learned how
+
+2
+
+00:00:02,370  -->  00:00:05,730
+to create some qml elements and we haven't
+
+3
+
+00:00:05,730  -->  00:00:07,620
+even touched on it yet. So I'm actually
+
+4
+
+00:00:07,620  -->  00:00:10,889
+going to go back one page here and the
+
+5
+
+00:00:10,889  -->  00:00:13,530
+controls all of these elements become
+
+6
+
+00:00:13,530  -->  00:00:17,580
+available when we import QtQuick
+
+7
+
+00:00:17,580  -->  00:00:19,949
+controls right here, and so we're going to be
+
+8
+
+00:00:19,949  -->  00:00:21,990
+using some of them in this application.
+
+9
+
+00:00:21,990  -->  00:00:24,990
+So what we're going to do is first off
+
+10
+
+00:00:24,990  -->  00:00:30,720
+we're going to create a button with the id:
+
+11
+
+00:00:30,720  -->  00:00:35,910
+mainbutton, and let me just click in
+
+12
+
+00:00:35,910  -->  00:00:37,590
+here so you guys can see an example too.
+
+13
+
+00:00:37,590  -->  00:00:40,260
+Basically, all it takes right now is
+
+14
+
+00:00:40,260  -->  00:00:43,260
+going to be a text property. So as you
+
+15
+
+00:00:43,260  -->  00:00:44,730
+can see here that's going to create a
+
+16
+
+00:00:44,730  -->  00:00:45,660
+button.
+
+17
+
+00:00:45,660  -->  00:00:49,770
+Let's jump in here and add text to say
+
+18
+
+00:00:49,770  -->  00:00:53,550
+"Push Me" going to save this and run the
+
+19
+
+00:00:53,550  -->  00:00:59,129
+application, and you're going to see this.
+
+20
+
+00:00:59,129  -->  00:01:04,049
+This is a very pretty application so far.
+
+21
+
+00:01:04,049  -->  00:01:06,210
+We've got a button overlaying text so we
+
+22
+
+00:01:06,210  -->  00:01:09,210
+can't see what the text says. So how we're
+
+23
+
+00:01:09,210  -->  00:01:13,710
+going to fix that in qml basically
+
+24
+
+00:01:13,710  -->  00:01:15,659
+everything needs to be positioned to
+
+25
+
+00:01:15,659  -->  00:01:18,990
+some degree. Now you can import a layout, it's
+
+26
+
+00:01:18,990  -->  00:01:21,450
+QtQuick layouts, and we're going to be
+
+27
+
+00:01:21,450  -->  00:01:23,610
+talking about layouts later. For right now
+
+28
+
+00:01:23,610  -->  00:01:26,490
+we're going to be adding an id: to text
+
+29
+
+00:01:26,490  -->  00:01:31,320
+and we're going to call it mainText, and so in
+
+30
+
+00:01:31,320  -->  00:01:35,310
+in the text here we can we can define
+
+31
+
+00:01:35,310  -->  00:01:37,860
+some anchors, you can go anchors.top: and
+
+32
+
+00:01:37,860  -->  00:01:41,040
+you can set the
+
+33
+
+00:01:41,040  -->  00:01:43,380
+position based on the top in pixels from
+
+34
+
+00:01:43,380  -->  00:01:44,549
+the top.
+
+35
+
+00:01:44,549  -->  00:01:46,110
+That sounds a little complicated so what
+
+36
+
+00:01:46,110  -->  00:01:47,430
+I'm going to do is I'm going to set this
+
+37
+
+00:01:47,430  -->  00:01:49,409
+top equal to this bottom and what should
+
+38
+
+00:01:49,409  -->  00:01:51,299
+happen is our button will show up
+
+39
+
+00:01:51,299  -->  00:01:57,570
+underneath the text. So anchors.top:
+
+40
+
+00:01:57,570  -->  00:02:01,469
+mainText.bottom and this seems
+
+41
+
+00:02:01,469  -->  00:02:05,070
+pretty simple. Going to refresh the
+
+42
+
+00:02:05,070  -->  00:02:06,430
+application, and
+
+43
+
+00:02:06,430  -->  00:02:08,950
+as you can see it's actually worked and
+
+44
+
+00:02:08,950  -->  00:02:11,230
+this is because we've set the height of
+
+45
+
+00:02:11,230  -->  00:02:15,250
+the main text to 50, so this is 50
+
+46
+
+00:02:15,250  -->  00:02:18,100
+pixels right here. Now we can also center
+
+47
+
+00:02:18,100  -->  00:02:19,720
+content and we're going to talk about
+
+48
+
+00:02:19,720  -->  00:02:22,630
+that a little bit as well.
+
+49
+
+00:02:22,630  -->  00:02:25,660
+You can basically center items
+
+50
+
+00:02:25,660  -->  00:02:27,880
+horizontally or vertically and we're
+
+51
+
+00:02:27,880  -->  00:02:30,580
+going to talk about that right now. Right
+
+52
+
+00:02:30,580  -->  00:02:33,910
+here we're going to set horizontal
+
+53
+
+00:02:33,910  -->  00:02:39,790
+alignment, so horizontalAlignment: is
+
+54
+
+00:02:39,790  -->  00:02:43,390
+going to be equal to TextAlignHCenter
+
+55
+
+00:02:43,400  -->  00:02:48,900
+and this means horizontally centered.
+
+56
+
+00:02:49,030  -->  00:02:53,860
+We're going to save it, refresh, and
+
+57
+
+00:02:53,860  -->  00:02:56,560
+something went terribly wrong here.
+
+58
+
+00:02:56,560  -->  00:03:04,720
+This is 300 pixels wide. So let's set the width,
+
+59
+
+00:03:04,720  -->  00:03:09,220
+it's actually maybe not getting that
+
+60
+
+00:03:09,220  -->  00:03:11,470
+property in there. Let's start this again.
+
+61
+
+00:03:11,470  -->  00:03:15,970
+There we go. So when we created the
+
+62
+
+00:03:15,970  -->  00:03:18,280
+rectangle it was actually technically 0
+
+63
+
+00:03:18,280  -->  00:03:20,470
+pixels wide. That's also why it wasn't red, I
+
+64
+
+00:03:20,470  -->  00:03:22,060
+didn't even notice that it wasn't red there.
+
+65
+
+00:03:22,060  -->  00:03:28,510
+And then this we're going to set anchors
+
+66
+
+00:03:28,510  -->  00:03:33,459
+and you can open it up like this too. So
+
+67
+
+00:03:33,459  -->  00:03:42,040
+we can say top: it's going to be 20,
+
+68
+
+00:03:42,040  -->  00:03:46,150
+and that's it for now. You could create a
+
+69
+
+00:03:46,150  -->  00:03:48,459
+list of all of the different anchor
+
+70
+
+00:03:48,459  -->  00:03:58,420
+points.
+
+71
+
+00:03:58,420  -->  00:04:04,000
+Alright, I will have to check into
+
+72
+
+00:04:04,000  -->  00:04:06,250
+that. That worked maybe in an older version,
+
+73
+
+00:04:06,250  -->  00:04:09,040
+maybe I did it correctly. Unsupported
+
+74
+
+00:04:09,040  -->  00:04:17,290
+type "QQuickAnchorLine" does text not
+
+75
+
+00:04:17,290  -->  00:04:18,730
+have access to that? I don't think it
+
+76
+
+00:04:18,730  -->  00:04:19,389
+does.
+
+77
+
+00:04:19,389  -->  00:04:22,780
+You can also set padding though but for
+
+78
+
+00:04:22,780  -->  00:04:24,010
+right now we're just going to run this
+
+79
+
+00:04:24,010  -->  00:04:26,080
+application, we're going to center the
+
+80
+
+00:04:26,080  -->  00:04:34,120
+button as well. So you can see a list of
+
+81
+
+00:04:34,120  -->  00:04:37,479
+all of the members for the button
+
+82
+
+00:04:37,479  -->  00:04:42,010
+including what it will inherit from others. So,
+
+83
+
+00:04:42,010  -->  00:04:46,750
+clicked is a method here, we can use
+
+84
+
+00:04:46,750  -->  00:04:51,250
+anchors.bottom, bottomMargin, etc,
+
+85
+
+00:04:51,250  -->  00:04:57,490
+alignWhenCentered, horizontalCenter, etc. So,
+
+86
+
+00:04:57,490  -->  00:05:19,409
+what we're going to do at this point,
+
+87
+
+00:05:19,409  -->  00:05:22,709
+we're gonna make it do something...so
+
+88
+
+00:05:22,709  -->  00:05:23,729
+what we're going to do at this point is
+
+89
+
+00:05:23,729  -->  00:05:25,019
+we're going to make it do something when
+
+90
+
+00:05:25,019  -->  00:05:27,749
+we click it. So I'm going to quit the application
+
+91
+
+00:05:27,749  -->  00:05:31,499
+there, and then what we're going to do is
+
+92
+
+00:05:31,499  -->  00:05:35,519
+on clicked, I'm going to to open up some JavaScript here,
+
+93
+
+00:05:35,519  -->  00:05:39,779
+and we're going to set the main page
+
+94
+
+00:05:39,779  -->  00:05:42,419
+here so let me give the rectangle an id:
+
+95
+
+00:05:42,419  -->  00:05:49,889
+of myrectangle, and we're going to set
+
+96
+
+00:05:49,889  -->  00:06:03,959
+myrectangle.color = "#000" As
+
+97
+
+00:06:03,959  -->  00:06:06,929
+you can see it does that. Now what we can do
+
+98
+
+00:06:06,929  -->  00:06:10,860
+is we can say if my color is black, so
+
+99
+
+00:06:10,860  -->  00:06:21,479
+if(myrectangle.color == "#000")
+
+100
+
+00:06:21,479  -->  00:06:27,779
+we're going to actually turn it red.
+
+101
+
+00:06:27,779  -->  00:06:37,199
+Wow, my keyboard sucks today...else we're going to
+
+102
+
+00:06:37,199  -->  00:06:41,580
+turn it black.
+
+103
+
+00:06:41,580  -->  00:06:47,099
+Let's go ahead and save this, rerun the
+
+104
+
+00:06:47,099  -->  00:06:48,810
+application, we should now have a button
+
+105
+
+00:06:48,810  -->  00:06:53,430
+that works as a toggle...it doesn't. So
+
+106
+
+00:06:53,430  -->  00:06:59,400
+let's print out the console.log
+
+107
+
+00:06:59,400  -->  00:07:03,090
+(myrectangle.color) Let's see what color
+
+108
+
+00:07:03,090  -->  00:07:06,090
+were getting back from qml here.
+
+109
+
+00:07:06,090  -->  00:07:12,000
+Alright, so it actually takes you from
+
+110
+
+00:07:12,000  -->  00:07:17,969
+the shorthand into the standard right
+
+111
+
+00:07:17,969  -->  00:07:18,569
+there.
+
+112
+
+00:07:18,569  -->  00:07:25,080
+So if we push it and push it...
+
+113
+
+00:07:25,080  -->  00:07:27,060
+I'm setting colors not color.
+
+114
+
+00:07:27,060  -->  00:07:30,090
+Wow, okay, there we go.
+
+115
+
+00:07:30,090  -->  00:07:33,210
+Let's refresh and this should now work as a toggle
+
+116
+
+00:07:33,210  -->  00:07:37,469
+button, and it does. You can also set the
+
+117
+
+00:07:37,469  -->  00:07:39,210
+the color of the text as well if you
+
+118
+
+00:07:39,210  -->  00:07:51,460
+just add color going to set this to gray.
+
+119
+
+00:07:51,460  -->  00:08:05,569
+I need to put that in quotations. Alright,
+
+120
+
+00:08:05,569  -->  00:08:10,610
+start and there we go. Now you can see it no
+
+121
+
+00:08:10,610  -->  00:08:14,089
+matter what. We could also change how
+
+122
+
+00:08:14,089  -->  00:08:16,909
+that looks as well based on the
+
+123
+
+00:08:16,909  -->  00:08:18,919
+button click we could turn it white or black.
+
+124
+
+00:08:18,919  -->  00:08:20,869
+So we're not going to do that right now,
+
+125
+
+00:08:20,869  -->  00:08:22,729
+but you guys to see a bit of event
+
+126
+
+00:08:22,729  -->  00:08:25,129
+handling here embedded into each element
+
+127
+
+00:08:25,129  -->  00:08:28,699
+that you create, and also why the ids
+
+128
+
+00:08:28,699  -->  00:08:30,319
+come in handy, and how you can change
+
+129
+
+00:08:30,319  -->  00:08:37,599
+properties on the fly.

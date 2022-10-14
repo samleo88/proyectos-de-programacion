@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.180 --> 00:02.850
+Last but not least we have the border.
+
+00:02.970 --> 00:09.570
+And again if we're checking our image we notice that the border is going to be around our edge.
+
+00:09.570 --> 00:15.090
+So who's going to be able to control how the border of our element looks like we're going to head over
+
+00:15.090 --> 00:16.490
+back to our sources.
+
+00:16.710 --> 00:19.920
+And let's start with having one now for sharing one again.
+
+00:19.920 --> 00:25.990
+We just need to type the border and then we'll going to have multiple options to choose from what we
+
+00:25.990 --> 00:28.620
+are looking for first is going to be border style.
+
+00:29.010 --> 00:31.690
+So what kind of style of the border is going to be.
+
+00:31.690 --> 00:33.870
+I'm not going to cover all these options.
+
+00:33.870 --> 00:38.220
+It doesn't make sense in most cases you are going to go probably with something like south.
+
+00:38.850 --> 00:44.430
+But we are going to look at I believe dashed or dated just to give you a kind of a taste of a different
+
+00:44.430 --> 00:45.150
+border.
+
+00:45.180 --> 00:48.760
+So first we're going to go with style and what kind of style of the border.
+
+00:48.770 --> 00:52.140
+This is going to be then the moment we're going to save it.
+
+00:52.140 --> 00:57.910
+Notice that I'm getting right now my solid border all around my own blossom.
+
+00:57.930 --> 01:03.420
+Everything is working fine and then we're going to be looking for the border and the property here is
+
+01:03.420 --> 01:04.020
+going to be with.
+
+01:04.590 --> 01:06.810
+So what would be the width of that border.
+
+01:06.930 --> 01:09.270
+Again we can use our yams.
+
+01:09.270 --> 01:11.460
+We can use the pixels.
+
+01:11.460 --> 01:18.270
+And I'm just gonna go with pixels and let's say I don't know ten pixels should cover.
+
+01:18.540 --> 01:26.130
+I have a black beautiful border around my head in one and probably the last one what I would like to
+
+01:26.130 --> 01:32.230
+show you is the fact of not only style not only with but we can change the color.
+
+01:32.800 --> 01:36.820
+I would say border color and then what we're looking for.
+
+01:36.900 --> 01:38.840
+Again we can use our G.B..
+
+01:38.910 --> 01:42.860
+We can use our GBI could use hex colors.
+
+01:42.870 --> 01:48.700
+We can use the Net color names whatever whatever you would like whatever your heart desires.
+
+01:48.720 --> 01:50.700
+In my case I'm gonna go with I don't know.
+
+01:50.700 --> 01:54.990
+Something like pink just so we can see better what's happening.
+
+01:54.990 --> 02:01.310
+And I think that is the best case because it's kind of bright let me do the yellow on which obviously
+
+02:01.310 --> 02:03.120
+also doesn't really work.
+
+02:03.130 --> 02:04.240
+I mean something.
+
+02:04.340 --> 02:04.930
+OK.
+
+02:04.970 --> 02:07.120
+The green one is going to work fine enough.
+
+02:07.120 --> 02:09.110
+One of those is gonna have this all around.
+
+02:09.300 --> 02:10.060
+Awesome.
+
+02:10.520 --> 02:11.390
+What we have next.
+
+02:11.750 --> 02:18.410
+Well next we would like to cover what happens if I don't want to type this just like this where each
+
+02:18.410 --> 02:21.750
+and every time I have the property done I look for value.
+
+02:21.830 --> 02:26.030
+So if we know already with padding and margin we have the shortcuts.
+
+02:26.030 --> 02:28.700
+What do you think that I'm trying to show you right now.
+
+02:28.730 --> 02:34.430
+I think you would probably guessing that there is some kind of a shorter version how we can write and
+
+02:34.550 --> 02:40.610
+sure enough there is no way we're going to write this we're going to save water and then the actual
+
+02:40.640 --> 02:42.470
+syntax here matters.
+
+02:42.470 --> 02:44.490
+So the order will gonna matter.
+
+02:44.510 --> 02:47.590
+So first we're gonna be looking for the width of the border.
+
+02:47.960 --> 02:52.490
+So let's say in my case we're gonna go with I don't know 10 pixels but you know let's change it.
+
+02:52.490 --> 02:56.140
+Otherwise you're gonna think that all the borders have to be ten pixels.
+
+02:56.240 --> 03:00.410
+So first is going to be the with that and we're gonna be looking for what kind of borders this is gonna
+
+03:00.410 --> 03:00.910
+be.
+
+03:00.920 --> 03:04.900
+So in our case this has been resolved and now we're looking for the color.
+
+03:04.990 --> 03:06.140
+Now what would be the color.
+
+03:06.500 --> 03:06.860
+I don't know.
+
+03:06.860 --> 03:09.950
+Let's try maybe a yellow one here.
+
+03:09.950 --> 03:11.110
+Let's say yellow.
+
+03:11.360 --> 03:12.080
+Excellent.
+
+03:12.080 --> 03:16.140
+We have our border and we didn't have to use all the property.
+
+03:16.240 --> 03:21.020
+Now there's also the option of let's say you don't want Borel around you're like looking at it in your
+
+03:21.020 --> 03:21.790
+listing.
+
+03:21.830 --> 03:26.750
+Well I have this specific element where I don't want the border all around how it can do this.
+
+03:26.750 --> 03:30.790
+Why he's just showing me all the options of all around the border.
+
+03:30.890 --> 03:37.940
+I mean no fear we can do that also to come and this out just so you can have the reference all three
+
+03:37.940 --> 03:39.370
+of them in the moment.
+
+03:39.380 --> 03:40.170
+I say it.
+
+03:40.180 --> 03:41.480
+Obviously there's no more.
+
+03:41.510 --> 03:43.910
+But we have the other options.
+
+03:43.910 --> 03:50.360
+And again I'm not gonna show you for each and every side but we can maybe test it out with let's say
+
+03:50.360 --> 03:52.440
+bottom let's red border.
+
+03:52.550 --> 03:53.770
+Now what we're looking for.
+
+03:53.780 --> 03:57.020
+Well we're looking for border and then the side we would like to stop.
+
+03:57.660 --> 04:03.500
+Let's say we're looking for border bottom style like I promised before we were going to look at different
+
+04:03.500 --> 04:04.230
+options.
+
+04:04.340 --> 04:06.140
+So let's go with dashed.
+
+04:06.140 --> 04:07.990
+Let's see how that is going to work out.
+
+04:08.030 --> 04:15.200
+Then we also have a thing for with so let's red border and you probably get the gist already bottom
+
+04:15.800 --> 04:22.070
+then the West is gonna be I don't know five pixels hopefully you're gonna be able to see and border
+
+04:22.310 --> 04:24.710
+bottom with or bottom color.
+
+04:24.860 --> 04:28.120
+Let's try hashtag let's say hashtag.
+
+04:28.310 --> 04:28.700
+I don't know.
+
+04:28.700 --> 04:29.640
+2 2 2.
+
+04:29.900 --> 04:31.640
+Let's see how this is gonna work out.
+
+04:31.780 --> 04:35.250
+And you and I have my nice dashboard.
+
+04:35.540 --> 04:38.200
+Now that is easy it says Box model.
+
+04:38.290 --> 04:43.730
+Again this is gonna be very important because you will gonna use it a lot whether it is for layout whether
+
+04:43.730 --> 04:49.640
+this is just gonna be for styling so if you're maybe not comfortable with some of these properties here
+
+04:50.330 --> 04:55.720
+maybe again rewind the videos practice a little bit more because you will gonna use this a lot.

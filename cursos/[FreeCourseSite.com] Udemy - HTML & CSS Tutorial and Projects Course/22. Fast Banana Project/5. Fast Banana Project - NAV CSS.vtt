@@ -1,0 +1,469 @@
+WEBVTT
+
+00:00.140 --> 00:06.180
+Announce that we are in a sea of stress the first thing that we want to do is we will want to apply
+
+00:06.330 --> 00:14.330
+more here to all the elements that we're going to have a padding zero margins here like this.
+
+00:14.500 --> 00:16.840
+Then after that we're going to target a body.
+
+00:17.100 --> 00:22.440
+So we're going to say Behati and for the whole body we're still going to do a background and we're going
+
+00:22.440 --> 00:24.440
+to do this whitish color.
+
+00:24.450 --> 00:26.760
+Here is a background.
+
+00:27.150 --> 00:27.740
+All right.
+
+00:27.750 --> 00:33.680
+Hash tag EF 5 EF 3 5 0 here.
+
+00:33.810 --> 00:36.740
+Then after that we would want actual fun family.
+
+00:36.960 --> 00:37.330
+Right.
+
+00:37.350 --> 00:42.200
+Because you can see or hear read I do have the Google font.
+
+00:42.200 --> 00:42.800
+Right.
+
+00:42.840 --> 00:44.020
+The robot on.
+
+00:44.170 --> 00:48.410
+However you can see over here that I haven't actually included them right.
+
+00:48.450 --> 00:51.810
+So here I'm going to say font family here.
+
+00:52.000 --> 00:55.090
+They're all going to place here in quotation marks.
+
+00:55.090 --> 00:58.860
+Are going to write a robot go like this.
+
+00:58.880 --> 01:00.080
+We're going to place a comma.
+
+01:00.180 --> 01:03.710
+This is going to be Sounds sort of like this.
+
+01:03.820 --> 01:05.370
+Now we have the fonts.
+
+01:05.400 --> 01:08.940
+The next one would want to hear this on our list.
+
+01:08.940 --> 01:09.520
+All right.
+
+01:09.590 --> 01:14.080
+I actually want to get rid of these annoying little dots right.
+
+01:14.080 --> 01:16.740
+That usually comes with Wunderlist.
+
+01:16.740 --> 01:21.810
+Now you can see them right now because we got the margins and paddings but believe me they're still
+
+01:21.810 --> 01:22.620
+there.
+
+01:22.620 --> 01:27.460
+So here's what I'm going to say is going to be Nav. here on her list.
+
+01:27.530 --> 01:28.290
+All right.
+
+01:28.320 --> 01:31.290
+This is going to be a list style type.
+
+01:31.290 --> 01:33.970
+None right now no more now.
+
+01:34.010 --> 01:35.880
+Well now we don't have them right now.
+
+01:35.900 --> 01:41.460
+We got rid of those bullet points and then we're actually right away going to head or here and start
+
+01:41.460 --> 01:42.830
+working with these links.
+
+01:43.110 --> 01:49.080
+So I'm going to say we're here now have an ordered list please turn them on here.
+
+01:49.180 --> 01:51.920
+And this is going to be like what I would want.
+
+01:52.060 --> 01:54.450
+First I'm going to set text decoration.
+
+01:54.620 --> 01:55.590
+I'm going to say none.
+
+01:55.690 --> 01:56.240
+Right.
+
+01:56.300 --> 02:01.550
+So this is going to get rid of all of this there then after that we're going to see this play block
+
+02:02.140 --> 02:02.680
+here.
+
+02:02.900 --> 02:08.150
+And the reason for this playbook is because first of all we would want them to actually take the whole
+
+02:08.150 --> 02:09.230
+space.
+
+02:09.320 --> 02:14.810
+You know there's an alternate would want as we're actually hovering right you can see that as I'm hovering
+
+02:14.810 --> 02:17.360
+right this is still a link.
+
+02:17.420 --> 02:22.960
+So before that there were actually only one or you are just hovering over the actual text.
+
+02:22.980 --> 02:26.520
+Right now if I'm hovering anywhere this is going to work.
+
+02:26.870 --> 02:32.210
+Then once we have the display block we're going to have a caller and we're going to use the car.
+
+02:32.350 --> 02:40.190
+So I'm going to say F F C and this is going to be 9 1 for it and our get real color.
+
+02:40.340 --> 02:46.380
+Then after that we would want a background for background we're going to go with a black one is going
+
+02:46.430 --> 02:49.710
+to be too easy to not.
+
+02:49.760 --> 02:54.800
+After that we're going to have eight to eight to nobody.
+
+02:55.430 --> 02:58.640
+So you can see this is going to be our black background.
+
+02:58.640 --> 03:02.520
+And after that I would want a transition and font size.
+
+03:02.780 --> 03:09.990
+So we're going to say we're here font size and this is going to be 20 pixels like this.
+
+03:10.280 --> 03:17.170
+And then we're going to have a transition no real transition we're going to say or hair color and background.
+
+03:17.420 --> 03:24.800
+And basically what I'm saying is that I'm going to be adding one more over here a rule right as when
+
+03:24.800 --> 03:26.290
+I'm actually hovering right.
+
+03:26.660 --> 03:29.970
+But as I'm hovering I actually don't want it to happen right away.
+
+03:30.050 --> 03:32.250
+I don't want it to happen right away instantly.
+
+03:32.420 --> 03:35.830
+Therefore I'm going to be using that transition property right.
+
+03:35.840 --> 03:37.460
+And here I need to set the out.
+
+03:37.620 --> 03:43.340
+So first I'm going to say that AOD which properties I would want to affect my so I'm going to say first
+
+03:43.370 --> 03:46.710
+caller I'm going to say two seconds.
+
+03:46.740 --> 03:49.070
+He's on this.
+
+03:49.130 --> 03:56.810
+I went over to say two seconds we're going to say he's right and easy basically means how this transition
+
+03:56.810 --> 03:57.720
+is going to happen right.
+
+03:57.740 --> 04:04.040
+Whether it's going to start fast run fast and ease in out usually is a default All right.
+
+04:04.130 --> 04:09.680
+So we can just say ease ease in out here.
+
+04:09.680 --> 04:10.510
+That's right.
+
+04:10.550 --> 04:11.380
+Easy now.
+
+04:11.420 --> 04:12.480
+Or we can just write.
+
+04:12.550 --> 04:14.060
+It doesn't really matter.
+
+04:14.090 --> 04:18.100
+And on here we can have a background we say background.
+
+04:18.350 --> 04:19.990
+That's going to be the second property.
+
+04:20.060 --> 04:22.240
+And again we're going to do two seconds here.
+
+04:22.430 --> 04:27.430
+So basically what I'm saying here is how do one effect this property.
+
+04:27.590 --> 04:30.840
+I would want Actually this transition to take two seconds.
+
+04:31.060 --> 04:36.140
+And usually the reason why I like to have my transition is happening two seconds because I like to actually
+
+04:36.140 --> 04:41.240
+show you that it's working right now and is probably going to do something like this right.
+
+04:41.300 --> 04:43.340
+You're going to do something like 0.4.
+
+04:43.420 --> 04:46.100
+We're going to stick with you here on this.
+
+04:46.400 --> 04:49.370
+And then after that want actual properties right.
+
+04:49.440 --> 04:52.410
+And before we do that actually I forgot a parting.
+
+04:52.630 --> 04:56.350
+So I'm going to say all right padding and I'm going to say 10 pixels really.
+
+04:56.470 --> 04:57.150
+Right.
+
+04:57.230 --> 05:04.970
+So we added element of padding then on here we're going to say now I have have this and you can see
+
+05:04.970 --> 05:14.570
+that the reason my typing is extremely well on my list is I heard him say an hour or hour when magically
+
+05:14.570 --> 05:19.180
+what I'm going to say right now I'm going to say color how I'm going to flip them around.
+
+05:19.280 --> 05:23.540
+I'm going to say whatever was Blagrove core is going to be the actual font color.
+
+05:23.760 --> 05:26.150
+And so I'm going to say copy color.
+
+05:26.450 --> 05:29.240
+And here we're going to say background is going to be up.
+
+05:29.430 --> 05:32.910
+It's are going to say Magro over here and we're going to use this.
+
+05:33.110 --> 05:40.490
+Right now you can see that where I'm getting this transition robery from right that basically with transition
+
+05:40.490 --> 05:45.670
+I'm saying which properties I would want to affect and transition is going to be what I'm wearing right.
+
+05:45.680 --> 05:49.000
+And these are these are going to be the values that are going to be changing.
+
+05:49.100 --> 05:55.160
+So if I save this one in here and actually start hovering all right you can see that transitions are
+
+05:55.160 --> 05:56.980
+happening actually over time.
+
+05:57.150 --> 05:57.510
+Right.
+
+05:57.630 --> 06:03.420
+Not right away as they just hover and right away it turns actually yellow and the text is black red.
+
+06:03.590 --> 06:06.370
+So this kind of gives it a little bit nicer.
+
+06:06.710 --> 06:12.650
+And once we're done with hovering Let's actually focus over here on this log or here it is going to.
+
+06:12.970 --> 06:19.010
+And what we are going to do here is going to find where it is when you say this is going to be nav.
+
+06:19.290 --> 06:23.470
+And this is going to be a long go down here are going to say first of all background.
+
+06:23.500 --> 06:23.920
+All right.
+
+06:23.960 --> 06:28.770
+And again we're going to use a yellow F F C here.
+
+06:28.790 --> 06:32.210
+This is going to be nine one for this one.
+
+06:32.210 --> 06:34.200
+So again we're going to do the opposite.
+
+06:34.220 --> 06:35.030
+This one was black.
+
+06:35.030 --> 06:36.230
+This is going to be.
+
+06:36.530 --> 06:44.290
+Then after that we would want a padding right padding around say 10 pixels like this.
+
+06:44.300 --> 06:48.710
+And over here we would actually want to start using the flex box properly.
+
+06:48.740 --> 06:49.140
+Right.
+
+06:49.310 --> 06:55.310
+You can see or hear these two items right now logo is the parent for both of them right.
+
+06:55.370 --> 07:01.370
+And if I'm going to write on here display when I say flex I can see first of all this got moved all
+
+07:01.370 --> 07:02.310
+the way to the top.
+
+07:02.480 --> 07:04.330
+But you can see that something changed right.
+
+07:04.340 --> 07:06.730
+We actually applied already a flex box.
+
+07:06.950 --> 07:12.920
+And after that we're going to say justify content and just content between when this is going to be
+
+07:12.920 --> 07:19.850
+content and spaces between what I'm saying you know what just push them as far as way you can from each
+
+07:19.850 --> 07:20.930
+other.
+
+07:21.220 --> 07:25.630
+And then after that let's work with this guy let's work with a fantastic Maika.
+
+07:26.050 --> 07:29.700
+We're going to say a lot now logo.
+
+07:29.810 --> 07:36.290
+Basically I want a class right now that I would want a font or some one like this and then I'm going
+
+07:36.290 --> 07:41.990
+to say first of all that I would want to place it in the center I'm going to use a Lexmark so I'm going
+
+07:41.990 --> 07:43.410
+to say align itself.
+
+07:43.580 --> 07:46.170
+I'm going to say Center or here right.
+
+07:46.300 --> 07:50.140
+So now I can see right away it sits directly center over here.
+
+07:50.270 --> 07:53.020
+Then after that we would want additional padding.
+
+07:53.120 --> 07:57.180
+So I'm going to say padding and I'm going to say 10 pixels on this.
+
+07:57.500 --> 07:59.660
+So now there's padding around.
+
+07:59.900 --> 08:06.760
+And then after that will want a font size and say 25 pixels so the font got bigger.
+
+08:07.010 --> 08:11.780
+And after that you're going to have a cursor and I we are going to use pointer right.
+
+08:11.780 --> 08:19.610
+So basically what's happening is as I'm going over here this icon right as I'm hovering right you can
+
+08:19.610 --> 08:25.850
+see that cursor is going to be changing and this is going to be it for a mobile you.
+
+08:25.930 --> 08:31.880
+Right next what we would want to do is actually start applying the media equerries.
+
+08:32.090 --> 08:34.630
+So this wouldn't be actually responsive.
+
+08:34.750 --> 08:34.970
+Right.
+
+08:34.970 --> 08:36.890
+So once we got to the bigger screen right.
+
+08:37.040 --> 08:39.200
+This is not going to stay the same.
+
+08:39.260 --> 08:41.590
+So I'm going to save this one here like this.
+
+08:41.600 --> 08:46.160
+And what we're going to do here we're going to check it out how this looks like.
+
+08:46.400 --> 08:50.920
+So again we're going to minimize this open up frozen banana.
+
+08:51.420 --> 08:52.650
+We're like this.
+
+08:52.650 --> 08:54.330
+I mean I can see that this guy right.
+
+08:54.410 --> 08:59.900
+Our index or you know this this actually is going to be all over it too.
+
+08:59.930 --> 09:01.280
+You can see where are right.
+
+09:01.310 --> 09:02.360
+So doesn't matter.
+
+09:02.380 --> 09:05.150
+And the screen says this is going to be appearing like this.
+
+09:05.150 --> 09:05.790
+Right.
+
+09:05.810 --> 09:11.110
+And you can see also that we still haven't applied any kind of actual inquiry.
+
+09:11.120 --> 09:11.570
+Right.
+
+09:11.720 --> 09:13.620
+So this would actually fold.
+
+09:13.760 --> 09:13.970
+Right.
+
+09:13.970 --> 09:19.080
+So this business right now is not working we can click all we want doesn't really change.
+
+09:19.250 --> 09:20.810
+So let's go to this.
+
+09:20.990 --> 09:24.500
+And let's actually start applying the responsiveness.

@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.480 --> 00:06.910
+Well we're still on the topic of display property eventually inevitably as you're working with CSX.
+
+00:06.960 --> 00:13.830
+You're gonna come across the opacity property as well as visibility and you're gonna see the value for
+
+00:13.860 --> 00:15.870
+display property set or not.
+
+00:15.900 --> 00:20.760
+So why don't we cover all these properties with these values just so we can see the difference.
+
+00:21.030 --> 00:26.570
+Now within the annexation AML we will going to create three new divs and we're going to say there's
+
+00:26.580 --> 00:30.030
+going to be div on the first one is going to have a class of none.
+
+00:30.030 --> 00:32.870
+So we're going to look at the class of none and let's.
+
+00:32.910 --> 00:33.690
+I don't know.
+
+00:33.690 --> 00:34.080
+Right.
+
+00:34.080 --> 00:37.300
+Also might be the name here and let's copy and paste it.
+
+00:37.340 --> 00:41.890
+Now once we copy and paste that I would like to select both of them and let's write here.
+
+00:42.150 --> 00:46.990
+Sorry here is gonna be equal to one so that's gonna be my class name as well as the value.
+
+00:47.250 --> 00:50.940
+And as always you'll see why we're doing that just in a second.
+
+00:51.000 --> 00:51.720
+And let's.
+
+00:51.720 --> 00:58.260
+Right over here opacity is gonna be I don't know five and this is gonna be basically opacity of zero
+
+00:58.260 --> 01:02.760
+point five and then the last one is gonna be opacity with zero.
+
+01:02.760 --> 01:06.220
+So let me like this and now this is gonna be my opacity with you.
+
+01:06.780 --> 01:09.590
+I also would like to have the div and you know what.
+
+01:09.600 --> 01:14.850
+Might as well copy and paste it and let's set this up with a hidden so you know what.
+
+01:14.860 --> 01:17.900
+No not give this a class of visibility.
+
+01:18.300 --> 01:22.440
+So the name is also gonna be visibility but the value is going to be here.
+
+01:22.920 --> 01:26.740
+So visibility hopefully I'm typing this correctly.
+
+01:26.760 --> 01:30.400
+Now let me say what this is gonna be my device now for each and every div.
+
+01:30.420 --> 01:37.640
+But again add as always some general styles let's say there is gonna have some background background
+
+01:37.640 --> 01:42.760
+there's going gonna be below there is gonna be a little of of margin all around so I'm going to say
+
+01:42.790 --> 01:48.090
+I don't know a little bit of margin of like let's say 10 pixels and read off the margin why don't we
+
+01:48.090 --> 01:50.170
+add some coloring as well.
+
+01:50.410 --> 01:52.450
+Let's write that color is gonna be white.
+
+01:53.050 --> 01:55.530
+So what's happening right now with these properties.
+
+01:55.570 --> 01:58.250
+Now we have the classes so I can say none.
+
+01:58.360 --> 02:01.310
+And here I would like to start using by display.
+
+02:01.420 --> 02:04.830
+Now this is not going to be display block the inline block or in line.
+
+02:05.000 --> 02:06.640
+Instead we're going to set this up within.
+
+02:07.090 --> 02:13.210
+And now let me first add all of them with opacity ease and with visibilities and then I'm gonna go over
+
+02:13.210 --> 02:17.010
+to the actual developer tools and then we'll see kind of the differences.
+
+02:17.050 --> 02:23.020
+So for now what we're saying is that we're the class of none and display of none we cannot see the element
+
+02:23.180 --> 02:24.400
+and that is true.
+
+02:24.400 --> 02:25.930
+Now what other options we're going to have.
+
+02:25.950 --> 02:34.060
+Well we had I believe opacity This is gonna be equal to a actual opacity property and opacity properties
+
+02:34.090 --> 02:38.370
+gonna do something very similar where this is gonna control the visibility.
+
+02:38.370 --> 02:43.320
+Now the max value is gonna be one which is gonna be by default right away displayed.
+
+02:43.540 --> 02:49.390
+And then we have an option of zero which is gonna make sure that the actual class does not display meaning
+
+02:49.390 --> 02:55.120
+the element or whatever but where since we're using the class to selected the one that has the zero
+
+02:55.380 --> 02:56.690
+it is not going to be displayed.
+
+02:57.070 --> 02:59.990
+Now in this case obviously I need to select the proper one.
+
+03:00.040 --> 03:07.300
+So if my class was zero notice I'm having a right away the div however we cannot see it because this
+
+03:07.300 --> 03:11.340
+is where again we're working with these values where opacity is changing.
+
+03:11.340 --> 03:16.510
+Now if you remember it was something very similar as we're working with the colors where we're using
+
+03:16.510 --> 03:18.730
+the RGA value.
+
+03:18.730 --> 03:25.120
+Remember we had color and then the last value in our GPA was the transparency or the capacity.
+
+03:25.150 --> 03:31.020
+So the same thing is working here just with the whole div where by default all the capacities are going
+
+03:31.020 --> 03:31.920
+to be one.
+
+03:31.960 --> 03:35.470
+And that's why we don't need to write it and we can see it clearly like this.
+
+03:35.500 --> 03:41.150
+However if we change it to zero which would be the minimum value then we cannot see the deal anymore.
+
+03:41.260 --> 03:45.710
+And also I'm going to have the value of five which is gonna be zero five.
+
+03:46.090 --> 03:50.050
+Now I'm not going to cover each and every value between 0 and 1.
+
+03:50.170 --> 03:56.110
+Just understand that we are just using right now around values because they just make a little bit more
+
+03:56.110 --> 03:56.760
+sense.
+
+03:56.860 --> 04:02.800
+But if I'm gonna say zero point five the opacity the transparency of this div is gonna be like this.
+
+04:02.830 --> 04:09.100
+So it's gonna be somewhere between the middle of totally hidden element as well as totally clear elements
+
+04:09.160 --> 04:11.240
+because we're going to have the transparency of far.
+
+04:11.500 --> 04:18.160
+Now if I'm gonna change this to zero point seventy four then my APS opacity goes bigger because it goes
+
+04:18.160 --> 04:23.590
+towards one meaning I am less transparent if I'm gonna go with zero point twenty five.
+
+04:23.980 --> 04:29.370
+Then the element is gonna be way more transparent because we're closer to 1.
+
+04:29.440 --> 04:35.070
+So you're bouncing in between these two values 0 and 1 and whatever value you're picking in our case
+
+04:35.100 --> 04:38.830
+zero point five then the transparency is gonna be like this.
+
+04:38.890 --> 04:46.210
+Now last but not least we have here also the visibility and for this we had the class is the ability
+
+04:46.600 --> 04:49.350
+and we're gonna go with visibility properly.
+
+04:49.380 --> 04:55.180
+And notice what's happens with visibility we have an option of hearing or I can head over here.
+
+04:55.180 --> 05:00.820
+And again we can have these hidden more visible now visible again is gonna be by default because all
+
+05:00.820 --> 05:04.010
+the elements are going to be shown by default.
+
+05:04.120 --> 05:09.940
+But if you would want to have hidden then we're gonna have them now maybe in order to kind of see what's
+
+05:09.940 --> 05:10.890
+happening.
+
+05:10.960 --> 05:15.640
+Like I said it's gonna be better if we're gonna go to developer tools just to see how everything is
+
+05:15.640 --> 05:18.940
+working now which we're gonna head over here to inspect.
+
+05:19.120 --> 05:24.460
+We see that there is gonna be my elements and maybe I can make this a little bit bigger then within
+
+05:24.460 --> 05:25.780
+the body notice what's going to happen.
+
+05:26.320 --> 05:33.790
+So we're gonna have my own display of not then I have my own positive one as well as here we're working
+
+05:33.790 --> 05:35.970
+with opacity of zero point five.
+
+05:36.160 --> 05:40.580
+And then I have the capacity of zero as well as I have my visibility.
+
+05:40.690 --> 05:45.520
+Now what would be the key difference you see has we're working with display of none.
+
+05:45.580 --> 05:50.100
+This is taken out out of the floor so we cannot even see it here.
+
+05:50.110 --> 05:56.110
+However as I'm hovering over the opacity I see that there is an element so the element is there we just
+
+05:56.110 --> 05:58.240
+cannot see it right now in the browser.
+
+05:58.360 --> 06:00.150
+How will we display none.
+
+06:00.160 --> 06:03.500
+We're taking totally out of the flow of our document.
+
+06:03.520 --> 06:09.040
+So even though I can see it technically that it is in the entrance email I cannot hover over it.
+
+06:09.130 --> 06:10.240
+I cannot select it.
+
+06:10.270 --> 06:14.060
+I cannot see it more in more detail hole with opacity.
+
+06:14.060 --> 06:16.550
+Only thing we're doing has was visibility.
+
+06:16.570 --> 06:18.040
+We're hiding that element.
+
+06:18.100 --> 06:21.780
+We're not taking out out of the normal flow of the document.
+
+06:21.790 --> 06:23.400
+So those would be the key differences.
+
+06:23.590 --> 06:27.220
+If you want to totally get rid of the element you would use display of none.
+
+06:27.220 --> 06:30.670
+So maybe head over let's back we have the display of none.
+
+06:30.670 --> 06:37.170
+That would totally take it out of the forward document if you would want to let's say changed the opacity
+
+06:37.440 --> 06:42.540
+changed the transparency you would use the opacity and choose some kind of value between 0 and 1.
+
+06:42.720 --> 06:46.640
+And if you just want to hide it you would say visibility have hidden.
+
+06:46.650 --> 06:51.150
+So those are the properties those are the values and that is in general how we would use them.

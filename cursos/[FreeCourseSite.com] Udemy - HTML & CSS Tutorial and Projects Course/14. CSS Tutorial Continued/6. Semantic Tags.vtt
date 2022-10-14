@@ -1,0 +1,214 @@
+WEBVTT
+
+00:00.240 --> 00:01.040
+Excellent.
+
+00:01.050 --> 00:04.190
+Our next topic is semantic age the AMA.
+
+00:04.670 --> 00:05.070
+OK.
+
+00:05.140 --> 00:06.660
+What does that mean.
+
+00:06.660 --> 00:12.800
+Well in general that means that you use specific elements to structure your content instead of Dave.
+
+00:12.830 --> 00:19.860
+This Dave dad's band this band that usually email semantic tags are no different than regular tags.
+
+00:19.980 --> 00:22.240
+Their syntax remains the same.
+
+00:22.320 --> 00:28.770
+We can still add classes we can still add ideas to them and we can style them from the CSA as using
+
+00:28.770 --> 00:29.900
+the elements selectors.
+
+00:30.360 --> 00:38.400
+However they do provide us with a structure and their content gives a browser idea of what to do and
+
+00:38.400 --> 00:39.240
+how to do it.
+
+00:39.630 --> 00:46.770
+Using semantic tags also improves your site's accessibility for let's say a screen readers and keyboard
+
+00:46.770 --> 00:48.030
+navigation.
+
+00:48.030 --> 00:53.730
+I would suggest though not to get too worked up about it because you have more important things to worry
+
+00:53.730 --> 00:54.470
+about.
+
+00:54.570 --> 00:57.150
+And since using them will seem natural.
+
+00:57.150 --> 00:58.900
+The more projects you are gonna build anyway.
+
+00:59.490 --> 01:03.890
+Okay so how do we can start working with HCM all semantic tags.
+
+01:03.960 --> 01:07.610
+First of all I guess we're going to get rid of everything that we have to.
+
+01:07.950 --> 01:14.860
+Then we're also gonna head over to in their session email and kind of give you an idea how before age
+
+01:14.860 --> 01:20.030
+the AML semantic tags came along we were writing the email and CFS.
+
+01:20.170 --> 01:23.450
+Let's say we had some kind of NAV so we wrote here Dave.
+
+01:23.620 --> 01:26.200
+Then they have a class of NAV.
+
+01:26.200 --> 01:28.960
+So within the NAV we placed everything that we had in.
+
+01:29.530 --> 01:33.150
+Now again I'm just going to use three dots to give you an idea.
+
+01:33.370 --> 01:39.280
+Then let's say you had some kind of a header and you had a div and class and then here were writing
+
+01:39.280 --> 01:41.560
+the banner and so on so forth.
+
+01:41.590 --> 01:47.800
+So again we can write Dave class and let's say this is gonna be four and hopefully you understand the
+
+01:47.790 --> 01:48.340
+idea.
+
+01:48.820 --> 01:54.880
+While this is technically Okay first of all it doesn't structure anything in your content you're just
+
+01:54.880 --> 01:59.360
+looking at 10000 deaths and that doesn't really make sense as well.
+
+01:59.370 --> 02:03.920
+It doesn't tell you the browsers anything what is happening within your content.
+
+02:04.030 --> 02:09.940
+And like I said also the accessibility is an issue because screen readers are not going to differentiate
+
+02:09.940 --> 02:12.790
+between them now what would be the solution.
+
+02:12.800 --> 02:19.480
+First of all let me say the styles here and we will gonna be looking at very general examples because
+
+02:19.480 --> 02:24.520
+like I said as we're working with the projects we all gonna be using those elements and it's not like
+
+02:24.550 --> 02:29.040
+just because we're at the element our site is gonna break or anything like that.
+
+02:29.170 --> 02:35.200
+Like I said also before I wouldn't really worry about it too much anyway right now because the more
+
+02:35.200 --> 02:39.610
+projects you're going to build the more semantic tags you're going to use the more you're going to remember
+
+02:39.610 --> 02:43.510
+them understand them and life is gonna be easier for you.
+
+02:43.510 --> 02:47.740
+Okay so we're all going to be looking we can just say Monty.
+
+02:48.100 --> 02:54.940
+It's not semantics semantic age the amount we can maybe try this one and they pretty much spit you back
+
+02:55.030 --> 02:57.460
+everything that there is about semantic.
+
+02:57.490 --> 03:03.070
+First maybe we can look at the images and the general idea would be like this where for the header and
+
+03:03.160 --> 03:08.410
+let's say we're going to be use the header element and we're gonna want an element then section section
+
+03:08.410 --> 03:10.370
+is gonna represent some kind of code.
+
+03:10.510 --> 03:15.660
+Then let's say a side and the footer and what's happening again we can add ideas to this.
+
+03:15.670 --> 03:17.870
+We can have the classes for this.
+
+03:17.950 --> 03:23.900
+We can place the content here and just because you add this h the email tag your h the email or CSA
+
+03:24.030 --> 03:25.210
+is not going to break.
+
+03:25.340 --> 03:28.520
+It's just gonna give you a structure where you're looking at your like Okay.
+
+03:28.750 --> 03:31.000
+So this is gonna be my header where I'm going to have the header.
+
+03:31.030 --> 03:31.350
+Okay.
+
+03:31.360 --> 03:35.410
+So this is gonna be my now and the same way the browser is gonna work.
+
+03:35.710 --> 03:39.740
+And the screen readers will understand what is happening now.
+
+03:39.760 --> 03:45.340
+Like I said we will gonna be covering this way more in the project because we're just gonna use them.
+
+03:45.370 --> 03:49.940
+So that's the best way how to actually cover this is just to use those elements.
+
+03:49.960 --> 03:55.960
+Now if you do want to research more again you can go to W3 three schools where they again explain everything
+
+03:55.960 --> 03:58.360
+what is happening and why would you use them.
+
+03:58.360 --> 04:03.850
+I will gonna do my explanations as we're working with the project because this is just makes more sense
+
+04:04.270 --> 04:08.250
+and in general the idea what we are simple will just go with some kind of header.
+
+04:08.260 --> 04:13.000
+Then there's going to be footer and then everything else I'm going to be structuring within the sections
+
+04:13.480 --> 04:17.710
+and then within the section let's say if I would want something separate we'll just gonna.
+
+04:17.920 --> 04:20.270
+I don't know setup the article or something like this.
+
+04:20.380 --> 04:27.250
+We can place the NAV within the header we can use the header within the section there is you know you
+
+04:27.250 --> 04:28.710
+can have multiple options.
+
+04:28.750 --> 04:35.380
+It's not has a rigid as you think right now just because you learned about them doesn't mean that it's
+
+04:35.380 --> 04:37.300
+exactly how you need to use them.
+
+04:37.300 --> 04:42.450
+Yeah there's some general ideas behind them you probably wouldn't want to put the footer whereas the
+
+04:42.450 --> 04:42.900
+header.
+
+04:43.350 --> 04:48.260
+But again if I would be you I really wouldn't lose too much sleep about it.

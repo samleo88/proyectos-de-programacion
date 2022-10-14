@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.240 --> 00:05.520
+In the previous video I mentioned that we will going to cover the bulk sizing and we're going gonna
+
+00:05.520 --> 00:12.390
+make it actually with an example because like always and I know I keep repeating this but it makes much
+
+00:12.390 --> 00:19.230
+more sense if we're looking actually at the example now what we would like to do here I guess again
+
+00:19.230 --> 00:20.530
+for the whole CEO.
+
+00:20.850 --> 00:23.190
+I'm just gonna delete this.
+
+00:23.190 --> 00:27.600
+We're also gonna go to the next page CML I'm going to say we're not going to need these on our list
+
+00:27.990 --> 00:30.720
+but instead we're going to create a device.
+
+00:30.750 --> 00:34.560
+In fact there's going to be three days or the day of let's say first box.
+
+00:34.560 --> 00:40.680
+No one is going to be in class and let's write here with a hearing one simple text.
+
+00:40.680 --> 00:48.630
+I am with I am with border box water box.
+
+00:48.870 --> 00:50.220
+Then the next one.
+
+00:50.280 --> 00:53.880
+Let me just copy and paste it and let's copy and paste it two times.
+
+00:53.880 --> 00:55.550
+So the second day is out.
+
+00:55.570 --> 01:00.450
+They're going to be with box of number two and the third one is gonna be with a box of three.
+
+01:00.450 --> 01:03.060
+And again we'll just use this for styling here.
+
+01:03.060 --> 01:07.050
+Let's just say I'm normal I am normal.
+
+01:07.270 --> 01:14.260
+And then for the third one let's write I am without water box and we're gonna say it.
+
+01:14.510 --> 01:14.900
+Okay.
+
+01:14.940 --> 01:20.030
+So we have three divs within the three layers we have heading once again the most work is gonna be in
+
+01:20.040 --> 01:20.960
+style C is this.
+
+01:21.180 --> 01:27.630
+And let's start styling first and foremost let's select marks on what's in the right box number one.
+
+01:27.630 --> 01:34.590
+Now since I would like to have multiple styles for each and every box let me repeat maybe when we can
+
+01:34.590 --> 01:41.700
+group the elements let's just say box number two and we're gonna write a dot again box number two as
+
+01:41.700 --> 01:46.400
+well as comma and box number three and just keep forgetting the dots.
+
+01:46.410 --> 01:48.880
+But I think it's gonna be okay.
+
+01:49.060 --> 01:53.330
+Now what I would want for all the classes because again that was the whole point of this grouping.
+
+01:53.500 --> 01:56.530
+So I'm going to say two hundred pixels is gonna be my worth.
+
+01:56.590 --> 02:01.600
+Then we're also gonna do I don't know height of the same of 200 pixels.
+
+02:01.690 --> 02:02.410
+Excellent.
+
+02:02.410 --> 02:04.410
+We have the width and we have the height.
+
+02:04.420 --> 02:05.360
+Now what.
+
+02:05.390 --> 02:05.880
+No maybe.
+
+02:05.890 --> 02:12.250
+Let's add some colors but for the colors and they are gonna be separate on one to actually select the
+
+02:12.250 --> 02:19.360
+actual boxes on their own marks no one is gonna have the background of let's say red then we're also
+
+02:19.360 --> 02:24.510
+gonna add a little bit of coloring we white so that's gonna be this style and you know what.
+
+02:24.520 --> 02:29.380
+In this case we can just copy paste it because there's no point of rewriting everything so we can say
+
+02:29.380 --> 02:35.200
+that I would like to select whatever D lines and we're gonna copy and paste it two times then let's
+
+02:35.200 --> 02:41.020
+write different values so this would be Box Number two there's gonna be box number three and you know
+
+02:41.020 --> 02:46.610
+what actually changed my mind why don't we do this one hundred pixels because you'll see actually now
+
+02:46.630 --> 02:47.440
+you can undo it.
+
+02:47.470 --> 02:53.140
+My apologies I need to go two hundred pixels because I have everyone please disregard whatever I just
+
+02:53.140 --> 03:00.040
+did and back to the colors now for the second one will going to add maybe I don't know blue color and
+
+03:00.040 --> 03:01.710
+text it's not gonna be white.
+
+03:01.810 --> 03:07.480
+So here we can also do the green now as we're looking at it first of all you can see that I messed up
+
+03:07.960 --> 03:14.800
+I could have used the color right here I could have said color and white and let me just spend 30 seconds
+
+03:15.310 --> 03:20.920
+to delete these guys so again we'll select them with multiple selectors and we'll just gonna delete
+
+03:20.920 --> 03:24.520
+them since all the colors are gonna be exactly the same.
+
+03:24.520 --> 03:31.010
+Now comes the most interesting part of where we're starting to work with the border box so why were
+
+03:31.040 --> 03:37.690
+using that property and why we're using the actual property as well as the value so why we're using
+
+03:37.690 --> 03:43.990
+the box sizing property with the value of the more box now in order to demonstrate this why don't we
+
+03:43.990 --> 03:50.110
+add some padding now for the box number one which was gonna be watermarks and then for the box number
+
+03:50.110 --> 03:55.030
+three so leave the middle one the box number two just the way it is.
+
+03:55.190 --> 04:00.130
+So here I'm gonna say like this I'm going to say that I would like some padding and I'm gonna add padding
+
+04:00.130 --> 04:07.240
+all around I'm gonna say twenty pixels now OK so I am really noticing that my box is getting bigger
+
+04:07.720 --> 04:14.260
+OK let's do the same thing here let's say for the third box is also going to be the same thing and again
+
+04:14.290 --> 04:20.170
+we're getting the bigger padding on the left hand side as well as we can see that it's happening on
+
+04:20.170 --> 04:21.280
+top of bottom.
+
+04:21.640 --> 04:27.910
+Now if we really want to actually check this out we can head over to the bigger browser window or you
+
+04:27.910 --> 04:33.100
+can do it in a small side browser window it's really up to you and then we can again refresh how we
+
+04:33.100 --> 04:39.610
+can go to Google Developer Tools and if I'm going to click on inspect I'm gonna open up the doors I'm
+
+04:39.610 --> 04:44.470
+gonna right away zoom in so we can see better and that was a little bit drastic I didn't need to go
+
+04:44.470 --> 04:52.690
+that far but we can stay something I cannot pick the right angle let's say head within the head I'm
+
+04:52.690 --> 04:59.070
+not interested in anything I don't know why open hand actually needed body let me open up the body now
+
+04:59.070 --> 05:07.260
+within the body I have my boxes what do you see here on the box now if you can clearly see on the top.
+
+05:07.340 --> 05:10.940
+I have 240 by 240.
+
+05:11.210 --> 05:14.550
+However on my right hand side it says 200 by 200.
+
+05:14.690 --> 05:20.660
+Again let me heard a hover over back and as I'm hovering over the elements you can see that there has
+
+05:20.660 --> 05:26.270
+been added some weight and some height because we just had at the padding because I said padding is
+
+05:26.270 --> 05:28.600
+going to be left and right and top and bottom.
+
+05:28.670 --> 05:32.480
+So what happens is even though originally it was 200 by 200.
+
+05:32.630 --> 05:38.030
+Now in fact this is 240 by 240 because we added the padding okay.
+
+05:38.040 --> 05:38.630
+Don't believe me.
+
+05:38.630 --> 05:41.690
+Let's go over to box number three again.
+
+05:41.720 --> 05:42.790
+Same deal.
+
+05:42.800 --> 05:46.730
+So even though I'm having here right now there's two hundred two hundred.
+
+05:46.790 --> 05:53.630
+What's happening is on the page right now as I'm looking at it again this is 240 by 240 and we can also
+
+05:53.630 --> 05:54.940
+see this over here.
+
+05:55.100 --> 06:02.740
+So I have 200 by 200 but then my pairings are being added on the left hand side and right hand side.
+
+06:02.810 --> 06:04.200
+It's obviously different.
+
+06:04.280 --> 06:09.560
+It's the opposite the left hand side in the right hand side as well as top and bottom.
+
+06:09.570 --> 06:11.380
+Now why this matters.
+
+06:11.400 --> 06:16.080
+Well has you're going to be working with CSX as you're going to be working with your layout.
+
+06:16.110 --> 06:22.470
+This is really going to mess you up especially if you try to position something somewhere and you just
+
+06:22.560 --> 06:23.280
+add a padding.
+
+06:23.280 --> 06:30.270
+And this is totally going to mess up your layout your view and probably most importantly your mood especially
+
+06:30.270 --> 06:31.160
+in the beginning.
+
+06:31.200 --> 06:32.880
+So what do we do about that.
+
+06:33.360 --> 06:38.850
+Well let me head over to the box number one over here and let's have the property that we just learned
+
+06:39.150 --> 06:45.060
+which was box sizing property and for the box sizing we would like to add Border box.
+
+06:45.060 --> 06:47.130
+Now what is border bugs do.
+
+06:47.130 --> 06:52.620
+Well what happens with border box border box is right now and we can actually click on box number one
+
+06:53.010 --> 06:54.330
+and now check this out.
+
+06:54.330 --> 06:55.700
+Now this is probably going to be clear.
+
+06:55.710 --> 07:01.050
+But even though you can still see it here at least I can see it down my window I can see that this is
+
+07:01.050 --> 07:02.540
+still 200 by 200.
+
+07:02.700 --> 07:04.660
+But I guess this is going to be a little bit better.
+
+07:04.700 --> 07:11.220
+We notice what happens now the padding is added on inside so the content is actually 160 which again
+
+07:11.550 --> 07:16.470
+might mess you up your content but then but at least it's not going to mess up your whole layout.
+
+07:16.650 --> 07:19.530
+Now is it the same thing with the third one.
+
+07:19.530 --> 07:19.920
+Well no.
+
+07:19.950 --> 07:22.440
+This is still without a border box value.
+
+07:22.530 --> 07:27.960
+So what's happening is this is the reason why we're using the border box and that's the reason why in
+
+07:27.960 --> 07:33.540
+the beginning remember when we had that universal selector when we said that we would want to select
+
+07:33.540 --> 07:36.120
+everything and that was the Asterix.
+
+07:36.120 --> 07:39.350
+Then we're adding margin is going to be zero.
+
+07:39.360 --> 07:41.240
+The default margins should be gone.
+
+07:41.400 --> 07:43.070
+Then also the padding should be gone.
+
+07:43.080 --> 07:46.670
+So we can always add their own padding and that's why we added.
+
+07:46.670 --> 07:50.880
+Here is box sizing with a value of the border box.
+
+07:50.880 --> 07:53.150
+So that's why we said here mortar box.
+
+07:53.250 --> 07:55.280
+So no all of them are exactly the same.
+
+07:55.290 --> 08:00.720
+The only difference right now with a one in three is the fact that the padding has been added on the
+
+08:00.720 --> 08:01.500
+inside.
+
+08:01.500 --> 08:07.660
+But the key is that if you're adding this property it will not gonna mess up your whole layout.
+
+08:07.830 --> 08:15.000
+If you're adding padding to a element because padding is gonna be applied inside of the element not
+
+08:15.000 --> 08:16.860
+the outside making the element bigger.

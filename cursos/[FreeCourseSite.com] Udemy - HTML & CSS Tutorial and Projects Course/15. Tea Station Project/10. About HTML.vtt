@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.390 --> 00:01.160
+Beautiful.
+
+00:01.170 --> 00:02.590
+This was nice and easy.
+
+00:02.590 --> 00:06.900
+And our next section is going to be about section within the about section.
+
+00:06.900 --> 00:09.530
+There's gonna be two column layout one side.
+
+00:09.540 --> 00:13.040
+There's gonna be a picture and then there's gonna be some text about it.
+
+00:13.170 --> 00:14.880
+Now again we're gonna be floating.
+
+00:14.880 --> 00:20.550
+So as we're seeing right now this will be a small screen layout but then the moment we're gonna get
+
+00:20.580 --> 00:26.950
+to I believe 768 or something like that then we're gonna have two column layout within the section there
+
+00:26.950 --> 00:35.280
+is gonna be some global already classes that are all gonna be reusing later on like the title of the
+
+00:35.280 --> 00:39.110
+actual sections as well as there's gonna be the main container.
+
+00:39.120 --> 00:44.550
+Well I was we're gonna get that as well as this is the first time we're gonna reuse something we already
+
+00:44.550 --> 00:45.670
+created before.
+
+00:45.840 --> 00:50.840
+Which is gonna be the modern remember as we were working with the header we created main button one
+
+00:50.840 --> 00:51.330
+button.
+
+00:51.340 --> 00:56.500
+So this is the time where we can actually start using something that we already created before.
+
+00:56.610 --> 01:00.480
+As always our journey is gonna start in the indexation amount.
+
+01:00.630 --> 01:05.490
+I think I can get rid of the hello world because now we fixed it then we're gonna be looking for the
+
+01:05.490 --> 01:13.140
+about section about and we can copy and paste it and say I'm going to select a line and I'm gonna say
+
+01:13.140 --> 01:21.330
+that this is gonna be about so end of about and about what is gonna be within the about section first
+
+01:21.330 --> 01:28.080
+we're gonna start with a section element with the class of about as well as I would like to create the
+
+01:28.110 --> 01:34.580
+class of Section center that will going to layer on reuse some would say div or I can just on method
+
+01:34.580 --> 01:41.340
+div can just say section center as we can always also add the right away clear fix.
+
+01:41.340 --> 01:45.900
+Remember we already know that if we're going to be floating we might as well add this clear fix right
+
+01:45.900 --> 01:50.940
+away since there's no point of me first to allowing this and then showing you that there's gonna be
+
+01:50.950 --> 01:56.040
+issue we already have covered it now with image is gonna be a little bit interesting because what we're
+
+01:56.040 --> 01:59.030
+gonna do is we know that we're gonna be placing an image here.
+
+01:59.340 --> 02:04.170
+However since I would like to do the scaling as you can see right now we're zooming in and we're going
+
+02:04.160 --> 02:04.640
+to do that.
+
+02:04.640 --> 02:08.790
+My scaling I do want to add the parent container and you'll see why.
+
+02:09.060 --> 02:18.240
+But for now I'm just gonna say that within this div the section centre there will gonna be a about image
+
+02:18.240 --> 02:19.050
+article.
+
+02:19.230 --> 02:27.310
+So article with the class of let's say about image about or you know just images gonna be fine.
+
+02:27.720 --> 02:34.050
+So we need the article element with a class of about image my poems and you know what.
+
+02:34.050 --> 02:34.530
+Right away.
+
+02:34.560 --> 02:40.920
+Let me had the comments and let's say first column and then we're going to be looking for the second
+
+02:40.920 --> 02:41.540
+one.
+
+02:41.850 --> 02:45.330
+So we might as well here copy and paste these two lines.
+
+02:45.670 --> 02:51.090
+And that's not how we're gonna be copying pasting we just say that these two lines are gonna be copied
+
+02:51.570 --> 02:54.140
+and here we're gonna be working with the second column.
+
+02:54.180 --> 02:57.550
+Now the second column is gonna have the class of about eight.
+
+02:57.840 --> 03:05.160
+So first column second column is gonna have the class of about and I don't know why I didn't delete
+
+03:05.160 --> 03:07.120
+that but about info.
+
+03:07.200 --> 03:10.400
+Those are gonna be our two columns now within the first column.
+
+03:10.400 --> 03:16.020
+Like I said I would like to have the image our not only the image I would like to have the David it's
+
+03:16.050 --> 03:24.790
+gonna be the parent container and for this we're gonna have the David a class of about Picture Picture
+
+03:24.820 --> 03:32.610
+container and within this container we're gonna have our image now for the images we know that we're
+
+03:32.610 --> 03:38.980
+gonna be looking for the source so we can forward slash for images and we have conveniently enough about
+
+03:38.980 --> 03:43.890
+image as well as let's say cattle to cattle.
+
+03:43.990 --> 03:49.150
+It's gonna be our alternative and let's add a class here and then this is just gonna be for styling
+
+03:49.150 --> 03:54.820
+purposes about picture a picture.
+
+03:55.170 --> 03:56.550
+Now what's happening here.
+
+03:56.730 --> 04:01.080
+Picture then we should see the massive image and we'll fix this.
+
+04:01.080 --> 04:01.870
+Don't worry.
+
+04:02.040 --> 04:07.320
+We do need to go to to assess to fix that but for now I think we can live with that that is gonna be
+
+04:07.320 --> 04:08.360
+our first car.
+
+04:08.460 --> 04:11.790
+What's happening with the second column we're going to have to place the text.
+
+04:11.940 --> 04:17.160
+Ah here we're gonna say first of all there's gonna be comments for something and then we're gonna reuse
+
+04:17.190 --> 04:22.310
+later on and that is gonna be section title now where we're gonna use this.
+
+04:22.320 --> 04:28.200
+Well you see that we're using it here we're using it here and yeah I think that's about it.
+
+04:28.350 --> 04:33.810
+But if you would want more sections I was like you can just reuse this title and I'm gonna copy and
+
+04:33.810 --> 04:36.370
+paste it in right away again I'm going to sand off.
+
+04:36.420 --> 04:42.630
+So this is where it ends and we're gonna write some kind of div now within a day of there's gonna be
+
+04:42.630 --> 04:43.600
+two things.
+
+04:43.680 --> 04:55.820
+First I was gonna be hitting three with a class of section section subtitle subtitle and then here we're
+
+04:55.820 --> 04:59.500
+gonna write at this time we're gonna write about our.
+
+04:59.690 --> 05:05.060
+But obviously as we're gonna be reusing this then there's gonna be different values on the second one
+
+05:05.120 --> 05:07.890
+is not gonna be I'm sorry it's not gonna be hitting three.
+
+05:07.950 --> 05:14.780
+We're gonna write heading to and here we're gonna go for class of section title now within the section
+
+05:14.780 --> 05:19.720
+title that's right the station that's gonna be from now my title.
+
+05:19.790 --> 05:21.650
+So this is just for this section.
+
+05:21.950 --> 05:26.720
+Like I said already before we're gonna be reusing it for different sections what else we have.
+
+05:26.720 --> 05:28.550
+Well this would be our title.
+
+05:28.550 --> 05:34.830
+So right after the comments we were gonna write that there's gonna be two paragraphs plus our button.
+
+05:35.280 --> 05:43.760
+So here let's write maybe paragraph then the paragraph is gonna have class of about text and let's place
+
+05:43.820 --> 05:45.140
+I don't know 10 words here.
+
+05:45.650 --> 05:50.510
+Let's say Laura um 10 and that's gonna be my paragraph and what I would like to do right now is just
+
+05:50.510 --> 05:56.810
+grab these values and create two paragraphs because again if we save it we see that there's gonna be
+
+05:56.810 --> 05:58.390
+one paragraph and the second one.
+
+05:59.030 --> 06:01.400
+Now finally we can reuse our button.
+
+06:02.270 --> 06:04.190
+So for this let's make a link now.
+
+06:04.190 --> 06:05.230
+This link is for now.
+
+06:05.230 --> 06:09.770
+Again I'm gonna go to about the email which does not exist at the moment.
+
+06:09.810 --> 06:15.550
+However if we're going to add a nice class of main button and we're gonna write some text here let's
+
+06:15.560 --> 06:17.710
+say learn more.
+
+06:17.740 --> 06:18.940
+Check this out.
+
+06:18.940 --> 06:21.950
+Notice what we're having easy enough.
+
+06:22.030 --> 06:23.560
+We're having our button.
+
+06:23.560 --> 06:31.030
+So this is the nice feature where we can start reusing this and we don't have to retype the CSX over
+
+06:31.030 --> 06:34.210
+and over and over again as we're working with different sections.

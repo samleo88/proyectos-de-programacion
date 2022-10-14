@@ -1,0 +1,646 @@
+WEBVTT
+
+00:00.150 --> 00:04.340
+And the next section are going to be working on or here is going to be the skills section.
+
+00:04.340 --> 00:05.410
+All right I like this.
+
+00:05.430 --> 00:06.500
+So what are you going to do here.
+
+00:06.570 --> 00:08.470
+We're going to go back to the next issue the amount.
+
+00:08.790 --> 00:15.110
+And we're going to say this is going to be skills covering the whole line up in price here.
+
+00:15.190 --> 00:20.130
+You can put a line in place and we're going to say end of skills.
+
+00:20.270 --> 00:20.560
+Right.
+
+00:20.570 --> 00:21.220
+Or here.
+
+00:21.460 --> 00:25.290
+Then once we have this now I would want to add some major damage.
+
+00:25.560 --> 00:31.310
+So we're going to start over here by saying that this is going to be a skills correction.
+
+00:31.430 --> 00:31.920
+Right.
+
+00:32.130 --> 00:39.300
+So this is going to be section class skills and hashtags skills are like this.
+
+00:39.340 --> 00:46.350
+Once we have the section we would want a deal with the skills and we're going to say center center or
+
+00:46.410 --> 00:50.580
+here once we have this div now I would want a article.
+
+00:50.640 --> 00:55.360
+So I want to see article and this is going to have a class of skill.
+
+00:55.370 --> 00:55.620
+All right.
+
+00:55.620 --> 01:01.020
+So on here the article is going to have a class of skill and they're all going to have six of them right
+
+01:01.460 --> 01:01.660
+here.
+
+01:01.710 --> 01:04.940
+The first thing that we're going to do is we're going to have a fundraiser Maicon.
+
+01:05.170 --> 01:11.970
+So I'm going to say we're here and this is going to be a link here with a hash tag on here and we're
+
+01:11.970 --> 01:19.420
+going to say that inside this one we're going to have a high element with a B class and if a.
+
+01:19.500 --> 01:23.630
+And this is going to be five or failing this.
+
+01:23.690 --> 01:28.290
+Once we have this all here now I can see that we have the icon now once we have placed go.
+
+01:28.320 --> 01:33.050
+Now what we would want is having one here and we're going to write.
+
+01:33.080 --> 01:34.490
+This is going to be HD.
+
+01:34.510 --> 01:43.300
+Now then once we have the HD Well now I would want a paragraph with 10 letters right with 10 words.
+
+01:43.320 --> 01:49.110
+So here we're going to say I'm going to sit down on this time once.
+
+01:49.350 --> 01:52.520
+First time second time now we have a paragraph.
+
+01:52.650 --> 01:58.670
+Now what we would want to do is obviously copy and paste this five times you know to get six of them
+
+01:58.830 --> 02:01.030
+one two three four five.
+
+02:01.180 --> 02:02.060
+All right.
+
+02:02.130 --> 02:03.880
+See we have six of them.
+
+02:04.080 --> 02:05.890
+And then we just need to change the values.
+
+02:05.970 --> 02:08.270
+So the first one was the five.
+
+02:08.430 --> 02:14.640
+Then this guy was CSSA 3 and over here this one was C Ss.
+
+02:14.640 --> 02:19.890
+Then after that next one was a javascript right here.
+
+02:19.890 --> 02:23.270
+So the next article over here was a J.
+
+02:23.350 --> 02:33.290
+S here and over here with the heading one we also wrote G-S then out and then we had a node J.S. node.
+
+02:33.510 --> 02:35.670
+And and here we just right.
+
+02:35.670 --> 02:39.250
+This is going to be nold like this.
+
+02:39.390 --> 02:46.110
+And then after that we have an angle and then we have a react and so angular sort of this is going to
+
+02:46.110 --> 02:47.400
+be nolde.
+
+02:47.530 --> 02:55.670
+Then the last one let's say or here and this is going to be react to right to react and then what he
+
+02:55.680 --> 03:01.460
+would want to do here is going to change the angular and let's say Oh these guys are going to be Angleterre
+
+03:03.180 --> 03:09.290
+right now consider we have six thousand My kids are here right now what you need to do is actually go
+
+03:09.290 --> 03:10.430
+out and style.
+
+03:10.920 --> 03:12.890
+So we're going to have it over here.
+
+03:13.020 --> 03:17.370
+We're going to go back to Mansi assess and then we'll have a skills.
+
+03:17.370 --> 03:17.690
+All right.
+
+03:17.700 --> 03:19.260
+And what we would want to do.
+
+03:19.260 --> 03:19.810
+All right.
+
+03:19.980 --> 03:23.850
+So first of all we're going to have the same thing that we had with this background.
+
+03:23.850 --> 03:24.480
+Right.
+
+03:24.510 --> 03:32.390
+So I'm going to say that this is going to be a background you know here and then we'll have image and
+
+03:32.400 --> 03:34.440
+we're going to have a skills background.
+
+03:34.800 --> 03:38.360
+So let's find out where is our skills skills background.
+
+03:38.360 --> 03:38.860
+All right.
+
+03:38.940 --> 03:43.610
+So this is going to be our background then we'll right away are going to have the same things we had
+
+03:43.650 --> 03:44.350
+before.
+
+03:44.370 --> 03:46.650
+Center cover.
+
+03:46.660 --> 03:47.310
+All right.
+
+03:47.310 --> 03:48.240
+Fixed.
+
+03:48.530 --> 03:52.410
+And we're going to say no repeat no repeat here.
+
+03:52.560 --> 03:53.130
+All right.
+
+03:53.200 --> 03:59.180
+So these shouldn't be the things for the image right side right away a linear gradient also.
+
+03:59.260 --> 03:59.580
+Right.
+
+03:59.610 --> 04:02.500
+And if we really want we can actually copy and paste this.
+
+04:02.530 --> 04:08.390
+We can go ahead and we can just get this linear grade in because it's going to be exactly the same.
+
+04:08.520 --> 04:10.620
+Maybe we can make it darker.
+
+04:10.620 --> 04:12.560
+All right so this would be the only difference.
+
+04:12.670 --> 04:17.880
+So I'm going to go over here and press this thing and see that I have my linear gradient.
+
+04:17.880 --> 04:18.280
+Right.
+
+04:18.420 --> 04:19.870
+But let's make it darker.
+
+04:19.870 --> 04:25.620
+So I'm going to say six more here and I'm going to say six or here so I can see that it's a very dark
+
+04:25.620 --> 04:31.830
+image than what I would want to do is start working with a skill center which is the div that actually
+
+04:31.830 --> 04:38.340
+holds everything and holds all six articles so I'm going to say skills center.
+
+04:38.490 --> 04:45.120
+Well we're here with we're going to set it to 90 percent here this margin.
+
+04:45.120 --> 04:46.520
+0 auto right.
+
+04:46.740 --> 04:48.180
+So something like this.
+
+04:48.330 --> 04:54.510
+Then we're going to find is where is skill skill and are here for each skill.
+
+04:54.510 --> 04:59.910
+What we should do first of all going to say text the line center here like this.
+
+04:59.910 --> 05:08.340
+Then we'll have a margin 30 pixels right in between but zero left and right and after that it will be
+
+05:08.360 --> 05:09.660
+not a color.
+
+05:10.010 --> 05:15.460
+So I'm going to say over here that the color is going to be hash tag five of three or five.
+
+05:15.640 --> 05:16.090
+Really.
+
+05:16.140 --> 05:16.870
+That's right.
+
+05:16.910 --> 05:18.730
+So this is going to be for the legs.
+
+05:18.850 --> 05:26.930
+Now once I'm dealt with this skill now I would want to work with a skills here legs so I'm going to
+
+05:26.930 --> 05:35.610
+say skill a more here and I'm going to say this is going to be fun size 80 pixels or here like this.
+
+05:35.630 --> 05:38.610
+All right so the icons are 80 pixels.
+
+05:38.690 --> 05:48.450
+And we're going to have this color stack at 8 1/2 C and then we'll have B F D B D like this.
+
+05:48.500 --> 05:52.100
+Once we have this now we're going to want to work with a heading 1.
+
+05:52.340 --> 06:01.640
+So I'm going to say scale and in one order and this is going to be font size 30 pixels like this text
+
+06:01.850 --> 06:06.890
+transform to say uppercase X transform uppercase.
+
+06:06.930 --> 06:14.780
+So this is going to be all capital letters margin zero top zero all right 10 pixels bottom zero left
+
+06:15.360 --> 06:18.750
+and it's only we want to push a little bit down here right.
+
+06:18.790 --> 06:25.630
+And then we'll have a fun style it out front style it taluk here like this.
+
+06:25.940 --> 06:29.450
+And then let's do a paragraph or.
+
+06:29.460 --> 06:30.030
+All right.
+
+06:30.290 --> 06:37.180
+So it's over here and this is going to be skill like this paragraph right.
+
+06:37.230 --> 06:38.650
+And what should happen right.
+
+06:38.730 --> 06:45.270
+First of all we're going to have a line height of two in this letter spacing of five letter spacing
+
+06:45.270 --> 06:47.180
+five pixels.
+
+06:47.190 --> 06:51.430
+All right so let's go back over here and let's say five pixels.
+
+06:51.710 --> 06:52.150
+Right.
+
+06:52.200 --> 06:53.950
+That would be the letter space.
+
+06:54.130 --> 06:59.650
+And now would we would want to do is actually work with creating these lines right.
+
+06:59.850 --> 07:05.000
+So you can see or hear that if we have the bigger screen right we have these border lines right.
+
+07:05.060 --> 07:10.470
+However if we go to the smaller screen and nothing happens right but here we got the bigger one right
+
+07:10.500 --> 07:12.520
+we have these waterlines already.
+
+07:12.540 --> 07:13.620
+So how do we do this.
+
+07:13.620 --> 07:14.050
+All right.
+
+07:14.190 --> 07:16.490
+So first we're going to say a media screen.
+
+07:16.560 --> 07:20.720
+All right so well first of all going to create some rules as the screen changes.
+
+07:21.000 --> 07:28.200
+So you know we're going to say men with and we're going to say nine nine to nine and two pixels or here
+
+07:28.520 --> 07:30.780
+are you know what let's start with 776.
+
+07:30.800 --> 07:35.070
+I really went ahead a little but 7 7 6 pixels.
+
+07:35.070 --> 07:40.520
+And once we have this again we're going to work with this skill center because this is the parent element
+
+07:40.580 --> 07:40.800
+right.
+
+07:40.800 --> 07:43.410
+That's one of the reasons why recreating this one right.
+
+07:43.590 --> 07:49.460
+So I'm going to say skills center or here and we're going to save this playful X right.
+
+07:49.740 --> 07:55.700
+Then we're going to say flex and we're going to save wrap here and we're going to say we're all here
+
+07:55.800 --> 07:56.790
+right.
+
+07:57.150 --> 08:00.830
+We're going to have a justified content space between and 2.
+
+08:01.110 --> 08:04.930
+What I'm saying is once we get to 776.
+
+08:05.100 --> 08:11.190
+But before I show you an actual screen since you have flex ramp there are always going to be wrapping
+
+08:11.200 --> 08:13.380
+or here like this right on a new line.
+
+08:13.380 --> 08:13.620
+All right.
+
+08:13.620 --> 08:15.200
+So we're not going to be able to see.
+
+08:15.390 --> 08:23.010
+So what you need to do over here is we're going to say that for the skill we would want as a child to
+
+08:23.010 --> 08:27.710
+have flex 0 0 calc function.
+
+08:27.890 --> 08:33.830
+Right then we're going to have 50 percent minus and we're going to say 20 pixels or here like this.
+
+08:34.500 --> 08:35.820
+So we say this.
+
+08:36.000 --> 08:42.120
+And now let's check it out right now actually they are half the size on this.
+
+08:42.150 --> 08:42.800
+All right.
+
+08:42.900 --> 08:44.760
+And you can see what happens right.
+
+08:44.850 --> 08:47.000
+Once we have them on here.
+
+08:47.040 --> 08:47.650
+All right.
+
+08:47.760 --> 08:52.530
+And they are actually spanning the screen or here like this.
+
+08:52.530 --> 08:59.370
+Right now what we want to do is as we're going actually to a bigger screen right we would want actually
+
+08:59.580 --> 09:00.960
+a three of them right.
+
+09:01.110 --> 09:04.100
+And we would want the border or here like this right.
+
+09:04.170 --> 09:09.490
+So we're going to go back over here and we're going to say for media screen nine and two.
+
+09:09.670 --> 09:10.320
+All right.
+
+09:10.320 --> 09:18.540
+So when you say media and we're going to say screen and here we're going to say men with with or here
+
+09:18.540 --> 09:19.130
+right.
+
+09:19.210 --> 09:23.040
+I'm going to say nine nine two pixels on here like this.
+
+09:23.040 --> 09:24.540
+Now what should happen.
+
+09:24.580 --> 09:25.140
+Right.
+
+09:25.290 --> 09:28.340
+And we're here and we're going to say a little bit differently right.
+
+09:28.380 --> 09:31.740
+We already have skill center display flex flex wrap.
+
+09:31.800 --> 09:33.380
+All this is working fine.
+
+09:33.430 --> 09:41.830
+How are we going to write skill or here flex then we're going to write 0 0 and calc.
+
+09:42.000 --> 09:47.340
+And here we're going to write 3 3 3 3 3 percent on here right.
+
+09:47.490 --> 09:48.300
+Minus.
+
+09:48.300 --> 09:52.160
+And we're going to say one pixel and just so it's a little bit in between them.
+
+09:52.170 --> 09:53.060
+Right.
+
+09:53.090 --> 10:00.370
+And over here we're going to say first that the margin shouldn't be zero here all are home and padding
+
+10:00.370 --> 10:06.840
+bottom is going to be 20 panning Muharram it's going to be let's say 20 pixels here.
+
+10:07.180 --> 10:08.470
+So we are fresh.
+
+10:08.480 --> 10:10.450
+Right now we have three of them are here.
+
+10:10.730 --> 10:14.370
+And now let's go ahead and let's actually add the lines.
+
+10:14.380 --> 10:15.070
+All right.
+
+10:15.070 --> 10:23.560
+So I'm going to say here is that this is going to be a skills article here and I'm going to say first
+
+10:23.560 --> 10:24.630
+of type.
+
+10:24.700 --> 10:25.320
+All right.
+
+10:25.420 --> 10:30.980
+So I'm going to say article and we're going to say first of type and what I'm going to say here and
+
+10:31.000 --> 10:35.840
+this is going to be a border like border and we're going to say.
+
+10:35.830 --> 10:41.200
+Right and this is going to be one pixel solid and hashtag.
+
+10:41.340 --> 10:44.230
+EF 5 EF 3 5 0 0 0.
+
+10:44.250 --> 10:45.090
+All right.
+
+10:45.100 --> 10:46.000
+So let's check it out.
+
+10:46.000 --> 10:48.420
+What we have by the looks of it right.
+
+10:48.430 --> 10:55.540
+We shouldn't have it over here at this border right now after that what I would want to do is just have
+
+10:55.630 --> 10:57.390
+a type.
+
+10:57.410 --> 10:59.980
+Right so everything is going to be the same or here we would just.
+
+11:00.040 --> 11:01.240
+And F-Type.
+
+11:01.240 --> 11:07.820
+So I'm going to copy and paste this and here we're going to say this is going to be end of type and
+
+11:07.990 --> 11:12.920
+right and right and of type and I'm going to say we're here number three.
+
+11:12.920 --> 11:16.380
+All right so now we want to work with a third one.
+
+11:16.470 --> 11:20.900
+And over here I'm going to say border left is going to be one pixel solid.
+
+11:21.070 --> 11:24.240
+So I'm going to say your left here like this.
+
+11:24.340 --> 11:29.090
+Then once we have this then we would want to have a 4.
+
+11:29.160 --> 11:32.060
+So again if you see or hear or all right.
+
+11:32.110 --> 11:40.360
+So we have this guy right and this guy have work right now what he would want to select is number four
+
+11:40.870 --> 11:42.010
+right here.
+
+11:42.150 --> 11:42.640
+Right.
+
+11:42.850 --> 11:47.860
+And for number four we would want a border top and border right.
+
+11:47.930 --> 11:49.310
+And it's all here.
+
+11:49.500 --> 11:52.680
+So pretty much it works the same way it was going to be copying and pasting.
+
+11:52.730 --> 11:53.310
+Right.
+
+11:53.410 --> 11:55.220
+So I'm going to copy and paste this.
+
+11:55.270 --> 11:58.760
+This is going to be number four here.
+
+11:58.840 --> 12:02.450
+And this is going to be border right again.
+
+12:02.530 --> 12:04.800
+It's all going to say all right.
+
+12:05.080 --> 12:10.740
+And then we're going to copy and paste this and we're going to set it up saurian this is going to be
+
+12:10.860 --> 12:12.620
+the top.
+
+12:12.750 --> 12:14.100
+We're going to go back.
+
+12:14.140 --> 12:19.910
+Sure enough now we have these borders right now obviously we would need four to six and then four or
+
+12:19.910 --> 12:20.600
+five.
+
+12:20.610 --> 12:21.050
+All right.
+
+12:21.130 --> 12:23.020
+So what we're going to do here.
+
+12:23.020 --> 12:25.320
+We're just going to copy and paste this.
+
+12:25.340 --> 12:25.560
+Right.
+
+12:25.600 --> 12:28.780
+So one by one and we're going to go back over here.
+
+12:28.810 --> 12:33.430
+We're going to write six then this is going to be border left and work it up.
+
+12:33.430 --> 12:38.680
+So again we're going to change from right to left and then we'll have the last one is going to be number
+
+12:38.680 --> 12:39.410
+five.
+
+12:39.770 --> 12:39.970
+Right.
+
+12:40.000 --> 12:42.310
+So we're going to copy paste this.
+
+12:42.310 --> 12:48.040
+And for the skills number five what we would want is we would one just board it up so we can just get
+
+12:48.040 --> 12:50.460
+rid of this guy we're like this.
+
+12:50.470 --> 12:59.500
+So once we save this one we have right now we have a grid here imaginary grid meaning imaginary that
+
+12:59.500 --> 13:02.430
+we set it all here with these morons right.
+
+13:02.450 --> 13:04.450
+And now we can move on to our next section.

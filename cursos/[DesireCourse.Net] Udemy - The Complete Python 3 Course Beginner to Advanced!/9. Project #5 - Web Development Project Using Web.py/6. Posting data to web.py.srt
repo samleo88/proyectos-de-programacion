@@ -1,0 +1,293 @@
+1
+
+00:00:00,000  -->  00:00:05,310
+Welcome back guys. So in the last video I
+had some problems being able to tell if
+
+2
+
+00:00:05,310  -->  00:00:09,150
+the JavaScript was working or not
+because the ripples weren't happening.
+
+3
+
+00:00:09,150  -->  00:00:13,679
+Some good news, I've got them to work if
+you look at this when I click on stuff
+
+4
+
+00:00:13,679  -->  00:00:20,939
+and hold it will it will now ripple,
+there's no route there. And so I tried a
+
+5
+
+00:00:20,939  -->  00:00:26,400
+few different things, I used this hosted
+library of jQuery 1.12 I figured
+
+6
+
+00:00:26,400  -->  00:00:31,859
+maybe the 3-series was too new, however that did not end up resolving the issue.
+
+7
+
+00:00:31,859  -->  00:00:38,790
+What did end up resolving the issue is
+that i did not include the ripples.min.css
+
+8
+
+00:00:38,790  -->  00:00:46,770
+and the ripples.min.js. So in the main layout just go ahead and
+
+9
+
+00:00:46,770  -->  00:00:55,710
+add the style sheets for the ripples and
+the ripples will work if you add the
+
+10
+
+00:00:55,710  -->  00:00:58,710
+waves effect right here.
+
+11
+
+00:00:59,760  -->  00:01:06,750
+So, with that said, we are going to get
+into form submitting in Webpy and
+
+12
+
+00:01:06,750  -->  00:01:10,200
+how to do it, so this is really, really
+simple but also really, really powerful.
+
+13
+
+00:01:10,799  -->  00:01:17,040
+So what we're going to need to do is
+build an ajax event here. So i'm going to
+
+14
+
+00:01:17,040  -->  00:01:26,970
+create a "var form = $('#register-form').
+
+15
+
+00:01:26,970  -->  00:01:37,110
+serialize( );" and then "$.ajax({ })" and this is basically, again, if you guys haven't done
+
+16
+
+00:01:37,110  -->  00:01:40,200
+this that's no worries. I will explain it
+briefly as I go.
+
+17
+
+00:01:40,200  -->  00:01:44,549
+Ajax is a way to capture the form and
+send it over to the server using
+
+18
+
+00:01:44,549  -->  00:01:47,460
+javascript so that you don't get a page
+refresh and that's exactly what we're
+
+19
+
+00:01:47,460  -->  00:01:52,229
+going to be doing here. So, we need to set
+the "url:' '" so this is going to be the URL
+
+20
+
+00:01:52,229  -->  00:02:02,070
+that we're going to post data too, so
+let's name it '/postregistration', the type
+
+21
+
+00:02:02,070  -->  00:02:09,060
+is going to be "type: 'POST'," we're going to post data, the data is going to "data: form,"
+
+22
+
+00:02:09,060  -->  00:02:11,730
+that we're sending, and then on success
+
+23
+
+00:02:11,730  -->  00:02:19,019
+we're just going to "success: function(response){ }"
+in the success function, and we're going
+
+24
+
+00:02:19,019  -->  00:02:26,790
+to "console.log(response)" So that's
+literally all we need to do for that. I'm
+
+25
+
+00:02:26,790  -->  00:02:32,280
+going to remove that console.log up
+there, going to save this, still not
+
+26
+
+00:02:32,280  -->  00:02:35,879
+going to work because we haven't
+actually created this route. So, this is
+
+27
+
+00:02:35,879  -->  00:02:40,920
+the Webpy stuff right here. Let's go
+over to controller, let's create the route, so
+
+28
+
+00:02:40,920  -->  00:02:54,239
+'/postregistration', 'PostRegistration'
+and yeah these
+
+29
+
+00:02:54,239  -->  00:03:00,870
+classes should be using capitals as per
+PEP guidelines, so I'm just going to go
+
+30
+
+00:03:00,870  -->  00:03:06,810
+through and fix those really quickly as
+well, and then we're going to define a
+
+31
+
+00:03:06,810  -->  00:03:16,109
+new class here called "class PostRegistration:" and now when we define the main function
+
+32
+
+00:03:16,109  -->  00:03:22,799
+it's not going to be get, it's going to be
+"POST(self):" So, there's a few ways to capture
+
+33
+
+00:03:22,799  -->  00:03:28,109
+the data that we get, the one that we're
+going to be looking at is called an
+
+34
+
+00:03:28,109  -->  00:03:32,970
+input method and it's going to get all
+the posted data. Now alternatively if
+
+35
+
+00:03:32,970  -->  00:03:36,780
+you put it into a get function it's going to
+get all the get data and get data is in
+
+36
+
+00:03:36,780  -->  00:03:43,079
+the URL, but post data does not go in the
+URL it gets submitted behind the scenes
+
+37
+
+00:03:43,079  -->  00:03:48,840
+sort of. So in order to get the data I'm going to create a variable here called "data
+
+38
+
+00:03:48,840  -->  00:03:54,329
+= web.input( )" it's
+really that simple, and then i'm going to
+
+39
+
+00:03:54,329  -->  00:04:01,139
+return the username from this so, "return data.username"
+
+40
+
+00:04:03,510  -->  00:04:08,160
+it's really that simple. So basically
+when I run this script now, let's go
+
+41
+
+00:04:08,160  -->  00:04:09,599
+through it,
+
+42
+
+00:04:09,599  -->  00:04:13,859
+stop the script from running, start it again,
+we're going to refresh. The username i'm
+
+43
+
+00:04:13,859  -->  00:04:18,989
+going to choose is "nick" and full name is
+just "Nick" for now. I'm actually not going
+
+44
+
+00:04:18,989  -->  00:04:23,430
+to fill anything else but i'm going to
+hit submit, and what you see is that it
+
+45
+
+00:04:23,430  -->  00:04:24,980
+accesses the back end, and what
+
+46
+
+00:04:24,980  -->  00:04:31,550
+happens is we get the form
+data, we send an ajax request over to
+
+47
+
+00:04:31,550  -->  00:04:36,320
+this route. So it's coming here at that
+point, it's going into that class, and it's
+
+48
+
+00:04:36,320  -->  00:04:42,410
+setting the data within web input
+method, and then we can access this like
+
+49
+
+00:04:42,410  -->  00:04:49,280
+any other object and get each field by
+the name of the input. So, that's awesome,
+
+50
+
+00:04:49,280  -->  00:04:53,960
+and that's how we're going to be getting
+the data to then put it into PyMongo,
+
+51
+
+00:04:53,960  -->  00:04:57,170
+and so in the next video we're setting up
+our first model.

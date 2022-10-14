@@ -1,0 +1,529 @@
+WEBVTT
+
+00:00.690 --> 00:04.930
+And the next section we're going to be building we're here this is going to be the skills.
+
+00:05.030 --> 00:05.300
+Right.
+
+00:05.300 --> 00:07.720
+And like I said this is going to be responsive.
+
+00:07.780 --> 00:12.980
+And so as you can see that it changes from four columns here and then it's going to be two and then
+
+00:12.980 --> 00:14.750
+the smaller screen is going to be one.
+
+00:14.750 --> 00:15.310
+All right.
+
+00:15.350 --> 00:21.740
+So let's go to our indexation here now or here and open it up and we're going to say that this is going
+
+00:21.740 --> 00:23.110
+to be the banner.
+
+00:23.210 --> 00:28.780
+So here we're going to say this is going to be Skills section right skills section and we're hoping
+
+00:28.830 --> 00:31.260
+to say this is going to be the end of school section.
+
+00:31.320 --> 00:35.990
+So let's cover this right over here and of skills.
+
+00:36.150 --> 00:36.770
+Right.
+
+00:36.770 --> 00:42.470
+And what we're all going to have here is we're going to say this is going to be section here like this
+
+00:42.470 --> 00:44.590
+one idea of skills.
+
+00:44.650 --> 00:45.140
+Right.
+
+00:45.380 --> 00:51.380
+And once we have this we're going to say Dave this is going to be skills container right.
+
+00:51.590 --> 00:56.570
+Once we have that we're going to have a skills item which is actually going to be in an article I'm
+
+00:56.900 --> 01:02.440
+sorry I'm going to write an article and this is going to have a class of skills.
+
+01:02.540 --> 01:08.800
+I had them you know in this once we our first article we're going to have a to us and we're going to
+
+01:08.800 --> 01:14.870
+have four or here we're going to say this is going to be code like this and then we're going to have
+
+01:14.930 --> 01:21.470
+a heading here like this one to say this is going to be heading one and this is going to be a class
+
+01:22.250 --> 01:24.550
+actually of code and it's all going on right.
+
+01:24.560 --> 01:27.580
+I'm sorry this is going to have actual content of code right.
+
+01:27.600 --> 01:33.200
+So on what I write or hear code and press time over here and I would have had it one and now would want
+
+01:33.290 --> 01:34.900
+a platting right.
+
+01:34.940 --> 01:40.640
+So we're going to write I'm sorry pop paragraph sorry paragraph and on here I'm going to say this is
+
+01:40.640 --> 01:43.570
+going to be a long term so I'm going to insert some dummy text.
+
+01:43.640 --> 01:46.330
+So give me like 15 words or something like that right.
+
+01:46.520 --> 01:51.590
+So yeah I'm going to press typing on we have a paragraph and then the next thing that we would want
+
+01:51.590 --> 01:56.550
+to do is obviously create more skills items like this.
+
+01:56.570 --> 01:57.130
+Right.
+
+01:57.200 --> 02:00.650
+So what I'm going to do over here I'm going to say this for now.
+
+02:00.740 --> 02:08.090
+Say this and then we're going to do is grab this article and say this is going to be hard to go and
+
+02:08.090 --> 02:09.540
+this is going to be the end of article.
+
+02:09.560 --> 02:09.800
+Right.
+
+02:09.800 --> 02:15.630
+So we can just see better where we have the new article so it's easier for us to work.
+
+02:15.710 --> 02:17.250
+And of article.
+
+02:17.690 --> 02:19.700
+And then let's just grab this right.
+
+02:19.940 --> 02:22.320
+So we're going to have one two three.
+
+02:22.320 --> 02:24.350
+All right so now we have four of them.
+
+02:24.350 --> 02:28.640
+And what we're going to write on here the next one is going to be file text.
+
+02:28.640 --> 02:32.200
+All right so we're going to say this is going to be documented.
+
+02:32.270 --> 02:39.530
+So let's find where the second one going to say this is going to be a documented and this is going to
+
+02:39.530 --> 02:49.350
+be a file here file text both here and this then we're going to have all read guys going to you for
+
+02:49.400 --> 02:53.250
+map all map.
+
+02:53.630 --> 02:56.460
+And this is going to be optimized.
+
+02:56.620 --> 03:00.800
+We're going to find this is going to be optimized optimized
+
+03:03.240 --> 03:06.880
+minds over here probably it's correct.
+
+03:06.890 --> 03:08.010
+Right optimized.
+
+03:08.180 --> 03:10.850
+And the last one is going to be a desktop.
+
+03:11.280 --> 03:18.070
+So we're going to say stop and then we're going to write code and it's going to be different.
+
+03:18.290 --> 03:25.450
+It's going to be written right here like this and we're done with our page now and we're ready to move
+
+03:25.450 --> 03:33.060
+on to a really good set of skills section.
+
+03:33.590 --> 03:34.170
+Right.
+
+03:34.260 --> 03:38.550
+And really can you just go ahead to make sure this is styling.
+
+03:38.890 --> 03:40.460
+So we have the main sites.
+
+03:40.520 --> 03:46.610
+And obviously once we're done with the banner we need to make a comment and this is going to be actually
+
+03:46.640 --> 03:48.420
+a skills section right.
+
+03:48.440 --> 03:56.910
+So again we got to war here and create a comment and we're going to say this is going to be Skills section.
+
+03:56.910 --> 04:01.110
+I don't know if we can create hashtags we can i mean really depends.
+
+04:01.150 --> 04:05.340
+Just sometimes those hashtags actually help you to see everything better right.
+
+04:05.420 --> 04:10.580
+Or here we're going to scroll down right so we can see that in this size right and we're going to start
+
+04:10.580 --> 04:12.010
+styling here.
+
+04:12.200 --> 04:17.310
+We're going to say this is going to be skills first and then we're going to have a few things right.
+
+04:17.430 --> 04:22.660
+There's going to be Patti and the padding is actually going to be 60 pixels or you doing this sort of
+
+04:22.670 --> 04:25.470
+bottom and actually on the sides we're going to leave it zero.
+
+04:25.470 --> 04:30.770
+All right then we'll have a background color and the background color over here is going to be this
+
+04:31.060 --> 04:34.280
+B E B B B.
+
+04:34.400 --> 04:38.060
+And then it can be seven a 4 right.
+
+04:38.150 --> 04:41.310
+So let me just make sure that I have this color over here.
+
+04:41.510 --> 04:44.490
+B B C Yeah that's the great one right.
+
+04:44.510 --> 04:47.100
+I was just kind of confused when I put it in there or not.
+
+04:47.130 --> 04:53.050
+All right so now we have a skills that we would want a skills container.
+
+04:53.120 --> 05:01.090
+So here we get the right skills container and what we have over here is going to be a Mac with or hear
+
+05:01.090 --> 05:06.170
+like this I'm not going to say this is going to be ninety five wii you.
+
+05:06.240 --> 05:09.260
+Right so this is going to be for a few.
+
+05:09.700 --> 05:11.270
+When is horizontally right.
+
+05:11.440 --> 05:16.600
+So what we're doing or here we're just setting it so it doesn't expand more like we're just creating
+
+05:16.600 --> 05:17.340
+a little padding.
+
+05:17.380 --> 05:17.900
+Right.
+
+05:17.920 --> 05:19.700
+We're also good right away going to center.
+
+05:19.750 --> 05:20.320
+Right.
+
+05:20.320 --> 05:21.580
+Some say margin.
+
+05:21.580 --> 05:24.430
+0 auto right.
+
+05:24.560 --> 05:28.760
+So I can see that the whole container actually contains all these articles.
+
+05:28.870 --> 05:34.600
+I'm just putting in the center and we're saying that we don't want it to be more than 95 or 95 should
+
+05:34.600 --> 05:40.400
+be the max we're all going to say skills and we're going to say who I am and what should we do with
+
+05:40.460 --> 05:41.410
+the item right.
+
+05:41.410 --> 05:47.380
+So here we're going to set x to y line center and so that in the center margin and margin is going to
+
+05:47.380 --> 05:49.770
+be only the top and or here's zero.
+
+05:49.810 --> 05:50.400
+All right.
+
+05:50.410 --> 05:52.510
+So you can see that we just created these margins.
+
+05:52.510 --> 05:57.880
+This was the most important part for us on the small screen so they're not stacking into each other.
+
+05:57.880 --> 05:58.670
+Right.
+
+05:58.720 --> 06:05.720
+And then we're going to have a skills item phantasm that's all going to go here and the same skills
+
+06:06.890 --> 06:09.920
+and I'm going to say phantasm.
+
+06:10.120 --> 06:11.650
+And what should happen right.
+
+06:11.650 --> 06:16.660
+So here we're going to say font size and this is going to be 60 pixels and so we're going to make them
+
+06:16.660 --> 06:25.920
+big and we're going to have color let's say hash tag or here of 1 2 1 9 1 7 1 6 right.
+
+06:25.960 --> 06:27.800
+So can I make them black.
+
+06:27.840 --> 06:30.700
+They're going to have a letter spacing right.
+
+06:30.700 --> 06:33.780
+And we're going to say letter spacing one pixel.
+
+06:33.860 --> 06:39.300
+So we're going to make them a little bit less stacked together right here.
+
+06:39.340 --> 06:44.880
+This is going to be skills and we're going to see them and we're going to have heading one right.
+
+06:44.980 --> 06:46.390
+And what should happen.
+
+06:46.390 --> 06:49.650
+We're going to say this is going to be fun size here.
+
+06:49.680 --> 06:53.320
+It's not fun this play font size.
+
+06:53.320 --> 07:00.850
+And we're going to say font size is going to be 30 pixels right over here to me and we're going to have
+
+07:00.940 --> 07:07.530
+a letter spacing of two pixels or spacing two pixels.
+
+07:07.750 --> 07:13.980
+Then we're going to have a actual margin and you can see actually over here this was completely unnecessary.
+
+07:14.010 --> 07:16.920
+No one was putting a letter spacing or here right.
+
+07:16.920 --> 07:23.280
+It doesn't make sense spacing I needed or here for my heading and then I'm going to have a margin of
+
+07:23.340 --> 07:29.890
+no real margin is going to be 30 pixels and zero or here and the color right and what is going to be
+
+07:29.890 --> 07:34.440
+the color this is going to be hashtag e 6 8.
+
+07:34.650 --> 07:37.860
+And that is going to be EF 2 EF 2.
+
+07:38.240 --> 07:45.640
+So we're going to make this call and then we're going to say text transform text transform I'm not going
+
+07:45.640 --> 07:48.460
+to say uppercase or this.
+
+07:48.550 --> 07:54.970
+Now that we have it uppercase we have a few three more rules to actually create.
+
+07:55.040 --> 07:59.880
+First it's going to be for a paragraph and then the next to is actually as we're making it responsive
+
+08:00.140 --> 08:07.630
+Let's or here we're going to say skills and say item and paragraph and what should happen.
+
+08:07.630 --> 08:14.410
+So first we're going to say to do with sexual it should be only 75 percent to 75 percent.
+
+08:14.690 --> 08:17.350
+Then again we need to make the trek with the margin right.
+
+08:17.350 --> 08:21.000
+So we're actually sitting in the center and then we're going to have a color.
+
+08:21.100 --> 08:21.460
+Right.
+
+08:21.460 --> 08:28.760
+And the color is going to be hash tag e 0 he and they're all going to have to the be right.
+
+08:28.930 --> 08:34.020
+So now we have a color and then we would want a medium screens for responsiveness right.
+
+08:34.270 --> 08:41.230
+So we're going to say it's going to be a year and screen or here and then we're going to say hand and
+
+08:41.230 --> 08:52.590
+for the men with white men with over here like this and then we're going to start with 576 576 pixels.
+
+08:52.810 --> 08:58.160
+And then what we're going to say is we would want to create all these brackets right.
+
+08:58.220 --> 09:03.790
+And we're going to say this is going to be for the skills container container and then we're going to
+
+09:03.790 --> 09:11.350
+say that this is going to be displayed red red here and we're going to say great template columns on
+
+09:11.350 --> 09:16.630
+it's own grade red template template columns.
+
+09:16.630 --> 09:21.190
+Right now we're here we're going to write and this is going to be one fraction and one fraction.
+
+09:21.190 --> 09:26.440
+So basically what we're saying is let's just divided actually in half right.
+
+09:26.620 --> 09:29.080
+Exactly and have just divided and be done with it.
+
+09:29.110 --> 09:29.690
+Right.
+
+09:29.740 --> 09:34.520
+And also if we want right away we can add an actual grid map right.
+
+09:34.560 --> 09:38.690
+So we're going to say that we're just grid or here call them gap.
+
+09:38.920 --> 09:43.720
+And so we need to find this gap and this is basically what is the gap going to be between the columns
+
+09:43.720 --> 09:44.300
+right.
+
+09:44.320 --> 09:46.240
+We're going to say let's say something like wanting him.
+
+09:46.240 --> 09:46.540
+Right.
+
+09:46.540 --> 09:51.910
+So you can see or hear you can start practicing different actually measurements right.
+
+09:51.910 --> 09:56.470
+Not just pixels but this is the new one the fraction right which pretty much divides it.
+
+09:56.470 --> 09:56.990
+Right.
+
+09:57.190 --> 10:04.000
+And here this is what he writes It's not that Newbert anyway or here would want to do is actually create
+
+10:04.000 --> 10:04.940
+another one right.
+
+10:05.080 --> 10:08.260
+So this is where we are starting from the smaller screen.
+
+10:08.260 --> 10:08.840
+Right.
+
+10:08.860 --> 10:15.520
+So if I save this one right and if I refresh over here this web agency right now you can see right now
+
+10:15.760 --> 10:17.240
+this is what I'm going to have right.
+
+10:17.410 --> 10:21.070
+But as I'm going to the bigger screen this is not what I want right.
+
+10:21.100 --> 10:23.640
+I obviously would want a four of them right.
+
+10:23.800 --> 10:29.520
+So what's going to happen is if I go back over here right I'm going to change the rule.
+
+10:29.550 --> 10:30.290
+Right.
+
+10:30.460 --> 10:33.730
+And we're not as much just going to change it or going out a new one.
+
+10:33.820 --> 10:35.750
+So there was a first media screen.
+
+10:35.920 --> 10:36.330
+Right.
+
+10:36.490 --> 10:42.810
+And this one is going to be for a nine and two I had to go back on here and say nine any two.
+
+10:42.880 --> 10:48.640
+And instead this time even one fraction right what we're going to say this is going to be able to use
+
+10:48.700 --> 10:50.760
+a repeat method right.
+
+10:50.770 --> 10:51.640
+Repeat.
+
+10:51.760 --> 10:58.610
+No we are all going to write and we would want a four times repeat and one for action right here one
+
+10:58.630 --> 10:59.350
+for action.
+
+10:59.500 --> 11:01.450
+And this is another way how to write it.
+
+11:01.570 --> 11:05.720
+We could have written one fraction one fraction one fraction one fraction right.
+
+11:05.890 --> 11:11.610
+But we can also shorten by just writing repeat then many times and what kind of amount.
+
+11:11.620 --> 11:11.950
+Right.
+
+11:11.950 --> 11:16.220
+So or hear what I'm going to do is make the grade gap a little bit less.
+
+11:16.360 --> 11:20.830
+So let's say I'm going to make something like five pixels just for for fun of it.
+
+11:20.830 --> 11:22.690
+In the beginning and then we'll see how it looks like.
+
+11:22.690 --> 11:23.290
+Right.
+
+11:23.290 --> 11:29.020
+So let's refresh and then we go back over here and I can see that now we have four of them right.
+
+11:29.020 --> 11:31.070
+And this is how they're actually going to look.
+
+11:31.240 --> 11:33.220
+And this is going to be it for this section.
+
+11:33.280 --> 11:35.840
+And now we are ready to move on to the next section.

@@ -1,0 +1,262 @@
+1
+
+00:00:00,000  -->  00:00:04,589
+Alright guys, so let's start talking
+about classes and objects and what those
+
+2
+
+00:00:04,589  -->  00:00:11,969
+are. So in order to do that I'm going to
+change this script a bit so we have two
+
+3
+
+00:00:11,969  -->  00:00:17,220
+enemies attacking us. We're actually
+going to create full-fledged enemies by
+
+4
+
+00:00:17,220  -->  00:00:23,760
+using a class. So, let's go ahead and
+create a class and how you do that is
+
+5
+
+00:00:23,760  -->  00:00:28,980
+use the keyword class, and then you name your class similar to how you would name
+
+6
+
+00:00:28,980  -->  00:00:37,110
+a function, so let's go ahead and "class Enemy:" You actually don't need the parentheses
+
+7
+
+00:00:37,110  -->  00:00:43,440
+there. What we're going to do is we're
+going to set attack power within this
+
+8
+
+00:00:43,440  -->  00:00:53,640
+class, so all enemies are going to have
+attack equal to let's say sixty "atkl = 60" and
+
+9
+
+00:00:53,640  -->  00:01:03,660
+again we're going to set two. So attack high is going to be 80 "atkh = 80" So a class is a
+
+10
+
+00:01:03,660  -->  00:01:10,530
+blueprint for objects, so rather than
+having to create manually the same
+
+11
+
+00:01:10,530  -->  00:01:16,830
+object over, and over, and over we can
+use a class to set certain
+
+12
+
+00:01:16,830  -->  00:01:21,299
+variables and functions that are going
+to be the same across all instance
+
+13
+
+00:01:21,299  -->  00:01:26,070
+instantiations of this class called an
+object. So, you guys will see what I mean
+
+14
+
+00:01:26,070  -->  00:01:35,009
+here pretty soon. So what we have here is
+a class, and each, well hold on, let's
+
+15
+
+00:01:35,009  -->  00:01:46,020
+just create a function here called
+"def getAtk(self):" and you'll notice that as soon
+
+16
+
+00:01:46,020  -->  00:01:51,090
+as I create the parentheses there at the
+end of any function within a class it
+
+17
+
+00:01:51,090  -->  00:01:57,899
+passes itself the self variable, and what
+that is basically it's the entire
+
+18
+
+00:01:57,899  -->  00:02:04,829
+object that we instantiate from this
+class, and you'll see what I mean but what
+
+19
+
+00:02:04,829  -->  00:02:08,789
+we can do is we can print out this
+"print(
+
+20
+
+00:02:09,300  -->  00:02:13,900
+let's say the attack low variable "print( )" Now you might be
+
+21
+
+00:02:13,900  -->  00:02:20,049
+thinking ok, just print "atkl" that
+wouldn't work actually because there's
+
+22
+
+00:02:20,049  -->  00:02:24,760
+no variable outside of this class named
+that.
+
+23
+
+00:02:24,760  -->  00:02:31,000
+So what we need to do is we need to use
+"self" So think of self as this instance
+
+24
+
+00:02:31,000  -->  00:02:37,420
+of the object, so we're going to print
+this instances attack low-end,
+
+25
+
+00:02:37,420  -->  00:02:40,569
+"(self.atkl)" So what we can do there,
+
+26
+
+00:02:40,569  -->  00:02:46,150
+I'm going to comment out the rest of my
+code, we're gonna be reusing it, but we're
+
+27
+
+00:02:46,150  -->  00:02:53,470
+not reusing it right now. So, let's just get
+rid of that for now, and what we're gonna
+
+28
+
+00:02:53,470  -->  00:03:03,310
+do is we're going to, we're going to get
+the attack power of the class. So, if we
+
+29
+
+00:03:03,310  -->  00:03:08,950
+were just to run "getAtk" it's not
+going to be able to find it because this
+
+30
+
+00:03:08,950  -->  00:03:14,170
+doesn't exist in the global scope of
+things. What we need to do first is we
+
+31
+
+00:03:14,170  -->  00:03:18,430
+need to instantiate the enemy class into
+it's own object, so what we're going to do
+
+32
+
+00:03:18,430  -->  00:03:28,120
+is we're going to type "enemy1 = Enemy( )" and now what we can do is we can
+
+33
+
+00:03:28,120  -->  00:03:35,409
+call "enemy1.getAtk( )" and as
+you'll see it
+
+34
+
+00:03:35,409  -->  00:03:39,220
+autocompleted that because it knows what we're doing. So let's save this and run
+
+35
+
+00:03:39,220  -->  00:03:43,359
+it, and we'll see that one time it
+prits out 60 because there's one
+
+36
+
+00:03:43,359  -->  00:03:52,239
+instantiation of this class. Now what
+happens if we create another object
+
+37
+
+00:03:52,239  -->  00:03:57,849
+"enemy2" and we also get the attack
+power of that enemy? So what we're going
+
+38
+
+00:03:57,849  -->  00:04:02,349
+to do is hit the play button here, the
+start button, and it's going to run on
+
+39
+
+00:04:02,349  -->  00:04:05,229
+this class well it's going to
+instantiate the class twice so it's
+
+40
+
+00:04:05,229  -->  00:04:10,030
+going to create two objects, and then for
+each one of those it's going to, it's
+
+41
+
+00:04:10,030  -->  00:04:17,989
+going to run this function which prints
+out it's attack power. So
+
+42
+
+00:04:17,989  -->  00:04:23,960
+that's how to create a
+class and how to create an object from
+
+43
+
+00:04:23,960  -->  00:04:28,250
+that class. I hope that you guys can kind
+of understand what we're doing, we're
+
+44
+
+00:04:28,250  -->  00:04:33,319
+going to get more into this actually in
+the next few videos, and we're going
+
+45
+
+00:04:33,319  -->  00:04:37,340
+to be using classes for the final
+project at this module as well.

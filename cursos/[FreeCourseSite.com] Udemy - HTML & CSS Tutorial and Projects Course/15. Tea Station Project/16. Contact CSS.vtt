@@ -1,0 +1,403 @@
+WEBVTT
+
+00:00.150 --> 00:00.230
+No.
+
+00:00.380 --> 00:00.960
+OK.
+
+00:01.020 --> 00:02.420
+This looks very good.
+
+00:02.430 --> 00:04.700
+But probably that is not the look that we want.
+
+00:04.700 --> 00:08.050
+So why don't we head over back to this saves us what's right.
+
+00:08.060 --> 00:08.580
+Contact.
+
+00:08.580 --> 00:13.280
+So we're going to be working on this section copying pasted let's say end of contact.
+
+00:13.690 --> 00:18.150
+Now let's start working with these parts first and foremost I would just want to work with the contact
+
+00:18.150 --> 00:20.810
+section and that little bit of padding on our bottom.
+
+00:21.030 --> 00:23.490
+So we're going to say purring or you know it's.
+
+00:23.510 --> 00:26.670
+Padding on the top adding on top.
+
+00:26.680 --> 00:27.700
+So where are you.
+
+00:27.840 --> 00:29.030
+Right here.
+
+00:29.100 --> 00:30.420
+This is gonna be to our.
+
+00:30.560 --> 00:31.980
+A little bit of more padding.
+
+00:32.040 --> 00:37.120
+Then we also would want to start working with this contact item and I would want to add some margin
+
+00:37.120 --> 00:37.790
+in between them.
+
+00:38.340 --> 00:45.650
+So well first of all gonna have to select the class of contact item that was our class and then let's
+
+00:45.640 --> 00:48.240
+write Ma Jun bottom where are you.
+
+00:48.720 --> 00:48.950
+Here.
+
+00:48.960 --> 00:50.480
+Let's do like three areas.
+
+00:50.670 --> 00:56.470
+So now between each and every item that I have the contact item I will gonna have the margin.
+
+00:56.700 --> 01:02.280
+I also would like to start working with contact title so this is something that's gonna be interesting
+
+01:02.280 --> 01:03.820
+because we're gonna be styling.
+
+01:04.110 --> 01:07.740
+So going to say color first of all and the color is gonna be the primary.
+
+01:07.740 --> 01:10.770
+Now in this case this should turn green.
+
+01:10.980 --> 01:13.350
+And sure enough it does what else I would like.
+
+01:13.410 --> 01:21.510
+Well we can do font family on family is gonna be to the slanted text so let's write where or let's find
+
+01:21.510 --> 01:24.670
+this bad boy and this is gonna be our slanted text.
+
+01:24.670 --> 01:26.650
+Now the actress is gonna look like this.
+
+01:26.670 --> 01:33.480
+We can also add maybe text transform uppercase uppercase and I keep on adding all the time these quotation
+
+01:33.480 --> 01:39.120
+marks and that's probably I'm still getting used to my new keyboard but it takes me a long time.
+
+01:39.570 --> 01:46.380
+Oh it's also the letter spacing I would like to right now show you what's really nifty about the calc
+
+01:46.380 --> 01:51.420
+function if you remember when we covered it as well as how we can use the variables.
+
+01:51.600 --> 01:58.320
+So the calc function allowed us to do the mathematical operations and in our case we would want to say
+
+01:58.350 --> 01:58.630
+okay.
+
+01:58.650 --> 02:02.380
+So we have a spacing and for this we do have our variable.
+
+02:02.460 --> 02:04.170
+So we had letter spacing zero point four.
+
+02:04.860 --> 02:11.100
+But what if I would want to have the bigger letter spacing but not only bigger I would want to say let's
+
+02:11.100 --> 02:14.430
+say twice as big as my normal variable.
+
+02:14.430 --> 02:18.000
+So what I can do is I can pass the variable within this column function.
+
+02:18.000 --> 02:23.180
+Well I'm going to be looking for a letter spacing and then we can create a magical operation.
+
+02:23.190 --> 02:27.840
+So what I'm saying right now is make the letter spacing but make it double the size.
+
+02:27.840 --> 02:33.710
+So that's also something really nifty whatever you need to use the caulk function remember that if you're
+
+02:33.720 --> 02:39.450
+using developed variables you can do nice math operations with what else I would like.
+
+02:39.450 --> 02:45.160
+Well we can also do probably font size bigger font size.
+
+02:45.180 --> 02:46.230
+I don't know.
+
+02:46.230 --> 02:54.660
+One point six something like this one font size ramps bigger and margin bottom is gonna be I don't know
+
+02:54.660 --> 03:01.920
+zero point five I think that should do zero point five our AMS is gonna be our margin bottom are what
+
+03:01.920 --> 03:09.830
+else we have where we have the contact text so contact text there's gonna be our next target.
+
+03:10.290 --> 03:17.220
+And for this guy this is gonna be very actually simple text transform not emphasis Style Text transform
+
+03:17.220 --> 03:18.260
+is gonna be uppercase.
+
+03:18.300 --> 03:23.700
+So this is how we're gonna be working with this guy and then we're gonna be starting to work with portion
+
+03:23.700 --> 03:24.630
+control.
+
+03:24.630 --> 03:26.270
+Now what was the font control.
+
+03:26.280 --> 03:31.740
+Well the form control was each and every input that will work and the way we're gonna start styled this
+
+03:31.740 --> 03:38.610
+guy is going to be form control also in selecting this class right now and what kind of styles would
+
+03:38.610 --> 03:40.580
+like first of all wanted displayed.
+
+03:40.580 --> 03:47.870
+BLOCK Because at the moment it is displayed in line because all of them are one by one side by side.
+
+03:48.020 --> 03:53.970
+So we're not in line but I would want them to be blocked so now they're spanning all across.
+
+03:53.970 --> 03:59.070
+And what I'm seeing here is that there is going to be some kind of mistake already or you know I'm not
+
+03:59.070 --> 03:59.510
+mistake.
+
+03:59.520 --> 04:01.120
+I just need to add the.
+
+04:01.290 --> 04:04.070
+So let's say here that the width is going to be a hundred percent.
+
+04:04.290 --> 04:08.800
+And I'm just gonna make sure that all of them are working and I can see that the email is not correct.
+
+04:09.150 --> 04:15.630
+And the way that I can see that not only email is not correct but actually the name also is the fact
+
+04:15.630 --> 04:17.080
+that I missed out here.
+
+04:17.100 --> 04:21.660
+So control and I was in control and now this should work.
+
+04:21.720 --> 04:25.970
+So now all of them are displayed block and the with us in person.
+
+04:26.820 --> 04:30.350
+And then I would like to get rid of the border so.
+
+04:30.390 --> 04:30.680
+All right.
+
+04:30.680 --> 04:37.980
+Border is gonna be known in case but later on we're gonna have the border in the bottom because if we're
+
+04:37.980 --> 04:43.170
+looking at the finished project this is gonna be obviously what we're having right now but we see or
+
+04:43.170 --> 04:48.360
+hear that we we're going to have the bar in the bottom so that's gonna be our next challenge of doing
+
+04:48.360 --> 04:50.540
+border bottom.
+
+04:50.590 --> 04:54.720
+And let's say two pixels solid.
+
+04:54.720 --> 04:58.280
+So that type of border with a primary color.
+
+04:58.320 --> 05:02.770
+So let's read primary color and this will gonna be our border master.
+
+05:03.420 --> 05:06.930
+We also have the outline now whereas the outline coming in.
+
+05:07.100 --> 05:10.780
+So let's say if I'm gonna go back to the project that we currently working.
+
+05:10.950 --> 05:13.470
+And if you click on it notice you have this blue line.
+
+05:13.980 --> 05:21.030
+So if you want to get rid of it you just need to write outline and we're gonna set this equal to none.
+
+05:21.120 --> 05:26.700
+Also what the margin margins then we too are aims top bottom and zero left and right.
+
+05:27.120 --> 05:34.230
+So we're just going to add a little bit of margin then we can do padding one point three arms and zero
+
+05:34.260 --> 05:38.820
+again left and right there's gonna be no padding and then top and bottom there's gonna be one point
+
+05:38.820 --> 05:39.790
+three.
+
+05:39.840 --> 05:42.240
+We have also font size and you know what.
+
+05:42.240 --> 05:43.620
+Let's make this a little bit smaller.
+
+05:44.900 --> 05:51.710
+You can do like zero point five zero point eight five arms.
+
+05:51.810 --> 05:58.770
+That's gonna be our fun size and we can maybe add also the font weight onto it is gonna people now as
+
+05:58.770 --> 06:03.720
+you're looking at it you're probably thinking that we're styling this and that is true some of styles
+
+06:03.720 --> 06:07.410
+are being applied right now to the place holder that we're having here.
+
+06:07.740 --> 06:11.490
+However the moment I'm gonna start dialing not as the this is gonna be text that we're actually going
+
+06:11.490 --> 06:12.430
+to be typing.
+
+06:12.630 --> 06:16.700
+Now what I would like to do is style this place holder a little bit different than the text that I'm
+
+06:16.710 --> 06:20.360
+going to be typing so I'm gonna type it here just so you can see what will be a difference.
+
+06:20.370 --> 06:27.600
+So this is gonna be the text we're gonna be typing but we do have the selector sudo selector port of
+
+06:27.600 --> 06:33.820
+place holder so we can say one control since this is gonna be in the class and then we can write placeholder.
+
+06:33.870 --> 06:39.420
+Now what I would like to style in the place holder first of all the color and let's do primary color
+
+06:40.200 --> 06:43.960
+primary color then we're gonna be text transforming.
+
+06:44.220 --> 06:50.200
+So we're gonna see a text transform and we would like to transform and uppercase and letter spacing.
+
+06:50.400 --> 06:52.200
+Let's do another letter spacing.
+
+06:52.200 --> 06:55.270
+But in this case we're not going to do any caulk function or anything.
+
+06:55.320 --> 06:57.100
+We're just gonna do the letter spacing.
+
+06:57.150 --> 07:02.010
+So in this case I'm working with just a place holder because my text is not changing.
+
+07:02.070 --> 07:03.320
+Don't believe me.
+
+07:03.450 --> 07:09.300
+I'm going to start typing and you notice this is gonna be my text and that is gonna be a place holder.
+
+07:09.300 --> 07:10.600
+Awesome.
+
+07:10.650 --> 07:18.300
+Last thing probably what we would want is to set up the relevant layout meaning responsive layout as
+
+07:18.300 --> 07:26.180
+we're changing the screen size so for the second we're gonna use the media query media screen and and
+
+07:26.190 --> 07:33.590
+I mean with you know what I saw this one needs to be in parentheses with and here let's say like this.
+
+07:34.250 --> 07:36.730
+Let's say that starting from nine hundred ninety two.
+
+07:36.740 --> 07:43.280
+So the moment we get to nine hundred ninety two I would like both of them to be 50 percent as well as
+
+07:43.280 --> 07:49.100
+I would like to add a little bit of padding because I obviously don't want them to be smushed together
+
+07:49.490 --> 07:54.410
+as you know what's happening is we're not adding any padding then they're all gonna be literally side
+
+07:54.410 --> 07:55.060
+by side.
+
+07:55.190 --> 08:01.160
+So I'm gonna say contact info then also I'm gonna make a comma and contact form.
+
+08:01.310 --> 08:06.720
+So those two columns that we had then we're gonna say what we would want to style them.
+
+08:06.830 --> 08:13.760
+Well we're gonna say float float is gonna be to the left as well as the width is gonna be 50 percent
+
+08:14.240 --> 08:17.010
+but we do want to add a little bit of panic.
+
+08:17.150 --> 08:20.640
+Now I don't want any padding here top bottom.
+
+08:20.690 --> 08:22.250
+I just want left and right.
+
+08:22.250 --> 08:23.790
+That is how this is gonna work.
+
+08:24.080 --> 08:27.160
+So if I'm gonna go to the finished project known as this is what's gonna happen.
+
+08:27.500 --> 08:30.350
+So at the moment we're gonna get to nine hundred ninety two.
+
+08:30.350 --> 08:35.670
+Then we're gonna have to column layer before that they're just gonna be stacked one on top of each other.
+
+08:35.720 --> 08:41.030
+So that would be my address and then this is how we can contact the actual T station.
+
+08:41.210 --> 08:46.460
+And then once I set them side by side this is all taken we can add a little bit of padding here for
+
+08:46.460 --> 08:50.330
+the contact info because I would like to push it down a little bit.
+
+08:50.330 --> 08:57.260
+So I'm gonna say contact info so separately uh here we're gonna be looking for the pairing of let's
+
+08:57.260 --> 09:01.890
+say top and we can go with I don't know far five areas.
+
+09:02.270 --> 09:07.160
+Once we say it then this is going to look a little bit more presentable and yeah this is how we can
+
+09:07.160 --> 09:09.640
+work with contact action style.
+
+09:09.890 --> 09:12.920
+RH The amount and now we have nice looking Contact section.

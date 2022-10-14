@@ -1,0 +1,466 @@
+1
+
+00:00:00,000  -->  00:00:05,130
+Alright guys, welcome back. So, in the
+previous video we learned about what
+
+2
+
+00:00:05,130  -->  00:00:09,750
+PyMongo is and what mongodb is and how to get a basic setup on your machine going.
+
+3
+
+00:00:09,750  -->  00:00:13,559
+So, what we're going to do here we're
+going to set up another script and we're
+
+4
+
+00:00:13,559  -->  00:00:17,550
+actually going to connect to a database
+and we're going to be inserting a
+
+5
+
+00:00:17,550  -->  00:00:22,680
+document into a collection. So let's go
+ahead and start a Python shell here.
+
+6
+
+00:00:22,680  -->  00:00:33,510
+We're going to "import pymongo" and "from pymongo import MongoClient" So we've
+
+7
+
+00:00:33,510  -->  00:00:39,360
+imported everything that we need to
+right now, let's go ahead and set up a
+
+8
+
+00:00:39,360  -->  00:00:43,440
+client. So again this is going to
+establish a connection to the mongodb
+
+9
+
+00:00:43,440  -->  00:00:48,600
+instance which is system-wide, it's the
+mongodb service that's running on your
+
+10
+
+00:00:48,600  -->  00:00:49,289
+machine.
+
+11
+
+00:00:49,289  -->  00:00:53,969
+So let's go ahead and create a variable
+called "myClients =
+
+12
+
+00:00:53,969  -->  00:00:58,649
+MongoClient( )" and we're going to let it
+connect on the default hosting port,
+
+13
+
+00:00:58,649  -->  00:01:03,420
+but if you didn't want to you'd connect
+essentially like this, host and port. The
+
+14
+
+00:01:03,420  -->  00:01:07,470
+host you would have to wrap in
+quotations because it's going to be a
+
+15
+
+00:01:07,470  -->  00:01:14,159
+string, chances are. So now that we've got
+a client instantiated we're going to be
+
+16
+
+00:01:14,159  -->  00:01:20,220
+creating a database, so how we do that is
+we can access the database as an object.
+
+17
+
+00:01:20,220  -->  00:01:24,960
+So the client is an object let's go
+ahead and write "db" this is going to be
+
+18
+
+00:01:24,960  -->  00:01:29,970
+our database "=myClient."
+because we're accessing a method in this
+
+19
+
+00:01:29,970  -->  00:01:34,470
+class, and the method is just going to be
+the name of our database. Now you can do
+
+20
+
+00:01:34,470  -->  00:01:39,270
+it in two different ways. You can either
+access it like this with the "." and so
+
+21
+
+00:01:39,270  -->  00:01:45,149
+you're going to type "mydatabase" or
+if you don't want to access it like that
+
+22
+
+00:01:45,149  -->  00:01:49,860
+for instance if you have dashes in it
+you're going to access it like this so
+
+23
+
+00:01:49,860  -->  00:01:52,860
+"["my-database"]"
+
+24
+
+00:01:53,900  -->  00:01:58,370
+Let's go ahead i'm going to use a
+standard approach here and i'm going to
+
+25
+
+00:01:58,370  -->  00:02:08,210
+write "mydb" Now that we've got the
+database happening we can get a
+
+26
+
+00:02:08,210  -->  00:02:13,700
+collection. So if you've done any mySQL at all, or any database stuff, you
+
+27
+
+00:02:13,700  -->  00:02:16,520
+know that in the database
+
+28
+
+00:02:16,520  -->  00:02:21,890
+there's another level down called tables,
+and the tables you can have a
+
+29
+
+00:02:21,890  -->  00:02:27,380
+user's table, a posts table, settings table,
+and each table would have a different
+
+30
+
+00:02:27,380  -->  00:02:32,780
+number of columns. So, in the user's table
+you might have username, email address,
+
+31
+
+00:02:32,780  -->  00:02:38,209
+and password so there would be three columns for each entry into that table, and each
+
+32
+
+00:02:38,209  -->  00:02:44,480
+entry would be essentially in Mongo what
+we call a document. So in Mongo the table
+
+33
+
+00:02:44,480  -->  00:02:49,250
+is called a collection, so let's go ahead
+and create a collection called users. So
+
+34
+
+00:02:49,250  -->  00:02:57,709
+in order to instantiate a collection you
+just create a variable and you access DB
+
+35
+
+00:02:57,709  -->  00:03:03,920
+and then your collection, so in this instance it's going to be users "users = db.users" So we've
+
+36
+
+00:03:03,920  -->  00:03:10,250
+got our collection created and just as
+in defining the database if you have
+
+37
+
+00:03:10,250  -->  00:03:16,610
+dashes in here, you can access it in the
+way that a dictionary is accessed so
+
+38
+
+00:03:16,610  -->  00:03:19,610
+using square brackets and quotations.
+
+39
+
+00:03:20,330  -->  00:03:23,900
+So now that we've gotta a collection
+created this is what we need to do
+
+40
+
+00:03:23,900  -->  00:03:29,000
+really to be able to insert documents. So,
+in order to insert documents let's just
+
+41
+
+00:03:29,000  -->  00:03:34,130
+go ahead ahead and create a user
+object. So, this is going to be equal to
+
+42
+
+00:03:34,130  -->  00:03:38,299
+"user1" we're going to store in that
+variable and it's going to be a
+
+43
+
+00:03:38,299  -->  00:03:41,900
+dictionary, so let's go ahead open up the
+dictionary with "{ }"
+
+44
+
+00:03:41,900  -->  00:03:51,260
+let's add "username": "nick", "password": "myverysecurepassword",
+
+45
+
+00:03:51,260  -->  00:04:01,070
+"favorite_number": 445"
+
+46
+
+00:04:07,590  -->  00:04:14,910
+Alright and let's also add a list inside of inside of this document.
+
+47
+
+00:04:14,910  -->  00:04:23,310
+So as you can store lists in dictionaries in Python, you can also
+
+48
+
+00:04:23,310  -->  00:04:32,070
+store lists as a value, for a key, in a
+dictionary, in a Mongo collection. So, you'll
+
+49
+
+00:04:32,070  -->  00:04:35,580
+see what I mean if you don't, I think I've
+explained it pretty straightforward. So,
+
+50
+
+00:04:35,580  -->  00:04:37,169
+"hobbies":
+
+51
+
+00:04:37,169  -->  00:04:40,290
+let's go ahead and I have more than one hobby, so instead of opening this with quotes we
+
+52
+
+00:04:40,290  -->  00:04:44,100
+actually need to use square brackets
+here and create a list. So, i'm going to
+
+53
+
+00:04:44,100  -->  00:04:55,229
+write ["python", "games", "pizza"]}" so these are my hobbies. Now I'm going to hit enter
+
+54
+
+00:04:55,229  -->  00:05:01,590
+and this is going to create the user1
+variable which we can now use to import
+
+55
+
+00:05:01,590  -->  00:05:10,080
+well to insert a document into our
+database. So, our collection here is
+
+56
+
+00:05:10,080  -->  00:05:14,850
+called users so what we need to do, what we're going to do, is
+
+57
+
+00:05:14,850  -->  00:05:19,740
+we're going to insert it, but also the
+inserted object that has just been
+
+58
+
+00:05:19,740  -->  00:05:26,250
+inserted into the database is going to
+be, is going to return the posts ID. So
+
+59
+
+00:05:26,250  -->  00:05:31,620
+let's go ahead and insert one document
+here. So, in order to do this let's create
+
+60
+
+00:05:31,620  -->  00:05:35,850
+a variable called"user_id =" because again
+what's going to be returned from this
+
+61
+
+00:05:35,850  -->  00:05:43,680
+insert function is the ID of the user
+as it's put in. So, "user_id = users.
+
+62
+
+00:05:43,680  -->  00:05:52,830
+insert_one( )" and it's a method of the
+collection. So we just pass in the
+
+63
+
+00:05:52,830  -->  00:05:57,030
+document here that we just created or
+the dictionary. So we're going to pass in "user1"
+
+64
+
+00:05:57,030  -->  00:06:04,440
+And now we can, well this is the part
+that returns the the ID of the inserted
+
+65
+
+00:06:04,440  -->  00:06:11,010
+documents, so I'm just going to type
+".inserted_id" here. Now if I access
+
+66
+
+00:06:11,010  -->  00:06:14,210
+"user_id" you'll see that it's object,
+
+67
+
+00:06:14,210  -->  00:06:23,870
+etc. So i'm going to go ahead and open
+RoboMongo which is a program that
+
+68
+
+00:06:23,870  -->  00:06:28,340
+allows you to browse the data which is
+in your database. So I'm going to connect
+
+69
+
+00:06:28,340  -->  00:06:32,330
+here, and as you can see my database has been created. So let's go into
+
+70
+
+00:06:32,330  -->  00:06:38,990
+collections and you'll see users here,
+let's go in here, and we have an item
+
+71
+
+00:06:38,990  -->  00:06:46,190
+right here, and this is all the data that
+we just put into the
+
+72
+
+00:06:46,190  -->  00:06:49,970
+collection. Now you can also add that
+multiple times, so if i wanted to add
+
+73
+
+00:06:49,970  -->  00:06:53,509
+another user i'm going to come up here,
+i'm just going to change the name for
+
+74
+
+00:06:53,509  -->  00:06:57,139
+now just because i'm very lazy and I
+don't want to retype the whole thing,
+
+75
+
+00:06:57,139  -->  00:07:00,500
+although waiting for this cursor to get
+back to the right point is a little annoying
+
+76
+
+00:07:00,500  -->  00:07:01,490
+as well.
+
+77
+
+00:07:01,490  -->  00:07:08,060
+This user name is going to be "another_user" very creative, and then i'm going to
+
+78
+
+00:07:08,060  -->  00:07:11,690
+insert that one. Did I just insert it,
+
+79
+
+00:07:11,690  -->  00:07:17,810
+ok cool. If i refresh and in PyMongo the way that you do that is
+
+80
+
+00:07:17,810  -->  00:07:26,030
+command + r and you're going to see the second item right there, and you'll see that this one
+
+81
+
+00:07:26,030  -->  00:07:32,719
+is another user, and this one is Nick. That's how to insert one document, in the
+
+82
+
+00:07:32,719  -->  00:07:36,680
+next video we're going to be going over
+how to find a document.

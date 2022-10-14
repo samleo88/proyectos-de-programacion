@@ -1,0 +1,391 @@
+WEBVTT
+
+00:00.360 --> 00:06.340
+Now before we can start working on the project the first thing we would need to do would be a set up.
+
+00:06.510 --> 00:12.870
+Now for those of you who do not want to do the set up together with me under the resources for this
+
+00:12.870 --> 00:18.340
+video there is going to be a set up folder where everything is already going to be completed.
+
+00:18.420 --> 00:24.840
+Now for those of you who actually want to follow First things first and then stop you can see or hear.
+
+00:24.960 --> 00:29.540
+We're going to create a folder and I'm just going to say that this is going to be a flex box.
+
+00:29.730 --> 00:34.150
+So I'm just gonna say your name and we're going to call this a flex box.
+
+00:34.590 --> 00:40.880
+So say we're here and flex marks and let's say Portfolio portfolio here.
+
+00:40.920 --> 00:47.370
+Now once I have all here my folder you can see are here and this is going to be my text editor and I'm
+
+00:47.370 --> 00:52.320
+just going to go over here and I'm going to say open folder and all here in the desktop.
+
+00:52.320 --> 00:55.080
+Hold one open up those flex box put forward.
+
+00:55.400 --> 00:58.800
+And once I open up the file over here first things first.
+
+00:58.860 --> 01:00.930
+Let's create a index actually.
+
+01:00.970 --> 01:03.600
+Now I'm going to say we're here in this age.
+
+01:03.620 --> 01:07.660
+You know then I will going to create a main sucess.
+
+01:07.830 --> 01:12.780
+So I'm going to call this main see SS and then after that we're going to say that this is going to be
+
+01:12.780 --> 01:13.700
+script.
+
+01:13.700 --> 01:14.290
+Yes.
+
+01:14.400 --> 01:18.040
+So I'm going to say on here this is going to be script genius.
+
+01:18.060 --> 01:23.760
+So this is going to be for the nav bar to actually make the button dynamic.
+
+01:23.760 --> 01:29.100
+Now once we have created all the files we can go ahead or here and in the next page.
+
+01:29.160 --> 01:34.520
+Now we can use the fact that we as code by default has a.
+
+01:34.630 --> 01:38.330
+So I'm going to type or here exclamation mark and presto.
+
+01:38.580 --> 01:42.820
+And right away I have my HMO Skelton ready for me on here.
+
+01:42.850 --> 01:48.940
+Let's just change a title and let's say here and this title is actually going to be portfolio.
+
+01:49.290 --> 01:50.900
+For Leo.
+
+01:51.120 --> 01:58.090
+Now once I have the actual portfolio ready now I would want to have a live preview.
+
+01:58.290 --> 02:00.520
+So for this we have few options.
+
+02:00.510 --> 02:06.960
+We can either use a short cut or here if I just right click it you can see that I have my live server.
+
+02:06.960 --> 02:09.660
+So we're going to open up live server.
+
+02:09.900 --> 02:16.050
+Now before that I'm actually going to open up a new window for my chrome here and just make it a little
+
+02:16.050 --> 02:17.000
+bit smaller.
+
+02:17.050 --> 02:23.070
+So once you have open up in a live server you can see that right now this is going to be my portfolio.
+
+02:23.370 --> 02:26.520
+And what I'm going to do here I'm going to place them side by side.
+
+02:26.680 --> 02:31.750
+So I'm going to maximize this guy maximize this guy and I'm going to pull it over here like this.
+
+02:31.980 --> 02:37.250
+And just to have more space when I'm going in there work here I'm just going up for now.
+
+02:37.260 --> 02:38.850
+Close it out right away.
+
+02:38.850 --> 02:41.020
+My side bar or here.
+
+02:41.070 --> 02:44.630
+So once we are done with a set up in the tech center.
+
+02:44.790 --> 02:47.840
+Now let's let's have a look at what things we would need.
+
+02:48.000 --> 02:53.580
+First of all you can see that here this is going to be my images folder and or here you can see that
+
+02:53.670 --> 02:55.350
+I already have all the images.
+
+02:55.350 --> 03:00.810
+So again if you're going to be downloading with a set up folder you right away you going to have all
+
+03:00.810 --> 03:02.010
+these images.
+
+03:02.010 --> 03:03.230
+So here's what I'm going to do.
+
+03:03.240 --> 03:05.340
+I'm just going to drag re-enters folder.
+
+03:05.540 --> 03:12.700
+Now once I have my images in my fluxbox Foro next what I would want is actually funtastic.
+
+03:13.020 --> 03:15.420
+So you can see that I am in the font.
+
+03:15.420 --> 03:16.580
+Awesome website.
+
+03:16.710 --> 03:22.500
+And if you're going to go here and you forgot to click how to use you can see that right away we have
+
+03:22.620 --> 03:27.080
+getting started on the web and we're here this is going to be the Cdn.
+
+03:27.240 --> 03:33.570
+So basically if I'm going to go to these SPG widgets because this is what I would like to use instead
+
+03:33.570 --> 03:34.520
+of weapons.
+
+03:34.720 --> 03:41.280
+And if you're just going to copy the script and place it in in your title tags right away you're going
+
+03:41.280 --> 03:42.870
+to have a phantasm.
+
+03:42.870 --> 03:46.520
+Now what I'm going to do I'm actually going to download some here.
+
+03:46.560 --> 03:51.550
+So if you're going to scroll down over here and you can see that we have a download font.
+
+03:51.570 --> 03:52.310
+Awesome.
+
+03:52.680 --> 03:58.190
+And once I click you can see that it's downloading and or here you can see that help to understand.
+
+03:58.380 --> 04:01.300
+And over here this is basically going explain what we need.
+
+04:01.560 --> 04:07.070
+So here because I want to work with SVGA the only thing we need is all just fine.
+
+04:07.290 --> 04:13.200
+So what I'm going to say here is I'm going to go to my folder wherever I created over here and I'm just
+
+04:13.200 --> 04:18.380
+going up and open up this folder and then I'm going to look in the genius for all of.
+
+04:18.390 --> 04:20.430
+So this is going to be in the file that I need.
+
+04:20.430 --> 04:24.660
+So the only thing that I need is on here just drag this file to my fault.
+
+04:24.890 --> 04:30.520
+So once we're done with it found some next we would need a Google fonts.
+
+04:30.690 --> 04:33.340
+So we're going to say we're here and we would want Google fonts.
+
+04:33.510 --> 04:37.950
+So we're going to open up new fonts now in Google fonts.
+
+04:37.980 --> 04:41.500
+I'm actually going to search for a robot own.
+
+04:41.680 --> 04:47.490
+So here I'm going to type or borrow and you could see or hear this is going to be my rebozo while I
+
+04:47.490 --> 04:48.800
+want cyclical here.
+
+04:48.960 --> 04:52.750
+You can see that it's and show me what type of font is out here.
+
+04:52.890 --> 04:58.530
+But I would want or hear just to include some are going to press on here to that plus sign and you can
+
+04:58.530 --> 05:00.760
+see that it has families like that.
+
+05:00.840 --> 05:04.090
+So again we have few options how we can work here.
+
+05:04.230 --> 05:07.920
+We can either use the link or we can actually do the import.
+
+05:08.180 --> 05:10.090
+And we're actually going to do the import.
+
+05:10.110 --> 05:15.750
+So in our success and our main success would actually need to copy and paste.
+
+05:16.020 --> 05:20.500
+Now before we do that we're going to do a customized and was going to add some stuff.
+
+05:20.640 --> 05:24.800
+So we're going to say that we would want a bold and 700.
+
+05:25.730 --> 05:29.440
+So once we have all here we're going to go back to embed.
+
+05:29.610 --> 05:32.060
+And I was going to say that we would want to importer's.
+
+05:32.160 --> 05:34.160
+So I'm just going to copy and paste this line.
+
+05:34.410 --> 05:35.640
+I'm going to say copy.
+
+05:35.760 --> 05:40.990
+I'm going to go back more here to my tech center now once in my Thaxter.
+
+05:41.070 --> 05:41.860
+I'm going to open up.
+
+05:41.880 --> 05:46.310
+Actually my main success and just copy and paste or here my import.
+
+05:46.560 --> 05:50.330
+And if you know the story here we also need a font family.
+
+05:50.460 --> 05:52.760
+So for this world and to use a body.
+
+05:52.920 --> 05:55.010
+So I'm going to say we're here for the body.
+
+05:55.170 --> 05:59.320
+And I was going to use this fun family robot go mano a mano space.
+
+05:59.580 --> 06:02.300
+So I'm going to copy and paste this over here.
+
+06:02.310 --> 06:05.510
+Right now we have in our body our phone family.
+
+06:05.760 --> 06:08.950
+So we're going to go back to the index actually and Mail.
+
+06:09.120 --> 06:11.670
+And if we're going to say something like Hello world.
+
+06:11.670 --> 06:14.610
+So let's type it over here like this.
+
+06:14.610 --> 06:21.050
+Let's say that we would want a new one and once we have added one I'm going to say we're here.
+
+06:21.070 --> 06:21.890
+This is going to be.
+
+06:21.900 --> 06:23.720
+Hello world.
+
+06:23.970 --> 06:28.200
+And once I type or hear my heading one you can see that nothing's changed.
+
+06:28.410 --> 06:34.950
+And the reason why nothing has changed because we actually need to link the main CSA So here then we
+
+06:34.950 --> 06:37.390
+need to link the actual script.
+
+06:37.620 --> 06:41.640
+And then we also need to make sure that we have the actual font awesome.
+
+06:41.640 --> 06:47.700
+So let's go back to the next issue now and are we're going to say that we would want first to link and
+
+06:47.700 --> 06:50.400
+we would want to link the main services.
+
+06:50.450 --> 06:52.820
+So first we're going to link the main services.
+
+06:52.830 --> 06:55.520
+Once you can see then once I link the main theosis.
+
+06:55.740 --> 07:01.630
+Now I can see that my have my own bottle fonts work and I'm thinking that let's right away.
+
+07:01.650 --> 07:06.730
+And also the Scripture has to say or here script sort of script.
+
+07:06.740 --> 07:10.810
+And for the source we're going to say this is going to be script genius.
+
+07:10.920 --> 07:15.270
+No we're not going to test this right now whether we have actually elected correctly.
+
+07:15.390 --> 07:19.240
+But as you can see if the names match everything should be worked out.
+
+07:19.450 --> 07:23.410
+And after that let's check whether we have some here.
+
+07:23.420 --> 07:30.000
+I'm going to say there's going to be a span element and within the span element what I would want is
+
+07:30.000 --> 07:35.010
+an eye ailment with the classes of yes a home or here.
+
+07:35.250 --> 07:38.040
+And what do FAA and five xo.
+
+07:38.190 --> 07:43.010
+So again as you can see it Emmett is right away suggesting what I'm going to have sort of press thiab
+
+07:43.060 --> 07:46.830
+save it over here and you can see that I don't have my phone does.
+
+07:46.980 --> 07:53.330
+Now I'm going to go up here and we're going to say that we would want to include phone number for that.
+
+07:53.340 --> 07:58.560
+Let's actually add a comment not say that this is going to be the main CSSA here.
+
+07:58.770 --> 08:03.530
+And for this comment was going to say Fonte an OR here.
+
+08:03.780 --> 08:11.070
+Now once I have the common Let's actually link it now for this since this is a javascript file we also
+
+08:11.070 --> 08:12.610
+need to do the scriptorium.
+
+08:12.780 --> 08:15.310
+So we're going to say or hearing that this is going to be scrapped.
+
+08:15.480 --> 08:19.520
+And for the source this time we're just going to say that this is going to be Algie.
+
+08:19.680 --> 08:25.760
+So once you say even you can see or hear that now our phone is working and the last thing that out we
+
+08:25.760 --> 08:29.110
+want to show you is where we can get images now.
+
+08:29.160 --> 08:35.400
+Like I said for those of you who are going to be actually downloading the file the set up folder right
+
+08:35.400 --> 08:43.230
+away have the images but oh here are just like a lot of pixels where you can get a high quality and
+
+08:43.230 --> 08:44.430
+free image.
+
+08:44.730 --> 08:51.120
+So once we are done with our set up we can actually start working on our portfolio project.

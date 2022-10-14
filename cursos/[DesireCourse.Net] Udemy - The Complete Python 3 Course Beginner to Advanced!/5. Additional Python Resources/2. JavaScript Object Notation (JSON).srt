@@ -1,0 +1,617 @@
+1
+
+00:00:00,000  -->  00:00:05,069
+Alright guys, so in the last video we
+learned about some form of data
+
+2
+
+00:00:05,069  -->  00:00:08,730
+persistence in terms of writing files, in
+this video we're going to be learning
+
+3
+
+00:00:08,730  -->  00:00:14,910
+about reading and writing files, and also
+manipulating existing file contents. So,
+
+4
+
+00:00:14,910  -->  00:00:20,160
+the use case of this would be lets say
+i'm building a video game or something,
+
+5
+
+00:00:20,160  -->  00:00:25,320
+and I create a save function, i'm going
+to need to save the data like what
+
+6
+
+00:00:25,320  -->  00:00:28,920
+level I am, how much experience points,
+maybe what items and spells I have
+
+7
+
+00:00:28,920  -->  00:00:34,800
+access to, i'm going to need to store that
+information into a file so that
+
+8
+
+00:00:34,800  -->  00:00:40,050
+each time I load up the game I
+can check does this file exist, and if
+
+9
+
+00:00:40,050  -->  00:00:45,000
+it does start with these stats, and items,
+and whatnot. So this is another form of
+
+10
+
+00:00:45,000  -->  00:00:47,910
+data persistence and that's the use case
+for it,
+
+11
+
+00:00:47,910  -->  00:00:53,340
+what we're going to be doing is learning
+about JSON format. So that's a format
+
+12
+
+00:00:53,340  -->  00:01:01,469
+of data storage and a file format
+that Python can actually use quite well.
+
+13
+
+00:01:01,469  -->  00:01:06,420
+We can convert JSON objects to Python
+objects, and vice versa, and that's what
+
+14
+
+00:01:06,420  -->  00:01:10,080
+we're going to be doing in this video. So
+the first thing we need to do is install
+
+15
+
+00:01:10,080  -->  00:01:18,869
+a package, a Python package called simpleJSON, so just type "pip3 install simplejson"
+
+16
+
+00:01:18,869  -->  00:01:22,080
+I've already got it installed so
+it's going to tell me I've already got
+
+17
+
+00:01:22,080  -->  00:01:25,830
+it installed, it doesn't come with Python
+though, it doesn't come pre-installed
+
+18
+
+00:01:25,830  -->  00:01:30,720
+with Python, so if you haven't installed
+it manually you will need to install it.
+
+19
+
+00:01:30,720  -->  00:01:33,960
+Now once you've got it installed,
+
+20
+
+00:01:33,960  -->  00:01:38,549
+obviously, we need to import it into the
+script that we're writing, so go ahead
+
+21
+
+00:01:38,549  -->  00:01:44,909
+and type "import simplejson" Now we
+would be able to access the simplejson
+
+22
+
+00:01:44,909  -->  00:01:51,060
+class simply by typing that "simplejson." and then we can access all the methods and
+
+23
+
+00:01:51,060  -->  00:01:56,640
+functions in there, but we just want to
+refer to it as simply json and not simplejson,
+
+24
+
+00:01:56,640  -->  00:02:02,070
+just json. So what we can do
+actually with Python is rename imported
+
+25
+
+00:02:02,070  -->  00:02:06,689
+classes on the fly for use within a
+specific file, and what I mean by that is
+
+26
+
+00:02:06,689  -->  00:02:11,760
+in this file we can actually refer to it
+as json instead of simplejson by
+
+27
+
+00:02:11,760  -->  00:02:12,810
+renaming it, and how you
+
+28
+
+00:02:12,810  -->  00:02:17,400
+rename imports is you type import
+whatever package as and then what you
+
+29
+
+00:02:17,400  -->  00:02:23,220
+want to refer to it as "import simplejson as json" Now we also need to import the OS class and this is
+
+30
+
+00:02:23,220  -->  00:02:25,980
+because we're going to be writing and
+reading files, and we need to be able to get
+
+31
+
+00:02:25,980  -->  00:02:30,630
+some information about the files. For
+instance, if file exists, and if the file
+
+32
+
+00:02:30,630  -->  00:02:31,769
+is not empty.
+
+33
+
+00:02:31,769  -->  00:02:36,239
+So, what we need to do first we need to
+create the if statements, so we're going
+
+34
+
+00:02:36,239  -->  00:02:41,099
+to essentially do if there is a file we
+need to read the data from the file
+
+35
+
+00:02:41,099  -->  00:02:45,780
+manipulate it, if there is not a file we
+need to create data, and at the very end
+
+36
+
+00:02:45,780  -->  00:02:47,790
+we're going to save whatever data we
+have.
+
+37
+
+00:02:47,790  -->  00:02:52,739
+So, how we do that, we're going to first
+check if the file exists, so we're going to
+
+38
+
+00:02:52,739  -->  00:02:55,080
+be working with file called ages.json
+
+39
+
+00:02:55,080  -->  00:02:59,970
+stored in the current directory. So
+to check if the file exists or not we
+
+40
+
+00:02:59,970  -->  00:03:08,040
+can use the OS class, so "if os.path.isfile"
+and what this will do is it will check
+
+41
+
+00:03:08,040  -->  00:03:12,299
+if there's a file with whatever name we
+give it. So we're going to check the
+
+42
+
+00:03:12,299  -->  00:03:17,489
+current directory and it's going to be "("./ages.json")" So this will return true if the
+
+43
+
+00:03:17,489  -->  00:03:22,200
+file does exist, that's not enough though,
+what if we accidentally have an empty
+
+44
+
+00:03:22,200  -->  00:03:26,640
+file and we load it and and try and do stuff with it? So now we're going to check if the file
+
+45
+
+00:03:26,640  -->  00:03:41,220
+size is not 0. So, if the file exists "and os.stat("./ages.json").st_size != 0:"
+
+46
+
+00:03:41,220  -->  00:03:46,590
+"and os.stat("./ages.json").st_size != 0:"
+
+47
+
+00:03:46,590  -->  00:03:50,280
+"and os.stat("./ages.json").st_size != 0:"
+
+48
+
+00:03:50,280  -->  00:03:54,510
+the size of the file we just want to make sure it's not 0, because if it is
+
+49
+
+00:03:54,510  -->  00:03:59,040
+zero then we've got a blank file and we
+want to create the default data. So what
+
+50
+
+00:03:59,040  -->  00:04:02,340
+we're going to do we're going to open
+the file here if it exists and stuff, so
+
+51
+
+00:04:02,340  -->  00:04:11,400
+let's go ahead and type "old_file = open("./ages.json", "r+")"
+
+52
+
+00:04:11,400  -->  00:04:17,039
+and this is going to allow us to redo it and whatnot. So go ahead
+
+53
+
+00:04:17,039  -->  00:04:24,000
+and type "data =" and we can just load
+the content by typing oldfile.read,
+
+54
+
+00:04:24,000  -->  00:04:26,220
+and that's method so you need the
+
+55
+
+00:04:26,220  -->  00:04:31,320
+the brackets after it, but we need to do
+is we also need to convert it into a
+
+56
+
+00:04:31,320  -->  00:04:34,230
+Python object as we load it.
+
+57
+
+00:04:34,230  -->  00:04:37,740
+So what we're going to do is we're going
+to access this jason class here and
+
+58
+
+00:04:37,740  -->  00:04:42,030
+we're going to type "data = json.loads" and what this means is it's going to load the string
+
+59
+
+00:04:42,030  -->  00:04:52,620
+from the file, and then we just type "old_file.read" So again what this is going to
+
+60
+
+00:04:52,620  -->  00:04:56,490
+do is this is going to be the content
+we're going to read from the old file,
+
+61
+
+00:04:56,490  -->  00:05:02,850
+and this is going to load it into a
+Python usable object. So once we've got
+
+62
+
+00:05:02,850  -->  00:05:16,530
+the data variable created we can type
+"print("Current age is", data["age"], "adding-- adding a year.")"
+
+63
+
+00:05:16,530  -->  00:05:22,830
+then we're going to manipulate the age
+part of this object, so we're going to
+
+64
+
+00:05:22,830  -->  00:05:31,890
+say "data["age"] = data["age"] + 1" So we are increasing the
+
+65
+
+00:05:31,890  -->  00:05:39,870
+age by one, and then we're going to print
+out the new age. So, print("New age is", data["age"])"
+
+66
+
+00:05:39,870  -->  00:05:45,990
+Now this block of code is going to
+run if there is a file and if there's
+
+67
+
+00:05:45,990  -->  00:05:49,950
+content in the file, now if there's not a
+file what we need to do is we need to
+
+68
+
+00:05:49,950  -->  00:05:58,560
+create, we need to create the file with
+the data. So let's go ahead and type "else"
+
+69
+
+00:05:58,560  -->  00:06:03,630
+"old_file" just so that we have
+essentially we're going to open a file
+
+70
+
+00:06:03,630  -->  00:06:07,919
+in that variable if it exists, but if not
+then we need to create it as the same
+
+71
+
+00:06:07,919  -->  00:06:19,530
+name so "= open(./ages.json", "w+")" we're going to open this in write mode, and then
+
+72
+
+00:06:19,530  -->  00:06:25,440
+we're going to set the data. So, this is
+going to say "data = {"name": "Nick", }" and we're just building
+
+73
+
+00:06:25,440  -->  00:06:33,419
+a regular Python object here, we're going
+to convert it into a json
+
+74
+
+00:06:33,419  -->  00:06:37,620
+object, and you'll see why we're doing
+this because up here we are loading it
+
+75
+
+00:06:37,620  -->  00:06:39,420
+into a Python object, but we're not
+
+76
+
+00:06:39,420  -->  00:06:42,840
+dumping it back into a json object
+yet, we're going to do that outside of
+
+77
+
+00:06:42,840  -->  00:06:46,620
+the if condition. So we're also going to
+set the "age": 27}" here and it's going to be
+
+78
+
+00:06:46,620  -->  00:06:52,740
+equal to my age. Then we need to print
+out basically the files wasn't found, so "print("No
+
+79
+
+00:06:52,740  -->  00:07:05,010
+file found, setting default age to", data["age"])" Then, outside of the if statement
+
+80
+
+00:07:05,010  -->  00:07:11,490
+we've basically what we've done is we've
+got a data object either way, so we're
+
+81
+
+00:07:11,490  -->  00:07:15,450
+going to use that, and we've also got an old file variable either way and it's equal to
+
+82
+
+00:07:15,450  -->  00:07:18,660
+an existing file or no file. So, what we're
+going to do we're going to drop down
+
+83
+
+00:07:18,660  -->  00:07:24,330
+here, we're going to say "old_file.seek(0)"
+this is going to set it to position 0, so
+
+84
+
+00:07:24,330  -->  00:07:30,360
+essentially if there is a file existing
+that we're going to write to we need to
+
+85
+
+00:07:30,360  -->  00:07:35,370
+seek to the zero position, otherwise it's
+just going to append data in the file. So
+
+86
+
+00:07:35,370  -->  00:07:40,680
+this means we can read and write, so if
+there is a file we're using this
+
+87
+
+00:07:40,680  -->  00:07:44,880
+instance of that variable, so it's an
+existing file and we need to seek that,
+
+88
+
+00:07:44,880  -->  00:07:50,790
+to essentially the start of the file.
+Then what we do here simple we type "old
+
+89
+
+00:07:50,790  -->  00:07:56,970
+_file.write( )" and here we need to write our data variable to the file, but first we
+
+90
+
+00:07:56,970  -->  00:08:03,000
+need to convert it back into a json
+object. So how we do that is "(json.dumps(data))"
+
+91
+
+00:08:03,000  -->  00:08:11,820
+and then the data object. So let's go
+over this file again really quick. If
+
+92
+
+00:08:11,820  -->  00:08:15,960
+there is an existing file we are going open that file in read/write mode,
+
+93
+
+00:08:16,590  -->  00:08:21,270
+we're going to load the data from the
+file, and then we're just going to
+
+94
+
+00:08:21,270  -->  00:08:26,820
+increase the age by one. If there is not
+a file we're going to create a file into
+
+95
+
+00:08:26,820  -->  00:08:30,510
+the old file object, this is going to
+create in-memory first once we write to
+
+96
+
+00:08:30,510  -->  00:08:31,710
+it is going to create it.
+
+97
+
+00:08:31,710  -->  00:08:36,930
+The data object is set to a Python
+object and we're going to just print out
+
+98
+
+00:08:36,930  -->  00:08:41,580
+that the default page, and then we're
+going to dump the data in to the file. So let's
+
+99
+
+00:08:41,580  -->  00:08:47,400
+save this and go ahead and run it, and on
+the first run obviously no file is found
+
+100
+
+00:08:47,400  -->  00:08:52,380
+so it's setting the default page 27. Now
+if we run it again it should say the
+
+101
+
+00:08:52,380  -->  00:08:52,889
+current age
+
+102
+
+00:08:52,889  -->  00:08:59,489
+is 27 and then increase it 28, and then
+if we actually open this we can see the
+
+103
+
+00:08:59,489  -->  00:09:03,929
+changes happening in real time. Let's run
+it again, it's going to change 29, and so
+
+104
+
+00:09:03,929  -->  00:09:07,619
+on and so forth. Now I could just leave
+this as is turn off my computer and
+
+105
+
+00:09:07,619  -->  00:09:11,939
+stuff and come back tomorrow, and I could run again it and it would continue from the
+
+106
+
+00:09:11,939  -->  00:09:17,309
+same spot and that's because we're storing data in a persistent file in the file
+
+107
+
+00:09:17,309  -->  00:09:23,100
+system, and that's why reading and
+writing from files is useful. So thank
+
+108
+
+00:09:23,100  -->  00:09:24,959
+you guys for watching and I'll see you
+guys in the next video.

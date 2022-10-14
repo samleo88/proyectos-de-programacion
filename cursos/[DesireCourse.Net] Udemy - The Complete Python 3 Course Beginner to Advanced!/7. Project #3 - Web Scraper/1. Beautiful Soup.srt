@@ -1,0 +1,260 @@
+1
+
+00:00:00,000  -->  00:00:04,980
+Hey guys, so the last section of videos
+we learned about how to get data and
+
+2
+
+00:00:04,980  -->  00:00:10,170
+HTML from the internet using Python, but
+we haven't really learned how to do
+
+3
+
+00:00:10,170  -->  00:00:14,460
+anything fun with it yet, and so that's
+what we're going to be getting to now by
+
+4
+
+00:00:14,460  -->  00:00:20,039
+discovering a package called beautiful
+soup. So, I believe it's bs4 that we
+
+5
+
+00:00:20,039  -->  00:00:31,199
+need to install, so go ahead and open up
+terminal and type "pip3 install ps4" and once
+
+6
+
+00:00:31,199  -->  00:00:34,200
+it installs we should be able to just
+use it right away just like any other
+
+7
+
+00:00:34,200  -->  00:00:35,280
+package.
+
+8
+
+00:00:35,280  -->  00:00:46,980
+Let's go ahead and close terminal, open
+up PyCharm here, let's just go ahead
+
+9
+
+00:00:46,980  -->  00:00:53,039
+and start a new project it's going to be
+pure Python, let's get rid of that, and we're going to
+
+10
+
+00:00:53,039  -->  00:01:01,350
+name it web scraperery. So basically
+when you get data from the internet it's
+
+11
+
+00:01:01,350  -->  00:01:08,610
+called web scraping, so this module is
+going to really help you guys do web
+
+12
+
+00:01:08,610  -->  00:01:14,220
+scraping tasks. So, the way we do that is
+using beautiful soup so let's go ahead
+
+13
+
+00:01:14,220  -->  00:01:23,729
+and create a new file, just name it
+"main" let's write "from bs4
+
+14
+
+00:01:23,729  -->  00:01:30,090
+import BeautifulSoup" that's all you
+need to do. Now we're gonna have to also
+
+15
+
+00:01:30,090  -->  00:01:33,810
+use requests in order to get the data,
+and then once we get the data we're
+
+16
+
+00:01:33,810  -->  00:01:38,700
+going to convert it into a beautiful
+soup, and then we're going to parse that
+
+17
+
+00:01:38,700  -->  00:01:42,630
+beautiful soup and do different stuff
+with the content that would get. So let's
+
+18
+
+00:01:42,630  -->  00:01:55,829
+also go ahead "import requests" So let's
+build a request here, and what we're
+
+19
+
+00:01:55,829  -->  00:01:59,130
+going to do is we're going to go to
+Bing because Bing is a search engine
+
+20
+
+00:01:59,130  -->  00:02:06,360
+that we can search quite easily, and
+let's search for
+
+21
+
+00:02:06,360  -->  00:02:17,790
+pizza. What we need from here is just
+the URL right here.
+
+22
+
+00:02:18,480  -->  00:02:23,820
+So what we're going to do is we are
+going to send a get parameter, so let's
+
+23
+
+00:02:23,820  -->  00:02:31,020
+build up params object "params = {"q": search}"
+
+24
+
+00:02:31,020  -->  00:02:42,120
+we haven't built that yet, but just one sec, so we're going to set the
+
+25
+
+00:02:42,120  -->  00:02:49,680
+URL to this "(http://www.bing.com/search", params=params)" Then the search variable is going to
+
+26
+
+00:02:49,680  -->  00:02:52,739
+actually, we need to ask what we want to search for, so this is
+
+27
+
+00:02:52,739  -->  00:03:01,020
+going to be kind of an interactive program.So let's go ahead and "print("Enter Search Term:")"
+
+28
+
+00:03:01,020  -->  00:03:12,120
+actually let's just make this input,
+so let's go ahead and create a search
+
+29
+
+00:03:12,120  -->  00:03:22,019
+variable "search = input("Enter search term:")"
+
+30
+
+00:03:22,019  -->  00:03:25,650
+So what's going to happen is the first thing it's going to ask is what we want search
+
+31
+
+00:03:25,650  -->  00:03:29,760
+for, we're going to get that, we're going
+to send it along as the q get
+
+32
+
+00:03:29,760  -->  00:03:35,790
+variable in parameters to this URL, and
+we'll get the results from the page of
+
+33
+
+00:03:35,790  -->  00:03:40,049
+what we searched for. So now that we have that we are then going to turn it a
+
+34
+
+00:03:40,049  -->  00:03:44,760
+beautiful soup. so let's go ahead and
+create a variable called "soup =
+
+35
+
+00:03:44,760  -->  00:03:51,299
+BeautifulSoup" and what we're going to
+pass into this class beautiful soup is
+
+36
+
+00:03:51,299  -->  00:03:57,480
+going to be the actual text of the document. So, it should just be
+
+37
+
+00:03:57,480  -->  00:04:09,570
+"(r.text)" and then we can "print(soup.prettify( ))"
+
+38
+
+00:04:12,040  -->  00:04:28,120
+Let's go ahead and save, let's run this. So we want to search for "pizza." So it did get
+
+39
+
+00:04:28,120  -->  00:04:45,430
+it, it let me scroll up, Bing has a lot
+of code in their pages. So, there. No parser
+
+40
+
+00:04:45,430  -->  00:04:49,570
+was explicitly specified, so using the
+best HTML parser for the system which is
+
+41
+
+00:04:49,570  -->  00:04:55,090
+HTML parser. Now we could manually pass that into the beautiful soup if we, it says
+
+42
+
+00:04:55,090  -->  00:05:02,770
+right here if we in the the beautiful
+soup call what we can do is just pass
+
+43
+
+00:05:02,770  -->  00:05:07,750
+that in as well "html.parser" We won't get that error but then happened was we got the results,
+
+44
+
+00:05:07,750  -->  00:05:15,160
+and we printed out a prettified version
+of the soup that we just made. So, what we
+
+45
+
+00:05:15,160  -->  00:05:20,740
+can do with this is we can actually find
+certain contents from within the soup
+
+46
+
+00:05:20,740  -->  00:05:22,630
+and use that, and that's what we're going to do in the next video.

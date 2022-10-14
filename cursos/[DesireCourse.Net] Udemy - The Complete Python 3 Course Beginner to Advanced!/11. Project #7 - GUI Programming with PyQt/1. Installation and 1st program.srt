@@ -1,0 +1,984 @@
+1
+
+00:00:00,000  -->  00:00:03,899
+Hey guys, welcome back. So in this section
+
+2
+
+00:00:03,899  -->  00:00:05,549
+what we're going to be covering are
+
+3
+
+00:00:05,549  -->  00:00:08,610
+different tools and utilities, I guess
+
+4
+
+00:00:08,610  -->  00:00:11,010
+libraries, to make graphical applications.
+
+5
+
+00:00:11,010  -->  00:00:14,009
+And so that's why it's gonna be really
+
+6
+
+00:00:14,009  -->  00:00:16,529
+fun because it's cool to make command
+
+7
+
+00:00:16,529  -->  00:00:19,140
+line programs, but what's really
+
+8
+
+00:00:19,140  -->  00:00:21,300
+awesome is to make programs that anybody
+
+9
+
+00:00:21,300  -->  00:00:23,519
+can use without having to feel
+
+10
+
+00:00:23,519  -->  00:00:26,279
+comfortable in terminal. So the first
+
+11
+
+00:00:26,279  -->  00:00:29,220
+package that we're going to cover is
+
+12
+
+00:00:29,220  -->  00:00:32,820
+PyQt5 and so you actually need to
+
+13
+
+00:00:32,820  -->  00:00:38,070
+have Qt installed in order
+
+14
+
+00:00:38,070  -->  00:00:41,100
+to have this work.
+
+15
+
+00:00:41,100  -->  00:00:43,770
+So, what we need to do is we need to
+
+16
+
+00:00:43,770  -->  00:00:51,690
+first go to qt5 so www.qt.io, it's
+
+17
+
+00:00:51,690  -->  00:00:54,899
+pronounced cute, go to the downloads
+
+18
+
+00:00:54,899  -->  00:00:57,780
+section here, and I mean you can also
+
+19
+
+00:00:57,780  -->  00:00:59,699
+install it via brew, so if you want to
+
+20
+
+00:00:59,699  -->  00:01:01,890
+go ahead and brew I'm just going to
+
+21
+
+00:01:01,890  -->  00:01:06,060
+search brew search qt5 it
+
+22
+
+00:01:06,060  -->  00:01:07,530
+should return a bunch of packages and
+
+23
+
+00:01:07,530  -->  00:01:10,020
+you can build it from brew or you can
+
+24
+
+00:01:10,020  -->  00:01:15,060
+install from this right here.
+
+25
+
+00:01:15,060  -->  00:01:17,369
+So what you need to do you can either
+
+26
+
+00:01:17,369  -->  00:01:19,979
+use a commercial if you want to pay for
+
+27
+
+00:01:19,979  -->  00:01:20,970
+a license
+
+28
+
+00:01:20,970  -->  00:01:21,990
+we're just going to go ahead with
+
+29
+
+00:01:21,990  -->  00:01:23,909
+open-source. Are you prepared to make
+
+30
+
+00:01:23,909  -->  00:01:26,759
+your application publicly available, yes,
+
+31
+
+00:01:26,759  -->  00:01:30,990
+and we're going to comply with the LGPL
+
+32
+
+00:01:30,990  -->  00:01:33,930
+license, yes, then you can click the get
+
+33
+
+00:01:33,930  -->  00:01:36,030
+started button. You can go ahead and
+
+34
+
+00:01:36,030  -->  00:01:37,950
+choose a download link for your system.
+
+35
+
+00:01:37,950  -->  00:01:41,369
+If you want to view all downloads you can
+
+36
+
+00:01:41,369  -->  00:01:43,020
+do that. You can either use an online
+
+37
+
+00:01:43,020  -->  00:01:45,869
+installer or offline installer. Now the
+
+38
+
+00:01:45,869  -->  00:01:47,460
+difference between the two is an online
+
+39
+
+00:01:47,460  -->  00:01:49,409
+installer works like the chrome
+
+40
+
+00:01:49,409  -->  00:01:51,060
+installer works. The initial download is
+
+41
+
+00:01:51,060  -->  00:01:53,310
+really small as you can see 11 megabytes
+
+42
+
+00:01:53,310  -->  00:01:56,159
+here, and once you launch that then
+
+43
+
+00:01:56,159  -->  00:01:58,530
+that installer goes to the internet and
+
+44
+
+00:01:58,530  -->  00:02:01,110
+downloads a whole bunch of necessary
+
+45
+
+00:02:01,110  -->  00:02:03,329
+packages, I think it's around a
+
+46
+
+00:02:03,329  -->  00:02:06,750
+gigabyte of a download it may be about 700
+
+47
+
+00:02:06,750  -->  00:02:10,619
+megabytes, 800, something like that. So you're going
+
+48
+
+00:02:10,619  -->  00:02:13,170
+to download that and install it. Now the
+
+49
+
+00:02:13,170  -->  00:02:13,680
+easiest
+
+50
+
+00:02:13,680  -->  00:02:15,090
+way to do that would be to compile
+
+51
+
+00:02:15,090  -->  00:02:17,640
+from brew so just run brew install
+
+52
+
+00:02:17,640  -->  00:02:22,769
+qt5. Now once you've done that you
+
+53
+
+00:02:22,769  -->  00:02:25,769
+need to install two packages from pip. So
+
+54
+
+00:02:25,769  -->  00:02:29,280
+go ahead and run pip3 install sip and
+
+55
+
+00:02:29,280  -->  00:02:34,859
+pyqt5. I've already got these two
+
+56
+
+00:02:34,859  -->  00:02:36,810
+installed you're gonna need both, so
+
+57
+
+00:02:36,810  -->  00:02:39,030
+sip and pyqt5. This is gonna be
+
+58
+
+00:02:39,030  -->  00:02:40,500
+the package were working with but this
+
+59
+
+00:02:40,500  -->  00:02:42,209
+won't work without this so that's why we
+
+60
+
+00:02:42,209  -->  00:02:44,730
+need to install that. So, once you've got
+
+61
+
+00:02:44,730  -->  00:02:48,480
+qt5 installed, pyqt5, and sip
+
+62
+
+00:02:48,480  -->  00:02:51,239
+we're now ready to actually get programming,
+
+63
+
+00:02:51,239  -->  00:02:52,889
+and the installation is probably going
+
+64
+
+00:02:52,889  -->  00:02:54,239
+to take a bit of time so feel free to
+
+65
+
+00:02:54,239  -->  00:02:56,040
+pause this video here and come back when
+
+66
+
+00:02:56,040  -->  00:03:02,760
+you've got all this set up. Now what I
+
+67
+
+00:03:02,760  -->  00:03:04,620
+I'm going to do is I'm going to open up
+
+68
+
+00:03:04,620  -->  00:03:07,469
+pycharm here, and we're going to write a
+
+69
+
+00:03:07,469  -->  00:03:10,049
+really simple program, and then we're
+
+70
+
+00:03:10,049  -->  00:03:12,510
+going to go over some documentation in
+
+71
+
+00:03:12,510  -->  00:03:13,799
+the next few videos, and then we're going
+
+72
+
+00:03:13,799  -->  00:03:15,900
+to get really deep into it. I'm going to go
+
+73
+
+00:03:15,900  -->  00:03:17,699
+ahead and create a new project, going to
+
+74
+
+00:03:17,699  -->  00:03:22,319
+call it qt5test, and we're
+
+75
+
+00:03:22,319  -->  00:03:24,329
+going to use the default py3
+
+76
+
+00:03:24,329  -->  00:03:30,090
+interpreter here, and I'm going to go
+
+77
+
+00:03:30,090  -->  00:03:32,189
+ahead and create a Python file called
+
+78
+
+00:03:32,189  -->  00:03:34,620
+main as we normally do.
+
+79
+
+00:03:34,620  -->  00:03:37,169
+Now the first thing we're going to do is create
+
+80
+
+00:03:37,169  -->  00:03:42,720
+crunchbang here, usr/bin/python3.
+
+81
+
+00:03:42,720  -->  00:03:46,229
+This should be done in every program, I
+
+82
+
+00:03:46,229  -->  00:03:48,449
+don't think we've done it yet, but you're
+
+83
+
+00:03:48,449  -->  00:03:49,949
+going to want to. Then we're going to
+
+84
+
+00:03:49,949  -->  00:03:51,900
+start importing packages. So the way we
+
+85
+
+00:03:51,900  -->  00:03:54,329
+do this is pyqt5 has multiple
+
+86
+
+00:03:54,329  -->  00:03:56,340
+classes that have classes within them,
+
+87
+
+00:03:56,340  -->  00:03:58,889
+and so what we need to do is go
+
+88
+
+00:03:58,889  -->  00:04:06,030
+from PyQt5.QtCore import *
+
+89
+
+00:04:06,030  -->  00:04:08,250
+and we're just going to import
+
+90
+
+00:04:08,250  -->  00:04:10,500
+everything for now, and the same thing
+
+91
+
+00:04:10,500  -->  00:04:15,030
+for widgets. So, from PyQt5.QtWidgets
+
+92
+
+00:04:15,030  -->  00:04:22,420
+import * everything.
+
+93
+
+00:04:22,420  -->  00:04:25,270
+So the first thing we're gonna do is
+
+94
+
+00:04:25,270  -->  00:04:27,760
+we're going to create a class that is
+
+95
+
+00:04:27,760  -->  00:04:31,960
+going to have our basic page in there,
+
+96
+
+00:04:31,960  -->  00:04:33,640
+it's gonna be really stupidly simple
+
+97
+
+00:04:33,640  -->  00:04:35,560
+right now, so let's go ahead and create a
+
+98
+
+00:04:35,560  -->  00:04:40,600
+class called Page, and it's going to
+
+99
+
+00:04:40,600  -->  00:04:46,000
+inherit from (QWidget): We need that
+
+100
+
+00:04:46,000  -->  00:04:48,910
+inheritance there. So now we're going to
+
+101
+
+00:04:48,910  -->  00:04:51,340
+define an initialization function where
+
+102
+
+00:04:51,340  -->  00:04:55,930
+we actually build out the page itself.
+
+103
+
+00:04:55,930  -->  00:05:00,160
+So go ahead and def __init__(self):
+
+104
+
+00:05:00,160  -->  00:05:05,470
+So, in order to instantiate this we
+
+105
+
+00:05:05,470  -->  00:05:07,900
+need to do something a bit
+
+106
+
+00:05:07,900  -->  00:05:08,830
+different and
+
+107
+
+00:05:08,830  -->  00:05:10,930
+we need to instantiate the parent as
+
+108
+
+00:05:10,930  -->  00:05:14,440
+well. So how we do that is super, we're
+
+109
+
+00:05:14,440  -->  00:05:17,380
+going to instantiate the Page class that
+
+110
+
+00:05:17,380  -->  00:05:21,580
+we just created, pass it self, and then
+
+111
+
+00:05:21,580  -->  00:05:26,170
+we're going to add .__init__ and then
+
+112
+
+00:05:26,170  -->  00:05:28,510
+we're going to instantiate the (parent).
+
+113
+
+00:05:28,510  -->  00:05:36,910
+Unresolved reference to parent, alright.
+
+114
+
+00:05:36,910  -->  00:05:40,060
+In init I actually need to pass
+
+115
+
+00:05:40,060  -->  00:05:42,130
+parent=None just that it's set by default and
+
+116
+
+00:05:42,130  -->  00:05:45,280
+it's going to be set afterwards. So, what
+
+117
+
+00:05:45,280  -->  00:05:46,390
+we're going to do we're just going to
+
+118
+
+00:05:46,390  -->  00:05:51,970
+create a label, so let's make
+
+119
+
+00:05:51,970  -->  00:05:56,110
+this peppy, my_label = QLabel, and
+
+120
+
+00:05:56,110  -->  00:05:57,790
+then it's really simple in here you just
+
+121
+
+00:05:57,790  -->  00:06:00,640
+put whatever text you want to be there
+
+122
+
+00:06:00,640  -->  00:06:06,820
+so ("This is my label") And then what we're going
+
+123
+
+00:06:06,820  -->  00:06:10,960
+to do is we're going to create a
+
+124
+
+00:06:10,960  -->  00:06:14,050
+layout kind of button. So we're going to
+
+125
+
+00:06:14,050  -->  00:06:20,500
+create a widget called
+
+126
+
+00:06:20,500  -->  00:06:23,320
+qvbox layout. So I'm going to name this
+
+127
+
+00:06:23,320  -->  00:06:27,940
+layout = to QVBoxLayout
+
+128
+
+00:06:27,940  -->  00:06:33,220
+just like that, and you don't
+
+129
+
+00:06:33,220  -->  00:06:34,180
+need to
+
+130
+
+00:06:34,180  -->  00:06:36,009
+pass anything to that to instantiate it.
+
+131
+
+00:06:36,009  -->  00:06:38,919
+What we're going to do at this point is
+
+132
+
+00:06:38,919  -->  00:06:43,840
+we're going to add the my label into the
+
+133
+
+00:06:43,840  -->  00:06:47,020
+layout. So how we do that is you type out
+
+134
+
+00:06:47,020  -->  00:06:48,729
+the name of the layout, so in this case
+
+135
+
+00:06:48,729  -->  00:06:52,479
+it's layout.addWidget, and we're
+
+136
+
+00:06:52,479  -->  00:07:01,330
+going to add (my_label). What we're going
+
+137
+
+00:07:01,330  -->  00:07:05,380
+to do at this point we're going to...
+
+138
+
+00:07:05,380  -->  00:07:10,240
+that's it for now, let's just go ahead
+
+139
+
+00:07:10,240  -->  00:07:14,470
+and do this. Let's create a grid layout in
+
+140
+
+00:07:14,470  -->  00:07:17,740
+here, so we're going to create a
+
+141
+
+00:07:17,740  -->  00:07:24,669
+mainLayout = QGridLayout( ), and then
+
+142
+
+00:07:24,669  -->  00:07:27,220
+we're going to put our layout into the
+
+143
+
+00:07:27,220  -->  00:07:30,160
+main layout, I should have named these a bit
+
+144
+
+00:07:30,160  -->  00:07:39,639
+differently. So, mainLayout.addLayout and
+
+145
+
+00:07:39,639  -->  00:07:43,090
+we're going to add a (layout) in here. And
+
+146
+
+00:07:43,090  -->  00:07:46,300
+then here need to put since it's a grid
+
+147
+
+00:07:46,300  -->  00:07:48,940
+need to choose how many rows and columns
+
+148
+
+00:07:48,940  -->  00:07:54,190
+you need. Alright, now we're going to
+
+149
+
+00:07:54,190  -->  00:08:02,080
+set the layout, so self.setLayout it's going to be
+
+150
+
+00:08:02,080  -->  00:08:05,530
+(mainLayout). And then we're going to set
+
+151
+
+00:08:05,530  -->  00:08:06,880
+the title of the window so this is
+
+152
+
+00:08:06,880  -->  00:08:08,530
+what's going to appear up in the title bar
+
+153
+
+00:08:08,530  -->  00:08:17,560
+right there. So self.setWindowTitle and
+
+154
+
+00:08:17,560  -->  00:08:23,050
+we're going to name it ("My First Qt App")
+
+155
+
+00:08:23,050  -->  00:08:27,729
+I hope this has made sense so far. Then down here
+
+156
+
+00:08:27,729  -->  00:08:30,669
+we're actually going to instantiate the
+
+157
+
+00:08:30,669  -->  00:08:33,700
+application itself, so go ahead and write if
+
+158
+
+00:08:33,700  -->  00:08:41,110
+__name__ == "__main__": we always need this
+
+159
+
+00:08:41,110  -->  00:08:44,169
+when we're creating a package,
+
+160
+
+00:08:44,169  -->  00:08:46,720
+especially in qt5 this is how we're going
+
+161
+
+00:08:46,720  -->  00:08:49,029
+to be doing it through the entire thing.
+
+162
+
+00:08:49,029  -->  00:08:54,070
+Let's go ahead and import sys, this is
+
+163
+
+00:08:54,070  -->  00:08:56,560
+what we're going to need to be able to
+
+164
+
+00:08:56,560  -->  00:08:59,019
+exit the app. Let's go ahead and let's
+
+165
+
+00:08:59,019  -->  00:09:02,110
+assign a variable here called app, it's
+
+166
+
+00:09:02,110  -->  00:09:06,430
+going to be equal to QApplication, going
+
+167
+
+00:09:06,430  -->  00:09:10,149
+to pass in (sys.argv). This is going to be system
+
+168
+
+00:09:10,149  -->  00:09:12,610
+arguments, in this case they're going to
+
+169
+
+00:09:12,610  -->  00:09:15,519
+be none. So let's create the window
+
+170
+
+00:09:15,519  -->  00:09:19,690
+itself. So window equals our class there,
+
+171
+
+00:09:19,690  -->  00:09:23,949
+it's going to be Page, and then we're going to show
+
+172
+
+00:09:23,949  -->  00:09:27,040
+our window. So if we don't run this the
+
+173
+
+00:09:27,040  -->  00:09:28,899
+windows just going to be blank it's
+
+174
+
+00:09:28,899  -->  00:09:31,180
+never going to show it. Then we need to
+
+175
+
+00:09:31,180  -->  00:09:34,810
+call an exec function which is going to
+
+176
+
+00:09:34,810  -->  00:09:37,510
+execute the window itself, not in a bad
+
+177
+
+00:09:37,510  -->  00:09:38,800
+way in a good way, it's going to make it
+
+178
+
+00:09:38,800  -->  00:09:41,769
+you know instantiate, so we're going to
+
+179
+
+00:09:41,769  -->  00:09:46,449
+put that in to a sys.exit call, and
+
+180
+
+00:09:46,449  -->  00:09:48,490
+we're going to exec just like that.
+
+181
+
+00:09:48,490  -->  00:09:52,390
+We're going to save this, and we're going
+
+182
+
+00:09:52,390  -->  00:09:59,440
+to run the file, and we should see this right
+
+183
+
+00:09:59,440  -->  00:10:03,459
+here. This is our first qt app. As you
+
+184
+
+00:10:03,459  -->  00:10:05,769
+can see it has full capabilities of any
+
+185
+
+00:10:05,769  -->  00:10:07,449
+other application, it looks really stupid
+
+186
+
+00:10:07,449  -->  00:10:10,959
+right now, but that's what we've
+
+187
+
+00:10:10,959  -->  00:10:13,329
+done. We've actually created a graphical
+
+188
+
+00:10:13,329  -->  00:10:16,870
+user interface using python and we're
+
+189
+
+00:10:16,870  -->  00:10:19,959
+going to extend this a lot farther. So, I
+
+190
+
+00:10:19,959  -->  00:10:21,640
+hope you guys got everything set up
+
+191
+
+00:10:21,640  -->  00:10:23,949
+correctly, I hope I've explained this well,
+
+192
+
+00:10:23,949  -->  00:10:25,480
+we're going to go over documentation to
+
+193
+
+00:10:25,480  -->  00:10:27,670
+see all the different kinds of widgets
+
+194
+
+00:10:27,670  -->  00:10:30,550
+and elements that we could use
+
+195
+
+00:10:30,550  -->  00:10:32,260
+within qt5, and we're going to be
+
+196
+
+00:10:32,260  -->  00:10:35,019
+using a lot of them coming up in the
+
+197
+
+00:10:35,019  -->  00:10:40,470
+next few videos.

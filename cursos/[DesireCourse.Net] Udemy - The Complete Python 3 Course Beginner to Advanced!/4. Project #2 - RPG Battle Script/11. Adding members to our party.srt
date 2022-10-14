@@ -1,0 +1,894 @@
+1
+
+00:00:00,000  -->  00:00:02,250
+So, the very first thing we need to add
+
+2
+
+00:00:02,250  -->  00:00:05,190
+here to the player class is a name
+
+3
+
+00:00:05,190  -->  00:00:09,300
+attribute. So, we need to pass it in here
+
+4
+
+00:00:09,300  -->  00:00:13,469
+and we're going to say self.name =
+
+5
+
+00:00:13,469  -->  00:00:17,310
+name. Now, when we instantiate the player
+
+6
+
+00:00:17,310  -->  00:00:19,890
+we need to specify their names. So, the
+
+7
+
+00:00:19,890  -->  00:00:22,140
+first one is going to be Valos, so
+
+8
+
+00:00:22,140  -->  00:00:25,470
+let's go ahead and create player 2 and 3,
+
+9
+
+00:00:25,470  -->  00:00:29,429
+there we go. So, now we got player 1, 2, and 3
+
+10
+
+00:00:29,429  -->  00:00:31,109
+and they're all named Valos right now,
+
+11
+
+00:00:31,109  -->  00:00:33,600
+so let's change that.
+
+12
+
+00:00:33,600  -->  00:00:39,360
+There we go. So we've got got player, player  1, player
+
+13
+
+00:00:39,360  -->  00:00:40,920
+1, player 2, player 3, they're all named
+
+14
+
+00:00:40,920  -->  00:00:43,290
+Valos right now so let's change that.
+
+15
+
+00:00:43,290  -->  00:00:47,309
+Second one I'm just going to name him Nick,
+
+16
+
+00:00:47,309  -->  00:00:50,489
+and you'll see that I'm actually going
+
+17
+
+00:00:50,489  -->  00:00:52,829
+to add a space to make them the same wdith just to make
+
+18
+
+00:00:52,829  -->  00:00:56,280
+things easier, and the third one let's just call
+
+19
+
+00:00:56,280  -->  00:01:03,120
+them robot. So, we've got three players
+
+20
+
+00:01:03,120  -->  00:01:08,580
+instantiated and players is going to be
+
+21
+
+00:01:08,580  -->  00:01:12,330
+the list that we reference. So, player one,
+
+22
+
+00:01:12,330  -->  00:01:18,990
+player two, player three. Now what we're going to
+
+23
+
+00:01:18,990  -->  00:01:21,390
+do is we are, I think the first thing
+
+24
+
+00:01:21,390  -->  00:01:23,580
+we're going to do is just copy the
+
+25
+
+00:01:23,580  -->  00:01:26,220
+static version of this that we have
+
+26
+
+00:01:26,220  -->  00:01:32,130
+right here, and we are going to add it to
+
+27
+
+00:01:32,130  -->  00:01:38,280
+the class. So, I'm going to make a
+
+28
+
+00:01:38,280  -->  00:01:44,220
+function here called get stats and we
+
+29
+
+00:01:44,220  -->  00:01:48,750
+are going to just leeave it like that and paste
+
+30
+
+00:01:48,750  -->  00:01:53,009
+our code here. So, instead of printing
+
+31
+
+00:01:53,009  -->  00:01:56,399
+this here we're going to, did I instantiate
+
+32
+
+00:01:56,399  -->  00:01:59,040
+that with a colon there?
+
+33
+
+00:01:59,040  -->  00:02:02,470
+I did.
+
+34
+
+00:02:02,470  -->  00:02:12,370
+That's going to look funny there, I should. What we are
+
+35
+
+00:02:12,370  -->  00:02:16,300
+going to do in the game file is we're going to replace
+
+36
+
+00:02:16,300  -->  00:02:27,310
+this right here with self.name. Now we
+
+37
+
+00:02:27,310  -->  00:02:28,960
+need to do the same thing here and here
+
+38
+
+00:02:28,960  -->  00:02:31,090
+so it's going to get even messier than
+
+39
+
+00:02:31,090  -->  00:02:32,200
+it was, so
+
+40
+
+00:02:32,200  -->  00:02:34,930
+let's go ahead for right now we're not going
+
+41
+
+00:02:34,930  -->  00:02:36,970
+to worry about alignment we're going to
+
+42
+
+00:02:36,970  -->  00:02:40,360
+print out the self hitpoints and self max hitpoints.
+
+43
+
+00:02:40,360  -->  00:02:53,170
+So, self.hp, actually that goes right there,
+
+44
+
+00:02:53,170  -->  00:02:58,270
+and then self.maxhp right there. And then
+
+45
+
+00:02:58,270  -->  00:03:00,820
+for the magic points we are going to, and
+
+46
+
+00:03:00,820  -->  00:03:04,420
+I need to add a plus sign there actually, for
+
+47
+
+00:03:04,420  -->  00:03:05,650
+the magic points we're going to do the
+
+48
+
+00:03:05,650  -->  00:03:08,380
+exact same thing, so I'm going to remove that and
+
+49
+
+00:03:08,380  -->  00:03:22,390
+put self.mp out of self.maxmp.
+
+50
+
+00:03:22,390  -->  00:03:26,200
+There we go. So, and this is going to
+
+51
+
+00:03:26,200  -->  00:03:27,940
+break our entire script because each
+
+52
+
+00:03:27,940  -->  00:03:30,190
+player has their own attacks an we've
+
+53
+
+00:03:30,190  -->  00:03:33,220
+been using the word player, player.choose_action,
+
+54
+
+00:03:33,220  -->  00:03:35,890
+so we will say player 1 choose action.
+
+55
+
+00:03:35,890  -->  00:03:38,350
+Actually, for what we're going to do
+
+56
+
+00:03:38,350  -->  00:03:41,140
+we're going to say for each player in,
+
+57
+
+00:03:41,140  -->  00:03:49,209
+yeah that's what we will do. So, we want the name player
+
+58
+
+00:03:49,209  -->  00:03:55,570
+available right there except for taking
+
+59
+
+00:03:55,570  -->  00:03:57,220
+damage for right now, so we are going to
+
+60
+
+00:03:57,220  -->  00:03:58,600
+have to change this a bit.
+
+61
+
+00:03:58,600  -->  00:04:04,480
+So, for player in players we just
+
+62
+
+00:04:04,480  -->  00:04:10,500
+need to indent all of this
+
+63
+
+00:04:10,500  -->  00:04:14,670
+one space further, and the enemy is going
+
+64
+
+00:04:14,670  -->  00:04:18,359
+to attack player one always for now. We are also
+
+65
+
+00:04:18,359  -->  00:04:21,269
+going to remove this. At the beginning of
+
+66
+
+00:04:21,269  -->  00:04:26,220
+the turn we're going to say print
+
+67
+
+00:04:26,220  -->  00:04:37,110
+two line-breaks and then print one
+
+68
+
+00:04:37,110  -->  00:04:39,210
+line break. In here we're going to say
+
+69
+
+00:04:39,210  -->  00:04:46,710
+player get_stats. So, let's see if we broke anything
+
+70
+
+00:04:46,710  -->  00:04:49,110
+yet.
+
+71
+
+00:04:49,110  -->  00:04:55,140
+Yep, enemy is
+
+72
+
+00:04:55,140  -->  00:05:03,120
+missing a name. So, let's go ahead and say the
+
+73
+
+00:05:03,120  -->  00:05:09,780
+enemy let's say it's from chrono
+
+74
+
+00:05:09,780  -->  00:05:11,100
+trigger, let's try this again.
+
+75
+
+00:05:11,100  -->  00:05:16,410
+Alright, so, we've got all it's stats the same, so let's
+
+76
+
+00:05:16,410  -->  00:05:18,780
+mix things up a bit. I'm going to make this guy a bit
+
+77
+
+00:05:18,780  -->  00:05:20,610
+stronger, we're going to make everyone a bit
+
+78
+
+00:05:20,610  -->  00:05:21,870
+stronger actually, we're going to make
+
+79
+
+00:05:21,870  -->  00:05:26,430
+the battle quite a bit longer, and
+
+80
+
+00:05:26,430  -->  00:05:33,180
+3089. Alright, let's restart this and we
+
+81
+
+00:05:33,180  -->  00:05:36,660
+should see different enemy moves and we don't,
+
+82
+
+00:05:36,660  -->  00:05:39,690
+because the only thing that's printing out
+
+83
+
+00:05:39,690  -->  00:05:41,040
+here is up here. So, let's go ahead and
+
+84
+
+00:05:41,040  -->  00:05:43,710
+remove this, we've got everything we want, and we're
+
+85
+
+00:05:43,710  -->  00:05:45,120
+getting an error. L:et's check out what
+
+86
+
+00:05:45,120  -->  00:05:51,750
+that error is. So, they are
+
+87
+
+00:05:51,750  -->  00:05:54,450
+ints so we actually have to go and specify
+
+88
+
+00:05:54,450  -->  00:05:59,640
+it's a string before each number, and I should
+
+89
+
+00:05:59,640  -->  00:06:02,430
+have known that. Actually, I did know that, I forgot
+
+90
+
+00:06:02,430  -->  00:06:03,120
+it.
+
+91
+
+00:06:03,120  -->  00:06:10,410
+Something terrible just happened.
+
+92
+
+00:06:10,410  -->  00:06:12,960
+I didn't close these so it's probably freaking
+
+93
+
+00:06:12,960  -->  00:06:23,110
+out about that.
+
+94
+
+00:06:23,110  -->  00:06:25,960
+There we go. For some reason it only printed
+
+95
+
+00:06:25,960  -->  00:06:28,600
+out one player and that's for each
+
+96
+
+00:06:28,600  -->  00:06:31,270
+player at the beginning of their turn. So, what
+
+97
+
+00:06:31,270  -->  00:06:33,700
+we've gotta do you actually have to
+
+98
+
+00:06:33,700  -->  00:06:40,330
+change that, here's what we're going to do we're
+
+99
+
+00:06:40,330  -->  00:06:43,090
+going to create another for loop here, it's
+
+100
+
+00:06:43,090  -->  00:06:45,790
+a bit confusing but basically if you guys
+
+101
+
+00:06:45,790  -->  00:06:46,960
+can't see what happens
+
+102
+
+00:06:46,960  -->  00:06:48,400
+we're saying for player in players first
+
+103
+
+00:06:48,400  -->  00:06:51,100
+print out that individual players stats
+
+104
+
+00:06:51,100  -->  00:06:54,070
+and then do all of this. What we want to
+
+105
+
+00:06:54,070  -->  00:06:57,250
+happen first is one loop that actually
+
+106
+
+00:06:57,250  -->  00:07:05,590
+prints out the stats, and then
+
+107
+
+00:07:05,590  -->  00:07:07,150
+the other one for all the attribute stuff.
+
+108
+
+00:07:07,150  -->  00:07:19,450
+So, let's remove that...there. So, let's skip two lines and
+
+109
+
+00:07:19,450  -->  00:07:21,670
+print out each player stats, and then
+
+110
+
+00:07:21,670  -->  00:07:23,500
+let's start the action. So, let's go ahead and
+
+111
+
+00:07:23,500  -->  00:07:25,840
+restart and you'll see now that I've got
+
+112
+
+00:07:25,840  -->  00:07:28,420
+my three actual characters and something is
+
+113
+
+00:07:28,420  -->  00:07:30,880
+terribly messed up because i forgot the
+
+114
+
+00:07:30,880  -->  00:07:33,220
+mp line.
+
+115
+
+00:07:33,220  -->  00:07:39,580
+Alright, let's add that here too. Print
+
+116
+
+00:07:39,580  -->  00:07:43,420
+"NAME" and the spacing is going to be off for
+
+117
+
+00:07:43,420  -->  00:07:58,000
+sure, let me check. 1, 2, 3, 4, 5...21.
+
+118
+
+00:07:58,000  -->  00:08:09,760
+So, hit point and then from hit
+
+119
+
+00:08:09,760  -->  00:08:20,560
+points 25...
+
+120
+
+00:08:20,560  -->  00:08:34,450
+36. So,
+
+121
+
+00:08:34,450  -->  00:08:37,660
+there go that should be about right. Let
+
+122
+
+00:08:37,660  -->  00:08:42,730
+me go ahead and restart it, and this needs to go one
+
+123
+
+00:08:42,730  -->  00:08:48,010
+back, I think, and then the lines here at the top
+
+124
+
+00:08:48,010  -->  00:08:54,100
+of each bar need to go forward one space. So, that forward one, and that
+
+125
+
+00:08:54,100  -->  00:09:03,010
+should actually fix it. Nope, one more. There we go.
+
+126
+
+00:09:03,010  -->  00:09:07,270
+So, that is our dynamic player
+
+127
+
+00:09:07,270  -->  00:09:10,750
+creation we have at the top of each turn,
+
+128
+
+00:09:10,750  -->  00:09:13,060
+and each person is going to take their
+
+129
+
+00:09:13,060  -->  00:09:16,360
+own turn for their actions. So, we need to
+
+130
+
+00:09:16,360  -->  00:09:20,020
+specify at the top of actions which player
+
+131
+
+00:09:20,020  -->  00:09:23,860
+it is attacking. So, it's going to go in
+
+132
+
+00:09:23,860  -->  00:09:25,900
+order so Valos, then Nick, then Robot, so we
+
+133
+
+00:09:25,900  -->  00:09:29,350
+need to actually print that out. So,
+
+134
+
+00:09:29,350  -->  00:09:47,160
+let's just one line above it maybe,
+
+135
+
+00:09:47,160  -->  00:09:58,319
+yeah. There we go, bcolors.BOLD, self.name, bcolors.ENDC.
+
+136
+
+00:09:58,319  -->  00:10:06,209
+We remove that beginning line there. So,
+
+137
+
+00:10:06,209  -->  00:10:07,920
+Valos is going to attack,
+
+138
+
+00:10:07,920  -->  00:10:11,129
+Nick is going to use magic, the magic
+
+139
+
+00:10:11,129  -->  00:10:13,350
+is going to be meteor, then robot is
+
+140
+
+00:10:13,350  -->  00:10:16,709
+going to attack. Now, we also need to
+
+141
+
+00:10:16,709  -->  00:10:22,589
+print out each person's damage summary after each
+
+142
+
+00:10:22,589  -->  00:10:24,779
+one, so instead of printing that at the end
+
+143
+
+00:10:24,779  -->  00:10:26,310
+I believe we're printing it outside that loop right
+
+144
+
+00:10:26,310  -->  00:10:26,970
+now.
+
+145
+
+00:10:26,970  -->  00:10:36,149
+No, okay. So, you attack then it says meteor
+
+146
+
+00:10:36,149  -->  00:10:38,459
+deals okay, so we need to specify
+
+147
+
+00:10:38,459  -->  00:10:40,199
+that, so it's getting a bit messy as you can
+
+148
+
+00:10:40,199  -->  00:10:46,439
+see. Yeah, what I'm going to do is
+
+149
+
+00:10:46,439  -->  00:10:52,350
+actually indent that as well. So, not over here, where
+
+150
+
+00:10:52,350  -->  00:11:02,430
+it says name skip four spaces. It's action
+
+151
+
+00:11:02,430  -->  00:11:08,430
+same thing.
+
+152
+
+00:11:08,430  -->  00:11:10,830
+So, all actions are going to be printed
+
+153
+
+00:11:10,830  -->  00:11:15,600
+this far in, and then details about is
+
+154
+
+00:11:15,600  -->  00:11:30,430
+going to be printed down there.
+
+155
+
+00:11:30,430  -->  00:11:43,899
+There we go. Alright, and actually, okay. So, let
+
+156
+
+00:11:43,899  -->  00:11:47,830
+me do this so I can show you. So, the text of
+
+157
+
+00:11:47,830  -->  00:11:49,390
+what's happening is going to be printed
+
+158
+
+00:11:49,390  -->  00:11:52,089
+at the beginning of the line, menus
+
+159
+
+00:11:52,089  -->  00:11:53,890
+are going to open four spaces in, and
+
+160
+
+00:11:53,890  -->  00:11:54,610
+then
+
+161
+
+00:11:54,610  -->  00:11:56,320
+options are going to open four spaces in
+
+162
+
+00:11:56,320  -->  00:12:00,100
+from that. So, I'm going to go and add
+
+163
+
+00:12:00,100  -->  00:12:03,250
+four spaces to actions, magic, and items. So,
+
+164
+
+00:12:03,250  -->  00:12:08,140
+1, 2, 3, 4...1, 2, 3, 4...and 1, 2, 3, 4.
+
+165
+
+00:12:08,140  -->  00:12:11,290
+There we go. It should look a little better.
+
+166
+
+00:12:11,290  -->  00:12:18,940
+There we go. As you can see, there we go, and as you can see
+
+167
+
+00:12:18,940  -->  00:12:25,390
+Robot chooses he's going to use an item, uses the potion, and
+
+168
+
+00:12:25,390  -->  00:12:26,709
+the enemy attacks but he didn't attack
+
+169
+
+00:12:26,709  -->  00:12:28,360
+anybody because there's now three
+
+170
+
+00:12:28,360  -->  00:12:31,300
+targets that he's choosing via
+
+171
+
+00:12:31,300  -->  00:12:36,670
+different values. So, that's how to
+
+172
+
+00:12:36,670  -->  00:12:39,550
+implement three characters, kind of,
+
+173
+
+00:12:39,550  -->  00:12:43,630
+we now need to rig up the magic points
+
+174
+
+00:12:43,630  -->  00:12:49,810
+to each person. So, actually, hold on a sec.
+
+175
+
+00:12:49,810  -->  00:12:52,930
+Oh, yeah, it did okay, so that was the top one.
+
+176
+
+00:12:52,930  -->  00:12:55,390
+Alright, so yeah the MP what we need to
+
+177
+
+00:12:55,390  -->  00:12:57,250
+do next is the progress bars here and
+
+178
+
+00:12:57,250  -->  00:12:58,630
+makes them actually work, we're going to
+
+179
+
+00:12:58,630  -->  00:13:05,459
+save that for the next video.

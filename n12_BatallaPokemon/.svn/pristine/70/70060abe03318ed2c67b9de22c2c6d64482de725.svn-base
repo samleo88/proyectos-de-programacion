@@ -1,0 +1,96 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaNaval.testCliente;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+import junit.framework.TestCase;
+import uniandes.cupi2.batallaPokemon.cliente.mundo.*;
+import uniandes.cupi2.batallaPokemon.cliente.mundo.Batalla;
+import uniandes.cupi2.batallaPokemon.servidor.mundo.*;
+
+/**
+ * Clase usada para verificar que los métodos de la clase Batalla estén correctamente implementados.
+ */
+public class BatallaTest extends TestCase
+{
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Batalla sobre la que se harán las pruebas.
+     */
+    private Batalla batalla;
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Escenario 1: Construye una batalla.
+     */
+    private void setupEscenario1( )
+    {
+        batalla = new Batalla( );
+    }
+
+    /**
+     * Prueba 1: Verifica el constructor de la clase Batalla. <br>
+     * <b> Métodos a probar: </b> <br>
+     * Batalla <br>
+     * darPokemonesJugado <br>
+     * darCantidadPokemonesDebilitados <br>
+     * <b> Casos de prueba: </b> <br>
+     * 1. Se crea una batalla.
+     */
+    public void testBatalla( )
+    {
+        setupEscenario1( );
+
+        assertNotNull( "La lista de pokémon del jugador debería estar inicializada.", batalla.darPokemonesJugador( ) );
+        assertEquals( "La cantidad de pokémon débiles debería ser 0.", 0, batalla.darCantidadPokemonesDebilitados( ) );
+
+    }
+
+    /**
+     * Prueba 2: Verifica el ingresarPokemones de la clase Batalla. <br>
+     * <b> Métodos a probar: </b> <br>
+     * ingresarPokemones <br>
+     * <b> Casos de prueba: </b> <br>
+     * 1. El jugador no tiene pokemones.
+     */
+    public void testIngresarPokemones( )
+    {
+        setupEscenario1( );
+
+        ArrayList pokemonesSeleccionados = new ArrayList( );
+        pokemonesSeleccionados.add( 1 );// Índice que corresponde al pokémon Charmander.
+        pokemonesSeleccionados.add( 4 );// Índice que corresponde al pokémon Geodude.
+        pokemonesSeleccionados.add( 6 );// Índice que corresponde al pokémon Flareon.
+        pokemonesSeleccionados.add( 7 );// Índice que corresponde al pokémon Vaporeon.
+
+        batalla.ingresarPokemones( pokemonesSeleccionados );
+
+        ArrayList pokemonesJugador = batalla.darPokemonesJugador( );
+        assertEquals( "La cantidad de pokémon no corresponde.", 4, batalla.darPokemonesJugador( ).size( ) );
+        assertEquals( "El primer pokémon no corresponde.", "Charmander", ((Pokemon)batalla.darPokemonesJugador( ).get(0)).darNombre( ));
+        assertEquals( "El segundo pokémon no corresponde.", "Geodude", ((Pokemon)batalla.darPokemonesJugador( ).get(1)).darNombre( ) );
+        assertEquals( "El tercer pokémon no corresponde.", "Flareon", ((Pokemon)batalla.darPokemonesJugador( ).get(2)).darNombre( ));
+        assertEquals( "El cuarto pokémon no corresponde.", "Vaporeon", ((Pokemon)batalla.darPokemonesJugador( ).get(3)).darNombre( ) );
+
+    }
+
+}

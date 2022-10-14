@@ -1,0 +1,172 @@
+WEBVTT
+
+00:00.270 --> 00:06.100
+Once we have our images we can start working on a project and actually start doing some kind of HDMI.
+
+00:06.690 --> 00:10.800
+Now as you can see we need to start by getting the logo first.
+
+00:10.890 --> 00:15.360
+Then we're gonna have the heading three and then we're gonna have our little board.
+
+00:15.390 --> 00:17.640
+Now this is the first thing that I would like to do.
+
+00:17.800 --> 00:22.790
+And then we're gonna start moving on and working with different sections of the project.
+
+00:22.900 --> 00:27.360
+Now first of all I would like to get an image obviously where we know that we would need to use the
+
+00:27.360 --> 00:27.810
+image there.
+
+00:28.380 --> 00:33.960
+So here within the body and I just start getting the image and for the image we're going to be looking
+
+00:33.960 --> 00:36.210
+for the source or our slate with new.
+
+00:36.210 --> 00:40.740
+Also I meant right away that we're going to give us the source and within the source now we would need
+
+00:40.740 --> 00:42.850
+to navigate to the images folder.
+
+00:42.870 --> 00:47.790
+Now we know that we would need to use the relative past and maybe I didn't mentioned this before but
+
+00:47.790 --> 00:50.310
+you also going to see a lot of times this duck.
+
+00:50.490 --> 00:57.240
+So again this that would mean the same thing where we are navigating somewhere within the folder meaning
+
+00:57.330 --> 01:01.050
+the index right now and the images are still within the same folder.
+
+01:01.500 --> 01:05.420
+However the image that we're looking for is in the images folder.
+
+01:05.460 --> 01:10.670
+So first we would need to navigate still within this folder and look for the images folder.
+
+01:10.820 --> 01:13.880
+Once we get the images folder what's going to be next.
+
+01:14.310 --> 01:16.320
+Well then we're gonna be looking for the logo right.
+
+01:16.800 --> 01:19.090
+So as you can see right now we're getting the logo.
+
+01:19.190 --> 01:20.810
+Now let's just right here.
+
+01:20.850 --> 01:23.550
+Coffee coffee.
+
+01:23.550 --> 01:24.810
+Logo.
+
+01:24.840 --> 01:25.290
+Yeah.
+
+01:25.290 --> 01:26.600
+Now we have our image.
+
+01:26.670 --> 01:28.010
+So this is all good.
+
+01:28.020 --> 01:34.800
+Next what we have after the image we have some kind of heading on my case I used I believe heading three
+
+01:35.400 --> 01:41.780
+so I'm gonna say heading three and we're just gonna call this the this is gonna be the name of the company
+
+01:41.780 --> 01:44.760
+your website or whatever you would like to make it.
+
+01:44.790 --> 01:47.340
+And in this case I'm gonna say coffee junkie.
+
+01:47.470 --> 01:53.610
+And next we would need to create our now but not for the nav bar I said that we would be using on our
+
+01:53.610 --> 01:59.490
+list of first we would need to create another list then for every list item we know that we need to
+
+01:59.670 --> 02:05.340
+create a list item element and then within the last night of women this is where we are creating our
+
+02:05.340 --> 02:09.270
+legs now for every link we're gonna have to have the atrium.
+
+02:09.320 --> 02:14.970
+So basically the path or the direction where this link is gonna be go and on since we're gonna start
+
+02:14.970 --> 02:19.620
+with the homepage and say that the homepage is gonna be going to indexation email.
+
+02:19.680 --> 02:23.760
+Now obviously we haven't created yet the rest of the pages.
+
+02:23.760 --> 02:27.110
+However it doesn't stop us from creating these links.
+
+02:27.120 --> 02:32.520
+So what I would like to do right now is just copy and paste this three times and instead of having this
+
+02:32.610 --> 02:37.460
+as a whole I'm going to change it to about numbers and contact.
+
+02:37.470 --> 02:43.570
+So first of all let me again do multiple cursors so we know that we would need to use all product.
+
+02:43.570 --> 02:49.600
+So in this case if I'm gonna press on multiple places notice I'm gonna be having multiple quarters.
+
+02:49.710 --> 02:54.840
+So let me delete first of all home because each and every one of them is going to be different as well
+
+02:54.840 --> 02:57.440
+as to let's get rid of all the indexes at the same time.
+
+02:58.000 --> 03:03.710
+So just like that we got rid of all the indexes and let's say the second page is gonna be about each
+
+03:03.720 --> 03:09.330
+normal and a name in our nav bar is going to be about.
+
+03:09.420 --> 03:10.410
+Now let me say this.
+
+03:10.440 --> 03:11.330
+Let's see.
+
+03:11.400 --> 03:17.890
+Sure enough we have the bolt and then let's have the numbers numbers change the amount this is going
+
+03:17.890 --> 03:21.890
+to be our page and in the number we have numbers.
+
+03:21.890 --> 03:29.200
+Now last but not least we're looking for contact measured the amount and this will be equal in the number
+
+03:29.280 --> 03:31.440
+to contact and just contact.
+
+03:31.440 --> 03:32.980
+We're not going to add anything else.
+
+03:33.140 --> 03:33.700
+Good.
+
+03:33.710 --> 03:40.400
+We added logo we added heading three as well as our number and maybe just to double check we can go
+
+03:40.460 --> 03:43.770
+to the bigger browser window and let's see how this is gonna look.
+
+03:43.820 --> 03:49.280
+I think it looks good enough and we already move on to start working the next part of our project.

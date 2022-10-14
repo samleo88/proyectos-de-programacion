@@ -1,0 +1,414 @@
+1
+
+00:00:00,000  -->  00:00:05,130
+Hey guys, welcome back. In the last video
+we learned how to setup our project as a
+
+2
+
+00:00:05,130  -->  00:00:11,460
+model view controller structure, in that
+video also I put the static files in the
+
+3
+
+00:00:11,460  -->  00:00:15,660
+wrong location. So what you got to do is
+you've got them under views and then
+
+4
+
+00:00:15,660  -->  00:00:21,840
+resources, I want you to move the css
+fonts and JavaScript into a top level
+
+5
+
+00:00:21,840  -->  00:00:28,560
+directory called static, so that the
+absolute path should be static/css/
+
+6
+
+00:00:28,560  -->  00:00:33,329
+and then whatever file names are. Now
+once you've got that done we're going to
+
+7
+
+00:00:33,329  -->  00:00:39,780
+be talking about reusability and not
+duplicating efforts. So what that means
+
+8
+
+00:00:39,780  -->  00:00:45,750
+basically is if you are writing a static
+HTML page and all the pages had the same
+
+9
+
+00:00:45,750  -->  00:00:51,899
+header bar or nav bar, you'd have to
+copy and paste them into each file,
+
+10
+
+00:00:51,899  -->  00:00:56,070
+unless you're using like PHP includes,
+but again if you're just using static
+
+11
+
+00:00:56,070  -->  00:00:57,210
+HTML
+
+12
+
+00:00:57,210  -->  00:01:01,079
+it's gonna, you're gonna have to redo a
+lot of things, then if you make a change
+
+13
+
+00:01:01,079  -->  00:01:05,519
+on one of them you've got to go through
+each page and make the same change on
+
+14
+
+00:01:05,519  -->  00:01:12,510
+those, so it gets kind of messy. So, that's
+why we're using the main layout here, and so
+
+15
+
+00:01:12,510  -->  00:01:15,450
+what we're going to do is go ahead and
+create the main layout and i'll show you
+
+16
+
+00:01:15,450  -->  00:01:17,040
+exactly what I mean.
+
+17
+
+00:01:17,040  -->  00:01:24,210
+So i'm going to go ahead and create an
+HTML file called "MainLayout" and then
+
+18
+
+00:01:24,210  -->  00:01:34,710
+also another one called "Home" and these
+dialogues aren't disappearing when i create
+
+19
+
+00:01:34,710  -->  00:01:44,729
+new files I guess. So in home all we're going to be printing out is "&lt;h1&gt;Hello Codewizard&lt;/h1&gt;"
+
+20
+
+00:01:44,729  -->  00:01:52,710
+going to save that, and then in MainLayout this is going
+
+21
+
+00:01:52,710  -->  00:01:58,110
+going to be a little more involved. So
+what we're going to have to do is we're
+
+22
+
+00:01:58,110  -->  00:02:06,990
+going to have to, going to write "Codewizard" right here in the title,
+
+23
+
+00:02:07,620  -->  00:02:15,540
+in the body element what we're going
+to do is create a "&lt;div id&gt;="app"&gt;" then in
+
+24
+
+00:02:15,540  -->  00:02:21,690
+that we're going to have to include
+whatever file we're working with. So i'll
+
+25
+
+00:02:21,690  -->  00:02:26,340
+show you that guys in a moment. In here
+we're going to create our controller and
+
+26
+
+00:02:26,340  -->  00:02:31,920
+so what we're going to do is we're going
+to "return render.Home( )"
+
+27
+
+00:02:33,060  -->  00:02:37,140
+it's that simple. Now right now if we
+load it up nothing's going to happen
+
+28
+
+00:02:37,140  -->  00:02:42,750
+because we're not actually using the
+home variable over here. I'm going to save
+
+29
+
+00:02:42,750  -->  00:02:51,660
+this, going to run the project, refresh
+here, and you'll see that template takes
+
+30
+
+00:02:51,660  -->  00:03:04,050
+0 arguments and one was given, let's
+find out why that was. Alright, what we're
+
+31
+
+00:03:04,050  -->  00:03:08,400
+going to have to do is in this file, this
+might be the cause of the issue, we're
+
+32
+
+00:03:08,400  -->  00:03:13,950
+going to "$def with (page)" because
+this is being used as a base layout. So,
+
+33
+
+00:03:13,950  -->  00:03:19,440
+the pages like if we load up home its
+gonna load this, and then load home in
+
+34
+
+00:03:19,440  -->  00:03:23,970
+there with whatever we need the variable.
+So in order to include that in our page put
+
+35
+
+00:03:23,970  -->  00:03:28,530
+a "$:page" and then the name of
+the variable that you defined the main
+
+36
+
+00:03:28,530  -->  00:03:36,360
+layout with. Let's save this, run it again,
+refresh, and you'll see now that we've
+
+37
+
+00:03:36,360  -->  00:03:40,560
+got the title code wizard, so you can see
+it is loading the main layout, and then
+
+38
+
+00:03:40,560  -->  00:03:44,820
+inside the main layout it's loading the
+page, so all the content that's in here.
+
+39
+
+00:03:44,820  -->  00:03:48,270
+Now, what we're going to do
+
+40
+
+00:03:48,270  -->  00:03:51,870
+we've got all our css files in static
+directory, so what we're going to do is
+
+41
+
+00:03:51,870  -->  00:03:56,730
+we're going to include them into the
+main layout. So we're actually going to
+
+42
+
+00:03:56,730  -->  00:04:03,120
+define them right here as a variable so "$variable css:
+
+43
+
+00:04:03,120  -->  00:04:10,290
+static/css/value/value.min.css
+
+44
+
+00:04:11,460  -->  00:04:22,770
+static/css/bootstrap-material-design.min.css" Define it just like
+
+45
+
+00:04:22,770  -->  00:04:28,020
+that, separate paths with a space, and
+then in here in the header what we're
+
+46
+
+00:04:28,020  -->  00:04:31,980
+going to do, if you guys haven't
+figured this out yet basically you can
+
+47
+
+00:04:31,980  -->  00:04:35,670
+write any Python code in here if you
+proceed it with a dollar sign.
+
+48
+
+00:04:36,210  -->  00:04:42,840
+So we're going to check if the CSS
+variable exists, so "$ if css:" and we're
+
+49
+
+00:04:42,840  -->  00:04:53,070
+going to go "$for style in css.split( )"
+So essentially we're going to split this
+
+50
+
+00:04:53,070  -->  00:05:00,030
+list, and it's gonna return each one of these in it's own instance. The we're going to print
+
+51
+
+00:05:00,030  -->  00:05:10,380
+"&lt;link rel ="stylesheet" href="$style" /&gt;"
+
+52
+
+00:05:10,380  -->  00:05:20,040
+If I save this and rerun
+
+53
+
+00:05:20,040  -->  00:05:23,580
+the program here, when I reload it's going
+to say
+
+54
+
+00:05:23,580  -->  00:05:31,530
+syntax error, main layout, line 13. Line 13
+is the end of the head here,
+
+55
+
+00:05:32,370  -->  00:05:35,820
+something went terribly, terribly wrong.
+
+56
+
+00:05:35,820  -->  00:05:48,300
+So let's try and figure out what that
+problem is. So I've got oh, "is" that's the
+
+57
+
+00:05:48,300  -->  00:05:49,080
+problem.
+
+58
+
+00:05:49,080  -->  00:06:00,000
+Stop that, run it again, refresh, name
+error css is not defined. So, let's go
+
+59
+
+00:06:00,000  -->  00:06:04,980
+ahead and figure out why that's
+happening. Creating a variable here
+
+60
+
+00:06:04,980  -->  00:06:16,560
+called css, Local vars here for loop body,
+and then css of self.css.
+
+61
+
+00:06:18,400  -->  00:06:31,539
+Ok, I can access it like that, if we define a
+variable in a template it gets loaded
+
+62
+
+00:06:31,539  -->  00:06:37,120
+to in its own class essentially, so self.css. Any variables you create up here
+
+63
+
+00:06:37,120  -->  00:06:41,830
+you need to access using self, and as you can see the style has changed and that
+
+64
+
+00:06:41,830  -->  00:06:46,509
+indicates to us that it is loading the
+appropriate style sheets. If I go and
+
+65
+
+00:06:46,509  -->  00:06:51,550
+inspect it here, look in here, we can see
+that yes it is actually including our
+
+66
+
+00:06:51,550  -->  00:06:55,960
+style sheets. Now i'm also going to go
+ahead and make my own style sheet in
+
+67
+
+00:06:55,960  -->  00:07:08,350
+here called "swag" and this is where i'm
+going to write on my custom css. And then
+
+68
+
+00:07:08,350  -->  00:07:13,539
+basically that's how to set up the page,
+in the next video I think we're going to
+
+69
+
+00:07:13,539  -->  00:07:17,259
+be, well between now the next video, I'm
+going to do it styling so if you guys
+
+70
+
+00:07:17,259  -->  00:07:21,009
+want to style up the shell of an
+application that would be neat to. We're going
+
+71
+
+00:07:21,009  -->  00:07:26,050
+to be using a header bar and we're going
+to be creating a forum for registering
+
+72
+
+00:07:26,050  -->  00:07:26,550
+an account.

@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.570 --> 00:01.090
+Excellent.
+
+00:01.140 --> 00:07.290
+Well finally going to take a deep dive into age the AML component and our first component is gonna be
+
+00:07.290 --> 00:08.030
+heading.
+
+00:08.100 --> 00:12.470
+Now we obviously have already covered headings because they need to do something with examples.
+
+00:12.480 --> 00:13.050
+Pretty much.
+
+00:13.080 --> 00:14.480
+I couldn't have them empty.
+
+00:14.490 --> 00:19.310
+So you're already a little bit familiar with headings but let me go over the whole spiel again.
+
+00:19.440 --> 00:24.210
+Basically headings would be titles so if you think of any kind of document you'll then have a title
+
+00:24.570 --> 00:27.500
+and for that we have headings now for the headings.
+
+00:27.510 --> 00:33.510
+We have six types starting with having one and ending with adding six and obviously having one would
+
+00:33.510 --> 00:36.330
+be the biggest one and heading six would be the smallest.
+
+00:36.930 --> 00:43.670
+So let's start with having one again we can use them notoriously and we can have a tab or enter or return.
+
+00:43.800 --> 00:49.260
+And then here I am just going to say I am I am heading and we're going to type adding 1.
+
+00:49.410 --> 00:54.150
+Now what I'm gonna do right now is I'm just going to copy and paste this line later on I'm gonna show
+
+00:54.150 --> 00:55.770
+you some keyboard keep it.
+
+00:55.920 --> 01:01.320
+But for now we're all gonna be basically doing this manually like we would do normally on a computer
+
+01:01.680 --> 01:06.570
+meaning we'll get to do it with copy and paste later on we're going to look at a keyboard shortcuts
+
+01:06.600 --> 01:09.660
+that we're going to improve again our workflow tremendously.
+
+01:09.660 --> 01:14.880
+So let me first of all copy this and let's say that the second line and maybe for this one let's make
+
+01:14.880 --> 01:19.230
+it as the heading to sort of change these values as well as this guy.
+
+01:19.680 --> 01:20.760
+So let me say this.
+
+01:20.770 --> 01:25.890
+And sure enough now I have a heading to now maybe in this case I can just copy and paste it again two
+
+01:25.890 --> 01:27.050
+of them right away.
+
+01:27.210 --> 01:29.950
+And one more time so then I'm gonna have six of them.
+
+01:30.060 --> 01:31.700
+So here I would like to change the values.
+
+01:31.700 --> 01:39.820
+So this would be heading three and four and five and adding six and the same old spiel over here.
+
+01:39.810 --> 01:47.160
+Well obviously not having sex but we'll have having three and four and having sex and again same old
+
+01:47.160 --> 01:52.760
+thing like with the rest of the elements and we're gonna have we're gonna have the element that is enclosed
+
+01:52.770 --> 01:55.840
+in an angle brackets as well as the closing tag.
+
+01:55.920 --> 02:01.050
+So whatever is gonna go inside between these two zags is gonna be my heading.
+
+02:01.050 --> 02:05.230
+So obviously if you want to write a paragraph you can write a paragraph in a heading.
+
+02:05.250 --> 02:10.860
+Now I don't know any case where you would want to use that obviously title is self-explanatory.
+
+02:10.860 --> 02:12.030
+That is the title.
+
+02:12.030 --> 02:17.250
+So depending on how long or the titles you write what I guess one word two words or ten words but in
+
+02:17.250 --> 02:21.240
+general you'd probably wouldn't want to have a title that is actually a paragraph.
+
+02:21.240 --> 02:24.080
+We have specific paragraph tag for it.
+
+02:24.090 --> 02:25.390
+Now I digress a little bit.
+
+02:25.410 --> 02:30.270
+But let's say first of all this is going to be hitting three and four because I didn't have the numbers
+
+02:30.720 --> 02:32.520
+sorry I was cheating a little bit.
+
+02:32.730 --> 02:33.980
+So let me say this.
+
+02:34.100 --> 02:37.020
+And sure enough as you can see right now we have six headings.
+
+02:37.230 --> 02:43.170
+So depending on the situation obviously you would pick a heading that you would like to use for that
+
+02:43.170 --> 02:44.310
+particular situation.

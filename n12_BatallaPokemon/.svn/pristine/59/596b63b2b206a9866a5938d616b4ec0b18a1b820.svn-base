@@ -1,0 +1,79 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.cliente.mundo;
+
+import uniandes.cupi2.batallaPokemon.cliente.interfaz.InterfazCupiPokemon;
+
+/**
+ * Clase que representa un hilo de ejecución cuando se cambia de pokémon.
+ */
+public class ThreadEsperarPokemon extends Thread
+{
+
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Referencia al jugador.
+     */
+    private Jugador jugador;
+
+    /**
+     * Nombre del pokémon seleccionado.
+     */
+    private String nombrePokemon;
+
+    /**
+     * Ventana principal de la aplicación.
+     */
+    private InterfazCupiPokemon principal;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye el nuevo hilo y lo deja listo para informarle al oponente el cambio.
+     * @param pJuego Jugador de Domino. pJuego !=null.
+     * @param pNombrePokemon Nombre del pokémon seleccionado. pNombrePokemon !=null.
+     * @param pPrincipal Ventana principal de la aplicación. pPrincipal !=null.
+     */
+    public ThreadEsperarPokemon( Jugador pJuego, String pNombrePokemon, InterfazCupiPokemon pPrincipal )
+    {
+        super( );
+
+        jugador = pJuego;
+        nombrePokemon = pNombrePokemon;
+        principal = pPrincipal;
+
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Inicia la ejecución del hilo que realiza el envío del mensaje para informar que se realizó un cambio. <br>
+     * Cuando se tiene información del pokémon que se cambió se actualiza la interfaz.<br>
+     */
+    public void run( )
+    {
+
+        jugador.cambiarPokemon( nombrePokemon );
+        principal.actualizarInterfaz( );
+        principal.esperarJugada( );
+
+    }
+
+}

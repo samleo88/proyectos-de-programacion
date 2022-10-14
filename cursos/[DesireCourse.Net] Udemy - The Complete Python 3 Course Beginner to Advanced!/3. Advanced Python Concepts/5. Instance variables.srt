@@ -1,0 +1,200 @@
+1
+
+00:00:00,000  -->  00:00:03,990
+Alright, so we just learned how to create
+objects but these are very static
+
+2
+
+00:00:03,990  -->  00:00:07,500
+because everything is statically coded,
+so how can we create two different
+
+3
+
+00:00:07,500  -->  00:00:10,830
+enemies with different attack powers
+using the same class?
+
+4
+
+00:00:11,340  -->  00:00:15,540
+Well, all we need to do is use what's
+called the init function. So what we're
+
+5
+
+00:00:15,540  -->  00:00:20,160
+going to do is remove these because we
+don't need them right now. I'm going to
+
+6
+
+00:00:20,160  -->  00:00:34,200
+"def__init__(self):" and I actually need to "def" that. So, again
+
+7
+
+00:00:34,200  -->  00:00:37,469
+this is a function so you need to
+precede it with the word def, and then two
+
+8
+
+00:00:37,469  -->  00:00:41,309
+underscores, the word init, two
+underscores, and then you also pass
+
+9
+
+00:00:41,309  -->  00:00:47,129
+itself. So what we're going to do in this
+init function is we're going to accept,
+
+10
+
+00:00:47,129  -->  00:00:53,760
+and this this code runs when
+the class has been instantiated or when
+
+11
+
+00:00:53,760  -->  00:00:57,930
+an object has been created from this
+class, so what we're going to do is we
+
+12
+
+00:00:57,930  -->  00:01:04,170
+are going to pass two other variables
+into this initiation function which is
+
+13
+
+00:01:04,170  -->  00:01:08,610
+going to be "atkl, atkh"
+
+14
+
+00:01:08,610  -->  00:01:15,390
+What we're going to do is we're going
+to set "self.atkl = atkl "
+
+15
+
+00:01:15,390  -->  00:01:20,820
+and "self.atkh =atkh"
+
+16
+
+00:01:21,450  -->  00:01:25,799
+So what this is going to do is as you can see down here we're calling the self attack
+
+17
+
+00:01:25,799  -->  00:01:30,960
+low, but if we don't specify it
+within the class here as a variable it
+
+18
+
+00:01:30,960  -->  00:01:36,930
+doesn't get created, so what we do in order to make this more
+
+19
+
+00:01:36,930  -->  00:01:41,880
+dynamic is we use an initiation function
+or an initialization function,
+
+20
+
+00:01:41,880  -->  00:01:49,020
+we pass variables into here, and then we
+can use these variables to set object
+
+21
+
+00:01:49,020  -->  00:01:55,259
+properties here. So, let's go ahead and
+see what this is going to do. We're not
+
+22
+
+00:01:55,259  -->  00:02:00,869
+calling the the class properly now and
+what you'll see is if i save this, and
+
+23
+
+00:02:00,869  -->  00:02:06,719
+run, it's going to freak out because we're
+trying to instantiate it here, passing no
+
+24
+
+00:02:06,719  -->  00:02:11,610
+values through, and you'll see on the
+screen here is parameter atkh
+
+25
+
+00:02:11,610  -->  00:02:13,590
+unfilled. So it's expecting
+
+26
+
+00:02:13,590  -->  00:02:18,629
+these two parameters to be passed
+through in the instantiation of that
+
+27
+
+00:02:18,629  -->  00:02:22,470
+class. So what I'm going to do, we're going to set the attack low of this enemy and
+
+28
+
+00:02:22,470  -->  00:02:27,569
+that is going to be equal to let's say
+40, let's say he's a week enemy, and then
+
+29
+
+00:02:27,569  -->  00:02:35,489
+the high is going to be 49. And then for
+the second enemy we're going to call,
+
+30
+
+00:02:35,489  -->  00:02:43,590
+while we're going to pass in the parameters 75 and 90. So now what we'll get when
+
+31
+
+00:02:43,590  -->  00:02:48,209
+we hit ctrl or command + s, or when you
+save the file and we run it,
+
+32
+
+00:02:48,209  -->  00:02:55,440
+it's going to print out the low attack
+power for each instance
+
+33
+
+00:02:55,440  -->  00:03:00,150
+of this class, and so you can see that by
+using the init function we can make this
+
+34
+
+00:03:00,150  -->  00:03:05,610
+more dynamic and now each instantiation
+of this class can have its own
+
+35
+
+00:03:05,610  -->  00:03:09,269
+properties and it can be its own object.

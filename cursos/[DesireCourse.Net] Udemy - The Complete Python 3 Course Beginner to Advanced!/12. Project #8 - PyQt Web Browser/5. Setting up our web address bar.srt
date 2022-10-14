@@ -1,0 +1,464 @@
+1
+
+00:00:00,000  -->  00:00:02,280
+Alright guys, so, what we're going to do
+
+2
+
+00:00:02,280  -->  00:00:04,110
+now is actually make our address bar
+
+3
+
+00:00:04,110  -->  00:00:06,060
+work, and how we're going to do that is
+
+4
+
+00:00:06,060  -->  00:00:09,210
+we're going to create a method called
+
+5
+
+00:00:09,210  -->  00:00:11,820
+browse to, and we're going to hook into
+
+6
+
+00:00:11,820  -->  00:00:13,170
+that and we're going to connect that to when
+
+7
+
+00:00:13,170  -->  00:00:15,299
+enter is pressed in the address bar. So,
+
+8
+
+00:00:15,299  -->  00:00:24,810
+let's define a BrowseTo, and the first thing
+
+9
+
+00:00:24,810  -->  00:00:29,010
+we need to do is get the text
+
+10
+
+00:00:29,010  -->  00:00:31,019
+within the address bar. So we're going to
+
+11
+
+00:00:31,019  -->  00:00:36,500
+say text...
+
+12
+
+00:00:37,890  -->  00:00:42,930
+yeah, text = self.addressbar,
+
+13
+
+00:00:42,930  -->  00:00:51,390
+that's lowercase, text is it?
+
+14
+
+00:00:51,390  -->  00:00:56,489
+Yeah, let me print that out and let's try and,
+
+15
+
+00:00:56,489  -->  00:00:58,800
+well what we need to do now is hook into
+
+16
+
+00:00:58,800  -->  00:01:03,600
+address bar, here it is. So,
+
+17
+
+00:01:03,600  -->  00:01:09,630
+self.addressbar.returnPressed, we're
+
+18
+
+00:01:09,630  -->  00:01:12,840
+going to connect that to self.
+
+19
+
+00:01:12,840  -->  00:01:16,259
+BrowseTo, and again remove the
+
+20
+
+00:01:16,259  -->  00:01:18,090
+brackets when you're connecting the
+
+21
+
+00:01:18,090  -->  00:01:20,729
+signals, unless you use a lambda which we
+
+22
+
+00:01:20,729  -->  00:01:23,549
+don't need to use. So, I'm going to type
+
+23
+
+00:01:23,549  -->  00:01:25,650
+and hit enter and we are getting the
+
+24
+
+00:01:25,650  -->  00:01:26,970
+text from the address bar, that's
+
+25
+
+00:01:26,970  -->  00:01:29,250
+exactly what we need to get. So, what
+
+26
+
+00:01:29,250  -->  00:01:30,869
+we're going to do is we need to get the
+
+27
+
+00:01:30,869  -->  00:01:33,810
+index number of the current tab, then get
+
+28
+
+00:01:33,810  -->  00:01:38,729
+the tabs data, and then get the widget
+
+29
+
+00:01:38,729  -->  00:01:41,040
+to load into. So how we're going to do
+
+30
+
+00:01:41,040  -->  00:01:48,000
+that is what we're going to do is say
+
+31
+
+00:01:48,000  -->  00:01:52,439
+i = self.tabbar.currentIndex,
+
+32
+
+00:01:52,439  -->  00:01:57,119
+and then tab is going to be
+
+33
+
+00:01:57,119  -->  00:02:03,689
+equal to self.tabbar.tabData and we're going to
+
+34
+
+00:02:03,689  -->  00:02:05,909
+pass in i so we can get the name, and
+
+35
+
+00:02:05,909  -->  00:02:10,000
+then we're going to say wv for webview is
+
+36
+
+00:02:10,000  -->  00:02:14,140
+going to be equal to self.findChild
+
+37
+
+00:02:14,140  -->  00:02:17,980
+and remember the first parameter is the
+
+38
+
+00:02:17,980  -->  00:02:21,010
+type, so QWidget, and the second is the
+
+39
+
+00:02:21,010  -->  00:02:28,090
+actual name, so tab. QWidget the W
+
+40
+
+00:02:28,090  -->  00:02:30,040
+needs to be capitalized, there we go.
+
+41
+
+00:02:30,040  -->  00:02:34,030
+So, what we've got here is a progression
+
+42
+
+00:02:34,030  -->  00:02:36,760
+we're getting the index number of
+
+43
+
+00:02:36,760  -->  00:02:39,670
+the current tab, then we're getting the
+
+44
+
+00:02:39,670  -->  00:02:42,850
+tab name from that tab, and then we're
+
+45
+
+00:02:42,850  -->  00:02:44,290
+getting the webview that's associated
+
+46
+
+00:02:44,290  -->  00:02:46,450
+with that name because the object name
+
+47
+
+00:02:46,450  -->  00:02:50,709
+of the tab content is that. So,
+
+48
+
+00:02:50,709  -->  00:02:55,660
+actually content because this is going
+
+49
+
+00:02:55,660  -->  00:02:58,510
+to be the QWidget, right, and this is
+
+50
+
+00:02:58,510  -->  00:03:01,720
+going to be the content object within it.
+
+51
+
+00:03:01,720  -->  00:03:07,690
+So, now what we can do is we can say wv.
+
+52
+
+00:03:07,690  -->  00:03:13,030
+load, and then we go QURLfromUser
+
+53
+
+00:03:13,030  -->  00:03:17,830
+Input, and then we pass text in there.
+
+54
+
+00:03:17,830  -->  00:03:23,170
+Alright, so, well we want to do a little
+
+55
+
+00:03:23,170  -->  00:03:30,760
+bit of modifying first, so let's create
+
+56
+
+00:03:30,760  -->  00:03:35,410
+another variable called url. So, if "http"
+
+57
+
+00:03:35,410  -->  00:03:43,090
+not in text this means it's either going
+
+58
+
+00:03:43,090  -->  00:03:46,480
+to search or it's going to need to be
+
+59
+
+00:03:46,480  -->  00:03:48,579
+formatted, so we need to do another check.
+
+60
+
+00:03:48,579  -->  00:03:58,660
+if "." not in text we can now tell
+
+61
+
+00:03:58,660  -->  00:04:02,260
+that it is a search, so url = and
+
+62
+
+00:04:02,260  -->  00:04:03,910
+for what we're going to do here we're
+
+63
+
+00:04:03,910  -->  00:04:05,320
+gonna bring up
+
+64
+
+00:04:05,320  -->  00:04:08,230
+this and then we're going to go to Google, and I'm
+
+65
+
+00:04:08,230  -->  00:04:11,290
+going to get the URL that we need to use
+
+66
+
+00:04:11,290  -->  00:04:14,110
+to search on Google, and as you can see
+
+67
+
+00:04:14,110  -->  00:04:16,209
+it's right there. So I'm going to copy that
+
+68
+
+00:04:16,209  -->  00:04:22,060
+over here. So url is going to be that plus
+
+69
+
+00:04:22,060  -->  00:04:23,590
+whatever we searched for,
+
+70
+
+00:04:23,590  -->  00:04:32,260
+else we're going to format URL. So, url
+
+71
+
+00:04:32,260  -->  00:04:39,690
+equals HTTP plus text.
+
+72
+
+00:04:42,100  -->  00:04:46,750
+If HTTP is in text, we just need to say
+
+73
+
+00:04:46,750  -->  00:04:51,580
+url equals text. So now we've got three
+
+74
+
+00:04:51,580  -->  00:04:54,310
+functions that are happening here with
+
+75
+
+00:04:54,310  -->  00:04:59,470
+the address itself. So I will load it up and
+
+76
+
+00:04:59,470  -->  00:05:03,580
+then I'll explain more. So we've
+
+77
+
+00:05:03,580  -->  00:05:04,870
+already got a tab, what I'm going to do
+
+78
+
+00:05:04,870  -->  00:05:09,729
+is go to youtube.com, and as you can see
+
+79
+
+00:05:09,729  -->  00:05:13,330
+it's formatted the URL to allow me to jump
+
+80
+
+00:05:13,330  -->  00:05:16,600
+over to youtube.com. But, if I search
+
+81
+
+00:05:16,600  -->  00:05:21,880
+for, or if type, how to make pizza
+
+82
+
+00:05:21,880  -->  00:05:24,130
+it recognizes that there's no HTTP
+
+83
+
+00:05:24,130  -->  00:05:27,370
+there's also no dot in there, so it's not
+
+84
+
+00:05:27,370  -->  00:05:30,490
+a URL and we could use regex to get the type,
+
+85
+
+00:05:30,490  -->  00:05:33,910
+or match it to really test it if it's URL, but
+
+86
+
+00:05:33,910  -->  00:05:35,830
+this is just a more simple for right now.
+
+87
+
+00:05:35,830  -->  00:05:39,760
+So, that's going to search but then also
+
+88
+
+00:05:39,760  -->  00:05:45,460
+if we go http://youtube.com it already
+
+89
+
+00:05:45,460  -->  00:05:47,349
+knows that we've got HTTP in there so it
+
+90
+
+00:05:47,349  -->  00:05:52,419
+doesn't prepend that to the URL. So that's
+
+91
+
+00:05:52,419  -->  00:05:55,539
+working now I want to talk about signals
+
+92
+
+00:05:55,539  -->  00:05:57,370
+of the actual web view, and I'm going to
+
+93
+
+00:05:57,370  -->  00:06:00,539
+do that the next video.

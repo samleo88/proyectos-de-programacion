@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00.270 --> 00:03.000
+Hi guys and welcome to our next topic.
+
+00:03.120 --> 00:11.610
+The flexible box module or just simply flex box since this flex box was designed as one dimensional
+
+00:11.610 --> 00:14.760
+layout module to make our lives easier.
+
+00:14.880 --> 00:22.840
+When it comes to spacing items in the row or in the column as an example would just fuel lines of code.
+
+00:23.040 --> 00:31.360
+We can create nice evenly spaced no more place text in the center of the image horizontally and vertically.
+
+00:31.500 --> 00:35.470
+Can you design your whole project with just using flex box.
+
+00:35.490 --> 00:42.480
+Probably but it's safe to say that in that particular case using C as grid would make a little bit more
+
+00:42.480 --> 00:43.380
+sense.
+
+00:43.440 --> 00:48.510
+As a side note Sears says grid is going to be our next big topic.
+
+00:48.510 --> 00:55.650
+Speaking of Sears says grid there is this idea that once Sears as grid arrived flex box is dead and
+
+00:55.650 --> 00:56.610
+useless.
+
+00:56.610 --> 01:02.110
+And even though I can speak only for myself it could not be further from the truth.
+
+01:02.130 --> 01:09.180
+They both have their own use cases and in my opinion using Sears as grid for everything is more of a
+
+01:09.180 --> 01:11.630
+fashion statement than anything else.
+
+01:11.640 --> 01:16.240
+There are still certain layouts where I find myself reaching forces as flex box.
+
+01:16.410 --> 01:23.370
+Even though it will be possible to use this as grid in order to make my workflow faster and easier.
+
+01:23.460 --> 01:26.240
+Now let's address the elephant in the room.
+
+01:26.400 --> 01:34.460
+The browser support for C assess flex box so if we had over 2 Can I use dot com.
+
+01:34.500 --> 01:41.630
+We can see that at the time of this recording global support is almost ninety nine percent and ninety
+
+01:41.630 --> 01:44.430
+seven percent when on prefixed.
+
+01:44.430 --> 01:47.520
+Which in my opinion is just awesome.
+
+01:47.520 --> 01:54.860
+Since all the major browsers supported and this is a CSF course I am only going to focus on the Flex
+
+01:54.860 --> 02:00.750
+box syntax and the use cases not support for replacement for older browsers.
+
+02:00.750 --> 02:06.410
+If that is something that you are interested in please use the rise other online resources.
+
+02:06.570 --> 02:13.110
+As far as previous years ago during tutorial and the project I'm not going to type them out manually
+
+02:13.410 --> 02:19.410
+because in my opinion it is confusing when you're just starting out with the flux bugs and also somewhat
+
+02:19.620 --> 02:24.720
+unnecessary since there are tools that can do that for you at the end of the project.
+
+02:24.720 --> 02:32.190
+I'm going to show you one of such tools a Visual Studio code extension by the name of our prefix.
+
+02:32.670 --> 02:39.720
+Okay now that we know the basics let's kick things into gear and start working with assess flex box.

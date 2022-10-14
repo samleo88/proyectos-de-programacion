@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.450 --> 00:06.870
+It's easy to see that Margie B values give you much more power because you have way more options than
+
+00:06.870 --> 00:08.740
+just choosing the car names.
+
+00:08.790 --> 00:15.510
+However what's also real you need about our G.B. but allows you to use our GPA which would stand for
+
+00:15.510 --> 00:17.300
+opacity and transparency.
+
+00:17.410 --> 00:20.020
+The values would be from zero to one.
+
+00:20.070 --> 00:24.240
+Now as always I think it's going to be easier for me to show you how that would work.
+
+00:24.310 --> 00:29.380
+First of all let's head over to indexation the amount and we're going to add one more idea here.
+
+00:29.490 --> 00:36.240
+Let's call this for let's say there's gonna be having three ways a idea for and the value is also gonna
+
+00:36.270 --> 00:42.600
+be here for once we have added our heading with an idea for we can head over back to style C assess.
+
+00:42.800 --> 00:47.190
+And here I'm gonna do a little bit of sprinkling of first again.
+
+00:47.190 --> 00:51.220
+We're going to start very basic I'm going to say for the first one I would like to select it.
+
+00:51.750 --> 00:57.030
+However right now you know what maybe let's just save it and let's see that everything right now is
+
+00:57.030 --> 01:00.280
+pretty much white and the color is obviously black.
+
+01:00.550 --> 01:06.270
+And here let's write some color values some research first by color and I would like to practice a little
+
+01:06.270 --> 01:13.230
+bit of our GPA and we're gonna say that I don't know if this is gonna be like a hundred and then again
+
+01:13.470 --> 01:19.790
+let's say a hundred and twenty three and I don't know fifty six whatever value you would like.
+
+01:19.980 --> 01:25.530
+Now the difference here is for the background I would like to go with a black background or I would
+
+01:25.530 --> 01:32.050
+like to use the opacity and transparency values here I'm gonna write background and then again I'm gonna
+
+01:32.050 --> 01:39.100
+be looking for our G.B. but instead of just simple are G.B. WE'RE GONNA BE LOOKING FOR OUR GPA now how
+
+01:39.100 --> 01:44.560
+we would write this again we would look for the black color obviously since this is our option and then
+
+01:44.560 --> 01:49.660
+we're gonna be looking for what kind of capacity or transparency this is gonna be.
+
+01:49.660 --> 01:55.090
+So let's say here if I'm gonna write zero point five this is not gonna be totally black color.
+
+01:55.150 --> 02:00.220
+Notice that this would be a great color because we would be adding the capacity of zero point five.
+
+02:00.940 --> 02:07.600
+Now we all going to be practicing all only with our GPA for the background of black but obviously understand
+
+02:07.600 --> 02:09.480
+that you can use any color here.
+
+02:09.490 --> 02:12.310
+What's important here is this opacity color.
+
+02:12.430 --> 02:17.680
+Now again it's probably gonna be easier if we're going to look at multiple values so let's copy and
+
+02:17.680 --> 02:22.560
+paste this let's say for a second one we're gonna be using a different one.
+
+02:22.570 --> 02:28.210
+So first of all let me select again the first and let's change this to a second term.
+
+02:28.840 --> 02:33.310
+So for the second maybe I would like to maybe have a different color.
+
+02:33.310 --> 02:36.130
+Color is gonna be I don't know forty five.
+
+02:36.190 --> 02:42.990
+And uh I don't know 200 and let's say the third one is gonna be at 34.
+
+02:43.100 --> 02:47.920
+And again just to show you that you can obviously have different colored rallies now mostly focusing
+
+02:47.920 --> 02:53.560
+on the green ones so maybe it's this one like ten because otherwise either all of them are going to
+
+02:53.560 --> 02:54.420
+be green.
+
+02:54.460 --> 02:56.840
+So this is gonna be totally black all here.
+
+02:56.860 --> 03:01.350
+So why don't we practice on having the opacity of zero point let's say twenty five.
+
+03:01.930 --> 03:08.090
+And I'm giving right now kind of round values but understand that you have an option of zero to one.
+
+03:08.650 --> 03:10.260
+So one is gonna be the maximum.
+
+03:10.780 --> 03:13.180
+And the zero would be the smallest one.
+
+03:13.810 --> 03:16.130
+So as I'm working here.
+
+03:16.210 --> 03:23.230
+Notice zero point five would have a less transparency than zero point twenty five.
+
+03:23.260 --> 03:28.060
+So if I'm gonna go totally with zero this is gonna give me totally white color.
+
+03:28.240 --> 03:29.350
+Don't believe me.
+
+03:29.420 --> 03:33.820
+Now let's just throw in we're gonna copy paste that here in this case.
+
+03:33.820 --> 03:35.490
+We're gonna change the round.
+
+03:35.680 --> 03:37.630
+I'm going to say the value is going to be three.
+
+03:38.020 --> 03:39.980
+So our slate for the idea of two.
+
+03:40.060 --> 03:42.100
+Now let's go totally red color.
+
+03:42.970 --> 03:46.100
+So here we have 255 0 0 0.
+
+03:46.720 --> 03:48.350
+That's gonna be my option.
+
+03:48.350 --> 03:52.040
+And let's notice if I'm gonna go with totally black color.
+
+03:52.270 --> 03:55.130
+However also more capacity is gonna be zero.
+
+03:55.150 --> 03:55.810
+What's gonna happen.
+
+03:56.410 --> 04:01.940
+Well the background is there but we cannot see and this is our world capacity value with work.
+
+04:01.960 --> 04:08.970
+So even though we have a black color we made it totally transparent by adding gear for the capacity
+
+04:08.980 --> 04:10.670
+value zero.
+
+04:10.690 --> 04:16.420
+However if we would like to check totally black color we know we have the entity for then let's have
+
+04:16.420 --> 04:23.100
+a different color maybe blue one let's say our Gibby again on GV then we're looking for 0 0.
+
+04:23.440 --> 04:29.200
+And then the third value is going to be 255 and here for the background let's add totally black color
+
+04:29.650 --> 04:35.760
+with our GPA GPA and that'll be 0 0 and 1.
+
+04:35.800 --> 04:40.060
+Now obviously in this case you might as well just write out G.B. because there is no difference.
+
+04:40.420 --> 04:46.140
+And again we are using the round values just to show you that how this will work because I'm not going
+
+04:46.140 --> 04:52.690
+to cover every number from 0 to 1 0.01 or zero point zero or two because this is gonna waste a lot of
+
+04:52.690 --> 04:53.100
+my time.
+
+04:53.590 --> 05:01.600
+But we noticed that the our fourth I.D. is having a totally black color with a color obviously of blue
+
+05:01.630 --> 05:04.450
+because we already know how the G.B. would work.
+
+05:04.450 --> 05:09.580
+Now if we would want to experiment a little more let's say a body let's go for some kind of background
+
+05:09.580 --> 05:16.310
+color and in our case again let's use our GBI and then again we can write whatever our hearts desire.
+
+05:16.330 --> 05:21.730
+So if I'm going to start by 10 10 and maybe here I don't know.
+
+05:21.730 --> 05:28.150
+Two hundred and I would like to add some kind of past three let's say point zero point three let's notice
+
+05:28.170 --> 05:28.770
+we're all gonna have.
+
+05:29.200 --> 05:31.160
+So now this color would look like this.
+
+05:31.210 --> 05:37.720
+However if I'm gonna omit that and if I'm gonna say our GPA notice I'm going to be having totally blue
+
+05:37.720 --> 05:38.590
+color.
+
+05:38.590 --> 05:42.850
+So what the opacity adds is right now pretty much our transparency.
+
+05:42.850 --> 05:50.080
+So again let's go back and let's say that our GPA is gonna be around zero point zero one.
+
+05:50.290 --> 05:55.300
+Something like this more zero point two it doesn't really matter at the moment I'm going to say it it's
+
+05:55.300 --> 05:59.250
+gonna be almost white because we're almost at transparency level.
+
+05:59.660 --> 06:00.210
+Okay.
+
+06:00.250 --> 06:04.050
+So if we're gonna go up obviously we're gonna go like zero point.
+
+06:04.090 --> 06:04.930
+I don't know.
+
+06:05.000 --> 06:06.110
+Fifty six.
+
+06:06.240 --> 06:06.890
+What are we gonna do.
+
+06:07.150 --> 06:12.260
+Well now we're gonna have less transparent color so more towards the blue one.
+
+06:12.320 --> 06:14.730
+And again this won't work with any color value.
+
+06:14.860 --> 06:19.440
+So if I'm gonna right here I'm not 355 but let's say two hundred.
+
+06:19.530 --> 06:20.280
+Much notice.
+
+06:20.440 --> 06:26.560
+Now we're going more towards the green and again green with some kind of transparency value not just
+
+06:26.560 --> 06:27.630
+regular green.
+
+06:27.700 --> 06:33.730
+And this is really powerful whenever we are working with a CSX because this is gonna allow us to create
+
+06:33.730 --> 06:34.540
+like an overlay.
+
+06:35.050 --> 06:39.400
+So let's say there is gonna be some kind of picture and we would want to add some kind of color on top
+
+06:39.400 --> 06:40.390
+of the picture.
+
+06:40.390 --> 06:42.610
+So the picture let's say is not as bright.
+
+06:42.610 --> 06:46.990
+So that is where we can use our GPA values by controlling our opacity.

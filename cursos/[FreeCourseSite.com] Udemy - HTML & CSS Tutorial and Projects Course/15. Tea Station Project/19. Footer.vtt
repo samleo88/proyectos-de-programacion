@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.270 --> 00:02.460
+Pressure of the form submission.
+
+00:02.460 --> 00:08.090
+We would like to finish here with our Web site at least to the point where we're gonna be heading over
+
+00:08.130 --> 00:12.070
+back to number and now button and here we just have the footer.
+
+00:12.150 --> 00:18.310
+So it's safe to say that I think we're gonna finish everything here in one video where the HD UML and
+
+00:18.310 --> 00:24.000
+easy access is gonna be had it all let's start probably by creating the footer element and we right
+
+00:24.000 --> 00:25.960
+away we're gonna give it a class of four.
+
+00:26.070 --> 00:31.770
+Also I'd like to use the section center that was for our pairings and for the layout overall.
+
+00:32.250 --> 00:39.950
+So let's use Section center and within the section center let's create another div so we'll show so
+
+00:40.230 --> 00:41.980
+show icons.
+
+00:41.990 --> 00:45.450
+That's gonna be the name and what I would like to do here.
+
+00:45.460 --> 00:50.050
+Well let's create three icons all of them are gonna be links and they're all gonna be linking to the
+
+00:50.050 --> 00:52.320
+Facebook to Twitter and Instagram.
+
+00:52.690 --> 00:59.470
+So I'm going to say first of all there's gonna be a comment social icon that's gonna be the first thing
+
+00:59.910 --> 01:05.350
+I'm going to copy and paste it I'm gonna say end of social icon and then let's create our link let's
+
+01:05.350 --> 01:11.230
+say there's gonna be a link link for now is gonna be the dummy link but I would like to add a class
+
+01:11.230 --> 01:21.000
+of social icon and let's write what we would want and that would be a font awesome icon f a b though
+
+01:21.270 --> 01:27.130
+in this case this is going to be different and then we're gonna be looking for f a Facebook.
+
+01:27.190 --> 01:29.240
+So this should give us the Facebook icon.
+
+01:29.520 --> 01:36.130
+And yeah we have our Facebook icon now what we can do right now is just copy and paste this let's say
+
+01:36.160 --> 01:37.980
+that I would want to more.
+
+01:38.030 --> 01:41.200
+1 2 obviously here we're going to be changing the values.
+
+01:41.470 --> 01:45.220
+When I say then this is not going to be Twitter or I'm sorry Facebook.
+
+01:45.220 --> 01:50.560
+This is gonna be Instagram Instagram something like this.
+
+01:50.560 --> 01:54.640
+And then let's go up and let's say with here we're gonna be looking for Twitter.
+
+01:54.700 --> 01:56.830
+So those are gonna be my social media icons.
+
+01:57.430 --> 02:02.470
+I also would like to add that paragraph what I was talking about about the copyright.
+
+02:02.560 --> 02:03.550
+So let me double check.
+
+02:03.550 --> 02:10.810
+So within the section centre and outside the social icons there's going to be paragraph the class is
+
+02:10.810 --> 02:14.900
+gonna be put out text and within the paragraph let's add right away.
+
+02:14.900 --> 02:15.690
+Copy symbol.
+
+02:16.690 --> 02:18.160
+So right copy.
+
+02:18.220 --> 02:26.410
+Then we're adding the semicolon and let's do maybe some span span and within the span we can right away.
+
+02:26.430 --> 02:26.820
+Right.
+
+02:26.840 --> 02:30.250
+The station the station.
+
+02:30.500 --> 02:37.220
+And if you remember all the way in the beginning we added this global class where the colour of the
+
+02:37.220 --> 02:38.960
+text would be primary.
+
+02:38.960 --> 02:44.510
+So now we can just use this class and say text Prime Mary.
+
+02:44.870 --> 02:46.170
+Yeah we have our T station.
+
+02:46.530 --> 02:47.310
+What else.
+
+02:47.310 --> 02:51.090
+Well right after this panel let's just place a dot and let's say.
+
+02:51.090 --> 02:59.160
+All rights reserved something like this should be an outraged email after the HRC email where I was
+
+02:59.290 --> 03:04.210
+gonna set up everything in the sea assess where again we're not gonna have a bunch of rules anyway.
+
+03:04.210 --> 03:10.660
+So here I can just say end of contact and we can technically write footer but again it's gonna be the
+
+03:10.660 --> 03:18.030
+last one anyway so I can write for a class background is gonna be main dark so it's right.
+
+03:18.040 --> 03:21.060
+Main dark is gonna be in the background this is how it's gonna look like.
+
+03:21.340 --> 03:25.450
+Then we can also align everything in the center stone center.
+
+03:25.450 --> 03:28.800
+Now everything is sitting nicely for social icon.
+
+03:30.540 --> 03:32.190
+For each and every icon what I would like.
+
+03:32.190 --> 03:40.620
+Well we can do different color so I'm going to see a color and that one is gonna be main white so main
+
+03:40.620 --> 03:47.430
+white color as well as I wouldn't want it a little bit bigger font size so font size would be I don't
+
+03:47.430 --> 03:49.470
+know one point three are.
+
+03:49.540 --> 03:53.010
+Now this is gonna be bigger than we can also do margin right.
+
+03:53.040 --> 03:56.950
+So there's gonna be a little bit of margin one hour I guess.
+
+03:57.300 --> 03:58.790
+Something like this.
+
+03:58.810 --> 03:59.810
+Now it's gonna be bigger.
+
+04:00.360 --> 04:04.860
+And also let's right away at the transition because I would like to add the hover effect so we might
+
+04:04.860 --> 04:10.580
+as well have the main transition since we have been using it all throughout the project.
+
+04:10.780 --> 04:11.080
+Yeah.
+
+04:11.160 --> 04:12.910
+So social.
+
+04:13.340 --> 04:14.640
+SOCIAL icon.
+
+04:14.770 --> 04:16.070
+Now it's gonna be the name.
+
+04:16.110 --> 04:18.610
+So as we're hovering what should happen.
+
+04:18.720 --> 04:19.610
+Let's change the color.
+
+04:19.620 --> 04:22.050
+Let's say color is gonna be primary color.
+
+04:22.320 --> 04:24.390
+So now the color is gonna be green.
+
+04:24.510 --> 04:27.390
+So I'm gonna be hovering now the color is going to be changing.
+
+04:27.410 --> 04:28.240
+Awesome.
+
+04:28.260 --> 04:35.090
+And last but not least we have the text of the text and text transform.
+
+04:35.170 --> 04:40.110
+Let's have it as a pillow case and case color is gonna be made white.
+
+04:41.540 --> 04:44.820
+Color is gonna be main white right here.
+
+04:44.840 --> 04:50.510
+Now I can see this is gonna be our main color apart from the one that we have it in our primary color
+
+04:50.960 --> 04:52.360
+because we added the class of course.
+
+04:52.820 --> 04:54.840
+Let's add maybe some letter spacing.
+
+04:55.300 --> 05:01.580
+So it's gonna be just a little regular letter spacing so I can just say letter spacing and a little
+
+05:01.580 --> 05:03.650
+bit of margin to the top.
+
+05:03.650 --> 05:03.980
+I don't know.
+
+05:03.980 --> 05:05.230
+One hour Ms.
+
+05:05.240 --> 05:06.430
+Thing that should do.
+
+05:06.590 --> 05:07.330
+And you know what.
+
+05:07.340 --> 05:15.070
+Let's maybe decrease the font size a little bit silly font size zero point eight five Ari.
+
+05:15.110 --> 05:16.500
+Ms.
+
+05:16.550 --> 05:20.930
+So now the font size is gonna be smaller and yeah we're done with our footer.
+
+05:21.040 --> 05:23.810
+And next one up is gonna be this snap button.
+
+05:23.950 --> 05:25.410
+So there's gonna be now button.
+
+05:25.600 --> 05:31.030
+We're also going to look at the now bar and last but not least we're gonna figure out how we can attach
+
+05:31.390 --> 05:37.450
+the javascript so we have this effect where if I'm clicking I'm getting the nav bar if I'm clicking
+
+05:37.450 --> 05:39.880
+on X the nav bar is disappearing.

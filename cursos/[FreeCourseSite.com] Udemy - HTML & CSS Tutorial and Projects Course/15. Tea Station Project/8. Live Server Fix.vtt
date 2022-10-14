@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.580 --> 00:07.660
+Hey guys before we start styling the next section I would like to make a quick change for my setup because
+
+00:07.660 --> 00:11.740
+live server is doing one of its annoying little things.
+
+00:11.770 --> 00:17.050
+Now let me first I'll show you what's happening so let's say we have the section here disco section
+
+00:17.050 --> 00:22.930
+and I'm gonna head over back to my CSX and I'm gonna say let's say for the skills section I would like
+
+00:22.930 --> 00:23.980
+to have different background.
+
+00:24.130 --> 00:29.380
+So let's say this is gonna be right now what's gonna happen is I would like to make these changes so
+
+00:29.380 --> 00:32.800
+you can see each and every time as we're writing the property what is happening.
+
+00:32.830 --> 00:38.260
+However the problem is that once in a while a live server decides that live server is going to do the
+
+00:38.260 --> 00:39.130
+full reload.
+
+00:39.130 --> 00:40.390
+Now what does that mean.
+
+00:40.390 --> 00:45.490
+Well the changes have been applied but I would need to scroll up and down each and every time and I
+
+00:45.490 --> 00:49.400
+find that really annoying especially as we're working throughout the senatorial.
+
+00:49.600 --> 00:52.960
+So first of all let me show you where this is coming from.
+
+00:53.020 --> 00:59.860
+So I must say if I'm gonna go to the settings and if I'm going to look for full reload time full reload
+
+01:00.550 --> 01:05.680
+reload and I'm gonna get the live server settings for reload.
+
+01:05.680 --> 01:08.840
+Technically it says that by default this should be false.
+
+01:08.860 --> 01:10.200
+So only if I click it here.
+
+01:10.210 --> 01:11.570
+This should be happening.
+
+01:11.650 --> 01:17.860
+However the problem is even if I am having this tour the false or if I'm not even clicking on the box
+
+01:18.310 --> 01:20.040
+as you can see it's still doing it.
+
+01:20.260 --> 01:25.600
+So even though I'm to say here false and we're gonna head over again to the styles we're going to scroll
+
+01:25.600 --> 01:30.980
+down and let's say a color is gonna be on on below.
+
+01:31.160 --> 01:33.270
+Then still gonna be getting the full reload.
+
+01:33.430 --> 01:36.440
+And again I find this really really annoying.
+
+01:36.460 --> 01:40.230
+So what I did is I changed the life server that I'm using.
+
+01:40.360 --> 01:43.370
+Again you don't have to do it maybe on your machine is not doing.
+
+01:43.390 --> 01:46.550
+And in my case like I'm saying it depends.
+
+01:46.570 --> 01:49.330
+Sometimes life server does that sometimes it doesn't do.
+
+01:49.450 --> 01:52.130
+So it really I guess depends on the day.
+
+01:52.150 --> 01:59.980
+So what I did is I found this guy and I actually have been using it on my other machine anyway so preview
+
+02:00.100 --> 02:04.440
+and believe there was preview on the web web server.
+
+02:04.450 --> 02:06.100
+That was nice extension.
+
+02:06.190 --> 02:08.920
+Again this is not gonna change anything dramatically.
+
+02:09.100 --> 02:11.110
+So we're gonna do the install first.
+
+02:11.110 --> 02:11.860
+We're going to install it.
+
+02:12.520 --> 02:17.830
+And the way you run it is again you right click it and then you have two options so you can either look
+
+02:17.830 --> 02:20.280
+on the browser or you can log on.
+
+02:20.290 --> 02:20.650
+I don't know.
+
+02:20.650 --> 02:22.420
+It was the side window or something like that.
+
+02:23.260 --> 02:24.970
+Let me first close the settings.
+
+02:24.970 --> 02:27.490
+So here I'm going to just get rid of this.
+
+02:27.490 --> 02:29.540
+When I say that I wouldn't want that.
+
+02:29.620 --> 02:34.240
+And the way this is gonna work right now let me close the extension tab.
+
+02:34.270 --> 02:36.790
+Let me also close the sidebar.
+
+02:36.820 --> 02:39.640
+I don't think we need it and go back to the files.
+
+02:39.690 --> 02:41.090
+Let me minimize this.
+
+02:41.200 --> 02:46.810
+And the one you right click it here and let me see you will probably needed to reloading.
+
+02:46.810 --> 02:47.800
+My apologies.
+
+02:47.800 --> 02:49.960
+Let me head over back.
+
+02:49.960 --> 02:53.970
+Let me see Where is my actual preview on the server.
+
+02:54.080 --> 02:55.420
+Then this is installed.
+
+02:55.450 --> 02:57.780
+So all this has been working really well.
+
+02:57.880 --> 02:58.680
+So that's weird.
+
+02:58.800 --> 02:59.180
+Oh yeah.
+
+02:59.410 --> 03:02.110
+So we needed to go back to the next session and that was the difference.
+
+03:02.110 --> 03:03.100
+My apologies.
+
+03:03.100 --> 03:04.050
+You couldn't do it.
+
+03:04.060 --> 03:09.050
+I believe we could have done the life server from the mains to assess what's making him go back to the
+
+03:09.550 --> 03:10.200
+files.
+
+03:10.450 --> 03:13.700
+But we could do it the life server from the CSF.
+
+03:13.720 --> 03:20.710
+But here with this preview on the web server you do need to do it from the HDMI and that case again
+
+03:20.710 --> 03:25.930
+you have two things you have the side panel as well as the browser on my case what I would like to do
+
+03:25.930 --> 03:27.790
+is launch it in a browser.
+
+03:27.790 --> 03:30.970
+Now this is going to launch it in a browser and this uses the browser thing.
+
+03:31.320 --> 03:33.490
+So now this is gonna fix my problem.
+
+03:33.490 --> 03:39.430
+I'm gonna go back to the style sensors and let's say we're going to add some different color yellow
+
+03:40.120 --> 03:45.610
+then the changes are gonna happen right here and this is not gonna do the full reload which is gonna
+
+03:45.610 --> 03:51.980
+be much much more beneficial for us especially because I want you to see each and every time what we're
+
+03:52.000 --> 03:56.510
+doing we the property and what kind of changes it's affecting again.
+
+03:56.530 --> 04:02.250
+Long story short if this does not affect you you don't have to change it and thing with the left server.
+
+04:02.260 --> 04:07.990
+However if you are experiencing the same problems as I am you can go ahead and use this preview on the
+
+04:07.990 --> 04:08.720
+web server.
+
+04:08.740 --> 04:14.740
+So I'm gonna close the extension I will gonna get rid of this live server one that's open and also remember
+
+04:14.800 --> 04:20.680
+if you do have it open on the big one it's not technically gonna make a difference you can keep this
+
+04:20.770 --> 04:28.690
+as a live server one however for the other one preview on the web there is a different host so we need
+
+04:28.690 --> 04:35.110
+to be looking for 80 80 and then we have forward slash indexation AML.
+
+04:35.260 --> 04:38.550
+So again this is just gonna be our Live Preview anyway.
+
+04:38.650 --> 04:42.360
+And that would be the only changes that I would like to quickly make.
+
+04:42.460 --> 04:47.180
+Just in case you are experiencing the same issues that I am with a life server.

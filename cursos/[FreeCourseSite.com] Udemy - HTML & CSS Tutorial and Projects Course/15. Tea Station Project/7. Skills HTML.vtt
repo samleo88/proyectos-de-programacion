@@ -1,0 +1,235 @@
+WEBVTT
+
+00:00.420 --> 00:01.380
+Excellent.
+
+00:01.380 --> 00:04.520
+Next in our agenda is going to be the skills section.
+
+00:04.640 --> 00:09.360
+We're all gonna have four column layout and within each and every column there's going to be Phantasm
+
+00:09.780 --> 00:15.030
+and as we're gonna be hovering first all the background color is gonna change for the whole column as
+
+00:15.030 --> 00:20.310
+well as this awesome font awesome icon is gonna move up a little bit then there's just gonna be some
+
+00:20.310 --> 00:27.150
+text within the title and within the paragraph as always we we're all gonna have to head over first
+
+00:27.150 --> 00:29.550
+to indexation email to get our content.
+
+00:29.640 --> 00:38.730
+And here also as always we're going to set up our skills section so we're gonna say skills suction cup
+
+00:38.740 --> 00:44.090
+and paste it and let's write all year end of skills section and what we would like to write over here
+
+00:44.570 --> 00:50.300
+first maybe let's start with the general section so there is gonna be a section tag that's gonna work
+
+00:50.390 --> 00:57.980
+as our divider and as a side note you can already see that we use the H the email semantic tag or the
+
+00:57.980 --> 01:02.990
+header so the same thing we're gonna be doing here as we're working with separate section we're all
+
+01:02.990 --> 01:09.500
+just gonna setting this up within the separate section element instead of using the Dave or anything
+
+01:09.500 --> 01:13.760
+like that which is going to say that there's going to be section you'll want ad section over here you
+
+01:13.760 --> 01:15.170
+can go ahead and do that.
+
+01:15.230 --> 01:21.170
+Now this is just used for styling so I probably wouldn't suggest that but in general we will gonna do
+
+01:21.170 --> 01:28.160
+the same setup where whenever there's gonna be some type of section whether that's skills or about or
+
+01:28.160 --> 01:33.470
+I don't know product we we're gonna start placing everything within the section element then we're gonna
+
+01:33.500 --> 01:39.370
+add some kind of class and then we're going to obviously go from there within the section there's gonna
+
+01:39.380 --> 01:45.140
+be four columns and first we're gonna add the comment that in general this would be one of them and
+
+01:45.140 --> 01:48.280
+then we right away again I had again and of skill.
+
+01:48.650 --> 01:55.330
+So this would be our single skill the way we're gonna write it is gonna be single skill as well as end
+
+01:55.340 --> 02:01.400
+of single skill that's gonna be our setup why again I'm adding the comments because I would want to
+
+02:01.400 --> 02:08.060
+copy and paste them four times and I always find it easier where I can see the starting from that particular
+
+02:08.060 --> 02:13.760
+thing as well as the ending and the way we're gonna set it up everything within the section since this
+
+02:13.760 --> 02:19.940
+would be something individual that could stand on their own we can just place this in the article again
+
+02:19.940 --> 02:25.430
+we could have used the div but it makes a little bit more sense semantically if we're placing your everything
+
+02:25.430 --> 02:30.560
+within the article now what is gonna be within the article there is gonna be a span and within this
+
+02:30.560 --> 02:35.450
+panel we're gonna start using font awesome so the font awesome name for the first guy is gonna be F
+
+02:35.540 --> 02:42.980
+Yes f a mug shot let me say this first of all we're not gonna be able to see anything because I needed
+
+02:42.980 --> 02:49.720
+to use the at expansion and now I can say it and all the way in the bottom you probably can see that
+
+02:49.720 --> 02:59.460
+there's a little cup or mug of tea or coffee could be anything really it's up to your imagination and
+
+02:59.660 --> 03:06.590
+then we're after the sperm have our title so we're gonna stay here having three will out right away
+
+03:06.590 --> 03:14.880
+from class the class is gonna be skill title and then we'll get right here Made in U S.
+
+03:15.370 --> 03:17.020
+That's gonna be our title.
+
+03:17.060 --> 03:22.940
+I understand that it might be hard a little bit because we're just placing the HDMI also a lot of things
+
+03:23.060 --> 03:27.730
+are gonna be hard to see but you just need to follow along everything that I'm gonna be typing here
+
+03:27.740 --> 03:33.260
+and just trust me that eventually we're gonna get to something like this where we just need to add some
+
+03:33.310 --> 03:39.070
+style and that's all made in the US is gonna be all right in three and then we're gonna have a paragraph
+
+03:39.100 --> 03:46.480
+with class of skill text as well as we would like to place like some 10 words and remember with Emmett
+
+03:46.520 --> 03:50.470
+which you could use Lorem and then we're gonna say 10 words.
+
+03:50.530 --> 03:52.140
+So that's gonna be our text.
+
+03:52.320 --> 03:59.070
+That would be our first single skill but we would need three more because we have total of four.
+
+03:59.070 --> 04:02.950
+So in this case again we would need to select whatever skill we're having.
+
+04:03.140 --> 04:07.680
+And you can do the keyboard shortcuts you can do copy and paste doesn't really matter.
+
+04:07.680 --> 04:09.590
+And now I'm gonna copy and paste this three times.
+
+04:09.600 --> 04:11.700
+So one two three.
+
+04:11.720 --> 04:19.170
+And here is the case where we would want to start using the different values because there's not gonna
+
+04:19.190 --> 04:21.720
+be four of them exactly the same.
+
+04:21.820 --> 04:26.030
+There are gonna be a little bit different now for the second one first of all gonna be getting a different
+
+04:26.030 --> 04:26.240
+one.
+
+04:26.240 --> 04:27.620
+Awesome.
+
+04:27.810 --> 04:30.220
+The name is gonna be glass.
+
+04:30.270 --> 04:36.630
+Cheers and have to be honest with you I was struggling with the phantasm icons to find the correct one.
+
+04:36.630 --> 04:39.620
+So this is really my imagination.
+
+04:39.620 --> 04:43.730
+You probably maybe know the better ones so you can use the better ones.
+
+04:44.230 --> 04:47.820
+And here we're gonna say relaxation.
+
+04:48.000 --> 04:50.550
+That would be with the glass of chairs.
+
+04:50.760 --> 04:53.870
+After that we have the F A bomb.
+
+04:54.030 --> 04:55.980
+So I'm going to scroll down a little bit.
+
+04:55.980 --> 05:04.770
+We're going to say f a bomb and here we're gonna write energy so we can delete this and let's write
+
+05:04.830 --> 05:05.520
+energy.
+
+05:05.580 --> 05:10.850
+Now that is gonna be our third skill and the fourth one is gonna be a family recipe.
+
+05:11.160 --> 05:16.740
+We're first of all let's write this and I'm gonna pronounce probably the font awesome incorrectly that's
+
+05:16.740 --> 05:19.170
+why I'm leaving this for the last.
+
+05:19.380 --> 05:23.020
+And let's read family recipe.
+
+05:23.070 --> 05:23.900
+Let's say this.
+
+05:24.300 --> 05:28.470
+And like I said how we're gonna mispronounce this so bear with me.
+
+05:28.470 --> 05:33.080
+So I believe this is more than I have best all.
+
+05:33.240 --> 05:35.380
+So let's say something like this again.
+
+05:35.400 --> 05:41.160
+I haven't really worked with these values meaning in English so my apologies but whatever this is the
+
+05:41.160 --> 05:42.520
+name that I'm looking for.
+
+05:42.600 --> 05:45.490
+So it's spelled p e SD the.
+
+05:45.600 --> 05:49.620
+And again if this is funny how I mispronounced everything.
+
+05:49.620 --> 05:50.640
+Hopefully this is funny.
+
+05:50.640 --> 05:55.500
+Hopefully you're not mad or anything like that but this would be our HDMI setup.
+
+05:55.530 --> 05:57.870
+Now we're done with this section.
+
+05:58.350 --> 06:03.870
+As far as the email is concerned obviously we're gonna head over to see and start styling this.

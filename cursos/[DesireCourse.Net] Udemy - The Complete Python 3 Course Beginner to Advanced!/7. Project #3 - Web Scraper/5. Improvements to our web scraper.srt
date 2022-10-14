@@ -1,0 +1,348 @@
+1
+
+00:00:00,000  -->  00:00:04,319
+Alright guys, so we actually are going to
+take this specific example a little bit
+
+2
+
+00:00:04,319  -->  00:00:07,500
+further, we're going to make a few
+improvements to it. So one of the
+
+3
+
+00:00:07,500  -->  00:00:10,620
+improvements is going to be we're going
+to be able to loop through this, so once
+
+4
+
+00:00:10,620  -->  00:00:14,549
+it's done saving all the images from our
+first search, it will prompt us for
+
+5
+
+00:00:14,549  -->  00:00:18,420
+another search. So, that's improvement
+number one and then improvement number
+
+6
+
+00:00:18,420  -->  00:00:25,050
+two is going to be to get a directory
+made for each search term, and then it
+
+7
+
+00:00:25,050  -->  00:00:30,510
+will save it into the appropriate
+directory here. So, let's start with
+
+8
+
+00:00:30,510  -->  00:00:39,719
+making this loopable, what we're going to
+do is we're going to run
+
+9
+
+00:00:39,719  -->  00:00:50,879
+"def StartSearch( ):" and then we're just going to indent all of this. And then down here at
+
+10
+
+00:00:50,879  -->  00:00:57,570
+the end of the function we're going to
+call it again "StartSearch( )" And then initially when we
+
+11
+
+00:00:57,570  -->  00:01:03,690
+start the program we're going to need
+to call it one more time "StartSearch( )" So this in and
+
+12
+
+00:01:03,690  -->  00:01:08,040
+of itself should make this loopable, so
+let's go ahead and run it.
+
+13
+
+00:01:09,060  -->  00:01:16,229
+We're going to search for "Epic
+Wallpapers" and we're going to see that
+
+14
+
+00:01:16,229  -->  00:01:19,200
+it's going to run through a bunch of
+these and it's going to save them still
+
+15
+
+00:01:19,200  -->  00:01:24,330
+into the scraped_images
+directory, and actually one of the images
+
+16
+
+00:01:24,330  -->  00:01:29,220
+that I scraped last time I've never
+seen it before and I was looking through
+
+17
+
+00:01:29,220  -->  00:01:34,200
+them, and I'm like okay well I'm going to
+use this as a wallpaper. So that's pretty
+
+18
+
+00:01:34,200  -->  00:01:39,780
+neat you could easily fill up a wallpaper
+folder with anything that you're
+
+19
+
+00:01:39,780  -->  00:01:42,299
+interested in.
+
+20
+
+00:01:42,299  -->  00:01:46,320
+So let's go back over to the program here
+and see how it's doing.
+
+21
+
+00:01:46,320  -->  00:01:50,610
+I'm not sure how many images it's going
+to get but it is going to get quite a few, and
+
+22
+
+00:01:50,610  -->  00:01:54,840
+then once it's all done it's going to
+loop through and ask us if we want to
+
+23
+
+00:01:54,840  -->  00:01:57,840
+search for anything else.
+
+24
+
+00:01:59,500  -->  00:02:04,690
+This probably was a bad example to use as a looping example because it's going to
+
+25
+
+00:02:04,690  -->  00:02:07,390
+take a little while to get all those
+images. I think when you do an image
+
+26
+
+00:02:07,390  -->  00:02:08,710
+search,
+
+27
+
+00:02:08,710  -->  00:02:12,550
+ok, so it actually got stuck on one of
+the images. We could do a try,
+
+28
+
+00:02:13,420  -->  00:02:22,120
+where is this error coming from? Line 24 and line 19 so it's coming at this so we can
+
+29
+
+00:02:22,120  -->  00:02:43,420
+split it right there and let's try
+except. So "try:" "except:" "print("Could not save
+
+30
+
+00:02:43,420  -->  00:02:48,820
+image.")" That would have looped if it
+didn't get that error and if we waited
+
+31
+
+00:02:48,820  -->  00:02:52,840
+long enough. Now that we've got that
+taken care of the what we're going to do
+
+32
+
+00:02:52,840  -->  00:02:56,860
+is we're going to get the search term,
+we're going to create a directory if it
+
+33
+
+00:02:56,860  -->  00:02:58,270
+doesn't exist,
+
+34
+
+00:02:58,270  -->  00:03:03,820
+so what we need to do is "import os" the
+OS package. What we're going to do is
+
+35
+
+00:03:03,820  -->  00:03:09,070
+we're going to create a "dir_name = search.replace"
+
+36
+
+00:03:09,070  -->  00:03:17,410
+all spaces with underscores "(" ", "_")" and we're also going to make it all lowercase ", lower( )"
+
+37
+
+00:03:17,410  -->  00:03:34,180
+and right up here we're going to say "if not
+os.path.isdir" going to pass
+
+38
+
+00:03:34,180  -->  00:03:38,260
+the function "(dir_name):"  as an argument there,
+
+39
+
+00:03:38,260  -->  00:03:46,239
+so basically what that means is if this
+directory name is not a directory then
+
+40
+
+00:03:46,239  -->  00:03:54,370
+we're going to do this. So we're going to
+
+41
+
+00:03:54,370  -->  00:03:56,980
+"os.makedirs( )"
+
+42
+
+00:03:56,980  -->  00:04:05,019
+wow I cannot take today, and then we're
+going to make it "(dir_name)" right there,
+
+43
+
+00:04:05,019  -->  00:04:08,560
+and then down here what we're going to do is we're going to
+
+44
+
+00:04:09,670  -->  00:04:19,389
+delete this, concatenate it with the
+directory name "+ dir_name" So, let's go ahead and
+
+45
+
+00:04:19,389  -->  00:04:24,340
+start this again and we should be able
+to i'm just going to search for "small
+
+46
+
+00:04:24,340  -->  00:04:27,340
+images" because they should be smaller,
+
+47
+
+00:04:31,540  -->  00:04:42,430
+there we go. Seems to be going quite a
+bit faster here. If we go back here we
+
+48
+
+00:04:42,430  -->  00:04:46,300
+should see that all the images are now
+going to this directory, and then we
+
+49
+
+00:04:46,300  -->  00:04:52,930
+started another search it's going to,
+it's going to save in to the next search
+
+50
+
+00:04:52,930  -->  00:05:03,669
+terms directory. Let's see, I think there's
+there's actually quite a few images on
+
+51
+
+00:05:03,669  -->  00:05:12,280
+the first go without getting to
+the bottom there, there might be like 50
+
+52
+
+00:05:12,280  -->  00:05:16,960
+or so. Let's go back and see if we can get
+that all right, what's this? Too many
+
+53
+
+00:05:16,960  -->  00:05:22,570
+redirects. So this is happening at the
+request, so we're going to have to put
+
+54
+
+00:05:22,570  -->  00:05:42,220
+that into a try as well. "try:" that
+"except" going to print out "print("Could not request
+
+55
+
+00:05:42,220  -->  00:05:57,910
+Image")" Let's try and get an example of
+this happening one more time. So, "kitten"
+
+56
+
+00:05:57,910  -->  00:06:05,050
+I could print out the number of, we would be able to run the len command
+
+57
+
+00:06:05,050  -->  00:06:12,160
+on the links here we could be able to
+tell how many links are in this list
+
+58
+
+00:06:12,160  -->  00:06:16,750
+that it creates. So as you can see now let's drop down to the bottom and is now
+
+59
+
+00:06:16,750  -->  00:06:21,070
+asking us to search again, so that's an
+example of it looping, and for this
+
+60
+
+00:06:21,070  -->  00:06:24,070
+instance I'm going to just end it here.
+
+61
+
+00:06:25,660  -->  00:06:27,970
+Thanks for watching and I'll see you
+guys in the next video.

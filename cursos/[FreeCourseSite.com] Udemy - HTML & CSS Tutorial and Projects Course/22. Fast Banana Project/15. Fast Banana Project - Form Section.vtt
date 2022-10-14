@@ -1,0 +1,631 @@
+WEBVTT
+
+00:00.080 --> 00:07.000
+And the next section is going to be building is going to be a forum section or so you can see or subscribe.
+
+00:07.260 --> 00:10.230
+And then we have your email and submit.
+
+00:10.490 --> 00:15.960
+So we're going to go back over here and this is the main assess but we're going to start obviously with
+
+00:16.060 --> 00:17.010
+HDMI.
+
+00:17.340 --> 00:23.310
+So here again we're going to do the same thing we're going to say this is going to be a form section.
+
+00:23.360 --> 00:24.020
+Right.
+
+00:24.090 --> 00:28.560
+Then select a line and copy and paste the line here we're going to write.
+
+00:28.560 --> 00:32.190
+And this is going to be end of form section.
+
+00:32.220 --> 00:38.730
+Then after that you'd want a section on it and we're going to say idea or here and then we're going
+
+00:38.730 --> 00:39.800
+to say form.
+
+00:40.060 --> 00:44.380
+Then once we have this then we're going to have a forum content.
+
+00:44.460 --> 00:49.790
+So I'm going to say class and this is going to be a form of content or likeness.
+
+00:49.990 --> 00:57.990
+Then within this day of the forum and then we're going to have a heading when we're here with the class
+
+00:58.110 --> 00:59.060
+of worm.
+
+00:59.210 --> 01:07.890
+We're going to say title or here within this title we're all going to have a subscribe here.
+
+01:08.140 --> 01:16.150
+So when you say some scribe I'm going to say here first time over here and I actually realize this.
+
+01:16.290 --> 01:22.360
+Now we have a heading one then after that we would actually want to create a forum.
+
+01:22.430 --> 01:25.050
+So we're then still the foreign content.
+
+01:25.050 --> 01:27.070
+We're going to save one more here.
+
+01:27.150 --> 01:32.180
+Now we're not going to have any action here so just delete this right away.
+
+01:32.340 --> 01:38.310
+And this is going to be put then over here we're going to press tab and type is going to be e-mail then
+
+01:38.400 --> 01:39.250
+ID.
+
+01:39.390 --> 01:42.810
+We're also going to say e-mail e-mail.
+
+01:42.820 --> 01:44.890
+Then after that we will have placeholder.
+
+01:44.890 --> 01:46.860
+This is going to be your e-mail.
+
+01:47.200 --> 01:49.720
+So let's say another name on here.
+
+01:49.730 --> 01:54.090
+E-mail e-mailed here and the placeholder.
+
+01:54.140 --> 02:00.390
+Right so this is what's going to be written inside the box relaying this and I'm going to say your e-mail
+
+02:01.140 --> 02:05.240
+you this and then we'll get our input right here.
+
+02:05.250 --> 02:13.130
+So next input again time and again this is going to be sub met then or here we're going to have a type
+
+02:13.880 --> 02:16.890
+and type is going to be a submit.
+
+02:17.000 --> 02:25.880
+So type sub met here and then we're going to have a value and the value is going to be submit sub me
+
+02:26.430 --> 02:27.560
+like this.
+
+02:27.560 --> 02:28.160
+All right.
+
+02:28.160 --> 02:36.830
+So once we have here our inputs in the aged you know I'll go ahead and let's actually move to see assess
+
+02:36.830 --> 02:37.990
+and start dialing.
+
+02:38.190 --> 02:44.900
+So I'm going to say this and go back to main sources here and you can see already created a comment.
+
+02:45.190 --> 02:45.440
+All right.
+
+02:45.440 --> 02:48.580
+So this is going to be a forum section over here.
+
+02:48.580 --> 02:51.000
+First things first of all going to say like this.
+
+02:51.020 --> 02:51.710
+All right.
+
+02:51.710 --> 02:57.280
+First all going to say that for the actual form or here like this we would want.
+
+02:57.280 --> 02:57.670
+All right.
+
+02:57.700 --> 03:02.410
+We're going to mean right into this is going to be the height for the whole thing.
+
+03:02.440 --> 03:07.410
+This is going to be 60 new heights or here and I can see what happened right.
+
+03:07.430 --> 03:13.160
+Right away I have 60 units that are going to have a background here and I'm going to we're going to
+
+03:13.160 --> 03:18.470
+use a image so I'm going to say you know we're not phantasm.
+
+03:18.640 --> 03:24.060
+And so I'm going to say Menges then within the images we're going to look for filler on it.
+
+03:24.110 --> 03:25.870
+So this is going to be our first one.
+
+03:26.110 --> 03:29.020
+And like before we're going to add right away linear great.
+
+03:29.310 --> 03:37.000
+So I'm going to say lean here gradient here and then we'll have parentheses karma.
+
+03:37.290 --> 03:40.890
+And here we're going to have R G B R G B.
+
+03:41.010 --> 03:47.870
+And this is going to be again 0 0 0 point let's say 5.
+
+03:48.030 --> 03:48.740
+Right.
+
+03:48.750 --> 03:50.690
+And then on here we'll do the same thing.
+
+03:50.700 --> 03:52.660
+Right so our GPA.
+
+03:52.730 --> 03:56.100
+Zero zero zero point five.
+
+03:56.290 --> 03:59.590
+Right now we added a dark overlay.
+
+03:59.640 --> 04:02.590
+Then after that we want a background attachment.
+
+04:02.770 --> 04:09.520
+So I'm going to say background and or here to see attachment and that's going to be fixed right again
+
+04:09.520 --> 04:15.210
+and we're going to cradle here this parallax effect right where the text is actually going to be moving
+
+04:15.570 --> 04:17.530
+and the image is going to stay fixed.
+
+04:17.910 --> 04:24.780
+Then we're going to have a background position center background or her position and say Sandra Oh I
+
+04:24.790 --> 04:32.010
+don't like this then we're going to have a background repeat background repeat and want to say no repeat
+
+04:32.700 --> 04:37.470
+then we'll have a background color or hair color size.
+
+04:37.570 --> 04:40.910
+So size is going to be cover like this.
+
+04:41.030 --> 04:42.900
+I'm going to we're going to have a clip.
+
+04:43.260 --> 04:49.200
+So again we're going to just make it or we're like this slanted and you see or hear and then how are
+
+04:49.200 --> 04:49.860
+you going to do that.
+
+04:49.860 --> 04:51.010
+We're going to say we're here.
+
+04:51.220 --> 04:53.320
+Clip here.
+
+04:53.460 --> 04:57.140
+Path it and I know he'll get it right.
+
+04:57.140 --> 05:04.180
+Polygon are they going here hear this and we're going to start here by zero.
+
+05:04.460 --> 05:10.190
+Then we'll get our 15 percent then we're going to have 100 percent more here than will have zero.
+
+05:10.190 --> 05:13.870
+So 100 percent zero we're this.
+
+05:14.080 --> 05:18.200
+Then we're going to have another 100 percent like this.
+
+05:18.440 --> 05:21.260
+And this is going to be 85 percent.
+
+05:21.290 --> 05:22.880
+All right now we're just starting.
+
+05:22.880 --> 05:23.690
+All right.
+
+05:23.870 --> 05:27.160
+So we have 0 15 on here like this.
+
+05:27.230 --> 05:30.150
+Then we have a hundred and zero.
+
+05:30.440 --> 05:35.190
+So basically what I'm saying is this one is slanted because of this 15.
+
+05:35.380 --> 05:35.960
+Well here right.
+
+05:35.960 --> 05:39.970
+This is the one that controls it out here you can see where I have it zero.
+
+05:39.980 --> 05:41.030
+It's not going to be sliding.
+
+05:41.030 --> 05:42.170
+This is 15.
+
+05:42.530 --> 05:45.290
+Then over here we want to control this one little bit.
+
+05:45.290 --> 05:45.920
+Right.
+
+05:45.940 --> 05:48.510
+So here we're going to say hundred and eighty five.
+
+05:48.780 --> 05:53.140
+And are you going to say zero 100 percent.
+
+05:53.140 --> 05:53.480
+All right.
+
+05:53.480 --> 05:55.040
+So this is how it's going to look like.
+
+05:55.220 --> 05:56.960
+So here we're going to have it line.
+
+05:56.990 --> 05:58.550
+And over here we're going to have a line.
+
+05:58.790 --> 06:03.880
+And what we're going to do over here we're going to have a display flex because we want to see or hear
+
+06:03.900 --> 06:05.050
+this text right.
+
+06:05.060 --> 06:06.360
+It has disappeared right now.
+
+06:06.520 --> 06:14.690
+So I want to play it or hear some say display flex like this and we're going to say justify content.
+
+06:14.900 --> 06:16.630
+And we're going to say center right.
+
+06:16.670 --> 06:24.980
+So first you can put it horizontally and then let's do vertically so line items and we're going to say
+
+06:24.980 --> 06:29.050
+Center right now is sitting exactly in the center.
+
+06:29.120 --> 06:32.720
+So then we're going to want to work with foreign title.
+
+06:32.720 --> 06:37.730
+So I'm going to say for one hand over here and what would be the rules.
+
+06:37.930 --> 06:44.370
+Well first of all I would want text align center text on line center on this right.
+
+06:44.500 --> 06:49.630
+Then I would actually want a color and I'm going to say colored is going to be white.
+
+06:49.630 --> 06:53.870
+So have five F3 F4 on this.
+
+06:53.940 --> 07:03.640
+Then we're going to do a margin 0 top 0 right 40 pixels bottom and we're going to zero.
+
+07:04.080 --> 07:09.380
+And then we're going to have a font size here this is going to be 40 pixels.
+
+07:09.380 --> 07:14.980
+Well this right tool you can see over here that actually getting a 40 pixels font size.
+
+07:15.280 --> 07:18.640
+And then now I want a text here.
+
+07:18.740 --> 07:22.060
+Transform and we're going to say uppercase right here.
+
+07:22.060 --> 07:25.410
+Now you can see that it's actually transfer to abrogates.
+
+07:25.420 --> 07:30.060
+Then over here we're going to have a hash tag e-mail e-mail.
+
+07:30.160 --> 07:30.880
+We're here right.
+
+07:30.910 --> 07:32.510
+So this would be the other one.
+
+07:32.620 --> 07:39.970
+And we're really going to say or your border first of all going to say more and none of this will have
+
+07:40.060 --> 07:45.150
+a background and we're going to have a transparent transparent background right.
+
+07:45.190 --> 07:49.370
+Because you can see that and first of all I want to get rid of the border more then I want to give you
+
+07:49.390 --> 07:52.460
+the background and then I'm actually going to start dialing.
+
+07:52.480 --> 07:57.920
+So here I'm going to say border bottom and we're going to say three pixels solid.
+
+07:57.940 --> 08:03.550
+And again we're going to use a hashtag have five have three and five.
+
+08:03.990 --> 08:04.920
+All right.
+
+08:04.960 --> 08:10.810
+So this is going to be our hair our color and we're going to have fun size and let's say we're here
+
+08:10.820 --> 08:12.800
+this is going to be 30 pixels.
+
+08:12.800 --> 08:13.030
+Right.
+
+08:13.030 --> 08:20.970
+So font size get bigger then we'll have a margin 10 pixels or here and 20 pixels.
+
+08:21.040 --> 08:21.800
+So here like.
+
+08:21.820 --> 08:26.560
+So we had a lot of margin and monocytes margin right.
+
+08:26.650 --> 08:33.420
+So let's keep on moving and let's actually what we would want to do is we would want to deal here with
+
+08:33.660 --> 08:34.720
+e-mail placeholder.
+
+08:34.740 --> 08:35.150
+Right.
+
+08:35.470 --> 08:37.160
+Because you can see that nothing appears that way.
+
+08:37.180 --> 08:37.430
+Right.
+
+08:37.450 --> 08:43.200
+Well maybe it does mean it's kind of hard for us to see what we need to do is actually target this placeholder.
+
+08:43.390 --> 08:47.460
+So I'm going to say hashtag email email here.
+
+08:47.530 --> 08:51.380
+We're going to do that and we're going to have a placeholder like this.
+
+08:51.640 --> 08:55.980
+And then we're going to have a caller and this is going to be hot color hash tag.
+
+08:56.150 --> 08:59.680
+EF 5 EF 3 5 when you like this.
+
+08:59.680 --> 09:01.420
+And then you can see that text is showing.
+
+09:01.420 --> 09:07.860
+So now we do a text transform and let's do capitalize on this.
+
+09:07.920 --> 09:10.020
+Right now we have our text.
+
+09:10.380 --> 09:14.780
+And next we're going to work with a submit button here.
+
+09:14.910 --> 09:15.930
+So let's do here.
+
+09:15.960 --> 09:20.430
+Let's work with the submit button and we're going to say we're here like this.
+
+09:20.430 --> 09:21.570
+All right so I'm going to say we're here.
+
+09:21.570 --> 09:27.030
+Hash tag sub met here and are we all going to see this play.
+
+09:27.090 --> 09:29.230
+We're going to see inline block.
+
+09:29.700 --> 09:34.890
+First of all again when we want it to be displayed inline block then the background we're going to say
+
+09:34.890 --> 09:42.780
+transparent or hearing this background transparent border I'm going to say we're here and this is going
+
+09:42.780 --> 09:45.350
+to be three pixels solid.
+
+09:45.510 --> 09:56.900
+And this is going to be white and it's going to say 5 3 5 5 have three or five like this then after
+
+09:56.900 --> 10:04.820
+that one is actually double check whether we have an idea of what I write because or here type you can
+
+10:04.820 --> 10:06.240
+see that I don't have an ID.
+
+10:06.290 --> 10:07.850
+That's why it wasn't working right.
+
+10:08.030 --> 10:09.230
+I had two types are here.
+
+10:09.230 --> 10:16.400
+So now I submit that Id submit and that's always usually occurs if you don't notice it working right.
+
+10:16.470 --> 10:21.530
+So if you're doing something in a live preview and brackets and it's not showing up here it's probably
+
+10:21.650 --> 10:24.100
+something with a class or ID.
+
+10:24.110 --> 10:26.550
+Now we have a border of their border.
+
+10:26.540 --> 10:29.170
+We were planning 10 pixels.
+
+10:29.180 --> 10:29.640
+All right.
+
+10:29.720 --> 10:31.580
+Thirty pixels on this.
+
+10:31.610 --> 10:34.930
+Right now I can see where it's moving to the next line or any.
+
+10:34.980 --> 10:41.240
+Then once we have this was going to be font size font size is going to be twenty five pixels like this
+
+10:41.860 --> 10:44.890
+that we're going to have text transform.
+
+10:45.030 --> 10:48.600
+This is going to be uppercase like this color.
+
+10:48.770 --> 10:49.730
+We're going to have hash that.
+
+10:49.760 --> 10:54.730
+F f c 9 1 for one like this.
+
+10:54.920 --> 11:02.130
+And then we'll have a margin here 10 pixels like this and 20 pixels like this.
+
+11:02.160 --> 11:08.810
+Now we have this knowledge and transition some large margin top and bottom and 10 sides is going to
+
+11:08.810 --> 11:09.510
+be 20.
+
+11:09.740 --> 11:16.030
+And here we're going to say I like this transition transition transition and it's going to be color.
+
+11:16.190 --> 11:17.980
+And again we'll do the same spiel.
+
+11:17.990 --> 11:18.230
+Right.
+
+11:18.230 --> 11:27.540
+So I say color 2 seconds ease then background we're here two seconds ease and border.
+
+11:27.830 --> 11:30.420
+Two seconds two seconds.
+
+11:30.470 --> 11:33.760
+Now once we have this let's do a submit hover.
+
+11:33.980 --> 11:38.550
+So to say here sub segment right.
+
+11:38.570 --> 11:41.410
+I don't want to say however this.
+
+11:41.490 --> 11:50.750
+And once we have that let's do a color as EF 3 EF 5 and this background here.
+
+11:50.830 --> 12:00.470
+Then let's do a hash tag F F and this is when we see 9:1 for here and then we have a border color border
+
+12:01.340 --> 12:03.780
+color here like this right.
+
+12:03.780 --> 12:09.240
+So more color would want is border color.
+
+12:09.310 --> 12:12.160
+That's why I'm struggling with the color again.
+
+12:12.210 --> 12:16.330
+Hashtag f f c 9:24.
+
+12:16.430 --> 12:18.440
+So everything is pretty much going to be.
+
+12:18.680 --> 12:23.570
+So I'm going to go back over here and let's write soon as I'm hovering You can see that it's going to
+
+12:23.570 --> 12:29.190
+be changing right now right for the hover and the last thing that actually would want to do is with
+
+12:29.200 --> 12:31.400
+me to show you how it would look on a bigger screen.
+
+12:31.520 --> 12:33.820
+Why we would be doing this right.
+
+12:33.860 --> 12:36.710
+So you're hearing we have subscribe here.
+
+12:36.730 --> 12:37.480
+Email right.
+
+12:37.500 --> 12:40.920
+But you can see the map line up exactly correctly right.
+
+12:40.970 --> 12:44.530
+You can see that because of the paddings and margins they're not even.
+
+12:44.780 --> 12:46.160
+So what we can do here.
+
+12:46.400 --> 12:51.950
+We're going to say we're a very simple form and over here we're going to say this play and we're going
+
+12:51.950 --> 12:54.270
+to say flex right.
+
+12:54.590 --> 12:56.410
+Right away lined up correctly.
+
+12:56.420 --> 13:01.100
+Now the problem is if we go to the smaller screen they're actually going to be doing this right.
+
+13:01.190 --> 13:05.290
+You can see that they're actually you know this this is not a good look.
+
+13:05.710 --> 13:06.360
+What do we need.
+
+13:06.380 --> 13:09.270
+Again these flex rap rap.
+
+13:09.380 --> 13:12.450
+And we're going to do rap and right away you can see it's rapping.
+
+13:12.650 --> 13:17.360
+And now all the bargain paddings and margins actually make a little bit more sense.
+
+13:17.360 --> 13:17.970
+Right.
+
+13:18.080 --> 13:20.840
+And now we can just say this one over here right.
+
+13:20.930 --> 13:24.950
+And we can go and check it out when we have a recording.
+
+13:25.180 --> 13:26.350
+We refresh.
+
+13:26.600 --> 13:27.070
+Right.
+
+13:27.080 --> 13:28.840
+And this is the look that we have.

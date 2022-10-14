@@ -1,0 +1,424 @@
+1
+
+00:00:00,000  -->  00:00:01,680
+Alright guys, what we're going to do is
+
+2
+
+00:00:01,680  -->  00:00:04,650
+actually modify the set tab text method,
+
+3
+
+00:00:04,650  -->  00:00:08,639
+so we can also set the icon at the same
+
+4
+
+00:00:08,639  -->  00:00:11,880
+time. So what we're going to do is we're going
+
+5
+
+00:00:11,880  -->  00:00:13,830
+to pass through another parameter here
+
+6
+
+00:00:13,830  -->  00:00:16,890
+and it's going to be a type, so this is
+
+7
+
+00:00:16,890  -->  00:00:20,100
+going to be title, and then we're also
+
+8
+
+00:00:20,100  -->  00:00:22,529
+going to send it through as icon for when icon
+
+9
+
+00:00:22,529  -->  00:00:32,399
+changes. So, self.tabs[i].content.icon
+
+10
+
+00:00:32,399  -->  00:00:37,739
+Changed.connect, I'm going to open it with
+
+11
+
+00:00:37,739  -->  00:00:41,370
+lambda and say self.SetTabContent.
+
+12
+
+00:00:41,370  -->  00:00:50,190
+Change this as well, and we're going to send it
+
+13
+
+00:00:50,190  -->  00:00:53,280
+through with the index number, and this
+
+14
+
+00:00:53,280  -->  00:00:57,270
+is going to be called icon. So, we are
+
+15
+
+00:00:57,270  -->  00:00:59,129
+going to add some conditionals to this
+
+16
+
+00:00:59,129  -->  00:01:01,890
+method here to basically determine if
+
+17
+
+00:01:01,890  -->  00:01:03,780
+it's title or icon, because most of the
+
+18
+
+00:01:03,780  -->  00:01:06,150
+functionality of those two changes are
+
+19
+
+00:01:06,150  -->  00:01:09,720
+the same. So let's also pass through
+
+20
+
+00:01:09,720  -->  00:01:20,280
+types. So, if type equals title, and we
+
+21
+
+00:01:20,280  -->  00:01:22,950
+also need to update the method name to
+
+22
+
+00:01:22,950  -->  00:01:27,270
+content so it's now set tab content, so
+
+23
+
+00:01:27,270  -->  00:01:31,710
+if type equals title do that.
+
+24
+
+00:01:31,710  -->  00:01:40,229
+elif type equals "icon": set newIcon
+
+25
+
+00:01:40,229  -->  00:01:51,149
+equal to self.findChild(QWidget,
+
+26
+
+00:01:51,149  -->  00:01:59,579
+tab_name).content.icon, and then
+
+27
+
+00:01:59,579  -->  00:02:01,860
+we're going to just update the icon in the same way.
+
+28
+
+00:02:01,860  -->  00:02:04,950
+So the tab bar has icons that you can
+
+29
+
+00:02:04,950  -->  00:02:08,319
+set, so setTabIcon.
+
+30
+
+00:02:08,319  -->  00:02:15,639
+The index is going to be a count, and
+
+31
+
+00:02:15,639  -->  00:02:17,889
+then the new icon that we are going to set is
+
+32
+
+00:02:17,889  -->  00:02:22,540
+newIcon, and it's in a QIcon format.
+
+33
+
+00:02:22,540  -->  00:02:25,120
+And then regardless of which type it was
+
+34
+
+00:02:25,120  -->  00:02:30,280
+we set running to false. Save this, run the
+
+35
+
+00:02:30,280  -->  00:02:34,419
+app again, and we should get an icon
+
+36
+
+00:02:34,419  -->  00:02:36,939
+there, and we do. And this should also
+
+37
+
+00:02:36,939  -->  00:02:42,519
+work when we go to Facebook, it should load up
+
+38
+
+00:02:42,519  -->  00:02:45,760
+Facebook's icon, put it in the correct tab, and
+
+39
+
+00:02:45,760  -->  00:02:49,299
+it does. So, that's what we want to do
+
+40
+
+00:02:49,299  -->  00:02:53,709
+here and we also want to remove some of
+
+41
+
+00:02:53,709  -->  00:02:57,699
+that space. So let's go up here, and I
+
+42
+
+00:02:57,699  -->  00:02:59,379
+believe it's in the tabs
+
+43
+
+00:02:59,379  -->  00:03:05,260
+virtualbox layout. So let me go ahead and set self.
+
+44
+
+00:03:05,260  -->  00:03:12,069
+tabs[i].layout.setContents
+
+45
+
+00:03:12,069  -->  00:03:16,239
+Margins, and 1, 2, 3, 4 and
+
+46
+
+00:03:16,239  -->  00:03:19,060
+there's four zeros for west, north, east, and
+
+47
+
+00:03:19,060  -->  00:03:26,259
+south. That looks a bit better. I need to
+
+48
+
+00:03:26,259  -->  00:03:30,519
+find out why it's jumping there, I think
+
+49
+
+00:03:30,519  -->  00:03:33,569
+it's because up here...
+
+50
+
+00:03:38,980  -->  00:03:44,280
+let's move that,
+
+51
+
+00:03:48,280  -->  00:03:54,850
+open up a new tab...I don't know why that
+
+52
+
+00:03:54,850  -->  00:03:58,180
+set based size would make it jump
+
+53
+
+00:03:58,180  -->  00:04:03,880
+on Mac OS because it doesn't do the same
+
+54
+
+00:04:03,880  -->  00:04:07,989
+thing on on Windows. So, I'm really not sure,
+
+55
+
+00:04:07,989  -->  00:04:09,459
+but what we're going to do is set
+
+56
+
+00:04:09,459  -->  00:04:11,440
+minimum size there so that it can only
+
+57
+
+00:04:11,440  -->  00:04:16,720
+be a minimum size of say 1366.
+
+58
+
+00:04:16,720  -->  00:04:24,669
+So self.setMinimumSize, it's going to be 1366 x 768, and
+
+59
+
+00:04:24,669  -->  00:04:28,750
+then let's go ahead and open it. Does it
+
+60
+
+00:04:28,750  -->  00:04:30,190
+jump around?
+
+61
+
+00:04:30,190  -->  00:04:36,760
+No, everything looks like it's working. So now
+
+62
+
+00:04:36,760  -->  00:04:38,980
+I'm going to set the base size,
+
+63
+
+00:04:38,980  -->  00:04:42,010
+maybe it was just both of those weren't
+
+64
+
+00:04:42,010  -->  00:04:48,880
+set, so hopefully this sets it correctly.
+
+65
+
+00:04:48,880  -->  00:04:52,330
+There, looks better.
+
+66
+
+00:04:52,330  -->  00:04:54,280
+Alright, so, what we're also going to do
+
+67
+
+00:04:54,280  -->  00:04:55,810
+here we're going to clean up one other
+
+68
+
+00:04:55,810  -->  00:04:58,419
+thing, and that's just the tab bar
+
+69
+
+00:04:58,419  -->  00:05:06,630
+here. Alright...
+
+70
+
+00:05:08,790  -->  00:05:15,870
+so we also have to do some more checks there.
+
+71
+
+00:05:15,870  -->  00:05:19,350
+Basically, when we added this call
+
+72
+
+00:05:19,350  -->  00:05:23,820
+right here we would check that, rather
+
+73
+
+00:05:23,820  -->  00:05:24,960
+than just getting the tab. We were
+
+74
+
+00:05:24,960  -->  00:05:26,520
+actually getting something else
+
+75
+
+00:05:26,520  -->  00:05:30,090
+further, and so what it's doing is when
+
+76
+
+00:05:30,090  -->  00:05:32,670
+you click on the tab bar anywhere
+
+77
+
+00:05:32,670  -->  00:05:39,000
+you know it switched tabs. So, what we're
+
+78
+
+00:05:39,000  -->  00:05:41,820
+going to do is you can set draw base, so
+
+79
+
+00:05:41,820  -->  00:05:45,420
+self.tabbar.setDrawBase, and
+
+80
+
+00:05:45,420  -->  00:05:47,370
+we're going to set that to false, and that's
+
+81
+
+00:05:47,370  -->  00:05:49,650
+going to not draw that little
+
+82
+
+00:05:49,650  -->  00:05:55,980
+area right here. And so that's all
+
+83
+
+00:05:55,980  -->  00:05:58,200
+we're going to do right now. In the next
+
+84
+
+00:05:58,200  -->  00:06:00,510
+video we're going to be adding some more
+
+85
+
+00:06:00,510  -->  00:06:04,340
+webview functionality.

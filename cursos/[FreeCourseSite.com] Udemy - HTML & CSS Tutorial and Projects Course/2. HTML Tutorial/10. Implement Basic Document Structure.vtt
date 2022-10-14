@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.530 --> 00:06.680
+Now that we are big shots and we know the basic age the AML document structure let's implement that
+
+00:06.680 --> 00:07.970
+in our page.
+
+00:08.150 --> 00:13.100
+First of all let me just get rid of this head in one paragraph because we're going to redo this anyway.
+
+00:13.280 --> 00:14.660
+And let's start with our doctor.
+
+00:15.140 --> 00:21.570
+So here we're going to declare what version of HMO the use and an arc is that's gonna be interesting.
+
+00:21.590 --> 00:26.390
+0 5 as you can see right away Visual Studio code gives you suggestion.
+
+00:26.480 --> 00:28.560
+It's like Hey listen do you want a doctor.
+
+00:28.970 --> 00:30.210
+And sure enough we do.
+
+00:30.290 --> 00:31.730
+Again this is not cheating.
+
+00:31.730 --> 00:33.260
+There's nothing wrong with that.
+
+00:33.310 --> 00:35.840
+This will gonna save you a lot of time in the long run.
+
+00:36.420 --> 00:39.530
+Now next we'll have HDMI root element again.
+
+00:39.680 --> 00:41.600
+Let me get over all caps.
+
+00:41.630 --> 00:44.650
+No no we're gonna write each demo now within the email.
+
+00:44.650 --> 00:50.930
+Remember we had the ED element and within the head element we can right away place the title again title
+
+00:50.930 --> 00:54.950
+is just gonna be where the title of the page is gonna be displayed.
+
+00:55.520 --> 01:02.750
+So here we're gonna say first that first that first web page and then let's go right away to the body
+
+01:03.260 --> 01:08.150
+and let's write within the body there's gonna be two more things heading one is gonna be.
+
+01:08.150 --> 01:11.600
+Hello my name is John or whatever name you there with the right.
+
+01:11.600 --> 01:11.870
+Right.
+
+01:12.280 --> 01:20.360
+So hello my name is John and then I'm gonna write I know in a paragraph and this is my first webpage
+
+01:20.690 --> 01:26.740
+and this is my first web page.
+
+01:26.960 --> 01:31.990
+Now once I'm going to save it nothing is gonna change right now because we still would need to restart
+
+01:31.990 --> 01:37.620
+the server because now we do have the proper actual page structure or document structure.
+
+01:37.720 --> 01:38.940
+So let me do this.
+
+01:38.950 --> 01:44.130
+Let me just go over to the port and click on disposing it so I can see it.
+
+01:44.160 --> 01:46.100
+Gonna say that server is gonna be online.
+
+01:46.110 --> 01:47.440
+Okay fair enough.
+
+01:47.530 --> 01:49.890
+And then let's go live in the moment.
+
+01:49.900 --> 01:50.710
+I'm gonna go live.
+
+01:50.710 --> 01:56.720
+Not as this is gonna be my page with the title here at the very top so I can close this tab.
+
+01:56.750 --> 02:02.830
+And now let's test it out whether live server is working properly where we can type something and the
+
+02:02.830 --> 02:09.280
+moment we're gonna save it the changes are gonna be displayed live in a live server or in dev server
+
+02:09.280 --> 02:09.630
+sorry.
+
+02:10.090 --> 02:17.180
+So let's say this is my first page and it is very good.
+
+02:17.370 --> 02:21.610
+And let's add a bunch of exclamation marks here and let's save this.
+
+02:22.030 --> 02:23.420
+And sure enough the moment we save it.
+
+02:23.410 --> 02:24.760
+Notice what happens.
+
+02:24.760 --> 02:29.980
+So all the changes were being displayed right away here on a life server.
+
+02:30.040 --> 02:36.400
+So what's happening again is we don't need to go and refresh because live server is doing for us.
+
+02:36.610 --> 02:39.430
+So development server is working hard.
+
+02:39.580 --> 02:42.480
+So we have to law work less hard.
+
+02:42.540 --> 02:48.700
+I also like to right away show you that with a dev server with the lives of we have an option of right
+
+02:48.700 --> 02:53.000
+away where we every time we're gonna be working there's gonna be changes this way.
+
+02:53.290 --> 02:55.150
+And for this we have also.
+
+02:55.350 --> 02:56.140
+So let's do this.
+
+02:56.230 --> 02:56.710
+This guy.
+
+02:57.050 --> 03:01.510
+And then every time we're gonna be typing something it will in fact gonna be displayed right away in
+
+03:01.510 --> 03:01.940
+a page.
+
+03:02.410 --> 03:04.990
+So let's say after the won I'm gonna add another one.
+
+03:05.560 --> 03:09.360
+So as I'm starting to type notice what happens in the life server.
+
+03:09.360 --> 03:13.080
+So in this case we don't need the need to save anything.
+
+03:13.270 --> 03:18.250
+The moment we're gonna be typing something we're adding something the changes are gonna be displayed
+
+03:18.250 --> 03:18.550
+like.
+
+03:19.150 --> 03:24.450
+However I do find it a little bit annoying especially when you start working on when things like Javascript.
+
+03:24.550 --> 03:26.880
+So I usually have my went off.
+
+03:26.950 --> 03:32.550
+Now it's really up to you whether you'd like to prefer to work or for this tutorial.
+
+03:32.550 --> 03:34.320
+I've always going to have my one off.
+
+03:34.690 --> 03:39.830
+So first I'm gonna make the changes and then I'm going to save the changes and then they're all gonna
+
+03:39.850 --> 03:42.730
+be displayed here on the page.
+
+03:42.740 --> 03:45.980
+Also I'd like to talk about how the tags are nested.
+
+03:46.210 --> 03:51.820
+So as you notice we have the H email and each team now would be a growth element and then we have two
+
+03:51.820 --> 03:52.620
+children.
+
+03:52.720 --> 03:57.850
+And the reason why they're called children they're sitting within this age the email element.
+
+03:57.850 --> 04:02.070
+Now the two children are a hard element as well as the body.
+
+04:02.740 --> 04:08.470
+Now it is important to keep the syntax because this will not going to make sense if you have a child
+
+04:08.470 --> 04:09.450
+within the head element.
+
+04:09.910 --> 04:15.920
+And then let's say the closing tag of this title is gonna be removed and placed let's say outside the
+
+04:15.940 --> 04:22.330
+head element you always need to follow the structure where if you have the element and if you nest something
+
+04:22.330 --> 04:26.490
+within this element more sandwich or whatever however you'd like to call it.
+
+04:26.560 --> 04:31.890
+It's important that the closing tag also is going to be sitting within the same element.
+
+04:32.290 --> 04:37.860
+Now the same would work here in the body if let's say I would get rid of this closing tag for my heading
+
+04:37.900 --> 04:41.840
+one and place it and so on the body or even outside the email.
+
+04:42.040 --> 04:43.370
+It will not gonna make sense.
+
+04:43.810 --> 04:47.630
+So this is something also you should remember about children and parent.
+
+04:48.070 --> 04:54.880
+So the parent is gonna be the parent element where the child is sick and as you can see a child can
+
+04:54.880 --> 04:58.730
+also can have multiple or one other child on.
+
+04:59.050 --> 05:05.430
+So even though the head is the child of the normal it can have the child on its own meaning the title
+
+05:05.430 --> 05:08.580
+element in this case would be the child of the head.
+
+05:08.590 --> 05:15.190
+Now I know it might sound foreign with children and parents everything but just remember that is important
+
+05:15.190 --> 05:22.660
+to follow the syntax where if you are placing something within the element make sure that elements closing
+
+05:22.660 --> 05:28.900
+tag and opening tag are actually sitting within this element and the same would go here don't mix.
+
+05:28.900 --> 05:35.800
+Let's say heading one with paragraph don't place the closing tag for the heading One within this paragraph
+
+05:36.010 --> 05:39.490
+because again you're going to get errors and it will not going to make sense.

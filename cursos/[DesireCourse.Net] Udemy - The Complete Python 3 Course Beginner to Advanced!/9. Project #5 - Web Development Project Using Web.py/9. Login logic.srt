@@ -1,0 +1,524 @@
+1
+
+00:00:00,000  -->  00:00:04,170
+Hey guys, welcome back. We're not going to get to sessions right away, the first
+
+2
+
+00:00:04,170  -->  00:00:10,290
+thing we're going to do is just build
+out the outworking login system, and so
+
+3
+
+00:00:10,290  -->  00:00:13,440
+this is probably gonna be a really quick
+video. What we need to do in templates
+
+4
+
+00:00:13,440  -->  00:00:21,930
+create a new file called "Login" and then
+in here
+
+5
+
+00:00:23,910  -->  00:00:33,840
+&lt;div class="container" and then we're going to create a "&lt;form id="login-form"&gt;" "&lt;/form&gt;"
+
+6
+
+00:00:33,840  -->  00:00:41,309
+and above that form we're going to use
+an "&lt;h2&gt; &lt;/h2&gt;" and we're just going to
+
+7
+
+00:00:41,309  -->  00:00:49,649
+say "Login" and in the Register form I did
+put a couple line breaks here after the
+
+8
+
+00:00:49,649  -->  00:00:54,360
+h2 element, so I'm going to do the same
+thing here in this file. Now we're going
+
+9
+
+00:00:54,360  -->  00:00:57,329
+to be using the same things we have here,
+
+10
+
+00:00:57,329  -->  00:01:01,170
+so what I'm going to do is I'm just
+going to copy one of these to make
+
+11
+
+00:01:01,170  -->  00:01:07,530
+things a bit faster for us, and I'm just
+going to go like this and then that. So
+
+12
+
+00:01:07,530  -->  00:01:10,590
+the first one is going to be "username"
+and the second one is going to be
+
+13
+
+00:01:10,590  -->  00:01:13,590
+"password"
+
+14
+
+00:01:21,460  -->  00:01:42,070
+and this actually has made things a lot
+faster here, and then down
+
+15
+
+00:01:42,070  -->  00:01:46,690
+at the very bottom we're just going to
+create a "&lt;button class=
+
+16
+
+00:01:46,690  -->  00:02:01,600
+"btn btn-raised btn-info waves-effect"&gt;Login&lt;/button&gt;" Go ahead and save this, and
+
+17
+
+00:02:01,600  -->  00:02:07,000
+then in the controller file we actually
+need to add a route here that it's going
+
+18
+
+00:02:07,000  -->  00:02:10,929
+to be a get route, and it's going to say,
+and actually I need to add two lines
+
+19
+
+00:02:10,929  -->  00:02:25,150
+between classes which I haven't done so
+far. So, "class Login:" "def GET(self):" and we're just going
+
+20
+
+00:02:25,150  -->  00:02:36,970
+to "return render.Login( )" The path to
+the login page is simply going to be
+
+21
+
+00:02:36,970  -->  00:02:41,799
+'/login', 'Login', and there we go.
+
+22
+
+00:02:41,799  -->  00:02:49,630
+So if we save this we now need to edit
+the MainLayout to have a link right
+
+23
+
+00:02:49,630  -->  00:02:55,420
+beside here which is going to be similar
+but it's going to be a login, and that ones
+
+24
+
+00:02:55,420  -->  00:03:03,940
+actually going to be in front of the
+register. So, this is going to be a regular
+
+25
+
+00:03:03,940  -->  00:03:17,590
+link, but I do want the button and "btn-link" It's going to be called Login and
+
+26
+
+00:03:17,590  -->  00:03:20,590
+it's going to route to the "login" route.
+
+27
+
+00:03:21,160  -->  00:03:25,359
+Let's go ahead and save that, run our script again, let's go ahead and refresh the
+
+28
+
+00:03:25,359  -->  00:03:28,959
+page here, now you can see we've also got a login link. We've got the register
+
+29
+
+00:03:28,959  -->  00:03:32,350
+button and a login link. When we
+go to this route we get presented with
+
+30
+
+00:03:32,350  -->  00:03:34,140
+our username and password,
+
+31
+
+00:03:34,140  -->  00:03:36,510
+and then we're going to have to do
+essentially the same thing that we did
+
+32
+
+00:03:36,510  -->  00:03:41,819
+with a register form. So we need to go
+into the javascript file here which is
+
+33
+
+00:03:41,819  -->  00:03:46,709
+called scripty, and essentially we're
+going to do the same thing but with the
+
+34
+
+00:03:46,709  -->  00:04:03,959
+login form. So, "$(document).on('submit', '#login-form',
+
+35
+
+00:04:03,959  -->  00:04:08,970
+function(e){ })" I cannot type
+today,
+
+36
+
+00:04:09,570  -->  00:04:21,239
+that's unusual. Going to "e.preventDefault( );" and then we're going to capture
+
+37
+
+00:04:21,239  -->  00:04:32,190
+the form "var form = $(this).serialize"  we can actually use this variable here, and the reason we can use
+
+38
+
+00:04:32,190  -->  00:04:35,910
+that is because we are targeting the
+form element itself, so when that submits
+
+39
+
+00:04:35,910  -->  00:04:43,650
+inside of this that is equal to that. So,
+then we're going to create our "$.ajax("
+
+40
+
+00:04:43,650  -->  00:05:02,460
+"url: '/check-login',"  the "type: 'POST', " "data:
+
+41
+
+00:05:02,460  -->  00:05:11,550
+form," and then "success: function(res){" we are going to do something if they successfully login, but
+
+42
+
+00:05:11,550  -->  00:05:15,270
+if they don't we're also going to do
+something. So, what we're going to do is
+
+43
+
+00:05:15,270  -->  00:05:22,350
+create an if statement and the only
+thing we're going to return is error. So,
+
+44
+
+00:05:22,350  -->  00:05:35,460
+"if(res == "error"){" now we're just going
+to "alert("Could not log in.");}" "else{" and then
+
+45
+
+00:05:35,460  -->  00:05:42,540
+here we would handle a redirect and
+whatnot so "console.log("Logged in as", res ");"
+
+46
+
+00:05:42,540  -->  00:05:48,450
+So basically what we need to do
+here is we need to make the response
+
+47
+
+00:05:48,450  -->  00:05:54,300
+from the check login either just the
+word error, or the object of maybe the
+
+48
+
+00:05:54,300  -->  00:05:59,520
+login user and we will redirect to
+another page based on that. So now we
+
+49
+
+00:05:59,520  -->  00:06:00,720
+need to create the check
+
+50
+
+00:06:00,720  -->  00:06:17,580
+login model. So let's go ahead and create
+a "LoginModel" 'check-login',  is going to
+
+51
+
+00:06:17,580  -->  00:06:24,330
+connect to 'CheckLogin' class, and then
+we just need to create the check log in
+
+52
+
+00:06:24,330  -->  00:06:37,260
+class. So "class CheckLogin:" "def POST(self):" and what
+we're going to do is essentially the
+
+53
+
+00:06:37,260  -->  00:06:39,510
+same thing we're doing up here and then
+we're going to do some stuff in the
+
+54
+
+00:06:39,510  -->  00:06:59,460
+model. So, "data = web.input( )" login
+model equals, actually "login =
+
+55
+
+00:06:59,460  -->  00:07:08,820
+LoginModel.LoginModel( )" same as with the registration model, and then "login.
+
+56
+
+00:07:08,820  -->  00:07:18,660
+check_user(data)" and then we're going to for now
+
+57
+
+00:07:18,660  -->  00:07:25,230
+we're going to just "return "error" and
+we're going to be building out the login
+
+58
+
+00:07:25,230  -->  00:07:27,150
+model and then we'll get to that in a
+moment.
+
+59
+
+00:07:27,150  -->  00:07:32,850
+So in Models here create a new Python
+file called LoginModel, and then create
+
+60
+
+00:07:32,850  -->  00:07:43,290
+a "class LoginModel:" Now, we need
+to import PyMongo, so "import pymongo,
+
+61
+
+00:07:43,290  -->  00:07:52,080
+bcrypt" and "from pymongo import
+MongoClient" and actually maybe as we go
+
+62
+
+00:07:52,080  -->  00:07:55,950
+on I will put that into a script
+
+63
+
+00:07:55,950  -->  00:08:01,020
+on its own so maybe we don't always have to connect to the Mongo database. So,
+
+64
+
+00:08:01,020  -->  00:08:01,980
+here
+
+65
+
+00:08:01,980  -->  00:08:05,730
+similar to the registration here we're
+going to copy this actually because it's
+
+66
+
+00:08:05,730  -->  00:08:16,410
+going to be the exact same, and then for
+insert user and you know we're just
+
+67
+
+00:08:16,410  -->  00:08:23,940
+going to replace that with "def check_login(self, data):" and I believe that's what
+
+68
+
+00:08:23,940  -->  00:08:31,980
+we called it over here in the controller,
+"check_user" it was. So let's go ahead and
+
+69
+
+00:08:31,980  -->  00:08:39,390
+get the user account from Mongo, so in
+order to do that we're just going to
+
+70
+
+00:08:39,390  -->  00:08:51,450
+type "user = Users.find_one({"username: data.username"})"
+
+71
+
+00:08:51,450  -->  00:09:03,480
+Now, "if user:" we're going to check the
+password, so what we need to do is get
+
+72
+
+00:09:03,480  -->  00:09:13,740
+the users password, as well as the
+password that they had...the password that
+
+73
+
+00:09:13,740  -->  00:09:22,320
+they have stored into the database.
+So, let's go ahead and just do the check,
+
+74
+
+00:09:22,320  -->  00:09:38,490
+I guess. So, "if bcrypt.checkpw(data.password.
+
+75
+
+00:09:38,490  -->  00:09:50,730
+encode( ), user["password"])" So if the check password
+
+76
+
+00:09:50,730  -->  00:09:57,090
+is correct we're going to return the entire
+user object. So, "return user" "else:" "return "error"
+
+77
+
+00:09:59,920  -->  00:10:16,959
+there we go. So how we're going to
+check that in, actually let's make that
+
+78
+
+00:10:16,959  -->  00:10:28,750
+"False" So if a user and if it's correct
+we're going to return user, "else:" we're
+
+79
+
+00:10:28,750  -->  00:10:35,019
+going to "return False" here as well. Back
+in our controller we can check that now.
+
+80
+
+00:10:35,019  -->  00:10:43,329
+So, "isCorrect" is going to be either the
+object or false.
+
+81
+
+00:10:43,870  -->  00:10:51,699
+So what we're going to do is we're going
+to say "if isCorrect:" "return isCorrect"
+
+82
+
+00:10:55,000  -->  00:11:01,630
+Let's go ahead and save this, end this,
+and start it again. Now I need to check if I
+
+83
+
+00:11:01,630  -->  00:11:05,470
+need to add a user and I don't, so I
+should just be able to login with the
+
+84
+
+00:11:05,470  -->  00:11:11,320
+username nick1. So let's go ahead and
+refresh this, going to login with "nick1"
+
+85
+
+00:11:11,320  -->  00:11:19,120
+and "avocado1" and you'll see that
+this is it logged in as and then the
+
+86
+
+00:11:19,120  -->  00:11:24,699
+user that I've logged in as. Now if I
+were to type in the wrong password, it
+
+87
+
+00:11:24,699  -->  00:11:28,480
+would say could not login, so we've
+actually got a working script here that
+
+88
+
+00:11:28,480  -->  00:11:34,029
+will login. We will be able to set sessions
+is in the next video, essentially we're
+
+89
+
+00:11:34,029  -->  00:11:37,000
+going to learn about cookies and
+sessions and stuff, and then we are going
+
+90
+
+00:11:37,000  -->  00:11:40,360
+to basically just enable it right there.
+
+91
+
+00:11:40,930  -->  00:11:46,779
+If is correct we're going to start a
+session and pass that data back to here.
+
+92
+
+00:11:46,779  -->  00:11:50,170
+So thank you guys for watching and I
+will see you guys soon.

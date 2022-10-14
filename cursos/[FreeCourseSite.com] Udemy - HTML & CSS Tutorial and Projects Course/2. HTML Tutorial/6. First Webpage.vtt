@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.510 --> 00:01.450
+All right all right.
+
+00:01.450 --> 00:02.350
+I have the folder.
+
+00:02.380 --> 00:05.150
+But how do we create our first web page now.
+
+00:05.200 --> 00:09.910
+First of all let me just make this bigger again so we can see everything that's happening.
+
+00:09.910 --> 00:15.520
+Now second it's easy to see that everything is in very small phones and like I said we will gonna fix
+
+00:15.520 --> 00:16.300
+this later.
+
+00:16.420 --> 00:21.310
+But just to give you a tip whenever you're working again with Visual Studio code you're going to have
+
+00:21.310 --> 00:28.570
+the option of zooming in as you can see right now if I'm press in command and plus or minus I'm zooming
+
+00:28.570 --> 00:34.910
+in more I'm zooming out I'm gonna zoom in so we can see really clearly what we're doing but we all gonna
+
+00:34.930 --> 00:39.690
+fix this in the next video and we're going to start working with our settings now first and foremost.
+
+00:39.690 --> 00:41.490
+We're going to have to create a file.
+
+00:41.620 --> 00:43.550
+Now again we have few options.
+
+00:43.780 --> 00:46.460
+As you notice here we have a little icon.
+
+00:46.600 --> 00:52.540
+And when I'm hovering over it it says that we can create new file or there's another option where we
+
+00:52.540 --> 00:54.600
+just right click it on the sidebar.
+
+00:54.760 --> 00:56.530
+And again we have multiple options.
+
+00:56.680 --> 00:59.890
+And what we're interested that is new file regardless.
+
+00:59.890 --> 01:04.550
+The result is gonna be exactly the same that we can create a new file.
+
+01:04.550 --> 01:08.660
+Now I want to call my file my first file indexed HDMI.
+
+01:09.140 --> 01:11.420
+And both of these things are important.
+
+01:11.450 --> 01:17.670
+It's important to call this index as well as it is important to have this extension of HDMI.
+
+01:17.720 --> 01:23.090
+Now the reason for HD The Amal extension because there's gonna be different files there's gonna be maybe
+
+01:23.150 --> 01:28.040
+not maybe there's actually going to be assessed files later on there's gonna be some JavaScript files
+
+01:28.040 --> 01:29.210
+and all kinds of files.
+
+01:29.720 --> 01:33.960
+So this tells the browser of what type of file this is gonna be.
+
+01:33.980 --> 01:39.710
+Now second the index is important because whenever you're going to download your project or upload your
+
+01:39.710 --> 01:43.170
+project on the server this is gonna be your homepage.
+
+01:43.280 --> 01:48.800
+So if you're going to home page this is gonna be indexation email if you're gonna have an about page
+
+01:48.800 --> 01:54.980
+or contact me page you name this however you'd like but your homepage will going to have to be index
+
+01:55.030 --> 01:56.270
+H to email.
+
+01:56.420 --> 02:01.970
+Now on the right hand side like I said this would be the space we're all going to be doing all our work
+
+02:02.360 --> 02:04.170
+which would be our workspace.
+
+02:04.160 --> 02:10.220
+Now since we know that h the email is made up of elements let's create our first two elements and again
+
+02:10.220 --> 02:15.980
+we will cover them in bigger detail later on let's just get up and running with our first webpage.
+
+02:16.490 --> 02:18.810
+So first of all I would like to have a heading one.
+
+02:19.170 --> 02:22.580
+And again the syntax was the opening tag and closing.
+
+02:22.850 --> 02:25.270
+Now what's gonna happen with Visual Studio code.
+
+02:25.400 --> 02:28.820
+This will automatically to create the closing tag for us.
+
+02:28.910 --> 02:30.080
+So we don't need to worry about.
+
+02:30.560 --> 02:35.660
+So here I'm gonna say hello world and then let's also add maybe a paragraph.
+
+02:35.660 --> 02:41.690
+And again we have an option of just creating the paragraph tags or paragraph element and I'm going to
+
+02:41.680 --> 02:45.920
+say this is my first web page.
+
+02:45.920 --> 02:52.700
+And again please don't worry I'm gonna go over detail what these things mean in the later videos but
+
+02:52.700 --> 02:55.840
+just for now let's get up and running with our first web page.
+
+02:56.030 --> 03:01.220
+Now as you noticed right away you have this one as well as you have this little circle here.
+
+03:01.220 --> 03:06.340
+Now what this says that you haven't saved the file and again if you would like to save the file you
+
+03:06.340 --> 03:11.980
+have two options you can head over to the file and then we can just click on Save as well as it tells
+
+03:11.980 --> 03:15.140
+us right away the shortcut which would be commanders.
+
+03:15.160 --> 03:20.200
+So either you just press on the file more command less and now we're gonna save the file.
+
+03:20.890 --> 03:23.140
+So how do we look at our first webpage.
+
+03:23.680 --> 03:27.960
+Well we're going to have to navigate again back to our folder project again.
+
+03:27.990 --> 03:32.750
+Call this however you like and notice right now you have this index actually in my file.
+
+03:33.340 --> 03:38.620
+However it has this little like on right next to and maybe in your operating system the icon might be
+
+03:38.620 --> 03:43.690
+different but the general idea is that we can open up this file in the browser.
+
+03:43.690 --> 03:44.720
+So how do we do that.
+
+03:45.100 --> 03:50.590
+First of all we can just double click or we have an option of right clicking and noticed it says well
+
+03:50.710 --> 03:56.460
+open with more since we already set it up the Google Chrome this is going to open up as a default browser
+
+03:56.840 --> 04:00.430
+but the same way would work if you would have a different default browser.
+
+04:00.430 --> 04:04.690
+I'm just gonna double click this and this is going to open up in your default browser.
+
+04:05.020 --> 04:08.410
+So again since in our case both of them are exactly the same.
+
+04:08.560 --> 04:11.410
+It would have the same result regardless.
+
+04:11.500 --> 04:15.920
+And sure enough now I have a low world and this is my first web page.
+
+04:15.940 --> 04:19.000
+Now again this is not most sophisticated webpage.
+
+04:19.030 --> 04:24.550
+However this is a job well done since we created our first web page successfully.

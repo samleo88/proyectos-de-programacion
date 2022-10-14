@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.650 --> 00:06.890
+All is well and dandy but what if browser that the user is using does not support the funds we have
+
+00:06.890 --> 00:07.150
+pick.
+
+00:07.850 --> 00:10.450
+Well I guess we're in deep trouble.
+
+00:10.610 --> 00:12.030
+Not so fast.
+
+00:12.080 --> 00:17.520
+You see for fun family property we can add several fun families as a fallback system.
+
+00:17.810 --> 00:24.040
+So if the browser does not support the first one it can try getting next one and so on and so forth.
+
+00:24.110 --> 00:25.620
+We call that a phone stack.
+
+00:26.180 --> 00:33.290
+And what's also interesting at the end of the phone stack we can pass a generic font family that allows
+
+00:33.290 --> 00:36.850
+browser to pick similar funds from generic family.
+
+00:36.890 --> 00:38.420
+So let's see that in action.
+
+00:38.510 --> 00:44.480
+As you can see right now we have the Helvetica and we have the done it but whenever we were writing
+
+00:44.480 --> 00:50.810
+them you probably noticed how right away individuals to your code gave us multiple options.
+
+00:50.810 --> 00:54.770
+Now again let's test that out first because it's gonna be easier for me to show you.
+
+00:55.220 --> 00:59.930
+So let's say first we're gonna get rid of the heading One so I'm going to comment this out and let me
+
+00:59.930 --> 01:01.780
+just delete this whole etiquette.
+
+01:01.870 --> 01:03.780
+The moment I typed font family.
+
+01:03.840 --> 01:04.550
+What's gonna happen.
+
+01:04.970 --> 01:08.050
+Well actually this shouldn't gives me suggestions and it doesn't.
+
+01:08.060 --> 01:13.110
+So what I would need to do is press control and spacebar again that's gonna be with them.
+
+01:13.250 --> 01:15.050
+Now what do you see or hear.
+
+01:15.710 --> 01:21.740
+Well there's gonna be bunch of fonts and the way they are written is not just one family.
+
+01:21.920 --> 01:23.390
+It's in fact like this.
+
+01:23.450 --> 01:28.370
+So you're gonna have one fun family then you're going to have another one and then you'll have the third
+
+01:28.370 --> 01:29.070
+one.
+
+01:29.270 --> 01:34.380
+Now third one is the generic one and this whole thing is called stuff.
+
+01:34.670 --> 01:36.800
+So we're gonna try with our favorite one.
+
+01:37.040 --> 01:44.060
+If the browser doesn't have it OK pick this guy then if this one is not available grab this generic
+
+01:44.060 --> 01:50.360
+font family and pick some kind of font that will at least match better than just passing some kind of
+
+01:50.360 --> 01:50.950
+default one.
+
+01:51.450 --> 01:53.400
+And that's the whole idea here.
+
+01:53.510 --> 02:00.350
+Now the generic ones are served and serve cursive fantasy and the minus bass and sure enough now I can
+
+02:00.350 --> 02:05.270
+see that everything is pretty much in this font family as well as you know what let's do the same thing
+
+02:05.270 --> 02:06.470
+with that one.
+
+02:06.590 --> 02:08.790
+Now let me again come on this.
+
+02:08.800 --> 02:11.870
+So we're going to have Herring one and the same thing is gonna work.
+
+02:11.930 --> 02:13.090
+Let's say we're done.
+
+02:13.430 --> 02:16.180
+What we're getting is Donna Geneva home.
+
+02:16.310 --> 02:23.360
+And then we're looking for this generic one that we're gonna try to supply at least some type of font
+
+02:23.840 --> 02:30.100
+from this generic family that would match this guy that we picked already in the beginning again.
+
+02:30.110 --> 02:35.680
+It's obviously not gonna be exactly the same but at least it's not gonna be default browser font fan.

@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.690 --> 00:06.120
+The first section we're going to be working on is going to be all here and this nav bar with the toggle
+
+00:06.120 --> 00:10.580
+button or here and the links like this.
+
+00:10.580 --> 00:12.540
+And also the banner.
+
+00:12.680 --> 00:19.550
+And since we're going to be using the flex box one for the whole header which is going to include nav
+
+00:19.670 --> 00:23.120
+and the banner we're going to do them together.
+
+00:23.390 --> 00:26.990
+And this is going to be the longest section and the most challenging section.
+
+00:26.990 --> 00:27.300
+Right.
+
+00:27.440 --> 00:32.150
+Once we actually start working with the skills it's going to be smooth sailing after we're done here
+
+00:32.150 --> 00:35.630
+with this one right because we're going to have a few things going on right.
+
+00:35.630 --> 00:38.300
+We're going to have a flex here.
+
+00:38.360 --> 00:42.980
+This is going to be a display or here or fixed or here like this right.
+
+00:42.980 --> 00:48.980
+So once actually the nav bar is in position then it is going and get this back run over here and it's
+
+00:48.980 --> 00:53.480
+going to be fixed and we're here also to have a toggle button right.
+
+00:53.480 --> 00:58.070
+So there's going to be few things going on that's why this is going to be the longest section of the
+
+00:58.070 --> 00:58.940
+project.
+
+00:58.940 --> 01:02.010
+So let's go ahead and let's actually start working on it.
+
+01:02.320 --> 01:05.900
+So here the first thing that I'm going to do is I'm going to delete this right.
+
+01:05.990 --> 01:06.580
+I'm going to delete.
+
+01:06.590 --> 01:09.000
+Hello world on the phone font awesome icon.
+
+01:09.280 --> 01:11.100
+So I'm going to get rid of this.
+
+01:11.220 --> 01:11.520
+Right.
+
+01:11.540 --> 01:14.480
+And we're going to make some more room here like this.
+
+01:14.510 --> 01:20.190
+So once we have everything open now the first thing that we would want to do is actually create a header.
+
+01:20.540 --> 01:22.690
+And once we have the header.
+
+01:22.820 --> 01:24.850
+And this is going to be a header element.
+
+01:25.040 --> 01:29.070
+Then we want to actually create a comment.
+
+01:29.160 --> 01:32.020
+So I'm going to say hetero's here more here let's say.
+
+01:32.060 --> 01:35.550
+And of over here.
+
+01:35.880 --> 01:40.930
+Now once we have the header the first thing that I'm going to say is this is going to be enough.
+
+01:41.080 --> 01:43.360
+And so this is going to be in the home.
+
+01:43.620 --> 01:49.040
+And the first thing in that element we're actually going to create or stop one.
+
+01:49.190 --> 01:52.900
+And so this is going to be a logo and this is going to be the Boston area.
+
+01:53.100 --> 01:59.670
+So what I'm going to say here and this is going to be of the class of that container is going to be
+
+01:59.670 --> 02:01.710
+the with the class of container.
+
+02:01.890 --> 02:08.140
+Once we have the div here then we're going to place an image and the image is going to have a source.
+
+02:08.210 --> 02:11.540
+Right we're going to go to images and then we're going to go to Lovo.
+
+02:11.880 --> 02:13.920
+So this is going to be our logo here.
+
+02:14.160 --> 02:18.530
+Once we have our logo let's say or here we're going to write a long go.
+
+02:18.630 --> 02:19.530
+Then we'll get right.
+
+02:19.580 --> 02:21.210
+That we would want a button.
+
+02:21.270 --> 02:22.730
+How do we create a button.
+
+02:22.890 --> 02:25.970
+So here I'm going to say this is going to be a div with the button.
+
+02:26.250 --> 02:30.900
+And then when the button we're going to have a three bars here I'm going to write and this is going
+
+02:30.900 --> 02:36.000
+to be a bar one here and this and then we need two more.
+
+02:36.120 --> 02:40.940
+So I'm going to select the line and copy and paste this one here this is going to be bar two.
+
+02:41.010 --> 02:42.570
+This is going to be bar three.
+
+02:42.620 --> 02:48.240
+Right now we cannot see this right now because obviously we need to use a C Ss to actually create them.
+
+02:48.300 --> 02:52.360
+Right now this is going to be it for the knife container.
+
+02:52.510 --> 02:54.420
+And so this was the container.
+
+02:54.690 --> 02:58.860
+And then we're going to work with rest of the and more here and we're going to say this is going to
+
+02:58.860 --> 03:00.540
+be on our list.
+
+03:00.540 --> 03:06.910
+I'm going to say now I've read the links right so this is going to be the class for our list or here
+
+03:06.930 --> 03:11.640
+where we're going to say that this is going to be a list item like this.
+
+03:11.640 --> 03:18.360
+So this is going to be a list item and then the list item there is going to be a link like this and
+
+03:18.360 --> 03:20.270
+this one we're going to call a ban.
+
+03:20.330 --> 03:20.960
+All right.
+
+03:21.030 --> 03:23.390
+So we're just going to say this is going to be home.
+
+03:23.760 --> 03:30.060
+But obviously since this is the target right we're going to be actually selecting all these elements
+
+03:30.070 --> 03:35.010
+right because you can see or hear that once we got to the bigger screen this is what we're going to
+
+03:35.010 --> 03:40.250
+have once we click over here there's going to be smooth scrolling to the section.
+
+03:40.260 --> 03:43.440
+This was the skills now is smooth scrolling through this section right.
+
+03:43.530 --> 03:48.780
+If we're going to about we're going to scroll over this section and this is why we need all here for
+
+03:48.780 --> 03:50.230
+these links to have a target.
+
+03:50.450 --> 03:52.070
+So here this is going to be the banner.
+
+03:52.080 --> 03:52.740
+Right.
+
+03:52.830 --> 03:55.350
+And I already know what section names are going to be.
+
+03:55.350 --> 03:55.560
+Right.
+
+03:55.560 --> 03:58.000
+So therefore I'm going to write them more here.
+
+03:58.080 --> 04:00.100
+But you are going to add them later.
+
+04:00.120 --> 04:01.720
+Right the actual sections.
+
+04:01.740 --> 04:06.810
+Therefore just right or here the section name if you're going to be using the same section names as
+
+04:06.810 --> 04:12.120
+I will we're not going to write home and then we can start to copy and paste this.
+
+04:12.210 --> 04:13.890
+And so we're just going to copy and paste this.
+
+04:13.890 --> 04:16.030
+And we need four more times.
+
+04:16.050 --> 04:19.180
+And obviously they're not going to be banner all of them right.
+
+04:19.200 --> 04:25.260
+So this is going to be skills and let's say we're here and we're going to do these more here.
+
+04:25.270 --> 04:26.020
+Right.
+
+04:26.050 --> 04:31.800
+And the third one we're going to say this is going to be about then over here we're going to write this
+
+04:31.800 --> 04:33.350
+is going to be projects.
+
+04:33.690 --> 04:36.030
+And the last one over here is going to be team.
+
+04:36.220 --> 04:42.060
+And so these are going to be section names or here again we can go in this banner because we don't need
+
+04:42.060 --> 04:50.790
+four of them and this and here we're going to say skills then another target is going to be about and
+
+04:50.930 --> 04:52.240
+here this is going to be the project.
+
+04:52.240 --> 04:55.670
+So these are obviously the ideas that we're going to add to the sections.
+
+04:55.960 --> 04:58.000
+All of them will have a..
+
+04:58.050 --> 05:05.520
+Now once we have this order here now once we have a list items with the team now we would want the icons.
+
+05:05.690 --> 05:05.950
+Right.
+
+05:05.950 --> 05:08.520
+So this was one on our list.
+
+05:08.520 --> 05:10.720
+Now I would want a second.
+
+05:10.810 --> 05:11.250
+Right.
+
+05:11.430 --> 05:12.980
+So we're going to say we're here.
+
+05:13.180 --> 05:15.390
+This is going to be on our list.
+
+05:15.390 --> 05:20.350
+We're going to say now of icons or hear press tab and now we have now of icons.
+
+05:20.430 --> 05:23.810
+So we're going to we're going to start with a list item here.
+
+05:24.120 --> 05:31.080
+Then in a list item or we're going to say that this is going to be a link like this once we have the
+
+05:31.080 --> 05:31.770
+link.
+
+05:31.770 --> 05:37.740
+This is going to be done I think I'm not going to be actually linking it on the Facebook but over here
+
+05:37.740 --> 05:44.660
+within the link We're going to have I know here we're going to say be over here we're going to write
+
+05:44.660 --> 05:48.560
+and this is going to be another class and all here we're going to leave it like this.
+
+05:48.560 --> 05:50.430
+All right then we press it on here.
+
+05:50.430 --> 05:56.160
+Now we do want to copy and paste this line and again we would want to do it three times one to three
+
+05:56.630 --> 06:01.530
+out here and let's use all here beautifier because this is going to be a little bit easier for us to
+
+06:01.530 --> 06:02.040
+see.
+
+06:02.220 --> 06:07.710
+So I'm going to select this and we can just find where it is beautifully here like this.
+
+06:07.710 --> 06:11.370
+And I can see that I have it's much more easier for me to work right.
+
+06:11.440 --> 06:18.170
+So know I'm going to say this is going to be a Facebook Facebook or here and you can see that we're
+
+06:18.170 --> 06:25.590
+using this new FHB or here right here and this is going to be Instagram this is going to be all here
+
+06:25.660 --> 06:28.170
+linked in LinkedIn.
+
+06:28.550 --> 06:29.990
+All right LinkedIn.
+
+06:30.210 --> 06:38.030
+You know I get this and then we'll have a Google Plus Google Plus or.
+
+06:38.520 --> 06:46.250
+Then once we have our bar and the button that we can see right now or here still within the header I
+
+06:46.580 --> 06:48.030
+would want a second child.
+
+06:48.170 --> 06:49.770
+And why I say a second child.
+
+06:49.900 --> 06:52.310
+So here you can see that this is not right.
+
+06:52.460 --> 06:56.880
+And what we're going to do is we're going to select this header has display flex.
+
+06:56.900 --> 06:57.320
+All right.
+
+06:57.320 --> 07:02.290
+So now is going to be the first child here and now we're going to create the second show right here
+
+07:02.330 --> 07:02.870
+this guy.
+
+07:02.910 --> 07:03.430
+All right.
+
+07:03.500 --> 07:06.010
+So this whole thing right.
+
+07:06.230 --> 07:08.800
+This cartoon here is going to be second child.
+
+07:09.020 --> 07:13.700
+And the card is actually going to be sitting in a banner and we're here and we're going to do is this
+
+07:13.700 --> 07:18.920
+was going I have and this is going to be the banner so we're going to have a class of Vanner and idea
+
+07:18.920 --> 07:20.850
+of banter or here like this.
+
+07:20.860 --> 07:21.210
+Right.
+
+07:21.350 --> 07:29.720
+So have dinner with class or an idea or here within the of the first is going to be a banner we're going
+
+07:29.720 --> 07:32.780
+to say card it's going to be the first day.
+
+07:32.960 --> 07:35.650
+And then within this day we're going to have a few things.
+
+07:35.730 --> 07:39.760
+We're here we're going to say this is going to be heading one and our heroes is going right.
+
+07:39.760 --> 07:43.160
+And this is going to be a cold war like this.
+
+07:43.280 --> 07:43.960
+Right.
+
+07:44.010 --> 07:50.000
+We can write it like this and then we're going to have a span within the span we're going to say Masters
+
+07:50.840 --> 07:57.800
+masters or here and maybe create a little bit of space in between right and then we would want a heading
+
+07:57.800 --> 07:58.540
+three.
+
+07:58.700 --> 08:05.800
+So going to having three and we're going to say that this is going to be mastering cold everywhere or
+
+08:06.110 --> 08:07.250
+here like this.
+
+08:07.760 --> 08:15.800
+And what's happening is over here now that we have a RHC amount now we're ready to go to main success
+
+08:16.250 --> 08:17.690
+and actually start styling.
+
+08:17.690 --> 08:18.080
+That's right.
+
+08:18.080 --> 08:21.490
+So the end result would be something like this.

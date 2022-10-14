@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00.090 --> 00:05.640
+The next section you're going to be building is going to be or here about section so you can see that
+
+00:05.640 --> 00:10.110
+we're going to have one side where there's going to be an image then know here this is going to be the
+
+00:10.110 --> 00:12.590
+title and this is going to be next.
+
+00:12.830 --> 00:14.720
+And here we're going to have to fix.
+
+00:14.850 --> 00:20.190
+So we're going to go back or here to our team now and we're going to write or here that this is going
+
+00:20.190 --> 00:25.490
+to be the end of error and then we're going to have a vote section over here.
+
+00:25.540 --> 00:29.350
+What I'm going to do here I'm going to copy and paste it over here.
+
+00:29.440 --> 00:29.860
+Right.
+
+00:29.880 --> 00:36.850
+And of about section now in the About section we're going to start first with a section.
+
+00:37.020 --> 00:43.140
+And now this section is actually going to have a class of about an hour here.
+
+00:43.140 --> 00:50.570
+First things first we're going to have a div that's going to have a class of underscore about Center.
+
+00:50.700 --> 00:52.850
+And this is going to be used for centering.
+
+00:53.070 --> 00:57.730
+So here we're going to say give about the score at all here.
+
+00:57.760 --> 01:04.580
+And to have said now in this day of we're going to have two actual articles so I'm going to say we're
+
+01:04.600 --> 01:13.110
+here this is going to be the first article with a class of about I am g here and in this article the
+
+01:13.200 --> 01:17.110
+actual image is going to be placed in the same image.
+
+01:17.130 --> 01:24.330
+Now what we would want for the image source we're going to say that we would want a image header BCG.
+
+01:24.330 --> 01:27.090
+So we're going to use basically the same source.
+
+01:27.190 --> 01:32.790
+And we also would want a glass I'm going to say about and we're going to have image and again this is
+
+01:32.790 --> 01:34.680
+going to be two underscores all.
+
+01:34.710 --> 01:38.460
+So this is going to be a classic we're going to be applying to our image.
+
+01:38.510 --> 01:40.540
+Like I said this is going to be the same image.
+
+01:40.590 --> 01:42.930
+So this is going to be Hetter BCG.
+
+01:43.220 --> 01:47.200
+And you can see that this image is going to be taking up a lot of space right now.
+
+01:47.340 --> 01:50.970
+But don't worry we're actually going to fix this with a CSX.
+
+01:51.030 --> 01:54.210
+So once we have our first article now we will.
+
+01:54.210 --> 01:56.790
+One is a about it.
+
+01:56.940 --> 01:58.960
+So again we're going to have to go.
+
+01:58.980 --> 02:06.570
+This is going to have a class and for the class we're going to say about in full on here now and the
+
+02:06.690 --> 02:08.130
+about info.
+
+02:08.130 --> 02:14.280
+First of all we're going to have a container and in the container we're going to have a title then we're
+
+02:14.280 --> 02:17.050
+going to have a text and then I'm going to have a look.
+
+02:17.120 --> 02:24.300
+So here we're going to say Dave with a class about in fall and out here this is going to be two course
+
+02:24.300 --> 02:25.150
+container.
+
+02:25.470 --> 02:30.840
+So basically this container is going to be wrapper for everything we're replacing or here inside.
+
+02:30.960 --> 02:37.600
+Now in a container we're going to have a Hening one with an about in full here on that score on the
+
+02:37.620 --> 02:38.380
+score.
+
+02:38.430 --> 02:43.770
+And this is going to be titled now we're here we're going to say about it or hear me again and we're
+
+02:43.770 --> 02:48.210
+going to place on her tab and all should be on here.
+
+02:48.540 --> 02:49.830
+Now once we have it.
+
+02:49.860 --> 02:55.380
+And if one then let's actually create a paragraph here for the paragraph we're going to we're going
+
+02:55.380 --> 03:03.240
+to have a class about info here on the score on the school text and or here let's play some text or
+
+03:04.260 --> 03:05.640
+let's say like 21.
+
+03:05.650 --> 03:08.850
+So warm I had 20 press tab.
+
+03:09.090 --> 03:15.190
+And sure enough now I can see that this is going to be my next and last but not least let's create our
+
+03:15.190 --> 03:16.910
+links now for two lengths.
+
+03:16.920 --> 03:22.020
+I actually would want to create a separate that's going to hold both wings.
+
+03:22.020 --> 03:28.130
+However I still want to place it within the about container so don't place it outside of about container
+
+03:28.610 --> 03:33.740
+so let's say here this is going to be about info here about info.
+
+03:33.990 --> 03:38.340
+And for this we're going to say on the score on the score links so this is going to be the class for
+
+03:38.360 --> 03:45.540
+this day and then we're going to have a Tref on here so link and then we're going to have a class.
+
+03:45.600 --> 03:48.010
+So there's going to be actually two classes.
+
+03:48.070 --> 03:55.320
+So first one is going to be about info or here single single and then we're going to say wink.
+
+03:55.510 --> 04:00.680
+So this is going to be a first class and the second class is actually going to be dark median.
+
+04:00.740 --> 04:07.110
+So this is going to be our second class and let's say that 40 ATF is going to have a hash tag on here.
+
+04:07.170 --> 04:10.790
+But however for that text we would want to write that.
+
+04:10.800 --> 04:14.430
+This is going to be higher me or hear me.
+
+04:14.610 --> 04:19.980
+And then let's copy and paste the same button or we we're all just going to change things around or
+
+04:20.380 --> 04:23.610
+we're going to say that this is going to be a download here.
+
+04:23.810 --> 04:31.830
+C-v like this and then also what we would want is we would want to change from this are going to say
+
+04:31.830 --> 04:36.060
+that this is going to be like a light between or here.
+
+04:36.240 --> 04:43.200
+So once we say it we have our HD and now for the about section and now we can go ahead and actually
+
+04:43.200 --> 04:44.820
+start styling this action.

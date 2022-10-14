@@ -1,0 +1,276 @@
+1
+1
+
+00:00:00,030  -->  00:00:05,430
+So the interpreter, and this is going to
+be a short video I think, but we're
+2
+
+2
+
+00:00:05,430  -->  00:00:08,610
+basically going to talk about the
+difference between an interpretive
+3
+
+3
+
+00:00:08,610  -->  00:00:14,549
+programming language and a compiled
+programming language. So, first, with a
+4
+
+4
+
+00:00:14,549  -->  00:00:19,220
+compiled programming language you write your code and you save it into this file,
+5
+
+5
+
+00:00:19,220  -->  00:00:24,720
+and you can't run that file yet.
+Let's say you're writing C++ code. So you
+6
+
+6
+
+00:00:24,720  -->  00:00:30,869
+write a function, you write a script that
+will do something, if you try and open
+7
+
+7
+
+00:00:30,869  -->  00:00:38,129
+that file with the .cpp extension.
+which is for C++ files. it's just going
+8
+
+8
+
+00:00:38,129  -->  00:00:42,300
+to open that in a text editor or code
+editor because that's not an executable
+9
+
+9
+
+00:00:42,300  -->  00:00:46,739
+file. What you need to do with a compiled
+programming language is once you save
+10
+
+10
+
+00:00:46,739  -->  00:00:53,340
+your file you need to compile it into a
+language that the computer can read, so
+11
+
+11
+
+00:00:53,340  -->  00:01:02,070
+binary with the ones and zeros. And by
+compiling this file into an
+12
+
+12
+
+00:01:02,070  -->  00:01:07,110
+executable file, then you can double
+click it and it will run. So if you're on
+13
+
+13
+
+00:01:07,110  -->  00:01:10,260
+Windows building executable files for
+Windows they will have a .exe
+14
+
+14
+
+00:01:10,260  -->  00:01:15,659
+extension. If you're on Linux I don't
+believe they have an extension. So the
+15
+
+15
+
+00:01:15,659  -->  00:01:21,780
+difference here is with python when you
+write a script you can instantaneously
+16
+
+16
+
+00:01:21,780  -->  00:01:27,470
+run that script without having to
+compile it into binary, and
+17
+
+17
+
+00:01:27,470  -->  00:01:32,430
+because we can do that what's actually
+happening is when you run the Python
+18
+
+18
+
+00:01:32,430  -->  00:01:38,750
+command you're not running the file
+standalone. So when you compile a
+19
+
+19
+
+00:01:38,750  -->  00:01:48,450
+programming file into a binary file,
+you can just type the name of that file
+20
+
+20
+
+00:01:48,450  -->  00:01:53,490
+in the terminal command prompt, and hit
+enter, and it will run that program as a
+21
+
+21
+
+00:01:53,490  -->  00:01:57,360
+standalone program because the
+computer already knows how to run it. But,
+22
+
+22
+
+00:01:57,360  -->  00:02:00,780
+when you run python scripts you're going
+to run it with the python command, and
+23
+
+23
+
+00:02:00,780  -->  00:02:05,100
+then the name of the file. And what
+basically happens is you're running the
+24
+
+24
+
+00:02:05,100  -->  00:02:12,030
+program python which is interpreting
+your code and running that. So, what
+25
+
+25
+
+00:02:12,030  -->  00:02:16,980
+happens is it does compile into binary but it's
+26
+
+26
+
+00:02:16,980  -->  00:02:23,069
+called just-in-time compilation, and what
+that does is every time you run it it's
+27
+
+27
+
+00:02:23,069  -->  00:02:28,319
+going to parse all the code, and it's
+going to convert it into a temporary
+28
+
+28
+
+00:02:28,319  -->  00:02:40,530
+file, and then run that temporary file. So,
+let me break out of this...there. So how
+29
+
+29
+
+00:02:40,530  -->  00:02:42,810
+you would run a script, and we're going
+to talk about that later,
+30
+
+30
+
+00:02:42,810  -->  00:02:46,860
+but basically how to enter the
+interpreter on it's own you just type
+31
+
+31
+
+00:02:46,860  -->  00:02:54,360
+python3. to use the 3 version of Python.
+You can see the version we're using
+32
+
+32
+
+00:02:54,360  -->  00:03:04,230
+Python 3.5.1. So, basically, in the
+interpreter you can run real time code.
+33
+
+33
+
+00:03:04,230  -->  00:03:13,920
+So if I were to type print("Hello World")
+it's going to instantaneously run that
+34
+
+34
+
+00:03:13,920  -->  00:03:20,160
+line of code. If I run 4 + 6 it's
+going to return 10, because that's the
+35
+
+35
+
+00:03:20,160  -->  00:03:25,590
+sum of 4 and 6. And so the interpreter is
+great to use if you want to test
+36
+
+36
+
+00:03:25,590  -->  00:03:29,579
+something really quick, if you want to
+debug a few lines code, or if you just
+37
+
+37
+
+00:03:29,579  -->  00:03:33,870
+want to see if something would actually
+work. So we're going to be starting using
+38
+
+38
+
+00:03:33,870  -->  00:03:37,799
+the interpreter, but as things get a
+little more complex we're going to get
+39
+
+39
+
+00:03:37,799  -->  00:03:44,489
+into writing scripts and executing those
+scripts. So, now we need to learn how to
+40
+
+40
+
+00:03:44,489  -->  00:03:47,870
+run a Python script.

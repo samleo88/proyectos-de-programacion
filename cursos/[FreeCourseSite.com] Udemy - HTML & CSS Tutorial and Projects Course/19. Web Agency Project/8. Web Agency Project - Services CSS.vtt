@@ -1,0 +1,1078 @@
+WEBVTT
+
+00:00.150 --> 00:03.310
+So let's go to maintain this and start styling.
+
+00:03.420 --> 00:03.740
+Right.
+
+00:03.750 --> 00:06.690
+And the first thing that we're going to create is actually for the title.
+
+00:06.690 --> 00:07.180
+Right.
+
+00:07.230 --> 00:11.140
+Because remember all this is going to be our title that we're going to be actually reusing.
+
+00:11.190 --> 00:11.700
+All right.
+
+00:11.810 --> 00:13.290
+So we're going to go here.
+
+00:13.320 --> 00:18.430
+I know this is going to say this is going to be tied up and just do a few things.
+
+00:18.580 --> 00:24.090
+First of going to say tied up and we're going to have a property of margin and we're going to save 40
+
+00:24.090 --> 00:28.610
+pixels and zero on this or here.
+
+00:28.860 --> 00:31.310
+Then we are going to have a title text.
+
+00:31.330 --> 00:39.060
+Right so we're going to go here and we're going to say this is going to be a title or text or this and
+
+00:39.060 --> 00:43.230
+we're going to say this is going to be text all the time text.
+
+00:43.350 --> 00:45.240
+I'm going to say Santa.
+
+00:45.590 --> 00:53.580
+They're all going to have a font size over here of what the size or your font size.
+
+00:53.700 --> 01:00.420
+We're going to say 40 pixels then we're going to have a color and the color is actually going to be
+
+01:00.470 --> 01:06.540
+hashtag e zero e to d be like this.
+
+01:06.540 --> 01:14.380
+And then we're going to have a fun style and style like this and we're going to say taluk and then we're
+
+01:14.460 --> 01:24.270
+going to have a text transformation uppercase right so text transformation uppercase right so nice is
+
+01:24.270 --> 01:25.770
+going to be our big text.
+
+01:25.770 --> 01:34.010
+And then we need to create a title underline or Hirose title and we're going to say title on the line.
+
+01:34.190 --> 01:34.800
+Right.
+
+01:34.830 --> 01:43.140
+And what we should have is with or here of 200 pixels on like this then we're going to have a border
+
+01:44.100 --> 01:52.310
+of three pixels solid with two or three pixels solid and we're going to say this is going to be six
+
+01:52.810 --> 01:59.780
+A and then we're going to have F to E F to the right and then we just need to do the margins are going
+
+01:59.780 --> 02:01.660
+to say margin 0 Arto.
+
+02:01.920 --> 02:07.170
+So now you can see that it's exactly in the middle now and then we're done with the title or and actually
+
+02:07.170 --> 02:15.170
+start styling services services here and then we're going to have first rule for the whole section.
+
+02:15.540 --> 02:18.900
+So we're going to sell your services sir.
+
+02:19.010 --> 02:23.700
+Mrs. Reagan we're here and they're all going to say what kind of role she should have.
+
+02:23.700 --> 02:24.240
+Right.
+
+02:24.300 --> 02:25.270
+So minimal height.
+
+02:25.290 --> 02:26.430
+We're going to give it this time.
+
+02:26.440 --> 02:27.370
+You right.
+
+02:27.500 --> 02:28.400
+100.
+
+02:28.510 --> 02:28.990
+Right.
+
+02:29.160 --> 02:32.230
+And the laws are going to copy Actually from what I already had.
+
+02:32.250 --> 02:32.910
+Right.
+
+02:32.910 --> 02:37.200
+So if we scroll all the way to the top right you can see that we have this one right and we're just
+
+02:37.200 --> 02:42.660
+going to copy this one right now the difference is we're not going to need a linear gradient and we
+
+02:42.660 --> 02:44.980
+also need this display Flaccus right.
+
+02:45.150 --> 02:46.780
+So we're is it going to go here.
+
+02:47.040 --> 02:53.910
+We're going to say copy right and scroll the way all the way in the bottom right and just copy and paste
+
+02:53.920 --> 02:54.940
+or here right.
+
+02:55.230 --> 02:56.700
+So copy and paste it.
+
+02:56.760 --> 03:00.700
+And when we get rid of linear gradient like this.
+
+03:00.830 --> 03:03.200
+Now I can see that we have the image right.
+
+03:03.270 --> 03:04.560
+And everything is working.
+
+03:04.560 --> 03:05.860
+Everything is fine.
+
+03:05.970 --> 03:11.400
+Now the only difference is that right now we do want some little bit of time right.
+
+03:11.490 --> 03:12.850
+So we're going to go here.
+
+03:13.110 --> 03:20.090
+And I was going to say that we would want a padding and we want a padding of 20 pixels or here that
+
+03:20.230 --> 03:22.230
+we would want a zero.
+
+03:22.390 --> 03:29.420
+Then you want 80 pixels here and this and then we're going to have again another zero.
+
+03:29.530 --> 03:29.820
+All right.
+
+03:29.820 --> 03:35.400
+So pretty much top and bottom right padding and a sidewards going to leave it like the way it is.
+
+03:35.400 --> 03:36.090
+Right.
+
+03:36.120 --> 03:40.050
+The next guy we're going to have is actually service container right.
+
+03:40.110 --> 03:42.320
+You can see that you know what let's change the image.
+
+03:42.430 --> 03:48.590
+The actual images services are going to go back on here and I'm going to change the image as it is doesn't
+
+03:48.600 --> 03:50.060
+make a difference right.
+
+03:50.080 --> 03:54.490
+So I don't have a better looking image for this particular part.
+
+03:54.720 --> 04:00.400
+I'm going to say Services and say container container.
+
+04:00.600 --> 04:01.130
+Right.
+
+04:01.150 --> 04:05.680
+And once we have this we're going to have a max with more here.
+
+04:05.730 --> 04:12.750
+We're going to say this is going to be 90 and you board right like this you believe and they're all
+
+04:12.750 --> 04:18.060
+going to have a margin 0 0 all over going to place in the center.
+
+04:18.210 --> 04:25.020
+And then we're going to have a caller or here hashtag the zero G and then we're going to have to be
+
+04:25.530 --> 04:25.740
+right.
+
+04:25.740 --> 04:30.650
+So now we're going to have a white collar and then we're going to have a service item.
+
+04:30.710 --> 04:30.990
+Right.
+
+04:30.990 --> 04:33.450
+So now we're actually dealing with this whole thing.
+
+04:33.480 --> 04:33.970
+Right.
+
+04:34.130 --> 04:37.060
+And the first thing we need is actually the service either.
+
+04:37.290 --> 04:43.750
+So we're here we're going to say service service we're going to say item right.
+
+04:43.770 --> 04:45.210
+And what should happen.
+
+04:45.360 --> 04:47.940
+We're all going to say that this is going to be overflow hidden.
+
+04:48.300 --> 04:54.570
+So we're going to say we're going to say hit it right once we have this you're going to say position
+
+04:54.570 --> 05:02.520
+relative position relative and that we're going to have the padding I'm going to say the padding is
+
+05:02.520 --> 05:08.400
+actually going to be 60 pixels or 60 pixels or here like this.
+
+05:08.400 --> 05:08.860
+Right.
+
+05:08.910 --> 05:12.710
+So you can see that we first we created a padding right.
+
+05:12.720 --> 05:15.710
+And then we actually created a relative head.
+
+05:15.810 --> 05:16.300
+Right.
+
+05:16.320 --> 05:21.010
+And you'll see why we had actually these two properties just in a sec.
+
+05:21.070 --> 05:21.690
+Right.
+
+05:21.690 --> 05:30.160
+So the next one we would want a service item from some say service or here and I'm going to say Fantastic.
+
+05:30.190 --> 05:30.650
+Right.
+
+05:30.840 --> 05:32.310
+So now we're targeting the font.
+
+05:32.320 --> 05:33.190
+Awesome.
+
+05:33.250 --> 05:34.910
+I'm going to say font size.
+
+05:35.100 --> 05:42.030
+We're going to say 60 pixels then we're going to have a margin margin bottom or here we're going to
+
+05:42.030 --> 05:44.270
+say this is going to be 30 pixels.
+
+05:44.270 --> 05:44.840
+Right.
+
+05:45.060 --> 05:54.600
+We're going to have a caller and the caller over here is going to be easy or here 6 8 6 8 and then it's
+
+05:54.600 --> 05:57.970
+going to be half to do.
+
+05:58.140 --> 05:58.630
+Healing.
+
+05:58.710 --> 06:03.850
+So we're pretty much creating a color for it to be obviously.
+
+06:03.950 --> 06:06.140
+All right so we have the same hair color.
+
+06:06.480 --> 06:12.430
+Then over here we're all going to do is we're going to save that for this service item black.
+
+06:12.440 --> 06:12.720
+Right.
+
+06:12.720 --> 06:17.820
+So first let's go and remember when we have one service item was black and the other one was white.
+
+06:17.830 --> 06:18.280
+Right.
+
+06:18.480 --> 06:24.930
+So we're all going to say sir this and I'm we're going to say black and white what's going to happen
+
+06:24.930 --> 06:26.650
+or we're going to say background.
+
+06:26.660 --> 06:26.890
+Right.
+
+06:26.910 --> 06:33.660
+And now we're going to have a linear linear gradient here like this and then we're going to say this
+
+06:33.660 --> 06:38.760
+is going to be our GPA and we're going to say this is zero zero zero.
+
+06:38.910 --> 06:44.300
+And this is going to be point seven no going to copy this one and it's all going to grab this guy over
+
+06:44.310 --> 06:52.200
+here and press copy and out here place a comma or here and this is going to be a semi go right.
+
+06:52.380 --> 06:54.590
+So you can see what happened with the black ones right.
+
+06:54.750 --> 06:55.640
+You can see how they look.
+
+06:55.680 --> 06:59.560
+They had actually the black overlay.
+
+06:59.630 --> 07:00.280
+Right.
+
+07:00.300 --> 07:05.390
+And as always we need to do the same thing with a white one right.
+
+07:05.430 --> 07:07.700
+So here we can just copy this one.
+
+07:07.920 --> 07:11.950
+This one new real going to say this is going to be white.
+
+07:12.000 --> 07:16.010
+So a white and over here we're going to change these values.
+
+07:16.010 --> 07:16.230
+Right.
+
+07:16.230 --> 07:18.560
+So this is going to be two point six.
+
+07:18.810 --> 07:27.750
+Then the next one is going to be 2 0 8 and then over here we're going to have a 2 0 6 and all here this
+
+07:27.750 --> 07:29.500
+is going to be 0.6.
+
+07:29.700 --> 07:32.000
+And the next one is going to be exactly the same.
+
+07:32.010 --> 07:32.220
+Right.
+
+07:32.220 --> 07:34.710
+So again we have few options.
+
+07:34.830 --> 07:40.330
+We can just copy this one actually pasted or however you would want right.
+
+07:40.500 --> 07:49.250
+So here I'm going to leave this guy here and we're going to have a bracket and pasted over here.
+
+07:49.270 --> 07:50.870
+Now we have two of them right.
+
+07:51.060 --> 07:54.040
+And this is going to be actually you can see it is different now or later right.
+
+07:54.210 --> 07:55.880
+So this is going to be this way.
+
+07:55.900 --> 08:01.190
+All right and for the love letter overlay we need to change the color so I'm going to send the court
+
+08:01.190 --> 08:05.000
+is going to be 1 9 1 7 1 6.
+
+08:05.080 --> 08:13.230
+Right so we're going to make it a darker color and then over here what you want to start actually styling
+
+08:13.230 --> 08:14.920
+these front and back text.
+
+08:14.940 --> 08:15.550
+Right.
+
+08:15.600 --> 08:19.430
+So technically this font also Mike on this title is the Frontex.
+
+08:19.620 --> 08:25.220
+And this is the text that's cannot actually appear so that's why I'm going to call it a back.
+
+08:25.260 --> 08:25.830
+All right.
+
+08:25.830 --> 08:30.240
+So front text more here and that's what's going to happen.
+
+08:30.240 --> 08:33.560
+I'm going to say this is going to be text on center thanks to.
+
+08:33.580 --> 08:34.960
+I'm going to say.
+
+08:35.230 --> 08:41.190
+And they're We're going to have transition right here and I'm going to say transform and we're going
+
+08:41.190 --> 08:42.710
+to say two seconds.
+
+08:42.830 --> 08:43.740
+Or here like this.
+
+08:43.740 --> 08:44.250
+Right.
+
+08:44.250 --> 08:46.760
+So this is for the Frontex to actually move up.
+
+08:46.800 --> 08:52.260
+Right now we have a back text that actually needs to also move up.
+
+08:52.260 --> 08:55.330
+Right but first we need to move actually done.
+
+08:55.580 --> 08:59.800
+Sorry I'm going to say back text and then we're going to have a properties.
+
+09:00.090 --> 09:00.740
+Right.
+
+09:00.750 --> 09:06.180
+So first we want is position absolute we're willing to say absolute right.
+
+09:06.180 --> 09:08.840
+So pretty much trying to get rid of this guy right.
+
+09:08.850 --> 09:10.680
+We don't want it to be shown in the beginning.
+
+09:10.680 --> 09:11.150
+Right.
+
+09:11.220 --> 09:16.280
+And therefore we had all this position relative so we can play around with this position absolutely
+
+09:16.400 --> 09:16.880
+right.
+
+09:16.950 --> 09:21.330
+And also here is our lay here didn't have to be or here so we can hide this guy.
+
+09:21.330 --> 09:21.910
+Right.
+
+09:21.940 --> 09:27.640
+So he was going to say bottom and bottom is going to be negative 15 times.
+
+09:27.760 --> 09:28.250
+Right.
+
+09:28.350 --> 09:29.710
+And you're just going to have to believe me.
+
+09:29.760 --> 09:31.100
+What we're doing right now right.
+
+09:31.110 --> 09:33.180
+Because I obviously set everything right.
+
+09:33.280 --> 09:37.260
+And but if you if you want you can add this to last so you can see what we're actually doing.
+
+09:37.260 --> 09:37.690
+All right.
+
+09:37.860 --> 09:44.350
+So here I'm going to say this is going to be with so only 5 percent or here then you are going to say
+
+09:44.350 --> 09:49.770
+it again the margin we're going to have zero auto then we're going to have a height and we're going
+
+09:49.770 --> 09:54.360
+to say this is going to be a hundred percent there we're going to have a transition.
+
+09:54.440 --> 09:54.720
+Right.
+
+09:54.750 --> 09:57.390
+And this is going to be actually bottom transition right.
+
+09:57.400 --> 10:04.200
+I'm going to say bottom we're going to say two seconds and then we're going to have a party of 30 pixels
+
+10:04.710 --> 10:06.540
+and zero pixels.
+
+10:06.590 --> 10:10.780
+And then what do we would want to do is actually style the heading one.
+
+10:10.810 --> 10:12.760
+All right so we're going to go back over here.
+
+10:12.810 --> 10:19.340
+We're going to say black text black text or here we're going to say having one.
+
+10:19.380 --> 10:26.740
+And what should happen I'm going to say margin and margin bottom here and we're going to say 20 pixels.
+
+10:26.890 --> 10:27.460
+Right.
+
+10:27.480 --> 10:30.910
+So again you're going to have to believe me what we're doing right.
+
+10:30.930 --> 10:35.000
+And because you're going to be later on you will see actually how everything looks like.
+
+10:35.100 --> 10:41.580
+So the next one is actually going to be able to get back text and then we're going to say this is going
+
+10:41.580 --> 10:42.740
+to be BOTTEN.
+
+10:42.760 --> 10:43.080
+Right.
+
+10:43.110 --> 10:44.700
+And what should happen to the button.
+
+10:44.740 --> 10:45.470
+Right.
+
+10:45.480 --> 10:48.360
+So first we're going to see margin top.
+
+10:48.420 --> 10:53.770
+And we're going to say let's say 20 pixels and then we're going to be a padding.
+
+10:53.970 --> 11:01.290
+We're going to say 10 pixels or 20 pixels when they don't have a background and we're going to have
+
+11:01.380 --> 11:02.550
+a transparent
+
+11:04.380 --> 11:13.680
+transparent or this will have a border and the border is going to be two pixels solid and then we're
+
+11:13.680 --> 11:15.360
+going to change this one around right.
+
+11:15.530 --> 11:20.690
+So this is going to be hash tag and not border and border.
+
+11:20.850 --> 11:25.950
+And here are going to say it's going to be six or here.
+
+11:26.390 --> 11:29.810
+And then this is going to be EF 2 EF 2.
+
+11:30.210 --> 11:36.050
+So there's guy the name of font size for the button font size.
+
+11:36.090 --> 11:42.930
+And then we have 20 pixels or here and the color and the color is going to be again this is going to
+
+11:43.130 --> 11:47.090
+read more here 6 a.
+
+11:47.400 --> 11:50.780
+And after we have to.
+
+11:50.970 --> 11:55.700
+So now we have this set up and now it wants something we're hovering right.
+
+11:55.910 --> 12:01.580
+So we're going to go here and you know what I'm kind of getting tired of nothings not seeing anything
+
+12:01.580 --> 12:01.750
+right.
+
+12:01.780 --> 12:05.160
+So this is going to move this one so we can see actually what's happening right.
+
+12:05.340 --> 12:10.050
+And then just remind me actually to change this one so it's actually working right.
+
+12:10.200 --> 12:17.100
+And then over here we're going to say for back text button text or hear button and we're going to say
+
+12:17.100 --> 12:21.400
+hover and what should happen as we're hovering right.
+
+12:21.420 --> 12:25.240
+So we're going to set the rules as we're doing.
+
+12:25.440 --> 12:32.490
+So we're going to make it over here we're going to set back on color ground color and we're going to
+
+12:32.490 --> 12:37.810
+say this is going to be again this is going to be e Six Day.
+
+12:38.210 --> 12:46.470
+And after we have to be ready then we're going to have a caller and the caller is going to be 1 9 1
+
+12:46.470 --> 12:50.180
+6 1 7 1 7 1 6.
+
+12:50.580 --> 12:55.220
+And then we want for the white button red because the white button is going to be a little bit different
+
+12:55.230 --> 12:57.060
+because you can see that it's not going to look as good.
+
+12:57.060 --> 12:57.510
+Right.
+
+12:57.660 --> 12:58.750
+If it stays in sync.
+
+12:58.770 --> 12:59.230
+Right.
+
+12:59.400 --> 13:06.370
+So here we're going to say this is going to be service white button or service we're here and I'm here
+
+13:06.780 --> 13:14.080
+white and they're We're going to say button on your hover right.
+
+13:14.130 --> 13:17.580
+So as we're hovering what should happen let's check it out.
+
+13:17.610 --> 13:22.620
+First thing is going to be background and background and actually going to say it's going to be 1 9
+
+13:22.620 --> 13:24.380
+1 7 1 6.
+
+13:24.390 --> 13:24.830
+Right.
+
+13:24.850 --> 13:26.510
+And the background is going to be like this.
+
+13:26.730 --> 13:34.550
+Then we have a border and we're going to say border color and you know what actually went ahead I didn't
+
+13:34.550 --> 13:36.080
+need for a hovering right.
+
+13:36.080 --> 13:38.590
+So we actually in a different read.
+
+13:38.590 --> 13:40.650
+So first we needed for the button.
+
+13:40.880 --> 13:46.340
+So I apologize for this and we needed a background yellow light on this one.
+
+13:46.430 --> 13:47.420
+So we're going to go over here.
+
+13:47.420 --> 13:51.360
+We're going to say this is going to be six.
+
+13:51.680 --> 13:58.340
+And then I'm going to have a half to the writing this is going to be the white one and or here we're
+
+13:58.340 --> 13:59.740
+going to have a color of black.
+
+13:59.750 --> 14:00.490
+Right.
+
+14:00.500 --> 14:02.640
+So we're going to go with color.
+
+14:02.690 --> 14:05.680
+I don't know I'm going to say because I'm going to one mine.
+
+14:06.190 --> 14:07.370
+I'm sorry hashtag.
+
+14:07.390 --> 14:07.600
+Right.
+
+14:07.610 --> 14:15.120
+So first it was hashtag I'm going to say 1 9 1 7 1 6 7 1 6.
+
+14:15.120 --> 14:15.380
+All right.
+
+14:15.380 --> 14:20.110
+So then we have black text and then we want a hovering effect right.
+
+14:20.300 --> 14:24.460
+So now we can just copy this guy over here.
+
+14:24.570 --> 14:25.880
+Copy this one.
+
+14:25.880 --> 14:31.520
+And I actually said it over here copy and pasted and we're going to say however we're going to say how
+
+14:31.520 --> 14:34.430
+ever and what would shouldn't happen or here.
+
+14:34.610 --> 14:36.130
+It should be background.
+
+14:36.410 --> 14:36.710
+Right.
+
+14:36.820 --> 14:43.550
+And now the background is going to 1 9 1 7 1 6 and we're going to have a border color which is also
+
+14:43.550 --> 14:44.900
+going to be the same thing.
+
+14:45.050 --> 14:52.820
+So we can just copy this one over here and copy this guy copy and paste and then we're going to have
+
+14:52.880 --> 14:58.380
+a color right and the color is going to be in again it's going to be six eight.
+
+14:58.670 --> 15:02.460
+And they're all going to have to have be.
+
+15:02.770 --> 15:06.190
+So we'll have this one over here to check it out right as we're going.
+
+15:06.260 --> 15:08.290
+You can see what's happening right.
+
+15:08.360 --> 15:11.250
+We have a color.
+
+15:11.390 --> 15:11.840
+Right.
+
+15:11.990 --> 15:13.030
+But maybe over here.
+
+15:13.040 --> 15:18.650
+I don't know whether we would want all this border not background color actually border color.
+
+15:18.650 --> 15:25.820
+This one is border color right so if we go back over here you can see that it should look like this.
+
+15:25.820 --> 15:26.500
+Right.
+
+15:26.570 --> 15:32.240
+And then we have for the Frontex right when we have those two rules that actually make all the magic
+
+15:32.240 --> 15:33.020
+happen right.
+
+15:33.020 --> 15:37.910
+So here let's remember again this negative 50 even.
+
+15:38.090 --> 15:38.460
+Right.
+
+15:38.600 --> 15:40.110
+So it's high time again right.
+
+15:40.120 --> 15:42.870
+And now let's actually set the rules the day will appear.
+
+15:42.860 --> 15:43.330
+All right.
+
+15:43.600 --> 15:45.640
+So we're here we're going to write server side.
+
+15:45.640 --> 15:51.010
+I'm so serious and I'm not going to say hover.
+
+15:51.020 --> 15:54.280
+And so as we're hovering over server side and what should happen right.
+
+15:54.320 --> 16:03.080
+So we're going to have a front here text and we're going to have a transform property right.
+
+16:03.130 --> 16:05.510
+And we're going to say this is going to be translate.
+
+16:05.750 --> 16:06.230
+Translate.
+
+16:06.230 --> 16:11.530
+Why and we're going to say this is going to be negative 200 pixels on this.
+
+16:11.630 --> 16:12.230
+Right.
+
+16:12.500 --> 16:20.510
+So I'm just going to say this guy or here we're going to say Cirus right here I had I'm going to say
+
+16:20.510 --> 16:27.010
+again how were and what's going to happen to the back text like some black text on here and what we're
+
+16:27.020 --> 16:32.640
+going to do is bottom her bottom bottom zero.
+
+16:32.840 --> 16:34.290
+So I would say this one.
+
+16:34.670 --> 16:37.580
+Let's go to the big screen is going to look probably better.
+
+16:37.580 --> 16:38.930
+Right refresh.
+
+16:39.030 --> 16:42.050
+Right now I can see I haven't set up the grid yet.
+
+16:42.330 --> 16:43.870
+But just for hovering right.
+
+16:44.030 --> 16:45.060
+This is how we do it.
+
+16:45.060 --> 16:45.800
+All right.
+
+16:45.800 --> 16:48.500
+So just remember those two things right.
+
+16:48.500 --> 16:49.580
+First we have all here.
+
+16:49.580 --> 16:51.000
+This was the resolution.
+
+16:51.020 --> 16:51.550
+Right.
+
+16:51.830 --> 16:55.860
+And first this was the setup right for the back and Frontex right.
+
+16:55.910 --> 16:56.790
+You can see or hear.
+
+16:56.840 --> 16:57.080
+Right.
+
+16:57.080 --> 16:58.930
+So this one was for the back text.
+
+16:58.930 --> 16:59.460
+Right.
+
+16:59.510 --> 17:04.410
+And this was for the Frontex from Texas obviously was much more shoulder.
+
+17:04.430 --> 17:04.670
+Right.
+
+17:04.670 --> 17:10.380
+We just did a transform and then we added two seconds and then we did the transform translate.
+
+17:10.400 --> 17:11.040
+Why.
+
+17:11.060 --> 17:11.840
+Right.
+
+17:11.960 --> 17:13.490
+And we're here for a transition.
+
+17:13.490 --> 17:16.460
+This was a little bit more because we first had to hide it.
+
+17:16.460 --> 17:19.750
+Right so position absolute and bottom line is negative.
+
+17:19.790 --> 17:20.330
+Right.
+
+17:20.330 --> 17:24.470
+And obviously these rallies can differ of what you have inside or here right.
+
+17:24.710 --> 17:27.710
+But this is the general sense of pride.
+
+17:27.740 --> 17:32.870
+First we hide it and then we go back over here and then we resolve this right.
+
+17:32.930 --> 17:36.580
+And the last thing that we actually have is media.
+
+17:36.720 --> 17:36.950
+Right.
+
+17:36.980 --> 17:39.350
+So this is for Responsive skree.
+
+17:39.620 --> 17:43.790
+So if we go back over here I was going to create a little bit more room because there's going to be
+
+17:43.790 --> 17:44.970
+a little bit longer.
+
+17:45.150 --> 17:51.410
+I'm going to say we're here in media and we're going to say screen are here like this and right here
+
+17:51.440 --> 17:58.220
+we're going to write mean with we're here we're going to say this is going to be 776.
+
+17:58.260 --> 18:06.920
+And so this is going to be for the medium 7 7 7 7 6 pixels wide over here and we're going to have brackets
+
+18:07.340 --> 18:15.080
+and then we're going to say that this is going to be a services container or here we're going to write
+
+18:15.180 --> 18:19.520
+this is going to be this play and we're going to say grade right.
+
+18:19.610 --> 18:22.440
+So we would want first them to be in this.
+
+18:22.760 --> 18:25.330
+And then there's going to be and other things that are going on.
+
+18:25.340 --> 18:26.000
+Right.
+
+18:26.030 --> 18:35.830
+When you say grade template or here play columns like this maybe let's get rid of this guy or your grade
+
+18:36.580 --> 18:42.010
+template columns template columns and we're going to say this is going to be one.
+
+18:42.130 --> 18:44.730
+Fraction one fraction right.
+
+18:44.770 --> 18:46.720
+So are here two fractions.
+
+18:46.720 --> 18:49.730
+And then now we would actually want to change the water.
+
+18:49.970 --> 18:50.430
+Right.
+
+18:50.650 --> 18:53.470
+So remember how these things look like this.
+
+18:53.470 --> 18:54.120
+Right.
+
+18:54.370 --> 18:59.500
+And if we actually say this and go back right you'll see that it's not going to look the way we want
+
+18:59.560 --> 19:00.120
+right.
+
+19:00.130 --> 19:01.840
+So this is going to look like this right.
+
+19:01.840 --> 19:04.450
+So obviously we need to change the order of these guys right.
+
+19:04.450 --> 19:07.790
+We're here just flip this one to the left.
+
+19:07.820 --> 19:08.380
+All right.
+
+19:08.410 --> 19:13.720
+So what we're going to do here we're going to write services here.
+
+19:13.750 --> 19:16.840
+Container container.
+
+19:17.080 --> 19:25.690
+And we're going to say this is going to be a service item item class and we're going to have a nth child
+
+19:25.970 --> 19:28.270
+and we're going to say this is one.
+
+19:28.420 --> 19:37.350
+Right and of and child of type 1 or you can say of type and we're going to say one.
+
+19:37.460 --> 19:40.340
+And so what does this one say one.
+
+19:40.600 --> 19:42.660
+And what should happen for the first one.
+
+19:42.680 --> 19:46.940
+What is going to say this is going to be more than one murder.
+
+19:47.120 --> 19:51.780
+One more here and now we're going to copy and paste this and just change around three and four one two
+
+19:51.840 --> 19:52.660
+three.
+
+19:52.750 --> 19:53.190
+Right.
+
+19:53.380 --> 19:59.020
+And this is going to be honest with the child number two the child number two is going to stay the three
+
+19:59.020 --> 20:04.540
+actually is going to become a 4 and the four is going to become three.
+
+20:04.580 --> 20:04.920
+Right.
+
+20:05.050 --> 20:08.210
+And this was it for this lovely CSSA.
+
+20:08.410 --> 20:14.920
+So we go back refresh and you can see that something went wrong because that's not how we wanted.
+
+20:14.920 --> 20:15.550
+Right.
+
+20:15.550 --> 20:21.290
+So let's check it out again where something must of maybe stop somewhere right.
+
+20:21.340 --> 20:22.720
+So services container.
+
+20:22.720 --> 20:24.360
+This is one two three four.
+
+20:24.610 --> 20:25.860
+And this is three four.
+
+20:25.870 --> 20:26.290
+Right.
+
+20:26.500 --> 20:28.060
+And this is actually not three.
+
+20:28.060 --> 20:29.870
+This is actually needs to be four.
+
+20:30.080 --> 20:30.700
+Right.
+
+20:30.730 --> 20:34.290
+So we saved this one over here and let's try it again.
+
+20:34.390 --> 20:34.640
+Right.
+
+20:34.640 --> 20:36.610
+And sure enough now works right.
+
+20:36.610 --> 20:42.080
+So now this is how we can create or hear the services section and now we really want to.

@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.120 --> 00:06.030
+The last section before then more is going to be the her and it's actually going to be very straightforward
+
+00:06.450 --> 00:10.920
+as you can see all year we're going to have in the back room and we're going to send them this play
+
+00:10.920 --> 00:11.620
+flex.
+
+00:11.790 --> 00:13.820
+And this is going to be space right.
+
+00:13.890 --> 00:16.680
+So let's go ahead to the actual index.
+
+00:16.720 --> 00:22.760
+And now here in the index the amount this would be the end of contact.
+
+00:22.790 --> 00:25.740
+Now Herodes and to say this is going to be the first section.
+
+00:25.940 --> 00:33.180
+And once we have our first section then let's create a for a moment with a glass of water over here
+
+00:33.660 --> 00:39.290
+and inside or here we're going to say a div with a footer and two underscores.
+
+00:39.330 --> 00:40.910
+This is going to be icons.
+
+00:40.950 --> 00:43.090
+So this is actually going to be our door.
+
+00:43.440 --> 00:50.470
+Now within a day of we're going to have a link here with a for our single icon.
+
+00:50.760 --> 00:56.890
+So this is going to be our two hundred core single I got here we're going to have a hash tag.
+
+00:57.180 --> 01:03.750
+And once we have all here our link now inside the link what I would want is place the phantasm.
+
+01:03.950 --> 01:09.730
+So here is the first one is going to be FHB FAA face book on here.
+
+01:09.750 --> 01:14.530
+So I said this here and we should have our eye on all here all the way in the bottom.
+
+01:14.630 --> 01:21.080
+Once we have our first link the only thing we need to do is actually copy and paste this one to.
+
+01:21.230 --> 01:23.250
+Hour here this is going to be three.
+
+01:23.280 --> 01:26.640
+So there's going to be three of them and are just going to change these values around.
+
+01:26.910 --> 01:29.920
+So are you going to say this is going to be Twitter.
+
+01:30.030 --> 01:37.830
+Over here the next one is actually going to be Instagram Instagram and after that we're here will have
+
+01:37.890 --> 01:43.930
+a link and so link or here LinkedIn LinkedIn.
+
+01:44.160 --> 01:45.570
+So going to say this.
+
+01:45.680 --> 01:53.260
+And now once we have our icons Let's actually go to the US and start actually styling them.
+
+01:53.280 --> 01:55.260
+So here we're going to say means.
+
+01:55.620 --> 01:57.910
+This is going to be the end of contact.
+
+01:57.930 --> 02:03.560
+Let's actually make a little bit more on say where this is going to be for now for the hour.
+
+02:03.690 --> 02:07.150
+First I would want is the actual For a moment.
+
+02:07.170 --> 02:14.190
+Let's do a background to do background var and this case we're not going to create a separate section
+
+02:14.540 --> 02:17.030
+variable's going to this or dark.
+
+02:17.130 --> 02:17.850
+So really.
+
+02:17.860 --> 02:19.700
+So this is going to be our section.
+
+02:19.880 --> 02:22.200
+Then I also want to do a padding.
+
+02:22.560 --> 02:25.610
+Three RPMs zero here.
+
+02:26.070 --> 02:30.130
+So this is going to be our parting I can see these are going to be a guns.
+
+02:30.540 --> 02:32.880
+Then we would want to work with for our icons.
+
+02:32.880 --> 02:39.300
+So this was the deal that actually holding the links to underscores icons and are here we're going to
+
+02:39.300 --> 02:46.770
+do a display flex like this and I can see that all of them are actually together and they're all going
+
+02:46.770 --> 02:51.570
+to have a justified content and we're going to do space and around.
+
+02:51.810 --> 02:57.860
+So basically we're going to make sure that there is even amount of actual space in between them.
+
+02:58.080 --> 03:00.010
+And I would want a single like.
+
+03:00.390 --> 03:04.470
+So I'm going to say over here this is going to be for 200 course.
+
+03:04.600 --> 03:06.090
+All I can.
+
+03:06.090 --> 03:13.860
+So this is going to be the length and we're working now we one font size to our exams here some massive
+
+03:13.860 --> 03:19.240
+font size then we would want a color the color is actually going to be light.
+
+03:19.550 --> 03:23.950
+So we're you know going to say that this is going to be a light color once we say it.
+
+03:23.970 --> 03:27.440
+Now this is how our icons going to look like.
+
+03:27.540 --> 03:29.620
+Now let's do a transition.
+
+03:29.820 --> 03:37.310
+So as we're hovering would want him to issue in two seconds easily here and knowledge's do single like
+
+03:37.330 --> 03:38.100
+an hour.
+
+03:38.400 --> 03:43.950
+So let's do footer saying all I can do however.
+
+03:44.080 --> 03:48.460
+So I was hovering what we would want is actually color change to gray.
+
+03:48.540 --> 03:50.280
+So I'm going to say color.
+
+03:50.600 --> 03:54.240
+I know you agree and this is going to be our transition.
+
+03:54.540 --> 04:01.980
+So as you can see as I'm hovering here my actual colors is changing and once we're done with her now
+
+04:01.980 --> 04:04.460
+we can start working with a number.

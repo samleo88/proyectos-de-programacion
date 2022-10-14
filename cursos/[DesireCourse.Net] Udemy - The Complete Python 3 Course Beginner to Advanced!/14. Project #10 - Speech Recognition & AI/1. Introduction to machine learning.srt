@@ -1,0 +1,303 @@
+1
+00:00:00,150 --> 00:00:06,570
+Muy bien chicos, quería tomarme un momento aquí antes de hacer cualquier código y quiero hablar sobre algo que creo
+
+2
+00:00:06,570 --> 00:00:10,280
+que es el futuro y que es el aprendizaje automático.
+
+3
+00:00:10,290 --> 00:00:12,930
+Y básicamente lo que el aprendizaje automático está dando.
+
+4
+00:00:12,930 --> 00:00:16,480
+Básicamente es exactamente cómo suena.
+
+5
+00:00:16,500 --> 00:00:18,980
+Le está dando a las máquinas la capacidad de aprender.
+
+6
+00:00:20,010 --> 00:00:26,520
+Entonces, la inteligencia artificial y definitivamente puedes hacer esto con Python y es un tema muy avanzado,
+
+7
+00:00:26,550 --> 00:00:32,790
+así que vamos a comenzar con algunos requisitos previos o requisitos para entrar en eso.
+
+8
+00:00:32,790 --> 00:00:40,350
+Así que vamos a aprender sobre un mínimo que se reproducirá audio en Python y luego
+
+9
+00:00:40,350 --> 00:00:46,230
+vamos a ceder texto a voz y también reconocimiento de voz.
+
+10
+00:00:46,710 --> 00:00:53,460
+Y esto nos permitirá poder hablar con nuestro programa y luego vamos a construir
+
+11
+00:00:53,850 --> 00:01:01,500
+el back-end con el aprendizaje automático incorporado donde podemos alimentar datos a nuestro programa y aprenderá y
+
+12
+00:01:01,500 --> 00:01:02,730
+tomará decisiones.
+
+13
+00:01:02,730 --> 00:01:07,710
+Entonces, una gran parte de esto es entender cómo funcionan los pensamientos.
+
+14
+00:01:07,710 --> 00:01:10,860
+Queremos que nuestro programa sea capaz de pensar.
+
+15
+00:01:10,860 --> 00:01:16,950
+Y así es como voy a incursionar en un poco de filosofía aquí también
+
+16
+00:01:16,950 --> 00:01:21,870
+para explicar mi posición un poco más cuando piensas en pensar.
+
+17
+00:01:21,900 --> 00:01:25,680
+Crees que estás pensando y realmente no lo estás.
+
+18
+00:01:26,220 --> 00:01:30,060
+Bueno, estás bien, pero no es lo que parece en la superficie.
+
+19
+00:01:30,060 --> 00:01:34,920
+Por lo tanto, somos conscientes de que somos conscientes de nuestro entorno y nuestro entorno.
+
+20
+00:01:35,250 --> 00:01:37,290
+Pero si te dijera que elijas
+
+21
+00:01:39,990 --> 00:01:45,260
+una mano, pensarías bien, tal vez quiero usar mi mano derecha o tal vez quiero usar mi mano izquierda.
+
+22
+00:01:45,280 --> 00:01:50,250
+Usted va y viene en su mente y luego elige uno o eso parece.
+
+23
+00:01:50,250 --> 00:01:59,160
+Lo que sucedería en realidad es que su mente subconsciente solo años en una máquina está girando y están pesando
+
+24
+00:01:59,160 --> 00:02:06,090
+ciertos cálculos y algoritmos para determinar cuál va a elegir y luego su cerebro ha
+
+25
+00:02:06,090 --> 00:02:09,120
+decidido qué mano va a elegir.
+
+26
+00:02:09,210 --> 00:02:10,650
+Y luego te das cuenta de ello.
+
+27
+00:02:10,770 --> 00:02:17,310
+Se siente como libre albedrío, pero técnicamente el libre albedrío no existe cuando entiendes un pensamiento como este.
+
+28
+00:02:18,330 --> 00:02:20,320
+Entonces el libre albedrío es una ilusión.
+
+29
+00:02:20,340 --> 00:02:27,060
+Y para explicar que un poco más han realizado los estudios científicos en los que han conectado los
+
+30
+00:02:27,060 --> 00:02:35,700
+cerebros de las personas a una máquina para medir la actividad cerebral y en realidad los pusieron en una habitación y dijeron Elija una
+
+31
+00:02:35,700 --> 00:02:36,330
+mano.
+
+32
+00:02:37,260 --> 00:02:47,100
+Y lo que descubrieron fue que antes de que la persona fuera consciente de su propia decisión, su cerebro ya
+
+33
+00:02:47,100 --> 00:02:48,650
+había decidido.
+
+34
+00:02:49,150 --> 00:02:59,220
+Por lo tanto, podría pensar en lugar de pensar en programas de computadora como inteligencia, puede pensar al
+
+35
+00:02:59,220 --> 00:03:06,630
+revés y esto probablemente ayudará a poder decidir cómo vamos a construir
+
+36
+00:03:06,630 --> 00:03:07,940
+un programa.
+
+37
+00:03:07,950 --> 00:03:11,830
+Entonces cuando piensas en una persona.
+
+38
+00:03:12,100 --> 00:03:15,900
+Somos realmente solo una colección de conjuntos de instrucciones y experiencias.
+
+39
+00:03:15,930 --> 00:03:22,530
+Entonces, cuando naces, el mundo comienza a programarte mostrándote cosas y
+
+40
+00:03:22,530 --> 00:03:31,770
+alimentándote de experiencias y luego esas experiencias se usan en los algoritmos que usas para tomar decisiones
+
+41
+00:03:31,770 --> 00:03:33,690
+en el futuro.
+
+42
+00:03:33,780 --> 00:03:39,510
+Entonces, cuando tomas una decisión, lo que hace tu cerebro es realizar algunos cálculos diferentes y
+
+43
+00:03:39,510 --> 00:03:43,670
+uno de ellos es cuáles son los beneficios y perjuicios inmediatos.
+
+44
+00:03:43,740 --> 00:03:45,460
+Si elijo esto.
+
+45
+00:03:45,710 --> 00:03:48,970
+¿Y cuáles son los beneficios y perjuicios a largo plazo?
+
+46
+00:03:49,110 --> 00:03:54,300
+Y puede calificar cada una de esas cuatro cosas en una escala y
+
+47
+00:03:54,300 --> 00:04:01,810
+luego compararlas y luego su cerebro elegirá la que tenga menos resistencia o la que sienta que vale más la pena.
+
+48
+00:04:02,860 --> 00:04:07,900
+Entonces, en ese sentido, podemos entender lo que es pensar.
+
+49
+00:04:07,900 --> 00:04:12,690
+Y luego podemos permitir que nuestro programa piense basándose en la misma lógica subyacente.
+
+50
+00:04:13,210 --> 00:04:20,140
+Así que vamos a ceder al aprendizaje automático y, una vez más, aprenderemos algunos de los requisitos, por lo que este es
+
+51
+00:04:20,140 --> 00:04:26,250
+un tema sobre el que volveré sobre un tema filosófico en algún momento en el futuro, ahora mismo estamos
+
+52
+00:04:26,260 --> 00:04:30,670
+solo vamos a aprender sobre la reproducción de audio y la razón es que
+
+53
+00:04:30,670 --> 00:04:37,420
+el primer programa que construiremos aquí será un programa con el que podamos hablar y será capaz de descubrir lo que
+
+54
+00:04:37,420 --> 00:04:38,680
+le estamos diciendo.
+
+55
+00:04:38,920 --> 00:04:46,260
+Entonces, lo que queremos poder hacer es reproducir audio cuando comenzamos a grabar.
+
+56
+00:04:46,960 --> 00:04:53,890
+Básicamente, solo un poco de retroalimentación para que podamos decirle al programa que escuche y será útil y nos hará saber que
+
+57
+00:04:53,890 --> 00:04:54,840
+está bien.
+
+58
+00:04:54,860 --> 00:04:59,680
+O el programa está escuchando y luego hablamos y luego, cuando decida que hemos terminado
+
+59
+00:04:59,680 --> 00:05:05,740
+o cuando terminemos de hablar, se escuchará una segunda vez para informarnos que ahora está en la etapa en
+
+60
+00:05:05,740 --> 00:05:11,260
+la que está descubriendo lo que estamos diciendo. y luego lo volveremos a imprimir en la pantalla,
+
+61
+00:05:11,260 --> 00:05:14,260
+así que comenzaremos con esto en el próximo video.
+
+62
+00:05:14,350 --> 00:05:21,610
+Lo que necesitamos hacer es instalar algunos paquetes de Python, así que voy a abrir la terminal aquí
+
+63
+00:05:21,640 --> 00:05:27,700
+y escribir Pip 3 install pi audio, que es el primero que necesitamos instalar.
+
+64
+00:05:28,000 --> 00:05:34,040
+Y esto nos permitirá reproducir realmente archivos de audio de Python.
+
+65
+00:05:34,180 --> 00:05:36,910
+Y luego también necesitamos importar el reconocimiento de voz.
+
+66
+00:05:37,150 --> 00:05:38,520
+Entonces necesitamos instalarlo.
+
+67
+00:05:38,580 --> 00:05:42,910
+PIP tres inicia el reconocimiento de subrayado de voz.
+
+68
+00:05:42,910 --> 00:05:48,430
+Creo que esto es lo que la tubería empaqueta, aunque no lo es.
+
+69
+00:05:48,430 --> 00:05:52,290
+Déjame intentar sin el guión bajo.
+
+70
+00:05:52,660 --> 00:05:53,410
+Creo
+
+71
+00:05:58,110 --> 00:06:05,740
+que es solo para estar seguro, aunque voy a abrir un shell de Python 3 y voy a decir importar.
+
+72
+00:06:05,750 --> 00:06:11,580
+Reconocimiento de voz y ese es exactamente el paquete que necesitamos.
+
+73
+00:06:11,580 --> 00:06:14,010
+Entonces no hay guión bajo cuando lo está instalando.
+
+74
+00:06:14,040 --> 00:06:17,820
+Sin embargo, hay un guión bajo cuando lo está importando.
+
+75
+00:06:18,120 --> 00:06:24,210
+Esas son las dos cosas que necesitamos en el próximo video: vamos a construir un pequeño reproductor de audio en
+
+76
+00:06:24,210 --> 00:06:26,340
+Python y luego continuaremos desde allí.

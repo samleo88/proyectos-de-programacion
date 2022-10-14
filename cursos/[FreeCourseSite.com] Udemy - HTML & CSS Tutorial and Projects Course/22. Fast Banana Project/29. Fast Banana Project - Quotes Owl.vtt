@@ -1,0 +1,832 @@
+WEBVTT
+
+00:00.060 --> 00:05.250
+I'm like I said we're going to be using the Al carrousel cheek where we plug in.
+
+00:05.420 --> 00:07.530
+All right so again we go to Google.
+
+00:07.710 --> 00:12.290
+We write our curse on them too and we open up.
+
+00:12.340 --> 00:16.530
+Whole curso and right away we have multiple things right.
+
+00:16.530 --> 00:19.480
+We have home and we have demos.
+
+00:19.600 --> 00:22.270
+And then over here we have documentation and don't want.
+
+00:22.470 --> 00:22.780
+Right.
+
+00:22.830 --> 00:27.750
+And before we dive into documentation Let's do that all right.
+
+00:27.810 --> 00:35.640
+So here you can see that I just download the carousel and then we can keep on going and actually let's
+
+00:35.640 --> 00:37.870
+see what they would want from us.
+
+00:37.870 --> 00:38.670
+All right.
+
+00:38.860 --> 00:40.170
+So here.
+
+00:40.170 --> 00:43.310
+First things first they're all going to say the installation.
+
+00:43.350 --> 00:44.260
+Right.
+
+00:44.340 --> 00:47.170
+And these are the things that they require.
+
+00:47.190 --> 00:47.600
+Right.
+
+00:47.790 --> 00:53.410
+So this is going to be our carousel men and our theme default.
+
+00:53.490 --> 00:57.120
+And so those are going to be to see as far as the next one.
+
+00:57.150 --> 01:03.840
+Now this one is optional but I highly suggest this because this is right away going to add some styles
+
+01:03.840 --> 01:04.850
+by default.
+
+01:05.130 --> 01:06.150
+No down at all.
+
+01:06.150 --> 01:10.960
+One would be Jake Weary an hour here the actual men.
+
+01:10.990 --> 01:12.240
+J.S. Right.
+
+01:12.360 --> 01:15.080
+So let's go here to the downloads.
+
+01:15.150 --> 01:18.480
+Right now I can see the two of them over here.
+
+01:18.480 --> 01:25.290
+I'm just going to open this one up and this and then we're going to go to distribution and we're going
+
+01:25.290 --> 01:26.660
+to see where it is.
+
+01:26.760 --> 01:33.610
+Right so maybe let's minimize this here let's look where we have a distribution.
+
+01:33.930 --> 01:41.230
+And over here we have first of all we have a minge Yes here then with an asset.
+
+01:41.310 --> 01:49.740
+We're going to find those out Kairo so mean yes and theme default Mincy assess.
+
+01:49.800 --> 01:51.620
+So two of them are here.
+
+01:51.640 --> 01:56.800
+So remember this guy and let's grab this guy here.
+
+01:56.910 --> 02:03.490
+What I'm going to do is I'm going to create a new folder and I'm going to say let's call it owl right
+
+02:03.510 --> 02:08.780
+which is going to stand for our cars and drag all these folders over here.
+
+02:09.210 --> 02:14.620
+And what I'm going to do with this folder when I drag it over here to our project.
+
+02:14.630 --> 02:20.090
+All right so once we have it we can actually close this one here.
+
+02:20.490 --> 02:28.800
+Then we can go back over here and then we can go back to our document here and I can see that I should
+
+02:28.890 --> 02:29.860
+someone have.
+
+02:29.870 --> 02:32.550
+All right so all of these are here.
+
+02:32.850 --> 02:36.790
+So the way we're going to do this go all the way to the top.
+
+02:36.790 --> 02:39.280
+And first we're going to have a how.
+
+02:39.460 --> 02:39.750
+Yes.
+
+02:39.770 --> 02:40.430
+Yes.
+
+02:40.710 --> 02:49.750
+So this is going to be a whole oh here and then we'll have a link press time and we're going to say
+
+02:49.750 --> 02:50.540
+no.
+
+02:50.920 --> 02:57.790
+First of all to start with men CSSA here then orients is going to be all theme.
+
+02:58.140 --> 03:01.920
+So whole theme here.
+
+03:02.240 --> 03:09.550
+And again this is going to be Lenk press time and we're going to see how all the fault is.
+
+03:09.820 --> 03:11.110
+So I will say this.
+
+03:11.180 --> 03:18.970
+Now we would want to go to script all the way to the bottom line and let's say after Nahm scroll would
+
+03:18.990 --> 03:27.420
+say we're here it's going to be a whole and let's say G-S here and again we're going to have a script
+
+03:28.200 --> 03:29.330
+press time.
+
+03:29.670 --> 03:32.730
+It's going to be source for the source.
+
+03:32.730 --> 03:39.750
+What we would want is a whole wall here and the source.
+
+03:39.930 --> 03:41.140
+So see our.
+
+03:41.310 --> 03:41.800
+Yes.
+
+03:41.840 --> 03:47.600
+Or you doing this now for our what we would want is default.
+
+03:47.670 --> 03:48.590
+What I mean.
+
+03:48.720 --> 03:49.530
+Yes.
+
+03:49.540 --> 03:50.100
+All right.
+
+03:50.170 --> 03:57.170
+And then we would need a custom write custom model or we can actually go ahead and add in our script
+
+03:57.180 --> 03:57.690
+form.
+
+03:57.810 --> 03:59.740
+Right it really doesn't matter right.
+
+03:59.760 --> 04:04.520
+The last one that we had covered was progress bar so maybe we can do it over here.
+
+04:04.650 --> 04:15.510
+You say we're here and this is going to be all curso just maybe delete some of these comments here select
+
+04:15.560 --> 04:19.440
+the whole thing right and let's do the beard.
+
+04:19.490 --> 04:21.070
+All right so here we start on here.
+
+04:21.080 --> 04:27.320
+This was the first one that he created this was for a toggle button and then this was for the scroll
+
+04:27.320 --> 04:33.690
+tab then smooth scrolling and then accordion and then on here this was our progress box right.
+
+04:33.920 --> 04:36.210
+So now it's work with our covers.
+
+04:36.740 --> 04:39.520
+And what would they want for the Alcaraz first.
+
+04:39.530 --> 04:40.250
+All right.
+
+04:40.250 --> 04:45.970
+So say this more here and let's go back now.
+
+04:46.130 --> 04:49.900
+First what they're saying is setting up the HDMI.
+
+04:49.990 --> 04:50.610
+Right.
+
+04:50.690 --> 04:57.830
+And you can see here we have a div basically with the class of our carousel and then on here these are
+
+04:57.830 --> 05:00.310
+going to be children right so we have one parent one child.
+
+05:00.590 --> 05:04.480
+So where we have this in our document it's all going to go back over here.
+
+05:04.970 --> 05:10.520
+And sure enough you can see or hear when we had quotes center I remember we had our curso And we also
+
+05:10.520 --> 05:11.670
+had our theme.
+
+05:11.850 --> 05:12.150
+Right.
+
+05:12.170 --> 05:14.210
+And again this is just for styling right.
+
+05:14.210 --> 05:15.600
+So this is optional.
+
+05:15.690 --> 05:16.550
+We still had it.
+
+05:16.550 --> 05:21.570
+But the point is we have a div and then we had three articles.
+
+05:21.810 --> 05:23.660
+And so we had one to three articles.
+
+05:23.660 --> 05:24.860
+Those are the children.
+
+05:25.100 --> 05:27.480
+So those are the divas in this case.
+
+05:27.490 --> 05:28.200
+Right.
+
+05:28.580 --> 05:31.130
+Then over here if we would want right.
+
+05:31.130 --> 05:36.770
+The simplest way is actually just to have a document ready function which we already have and then we'll
+
+05:36.770 --> 05:38.720
+just set our curso our cards.
+
+05:38.720 --> 05:39.920
+All right.
+
+05:39.920 --> 05:42.810
+So here you can see that we're obviously calling this class.
+
+05:43.000 --> 05:43.570
+Right.
+
+05:43.610 --> 05:45.710
+So that's the one that we were interested in.
+
+05:45.710 --> 05:51.400
+So if you're going to be using a different class right then obviously this is going to be different.
+
+05:51.400 --> 05:57.280
+But for now since we're using our curso and also all we can do with this.
+
+05:57.950 --> 06:02.690
+Now we're not going to do the most simplest right example.
+
+06:02.700 --> 06:06.000
+We're all going to do right away you can see that we have demos right.
+
+06:06.140 --> 06:10.590
+And you can see let's say here we have basic responsive and on here this is going to be Center.
+
+06:10.640 --> 06:14.780
+So let's start with a basic one right because what's going to happen you can see right away it shows
+
+06:14.780 --> 06:15.490
+what we're going to how.
+
+06:15.530 --> 06:15.780
+Right.
+
+06:15.820 --> 06:20.290
+So this is going to look that we're going to have an hour here you can see that everything is already
+
+06:20.490 --> 06:21.120
+right.
+
+06:21.170 --> 06:25.470
+So loop is true margin turn right now.
+
+06:25.490 --> 06:27.520
+True responsive or.
+
+06:27.690 --> 06:34.130
+And if you're wondering where you're getting this right here we can go back documentation right then
+
+06:34.130 --> 06:36.760
+over here you can see that this is going to be infinity loops center.
+
+06:36.950 --> 06:40.160
+So those are the options that you can actually work with.
+
+06:40.160 --> 06:40.550
+All right.
+
+06:40.700 --> 06:46.930
+So if we go back to options or you're right and you can see one by one right items where default history
+
+06:47.230 --> 06:47.580
+right.
+
+06:47.630 --> 06:53.600
+But here you're working with an object so it has three margin 0 right.
+
+06:53.690 --> 07:00.150
+However for that basic one already stuff was set up where we were going to add some of our own right.
+
+07:00.230 --> 07:03.450
+And I'm just showing you we're all getting getting them from right now.
+
+07:03.460 --> 07:09.710
+I'm going to go one by one right and actually show you what they do because again that's completely
+
+07:09.710 --> 07:11.900
+totally separate tutorial.
+
+07:11.900 --> 07:19.090
+However let's say Now Fred will be using now what you have over here is now of Boullion.
+
+07:19.100 --> 07:20.710
+You can see by default is false.
+
+07:20.720 --> 07:23.890
+So we are obviously going to make it true and that's how we're going to get it now.
+
+07:24.350 --> 07:29.950
+So now I showed you where to get the docs right and I got it all going to go back to them.
+
+07:30.030 --> 07:31.530
+This is going to be our basic point.
+
+07:31.690 --> 07:32.230
+Right.
+
+07:32.320 --> 07:35.550
+The only thing is right away you can just copy and paste this right.
+
+07:35.570 --> 07:39.180
+And there's really no rocket science right.
+
+07:39.230 --> 07:41.430
+So we can just copy and paste this here right away.
+
+07:41.430 --> 07:43.420
+Get a basic one on.
+
+07:43.580 --> 07:45.920
+It's always easy after that the customized.
+
+07:45.970 --> 07:46.210
+Right.
+
+07:46.220 --> 07:47.420
+And this is what I suggest.
+
+07:47.450 --> 07:54.500
+Always in the beginning once you start working with something right it's really easier to actually have
+
+07:54.500 --> 07:56.110
+a look at how they have done it.
+
+07:56.120 --> 07:58.090
+Start making your own changes.
+
+07:58.340 --> 08:02.220
+And believe me that's when you're actually going to learn how everything is set up right.
+
+08:02.300 --> 08:07.030
+Because in the beginning you might do a lot of type of mistakes that are unnecessary right because I
+
+08:07.050 --> 08:10.410
+read all documentation and everything is set up for us right.
+
+08:10.660 --> 08:13.800
+Here we have a loop true margin 10.
+
+08:13.800 --> 08:16.330
+Not true at all here responses.
+
+08:16.490 --> 08:24.860
+Now what I would want to add is smart speed and that's going to be the amount of time is actually loading
+
+08:25.400 --> 08:25.680
+right.
+
+08:25.700 --> 08:31.940
+Again I got this in documentation and the way I'm doing this I'm going to say smart I'm going to say
+
+08:31.940 --> 08:36.650
+speed here we're going to set it equal to let's say two seconds.
+
+08:36.740 --> 08:40.920
+And so this is going to be how long it takes for the actual slide to go through.
+
+08:40.960 --> 08:41.420
+Right.
+
+08:41.520 --> 08:43.150
+Smarts beat 2000.
+
+08:43.400 --> 08:45.630
+And then over here you can see the response right.
+
+08:45.770 --> 08:52.790
+Well basically this is saying is how many items would be on the screen of when we have 600 when we have
+
+08:52.790 --> 08:55.060
+all your thousand and whatever like five.
+
+08:55.070 --> 08:55.630
+Right.
+
+08:55.940 --> 09:00.720
+And in general I'm going to change just one right so this is going to be one.
+
+09:00.950 --> 09:04.250
+But maybe for now let's just let's just keep it the way it is right.
+
+09:04.250 --> 09:06.060
+Just so we can see what's happening.
+
+09:06.110 --> 09:07.760
+I'm just explaining what this does.
+
+09:07.800 --> 09:13.390
+And this just tells you with the screen size how many items you are going to.
+
+09:13.660 --> 09:18.570
+So let's say this right here right away you can see that this is what will all right.
+
+09:18.610 --> 09:20.200
+And let's go to the bigger screen.
+
+09:20.210 --> 09:21.690
+It's going to look better.
+
+09:22.060 --> 09:22.470
+All right.
+
+09:22.560 --> 09:27.270
+We're going to refresh here and now we can see that I have five of them right.
+
+09:27.370 --> 09:28.990
+Because that was the value over here.
+
+09:28.990 --> 09:29.470
+Right.
+
+09:29.650 --> 09:33.270
+And since you can see that it's basically repeating them right.
+
+09:33.310 --> 09:35.790
+So now basically we have five of them.
+
+09:36.040 --> 09:38.200
+Now what are we going to do here.
+
+09:38.230 --> 09:43.640
+Like I said we're going to change it to 1 because I would just want it to be sliding on every screen.
+
+09:43.640 --> 09:48.480
+I would just wanted to be one right one on zero 610000.
+
+09:48.760 --> 09:52.240
+And I'm just going to keep these responses just in case I change my mind.
+
+09:52.240 --> 09:52.490
+All right.
+
+09:52.490 --> 09:56.140
+So again I would say this here to refresh.
+
+09:56.570 --> 10:02.680
+And sure enough right now we have a massive one right here like this.
+
+10:02.680 --> 10:08.410
+But you can see what's happening right now is that we're going to have to work hollowbody with this
+
+10:08.590 --> 10:09.880
+image right.
+
+10:09.940 --> 10:12.180
+So it's not as I said we're here right.
+
+10:12.310 --> 10:17.040
+But what we're mostly concerned over here is this Button's right.
+
+10:17.050 --> 10:22.600
+We're going to also change them but you can see that we have a working carrousel right away.
+
+10:22.660 --> 10:29.600
+Now let's go ahead and let's actually get rid of all here these big screen right.
+
+10:29.680 --> 10:31.080
+Because this is not what we want.
+
+10:31.080 --> 10:37.740
+We wouldn't want this whole thing all the time to be let's say hundred in something like this right.
+
+10:37.780 --> 10:39.630
+To be stretching like this image.
+
+10:39.770 --> 10:41.380
+So we're going to go to Maine.
+
+10:41.460 --> 10:44.370
+When when when and where is image going to go.
+
+10:44.390 --> 10:46.390
+And we're going to say important right.
+
+10:46.390 --> 10:54.370
+So not only we're selling it right one time 100 pixels but we're just overriding the default from the
+
+10:54.370 --> 10:56.260
+actual Our Carrousel.
+
+10:56.320 --> 11:02.250
+So again if we're going to refresh now I can see that obviously now we can control it however you want.
+
+11:02.280 --> 11:04.540
+Now I would say this is a little bit better looking.
+
+11:04.540 --> 11:05.260
+Right.
+
+11:05.290 --> 11:06.740
+And the smart speed.
+
+11:06.950 --> 11:08.770
+And we had it over here in the script.
+
+11:08.850 --> 11:09.520
+Right.
+
+11:09.550 --> 11:12.280
+This is like I said how long it takes.
+
+11:12.280 --> 11:17.400
+All right so you can see that now it's sliding like two seconds and obviously the default value would
+
+11:17.400 --> 11:23.770
+be a little bit less because I always like my animations will take longer time so you can see you actually
+
+11:23.770 --> 11:25.540
+see what that they're happening.
+
+11:25.990 --> 11:30.800
+And now what I'm interested over here is you see these buttons you can actually style them right.
+
+11:30.820 --> 11:34.110
+It's not it's not set in stone how they look like.
+
+11:34.210 --> 11:36.400
+So maybe we would do that.
+
+11:36.500 --> 11:41.640
+So we're going to do a little bit of customization you see or hear this theme right.
+
+11:41.860 --> 11:46.960
+That's the one that's actually making these buttons so if you're not going to include this class or
+
+11:46.960 --> 11:49.380
+here right now you're not going to see them.
+
+11:49.420 --> 11:55.030
+And trust me I've done this mistake in the beginning a lot where I did couldn't find the buttons because
+
+11:55.030 --> 11:57.120
+I wasn't including the whole thing.
+
+11:57.340 --> 12:02.950
+So if you want the button to include the whole thing then or here let's go back over here like I said
+
+12:02.950 --> 12:04.790
+to our theme default.
+
+12:04.800 --> 12:05.380
+Right.
+
+12:05.380 --> 12:06.280
+It is a man.
+
+12:06.310 --> 12:11.820
+So going to save it here with the beautifier can get it like this.
+
+12:11.820 --> 12:14.720
+Let me order for now I can see everything appears.
+
+12:15.010 --> 12:18.040
+Now one by one all theme all night.
+
+12:18.150 --> 12:19.010
+All right.
+
+12:19.120 --> 12:23.740
+And we see you all here at the call right and you can see brackets right away highlights where we actually
+
+12:23.740 --> 12:24.860
+work.
+
+12:24.910 --> 12:29.060
+So Caller Well what would be the caller didn't we run.
+
+12:29.200 --> 12:31.750
+What do we want first of all a background right.
+
+12:31.750 --> 12:33.950
+We would probably want the yellow one right.
+
+12:33.950 --> 12:35.580
+So 9 1 4.
+
+12:35.650 --> 12:42.520
+All right then let's say as we're actually hovering right what we would want right.
+
+12:42.520 --> 12:45.840
+So as we hovering was just the color that we want.
+
+12:45.880 --> 12:47.040
+Probably not.
+
+12:47.040 --> 12:48.640
+All right so we're going to go back over here.
+
+12:48.640 --> 12:52.370
+Let's let's get our blue on blue.
+
+12:52.380 --> 12:54.760
+Where is our moon here.
+
+12:55.680 --> 13:00.000
+Right and we're just going to copy this we're going to go back over here.
+
+13:00.150 --> 13:06.140
+We're going to say as we're hovering right we're going to have this color Now let's say for the color
+
+13:06.140 --> 13:10.950
+or is going to keep black 1 1 9 1 9 1 9.
+
+13:11.370 --> 13:15.990
+And also for the same same for this 1 9 9 1 9 9.
+
+13:15.980 --> 13:20.310
+So this is going to be in black color but if you want you can actually change it right now so you can
+
+13:20.310 --> 13:21.500
+do it over here.
+
+13:21.570 --> 13:26.670
+Also once we have worked with these ones let's work here with these little dots.
+
+13:26.670 --> 13:27.290
+All right.
+
+13:27.390 --> 13:33.930
+We're going to scroll it down here and you can see or hear right as we're hovering what should happen
+
+13:33.930 --> 13:34.710
+right now.
+
+13:34.770 --> 13:37.710
+Let's use the little one right.
+
+13:37.710 --> 13:47.080
+So this is going to be one when we're holding this copy and we're going to go back over here right now
+
+13:47.090 --> 13:53.130
+this is going to be blue as we're actually going on here this is going to be simple background.
+
+13:53.360 --> 13:55.780
+See 9:24 right.
+
+13:55.870 --> 14:01.940
+So only when the actual image or hear them is going to be blue and or here are going to be all right.
+
+14:02.080 --> 14:04.070
+Now I can see how easy it is.
+
+14:04.240 --> 14:04.630
+All right.
+
+14:04.640 --> 14:07.730
+How fast we can actually work with a.
+
+14:07.750 --> 14:09.250
+All right.
+
+14:09.280 --> 14:13.120
+And set it up right now this is going to be our old carousel.
+
+14:13.120 --> 14:13.800
+Right.
+
+14:13.820 --> 14:15.630
+Just going to be responsive basically.
+
+14:15.640 --> 14:16.410
+Right.
+
+14:16.510 --> 14:21.440
+And there's obviously more customization we can do we can actually get rid of these dots altogether.
+
+14:21.460 --> 14:24.060
+We can move these over here somewhere right.
+
+14:24.070 --> 14:26.170
+We can change what is inside.
+
+14:26.170 --> 14:28.510
+Over here we can actually place phantasm.
+
+14:28.840 --> 14:34.630
+And actually my bootstrap course I have this how we are actually customizing this right.
+
+14:34.770 --> 14:38.770
+But for now we're just going to leave it the way it is because we're mostly focusing on fluxbox but
+
+14:39.280 --> 14:43.190
+you can see that you're not limited to fluxbox and see a grid.
+
+14:43.250 --> 14:44.480
+All right.
+
+14:44.560 --> 14:51.430
+There are options how you can actually customize a lot of things right by using Jake plug plugins.
+
+14:51.460 --> 14:53.010
+I can hear you if you can see that.
+
+14:53.020 --> 14:54.920
+Obviously this was the basic online.
+
+14:55.240 --> 14:59.240
+But if we go back to demos there's many options.
+
+14:59.340 --> 15:06.370
+This is not the only one and for all of them it's very easy to just go right away see the documentation
+
+15:06.370 --> 15:06.660
+right.
+
+15:06.670 --> 15:11.140
+First of all they show you the look and this is going to be the look that you can get the center image
+
+15:11.340 --> 15:11.970
+here.
+
+15:12.350 --> 15:14.520
+And over here you can see that this is going to be.
+
+15:14.540 --> 15:17.920
+Since this is an object right of center true.
+
+15:18.130 --> 15:25.240
+And again like I said in the beginning I would suggest that just copying pasting is changing the values.
+
+15:25.240 --> 15:26.770
+Understanding how it works.
+
+15:26.800 --> 15:27.240
+Right.
+
+15:27.340 --> 15:31.600
+Because that limits your mistakes because if you make one mistake and let's say you're targeting the
+
+15:31.600 --> 15:37.240
+wrong class or or anything like this I mean a lot of things can happen as you were adding this order
+
+15:37.240 --> 15:38.290
+here.
+
+15:38.510 --> 15:39.880
+Jake replugging right.
+
+15:40.240 --> 15:43.990
+And you're limiting those mistakes by actually going with the default options.
+
+15:44.100 --> 15:49.030
+That would be my suggestion to you not just because you know I don't want to retype everything every
+
+15:49.030 --> 15:49.810
+time right.
+
+15:49.930 --> 15:52.420
+But it's also because it limits your own mistakes.
+
+15:52.420 --> 15:58.050
+Right now you're ready to move on to our last section of this vast panel of project.

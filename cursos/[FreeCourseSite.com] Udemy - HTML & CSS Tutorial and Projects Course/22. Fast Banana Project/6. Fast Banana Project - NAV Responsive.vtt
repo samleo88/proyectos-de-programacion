@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.150 --> 00:04.660
+And for the responsiveness the first thing that we would need is media screen.
+
+00:04.660 --> 00:12.640
+So I'm going to say what the media are going to say screen and say and our hero can write men with you
+
+00:12.640 --> 00:15.300
+know this and this is going to be 576.
+
+00:15.390 --> 00:15.890
+Right.
+
+00:15.960 --> 00:19.990
+You know what's our servants six 776 pixels.
+
+00:20.000 --> 00:20.850
+All right.
+
+00:21.030 --> 00:24.640
+Then after that we would want the actual cursor curly braces right.
+
+00:24.920 --> 00:26.150
+And here we're going to write a rule.
+
+00:26.180 --> 00:33.740
+So I'm going to say Nav. hang on here I'm going to say border first rights of water top say border up
+
+00:33.810 --> 00:41.980
+and this is going to be five pixels solid no real going to say F F C and this is going to be 9 1 4.
+
+00:42.090 --> 00:44.260
+Right so this is going to be the code.
+
+00:44.490 --> 00:49.650
+Then after that we're going to have a display and we're going to say flex on here and we're going to
+
+00:49.650 --> 00:51.130
+have a background.
+
+00:51.420 --> 00:57.030
+So first we're going to have display flex just so they wouldn't be here in a column and we're here to
+
+00:57.030 --> 01:02.950
+say background's going to be hash tag it's going to be too easy for you too.
+
+01:03.060 --> 01:04.870
+And then we're going to have a two.
+
+01:05.190 --> 01:06.790
+Hate you.
+
+01:07.260 --> 01:13.970
+So we say this and this and if we go back over here we're fresh right now I can see what we have.
+
+01:13.970 --> 01:14.400
+Right.
+
+01:14.550 --> 01:18.810
+So first of all this is going to be you can see that this is displaying flex right.
+
+01:18.840 --> 01:24.580
+And here you can see that what we have right here we have these links over here right here.
+
+01:24.600 --> 01:30.240
+We just need to set them in flex so we're going to go back over here and we're going to go and work
+
+01:30.240 --> 01:31.900
+with the help.
+
+01:31.980 --> 01:33.150
+And we're going to solve now.
+
+01:33.190 --> 01:40.530
+You will have on our list or here we're going to say first that we would want a display and we're going
+
+01:40.530 --> 01:44.030
+to say flex and or here we're going to right away important.
+
+01:44.400 --> 01:46.800
+And we're actually at a comment here right.
+
+01:46.950 --> 01:50.340
+Because I'm going to show you why we are doing this important that I can show you this.
+
+01:50.520 --> 01:56.940
+Once we have all this button working with Jake we here we're going to say first that we would want a
+
+01:56.940 --> 02:03.580
+flex right over here and we would want actually 1 0 or 0.
+
+02:03.660 --> 02:04.680
+And what I mean by that.
+
+02:04.680 --> 02:05.110
+Right.
+
+02:05.250 --> 02:09.060
+So basically what's happening is that we would want.
+
+02:09.120 --> 02:09.760
+Right.
+
+02:09.780 --> 02:12.960
+We know that not only this is a flex parent right now.
+
+02:13.140 --> 02:15.230
+But this is also a child right.
+
+02:15.330 --> 02:21.860
+And we would want actually for the child to grow and not shrink and to have all the bases.
+
+02:21.970 --> 02:24.810
+So we're going to go back over here because the pressure here.
+
+02:24.840 --> 02:25.150
+Right.
+
+02:25.170 --> 02:27.460
+And you can see what we have right.
+
+02:27.540 --> 02:33.340
+So what I'm going to say here is I'm going to say this I'm going to say that this is going to be flex.
+
+02:33.400 --> 02:35.600
+So this is I'm still talking as a trial.
+
+02:36.150 --> 02:40.440
+Here zero and this is going to be all this.
+
+02:40.500 --> 02:46.080
+Then after that would we would want is actually have a justified content.
+
+02:46.080 --> 02:46.350
+Right.
+
+02:46.390 --> 02:49.400
+And we're going to have a space around this.
+
+02:49.400 --> 02:52.350
+This is going to be for links like this right.
+
+02:52.360 --> 02:55.030
+And I can see space around and you know what.
+
+02:55.050 --> 03:00.030
+Right away what we can do is just get rid of this and get rid of links and get rid of it.
+
+03:00.180 --> 03:09.870
+But I'm going to say over here that this is going to be a icons and I'm going to say this play non sense
+
+03:09.940 --> 03:14.790
+so I'm getting rid of them now so I can get rid of toggle button so I'm going to say I'm here.
+
+03:15.000 --> 03:21.750
+Hash tag tar go we're here to say between and it's all going to say this.
+
+03:21.820 --> 03:26.600
+Now once we go back to the bigger screen and you can see that both of them are disappearing right.
+
+03:26.770 --> 03:31.740
+And I can see that we have all of them actually space around right hand.
+
+03:31.750 --> 03:34.750
+You can see that list is taking the whole space.
+
+03:34.760 --> 03:39.760
+Then will when one is would want to go back over here with the space around and first of all going to
+
+03:39.760 --> 03:41.040
+say a line center.
+
+03:41.150 --> 03:43.380
+And so we're going to place him actually in the center.
+
+03:43.480 --> 03:45.810
+You can see that they're not sitting in the center right now.
+
+03:45.910 --> 03:53.180
+So I'm going to say a line and I'm going to say a line on line self here.
+
+03:53.240 --> 04:00.940
+Place them in a base line so isn't there or you know this then we're going to have a flex wrap right.
+
+04:01.090 --> 04:05.190
+Just in case as I'm actually going to the smaller screen right.
+
+04:05.240 --> 04:06.620
+You need to wrap.
+
+04:06.650 --> 04:08.730
+They were actually going to go to the new line.
+
+04:08.830 --> 04:09.080
+Right.
+
+04:09.190 --> 04:15.310
+So I'm going to say we're here for X wrap and we're going to say we're here wrap like this and then
+
+04:15.310 --> 04:16.850
+we're going to have a little bit of padding.
+
+04:17.080 --> 04:25.440
+So I'm going to say a padding 0 and 10 pixels on this and we were fresher here right.
+
+04:25.450 --> 04:27.220
+And now we have wings.
+
+04:27.310 --> 04:30.550
+Then after that we would want a list item.
+
+04:30.610 --> 04:32.020
+So I'm going to say we're here like this.
+
+04:32.020 --> 04:37.520
+I'm going to say first for a have on our list list item.
+
+04:37.810 --> 04:39.200
+What I would want right.
+
+04:39.340 --> 04:41.320
+Actually I would want again flex.
+
+04:41.500 --> 04:44.220
+So I'm going to say over here grow as much as you can.
+
+04:44.470 --> 04:50.870
+Don't shrink and have 100 hundred pixels or here as your base what are you going to refresh.
+
+04:50.890 --> 04:52.690
+Right now you can see what happens right.
+
+04:52.810 --> 04:55.780
+So now we're taking the whole space or here with these links.
+
+04:56.050 --> 05:04.470
+But over here probably what we would want is for this link read to have a text align center.
+
+05:04.770 --> 05:08.640
+So I'm going to say here now if you will lie.
+
+05:08.930 --> 05:17.200
+Hey we're here we're going to write more we're going to say whatever it is first right we're going to
+
+05:17.200 --> 05:22.270
+say important really if this is going to be five pixels so it has those rounded edges and then we're
+
+05:22.270 --> 05:29.710
+going to say text line say Center and we say this and then we were fresh.
+
+05:29.710 --> 05:35.220
+Now I can see it all our links actually have the text line center right.
+
+05:35.260 --> 05:39.610
+You can see that they're taking the whole space right because I was hovering You can see how they're
+
+05:39.610 --> 05:41.380
+actually going side by side.
+
+05:41.530 --> 05:41.970
+Right.
+
+05:42.160 --> 05:46.910
+And you can see that actually everything isn't working and as I'm going the screen gets bigger.
+
+05:47.010 --> 05:47.250
+Right.
+
+05:47.260 --> 05:50.590
+You can still see that they're actually growing as much as they can.
+
+05:50.590 --> 05:54.850
+But as I'm going to the smaller screen right this is how it's going to look like right.
+
+05:54.880 --> 05:59.590
+You can see the end we're going to switch back and forth right now mostly now and we would want is actually
+
+05:59.590 --> 06:01.150
+to work with the toggle button.
+
+06:01.350 --> 06:01.670
+All right.
+
+06:01.690 --> 06:02.910
+And this is what we're going to do.
+
+06:02.910 --> 06:04.930
+Next video we're going to create this toggle button.

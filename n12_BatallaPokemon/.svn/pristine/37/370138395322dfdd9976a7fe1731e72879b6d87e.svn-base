@@ -1,0 +1,189 @@
+/**
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad de los Andes (Bogotá - Colombia)
+ * Departamento de Ingeniería de Sistemas y Computación 
+ * Licenciado bajo el esquema Academic Free License version 2.1 
+ *
+ * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
+ * Ejercicio: n12_batallaPokemon
+ * Autor: Equipo Cupi2 2016
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.cupi2.batallaPokemon.servidor.interfaz;
+
+import java.awt.*;
+import java.sql.*;
+import java.util.*;
+import javax.swing.*;
+
+import uniandes.cupi2.batallaPokemon.servidor.mundo.*;
+
+/**
+ * Ventana principal del servidor de la batalla pokemón.
+ */
+public class InterfazServidor extends JFrame
+{
+    // -----------------------------------------------------------------
+    // Atributos
+    // -----------------------------------------------------------------
+
+    /**
+     * Clase principal del servidor.
+     */
+    private BatallaPokemon servidorBatallaPokemon;
+
+    // -----------------------------------------------------------------
+    // Atributos de la interfaz
+    // -----------------------------------------------------------------
+
+    /**
+     * Panel donde se muestran los registros de los jugadores.
+     */
+    private PanelJugadores panelJugadores;
+
+    /**
+     * Panel donde se muestran las batallas actuales.
+     */
+    private PanelBatallas panelBatallas;
+
+    /**
+     * Panel con las extensiones.
+     */
+    private PanelExtensionServidor panelExtension;
+
+    // -----------------------------------------------------------------
+    // Constructores
+    // -----------------------------------------------------------------
+
+    /**
+     * Construye la ventana principal de la aplicación.
+     * @param pServidor Servidor sobre el que funciona la interfaz.
+     */
+    public InterfazServidor( BatallaPokemon pServidor )
+    {
+        servidorBatallaPokemon = pServidor;
+        inicializarVentana( );
+    }
+
+    // -----------------------------------------------------------------
+    // Métodos
+    // -----------------------------------------------------------------
+
+    /**
+     * Inicializa los elementos de la ventana principal.
+     */
+    private void inicializarVentana( )
+    {
+        // Construye la forma
+        setLayout( new GridBagLayout( ) );
+        setSize( 531, 534 );
+        setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
+        setTitle( "Servidor batalla pokémon" );
+        setLocationRelativeTo( null );
+
+        // Creación de los paneles aquí
+        GridBagConstraints gbc = new GridBagConstraints( 0, 0, 1, 1, 1, 0.5, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets( 5, 5, 5, 5 ), 0, 0 );
+        panelBatallas = new PanelBatallas( this );
+        add( panelBatallas, gbc );
+
+        gbc = new GridBagConstraints( 0, 1, 1, 1, 1, 0.5, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets( 5, 5, 5, 5 ), 0, 0 );
+        panelJugadores = new PanelJugadores( this );
+        add( panelJugadores, gbc );
+
+        panelExtension = new PanelExtensionServidor( this );
+        gbc = new GridBagConstraints( 0, 2, 1, 1, 1, 0, GridBagConstraints.CENTER, GridBagConstraints.BOTH, new Insets( 5, 5, 5, 5 ), 0, 0 );
+        add( panelExtension, gbc );
+    }
+
+    /**
+     * Actualiza la lista de batallas mostrada en el panelBatallas.
+     */
+    public void actualizarBatallas( )
+    {
+        Collection encuentros = servidorBatallaPokemon.darListaActualizadaBatallas( );
+        panelBatallas.actualizarEncuentros( encuentros );
+    }
+
+    /**
+     * Actualiza la lista de jugadores mostrada en el panelJugadores.
+     */
+    public void actualizarJugadores( )
+    {
+        try
+        {
+            Collection jugadores = servidorBatallaPokemon.darAdministradorResultados( ).consultarRegistrosJugadores( );
+            panelJugadores.actualizarJugadores( jugadores );
+        }
+        catch( SQLException e )
+        {
+            JOptionPane.showMessageDialog( this, "Hubo un error consultando la lista de jugadores:\n" + e.getMessage( ) + ".", "Error", JOptionPane.ERROR_MESSAGE );
+        }
+    }
+
+    /**
+     * Cierra la ventana y la aplicación.
+     */
+    public void dispose( )
+    {
+        super.dispose( );
+        try
+        {
+            servidorBatallaPokemon.darAdministradorResultados( ).desconectarBD( );
+        }
+        catch( SQLException e )
+        {
+            e.printStackTrace( );
+        }
+        System.exit( 0 );
+    }
+
+    // -----------------------------------------------------------------
+    // Puntos de Extensión
+    // -----------------------------------------------------------------
+
+    /**
+     * Método para la extensión 1.
+     */
+    public void reqFuncOpcion1( )
+    {
+        String resultado = servidorBatallaPokemon.metodo1( );
+        JOptionPane.showMessageDialog( this, resultado, "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+    }
+
+    /**
+     * Método para la extensión 2.
+     */
+    public void reqFuncOpcion2( )
+    {
+        String resultado = servidorBatallaPokemon.metodo2( );
+        JOptionPane.showMessageDialog( this, resultado, "Respuesta", JOptionPane.INFORMATION_MESSAGE );
+    }
+
+    // -----------------------------------------------------------------
+    // Main
+    // -----------------------------------------------------------------
+
+    /**
+     * Este método ejecuta la aplicación, creando una nueva interfaz.
+     * @param pArgs Parámetros de ejecución que no son usados. pArgs != null.
+     */
+    public static void main( String[] pArgs )
+    {
+        try
+        {
+            String archivoPropiedades = "./data/servidor.properties";
+            BatallaPokemon servidorBatallaPokemon = new BatallaPokemon( archivoPropiedades );
+
+            InterfazServidor interfaz = new InterfazServidor( servidorBatallaPokemon );
+            interfaz.setVisible( true );
+
+            servidorBatallaPokemon.recibirConexiones( );
+        }
+        catch( Exception e )
+        {
+            e.printStackTrace( );
+        }
+    }
+
+}
